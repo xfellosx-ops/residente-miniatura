@@ -1,0 +1,1915 @@
+{
+ "meta": {
+  "id": "9-6",
+  "title": "Vasculitis ANCA y anti-MBG",
+  "key": "rm_v3_96",
+  "arena": "ARENA DEL PULMÓN-RIÑÓN",
+  "bossShort": "Quimera",
+  "bossChange": "cambia de cabeza"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio (homenaje a Comprehensive Clinical Nephrology)",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda (homenaje a Brenner & Rector)",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival: residente que memoriza sin entender",
+   "color": "#E05A8A"
+  },
+  "hector": {
+   "name": "Don Héctor",
+   "role": "Paciente, 63 años, pintor automotriz",
+   "color": "#C8A060"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "levamisol": {
+   "name": "Levamisol",
+   "role": "Nefrotóxico: adulterante de la cocaína",
+   "color": "#9B59B6"
+  },
+  "solvente": {
+   "name": "Don Solvente",
+   "role": "Nefrotóxico: hidrocarburos del taller",
+   "color": "#8D6E63"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Urgencias Pulmón-Riñón",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "join": [
+    "metil",
+    "rituxi"
+   ],
+   "nurse": false,
+   "vignette": {
+    "bg": "#dfe8c8",
+    "layers": [
+     {
+      "k": "rect",
+      "x": 0,
+      "y": 70,
+      "w": 160,
+      "h": 26,
+      "c": "#c9cdb4"
+     },
+     {
+      "k": "rect",
+      "x": 78,
+      "y": 46,
+      "w": 66,
+      "h": 18,
+      "c": "#ffffff"
+     },
+     {
+      "k": "rect",
+      "x": 78,
+      "y": 46,
+      "w": 66,
+      "h": 3,
+      "c": "#7aa0d6"
+     },
+     {
+      "k": "circ",
+      "x": 100,
+      "y": 42,
+      "r": 5,
+      "c": "#f2c79b"
+     },
+     {
+      "k": "drift",
+      "n": 6,
+      "w": 2,
+      "h": 2,
+      "c": "#a3201b",
+      "vx": 0,
+      "vy": -0.4,
+      "area": [
+       96,
+       20,
+       10,
+       22
+      ]
+     },
+     {
+      "k": "rect",
+      "x": 18,
+      "y": 12,
+      "w": 44,
+      "h": 28,
+      "c": "#222222"
+     },
+     {
+      "k": "rect",
+      "x": 20,
+      "y": 14,
+      "w": 40,
+      "h": 24,
+      "c": "#063"
+     },
+     {
+      "k": "grow",
+      "x": 22,
+      "y": 30,
+      "w": 36,
+      "h": 3,
+      "c": "#f2c94c",
+      "period": 200
+     },
+     {
+      "k": "person",
+      "x": 50,
+      "y": 52,
+      "c": "#ffffff",
+      "dir": "right",
+      "walk": true
+     }
+    ]
+   },
+   "intro": [
+    [
+     "Dr. J.",
+     "Don Héctor, 63 años, pintor de autos. Escupe sangre y su creatinina se cuadruplicó."
+    ],
+    [
+     "Dr. J.",
+     "Pulmón que sangra y riñón que se apaga. Esto tiene nombre: síndrome pulmón-riñón."
+    ],
+    [
+     "Sabio Brenn",
+     "Entra antes de que las semilunas se vuelvan cicatriz. Tenemos días, no meses."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Enfermera Lupita",
+     "lines": [
+      [
+       "Enfermera Lupita",
+       "Ya mandé ANCA y anti-MBG. Tardan 48 horas."
+      ],
+      [
+       "Enfermera Lupita",
+       "El doctor dijo que no esperemos para empezar los pulsos."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "tratar sin esperar"
+    },
+    {
+     "id": "npc2",
+     "name": "Sedimento Urinario",
+     "lines": [
+      [
+       "Sedimento",
+       "¡Mírame! Acantocitos y cilindros eritrocitarios."
+      ],
+      [
+       "Sedimento",
+       "Si te muestro esto, el daño es glomerular. No me confundas con la vejiga."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "cilindros eritrocitarios glomerular"
+    },
+    {
+     "id": "npc3",
+     "name": "Don Héctor",
+     "lines": [
+      [
+       "Don Héctor",
+       "Doctor, llevo 30 años pintando coches. Solventes, thinner, de todo."
+      ],
+      [
+       "Don Héctor",
+       "Y fumo una cajetilla al día. ¿Tiene que ver?"
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Sedimento",
+     "Acantocitos + cilindros eritrocitarios + creatinina que sube en semanas = GNRP."
+    ],
+    [
+     "Letrero · Laboratorio",
+     "Pide juntos: PR3, MPO, anti-MBG, C3/C4 y ANA. Complemento normal: piensa en ANCA."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t_urg",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "URG",
+     "intro": [
+      [
+       "Dra. Triaje",
+       "¡Alto! En urgencias no se espera a nadie. ¿Sabes qué hacer en la primera hora?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Triaje",
+       "Bien. Tratar primero, confirmar después. Ese es el ritmo de la GNRP."
+      ]
+     ],
+     "questionTopics": [
+      "Síndrome pulmón-riñón",
+      "GNRP sin esperar biopsia",
+      "Doble positividad",
+      "Profilaxis de Pneumocystis"
+     ],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Hemoptisis Fugaz",
+     "type": "Molecular",
+     "topic": "Hemorragia alveolar"
+    },
+    {
+     "name": "Creatinina Galopante",
+     "type": "Molecular",
+     "topic": "GNRP"
+    },
+    {
+     "name": "Cilindro Rojo",
+     "type": "Celular",
+     "topic": "Sedimento nefrítico"
+    },
+    {
+     "name": "Neutrófilo Ansioso",
+     "type": "Innato",
+     "topic": "Neutrófilo primado"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_urg",
+     "topic": "GNRP: iniciar tratamiento sin esperar biopsia ni serología",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Una semiluna celular todavía puede volver atrás."
+      ],
+      [
+       "Sabio Brenn",
+       "Una fibrosa, ya no. Por eso no esperamos la biopsia para tratar."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "algoritmo",
+     "title": "Ruta de la GNRP",
+     "items": [
+      "Sospechar GNRP (sedimento activo y creatinina en ascenso)",
+      "Pedir PR3, MPO y anti-MBG urgentes",
+      "Iniciar pulsos de metilprednisolona",
+      "Biopsia renal en cuanto sea segura",
+      "Inducción según el diagnóstico"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "¡Metil Pulso y Rituxi saltan a tu bolsillo de bata!"
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_urg",
+     "lines": [
+      [
+       "Dr. J.",
+       "Llegaron los resultados: MPO-ANCA positivo… y anti-MBG también."
+      ],
+      [
+       "Valeria",
+       "¿Los dos? ¡Eso no viene en mi tarjeta!"
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Bajemos al torrente. Ahí los neutrófilos están a punto de estallar."
+      ]
+     ]
+    }
+   ],
+   "card": "Síndrome pulmón-riñón: ANCA > anti-MBG > LES. GNRP grave: pulsos sin esperar, biopsia en cuanto se pueda, TMP-SMX con la inducción."
+  },
+  {
+   "id": "z2",
+   "name": "Torrente de Neutrófilos",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "join": [
+    "avaco"
+   ],
+   "nurse": false,
+   "vignette": {
+    "bg": "#a3201b",
+    "layers": [
+     {
+      "k": "stripes",
+      "y": 0,
+      "h": 96,
+      "gap": 12,
+      "t": 5,
+      "c": "#c03030"
+     },
+     {
+      "k": "drift",
+      "n": 14,
+      "r": 4,
+      "c": "#e05050",
+      "nc": "#a02020",
+      "vx": 1.4
+     },
+     {
+      "k": "drift",
+      "n": 5,
+      "r": 6,
+      "c": "#f2f2f2",
+      "nc": "#7a4fd0",
+      "vx": 0.7,
+      "seed": 3
+     },
+     {
+      "k": "orbit",
+      "x": 110,
+      "y": 48,
+      "R": 14,
+      "n": 4,
+      "r": 2,
+      "c": "#f2c94c",
+      "speed": 0.05
+     },
+     {
+      "k": "circ",
+      "x": 110,
+      "y": 48,
+      "r": 7,
+      "c": "#ffffff"
+     },
+     {
+      "k": "pulse",
+      "x": 110,
+      "y": 48,
+      "r": 30,
+      "t": 1,
+      "c": "#ffd0d0",
+      "period": 50,
+      "every": 40
+     }
+    ]
+   },
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Este neutrófilo está «primado»: una infección lo puso nervioso."
+    ],
+    [
+     "Sabio Brenn",
+     "Sacó PR3 y MPO a su superficie. Ahí se pega el ANCA y lo hace estallar."
+    ],
+    [
+     "Dr. J.",
+     "Y el C5a que suelta llama a más neutrófilos. Es un asa que se alimenta sola."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Neutrófilo Primado",
+     "lines": [
+      [
+       "Neutrófilo",
+       "Me dieron TNF y C5a. ¡Mis gránulos están en la puerta!"
+      ],
+      [
+       "Neutrófilo",
+       "Si un ANCA me toca, suelto NET, enzimas y radicales al endotelio."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "neutrófilo primado PR3 MPO"
+    },
+    {
+     "id": "npc2",
+     "name": "Receptor C5aR",
+     "lines": [
+      [
+       "C5aR",
+       "Soy la cerradura del C5a. Cada C5a que entra prima a otro neutrófilo."
+      ],
+      [
+       "C5aR",
+       "Si alguien me tapa, el asa se frena. Busca a Avaco."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "C5a avacopan"
+    },
+    {
+     "id": "npc3",
+     "name": "Endotelio Herido",
+     "lines": [
+      [
+       "Endotelio",
+       "Me están digiriendo. Por eso ves necrosis fibrinoide en la biopsia."
+      ],
+      [
+       "Endotelio",
+       "No hay inmunocomplejos aquí. Solo neutrófilos furiosos."
+      ]
+     ],
+     "gift": null,
+     "recall": "pauci-inmune"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Gránulos",
+     "PR3 y MPO viven en gránulos azurófilos; el priming los saca a la membrana."
+    ],
+    [
+     "Letrero · Genética",
+     "PR3 se asocia a HLA-DP; MPO a HLA-DQ. Son subgrupos genéticos distintos."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t_levamisol",
+     "cast": "levamisol",
+     "specialty": "Nefrotóxico (Levamisol)",
+     "intro": [
+      [
+       "Levamisol",
+       "¡Je! Viajo escondido en la cocaína. Pinto de morado las orejas de mis clientes."
+      ]
+     ],
+     "defeat": [
+      [
+       "Levamisol",
+       "¡Me descubriste! Hidralazina, PTU y minociclina siguen sueltos…"
+      ]
+     ],
+     "questionTopics": [
+      "ANCA inducido por fármacos: levamisol, hidralazina, propiltiouracilo",
+      "Cocaína con levamisol: púrpura y ANCA doble"
+     ],
+     "n": 3
+    },
+    {
+     "id": "t_rival1",
+     "cast": "valeria",
+     "specialty": "Nefrología (rival)",
+     "intro": [
+      [
+       "Valeria",
+       "c-ANCA es PR3, p-ANCA es MPO. ¡Ya gané! …¿No?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Valeria",
+       "Pero… ¿por qué el PR3 recae más? Mi tarjeta solo dice «PR3 = GPA»."
+      ]
+     ],
+     "questionTopics": [
+      "Patogenia: neutrófilo primado, PR3/MPO en membrana, NET",
+      "PR3 frente a MPO: genética HLA y recaídas"
+     ],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "NET Pegajosa",
+     "type": "Molecular",
+     "topic": "Trampas extracelulares"
+    },
+    {
+     "name": "ANCA Anti-MPO",
+     "type": "Humoral",
+     "topic": "MPO-ANCA"
+    },
+    {
+     "name": "ANCA Anti-PR3",
+     "type": "Humoral",
+     "topic": "PR3-ANCA"
+    },
+    {
+     "name": "C5a Megáfono",
+     "type": "Complemento",
+     "topic": "Asa C5a–C5aR"
+    },
+    {
+     "name": "Neutrófilo Primado",
+     "type": "Innato",
+     "topic": "Priming"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_rival1",
+     "topic": "Asa C5a–C5aR: el complemento alterno amplifica el neutrófilo",
+     "text": [
+      [
+       "Sabio Brenn",
+       "«Pauci-inmune» no significa «sin complemento»."
+      ],
+      [
+       "Sabio Brenn",
+       "La vía alterna fabrica C5a, y el C5a prima más neutrófilos."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Cascada del neutrófilo",
+     "items": [
+      "Infección o citocinas (TNF, C5a)",
+      "Neutrófilo primado: PR3/MPO en la membrana",
+      "El ANCA se une y activa",
+      "Desgranulación, radicales y NET",
+      "Vía alterna: más C5a",
+      "Necrosis del endotelio"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "river",
+     "title": "Carriles de fármacos inductores",
+     "items": [],
+     "pairs": [
+      [
+       "Hidralazina",
+       "MPO-ANCA con anti-histona"
+      ],
+      [
+       "Propiltiouracilo",
+       "MPO-ANCA en hipertiroidismo"
+      ],
+      [
+       "Levamisol",
+       "Púrpura en orejas y ANCA doble"
+      ],
+      [
+       "Minociclina",
+       "p-ANCA en tratamiento de acné"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Avaco",
+       "¡Bloqueo el C5aR! Con rituximab o ciclofosfamida, te ahorro esteroide."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_rival1",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "El PR3 recae más porque es otra enfermedad genética, no solo otro color."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Ahora al ovillo. Quiero ver qué tanto se quemó."
+      ]
+     ]
+    }
+   ],
+   "card": "Infección → neutrófilo primado → ANCA se une → NET y enzimas → necrosis. C5a vía C5aR amplifica: blanco del avacopan. PR3 recae más; MPO cicatriza más."
+  },
+  {
+   "id": "z3",
+   "name": "Ovillo Necrosante",
+   "palette": [
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
+   ],
+   "tiles": "delta",
+   "join": [
+    "ciclo"
+   ],
+   "nurse": true,
+   "vignette": {
+    "bg": "#ffe0ec",
+    "layers": [
+     {
+      "k": "ring",
+      "x": 80,
+      "y": 50,
+      "r": 40,
+      "t": 5,
+      "c": "#b8406a"
+     },
+     {
+      "k": "ring",
+      "x": 80,
+      "y": 50,
+      "r": 28,
+      "t": 3,
+      "c": "#f09ab8"
+     },
+     {
+      "k": "grow",
+      "x": 44,
+      "y": 18,
+      "w": 20,
+      "h": 64,
+      "c": "#f2c94c",
+      "period": 260,
+      "dir": "v"
+     },
+     {
+      "k": "orbit",
+      "x": 80,
+      "y": 50,
+      "R": 16,
+      "n": 3,
+      "r": 5,
+      "c": "#ffffff",
+      "nc": "#7a2a4a",
+      "speed": 0.03
+     },
+     {
+      "k": "rect",
+      "x": 104,
+      "y": 40,
+      "w": 8,
+      "h": 3,
+      "c": "#a3201b",
+      "every": 30
+     }
+    ]
+   },
+   "intro": [
+    [
+     "Dra. Hematoxilina",
+     "Bienvenido al ovillo. Aquí se ve quién gana: la necrosis o el tiempo."
+    ],
+    [
+     "Dra. Hematoxilina",
+     "Mira la IF: casi nada de inmunoglobulina. Pauci-inmune, pero hay semilunas."
+    ],
+    [
+     "Sabio Brenn",
+     "Y en una esquina… una línea fina de IgG. Eso no es del ANCA."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Semiluna Celular",
+     "lines": [
+      [
+       "Semiluna Celular",
+       "Soy joven. Si me tratan ya, puedo desaparecer."
+      ],
+      [
+       "Semiluna Celular",
+       "En unas semanas me vuelvo fibrosa y ya no hay regreso."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "semilunas celulares reversibles"
+    },
+    {
+     "id": "npc2",
+     "name": "Glomérulo Normal",
+     "lines": [
+      [
+       "Glomérulo Normal",
+       "Cuenta cuántos quedamos sanos. Para Berden y ARRS somos lo que más importa."
+      ],
+      [
+       "Glomérulo Normal",
+       "Si quedamos menos de 10 %, son 6 puntos de golpe."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "ARRS glomérulos normales"
+    },
+    {
+     "id": "npc3",
+     "name": "Granuloma Viajero",
+     "lines": [
+      [
+       "Granuloma",
+       "Yo vengo de la nariz de otro paciente. Si me ves, piensa en GPA y PR3."
+      ],
+      [
+       "Granuloma",
+       "Don Héctor no me tiene: él es MPO, más parecido a la PAM."
+      ]
+     ],
+     "gift": null,
+     "recall": "GPA granulomas PR3"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Berden",
+     "Focal ≥50 % normales · Crescéntica ≥50 % semilunas · Esclerótica ≥50 % esclerosis."
+    ],
+    [
+     "Letrero · ARRS",
+     "N1 4, N2 6, T1 2, G1 3 puntos. Bajo 0 · Intermedio 2–7 · Alto 8–11."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t_pato",
+     "cast": "pato",
+     "specialty": "Patología",
+     "serie": "PAT",
+     "intro": [
+      [
+       "Dra. Hematoxilina",
+       "Te reto a leer una biopsia completa. Sin trampas, con números."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Hematoxilina",
+       "Contaste bien. El riñón de la señora todavía tiene esperanza."
+      ]
+     ],
+     "questionTopics": [
+      "Inmunofluorescencia pauci-inmune",
+      "Berden",
+      "ARRS",
+      "Chapel Hill"
+     ],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Necrosis Fibrinoide",
+     "type": "Molecular",
+     "topic": "Necrosis fibrinoide"
+    },
+    {
+     "name": "Semiluna Celular",
+     "type": "Celular",
+     "topic": "Semilunas"
+    },
+    {
+     "name": "Semiluna Fibrosa",
+     "type": "Celular",
+     "topic": "Cronicidad"
+    },
+    {
+     "name": "Granuloma Errante",
+     "type": "Celular",
+     "topic": "GPA"
+    },
+    {
+     "name": "Eosinófilo Asmático",
+     "type": "Innato",
+     "topic": "GEPA"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_pato",
+     "topic": "Clasificación de Berden y lesión pauci-inmune",
+     "text": [
+      [
+       "Dra. Hematoxilina",
+       "Berden se cuenta con microscopio de luz: normales, semilunas y esclerosis."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Biopsias gemelas",
+     "items": [],
+     "pairs": [
+      [
+       "IgG lineal",
+       "Anti-MBG"
+      ],
+      [
+       "Pauci-inmune",
+       "Vasculitis ANCA"
+      ],
+      [
+       "«Full house»",
+       "Nefritis lúpica"
+      ],
+      [
+       "IgA mesangial",
+       "Nefropatía por IgA"
+      ],
+      [
+       "C3 dominante",
+       "Glomerulopatía C3"
+      ],
+      [
+       "Granulomas + PR3",
+       "GPA"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Ciclo",
+       "¡Soy Ciclofosfamida! Alquilo el ADN de los linfocitos que fabrican ANCA."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_pato",
+     "lines": [
+      [
+       "Dra. Hematoxilina",
+       "Esa línea de IgG que viste… es de otra enfermedad. Sube al acantilado."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Doble positivo confirmado en la biopsia. Vamos por la membrana basal."
+      ]
+     ]
+    }
+   ],
+   "card": "ANCA = GN necrosante pauci-inmune. Berden: focal > crescéntica ≈ mixta > esclerótica. ARRS (N, T, G) predice ERCT. MPO → PAM; PR3 → GPA; GEPA con asma y eosinofilia."
+  },
+  {
+   "id": "z4",
+   "name": "Acantilado del Colágeno IV",
+   "palette": [
+    "#E8F4FC",
+    "#90C8E8",
+    "#386890",
+    "#0C2030"
+   ],
+   "tiles": "acantilado",
+   "join": [
+    "plex"
+   ],
+   "nurse": false,
+   "vignette": {
+    "bg": "#e8e0ff",
+    "layers": [
+     {
+      "k": "rect",
+      "x": 0,
+      "y": 58,
+      "w": 160,
+      "h": 6,
+      "c": "#2a1a55"
+     },
+     {
+      "k": "grow",
+      "x": 0,
+      "y": 56,
+      "w": 160,
+      "h": 2,
+      "c": "#7fa8ff",
+      "period": 220
+     },
+     {
+      "k": "drift",
+      "n": 8,
+      "w": 2,
+      "h": 5,
+      "c": "#3a5ad8",
+      "vx": 0,
+      "vy": 0.6,
+      "area": [
+       0,
+       10,
+       160,
+       46
+      ]
+     },
+     {
+      "k": "cells",
+      "n": 6,
+      "r": 6,
+      "c": "#ffd0d0",
+      "nc": "#a3201b",
+      "area": [
+       10,
+       70,
+       140,
+       20
+      ]
+     },
+     {
+      "k": "drift",
+      "n": 6,
+      "w": 6,
+      "h": 2,
+      "c": "#8d6e63",
+      "vx": -0.5,
+      "area": [
+       0,
+       0,
+       160,
+       20
+      ],
+      "seed": 2
+     }
+    ]
+   },
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Este acantilado es la membrana basal: colágeno IV en hexámeros."
+    ],
+    [
+     "Sabio Brenn",
+     "En el dominio NC1 de α3 duerme el antígeno de Goodpasture, escondido."
+    ],
+    [
+     "Dr. Espiro",
+     "El humo y el thinner rompieron la pared del alvéolo. Ahí lo encontraron."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Hexámero NC1",
+     "lines": [
+      [
+       "Hexámero NC1",
+       "Mis epítopos EA y EB estaban ocultos. Alguien me abrió."
+      ],
+      [
+       "Hexámero NC1",
+       "Y en quien tiene HLA-DR15, mi forma abierta se ve todavía más extraña."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "α3 NC1 HLA-DR15"
+    },
+    {
+     "id": "npc2",
+     "name": "Alvéolo Sangrante",
+     "lines": [
+      [
+       "Alvéolo",
+       "Mi DLCO sube: la sangre que tengo dentro capta el monóxido de carbono."
+      ],
+      [
+       "Alvéolo",
+       "Por favor, que deje de fumar."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "DLCO hemorragia"
+    },
+    {
+     "id": "npc3",
+     "name": "Don Ensayo",
+     "lines": [
+      [
+       "Don Ensayo",
+       "¡Escudos frescos! Levy 2001: la creatinina inicial dice cuánto riñón queda."
+      ],
+      [
+       "Don Ensayo",
+       "Y uno experimental: imlifidase, que corta la IgG en minutos."
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Inmunofluorescencia",
+     "IgG lineal en la membrana basal: anti-MBG. Pide también ANCA."
+    ],
+    [
+     "Letrero · Pronóstico",
+     "Diálisis al ingreso + 100 % semilunas sin hemorragia: no inmunosuprimir."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t_solvente",
+     "cast": "solvente",
+     "specialty": "Nefrotóxico (Hidrocarburos)",
+     "intro": [
+      [
+       "Don Solvente",
+       "¡Huele a thinner! Yo abro el alvéolo y el anticuerpo hace el resto."
+      ]
+     ],
+     "defeat": [
+      [
+       "Don Solvente",
+       "Bah. Sin mí y sin tabaco, el pulmón deja de sangrar…"
+      ]
+     ],
+     "questionTopics": [
+      "Segundo golpe pulmonar: tabaco e hidrocarburos",
+      "Antígeno de Goodpasture: α3(IV) NC1 y HLA-DR15"
+     ],
+     "n": 3
+    },
+    {
+     "id": "t_neumo",
+     "cast": "neumo",
+     "specialty": "Neumología",
+     "serie": "NEU",
+     "intro": [
+      [
+       "Dr. Espiro",
+       "Tengo dos pacientes con anti-MBG. Uno se salva y otra no. ¿Sabes cuál?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Espiro",
+       "Exacto: tratar al que tiene riñón o pulmón que rescatar."
+      ]
+     ],
+     "questionTopics": [
+      "Hemorragia alveolar",
+      "Tratamiento anti-MBG",
+      "Pronóstico de Levy"
+     ],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Anticuerpo Anti-α3",
+     "type": "Humoral",
+     "topic": "Anti-MBG"
+    },
+    {
+     "name": "Humo de Cigarro",
+     "type": "Molecular",
+     "topic": "Segundo golpe"
+    },
+    {
+     "name": "Hemosiderófago",
+     "type": "Innato",
+     "topic": "Hemorragia alveolar"
+    },
+    {
+     "name": "Linfocito T DR15",
+     "type": "Celular",
+     "topic": "HLA-DR15"
+    },
+    {
+     "name": "IgG Lineal",
+     "type": "Humoral",
+     "topic": "IF lineal"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_neumo",
+     "topic": "Doble positividad ANCA y anti-MBG",
+     "text": [
+      [
+       "Dr. J.",
+       "Don Héctor tiene las dos cosas. Inicia como anti-MBG…"
+      ],
+      [
+       "Dr. J.",
+       "…pero puede recaer como ANCA. No lo olvides cuando llegue el mantenimiento."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "algoritmo",
+     "title": "Plan anti-MBG",
+     "items": [
+      "Sospecha: pulmón-riñón con anti-MBG",
+      "Recambio diario + ciclofosfamida + glucocorticoides",
+      "Biopsia: IgG lineal y % de semilunas",
+      "Recambio hasta anti-MBG indetectable",
+      "Retiro a ~6 meses sin mantenimiento (si no hay ANCA)"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Escudos de Levy",
+     "items": [],
+     "pairs": [
+      [
+       "Cr <5.7 mg/dL",
+       "95 % sin diálisis al año"
+      ],
+      [
+       "Cr ≥5.7 sin diálisis",
+       "82 % sin diálisis al año"
+      ],
+      [
+       "Diálisis al ingreso",
+       "8 % sin diálisis al año"
+      ],
+      [
+       "Imlifidase (fase 2)",
+       "67 % sin diálisis a 6 meses"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Plex",
+       "¡Soy el Recambio Plasmático! Saco el anticuerpo de la sangre, litro por litro."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_neumo",
+     "lines": [
+      [
+       "Dr. Espiro",
+       "Y que Don Héctor deje el cigarro y el thinner. Es parte del tratamiento."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "El fuego bajó. Ahora viene lo difícil: que no vuelva."
+      ]
+     ]
+    }
+   ],
+   "card": "Anti-MBG: α3(IV) NC1, IgG lineal, HLA-DR15, segundo golpe pulmonar. Recambio + CFM + GC sin demora; sin mantenimiento si es aislada. Trasplante con anti-MBG indetectable ≥6 meses."
+  },
+  {
+   "id": "z5",
+   "name": "Valle del Mantenimiento",
+   "palette": [
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
+   ],
+   "tiles": "valle",
+   "join": [
+    "aza"
+   ],
+   "nurse": false,
+   "vignette": {
+    "bg": "#f6e8c8",
+    "layers": [
+     {
+      "k": "rect",
+      "x": 0,
+      "y": 66,
+      "w": 160,
+      "h": 30,
+      "c": "#d9b26a"
+     },
+     {
+      "k": "ring",
+      "x": 50,
+      "y": 44,
+      "r": 18,
+      "t": 3,
+      "c": "#a35"
+     },
+     {
+      "k": "grow",
+      "x": 90,
+      "y": 20,
+      "w": 50,
+      "h": 6,
+      "c": "#7fd35f",
+      "period": 300
+     },
+     {
+      "k": "rect",
+      "x": 90,
+      "y": 30,
+      "w": 50,
+      "h": 2,
+      "c": "#806828"
+     },
+     {
+      "k": "drift",
+      "n": 4,
+      "r": 3,
+      "c": "#e05050",
+      "vx": 0.4,
+      "area": [
+       0,
+       70,
+       160,
+       20
+      ]
+     },
+     {
+      "k": "person",
+      "x": 20,
+      "y": 50,
+      "c": "#C8A060",
+      "dir": "right",
+      "walk": true
+     }
+    ]
+   },
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Remisión no es curación. El valle se ve tranquilo, pero el PR3 vuelve."
+    ],
+    [
+     "Dr. Holístico",
+     "Aquí se decide cuánto, con qué y hasta cuándo. Y cómo no matar de infección."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Linfocito B de Memoria",
+     "lines": [
+      [
+       "Linfocito B",
+       "Rituxi me borró, pero vuelvo a los 6 meses."
+      ],
+      [
+       "Linfocito B",
+       "Por eso el rituximab de mantenimiento se repite cada semestre."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "rituximab cada 6 meses"
+    },
+    {
+     "id": "npc2",
+     "name": "IgG Cansada",
+     "lines": [
+      [
+       "IgG",
+       "Cada dosis de anti-CD20 me deja más baja. Mídeme antes de cada una."
+      ],
+      [
+       "IgG",
+       "Si bajo de 400 y hay neumonías, hay que replantear."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "hipogammaglobulinemia"
+    },
+    {
+     "id": "npc3",
+     "name": "Coordinadora de Trasplante",
+     "lines": [
+      [
+       "Coordinadora",
+       "¿ANCA positivo y 6 meses de remisión? Se puede trasplantar."
+      ],
+      [
+       "Coordinadora",
+       "¿Anti-MBG? Primero 6 meses con el anticuerpo indetectable."
+      ]
+     ],
+     "gift": null,
+     "recall": "trasplante remisión 6 meses"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Duración",
+     "Mantenimiento: 18 meses a 4 años. Más largo si PR3, recaídas o ANCA persistente."
+    ],
+    [
+     "Letrero · Escudos",
+     "MAINRITSAN: RTX > AZA. IMPROVE: AZA > MMF. REMAIN: AZA larga, menos recaídas."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t_mi",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "MI",
+     "intro": [
+      [
+       "Dr. Holístico",
+       "Ya salvaste el riñón. ¿Sabes cuidarlo los próximos 4 años?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Holístico",
+       "Muy bien: tratar al paciente, no al título de ANCA."
+      ]
+     ],
+     "questionTopics": [
+      "Mantenimiento",
+      "ANCA persistente",
+      "IgG baja",
+      "Trasplante"
+     ],
+     "n": 4
+    },
+    {
+     "id": "t_rival2",
+     "cast": "valeria",
+     "specialty": "Nefrología (rival)",
+     "intro": [
+      [
+       "Valeria",
+       "Revancha. Esta vez estudié los ensayos… ¿por qué funcionan?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Valeria",
+       "Ahora entiendo: RAVE excluyó creatinina >4. ¡Por eso la CFM sigue viva!"
+      ]
+     ],
+     "questionTopics": [
+      "Ensayos de inducción: RAVE, RITUXVAS, CYCLOPS",
+      "Duración del mantenimiento y recaídas",
+      "Trasplante tras enfermedad anti-MBG"
+     ],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Recaída PR3",
+     "type": "Humoral",
+     "topic": "Recaídas"
+    },
+    {
+     "name": "Pneumocystis Oportunista",
+     "type": "Innato",
+     "topic": "Infecciones"
+    },
+    {
+     "name": "Esteroide Acumulado",
+     "type": "Molecular",
+     "topic": "Toxicidad de GC"
+    },
+    {
+     "name": "Linfocito B Rebote",
+     "type": "Humoral",
+     "topic": "Repoblación B"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_mi",
+     "topic": "Duración del mantenimiento y recaídas",
+     "text": [
+      [
+       "Sabio Brenn",
+       "La pregunta no es si mantener, sino cuánto tiempo."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Escudos de ensayo",
+     "items": [],
+     "pairs": [
+      [
+       "RAVE",
+       "RTX no inferior a CFM"
+      ],
+      [
+       "PEXIVAS",
+       "GC reducido no inferior"
+      ],
+      [
+       "ADVOCATE",
+       "Avacopan ahorra esteroide"
+      ],
+      [
+       "MAINRITSAN",
+       "RTX > AZA en recaídas"
+      ],
+      [
+       "IMPROVE",
+       "MMF peor que AZA"
+      ],
+      [
+       "CYCLOPS",
+       "CFM IV = oral, menos dosis"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Aza",
+       "Soy Azatioprina. Menos espectacular que Rituxi, pero constante."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_rival2",
+     "lines": [
+      [
+       "Valeria",
+       "Oye… ¿me prestas tu Nefrodex? Quiero hacer tarjetas de «por qué»."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Narrador",
+       "El suelo tiembla. Algo con dos cabezas sale de los pulmones de Don Héctor."
+      ]
+     ]
+    }
+   ],
+   "card": "Mantenimiento ANCA: RTX semestral o AZA + prednisona baja, 18 meses–4 años. ANCA ≠ actividad. IgG antes de cada RTX. Trasplante: 6 meses de remisión."
+  }
+ ],
+ "boss": {
+  "name": "La Quimera Pulmón-Riñón",
+  "color": "#7a4fd0",
+  "dark": "#2a1255",
+  "heads": 2,
+  "headColors": [
+   "#c23a7a",
+   "#3a5ad8"
+  ],
+  "intro": [
+   [
+    "Quimera",
+    "Somos dos. Yo, ANCA, quemo vasos. Mi hermana, la línea, rompe la membrana."
+   ],
+   [
+    "Dr. J.",
+    "Recuerda: induces como anti-MBG y mantienes como ANCA."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Diagnóstico",
+    "type": "Humoral",
+    "lines": [
+     [
+      "Quimera",
+      "¿Lineal o pauci-inmune? ¡Adivina qué cabeza te habla!"
+     ]
+    ],
+    "topics": [
+     "Biopsia del doble positivo",
+     "Serología PR3/MPO y anti-MBG"
+    ],
+    "questions": [
+     "B2-JEFE-1"
+    ],
+    "pick": {
+     "topics": [
+      "Doble positividad ANCA anti-MBG",
+      "Serología ANCA inmunoensayo"
+     ],
+     "n": 2
+    }
+   },
+   {
+    "name": "Inducción",
+    "type": "Celular",
+    "lines": [
+     [
+      "Quimera",
+      "Rituximab, ciclofosfamida, esteroide… ¿cuál y cuánto?"
+     ]
+    ],
+    "topics": [
+     "Inducción en el doble positivo",
+     "RAVE y creatinina >4 mg/dL"
+    ],
+    "questions": [
+     "B2-JEFE-2"
+    ],
+    "pick": {
+     "topics": [
+      "Ensayos de inducción RAVE CYCLOPS",
+      "tratamiento anti-MBG recambio ciclofosfamida"
+     ],
+     "n": 2
+    }
+   },
+   {
+    "name": "Recambio y esteroide",
+    "type": "Complemento",
+    "lines": [
+     [
+      "Quimera",
+      "PEXIVAS dice que el recambio no sirve. ¿Me vas a dejar la sangre llena?"
+     ]
+    ],
+    "topics": [
+     "PEXIVAS",
+     "Avacopan"
+    ],
+    "questions": [
+     "B2-JEFE-3",
+     "B2-JEFE-4"
+    ]
+   },
+   {
+    "name": "La sombra del mantenimiento",
+    "type": "Molecular",
+    "lines": [
+     [
+      "La Esclerosis",
+      "Bien jugado. Pero cada semiluna fibrosa ya es mía."
+     ],
+     [
+      "La Esclerosis",
+      "Y el ANCA… siempre puede volver. Nos vemos en la Torre."
+     ]
+    ],
+    "topics": [
+     "Mantenimiento del doble positivo",
+     "Duración del mantenimiento"
+    ],
+    "questions": [
+     "B2-JEFE-5"
+    ],
+    "pick": {
+     "topics": [
+      "Duración del mantenimiento y recaídas",
+      "Trasplante"
+     ],
+     "n": 2
+    }
+   }
+  ],
+  "outro": [
+   [
+    "Quimera",
+    "La línea se borró… y yo duermo. Pero vigila mi PR3… digo, mi MPO."
+   ],
+   [
+    "Sabio Brenn",
+    "Eso es remisión: una tregua que se cuida con años de mantenimiento."
+   ],
+   [
+    "Don Héctor",
+    "Doctor, ya dejé el cigarro. Y en el taller ahora uso mascarilla."
+   ],
+   [
+    "Dr. J.",
+    "Lo hiciste. Ahora, ¿quién quiere hablar de amiloide? ¿Nadie? Bueno."
+   ]
+  ]
+ },
+ "creatures": [
+  {
+   "id": "metil",
+   "name": "Metil Pulso",
+   "type": "Glucocorticoide",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Pulso de metilprednisolona",
+     "type": "Glucocorticoide",
+     "drug_or_mechanism": "0.5–1 g/día IV por 1–3 días al inicio",
+     "power": 45,
+     "fx": "Supresor"
+    },
+    {
+     "name": "Esquema reducido",
+     "type": "Glucocorticoide",
+     "drug_or_mechanism": "Reducción rápida de prednisona (PEXIVAS): menos infecciones",
+     "power": 35,
+     "fx": "Regulador"
+    }
+   ],
+   "evolvesAt": 8,
+   "evoName": "Prednisona Prudente"
+  },
+  {
+   "id": "rituxi",
+   "name": "Rituxi",
+   "type": "Depletor",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Depleción CD20",
+     "type": "Depletor",
+     "drug_or_mechanism": "Rituximab 375 mg/m² semanal ×4 o 1 g ×2 (RAVE)",
+     "power": 45
+    },
+    {
+     "name": "Dosis semestral",
+     "type": "Depletor",
+     "drug_or_mechanism": "500 mg cada 6 meses como mantenimiento (MAINRITSAN)",
+     "power": 35
+    }
+   ],
+   "evolvesAt": 9,
+   "evoName": "Rituxi Centinela"
+  },
+  {
+   "id": "avaco",
+   "name": "Avaco",
+   "type": "Anti-C5aR",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Bloqueo C5aR",
+     "type": "Anti-C5aR",
+     "drug_or_mechanism": "Avacopan 30 mg c/12 h: corta el asa C5a–neutrófilo",
+     "power": 45,
+     "fx": "Anti-citocina"
+    },
+    {
+     "name": "Ahorro de esteroide",
+     "type": "Anti-C5aR",
+     "drug_or_mechanism": "Sustituye la prednisona en dosis altas (ADVOCATE)",
+     "power": 35,
+     "fx": "Regulador"
+    }
+   ],
+   "evolvesAt": 10,
+   "evoName": "Avaco Escudo"
+  },
+  {
+   "id": "ciclo",
+   "name": "Ciclo",
+   "type": "Alquilante",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Pulso IV",
+     "type": "Alquilante",
+     "drug_or_mechanism": "Ciclofosfamida 15 mg/kg IV cada 2–3 semanas (CYCLOPS)",
+     "power": 50
+    },
+    {
+     "name": "Dos pulsos con RTX",
+     "type": "Alquilante",
+     "drug_or_mechanism": "Combinación con rituximab si Cr >4 mg/dL (RITUXVAS)",
+     "power": 40
+    }
+   ],
+   "evolvesAt": 10,
+   "evoName": "Ciclofosfamida Veterana"
+  },
+  {
+   "id": "plex",
+   "name": "Plex",
+   "type": "Recambio",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Recambio diario",
+     "type": "Recambio",
+     "drug_or_mechanism": "Retira el anti-MBG: diario ~14 sesiones hasta indetectable",
+     "power": 50,
+     "fx": "Depurador"
+    },
+    {
+     "name": "Plasma fresco",
+     "type": "Recambio",
+     "drug_or_mechanism": "Reposición con plasma si hay hemorragia o biopsia reciente",
+     "power": 35,
+     "fx": "Depurador"
+    }
+   ],
+   "evolvesAt": 9,
+   "evoName": "Plex Centrífugo"
+  },
+  {
+   "id": "aza",
+   "name": "Aza",
+   "type": "Antimetabolito",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Bloqueo de purinas",
+     "type": "Antimetabolito",
+     "drug_or_mechanism": "Azatioprina: análogo de purinas que frena la proliferación (mide TPMT)",
+     "power": 40
+    },
+    {
+     "name": "Mantenimiento largo",
+     "type": "Antimetabolito",
+     "drug_or_mechanism": "Hasta 48 meses reduce recaídas (REMAIN)",
+     "power": 35
+    }
+   ],
+   "evolvesAt": 8,
+   "evoName": "Aza Perseverante"
+  }
+ ],
+ "typeChart": {
+  "Glucocorticoide": {
+   "Innato": 1.5,
+   "Celular": 1.5,
+   "Humoral": 0.5
+  },
+  "Depletor": {
+   "Humoral": 1.5,
+   "Molecular": 0.5
+  },
+  "Anti-C5aR": {
+   "Complemento": 1.5,
+   "Innato": 1.5,
+   "Humoral": 0.5
+  },
+  "Alquilante": {
+   "Celular": 1.5,
+   "Humoral": 1.5,
+   "Complemento": 0.5
+  },
+  "Recambio": {
+   "Humoral": 1.5,
+   "Molecular": 1.5,
+   "Celular": 0.5
+  },
+  "Antimetabolito": {
+   "Celular": 1.5,
+   "Innato": 0.5
+  }
+ },
+ "shields": [
+  {
+   "trial": "RAVE",
+   "mnemonic": "La rave del rituximab: baila igual que la CFM y mejor en la segunda fiesta (recaída).",
+   "result": "Remisión sin esteroide a 6 meses 64 % RTX vs 53 % CFM (no inferior); superior en recaída. Excluyó Cr >4 mg/dL."
+  },
+  {
+   "trial": "RITUXVAS",
+   "mnemonic": "RTX + VAS: rituximab con dos pulsos de CFM, igual que CFM sola.",
+   "result": "Remisión sostenida similar (76 % vs 82 %) en enfermedad renal grave."
+  },
+  {
+   "trial": "PEXIVAS",
+   "mnemonic": "PEX + IVAS: el recambio no ganó, el esteroide reducido sí.",
+   "result": "Recambio sin efecto en muerte/ERCT (28.4 vs 31.0 %); GC reducido no inferior, menos infecciones."
+  },
+  {
+   "trial": "ADVOCATE",
+   "mnemonic": "El abogado del C5aR: defiende al paciente del esteroide.",
+   "result": "Avacopan: remisión a 26 sem 72.3 vs 70.1 % (no inferior); sostenida a 52 sem 65.7 vs 54.9 % (superior)."
+  },
+  {
+   "trial": "MAINRITSAN",
+   "mnemonic": "MAIN-RIT: la mano del rituximab mantiene la paz.",
+   "result": "Recaída mayor a 28 meses 5 % RTX vs 29 % AZA."
+  },
+  {
+   "trial": "IMPROVE",
+   "mnemonic": "Cambiar a MMF no mejoró nada.",
+   "result": "Micofenolato con más recaídas que azatioprina en mantenimiento."
+  },
+  {
+   "trial": "Levy 2001",
+   "mnemonic": "5.7 es la frontera; la diálisis al inicio es el abismo.",
+   "result": "Anti-MBG, renal a 1 año: Cr <5.7 → 95 %; ≥5.7 sin diálisis → 82 %; diálisis al ingreso → 8 %."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "PR3 (proteinasa 3)",
+   "text": "Serina proteasa de gránulos azurófilos. Blanco del c-ANCA. Se asocia a GPA, HLA-DP y más recaídas; suele preferirse rituximab para mantener."
+  },
+  {
+   "title": "MPO (mieloperoxidasa)",
+   "text": "Enzima de gránulos azurófilos; blanco del p-ANCA. PAM, mayores, fibrosis pulmonar y más cronicidad renal. La inducen hidralazina y PTU."
+  },
+  {
+   "title": "NET",
+   "text": "Trampas extracelulares de neutrófilo: ADN con enzimas. Dañan el endotelio y exponen PR3 y MPO, alimentando más autoanticuerpos."
+  },
+  {
+   "title": "C5aR1",
+   "text": "Receptor de C5a en el neutrófilo. Su activación prima más neutrófilos: asa de amplificación. El avacopan lo bloquea."
+  },
+  {
+   "title": "Necrosis fibrinoide",
+   "text": "Lesión activa del ovillo y de arteriolas en la vasculitis ANCA; precede a la semiluna celular."
+  },
+  {
+   "title": "Berden",
+   "text": "Focal (≥50 % normales), crescéntica (≥50 % semilunas celulares), mixta y esclerótica (≥50 % esclerosis global). De mejor a peor pronóstico."
+  },
+  {
+   "title": "ARRS",
+   "text": "Puntaje de riesgo renal: glomérulos normales (N1 4, N2 6), fibrosis T1 2, TFGe ≤15 G1 3. Bajo 0, intermedio 2–7, alto 8–11 puntos."
+  },
+  {
+   "title": "α3(IV) NC1",
+   "text": "Autoantígeno de Goodpasture en el hexámero de colágeno IV, con epítopos EA y EB ocultos. HLA-DR15 aumenta el riesgo."
+  },
+  {
+   "title": "Segundo golpe",
+   "text": "Tabaco, hidrocarburos, cocaína inhalada o infección dañan el alvéolo y exponen el antígeno: por eso solo algunos sangran."
+  },
+  {
+   "title": "Imlifidase",
+   "text": "Endopeptidasa de Streptococcus pyogenes que corta la IgG en minutos. En anti-MBG, fase 2: 67 % sin diálisis a 6 meses. Aún experimental."
+  }
+ ],
+ "enemyTypes": {}
+}

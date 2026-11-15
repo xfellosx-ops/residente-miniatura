@@ -3,8 +3,8 @@
 Videojuego educativo estilo Pokémon Gen III (HTML/JS, canvas 160×96) para que Alfredo, residente de último año de nefrología, estudie para el examen del Consejo Mexicano de Nefrología (**16 de enero de 2027**, 300 preguntas con casos seriados). Lee `docs/DISENO.md` antes de cambiar nada.
 
 ## Comandos
-- `npm install` (una vez) · `python3 build.py [levels/<nivel>]` → `dist/index.html`
-- `npm test` → construye y juega el nivel completo con un autómata (modo correcto y con 35 % de errores). Debe terminar en `DONE` y `errors []`.
+- `npm install` (una vez) · `python3 build.py [levels/<nivel>]` → `dist/index.html` y `dist/<id>.html`
+- `npm test` → construye y juega **todos** los niveles con un autómata (modo correcto y con 35 % de errores); `npm test -- levels/<nivel>` juega solo uno. Cada corrida debe decir `PASA` (termina en `DONE` con `errors []`).
 - `python3 tools/validate_story.py levels/<nivel>/story.json`
 - `python3 tools/validate_questions.py levels/<nivel>/q_extra.json` (sesgo de longitud ≤25 %, letras balanceadas)
 
@@ -19,10 +19,10 @@ Videojuego educativo estilo Pokémon Gen III (HTML/JS, canvas 160×96) para que 
 8. Las preguntas de `data/bank.json` traen sesgo de longitud (99 % la correcta es la más larga); Alfredo lo está corrigiendo en otra app. Pregúntale por la versión corregida antes de reutilizarlas en masa.
 
 ## Cómo añadir un nivel
-1. Copia la estructura de `levels/9-5-lupus/` (esquema en `docs/DISENO.md`).
+1. Copia la estructura de `levels/9-6-anca/` (esquema en `docs/DISENO.md`, sección 5). Ponle `meta.key` nueva.
 2. Guion → `story.json` (10 zonas aprox. para temas grandes, 3–5 para chicos).
-3. Preguntas → `q_extra.json` (pasto, puertas, entrenadores seriados, jefe) + `q_banco.json` (extraídas de `data/bank.json` por `tema_id`).
+3. Preguntas → `q_extra.json` (pasto, puertas, entrenadores seriados, jefe) + `q_banco.json` (extraídas de `data/bank.json` por `tema_id`, ver regla 8).
 4. Valida, construye y corre `npm test`. Pide a Alfredo que lo juegue antes de seguir con el siguiente.
 
-## Deuda técnica (hacer primero)
-Ver "Pendientes de ingeniería" en `docs/DISENO.md`: varias piezas del motor siguen escritas a mano para lupus.
+## Deuda técnica
+Ver "Pendientes de ingeniería" en `docs/DISENO.md`. El punto 1 (sacar lupus del motor) ya está hecho: el motor no debe volver a conocer ningún nivel; todo lo propio va en `story.json`.

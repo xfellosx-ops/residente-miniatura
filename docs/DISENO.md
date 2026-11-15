@@ -30,7 +30,7 @@ Retroalimentación tras jugar la v3: lo mantiene despierto, la historia ayuda, l
 | 2 · Las herramientas | 4, 5 | Prólogo |
 | 3 · La lesión aguda | 6, 17, 11 | I |
 | 4 · El medio interno | 24, 25, 10 | I |
-| 5 · El glomérulo | 9 (7 subniveles; 9-5 lupus ya hecho) | II |
+| 5 · El glomérulo | 9 (7 subniveles; hechos 9-5 lupus y 9-6 ANCA/anti-MBG) | II |
 | 6 · Genes, quistes y cristales | 16, 14, 12, 13 | II |
 | 7 · Vasos, presión y embarazo | 15, 23, 18, 26 (cáncer y riñón) | II |
 | 8 · La enfermedad crónica | 8, 7, 22 | III |
@@ -56,21 +56,32 @@ Temas con muchas entidades pequeñas (tóxicos, cristales): un súbdito por clas
 | Vigilia | Alarma adaptada a las palabras en pantalla; ofrece DESPERTADOR (10 V/F con 6 s); Wake Lock |
 
 ## 5. Esquema de un nivel
-- `story.json`: `cast`, `zones[]` (`id,name,palette,tiles,intro,npcs,trainers,wild,gates,minigames,cutscenes,card`), `boss` (`intro,phases[],outro`), `creatures`, `typeChart`, `shields`, `nefrodex`. Validado por `tools/validate_story.py`.
-- `q_base.json`: `apertura`, `gates{}`, `subditos[]`, `pasto[]`, `stones[]`, `jefeB[]`.
+- `story.json`: `meta`, `cast`, `zones[]`, `boss`, `creatures`, `typeChart`, `shields`, `nefrodex` y, opcionales, `themes`, `enemyTypes`. Validado por `tools/validate_story.py`. Todo lo propio del nivel vive aquí; el motor no conoce ningún nivel.
+  - `meta`: `id` ("9-6"), `title`, `key` (clave de guardado en `localStorage`, **única por nivel y no cambiarla una vez publicada**: borra el avance), `arena`, `bossShort`, `bossChange`.
+  - `zones[i]`: `id,name,palette,tiles,intro,npcs,trainers,wild,gates,minigames,cutscenes,card` más
+    `join` (ids de criaturas que se unen al entrar), `signs` (`[[título,texto],…]`, ≤90 caracteres), `nurse` (true = enfermera que cura),
+    `vignette` (nombre de una viñeta de la biblioteca `VIG` del motor —las 10 de lupus: `urgencias, uv_piel, pantano_restos, ganglio, rio_sangre, delta_endocapilar, acantilado_podocito, ruinas_asas, capsula_semiluna, valle_tubulovascular`— o un objeto `{bg, layers[]}` con capas `rect, circ, ring, stripes, cells, drift, orbit, pulse, grow, person`; cada capa admite `every` para parpadear; ver ejemplos en `levels/9-6-anca/story.json`),
+    `theme` (`{f,w,g}`: piso, muro y hierba; sobrescribe los colores del `tiles`).
+  - `trainers[]`: `serie` (id de una serie de `q_extra.entrenadores`); si falta, se eligen `n` preguntas por `questionTopics`.
+  - `boss`: `intro, phases[], outro` y `color, dark, heads, headColors` (sprite). Cada fase: `name, type` (tipo enemigo), `lines`, `topics` y sus preguntas: `questions` (ids), `series` (series completas) y/o `pick` (`{topics,n}` por tema). Si no trae ninguna, se eligen por `topics`.
+  - `creatures[]`: además de `moves`, opcionales `color`, `dark` y, por movimiento, `fx` (animación de la biblioteca: `Fagocito, Depurador, Humoral, Regulador, Supresor, Antimetabolito, Endosomal, Podoprotector, Anti-citocina, Depletor, Alquilante`).
+- `tiles` disponibles (decoración del mapa): `hospital, playa, pantano, bosque, rio, delta, acantilado, ruinas, capsula, valle, arena`.
+- `q_base.json` (opcional, formato de 9-5): `apertura`, `gates{}`, `subditos[]`, `pasto[]`, `stones[]`, `jefeB[]`. Los niveles nuevos ponen todo en `q_extra.json`.
 - `q_extra.json`: `pasto[]`, `puertas[]`, `entrenadores[]` (con `serie_id`, `orden`, `caso`, `continuacion`), `jefeC[]`.
-- `q_banco.json`: preguntas del banco de Alfredo para ese tema (mismo formato que `data/bank.json`).
+- `q_banco.json` (opcional): preguntas del banco de Alfredo para ese tema (mismo formato que `data/bank.json`).
 - Pregunta de opción múltiple: `id, enunciado, opciones{A..E}, clave, explicaciones{A..E}, perla, referencias[], peso, tema`. Pasto V/F: `id, vf:true, enunciado, clave:"V"|"F", exp`.
 
 ## 6. Pendientes de ingeniería (en orden)
-1. **Sacar del motor lo específico de lupus** y moverlo a los datos del nivel: `JOIN` (qué criatura se une en qué zona), `SERIE_OF` (serie de cada entrenador), `PLAN.boss`, `SIGNS`, `drawVignette` (viñetas por zona), `deco`/`THEME` por `tiles`, y la clave de guardado `KEY`.
+1. ~~Sacar del motor lo específico de lupus~~ **Hecho (15 nov 2026).** `JOIN`, `SERIE_OF`, `PLAN.boss`, `SIGNS`, viñetas, colores por `tiles`, enfermera, `KEY` y textos del título y jefe salen de `story.json` (sección 5). La clave de lupus sigue siendo `rm_v2_95` para no perder la partida de Alfredo. Queda en el motor, como biblioteca reutilizable: los patrones de `deco` por `tiles`, las 10 viñetas de lupus (`VIG`) y las animaciones de ataque (`drawFx`).
 2. **Selector de niveles / mapa de regiones** con progreso global y equipo persistente entre niveles.
 3. **PWA instalable sin internet** (service worker, manifest) y exportar/importar partida para pasar de celular a tableta; sincronización real si se añade un backend.
-4. Unificar los tres archivos de preguntas en uno por nivel; el autómata busca preguntas por `enunciado`, así que los enunciados duplicados lo confunden (ver `T2-UCI-4`): usar `id` en un `data-id`.
+4. Unificar los tres archivos de preguntas en uno por nivel. (El `data-id` ya está: el autómata identifica las preguntas por `id`, y el falso error de `T2-UCI-4` desapareció.)
 5. Imágenes reales de biopsia en preguntas (solo propias o de licencia abierta, con crédito).
 6. Ideas aprobadas sin implementar: apuesta de confianza, modo guardia (caso sorpresa), prueba de entrada por tema que acorta o alarga el nivel, recuerdo escrito con teclado, arte y sonido mejores.
 
 ## 7. Pendientes de contenido
+- **9-6:** `q_banco.json` está vacío a propósito: las 14 preguntas de ANCA/anti-MBG del banco (series `ANCA`, `ANB`, `GBM`, `AGB`; varias recordadas `…26`) tienen sesgo de longitud fuerte. Alfredo pidió esperar su versión corregida; cuando llegue, copiarlas y repartirlas entre jefe y entrenadores (regla 6).
+- **9-5 (regla 4):** `validate_story.py` avisa más de 4 cuadros seguidos al entrar en z1, z2, z6, z7 y z10, y en intro del jefe + fase 1. Recortar con Alfredo.
 - Verificar en PubMed los PMID del guion de lupus (`levels/9-5-lupus/guion.md`, refs. 1–5, 18–23, 25) y los puntos marcados `[VERIFICAR]`.
 - `q_banco.json` de lupus: nomenclatura "IV-G (A)" obsoleta (ISN/RPS 2018 la eliminó) y sesgo de longitud.
 - Temas con pocas preguntas en el banco (1, 3, 10, 11): generar casos nuevos.
