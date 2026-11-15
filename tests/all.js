@@ -7,5 +7,6 @@ const run=(file,mode)=>new Promise(res=>{const p=spawn('node',[path.join(__dirna
  for(const l of levels){const id=JSON.parse(fs.readFileSync(path.join(root,l,'story.json'),'utf8')).meta.id;execFileSync('python3',['build.py',l],{cwd:root,stdio:'inherit'});
   for(const m of ['correct','errors'])jobs.push(run(path.join(root,'dist',id+'.html'),m).then(r=>({l,m,...r})))}
  const rs=await Promise.all(jobs);let bad=0;
+ execFileSync("python3",["build.py"],{cwd:root,stdio:"inherit"});try{execFileSync("node",[path.join(__dirname,"map.js")],{cwd:root,stdio:"inherit"})}catch(e){bad++}
  for(const r of rs){const ok=r.code===0&&/DONE/.test(r.out)&&/errors \[\]/.test(r.out);if(!ok)bad++;console.log((ok?'PASA ':'FALLA')+' '+r.l+' '+r.m)}
  process.exit(bad?1:0)})();

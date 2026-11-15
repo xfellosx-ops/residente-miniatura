@@ -73,7 +73,15 @@ canvas{display:block;width:100%;image-rendering:pixelated;image-rendering:crisp-
 <div id="alert"><h2>¡ALERTA!</h2><p>Toca el objetivo 3 veces.<br>Si se repite: ponte de pie, camina o toma agua 2 minutos.</p><button id="tgt">AQUÍ</button></div>
 <script>
 "use strict";
-const STORY=__STORY__, Q1=__Q1__, Q2=__Q2__, BANK=__BANK__;
+const LEVELS=__LEVELS__, REGIONS=__REGIONS__;
+/* nivel en curso: el que eligió el mapa (rm_cur) o el primero del archivo */
+const CUR=(()=>{try{return localStorage.getItem("rm_cur")}catch(e){return null}})();
+const LV=LEVELS.find(l=>l.story.meta.id===CUR)||LEVELS[0];
+const STORY=LV.story,Q1=LV.q1||{},Q2=LV.q2||{},BANK=LV.bank||[];
+/* progreso global entre niveles: equipo, caja y niveles superados */
+const GKEY="rm_global";
+let G=(()=>{try{return JSON.parse(localStorage.getItem(GKEY))||{}}catch(e){return {}}})();G.done=G.done||{};
+function gsave(){try{localStorage.setItem(GKEY,JSON.stringify(G))}catch(e){}}
 /* ================= utilidades ================= */
 const $=s=>document.querySelector(s), pn=$("#pn");
 const esc=s=>String(s??"").replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]));
@@ -89,14 +97,17 @@ function clearAll(){T.iv.forEach(clearInterval);T.to.forEach(clearTimeout);T.iv.
 /* metadatos del nivel (story.meta): id, título, clave de guardado, textos del jefe */
 const META=Object.assign({id:"?",title:"",key:"rm_v3_default",arena:"ARENA DEL JEFE",bossShort:"Jefe",bossChange:"cambia de forma"},STORY.meta||{});
 const KEY=META.key;
-const CREA={};STORY.creatures.forEach(c=>CREA[c.id]=c);
+const CREA={};STORY.creatures.forEach(c=>CREA[c.id]=c);LEVELS.forEach(l=>l.story.creatures.forEach(c=>{if(!CREA[c.id])CREA[c.id]=c}));
+const TCHART=Object.assign({},...LEVELS.map(l=>l.story.typeChart||{}),STORY.typeChart);
 /* qué criaturas se unen en cada zona: zones[i].join */
 const JOIN={};STORY.zones.forEach((z,zi)=>{if(z.join&&z.join.length)JOIN[zi]=z.join});
 const DEF={zone:0,x:2,y:4,dir:"right",team:[],box:[],potions:2,flags:{},srs:{},stats:{ok:0,n:0},idle:45,voice:false,nefro:[],shields:[],boss:null,alerts:0,done:false};
-function fresh(){return JSON.parse(JSON.stringify(DEF))}
+function fresh(){const f=JSON.parse(JSON.stringify(DEF));if(G.team&&G.team.length){f.team=G.team;f.box=G.box||[]}return f}
 let S=(()=>{try{const s=JSON.parse(localStorage.getItem(KEY));if(s&&s.team)return Object.assign(fresh(),s)}catch(e){}return fresh()})();
+/* el equipo es uno solo para todo el juego (la partida de cada nivel guarda solo su avance) */
+if(G.team&&G.team.length){S.team=G.team;S.box=G.box||[]}else if(S.team.length){G.team=S.team;G.box=S.box;gsave()}
 S.team.forEach(c=>{if(c.hp<1)c.hp=1});
-function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}}
+function save(){try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}if(S.team.length){G.team=S.team;G.box=S.box;gsave()}}
 function mkCrea(id){const c=CREA[id];return{id,lvl:3,xp:0,max:30,hp:30,evo:false}}
 function cName(c){return c.evo?CREA[c.id].evoName:CREA[c.id].name}
 function active(){return S.team.find(c=>c.hp>0)}
@@ -364,7 +375,7 @@ function quick(q,label,cb){MODE=MODE==="world"?"dialog":MODE;renderQ(q,label,0,c
 function addXP(c,n){if(!c)return;c.xp+=n;while(c.xp>=need(c.lvl)){c.xp-=need(c.lvl);c.lvl++;c.max+=4;c.hp=Math.min(c.max,c.hp+Math.round(c.max*.25));sfx.lvl();
  const cr=CREA[c.id];if(!c.evo&&cr.evolvesAt<99&&c.lvl>=cr.evolvesAt){c.evo=true;c.max+=8;c.hp=c.max;modal('<div class="who">¡EVOLUCIÓN!</div>'+esc(cr.name)+' evolucionó a <b>'+esc(cr.evoName)+'</b>. Sus movimientos ganan +10 de poder.')}}save();hud()}
 /* ================= combate ================= */
-function mult(mt,et){return ((STORY.typeChart[mt]||{})[et])||1}
+function mult(mt,et){return ((TCHART[mt]||{})[et])||1}
 function startWild(){const z=STORY.zones[MAP.zi];const w=z.wild[Math.random()*z.wild.length|0];sfx.enc();vib([40,40,40]);
  battle({kind:"wild",foes:[{name:w.name,type:w.type,hp:60,max:60}],qsrc:()=>nextPasto(),xp:12,label:"🌿 "+w.name+" salvaje"})}
 function startTrainer(o){const z=STORY.zones[MAP.zi],t=z.trainers[o.ti];const ids=PLAN[t.id]||[];const qs=ids.map(id=>ALL[id]).filter(Boolean);
@@ -453,8 +464,8 @@ function startBoss(){const ph=bossPhase();S.boss.phase=ph;const pq=()=>{const li
  const P=STORY.boss.phases[ph-1];dialog(P?[["FASE "+ph+" · "+P.name,""],...P.lines].filter(l=>l[1]!==""||l[0].startsWith("FASE")).map(l=>l[1]?l:[l[0],"¡Comienza la fase "+ph+"!"]):[],()=>{
   battle({kind:"boss",foes:[{name:META.bossShort+" · F"+ph,type:(P&&P.type)||"Molecular",get hp(){return S.boss.hp},set hp(v){S.boss.hp=v;save()},max:100}],qsrc:pq,xp:30,label:"👑 "+META.bossShort.toUpperCase()+" F"+ph})})}
 function bossCheck(msg){const ph=bossPhase();if(S.boss.hp<=0)return bossWin();if(ph!==S.boss.phase){S.boss.phase=ph;sfx.lvl();return modal(msg+"<br><b>¡"+esc(META.bossShort)+" "+esc(META.bossChange)+"!</b>",()=>{BAT=null;startBoss()})}menuBattle(msg)}
-function bossWin(){BAT=null;S.done=true;save();sfx.lvl();vib([100,50,100,50,300]);dialog(STORY.boss.outro,ending)}
-function ending(){MODE="dialog";const st=S.stats;pn.innerHTML='<div class="who">¡SUBNIVEL '+esc(META.id)+' SUPERADO!</div><div class="box">Aciertos: '+st.ok+'/'+st.n+' ('+Math.round(100*st.ok/Math.max(1,st.n))+' %)<br>Nefrodex: '+S.nefro.length+' páginas<br>En repaso espaciado: '+Object.keys(S.srs).length+' preguntas</div><div class="row"><button class="btn" id="e1">NEFRODEX</button><button class="btn alt" id="e2">REPASO</button><button class="btn alt" id="e3">JUGAR DE NUEVO</button></div>';
+function bossWin(){BAT=null;S.done=true;G.done[META.id]=1;gsave();save();sfx.lvl();vib([100,50,100,50,300]);dialog(STORY.boss.outro,ending)}
+function ending(){MODE="dialog";const st=S.stats;pn.innerHTML='<div class="who">¡SUBNIVEL '+esc(META.id)+' SUPERADO!</div><div class="box">Aciertos: '+st.ok+'/'+st.n+' ('+Math.round(100*st.ok/Math.max(1,st.n))+' %)<br>Nefrodex: '+S.nefro.length+' páginas<br>En repaso espaciado: '+Object.keys(S.srs).length+' preguntas</div><div class="row"><button class="btn" id="e1">NEFRODEX</button><button class="btn alt" id="e2">REPASO</button><button class="btn alt" id="e3">JUGAR DE NUEVO</button>'+(LEVELS.length>1?'<button class="btn" id="e4">🗺 MAPA</button>':'')+'</div>';if($("#e4"))$("#e4").onclick=()=>mapa(ending);
  $("#e1").onclick=()=>nefrodex(ending);$("#e2").onclick=()=>review(ending);$("#e3").onclick=()=>{const keep={srs:S.srs,stats:S.stats,idle:S.idle,voice:S.voice};S=Object.assign(fresh(),keep);save();title()}}
 /* ================= menú ================= */
 function nefrodex(back){const un=STORY.nefrodex.filter(n=>S.nefro.includes(n.title));pn.innerHTML='<div class="who">NEFRODEX ('+un.length+'/'+STORY.nefrodex.length+')</div>'+(un.length?un.map(n=>'<details class="box small"><summary><b>'+esc(n.title)+'</b></summary>'+esc(n.text)+'</details>').join(""):'<div class="small">Se desbloquea al salir de cada zona.</div>')+'<div class="box small"><b>Escudos de ensayo</b><br>'+STORY.shields.map(s=>'<b>'+esc(s.trial)+':</b> '+esc(s.mnemonic)+' — '+esc(s.result)).join("<br>")+'</div><div class="row"><button class="btn" id="bk">ATRÁS</button></div>';$("#bk").onclick=back}
@@ -482,9 +493,14 @@ $("#bA").onpointerdown=e=>{e.preventDefault();unlockAudio();pressA()};
 document.querySelectorAll(".dpad button").forEach(b=>{const d=b.dataset.d;b.onpointerdown=e=>{e.preventDefault();unlockAudio();if(KEYNAV&&MODE!=="world")return KEYNAV(d);if(MODE==="world")held=d};["pointerup","pointerleave","pointercancel"].forEach(ev=>b.addEventListener(ev,()=>{if(held===d)held=null}))});
 /* ================= título ================= */
 function title(){MODE="title";clearAll();cx.fillStyle="#0f380f";cx.fillRect(0,0,160,96);cx.fillStyle="#9bbc0f";cx.font="8px monospace";cx.fillText("EL RESIDENTE",42,30);cx.fillText("MINIATURA",50,42);person(72,52,"#ffffff","down",0);cx.font="6px monospace";{const s=(META.id+" · "+META.title).toUpperCase().slice(0,30);cx.fillText(s,Math.max(2,80-s.length*1.8),82)}hud();
- pn.innerHTML='<div class="who">EL RESIDENTE MINIATURA · v3</div><div class="box small">'+esc(META.id+" · "+META.title)+': '+STORY.zones.length+' zonas, '+STORY.zones.reduce((a,z)=>a+z.trainers.length,0)+' entrenadores, '+STORY.zones.reduce((a,z)=>a+z.minigames.length,0)+' minijuegos y el jefe '+esc(META.bossShort)+' en '+STORY.boss.phases.length+' fases. 😴 = despertador. Muévete con las flechas (o WASD). <b>A</b>/Z = acción, <b>B</b>/X = menú. Tu avance se guarda en este navegador.</div><div class="row"><button class="btn" id="t1">'+(S.team.length?"▶ CONTINUAR":"▶ NUEVA PARTIDA")+'</button><button class="btn alt" id="t2">CHEQUEO DE ALERTA</button><button class="btn alt" id="t3">REPASO ('+dueCount()+')</button></div>';
- const go=()=>{unlockAudio();if(!S.team.length){MODE="dialog";return enterZone(0)}if(S.boss&&!S.done)return bossArena();enterZone(S.zone,true)};$("#t1").onclick=go;KEYA=go;$("#t2").onclick=()=>pvt(title);$("#t3").onclick=()=>review(title)}
-window.__G={get S(){return S},get MODE(){return MODE},get MAP(){return MAP},get BAT(){return BAT},get RIV(){return RIV},ALL,STORY,PLAN,KEY};
+ pn.innerHTML='<div class="who">EL RESIDENTE MINIATURA · v3</div><div class="box small">'+esc(META.id+" · "+META.title)+': '+STORY.zones.length+' zonas, '+STORY.zones.reduce((a,z)=>a+z.trainers.length,0)+' entrenadores, '+STORY.zones.reduce((a,z)=>a+z.minigames.length,0)+' minijuegos y el jefe '+esc(META.bossShort)+' en '+STORY.boss.phases.length+' fases. 😴 = despertador. Muévete con las flechas (o WASD). <b>A</b>/Z = acción, <b>B</b>/X = menú. Tu avance se guarda en este navegador.</div><div class="row"><button class="btn" id="t1">'+(S.flags.in_0?"▶ CONTINUAR "+esc(META.id):"▶ JUGAR "+esc(META.id))+'</button><button class="btn alt" id="t2">CHEQUEO DE ALERTA</button><button class="btn alt" id="t3">REPASO ('+dueCount()+')</button></div>';
+ const go=()=>{unlockAudio();if(!S.flags.in_0){MODE="dialog";return enterZone(0)}if(S.boss&&!S.done)return bossArena();enterZone(S.zone,true)};$("#t1").onclick=go;KEYA=go;if(LEVELS.length>1){$("#t1").insertAdjacentHTML("afterend",'<button class="btn" id="t4">🗺 MAPA</button>');$("#t4").onclick=()=>mapa(title)}$("#t2").onclick=()=>pvt(title);$("#t3").onclick=()=>review(title)}
+/* mapa de regiones: elegir nivel recarga la página con ese nivel */
+function mapa(back){MODE="dialog";clearAll();const built=new Set(LEVELS.map(l=>l.story.meta.id));
+ pn.innerHTML='<div class="who">🗺 MAPA · '+Object.keys(G.done).length+' superados</div>'+REGIONS.map(r=>'<div class="box small"><b>Región '+r.id+' · '+esc(r.name)+'</b> <span class="tag">ACTO '+esc(r.acto)+'</span><br>'+r.levels.map(([id,name])=>built.has(id)?'<button class="opt" data-lv="'+esc(id)+'"><b>'+(G.done[id]?'✓':'▶')+'</b>'+esc(id+' · '+name)+(id===META.id?' · AQUÍ':'')+'</button>':'<div class="small" style="opacity:.55;margin:3px 0">🔒 '+esc(id+' · '+name)+' (en construcción)</div>').join("")+'</div>').join("")+'<div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
+ pn.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>{const id=b.dataset.lv;if(id===META.id)return back();try{localStorage.setItem("rm_cur",id)}catch(e){}location.reload()});
+ $("#bk").onclick=back;KEYA=back}
+window.__G={LEVELS,get S(){return S},get MODE(){return MODE},get MAP(){return MAP},get BAT(){return BAT},get RIV(){return RIV},ALL,STORY,PLAN,KEY};
 title();requestAnimationFrame(loop);
 </script>
 </body>
