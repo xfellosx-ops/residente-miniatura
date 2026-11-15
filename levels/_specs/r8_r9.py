@@ -152,7 +152,7 @@ LEVELS = [
    "intro": [(J, "Territorio de Hemo-Eterna. Varón de 50 años, urea 380, potasio 7.1, somnoliento."), (H, "¡Primera sesión! Cuatro horas, flujo máximo. Aquí somos eficientes."), (B, "No le hagas caso. Antes de conectar a nadie, revisa el agua.")],
    "npcs": [("Ósmosis Inversa", ["Quito iones, bacterias y endotoxinas. El carbón activado quita cloraminas antes de mí.", "Cloraminas en el agua: hemólisis en toda la sala."], "pocion", "tratamiento de agua"),
             ("Dializador", ["Difusión: gradiente, moléculas pequeñas. Convección: arrastre con agua, medianas.", "La hemodiafiltración suma las dos."], "xp", "difusión y convección")],
-   "signs": [("Letrero · Calidad del agua", "Bacterias <100 UFC/mL y endotoxinas <0.25 UE/mL; acción a la mitad."), ("Letrero · Aluminio", "Demencia, osteomalacia y anemia microcítica: historia del agua sin tratar.")],
+   "signs": [("Letrero · Calidad del agua (ISO/AAMI)", "Bacterias <100 UFC/mL y endotoxinas <0.25 UE/mL; acción a la mitad. Revisa la NOM-003."), ("Letrero · Aluminio", "Demencia, osteomalacia y anemia microcítica: historia del agua sin tratar.")],
    "wild": [("Cloramina", "Molecular"), ("Endotoxina", "Molecular"), ("Biopelícula", "Innato")],
    "trainers": [("hemo", "El agua de la llave está bien. La ósmosis cuesta dinero.", "¡Hemólisis en seis máquinas! Está bien, pongan el carbón.")],
    "gate": ("Principios biofísicos: difusión, convección y agua", [(B, "Urea: difusión. β2-microglobulina: convección. Agua: ultrafiltración.")]),
