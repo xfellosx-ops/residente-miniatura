@@ -1,0 +1,570 @@
+[
+ {
+  "id": "ADK-1",
+  "serie_id": "ADK",
+  "orden": 1,
+  "sub": "10.b",
+  "subtema": "Enfermedad tubulointersticial autosómica dominante (UMOD)",
+  "dificultad": "moderada",
+  "caso": "Hombre de 32 años con gota desde los 18 años, hiperuricemia (9.8 mg/dL) con fracción de excreción de ácido úrico de 3%, TFGe 58 mL/min/1.73 m², sedimento urinario bland y proteinuria <0.3 g/día. Su padre y su abuela paterna tenían gota y ERC; un tío paterno inició diálisis a los 50 años. El ultrasonido muestra riñones pequeños, sin quistes.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y el gen?",
+  "opciones": {
+   "A": "Gota primaria sin enfermedad renal, con hiperuricemia por sobreproducción de purinas y una FEUA elevada desde la infancia",
+   "B": "Nefropatía por IgA familiar, con hematuria macroscópica recurrente y depósitos mesangiales de IgA",
+   "C": "Enfermedad tubulointersticial autosómica dominante por uromodulina (ADTKD-UMOD), con gota juvenil y baja FEUA",
+   "D": "Poliquistosis renal autosómica dominante (PKD1), con riñones agrandados y múltiples quistes bilaterales en la ecografía",
+   "E": "Síndrome de Alport, con hematuria, hipoacusia neurosensorial y lenticono anterior desde la infancia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La gota primaria no explica una ERC familiar con proteinuria baja.",
+   "B": "La IgA familiar cursa con hematuria y proteinuria.",
+   "C": "La ADTKD-UMOD (antes nefropatía hiperuricémica familiar juvenil) se hereda de forma autosómica dominante y se caracteriza por gota de inicio temprano, hiperuricemia con fracción de excreción de ácido úrico baja, ERC lenta con sedimento bland y proteinuria mínima, riñones de tamaño normal o pequeño y quistes corticomedulares ocasionales. La historia familiar de gota y ERC con herencia vertical es clave. Se confirma con estudio genético de UMOD.",
+   "D": "La PKD1 cursa con riñones grandes y múltiples quistes.",
+   "E": "El Alport cursa con hematuria y sordera."
+  },
+  "perla": "ADTKD-UMOD: gota precoz + FEUA baja + ERC lenta + sedimento bland + herencia AD. Gen UMOD (uromodulina).",
+  "referencias": [
+   "Eckardt KU et al. Kidney Int 2015;88:676 (consenso KDIGO ADTKD)",
+   "Comprehensive Clinical Nephrology (enfermedades tubulointersticiales)"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "continuacion": "",
+  "obj": "10.o2",
+  "peso": 57.2
+ },
+ {
+  "id": "ADK-2",
+  "serie_id": "ADK",
+  "orden": 2,
+  "sub": "10.b",
+  "subtema": "Fisiopatología y biopsia en ADTKD",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se discute el mecanismo de la enfermedad y los hallazgos esperados de la biopsia.",
+  "enunciado": "¿Cuál es el mecanismo central?",
+  "opciones": {
+   "A": "Ganancia de función del receptor mineralocorticoide, con hipertensión y retención de sodio en el colector",
+   "B": "Depósito de complejos inmunes en la membrana basal glomerular, con activación del complemento por la vía clásica",
+   "C": "Mutación de NKCC2 en la rama ascendente gruesa, con pérdida salina, hipocalemia y alcalosis metabólica",
+   "D": "Pérdida de la actividad de la α-galactosidasa A, con acumulación lisosomal de glicoesfingolípidos en las células renales",
+   "E": "Acumulación de uromodulina mutada en el retículo endoplásmico de la rama ascendente gruesa, con apoptosis y fibrosis intersticial"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No hay alteración del receptor mineralocorticoide.",
+   "B": "No hay depósito de complejos inmunes.",
+   "C": "NKCC2 está afectado en Bartter tipo I.",
+   "D": "Es el defecto de la enfermedad de Fabry.",
+   "E": "La uromodulina (proteína de Tamm-Horsfall) se sintetiza en la rama ascendente gruesa del asa de Henle. Las variantes patogénicas de UMOD (mayoritariamente missense con sustitución de cisteína) provocan plegamiento anómalo y retención en el retículo endoplásmico, con estrés celular, atrofia tubular y fibrosis, y la menor secreción de uromodulina funcional (disminución de la uromodulina urinaria) altera el manejo de sodio y urato, explicando la hiperuricemia con baja excreción fraccional. La biopsia muestra fibrosis intersticial y atrofia tubular inespecíficas con inmunotinción intracelular de uromodulina."
+  },
+  "perla": "ADTKD-UMOD: uromodulina mal plegada atrapada en el RE de la rama ascendente gruesa; fibrosis inespecífica; uromodulina urinaria baja.",
+  "referencias": [
+   "Eckardt KU et al. Kidney Int 2015;88:676",
+   "Devuyst O, Olinger E, Rampoldi L. Nat Rev Nephrol 2017;13:525 (uromodulina)"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o2",
+  "peso": 59.2
+ },
+ {
+  "id": "ADK-3",
+  "serie_id": "ADK",
+  "orden": 3,
+  "sub": "10.b",
+  "subtema": "Otros genes de ADTKD",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La hermana del paciente tiene hijos con anemia leve en la infancia, hiperpotasemia, TA baja y episodios de LRA con deshidratación, y una ERC familiar sin gota.",
+  "enunciado": "¿Qué gen de ADTKD debe sospecharse?",
+  "opciones": {
+   "A": "UMOD: anemia severa desde la infancia, con hiperpotasemia y tensión arterial baja en los miembros afectados",
+   "B": "SEC61A1: solo gota familiar de inicio precoz, sin anemia, hiperpotasemia ni hipotensión en los afectados",
+   "C": "MUC1: gota prominente y ERC lenta, sin anemia, hiperpotasemia ni lesión renal aguda por deshidratación",
+   "D": "HNF1B: solo diabetes MODY, sin anemia, hiperpotasemia ni hipotensión, con quistes y anomalías renales",
+   "E": "REN (renina): anemia leve en la infancia, hiperpotasemia, TA baja y LRA con la deshidratación"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La UMOD no se asocia a anemia severa.",
+   "B": "SEC61A1 es una causa rara con fenotipo variable.",
+   "C": "El MUC1 cursa con gota mínima, no prominente.",
+   "D": "El HNF1B se asocia a un fenotipo multiorgánico (quistes, diabetes, hipomagnesemia).",
+   "E": "Las variantes de REN causan ADTKD-REN, con hipoproteinemia de renina y angiotensina II: anemia leve en la infancia, tendencia a hipotensión, hiperpotasemia leve y episodios de LRA por deshidratación, con hiperuricemia posterior y ERC. ADTKD-MUC1 (mucina-1, por duplicación de citosina en la región VNTR, difícil de detectar con secuenciación estándar) presenta ERC lenta con hiperuricemia y gota mínima o ausente; ADTKD-UMOD presenta gota de inicio temprano; ADTKD-HNF1B se asocia a quistes renales, diabetes, anomalías genitourinarias e hipomagnesemia; SEC61A1 es una causa rara."
+  },
+  "perla": "ADTKD: UMOD (gota), MUC1 (ERC lenta, difícil de secuenciar), REN (anemia infantil, hiperK, TA baja), HNF1B (quistes, diabetes, hipoMg), SEC61A1.",
+  "referencias": [
+   "Eckardt KU et al. Kidney Int 2015;88:676"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o2",
+  "peso": 47.1
+ },
+ {
+  "id": "ADK-4",
+  "serie_id": "ADK",
+  "orden": 4,
+  "sub": "10.b",
+  "subtema": "Tratamiento de ADTKD",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El paciente con ADTKD-UMOD tiene crisis de gota y TFGe 45 mL/min/1.73 m².",
+  "enunciado": "¿Cuál es el manejo apropiado?",
+  "opciones": {
+   "A": "Dieta alta en purinas, porque la hiperuricemia de la enfermedad es consecuencia de la baja ingesta de proteína",
+   "B": "Hipouricemiante (alopurinol o febuxostat), control de TA y vigilancia; nada frena la progresión; se planea el trasplante",
+   "C": "Colchicina como único tratamiento de por vida, porque previene las crisis de gota y la progresión de la ERC",
+   "D": "Esteroides en dosis altas, porque la enfermedad tubulointersticial autosómica dominante es inmunomediada",
+   "E": "Inmunosupresión con ciclofosfamida y esteroides, porque la nefritis tubulointersticial progresiva responde a citotóxicos en general"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Una dieta alta en purinas empeora la hiperuricemia.",
+   "B": "No existe tratamiento específico que modifique la progresión de la ADTKD. La gota se trata con inhibidores de la xantina oxidasa; la evidencia de que reducir el ácido úrico retrase la progresión renal es limitada. Se recomienda evitar la depleción de volumen, controlar la TA con IECA/ARA-II y vigilar la función renal, y planear el trasplante renal cuando llegue la ERC terminal (la enfermedad no recurre). Es esencial el consejo genético y la evaluación de familiares antes de aceptarlos como donantes.",
+   "C": "La colchicina se ajusta a la TFGe y no basta como único tratamiento.",
+   "D": "No hay mecanismo inflamatorio que justifique esteroides.",
+   "E": "La ciclofosfamida no está indicada."
+  },
+  "perla": "ADTKD: tratar la gota (alopurinol/febuxostat), nefroprotección, trasplante en ERC terminal (no recurre); genética familiar.",
+  "referencias": [
+   "Eckardt KU et al. Kidney Int 2015;88:676"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o2",
+  "peso": 26.9
+ },
+ {
+  "id": "ADK-5",
+  "serie_id": "ADK",
+  "orden": 5,
+  "sub": "10.b",
+  "subtema": "Donación de vivo en ADTKD",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El hermano menor del paciente, asintomático, de 28 años y con TFGe 95 mL/min/1.73 m², quiere donarle un riñón.",
+  "enunciado": "¿Cuál es la conducta apropiada?",
+  "opciones": {
+   "A": "Solo estudiar el ácido úrico sérico, porque la hiperuricemia es el único marcador fiable de la enfermedad por UMOD en los familiares",
+   "B": "Estudio genético dirigido (variante familiar de UMOD); si es portador se descarta como donador aunque su TFGe sea normal",
+   "C": "Aceptarlo porque tiene TFGe normal, ya que la enfermedad aún no se ha manifestado y no progresará en él",
+   "D": "Aceptarlo con alopurinol profiláctico, porque evita la progresión de la enfermedad en el donador a futuro",
+   "E": "Contraindicar la donación a todos los familiares sin estudio genético, porque la enfermedad es dominante y progresiva en la familia"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El ácido úrico no es un marcador fiable de portador a esa edad.",
+   "B": "Los familiares de un paciente con enfermedad tubulointersticial autosómica dominante tienen 50% de probabilidad de heredar la variante, y una función renal normal a los 28 años no descarta enfermedad futura, ya que la ERC aparece tardíamente. El estudio genético dirigido (variante familiar) permite excluir a los portadores y aceptar a los no portadores. La edad, la TFGe y el ácido úrico no bastan para excluir riesgo. Los donantes de vivo emparentados requieren también evaluación de riesgo a largo plazo.",
+   "C": "Una TFGe normal en joven no excluye al portador.",
+   "D": "El alopurinol no previene la nefropatía en un donador portador.",
+   "E": "No se contraindica a todos: los no portadores pueden donar."
+  },
+  "perla": "ADTKD: donador emparentado solo si no porta la variante familiar; la TFGe normal en jóvenes no descarta enfermedad.",
+  "referencias": [
+   "Eckardt KU et al. Kidney Int 2015;88:676",
+   "Lentine KL et al. Transplantation 2017;101(8S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o2",
+  "peso": 26.9
+ },
+ {
+  "id": "SEA-4",
+  "serie_id": "SEA",
+  "orden": 4,
+  "sub": "10.a",
+  "subtema": "Nefritis intersticial aguda por fármacos: sedimento y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al octavo día, el paciente mejora la diuresis, pero la creatinina vuelve a subir de 2.1 a 3.3 mg/dL, con fiebre, exantema maculopapular y eosinófilos de 8%. El sedimento ya no muestra cilindros granulosos: hay leucocituria estéril con cilindros leucocitarios.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y su manejo?",
+  "opciones": {
+   "A": "Pielonefritis bacteriana; continuar el mismo antibiótico, porque la fiebre indica infección activa y no una reacción al fármaco administrado",
+   "B": "Nefritis intersticial alérgica (probable piperacilina-tazobactam): suspender el fármaco, valorar biopsia y prednisona si no mejora",
+   "C": "Recaída de necrosis tubular aguda; aumentar la dosis del antibiótico, porque la creatinina vuelve a subir tras la mejoría inicial de la diuresis",
+   "D": "Obstrucción posrenal; sondeo vesical solamente, porque la diuresis mejoró y la creatinina subió por retención",
+   "E": "Glomerulonefritis por IgA; iniciar inmunosupresión, porque la fiebre y el exantema indican un brote inflamatorio glomerular"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La pielonefritis cursa con urocultivo positivo; aquí la leucocituria es estéril.",
+   "B": "La combinación de nuevo deterioro de la creatinina, fiebre, exantema, eosinofilia y leucocituria estéril con cilindros leucocitarios sugiere nefritis intersticial aguda por fármacos, sobre todo betalactámicos como piperacilina-tazobactam. La tríada completa solo aparece en una minoría de los casos y la eosinofiluria (Hansel) tiene baja sensibilidad y especificidad. El tratamiento es suspender el fármaco causal y, si no hay mejoría en 3 a 7 días o la lesión es grave, confirmar con biopsia e iniciar prednisona (0.5 a 1 mg/kg) durante 2 a 4 semanas con reducción gradual.",
+   "C": "Continuar o aumentar el antibiótico causal agrava la nefritis.",
+   "D": "La obstrucción no explicaría fiebre, exantema ni eosinofilia.",
+   "E": "No hay datos de hematuria glomerular ni cilindros eritrocitarios."
+  },
+  "perla": "NIA: fiebre/exantema/eosinofilia (tríada <15%), leucocituria estéril + cilindros leucocitarios. Suspender fármaco; esteroides si no mejora.",
+  "referencias": [
+   "Perazella MA, Markowitz GS. Nat Rev Nephrol 2010;6:461",
+   "Comprehensive Clinical Nephrology (nefritis intersticial)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 26.5
+ },
+ {
+  "id": "ICI-2",
+  "serie_id": "ICI",
+  "orden": 2,
+  "sub": "10.a",
+  "subtema": "Nefritis por inhibidores de puntos de control: confirmación diagnóstica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se descartan obstrucción, hipovolemia, infección y otros fármacos. El oncólogo desea reiniciar el fármaco lo antes posible y pregunta si es necesaria la biopsia.",
+  "enunciado": "¿Cuál es la conducta recomendada?",
+  "opciones": {
+   "A": "Iniciar diálisis crónica de inmediato, porque la lesión renal por inhibidores de punto de control es irreversible",
+   "B": "Suspender el inhibidor y el IBP, y confirmar con biopsia si es posible, pues define tratamiento y reinicio",
+   "C": "Continuar el inhibidor sin cambios, porque la nefritis por inhibidores de punto de control remite de forma espontánea",
+   "D": "Esperar seis meses sin intervención alguna, porque la función renal suele recuperarse sin tratamiento específico",
+   "E": "Administrar antibióticos de amplio espectro, por la sospecha de una infección urinaria oculta en el paciente oncológico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay indicación de diálisis crónica en una lesión potencialmente reversible.",
+   "B": "Ante sospecha de nefritis inmune por inhibidores de punto de control, se suspende el fármaco y se retiran los coadyuvantes que facilitan la nefritis (IBP, AINE, antibióticos). La biopsia renal permite confirmar el infiltrado intersticial de linfocitos T (a veces con granulomas), distinguir otras lesiones (necrosis tubular, microangiopatía, glomerulopatía) y orientar la inmunosupresión. En algunos pacientes con alta probabilidad y riesgo de la biopsia se trata de forma empírica. La decisión de reiniciar el inhibidor depende de la gravedad, la respuesta al tratamiento y el beneficio oncológico.",
+   "C": "Continuar el fármaco expone a daño renal progresivo.",
+   "D": "Esperar sin intervención retrasa el tratamiento.",
+   "E": "No hay infección: los antibióticos no resuelven una nefritis inmune."
+  },
+  "perla": "ICI-AIN: suspender ICI y IBP; biopsia si posible (infiltrado T ± granulomas); tratamiento guiado por grado.",
+  "referencias": [
+   "Cortazar FB et al. J Am Soc Nephrol 2020;31:435",
+   "Perazella MA, Shirali AC. J Am Soc Nephrol 2018;29:2039"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 44.7
+ },
+ {
+  "id": "LUR-3",
+  "serie_id": "LUR",
+  "orden": 3,
+  "sub": "10.b",
+  "subtema": "Nefropatía tubulointersticial autosómica dominante por uromodulina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente de 28 años tiene gota desde los 18, ácido úrico sérico de 9 mg/dL con excreción fraccional de ácido úrico baja, creatinina de 1.8 mg/dL y orina sin proteinuria ni hematuria. Su padre y su hermano tuvieron gota temprana y ERC, con cálculos de ácido úrico en el hermano.",
+  "enunciado": "¿Cuál es el gen mutado y cómo se maneja?",
+  "opciones": {
+   "A": "UMOD, enfermedad tubulointersticial dominante sin tratamiento; se maneja la gota con alopurinol",
+   "B": "PKD1, con tratamiento a base de tolvaptán para frenar el crecimiento de los quistes renales en el paciente",
+   "C": "MUC1, con trasplante renal en el que hay recurrencia de la enfermedad en el injerto de los pacientes jóvenes",
+   "D": "SLC12A3, con tratamiento con una tiazida para corregir la hipopotasemia y la hipocalciuria en el paciente",
+   "E": "COL4A5, con inhibidores del SRAA para reducir la proteinuria y retrasar la progresión de la enfermedad renal"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La enfermedad tubulointersticial autosómica dominante asociada a UMOD (antes nefropatía medular quística tipo 2) se debe a mutaciones del gen de la uromodulina, producida por la rama ascendente gruesa del asa de Henle, que se acumulan en el retículo endoplásmico. Se manifiesta con hiperuricemia y gota juvenil con excreción fraccional baja de ácido úrico, ERC lentamente progresiva con sedimento bland y poca proteinuria, riñones pequeños y quistes medulares ocasionales, con herencia familiar. No existe tratamiento específico: se manejan la gota (alopurinol), la hipertensión y la ERC, y el trasplante no recurre porque la proteína se produce en el riñón nativo. Las mutaciones de MUC1 originan una entidad similar, también sin tratamiento específico.",
+   "B": "La poliquistosis cursa con quistes y no con gota temprana.",
+   "C": "MUC1 causa una enfermedad similar, pero aquí la presentación con gota temprana y familia es típica de UMOD.",
+   "D": "SLC12A3 causa Gitelman.",
+   "E": "COL4A5 corresponde al Alport ligado al X."
+  },
+  "perla": "ADTKD-UMOD: gota juvenil + ERC lenta + sedimento bland, familiar. Sin tratamiento específico; sin recurrencia en trasplante.",
+  "referencias": [
+   "Eckardt KU et al. Kidney Int 2015;88:676 (KDIGO ADTKD)",
+   "Comprehensive Clinical Nephrology (nefropatías tubulointersticiales)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o2",
+  "peso": 47.1
+ },
+ {
+  "id": "NIA-1",
+  "serie_id": "NIA",
+  "orden": 1,
+  "sub": "10.a",
+  "subtema": "Nefritis intersticial aguda por inhibidores de la bomba de protones",
+  "dificultad": "moderada",
+  "caso": "Mujer de 66 años con reflujo gastroesofágico que toma omeprazol 40 mg al día desde hace 14 meses. Consulta por fatiga y náusea; sin fiebre, exantema ni artralgias. Creatinina de 1.0 mg/dL (hace 4 meses) a 2.4 mg/dL, K⁺ de 4.4, HCO₃ de 20 mEq/L. Eosinófilos de 3%. Orina con leucocituria estéril, algunos cilindros leucocitarios, sin hematuria; proteinuria de 0.7 g/g con predominio no albuminúrico. Ecografía renal normal.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y qué característica clínica tiene?",
+  "opciones": {
+   "A": "Necrosis tubular aguda isquémica, por hipotensión reciente, con cilindros granulosos y FeNa elevada",
+   "B": "Glomerulonefritis rápidamente progresiva, con hematuria glomerular y cilindros eritrocitarios en el sedimento",
+   "C": "Nefritis intersticial por IBP: curso insidioso sin tríada clásica, con piuria estéril y proteinuria tubular; suspender el fármaco",
+   "D": "Nefropatía obstructiva, con hidronefrosis, porque la fatiga y la náusea indican uropatía obstructiva crónica",
+   "E": "Nefropatía por IgA, con hematuria macroscópica recurrente y proteinuria, porque el omeprazol desencadena brotes de depósitos de IgA"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay hipotensión ni cilindros granulosos pardos de la NTA.",
+   "B": "No hay hematuria glomerular ni cilindros eritrocitarios que sugieran una glomerulonefritis.",
+   "C": "La nefritis tubulointersticial aguda inmunoalérgica por inhibidores de la bomba de protones puede aparecer semanas a años después de iniciar el fármaco, con un inicio insidioso y casi sin síntomas sistémicos: la tríada clásica de fiebre, exantema y eosinofilia aparece en menos de 10% de los casos (más frecuente con los antibióticos β-lactámicos). Los datos de laboratorio son una leucocituria estéril con cilindros leucocitarios, hematuria ausente o leve, proteinuria tubular de bajo grado (menos de 1 a 2 g/día, con proteínas de bajo peso molecular) y a veces acidosis tubular, glucosuria normoglucémica o hipopotasemia. Aquí, el tiempo de exposición, la creatinina en ascenso, la piuria estéril y la ecografía normal apoyan el diagnóstico. El tratamiento inicial es suspender el inhibidor de la bomba de protones y evitar el uso de otros del grupo (reactividad cruzada), con alternativas como los antagonistas H2.",
+   "D": "La ecografía no muestra hidronefrosis, lo que descarta obstrucción.",
+   "E": "La nefropatía por IgA cursa con hematuria glomerular, y el cuadro es de piuria estéril."
+  },
+  "perla": "NIA por IBP: inicio insidioso (semanas–años), tríada clásica en <10%, piuria estéril + cilindros leucocitarios, proteinuria tubular. Suspender el IBP y evitar la clase (reactividad cruzada).",
+  "referencias": [
+   "Moledina DG, Perazella MA. Clin J Am Soc Nephrol 2017;12:2046",
+   "Perazella MA, Markowitz GS. Nat Rev Nephrol 2010;6:461"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "continuacion": "",
+  "obj": "10.o1",
+  "peso": 14.5
+ },
+ {
+  "id": "NIA-2",
+  "serie_id": "NIA",
+  "orden": 2,
+  "sub": "10.a",
+  "subtema": "Diagnóstico de la nefritis intersticial aguda: eosinofiluria y biopsia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El residente solicita eosinofiluria con tinción de Hansel y un gamagrama con galio para confirmar. La paciente tomó además ibuprofeno ocasional y una cefalosporina hace 2 meses. Tras 10 días sin omeprazol, la creatinina es de 2.1 mg/dL sin mejoría franca.",
+  "enunciado": "¿Cuál es el enfoque diagnóstico más adecuado?",
+  "opciones": {
+   "A": "La biopsia está contraindicada en la nefritis intersticial por riesgo de sangrado, y el diagnóstico es clínico",
+   "B": "La eosinofiluria confirma o excluye la nefritis intersticial con alta exactitud diagnóstica",
+   "C": "El diagnóstico se hace solo por la tríada clásica de fiebre, exantema y eosinofilia, que casi siempre está presente desde el inicio",
+   "D": "La biopsia es el estándar (diagnóstico dudoso, varios fármacos o sin mejoría); eosinofiluria y galio tienen bajo rendimiento",
+   "E": "El gamagrama con galio es la prueba de elección por su alta especificidad en la nefritis intersticial aguda inducida por fármacos"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La biopsia es segura en este contexto y es la prueba definitiva.",
+   "B": "La eosinofiluria tiene sensibilidad y especificidad bajas, y no sirve como prueba única.",
+   "C": "La tríada clásica se presenta en una minoría, y su ausencia no excluye el diagnóstico.",
+   "D": "La biopsia renal es el único método que confirma la nefritis tubulointersticial aguda: muestra un infiltrado intersticial de linfocitos, plasmocitos y a veces eosinófilos y neutrófilos, edema, tubulitis y, en las etapas avanzadas, fibrosis, con glomérulos normales. Está indicada cuando el diagnóstico clínico es incierto, hay varios fármacos sospechosos (aquí, inhibidor de la bomba de protones, AINE y cefalosporina), la creatinina no mejora tras suspenderlos, o se va a iniciar un tratamiento prolongado con esteroides (para valorar el grado de fibrosis, que predice la respuesta). La eosinofiluria tiene baja sensibilidad y baja especificidad (aparece en otras enfermedades, como la nefropatía ateroembólica y la glomerulonefritis), por lo que ni la confirma ni la excluye; la tríada clásica está ausente en la mayoría de los casos, y el gamagrama con galio tiene baja especificidad y ha caído en desuso.",
+   "E": "El galio tiene baja especificidad y no se recomienda de rutina."
+  },
+  "perla": "NIA: biopsia = estándar (infiltrado intersticial, tubulitis, edema; glomérulos normales). Eosinofiluria: baja S/E; galio: abandonado; tríada clásica en minoría.",
+  "referencias": [
+   "Muriithi AK et al. Clin J Am Soc Nephrol 2013;8:1857",
+   "Moledina DG, Perazella MA. Clin J Am Soc Nephrol 2017;12:2046"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 16.5
+ },
+ {
+  "id": "NIA-3",
+  "serie_id": "NIA",
+  "orden": 3,
+  "sub": "10.a",
+  "subtema": "Tratamiento de la nefritis intersticial aguda: esteroides, momento y duración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia muestra infiltrado intersticial difuso de linfocitos, plasmocitos y eosinófilos con tubulitis y edema, con fibrosis de 10% y glomérulos normales. La creatinina se mantiene en 2.3 mg/dL a las 2 semanas de haber suspendido los fármacos, sin mejoría. Pesa 62 kg.",
+  "enunciado": "¿Cuál es la conducta terapéutica más adecuada?",
+  "opciones": {
+   "A": "Solo observación, porque los esteroides nunca ayudan en la nefritis intersticial aguda inducida por fármacos",
+   "B": "Ciclofosfamida, por ser la primera línea, porque la nefritis intersticial es una vasculitis de pequeños vasos",
+   "C": "Reiniciar el fármaco sospechoso para probar la tolerancia, porque la reexposición controlada confirma el diagnóstico",
+   "D": "Prednisona 0.5–1 mg/kg/día (máx. 60 mg) iniciada pronto, con descenso en 4–8 semanas; micofenolato si hay dependencia o recaída",
+   "E": "Esteroides a dosis bajas (5 mg/día) durante 1 año, porque la nefritis intersticial requiere inmunosupresión muy prolongada y mínima"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Con creatinina estancada y poca fibrosis, los esteroides tempranos mejoran la recuperación.",
+   "B": "La ciclofosfamida no es el tratamiento estándar de la nefritis intersticial por fármacos.",
+   "C": "Reiniciar el fármaco puede causar una recaída grave y está contraindicado.",
+   "D": "No hay ensayos aleatorizados, pero los estudios observacionales respaldan el uso de esteroides cuando la creatinina no mejora tras suspender el fármaco, con poca fibrosis en la biopsia. Se recomienda prednisona de 0.5 a 1 mg/kg/día (máximo de 60 mg; algunos inician con metilprednisolona intravenosa en casos graves), que debe empezarse temprano (los estudios muestran mejor recuperación cuando se inicia en la primera o segunda semana tras el diagnóstico, y menor recuperación cuando se demora varias semanas), con descenso gradual en un total de 4 a 8 semanas. La fibrosis intersticial extensa en la biopsia predice una respuesta pobre. Si hay dependencia de esteroides o recaída, se puede usar micofenolato. La paciente tiene fibrosis de 10%, lo que predice buena respuesta.",
+   "E": "Una dosis de 5 mg/día no tiene sustento y es subterapéutica."
+  },
+  "perla": "NIA: suspender fármaco; si no mejora y poca fibrosis → prednisona 0.5–1 mg/kg (máx 60 mg) pronto, con descenso en 4–8 sem; MMF si dependencia/recaída. Sin ECA; fibrosis extensa predice mala respuesta.",
+  "referencias": [
+   "González E et al. Kidney Int 2008;73:940",
+   "Moledina DG, Perazella MA. Clin J Am Soc Nephrol 2017;12:2046"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 16.5
+ },
+ {
+  "id": "NIA-4",
+  "serie_id": "NIA",
+  "orden": 4,
+  "sub": "10.a",
+  "subtema": "Pronóstico tras nefritis intersticial aguda y no reexposición",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 8 semanas la creatinina es de 1.5 mg/dL (nunca volvió a 1.0). La paciente quiere reanudar omeprazol por síntomas de reflujo, y un gastroenterólogo le propone cambiar a pantoprazol.",
+  "enunciado": "¿Qué se le debe aconsejar?",
+  "opciones": {
+   "A": "No requiere seguimiento, porque la nefritis intersticial siempre se recupera por completo tras suspender el fármaco",
+   "B": "Suspender cualquier medicamento antirreflujo de forma permanente, incluidos los antagonistas H2 y los antiácidos comunes del paciente",
+   "C": "Reiniciar omeprazol a dosis menor, porque la dosis baja es segura y no reproduce la nefritis intersticial",
+   "D": "Cambiar a pantoprazol, porque nunca hay reactividad cruzada entre los distintos inhibidores de la bomba de protones",
+   "E": "Evitar todos los IBP (reactividad cruzada), usar antagonistas H2 ajustados a la TFG, medidas antirreflujo y vigilar la función renal"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La recuperación puede ser incompleta, y requiere seguimiento.",
+   "B": "No es necesario suspender todo tratamiento antirreflujo; hay alternativas seguras.",
+   "C": "La reacción inmunoalérgica no depende de la dosis, y una dosis menor no la evita.",
+   "D": "Hay reactividad cruzada descrita entre los inhibidores de la bomba de protones, por lo que cambiar de uno a otro no es seguro.",
+   "E": "La reexposición al fármaco causal o a uno de la misma clase puede reactivar la nefritis (en los inhibidores de la bomba de protones se ha descrito reactividad cruzada entre miembros de la clase, y el riesgo no depende de la dosis), por lo que se evita el grupo y se documenta como una alergia a medicamentos; los antagonistas H2 (con ajuste de dosis a la TFG), los antiácidos y las medidas antirreflujo son alternativas. Tras una nefritis intersticial aguda inmunoalérgica, la recuperación puede ser incompleta: la fibrosis intersticial y la atrofia tubular persistentes dejan una TFG reducida en una parte considerable de los pacientes y un riesgo mayor de ERC, por lo que se sigue la creatinina y la albuminuria a los 3 a 6 meses y después de manera periódica."
+  },
+  "perla": "Tras NIA por IBP: no reexponer ni cambiar de IBP (reactividad cruzada); H2 con ajuste renal. Recuperación incompleta frecuente → seguimiento de TFG/albuminuria a los 3–6 meses.",
+  "referencias": [
+   "Moledina DG, Perazella MA. Clin J Am Soc Nephrol 2017;12:2046"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 16.5
+ },
+ {
+  "id": "NIX-1",
+  "serie_id": "NIX",
+  "orden": 1,
+  "sub": "10.a",
+  "subtema": "Síndrome de nefritis tubulointersticial y uveítis (TINU)",
+  "dificultad": "moderada",
+  "caso": "Mujer de 15 años con astenia, pérdida de 4 kg, fiebre baja intermitente, dolor ocular con fotofobia y ojo rojo bilateral desde hace 2 semanas. Creatinina de 1.8 mg/dL, glucosuria con glucemia normal, β2-microglobulina urinaria elevada, leucocituria estéril sin hematuria, proteinuria de 0.6 g/g. VSG de 78 mm/h. Tomó ibuprofeno de forma ocasional. Complemento y anticuerpos antinucleares normales.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Necrosis tubular aguda por AINE, que no se asocia con uveítis, con cilindros granulosos y FeNa elevada",
+   "B": "Nefritis lúpica clase IV, con hipocomplementemia y ANA positivos, porque hay fiebre y pérdida de peso",
+   "C": "Glomerulonefritis posinfecciosa, con complemento bajo, porque el ojo rojo indica una infección reciente",
+   "D": "Síndrome de Sjögren con acidosis tubular, siempre con anticuerpos anti-Ro y anti-La positivos en todos los casos descritos de la enfermedad",
+   "E": "Síndrome TINU (nefritis intersticial con uveítis anterior), inmunológico, frecuente en adolescentes; responde a esteroides"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La NTA no cursa con uveítis, piuria estéril ni β2-microglobulinuria de esta magnitud.",
+   "B": "No hay hipocomplementemia ni anticuerpos antinucleares, ni hematuria glomerular.",
+   "C": "El complemento es normal y no hay datos de glomerulonefritis aguda.",
+   "D": "El Sjögren no explicaría la uveítis anterior aguda, y los anticuerpos no son siempre positivos.",
+   "E": "El síndrome TINU asocia una nefritis tubulointersticial aguda con una uveítis, generalmente anterior, bilateral, no granulomatosa y de inicio agudo, y afecta sobre todo a adolescentes y mujeres jóvenes (mediana de edad de 15 años). Los datos renales son una elevación de la creatinina, leucocituria estéril, proteinuria tubular (β2-microglobulina urinaria elevada), glucosuria con glucemia normal y a veces acidosis tubular, con síntomas generales (astenia, fiebre, pérdida de peso, VSG elevada). La uveítis puede aparecer antes, junto con o meses después de la nefritis, y suele recurrir, de modo que se requiere seguimiento oftalmológico. Se sospecha una causa inmunológica (se han vinculado AINE, antibióticos e infecciones). El tratamiento de la nefritis se basa en esteroides sistémicos (si no hay mejoría tras suspender fármacos) con la uveítis tratada con esteroides tópicos o inmunosupresión según la gravedad."
+  },
+  "perla": "TINU: adolescente/mujer joven, nefritis intersticial + uveítis anterior bilateral (puede ser antes, durante o después), β2-microglobulinuria, glucosuria normoglucémica. Esteroides; seguimiento oftalmológico.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefritis tubulointersticial)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "continuacion": "",
+  "obj": "10.o1",
+  "peso": 14.5
+ },
+ {
+  "id": "NIX-2",
+  "serie_id": "NIX",
+  "orden": 2,
+  "sub": "10.a",
+  "subtema": "Nefritis tubulointersticial asociada con IgG4",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un hombre de 63 años tiene aumento de volumen de las glándulas submandibulares, pancreatitis autoinmune y una masa retroperitoneal. Creatinina de 2.6 mg/dL, C3 y C4 bajos, gammaglobulinas policlonales elevadas e IgG4 sérica de 420 mg/dL (normal menor de 135). La biopsia renal muestra infiltrado de plasmocitos con fibrosis en patrón estoriforme, plasmocitos IgG4 positivos (más de 10 por campo de alto aumento, relación IgG4/IgG mayor de 40%) y depósitos inmunes en las membranas basales tubulares. La TC muestra tejido retroperitoneal periaórtico sin hidronefrosis.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "opciones": {
+   "A": "Nefritis lúpica; solo hidroxicloroquina, porque el compromiso renal con C3 y C4 bajos es leve y no requiere más tratamiento",
+   "B": "Granulomatosis con poliangitis; ciclofosfamida de inicio, porque la masa retroperitoneal indica vasculitis ANCA sistémica",
+   "C": "Enfermedad por IgG4 con nefritis tubulointersticial: glucocorticoides con descenso gradual, y rituximab para recaídas",
+   "D": "Nefropatía membranosa primaria; rituximab y anticoagulación plena, porque la proteinuria y los C3 y C4 bajos la sugieren",
+   "E": "Linfoma renal primario; quimioterapia de inmediato, porque la masa retroperitoneal con adenopatías y gammaglobulinas indica neoplasia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay datos de lupus, y la hidroxicloroquina no es un tratamiento suficiente.",
+   "B": "No hay datos clínicos de vasculitis ANCA (hemorragia pulmonar, hematuria glomerular, ANCA positivos).",
+   "C": "La enfermedad relacionada con IgG4 es una enfermedad fibroinflamatoria sistémica que afecta las glándulas salivales y lagrimales, el páncreas (pancreatitis autoinmune), la aorta y el retroperitoneo y el riñón. La nefritis tubulointersticial por IgG4 muestra un infiltrado denso de plasmocitos IgG4 positivos, fibrosis en patrón estoriforme, y depósitos en las membranas basales tubulares; clínicamente hay una IgG4 sérica elevada en cerca de 70 a 80%, hipocomplementemia (C3 y C4 bajos) y gammaglobulinas policlonales. El tratamiento de primera línea son los glucocorticoides (prednisona de 0.6 mg/kg/día por 2 a 4 semanas y descenso gradual durante 3 a 6 meses), con respuesta rápida; en recaídas o para ahorrar esteroides, se usa rituximab (o azatioprina o micofenolato). La fibrosis retroperitoneal puede causar obstrucción ureteral con hidronefrosis posrenal; aquí no la hay, pero debe descartarse con imagen en todo paciente.",
+   "D": "La nefropatía membranosa produce proteinuria nefrótica y no este cuadro sistémico con fibrosis.",
+   "E": "La biopsia demuestra infiltrado de plasmocitos policlonales con IgG4, no una proliferación linfomatosa clonal."
+  },
+  "perla": "IgG4-RD renal: NTI con plasmocitos IgG4+ (>10/CAA; IgG4/IgG >40%), fibrosis estoriforme, C3/C4 bajos, IgG4 sérica ↑. Prednisona 0.6 mg/kg 2–4 sem + descenso; rituximab si recaídas. Descartar obstrucción por fibrosis retroperitoneal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefritis tubulointersticial)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 16.5
+ },
+ {
+  "id": "NIX-3",
+  "serie_id": "NIX",
+  "orden": 3,
+  "sub": "10.a",
+  "subtema": "Nefritis intersticial granulomatosa por sarcoidosis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una mujer de 45 años tiene tos seca, adenopatías hiliares bilaterales, eritema nodoso, creatinina de 2.2 mg/dL, calcio sérico de 11.4 mg/dL, calciuria elevada y leucocituria estéril. La PTH está suprimida y la 1,25-dihidroxivitamina D está elevada. La biopsia renal muestra nefritis intersticial con granulomas no caseificantes; los cultivos y la tinción para micobacterias son negativos.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento de la lesión renal?",
+  "opciones": {
+   "A": "Tuberculosis renal, que se trata con esteroides solos, porque las adenopatías hiliares y la leucocituria estéril la sugieren de forma clara",
+   "B": "Hiperparatiroidismo primario, que se trata con paratiroidectomía, porque la hipercalcemia con calciuria elevada y persistente la sugiere",
+   "C": "Intoxicación por vitamina D exógena crónica, que se trata con diuréticos de asa, porque cursa con hipercalcemia e hipercalciuria",
+   "D": "Nefritis granulomatosa por sarcoidosis (calcitriol extrarrenal): prednisona 0.5–1 mg/kg/día con descenso lento por 6–12 meses",
+   "E": "Nefritis intersticial por AINE, que se trata solo con suspender el fármaco, porque la hipercalcemia es un hallazgo secundario y tardío"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Los esteroides solos son contraproducentes si la causa es una tuberculosis, que se excluye con cultivos y tinciones.",
+   "B": "La PTH suprimida con calcitriol elevado excluye un hiperparatiroidismo primario.",
+   "C": "El calcitriol elevado se debe a la producción extrarrenal por los macrófagos, y no hay antecedente de ingesta de vitamina D.",
+   "D": "La nefritis intersticial granulomatosa (con granulomas no caseificantes) tiene como causas principales la sarcoidosis, la tuberculosis y otras micobacterias, los hongos, los fármacos y la granulomatosis con poliangitis, por lo que se descartan de forma activa las infecciones. En la sarcoidosis, los macrófagos de los granulomas expresan 1α-hidroxilasa extrarrenal y producen en exceso calcitriol, con hipercalciuria, hipercalcemia y PTH suprimida (como en este caso); además, hay hipercalciuria con nefrolitiasis y nefrocalcinosis. El tratamiento es con glucocorticoides (prednisona de 0.5 a 1 mg/kg/día) con descenso gradual en 6 a 12 meses o más, porque las recaídas tras un tratamiento corto son frecuentes; se pueden agregar ahorradores de esteroides (azatioprina, micofenolato o metotrexato) en caso de dependencia o recaída; también debe controlarse el calcio y evitar suplementos de vitamina D y calcio.",
+   "E": "Los AINE no explican la hipercalcemia, los granulomas ni las adenopatías hiliares."
+  },
+  "perla": "NTI granulomatosa: sarcoidosis, TB/micobacterias, hongos, fármacos, GPA. Sarcoide: calcitriol extrarrenal → hipercalcemia/hipercalciuria con PTH baja. Prednisona 0.5–1 mg/kg con descenso lento 6–12 meses; descartar TB.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefritis tubulointersticial)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 16.5
+ }
+]
