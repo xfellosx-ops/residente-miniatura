@@ -1,0 +1,695 @@
+{
+ "meta": {
+  "id": "16",
+  "title": "Enfermedades hereditarias",
+  "key": "rm_v3_16",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Mutante",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Núcleo del Colágeno",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "vignette": "capsula_semiluna",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 19 años: hematuria desde niño, ahora proteinuria y sordera."
+    ],
+    [
+     "Dr. J.",
+     "Un tío materno está en diálisis. Su madre «solo tiene sangre en la orina»."
+    ],
+    [
+     "Sabio Brenn",
+     "Baja al núcleo. COL4A5 está en el cromosoma X."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Trímero α3α4α5",
+     "lines": [
+      [
+       "Trímero α3α4α5",
+       "Sin α5 no me ensamblo. La membrana basal se queda con la red fetal α1α1α2."
+      ],
+      [
+       "Trímero α3α4α5",
+       "Por eso se adelgaza, se lamina y se rompe: «tejido de canasta»."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "Alport"
+    },
+    {
+     "id": "npc2",
+     "name": "Madre Heterocigota",
+     "lines": [
+      [
+       "Madre Heterocigota",
+       "No soy solo portadora. Puedo tener proteinuria y llegar a ERC."
+      ],
+      [
+       "Madre Heterocigota",
+       "Y no debo donar un riñón a mi hijo sin una valoración muy cuidadosa."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "portadoras"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Herencia",
+     "Ligada al X (COL4A5) ~80 %; autosómica (COL4A3/A4) recesiva o dominante."
+    ],
+    [
+     "Letrero · Extrarrenal",
+     "Hipoacusia neurosensorial, lenticono anterior, manchas retinianas."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "gen",
+     "specialty": "Genética",
+     "serie": "FAB",
+     "intro": [
+      [
+       "Dra. Alelo Vargas",
+       "Ligado al X: las mujeres solo transmiten. No enferman."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Alelo Vargas",
+       "Lionización… pueden progresar. Corrijo mi consejo genético."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "ATB",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Te reto con un caso: ATR proximal (tipo 2) aislada"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "RAA",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Hipoaldosteronismo hiporreninémico (ATR tipo 4)"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Membrana Laminada",
+     "type": "Molecular",
+     "topic": "Membrana Laminada"
+    },
+    {
+     "name": "Lenticono",
+     "type": "Molecular",
+     "topic": "Lenticono"
+    },
+    {
+     "name": "Variante Patogénica",
+     "type": "Molecular",
+     "topic": "Variante Patogénica"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Síndrome de Alport: genética y diagnóstico",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: las mujeres heterocigotas no son solo portadoras."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Gen y enfermedad",
+     "items": [],
+     "pairs": [
+      [
+       "COL4A5",
+       "Alport ligado al X"
+      ],
+      [
+       "GLA",
+       "Fabry (α-galactosidasa A)"
+      ],
+      [
+       "NPHS1",
+       "Nefrótico congénito finlandés"
+      ],
+      [
+       "NPHS2",
+       "GEFS resistente (podocina)"
+      ],
+      [
+       "LMX1B",
+       "Uña-rótula"
+      ],
+      [
+       "UMOD",
+       "Nefropatía tubulointersticial AD"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Hay más ramas en este árbol. Unas están en el túbulo."
+      ]
+     ]
+    }
+   ],
+   "card": "Alport: COL4A3/4/5; MBG laminada; sordera y lenticono. iSRAA temprano retrasa la falla renal. Tras trasplante: anti-MBG de novo (raro)."
+  },
+  {
+   "id": "z2",
+   "name": "Túbulos Heredados",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "rio_sangre",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Bartter es furosemida genética. Gitelman es tiazida genética."
+    ],
+    [
+     "Sabio Brenn",
+     "Liddle es un ENaC que no se apaga: hipertensión con renina y aldosterona bajas."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Gitelman",
+     "lines": [
+      [
+       "Gitelman",
+       "NCC apagado: potasio bajo, magnesio bajo, calcio urinario bajo."
+      ],
+      [
+       "Gitelman",
+       "Adolescente o adulto con calambres y presión normal."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "Gitelman"
+    },
+    {
+     "id": "npc2",
+     "name": "Bartter",
+     "lines": [
+      [
+       "Bartter",
+       "NKCC2, ROMK o ClC-Kb fuera de servicio. Calcio urinario alto."
+      ],
+      [
+       "Bartter",
+       "Empiezo antes: polihidramnios, retraso del crecimiento, nefrocalcinosis."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "Bartter"
+    },
+    {
+     "id": "npc3",
+     "name": "Cistina",
+     "lines": [
+      [
+       "Cistina",
+       "Soy un cristal hexagonal. Fallan rBAT o b0,+AT y no me reabsorben."
+      ],
+      [
+       "Cistina",
+       "Agua, álcali y, si hace falta, tiopronina."
+      ]
+     ],
+     "gift": null,
+     "recall": "cistinuria"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · HTA monogénica",
+     "Liddle (ENaC): amilorida. GRA: dexametasona. AME: 11β-HSD2. Gordon: tiazida."
+    ],
+    [
+     "Letrero · Fabry",
+     "Cuerpos de cebra, angioqueratomas, acroparestesias, córnea verticilada."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "HMG",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hipopotasemia con hipertensión: aldosteronismo primario. No hay más."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Renina y aldosterona bajas… Liddle. Hay más."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 2
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "NDI",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Diabetes insípida nefrogénica hereditaria"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "ACB",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Tubulopatías: Gitelman y Bartter"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "ENaC Hiperactivo",
+     "type": "Molecular",
+     "topic": "ENaC Hiperactivo"
+    },
+    {
+     "name": "Gb3 Acumulado",
+     "type": "Molecular",
+     "topic": "Gb3 Acumulado"
+    },
+    {
+     "name": "Cristal Hexagonal",
+     "type": "Molecular",
+     "topic": "Cristal Hexagonal"
+    },
+    {
+     "name": "Acuaporina Muda",
+     "type": "Molecular",
+     "topic": "Acuaporina Muda"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Tubulopatías hereditarias: Bartter, Gitelman y Liddle",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Calcio urinario: alto en Bartter, bajo en Gitelman. Con eso basta."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Síndrome y firma",
+     "items": [],
+     "pairs": [
+      [
+       "Gitelman",
+       "Hipocalciuria + hipomagnesemia"
+      ],
+      [
+       "Bartter",
+       "Hipercalciuria, inicio temprano"
+      ],
+      [
+       "Liddle",
+       "HTA, renina y aldosterona bajas"
+      ],
+      [
+       "Gordon",
+       "HTA + hiperpotasemia; tiazida"
+      ],
+      [
+       "DI nefrogénica",
+       "AVPR2 ligado al X o AQP2"
+      ],
+      [
+       "Fanconi (cistinosis)",
+       "Glucosuria, fosfaturia, ATR 2"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Proteinuria en ascenso pese a IECA. El mutante se muestra."
+      ]
+     ]
+    }
+   ],
+   "card": "Bartter = asa (↑Ca urinario). Gitelman = tiazida (↓Ca urinario, ↓Mg). Liddle = ENaC (amilorida). Fabry: GLA, cuerpos de cebra, reemplazo enzimático o migalastat."
+  }
+ ],
+ "boss": {
+  "name": "El Mutante",
+  "color": "#16A085",
+  "dark": "#0a3a30",
+  "heads": 1,
+  "intro": [
+   [
+    "El Mutante",
+    "No me contagiaste ni me provocaste. Vengo escrito desde antes."
+   ],
+   [
+    "Dr. J.",
+    "Herencia, certeza diagnóstica y protección temprana."
+   ]
+  ],
+  "outro": [
+   [
+    "El Mutante",
+    "Sigo en el genoma. Pero más lento."
+   ],
+   [
+    "Sabio Brenn",
+    "No se cura el gen. Se le ganan años a la nefrona."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Herencia",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Mutante",
+      "¿Quién más me lleva en tu familia?"
+     ]
+    ],
+    "topics": [
+     "Herencia"
+    ],
+    "questions": [
+     "BGT-1",
+     "BGT-2",
+     "BGT-3"
+    ]
+   },
+   {
+    "name": "Diagnóstico de certeza",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Mutante",
+      "¿Gen o biopsia?"
+     ]
+    ],
+    "topics": [
+     "Diagnóstico de certeza"
+    ],
+    "questions": [
+     "BGT-4",
+     "BGT-5"
+    ]
+   },
+   {
+    "name": "Tubulopatías",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Mutante",
+      "Ahora soy un transportador roto."
+     ]
+    ],
+    "topics": [
+     "Tubulopatías"
+    ],
+    "questions": [
+     "ALP-1",
+     "ALP-2",
+     "ALP-3"
+    ]
+   },
+   {
+    "name": "Nefroprotección y trasplante",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Mutante",
+      "¿Y quién te dona?"
+     ]
+    ],
+    "topics": [
+     "Nefroprotección y trasplante"
+    ],
+    "questions": [
+     "ALP-4",
+     "ALP-5"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Núcleo del Colágeno",
+   "text": "Alport: COL4A3/4/5; MBG laminada; sordera y lenticono. iSRAA temprano retrasa la falla renal. Tras trasplante: anti-MBG de novo (raro)."
+  },
+  {
+   "title": "Túbulos Heredados",
+   "text": "Bartter = asa (↑Ca urinario). Gitelman = tiazida (↓Ca urinario, ↓Mg). Liddle = ENaC (amilorida). Fabry: GLA, cuerpos de cebra, reemplazo enzimático o migalastat."
+  }
+ ]
+}
