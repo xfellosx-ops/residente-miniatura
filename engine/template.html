@@ -73,7 +73,7 @@ canvas{display:block;width:100%;image-rendering:pixelated;image-rendering:crisp-
 <div id="alert"><h2>¡ALERTA!</h2><p>Toca el objetivo 3 veces.<br>Si se repite: ponte de pie, camina o toma agua 2 minutos.</p><button id="tgt">AQUÍ</button></div>
 <script>
 "use strict";
-const LEVELS=__LEVELS__, REGIONS=__REGIONS__;
+const LEVELS=__LEVELS__, REGIONS=__REGIONS__, TEMARIO=__TEMARIO__;
 /* nivel en curso: el que eligió el mapa (rm_cur) o el primero del archivo */
 const CUR=(()=>{try{return localStorage.getItem("rm_cur")}catch(e){return null}})();
 const LV=LEVELS.find(l=>l.story.meta.id===CUR)||LEVELS[0];
@@ -499,10 +499,59 @@ function title(){MODE="title";clearAll();cx.fillStyle="#0f380f";cx.fillRect(0,0,
  const go=()=>{unlockAudio();if(!S.flags.in_0){MODE="dialog";return enterZone(0)}if(S.boss&&!S.done)return bossArena();enterZone(S.zone,true)};$("#t1").onclick=go;KEYA=go;if(LEVELS.length>1){$("#t1").insertAdjacentHTML("afterend",'<button class="btn" id="t4">🗺 MAPA</button>');$("#t4").onclick=()=>mapa(title)}$("#t2").onclick=()=>pvt(title);$("#t3").onclick=()=>review(title)}
 /* mapa de regiones: elegir nivel recarga la página con ese nivel */
 function mapa(back){MODE="dialog";clearAll();const built=new Set(LEVELS.map(l=>l.story.meta.id));
- pn.innerHTML='<div class="who">🗺 MAPA · '+Object.keys(G.done).length+' superados</div>'+REGIONS.map(r=>'<div class="box small"><b>Región '+r.id+' · '+esc(r.name)+'</b> <span class="tag">ACTO '+esc(r.acto)+'</span><br>'+r.levels.map(([id,name])=>built.has(id)?'<button class="opt" data-lv="'+esc(id)+'"><b>'+(G.done[id]?'✓':'▶')+'</b>'+esc(id+' · '+name)+(id===META.id?' · AQUÍ':'')+'</button>':'<div class="small" style="opacity:.55;margin:3px 0">🔒 '+esc(id+' · '+name)+' (en construcción)</div>').join("")+'</div>').join("")+'<div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
+ pn.innerHTML='<div class="who">🗺 MAPA · '+Object.keys(G.done).length+' superados</div>'+REGIONS.map(r=>'<div class="box small"><b>Región '+r.id+' · '+esc(r.name)+'</b> <span class="tag">ACTO '+esc(r.acto)+'</span><br>'+r.levels.map(([id,name])=>built.has(id)?'<button class="opt" data-lv="'+esc(id)+'"><b>'+(G.done[id]?'✓':'▶')+'</b>'+esc(id+' · '+name)+(id===META.id?' · AQUÍ':'')+'</button>':'<div class="small" style="opacity:.55;margin:3px 0">🔒 '+esc(id+' · '+name)+' (en construcción)</div>').join("")+'</div>').join("")+'<div class="row"><button class="btn" id="tw">🏛 TORRE DEL CONSEJO</button><button class="btn alt" id="bk">ATRÁS</button></div>';$("#tw").onclick=()=>torre(()=>mapa(back));
  pn.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>{const id=b.dataset.lv;if(id===META.id)return back();try{localStorage.setItem("rm_cur",id)}catch(e){}location.reload()});
  $("#bk").onclick=back;KEYA=back}
-window.__G={LEVELS,get S(){return S},get MODE(){return MODE},get MAP(){return MAP},get BAT(){return BAT},get RIV(){return RIV},ALL,STORY,PLAN,KEY};
+/* ================= Torre del Consejo: 300 preguntas mezcladas de todos los niveles ================= */
+const TB={};LEVELS.forEach(l=>(l.bank||[]).forEach(q=>{if(q&&q.id&&q.opciones&&!TB[q.id])TB[q.id]=q}));
+const TKEY="rm_torre";
+function tSeries(id){return Object.values(TB).filter(q=>q.serie_id===id).sort((a,b)=>a.orden-b.orden)}
+function tLoad(){try{return JSON.parse(localStorage.getItem(TKEY))||{}}catch(e){return {}}}
+function tSave(o){try{localStorage.setItem(TKEY,JSON.stringify(o))}catch(e){}}
+/* muestra ponderada por el peso de cada tema en el temario; los casos seriados van completos y en orden */
+function torreBuild(n){const by={},seen=new Set();Object.values(TB).sort((a,b)=>a.orden-b.orden).forEach(q=>{if(seen.has(q.serie_id))return;seen.add(q.serie_id);(by[q.tema_id]=by[q.tema_id]||new Set()).add(q.serie_id)});
+ const tot=Object.keys(by).reduce((a,k)=>a+(TEMARIO[k]||10),0);const out=[];let left=[];
+ Object.keys(by).forEach(k=>{let quota=Math.round(n*(TEMARIO[k]||10)/tot),c=0;shuf([...by[k]]).forEach(s=>{const qs=tSeries(s);if(c<quota){out.push(qs);c+=qs.length}else left.push(qs)})});
+ let flat=shuf(out);let cnt=flat.reduce((a,s)=>a+s.length,0);left=shuf(left);
+ while(cnt<n&&left.length){const s=left.pop();flat.push(s);cnt+=s.length}
+ flat=shuf(flat);const ids=[];for(const s of flat){for(const q of s){if(ids.length<n)ids.push(q.id)}}return ids}
+function torreFails(){const ids=new Set();LEVELS.forEach(l=>{try{const s=JSON.parse(localStorage.getItem(l.story.meta.key));Object.entries((s&&s.srs)||{}).forEach(([id,r])=>{if(r.last===0&&TB[id])ids.add(id)})}catch(e){}});
+ Object.entries(tLoad().fails||{}).forEach(([id,v])=>{if(v&&TB[id])ids.add(id)});return [...ids]}
+function torre(back){MODE="dialog";clearAll();held=null;const T0=tLoad(),done=Object.keys(G.done).length,fl=T0.floors||{},fails=torreFails();
+ $("#ttl").textContent="TORRE DEL CONSEJO";cx.fillStyle="#1a0a1e";cx.fillRect(0,0,160,96);for(let i=0;i<6;i++){px(56+i*3,78-i*13,48-i*6,12,i===5?"#c23a7a":"#6a1f5e");px(76,82-i*13,8,6,"#f2c94c")}
+ pn.innerHTML='<div class="who">🏛 TORRE DEL CONSEJO</div><div class="box small">La Esclerosis tomó la torre. 6 pisos de 50 preguntas de todos los temas, ponderadas por el temario. Niveles superados: '+done+'/'+LEVELS.length+'.'+(T0.best?' Mejor examen: '+T0.best+' %.':'')+'</div>'+
+  (T0.run&&T0.run.ids&&T0.run.i<T0.run.ids.length?'<button class="opt" id="tr"><b>▶</b>Continuar '+esc(T0.run.label)+' ('+T0.run.i+'/'+T0.run.ids.length+')</button>':'')+
+  '<button class="opt" id="t0"><b>0</b>Antesala · Revancha de errores ('+fails.length+')</button>'+
+  [1,2,3,4,5,6].map(k=>'<button class="opt" data-fl="'+k+'"><b>'+(fl[k]!=null?'✓':k)+'</b>Piso '+k+(k===6?' · La Esclerosis':' · entrenamiento')+(fl[k]!=null?' · '+fl[k]+' %':'')+'</button>').join("")+
+  '<div class="who" style="margin-top:6px">MODO EXAMEN · 300 de corrido, sin explicación hasta el final</div><div class="row">'+[60,72,90].map(s=>'<button class="btn alt" data-ex="'+s+'">'+s+' s/preg</button>').join("")+'</div><div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
+ const go=(run)=>{tSave(Object.assign(tLoad(),{run}));torreRun(back)};
+ if($("#tr"))$("#tr").onclick=()=>torreRun(back);
+ $("#t0").onclick=()=>{if(!fails.length)return modal("No tienes preguntas falladas pendientes. ¡Sube a los pisos!");go({label:"Revancha de errores",ids:shuf(fails),i:0,ans:{},fb:true,kind:"rev"})};
+ pn.querySelectorAll("[data-fl]").forEach(b=>b.onclick=()=>{const k=+b.dataset.fl;go({label:"Piso "+k,ids:torreBuild(50),i:0,ans:{},fb:true,kind:"floor",floor:k})});
+ pn.querySelectorAll("[data-ex]").forEach(b=>b.onclick=()=>{const s=+b.dataset.ex;modal("Examen completo: 300 preguntas, "+Math.round(300*s/60)+" minutos. El avance se guarda si cierras. ¿Listo?",()=>go({label:"Examen",ids:torreBuild(300),i:0,ans:{},fb:false,kind:"exam",left:300*s}),"EMPEZAR")});
+ $("#bk").onclick=back;KEYA=null}
+function torreRun(back){const T0=tLoad(),R=T0.run;if(!R)return torre(back);MODE="dialog";clearAll();const sv=()=>{T0.run=R;tSave(T0)};
+ if(R.left!=null)every(()=>{if(alertOn)return;R.left--;const e=$("#tclk");if(e)e.textContent=fmtClock(R.left);if(R.left%15===0)sv();if(R.left<=0){clearAll();fin()}},1000);
+ const fin=()=>{clearAll();const ids=R.ids,ok=ids.filter(id=>R.ans[id]===TB[id].clave).length,pct=Math.round(100*ok/ids.length);T0.fails=T0.fails||{};ids.forEach(id=>{if(R.ans[id]===TB[id].clave)delete T0.fails[id];else T0.fails[id]=1});
+  const by={};ids.forEach(id=>{const q=TB[id],b=by[q.tema]=by[q.tema]||[0,0];b[1]++;if(R.ans[id]===q.clave)b[0]++});
+  if(R.kind==="floor"){T0.floors=T0.floors||{};T0.floors[R.floor]=Math.max(T0.floors[R.floor]||0,pct)}if(R.kind==="exam")T0.best=Math.max(T0.best||0,pct);T0.run=null;tSave(T0);sfx.lvl();
+  const rows=Object.entries(by).sort((a,b)=>a[1][0]/a[1][1]-b[1][0]/b[1][1]).map(([k,v])=>esc(k)+': '+v[0]+'/'+v[1]).join("<br>");
+  const win=R.kind==="exam"&&pct>=70;
+  pn.innerHTML='<div class="who">'+esc(R.label.toUpperCase())+' · RESULTADO</div><div class="box"><b>'+ok+' / '+ids.length+' ('+pct+' %)</b>'+(R.kind==="exam"?'<br>'+(win?'La Esclerosis cae. El director despierta y Hemo-Eterna se disuelve.':'La Esclerosis resiste. Repasa lo más débil y vuelve.'):'')+'</div><details class="box small"'+(R.kind==="exam"?' open':'')+'><summary>▸ Por tema, del más débil al más fuerte</summary>'+rows+'</details><div class="row"><button class="btn" id="tb">VOLVER A LA TORRE</button></div>';
+  $("#tb").onclick=()=>torre(back);KEYA=()=>$("#tb").click()};
+ const show=()=>{if(R.i>=R.ids.length)return fin();const q=TB[R.ids[R.i]];const ctx=tSeries(q.serie_id).filter(x=>x.orden<=q.orden).flatMap(x=>[x.caso,x.continuacion]).filter(Boolean);const L=Object.keys(q.opciones);
+  let h='<div class="who">🏛 '+esc(R.label)+' · '+(R.i+1)+'/'+R.ids.length+(R.left!=null?' · ⏱ <span id="tclk">'+fmtClock(R.left)+'</span>':'')+'</div>';
+  if(ctx.length){const last=ctx[ctx.length-1],prev=ctx.slice(0,-1);h+='<div class="box case">'+(prev.length?'<details><summary class="small">▸ Caso previo</summary><span class="small">'+prev.map(esc).join("<br>")+'</span></details>':'')+esc(last)+'</div>'}
+  h+='<div class="q" data-id="'+esc(q.id)+'" data-torre="1">'+esc(q.enunciado)+'</div>'+L.map(k=>'<button class="opt" data-l="'+k+'"><b>'+k+'</b>'+esc(q.opciones[k])+'</button>').join("")+'<div class="row"><button class="btn alt" id="tq">GUARDAR Y SALIR</button></div>';
+  pn.innerHTML=h;pn.scrollTop=0;const btns=[...pn.querySelectorAll(".opt")];let sel=-1;KEYA=()=>{if(sel>=0)btns[sel].click()};KEYNAV=d=>{sel=(sel+(d==="down"||d==="right"?1:-1)+btns.length)%btns.length;btns.forEach((b,i)=>b.classList.toggle("sel",i===sel))};
+  $("#tq").onclick=()=>{KEYNAV=null;sv();clearAll();torre(back)};
+  btns.forEach(b=>b.onclick=()=>{const l=b.dataset.l;R.ans[q.id]=l;R.i++;KEYNAV=null;sv();if(!R.fb)return show();const ok=l===q.clave;ok?sfx.ok():sfx.bad();
+   btns.forEach(x=>{x.disabled=true;if(x.dataset.l===q.clave)x.classList.add("ok");else if(x.dataset.l===l)x.classList.add("bad")});const ex=q.explicaciones||{};
+   pn.insertAdjacentHTML("beforeend",'<div class="box"><b>'+(ok?"¡Correcto!":"Incorrecto.")+'</b> '+esc(clip(ex[q.clave]||"",40))+'</div>'+(q.perla?'<details class="box small"><summary>▸ Ver más</summary><b>Perla:</b> '+esc(q.perla)+(ok||!ex[l]?'':'<br><b>Tu opción:</b> '+esc(ex[l]))+'</details>':'')+'<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button></div>');
+   const c=$("#cont");KEYA=()=>c.click();c.onclick=show;c.scrollIntoView&&c.scrollIntoView({block:"nearest"})})};
+ show()}
+function fmtClock(s){s=Math.max(0,s|0);const h=(s/3600)|0,m=((s%3600)/60)|0,x=s%60;return (h?h+":":"")+String(m).padStart(h?2:1,"0")+":"+String(x).padStart(2,"0")}
+window.__G={TB,torreBuild,LEVELS,get S(){return S},get MODE(){return MODE},get MAP(){return MAP},get BAT(){return BAT},get RIV(){return RIV},ALL,STORY,PLAN,KEY};
 title();requestAnimationFrame(loop);
 </script>
 </body>

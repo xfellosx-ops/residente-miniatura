@@ -8,6 +8,7 @@ root = pathlib.Path(__file__).parent
 t = (root / "engine/template.html").read_text(encoding="utf-8")
 regions = json.loads((root / "data/regiones.json").read_text(encoding="utf-8"))
 order = [lv[0] for r in regions for lv in r["levels"]]
+TEMARIO = {str(x["id"]): x.get("meta", 10) for x in json.loads((root / "data/temario.json").read_text(encoding="utf-8"))}
 ROSTER = json.loads((root / "data/criaturas.json").read_text(encoding="utf-8"))
 
 def load(lvl, name, default):
@@ -27,7 +28,7 @@ def level(lvl):
 
 dump = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
 def write(levels, title, names):
-    out = t.replace("__TITLE__", html.escape(title)).replace("__LEVELS__", dump(levels)).replace("__REGIONS__", dump(regions))
+    out = t.replace("__TITLE__", html.escape(title)).replace("__LEVELS__", dump(levels)).replace("__REGIONS__", dump(regions)).replace("__TEMARIO__", dump(TEMARIO))
     (root / "dist").mkdir(exist_ok=True)
     for n in names: (root / "dist" / n).write_text(out, encoding="utf-8")
     print("dist/" + " y dist/".join(names), len(out), "bytes,", len(levels), "nivel(es)")
