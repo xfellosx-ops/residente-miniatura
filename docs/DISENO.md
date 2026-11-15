@@ -80,10 +80,10 @@ Temas con muchas entidades pequeñas (tóxicos, cristales): un súbdito por clas
 6. Ideas aprobadas sin implementar: apuesta de confianza, modo guardia (caso sorpresa), prueba de entrada por tema que acorta o alarga el nivel, recuerdo escrito con teclado, arte y sonido mejores.
 
 ## 7. Pendientes de contenido
-- **9-6:** `q_banco.json` está vacío a propósito: las 14 preguntas de ANCA/anti-MBG del banco (series `ANCA`, `ANB`, `GBM`, `AGB`; varias recordadas `…26`) tienen sesgo de longitud fuerte. Alfredo pidió esperar su versión corregida; cuando llegue, copiarlas y repartirlas entre jefe y entrenadores (regla 6).
+- **Banco corregido integrado (15 nov 2026):** `data/bank.json`, `temario.json` y `competencias.json` vienen de la app de Alfredo. 9-6 usa sus 14 preguntas de ANCA/anti-MBG (`ANCA` y `GBM` en el jefe, `ANB` con Valeria en z2, `AGB` con Don Solvente en z4); `q_banco.json` de lupus se actualizó a la versión corregida con los mismos `id`. En ese subconjunto la correcta aún es la más larga en 4/14 (ANCA-3, GBM-1, GBM-3, ANB-3) y 5/13 de lupus; ANCA-1 y ANCA-4 tienen una opción fuera de ±25 %.
 - **9-5 (regla 4):** `validate_story.py` avisa más de 4 cuadros seguidos al entrar en z1, z2, z6, z7 y z10, y en intro del jefe + fase 1. Recortar con Alfredo.
 - Verificar en PubMed los PMID del guion de lupus (`levels/9-5-lupus/guion.md`, refs. 1–5, 18–23, 25) y los puntos marcados `[VERIFICAR]`.
-- `q_banco.json` de lupus: nomenclatura "IV-G (A)" obsoleta (ISN/RPS 2018 la eliminó) y sesgo de longitud.
+- `q_banco.json` de lupus: la nomenclatura "IV-G (A)" obsoleta (ISN/RPS 2018 la eliminó) sigue en LN-2 y LNB-2 aun en la versión corregida.
 - Temas con pocas preguntas en el banco (1, 3, 10, 11): generar casos nuevos.
 - Borradores KDIGO a incorporar: LRA/AKD 2026 (nivel 6) y diabetes y ERC 2026 (nivel 8).
 - Bibliografía oficial del Consejo: Brenner 9.ª, Comprehensive 5.ª, Primer NKF, Daugirdas, Danovitch, Rose, Graff, UpToDate. Alfredo puede subir capítulos; los términos de Elsevier restringen su uso con IA, es decisión suya.

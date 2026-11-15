@@ -5,9 +5,9 @@
 | Zona | Escala | Qué enseña | Entrenadores | Minijuegos | Se une |
 |---|---|---|---|---|---|
 | 1 Urgencias Pulmón-Riñón | Órgano | GNRP, diferencial pulmón-riñón, tratar sin esperar, TMP-SMX | Dra. Triaje (serie URG) | Ruta de la GNRP (algoritmo) | Metil Pulso, Rituxi |
-| 2 Torrente de Neutrófilos | Molecular | Priming, PR3/MPO, NET, asa C5a–C5aR, fármacos inductores, PR3 vs MPO | Levamisol (nefrotóxico), Valeria | Cascada del neutrófilo, río de fármacos | Avaco |
+| 2 Torrente de Neutrófilos | Molecular | Priming, PR3/MPO, NET, asa C5a–C5aR, fármacos inductores, PR3 vs MPO | Levamisol (nefrotóxico), Valeria (serie ANB del banco) | Cascada del neutrófilo, río de fármacos | Avaco |
 | 3 Ovillo Necrosante | Histología | Pauci-inmune, Berden, ARRS, Chapel Hill, GPA/GEPA, ANCA negativo | Dra. Hematoxilina (serie PAT) | Biopsias gemelas (memorama) | Ciclo |
-| 4 Acantilado del Colágeno IV | Ultraestructura | α3(IV) NC1, HLA-DR15, segundo golpe, DLCO, tratamiento, Levy, Alport postrasplante, imlifidase | Don Solvente (nefrotóxico), Dr. Espiro (serie NEU) | Plan anti-MBG, escudos de Levy | Plex |
+| 4 Acantilado del Colágeno IV | Ultraestructura | α3(IV) NC1, HLA-DR15, segundo golpe, DLCO, tratamiento, Levy, Alport postrasplante, imlifidase | Don Solvente (serie AGB del banco), Dr. Espiro (serie NEU) | Plan anti-MBG, escudos de Levy | Plex |
 | 5 Valle del Mantenimiento | Clínica | RTX vs AZA, duración, ANCA persistente, IgG baja, trasplante | Dr. Holístico (serie MI), Valeria | Escudos de ensayo | Aza |
 
 **Jefe:** La Quimera Pulmón-Riñón (dos cabezas: ANCA y línea). Fases: diagnóstico → inducción → recambio y esteroide (PEXIVAS, ADVOCATE) → la sombra del mantenimiento (aparece La Esclerosis). Serie `JEFE` en `q_extra.jefeC`.
@@ -20,5 +20,6 @@
 
 Los demás datos (RAVE, RITUXVAS, PEXIVAS, MAINRITSAN, IMPROVE, CYCLOPS, REMAIN, Berden, Chapel Hill 2012, consenso ANCA 2017, imlifidase fase 2) se citan por revista, volumen y página, sin PMID. **[VERIFICAR]** en PubMed antes de publicar: McGrath 2011 (levamisol), Robson 2022 (criterios GPA) y Lyons 2012 (genética PR3/MPO).
 
-## Pendiente
-- `q_banco.json` vacío hasta tener la versión corregida (sin sesgo de longitud) de las series `ANCA`, `ANB`, `GBM` y `AGB` de `data/bank.json`. Son prioridad para el jefe y los entrenadores (regla 6).
+## Preguntas del banco de Alfredo (`q_banco.json`, versión corregida)
+- Jefe: `GBM-1`, `ANCA-1` (fase 1) · `ANCA-2`, `GBM-2` (fase 2) · `ANCA-3` (fase 3) · `ANCA-4`, `GBM-3` (fase 4), antes de la serie `JEFE`.
+- Valeria (z2): serie `ANB` (recordadas de examen). Don Solvente (z4): serie `AGB`.
