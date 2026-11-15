@@ -4,6 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>El Residente Miniatura · __TITLE__</title>
+<!--PWA-->
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap">
 <style>
 :root{--d:#0f380f;--m:#306230;--l:#8bac0f;--x:#9bbc0f;--ink:#0f380f}
@@ -593,6 +594,8 @@ function partida(back){MODE="title";clearAll();const nlv=Object.keys(G.done).len
  $("#p4").onclick=async()=>{msg(await bajar("residente-miniatura.html",gameFile(),"text/html")?"Juego descargado. Ábrelo desde tus archivos con el navegador.":"No se descargó.")};
  $("#bk").onclick=back;KEYA=null}
 syncInit();
+/* app instalable (solo en la versión alojada con manifest): caché para jugar sin conexión y almacenamiento persistente */
+if(document.querySelector('link[rel=manifest]')&&"serviceWorker" in navigator){navigator.serviceWorker.register("sw.js").catch(()=>{});try{navigator.storage&&navigator.storage.persist&&navigator.storage.persist()}catch(e){}}
 window.__G={exportar,importar,gameFile,SYNC,syncPush,TB,torreBuild,LEVELS,get S(){return S},get MODE(){return MODE},get MAP(){return MAP},get BAT(){return BAT},get RIV(){return RIV},ALL,STORY,PLAN,KEY};
 title();requestAnimationFrame(loop);
 </script>

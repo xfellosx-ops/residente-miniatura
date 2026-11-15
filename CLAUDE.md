@@ -4,6 +4,7 @@ Videojuego educativo estilo Pokémon Gen III (HTML/JS, canvas 160×96) para que 
 
 ## Comandos
 - `npm install` (una vez) · `python3 build.py` → `dist/index.html` (juego completo: mapa, 32 niveles y Torre) · `python3 build.py levels/<nivel>` → `dist/<id>.html` (un nivel)
+- `python3 build.py --pwa` → `docs/` (app instalable que GitHub Pages sirve desde la rama, carpeta `/docs`: `index.html`, `sw.js`, `manifest.webmanifest`, iconos). **Vuelve a correrlo y haz commit de `docs/` cada vez que cambie el juego**, o los dispositivos no reciben la versión nueva.
 - `python3 tools/nivel.py [id…]` → regenera los niveles compactos desde `levels/_specs/*.py` (no edites a mano su `story.json`, `q_extra.json` ni `q_banco.json`)
 - `npm test` → construye y juega **todos** los niveles con un autómata (modo correcto y con 35 % de errores), y prueba el mapa y la Torre; `npm test -- levels/<nivel>` juega solo uno. Todo debe decir `PASA`.
 - `python3 tools/validate_story.py levels/<nivel>/story.json`
