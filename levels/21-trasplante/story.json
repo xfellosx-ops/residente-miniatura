@@ -1,0 +1,917 @@
+{
+ "meta": {
+  "id": "21",
+  "title": "Trasplante renal",
+  "key": "rm_v3_21",
+  "arena": "ARENA DEL INJERTO",
+  "bossShort": "Rechazo",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Laboratorio de Histocompatibilidad",
+   "palette": [
+    "#E0F8D0",
+    "#88C070",
+    "#346856",
+    "#081820"
+   ],
+   "tiles": "bosque",
+   "vignette": "ganglio",
+   "join": [
+    "sonda",
+    "mmf"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer de 35 años, trasplante de su hermana hace un año. Dejó el tacrolimus unos días."
+    ],
+    [
+     "Dr. J.",
+     "Creatinina de 1.1 a 1.9 y anticuerpos donante-específicos de novo."
+    ],
+    [
+     "Valeria",
+     "Hola. Volví. Esta vez no traigo tarjetas: traigo preguntas. ¿Te ayudo?"
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Célula Presentadora",
+     "lines": [
+      [
+       "Célula Presentadora",
+       "Vía directa: la célula del donante presenta su propio HLA. Rechazo temprano."
+      ],
+      [
+       "Célula Presentadora",
+       "Indirecta: la del receptor presenta péptidos del donante. Rechazo crónico y anticuerpos."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "alorreconocimiento"
+    },
+    {
+     "id": "npc2",
+     "name": "Prueba Cruzada",
+     "lines": [
+      [
+       "Prueba Cruzada",
+       "Citotoxicidad, citometría de flujo y virtual con antígeno único."
+      ],
+      [
+       "Prueba Cruzada",
+       "Citotoxicidad T positiva: no se trasplanta."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "prueba cruzada"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Compatibilidad",
+     "HLA-A, B y DR: DR pesa más. Los DSA de clase II (DQ) de novo son los más frecuentes."
+    ],
+    [
+     "Letrero · Inducción",
+     "Basiliximab en riesgo bajo; timoglobulina en riesgo alto."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "valeria",
+     "specialty": "Rival",
+     "serie": "EMT",
+     "intro": [
+      [
+       "Dra. Valeria Montes",
+       "No es reto: es repaso. Si fallas, te explico por qué. Ahora sí sé."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Valeria Montes",
+       "Bien. La no adherencia es la primera causa de DSA de novo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "NTX",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Neoplasia en receptora: ajuste de inmunosupresión"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "TCMR",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Te reto con un caso: Rechazo celular agudo: clasificación de Banff"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Anticuerpo Anti-HLA",
+     "type": "Humoral",
+     "topic": "Anticuerpo Anti-HLA"
+    },
+    {
+     "name": "Linfocito Alorreactivo",
+     "type": "Celular",
+     "topic": "Linfocito Alorreactivo"
+    },
+    {
+     "name": "PRA Alto",
+     "type": "Humoral",
+     "topic": "PRA Alto"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Inmunobiología: alorreconocimiento y pruebas cruzadas",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Directa, temprana. Indirecta, tardía. Y los anticuerpos nacen de la segunda."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Fármaco y blanco",
+     "items": [],
+     "pairs": [
+      [
+       "Tacrolimus",
+       "Calcineurina → NFAT → IL-2"
+      ],
+      [
+       "Micofenolato",
+       "IMPDH: purinas de novo"
+      ],
+      [
+       "Sirolimus / everolimus",
+       "mTOR"
+      ],
+      [
+       "Basiliximab",
+       "CD25 (receptor de IL-2)"
+      ],
+      [
+       "Timoglobulina",
+       "Depleción de linfocitos T"
+      ],
+      [
+       "Belatacept",
+       "Coestimulación CD80/86"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Valeria",
+       "Perdí contra el C-ANCA por memorizar. Aquí entendí. Vengo como aliada."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Entra al injerto. Los capilares peritubulares te van a hablar."
+      ]
+     ]
+    }
+   ],
+   "card": "Directa (temprana) e indirecta (tardía, DSA). Tacrolimus: calcineurina-NFAT-IL-2. DSA de novo: no adherencia. Inducción según riesgo."
+  },
+  {
+   "id": "z2",
+   "name": "Capilares Peritubulares",
+   "palette": [
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
+   ],
+   "tiles": "delta",
+   "vignette": "delta_endocapilar",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Rechazo por anticuerpos: glomerulitis y capilaritis. Inflamación microvascular."
+    ],
+    [
+     "Sabio Brenn",
+     "Banff lo ve como un espectro: puede haber inflamación microvascular sin C4d ni DSA."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "C4d",
+     "lines": [
+      [
+       "C4d",
+       "Soy la huella del complemento en el capilar peritubular."
+      ],
+      [
+       "C4d",
+       "Mi ausencia no descarta el rechazo humoral."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "C4d"
+    },
+    {
+     "id": "npc2",
+     "name": "Tubulitis",
+     "lines": [
+      [
+       "Tubulitis",
+       "Linfocitos dentro del túbulo más inflamación intersticial: rechazo celular."
+      ],
+      [
+       "Tubulitis",
+       "Pulsos de esteroide; timoglobulina si hay arteritis o no respondo."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "rechazo celular"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Tratamiento humoral",
+     "Recambio plasmático + inmunoglobulina IV; optimizar tacrolimus y micofenolato."
+    ],
+    [
+     "Letrero · Glomerulopatía del trasplante",
+     "Doble contorno de la MBG: forma crónica del rechazo humoral."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "pato",
+     "specialty": "Patología",
+     "serie": "VHT",
+     "intro": [
+      [
+       "Dra. Iris Hematoxilina",
+       "C4d negativo: no es rechazo humoral. Caso cerrado."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Iris Hematoxilina",
+       "Banff acepta inflamación microvascular sin C4d… lo reabro."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "INM",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Inducción: elección según riesgo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "SEG",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Te reto con un caso: Hiperglucemia temprana postrasplante"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Glomerulitis",
+     "type": "Celular",
+     "topic": "Glomerulitis"
+    },
+    {
+     "name": "Capilaritis",
+     "type": "Celular",
+     "topic": "Capilaritis"
+    },
+    {
+     "name": "Arteritis Intimal",
+     "type": "Celular",
+     "topic": "Arteritis Intimal"
+    },
+    {
+     "name": "Doble Contorno",
+     "type": "Molecular",
+     "topic": "Doble Contorno"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Rechazo: clasificación de Banff y tratamiento",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: Banff 2024 trata el rechazo como un espectro de fenotipos."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Lesión de Banff y significado",
+     "items": [],
+     "pairs": [
+      [
+       "g + ptc",
+       "Inflamación microvascular"
+      ],
+      [
+       "t + i",
+       "Rechazo celular tubulointersticial"
+      ],
+      [
+       "v",
+       "Arteritis intimal"
+      ],
+      [
+       "cg",
+       "Glomerulopatía del trasplante"
+      ],
+      [
+       "C4d",
+       "Activación de complemento por anticuerpo"
+      ],
+      [
+       "IFTA",
+       "Fibrosis intersticial y atrofia tubular"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Si subes la inmunosupresión, despiertan otros enemigos."
+      ]
+     ]
+    }
+   ],
+   "card": "ABMR: inflamación microvascular (g, ptc) ± C4d ± DSA. TCMR: tubulitis + inflamación intersticial. ABMR: recambio + IgIV. TCMR: esteroide ± timoglobulina."
+  },
+  {
+   "id": "z3",
+   "name": "Valle de los Oportunistas",
+   "palette": [
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
+   ],
+   "tiles": "valle",
+   "vignette": "valle_tubulovascular",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Virus BK: nefropatía con células señuelo. No hay antiviral: se reduce la inmunosupresión."
+    ],
+    [
+     "Sabio Brenn",
+     "CMV: máximo riesgo donante positivo con receptor negativo. Valganciclovir."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Virus BK",
+     "lines": [
+      [
+       "Virus BK",
+       "Me tamizan con carga viral en sangre: mensual al inicio."
+      ],
+      [
+       "Virus BK",
+       "Me confunden con rechazo. Tinción SV40 me delata."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "BK"
+    },
+    {
+     "id": "npc2",
+     "name": "Citomegalovirus",
+     "lines": [
+      [
+       "Citomegalovirus",
+       "D+/R−: profilaxis con valganciclovir por 6 meses."
+      ],
+      [
+       "Citomegalovirus",
+       "Doy fiebre, leucopenia, colitis. Y favorezco el rechazo."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "CMV"
+    },
+    {
+     "id": "npc3",
+     "name": "Declaración de Estambul",
+     "lines": [
+      [
+       "Declaración de Estambul",
+       "Prohíbo el tráfico de órganos, el turismo y el comercio de trasplantes."
+      ]
+     ],
+     "gift": null,
+     "recall": "ética"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Profilaxis",
+     "TMP-SMX contra Pneumocystis 6–12 meses. Vacunas vivas: antes del trasplante, no después."
+    ],
+    [
+     "Letrero · Recurrencia",
+     "GEFS primaria, SHU atípico, C3G e IgA recurren; ERPAD y Alport no."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "DVV",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "BK en sangre: aumento el tacrolimus para proteger el injerto."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Al revés: reduzco la inmunosupresión. Gracias por frenarme."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    },
+    {
+     "id": "t2_1",
+     "cast": "hemo",
+     "specialty": "Villano corporativo",
+     "serie": "HLA",
+     "intro": [
+      [
+       "Director de Hemo-Eterna",
+       "El trasplante es caro y riesgoso. Mejor que sigan conmigo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Director de Hemo-Eterna",
+       "Mejor supervivencia y calidad de vida… ya no tengo argumentos."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t2_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "AMR",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Te reto con un caso: Rechazo humoral agudo: diagnóstico"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Célula Señuelo",
+     "type": "Innato",
+     "topic": "Célula Señuelo"
+    },
+    {
+     "name": "Diabetes Postrasplante",
+     "type": "Molecular",
+     "topic": "Diabetes Postrasplante"
+    },
+    {
+     "name": "PTLD por EBV",
+     "type": "Celular",
+     "topic": "PTLD por EBV"
+    },
+    {
+     "name": "Nefrotoxicidad por Tacrolimus",
+     "type": "Molecular",
+     "topic": "Nefrotoxicidad por Tacrolimus"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_1",
+     "topic": "Complicaciones infecciosas y manejo a largo plazo",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Demasiada inmunosupresión: virus. Muy poca: rechazo. El arte está en medio."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Disfunción del injerto",
+     "items": [
+      "Descartar causa prerrenal y obstrucción (ultrasonido)",
+      "Nivel de tacrolimus",
+      "Carga viral de BK y CMV",
+      "Anticuerpos donante-específicos",
+      "Biopsia del injerto",
+      "Tratar según Banff"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "La biopsia llegó: g2, ptc2, C4d positivo. Es hora."
+      ]
+     ]
+    }
+   ],
+   "card": "BK: reducir inmunosupresión. CMV D+/R−: valganciclovir 6 meses. PJP: TMP-SMX. Recurren: GEFS, SHUa, C3G, IgA. Estambul: contra tráfico y comercio."
+  }
+ ],
+ "boss": {
+  "name": "El Rechazo Humoral",
+  "color": "#e05a8a",
+  "dark": "#4a0f25",
+  "heads": 1,
+  "intro": [
+   [
+    "El Rechazo",
+    "Este riñón no es de ella. Mis anticuerpos lo saben."
+   ],
+   [
+    "Valeria",
+    "Riesgo, inmunosupresión, biopsia. Vamos juntos."
+   ]
+  ],
+  "outro": [
+   [
+    "El Rechazo",
+    "Los anticuerpos bajan…"
+   ],
+   [
+    "Valeria",
+    "Lo logramos. Entender le gana a memorizar."
+   ],
+   [
+    "Director",
+    "Me quitaron pacientes. Nos vemos en la Torre del Consejo."
+   ],
+   [
+    "Sabio Brenn",
+    "No es él quien habla. Es La Esclerosis. Prepárate."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Riesgo inmunológico",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Rechazo",
+      "¿Me viste venir?"
+     ]
+    ],
+    "topics": [
+     "Riesgo inmunológico"
+    ],
+    "questions": [
+     "TX-DON-1",
+     "TX-DON-2",
+     "TX-DON-3"
+    ]
+   },
+   {
+    "name": "Inmunosupresión y profilaxis",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Rechazo",
+      "Dejó el tacrolimus."
+     ]
+    ],
+    "topics": [
+     "Inmunosupresión y profilaxis"
+    ],
+    "questions": [
+     "TX-DON-4",
+     "TX-CMV-1",
+     "TX-CMV-2"
+    ]
+   },
+   {
+    "name": "Biopsia (Banff)",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Rechazo",
+      "Léeme en los capilares."
+     ]
+    ],
+    "topics": [
+     "Biopsia (Banff)"
+    ],
+    "questions": [
+     "TX-CMV-3",
+     "TX-CMV-4",
+     "DAT-1"
+    ]
+   },
+   {
+    "name": "Tratamiento y largo plazo",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Rechazo",
+      "Sácame si puedes."
+     ]
+    ],
+    "topics": [
+     "Tratamiento y largo plazo"
+    ],
+    "questions": [
+     "DAT-2",
+     "DAT-3",
+     "DAT-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "ELITE-Symphony",
+   "mnemonic": "La sinfonía del tacrolimus bajo.",
+   "result": "Tacrolimus a dosis baja + MMF + esteroide + daclizumab: mejor TFG y menos rechazo."
+  },
+  {
+   "trial": "BENEFIT",
+   "mnemonic": "Beneficio sin calcineurina.",
+   "result": "Belatacept: mejor TFG a largo plazo; más PTLD en EBV seronegativos."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Laboratorio de Histocompatibilidad",
+   "text": "Directa (temprana) e indirecta (tardía, DSA). Tacrolimus: calcineurina-NFAT-IL-2. DSA de novo: no adherencia. Inducción según riesgo."
+  },
+  {
+   "title": "Capilares Peritubulares",
+   "text": "ABMR: inflamación microvascular (g, ptc) ± C4d ± DSA. TCMR: tubulitis + inflamación intersticial. ABMR: recambio + IgIV. TCMR: esteroide ± timoglobulina."
+  },
+  {
+   "title": "Valle de los Oportunistas",
+   "text": "BK: reducir inmunosupresión. CMV D+/R−: valganciclovir 6 meses. PJP: TMP-SMX. Recurren: GEFS, SHUa, C3G, IgA. Estambul: contra tráfico y comercio."
+  }
+ ]
+}

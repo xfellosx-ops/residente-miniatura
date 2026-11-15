@@ -1,0 +1,885 @@
+{
+ "meta": {
+  "id": "7",
+  "title": "Enfermedad renal crónica",
+  "key": "rm_v3_7",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Urémico",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Riñón Cicatrizado",
+   "palette": [
+    "#F8E0F0",
+    "#D088C0",
+    "#703878",
+    "#200820"
+   ],
+   "tiles": "ruinas",
+   "vignette": "ruinas_asas",
+   "join": [
+    "sonda",
+    "glifo"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Don Ezequiel, 67 años. TFGe 11, ACR 1 800. Viene con su hija."
+    ],
+    [
+     "Dr. J.",
+     "Un tipo de traje le dejó una tarjeta: «Hemo-Eterna. Su silla lo espera»."
+    ],
+    [
+     "Sabio Brenn",
+     "Aquí la parábola se ve: pocas nefronas, todas hiperfiltrando, todas esclerosándose."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Nefrona Sobreviviente",
+     "lines": [
+      [
+       "Nefrona Sobreviviente",
+       "Hago el trabajo de cinco. Me hipertrofié y mi presión subió."
+      ],
+      [
+       "Nefrona Sobreviviente",
+       "Así es como me voy a esclerosar yo también."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "hiperfiltración"
+    },
+    {
+     "id": "npc2",
+     "name": "KFRE",
+     "lines": [
+      [
+       "KFRE",
+       "Con edad, sexo, TFGe y ACR calculo el riesgo de falla renal a 2 y 5 años."
+      ],
+      [
+       "KFRE",
+       "Riesgo a 2 años >40 %: es hora de planear la terapia de reemplazo."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "KFRE"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · CGA",
+     "Causa, TFG (G1–G5) y Albuminuria (A1–A3). ERC = alteración por más de 3 meses."
+    ],
+    [
+     "Letrero · KDIGO 2024",
+     "iSGLT2 con TFGe ≥20 y ACR ≥200, o insuficiencia cardiaca; estatina desde los 50 años."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "TAM",
+     "intro": [
+      [
+       "Dr. Ernesto Holístico",
+       "TFG de 55 en una señora de 80 sin albuminuria: nefropatía grave."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Ernesto Holístico",
+       "G3a A1, riesgo bajo… no la asusto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "ERC",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: ERC: clasificación y riesgo de falla renal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "ANE",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Te reto con un caso: Anemia en ERC: evaluación y hierro"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Toxina Urémica",
+     "type": "Molecular",
+     "topic": "Toxina Urémica"
+    },
+    {
+     "name": "Fibrosis Intersticial",
+     "type": "Celular",
+     "topic": "Fibrosis Intersticial"
+    },
+    {
+     "name": "Indoxil Sulfato",
+     "type": "Molecular",
+     "topic": "Indoxil Sulfato"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Clasificación CGA y predicción de riesgo",
+     "text": [
+      [
+       "Sabio Brenn",
+       "TFG y albuminuria juntas. Una sola no da el riesgo."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Ruta de la ERC avanzada",
+     "items": [
+      "Clasificar CGA y calcular KFRE",
+      "Nefroprotección: iSRAA, iSGLT2, PA, estatina",
+      "Tratar complicaciones",
+      "Vacunar y evitar nefrotóxicos",
+      "Educar en modalidades con KFRE a 2 años >40 %",
+      "Acceso o trasplante anticipado, o plan conservador"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Ahora las complicaciones. Cada una es un súbdito."
+      ]
+     ]
+    }
+   ],
+   "card": "ERC: >3 meses; CGA. KFRE guía referencia (5 años ≥3–5 %) y planeación de TRR (2 años >40 %). iSGLT2 TFGe ≥20. PAS <120."
+  },
+  {
+   "id": "z2",
+   "name": "Torrente Urémico",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "rio_sangre",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Anemia: primero hierro. Luego estimulante de eritropoyesis, sin normalizar la hemoglobina."
+    ],
+    [
+     "Sabio Brenn",
+     "Hueso y mineral: fósforo hacia lo normal, evitar hipercalcemia, PTH sin sobretratar."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Hepcidina",
+     "lines": [
+      [
+       "Hepcidina",
+       "La inflamación me sube. Cierro la ferroportina y atrapo el hierro."
+      ],
+      [
+       "Hepcidina",
+       "Por eso hay anemia con ferritina alta: déficit funcional."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "hepcidina"
+    },
+    {
+     "id": "npc2",
+     "name": "Bicarbonato",
+     "lines": [
+      [
+       "Bicarbonato",
+       "Si bajo de 18 mEq/L, repónme: protejo hueso y músculo."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "acidosis metabólica"
+    },
+    {
+     "id": "npc3",
+     "name": "Quelante de Potasio",
+     "lines": [
+      [
+       "Quelante de Potasio",
+       "Patirómero o ciclosilicato de zirconio: permito mantener el iSRAA."
+      ]
+     ],
+     "gift": null,
+     "recall": "hiperpotasemia crónica"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Anemia",
+     "Con AEE no pasar de Hb 11.5 g/dL: más ictus y trombosis (CHOIR, CREATE, TREAT)."
+    ],
+    [
+     "Letrero · Calcificación",
+     "Vaso calcificado: fósforo alto, exceso de calcio, PTH y falta de inhibidores."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "ETI",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Hemoglobina 9.5: eritropoyetina hasta 14, como una persona sana."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "TREAT: más ictus. Hierro primero y meta moderada."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "PAL",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Manejo conservador vs diálisis en el anciano frágil"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "MBD",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Te reto con un caso: ERC-TMO: control del fósforo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    }
+   ],
+   "wild": [
+    {
+     "name": "Anemia Renal",
+     "type": "Molecular",
+     "topic": "Anemia Renal"
+    },
+    {
+     "name": "Fósforo Alto",
+     "type": "Molecular",
+     "topic": "Fósforo Alto"
+    },
+    {
+     "name": "PTH Desbocada",
+     "type": "Molecular",
+     "topic": "PTH Desbocada"
+    },
+    {
+     "name": "Prurito Urémico",
+     "type": "Molecular",
+     "topic": "Prurito Urémico"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Complicaciones de la ERC: anemia y metabolismo mineral",
+     "text": [
+      [
+       "Sabio Brenn",
+       "No se normaliza: se corrige lo suficiente para vivir mejor sin dañar."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Complicación y conducta",
+     "items": [],
+     "pairs": [
+      [
+       "Anemia con ferritina baja",
+       "Hierro antes que AEE"
+      ],
+      [
+       "Acidosis <18 mEq/L",
+       "Bicarbonato oral"
+      ],
+      [
+       "Hiperpotasemia con iSRAA",
+       "Dieta, diurético, quelante"
+      ],
+      [
+       "Fósforo alto",
+       "Dieta y quelante sin calcio"
+      ],
+      [
+       "HPT secundario grave en diálisis",
+       "Calcimimético o calcitriol"
+      ],
+      [
+       "Prurito",
+       "Difelikefalina o gabapentinoide"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Don Ezequiel quiere hablar contigo. Tiene una decisión."
+      ]
+     ]
+    }
+   ],
+   "card": "Anemia: hierro primero; AEE sin superar Hb 11.5. Bicarbonato si <18. ERC-MBD: fósforo hacia lo normal, evitar hipercalcemia. Quelantes de K para sostener iSRAA."
+  },
+  {
+   "id": "z3",
+   "name": "Sala de Decisiones",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "urgencias",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Don Ezequiel",
+     "Doctor, no quiero la máquina. Quiero estar en mi casa, con mis nietos."
+    ],
+    [
+     "Sabio Brenn",
+     "Escucha. Ganar no siempre es dializar."
+    ],
+    [
+     "Dr. J.",
+     "Manejo conservador integral: es un tratamiento, no un abandono."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Hija de Don Ezequiel",
+     "lines": [
+      [
+       "Hija de Don Ezequiel",
+       "¿Si no se dializa lo van a dejar sin atención?"
+      ],
+      [
+       "Hija de Don Ezequiel",
+       "¿Va a sufrir?"
+      ]
+     ],
+     "gift": "pocion",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Paliativista",
+     "lines": [
+      [
+       "Paliativista",
+       "Tratamos disnea, prurito, náusea y dolor. Y planeamos por adelantado."
+      ],
+      [
+       "Paliativista",
+       "En mayores frágiles con comorbilidad, la diálisis puede no alargar la vida."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "manejo conservador"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Dolor en ERC",
+     "Evitar AINE y morfina. Paracetamol; fentanilo o buprenorfina si hace falta opioide."
+    ],
+    [
+     "Letrero · Inicio de diálisis",
+     "Por síntomas, no por una cifra de TFG (IDEAL)."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "hemo",
+     "specialty": "Villano corporativo",
+     "serie": "EPO",
+     "intro": [
+      [
+       "Director de Hemo-Eterna",
+       "Firme aquí, don Ezequiel. Tres sesiones semanales. Para siempre."
+      ]
+     ],
+     "defeat": [
+      [
+       "Director de Hemo-Eterna",
+       "Decisión compartida… ¡eso no está en mi modelo de negocio!"
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "REF",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: ERC: criterios de referencia a nefrología"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "URE",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Te reto con un caso: Inicio de diálisis: momento"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Culpa del Cuidador",
+     "type": "Molecular",
+     "topic": "Culpa del Cuidador"
+    },
+    {
+     "name": "Disnea",
+     "type": "Molecular",
+     "topic": "Disnea"
+    },
+    {
+     "name": "Náusea Urémica",
+     "type": "Molecular",
+     "topic": "Náusea Urémica"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Decisión compartida: TRR o manejo conservador",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro del nivel: el paciente elige. Tú informas, acompañas y tratas síntomas."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Decisión compartida",
+     "items": [
+      "Explorar valores y metas del paciente",
+      "Explicar pronóstico con y sin diálisis",
+      "Presentar todas las opciones, incluida la conservadora",
+      "Decidir juntos y documentar",
+      "Planeación anticipada de cuidados",
+      "Control de síntomas y apoyo a la familia"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Eligió. Y tú creciste. Pero el Urémico aún te va a examinar."
+      ]
+     ]
+    }
+   ],
+   "card": "Manejo conservador integral: opción válida en mayores frágiles. Inicio de diálisis por síntomas (IDEAL). Dolor: sin AINE ni morfina."
+  }
+ ],
+ "boss": {
+  "name": "El Urémico",
+  "color": "#8a7a52",
+  "dark": "#2a2208",
+  "heads": 1,
+  "intro": [
+   [
+    "El Urémico",
+    "Soy todo lo que el riñón ya no saca. Vivo en la sangre, el hueso y la médula."
+   ],
+   [
+    "Dr. J.",
+    "Clasifica, trata complicaciones y respeta la decisión."
+   ]
+  ],
+  "outro": [
+   [
+    "El Urémico",
+    "No me venciste. Me acompañaste."
+   ],
+   [
+    "Sabio Brenn",
+    "Eso también es nefrología."
+   ],
+   [
+    "Dr. J.",
+    "Hemo-Eterna anda reclutando. Síguelos."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Clasificación y riesgo",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Urémico",
+      "¿G qué? ¿A qué?"
+     ]
+    ],
+    "topics": [
+     "Clasificación y riesgo"
+    ],
+    "questions": [
+     "PRU-1",
+     "PRU-2",
+     "PRU-3"
+    ]
+   },
+   {
+    "name": "Complicaciones",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Urémico",
+      "Anemia, potasio, ácido, hueso."
+     ]
+    ],
+    "topics": [
+     "Complicaciones"
+    ],
+    "questions": [
+     "PRU-4",
+     "DRG-1",
+     "DRG-2"
+    ]
+   },
+   {
+    "name": "Nefroprotección",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Urémico",
+      "¿Aún me puedes frenar?"
+     ]
+    ],
+    "topics": [
+     "Nefroprotección"
+    ],
+    "questions": [
+     "DRG-3",
+     "DRG-4",
+     "CLA-1"
+    ]
+   },
+   {
+    "name": "Decisión compartida",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Urémico",
+      "Él no quiere dializarse. ¿Y tú?"
+     ]
+    ],
+    "topics": [
+     "Decisión compartida"
+    ],
+    "questions": [
+     "CLA-2",
+     "CLA-3",
+     "CLA-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "IDEAL",
+   "mnemonic": "Lo ideal no es empezar antes.",
+   "result": "Inicio temprano de diálisis por TFG: sin beneficio frente a esperar síntomas."
+  },
+  {
+   "trial": "TREAT",
+   "mnemonic": "No trates la Hb como a un sano.",
+   "result": "Darbepoetina a Hb 13: sin beneficio y más ictus."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Ley nueva · anemia",
+   "text": "KDIGO 2026 de anemia en ERC actualiza hierro, AEE e inhibidores de HIF-prolil-hidroxilasa. Repasa la guía final para las cifras exactas."
+  },
+  {
+   "title": "KFRE",
+   "text": "Ecuación de riesgo de falla renal con edad, sexo, TFGe y ACR; guía referencia y planeación."
+  },
+  {
+   "title": "Manejo conservador integral",
+   "text": "Nefroprotección, control de síntomas, apoyo psicosocial y planeación anticipada, sin diálisis."
+  },
+  {
+   "title": "Hiperfiltración",
+   "text": "Parábola de Brenn: menos nefronas → más presión por nefrona → esclerosis → menos nefronas."
+  }
+ ]
+}

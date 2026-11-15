@@ -1,0 +1,897 @@
+{
+ "meta": {
+  "id": "19",
+  "title": "Hemodiálisis",
+  "key": "rm_v3_19",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Desequilibrio",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Planta de Agua",
+   "palette": [
+    "#E8F4FC",
+    "#90C8E8",
+    "#386890",
+    "#0C2030"
+   ],
+   "tiles": "acantilado",
+   "vignette": "acantilado_podocito",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Territorio de Hemo-Eterna. Varón de 50 años, urea 380, potasio 7.1, somnoliento."
+    ],
+    [
+     "Director",
+     "¡Primera sesión! Cuatro horas, flujo máximo. Aquí somos eficientes."
+    ],
+    [
+     "Sabio Brenn",
+     "No le hagas caso. Antes de conectar a nadie, revisa el agua."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Ósmosis Inversa",
+     "lines": [
+      [
+       "Ósmosis Inversa",
+       "Quito iones, bacterias y endotoxinas. El carbón activado quita cloraminas antes de mí."
+      ],
+      [
+       "Ósmosis Inversa",
+       "Cloraminas en el agua: hemólisis en toda la sala."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "tratamiento de agua"
+    },
+    {
+     "id": "npc2",
+     "name": "Dializador",
+     "lines": [
+      [
+       "Dializador",
+       "Difusión: gradiente, moléculas pequeñas. Convección: arrastre con agua, medianas."
+      ],
+      [
+       "Dializador",
+       "La hemodiafiltración suma las dos."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "difusión y convección"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Calidad del agua",
+     "Bacterias <100 UFC/mL y endotoxinas <0.25 UE/mL; acción a la mitad."
+    ],
+    [
+     "Letrero · Aluminio",
+     "Demencia, osteomalacia y anemia microcítica: historia del agua sin tratar."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "hemo",
+     "specialty": "Villano corporativo",
+     "serie": "HIP",
+     "intro": [
+      [
+       "Director de Hemo-Eterna",
+       "El agua de la llave está bien. La ósmosis cuesta dinero."
+      ]
+     ],
+     "defeat": [
+      [
+       "Director de Hemo-Eterna",
+       "¡Hemólisis en seis máquinas! Está bien, pongan el carbón."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "HEP",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Vacunación contra hepatitis B en hemodiálisis"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "UCV",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Te reto con un caso: Muerte súbita cardiaca en hemodiálisis: factores de riesgo y preven"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Cloramina",
+     "type": "Molecular",
+     "topic": "Cloramina"
+    },
+    {
+     "name": "Endotoxina",
+     "type": "Molecular",
+     "topic": "Endotoxina"
+    },
+    {
+     "name": "Biopelícula",
+     "type": "Innato",
+     "topic": "Biopelícula"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Principios biofísicos: difusión, convección y agua",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Urea: difusión. β2-microglobulina: convección. Agua: ultrafiltración."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Tren de tratamiento del agua",
+     "items": [
+      "Filtro de sedimentos",
+      "Suavizador (calcio y magnesio)",
+      "Carbón activado (cloro y cloraminas)",
+      "Ósmosis inversa",
+      "Distribución en circuito cerrado",
+      "Vigilancia microbiológica periódica"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Agua segura. Ahora la primera sesión, a tu manera."
+      ]
+     ]
+    }
+   ],
+   "card": "Difusión (pequeñas), convección (medianas), UF (agua). Agua: carbón quita cloraminas; ósmosis inversa; bacterias <100 UFC/mL, endotoxinas <0.25 UE/mL."
+  },
+  {
+   "id": "z2",
+   "name": "Sala de Hemodiálisis",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "urgencias",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Si bajas la urea de golpe, el cerebro queda hiperosmolar y se hincha."
+    ],
+    [
+     "Sabio Brenn",
+     "Primera sesión: 2 horas, flujo bajo, reducir la urea solo 30–40 %."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Síndrome de Desequilibrio",
+     "lines": [
+      [
+       "Síndrome de Desequilibrio",
+       "Cefalea, náusea, convulsión y coma tras una primera sesión agresiva."
+      ],
+      [
+       "Síndrome de Desequilibrio",
+       "Me previenes con sesión corta y lenta. Manitol o sodio alto si hay alto riesgo."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "desequilibrio"
+    },
+    {
+     "id": "npc2",
+     "name": "Hipotensión Intradiálisis",
+     "lines": [
+      [
+       "Hipotensión Intradiálisis",
+       "Soy la complicación más frecuente. Me provoca la ultrafiltración rápida."
+      ],
+      [
+       "Hipotensión Intradiálisis",
+       "Menos de 13 mL/kg/h, dializado frío, peso seco correcto, midodrina."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "hipotensión intradiálisis"
+    },
+    {
+     "id": "npc3",
+     "name": "Reacción Tipo A",
+     "lines": [
+      [
+       "Reacción Tipo A",
+       "Anafilaxia en los primeros minutos. Óxido de etileno, o AN69 con IECA."
+      ],
+      [
+       "Reacción Tipo A",
+       "Para la sesión y NO regreses la sangre."
+      ]
+     ],
+     "gift": null,
+     "recall": "reacción al dializador"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Adecuación",
+     "spKt/V ≥1.2 por sesión (meta 1.4) o URR ≥65 %, tres veces por semana."
+    ],
+    [
+     "Letrero · Potasio del dializado",
+     "Evitar baños <2 mEq/L: arritmias y muerte súbita."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "serie": "ACC",
+     "intro": [
+      [
+       "Dr. Max Presor",
+       "Urea 380: la bajo a 100 en la primera sesión. Limpio."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Max Presor",
+       "Edema cerebral… 2 horas y flujo bajo. Me espero."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "CMP",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Síndrome de desequilibrio de la diálisis"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "AGD",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Te reto con un caso: Hemólisis aguda en un grupo de pacientes: cloraminas y conducta inm"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Calambre",
+     "type": "Molecular",
+     "topic": "Calambre"
+    },
+    {
+     "name": "Urea en Caída",
+     "type": "Molecular",
+     "topic": "Urea en Caída"
+    },
+    {
+     "name": "Embolia Aérea",
+     "type": "Molecular",
+     "topic": "Embolia Aérea"
+    },
+    {
+     "name": "Hemólisis",
+     "type": "Celular",
+     "topic": "Hemólisis"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Primera sesión y síndrome de desequilibrio",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: quitar la urea demasiado rápido hincha el cerebro."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Complicación y respuesta",
+     "items": [],
+     "pairs": [
+      [
+       "Hipotensión",
+       "Detener UF, Trendelenburg, bolo"
+      ],
+      [
+       "Calambres",
+       "Revisar peso seco y UF"
+      ],
+      [
+       "Reacción tipo A",
+       "Detener, no retornar sangre"
+      ],
+      [
+       "Embolia aérea",
+       "Decúbito lateral izquierdo, O2 al 100 %"
+      ],
+      [
+       "Dolor torácico + hemólisis",
+       "Detener; revisar agua y líneas"
+      ],
+      [
+       "Desequilibrio",
+       "Detener; manitol"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Sobrevivió a la primera. Ahora necesita un acceso para años."
+      ]
+     ]
+    }
+   ],
+   "card": "Primera sesión: corta y lenta (URR 30–40 %). Hipotensión: UF <13 mL/kg/h, dializado frío. Adecuación: spKt/V ≥1.2. Reacción tipo A: no retornar sangre."
+  },
+  {
+   "id": "z3",
+   "name": "Río de la Fístula",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "rio_sangre",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Fístula nativa: menos infección y más duración. Regla de los 6 para la maduración."
+    ],
+    [
+     "Sabio Brenn",
+     "El catéter es puente, no destino. Cada día con catéter es riesgo de bacteriemia."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Fístula Madura",
+     "lines": [
+      [
+       "Fístula Madura",
+       "6 mm de diámetro, menos de 6 mm de profundidad, 600 mL/min de flujo, a las 6 semanas."
+      ],
+      [
+       "Fístula Madura",
+       "Frémito continuo y soplo: estoy bien. Pulsátil: tengo estenosis."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "fístula"
+    },
+    {
+     "id": "npc2",
+     "name": "Catéter Tunelizado",
+     "lines": [
+      [
+       "Catéter Tunelizado",
+       "Bacteriemia: hemocultivos, antibiótico y, según el germen, retirarme."
+      ],
+      [
+       "Catéter Tunelizado",
+       "S. aureus, Pseudomonas u hongos: me sacan siempre."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "infección de catéter"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Robo",
+     "Mano fría y dolorosa tras la fístula: síndrome de robo. Ligadura o DRIL si es grave."
+    ],
+    [
+     "Letrero · CONVINCE",
+     "Hemodiafiltración de alto volumen: menor mortalidad que la hemodiálisis de alto flujo."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "ADQ",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Catéter para todos: rápido y sin esperar maduración."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Más infección y más muerte… fístula primero cuando se pueda."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "ANT",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Hemodiálisis sin heparina en paciente con sangrado"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 2
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "DLT",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Te reto con un caso: Temperatura del dializado y estabilidad hemodinámica"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Estenosis Venosa",
+     "type": "Molecular",
+     "topic": "Estenosis Venosa"
+    },
+    {
+     "name": "Estafilococo del Catéter",
+     "type": "Innato",
+     "topic": "Estafilococo del Catéter"
+    },
+    {
+     "name": "Recirculación",
+     "type": "Molecular",
+     "topic": "Recirculación"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Acceso vascular: fístula, injerto y catéter",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El acceso correcto, para el paciente correcto, en el momento correcto."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Acceso y dato",
+     "items": [],
+     "pairs": [
+      [
+       "Fístula nativa",
+       "Mejor permeabilidad, menos infección"
+      ],
+      [
+       "Injerto protésico",
+       "Usable pronto; más trombosis"
+      ],
+      [
+       "Catéter tunelizado",
+       "Puente; más bacteriemia"
+      ],
+      [
+       "Estenosis",
+       "Presión venosa alta, sangrado prolongado"
+      ],
+      [
+       "Robo",
+       "Mano fría y dolorosa"
+      ],
+      [
+       "Preservar venas",
+       "No puncionar el brazo no dominante"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Director",
+       "¿Sesiones cortas? ¿Fístulas? ¿Trasplante? ¡Me arruinas el trimestre!"
+      ]
+     ]
+    }
+   ],
+   "card": "Fístula: regla de los 6. Catéter: puente; retirar con S. aureus, Pseudomonas u hongos. Robo: isquemia distal. CONVINCE: HDF de alto volumen ↓ mortalidad."
+  }
+ ],
+ "boss": {
+  "name": "El Desequilibrio",
+  "color": "#3aa0a0",
+  "dark": "#0a3a3a",
+  "heads": 1,
+  "intro": [
+   [
+    "El Desequilibrio",
+    "Hemo-Eterna me llama eficiencia. Tú me conoces como edema cerebral."
+   ],
+   [
+    "Dr. J.",
+    "Prescribe bien, resuelve la complicación y cuida el acceso."
+   ]
+  ],
+  "outro": [
+   [
+    "El Desequilibrio",
+    "Me estabilizo."
+   ],
+   [
+    "Sabio Brenn",
+    "La mejor sesión no es la más larga ni la más corta: es la prescrita."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Prescripción",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Desequilibrio",
+      "Qb, Qd, baño y tiempo. Decide."
+     ]
+    ],
+    "topics": [
+     "Prescripción"
+    ],
+    "questions": [
+     "CNV-1",
+     "CNV-2",
+     "CNV-3"
+    ]
+   },
+   {
+    "name": "Complicaciones agudas",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Desequilibrio",
+      "Se hipotensa."
+     ]
+    ],
+    "topics": [
+     "Complicaciones agudas"
+    ],
+    "questions": [
+     "CNV-4",
+     "BAC-1",
+     "BAC-2"
+    ]
+   },
+   {
+    "name": "Adecuación",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Desequilibrio",
+      "¿Kt/V suficiente?"
+     ]
+    ],
+    "topics": [
+     "Adecuación"
+    ],
+    "questions": [
+     "BAC-3",
+     "BAC-4",
+     "HTH-1"
+    ]
+   },
+   {
+    "name": "Acceso",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Desequilibrio",
+      "El catéter tiene fiebre."
+     ]
+    ],
+    "topics": [
+     "Acceso"
+    ],
+    "questions": [
+     "HTH-2",
+     "HTH-3"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "CONVINCE",
+   "mnemonic": "Convence la convección.",
+   "result": "Hemodiafiltración de alto volumen: mortalidad 23 % menor que hemodiálisis de alto flujo."
+  },
+  {
+   "trial": "HEMO",
+   "mnemonic": "Más no fue mejor.",
+   "result": "Mayor dosis o alto flujo: sin beneficio en mortalidad global."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Planta de Agua",
+   "text": "Difusión (pequeñas), convección (medianas), UF (agua). Agua: carbón quita cloraminas; ósmosis inversa; bacterias <100 UFC/mL, endotoxinas <0.25 UE/mL."
+  },
+  {
+   "title": "Sala de Hemodiálisis",
+   "text": "Primera sesión: corta y lenta (URR 30–40 %). Hipotensión: UF <13 mL/kg/h, dializado frío. Adecuación: spKt/V ≥1.2. Reacción tipo A: no retornar sangre."
+  },
+  {
+   "title": "Río de la Fístula",
+   "text": "Fístula: regla de los 6. Catéter: puente; retirar con S. aureus, Pseudomonas u hongos. Robo: isquemia distal. CONVINCE: HDF de alto volumen ↓ mortalidad."
+  }
+ ]
+}
