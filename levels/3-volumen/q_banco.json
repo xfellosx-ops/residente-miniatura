@@ -1,0 +1,372 @@
+[
+ {
+  "id": "OSM-1",
+  "serie_id": "OSM",
+  "orden": 1,
+  "sub": "3",
+  "subtema": "Osmolalidad efectiva y sodio corregido en hiperglucemia",
+  "dificultad": "dificil",
+  "caso": "Mujer de 66 años con diabetes tipo 2, confusión y poliuria, con glucosa de 800 mg/dL, sodio sérico de 128 mEq/L, BUN de 40 mg/dL y creatinina de 1.6 mg/dL.",
+  "enunciado": "¿Cuál es la osmolalidad efectiva y la interpretación del sodio?",
+  "opciones": {
+   "A": "Osmolalidad efectiva ≈300 mOsm/kg; hiponatremia traslocacional por glucosa, con sodio corregido de unos 139–145 mEq/L",
+   "B": "Osmolalidad efectiva de 280 mOsm/kg; el BUN es el principal responsable de la hiponatremia hipotónica observada en el paciente",
+   "C": "Osmolalidad efectiva de 256 mOsm/kg; hiponatremia hipotónica verdadera, por lo que requiere restricción hídrica estricta",
+   "D": "Osmolalidad efectiva de 128 mOsm/kg, equivalente al valor del sodio sérico medido, sin ajuste por la glucosa",
+   "E": "Osmolalidad efectiva de 360 mOsm/kg; el sodio de 128 ya está corregido, por lo que se trata como hiponatremia hipotónica"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La osmolalidad efectiva (tonicidad) = 2 × Na + glucosa/18 = 2 × 128 + 800/18 = 256 + 44 = 300 mOsm/kg. La urea es un osmol inefectivo porque atraviesa libremente las membranas celulares, y se excluye de la tonicidad (se añade solo al calcular la osmolalidad total: BUN/2.8). La glucosa, que no entra a la célula sin insulina, atrae agua al espacio extracelular y diluye el sodio: la hiponatremia es traslocacional (hipertónica en relación con su valor), no una hipotonicidad verdadera. El sodio corregido es Na + 1.6 × (glucosa − 100)/100 = 128 + 11 = 139 mEq/L (con el factor de 2.4, 145 mEq/L).",
+   "B": "El BUN no contribuye a la tonicidad efectiva.",
+   "C": "El valor de 256 es solo 2 × Na, que omite el efecto de la glucosa.",
+   "D": "128 es el valor del sodio, no la osmolalidad.",
+   "E": "El valor se obtiene sumando la glucosa sin dividir por 18."
+  },
+  "perla": "Osm efectiva = 2Na + glucosa/18 (urea no cuenta). Na corregido = Na + 1.6 (a 2.4) por cada 100 mg/dL de glucosa sobre 100.",
+  "referencias": [
+   "Sterns RH. N Engl J Med 2015;372:55",
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "continuacion": "",
+  "obj": "3.o1",
+  "peso": 31.4
+ },
+ {
+  "id": "OSM-2",
+  "serie_id": "OSM",
+  "orden": 2,
+  "sub": "3",
+  "subtema": "Distribución de líquidos en los compartimentos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente está deshidratada. Se compara el efecto de infundir 1 L de dextrosa al 5% frente a 1 L de solución salina al 0.9% sobre la distribución de agua.",
+  "enunciado": "¿Cuál distribución es correcta?",
+  "opciones": {
+   "A": "La dextrosa al 5% expande el intravascular más que la solución salina, porque la glucosa retiene agua en los vasos",
+   "B": "Dextrosa 5%: 2/3 intracelular y 1/3 extracelular (≈80 mL intravasculares); salina 0.9%: extracelular (≈250 mL intravasculares)",
+   "C": "Ambas se distribuyen por igual en los tres espacios, porque el agua atraviesa libremente todas las membranas",
+   "D": "La solución salina al 0.9% entra a las células y las hincha, porque es hipotónica respecto del plasma y del intersticio",
+   "E": "La dextrosa al 5% permanece íntegra en el espacio intravascular, porque la glucosa no atraviesa la membrana"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La dextrosa expande menos el intravascular que la salina.",
+   "B": "El agua corporal total se distribuye 2/3 en el líquido intracelular y 1/3 en el extracelular, y de este último 1/4 es intravascular y 3/4 intersticial. La dextrosa al 5% es agua libre una vez metabolizada la glucosa: un litro se reparte 667 mL al intracelular y 333 mL al extracelular, de los cuales cerca de 80 mL permanecen en el espacio intravascular. La solución salina al 0.9% es isotónica con el plasma y, al no entrar en las células, se distribuye en el extracelular (1/4 intravascular, o 250 mL por litro). Por ello la dextrosa corrige los déficits de agua libre y la salina los de volumen.",
+   "C": "Las distribuciones difieren por la tonicidad.",
+   "D": "La solución isotónica no produce desplazamiento de agua hacia el interior celular.",
+   "E": "La glucosa se metaboliza y el agua libre se distribuye en todos los compartimentos."
+  },
+  "perla": "1 L D5W → 667 mL ICF / 333 mL ECF (~83 mL intravascular). 1 L NaCl 0.9% → todo ECF (~250 mL intravascular).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio y del volumen)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 31.4
+ },
+ {
+  "id": "OSM-3",
+  "serie_id": "OSM",
+  "orden": 3,
+  "sub": "3",
+  "subtema": "Cambios del sodio durante la corrección de la hiperglucemia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia hidratación con solución balanceada e insulina intravenosa. Seis horas después la glucosa es de 300 mg/dL y el sodio sérico es de 138 mEq/L.",
+  "enunciado": "¿Cómo se interpreta el cambio del sodio y qué debe vigilarse?",
+  "opciones": {
+   "A": "Los cambios del sodio no tienen importancia clínica, porque la glucosa y el sodio se corrigen de forma independiente",
+   "B": "El sodio debería bajar porque la glucosa baja, y un aumento indica sobrecarga de sodio en la solución balanceada",
+   "C": "El sodio sube por pérdida de agua libre y no requiere vigilancia, porque la diuresis osmótica ya cedió con la insulina",
+   "D": "El Na sube al bajar la glucosa porque el agua vuelve a la célula; vigilar que la osmolalidad caiga ≤3 mOsm/kg/h",
+   "E": "El sodio sube por sobrecarga de sodio de la solución balanceada, por lo que se cambia a dextrosa al 5% en infusión"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El comportamiento del sodio indica el riesgo de edema cerebral y el éxito del tratamiento.",
+   "B": "Con menos glucosa el efecto dilucional disminuye y el sodio aumenta.",
+   "C": "El aumento no refleja pérdida de agua libre, sino redistribución.",
+   "D": "Al descender la glucosa con la insulina y la reposición de líquidos, el efecto osmótico extracelular disminuye y el agua se desplaza del espacio extracelular al intracelular, concentrando el sodio sérico; el aumento esperado es de 1.6 a 2.4 mEq/L por cada 100 mg/dL que baja la glucosa (aquí 500 mg/dL → 8 a 12 mEq/L, que coincide con 128 → 138). Si el sodio no aumenta o disminuye, o si la osmolalidad efectiva cae demasiado rápido (más de 3 mOsm/kg/h), el agua entra a las neuronas y puede causar edema cerebral, sobre todo en niños y adultos jóvenes. Se vigilan el sodio corregido, la glucosa y la osmolalidad cada 2 a 4 horas.",
+   "E": "No hay carga de sodio; es un fenómeno de dilución y redistribución."
+  },
+  "perla": "Al bajar la glucosa el Na sérico sube (1.6–2.4 por 100 mg/dL). Descenso rápido de osmolalidad efectiva (>3 mOsm/kg/h) → riesgo de edema cerebral.",
+  "referencias": [
+   "Sterns RH. N Engl J Med 2015;372:55",
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 31.4
+ },
+ {
+  "id": "BAL-1",
+  "serie_id": "BAL",
+  "orden": 1,
+  "sub": "3",
+  "subtema": "Hiponatremia con orina diluida: ingesta baja de solutos",
+  "dificultad": "moderada",
+  "caso": "Hombre de 52 años con consumo crónico de alcohol, que ingiere cerca de 5 litros de cerveza al día y casi no come. Llega confuso y con náusea. Euvolémico en la exploración. Na⁺ de 112 mEq/L, K⁺ de 2.8 mEq/L, glucosa de 90 mg/dL, BUN de 3 mg/dL, osmolalidad sérica de 232 mOsm/kg, osmolalidad urinaria de 84 mOsm/kg y Na⁺ urinario de 8 mEq/L. TSH y cortisol normales.",
+  "enunciado": "¿Cuál es el mecanismo de la hiponatremia?",
+  "opciones": {
+   "A": "Polidipsia primaria con ingesta normal de solutos, porque el consumo de 5 litros de cerveza excede la capacidad renal de dilución",
+   "B": "Hipotiroidismo grave, que reduce la TFG y la capacidad de dilución renal con una excreción de solutos normal",
+   "C": "Muy poca ingesta de solutos (potomanía de cerveza): la excreción de agua libre depende de la carga osmolar y se ve rebasada",
+   "D": "Síndrome de secreción inadecuada de ADH, con orina concentrada y producción ectópica de vasopresina en el paciente alcohólico",
+   "E": "Insuficiencia suprarrenal primaria, con hiperpotasemia y pérdida de sodio, además de la hipotensión arterial"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "En la polidipsia primaria con dieta normal se requieren ingestas mayores de 12 litros para causar hiponatremia, porque la carga de solutos es grande.",
+   "B": "La TSH es normal; el hipotiroidismo solo causa hiponatremia en casos extremos.",
+   "C": "La orina diluida (osmolalidad de 84 mOsm/kg, menor de 100) indica que la ADH está suprimida y que el riñón diluye de forma apropiada; entonces el problema no es la secreción de ADH, sino el límite de la capacidad de excretar agua libre. El volumen máximo de orina es igual a la carga osmolar diaria dividida entre la osmolalidad urinaria mínima. Con una dieta normal (600 a 900 mOsm al día) y osmolalidad mínima de 50 mOsm/kg, pueden excretarse 12 a 18 litros; en un paciente que casi no ingiere proteínas ni sal (la cerveza aporta muy pocos solutos), la carga diaria puede ser de 200 a 250 mOsm, y la capacidad máxima de excretar agua cae a 3 a 5 litros. El Na⁺ urinario bajo y el BUN bajo reflejan la ingesta escasa de sodio y proteínas. Es el mismo mecanismo de la dieta de “té y tostadas”. La hipopotasemia agrava la hiponatremia.",
+   "D": "En el SIADH la osmolalidad urinaria es mayor de 100 mOsm/kg y el Na⁺ urinario mayor de 30 mEq/L; aquí la orina está diluida y el Na⁺ urinario es bajo.",
+   "E": "No hay hiperpotasemia ni hipotensión, y el cortisol es normal."
+  },
+  "perla": "Volumen urinario máx = carga osmolar diaria / Uosm mínima. Dieta normal 600–900 mOsm → 12–18 L; potomanía de cerveza o 'té y tostadas' 150–250 mOsm → 3–5 L. Uosm <100 = ADH suprimida.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)",
+   "Sterns RH. N Engl J Med 2015;372:55"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "continuacion": "",
+  "obj": "3.o1",
+  "peso": 19.3
+ },
+ {
+  "id": "BAL-2",
+  "serie_id": "BAL",
+  "orden": 2,
+  "sub": "3",
+  "subtema": "Cálculo del volumen urinario máximo según la carga de solutos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El residente quiere cuantificar el problema. El paciente tiene una excreción diaria de solutos de cerca de 240 mOsm y una osmolalidad urinaria mínima de 80 mOsm/kg. Su ingesta diaria de agua (cerveza y agua) es de 5 litros.",
+  "enunciado": "¿Cuál es el volumen máximo de orina y qué ocurre con el balance de agua?",
+  "opciones": {
+   "A": "Máximo de 1.9 litros al día; solo se retiene 1 litro de agua, por lo que el sodio sérico se mantiene estable",
+   "B": "12 litros al día; no hay retención de agua, porque la capacidad de dilución renal es prácticamente ilimitada",
+   "C": "5 litros al día; el balance de agua es neutro, porque la orina diluida elimina todo el volumen que ingiere",
+   "D": "0.33 litros al día; el paciente está oligúrico y retiene casi toda el agua ingerida, por lo que baja el sodio sérico de forma progresiva",
+   "E": "Máximo de 3 litros al día (240/80 mOsm/kg); los 2 litros restantes se retienen y diluyen el sodio sérico"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El cálculo correcto es 3 litros, y la retención de 2 litros al día.",
+   "B": "12 litros corresponde a una carga de solutos de una dieta normal con osmolalidad mínima de 50 mOsm/kg.",
+   "C": "Con 3 litros de capacidad máxima de excreción, el balance de 5 litros ingeridos no es neutro.",
+   "D": "Se invirtió el cálculo (80 ÷ 240); la fórmula divide los solutos entre la osmolalidad urinaria.",
+   "E": "El volumen urinario máximo se calcula dividiendo la carga osmolar diaria entre la osmolalidad urinaria mínima: 240 mOsm ÷ 80 mOsm/kg = 3 L al día. Como el paciente ingiere 5 litros, la diferencia de 2 litros (más el agua generada por el metabolismo, menos las pérdidas insensibles) se retiene cada día, y con ello se diluye el sodio sérico: es la razón por la que la hiponatremia puede ser grave con ingestas de agua que, en una persona con dieta normal, serían bien toleradas. La reducción del agua libre y el aumento del aporte de solutos son la base del tratamiento, y por eso el mismo mecanismo explica el riesgo de sobrecorrección cuando se reanuda la alimentación."
+  },
+  "perla": "240 mOsm ÷ 80 mOsm/kg = 3 L/día. Ingesta de agua > capacidad de excreción = retención y hiponatremia. Más solutos (comida, sal) = más aquaresis.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 21.3
+ },
+ {
+  "id": "TUR-3",
+  "serie_id": "TUR",
+  "orden": 3,
+  "sub": "3",
+  "subtema": "Osmolalidad medida, calculada y brecha osmolal en la hiponatremia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un estudiante pregunta cómo diferenciar este cuadro de una hiponatremia hipotónica clásica y de otras causas con osmolalidad medida normal.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "La brecha osmolal solo se eleva en el síndrome nefrótico, por la hiperlipidemia y la hipoalbuminemia concomitantes",
+   "B": "La brecha osmolal es siempre cero, porque la osmolalidad calculada coincide con la medida en todos los casos",
+   "C": "El manitol disminuye la osmolalidad medida, porque diluye los solutos del plasma y baja la brecha osmolal",
+   "D": "La seudohiponatremia cursa con osmolalidad medida baja y con síntomas neurológicos, como la hiponatremia hipotónica verdadera del paciente",
+   "E": "Brecha osmolal alta = solutos no medidos (glicina, manitol, etanol, tóxicos); la seudohiponatremia tiene osmolalidad medida normal"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El síndrome nefrótico no eleva la brecha osmolal; esta aumenta por solutos como los alcoholes tóxicos o el manitol.",
+   "B": "En personas sanas la brecha es pequeña (menor de 10), pero no es cero, y se eleva con solutos no medidos.",
+   "C": "El manitol aumenta la osmolalidad medida y puede causar hiponatremia translocacional.",
+   "D": "La seudohiponatremia no es hipotónica: la osmolalidad medida es normal y no hay síntomas de edema cerebral.",
+   "E": "La osmolalidad plasmática calculada es 2 × Na⁺ (mEq/L) + glucosa (mg/dL)/18 + BUN (mg/dL)/2.8; la brecha osmolal es la diferencia entre la osmolalidad medida (por descenso del punto de congelación) y la calculada, y es normal hasta cerca de 10 mOsm/kg. Aumenta cuando hay solutos no medidos: etanol, metanol, etilenglicol, propilenglicol, isopropanol, manitol, glicina, sorbitol, o contraste. En la hiponatremia, medir la osmolalidad permite separar la hipotónica (baja), la hipertónica (por glucosa o manitol, que arrastran agua) y la isotónica o seudohiponatremia, en la que la fase sólida (lípidos o proteínas) desplaza el agua y los electrodos indirectos subestiman el sodio, con osmolalidad medida normal y brecha normal; el sodio por electrodo directo (gasómetro) es normal. En el post-RTU, la glicina eleva la brecha."
+  },
+  "perla": "Osm calc = 2Na + glucosa/18 + BUN/2.8. Brecha osmolal >10: etanol, metanol, etilenglicol, manitol, glicina, sorbitol. Seudohiponatremia: Osm medida y brecha normales; Na directo normal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 21.3
+ },
+ {
+  "id": "FLU-1",
+  "serie_id": "FLU",
+  "orden": 1,
+  "sub": "3",
+  "subtema": "Agua corporal total y distribución en compartimentos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 78 años, 58 kg, posoperada de reparación de fractura de cadera. Sodio sérico de 138 mEq/L, glucosa de 100 mg/dL, BUN de 14 mg/dL y creatinina de 0.8 mg/dL. Euvolémica. El médico residente quiere calcular el agua corporal total para planear la reposición de líquidos.",
+  "enunciado": "¿Cuál es la estimación más adecuada del agua corporal total y de su distribución en esta paciente?",
+  "opciones": {
+   "A": "Agua corporal total de 35 L (60% del peso), con 12 L intracelulares y 23 L extracelulares, como en un varón joven",
+   "B": "Agua corporal total de 26 L, con 9 L intracelulares y 17 L extracelulares, de los cuales la mitad es plasma y la otra mitad intersticio",
+   "C": "Agua corporal total de 41 L (70% del peso), igual que en un lactante, con la mayor parte intracelular",
+   "D": "ACT ≈26 L (≈45% del peso), con ≈17 L intracelulares y ≈9 L extracelulares, de los cuales ≈2 L son plasma",
+   "E": "Agua corporal total de 29 L (50% del peso), con un tercio intracelular y dos tercios extracelulares, como en el adulto joven"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El porcentaje de 60% corresponde al varón joven, y la distribución propuesta invierte la proporción entre los compartimentos.",
+   "B": "El volumen total es correcto, pero la distribución invierte los compartimentos: el líquido intracelular es el mayor, y el plasma es solo una cuarta parte del extracelular.",
+   "C": "El porcentaje de 70% a 75% es propio de los lactantes, y no de una mujer de 78 años.",
+   "D": "El agua corporal total depende de la composición corporal: cerca de 60% del peso en el varón joven, 50% en la mujer joven, y menos (45% a 50%) en las personas de edad avanzada, en las mujeres mayores y en los obesos, porque la grasa contiene poca agua y la masa muscular disminuye con la edad. En esta paciente, 45% de 58 kg da cerca de 26 L. De este volumen, dos tercios son líquido intracelular (alrededor de 17 L) y un tercio líquido extracelular (cerca de 9 L); el líquido extracelular se reparte en una cuarta parte de plasma (cerca de 2 L) y tres cuartas partes de líquido intersticial (cerca de 6.5 L). Usar el porcentaje del varón joven sobreestimaría el volumen en más de 30%, y esto se propaga a los cálculos posteriores de reposición y de cambios del sodio.",
+   "E": "El porcentaje de 50% corresponde a la mujer joven, y la distribución propuesta no respeta la proporción de dos tercios intracelulares."
+  },
+  "perla": "ACT: ~60% (varón joven), 50% (mujer joven), 45–50% (ancianos, obesos). LIC = 2/3; LEC = 1/3 (plasma 1/4 del LEC; intersticio 3/4). Para 70 kg: ACT 42 L, LIC 28, LEC 14, plasma 3.5.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (fisiología de los líquidos corporales)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "continuacion": "",
+  "obj": "3.o1",
+  "peso": 19.3
+ },
+ {
+  "id": "FLU-2",
+  "serie_id": "FLU",
+  "orden": 2,
+  "sub": "3",
+  "subtema": "Cambio del sodio sérico con agua libre: uso del agua corporal total",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En el posoperatorio se prescriben 2 L de dextrosa al 5% en 24 horas como líquido de mantenimiento. La paciente tiene dolor, náusea y recibe opioides; el volumen urinario es de 0.6 L en las 24 horas. A las 24 horas se mide un sodio de 128 mEq/L.",
+  "enunciado": "Con el agua corporal total calculada, ¿cuál es el cambio esperado del sodio si el agua libre infundida se hubiera retenido por completo, y por qué sucede?",
+  "opciones": {
+   "A": "Una caída de cerca de 27 mEq/L, porque el agua libre queda confinada al líquido extracelular de 9 L de la paciente",
+   "B": "Caída de ≈10 mEq/L (≈5 por litro), porque el agua libre se reparte en toda el agua corporal y la ADH no osmótica limita su excreción",
+   "C": "Ningún cambio, porque la dextrosa al 5% es una solución isotónica y no altera el sodio sérico al metabolizarse la glucosa",
+   "D": "Una caída de cerca de 5 mEq/L, porque la ADH suprime la retención de agua libre y la paciente excreta con facilidad el exceso infundido",
+   "E": "Un aumento de cerca de 5 mEq/L, porque la glucosa arrastra agua hacia el espacio vascular y concentra el sodio sérico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El agua libre no queda confinada al líquido extracelular, sino que se reparte en toda el agua corporal, y usar solo 9 L sobreestima la caída.",
+   "B": "La dextrosa al 5% es isotónica en el frasco, pero la glucosa se metaboliza y lo que queda es agua libre, que se reparte en todo el agua corporal (los espacios intra y extracelular equilibran su osmolalidad). El cambio estimado del sodio por litro infundido es (Na de la solución − Na sérico) ÷ (agua corporal total + 1); con 0 − 138 y 26 + 1 L da cerca de −5 mEq/L por litro, y con 2 L retenidos, alrededor de −10 mEq/L, que concuerda con el sodio observado de 128 mEq/L. La retención se favorece por la liberación no osmótica de ADH (dolor, náusea, opioides, hipovolemia relativa, estrés posoperatorio), que impide excretar el agua libre; esta es la base de la hiponatremia hospitalaria posoperatoria, más frecuente en mujeres y ancianos. Si se hubiera usado el agua corporal de varón joven (35 L), el cálculo habría subestimado la caída.",
+   "C": "La dextrosa es isotónica solo en el frasco; al metabolizarse la glucosa queda agua libre que diluye el sodio.",
+   "D": "La ADH aumentada favorece la retención, y no la excreción, del agua libre, por lo que la caída es mayor.",
+   "E": "La glucosa metabolizada no aumenta el sodio, y la dextrosa al 5% no es hipertónica de forma efectiva."
+  },
+  "perla": "ΔNa por litro ≈ (Na infundido − Na sérico)/(ACT + 1). D5W = agua libre (glucosa metabolizada). ADH no osmótica (dolor, náusea, opioides) → hiponatremia hospitalaria posoperatoria (mujeres, ancianos).",
+  "referencias": [
+   "Adrogué HJ, Madias NE. N Engl J Med 2000;342:1581",
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 21.3
+ },
+ {
+  "id": "FLU-3",
+  "serie_id": "FLU",
+  "orden": 3,
+  "sub": "3",
+  "subtema": "Fuerzas de Starling y factores de seguridad contra el edema",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al tercer día, tras recibir 3 L de solución salina por hipotensión por una infección urinaria complicada con sepsis, la paciente desarrolla edema de miembros inferiores y sacro. Albúmina de 2.0 g/dL, tira reactiva de orina con proteínas negativas, creatinina de 0.8 mg/dL, presión arterial de 108/64 mmHg.",
+  "enunciado": "¿Qué mecanismo explica mejor el edema?",
+  "opciones": {
+   "A": "Fuerzas de Starling alteradas: baja presión oncótica, mayor permeabilidad capilar de la sepsis y más presión hidrostática por la salina",
+   "B": "Obstrucción venosa aislada, porque el edema bilateral y sacro siempre es de origen venoso, sin otros mecanismos",
+   "C": "Pérdida urinaria de albúmina por síndrome nefrótico, porque la hipoalbuminemia de la paciente solo se produce por proteinuria masiva persistente",
+   "D": "Disminución de la presión hidrostática capilar tras la carga de salina, que favorece la salida de líquido al intersticio",
+   "E": "Aumento de la presión oncótica plasmática por la solución salina, que retiene el agua en el espacio intersticial"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El intercambio de líquido a través del capilar depende de las fuerzas de Starling: la presión hidrostática capilar y la presión oncótica intersticial favorecen la filtración, y la presión oncótica plasmática y la presión hidrostática intersticial la oponen, de modo que el balance neto depende también de la permeabilidad (coeficiente de reflexión de la albúmina) y de la integridad del glucocálix endotelial. Normalmente hay factores de seguridad contra el edema: el drenaje linfático puede aumentar varias veces, la presión oncótica intersticial disminuye al diluirse las proteínas filtradas y la presión hidrostática intersticial aumenta. El edema aparece cuando estos factores se rebasan: en esta paciente coinciden la hipoalbuminemia (inflamación, dilución por la carga de salina y menor síntesis hepática), la mayor permeabilidad de la sepsis y el aumento de la presión hidrostática por el volumen infundido. Con tira reactiva sin proteínas, no hay síndrome nefrótico.",
+   "B": "El edema bilateral con hipoalbuminemia y sepsis no es explicable solo por obstrucción venosa.",
+   "C": "No hay proteinuria en la tira reactiva, y la hipoalbuminemia aquí se explica por inflamación (la albúmina es un reactante negativo de fase aguda) y por dilución.",
+   "D": "Una menor presión hidrostática capilar reduce la filtración, y no favorece el edema.",
+   "E": "La salina no aumenta la presión oncótica; al contrario, la diluye al expandir el volumen plasmático."
+  },
+  "perla": "Starling: Pc y πi filtran; πp y Pi se oponen. Factores de seguridad: ↑ flujo linfático, ↓ πi, ↑ Pi. Edema = hipoalbuminemia + permeabilidad (sepsis, glucocálix) + Pc ↑ (volumen). Albúmina es reactante negativo de fase aguda.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (fisiología de los líquidos corporales y edema)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 21.3
+ },
+ {
+  "id": "FLU-4",
+  "serie_id": "FLU",
+  "orden": 4,
+  "sub": "3",
+  "subtema": "Volumen arterial efectivo y retención de sodio en el paciente edematoso",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 48 horas persiste con edema y presión arterial de 100/60 mmHg con frecuencia cardiaca de 105 lpm. La creatinina sube a 1.3 mg/dL, el sodio urinario es de 12 mEq/L, la fracción excretada de sodio de 0.4% y la osmolalidad urinaria de 520 mOsm/kg. El residente propone furosemida por el edema.",
+  "enunciado": "¿Cómo se interpreta este patrón y cuál es la conducta?",
+  "opciones": {
+   "A": "Síndrome nefrótico, por el edema con hipoalbuminemia, que se trata con diuréticos de asa y restricción de sodio",
+   "B": "LEC expandido con volumen arterial efectivo bajo: SRAA, simpático y ADH activados; se trata la sepsis antes de dar diuréticos",
+   "C": "Sobrecarga de volumen eficaz, y la furosemida es la primera línea para restablecer la función renal de inmediato",
+   "D": "Hiperaldosteronismo primario, por la retención de sodio con presión normal y potasio sérico bajo, que se trata con espironolactona",
+   "E": "Necrosis tubular aguda establecida, por el sodio urinario bajo, y se indica furosemida a dosis altas para reiniciar la diuresis"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay proteinuria; la hipoalbuminemia se explica por la inflamación y la dilución.",
+   "B": "El volumen arterial efectivo es el que perfunde los barorreceptores (seno carotídeo, arco aórtico, arteriola aferente y aurículas), y no necesariamente coincide con el volumen extracelular total: en la sepsis, la cirrosis y la insuficiencia cardiaca puede estar disminuido pese a un líquido extracelular expandido. Los sensores activan el SRAA, el simpático y la liberación no osmótica de ADH, lo que causa una retención de sodio y agua con orina concentrada, sodio urinario bajo (menos de 20 mEq/L), fracción excretada de sodio menor de 1% y un cuadro prerrenal. Se corrige el factor de fondo (control del foco, hemodinamia, reposición guiada por respuesta a volumen), y los diuréticos solo se emplean cuando hay sobrecarga con perfusión adecuada, porque podrían empeorar la hipoperfusión renal.",
+   "C": "El sodio urinario bajo con orina concentrada indica avidez de sodio por un volumen efectivo bajo, y no una sobrecarga eficaz.",
+   "D": "El hiperaldosteronismo primario cursa con hipertensión e hipopotasemia, y aquí la retención de sodio es secundaria al volumen efectivo bajo.",
+   "E": "La necrosis tubular aguda se acompaña de sodio urinario alto y fracción excretada mayor de 2%, y aquí el patrón es el opuesto."
+  },
+  "perla": "Edema ≠ volumen arterial efectivo normal. Sepsis/cirrosis/IC: LEC ↑ con VAE ↓ → SRAA, simpático, ADH ↑, UNa <20, FENa <1%, orina concentrada (prerrenal). Tratar causa; diuréticos solo con sobrecarga y perfusión adecuada.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (fisiología de los líquidos corporales y edema)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 21.3
+ }
+]

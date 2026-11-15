@@ -1,0 +1,389 @@
+[
+ {
+  "id": "FIS-1",
+  "serie_id": "FIS",
+  "orden": 1,
+  "sub": "1",
+  "subtema": "Determinantes de la TFG: presión de ultrafiltración",
+  "dificultad": "moderada",
+  "caso": "Hombre de 68 años con insuficiencia cardiaca y enfermedad renal crónica estadio 3a (creatinina basal de 1.5 mg/dL) que toma enalapril 10 mg cada 12 horas y furosemida 40 mg al día. Hace una semana inició ibuprofeno 600 mg cada 8 horas por dolor de rodilla y presentó gastroenteritis con ingesta oral deficiente. Hoy tiene TA de 98/60 mmHg, mucosas secas, diuresis de 300 mL en 24 horas y creatinina de 2.9 mg/dL.",
+  "enunciado": "¿Qué determinante de la filtración glomerular explica de manera principal la caída de la TFG?",
+  "opciones": {
+   "A": "Descenso del coeficiente de ultrafiltración por pérdida de podocitos, con reducción de la superficie de filtración",
+   "B": "Aumento de la presión oncótica del plasma por hipoalbuminemia, que se opone con mayor fuerza a la filtración glomerular",
+   "C": "Menor presión hidrostática del capilar glomerular por vasoconstricción aferente, vasodilatación eferente e hipovolemia",
+   "D": "Aumento de la fracción de filtración por constricción eferente, que eleva la presión hidrostática del capilar glomerular",
+   "E": "Aumento de la presión hidrostática del espacio de Bowman por obstrucción de la vía urinaria baja o alta, con hidronefrosis"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Una pérdida de podocitos produce proteinuria y esclerosis, no una caída aguda de la TFG asociada a fármacos.",
+   "B": "La hipoalbuminemia reduce la presión oncótica y favorecería la filtración, no la reduciría.",
+   "C": "La TFG depende de la presión neta de ultrafiltración (presión hidrostática del capilar glomerular menos la presión del espacio de Bowman y la presión oncótica del capilar) y del coeficiente de ultrafiltración. Con cifras típicas de 50 mmHg en el capilar, 10 mmHg en el espacio de Bowman y una presión oncótica que sube de 25 a 35 mmHg a lo largo del capilar, la presión neta es de 10 a 15 mmHg en el extremo aferente. En este paciente, el AINE bloquea la síntesis de prostaglandinas vasodilatadoras y contrae la arteriola aferente, el IECA dilata la arteriola eferente al bloquear la angiotensina II y la hipovolemia por vómito, diarrea y diurético reduce la presión de perfusión. Esta combinación ('triple golpe') hace caer la presión del capilar glomerular y la TFG, con una lesión renal aguda hemodinámica.",
+   "D": "La constricción eferente aumentaría la presión del capilar y la fracción de filtración, pero el IECA dilata la arteriola eferente.",
+   "E": "No hay datos de obstrucción, y la presión de Bowman aumentaría en esa situación, pero aquí el mecanismo es hemodinámico."
+  },
+  "perla": "TFG ↓ con 'triple golpe': AINE (constricción aferente) + IECA/ARA (dilatación eferente) + diurético/hipovolemia → ↓ presión del capilar glomerular.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "continuacion": "",
+  "obj": "1.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "FIS-2",
+  "serie_id": "FIS",
+  "orden": 2,
+  "sub": "1",
+  "subtema": "Control del tono arteriolar: papel de la angiotensina II y de las prostaglandinas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El residente pregunta por qué el paciente, con insuficiencia cardiaca y bajo volumen arterial efectivo, depende tanto de estos mecanismos para conservar su TFG.",
+  "enunciado": "¿Cuál es la explicación fisiológica?",
+  "opciones": {
+   "A": "La angiotensina II dilata la arteriola aferente y las prostaglandinas contraen la eferente durante la hipoperfusión renal grave",
+   "B": "Las prostaglandinas se sintetizan solo en pacientes con hipovolemia y no tienen otro papel en la hemodinámica renal",
+   "C": "Con hipovolemia, Ang II contrae la eferente y las prostaglandinas dilatan la aferente; bloquear una reduce la TFG",
+   "D": "La angiotensina II dilata ambas arteriolas por igual, de modo que el tono vascular no influye en la presión capilar",
+   "E": "La TFG depende solo del flujo plasmático renal y no del tono arteriolar, por lo que los fármacos no la modifican"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Es lo contrario: la angiotensina II contrae la eferente y las prostaglandinas dilatan la aferente.",
+   "B": "Las prostaglandinas tienen producción basal y se activan en bajo volumen, pero cumplen un papel vasodilatador general.",
+   "C": "En los estados de bajo volumen arterial efectivo (insuficiencia cardiaca, cirrosis, hipovolemia, síndrome nefrótico) se activan la angiotensina II y el sistema simpático, que contraen la arteriola aferente y, sobre todo, la eferente; la constricción eferente mantiene la presión del capilar glomerular y la TFG a pesar de un flujo plasmático bajo. Al mismo tiempo, las prostaglandinas vasodilatadoras (PGE₂ y PGI₂, producidas por la COX-2 y la COX-1) y el óxido nítrico dilatan la arteriola aferente y contrarrestan la vasoconstricción. Los AINE eliminan la dilatación aferente, y los IECA o ARA II eliminan la constricción eferente; cualquiera de ellos, y más aún su combinación, reduce la TFG en una persona dependiente de estos mecanismos. Por eso, se evitan en la depleción de volumen.",
+   "D": "La angiotensina II contrae las dos arteriolas, con predominio eferente a dosis bajas.",
+   "E": "La TFG depende de la presión del capilar, que es modulada por el tono de ambas arteriolas, además del flujo plasmático."
+  },
+  "perla": "Bajo VAE: Ang II contrae eferente (mantiene PGC) + PGE₂/PGI₂ dilatan aferente. AINE y IECA/ARA II rompen ese equilibrio → ↓TFG.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 51.0
+ },
+ {
+  "id": "FIS-3",
+  "serie_id": "FIS",
+  "orden": 3,
+  "sub": "1",
+  "subtema": "Autorregulación y retroalimentación tubuloglomerular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se suspenden el AINE, el IECA y el diurético y se repone volumen. El nefrólogo explica que la autorregulación renal mantiene la TFG estable entre ciertas presiones arteriales, y que la mácula densa participa en ello.",
+  "enunciado": "¿Cuál es el mecanismo de la retroalimentación tubuloglomerular y el rango de la autorregulación?",
+  "opciones": {
+   "A": "La mácula densa detecta NaCl (NKCC2); más NaCl libera adenosina/ATP que contrae la aferente; rango ≈80–180 mmHg de PAM",
+   "B": "La retroalimentación se produce en el túbulo proximal por la reabsorción de glucosa y de aminoácidos filtrados",
+   "C": "La mácula densa detecta potasio y libera aldosterona; el rango de autorregulación es de 120 a 240 mmHg de PAM",
+   "D": "La mácula densa detecta la presión arterial y libera óxido nítrico para contraer la arteriola eferente; el rango es de 40 a 60 mmHg",
+   "E": "La autorregulación es igual en todas las presiones y no tiene límites, por lo que la TFG nunca cambia con la presión arterial"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La autorregulación mantiene la TFG y el flujo plasmático renal prácticamente constantes con presiones arteriales medias de aproximadamente 80 a 180 mmHg, mediante dos mecanismos de la arteriola aferente: la respuesta miogénica (contracción a la distensión) y la retroalimentación tubuloglomerular. En esta última, la mácula densa (parte final del asa ascendente gruesa) detecta la llegada de NaCl por el cotransportador NKCC2; cuando aumenta, libera adenosina y ATP que actúan sobre receptores A1 y contraen la arteriola aferente de la misma nefrona, reduciendo la TFG; cuando disminuye, se libera renina y se dilata la aferente por prostaglandinas y óxido nítrico neuronal. Por debajo del rango (hipovolemia, hipotensión) la TFG cae, y en enfermedades con daño vascular la autorregulación se desplaza o se pierde. Los diuréticos de asa bloquean NKCC2, anulan la retroalimentación y estimulan la liberación de renina.",
+   "B": "La retroalimentación se produce en la mácula densa, no en el túbulo proximal.",
+   "C": "El potasio no es la señal de la retroalimentación, y la aldosterona no es el efector.",
+   "D": "La mácula densa no mide la presión arterial, y la respuesta es una constricción aferente, no eferente.",
+   "E": "La autorregulación es efectiva solo dentro de un rango; fuera de él, la TFG sigue la presión arterial."
+  },
+  "perla": "Autorregulación: PAM ~80–180 mmHg. Miogénica + TGF (mácula densa: NaCl vía NKCC2 → adenosina/ATP → constricción aferente). Furosemida bloquea NKCC2 → ↑renina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 32.9
+ },
+ {
+  "id": "FIS-4",
+  "serie_id": "FIS",
+  "orden": 4,
+  "sub": "1",
+  "subtema": "Aparato yuxtaglomerular y control de la renina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A la mañana siguiente, con la repleción de volumen, la creatinina baja a 1.8 mg/dL. El residente repasa qué células controlan la secreción de renina y cuál es su efecto sobre el sistema.",
+  "enunciado": "¿Cuáles son los estímulos principales de la liberación de renina?",
+  "opciones": {
+   "A": "Menor presión aferente, menor NaCl en la mácula densa y estímulo β₁; la Ang II y la hipertensión la inhiben",
+   "B": "Estimulación α₁-adrenérgica e hiperpotasemia únicamente, sin participación de la presión ni de la mácula densa",
+   "C": "Aumento de la presión de perfusión y de la llegada de NaCl a la mácula densa, con estímulo de los receptores de volumen cardiaco",
+   "D": "La liberación solo depende de la aldosterona, que actúa sobre las células yuxtaglomerulares y estimula la renina",
+   "E": "Administración de un antagonista β₁ y de angiotensina II, que actúan directamente en las células yuxtaglomerulares"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Las células yuxtaglomerulares, situadas en la pared de la arteriola aferente, secretan renina por tres estímulos principales: la reducción de la presión de perfusión que detectan como barorreceptor (estiramiento), la menor llegada de NaCl a la mácula densa (con señalización mediada por prostaglandinas y óxido nítrico) y la estimulación simpática por receptores β₁. La angiotensina II inhibe la liberación de renina por retroalimentación negativa a través de los receptores AT1, igual que el aumento de la presión de perfusión, de la llegada de NaCl, la hipertensión y la adenosina; la hiperpotasemia y el calcio intracelular también la inhiben. Por ello, los IECA y ARA II aumentan la renina plasmática, los β-bloqueadores la disminuyen y los diuréticos la elevan.",
+   "B": "Los receptores α₁ no estimulan la liberación de renina y la hiperpotasemia la inhibe.",
+   "C": "El aumento de presión y de llegada de NaCl inhibe la renina.",
+   "D": "La aldosterona es un producto de la cascada, no su estímulo.",
+   "E": "Un antagonista β₁ disminuye la renina y la angiotensina II la inhibe."
+  },
+  "perla": "Renina ↑: ↓presión de perfusión, ↓NaCl en mácula densa, β₁. Renina ↓: Ang II (feedback), ↑presión, ↑NaCl, β-bloqueo. IECA/ARA II y diuréticos ↑renina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 32.9
+ },
+ {
+  "id": "BAR-1",
+  "serie_id": "BAR",
+  "orden": 1,
+  "sub": "1",
+  "subtema": "Barrera de filtración: selectividad de carga y tamaño",
+  "dificultad": "moderada",
+  "caso": "Niño de 5 años con edema palpebral y de miembros inferiores de 10 días de evolución, TA normal, creatinina de 0.4 mg/dL, proteinuria de 4.2 g/día, albúmina sérica de 1.6 g/dL y sedimento sin hematuria. La electroforesis de proteínas urinarias muestra casi exclusivamente albúmina.",
+  "enunciado": "¿Qué defecto de la barrera explica la proteinuria selectiva?",
+  "opciones": {
+   "A": "Aumento de la reabsorción tubular de albúmina, que eleva su concentración en la orina por saturación del túbulo proximal",
+   "B": "Rotura de la membrana basal que permite el paso de proteínas de alto peso molecular, como las inmunoglobulinas y el fibrinógeno",
+   "C": "Pérdida del endotelio fenestrado, con paso de eritrocitos y de proteínas de todos los tamaños hacia el espacio urinario",
+   "D": "Pérdida de carga aniónica y borramiento de pedicelos con filtro de tamaño conservado: pasa albúmina, no globulinas",
+   "E": "Obstrucción de los poros de hendidura por depósitos subepiteliales de inmunocomplejos, con reducción de la filtración"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La reabsorción tubular de albúmina no está aumentada; el problema es de la filtración.",
+   "B": "La rotura de la membrana basal causa proteinuria no selectiva con hematuria, como en el síndrome de Alport.",
+   "C": "La pérdida del endotelio no explica una proteinuria selectiva y se asocia a lesiones endoteliales como las de la preeclampsia.",
+   "D": "La barrera de filtración glomerular selecciona las proteínas por tamaño y por carga. La albúmina (aproximadamente 66 kDa, radio efectivo de 3.6 nm, carga negativa) está normalmente restringida sobre todo por la carga aniónica del glucocálix endotelial y de los proteoglucanos con heparán sulfato de la membrana basal, y por el diafragma de hendidura podocitario. En la enfermedad de cambios mínimos, la lesión podocitaria mediada por factores circulantes y los cambios en la carga y en la estructura de los pedicelos (borramiento difuso en la microscopía electrónica) aumentan el paso de albúmina, con filtro de tamaño conservado; la proteinuria es selectiva (albúmina casi exclusiva) y no hay hematuria. Esto explica la rápida respuesta a los glucocorticoides.",
+   "E": "Los depósitos subepiteliales corresponden a la nefropatía membranosa, con proteinuria no selectiva."
+  },
+  "perla": "Cambios mínimos: pérdida de carga + borramiento podocitario → albuminuria selectiva; sin hematuria. Barrera = glucocálix/endotelio + MBG + diafragma de hendidura.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "continuacion": "",
+  "obj": "1.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "BAR-2",
+  "serie_id": "BAR",
+  "orden": 2,
+  "sub": "1",
+  "subtema": "Componentes de la barrera glomerular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El niño se biopsia por falta de respuesta clínica a los glucocorticoides y se describe la estructura normal observada por microscopía electrónica en un fragmento sano.",
+  "enunciado": "¿Cuál es la descripción correcta de la barrera de filtración normal?",
+  "opciones": {
+   "A": "Endotelio fenestrado (70–100 nm), membrana basal de tres capas (320–370 nm) y podocitos con diafragma de hendidura (25–60 nm)",
+   "B": "Endotelio fenestrado con poros de 2 a 25 nm y podocitos sin hendiduras de filtración, sobre una membrana basal homogénea y delgada",
+   "C": "Membrana basal con colágeno tipo I y fibronectina únicamente, sin laminina ni proteoglucanos cargados negativamente",
+   "D": "Endotelio continuo sin fenestraciones, membrana basal de una sola capa y células epiteliales parietales con poros amplios y regulares",
+   "E": "Endotelio con fenestraciones de 1,000 a 1,500 nm, membrana basal delgada y podocitos con poros de 250 a 600 nm"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La barrera de filtración glomerular tiene tres capas: el endotelio fenestrado (poros de 70 a 100 nm, con glucocálix de carga negativa), la membrana basal glomerular (de cerca de 320 a 370 nm de grosor, con tres láminas: lámina rara interna, lámina densa central y lámina rara externa, formada por colágeno IV α3α4α5, laminina 521, nidógeno y heparán sulfato) y el epitelio visceral, es decir, los podocitos, cuyos pedicelos se interdigitan y dejan entre sí hendiduras cerradas por el diafragma de hendidura (nefrina, podocina, NEPH1, CD2AP) de 25 a 60 nm. El agua y los solutos pequeños pasan libremente, mientras que las proteínas mayores de 40 a 60 kDa o con carga negativa quedan restringidas. Las células epiteliales parietales revisten la cápsula de Bowman y no forman parte de la barrera.",
+   "B": "Las dimensiones de poros planteadas no corresponden a las fenestraciones endoteliales, y los podocitos sí tienen hendiduras.",
+   "C": "La membrana basal glomerular contiene colágeno IV, no tipo I.",
+   "D": "El endotelio glomerular es fenestrado, la membrana basal tiene tres láminas, y los podocitos son viscerales.",
+   "E": "Los valores de 1,000 a 1,500 nm y 250 a 600 nm exceden las dimensiones reales."
+  },
+  "perla": "Barrera: endotelio fenestrado (70–100 nm) + MBG trilaminar (320–370 nm; col IV α3α4α5, heparán sulfato) + podocitos (diafragma de hendidura 25–60 nm: nefrina/podocina).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 32.9
+ },
+ {
+  "id": "TUB-1",
+  "serie_id": "TUB",
+  "orden": 1,
+  "sub": "1",
+  "subtema": "Mecanismo contracorriente y gradiente medular",
+  "dificultad": "moderada",
+  "caso": "Voluntario sano de 28 años que tras 14 horas de privación de agua tiene osmolalidad plasmática de 292 mOsm/kg, osmolalidad urinaria de 850 mOsm/kg, sodio de 142 mEq/L y diuresis de 0.4 mL/min.",
+  "enunciado": "¿Qué proceso genera principalmente el gradiente osmótico de la médula renal?",
+  "opciones": {
+   "A": "Reabsorción activa de NaCl en la rama ascendente gruesa (NKCC2), impermeable al agua, con contracorriente y reciclaje de urea",
+   "B": "La reabsorción activa de agua en la rama descendente del asa de Henle, que concentra el filtrado mediante transporte activo continuo",
+   "C": "La secreción de potasio en el túbulo colector cortical, que aporta solutos osmóticamente activos a la médula",
+   "D": "La reabsorción de agua en el túbulo proximal, que concentra el filtrado de forma progresiva hasta la médula interna renal profunda",
+   "E": "La reabsorción de glucosa en el túbulo proximal, que aporta solutos osmóticamente activos a la médula renal"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La rama ascendente gruesa del asa de Henle reabsorbe activamente NaCl por el cotransportador NKCC2 sin reabsorber agua porque es impermeable, lo que diluye el líquido tubular y concentra el intersticio medular ('efecto único'). La rama descendente, permeable al agua, equilibra su contenido con el intersticio, y la geometría en horquilla del asa multiplica el efecto del gradiente corticomedular desde 300 hasta cerca de 1,200 mOsm/kg en la punta de la papila. La urea, reabsorbida en el colector medular interno por UT-A1, contribuye cerca de la mitad del gradiente medular, y los vasos rectos preservan el gradiente por su flujo en contracorriente. Con este gradiente y la acción de la ADH, el riñón concentra la orina.",
+   "B": "La rama descendente es permeable al agua y no transporta activamente solutos.",
+   "C": "La secreción de potasio no determina la osmolalidad medular.",
+   "D": "En el túbulo proximal la reabsorción es isoosmótica y no genera un gradiente medular.",
+   "E": "La glucosa se reabsorbe con sodio en el túbulo proximal sin crear gradiente medular."
+  },
+  "perla": "Efecto único: TAL (NKCC2) reabsorbe NaCl sin agua → contracorriente multiplicador; urea (UT-A1) aporta ~50% del gradiente; vasos rectos lo preservan.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "continuacion": "",
+  "obj": "1.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "TUB-2",
+  "serie_id": "TUB",
+  "orden": 2,
+  "sub": "1",
+  "subtema": "Acción de la ADH sobre el conducto colector",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En el voluntario, la ADH plasmática está elevada. El instructor pide explicar cómo logra la ADH aumentar la osmolalidad urinaria.",
+  "enunciado": "¿Cuál es el mecanismo celular de la ADH?",
+  "opciones": {
+   "A": "Disminuye el AMPc para reducir la permeabilidad del colector y favorecer la excreción de agua libre por la orina",
+   "B": "Inhibe el NKCC2 de la rama ascendente gruesa para diluir la orina y reducir el gradiente medular de concentración",
+   "C": "Se une a V2 basolateral, activa AMPc/PKA e inserta acuaporina-2 apical, lo que aumenta la permeabilidad al agua",
+   "D": "Une el receptor V1 y contrae la arteriola aferente para aumentar la TFG y la carga de soluto que llega al colector",
+   "E": "Bloquea la acuaporina-1 del túbulo proximal, para disminuir la reabsorción de agua isosmótica en ese segmento"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La ADH aumenta el AMPc.",
+   "B": "La ADH incluso estimula la reabsorción de NaCl en el asa ascendente; no la inhibe.",
+   "C": "La ADH (vasopresina) se libera por el aumento de la osmolalidad plasmática o la caída del volumen arterial efectivo y actúa sobre el receptor V2 acoplado a proteína Gs, ubicado en la membrana basolateral de las células principales del túbulo colector. La vía adenilato ciclasa, AMPc y PKA promueve la inserción de vesículas con acuaporina-2 en la membrana apical y la transcripción del gen AQP2; el agua sale luego por AQP3 y AQP4 basolaterales hacia el intersticio hipertónico. En el colector medular interno aumenta también la permeabilidad a la urea (UT-A1), reforzando el gradiente. Los antagonistas V2 (tolvaptán) y las mutaciones de AVPR2 o AQP2 producen diabetes insípida nefrogénica; los receptores V1 median la vasoconstricción.",
+   "D": "El receptor V1 media la vasoconstricción sistémica, y no es el mecanismo antidiurético.",
+   "E": "La acuaporina-1 del túbulo proximal no es regulada por la ADH."
+  },
+  "perla": "ADH: V2 (Gs) → AMPc/PKA → AQP2 apical (AQP3/4 basolateral) + UT-A1. V1: vasoconstricción. DIN: V2/AQP2 mutados o litio.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Belen26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 61.1
+ },
+ {
+  "id": "TUB-3",
+  "serie_id": "TUB",
+  "orden": 3,
+  "sub": "1",
+  "subtema": "Efecto de los diuréticos de asa sobre la concentración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al día siguiente, el mismo voluntario recibe 40 mg de furosemida intravenosa tras la privación de agua. Su diuresis aumenta y la osmolalidad urinaria cae a 320 mOsm/kg con concentración urinaria de sodio de 120 mEq/L.",
+  "enunciado": "¿Por qué disminuye la capacidad de concentración y qué otro efecto se espera?",
+  "opciones": {
+   "A": "Bloquea NKCC2 de la rama ascendente gruesa, disipa el gradiente medular y aumenta la excreción de calcio y magnesio",
+   "B": "La furosemida estimula la reabsorción de agua en el colector, por lo que la orina se concentra más y baja la diuresis",
+   "C": "La furosemida bloquea el ENaC del túbulo colector y retiene potasio, por lo que disminuye la capacidad de concentrar",
+   "D": "La furosemida bloquea el NCC del túbulo distal, lo que reduce la excreción de calcio y conserva el gradiente medular",
+   "E": "La furosemida inhibe la anhidrasa carbónica del túbulo proximal y alcaliniza la orina únicamente, sin afectar el gradiente medular"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La furosemida y otros diuréticos de asa inhiben el cotransportador NKCC2 en la membrana luminal de la rama ascendente gruesa, que reabsorbe cerca de 25% del sodio filtrado y genera el efecto único del gradiente medular; al bloquearlo, el intersticio pierde osmolalidad y el riñón no puede concentrar ni diluir bien la orina (orina isoosmolar, cercana a 300 mOsm/kg). Además, el NKCC2 y el reciclaje de potasio por ROMK generan el potencial transepitelial luminal positivo que impulsa la reabsorción paracelular de calcio y magnesio mediante claudinas 16 y 19, por lo que los diuréticos de asa aumentan la excreción de ambos (útil en la hipercalcemia, aunque con riesgo de hipomagnesemia). También anulan la retroalimentación tubuloglomerular y estimulan la renina.",
+   "B": "La furosemida no estimula la reabsorción de agua; la diuresis aumentada refleja el gradiente perdido.",
+   "C": "El ENaC es el blanco de amilorida y triamtereno.",
+   "D": "El NCC es el blanco de las tiazidas, que disminuyen la excreción de calcio.",
+   "E": "La anhidrasa carbónica es el blanco de la acetazolamida, y no explica el cuadro."
+  },
+  "perla": "Furosemida: bloquea NKCC2 → pierde el gradiente medular (orina isoosmolar), ↑Ca²⁺/Mg²⁺ urinarios, bloquea TGF, ↑renina. Tiazidas: NCC (↓Ca urinario).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 32.9
+ },
+ {
+  "id": "TUB-4",
+  "serie_id": "TUB",
+  "orden": 4,
+  "sub": "1",
+  "subtema": "Reabsorción proximal de bicarbonato y anhidrasa carbónica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una semana después, el voluntario recibe 500 mg de acetazolamida. Su pH urinario sube a 7.8 y el bicarbonato sérico baja de 25 a 20 mEq/L con cloro sérico de 108 mEq/L.",
+  "enunciado": "¿Qué proceso se inhibe y qué trastorno ácido-base resulta?",
+  "opciones": {
+   "A": "Reabsorción proximal de bicarbonato (NHE3, AC); acidosis metabólica hiperclorémica con brecha aniónica normal",
+   "B": "La reabsorción de amonio en el asa ascendente gruesa de Henle, con acidosis metabólica de brecha aniónica elevada y cloro bajo",
+   "C": "La secreción distal de protones por la H⁺-ATPasa, con alcalosis metabólica hipoclorémica y pH urinario siempre ácido",
+   "D": "La reabsorción proximal de glucosa por SGLT2, con acidosis láctica y brecha aniónica elevada en el voluntario sano",
+   "E": "La excreción de fosfato en el túbulo proximal, con alcalosis respiratoria y brecha aniónica normal en el voluntario"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El túbulo proximal reabsorbe cerca de 70 a 90% del bicarbonato filtrado: el intercambiador Na⁺/H⁺ (NHE3) secreta protones a la luz, que reaccionan con el bicarbonato filtrado para formar ácido carbónico, convertido en CO₂ y agua por la anhidrasa carbónica tipo IV de la membrana luminal; el CO₂ entra a la célula, donde la anhidrasa carbónica tipo II lo reconvierte en bicarbonato, que sale por el cotransportador NBCe1 basolateral. La acetazolamida inhibe estas enzimas, produce bicarbonaturia (pH urinario alcalino) y acidosis metabólica hiperclorémica con brecha aniónica normal, que se autolimita al agotarse el bicarbonato filtrado. Esta acidosis es similar a la de la ATR proximal (tipo 2), y por eso la acetazolamida se emplea para tratar la alcalosis metabólica y el mal de altura.",
+   "B": "La excreción de amonio no se inhibe, y la brecha aniónica es normal.",
+   "C": "El bloqueo es proximal, y el resultado es acidosis y no alcalosis.",
+   "D": "La acetazolamida no afecta la reabsorción de glucosa.",
+   "E": "El fosfato no es el blanco de este fármaco y no se produce alcalosis respiratoria."
+  },
+  "perla": "TCP: 70–90% del HCO₃⁻ vía NHE3 + AC IV (luminal) y AC II (intracelular). Acetazolamida → bicarbonaturia + acidosis hiperclorémica (como ATR II).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 51.0
+ }
+]

@@ -1,0 +1,688 @@
+{
+ "meta": {
+  "id": "1",
+  "title": "Bases estructurales y funcionales",
+  "key": "rm_v3_1",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Arquitecto",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Cámara de Miniaturización",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "urgencias",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Bienvenido al experimento. Hoy entras a un riñón sano: un donador vivo en evaluación."
+    ],
+    [
+     "Dr. J.",
+     "Aprende cómo se ve lo normal. Todo lo que veas después será esto, pero roto."
+    ],
+    [
+     "Sabio Brenn",
+     "Empieza por el principio: el riñón se construye tres veces antes de nacer."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Yema Ureteral",
+     "lines": [
+      [
+       "Yema Ureteral",
+       "Brotó del conducto mesonéfrico. Yo formo colectores, cálices, pelvis y uréter."
+      ],
+      [
+       "Yema Ureteral",
+       "El mesénquima metanéfrico forma la nefrona. Nos inducimos con GDNF y RET."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Riñón Derecho",
+     "lines": [
+      [
+       "Riñón Derecho",
+       "Estoy un poco más abajo que el izquierdo: el hígado me empuja."
+      ],
+      [
+       "Riñón Derecho",
+       "Vivimos entre T12 y L3, detrás del peritoneo."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Embriología",
+     "Pronefros → mesonefros → metanefros. Solo el metanefros es riñón definitivo."
+    ],
+    [
+     "Letrero · Nefronas",
+     "Cerca de un millón por riñón. No se forman nefronas nuevas después de la semana 36."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "valeria",
+     "specialty": "Rival",
+     "serie": "FIS",
+     "intro": [
+      [
+       "Dra. Valeria Montes",
+       "¡Me sé las 12 partes de la nefrona de memoria! ¿Competimos?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Valeria Montes",
+       "¿Para qué sirve saber por qué? …Bueno, ganaste."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Artefacto del Simulador",
+     "type": "Molecular",
+     "topic": "Artefacto del Simulador"
+    },
+    {
+     "name": "Mesonefros Fantasma",
+     "type": "Celular",
+     "topic": "Mesonefros Fantasma"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Desarrollo renal: metanefros y yema ureteral",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Si la yema ureteral no brota, no hay riñón. Así de simple es la agenesia."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Tres riñones en orden",
+     "items": [
+      "Pronefros (no funcional)",
+      "Mesonefros (riñón transitorio)",
+      "Yema ureteral brota del conducto mesonéfrico",
+      "Metanefros (riñón definitivo)",
+      "Ascenso de la pelvis a la fosa lumbar"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Ahora sigue la sangre. El 20 % del gasto cardiaco pasa por aquí."
+      ]
+     ]
+    }
+   ],
+   "card": "Metanefros = riñón definitivo. Yema ureteral → sistema colector; mesénquima metanéfrico → nefrona. Nefrogénesis termina en la semana 34–36."
+  },
+  {
+   "id": "z2",
+   "name": "Ovillo Glomerular Sano",
+   "palette": [
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
+   ],
+   "tiles": "delta",
+   "vignette": "delta_endocapilar",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Aferente entra, eferente sale. Entre las dos se decide la presión de filtración."
+    ],
+    [
+     "Sabio Brenn",
+     "La barrera tiene tres capas: endotelio fenestrado, membrana basal y podocitos."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Nefrina",
+     "lines": [
+      [
+       "Nefrina",
+       "Soy el pilar del diafragma de hendidura. Sin mí, la albúmina se escapa."
+      ],
+      [
+       "Nefrina",
+       "Mi gen es NPHS1. Mi vecina podocina es NPHS2."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "nefrina"
+    },
+    {
+     "id": "npc2",
+     "name": "Mácula Densa",
+     "lines": [
+      [
+       "Mácula Densa",
+       "Pruebo el cloro que llega por NKCC2. Si llega mucho, cierro la aferente."
+      ],
+      [
+       "Mácula Densa",
+       "Uso adenosina. Si llega poco, pido renina y abro la aferente."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "mácula densa"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Fracción de filtración",
+     "FF = TFG / flujo plasmático renal ≈ 20 %."
+    ],
+    [
+     "Letrero · Arteriolas",
+     "AINE cierran la aferente (sin prostaglandinas); IECA abren la eferente."
+    ]
+   ],
+   "trainers": [],
+   "wild": [
+    {
+     "name": "Presión Hidrostática",
+     "type": "Molecular",
+     "topic": "Presión Hidrostática"
+    },
+    {
+     "name": "Albúmina Perdida",
+     "type": "Molecular",
+     "topic": "Albúmina Perdida"
+    },
+    {
+     "name": "Mesangio Curioso",
+     "type": "Celular",
+     "topic": "Mesangio Curioso"
+    }
+   ],
+   "gates": [
+    {
+     "after": null,
+     "topic": "Retroalimentación tubuloglomerular y autorregulación",
+     "text": [
+      [
+       "Sabio Brenn",
+       "La mácula densa habla con la aferente. Ese diálogo es el giro de este nivel."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Quién aprieta qué",
+     "items": [],
+     "pairs": [
+      [
+       "AINE",
+       "Cierra la aferente"
+      ],
+      [
+       "IECA/ARA",
+       "Abre la eferente"
+      ],
+      [
+       "Angiotensina II",
+       "Cierra más la eferente"
+      ],
+      [
+       "Prostaglandinas",
+       "Abren la aferente"
+      ],
+      [
+       "Adenosina",
+       "Cierra la aferente (TGF)"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Ya viste el filtro. Ahora recorre el túbulo: ahí se recupera el 99 %."
+      ]
+     ]
+    }
+   ],
+   "card": "TFG depende de la presión capilar: aferente (prostaglandinas, TGF) y eferente (angiotensina II). FF ≈ 20 %. Barrera: endotelio, MBG, podocito (nefrina, podocina)."
+  },
+  {
+   "id": "z3",
+   "name": "Río Tubular",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "rio_sangre",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Cada segmento tiene su puerta: NHE3, NKCC2, NCC y ENaC."
+    ],
+    [
+     "Sabio Brenn",
+     "Aprende la puerta y sabrás qué diurético la cierra."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "NKCC2",
+     "lines": [
+      [
+       "NKCC2",
+       "Soy una puerta triple en la rama ascendente gruesa: sodio, potasio y dos cloros."
+      ],
+      [
+       "NKCC2",
+       "La furosemida me bloquea. ROMK recicla el potasio para que yo trabaje."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "NKCC2"
+    },
+    {
+     "id": "npc2",
+     "name": "Vasos Rectos",
+     "lines": [
+      [
+       "Vasos Rectos",
+       "Somos el intercambiador a contracorriente. Cuidamos la médula hiperosmolar."
+      ],
+      [
+       "Vasos Rectos",
+       "El asa la crea; nosotros evitamos que se lave."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Proximal",
+     "Reabsorbe ~65 % del sodio y casi todo el bicarbonato, glucosa y aminoácidos."
+    ],
+    [
+     "Letrero · Colector",
+     "Célula principal: ENaC y acuaporina 2. Intercalada: ácido y bicarbonato."
+    ]
+   ],
+   "trainers": [],
+   "wild": [
+    {
+     "name": "Sodio Fugitivo",
+     "type": "Molecular",
+     "topic": "Sodio Fugitivo"
+    },
+    {
+     "name": "Urea Reciclada",
+     "type": "Molecular",
+     "topic": "Urea Reciclada"
+    },
+    {
+     "name": "Célula Intercalada",
+     "type": "Celular",
+     "topic": "Célula Intercalada"
+    }
+   ],
+   "gates": [
+    {
+     "after": null,
+     "topic": "Transportadores por segmento y sitio de acción de diuréticos",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Proximal, asa, distal, colector. Dime la puerta y te digo el fármaco."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Puerta y cerrajero",
+     "items": [],
+     "pairs": [
+      [
+       "NHE3 / anhidrasa carbónica",
+       "Acetazolamida"
+      ],
+      [
+       "NKCC2",
+       "Furosemida"
+      ],
+      [
+       "NCC",
+       "Tiazida"
+      ],
+      [
+       "ENaC",
+       "Amilorida"
+      ],
+      [
+       "Receptor mineralocorticoide",
+       "Espironolactona"
+      ],
+      [
+       "SGLT2",
+       "Gliflozinas"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Calibración lista. El simulador te tiene una última prueba."
+      ]
+     ]
+    }
+   ],
+   "card": "Proximal NHE3/SGLT2 · Asa NKCC2 (furosemida) · Distal NCC (tiazida) · Colector ENaC (amilorida) y AQP2 (ADH). Contracorriente: asa crea, vasos rectos conservan."
+  }
+ ],
+ "boss": {
+  "name": "El Arquitecto",
+  "color": "#5b8fd6",
+  "dark": "#223a66",
+  "heads": 1,
+  "intro": [
+   [
+    "El Arquitecto",
+    "Soy la prueba de calibración. Paciente deshidratado, con AINE y con IECA."
+   ],
+   [
+    "Dr. J.",
+    "Aferente cerrada y eferente abierta a la vez. Piensa qué le pasa a la TFG."
+   ]
+  ],
+  "outro": [
+   [
+    "El Arquitecto",
+    "Calibración completa. Ya sabes cómo se ve lo sano."
+   ],
+   [
+    "Sabio Brenn",
+    "Recuérdalo: cada nefrona que se pierde sobrecarga a las que quedan."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Estructura",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Arquitecto",
+      "Primero, los planos. ¿Conoces la obra?"
+     ]
+    ],
+    "topics": [
+     "Estructura"
+    ],
+    "questions": [
+     "BAR-1",
+     "BAR-2"
+    ]
+   },
+   {
+    "name": "Hemodinámica",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Arquitecto",
+      "Ahora muevo las arteriolas."
+     ]
+    ],
+    "topics": [
+     "Hemodinámica"
+    ],
+    "questions": [
+     "TUB-1"
+    ]
+   },
+   {
+    "name": "Túbulo",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Arquitecto",
+      "Baja al túbulo. ¿Qué puerta es cuál?"
+     ]
+    ],
+    "topics": [
+     "Túbulo"
+    ],
+    "questions": [
+     "TUB-2",
+     "TUB-3"
+    ]
+   },
+   {
+    "name": "Integración",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Arquitecto",
+      "Todo junto. Sin planos."
+     ]
+    ],
+    "topics": [
+     "Integración"
+    ],
+    "questions": [
+     "TUB-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Cámara de Miniaturización",
+   "text": "Metanefros = riñón definitivo. Yema ureteral → sistema colector; mesénquima metanéfrico → nefrona. Nefrogénesis termina en la semana 34–36."
+  },
+  {
+   "title": "Ovillo Glomerular Sano",
+   "text": "TFG depende de la presión capilar: aferente (prostaglandinas, TGF) y eferente (angiotensina II). FF ≈ 20 %. Barrera: endotelio, MBG, podocito (nefrina, podocina)."
+  },
+  {
+   "title": "Río Tubular",
+   "text": "Proximal NHE3/SGLT2 · Asa NKCC2 (furosemida) · Distal NCC (tiazida) · Colector ENaC (amilorida) y AQP2 (ADH). Contracorriente: asa crea, vasos rectos conservan."
+  }
+ ]
+}

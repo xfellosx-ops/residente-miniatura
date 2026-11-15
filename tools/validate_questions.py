@@ -1,6 +1,7 @@
 import json, statistics, collections, sys
 import sys; d=json.load(open(sys.argv[1] if len(sys.argv)>1 else 'levels/9-5-lupus/q_extra.json'))
 ids=[]; mc=[]; vf=0; errs=[]
+for k in ('pasto','puertas','entrenadores','jefeC'): d.setdefault(k,[])
 for sec,qs in d.items():
     for q in qs:
         ids.append(q['id'])
@@ -51,6 +52,8 @@ for sec,q in mc:
     rows.append((sec,q['id'],q['clave'],L[q['clave']]==mx,cv,maxdev,L[q['clave']]==min(L.values()),
                  (min(others)-L[q['clave']])/mean>0.05))
 tot=len(rows); longest=sum(r[3] for r in rows)
+if not tot:
+    print("sin opción múltiple propia (solo V/F)"); print("V/F:", dict(collections.Counter(q["clave"] for q in d["pasto"] if q.get("vf")))); sys.exit(1 if errs else 0)
 print(f"preguntas de opción múltiple: {tot}")
 print(f"correcta = opción más larga: {longest}/{tot} = {100*longest/tot:.1f}%  (límite 25%)  -> {'PASA' if longest/tot<=0.25 else 'FALLA'}")
 for s in ('pasto','puertas','entrenadores','jefeC'):

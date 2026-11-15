@@ -1,0 +1,782 @@
+[
+ {
+  "id": "FGF-1",
+  "serie_id": "FGF",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "FGF23 como primer marcador alterado en ERC",
+  "dificultad": "moderada",
+  "caso": "Varón de 58 años con diabetes y ERC G3a (TFGe de 52 mL/min/1.73 m²). Calcio de 9.4 mg/dL, fósforo de 3.6 mg/dL, PTH intacta de 58 pg/mL, 25-OH vitamina D de 28 ng/mL. Se envía una muestra de FGF23 y de klotho solubles.",
+  "enunciado": "¿Cuál alteración es la más temprana del metabolismo mineral en la ERC y cuál esperaría encontrar en este paciente?",
+  "opciones": {
+   "A": "Hiperfosfatemia franca, que aparece como primera alteración desde la TFGe de 60 mL/min en todos los pacientes con ERC",
+   "B": "FGF23 elevado, que sube antes que la PTH y la hiperfosfatemia y mantiene el fósforo normal mediante fosfaturia",
+   "C": "Hipercalcemia por exceso de absorción intestinal de calcio, que antecede al aumento de la PTH en la ERC",
+   "D": "PTH mayor de 300 pg/mL desde las etapas tempranas, con hiperplasia paratiroidea nodular y fósforo sérico muy elevado",
+   "E": "Aumento marcado del calcitriol sérico, por mayor actividad de la 1α-hidroxilasa renal en la ERC temprana"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La hiperfosfatemia aparece más tarde, cuando la TFGe desciende por debajo de 30 mL/min/1.73 m² y se agota la compensación por FGF23.",
+   "B": "El FGF23, secretado por osteocitos y osteoblastos, es la primera alteración detectable del metabolismo mineral en la ERC, desde etapas G2 a G3, cuando el fósforo, el calcio y la PTH todavía son normales. Se eleva para compensar la retención de fosfato: actúa en el túbulo proximal con su correceptor klotho y FGFR1, disminuye la expresión de los cotransportadores NaPi-IIa y NaPi-IIc, y aumenta la fosfaturia, con lo que el fósforo sérico permanece normal. El costo es la supresión de la 1α-hidroxilasa (CYP27B1) y la estimulación de la 24-hidroxilasa, con descenso del calcitriol.",
+   "C": "La ERC produce más bien hipocalcemia por el calcitriol bajo, no hipercalcemia.",
+   "D": "Una PTH tan alta se observa en etapas avanzadas, y en este paciente la PTH es normal.",
+   "E": "El calcitriol disminuye porque el FGF23 y la pérdida de masa renal reducen la actividad de la 1α-hidroxilasa."
+  },
+  "perla": "Primer cambio de la ERC-TMO: ↑FGF23 (antes que ↑PTH y ↑P). Mantiene P normal con fosfaturia vía NaPi-IIa/c, a costa de ↓calcitriol.",
+  "referencias": [
+   "Isakova T et al. Kidney Int 2011;79:1370",
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "FGF-2",
+  "serie_id": "FGF",
+  "orden": 2,
+  "sub": "2",
+  "subtema": "FGF23 y metabolismo de la vitamina D",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Cinco años después el paciente tiene TFGe de 24 mL/min/1.73 m², fósforo de 4.9 mg/dL, calcio de 8.6 mg/dL, PTH de 210 pg/mL y calcitriol sérico bajo. El FGF23 está muy elevado.",
+  "enunciado": "¿Cuál es la secuencia fisiopatológica que explica el aumento de la PTH?",
+  "opciones": {
+   "A": "Menos 1α-hidroxilasa por FGF23 y pérdida de nefronas: baja el calcitriol, cae la absorción de calcio y la hipocalcemia estimula la PTH",
+   "B": "La hipercalcemia estimula la secreción de PTH, a través del receptor sensor de calcio de las paratiroides",
+   "C": "El FGF23 aumenta el calcitriol, lo que eleva el calcio y la fosfatemia y por eso aumenta la secreción de PTH",
+   "D": "El aumento del klotho renal incrementa la sensibilidad a FGF23 y por ello eleva la secreción de PTH",
+   "E": "El FGF23 inhibe directamente la liberación de PTH en la ERC avanzada, por lo que la PTH debería disminuir"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la ERC, la caída de la masa de túbulo proximal reduce la actividad de la 1α-hidroxilasa, y el FGF23 la suprime aún más, de modo que disminuye la síntesis de calcitriol. Con menos calcitriol se absorbe menos calcio en el intestino y se pierde la inhibición del gen de la PTH por el receptor de vitamina D; la hipocalcemia, la retención de fosfato y el propio aumento del FGF23 (que reduce el calcitriol) estimulan la hiperplasia de las paratiroides y la secreción de PTH. Así se establece el hiperparatiroidismo secundario.",
+   "B": "La hipocalcemia, no la hipercalcemia, estimula la PTH a través del receptor sensor de calcio.",
+   "C": "El FGF23 disminuye el calcitriol, no lo aumenta.",
+   "D": "El klotho disminuye en la ERC, y su déficit favorece la resistencia al FGF23.",
+   "E": "En la ERC avanzada la paratiroides se vuelve resistente al FGF23 por la baja expresión de klotho y FGFR1, por lo que no frena la PTH."
+  },
+  "perla": "ERC: ↓masa tubular + ↑FGF23 → ↓calcitriol → ↓absorción de Ca → ↑PTH. Hiperfosfatemia y ↓klotho aceleran el hiperparatiroidismo secundario.",
+  "referencias": [
+   "Isakova T et al. Kidney Int 2011;79:1370",
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "FGF-3",
+  "serie_id": "FGF",
+  "orden": 3,
+  "sub": "2",
+  "subtema": "Resistencia de la paratiroides al FGF23",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un nefrólogo comenta que, a pesar del FGF23 muy elevado, el paciente continúa con PTH alta, y que en modelos de ERC el FGF23 normalmente reduce la secreción de PTH.",
+  "enunciado": "¿Cuál es la explicación de esta paradoja?",
+  "opciones": {
+   "A": "La PTH se produce en el riñón y no depende del FGF23, que actúa solo sobre el túbulo proximal y el hueso de forma exclusiva",
+   "B": "El calcitriol bajo aumenta el FGF23, pero a la vez aumenta la sensibilidad de las paratiroides a su efecto supresor",
+   "C": "El FGF23 estimula directamente la secreción de PTH en todas las etapas de la enfermedad renal crónica",
+   "D": "Disminución de la expresión de klotho y de FGFR1 en las paratiroides, con resistencia al efecto supresor del FGF23",
+   "E": "La paratiroides no expresa receptores de calcio, por lo que la regulación de la PTH depende solo del FGF23 circulante"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La PTH se sintetiza en las células principales de las glándulas paratiroides.",
+   "B": "El calcitriol bajo reduce la inhibición de la PTH, no aumenta la sensibilidad.",
+   "C": "El efecto del FGF23 sobre la PTH es supresor, y la resistencia es la que explica la elevación simultánea.",
+   "D": "En condiciones normales el FGF23 suprime la transcripción y la secreción de PTH en las paratiroides mediante FGFR1 y klotho. En la ERC avanzada, la expresión de klotho y de FGFR1 disminuye en el tejido paratiroideo hiperplásico, de modo que la glándula se vuelve resistente al FGF23, y la PTH sigue alta a pesar de concentraciones muy elevadas de FGF23. Esta resistencia, junto con la baja expresión del receptor de vitamina D y del sensor de calcio, explica la progresión del hiperparatiroidismo secundario y su refractariedad al tratamiento médico.",
+   "E": "La paratiroides expresa el receptor sensor de calcio, y su densidad disminuye en la hiperplasia."
+  },
+  "perla": "ERC avanzada: paratiroides resistente al FGF23 (↓klotho/FGFR1), además de ↓VDR y ↓CaSR → HPT secundario refractario.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 69.2
+ },
+ {
+  "id": "RAA-1",
+  "serie_id": "RAA",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "SRAA: efecto hemodinámico de los IECA sobre la TFG",
+  "dificultad": "moderada",
+  "caso": "Mujer de 66 años con diabetes tipo 2, hipertensión y ERC G3b (creatinina basal de 1.7 mg/dL; TFGe de 32 mL/min/1.73 m²), albuminuria de 900 mg/g. Se inicia lisinopril 10 mg. A las dos semanas: creatinina de 2.0 mg/dL, potasio de 5.4 mEq/L, TA de 138/82 mmHg.",
+  "enunciado": "¿Cuál es la interpretación y la conducta adecuada?",
+  "opciones": {
+   "A": "Suspender el IECA y diagnosticar estenosis bilateral de arteria renal sin más estudios, por el aumento de la creatinina",
+   "B": "Aumento hemodinámico esperado (<30%) por dilatación de la arteriola eferente: se continúa el IECA y se repiten creatinina y potasio en 1-2 semanas",
+   "C": "Suspender definitivamente el IECA por nefrotoxicidad, y sustituirlo por un antagonista del calcio para el control de la TA",
+   "D": "Duplicar la dosis de inmediato para compensar la elevación de la creatinina y lograr mayor reducción de la albuminuria",
+   "E": "Añadir un AINE para controlar la TA y reducir la retención de sodio inducida por el IECA en esta paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El aumento es menor de 30% y no justifica suspender ni diagnosticar estenosis sin otros datos.",
+   "B": "La angiotensina II constriñe la arteriola eferente y mantiene la presión intraglomerular; los IECA y ARA II vasodilatan la arteriola eferente, reducen la presión de filtración y producen un descenso inicial de la TFG, con aumento de la creatinina de hasta 30% en las primeras semanas, que es un efecto hemodinámico esperado y no indica daño estructural. La conducta es continuar el fármaco y vigilar creatinina y potasio en 1 a 2 semanas. Si la creatinina sube más de 30% o continúa aumentando, se investiga hipovolemia, uso de AINE o estenosis bilateral de arteria renal, y se reduce o suspende el fármaco.",
+   "C": "Una elevación menor de 30% no justifica suspender un fármaco que protege contra la progresión de la ERC diabética.",
+   "D": "Duplicar la dosis con potasio de 5.4 y creatinina en ascenso es riesgoso sin vigilancia.",
+   "E": "Los AINE aumentan el riesgo de lesión renal aguda hemodinámica y de hiperpotasemia con los IECA."
+  },
+  "perla": "IECA/ARA II: ↑Cr hasta 30% en 2–4 semanas es aceptable (vasodilatación eferente). >30%: buscar hipovolemia, AINE, estenosis renal bilateral.",
+  "referencias": [
+   "Bakris GL, Weir MR. Arch Intern Med 2000;160:685",
+   "KDIGO 2021 Blood Pressure in CKD"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "NAT-1",
+  "serie_id": "NAT",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Péptidos natriuréticos en la ERC",
+  "dificultad": "moderada",
+  "caso": "Hombre de 70 años con insuficiencia cardiaca y ERC G4 (TFGe de 22 mL/min/1.73 m²), disnea de esfuerzo y edema leve. BNP de 650 pg/mL y NT-proBNP de 6,800 pg/mL.",
+  "enunciado": "¿Cómo se interpretan estos péptidos natriuréticos?",
+  "opciones": {
+   "A": "Un BNP elevado siempre confirma insuficiencia cardiaca, sin importar la TFGe, por lo que no requiere correlación clínica alguna",
+   "B": "No tienen utilidad en pacientes con ERC, porque la TFGe baja los eleva siempre y sin relación alguna con el corazón del paciente",
+   "C": "El NT-proBNP no se afecta por la función renal, por lo que es el marcador preferido con TFGe menor de 30 sin ajustes",
+   "D": "Suben por menor depuración renal y sobrecarga de volumen; en ERC requieren umbrales más altos y correlación clínica",
+   "E": "La ERC disminuye los péptidos natriuréticos al reducir su producción por los miocitos y su liberación a la circulación"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El BNP también se eleva por ERC, fibrilación auricular, edad y sobrecarga de volumen, y no es diagnóstico aislado.",
+   "B": "Siguen siendo útiles con puntos de corte ajustados, sobre todo para excluir insuficiencia cardiaca.",
+   "C": "El NT-proBNP se elimina en gran parte por el riñón y se eleva con la TFGe baja.",
+   "D": "Los péptidos natriuréticos (ANP, BNP, NT-proBNP) son liberados por los cardiomiocitos con la distensión de las cámaras. En la ERC sus concentraciones basales son más altas, tanto por la mayor carga de volumen y de presión como por la menor depuración renal, sobre todo del NT-proBNP, que depende más de la excreción renal que el BNP. Por eso se emplean umbrales más altos para el diagnóstico (por ejemplo, para NT-proBNP se usan valores varias veces mayores con TFGe menor de 60) y se interpretan con la clínica, la ecocardiografía y los cambios seriados. Su valor predictivo negativo se mantiene.",
+   "E": "La ERC aumenta los péptidos natriuréticos."
+  },
+  "perla": "ERC: ↑BNP/NT-proBNP (menor depuración, sobrecarga). NT-proBNP más dependiente del riñón. Usar umbrales más altos y la clínica.",
+  "referencias": [
+   "Mueller C et al. Eur J Heart Fail 2019;21:715",
+   "Comprehensive Clinical Nephrology (cardiorrenal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 39.0
+ },
+ {
+  "id": "NAT-2",
+  "serie_id": "NAT",
+  "orden": 2,
+  "sub": "2",
+  "subtema": "Sacubitrilo/valsartán y péptidos natriuréticos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia sacubitrilo/valsartán por fracción de eyección de 30%. Tres meses después, el BNP aumenta a 980 pg/mL mientras que el NT-proBNP baja de 6,800 a 4,100 pg/mL y el paciente mejora clínicamente.",
+  "enunciado": "¿Cuál es la explicación y qué marcador conviene vigilar?",
+  "opciones": {
+   "A": "Ambos marcadores se comportan igual con el sacubitrilo, por lo que cualquiera sirve para el seguimiento clínico",
+   "B": "La elevación del BNP indica falla del tratamiento y se debe suspender el sacubitrilo/valsartán de inmediato y por completo",
+   "C": "El sacubitrilo inhibe la neprilisina que degrada al BNP, que sube sin empeoramiento; se vigila el NT-proBNP",
+   "D": "El BNP es el mejor marcador para seguimiento durante el tratamiento con sacubitrilo/valsartán en la insuficiencia cardiaca",
+   "E": "El valsartán eleva el BNP por bloqueo del receptor AT1, por lo que el NT-proBNP también debería aumentar"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El comportamiento difiere: BNP sube y NT-proBNP no se modifica por la neprilisina.",
+   "B": "El aumento del BNP es un efecto farmacológico esperado y no indica falla.",
+   "C": "La neprilisina degrada el BNP, el ANP, la bradicinina y otros péptidos. Su inhibición por el sacubitrilo eleva las concentraciones de BNP independientemente de la situación hemodinámica, lo que hace al BNP poco confiable durante el tratamiento. El NT-proBNP, que no es sustrato de la neprilisina, refleja mejor el estado de la insuficiencia cardiaca, y debe usarse para el seguimiento: su descenso (como en este caso) indica respuesta favorable. En ERC se debe vigilar además la función renal y el potasio, y la hipotensión.",
+   "D": "El BNP se eleva por el fármaco y no refleja la respuesta clínica.",
+   "E": "El valsartán bloquea el receptor AT1 y no explica el aumento de BNP."
+  },
+  "perla": "ARNI: BNP ↑ (neprilisina), NT-proBNP no. Seguir con NT-proBNP. Vigilar TA, K y creatinina.",
+  "referencias": [
+   "Mueller C et al. Eur J Heart Fail 2019;21:715"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "NAT-3",
+  "serie_id": "NAT",
+  "orden": 3,
+  "sub": "2",
+  "subtema": "Efectos renales del ANP",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Para comprender la sobrecarga de volumen del paciente se revisa la fisiología del péptido natriurético auricular (ANP).",
+  "enunciado": "¿Qué efectos tiene el ANP sobre el riñón?",
+  "opciones": {
+   "A": "Dilata la aferente y contrae la eferente (↑TFG), inhibe renina y aldosterona, y reduce la reabsorción de sodio en el colector",
+   "B": "Aumenta la liberación de vasopresina, con retención de agua libre y reducción de la diuresis del paciente",
+   "C": "Contrae la arteriola aferente y reduce la TFG, con disminución de la excreción urinaria de sodio y de agua",
+   "D": "Estimula la secreción de renina y aldosterona, con retención de sodio y expansión del volumen extracelular",
+   "E": "Aumenta la reabsorción de sodio en el colector cortical, por activación del canal epitelial de sodio (ENaC)"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El ANP se une al receptor NPR-A y aumenta el GMP cíclico, con efectos que favorecen la eliminación de sodio y agua: vasodilatación de la arteriola aferente con constricción eferente (aumenta la TFG y la fracción de filtración), inhibición de la secreción de renina y de aldosterona, reducción de la reabsorción de sodio en el conducto colector medular interno por inhibición de canales sensibles a amilorida, y antagonismo del efecto de la vasopresina. Estos efectos explican la natriuresis y la diuresis que acompañan a la expansión del volumen.",
+   "B": "El ANP inhibe, no estimula, la liberación y los efectos de la vasopresina.",
+   "C": "El ANP dilata la arteriola aferente y aumenta la TFG.",
+   "D": "El ANP inhibe la renina y la aldosterona.",
+   "E": "El ANP reduce la reabsorción de sodio en el colector."
+  },
+  "perla": "ANP: ↑TFG (aferente dilata, eferente contrae), ↓renina/aldosterona/ADH, ↓Na en colector medular. Vía NPR-A/cGMP.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (fisiología renal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "EPO-1",
+  "serie_id": "EPO",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Producción renal de eritropoyetina",
+  "dificultad": "moderada",
+  "caso": "Mujer de 49 años con ERC G4 por nefropatía diabética. Hemoglobina de 9.1 g/dL, VCM de 91 fL, reticulocitos bajos, eritropoyetina sérica de 8 mUI/mL (inapropiadamente baja para la anemia), TSAT de 14% y ferritina de 160 ng/mL, PCR de 2.1 mg/dL.",
+  "enunciado": "¿Dónde y cómo se produce normalmente la eritropoyetina?",
+  "opciones": {
+   "A": "En la médula ósea, regulada por el calcio sérico y por la concentración de hierro de los precursores eritroides en desarrollo",
+   "B": "En las células tubulares proximales, en respuesta a la hemoglobina baja detectada por el túbulo del riñón y por el flujo sanguíneo",
+   "C": "En el hígado adulto, regulada por el hierro y por la concentración de hepcidina circulante en la sangre",
+   "D": "En fibroblastos peritubulares de la corteza y médula externa, regulada por la tensión tisular de oxígeno vía HIF-2α",
+   "E": "En el aparato yuxtaglomerular, regulada por la angiotensina II y por la concentración de sodio tubular"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La médula ósea responde a la eritropoyetina, pero no la produce.",
+   "B": "Las células tubulares proximales no son la fuente principal, y no responden a la concentración de hemoglobina.",
+   "C": "El hígado produce eritropoyetina en el feto, y en el adulto es una fuente menor.",
+   "D": "La eritropoyetina del adulto es producida principalmente por fibroblastos peritubulares de la corteza y la médula externa del riñón, que detectan la presión parcial de oxígeno del tejido, no la hemoglobina como tal. En hipoxia, el factor HIF-2α se estabiliza (se inhibe su degradación por las prolil-hidroxilasas), entra al núcleo y activa el gen de EPO. En la ERC, la pérdida de estas células y la transformación en miofibroblastos fibrosos reducen la producción, y las citocinas inflamatorias la inhiben, por lo que la EPO es baja para el grado de anemia (anemia normocítica normocrómica hipoproliferativa).",
+   "E": "El aparato yuxtaglomerular produce renina."
+  },
+  "perla": "EPO: fibroblastos peritubulares (corteza/médula externa), regulada por pO₂ tisular vía HIF-2α. ERC: ↓EPO, anemia normocítica hipoproliferativa.",
+  "referencias": [
+   "Haase VH. Kidney Int Suppl 2021;11:8",
+   "Comprehensive Clinical Nephrology (anemia de la ERC)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "AVP-1",
+  "serie_id": "AVP",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Regulación de la liberación de ADH: estímulos osmóticos y no osmóticos",
+  "dificultad": "dificil",
+  "caso": "Residente de nefrología repasa cómo se regula la liberación de ADH en tres pacientes: una persona sana deshidratada tras un ejercicio prolongado, un paciente con hemorragia digestiva activa y una paciente con náusea intensa tras quimioterapia.",
+  "continuacion": "",
+  "enunciado": "¿Qué afirmación sobre la regulación de la ADH es correcta?",
+  "opciones": {
+   "A": "Umbral osmótico ≈280–285 mOsm/kg; una caída de 8–10% del volumen efectivo puede imponerse; la náusea es estímulo potente",
+   "B": "Se necesita un aumento de 10% de la osmolalidad plasmática para que se libere la hormona antidiurética",
+   "C": "La ADH solo responde a la osmolalidad plasmática, y nunca a los cambios del volumen circulante efectivo",
+   "D": "El umbral de la sed es menor que el de la liberación de ADH, por lo que la sed precede a la secreción hormonal",
+   "E": "La náusea inhibe la liberación de ADH, por lo que se asocia con poliuria y con hipernatremia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Los osmorreceptores del hipotálamo anterior responden a cambios de 1 a 2% en la osmolalidad plasmática: por debajo del umbral de 280 a 285 mOsm/kg, la ADH es indetectable, y por encima aumenta de forma lineal, con concentración máxima de la orina cerca de 295 mOsm/kg. Los barorreceptores del seno carotídeo y de la aurícula y las arteriolas aferentes inducen la liberación de ADH cuando el volumen o la presión efectiva descienden 8 a 10%, con una curva exponencial que puede imponerse a la inhibición osmótica (mantiene la retención de agua en la hipovolemia aun con hiponatremia). Los estímulos no osmóticos incluyen la náusea (el más potente), el dolor, el estrés, la hipoglucemia, la hipoxia y fármacos como los opioides, los ISRS, la carbamazepina, la vincristina y la ciclofosfamida. El umbral de la sed (cerca de 290 a 295 mOsm/kg) es mayor que el de la ADH, de modo que la ADH actúa antes que la sed.",
+   "B": "Bastan cambios de 1 a 2% de la osmolalidad para modificar la liberación de ADH.",
+   "C": "La ADH responde también a los barorreceptores, lo que explica la hiponatremia en la hipovolemia, la insuficiencia cardiaca y la cirrosis.",
+   "D": "El umbral de la sed es mayor, no menor, que el de la ADH.",
+   "E": "La náusea estimula la liberación de ADH."
+  },
+  "perla": "ADH: umbral osmótico 280–285 mOsm/kg (sensible a 1–2%); sed 290–295. Hipovolemia/hipotensión 8–10% → liberación exponencial que supera la inhibición osmótica. No osmóticos: náusea (el más potente), dolor, opioides, ISRS, carbamazepina, vincristina, ciclofosfamida.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hormonas y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "PTV-1",
+  "serie_id": "PTV",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Acciones renales de la PTH",
+  "dificultad": "moderada",
+  "caso": "Mujer de 58 años con litiasis recurrente. Calcio total de 11.2 mg/dL, fósforo de 2.1 mg/dL, cloro de 108 mEq/L, HCO₃⁻ de 21 mEq/L, creatinina de 0.9 mg/dL, PTH intacta de 128 pg/mL (normal de 15 a 65), 25-OH vitamina D de 32 ng/mL y calcio urinario de 380 mg/24 horas.",
+  "enunciado": "¿Qué acciones renales de la PTH explican el fósforo bajo y el cloro alto con bicarbonato bajo?",
+  "opciones": {
+   "A": "La PTH inhibe NaPi-IIa y NHE3 en el túbulo proximal (fosfaturia, acidosis hiperclorémica) y estimula la 1α-hidroxilasa",
+   "B": "La PTH actúa solo en el hueso y no en el riñón, por lo que los cambios en el fósforo y el cloro tendrían otra causa distinta",
+   "C": "La PTH aumenta la reabsorción proximal de fosfato y de bicarbonato, con hiperfosfatemia y alcalosis metabólica",
+   "D": "La PTH disminuye la reabsorción distal de calcio y causa hipocalcemia con hiperfosfatemia marcada por menor excreción renal",
+   "E": "La PTH inhibe la 1α-hidroxilasa y reduce el calcitriol, con menor absorción intestinal de calcio y de fosfato en la dieta"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En el túbulo proximal, la PTH internaliza el cotransportador sodio-fosfato NaPi-IIa y produce fosfaturia, lo que explica la hipofosfatemia del hiperparatiroidismo primario; también inhibe el intercambiador Na⁺/H⁺ (NHE3) y reduce la reabsorción proximal de bicarbonato, de modo que aparece una acidosis metabólica hiperclorémica leve con bicarbonato bajo y cloro alto (un cociente cloro/fosfato elevado orienta al diagnóstico). Además aumenta la expresión de la 1α-hidroxilasa (CYP27B1) y la producción de calcitriol, que incrementa la absorción intestinal de calcio, y favorece la reabsorción de calcio en el túbulo distal (por el canal TRPV5). La hipercalciuria del hiperparatiroidismo primario no se debe a menor reabsorción por la PTH, sino a la mayor carga filtrada de calcio por la hipercalcemia, lo que favorece la litiasis.",
+   "B": "La PTH actúa en el hueso, el riñón y, de forma indirecta, en el intestino.",
+   "C": "La PTH inhibe la reabsorción proximal de fosfato y de bicarbonato; no la aumenta.",
+   "D": "La PTH aumenta la reabsorción distal de calcio.",
+   "E": "La PTH estimula la 1α-hidroxilasa y aumenta el calcitriol."
+  },
+  "perla": "PTH: ↓ NaPi-IIa (fosfaturia), ↓ NHE3 (acidosis hiperclorémica leve), ↑ CYP27B1 (calcitriol), ↑ Ca distal (TRPV5). Hipercalciuria en HPTP = carga filtrada ↑. Cl/PO₄ elevado.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hormonas y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 39.0
+ },
+ {
+  "id": "PTV-2",
+  "serie_id": "PTV",
+  "orden": 2,
+  "sub": "2",
+  "subtema": "1α-hidroxilasa extrarrenal: hipercalcemia en sarcoidosis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un hombre de 45 años con adenopatías hiliares bilaterales tiene calcio de 12.1 mg/dL, fósforo de 4.2 mg/dL, PTH de 6 pg/mL, 25-OH vitamina D de 24 ng/mL, 1,25-(OH)₂ vitamina D de 98 pg/mL (elevada), calcio urinario de 420 mg/24 horas y creatinina de 1.7 mg/dL.",
+  "enunciado": "¿Cuál es el mecanismo de la hipercalcemia y el tratamiento?",
+  "opciones": {
+   "A": "Hipercalcemia humoral por PTHrP; se administran bifosfonatos como tratamiento específico de la hipercalcemia",
+   "B": "Intoxicación por vitamina A; se suspende el suplemento, con normalización del calcio y del calcitriol",
+   "C": "Hipercalcemia hipocalciúrica familiar; se observa, porque es benigna y no requiere tratamiento específico",
+   "D": "Hiperparatiroidismo primario; se indica paratiroidectomía por la hipercalcemia y la elevación de calcitriol",
+   "E": "Los macrófagos del granuloma activan la 1α-hidroxilasa sin control de PTH; se trata con glucocorticoides y se evita vitamina D"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El PTHrP es el mecanismo en las neoplasias sólidas con 1,25 vitamina D baja o normal; el cuadro, con calcitriol alto y adenopatías hiliares, apunta a sarcoidosis.",
+   "B": "No hay datos de exposición a vitamina A y el calcitriol elevado orienta a producción extrarrenal.",
+   "C": "La hipercalcemia hipocalciúrica familiar cursa con calcio urinario bajo; aquí hay hipercalciuria.",
+   "D": "En el hiperparatiroidismo primario la PTH está elevada o inapropiadamente normal; aquí está suprimida.",
+   "E": "En la sarcoidosis y otras enfermedades granulomatosas (y algunos linfomas), los macrófagos activados expresan 1α-hidroxilasa (CYP27B1), cuya actividad no está sujeta al control normal de la PTH, del calcio ni del FGF23, de modo que convierten el 25-OH vitamina D en calcitriol de forma proporcional al sustrato. Resulta hipercalcemia e hipercalciuria con PTH suprimida (6 pg/mL), 1,25-(OH)₂D elevada y 25-OH D normal o baja, que pueden causar nefrocalcinosis, litiasis y lesión renal aguda hemodinámica. El tratamiento de primera línea son los glucocorticoides (por ejemplo, prednisona de 20 a 40 mg al día), que reducen la actividad de la 1α-hidroxilasa en el macrófago; se evitan los suplementos de vitamina D y calcio y la sobreexposición solar, y se pueden usar hidroxicloroquina o cetoconazol como ahorradores de esteroides. La hidratación corrige la deshidratación asociada."
+  },
+  "perla": "Sarcoidosis/linfoma: CYP27B1 en macrófagos → ↑1,25-OH₂D, Ca ↑, PTH ↓, hipercalciuria. Tx: glucocorticoides; evitar vitamina D, calcio y sol; HCQ o cetoconazol alternativos.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (alteraciones del calcio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "PTV-3",
+  "serie_id": "PTV",
+  "orden": 3,
+  "sub": "2",
+  "subtema": "Pérdida urinaria de proteína de unión a vitamina D en el síndrome nefrótico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una mujer de 34 años con síndrome nefrótico (proteinuria de 8 g/día, albúmina de 1.6 g/dL) tiene calcio total de 7.1 mg/dL, 25-OH vitamina D total de 9 ng/mL y PTH de 70 pg/mL. Está asintomática, sin signos de Chvostek ni Trousseau.",
+  "enunciado": "¿Cómo se interpreta este perfil y qué se debe hacer?",
+  "opciones": {
+   "A": "Calcio total y 25-OH bajos por la proteinuria; medir calcio ionizado y suplementar vitamina D si hay deficiencia real",
+   "B": "Hipocalcemia grave que requiere calcio intravenoso de inmediato, por el calcio total de 7.1 mg/dL",
+   "C": "Hipercalcemia oculta, por lo que se restringe el calcio de la dieta habitual y se suspenden los suplementos de vitamina D",
+   "D": "Osteomalacia nutricional demostrada, que se trata con bifosfonatos por la elevación de la PTH y la deficiencia de vitamina D",
+   "E": "Hipoparatiroidismo primario, por lo que se inicia calcitriol de inmediato para corregir el calcio sérico"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En el síndrome nefrótico se pierde en la orina la proteína de unión a vitamina D junto con su carga de 25-OH vitamina D y con la albúmina; por eso el 25-OH D total disminuye, mientras la fracción libre (biológicamente activa) puede ser normal. El calcio total baja sobre todo por la hipoalbuminemia (cerca de 40% del calcio está unido a albúmina), y el calcio ionizado suele ser normal, lo que explica la ausencia de síntomas; la ecuación de corrección por albúmina es poco fiable en este contexto, por lo que se mide el calcio ionizado. Si el ionizado es bajo, la PTH está elevada o la fracción libre de vitamina D es baja, se suplementa colecalciferol (y calcio si es necesario), con seguimiento del calcio; si la remisión ocurre, los valores se normalizan. Los bifosfonatos están contraindicados en la hipocalcemia y la deficiencia de vitamina D sin corregir, y el calcio intravenoso solo es necesario si hay síntomas o calcio ionizado muy bajo.",
+   "B": "La hipocalcemia se debe a la albúmina baja; sin síntomas y con calcio ionizado normal no se necesita calcio intravenoso.",
+   "C": "El calcio es bajo y no hay hipercalcemia.",
+   "D": "No hay evidencia de osteomalacia, y los bifosfonatos no corrigen la deficiencia de vitamina D.",
+   "E": "La PTH es normal o alta, no baja, y el cuadro se explica por la hipoalbuminemia y la pérdida de proteína de unión."
+  },
+  "perla": "Síndrome nefrótico: pérdida urinaria de DBP → 25-OH D total ↓ (libre puede ser normal); Ca total ↓ por albúmina, Ca ionizado normal. Medir Ca iónico y PTH; colecalciferol si deficiencia real.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hormonas y riñón; síndrome nefrótico)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "REN-1",
+  "serie_id": "REN",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Regulación de la liberación de renina y efecto de los fármacos",
+  "dificultad": "moderada",
+  "caso": "Un residente revisa el efecto de distintos fármacos sobre la actividad de renina plasmática de un hombre de 55 años con hipertensión arterial, euvolémico: furosemida, propranolol, enalapril y un AINE (inhibidor de COX-2) por dolor articular.",
+  "enunciado": "¿Qué combinación del efecto sobre la liberación de renina es correcta?",
+  "opciones": {
+   "A": "Furosemida y enalapril aumentan la renina; propranolol y AINE la disminuyen (bloqueo β₁ yuxtaglomerular; menos PGE₂ y PGI₂)",
+   "B": "Los cuatro fármacos disminuyen la renina, porque todos ellos reducen la presión arterial sistémica y la actividad simpática renal",
+   "C": "Ninguno modifica la liberación de renina, porque depende solo de la ingesta diaria de sodio y no de los fármacos hemodinámicos",
+   "D": "Los cuatro fármacos aumentan la renina, por la menor presión de perfusión renal que cada uno de ellos produce",
+   "E": "Furosemida y enalapril disminuyen la renina, mientras que propranolol y AINE la aumentan, por su acción sobre la mácula densa"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La liberación de renina por las células yuxtaglomerulares tiene tres controles principales: el barorreceptor intrarrenal (la caída de la presión de perfusión o del estiramiento de la arteriola aferente la estimula), la mácula densa (la menor llegada de NaCl, detectada por el NKCC2, estimula la liberación mediante PGE₂ derivada de COX-2 y óxido nítrico) y la inervación simpática (receptores β₁). La angiotensina II inhibe la renina (retroalimentación negativa de asa corta). Así, la furosemida la aumenta porque bloquea el NKCC2 de la mácula densa, que interpreta menos NaCl, además de la depleción de volumen; el enalapril y los ARA la aumentan por pérdida del freno de la angiotensina II; el propranolol (y otros β-bloqueadores) la disminuye por el bloqueo β₁; y los AINE la reducen por la menor síntesis de prostaglandinas, lo que explica el hipoaldosteronismo hiporreninémico y la hiperpotasemia que producen en pacientes susceptibles. La clonidina y la adenosina (A1) también la reducen.",
+   "B": "La furosemida y el enalapril aumentan la renina por mecanismos diferentes.",
+   "C": "Los fármacos modifican de forma importante la liberación de renina.",
+   "D": "El propranolol y el AINE disminuyen la renina.",
+   "E": "Es lo opuesto del efecto real de cada fármaco."
+  },
+  "perla": "Renina ↑: hipovolemia, furosemida (NKCC2 en mácula densa), IECA/ARA (pérdida de feedback). Renina ↓: β-bloqueo (β₁), AINE (↓PGE₂), clonidina, Ang II, ANP. Mácula densa: NaCl ↓ → COX-2/PGE₂ y NO → renina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hormonas y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 39.0
+ },
+ {
+  "id": "REN-2",
+  "serie_id": "REN",
+  "orden": 2,
+  "sub": "2",
+  "subtema": "Escape de aldosterona (aldosterone breakthrough) bajo bloqueo del SRAA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un diabético de 52 años con proteinuria de 1.8 g/día y TA de 148/90 mmHg recibe losartán 100 mg desde hace 18 meses con buena adherencia. K⁺ de 4.4 mEq/L. La aldosterona plasmática, antes de 8 ng/dL, ahora es de 22 ng/dL, con renina baja-normal.",
+  "enunciado": "¿Qué fenómeno se observa y qué conducta tiene sustento?",
+  "opciones": {
+   "A": "Síndrome de Liddle; se indica amilorida, por la hipertensión persistente pese al bloqueo del SRAA y la proteinuria",
+   "B": "Escape de aldosterona bajo ARA, con más proteinuria y daño; se agrega espironolactona o finerenona vigilando K⁺",
+   "C": "Hiperaldosteronismo primario excluido; no se hace nada, porque el aumento de aldosterona carece de significado clínico",
+   "D": "Hipoaldosteronismo hiporreninémico; se suspende el ARA, por el riesgo de hiperpotasemia en el paciente diabético",
+   "E": "Error de laboratorio, porque la aldosterona no puede aumentar bajo bloqueo del receptor AT1 de la angiotensina II"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El síndrome de Liddle cursa con aldosterona suprimida, hipopotasemia y renina baja.",
+   "B": "Con el uso crónico de IECA o ARA, la aldosterona puede volver a elevarse hacia los niveles previos o aun superarlos (escape o “breakthrough”), en un porcentaje variable de pacientes (entre 10 y 50% según las series); los mecanismos incluyen la generación de angiotensina II por vías independientes de la ECA (quimasa), la estimulación por el potasio y por la ACTH, y se ha asociado a mayor proteinuria, fibrosis e hipertrofia ventricular. La conducta con respaldo es verificar adherencia e ingesta de sodio y agregar un antagonista del receptor mineralocorticoide (espironolactona o finerenona, que ha demostrado beneficio renal y cardiovascular en la nefropatía diabética), con control de potasio y creatinina a las 1 a 2 y 4 semanas, y quelantes del potasio si es necesario. La finerenona, antagonista no esteroideo, tiene menos ginecomastia que la espironolactona.",
+   "C": "El escape de aldosterona es una causa de resistencia al bloqueo del SRAA que se trata.",
+   "D": "Con aldosterona elevada, el cuadro no es un hipoaldosteronismo.",
+   "E": "La aldosterona puede aumentar bajo ARA por escape; no es un error."
+  },
+  "perla": "Escape de aldosterona bajo IECA/ARA (10–50%): ↑ proteinuria y daño; causas: Ang II por quimasa, K, ACTH. Tx: añadir ARM (espironolactona/finerenona) con vigilancia de K y Cr.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hormonas y riñón)",
+   "Bakris GL et al. N Engl J Med 2020;383:2219 (FIDELIO-DKD)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "REN-3",
+  "serie_id": "REN",
+  "orden": 3,
+  "sub": "2",
+  "subtema": "Escape mineralocorticoide: ausencia de edema en el hiperaldosteronismo primario",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un residente pregunta por qué otra paciente, con un adenoma productor de aldosterona (hipertensión de 172/104 mmHg, K⁺ de 2.9 mEq/L, HCO₃⁻ de 31 mEq/L), no presenta edema a pesar de la retención de sodio mediada por aldosterona, mientras sí lo tienen los pacientes con insuficiencia cardiaca con hiperaldosteronismo secundario.",
+  "enunciado": "¿Cuál es la explicación?",
+  "opciones": {
+   "A": "La aldosterona no retiene sodio en el hiperaldosteronismo primario, por lo que no existe expansión del volumen",
+   "B": "El potasio bajo previene el edema directamente, al aumentar la excreción renal de sodio y de agua libre",
+   "C": "No hay escape; el edema aparece más tarde en todos los pacientes, cuando se agota la reserva de sodio",
+   "D": "La aldosterona causa natriuresis en el adenoma y retención de sodio en la insuficiencia cardiaca, por mecanismos distintos",
+   "E": "Escape mineralocorticoide: natriuresis por presión, péptidos natriuréticos y menor reabsorción proximal restauran la excreción de sodio"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La aldosterona sí retiene sodio por ENaC; el efecto es limitado por el escape.",
+   "B": "La hipopotasemia no previene el edema.",
+   "C": "El escape es un mecanismo que evita el edema en el hiperaldosteronismo primario.",
+   "D": "La aldosterona retiene sodio en ambas situaciones; la diferencia es el escape.",
+   "E": "La aldosterona aumenta la reabsorción de sodio en el túbulo colector (ENaC, SGK1) y la secreción de potasio e hidrógeno, con hipertensión, hipopotasemia y alcalosis metabólica. Tras unos días de expansión de volumen (aumento de peso de 1 a 2 kg), la excreción de sodio vuelve a igualar la ingesta, con lo que no se desarrolla edema: es el escape mineralocorticoide, mediado por la natriuresis por presión (la presión arterial aumentada), por los péptidos natriuréticos auriculares y por la menor reabsorción proximal de sodio y agua (disminución de la angiotensina II con la expansión). En la insuficiencia cardiaca, la cirrosis y el síndrome nefrótico, el volumen arterial efectivo disminuido (con baja presión de perfusión renal y activación del SRAA y del simpático) impide el escape, y la retención de sodio persiste con edema. El escape no corrige la hipopotasemia, que depende de la secreción distal de potasio."
+  },
+  "perla": "Escape mineralocorticoide: ↑PA (natriuresis por presión), ANP y ↓Na proximal → sin edema en hiperaldosteronismo primario (solo HTA, hipoK, alcalosis). IC/cirrosis/nefrótico: volumen efectivo ↓ → sin escape → edema.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hormonas y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "ETA-1",
+  "serie_id": "ETA",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Sistema de endotelina: receptores ETA y ETB y daño glomerular",
+  "dificultad": "dificil",
+  "caso": "Hombre de 34 años con nefropatía por IgA confirmada por biopsia (MEST-C M1 E0 S1 T0 C0), proteinuria de 1.6 g/g de creatinina y TFGe de 58 mL/min/1.73 m² después de 6 meses de ARA-II a dosis máxima tolerada y control de la presión arterial. Se plantea añadir un antagonista del receptor de endotelina. El residente pregunta por el fundamento fisiológico.",
+  "enunciado": "¿Cuál es el fundamento fisiopatológico más adecuado?",
+  "opciones": {
+   "A": "La endotelina 1 aumenta la natriuresis por el receptor ETA, por lo que su bloqueo causa pérdida de sodio y depleción de volumen",
+   "B": "La endotelina 1 es solo un vasodilatador renal, y su bloqueo reduce la perfusión glomerular y la TFG",
+   "C": "La endotelina 1 se produce solo en el hígado y no actúa en el riñón, por lo que su bloqueo no tiene efecto renal",
+   "D": "La endotelina 1 actúa por ETA (vasoconstricción, daño podocitario, inflamación y fibrosis); su bloqueo reduce la proteinuria",
+   "E": "El receptor ETB es el que produce la fibrosis, por lo que el antagonista ideal es uno selectivo de ETB"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La acción natriurética se atribuye al receptor ETB, y el bloqueo de ETA se asocia con retención, y no con pérdida, de sodio.",
+   "B": "La endotelina 1 es vasoconstrictora por el receptor ETA, y su bloqueo reduce la presión intraglomerular y la proteinuria.",
+   "C": "La endotelina 1 se produce en el endotelio, el mesangio, el podocito y el túbulo, es decir, en el propio riñón.",
+   "D": "La endotelina 1 es un potente péptido vasoconstrictor producido por el endotelio, el mesangio, los podocitos y las células tubulares, y su receptor ETA predomina en la célula muscular lisa vascular y en el podocito: causa vasoconstricción, contracción mesangial, daño y desprendimiento del podocito, proliferación celular, inflamación y fibrosis, que se asocian con la proteinuria y la progresión. El receptor ETB endotelial media la liberación de óxido nítrico y prostaciclina (vasodilatación), contribuye a la depuración pulmonar y renal de endotelina 1 y, en el túbulo colector, favorece la natriuresis. Por esto, los antagonistas selectivos de ETA (atrasentan) o duales (sparsentan, que bloquea ETA y el receptor AT1 de angiotensina II) reducen la proteinuria en la nefropatía por IgA, y su efecto adverso principal es la retención de líquidos.",
+   "E": "La fibrosis y la lesión podocitaria dependen sobre todo de ETA, y un antagonista selectivo de ETB empeoraría el cuadro."
+  },
+  "perla": "ET-1: ETA = vasoconstricción, mesangio, podocito, fibrosis. ETB endotelial = NO/PGI2, depuración de ET-1, natriuresis. Antagonizar ETA (atrasentan) o ETA+AT1 (sparsentan) ↓ proteinuria en IgAN; efecto adverso: retención de líquidos.",
+  "referencias": [
+   "Kohan DE, Barton M. Kidney Int 2014;86:896 (endotelina y riñón)",
+   "Comprehensive Clinical Nephrology (hormonas y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "ETA-2",
+  "serie_id": "ETA",
+  "orden": 2,
+  "sub": "2",
+  "subtema": "Sparsentan y atrasentan: diferencias farmacológicas y datos de ensayos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se discute qué fármaco emplear en este paciente, con IgAN, proteinuria de 1.6 g/g y TFGe de 58, ya con ARA-II a dosis máxima. El nefrólogo menciona los ensayos PROTECT y ALIGN.",
+  "enunciado": "¿Cuál es la afirmación correcta sobre ambos fármacos?",
+  "opciones": {
+   "A": "El atrasentan es un antagonista dual ETA y AT1, y el sparsentan es selectivo de ETB y se añade al ARA-II a dosis máxima",
+   "B": "Sparsentan: dual ETA/AT1 que sustituye al ARA-II (PROTECT); atrasentan: selectivo de ETA que se añade al SRAA (ALIGN)",
+   "C": "Ninguno de los dos fármacos mostró reducción de la proteinuria frente al control en los ensayos pivotales de fase 3 de IgAN",
+   "D": "Ambos son bloqueadores del SRAA y se combinan con IECA o ARA-II sin diferencias entre ellos en la práctica clínica habitual",
+   "E": "El sparsentan se añade siempre al ARA-II a dosis máxima, como el atrasentan, para duplicar el bloqueo del receptor AT1"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Se invierte la farmacología: el atrasentan es selectivo de ETA, y el sparsentan es dual.",
+   "B": "El sparsentan combina en una molécula el antagonismo del receptor ETA y del receptor AT1, por lo que reemplaza al ARA-II (no se combina con IECA, ARA-II ni aliskiren por el riesgo de hipotensión, hiperpotasemia y lesión renal); en el ensayo PROTECT (nefropatía por IgA, proteinuria de 1.5 g/g o más) la proteinuria disminuyó cerca de 50% a las 36 semanas frente a cerca de 15% con irbesartán, y la pendiente de TFGe a largo plazo fue algo menos negativa (diferencia aproximada de 1 mL/min/1.73 m² por año). El atrasentan es un antagonista selectivo de ETA que se añade a un bloqueador del SRAA a dosis máxima tolerada; en ALIGN redujo la proteinuria alrededor de 36% frente a placebo a las 36 semanas. Ambos son teratogénicos (se exige anticoncepción) y causan retención de líquidos; el sparsentan exige además vigilancia hepática.",
+   "C": "Ambos redujeron la proteinuria de forma significativa en sus ensayos.",
+   "D": "Ninguno bloquea de manera exclusiva el SRAA: son antagonistas de endotelina, y solo el sparsentan tiene un componente anti-AT1.",
+   "E": "El sparsentan ya contiene un bloqueador del receptor AT1, por lo que no se añade a un ARA-II."
+  },
+  "perla": "Sparsentan = dual ETA/AT1 (reemplaza al ARA-II; PROTECT: UPCR −50% vs −15% a 36 sem). Atrasentan = ETA selectivo (se añade a RASi máximo; ALIGN: UPCR −36% vs placebo). Ambos: teratogenia, retención de líquidos; sparsentan: vigilancia hepática.",
+  "referencias": [
+   "Heerspink HJL et al. Lancet 2023;401:1584 (PROTECT)",
+   "Heerspink HJL et al. N Engl J Med 2025 (ALIGN, atrasentan)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "ETA-3",
+  "serie_id": "ETA",
+  "orden": 3,
+  "sub": "2",
+  "subtema": "Efectos adversos de los antagonistas de endotelina: retención de líquidos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente inicia el antagonista de endotelina. A las 4 semanas refiere aumento de 3 kg de peso y edema leve en tobillos; la presión arterial es de 108/66 mmHg, la hemoglobina bajó de 14.2 a 13.0 g/dL, el potasio es de 5.0 mEq/L, las transaminasas son normales, sin disnea ni ortopnea, con BNP discretamente elevado.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Indicar transfusión por la caída de la hemoglobina de 14.2 a 13.0 g/dL, por riesgo de anemia sintomática",
+   "B": "Continuar el fármaco; tratar la retención con dieta hiposódica y diurético y vigilar peso, Hb y hígado",
+   "C": "Añadir un aporte de sodio para corregir la hipotensión, porque la presión de 108/66 mmHg indica depleción",
+   "D": "Aumentar al doble la dosis del antagonista para compensar la retención de líquidos y el aumento de peso",
+   "E": "Suspender el fármaco de forma definitiva, porque cualquier edema es una contraindicación absoluta para continuarlo"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Una caída de 1.2 g/dL por hemodilución no requiere transfusión.",
+   "B": "Los antagonistas del receptor de endotelina producen retención de líquidos (por efectos sobre el túbulo colector y la microvasculatura) con edema periférico, aumento de peso y descenso leve de la hemoglobina por hemodilución, que son los efectos adversos más frecuentes, y suele manejarse con restricción de sodio, diuréticos y vigilancia, sin necesidad de suspender el fármaco si no hay insuficiencia cardiaca. En el ensayo SONAR (atrasentan en enfermedad renal diabética) la retención de líquidos fue la principal limitante, por lo que se seleccionó a los pacientes sin insuficiencia cardiaca ni BNP elevado y se enriqueció la población con quienes respondieron sin retener líquidos; en ellos se redujo el desenlace renal compuesto. Se vigilan el peso, la presión arterial, la hemoglobina y la función hepática (sobre todo con sparsentan), y se suspende ante insuficiencia cardiaca, hepatotoxicidad o embarazo, por el riesgo teratogénico. Los iSGLT2, por su efecto natriurético, pueden ayudar a mitigar la retención y son compatibles con estos fármacos.",
+   "C": "Añadir sodio agravaría el edema; la conducta es restringirlo.",
+   "D": "Aumentar la dosis empeoraría la retención de líquidos y los efectos adversos.",
+   "E": "El edema leve responde al manejo de la retención, y no es contraindicación absoluta."
+  },
+  "perla": "ARE: retención de líquidos/edema, ↓ Hb por hemodilución, teratogenia, hepatotoxicidad (sparsentan). Manejo: ↓ Na, diurético, vigilar peso/Hb/hígado; suspender si IC, hepatotoxicidad o embarazo. SONAR: excluir IC/BNP alto.",
+  "referencias": [
+   "Heerspink HJL et al. Lancet 2019;393:1937 (SONAR)",
+   "Comprehensive Clinical Nephrology (hormonas y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "HPI-1",
+  "serie_id": "HPI",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Eje HIF-EPO: mecanismo de los inhibidores de prolil-hidroxilasa",
+  "dificultad": "moderada",
+  "caso": "Mujer de 47 años con ERC G5D en hemodiálisis (fístula nativa, Kt/V de 1.5), con hemoglobina de 8.7 g/dL a pesar de darbepoetina 200 µg/semana. Ferritina de 720 ng/mL, saturación de transferrina de 17%, PCR de 38 mg/L, PTH de 310 pg/mL, sin sangrado y con vitamina B12 y folato normales. El nefrólogo revisa opciones y menciona los inhibidores de la prolil-hidroxilasa del factor inducible por hipoxia (roxadustat, daprodustat, vadadustat).",
+  "continuacion": "",
+  "enunciado": "¿Cuál es el mecanismo por el que estos fármacos aumentan la hemoglobina?",
+  "opciones": {
+   "A": "Son agonistas directos del receptor de eritropoyetina de acción prolongada, con una unión similar a la de los agentes estimulantes de la eritropoyesis",
+   "B": "Aumentan la hepcidina hepática para retener el hierro en los depósitos y evitar su pérdida, lo que corrige la deficiencia funcional de hierro",
+   "C": "Reemplazan la EPO circulante que falta, porque se metabolizan en el riñón a una forma activa que se une a los receptores de la médula ósea",
+   "D": "Inhiben las prolil-hidroxilasas y estabilizan HIF, con más EPO endógena, menos hepcidina y mejor absorción y disponibilidad del hierro",
+   "E": "Bloquean la degradación de la EPO por el riñón y el hígado, de modo que la concentración circulante aumenta sin inducir su síntesis"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No actúan sobre el receptor de EPO; los agentes estimulantes de la eritropoyesis sí lo hacen.",
+   "B": "Reducen la hepcidina; si la aumentaran empeorarían la deficiencia funcional de hierro.",
+   "C": "Son moléculas pequeñas orales que actúan sobre la vía HIF; no son EPO.",
+   "D": "En normoxia, las prolil-hidroxilasas (PHD) hidroxilan a HIF-α y lo marcan para su degradación por la vía de VHL. Los inhibidores de PHD (roxadustat, daprodustat, vadadustat, molidustat) imitan la señal de hipoxia: HIF-α se acumula y activa los genes de la EPO (en los fibroblastos intersticiales renales y, en la ERC avanzada, también en el hígado), del receptor de transferrina y de la absorción de hierro (DMT1 y ferroportina duodenal), y reduce la hepcidina. El resultado es una mayor producción de EPO endógena en rangos cercanos a lo fisiológico y mejor movilización del hierro, con posible utilidad en la inflamación.",
+   "E": "No inhiben la degradación de la EPO, sino que estimulan su síntesis."
+  },
+  "perla": "Inhibidores de PHD: más HIF-α, más EPO endógena, mayor absorción y movilización de hierro y menos hepcidina. Vía oral. No son agonistas del receptor de EPO.",
+  "referencias": [
+   "Kaelin WG, Ratcliffe PJ. Mol Cell 2008;30:393",
+   "Comprehensive Clinical Nephrology (anemia en la ERC)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 39.0
+ },
+ {
+  "id": "HPI-2",
+  "serie_id": "HPI",
+  "orden": 2,
+  "sub": "2",
+  "subtema": "Inhibidores de PHD: eficacia y seguridad cardiovascular en los ensayos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se revisan los ensayos clínicos de fase 3: en diálisis (INNO2VATE con vadadustat y ASCEND-D con daprodustat) y en ERC sin diálisis (PRO2TECT con vadadustat y ASCEND-ND con daprodustat), todos comparados con agentes estimulantes de la eritropoyesis.",
+  "enunciado": "¿Qué afirmación resume mejor la eficacia y la seguridad cardiovascular?",
+  "opciones": {
+   "A": "Igualan a los ESA en hemoglobina; en diálisis no fueron inferiores en MACE, pero vadadustat no lo demostró en ERC sin diálisis (PRO2TECT)",
+   "B": "Superaron a los ESA en reducción de eventos cardiovasculares mayores y de mortalidad en todos los ensayos, tanto en diálisis como sin diálisis",
+   "C": "Fueron menos eficaces que los ESA para corregir la hemoglobina, pero redujeron los eventos trombóticos del acceso vascular de forma significativa",
+   "D": "Mostraron mayor mortalidad que los ESA en diálisis en todos los ensayos y por eso carecen de aprobación regulatoria en cualquier país",
+   "E": "Tuvieron eficacia similar a los ESA, aunque los eventos cardiovasculares mayores no se evaluaron como desenlace de seguridad en ningún ensayo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Los ensayos de fase 3 mostraron que los inhibidores de PHD logran y mantienen la hemoglobina objetivo de forma no inferior a los ESA. En diálisis, INNO2VATE (vadadustat) y ASCEND-D (daprodustat) cumplieron la no inferioridad para el primer evento cardiovascular mayor (MACE). En ERC sin diálisis, ASCEND-ND (daprodustat) cumplió la no inferioridad, pero PRO2TECT (vadadustat) no la cumplió frente a darbepoetina. La FDA aprobó daprodustat y vadadustat solo para pacientes en diálisis, con advertencia de mayor riesgo de trombosis, muerte y eventos cardiovasculares; roxadustat está aprobado en Europa y Asia.",
+   "B": "Ninguno demostró superioridad cardiovascular sobre los ESA; solo no inferioridad en algunos escenarios.",
+   "C": "La eficacia en hemoglobina fue similar y hubo señales de más trombosis, no de menos.",
+   "D": "No hubo mayor mortalidad en todos los ensayos y existen aprobaciones regulatorias en varios países.",
+   "E": "Los MACE fueron el desenlace primario de seguridad en los ensayos."
+  },
+  "perla": "Inhibidores de PHD: Hb no inferior a ESA. MACE no inferiores en diálisis (INNO2VATE, ASCEND-D) y en ASCEND-ND; PRO2TECT (vadadustat, sin diálisis) no cumplió. FDA: solo diálisis, con advertencia de trombosis.",
+  "referencias": [
+   "Singh AK et al. N Engl J Med 2021;385:2325 (ASCEND-D)",
+   "Eckardt KU et al. N Engl J Med 2021;384:1601 (INNO2VATE)",
+   "Chertow GM et al. N Engl J Med 2021;384:1589 (PRO2TECT)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "HPI-3",
+  "serie_id": "HPI",
+  "orden": 3,
+  "sub": "2",
+  "subtema": "Selección del paciente y riesgos: antecedente trombótico e hiporrespuesta al ESA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente tiene además el antecedente de una trombosis venosa profunda hace 3 meses (continúa anticoagulada) y una trombosis previa de la fístula arteriovenosa. No tiene cáncer activo.",
+  "enunciado": "¿Cómo se orienta la decisión terapéutica?",
+  "opciones": {
+   "A": "Duplicar la dosis de darbepoetina cada 2 semanas hasta alcanzar una hemoglobina de 13 g/dL, ya que la hiporrespuesta se resuelve con dosis altas",
+   "B": "Suspender el ESA y manejar la anemia solo con transfusiones periódicas indefinidas hasta llegar a 11 g/dL, porque son más seguras que cualquier fármaco",
+   "C": "Optimizar hierro e inflamación y mantener el ESA a la menor dosis eficaz; los inhibidores de PHD aumentan el riesgo trombótico y aquí se evitan",
+   "D": "Iniciar roxadustat a dosis alta para llevar la hemoglobina a 13 g/dL, ya que el antecedente trombótico no modifica el balance de riesgo y beneficio",
+   "E": "Cambiar a un inhibidor de PHD porque, a diferencia de los ESA, no aumenta el riesgo de trombosis venosa y se puede usar con antecedente trombótico"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Las dosis altas de ESA y las metas altas de hemoglobina aumentan los eventos; antes se corrige la causa de la hiporrespuesta.",
+   "B": "La transfusión se evita por la aloinmunización y la sobrecarga; no es la primera línea.",
+   "C": "Los inhibidores de PHD se asociaron con más eventos tromboembólicos (trombosis venosa profunda y trombosis del acceso vascular) en los análisis de seguridad, y sus etiquetas advierten mayor riesgo de muerte, infarto, ictus y trombosis. La guía KDIGO 2026 de anemia en la ERC mantiene al ESA como tratamiento de primera línea frente a los inhibidores de PHD (Rec 3.1.1) y recomienda no usar estos últimos con neoplasia activa, evento cardiovascular reciente o trombosis vascular reciente (PP 3.7.5), como la trombosis venosa profunda de hace 3 meses de esta paciente. En ella, la hiporrespuesta al ESA con ferritina alta, TSAT baja y PCR elevada indica inflamación y deficiencia funcional de hierro: se busca y trata la causa de la inflamación (acceso, infección, diálisis insuficiente), se corrige el hierro (el hierro IV proactivo es una opción) y se mantiene el ESA a la menor dosis eficaz, sin pretender normalizar la hemoglobina (se evita superar 11.5 g/dL, Rec 3.3.1).",
+   "D": "El antecedente trombótico sí modifica el balance, y la meta de 13 g/dL aumenta los eventos cardiovasculares.",
+   "E": "Los inhibidores de PHD tienen advertencia de trombosis; no son más seguros que los ESA."
+  },
+  "perla": "Inhibidores de PHD: advertencia de trombosis y MACE; no usar con trombosis reciente, evento CV reciente o cáncer activo (KDIGO 2026, PP 3.7.5). Hiporrespuesta al ESA con ferritina alta, TSAT baja y PCR alta: tratar inflamación e hierro; Hb <11.5 g/dL.",
+  "referencias": [
+   "Singh AK et al. N Engl J Med 2021;385:2325",
+   "KDIGO 2026 Clinical Practice Guideline for Anemia in CKD. Kidney Int 2026 (Rec 3.1.1, 3.3.1; PP 3.7.5)",
+   "Comprehensive Clinical Nephrology (anemia en la ERC)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ }
+]

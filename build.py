@@ -8,6 +8,7 @@ root = pathlib.Path(__file__).parent
 t = (root / "engine/template.html").read_text(encoding="utf-8")
 regions = json.loads((root / "data/regiones.json").read_text(encoding="utf-8"))
 order = [lv[0] for r in regions for lv in r["levels"]]
+ROSTER = json.loads((root / "data/criaturas.json").read_text(encoding="utf-8"))
 
 def load(lvl, name, default):
     f = lvl / name
@@ -18,6 +19,10 @@ def level(lvl):
     if story is None: sys.exit(f"falta {lvl}/story.json")
     meta = story.get("meta") or {}
     if not meta.get("key") or not meta.get("id"): sys.exit(f"{lvl}: story.meta.id y story.meta.key son obligatorios")
+    # catálogo común de criaturas: cualquier nivel puede unir una criatura del catálogo
+    have = {c["id"] for c in story["creatures"]}
+    story["creatures"] += [c for c in ROSTER["creatures"] if c["id"] not in have]
+    story["typeChart"] = {**ROSTER["typeChart"], **story.get("typeChart", {})}
     return {"story": story, "q1": load(lvl, "q_base.json", {}), "q2": load(lvl, "q_extra.json", {}), "bank": load(lvl, "q_banco.json", [])}
 
 dump = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")

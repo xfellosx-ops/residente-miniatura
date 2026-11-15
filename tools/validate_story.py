@@ -9,7 +9,10 @@ err = []; warn = []; frames = 0
 meta = d.get("meta") or {}
 for k in ("id", "title", "key"):
     if not meta.get(k): err.append(("meta", "falta " + k))
-crea = {c["id"] for c in d["creatures"]}
+import pathlib
+R = json.load(open(pathlib.Path(__file__).parent.parent / "data/criaturas.json", encoding="utf-8"))
+crea = {c["id"] for c in d["creatures"]} | {c["id"] for c in R["creatures"]}
+d.setdefault("typeChart", {}); d["typeChart"] = {**R["typeChart"], **d["typeChart"]}
 for c in d["creatures"]:
     for m in c["moves"]:
         if m["type"] not in d["typeChart"]: err.append((c["id"], "tipo de movimiento sin typeChart", m["type"]))

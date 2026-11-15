@@ -122,7 +122,9 @@ const MCQPOOL=Object.values(ALL).filter(q=>q._src==="puerta");
 function series(id){return Object.values(ALL).filter(q=>q.serie_id===id).sort((a,b)=>a.orden-b.orden)}
 const STOP=new Set("de la el en y a los las del con por para que un una se su al o es más como sin lo".split(" "));
 const toks=s=>new Set(String(s||"").toLowerCase().normalize("NFD").replace(/[̀-ͯ]/g,"").split(/[^a-z0-9]+/).filter(w=>w.length>3&&!STOP.has(w)));
-const MCQX=MCQPOOL.concat(Object.values(ALL).filter(q=>q._src==="pasto"&&!q.vf));
+/* reservadas: series de entrenadores y preguntas del jefe; el resto del banco del nivel entra a las puertas */
+const RESV=new Set(),RESS=new Set();STORY.zones.forEach(z=>z.trainers.forEach(t=>{if(t.serie)RESS.add(t.serie)}));STORY.boss.phases.forEach(P=>{(P.questions||[]).forEach(id=>{RESV.add(id);if(ALL[id]&&ALL[id].serie_id)RESS.add(ALL[id].serie_id)});(P.series||[]).forEach(s=>RESS.add(s))});
+const MCQX=MCQPOOL.concat(Object.values(ALL).filter(q=>(q._src==="pasto"&&!q.vf)||(q._src==="banco"&&!RESV.has(q.id)&&!RESS.has(q.serie_id))));
 function topicPick(topics,n,used){const T0=toks(topics.join(" "));const sc=MCQX.map(q=>{const t=toks(q.enunciado+" "+(q.tema||"")+" "+(q.subtema||"")+" "+(q.perla||""));let s=0;t.forEach(w=>{if(T0.has(w))s++});return{q,s:s+Math.random()*.5-(used.has(q.id)?3:0)}}).sort((a,b)=>b.s-a.s);return sc.slice(0,n).map(x=>x.q)}
 /* asignación de entrenadores y puertas */
 /* serie de cada entrenador: trainers[].serie (si falta, preguntas por tema) */
