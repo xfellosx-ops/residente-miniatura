@@ -9,6 +9,11 @@ t = (root / "engine/template.html").read_text(encoding="utf-8")
 regions = json.loads((root / "data/regiones.json").read_text(encoding="utf-8"))
 order = [lv[0] for r in regions for lv in r["levels"]]
 TEMARIO = {str(x["id"]): x.get("meta", 10) for x in json.loads((root / "data/temario.json").read_text(encoding="utf-8"))}
+# número de versión visible en la pantalla de inicio: cuenta de commits + fecha (sirve para saber qué copia tiene cada dispositivo)
+import subprocess, datetime
+try: BUILD = subprocess.run(["git", "rev-list", "--count", "HEAD"], cwd=root, capture_output=True, text=True).stdout.strip() or "0"
+except Exception: BUILD = "0"
+BUILD = str(int(BUILD) + 1) + " · " + datetime.date.today().strftime("%d/%m")
 ROSTER = json.loads((root / "data/criaturas.json").read_text(encoding="utf-8"))
 
 def load(lvl, name, default):
@@ -29,7 +34,7 @@ def level(lvl):
 dump = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
 PWA_HEAD = '<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0f380f"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">'
 def write(levels, title, names, pwa=False):
-    out = t.replace("<!--PWA-->", PWA_HEAD if pwa else "").replace("__TITLE__", html.escape(title)).replace("__LEVELS__", dump(levels)).replace("__REGIONS__", dump(regions)).replace("__TEMARIO__", dump(TEMARIO))
+    out = t.replace("<!--PWA-->", PWA_HEAD if pwa else "").replace("__TITLE__", html.escape(title)).replace("__BUILD__", BUILD).replace("__LEVELS__", dump(levels)).replace("__REGIONS__", dump(regions)).replace("__TEMARIO__", dump(TEMARIO))
     (root / "dist").mkdir(exist_ok=True)
     if pwa: return pwa_site(out)
     for n in names: (root / "dist" / n).write_text(out, encoding="utf-8")
