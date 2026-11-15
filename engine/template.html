@@ -326,20 +326,60 @@ function ring2(x0,y0,r,t,c){for(let a=0;a<360;a+=3){const rad=a*Math.PI/180;for(
 
 function playFx(kind,type,cb){if(!BAT)return cb();BAT.fx={kind,type,t:0,cb}}
 function drawFx(b){const f=b.fx;f.t++;const p=f.t/36;const P=(x,y,w,h,c)=>px(x,y,w,h,c);
- if(f.kind==="foe"){const x=118+(40-118)*p,y=30+(64-30)*p;circ(x,y,4,"#ff3030");circ(x,y,2,"#ffd0d0");if(f.t>26){cx.globalAlpha=.45;P(0,0,160,96,"#ff0000");cx.globalAlpha=1}}
- else{const tx=118,ty=30;switch(f.type){
-  case"Fagocito":for(let k=0;k<3;k++)if(f.t>k*8)for(let i=0;i<14;i++)P(tx-10+i+k*4,ty-10+i,2,2,"#fff");break;
-  case"Depurador":ring2(tx,ty,Math.max(2,Math.round(20*(1-p))),3,"#f2c94c");break;
-  case"Humoral":for(let i=0;i<3;i++){const x=40+(tx-40)*Math.min(1,p*1.3-i*.15),y=64+(ty-64)*Math.min(1,p*1.3-i*.15);P(x,y,1,5,"#7fa8ff");P(x-2,y-2,2,2,"#7fa8ff");P(x+1,y-2,2,2,"#7fa8ff")}break;
-  case"Regulador":case"Supresor":for(let i=0;i<3;i++)ring2(tx,ty,Math.round(((f.t+i*8)%24)),1,"#6ad1e3");break;
-  case"Antimetabolito":for(let i=0;i<4;i++){const x=40+(tx-40)*p+i*3,y=64+(ty-64)*p-i*3;P(x,y,4,4,"#bbb");P(x+1,y+1,2,2,"#555")}break;
-  case"Endosomal":for(let a=0;a<=180;a+=6){const r=a*Math.PI/180;P(tx+Math.cos(r)*16,ty-Math.sin(r)*16*p,2,2,"#5b8fd6")}break;
-  case"Podoprotector":for(let i=0;i<5;i++)P(tx-14+i*6,ty-14,3,28*p,"#b9a6ff");break;
-  case"Anti-citocina":for(let i=0;i<5;i++){P(tx-12,ty-12+i*6,24*p,1,"#f2c94c");P(tx-12+i*6,ty-12,1,24*p,"#f2c94c")}break;
-  case"Depletor":for(let i=0;i<12;i++){P(tx-6+i,ty-6+i,2,2,"#ff5a36");P(tx+6-i,ty-6+i,2,2,"#ff5a36")}break;
-  case"Alquilante":{let x=tx-2,y=ty-26;for(let i=0;i<8;i++){const nx=x+(i%2?6:-6),ny=y+5;for(let s=0;s<5;s++)P(x+(nx-x)*s/5,y+(ny-y)*s/5,2,2,"#fff3a0");x=nx;y=ny}}break;
-  default:circ(40+(tx-40)*p,64+(ty-64)*p,4,"#fff")}}
- if(f.t>=36){b.fx=null;b.shake=f.kind==="foe"?0:10;b.flash=f.kind==="foe"?0:4;const cb=f.cb;cb&&cb()}}
+ if(f.kind==="foe"){
+  const x=118+(40-118)*Math.min(1,p*1.5),y=30+(64-30)*Math.min(1,p*1.5);
+  circ(x,y,6+Math.sin(f.t)*3,"#ff3030");circ(x,y,3,"#ffffff");
+  if(f.t>20){cx.globalAlpha=.5;P(0,0,160,96,"#ff2222");cx.globalAlpha=1;for(let i=0;i<8;i++){const a=i*Math.PI/4;P(40+Math.cos(a)*(f.t*2),64+Math.sin(a)*(f.t*2),3,3,"#ffea33")}}
+ }else{
+  const tx=118,ty=30,sx=40,sy=64;
+  switch(f.type){
+   case"Fagocito":
+    for(let k=0;k<4;k++)if(f.t>k*6){const fx0=sx+(tx-sx)*(p*(k+1)/4);const fy0=sy+(ty-sy)*(p*(k+1)/4);circ(fx0,fy0,8-k*1.5,"#ffffff");circ(fx0,fy0,4,"#7fa8ff");}
+    if(f.t>24)ring2(tx,ty,f.t-20,2,"#f2c94c");
+    break;
+   case"Depurador":
+    ring2(tx,ty,Math.max(2,Math.round(26*(1-p))),4,"#f2c94c");
+    ring2(tx,ty,Math.max(1,Math.round(14*(1-p))),2,"#ffffff");
+    for(let i=0;i<6;i++){const a=i*Math.PI/3+f.t*.2;P(tx+Math.cos(a)*(20*p),ty+Math.sin(a)*(20*p),3,3,"#ffd700")}
+    break;
+   case"Humoral":
+    for(let i=0;i<5;i++){const pr=Math.min(1,p*1.2-i*.1);if(pr>0){const x=sx+(tx-sx)*pr,y=sy+(ty-sy)*pr;P(x,y,4,6,"#7fa8ff");P(x-2,y-2,2,2,"#ffffff");P(x+2,y-2,2,2,"#2233aa")}}
+    if(f.t>26)for(let i=0;i<8;i++){const a=i*Math.PI/4;P(tx+Math.cos(a)*10,ty+Math.sin(a)*10,2,2,"#7fa8ff")}
+    break;
+   case"Regulador":
+   case"Supresor":
+    for(let i=0;i<4;i++)ring2(tx,ty,Math.round(((f.t*1.5+i*8)%30)),2,"#6ad1e3");
+    circ(tx,ty,Math.min(16,f.t*.8),"#6ad1e3");
+    break;
+   case"Antimetabolito":
+    for(let i=0;i<6;i++){const px0=sx+(tx-sx)*p+Math.sin(f.t+i)*6;const py0=sy+(ty-sy)*p+Math.cos(f.t+i)*6;P(px0,py0,5,5,"#bbbbbb");P(px0+1,py0+1,2,2,"#333333")}
+    break;
+   case"Endosomal":
+    for(let a=0;a<=360;a+=12){const rad=a*Math.PI/180;const dist=18*p;P(tx+Math.cos(rad)*dist,ty+Math.sin(rad)*dist,3,3,"#5b8fd6")}
+    ring2(tx,ty,12*p,2,"#9bc0ff");
+    break;
+   case"Podoprotector":
+    for(let i=0;i<6;i++)P(tx-18+i*6,ty-16,4,32*p,"#b9a6ff");
+    ring2(tx,ty,16,3,"#e8e0ff");
+    break;
+   case"Anti-citocina":
+    for(let i=0;i<6;i++){const offset=(f.t*2+i*6)%36-18;P(tx+offset,ty-14+i*5,28,2,"#f2c94c");P(tx-14+i*5,ty+offset,2,28,"#f2c94c")}
+    break;
+   case"Depletor":
+    for(let i=0;i<16;i++){const a=i*Math.PI/8;const d=f.t*1.2;P(tx+Math.cos(a)*d,ty+Math.sin(a)*d,3,3,"#ff5a36");P(tx+Math.cos(a)*(d*.6),ty+Math.sin(a)*(d*.6),2,2,"#ffea33")}
+    break;
+   case"Alquilante":
+    {let x=sx,y=sy;for(let i=0;i<10;i++){const nx=sx+(tx-sx)*(i/10)+Math.sin(i*2+f.t)*8,ny=sy+(ty-sy)*(i/10)+Math.cos(i)*8;P(nx,ny,4,4,"#fff3a0");x=nx;y=ny}}
+    ring2(tx,ty,8+Math.sin(f.t*.5)*4,3,"#ffe066");
+    break;
+   default:
+    const cx0=sx+(tx-sx)*p,cy0=sy+(ty-sy)*p;
+    circ(cx0,cy0,6,"#ffffff");circ(cx0,cy0,3,"#f2c94c");
+    break;
+  }
+ }
+ if(f.t>=36){b.fx=null;b.shake=f.kind==="foe"?0:10;b.flash=f.kind==="foe"?0:4;const cb=f.cb;cb&&cb()}
+}
 
 function wake(after){if(MODE==="battle"||MODE==="river")return modal("Termina el combate y luego toca 😴.");const prev=MODE;MODE="wake";clearAll();held=null;
  const items=shuf(PASTO.filter(q=>q.vf)).slice(0,10);let i=0,ok=0,streak=0;
@@ -356,24 +396,108 @@ let MODE="title",mv={on:false,fx:0,fy:0,t:0},held=null,stepsGrass=0,since=0,fram
 
 function deco(tl,sx,sy,x,y,th){const v=(x*7+y*13)%6,f=frame;px(sx,sy,16,16,th.w);
  const P=(a,b,w,h,c)=>px(sx+a,sy+b,w,h,c);
+ const shadeW=shade(th.w);
+ P(0,0,16,2,shadeW);P(0,0,2,16,shadeW);
  switch(tl){
- case"hospital":P(0,0,16,16,"#c9cdb4");P(0,13,16,3,"#8a8f74");if(v===0){P(2,6,12,6,"#fff");P(2,6,12,2,"#7aa0d6")}else if(v===1){P(3,2,10,8,"#222");P(4,3,8,6,"#0b3");const k=(f>>2)%8;P(4+k,5,1,2,"#bfb")}else if(v===2){P(5,4,6,9,"#7a5a3a");P(6,5,4,3,"#9c7a52")}else if(v===3){circ(sx+8,sy+7,5,"#3c8a3c");P(7,11,2,4,"#6b4a2a")}break;
- case"playa":P(0,0,16,16,v%2?"#f2b07a":"#e99a6a");circ(sx+8,sy+8,6,v===0?"#7a6a62":"#ffd9b3");circ(sx+9,sy+8,2,v===0?"#2a1a14":"#a0522d");if(v===0&&(f>>4)%2){P(2,2,2,2,"#7a6a62");P(13,12,2,2,"#7a6a62")}if(v===3){const k=(f>>1)%16;P(k,0,1,6,"#fff3a0")}break;
- case"pantano":P(0,0,16,16,"#4f5a40");if(v<3){circ(sx+6,sy+7,3,"#b9a0a0");circ(sx+10,sy+9,2,"#b9a0a0");circ(sx+8,sy+5,2,"#9a7a7a");P(7,8,2,2,"#2a1a1a")}else{P(2,10,12,3,"#3a6a6a");if((f>>3)%3===v%3)P(5,9,2,1,"#bfe")}break;
- case"bosque":P(0,0,16,16,"#2f6b3a");if(v<4){circ(sx+8,sy+8,7,"#1f4a2a");circ(sx+8,sy+8,4,"#9fd88f");if((f>>4)%4===v)circ(sx+8,sy+8,2,"#fff")}break;
- case"rio":P(0,0,16,16,"#7a1010");P(0,0,16,3,"#c86060");P(0,13,16,3,"#c86060");{const k=(f+x*5)%24-4;circ(sx+k,sy+8,3,"#e05050");circ(sx+k,sy+8,1,"#a02020")}break;
- case"delta":P(0,0,16,16,"#8a2a4a");circ(sx+8,sy+8,6,"#f09ab8");circ(sx+8,sy+8,3,"#ffd8e6");if(v<3)P(4+v*2,4,2,2,"#f2c94c");if(v===4&&(f>>2)%2){P(2,2,1,10,"#fff");P(13,4,1,8,"#fff")}break;
- case"acantilado":P(0,0,16,16,"#5a4a8a");P(0,11,16,2,"#2a1a55");circ(sx+8,sy+5,4,"#b9a6ff");for(let k=0;k<4;k++)P(2+k*4,9,2,(v>3?1:2)+((f>>4)%2&&v===k?0:0),"#d8ccff");break;
- case"ruinas":P(0,0,16,16,"#e8b4c8");for(let k=0;k<5;k++)P((k*5+v*3)%14+1,(k*7+v)%14+1,2,2,"#5b2a8a");if(v<2){circ(sx+8,sy+8,6,"#d47aa0");circ(sx+8,sy+8,4,"#f2c0d4")}if(v===2){P(2,2,12,12,"#c97aa0");P(4,4,8,8,"#e8b4c8")}break;
- case"capsula":P(0,0,16,16,"#4a2a8a");if(v<3){for(let a=0;a<6;a++)P(2+a*2,3+Math.abs(3-a),2,2,"#c7a6ff")}if(v===3){circ(sx+8,sy+8,6,"#efe4ff");P(2,2,6,12,"#7a4fd0")}break;
- case"valle":P(0,0,16,16,"#7a5a2a");if(v<3){circ(sx+8,sy+8,7,"#d9b26a");circ(sx+8,sy+8,4,"#f6e8c8");for(let k=0;k<6;k++)P(8+Math.round(Math.cos(k)*5)-1,8+Math.round(Math.sin(k)*5)-1,2,2,"#7a5a2a")}else if(v===3){circ(sx+8,sy+8,7,"#a35");circ(sx+8,sy+8,5,"#c76");circ(sx+8,sy+8,3,"#e98");circ(sx+8,sy+8,1,"#600")}break;
- default:P(2,2,12,12,shade(th.w))}}
-function floorTile(tl,sx,sy,x,y,th){px(sx,sy,16,16,th.f);const v=(x*5+y*11)%9;
- if(tl==="rio"){if(v<2)circ(sx+8,sy+8,2,"#e8a0a0")}else if(tl==="ruinas"){if(v<3)px(sx+v*4+2,sy+6,2,2,"#9a6ab0")}else if(tl==="playa"){if(v===0)px(sx+3,sy+9,6,1,"#e9c48a")}else if(v===0)px(sx+7,sy+7,2,2,shade(th.f))}
-function grassTile(tl,sx,sy,x,y,th){px(sx,sy,16,16,th.g);const k=(frame>>4)%2;
- if(tl==="rio"){for(let i=0;i<3;i++)px(sx+((frame+i*6+x*3)%16),sy+3+i*5,4,2,"#ffb0b0")}
- else if(tl==="ruinas"||tl==="delta"){for(let i=0;i<4;i++)circ(sx+3+i*3,sy+5+((i+k)%2)*5,1,"#5b2a8a")}
- else for(let i=0;i<4;i++)px(sx+2+i*4,sy+5+((i+k)%2),2,7,th.w)}
+ case"hospital":
+  P(2,2,12,12,"#d2dcc0");P(3,3,10,10,"#e8f0d8");
+  if(v===0){P(5,4,6,8,"#fff");P(7,4,2,8,"#7aa0d6");P(5,7,6,2,"#7aa0d6")}
+  else if(v===1){P(4,2,8,10,"#2a2a2a");P(5,3,6,8,"#0b3");const k=(f>>2)%6;P(5+k,6,1,2,"#fff");P(5,4,6,1,"#111")}
+  else if(v===2){P(5,3,6,10,"#7a5a3a");P(6,4,4,4,"#c5a059");P(6,9,4,3,"#50351d")}
+  else if(v===3){circ(sx+8,sy+7,5,"#3c8a3c");circ(sx+6,sy+6,2,"#5ec85e");P(7,11,2,4,"#6b4a2a");P(5,13,6,2,"#4a321a")}
+  else{P(4,4,8,8,"#b8c8a0");P(6,6,4,4,th.w)}
+  break;
+ case"playa":
+  P(1,1,14,14,v%2?"#f2b07a":"#e99a6a");
+  if(v===0){circ(sx+8,sy+8,5,"#7a6a62");circ(sx+9,sy+7,2,"#2a1a14");P(3,3,2,2,"#ffd9b3");P(12,11,2,2,"#ffd9b3")}
+  else if(v===1){P(2,2,12,12,"#e08a50");P(4,4,8,8,"#f5b888");for(let i=0;i<4;i++)P(3+i*3,3+i*3,2,2,"#c05020")}
+  else if(v===2){circ(sx+8,sy+8,6,"#ffd9b3");circ(sx+8,sy+8,3,"#e09050");P(6,6,4,4,"#7a5a40")}
+  else{const k=(f>>1)%14;P(1,1,14,2,"#fff3a0");P(k,3,2,10,"#ffe066");P(2,13,12,2,"#d08040")}
+  break;
+ case"pantano":
+  P(2,2,12,12,"#3f4a35");P(3,3,10,10,"#556348");
+  if(v<3){circ(sx+6,sy+7,4,"#b9a0a0");circ(sx+10,sy+9,3,"#9a7a7a");circ(sx+6,sy+7,1,"#2a1a1a");P(2,11,12,3,"#2a3520")}
+  else{P(2,10,12,4,"#2f4a4a");P(4,6,8,5,"#1a3030");if((f>>3)%3===v%3){P(5,7,6,2,"#bfe");P(7,8,2,1,"#fff")}}
+  break;
+ case"bosque":
+  P(1,1,14,14,"#1f4a2a");
+  if(v<4){circ(sx+8,sy+7,6,"#16381e");circ(sx+8,sy+6,4,"#5fae4f");circ(sx+7,sy+5,2,"#9fd88f");if((f>>4)%4===v)circ(sx+8,sy+5,1,"#fff");P(7,11,2,4,"#4a2f16")}
+  else{P(3,3,10,10,"#3a6b3a");P(5,5,6,6,"#72c662");P(7,7,2,2,"#2f6b3a")}
+  break;
+ case"rio":
+  P(1,1,14,14,"#601010");P(0,0,16,3,"#c86060");P(0,13,16,3,"#c86060");
+  {const k=(f+x*5)%14+1;circ(sx+k,sy+8,4,"#e05050");circ(sx+k,sy+8,2,"#ff8080");circ(sx+k,sy+8,1,"#fff")}
+  break;
+ case"delta":
+  P(1,1,14,14,"#7a2240");circ(sx+8,sy+8,6,"#f09ab8");circ(sx+8,sy+8,3,"#ffd8e6");
+  if(v<3)P(3+v*3,4,3,3,"#f2c94c");
+  if(v===3){P(2,2,12,12,"#9a3a5a");P(4,4,8,8,"#d06080")}
+  if(v>=4&&((f>>2)%2)){P(2,2,2,12,"#fff");P(12,2,2,12,"#fff")}
+  break;
+ case"acantilado":
+  P(1,1,14,14,"#4a3a7a");P(0,12,16,4,"#2a1a44");circ(sx+8,sy+5,5,"#b9a6ff");
+  for(let k=0;k<4;k++)P(2+k*3,9,2,3,"#d8ccff");
+  P(5,3,6,2,"#ffe066");
+  break;
+ case"ruinas":
+  P(1,1,14,14,"#4f3f3a");P(2,2,12,12,"#6f5850");
+  for(let k=0;k<4;k++)P((k*4+v*2)%12+2,(k*5+v)%12+2,2,2,"#b9a9a2");
+  if(v<2){circ(sx+8,sy+8,5,"#d47aa0");circ(sx+8,sy+8,3,"#f2c0d4")}
+  else{P(4,4,8,8,"#3f2f2a");P(6,6,4,4,"#8f746a")}
+  break;
+ case"capsula":
+  P(1,1,14,14,"#3a1a6a");P(3,3,10,10,"#5a3a9a");
+  if(v<3){for(let a=0;a<5;a++)P(3+a*2,3+Math.abs(2-a)*2,2,2,"#c7a6ff");P(6,11,4,2,"#f2c94c")}
+  else{circ(sx+8,sy+8,6,"#efe4ff");P(5,2,6,12,"#7a4fd0");P(7,4,2,8,"#c7a6ff")}
+  break;
+ case"valle":
+  P(1,1,14,14,"#6a4a1a");
+  if(v<3){circ(sx+8,sy+8,6,"#d9b26a");circ(sx+8,sy+8,3,"#f6e8c8");P(6,6,4,4,"#4a3010")}
+  else{circ(sx+8,sy+8,6,"#933");circ(sx+8,sy+8,4,"#c76");circ(sx+8,sy+8,2,"#e98");P(7,7,2,2,"#ff3030")}
+  break;
+ default:
+  P(2,2,12,12,shade(th.w));P(4,4,8,8,th.w);P(6,6,4,4,shade(th.w));
+  break;
+}}
+
+function floorTile(tl,sx,sy,x,y,th){
+ px(sx,sy,16,16,th.f);const v=(x*5+y*11)%12;
+ const P=(a,b,w,h,c)=>px(sx+a,sy+b,w,h,c);
+ const shadeF=shade(th.f);
+ if(tl==="rio"){
+  P(0,0,16,1,"#e89090");if(v<3)circ(sx+8,sy+8,3,"#ffb0b0");if(v===1)P(3,12,10,1,"#d87070");
+ }else if(tl==="ruinas"){
+  if(v<3)P(v*4+2,6,3,3,"#b9a9a2");if(v===4)P(2,12,12,1,"#c9b9b2");
+ }else if(tl==="playa"){
+  if(v===0)P(3,9,8,2,"#e9c48a");if(v===1)P(10,4,4,2,"#e9c48a");
+ }else if(tl==="hospital"){
+  if(v===0){P(7,0,2,16,shadeF);P(0,7,16,2,shadeF)}
+ }else if(tl==="bosque"||tl==="pantano"){
+  if(v===0)P(4,4,2,2,shadeF);if(v===1)P(11,11,2,2,shadeF);
+ }else{
+  if(v===0)P(7,7,2,2,shadeF);
+ }
+}
+
+function grassTile(tl,sx,sy,x,y,th){
+ px(sx,sy,16,16,th.g);const k=(frame>>4)%2;
+ const P=(a,b,w,h,c)=>px(sx+a,sy+b,w,h,c);
+ if(tl==="rio"){
+  for(let i=0;i<3;i++)P(((frame+i*5+x*3)%14)+1,3+i*4,4,2,"#ffb0b0");
+ }else if(tl==="ruinas"||tl==="delta"){
+  for(let i=0;i<4;i++)circ(sx+3+i*3,sy+4+((i+k)%2)*6,2,tl==="ruinas"?"#6a4a7a":"#b8406a");
+ }else if(tl==="hospital"){
+  for(let i=0;i<4;i++)P(2+i*4,4+((i+k)%2)*6,2,5,"#6a9a4a");
+ }else if(tl==="playa"){
+  for(let i=0;i<4;i++)P(3+i*3,3+((i+k)%2)*7,2,4,"#c07040");
+ }else{
+  for(let i=0;i<4;i++){
+   P(2+i*4,5+((i+k)%2),2,7,th.w);
+   P(3+i*4,4+((i+k)%2),1,2,shade(th.g));
+  }
+ }
+}
+
 function drawWorld(){const th=MAP.theme,z=STORY.zones[MAP.zi],tl=MAP.tiles;let rx=S.x,ry=S.y;if(mv.on){const k=mv.t/8;rx=mv.fx+(S.x-mv.fx)*k;ry=mv.fy+(S.y-mv.fy)*k}
  const camX=Math.max(0,Math.min(MAP.W*TILE-160,rx*TILE-72)),camY=Math.max(0,Math.min(MAP.H*TILE-96,ry*TILE-40));
  cx.fillStyle=th.w;cx.fillRect(0,0,160,96);const x0=Math.floor(camX/TILE),y0=Math.floor(camY/TILE);
