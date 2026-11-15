@@ -1,4 +1,12 @@
 {
+ "meta": {
+  "id": "9-5",
+  "title": "Nefritis lúpica",
+  "key": "rm_v2_95",
+  "arena": "ARENA DEL DEFENSOR",
+  "bossShort": "Lupus",
+  "bossChange": "cambia de forma"
+ },
  "cast": {
   "player": {
    "name": "Residente",
@@ -330,7 +338,23 @@
      ]
     }
    ],
-   "card": "Sedimento activo + C3/C4 bajos + anti-ADNdc = sospecha de NL proliferativa. La biopsia decide, no la serología."
+   "card": "Sedimento activo + C3/C4 bajos + anti-ADNdc = sospecha de NL proliferativa. La biopsia decide, no la serología.",
+   "join": [
+    "mac",
+    "hcq"
+   ],
+   "signs": [
+    [
+     "Letrero · Sedimento",
+     "Acantocitos ≥5 % o cilindros eritrocitarios = hematuria glomerular."
+    ],
+    [
+     "Letrero · Laboratorio",
+     "C3 y C4 bajos con anti-ADNdc alto: actividad lúpica probable."
+    ]
+   ],
+   "vignette": "urgencias",
+   "nurse": false
   },
   {
    "id": "z2",
@@ -561,7 +585,20 @@
      ]
     }
    ],
-   "card": "UV → apoptosis → blebs con autoantígenos. Si fallan C1q y la eferocitosis → necrosis secundaria. Riesgo monogénico: C1q > C4 > C2."
+   "card": "UV → apoptosis → blebs con autoantígenos. Si fallan C1q y la eferocitosis → necrosis secundaria. Riesgo monogénico: C1q > C4 > C2.",
+   "join": [],
+   "signs": [
+    [
+     "Letrero · Epidermis",
+     "La UVB lleva a los queratinocitos basales a la apoptosis y expone nucleosomas y Ro."
+    ],
+    [
+     "Letrero · Dermis",
+     "Dermatitis de interfase con vacuolización basal: patrón del lupus cutáneo."
+    ]
+   ],
+   "vignette": "uv_piel",
+   "nurse": false
   },
   {
    "id": "z3",
@@ -691,7 +728,8 @@
       "Peso de la biopsia en criterios (III/IV = 10; II/V = 8)",
       "Anti-nucleosoma y anti-C1q en NL activa"
      ],
-     "n": 3
+     "n": 3,
+     "serie": "LNB"
     }
    ],
    "wild": [
@@ -789,7 +827,22 @@
      ]
     }
    ],
-   "card": "Fallas en limpiar ADN (DNASE1L3, TREX1, C1q) + sensores que lo confunden con virus (TLR7/9, cGAS-STING) = firma de interferón tipo I."
+   "card": "Fallas en limpiar ADN (DNASE1L3, TREX1, C1q) + sensores que lo confunden con virus (TLR7/9, cGAS-STING) = firma de interferón tipo I.",
+   "join": [
+    "neutra"
+   ],
+   "signs": [
+    [
+     "Letrero · Cuerpos apoptóticos",
+     "Blebs con nucleosomas: si no se depuran, pasan a necrosis secundaria."
+    ],
+    [
+     "Letrero · Eferocitosis",
+     "C1q y MerTK marcan y retiran apoptóticos sin inflamación."
+    ]
+   ],
+   "vignette": "pantano_restos",
+   "nurse": false
   },
   {
    "id": "z4",
@@ -1049,7 +1102,25 @@
      ]
     }
    ],
-   "card": "pDC + TLR7/9 → IFN-I → BAFF y Tfh ↑ → centro germinal → IgG anti-ADNdc de alta afinidad. Las Treg fallan por falta de IL-2."
+   "card": "pDC + TLR7/9 → IFN-I → BAFF y Tfh ↑ → centro germinal → IgG anti-ADNdc de alta afinidad. Las Treg fallan por falta de IL-2.",
+   "join": [
+    "treg",
+    "bento",
+    "mmf",
+    "beli"
+   ],
+   "signs": [
+    [
+     "Letrero · Folículo",
+     "Centro germinal: Tfh + linfocito B → plasmablastos de anti-ADNdc de alta afinidad."
+    ],
+    [
+     "Letrero · Zona T",
+     "Las pDC producen IFN tipo I al detectar ADN y ARN propios por TLR7/9."
+    ]
+   ],
+   "vignette": "ganglio",
+   "nurse": true
   },
   {
    "id": "z5",
@@ -1143,7 +1214,8 @@
       "C3/C4 bajos + anti-ADNdc + sedimento = brote",
       "Euro-Lupus: CYC 500 mg c/2 sem x6"
      ],
-     "n": 3
+     "n": 3,
+     "serie": "UCI"
     }
    ],
    "wild": [
@@ -1247,7 +1319,22 @@
      ]
     }
    ],
-   "card": "Destino del IC = tamaño + carga + avidez + cantidad. Grandes → subendotelial/mesangial; pequeños o catiónicos → subepitelial. C3/C4 bajos = consumo."
+   "card": "Destino del IC = tamaño + carga + avidez + cantidad. Grandes → subendotelial/mesangial; pequeños o catiónicos → subepitelial. C3/C4 bajos = consumo.",
+   "join": [
+    "ciclon"
+   ],
+   "signs": [
+    [
+     "Letrero · Endotelio",
+     "Tamaño y carga del inmunocomplejo deciden dónde se deposita."
+    ],
+    [
+     "Letrero · Frotis",
+     "Esquistocitos en el frotis: piensa en MAT y en anticuerpos antifosfolípido."
+    ]
+   ],
+   "vignette": "rio_sangre",
+   "nurse": false
   },
   {
    "id": "z6",
@@ -1519,7 +1606,20 @@
      ]
     }
    ],
-   "card": "Depósitos = IC circulantes + formación in situ (nucleosomas sobre MBG, DNasa1 renal apagada, anti-ADNdc cruzado). Subendotelial = expuesto al río = proliferación."
+   "card": "Depósitos = IC circulantes + formación in situ (nucleosomas sobre MBG, DNasa1 renal apagada, anti-ADNdc cruzado). Subendotelial = expuesto al río = proliferación.",
+   "join": [],
+   "signs": [
+    [
+     "Letrero · Asa capilar",
+     "Depósito subendotelial: toca la sangre → complemento, neutrófilos, proliferación."
+    ],
+    [
+     "Letrero · Mesangio",
+     "Hipercelularidad mesangial: ≥4 núcleos rodeados de matriz (clase II)."
+    ]
+   ],
+   "vignette": "delta_endocapilar",
+   "nurse": false
   },
   {
    "id": "z7",
@@ -1657,7 +1757,8 @@
       "Brote lúpico vs preeclampsia",
       "NL inactiva ≥6 meses antes de concebir"
      ],
-     "n": 4
+     "n": 4,
+     "serie": "GIN"
     }
    ],
    "wild": [
@@ -1806,7 +1907,22 @@
      ]
     }
    ],
-   "card": "Subepitelial → MAC subletal → podocito herido → clase V nefrótica. Los CNI protegen la sinaptopodina. Voclosporina: TFGe >45; AURORA 1 41-23."
+   "card": "Subepitelial → MAC subletal → podocito herido → clase V nefrótica. Los CNI protegen la sinaptopodina. Voclosporina: TFGe >45; AURORA 1 41-23.",
+   "join": [
+    "voclo"
+   ],
+   "signs": [
+    [
+     "Letrero · Podocito",
+     "Depósito subepitelial: lejos de la sangre → proteinuria con poca inflamación (clase V)."
+    ],
+    [
+     "Letrero · Pedicelos",
+     "Borramiento difuso sin depósitos subendoteliales: podocitopatía lúpica."
+    ]
+   ],
+   "vignette": "acantilado_podocito",
+   "nurse": false
   },
   {
    "id": "z8",
@@ -1944,7 +2060,8 @@
       "PLA2R y EXT1/EXT2",
       "Inclusiones tubulorreticulares"
      ],
-     "n": 3
+     "n": 3,
+     "serie": "PAT"
     },
     {
      "id": "t_rival2",
@@ -1979,7 +2096,8 @@
       "Fisiopatología de necrosis fibrinoide y semilunas",
       "Pronóstico con cronicidad alta"
      ],
-     "n": 3
+     "n": 3,
+     "serie": "MNB"
     }
    ],
    "wild": [
@@ -2120,7 +2238,20 @@
      ]
     }
    ],
-   "card": "ISN/RPS 2018: se fueron A/C y S/G; llegaron los índices (Actividad 24, Cronicidad 12). N y S pesan doble. Full-house + C1q + tubulorreticulares = lúpica."
+   "card": "ISN/RPS 2018: se fueron A/C y S/G; llegaron los índices (Actividad 24, Cronicidad 12). N y S pesan doble. Full-house + C1q + tubulorreticulares = lúpica.",
+   "join": [],
+   "signs": [
+    [
+     "Letrero · Asa de alambre",
+     "Pared engrosada y eosinófila por grandes depósitos subendoteliales."
+    ],
+    [
+     "Letrero · Cariorrexis",
+     "Restos nucleares en el ovillo: lesión activa, suma al índice de actividad."
+    ]
+   ],
+   "vignette": "ruinas_asas",
+   "nurse": false
   },
   {
    "id": "z9",
@@ -2234,7 +2365,8 @@
       "Superposición ANCA + NL",
       "Inducción en NL con semilunas y TFGe en caída: CYC IV o MPAA + pulsos"
      ],
-     "n": 4
+     "n": 4,
+     "serie": "MI"
     }
    ],
    "wild": [
@@ -2316,7 +2448,20 @@
      ]
     }
    ],
-   "card": "Ruptura capilar → fibrina → PEC proliferan → semiluna (≥10% circunferencia). Celular = salvable; fibrosa = perdida. Nefronas perdidas → hiperfiltración → esclerosis."
+   "card": "Ruptura capilar → fibrina → PEC proliferan → semiluna (≥10% circunferencia). Celular = salvable; fibrosa = perdida. Nefronas perdidas → hiperfiltración → esclerosis.",
+   "join": [],
+   "signs": [
+    [
+     "Letrero · Semiluna celular",
+     "Más del 10 % de la circunferencia de Bowman: activa y potencialmente reversible."
+    ],
+    [
+     "Letrero · Semiluna fibrosa",
+     "Colágeno sin células: crónica, suma al índice de cronicidad."
+    ]
+   ],
+   "vignette": "capsula_semiluna",
+   "nurse": false
   },
   {
    "id": "z10",
@@ -2650,7 +2795,22 @@
      ]
     }
    ],
-   "card": "El intersticio predice el pronóstico; la MAT/SAF cambia el tratamiento (anticoagular, recambio o anti-C5 según la causa). Busca antifosfolípidos siempre."
+   "card": "El intersticio predice el pronóstico; la MAT/SAF cambia el tratamiento (anticoagular, recambio o anti-C5 según la causa). Busca antifosfolípidos siempre.",
+   "join": [
+    "obi"
+   ],
+   "signs": [
+    [
+     "Letrero · Intersticio",
+     "Fibrosis intersticial y atrofia tubular: los mejores predictores de mal pronóstico."
+    ],
+    [
+     "Letrero · Arteriola",
+     "Trombos de fibrina y engrosamiento en capas de cebolla: MAT; busca SAF."
+    ]
+   ],
+   "vignette": "valle_tubulovascular",
+   "nurse": false
   }
  ],
  "boss": {
@@ -2687,7 +2847,12 @@
      "Anti-C1q: alto valor predictivo negativo",
      "Complemento: postinfecciosa (C3 bajo, C4 normal) vs NL (ambos bajos)",
      "Anticuerpos antifosfolípido siempre"
-    ]
+    ],
+    "questions": [
+     "LN-1",
+     "LNP-1"
+    ],
+    "type": "Inmunocomplejo"
    },
    {
     "name": "Clase",
@@ -2706,7 +2871,17 @@
      "Actividad 12/24 y cronicidad 3/12: tratar intensamente",
      "Inclusiones tubulorreticulares = IFN tipo I",
      "Por qué los subendoteliales proliferan: complemento, FcγR, neutrófilos/NET, mesangio"
-    ]
+    ],
+    "questions": [
+     "LNP-2"
+    ],
+    "pick": {
+     "topics": [
+      "clase ISN/RPS indice actividad cronicidad"
+     ],
+     "n": 2
+    },
+    "type": "Celular"
    },
    {
     "name": "Tratamiento (KDIGO 2024)",
@@ -2727,7 +2902,14 @@
      "Voclosporina vs belimumab en triple terapia",
      "HCQ a todos (≤5 mg/kg/d) y vigilancia retiniana",
      "Anticoncepción antes de MPAA"
-    ]
+    ],
+    "questions": [
+     "LN-2",
+     "LNP-3",
+     "LN-3",
+     "LNP-4"
+    ],
+    "type": "Humoral"
    },
    {
     "name": "La sombra en las gradas (Mantenimiento)",
@@ -2760,7 +2942,15 @@
      "Nefroprotección: iSRAA, PA, iSGLT2",
      "Trasplante como TRR preferida en ERC terminal",
      "Normalización de C3/C4 y anti-ADNdc"
-    ]
+    ],
+    "questions": [
+     "LN-4",
+     "LNP-5"
+    ],
+    "series": [
+     "JEFE"
+    ],
+    "type": "Molecular"
    }
   ],
   "outro": [
@@ -2796,7 +2986,10 @@
     "Valeria",
     "Oye… hice una tarjeta nueva. Dice '¿por qué?' en grande. ¿Me ayudas a llenarla?"
    ]
-  ]
+  ],
+  "color": "#c23a7a",
+  "dark": "#6a1f5e",
+  "heads": 1
  },
  "creatures": [
   {
@@ -2896,7 +3089,8 @@
     }
    ],
    "evolvesAt": 9,
-   "evoName": "MPA-02 (ácido micofenólico)"
+   "evoName": "MPA-02 (ácido micofenólico)",
+   "dark": "#5b8fd6"
   },
   {
    "id": "hcq",
@@ -2917,7 +3111,8 @@
     }
    ],
    "evolvesAt": 6,
-   "evoName": "Paraguas Lisosomal"
+   "evoName": "Paraguas Lisosomal",
+   "dark": "#5b8fd6"
   },
   {
    "id": "voclo",
@@ -2938,7 +3133,8 @@
     }
    ],
    "evolvesAt": 11,
-   "evoName": "Voclosporina Guardiana (TFGe >45)"
+   "evoName": "Voclosporina Guardiana (TFGe >45)",
+   "dark": "#5b8fd6"
   },
   {
    "id": "beli",
@@ -2953,7 +3149,8 @@
     }
    ],
    "evolvesAt": 10,
-   "evoName": "Beli Reina"
+   "evoName": "Beli Reina",
+   "dark": "#5b8fd6"
   },
   {
    "id": "obi",
@@ -2968,7 +3165,8 @@
     }
    ],
    "evolvesAt": 14,
-   "evoName": "Obi Maestro"
+   "evoName": "Obi Maestro",
+   "dark": "#5b8fd6"
   },
   {
    "id": "ciclon",
@@ -2983,7 +3181,8 @@
     }
    ],
    "evolvesAt": 13,
-   "evoName": "Huracán Ciclón"
+   "evoName": "Huracán Ciclón",
+   "dark": "#5b8fd6"
   },
   {
    "id": "ani",
@@ -2998,7 +3197,8 @@
     }
    ],
    "evolvesAt": 99,
-   "evoName": "Ani Despierta"
+   "evoName": "Ani Despierta",
+   "dark": "#5b8fd6"
   }
  ],
  "typeChart": {

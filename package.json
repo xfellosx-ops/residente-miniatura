@@ -1,1 +1,1 @@
-{"name":"residente-miniatura","private":true,"scripts":{"build":"python3 build.py","test":"python3 build.py && node tests/play.js correct && node tests/play.js errors"},"devDependencies":{"jsdom":"^24.0.0"}}
+{"name":"residente-miniatura","private":true,"scripts":{"build":"python3 build.py","test":"node tests/all.js","test:one":"node tests/all.js"},"devDependencies":{"jsdom":"^24.0.0"}}
