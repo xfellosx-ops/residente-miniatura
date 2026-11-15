@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "mi",
      "specialty": "Medicina Interna",
-     "serie": "SEA",
+     "serie": "LUR",
      "intro": [
       [
        "Dr. Ernesto Holístico",
@@ -243,16 +243,36 @@
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "NIX",
+     "serie": "SEA",
      "intro": [
       [
        "Dra. Carmen Triaje",
-       "Te reto con un caso: Síndrome de nefritis tubulointersticial y uveítis (TINU)"
+       "Te reto con un caso: Nefritis intersticial aguda por fármacos: sedimento y tratamiento"
       ]
      ],
      "defeat": [
       [
        "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "NIX",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Síndrome de nefritis tubulointersticial y uveítis (TINU)"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
        "Bien razonado. Sigue tu camino."
       ]
      ],
@@ -381,7 +401,7 @@
      "id": "t1_0",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "NIA",
+     "serie": "ICI",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -392,6 +412,26 @@
       [
        "Dr. Anselmo Frágil",
        "Podría ser tubulointersticial crónica… amplío el estudio."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "NIA",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Nefritis intersticial aguda por inhibidores de la bomba de protones"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
       ]
      ],
      "questionTopics": [],
@@ -513,8 +553,8 @@
      "Sospecha"
     ],
     "questions": [
-     "LUR-3",
-     "ICI-2"
+     "ADK-1",
+     "ADK-2"
     ]
    },
    {
@@ -530,8 +570,7 @@
      "Retirar o biopsiar"
     ],
     "questions": [
-     "ADK-1",
-     "ADK-2"
+     "ADK-3"
     ]
    },
    {
@@ -547,7 +586,6 @@
      "Glucocorticoide"
     ],
     "questions": [
-     "ADK-3",
      "ADK-4"
     ]
    },

@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "RESP",
+     "serie": "ATR",
      "intro": [
       [
        "Dra. Carmen Triaje",
@@ -237,17 +237,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t0_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "MIX",
+     "serie": "PGL",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Trastorno mixto: intoxicación por salicilatos"
+       "Te reto con un caso: Acidosis de brecha elevada de causa no evidente: abordaje diagnósti"
       ]
      ],
      "defeat": [
@@ -263,11 +263,11 @@
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "ALR",
+     "serie": "MXD",
      "intro": [
       [
        "Dr. Rocco Filo",
-       "Te reto con un caso: Alcalosis respiratoria aguda: compensación"
+       "Te reto con un caso: Trastorno ácido-base triple: la brecha aniónica con bicarbonato nor"
       ]
      ],
      "defeat": [
@@ -277,7 +277,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     }
    ],
    "wild": [
@@ -405,7 +405,7 @@
      "id": "t1_0",
      "cast": "uti",
      "specialty": "Terapia Intensiva",
-     "serie": "LAC",
+     "serie": "VOL",
      "intro": [
       [
        "Dr. Max Presor",
@@ -419,17 +419,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "ALC",
+     "serie": "MIX",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Síndrome de leche y álcali: diagnóstico"
+       "Te reto con un caso: Trastorno mixto: intoxicación por salicilatos"
       ]
      ],
      "defeat": [
@@ -439,7 +439,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "ALR",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Te reto con un caso: Alcalosis respiratoria aguda: compensación"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
     }
    ],
    "wild": [
@@ -589,7 +609,7 @@
      "id": "t2_0",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "PGL",
+     "serie": "LAC",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -609,11 +629,11 @@
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "MXD",
+     "serie": "ALC",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Trastorno ácido-base triple: la brecha aniónica con bicarbonato nor"
+       "Te reto con un caso: Síndrome de leche y álcali: diagnóstico"
       ]
      ],
      "defeat": [
@@ -623,7 +643,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 2
     }
    ],
    "wild": [
@@ -738,7 +758,8 @@
     ],
     "questions": [
      "EKD-1",
-     "EKD-2"
+     "EKD-2",
+     "EKD-3"
     ]
    },
    {
@@ -754,8 +775,8 @@
      "Brecha alta"
     ],
     "questions": [
-     "EKD-3",
-     "ATR-1"
+     "ACB-1",
+     "ACB-2"
     ]
    },
    {
@@ -771,8 +792,8 @@
      "Brecha normal y alcalosis"
     ],
     "questions": [
-     "ACB-1",
-     "ACB-2"
+     "ACB-3",
+     "RESP-1"
     ]
    },
    {
@@ -788,8 +809,8 @@
      "Mixtos y diálisis"
     ],
     "questions": [
-     "ACB-3",
-     "VOL-3"
+     "RESP-2",
+     "RESP-3"
     ]
    }
   ]

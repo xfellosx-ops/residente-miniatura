@@ -39,11 +39,11 @@ def build(S):
     series = {}
     for q in bank: series.setdefault(q["serie_id"], []).append(q)
     for s in series.values(): s.sort(key=lambda q: q["orden"])
-    order = sorted(series, key=lambda s: (-sum(rec(q) for q in series[s]) / len(series[s]), -sum(q["peso"] for q in series[s]) / len(series[s])))
+    order = sorted(series, key=lambda s: (-sum(rec(q) for q in series[s]), -sum(q["peso"] for q in series[s]) / len(series[s])))
     # jefe: series con más recordadas hasta juntar >=5 preguntas (o lo que haya)
     boss_ids = []; rest = list(order)
     want = S.get("boss_n", 6)
-    while rest and len(boss_ids) < want and (len(rest) > 1 or not boss_ids):
+    while rest and len(boss_ids) < want and (len(rest) > 1 or len(boss_ids) < 4):
         s = rest.pop(0); boss_ids += [q["id"] for q in series[s]]
     if len(boss_ids) < 4: sys.exit(f"{S['id']}: el jefe solo tiene {len(boss_ids)} preguntas")
     cast = {k: {"name": v[0], "role": v[1], "color": v[2]} for k, v in CAST.items()}

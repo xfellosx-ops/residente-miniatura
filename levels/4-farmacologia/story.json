@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "aine",
      "specialty": "Nefrotóxico",
-     "serie": "ADM",
+     "serie": "AHD",
      "intro": [
       [
        "AINE",
@@ -237,17 +237,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 5
+     "n": 3
     },
     {
      "id": "t0_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "TOX",
+     "serie": "VAN",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Intoxicación por alcoholes tóxicos: brecha osmolal"
+       "Te reto con un caso: Vancomicina en hemodiálisis: dosis y niveles"
       ]
      ],
      "defeat": [
@@ -257,17 +257,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 5
+     "n": 2
     },
     {
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "CLC",
+     "serie": "RAA",
      "intro": [
       [
        "Dr. Rocco Filo",
-       "Te reto con un caso: Clortalidona en ERC avanzada: ensayo CLICK"
+       "Te reto con un caso: Angioedema por IECA"
       ]
      ],
      "defeat": [
@@ -277,7 +277,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -447,11 +447,11 @@
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "TAC",
+     "serie": "TOX",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Tacrolimus: farmacogenética CYP3A5 y dosificación inicial"
+       "Te reto con un caso: Intoxicación por alcoholes tóxicos: brecha osmolal"
       ]
      ],
      "defeat": [
@@ -461,17 +461,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 5
     },
     {
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "HTE",
+     "serie": "CLC",
      "intro": [
       [
        "Dr. Anselmo Frágil",
-       "Te reto con un caso: Edema por amlodipino: mecanismo y manejo"
+       "Te reto con un caso: Clortalidona en ERC avanzada: ensayo CLICK"
       ]
      ],
      "defeat": [
@@ -481,7 +481,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     }
    ],
    "wild": [
@@ -613,7 +613,7 @@
      "id": "t2_0",
      "cast": "uti",
      "specialty": "Terapia Intensiva",
-     "serie": "VAN",
+     "serie": "ANT",
      "intro": [
       [
        "Dr. Max Presor",
@@ -633,11 +633,11 @@
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "RAA",
+     "serie": "TAC",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Angioedema por IECA"
+       "Te reto con un caso: Tacrolimus: farmacogenética CYP3A5 y dosificación inicial"
       ]
      ],
      "defeat": [
@@ -647,17 +647,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "NTM",
+     "serie": "HTE",
      "intro": [
       [
        "Dra. Sara Esquistocito",
-       "Te reto con un caso: Anfotericina B: mecanismo de nefrotoxicidad"
+       "Te reto con un caso: Edema por amlodipino: mecanismo y manejo"
       ]
      ],
      "defeat": [
@@ -667,7 +667,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 1
     }
    ],
    "wild": [
@@ -781,9 +781,9 @@
      "Farmacocinética"
     ],
     "questions": [
-     "ANT-1",
-     "ANT-4",
-     "AHD-1"
+     "DIU-1",
+     "DIU-2",
+     "DIU-3"
     ]
    },
    {
@@ -799,8 +799,8 @@
      "Diuréticos y antihipertensivos"
     ],
     "questions": [
-     "AHD-2",
-     "AHD-3"
+     "DIU-4",
+     "ADM-1"
     ]
    },
    {
@@ -816,8 +816,8 @@
      "Ajuste y diálisis"
     ],
     "questions": [
-     "DIU-1",
-     "DIU-2"
+     "ADM-2",
+     "ADM-3"
     ]
    },
    {
@@ -833,8 +833,8 @@
      "Extracorpóreo"
     ],
     "questions": [
-     "DIU-3",
-     "DIU-4"
+     "ADM-4",
+     "ADM-5"
     ]
    }
   ]

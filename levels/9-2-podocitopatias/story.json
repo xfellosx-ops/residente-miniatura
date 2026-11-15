@@ -1,0 +1,615 @@
+{
+ "meta": {
+  "id": "9-2",
+  "title": "Podocitopatías: ECM y GEFS",
+  "key": "rm_v3_92",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Borrador",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Diafragma de Hendidura",
+   "palette": [
+    "#E8F4FC",
+    "#90C8E8",
+    "#386890",
+    "#0C2030"
+   ],
+   "tiles": "acantilado",
+   "vignette": "acantilado_podocito",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer de 22 años. En una semana: edema generalizado, 12 gramos de proteinuria."
+    ],
+    [
+     "Dr. J.",
+     "Creatinina normal, sin hematuria, complemento normal."
+    ],
+    [
+     "Sabio Brenn",
+     "Al microscopio de luz no verás nada. Sube al electrónico."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Pedicelo Borrado",
+     "lines": [
+      [
+       "Pedicelo Borrado",
+       "Me aplané entero. Borramiento difuso: eso es todo lo que hay."
+      ],
+      [
+       "Pedicelo Borrado",
+       "Inmunofluorescencia negativa. Luz normal. Cambios mínimos."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "cambios mínimos"
+    },
+    {
+     "id": "npc2",
+     "name": "Anticuerpo Anti-Nefrina",
+     "lines": [
+      [
+       "Anticuerpo Anti-Nefrina",
+       "Ataco a la nefrina del diafragma. Me encontraron en muchos casos de cambios mínimos."
+      ],
+      [
+       "Anticuerpo Anti-Nefrina",
+       "Por mí tiene sentido que el rituximab funcione."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "anti-nefrina"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Adulto con ECM",
+     "Prednisona 1 mg/kg (máx. 80 mg) hasta 16 semanas; remisión más lenta que en niños."
+    ],
+    [
+     "Letrero · Causas secundarias",
+     "AINE, litio, linfoma de Hodgkin."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "pedia",
+     "specialty": "Pediatría",
+     "serie": "FSGS",
+     "intro": [
+      [
+       "Dra. Pilar Percentil",
+       "En niños ni biopsiamos: esteroide y ya. Los adultos son iguales."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Pilar Percentil",
+       "¿En adultos sí se biopsia y tardan más? No son niños grandes."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "MCD",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Te reto con un caso: Enfermedad de cambios mínimos del adulto"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Albúmina en Fuga",
+     "type": "Molecular",
+     "topic": "Albúmina en Fuga"
+    },
+    {
+     "name": "Linfocito B Sospechoso",
+     "type": "Humoral",
+     "topic": "Linfocito B Sospechoso"
+    },
+    {
+     "name": "Factor de Permeabilidad",
+     "type": "Molecular",
+     "topic": "Factor de Permeabilidad"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Enfermedad de cambios mínimos: diagnóstico y tratamiento",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: los anticuerpos anti-nefrina. La podocitopatía tiene base autoinmune."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Definiciones de respuesta",
+     "items": [],
+     "pairs": [
+      [
+       "Remisión completa",
+       "Proteinuria <0.3 g/día"
+      ],
+      [
+       "Recaídas frecuentes",
+       "≥2 en 6 meses"
+      ],
+      [
+       "Dependencia",
+       "Recaída al bajar o ≤2 semanas de suspender"
+      ],
+      [
+       "Resistencia",
+       "Sin remisión tras 16 semanas en adulto"
+      ],
+      [
+       "Ahorradores",
+       "Ciclofosfamida, rituximab, anticalcineurínico, MMF"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "No remitió en 16 semanas. Vuelve a mirar la biopsia: quizá faltó muestra."
+      ]
+     ]
+    }
+   ],
+   "card": "ECM: borramiento difuso, IF negativa. Adultos: esteroide hasta 16 semanas. Recaídas/dependencia: ciclofosfamida, rituximab o anticalcineurínico. Anti-nefrina."
+  },
+  {
+   "id": "z2",
+   "name": "Ruinas Segmentarias",
+   "palette": [
+    "#F8E0F0",
+    "#D088C0",
+    "#703878",
+    "#200820"
+   ],
+   "tiles": "ruinas",
+   "vignette": "ruinas_asas",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Esclerosis en un segmento de algunos glomérulos. Es focal: una biopsia chica la pierde."
+    ],
+    [
+     "Sabio Brenn",
+     "La pregunta que manda: ¿primaria, secundaria o genética?"
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Variante Colapsante",
+     "lines": [
+      [
+       "Variante Colapsante",
+       "Soy la peor de Columbia. VIH, APOL1, pamidronato, interferón."
+      ],
+      [
+       "Variante Colapsante",
+       "La variante de la punta es la que mejor responde."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "variantes de Columbia"
+    },
+    {
+     "id": "npc2",
+     "name": "Podocito Sobrecargado",
+     "lines": [
+      [
+       "Podocito Sobrecargado",
+       "Obesidad, nefrona única, reflujo: hiperfiltro hasta romperme."
+      ],
+      [
+       "Podocito Sobrecargado",
+       "Borramiento segmentario y albúmina normal: no me des esteroide."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "GEFS secundaria"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Primaria",
+     "Nefrótico súbito, albúmina baja, borramiento difuso → inmunosupresión."
+    ],
+    [
+     "Letrero · Genética",
+     "No responde a inmunosupresión y no recurre igual en el trasplante."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "NEE",
+     "intro": [
+      [
+       "Dr. Ernesto Holístico",
+       "GEFS en la biopsia: prednisona 1 mg/kg. Siempre."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Ernesto Holístico",
+       "¿Secundaria por obesidad? Le iba a dar seis meses de esteroide…"
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "SNP",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Síndrome nefrótico idiopático del niño: primer episodio y tratamien"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "APOL1 de Riesgo",
+     "type": "Molecular",
+     "topic": "APOL1 de Riesgo"
+    },
+    {
+     "name": "Hiperfiltración",
+     "type": "Molecular",
+     "topic": "Hiperfiltración"
+    },
+    {
+     "name": "Esclerosis Segmentaria",
+     "type": "Celular",
+     "topic": "Esclerosis Segmentaria"
+    },
+    {
+     "name": "Recurrencia en Injerto",
+     "type": "Humoral",
+     "topic": "Recurrencia en Injerto"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "GEFS: distinguir primaria, secundaria y genética",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Albúmina y microscopía electrónica separan primaria de adaptativa."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "GEFS resistente a esteroides",
+     "items": [
+      "Confirmar 16 semanas de esteroide a dosis plena",
+      "Revisar adherencia y causas secundarias",
+      "Estudio genético",
+      "Anticalcineurínico por al menos 6 meses",
+      "iSRAA e iSGLT2 de base",
+      "Planear trasplante: riesgo de recurrencia"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Biopsia nueva: sí era GEFS. El borrador ya te espera."
+      ]
+     ]
+    }
+   ],
+   "card": "GEFS primaria: nefrótico + borramiento difuso → esteroide; resistencia → anticalcineurínico. Secundaria: iSRAA/iSGLT2. Genética: no inmunosuprimir."
+  }
+ ],
+ "boss": {
+  "name": "El Borrador de Pedicelos",
+  "color": "#90C8E8",
+  "dark": "#0C2030",
+  "heads": 1,
+  "intro": [
+   [
+    "El Borrador",
+    "No dejo depósitos. No dejo células. Solo borro."
+   ],
+   [
+    "Dr. J.",
+    "Decide qué podocitopatía es antes de tratar."
+   ]
+  ],
+  "outro": [
+   [
+    "El Borrador",
+    "Los pedicelos… regresan."
+   ],
+   [
+    "Sabio Brenn",
+    "No toda proteinuria quiere inmunosupresión. Algunas quieren menos presión."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "ECM vs. GEFS",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Borrador",
+      "¿Viste suficientes glomérulos?"
+     ]
+    ],
+    "topics": [
+     "ECM vs. GEFS"
+    ],
+    "questions": [
+     "FSA-1",
+     "FSA-2"
+    ]
+   },
+   {
+    "name": "Esteroide",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Borrador",
+      "¿Cuánto me aguantas?"
+     ]
+    ],
+    "topics": [
+     "Esteroide"
+    ],
+    "questions": [
+     "FSA-3",
+     "FSA-4"
+    ]
+   },
+   {
+    "name": "Ahorradores",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Borrador",
+      "Recaigo. ¿Y ahora?"
+     ]
+    ],
+    "topics": [
+     "Ahorradores"
+    ],
+    "questions": [
+     "COL-1",
+     "COL-2"
+    ]
+   },
+   {
+    "name": "Secundaria y genética",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Borrador",
+      "A mí no me toca el esteroide."
+     ]
+    ],
+    "topics": [
+     "Secundaria y genética"
+    ],
+    "questions": [
+     "COL-3",
+     "COL-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Diafragma de Hendidura",
+   "text": "ECM: borramiento difuso, IF negativa. Adultos: esteroide hasta 16 semanas. Recaídas/dependencia: ciclofosfamida, rituximab o anticalcineurínico. Anti-nefrina."
+  },
+  {
+   "title": "Ruinas Segmentarias",
+   "text": "GEFS primaria: nefrótico + borramiento difuso → esteroide; resistencia → anticalcineurínico. Secundaria: iSRAA/iSGLT2. Genética: no inmunosuprimir."
+  }
+ ]
+}

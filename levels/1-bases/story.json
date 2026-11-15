@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "valeria",
      "specialty": "Rival",
-     "serie": "FIS",
+     "serie": "BAR",
      "intro": [
       [
        "Dra. Valeria Montes",
@@ -237,7 +237,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 2
     }
    ],
    "wild": [
@@ -358,7 +358,28 @@
      "AINE cierran la aferente (sin prostaglandinas); IECA abren la eferente."
     ]
    ],
-   "trainers": [],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "FIS",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "El riñón solo obedece al corazón. ¿O crees que se regula solo?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Autorregulación… miogénica y tubuloglomerular. Anotado."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
    "wild": [
     {
      "name": "Presión Hidrostática",
@@ -378,7 +399,7 @@
    ],
    "gates": [
     {
-     "after": null,
+     "after": "t1_0",
      "topic": "Retroalimentación tubuloglomerular y autorregulación",
      "text": [
       [
@@ -613,8 +634,7 @@
      "Estructura"
     ],
     "questions": [
-     "BAR-1",
-     "BAR-2"
+     "TUB-1"
     ]
    },
    {
@@ -630,7 +650,7 @@
      "Hemodinámica"
     ],
     "questions": [
-     "TUB-1"
+     "TUB-2"
     ]
    },
    {
@@ -646,7 +666,6 @@
      "Túbulo"
     ],
     "questions": [
-     "TUB-2",
      "TUB-3"
     ]
    },

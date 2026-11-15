@@ -1,0 +1,572 @@
+{
+ "meta": {
+  "id": "9-3",
+  "title": "Nefropatía membranosa",
+  "key": "rm_v3_93",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Anti-PLA2R",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Vena Renal Trombosada",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "rio_sangre",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 55 años con nefrótico. Hoy llegó con dolor lumbar súbito y hematuria."
+    ],
+    [
+     "Dr. J.",
+     "Trombosis de vena renal. Albúmina 1.8. Algo se está perdiendo por la orina."
+    ],
+    [
+     "Sabio Brenn",
+     "Pierde antitrombina y gana fibrinógeno. La membranosa es la que más trombosa."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Antitrombina Perdida",
+     "lines": [
+      [
+       "Antitrombina Perdida",
+       "Me filtro con la albúmina. Sin mí, la sangre coagula de más."
+      ],
+      [
+       "Antitrombina Perdida",
+       "Con albúmina <2.5 y bajo riesgo de sangrado: anticoagulación profiláctica."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "tromboprofilaxis"
+    },
+    {
+     "id": "npc2",
+     "name": "Anti-PLA2R",
+     "lines": [
+      [
+       "Anti-PLA2R",
+       "Soy IgG4. Estoy en cerca del 70 % de las membranosas primarias."
+      ],
+      [
+       "Anti-PLA2R",
+       "Si me encuentras con clínica típica y TFG normal, puedes evitar la biopsia."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "anti-PLA2R"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Antígenos",
+     "PLA2R ~70 % · THSD7A · NELL1 (cáncer) · EXT1/2 (lupus)."
+    ],
+    [
+     "Letrero · Secundarias",
+     "Cáncer, lupus clase V, hepatitis B, AINE, sífilis."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "MNB",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Trombosis: anticoagulo y listo. La causa no me importa."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "Si no tratan la membranosa volverá a trombosar. Buen punto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 2
+    }
+   ],
+   "wild": [
+    {
+     "name": "Trombo Venoso",
+     "type": "Molecular",
+     "topic": "Trombo Venoso"
+    },
+    {
+     "name": "IgG4 Errante",
+     "type": "Humoral",
+     "topic": "IgG4 Errante"
+    },
+    {
+     "name": "Fibrinógeno Alto",
+     "type": "Molecular",
+     "topic": "Fibrinógeno Alto"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Diagnóstico serológico de la nefropatía membranosa",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: anti-PLA2R positivo puede ahorrarte la aguja."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Antígeno y pista",
+     "items": [],
+     "pairs": [
+      [
+       "PLA2R",
+       "Primaria, la más común"
+      ],
+      [
+       "THSD7A",
+       "Primaria; a veces cáncer"
+      ],
+      [
+       "NELL1",
+       "Buscar neoplasia"
+      ],
+      [
+       "EXT1/EXT2",
+       "Lupus y autoinmunes"
+      ],
+      [
+       "IgG1–IgG3 + C1q",
+       "Sugiere secundaria"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Sigue al anticuerpo. Cruza la membrana basal hasta el podocito."
+      ]
+     ]
+    }
+   ],
+   "card": "Membranosa: anti-PLA2R ~70 %; con clínica típica puede evitar biopsia. Albúmina <2.5: valorar anticoagulación. Sin antígeno: buscar causa secundaria."
+  },
+  {
+   "id": "z2",
+   "name": "Membrana con Espigas",
+   "palette": [
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
+   ],
+   "tiles": "delta",
+   "vignette": "delta_endocapilar",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Depósitos subepiteliales. La membrana crece entre ellos: «espigas» con tinción de plata."
+    ],
+    [
+     "Sabio Brenn",
+     "El complejo de ataque C5b-9 hiere al podocito sin llamar células."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Remisión Espontánea",
+     "lines": [
+      [
+       "Remisión Espontánea",
+       "Ocurro en un tercio de los casos. Por eso se espera 6 meses con soporte."
+      ],
+      [
+       "Remisión Espontánea",
+       "Salvo riesgo alto: creatinina que sube, nefrótico grave o trombosis."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "riesgo"
+    },
+    {
+     "id": "npc2",
+     "name": "Don Ensayo",
+     "lines": [
+      [
+       "Don Ensayo",
+       "MENTOR: rituximab no inferior a ciclosporina al año y superior a los 2 años."
+      ],
+      [
+       "Don Ensayo",
+       "Ponticelli modificado: ciclofosfamida y esteroide alternos por 6 meses."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "MENTOR"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Riesgo",
+     "Bajo: soporte. Moderado: rituximab o anticalcineurínico. Alto: rituximab o ciclofosfamida."
+    ],
+    [
+     "Letrero · Seguimiento",
+     "El anti-PLA2R baja antes que la proteinuria: remisión inmunológica."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "onco",
+     "specialty": "Oncología",
+     "serie": "TVR",
+     "intro": [
+      [
+       "Dra. Mitosis Lara",
+       "Membranosa en mayor de 60: es cáncer hasta demostrar lo contrario."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Mitosis Lara",
+       "Tamizaje acorde a edad, no PET a todos. De acuerdo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Depósito Subepitelial",
+     "type": "Inmunocomplejo",
+     "topic": "Depósito Subepitelial"
+    },
+    {
+     "name": "C5b-9",
+     "type": "Complemento",
+     "topic": "C5b-9"
+    },
+    {
+     "name": "Espiga de Plata",
+     "type": "Molecular",
+     "topic": "Espiga de Plata"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Estratificación de riesgo e inmunosupresión en membranosa",
+     "text": [
+      [
+       "Sabio Brenn",
+       "No todos necesitan inmunosupresión. El riesgo decide."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Ruta de la membranosa",
+     "items": [
+      "Confirmar nefrótico y medir anti-PLA2R",
+      "Descartar causas secundarias",
+      "iSRAA, estatina y valorar anticoagulación",
+      "Estratificar el riesgo de progresión",
+      "Riesgo moderado-alto: rituximab",
+      "Seguir anti-PLA2R a los 3–6 meses"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Anticoagulado y con rituximab. Falta el dueño de la casa."
+      ]
+     ]
+    }
+   ],
+   "card": "Membranosa: 1/3 remite sola. Riesgo bajo: soporte 6 meses. Moderado/alto: rituximab (MENTOR) o ciclofosfamida + esteroide. Anti-PLA2R guía la respuesta."
+  }
+ ],
+ "boss": {
+  "name": "El Anti-PLA2R",
+  "color": "#F48FB1",
+  "dark": "#AD1457",
+  "heads": 1,
+  "intro": [
+   [
+    "Anti-PLA2R",
+    "Crucé la membrana en silencio. Sin células, sin ruido."
+   ],
+   [
+    "Dr. J.",
+    "Serología, riesgo y tratamiento."
+   ]
+  ],
+  "outro": [
+   [
+    "Anti-PLA2R",
+    "Me desvanezco. La proteinuria tardará más."
+   ],
+   [
+    "Sabio Brenn",
+    "Primero remite el anticuerpo, meses después la orina. Paciencia."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Serología",
+    "type": "Molecular",
+    "lines": [
+     [
+      "Anti-PLA2R",
+      "¿Necesitas biopsiarme?"
+     ]
+    ],
+    "topics": [
+     "Serología"
+    ],
+    "questions": [
+     "MN-1"
+    ]
+   },
+   {
+    "name": "Riesgo",
+    "type": "Celular",
+    "lines": [
+     [
+      "Anti-PLA2R",
+      "¿Esperas o tratas?"
+     ]
+    ],
+    "topics": [
+     "Riesgo"
+    ],
+    "questions": [
+     "MN-2"
+    ]
+   },
+   {
+    "name": "Inmunosupresión",
+    "type": "Humoral",
+    "lines": [
+     [
+      "Anti-PLA2R",
+      "Elige tu arma."
+     ]
+    ],
+    "topics": [
+     "Inmunosupresión"
+    ],
+    "questions": [
+     "MN-3"
+    ]
+   },
+   {
+    "name": "Respuesta",
+    "type": "Complemento",
+    "lines": [
+     [
+      "Anti-PLA2R",
+      "Mi título baja…"
+     ]
+    ],
+    "topics": [
+     "Respuesta"
+    ],
+    "questions": [
+     "MN-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "MENTOR",
+   "mnemonic": "El mentor del rituximab le ganó a la ciclosporina con el tiempo.",
+   "result": "Remisión a 24 meses: 60 % rituximab vs 20 % ciclosporina."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Vena Renal Trombosada",
+   "text": "Membranosa: anti-PLA2R ~70 %; con clínica típica puede evitar biopsia. Albúmina <2.5: valorar anticoagulación. Sin antígeno: buscar causa secundaria."
+  },
+  {
+   "title": "Membrana con Espigas",
+   "text": "Membranosa: 1/3 remite sola. Riesgo bajo: soporte 6 meses. Moderado/alto: rituximab (MENTOR) o ciclofosfamida + esteroide. Anti-PLA2R guía la respuesta."
+  }
+ ]
+}
