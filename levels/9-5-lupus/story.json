@@ -1,0 +1,3160 @@
+{
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio (homenaje a Comprehensive Clinical Nephrology)",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda (homenaje a Brenner & Rector)",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival: residente que memoriza sin entender",
+   "color": "#E05A8A"
+  },
+  "sofia": {
+   "name": "Sofía R.",
+   "role": "Paciente, 24 años",
+   "color": "#F4A6C0"
+  },
+  "lupita": {
+   "name": "Enfermera Lupita",
+   "role": "NPC de urgencias",
+   "color": "#FFFFFF"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "derma": {
+   "name": "Dra. Pía Lumen",
+   "role": "Residente de Dermatología",
+   "color": "#F2C14E"
+  },
+  "reuma": {
+   "name": "Dr. Rafael Criterio",
+   "role": "Residente de Reumatología",
+   "color": "#8E5BB5"
+  },
+  "uti": {
+   "name": "Dr. Maximiliano 'Max' Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología y Obstetricia",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía General",
+   "color": "#4A7C59"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#C0392B"
+  },
+  "aine": {
+   "name": "Don Ibuprofeno",
+   "role": "Nefrotóxico (AINE)",
+   "color": "#F28C28"
+  },
+  "contraste": {
+   "name": "Yodo Ray",
+   "role": "Nefrotóxico (medio de contraste)",
+   "color": "#D9D9F3"
+  },
+  "genta": {
+   "name": "Genta Mycin",
+   "role": "Nefrotóxico (aminoglucósido)",
+   "color": "#A3C14A"
+  },
+  "tacro": {
+   "name": "Tacro-Lord",
+   "role": "Nefrotóxico (calcineurínico)",
+   "color": "#1C1C1C"
+  },
+  "voclo": {
+   "name": "Voclosporina",
+   "role": "Aliada: 'la prima buena' del calcineurínico",
+   "color": "#5DADE2"
+  },
+  "elisa": {
+   "name": "Elisa",
+   "role": "Paciente perdida del Dr. J. (fantasma)",
+   "color": "#CFE8F3"
+  },
+  "perpetuo": {
+   "name": "Ing. Perpetuo Diálisis",
+   "role": "Director de Hemo-Eterna, poseído",
+   "color": "#6E6E6E"
+  },
+  "esclerosis": {
+   "name": "La Esclerosis",
+   "role": "Jefe final del juego (cameo)",
+   "color": "#4D4D4D"
+  },
+  "lupus": {
+   "name": "Lupus",
+   "role": "Jefe 9-5: el Defensor Corrompido",
+   "color": "#B22222"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Urgencias Central",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "intro": [
+    [
+     "Enfermera Lupita",
+     "Doctor, cubículo 4. Mujer de 24, se hinchó de las piernas"
+    ],
+    [
+     "Enfermera Lupita",
+     "después de unas vacaciones en la playa."
+    ],
+    [
+     "Sofía",
+     "Me salió una mancha en la cara… y me duelen las manos. Pensé que era solo el sol."
+    ],
+    [
+     "Mamá de Sofía",
+     "¿Es grave, doctor? Nunca se enferma."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Enfermera Lupita",
+     "lines": [
+      [
+       "Enfermera Lupita",
+       "Edema con fóvea ++ en ambas piernas. TA 148/94. Le traje una torta de guardia, doc."
+      ],
+      [
+       "Enfermera Lupita",
+       "Revise la cara: eritema en alas de mariposa que respeta los surcos nasogenianos."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Químico Chuy",
+     "lines": [
+      [
+       "Químico Chuy",
+       "Aquí el sedimento, doc. Eritrocitos dismórficos… y cilindros eritrocitarios."
+      ],
+      [
+       "Químico Chuy",
+       "El cilindro se forma en el túbulo:"
+      ],
+      [
+       "Químico Chuy",
+       "la uromodulina atrapa eritrocitos que cruzaron el glomérulo."
+      ],
+      [
+       "Químico Chuy",
+       "Esto no viene de la vejiga. Cr 1.4, UPCR 3.2 g/g, C3 y C4 bajos, anti-ADNdc positivo."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc3",
+     "name": "Mamá de Sofía",
+     "lines": [
+      [
+       "Mamá de Sofía",
+       "Su tía tuvo lupus y terminó en diálisis. ¿Le va a pasar lo mismo?"
+      ],
+      [
+       "Tú",
+       "No si actuamos a tiempo. El tiempo, en el riñón, son nefronas."
+      ]
+     ],
+     "gift": null,
+     "recall": "Progresión de ERC: nefronas perdidas no se recuperan"
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_uro",
+     "cast": "uro",
+     "specialty": "Urología",
+     "intro": [
+      [
+       "Dr. Bruno Salas",
+       "¿Hematuria? ¡Mía! Cistoscopia y a casa, campeón."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Bruno Salas",
+       "¿Acantocitos…? Bueno, el riñón también es urológico… a veces. Nos vemos en la biopsia."
+      ]
+     ],
+     "questionTopics": [
+      "Hematuria glomerular vs urológica (acantocitos ≥5%, cilindros eritrocitarios)",
+      "Síndrome nefrítico-nefrótico en LES",
+      "Indicación de biopsia renal en sospecha de NL"
+     ],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Mito de Pasillo",
+     "type": "Molecular",
+     "topic": "NL puede ser la primera manifestación del LES, sin rash"
+    },
+    {
+     "name": "Tira Reactiva Tramposa",
+     "type": "Molecular",
+     "topic": "Hemo positivo sin eritrocitos: mioglobinuria/hemoglobinuria"
+    },
+    {
+     "name": "Acantocito Escurridizo",
+     "type": "Celular",
+     "topic": "Eritrocitos dismórficos y acantocitos como marcador glomerular"
+    },
+    {
+     "name": "Folleto Viral",
+     "type": "Molecular",
+     "topic": "Epidemiología: ~40% de LES desarrolla NL, más en hispanos"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_uro",
+     "topic": "Triada de NL activa: sedimento activo + C3/C4 bajos + anti-ADNdc; la biopsia decide",
+     "text": [
+      [
+       "Dr. J.",
+       "¿Me escuchas? Soy el Dr. J. Complemento bajo, anti-ADNdc, sedimento activo."
+      ],
+      [
+       "Dr. J.",
+       "Las tres campanas de la nefritis lúpica."
+      ],
+      [
+       "Dr. J.",
+       "Pero la serología no da la clase: la biopsia decide."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "algoritmo",
+     "title": "Calculadora relámpago: abordaje inicial",
+     "items": [
+      "Confirmar origen glomerular (dismórficos, cilindros eritrocitarios)",
+      "Cuantificar proteinuria (UPCR)",
+      "Estimar TFGe con CKD-EPI 2021 (≈54)",
+      "Serología: C3, C4, anti-ADNdc, antifosfolípidos",
+      "Biopsia renal con ML, IF y ME"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "03:12 a.m. Urgencias Central. La máquina de café no funciona."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_uro",
+     "lines": [
+      [
+       "Dr. J.",
+       "C3 y C4 bajos juntos = vía clásica: consumo por inmunocomplejos. Lo verás en el río."
+      ],
+      [
+       "Dr. J.",
+       "Y guarda este número: TFGe ≈ 54. Va a importar en el acantilado de los podocitos."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Hace años perdí a una paciente así. No resolví su diagnóstico a tiempo."
+      ],
+      [
+       "Dr. J.",
+       "Por eso inventé esto. Entra a la sala de miniaturización. Vamos a verlo desde adentro."
+      ],
+      [
+       "Narrador",
+       "Piu… piu… piu. Te vuelves del tamaño de una célula."
+      ]
+     ]
+    }
+   ],
+   "card": "Sedimento activo + C3/C4 bajos + anti-ADNdc = sospecha de NL proliferativa. La biopsia decide, no la serología."
+  },
+  {
+   "id": "z2",
+   "name": "Playa Dérmica",
+   "palette": [
+    "#FFF4D6",
+    "#F2C27A",
+    "#B5651D",
+    "#4A2508"
+   ],
+   "tiles": "playa",
+   "intro": [
+    [
+     "Tú",
+     "¿Arena? No… son células. Miles de queratinocitos."
+    ],
+    [
+     "Don Estrato",
+     "Bienvenido, chiquito. El sol de la playa nos quemó el ADN."
+    ],
+    [
+     "Don Estrato",
+     "Muchos decidimos morir con orden: apoptosis. Al morir sacamos burbujas a la superficie."
+    ],
+    [
+     "Don Estrato",
+     "Dentro van nuestros secretos: nucleosomas, Ro/SSA, ARN."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Don Estrato",
+     "lines": [
+      [
+       "Don Estrato",
+       "La apoptosis expone fosfatidilserina:"
+      ],
+      [
+       "Don Estrato",
+       "la señal 'cómeme'. Si nos retiran a tiempo, no hay escándalo."
+      ],
+      [
+       "Don Estrato",
+       "Si nadie limpia, nos rompemos: necrosis secundaria."
+      ],
+      [
+       "Don Estrato",
+       "Y el núcleo queda a la vista del ejército."
+      ],
+      [
+       "Don Estrato",
+       "Otra cosa: la luz UV llamó neutrófilos. Vi a algunos irse… hacia el riñón."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Macrófago Patrullero",
+     "lines": [
+      [
+       "Macrófago Patrullero",
+       "Mac… ¿eres tú? Ya no doy abasto. Sin C1q no veo bien a los muertos."
+      ],
+      [
+       "Mac Limpio",
+       "C1q es como mis lentes: marca al cuerpo apoptótico para comerlo en silencio."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": null
+    },
+    {
+     "id": "npc3",
+     "name": "Cangre-C1q",
+     "lines": [
+      [
+       "Cangre-C1q",
+       "¡Clic-clac! La puerta tiene seis tulipanes."
+      ],
+      [
+       "Cangre-C1q",
+       "Tráeme cabezas globulares y el tallo de colágeno."
+      ]
+     ],
+     "gift": null,
+     "recall": "Estructura de C1q: 6 cabezas globulares (C1qA/B/C) + tallos colagenosos"
+    },
+    {
+     "id": "npc4",
+     "name": "Queratinocito Bronceado",
+     "lines": [
+      [
+       "Queratinocito Bronceado",
+       "Nosotros también hacemos interferón: IFN-κ. Preparamos la piel para que todo inflame más."
+      ]
+     ],
+     "gift": null,
+     "recall": "Fotosensibilidad y amplificación de IFN en piel"
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_derma",
+     "cast": "derma",
+     "specialty": "Dermatología",
+     "intro": [
+      [
+       "Dra. Pía Lumen",
+       "¿Lupus? Eso es rosácea con filtro de playa, mi ciela. ¡Pelea!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Pía Lumen",
+       "Okey… respeta los surcos nasogenianos y yo te respeto a ti. ¡Ponte bloqueador!"
+      ]
+     ],
+     "questionTopics": [
+      "LES cutáneo agudo vs rosácea",
+      "IFN-κ de queratinocitos y fotosensibilidad",
+      "Hidroxicloroquina reduce brotes cutáneos y renales"
+     ],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Queratinocito Quemado",
+     "type": "Celular",
+     "topic": "Apoptosis por UVB y blebs con autoantígenos"
+    },
+    {
+     "name": "Bleb Ro",
+     "type": "Molecular",
+     "topic": "Ro52/Ro60 en blebs; anti-Ro en LES cutáneo subagudo y lupus neonatal"
+    },
+    {
+     "name": "IFN-κ Chispa",
+     "type": "Molecular",
+     "topic": "IFN-κ de queratinocitos amplifica respuesta a IFN"
+    },
+    {
+     "name": "Macrófago Perezoso",
+     "type": "Innato",
+     "topic": "Eferocitosis deficiente y necrosis secundaria"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_derma",
+     "topic": "Llave C1q: deficiencia de C1q (>90% LES) > C4 (~75%) > C2 (~10–30%)",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Hijo, escucha esta parábola."
+      ],
+      [
+       "Sabio Brenn",
+       "Cuando el barrendero no barre, la basura se vuelve bandera para el ejército."
+      ],
+      [
+       "Sabio Brenn",
+       "El problema del lupus no es morir: es no limpiar. C1q, C4 y C2 son los barrenderos."
+      ],
+      [
+       "Sabio Brenn",
+       "Sin C1q, más del 90% enferma."
+      ],
+      [
+       "Sabio Brenn",
+       "El riesgo sigue el orden de la cascada: C1q, luego C4, luego C2."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Ensamblar la Llave C1q: del sol a la limpieza",
+     "items": [
+      "UVB daña el ADN del queratinocito",
+      "Apoptosis con blebs (nucleosomas, Ro)",
+      "Exposición de fosfatidilserina",
+      "C1q opsoniza el cuerpo apoptótico",
+      "Eferocitosis por macrófago (MerTK)",
+      "Retiro silencioso sin inflamación"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Un rayo UV cruza el cielo. La pantalla parpadea en morado."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_derma",
+     "lines": [
+      [
+       "Don Estrato",
+       "En ratones, la UV aguda llevó neutrófilos de la piel al riñón."
+      ],
+      [
+       "Don Estrato",
+       "Fotoprotección también es nefroprotección."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Narrador",
+       "Usas la Llave C1q. La puerta se abre con un acorde."
+      ],
+      [
+       "Dr. J.",
+       "Recuerda esa llave. Vas a volver a ver a C1q… y no siempre como amigo."
+      ]
+     ]
+    }
+   ],
+   "card": "UV → apoptosis → blebs con autoantígenos. Si fallan C1q y la eferocitosis → necrosis secundaria. Riesgo monogénico: C1q > C4 > C2."
+  },
+  {
+   "id": "z3",
+   "name": "Pantano de Restos",
+   "palette": [
+    "#E8D8F0",
+    "#A080C0",
+    "#583878",
+    "#201030"
+   ],
+   "tiles": "pantano",
+   "intro": [
+    [
+     "Tú",
+     "Esto huele a basura nuclear. Restos de células que nadie limpió."
+    ],
+    [
+     "Tijera DNASE1L3",
+     "Yo cortaba el ADN de las micropartículas… pero en algunas familias nací rota."
+    ],
+    [
+     "Tijera DNASE1L3",
+     "Esos niños tienen lupus temprano, con anti-ADNdc y riñón. L3: lupus tres veces."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Exonucleasa TREX1",
+     "lines": [
+      [
+       "TREX1",
+       "Shhh. Soy bibliotecaria: borro ADN del citosol."
+      ],
+      [
+       "TREX1",
+       "Si fallo, cGAS cree que hay un virus y prende todas las alarmas."
+      ],
+      [
+       "TREX1",
+       "Mis mutaciones dan lupus sabañón familiar y síndrome de Aicardi-Goutières."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Alarma cGAS",
+     "lines": [
+      [
+       "Alarma cGAS",
+       "¡ADN EN EL CITOSOL! ¡Fabricando cGAMP!"
+      ],
+      [
+       "Alarma cGAS",
+       "¡STING, avisa a TBK1 e IRF3! ¡INTERFERÓN BETA!"
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    },
+    {
+     "id": "npc3",
+     "name": "Bibliotecario Genómico",
+     "lines": [
+      [
+       "Bibliotecario",
+       "TLR7 vive en el cromosoma X y escapa a la inactivación en algunas células."
+      ],
+      [
+       "Bibliotecario",
+       "Más TLR7 en mujeres. La ganancia de función Y264H basta para causar lupus."
+      ],
+      [
+       "Bibliotecario",
+       "IRF5 y STAT4 amplifican el interferón. PTPN22 R620W relaja el umbral de TCR y BCR."
+      ],
+      [
+       "Bibliotecario",
+       "ITGAM y FCGR depuran peor los inmunocomplejos."
+      ],
+      [
+       "Bibliotecario",
+       "APOL1 empeora la progresión en ascendencia africana."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "Genética de riesgo: penetrancia monogénica vs poligénica"
+    },
+    {
+     "id": "npc4",
+     "name": "Neutrófilo Flotante",
+     "lines": [
+      [
+       "Neutrófilo Flotante",
+       "Neutra, ¿por qué tan pesada? Sé ligera como yo: baja densidad."
+      ],
+      [
+       "Neutrófilo Flotante",
+       "Escupe tu ADN y sé libre. Mis NET llevan ADN mitocondrial oxidado."
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_reuma",
+     "cast": "reuma",
+     "specialty": "Reumatología",
+     "intro": [
+      [
+       "Dr. Rafael Criterio",
+       "Sin puntaje no hay lupus. ¿Cuántos puntos tiene tu paciente, eh?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rafael Criterio",
+       "10 puntos por biopsia… me ganaste en mi propio Excel. Te debo un café descafeinado."
+      ]
+     ],
+     "questionTopics": [
+      "Criterios EULAR/ACR 2019: ANA ≥1:80 como entrada",
+      "Peso de la biopsia en criterios (III/IV = 10; II/V = 8)",
+      "Anti-nucleosoma y anti-C1q en NL activa"
+     ],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Nucleosoma Huérfano",
+     "type": "Molecular",
+     "topic": "Histonas catiónicas y cromatina libre por necrosis secundaria"
+    },
+    {
+     "name": "Micropartícula Cargada",
+     "type": "Molecular",
+     "topic": "DNASE1L3 degrada ADN en micropartículas"
+    },
+    {
+     "name": "ADN Citosólico Fugitivo",
+     "type": "Molecular",
+     "topic": "cGAS-STING-IRF3 y TREX1"
+    },
+    {
+     "name": "NET Pegajosa",
+     "type": "Innato",
+     "topic": "NET con ADN, histonas y LL-37; degradación deficiente"
+    },
+    {
+     "name": "Granulocito de Baja Densidad",
+     "type": "Innato",
+     "topic": "LDG: NETosis exagerada e IFN-I"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_reuma",
+     "topic": "Linterna Genómica: la cadena cGAS-STING y la firma de interferón tipo I",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El guardián que no distingue entre enemigo y hermano termina disparando a su propia casa."
+      ],
+      [
+       "Sabio Brenn",
+       "Los sensores nacieron para cazar virus. En el lupus, el ADN propio se disfraza de virus."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Cadena de alarma cGAS-STING",
+     "items": [
+      "ADN en el citosol (falla TREX1)",
+      "cGAS detecta el ADN",
+      "Síntesis de cGAMP",
+      "Activación de STING",
+      "TBK1 fosforila IRF3",
+      "Producción de IFN-β"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Burbujeo lento. Las tijeras gigantes están oxidadas."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_reuma",
+     "lines": [
+      [
+       "Neutra",
+       "Se siente… poderoso. Mi núcleo quiere salir."
+      ],
+      [
+       "Tú",
+       "¡Neutra, no! Las NET alimentan a las pDC."
+      ],
+      [
+       "Dr. J.",
+       "Bien. NET = ADN + histonas + LL-37. Las pDC se las comen por FcγRIIA y gritan interferón."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "¿Por qué 9 mujeres por cada hombre? Parte de la respuesta está en el X: TLR7."
+      ]
+     ]
+    }
+   ],
+   "card": "Fallas en limpiar ADN (DNASE1L3, TREX1, C1q) + sensores que lo confunden con virus (TLR7/9, cGAS-STING) = firma de interferón tipo I."
+  },
+  {
+   "id": "z4",
+   "name": "Bosque Ganglionar",
+   "palette": [
+    "#E0F8D0",
+    "#88C070",
+    "#346856",
+    "#081820"
+   ],
+   "tiles": "bosque",
+   "intro": [
+    [
+     "Dra. IL-2",
+     "¡Pásale, mijo! Aquí se cura el equipo."
+    ],
+    [
+     "Dra. IL-2",
+     "Pero a mis Treg les falta comida… y la comida soy yo."
+    ],
+    [
+     "Dra. IL-2",
+     "Las T del lupus casi no me producen. Sin IL-2, la Treg se desvela y deja de frenar."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Dra. IL-2",
+     "lines": [
+      [
+       "Dra. IL-2",
+       "Las Treg tienen CD25 de alta afinidad."
+      ],
+      [
+       "Dra. IL-2",
+       "Por eso dosis bajas de IL-2 las alimentan a ellas primero."
+      ],
+      [
+       "Dra. IL-2",
+       "Es tratamiento en investigación, mijo. Mientras, descansa: tu equipo está curado."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Macrófago de Cuerpo Tingible",
+     "lines": [
+      [
+       "Macrófago Tingible",
+       "Soy el último. Si no limpio el centro germinal, los B ven núcleos todo el día."
+      ],
+      [
+       "Macrófago Tingible",
+       "Y aprenden a odiarlos. La FDC está cubierta de restos apoptóticos."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "Eferocitosis deficiente (Zona 2) también ocurre en el ganglio"
+    },
+    {
+     "id": "npc3",
+     "name": "Don Ensayo",
+     "lines": [
+      [
+       "Don Ensayo",
+       "¡Lleve su escudo! Hoy tengo uno contra el BAFF Inflado y otro de dos almas gemelas."
+      ],
+      [
+       "Beli",
+       "¡Bzzz! Soy Belimumab. Atrapo BAFF soluble. Sin BAFF, los B autorreactivos no sobreviven."
+      ],
+      [
+       "MMF-01",
+       "BIP. Bloqueo IMPDH. Los linfocitos fabrican guanina de novo. Sin guanina, no proliferan."
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    },
+    {
+     "id": "npc4",
+     "name": "pDC Veterana",
+     "lines": [
+      [
+       "pDC Veterana",
+       "Una de nosotras produce hasta mil veces más IFN-α que cualquier otra célula."
+      ],
+      [
+       "pDC Veterana",
+       "El IFN madura DC, sube BAFF en mieloides y empuja a los B a plasmablasto."
+      ]
+     ],
+     "gift": null,
+     "recall": "Firma de IFN-I (Zonas 2 y 3)"
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_rival1",
+     "cast": "valeria",
+     "specialty": "Nefrología (rival)",
+     "intro": [
+      [
+       "Valeria",
+       "¡Me sé los 9 genes del lupus en orden alfabético! ¿Tú?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Valeria",
+       "¡Me lo sabía! Pero… ¿por qué las plasmáticas no tienen CD20? ¡No viene en mi tarjeta!"
+      ]
+     ],
+     "questionTopics": [
+      "BAFF vs APRIL: receptores BAFF-R, TACI, BCMA",
+      "Células plasmáticas de vida larga CD20 negativas",
+      "Belimumab y BLISS-LN"
+     ],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "pDC Paranoica",
+     "type": "Innato",
+     "topic": "pDC: FcγRIIA, TLR7/9, IRF7 e IFN-α"
+    },
+    {
+     "name": "BAFF Inflado",
+     "type": "Molecular",
+     "topic": "BAFF rescata B transicionales autorreactivos"
+    },
+    {
+     "name": "Tfh Influyente",
+     "type": "Celular",
+     "topic": "Tfh: CXCR5, PD-1, ICOS, IL-21, CD40L"
+    },
+    {
+     "name": "Linfocito B Autorreactivo",
+     "type": "Humoral",
+     "topic": "Hipermutación somática y cambio de isotipo a IgG1/IgG3"
+    },
+    {
+     "name": "Atajo ABC/DN2",
+     "type": "Humoral",
+     "topic": "B extrafoliculares CD11c+ T-bet+ impulsados por TLR7"
+    },
+    {
+     "name": "Treg Desvelada",
+     "type": "Celular",
+     "topic": "Treg disfuncional por falta de IL-2"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_rival1",
+     "topic": "Anti-ADNdc patogénico: IgG de alta afinidad, Tfh-dependiente, fija complemento",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El anti-ADNdc que daña no es una IgM tímida."
+      ],
+      [
+       "Sabio Brenn",
+       "Es IgG de alta afinidad, mutada en el centro germinal."
+      ],
+      [
+       "Sabio Brenn",
+       "IgG1 e IgG3 fijan complemento. Recuérdalo cuando llegues al glomérulo."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Ordenar la cascada del interferón",
+     "items": [
+      "Inmunocomplejo con ADN/ARN",
+      "Captación por FcγRIIA (CD32)",
+      "Endosoma",
+      "TLR7 (ARN) / TLR9 (ADN)",
+      "MyD88 → IRF7/IRF5",
+      "IFN-α"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Escudos del vendedor",
+     "items": [],
+     "pairs": [
+      [
+       "BLISS-LN",
+       "Belimumab: 43% vs 32% a 104 sem"
+      ],
+      [
+       "ALMS inducción",
+       "MMF = CYC IV (56% vs 53%)"
+      ],
+      [
+       "ALMS mantenimiento",
+       "MMF > azatioprina (falla 16% vs 32%)"
+      ],
+      [
+       "Belimumab",
+       "Anti-BAFF soluble"
+      ],
+      [
+       "MMF",
+       "Inhibidor de IMPDH"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Paraguas HCQ",
+       "¡Yo subo el pH del endosoma! Sin acidez, TLR7 y TLR9 no se activan."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_rival1",
+     "lines": [
+      [
+       "Narrador",
+       "Valeria se va furiosa hacia las Ruinas."
+      ],
+      [
+       "Sabio Brenn",
+       "Hay atajos fuera del bosque: algunos B no esperan al centro germinal."
+      ],
+      [
+       "Sabio Brenn",
+       "Salen por la vía extrafolicular, empujados por TLR7."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Hay otro hermano, Ani. Bloquea la puerta del interferón (IFNAR)."
+      ],
+      [
+       "Sabio Brenn",
+       "Aprobado en LES, pero aún duerme para el riñón."
+      ]
+     ]
+    }
+   ],
+   "card": "pDC + TLR7/9 → IFN-I → BAFF y Tfh ↑ → centro germinal → IgG anti-ADNdc de alta afinidad. Las Treg fallan por falta de IL-2."
+  },
+  {
+   "id": "z5",
+   "name": "Río Sanguíneo",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "intro": [
+    [
+     "Capitán Eritrocito",
+     "¡Súbete! Llevo 120 días en este río. Los inmunocomplejos van al riñón."
+    ],
+    [
+     "Capitán Eritrocito",
+     "Si no los atrapan en el bazo, llegan."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Grúa FcγR",
+     "lines": [
+      [
+       "Grúa FcγR",
+       "Yo pescaba complejos con mis ganchos Fc… pero mis ganchos nacieron flojos."
+      ],
+      [
+       "Grúa FcγR",
+       "FCGR3A-F158 y FCGR2A-R131 sujetan peor la IgG."
+      ],
+      [
+       "Grúa FcγR",
+       "El bazo depura menos y más complejos llegan al riñón."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "Genes FCGR e ITGAM de la Biblioteca (Zona 3)"
+    },
+    {
+     "id": "npc2",
+     "name": "Marinero C3",
+     "lines": [
+      [
+       "Marinero C3",
+       "Me usaron para cubrir complejos. Por eso estoy bajo en los labs. Igual mi primo C4."
+      ],
+      [
+       "Marinero C3",
+       "No es que el hígado no me haga: me consumen. Cuando vuelvo a subir, es buena señal."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "C3/C4 bajos de Urgencias (Zona 1)"
+    },
+    {
+     "id": "npc3",
+     "name": "Plasmablasto Turista",
+     "lines": [
+      [
+       "Plasmablasto Turista",
+       "Subo en la sangre cuando hay brote. Y soy CD20 negativo: Obi no me corta."
+      ]
+     ],
+     "gift": null,
+     "recall": "Plasmáticas CD20 negativas (Zona 4)"
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_uti",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "intro": [
+      [
+       "Dr. Max Presor",
+       "¿Fiebre, PCR alta y creatinina subiendo? ¡Sepsis! Cultivos, antibiótico y a otra cosa."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Max Presor",
+       "Ok, ok… no todo es sepsis. ¡Pero sí todo es café! Toma, te regalo esto."
+      ]
+     ],
+     "questionTopics": [
+      "Brote lúpico vs infección (PCR)",
+      "C3/C4 bajos + anti-ADNdc + sedimento = brote",
+      "Euro-Lupus: CYC 500 mg c/2 sem x6"
+     ],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Inmunocomplejo Errante (grandote)",
+     "type": "Inmunocomplejo",
+     "topic": "IC grandes y de alta avidez: mesangial/subendotelial"
+    },
+    {
+     "name": "Inmunocomplejo Errante (chiquito)",
+     "type": "Inmunocomplejo",
+     "topic": "IC pequeños o catiónicos cruzan la MBG: subepitelial"
+    },
+    {
+     "name": "Convertasa Desbocada",
+     "type": "Complemento",
+     "topic": "Vía clásica: C4 y C2 se consumen antes que C3"
+    },
+    {
+     "name": "FcγR Torpe",
+     "type": "Molecular",
+     "topic": "Polimorfismos FCGR de baja afinidad y depuración esplénica"
+    },
+    {
+     "name": "Plasmablasto Turista",
+     "type": "Humoral",
+     "topic": "Plasmablastos circulantes y actividad"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_uti",
+     "topic": "Destino del inmunocomplejo según tamaño, carga, avidez y cantidad",
+     "text": [
+      [
+       "Sabio Brenn",
+       "No sólo importa el tamaño. Importa la carga, la avidez,"
+      ],
+      [
+       "Sabio Brenn",
+       "y si el antígeno ya estaba sembrado en el riñón."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "river",
+     "title": "Esquivar y clasificar inmunocomplejos",
+     "items": [
+      "Grandote, alta avidez → subendotelial/mesangial",
+      "Mediano, cantidad moderada → mesangial",
+      "Chiquito, catiónico o baja avidez → subepitelial"
+     ],
+     "pairs": [
+      [
+       "IC grande, alta avidez",
+       "Subendotelial / mesangial"
+      ],
+      [
+       "IC mediano",
+       "Mesangial"
+      ],
+      [
+       "IC pequeño o catiónico",
+       "Subepitelial"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Música de persecución. El barco arranca."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_uti",
+     "lines": [
+      [
+       "Ciclón",
+       "Soy ciclofosfamida. Fuerte. Pero cada golpe me cobra fertilidad."
+      ],
+      [
+       "Ciclón",
+       "Úsame en dosis Euro-Lupus: 500 mg cada 2 semanas, 6 veces, 3 g en total."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "El faro dice 'Glomérulo'. Ahí se decide todo. Prepárate: los Nefrotóxicos llegaron antes."
+      ]
+     ]
+    }
+   ],
+   "card": "Destino del IC = tamaño + carga + avidez + cantidad. Grandes → subendotelial/mesangial; pequeños o catiónicos → subepitelial. C3/C4 bajos = consumo."
+  },
+  {
+   "id": "z6",
+   "name": "Delta Endocapilar",
+   "palette": [
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
+   ],
+   "tiles": "delta",
+   "intro": [
+    [
+     "Tú",
+     "Aquí están, pegados bajo el endotelio. Amarillos, gruesos… como asas de alambre."
+    ],
+    [
+     "Endotelio Fenestra",
+     "¡Ayuda! Están justo debajo de mí. Tocan la sangre directamente. Todo lo que pasa los ve."
+    ],
+    [
+     "Sabio Brenn",
+     "Lo subendotelial mira al río: llama al complemento y a los leucocitos."
+    ],
+    [
+     "Sabio Brenn",
+     "Por eso inflama y prolifera."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Mesa (célula mesangial)",
+     "lines": [
+      [
+       "Mesa",
+       "Los nucleosomas se pegaron a la MBG sin querer:"
+      ],
+      [
+       "Mesa",
+       "las histonas son positivas y ella es negativa."
+      ],
+      [
+       "Mesa",
+       "Y la DNasa1 renal se apagó. Nadie corta la cromatina aquí; por eso se queda."
+      ],
+      [
+       "Mesa",
+       "Con IC e interferón, yo prolifero, hago matriz,"
+      ],
+      [
+       "Mesa",
+       "IL-6 y CCL2 por FcγR y TLR. Me freno con MMF."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "C1q encadenado",
+     "lines": [
+      [
+       "C1q",
+       "¡Residente! Soy yo, el de la puerta."
+      ],
+      [
+       "C1q",
+       "Antes limpiaba; ahora me usan para encender la cascada."
+      ],
+      [
+       "C1q",
+       "Me uno a IgG1/IgG3 en el depósito y empieza la vía clásica."
+      ],
+      [
+       "C1q",
+       "Y los anti-C1q me tienen preso."
+      ]
+     ],
+     "gift": null,
+     "recall": "Llave C1q (Zona 2): la paradoja de C1q"
+    },
+    {
+     "id": "npc3",
+     "name": "Neutrófilo Atrapado",
+     "lines": [
+      [
+       "Neutrófilo Atrapado",
+       "Quedamos atrapados en nuestras propias NET. Las histonas lastiman al endotelio."
+      ],
+      [
+       "Neutrófilo Atrapado",
+       "Inhibidores de DNasa1 y anticuerpos anti-NET"
+      ],
+      [
+       "Neutrófilo Atrapado",
+       "impiden que nos limpien. Lo no limpiado se vuelve antígeno."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "NET Pegajosa (Zona 3)"
+    },
+    {
+     "id": "npc4",
+     "name": "Anticuerpo Vacío",
+     "lines": [
+      [
+       "Anticuerpo Vacío",
+       "Llegué sin antígeno… y me pegué aquí. Reconozco nucleosomas plantados y α-actinina-4."
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_aine",
+     "cast": "aine",
+     "specialty": "Nefrotóxico: AINE",
+     "intro": [
+      [
+       "Don Ibuprofeno",
+       "¡La señorita tiene artralgias! ¡Yo le quito el dolor… y la prostaglandina aferente!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Don Ibuprofeno",
+       "¡Me ganó un paracetamol con lentes!"
+      ]
+     ],
+     "questionTopics": [
+      "AINE: inhibición de prostaglandinas vasodilatadoras aferentes",
+      "TFG prostaglandina-dependiente en GN activa e hipoalbuminemia"
+     ],
+     "n": 2
+    },
+    {
+     "id": "t_contraste",
+     "cast": "contraste",
+     "specialty": "Nefrotóxico: medio de contraste",
+     "intro": [
+      [
+       "Yodo Ray",
+       "¡Y yo le tomo una tomografía con 120 mL de contraste!"
+      ],
+      [
+       "Yodo Ray",
+       "¡Sonría! Por cada nefrona caída, Hemo-Eterna gana una silla."
+      ]
+     ],
+     "defeat": [
+      [
+       "Yodo Ray",
+       "Mi foto salió movida… ¡Retirada en globo!"
+      ]
+     ],
+     "questionTopics": [
+      "Diferir estudios contrastados no urgentes",
+      "Contraste iso/bajo-osmolar, dosis mínima y volemia adecuada"
+     ],
+     "n": 2
+    }
+   ],
+   "wild": [
+    {
+     "name": "Nucleosoma Anclado",
+     "type": "Molecular",
+     "topic": "Formación in situ: histonas catiónicas sobre heparán sulfato aniónico"
+    },
+    {
+     "name": "Anti-ADNdc Cruzado",
+     "type": "Humoral",
+     "topic": "Reactividad cruzada con α-actinina-4 y antígenos glomerulares"
+    },
+    {
+     "name": "C5a Sirena",
+     "type": "Complemento",
+     "topic": "C5a: quimiotaxis y activación de neutrófilos y macrófagos"
+    },
+    {
+     "name": "NET Pegajosa",
+     "type": "Innato",
+     "topic": "NET dañan endotelio y exponen autoantígeno en el capilar"
+    },
+    {
+     "name": "Anti-C1q Traidor",
+     "type": "Humoral",
+     "topic": "Anti-C1q: asociación con NL activa, alto VPN"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_contraste",
+     "topic": "GIRO 1: depósitos por IC circulantes + formación in situ (DNasa1 renal apagada, α-actinina)",
+     "text": [
+      [
+       "Tú",
+       "Espera… estos anticuerpos llegaron vacíos. El antígeno ya estaba aquí. ¿Quién lo sembró?"
+      ],
+      [
+       "Dr. J.",
+       "Es lo que no vi aquella vez."
+      ],
+      [
+       "Dr. J.",
+       "Yo esperaba al enemigo en la puerta… y ya estaba dentro de la casa."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Liberar a C1q: cascada clásica",
+     "items": [
+      "C1q se une a IgG1/IgG3",
+      "C1r/C1s se activan",
+      "C4 se escinde",
+      "C2 se escinde",
+      "C3 convertasa (C4b2a)",
+      "C3b y amplificación por asa alterna",
+      "C5 convertasa",
+      "C5a (quimiotaxis) y C5b-9 (MAC)"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Un latido grave sacude el capilar."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_aine",
+     "lines": [
+      [
+       "Tú",
+       "En glomérulo inflamado e hipoalbuminemia,"
+      ],
+      [
+       "Tú",
+       "la TFG depende de prostaglandinas aferentes. Nada de AINE."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_contraste",
+     "lines": [
+      [
+       "Narrador",
+       "Los Nefrotóxicos huyen en un globo con logo de Hemo-Eterna."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "C1q",
+       "Gracias por liberarme. Estoy débil… pero aún sé limpiar. Te veré en las ruinas, brillando."
+      ]
+     ]
+    }
+   ],
+   "card": "Depósitos = IC circulantes + formación in situ (nucleosomas sobre MBG, DNasa1 renal apagada, anti-ADNdc cruzado). Subendotelial = expuesto al río = proliferación."
+  },
+  {
+   "id": "z7",
+   "name": "Acantilado Podocitario",
+   "palette": [
+    "#E8F4FC",
+    "#90C8E8",
+    "#386890",
+    "#0C2030"
+   ],
+   "tiles": "acantilado",
+   "intro": [
+    [
+     "Abuela Nefrina",
+     "Ay, mijo, aquí del otro lado de la MBG no llegan los neutrófilos."
+    ],
+    [
+     "Abuela Nefrina",
+     "Pero sí llega el taladro: el MAC."
+    ],
+    [
+     "Abuela Nefrina",
+     "No nos mata: nos deja heridas."
+    ],
+    [
+     "Abuela Nefrina",
+     "Soltamos los pies, el puente se cae y se escapa la proteína."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Abuela Nefrina",
+     "lines": [
+      [
+       "Abuela Nefrina",
+       "Los depósitos subepiteliales quedan detrás de la MBG."
+      ],
+      [
+       "Abuela Nefrina",
+       "Sin influjo celular: patrón membranoso, clase V."
+      ],
+      [
+       "Abuela Nefrina",
+       "Da síndrome nefrótico con sedimento poco activo"
+      ],
+      [
+       "Abuela Nefrina",
+       "y riesgo de trombosis. Puede venir con III o IV."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "Subendotelial vs subepitelial (Zonas 5 y 6)"
+    },
+    {
+     "id": "npc2",
+     "name": "Sinaptopodina",
+     "lines": [
+      [
+       "Sinaptopodina",
+       "Soy la cuerda del esqueleto de actina. Fosforilada, la catepsina L no me come."
+      ],
+      [
+       "Sinaptopodina",
+       "La calcineurina me desfosforila… y me rompen."
+      ],
+      [
+       "Sinaptopodina",
+       "Si la bloquean, sobrevivo: menos proteinuria."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc3",
+     "name": "Podocito Desprendido",
+     "lines": [
+      [
+       "Podocito Desprendido",
+       "Me caí a la orina. Casi no nos regeneramos."
+      ],
+      [
+       "Podocito Desprendido",
+       "Cada podocito perdido es un hueco en el filtro."
+      ]
+     ],
+     "gift": null,
+     "recall": "Hiperfiltración y GEFS secundaria"
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_tacro",
+     "cast": "tacro",
+     "specialty": "Nefrotóxico: calcineurínico",
+     "intro": [
+      [
+       "Tacro-Lord",
+       "¡Muajaja! Aprieto la aferente y mato nefronas. ¡Hemo-Eterna me paga por arteriola!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Tacro-Lord",
+       "¡Me venció mi propia familia! ¡Esto no se queda así! ¡Ma-má!"
+      ]
+     ],
+     "questionTopics": [
+      "Nefrotoxicidad crónica de CNI: arteriolopatía hialina, fibrosis en banda",
+      "Vigilancia: TFGe, K, Mg, PA, glucosa",
+      "Interacciones CYP3A4"
+     ],
+     "n": 2
+    },
+    {
+     "id": "t_gine",
+     "cast": "gine",
+     "specialty": "Ginecología y Obstetricia",
+     "intro": [
+      [
+       "Dra. Lucía Bravo",
+       "Tu paciente tiene 24 años y quiere ser mamá algún día. ¿Lo pensaste, nefrólogo?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Lucía Bravo",
+       "Bien. Pero si le das ciclofosfamida, que sea Euro-Lupus. Protege esos ovarios."
+      ]
+     ],
+     "questionTopics": [
+      "Micofenolato teratogénico: suspender ≥6 sem antes, cambiar a azatioprina",
+      "HCQ y aspirina en embarazo",
+      "Brote lúpico vs preeclampsia",
+      "NL inactiva ≥6 meses antes de concebir"
+     ],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "MAC Taladro",
+     "type": "Complemento",
+     "topic": "C5b-9 subletal sobre el podocito"
+    },
+    {
+     "name": "Podocito Desprendido",
+     "type": "Celular",
+     "topic": "Podocituria y regeneración limitada"
+    },
+    {
+     "name": "Catepsina L Glotona",
+     "type": "Molecular",
+     "topic": "Degradación de sinaptopodina desfosforilada"
+    },
+    {
+     "name": "Percebe Subepitelial",
+     "type": "Inmunocomplejo",
+     "topic": "Depósitos subepiteliales: clase V"
+    },
+    {
+     "name": "Pie Borrado",
+     "type": "Celular",
+     "topic": "Podocitopatía lúpica: borramiento difuso sin depósitos periféricos"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_tacro",
+     "topic": "Voclosporina: doble mecanismo (NFAT en T y sinaptopodina) y umbral TFGe >45",
+     "text": [
+      [
+       "Voclosporina",
+       "Pero ojo: soy de la familia. Si la TFGe está muy baja, mi primo despierta en mí."
+      ],
+      [
+       "Voclosporina",
+       "KDIGO 2024: conmigo + MPAA si TFGe >45. 23.7 mg cada 12 horas. Tu paciente tiene ≈54."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Calcineurina: villano o aliado",
+     "items": [],
+     "pairs": [
+      [
+       "Voclosporina",
+       "Bloquea NFAT en T"
+      ],
+      [
+       "Sinaptopodina",
+       "Estabiliza actina del podocito"
+      ],
+      [
+       "Catepsina L",
+       "Degrada sinaptopodina desfosforilada"
+      ],
+      [
+       "AURORA 1",
+       "41% vs 23% a 52 sem"
+      ],
+      [
+       "Tacrolimus (KDIGO)",
+       "Nivel valle ≈5.5 ng/mL"
+      ],
+      [
+       "Toxicidad CNI",
+       "Vasoconstricción aferente"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Viento fuerte. Una sombra con capa aprieta una arteriola."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_tacro",
+     "lines": [
+      [
+       "Encapuchado",
+       "Basta, primo. Somos de la misma familia… pero yo vine a curar."
+      ],
+      [
+       "Tacro-Lord",
+       "¡¿Voclosporina?! ¡Traidora! ¡Deshonras a la calcineurina!"
+      ],
+      [
+       "Voclosporina",
+       "Bloqueo calcineurina en las T: sin NFAT no hay IL-2 ni ayuda a los B."
+      ],
+      [
+       "Voclosporina",
+       "Y en el podocito protejo a Sinaptopodina."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_gine",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Hay podocitos que caen sin depósitos: sólo se borran los pies."
+      ],
+      [
+       "Sabio Brenn",
+       "Se llama podocitopatía lúpica."
+      ],
+      [
+       "Sabio Brenn",
+       "Se trata como cambios mínimos: glucocorticoide, y responde."
+      ],
+      [
+       "Sabio Brenn",
+       "No todo lupus renal es inmunocomplejo en asa."
+      ],
+      [
+       "Sabio Brenn",
+       "Y la clase V pura no nefrótica: iSRAA, presión y HCQ."
+      ],
+      [
+       "Sabio Brenn",
+       "Inmunosupresión si la proteinuria es nefrótica."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Narrador",
+       "Voclosporina se une a tu equipo."
+      ]
+     ]
+    }
+   ],
+   "card": "Subepitelial → MAC subletal → podocito herido → clase V nefrótica. Los CNI protegen la sinaptopodina. Voclosporina: TFGe >45; AURORA 1 41-23."
+  },
+  {
+   "id": "z8",
+   "name": "Ruinas de Hematoxilina",
+   "palette": [
+    "#F8E0F0",
+    "#D088C0",
+    "#703878",
+    "#200820"
+   ],
+   "tiles": "ruinas",
+   "intro": [
+    [
+     "Microscopista Elena",
+     "Bienvenido al templo de la clase. En 2018 cambiamos reglas: ya no decimos A, C ni A/C."
+    ],
+    [
+     "Microscopista Elena",
+     "Ahora usamos índices: Actividad, máximo 24, y Cronicidad, máximo 12."
+    ],
+    [
+     "Microscopista Elena",
+     "La IV ya no se divide en S y G."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Microscopista Elena",
+     "lines": [
+      [
+       "Microscopista Elena",
+       "'Proliferación endocapilar' ahora es 'hipercelularidad endocapilar'."
+      ],
+      [
+       "Microscopista Elena",
+       "Mesangial: ≥4 células por área."
+      ],
+      [
+       "Microscopista Elena",
+       "Necrosis y semilunas pesan doble: N y S, Norte y Sur."
+      ],
+      [
+       "Microscopista Elena",
+       "Actividad es lo salvable; cronicidad, lo perdido."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Inmunofluorescencia Full-House",
+     "lines": [
+      [
+       "IF Full-House",
+       "¡Cinco faroles! IgG, IgA, IgM, C3 y C1q. Así brillamos en el lupus."
+      ]
+     ],
+     "gift": null,
+     "recall": "C1q (Zonas 2 y 6)"
+    },
+    {
+     "id": "npc3",
+     "name": "Microscopio Electrónico",
+     "lines": [
+      [
+       "Microscopio Electrónico",
+       "Mmm… veo huellas digitales en los depósitos."
+      ],
+      [
+       "Microscopio Electrónico",
+       "Y en el endotelio, inclusiones tubulorreticulares."
+      ],
+      [
+       "Microscopio Electrónico",
+       "Son las pisadas del interferón alfa."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "Firma de IFN tipo I (Zonas 3 y 4)"
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_cx",
+     "cast": "cx",
+     "specialty": "Cirugía General",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "¿Biopsia? ¡Yo la saco con los ojos cerrados! …¿Para qué la quieres, eh?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Bueno, el pedazo es tuyo. Pero si sangra, me llamas a mí, ¿eh?"
+      ]
+     ],
+     "questionTopics": [
+      "Indicaciones de biopsia en LES (KDIGO 2024)",
+      "Complicaciones y contraindicaciones de biopsia percutánea",
+      "Muestra adecuada: ML, IF, ME, ≥10 glomérulos",
+      "Indicaciones de re-biopsia"
+     ],
+     "n": 4
+    },
+    {
+     "id": "t_pato",
+     "cast": "pato",
+     "specialty": "Patología",
+     "intro": [
+      [
+       "Dra. Iris Hematoxilina",
+       "Me dicen que tienes una membranosa. ¿Primaria o lúpica?"
+      ],
+      [
+       "Dra. Iris Hematoxilina",
+       "Las laminillas no mienten… los residentes sí."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Iris Hematoxilina",
+       "Bien visto… Eosino, anota: este residente sí ve, no sólo memoriza."
+      ],
+      [
+       "Dra. Iris Hematoxilina",
+       "Toma, una lupa de verdad."
+      ]
+     ],
+     "questionTopics": [
+      "Membranosa lúpica vs primaria: IF full-house, IgG1/3 vs IgG4",
+      "PLA2R y EXT1/EXT2",
+      "Inclusiones tubulorreticulares"
+     ],
+     "n": 3
+    },
+    {
+     "id": "t_rival2",
+     "cast": "valeria",
+     "specialty": "Nefrología (rival)",
+     "intro": [
+      [
+       "Valeria",
+       "¡Ja! Me sé las seis clases de memoria: I, II, III, IV, V, VI."
+      ],
+      [
+       "Valeria",
+       "¡Y el índice de actividad es de 24!"
+      ],
+      [
+       "Valeria",
+       "…Pero no entiendo por qué la necrosis vale doble. ¿Me explicas? No, ¡peleemos!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Valeria",
+       "Ok… la necrosis rompe la pared capilar. Por eso pesa."
+      ],
+      [
+       "Valeria",
+       "No viene en mis tarjetas… voy a hacer una nueva."
+      ]
+     ],
+     "questionTopics": [
+      "Lesiones con peso x2 en actividad",
+      "Fisiopatología de necrosis fibrinoide y semilunas",
+      "Pronóstico con cronicidad alta"
+     ],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Súbdito I Invisible",
+     "type": "Inmunocomplejo",
+     "topic": "Clase I: depósitos mesangiales sólo por IF/ME"
+    },
+    {
+     "name": "Súbdito II Mesangial",
+     "type": "Celular",
+     "topic": "Clase II: ≥4 células mesangiales"
+    },
+    {
+     "name": "Súbdito III Focal",
+     "type": "Inmunocomplejo",
+     "topic": "Clase III: <50% de glomérulos"
+    },
+    {
+     "name": "Súbdito IV Difuso",
+     "type": "Inmunocomplejo",
+     "topic": "Clase IV: ≥50% de glomérulos"
+    },
+    {
+     "name": "Súbdito V Membranoso",
+     "type": "Inmunocomplejo",
+     "topic": "Clase V: subepiteliales >50% superficie en >50% glomérulos"
+    },
+    {
+     "name": "Súbdito VI Esclerótico",
+     "type": "Celular",
+     "topic": "Clase VI: ≥90% esclerosis global sin actividad"
+    },
+    {
+     "name": "Asa de Alambre",
+     "type": "Inmunocomplejo",
+     "topic": "Depósitos hialinos en índice de actividad"
+    },
+    {
+     "name": "Inclusión Tubulorreticular",
+     "type": "Molecular",
+     "topic": "Huella del IFN-α en endotelio por ME"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_pato",
+     "topic": "Lupa NIH: índices de actividad (24) y cronicidad (12) ISN/RPS 2018",
+     "text": [
+      [
+       "Microscopista Elena",
+       "Biopsia de Sofía: clase IV con V segmentaria. Actividad 12 de 24; cronicidad 3 de 12."
+      ],
+      [
+       "Microscopista Elena",
+       "Mucho por salvar, poca cicatriz. Hay que tratar intensamente, y ya."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "indices",
+     "title": "Lupa NIH: puntuar la biopsia de Sofía",
+     "items": [
+      "Hipercelularidad endocapilar x1 = 3",
+      "Neutrófilos/cariorrexis x1 = 2",
+      "Necrosis fibrinoide x2 = 1 → 2",
+      "Depósitos hialinos x1 = 2",
+      "Semilunas celulares/fibrocelulares x2 = 1 → 2",
+      "Inflamación intersticial x1 = 1",
+      "ACTIVIDAD = 12/24",
+      "Glomeruloesclerosis x1 = 1",
+      "Semilunas fibrosas x1 = 0",
+      "Atrofia tubular x1 = 1",
+      "Fibrosis intersticial x1 = 1",
+      "CRONICIDAD = 3/12"
+     ],
+     "pairs": [
+      [
+       "0",
+       "Ausente"
+      ],
+      [
+       "1",
+       "<25% de glomérulos"
+      ],
+      [
+       "2",
+       "25–50%"
+      ],
+      [
+       "3",
+       ">50%"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Un cráter fresco en la entrada: el sitio de la biopsia."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_pato",
+     "lines": [
+      [
+       "Dra. Iris Hematoxilina",
+       "EXT1/EXT2 positivo: membranosa asociada a autoinmunidad, sobre todo lupus."
+      ],
+      [
+       "Dra. Iris Hematoxilina",
+       "PLA2R positivo con IgG4: primaria."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_rival2",
+     "lines": [
+      [
+       "Narrador",
+       "Valeria saca una tarjeta en blanco. Escribe: '¿POR QUÉ?'"
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Ahora sabemos qué hay. Vamos a ver qué pasa cuando la pared se rompe."
+      ]
+     ]
+    }
+   ],
+   "card": "ISN/RPS 2018: se fueron A/C y S/G; llegaron los índices (Actividad 24, Cronicidad 12). N y S pesan doble. Full-house + C1q + tubulorreticulares = lúpica."
+  },
+  {
+   "id": "z9",
+   "name": "Cápsula de Bowman",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "intro": [
+    [
+     "Tú",
+     "La pared se rompió. La fibrina salió al espacio de Bowman."
+    ],
+    [
+     "Tú",
+     "Las células de la cápsula están formando un muro."
+    ],
+    [
+     "PEC Arrepentida",
+     "No quiero aplastar al glomérulo… pero la fibrina me grita '¡crece!'. Y no puedo parar."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "PEC Arrepentida",
+     "lines": [
+      [
+       "PEC Arrepentida",
+       "Fibrina, IL-1, IL-6 y PDGF nos hacen proliferar."
+      ],
+      [
+       "PEC Arrepentida",
+       "Semiluna: ≥10% de la circunferencia de la cápsula."
+      ],
+      [
+       "PEC Arrepentida",
+       "Celular: >75% células y fibrina. Fibrosa: >75% matriz. Fibrocelular: la mezcla."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Glomérulo Anciano",
+     "lines": [
+      [
+       "Glomérulo Anciano",
+       "Yo ya no tengo remedio, muchacho. Mi semiluna es de piedra."
+      ],
+      [
+       "Glomérulo Anciano",
+       "Salva a los jóvenes, mientras aún son células."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "Índice de cronicidad (Zona 8)"
+    },
+    {
+     "id": "npc3",
+     "name": "Brenn (Portal)",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Cuando un glomérulo cae, sus hermanos filtran más."
+      ],
+      [
+       "Sabio Brenn",
+       "Se cansan… y caen también. Así nace la esclerosis."
+      ],
+      [
+       "Sabio Brenn",
+       "Más presión y flujo por nefrona, hipertrofia, podocito estresado:"
+      ],
+      [
+       "Sabio Brenn",
+       "GEFS secundaria. Por eso iSRAA y presión estricta."
+      ],
+      [
+       "Sabio Brenn",
+       "Y considera iSGLT2 como nefroprotección en ERC, aun en remisión inmunológica."
+      ]
+     ],
+     "gift": null,
+     "recall": "Hiperfiltración adaptativa (Brenner) y progresión de ERC"
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_mi",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "intro": [
+      [
+       "Dr. Ernesto Holístico",
+       "Semilunas, ¿eh? ¿Descartaste ANCA, anti-MBG, endocarditis, crioglobulinas…? ¡Pelea!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Ernesto Holístico",
+       "Bueno, bueno… ya descartaste todo. Me rindo, pero que conste que lo pensé primero."
+      ]
+     ],
+     "questionTopics": [
+      "GNRP: IF lineal (anti-MBG), pauci-inmune (ANCA), granular (IC)",
+      "Superposición ANCA + NL",
+      "Inducción en NL con semilunas y TFGe en caída: CYC IV o MPAA + pulsos"
+     ],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Célula Parietal Furiosa",
+     "type": "Celular",
+     "topic": "Proliferación de PEC tras ruptura de MBG"
+    },
+    {
+     "name": "Fibrina Fugitiva",
+     "type": "Molecular",
+     "topic": "Fibrina en Bowman = ruptura de pared capilar"
+    },
+    {
+     "name": "Macrófago Medialuna",
+     "type": "Innato",
+     "topic": "Evolución celular → fibrocelular → fibrosa"
+    },
+    {
+     "name": "Semiluna Fibrosa",
+     "type": "Celular",
+     "topic": "Lesión crónica: puntúa en cronicidad, no responde a tratamiento"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_mi",
+     "topic": "Brújula Semilunar: semiluna celular reversible; fibrosa irreversible; tiempo = nefronas",
+     "text": [
+      [
+       "Dr. J.",
+       "Cada semana sin tratar, una semiluna celular puede volverse de piedra. Tiempo es nefronas."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "algoritmo",
+     "title": "Contrarreloj semilunar",
+     "items": [
+      "Ruptura de la pared capilar/MBG",
+      "Fibrina en el espacio de Bowman",
+      "Proliferación de células parietales + macrófagos",
+      "Semiluna celular (reversible)",
+      "Semiluna fibrocelular",
+      "Semiluna fibrosa (irreversible)",
+      "Pérdida de nefrona → hiperfiltración de las restantes"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Un reloj de arena aparece en la esquina."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_mi",
+     "lines": [
+      [
+       "Narrador",
+       "Una sombra gris cruza al fondo de la cápsula… y desaparece."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Abajo está el intersticio. Nadie lo mira… pero ahí se decide el pronóstico."
+      ]
+     ]
+    }
+   ],
+   "card": "Ruptura capilar → fibrina → PEC proliferan → semiluna (≥10% circunferencia). Celular = salvable; fibrosa = perdida. Nefronas perdidas → hiperfiltración → esclerosis."
+  },
+  {
+   "id": "z10",
+   "name": "Valle Tubulovascular",
+   "palette": [
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
+   ],
+   "tiles": "valle",
+   "intro": [
+    [
+     "Don Cepillo",
+     "Aquí abajo nadie nos mira, doctor. Todos ven al glomérulo."
+    ],
+    [
+     "Don Cepillo",
+     "Pero cuando nosotros morimos, el riñón no regresa."
+    ],
+    [
+     "Fibroblasto Tejedor",
+     "La inflamación me pide que teja."
+    ],
+    [
+     "Fibroblasto Tejedor",
+     "Si tejo mucho, todo se vuelve gris: fibrosis. No la puedo destejer."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Don Cepillo",
+     "lines": [
+      [
+       "Don Cepillo",
+       "La fibrosis intersticial y la atrofia tubular"
+      ],
+      [
+       "Don Cepillo",
+       "predicen la progresión a ERC con mucha fuerza."
+      ],
+      [
+       "Don Cepillo",
+       "La inflamación intersticial cuenta en actividad; la fibrosis y la atrofia, en cronicidad."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "Índices NIH (Zona 8)"
+    },
+    {
+     "id": "npc2",
+     "name": "Estructura Linfoide Terciaria",
+     "lines": [
+      [
+       "ELT",
+       "Soy un mini-ganglio dentro del riñón. Produzco autoanticuerpos aquí mismo."
+      ],
+      [
+       "ELT",
+       "Mi presencia se asocia a peor pronóstico."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "Centro germinal (Zona 4)"
+    },
+    {
+     "id": "npc3",
+     "name": "Fantasma de Elisa",
+     "lines": [
+      [
+       "Elisa",
+       "¿Tú también vienes del Dr. J.? Él trató mi lupus muy bien. Pero no vio esto."
+      ],
+      [
+       "Elisa",
+       "Mis arteriolas se taparon. No era sólo inflamación. Era coágulo."
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    },
+    {
+     "id": "npc4",
+     "name": "Obi",
+     "lines": [
+      [
+       "Obi",
+       "Soy Obinutuzumab, anti-CD20 tipo II."
+      ],
+      [
+       "Obi",
+       "Corto B en sangre y tejido, más hondo que mi tío Rituximab."
+      ],
+      [
+       "Obi",
+       "Mi tío se rompió en LUNAR; yo pasé NOBILITY y REGENCY."
+      ],
+      [
+       "Obi",
+       "Pero a las plasmáticas CD20 negativas no las alcanzo."
+      ],
+      [
+       "Obi",
+       "La FDA me aprobó para NL en octubre de 2025, después de la guía KDIGO 2024."
+      ]
+     ],
+     "gift": null,
+     "recall": "Plasmáticas CD20 negativas (Zonas 4 y 5)"
+    }
+   ],
+   "trainers": [
+    {
+     "id": "t_genta",
+     "cast": "genta",
+     "specialty": "Nefrotóxico: aminoglucósido",
+     "intro": [
+      [
+       "Genta Mycin",
+       "¡Ah, qué borde en cepillo tan hermoso!"
+      ],
+      [
+       "Genta Mycin",
+       "La paciente está inmunosuprimida y con fiebre: ¡me llamaron a mí!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Genta Mycin",
+       "¡Me corrieron del cepillo! ¡Hemo-Eterna me va a descontar el día!"
+      ]
+     ],
+     "questionTopics": [
+      "Aminoglucósidos: captación por megalina-cubilina en túbulo proximal",
+      "Dosis única diaria, ajuste a TFGe y niveles valle",
+      "Profilaxis contra Pneumocystis y vacunas en inmunosupresión"
+     ],
+     "n": 2
+    },
+    {
+     "id": "t_hema",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Dices MAT. ¿Contaste esquistocitos? ¿Cuántos por campo? Exijo números."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "Tus números son correctos. Eso es lo más bonito que puedo decirle a alguien."
+      ]
+     ],
+     "questionTopics": [
+      "Hemólisis microangiopática: esquistocitos, LDH, haptoglobina, plaquetas",
+      "Perfil antifosfolípido triple positivo",
+      "Warfarina vs ACOD en SAF",
+      "HCQ reduce trombosis"
+     ],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Estructura Linfoide Terciaria",
+     "type": "Humoral",
+     "topic": "Producción local de autoanticuerpo y pronóstico"
+    },
+    {
+     "name": "Fibroblasto Tejedor",
+     "type": "Celular",
+     "topic": "Fibrosis intersticial y atrofia tubular como predictores"
+    },
+    {
+     "name": "Plaqueta Coagulina",
+     "type": "Celular",
+     "topic": "Anticuerpos antifosfolípido: AL, aCL, anti-β2GPI"
+    },
+    {
+     "name": "Esquistocito Filoso",
+     "type": "Celular",
+     "topic": "Hemólisis microangiopática"
+    },
+    {
+     "name": "Mini-Genta",
+     "type": "Molecular",
+     "topic": "Toxicidad tubular proximal por aminoglucósidos"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t_hema",
+     "topic": "GIRO 3: MAT/SAF en NL cambia el tratamiento; buscar antifosfolípidos siempre",
+     "text": [
+      [
+       "Dr. J.",
+       "…Elisa. Le di pulsos y ciclofosfamida."
+      ],
+      [
+       "Dr. J.",
+       "Nunca pedí antifosfolípidos. Nunca vi la microangiopatía."
+      ],
+      [
+       "Dr. J.",
+       "Su riñón no se perdió por el lupus."
+      ],
+      [
+       "Dr. J.",
+       "Se perdió por lo que yo no busqué. Por eso existe esta máquina."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Lesiones vasculares en NL",
+     "items": [],
+     "pairs": [
+      [
+       "Depósitos inmunes vasculares",
+       "IC en pared arteriolar sin inflamación (la más frecuente)"
+      ],
+      [
+       "Vasculopatía necrosante no inflamatoria",
+       "Necrosis fibrinoide con depósitos, sin células inflamatorias"
+      ],
+      [
+       "Microangiopatía trombótica",
+       "Trombos de fibrina/plaquetas y esquistocitos"
+      ],
+      [
+       "Vasculitis verdadera",
+       "Infiltrado transmural; pensar ANCA"
+      ],
+      [
+       "Nefropatía por SAF",
+       "MAT aguda; hiperplasia fibrosa de íntima y atrofia cortical focal"
+      ]
+     ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "MAT en biopsia de NL: ¿qué la causa?",
+     "items": [
+      "Confirmar hemólisis microangiopática (esquistocitos, LDH, haptoglobina, plaquetas)",
+      "Anticuerpos antifosfolípido → SAF: anticoagulación con warfarina",
+      "ADAMTS13 <10% → PTT: recambio plasmático",
+      "Datos de MAT mediada por complemento → considerar bloqueo de C5",
+      "Tratar la NL subyacente en paralelo (KDIGO 2024)"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Escudos anti-CD20",
+     "items": [],
+     "pairs": [
+      [
+       "LUNAR",
+       "Rituximab: no superó placebo"
+      ],
+      [
+       "NOBILITY",
+       "41% vs 23% a 104 sem"
+      ],
+      [
+       "REGENCY",
+       "46.4% vs 33.1% a 76 sem"
+      ],
+      [
+       "AURORA 1",
+       "41% vs 23% a 52 sem"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Viento seco. Las arteriolas del norte están tapadas."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_genta",
+     "lines": [
+      [
+       "Tú",
+       "Si hay alternativa, sin aminoglucósido."
+      ],
+      [
+       "Tú",
+       "Y con esteroide en dosis alta: profilaxis contra Pneumocystis."
+      ]
+     ]
+    },
+    {
+     "trigger": "after_trainer:t_hema",
+     "lines": [
+      [
+       "Narrador",
+       "La arteriola de Elisa se destapa. Ella sonríe y se desvanece."
+      ],
+      [
+       "Dr. J.",
+       "Gracias, residente. …Ahora, sube. Te está esperando."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Lo que vas a enfrentar no es un monstruo."
+      ],
+      [
+       "Sabio Brenn",
+       "Es un guardián. Nació para cazar virus. Se equivocó de enemigo."
+      ],
+      [
+       "Sabio Brenn",
+       "No lo destruyas: no se puede. Calma su sed. Enséñale de nuevo. Eso se llama remisión."
+      ]
+     ]
+    }
+   ],
+   "card": "El intersticio predice el pronóstico; la MAT/SAF cambia el tratamiento (anticoagular, recambio o anti-C5 según la causa). Busca antifosfolípidos siempre."
+  }
+ ],
+ "boss": {
+  "name": "Lupus, el Defensor Corrompido",
+  "intro": [
+   [
+    "Lupus",
+    "Yo protegía a esta casa. Cazaba virus, ARN extraño, ADN invasor. ¿Por qué ahora me atacas?"
+   ],
+   [
+    "Tú",
+    "Porque ya no distingues. Disparas contra su propio núcleo."
+   ],
+   [
+    "Lupus",
+    "¡Mentira! ¡Siento ácidos nucleicos por todos lados! Si no disparo, ella muere."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Diagnóstico",
+    "lines": [
+     [
+      "Lupus",
+      "¿Me reconoces? Soy rosácea… soy GN postinfecciosa… soy membranosa primaria…"
+     ],
+     [
+      "Lupus",
+      "…Me viste. Pero ¿sabes de qué estoy hecho?"
+     ]
+    ],
+    "topics": [
+     "Biopsia renal (ML, IF, ME) con clase ISN/RPS e índices como paso indispensable",
+     "Anti-C1q: alto valor predictivo negativo",
+     "Complemento: postinfecciosa (C3 bajo, C4 normal) vs NL (ambos bajos)",
+     "Anticuerpos antifosfolípido siempre"
+    ]
+   },
+   {
+    "name": "Clase",
+    "lines": [
+     [
+      "Lupus",
+      "Mi armadura tiene seis placas. Elige la correcta… si puedes."
+     ],
+     [
+      "Lupus",
+      "Ya conoces mi forma. Pero no podrás calmarme: tengo mil manos."
+     ]
+    ],
+    "topics": [
+     "Clase IV + V: ≥50% glomérulos con lesión endocapilar + subepiteliales",
+     "Actividad 12/24 y cronicidad 3/12: tratar intensamente",
+     "Inclusiones tubulorreticulares = IFN tipo I",
+     "Por qué los subendoteliales proliferan: complemento, FcγR, neutrófilos/NET, mesangio"
+    ]
+   },
+   {
+    "name": "Tratamiento (KDIGO 2024)",
+    "lines": [
+     [
+      "Lupus",
+      "Mis manos: endosoma, linfocitos, BAFF, NFAT, CD20… ¿Cuál vas a calmar primero?"
+     ],
+     [
+      "Lupus",
+      "Mis manos… se duermen. El interferón ya no me grita. ¿Qué me está pasando?"
+     ]
+    ],
+    "topics": [
+     "Inducción III/IV ± V: GC + MPAA / CYC dosis baja / belimumab + (MPAA o CYC) / MPAA + CNI",
+     "Pulsos de metilprednisolona 0.25–0.5 g/d x1–3, luego prednisona 0.35–1 mg/kg/d (máx 80 mg) con reducción",
+     "Sofía: MPAA (mejor en hispanos, ALMS; sin toxicidad gonadal) ± belimumab o voclosporina (TFGe ≈54 > 45)",
+     "Voclosporina vs belimumab en triple terapia",
+     "HCQ a todos (≤5 mg/kg/d) y vigilancia retiniana",
+     "Anticoncepción antes de MPAA"
+    ]
+   },
+   {
+    "name": "La sombra en las gradas (Mantenimiento)",
+    "lines": [
+     [
+      "La Esclerosis",
+      "Bravo, residente. Lo calmaste. Pero yo no necesito brotes."
+     ],
+     [
+      "La Esclerosis",
+      "Me alimento de cada nefrona que ya perdiste."
+     ],
+     [
+      "La Esclerosis",
+      "Cada respuesta que falles, convierto una semiluna en piedra."
+     ],
+     [
+      "La Esclerosis",
+      "No importa. Siempre queda una nefrona cansada."
+     ],
+     [
+      "La Esclerosis",
+      "Nos veremos en el nivel 26, en la sala de las 300 preguntas."
+     ]
+    ],
+    "topics": [
+     "Respuesta completa: UPCR <0.5 g/g, TFGe estable, 6–12 meses; parcial: ↓≥50% y <3 g/g",
+     "Mantenimiento con MPAA; inmunosupresión total ≥36 meses (ALMS: MMF > AZA)",
+     "Falta de respuesta: adherencia, niveles de MPA, cronicidad (re-biopsia)",
+     "Nefroprotección: iSRAA, PA, iSGLT2",
+     "Trasplante como TRR preferida en ERC terminal",
+     "Normalización de C3/C4 y anti-ADNdc"
+    ]
+   }
+  ],
+  "outro": [
+   [
+    "Lupus",
+    "Estoy… tranquilo. No me fui. Sigo aquí, vigilando. Pero ya sé quién es de la casa."
+   ],
+   [
+    "Sabio Brenn",
+    "Eso es la remisión, hijo. No es victoria: es tregua."
+   ],
+   [
+    "Sabio Brenn",
+    "Y la tregua se cuida con años de mantenimiento."
+   ],
+   [
+    "Dr. J.",
+    "Lo hiciste. Viste lo que yo no vi. …Elisa estaría contenta."
+   ],
+   [
+    "Dr. J.",
+    "Ahora, ¿alguien quiere hablar de urato? ¿No? Bueno."
+   ],
+   [
+    "Sofía",
+    "Doctor, ¿me voy a curar? ¿Podré tener hijos?"
+   ],
+   [
+    "Tú",
+    "Vamos a controlar esto juntos. Con tratamiento, cuidado y un plan, sí se puede planear."
+   ],
+   [
+    "Valeria",
+    "Oye… hice una tarjeta nueva. Dice '¿por qué?' en grande. ¿Me ayudas a llenarla?"
+   ]
+  ]
+ },
+ "creatures": [
+  {
+   "id": "mac",
+   "name": "Mac Limpio",
+   "type": "Depurador",
+   "moves": [
+    {
+     "name": "Eferocitosis",
+     "type": "Depurador",
+     "drug_or_mechanism": "Fagocitosis silenciosa de apoptóticos vía C1q, MerTK y fosfatidilserina",
+     "power": 45
+    },
+    {
+     "name": "Opsonizar C1q",
+     "type": "Depurador",
+     "drug_or_mechanism": "C1q marca cuerpos apoptóticos para su retiro",
+     "power": 35
+    }
+   ],
+   "evolvesAt": 8,
+   "evoName": "Macrófago M2 Eferocítico"
+  },
+  {
+   "id": "neutra",
+   "name": "Neutra",
+   "type": "Fagocito",
+   "moves": [
+    {
+     "name": "Fagocitosis limpia",
+     "type": "Fagocito",
+     "drug_or_mechanism": "Fagocitosis sin NETosis",
+     "power": 40
+    },
+    {
+     "name": "NETosis (prohibida)",
+     "type": "Fagocito",
+     "drug_or_mechanism": "Libera NET: daña al enemigo pero genera IFN-I que lo cura",
+     "power": 70
+    }
+   ],
+   "evolvesAt": 10,
+   "evoName": "Neutrófilo Veterano"
+  },
+  {
+   "id": "bento",
+   "name": "Bento",
+   "type": "Humoral",
+   "moves": [
+    {
+     "name": "Anticuerpo neutralizante",
+     "type": "Humoral",
+     "drug_or_mechanism": "IgG contra antígeno extraño, tolerante a lo propio",
+     "power": 45
+    }
+   ],
+   "evolvesAt": 12,
+   "evoName": "Célula Plasmática Tolerante"
+  },
+  {
+   "id": "treg",
+   "name": "Tregúa",
+   "type": "Regulador",
+   "moves": [
+    {
+     "name": "Supresión",
+     "type": "Regulador",
+     "drug_or_mechanism": "Treg FOXP3+: IL-10, TGF-β, CTLA-4; frena Tfh y Th17",
+     "power": 40
+    },
+    {
+     "name": "Banquete de IL-2",
+     "type": "Regulador",
+     "drug_or_mechanism": "IL-2 a dosis baja expande Treg (CD25 alta afinidad); en investigación",
+     "power": 55
+    }
+   ],
+   "evolvesAt": 5,
+   "evoName": "Treg FOXP3+ (luego Guardián IL-2)"
+  },
+  {
+   "id": "mmf",
+   "name": "MMF-01",
+   "type": "Antimetabolito",
+   "moves": [
+    {
+     "name": "Bloqueo IMPDH",
+     "type": "Antimetabolito",
+     "drug_or_mechanism": "Micofenolato: inhibe IMPDH, sin guanina de novo no proliferan T/B",
+     "power": 60
+    },
+    {
+     "name": "Freno mesangial",
+     "type": "Antimetabolito",
+     "drug_or_mechanism": "MPA reduce proliferación mesangial",
+     "power": 40
+    }
+   ],
+   "evolvesAt": 9,
+   "evoName": "MPA-02 (ácido micofenólico)"
+  },
+  {
+   "id": "hcq",
+   "name": "Paraguas HCQ",
+   "type": "Endosomal",
+   "moves": [
+    {
+     "name": "Alcalinizar endosoma",
+     "type": "Endosomal",
+     "drug_or_mechanism": "Hidroxicloroquina sube pH lisosomal: apaga TLR7/9",
+     "power": 50
+    },
+    {
+     "name": "Sombra antitrombótica",
+     "type": "Endosomal",
+     "drug_or_mechanism": "HCQ reduce brotes y trombosis en LES con aPL",
+     "power": 30
+    }
+   ],
+   "evolvesAt": 6,
+   "evoName": "Paraguas Lisosomal"
+  },
+  {
+   "id": "voclo",
+   "name": "Voclosporina",
+   "type": "Podoprotector",
+   "moves": [
+    {
+     "name": "Silencio NFAT",
+     "type": "Podoprotector",
+     "drug_or_mechanism": "Inhibe calcineurina en T: sin NFAT no hay IL-2 ni ayuda a B",
+     "power": 55
+    },
+    {
+     "name": "Cuerda de sinaptopodina",
+     "type": "Podoprotector",
+     "drug_or_mechanism": "Evita desfosforilación de sinaptopodina y su degradación por catepsina L",
+     "power": 60
+    }
+   ],
+   "evolvesAt": 11,
+   "evoName": "Voclosporina Guardiana (TFGe >45)"
+  },
+  {
+   "id": "beli",
+   "name": "Beli",
+   "type": "Anti-citocina",
+   "moves": [
+    {
+     "name": "Atrapa-BAFF",
+     "type": "Anti-citocina",
+     "drug_or_mechanism": "Belimumab neutraliza BAFF soluble: mueren B autorreactivos",
+     "power": 55
+    }
+   ],
+   "evolvesAt": 10,
+   "evoName": "Beli Reina"
+  },
+  {
+   "id": "obi",
+   "name": "Obi",
+   "type": "Depletor",
+   "moves": [
+    {
+     "name": "Corte CD20 tipo II",
+     "type": "Depletor",
+     "drug_or_mechanism": "Obinutuzumab glicoingenierizado: más ADCC y muerte directa que rituximab",
+     "power": 70
+    }
+   ],
+   "evolvesAt": 14,
+   "evoName": "Obi Maestro"
+  },
+  {
+   "id": "ciclon",
+   "name": "Ciclón",
+   "type": "Alquilante",
+   "moves": [
+    {
+     "name": "Tormenta Euro-Lupus",
+     "type": "Alquilante",
+     "drug_or_mechanism": "Ciclofosfamida IV 500 mg c/2 sem x6; cuesta fertilidad",
+     "power": 75
+    }
+   ],
+   "evolvesAt": 13,
+   "evoName": "Huracán Ciclón"
+  },
+  {
+   "id": "ani",
+   "name": "Ani (bloqueada)",
+   "type": "Anti-citocina",
+   "moves": [
+    {
+     "name": "Cerrar IFNAR",
+     "type": "Anti-citocina",
+     "drug_or_mechanism": "Anifrolumab bloquea IFNAR1; aprobado en LES, no en NL (verificar fase 3)",
+     "power": 60
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Ani Despierta"
+  }
+ ],
+ "typeChart": {
+  "Endosomal": {
+   "Innato": 1.5,
+   "Molecular": 1.5,
+   "Complemento": 0.5
+  },
+  "Antimetabolito": {
+   "Celular": 1.5,
+   "Humoral": 1.5
+  },
+  "Anti-citocina": {
+   "Humoral": 1.5,
+   "Molecular": 1.5,
+   "Inmunocomplejo": 0.5
+  },
+  "Depletor": {
+   "Humoral": 1.5,
+   "Inmunocomplejo": 0.5
+  },
+  "Podoprotector": {
+   "Celular": 1.5,
+   "Complemento": 1.5
+  },
+  "Alquilante": {
+   "Celular": 1.5,
+   "Humoral": 1.5
+  },
+  "Regulador": {
+   "Celular": 1.5,
+   "Inmunocomplejo": 0.5
+  },
+  "Depurador": {
+   "Inmunocomplejo": 1.5,
+   "Molecular": 1.5,
+   "Complemento": 0.5
+  },
+  "Fagocito": {
+   "Innato": 1.5,
+   "Inmunocomplejo": 1.0,
+   "Complemento": 0.5
+  },
+  "Humoral": {
+   "Molecular": 1.0
+  }
+ },
+ "shields": [
+  {
+   "trial": "Euro-Lupus",
+   "mnemonic": "Un billete de 500, cada quincena, seis veces = 3 g.",
+   "result": "CYC IV dosis baja (500 mg c/2 sem x6) igual de eficaz que dosis alta, con menos infecciones (Houssiau 2002)."
+  },
+  {
+   "trial": "ALMS",
+   "mnemonic": "Las almas empatan en inducción; en mantenimiento gana MMF.",
+   "result": "Inducción: respuesta 56% MMF vs 53% CYC IV a 24 sem; mantenimiento: falla 16% MMF vs 32% AZA."
+  },
+  {
+   "trial": "BLISS-LN",
+   "mnemonic": "B de BAFF, Belimumab y BLISS: dos años de dicha, 4-3 le gana al 3-2.",
+   "result": "Respuesta renal de eficacia primaria 43% vs 32% a 104 semanas, añadido a MMF o CYC dosis baja."
+  },
+  {
+   "trial": "AURORA 1",
+   "mnemonic": "Aurora = amanecer = 1 año. Marcador 41-23.",
+   "result": "Respuesta renal completa 41% vs 23% a 52 sem con voclosporina + MMF + esteroide reducido."
+  },
+  {
+   "trial": "NOBILITY",
+   "mnemonic": "La nobleza copió el marcador de la Aurora: gemelos 41-23, a 104 semanas.",
+   "result": "Obinutuzumab + estándar: respuesta renal completa 41% vs 23% a 104 semanas (fase 2)."
+  },
+  {
+   "trial": "REGENCY",
+   "mnemonic": "La Regencia dura 76.",
+   "result": "Obinutuzumab: respuesta renal completa 46.4% vs 33.1% a 76 semanas (fase 3); aprobación FDA oct-2025."
+  },
+  {
+   "trial": "LUNAR",
+   "mnemonic": "La luna se rompió; el Obi tipo II sí cortó.",
+   "result": "Rituximab no superó a placebo en NL proliferativa (escudo roto)."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "C1q",
+   "text": "Héroe y verdugo. Su deficiencia homocigota causa LES en más del 90% porque no se depuran apoptóticos. En el depósito renal se une a IgG1/IgG3 e inicia la vía clásica. Anti-C1q se asocia a NL activa; negativo tiene alto valor predictivo negativo."
+  },
+  {
+   "title": "DNASE1L3",
+   "text": "DNasa secretada que corta ADN dentro de micropartículas apoptóticas. Variantes de pérdida de función causan LES familiar de inicio temprano con anti-ADNdc y nefritis. Mnemotecnia: L3 = Lupus 3 veces: temprano, familiar, renal."
+  },
+  {
+   "title": "TREX1 y cGAS-STING",
+   "text": "TREX1 degrada ADN citosólico. Si falla, cGAS produce cGAMP, activa STING, TBK1 e IRF3, y se libera IFN-β. Causa lupus sabañón familiar y síndrome de Aicardi-Goutières."
+  },
+  {
+   "title": "TLR7",
+   "text": "Sensor endosomal de ARN; su gen está en el cromosoma X y escapa a la inactivación en algunas células, lo que eleva su dosis en mujeres. La ganancia de función Y264H causa LES e impulsa B extrafoliculares CD11c+ T-bet+."
+  },
+  {
+   "title": "pDC e interferón tipo I",
+   "text": "La pDC capta inmunocomplejos con ácidos nucleicos por FcγRIIA, activa TLR7/9 e IRF7/IRF5 y produce IFN-α masivo. El IFN madura DC, sube BAFF y empuja B a plasmablasto. Huella en ME: inclusiones tubulorreticulares."
+  },
+  {
+   "title": "BAFF / APRIL",
+   "text": "BAFF se une a BAFF-R, TACI y BCMA; APRIL sólo a TACI y BCMA. BAFF elevado rescata B transicionales autorreactivos. Belimumab neutraliza BAFF soluble (BLISS-LN)."
+  },
+  {
+   "title": "Tfh, Treg e IL-2",
+   "text": "Tfh (CXCR5, PD-1, ICOS, IL-21, CD40L) sostienen centros germinales que generan IgG anti-ADNdc de alta afinidad. Las T del LES producen poca IL-2 y las Treg fallan; IL-2 a dosis baja está en investigación."
+  },
+  {
+   "title": "NET y neutrófilos de baja densidad",
+   "text": "Las NET exponen ADN, histonas y LL-37; activan pDC y dañan endotelio. Inhibidores de DNasa1 y anticuerpos anti-NET impiden degradarlas. Los LDG hacen NETosis exagerada con ADN mitocondrial oxidado."
+  },
+  {
+   "title": "Sitio del depósito",
+   "text": "Depende de tamaño, carga, avidez, cantidad y siembra in situ. Grandes: mesangial y subendotelial, expuestos a la circulación, proliferativos (III/IV). Pequeños o catiónicos: subepitelial, daño por MAC al podocito (V)."
+  },
+  {
+   "title": "Formación in situ",
+   "text": "Nucleosomas catiónicos se pegan a la MBG aniónica; la DNasa1 renal se apaga y la cromatina queda retenida. Algunos anti-ADNdc cruzan con α-actinina-4 y otros antígenos glomerulares."
+  },
+  {
+   "title": "Podocitopatía lúpica",
+   "text": "Borramiento difuso de procesos podales sin depósitos subendoteliales ni subepiteliales, con patrón de cambios mínimos o GEFS. KDIGO 2024: se maneja como enfermedad de cambios mínimos."
+  },
+  {
+   "title": "Índices NIH modificados (ISN/RPS 2018)",
+   "text": "Actividad máx 24: hipercelularidad endocapilar, neutrófilos/cariorrexis, necrosis fibrinoide x2, depósitos hialinos, semilunas celulares/fibrocelulares x2, inflamación intersticial. Cronicidad máx 12: glomeruloesclerosis, semilunas fibrosas, atrofia tubular, fibrosis intersticial."
+  },
+  {
+   "title": "Membranosa lúpica vs primaria",
+   "text": "Lúpica: full-house con C1q, IgG1/IgG3, depósitos mesangiales y subendoteliales asociados, inclusiones tubulorreticulares, EXT1/EXT2 frecuente, PLA2R usualmente negativo. Primaria: IgG4, PLA2R positivo, sólo subepitelial."
+  },
+  {
+   "title": "Lesiones vasculares en NL",
+   "text": "Depósitos inmunes vasculares, vasculopatía necrosante no inflamatoria, microangiopatía trombótica, vasculitis verdadera y nefropatía por SAF. Siempre buscar antifosfolípidos: el SAF trombótico triple positivo requiere warfarina."
+  },
+  {
+   "title": "Inducción KDIGO 2024 (III/IV ± V)",
+   "text": "Glucocorticoide más uno de: MPAA; CYC IV dosis baja; belimumab con MPAA o CYC; MPAA con CNI si la función renal no está muy deteriorada (voclosporina con TFGe >45). Hidroxicloroquina a todos salvo contraindicación."
+  },
+  {
+   "title": "Mantenimiento y respuesta",
+   "text": "MPAA preferido; inmunosupresión total al menos 36 meses. Respuesta completa: UPCR <0.5 g/g con TFGe estable en 6–12 meses. Parcial: caída de proteinuria ≥50% y <3 g/g."
+  },
+  {
+   "title": "Nefroprotección",
+   "text": "Nefronas perdidas hacen hiperfiltrar a las restantes y llevan a esclerosis. iSRAA y control estricto de PA; iSGLT2 como nefroprotección en ERC con evidencia indirecta en NL. En ERC terminal, el trasplante es la terapia preferida."
+  },
+  {
+   "title": "Embarazo y NL",
+   "text": "Planear con NL inactiva al menos 6 meses. Suspender micofenolato al menos 6 semanas antes (cambiar a azatioprina). Continuar hidroxicloroquina y añadir aspirina a dosis baja. Brote vs preeclampsia: sedimento activo, C3/C4 bajos y anti-ADNdc alto orientan a brote."
+  }
+ ]
+}

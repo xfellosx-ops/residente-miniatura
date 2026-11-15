@@ -1,0 +1,1448 @@
+{
+ "pasto": [
+  {
+   "id": "P2-1",
+   "vf": true,
+   "enunciado": "Las mutaciones con pérdida de función de TREX1 acumulan ADN citosólico, activan cGAS-STING y causan lupus sabañón familiar.",
+   "clave": "V",
+   "exp": "TREX1 es una exonucleasa 3'→5' que degrada ADN citosólico; su déficit activa cGAS-STING-IRF3 e IFN tipo I (interferonopatía: lupus sabañón, Aicardi-Goutières, LES).",
+   "tema": "Genética del LES",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-2",
+   "vf": true,
+   "enunciado": "Una variante de ganancia de función de TLR7 (Y264H) se describió como causa monogénica de LES en humanos.",
+   "clave": "V",
+   "exp": "Brown et al. (Nature 2022): TLR7 Y264H aumenta la afinidad por guanosina, la supervivencia de linfocitos B autorreactivos y el desarrollo de células B asociadas a la edad.",
+   "tema": "Genética del LES",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-3",
+   "vf": true,
+   "enunciado": "TLR7 está en el cromosoma X y escapa parcialmente a la inactivación, lo que contribuye al predominio femenino y al mayor riesgo en el síndrome de Klinefelter.",
+   "clave": "V",
+   "exp": "La dosis génica de TLR7 es mayor en células XX y XXY; los varones 47,XXY tienen un riesgo de LES similar al de las mujeres.",
+   "tema": "Genética del LES",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-4",
+   "vf": true,
+   "enunciado": "La deficiencia homocigota de C2 confiere un riesgo de LES mayor que la deficiencia de C1q.",
+   "clave": "F",
+   "exp": "Jerarquía de riesgo: C1q (~90 %) > C4 (~75 %) > C2 (~10–30 %). La deficiencia de C2 es la más frecuente, pero la menos penetrante.",
+   "tema": "Complemento",
+   "nivel": "facil"
+  },
+  {
+   "id": "P2-5",
+   "vf": true,
+   "enunciado": "FcγRIIB es un receptor activador; su pérdida de función reduce el riesgo de LES.",
+   "clave": "F",
+   "exp": "FcγRIIB es el único receptor Fcγ inhibidor (ITIM). Su pérdida de función (p. ej., I232T) eleva el umbral de tolerancia de B y aumenta el riesgo de LES.",
+   "tema": "Receptores Fc",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-6",
+   "vf": true,
+   "enunciado": "En el índice de actividad NIH modificado (máximo 24), la necrosis fibrinoide y las semilunas celulares o fibrocelulares cuentan doble.",
+   "clave": "V",
+   "exp": "Seis parámetros de 0–3; necrosis y semilunas celulares/fibrocelulares se multiplican ×2: total 24.",
+   "tema": "Índices NIH",
+   "nivel": "facil"
+  },
+  {
+   "id": "P2-7",
+   "vf": true,
+   "enunciado": "En la revisión ISN/RPS 2018, las semilunas fibrocelulares suman al índice de cronicidad.",
+   "clave": "F",
+   "exp": "Las fibrocelulares suman a ACTIVIDAD junto con las celulares; solo las fibrosas suman a cronicidad (máximo 12).",
+   "tema": "Índices NIH",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-8",
+   "vf": true,
+   "enunciado": "En el ensayo MAINTAIN, el micofenolato fue superior a la azatioprina para prevenir recaídas renales tras inducción Euro-Lupus.",
+   "clave": "F",
+   "exp": "MAINTAIN (Houssiau 2010) no encontró diferencias en el tiempo a la recaída renal entre MMF y AZA (~20 % de recaídas a 36 meses).",
+   "tema": "Ensayos clínicos",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-9",
+   "vf": true,
+   "enunciado": "En la fase de mantenimiento de ALMS, el micofenolato superó a la azatioprina en el fracaso compuesto (16 % vs 32 %).",
+   "clave": "V",
+   "exp": "Dooley 2011: MMF 2 g/día fue superior a AZA 2 mg/kg/día en tiempo a fracaso del tratamiento (16.4 % vs 32.4 %).",
+   "tema": "Ensayos clínicos",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-10",
+   "vf": true,
+   "enunciado": "La voclosporina no se recomienda si la TFGe basal es ≤45 mL/min/1.73 m².",
+   "clave": "V",
+   "exp": "Esos pacientes fueron excluidos de AURA-LV y AURORA 1; KDIGO 2024 no la recomienda en ese escenario.",
+   "tema": "Fármacos",
+   "nivel": "facil"
+  },
+  {
+   "id": "P2-11",
+   "vf": true,
+   "enunciado": "KDIGO 2024 aconseja posponer el embarazo al menos 6 meses después de que la NL quede inactiva.",
+   "clave": "V",
+   "exp": "Evitar embarazo con NL activa, con fármacos teratógenos y durante ≥6 meses tras la inactividad renal.",
+   "tema": "Embarazo",
+   "nivel": "facil"
+  },
+  {
+   "id": "P2-12",
+   "vf": true,
+   "enunciado": "En el SAF trombótico con triple positividad, los anticoagulantes orales directos son la alternativa preferida a la warfarina.",
+   "clave": "F",
+   "exp": "TRAPS (rivaroxabán) se suspendió por más eventos; KDIGO 2024: warfarina a largo plazo y no ACOD en la nefropatía por SAF.",
+   "tema": "SAF",
+   "nivel": "facil"
+  },
+  {
+   "id": "P2-13",
+   "vf": true,
+   "enunciado": "La podocitopatía lúpica se trata como enfermedad de cambios mínimos: responde a glucocorticoides, pero recae con frecuencia.",
+   "clave": "V",
+   "exp": "Clase I/II con síndrome nefrótico y borramiento difuso en ME. KDIGO 2024 sugiere un segundo agente (MPAA, AZA o CNI) si hay recaídas.",
+   "tema": "Podocitopatía",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-14",
+   "vf": true,
+   "enunciado": "En BLISS-LN, el beneficio de belimumab fue mayor en pacientes con proteinuria nefrótica (UPCR ≥3 g/g).",
+   "clave": "F",
+   "exp": "En el análisis post hoc, el beneficio se concentró en proteinuria <3 g/g y en el grupo con MMF de fondo.",
+   "tema": "Ensayos clínicos",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-15",
+   "vf": true,
+   "enunciado": "El obinutuzumab es un anti-CD20 tipo II glicoingenierizado: mayor ADCC y muerte celular directa, menor citotoxicidad por complemento que el rituximab.",
+   "clave": "V",
+   "exp": "La defucosilación de Fc aumenta la unión a FcγRIIIa: la depleción B en tejido es más profunda que con el rituximab (tipo I).",
+   "tema": "Fármacos",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-16",
+   "enunciado": "¿Qué fármaco bloquea a la vez BAFF y APRIL?",
+   "opciones": {
+    "A": "Telitacicept, fusión TACI-Fc soluble",
+    "B": "Anifrolumab, anticuerpo anti-IFNAR1",
+    "C": "Obinutuzumab, anticuerpo anti-CD20",
+    "D": "Belimumab, anticuerpo anti-BLyS soluble"
+   },
+   "clave": "A",
+   "exp": "TACI-Fc (telitacicept, atacicept) atrapa BAFF y APRIL; el belimumab solo neutraliza BAFF soluble.",
+   "tema": "Fármacos",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-17",
+   "enunciado": "¿Cuál es el blanco del anifrolumab?",
+   "opciones": {
+    "A": "BDCA2 de las células dendríticas pDC",
+    "B": "Subunidad 1 del receptor de IFN tipo I",
+    "C": "IFN-α circulante, sin bloquear al IFN-β",
+    "D": "Receptor de IL-6 soluble y de membrana"
+   },
+   "clave": "B",
+   "exp": "Bloquea IFNAR1 y con ello la señal de todos los IFN tipo I (TULIP-2). Anti-BDCA2 es el litifilimab; anti-IFN-α, el sifalimumab.",
+   "tema": "Fármacos",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-18",
+   "enunciado": "¿Qué sensor citosólico de ADN activa la vía STING?",
+   "opciones": {
+    "A": "RIG-I en el citoplasma",
+    "B": "MDA5 en el citoplasma",
+    "C": "cGAS, GMP-AMP sintasa cíclica",
+    "D": "TLR9 en el endosoma de las pDC"
+   },
+   "clave": "C",
+   "exp": "cGAS une ADN de doble cadena citosólico, produce cGAMP y activa STING-TBK1-IRF3. TLR9 detecta ADN en el endosoma; RIG-I y MDA5 detectan ARN.",
+   "tema": "IFN tipo I",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-19",
+   "enunciado": "¿Qué factor de transcripción define a las células T foliculares cooperadoras (Tfh)?",
+   "opciones": {
+    "A": "T-bet",
+    "B": "GATA3",
+    "C": "FOXP3",
+    "D": "BCL6"
+   },
+   "clave": "D",
+   "exp": "Tfh: BCL6+, CXCR5+, PD-1+, ICOS+ y secretan IL-21; impulsan el centro germinal y la producción de autoanticuerpos.",
+   "tema": "Tfh",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-20",
+   "enunciado": "¿La menor actividad de qué enzima sérica impide degradar las NET en un subgrupo de pacientes con NL?",
+   "opciones": {
+    "A": "Desoxirribonucleasa I sérica",
+    "B": "Peptidil-arginina deiminasa 4",
+    "C": "Mieloperoxidasa neutrofílica",
+    "D": "Elastasa neutrofílica"
+   },
+   "clave": "A",
+   "exp": "Hakkim (PNAS 2010): inhibidores de DNasa I o anticuerpos anti-NET impiden degradarlas, y esto se asocia con NL. PAD4, MPO y elastasa participan en formarlas.",
+   "tema": "NET",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-21",
+   "enunciado": "Esquema Euro-Lupus de ciclofosfamida:",
+   "opciones": {
+    "A": "750 mg/m² IV c/3 semanas × 8",
+    "B": "500 mg IV cada 2 semanas × 6",
+    "C": "0.5–1 g/m² IV mensual × 6 meses",
+    "D": "1–1.5 mg/kg/día VO por 3 meses"
+   },
+   "clave": "B",
+   "exp": "Euro-Lupus (Houssiau 2002) tiene eficacia similar al esquema NIH con menos toxicidad; se estudió sobre todo en población blanca europea.",
+   "tema": "Ensayos clínicos",
+   "nivel": "facil"
+  },
+  {
+   "id": "P2-22",
+   "enunciado": "¿Qué resultado corresponde a AURORA 1 (voclosporina)?",
+   "opciones": {
+    "A": "Respuesta 56 % vs 53 % a la semana 24",
+    "B": "RRC 46 % vs 33 % a la semana 76",
+    "C": "RRC 41 % vs 23 % a la semana 52",
+    "D": "PERR 43 % vs 32 % a la semana 104"
+   },
+   "clave": "C",
+   "exp": "AURORA 1: respuesta renal completa (RRC) 41 % vs 23 % (OR 2.65). 46/33 = REGENCY; 43/32 = BLISS-LN; 56/53 = ALMS (inducción).",
+   "tema": "Ensayos clínicos",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-23",
+   "enunciado": "¿Qué mostró la fase de inducción del ALMS?",
+   "opciones": {
+    "A": "Fin anticipado por infecciones con MMF",
+    "B": "MMF superior a CFM IV en toda etnia",
+    "C": "CFM IV superior a MMF en afroamericanos",
+    "D": "MMF no superior a CFM IV a 24 semanas"
+   },
+   "clave": "D",
+   "exp": "Respuesta 56.2 % vs 53.0 %, sin superioridad. En el análisis post hoc, pacientes negros e hispanos respondieron mejor al MMF.",
+   "tema": "Ensayos clínicos",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-24",
+   "enunciado": "¿Qué autoanticuerpo tiene el mayor valor predictivo negativo para NL activa?",
+   "opciones": {
+    "A": "Anticuerpos anti-C1q",
+    "B": "Anticuerpos anti-Sm",
+    "C": "Anti-P ribosomal (anti-P)",
+    "D": "Anticuerpos anti-histona"
+   },
+   "clave": "A",
+   "exp": "Sin anti-C1q es muy improbable una NL activa. Anti-Sm: específico, pero no sigue la actividad; anti-P: neuropsiquiátrico; anti-histona: lupus inducido.",
+   "tema": "Serología",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-25",
+   "enunciado": "Umbral de hipercelularidad mesangial de la ISN/RPS 2018:",
+   "opciones": {
+    "A": "≥3 núcleos por área mesangial",
+    "B": "4 o más núcleos por área mesangial",
+    "C": "Al menos 5 núcleos por área mesangial",
+    "D": "Al menos 6 núcleos por área mesangial"
+   },
+   "clave": "B",
+   "exp": "La revisión 2018 la definió como ≥4 núcleos por área mesangial, sin contar la región del hilio.",
+   "tema": "Histología",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-26",
+   "enunciado": "Según la ISN/RPS 2018, una lesión extracapilar es semiluna si abarca:",
+   "opciones": {
+    "A": "Más del 25 % de la cápsula",
+    "B": "Cualquier parte de la cápsula",
+    "C": "Más del 10 % de la cápsula",
+    "D": "Más del 50 % de la circunferencia"
+   },
+   "clave": "C",
+   "exp": "Más del 10 % de la cápsula de Bowman. Celular: >75 % células y fibrina; fibrosa: >75 % matriz; fibrocelular: intermedia.",
+   "tema": "Histología",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-27",
+   "enunciado": "Ajuste de hidroxicloroquina según KDIGO 2024 en TFGe <30:",
+   "opciones": {
+    "A": "Suspenderla de forma definitiva",
+    "B": "Mantener 5 mg/kg sin cambios",
+    "C": "Pasar a dosis por superficie corporal",
+    "D": "Reducir la dosis al menos un 25 %"
+   },
+   "clave": "D",
+   "exp": "Dosis ≤5 mg/kg/día de peso real; con TFGe <30, reducir ≥25 %. Dosis de 2–3 mg/kg pueden ser insuficientes.",
+   "tema": "Fármacos",
+   "nivel": "facil"
+  },
+  {
+   "id": "P2-28",
+   "enunciado": "¿Cuándo debe iniciarse el ácido acetilsalicílico en dosis baja en una embarazada con NL?",
+   "opciones": {
+    "A": "Antes de la semana 16 de gestación",
+    "B": "Solo si hay anticuerpos aPL",
+    "C": "Después de la semana 20 de gestación",
+    "D": "Solo en el tercer trimestre"
+   },
+   "clave": "A",
+   "exp": "KDIGO 2024: AAS en dosis baja antes de la semana 16 para reducir el riesgo de preeclampsia, en toda paciente con NL.",
+   "tema": "Embarazo",
+   "nivel": "facil"
+  },
+  {
+   "id": "P2-29",
+   "enunciado": "Madre anti-Ro positiva con un hijo previo con bloqueo AV congénito. ¿Qué medida reduce la recurrencia?",
+   "opciones": {
+    "A": "Inmunoglobulina IV mensual",
+    "B": "Hidroxicloroquina 400 mg/día",
+    "C": "Plasmaféresis desde la semana 12",
+    "D": "Dexametasona profiláctica"
+   },
+   "clave": "B",
+   "exp": "PATCH (Izmirly 2020): HCQ redujo la recurrencia a ~7.4 % (histórico ~18 %). La IgIV (PITCH) no previno el bloqueo.",
+   "tema": "Embarazo",
+   "nivel": "moderada"
+  },
+  {
+   "id": "P2-30",
+   "enunciado": "Esteroides en dosis reducida (KDIGO 2024): ¿prednisona en las semanas 11–12?",
+   "opciones": {
+    "A": "10 mg/día",
+    "B": "7.5 mg/día",
+    "C": "5 mg/día",
+    "D": "20 mg/día"
+   },
+   "clave": "C",
+   "exp": "Semanas 0–2: 0.5–0.6 mg/kg (máx 40); 5–6: 15 mg; 7–8: 10 mg; 9–10: 7.5 mg; 11–12: 5 mg; 13–24: 2.5 mg.",
+   "tema": "Fármacos",
+   "nivel": "moderada"
+  }
+ ],
+ "puertas": [
+  {
+   "id": "K2-1",
+   "tema": "Indicación de biopsia",
+   "enunciado": "Mujer de 22 años con LES y artritis. Creatinina 0.7 mg/dL, UPCR 0.6 g/g en dos muestras, 8 % de acantocitos y un cilindro eritrocitario. C3 bajo y anti-ADNdc positivo. ¿Cuál es la conducta?",
+   "opciones": {
+    "A": "Solicitar biopsia renal con microscopía, IF y ME",
+    "B": "Medir anti-C1q y tratar solo si es positivo",
+    "C": "Aumentar la HCQ y repetir el sedimento en 3 meses",
+    "D": "Vigilar y repetir la UPCR cuando supere 1 g/g",
+    "E": "Iniciar micofenolato empírico sin biopsia previa"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Proteinuria ≥0.5 g/día (o UPCR equivalente) con sedimento activo es indicación de biopsia; la función normal no la excluye.",
+    "B": "El anti-C1q sigue la actividad, pero no sustituye a la clase histológica.",
+    "C": "Retrasar 3 meses con sedimento activo permite progresar a lesión crónica.",
+    "D": "No hay umbral de 1 g/g: con ≥0.5 g/día y sedimento activo ya está indicada la biopsia.",
+    "E": "El tratamiento depende de la clase y de los índices; sin tejido podría tratarse en exceso una clase II."
+   },
+   "perla": "LES + UPCR ≥0.5 g/g o sedimento activo (≥5 % acantocitos, cilindros) o ↓TFG inexplicada → biopsia.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 60
+  },
+  {
+   "id": "K2-2",
+   "tema": "Clasificación ISN/RPS",
+   "enunciado": "Biopsia con 30 glomérulos: 12 (40 %) con hipercelularidad endocapilar y depósitos subendoteliales; depósitos subepiteliales globales en más del 50 % de las asas de la mayoría de los glomérulos. ¿Cuál es la clase?",
+   "opciones": {
+    "A": "Clase IV, porque el depósito subepitelial suma glomérulos",
+    "B": "Clase IV con V, porque coexiste el componente membranoso",
+    "C": "Clase III con V, que se trata como NL proliferativa",
+    "D": "Clase V pura, porque domina el depósito subepitelial",
+    "E": "Clase III pura; el depósito subepitelial no se clasifica"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "El porcentaje de la III/IV se calcula con las lesiones endocapilares o extracapilares, no con los depósitos subepiteliales.",
+    "B": "La IV requiere ≥50 % de glomérulos afectados; aquí hay 40 %.",
+    "C": "<50 % de glomérulos con lesión endocapilar = III; el depósito subepitelial extenso añade V. La III + V se trata como proliferativa.",
+    "D": "La proliferación endocapilar descarta la clase V pura.",
+    "E": "El componente membranoso extenso sí se informa como clase combinada."
+   },
+   "perla": "III <50 %, IV ≥50 % de glomérulos; III/IV + V se trata como III/IV.",
+   "referencias": [
+    "Bajema IM, et al. Kidney Int 2018;93:789-796 (ISN/RPS 2018)",
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 60
+  },
+  {
+   "id": "K2-3",
+   "tema": "Índice de actividad",
+   "enunciado": "Hipercelularidad endocapilar en >50 % de los glomérulos; cariorrexis en <25 %; necrosis fibrinoide en <25 %; asas de alambre en 25–50 %; semilunas celulares en <25 %; inflamación intersticial en 25–50 %. ¿Índice de actividad?",
+   "opciones": {
+    "A": "9 de 24, sin aplicar las ponderaciones",
+    "B": "10 de 24, al duplicar solo las semilunas",
+    "C": "14 de 24, al duplicar también la inflamación",
+    "D": "16 de 24, al duplicar asas y endocapilar",
+    "E": "12 de 24, con necrosis y semilunas al doble"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "Sin ponderar daría 3+1+1+2+1+2 = 10, no 9; además, la ponderación es obligatoria.",
+    "B": "Duplicar solo las semilunas omite la necrosis, que también vale doble: daría 11.",
+    "C": "La inflamación intersticial no se duplica.",
+    "D": "Las asas de alambre y la hipercelularidad endocapilar no se duplican.",
+    "E": "3 (endocapilar) + 1 (cariorrexis) + 2 (necrosis ×2) + 2 (hialino) + 2 (semilunas ×2) + 2 (intersticio) = 12."
+   },
+   "perla": "Actividad: 0 = ausente, 1 = <25 %, 2 = 25–50 %, 3 = >50 %; necrosis y semilunas ×2 → máximo 24.",
+   "referencias": [
+    "Bajema IM, et al. Kidney Int 2018;93:789-796 (ISN/RPS 2018)"
+   ],
+   "peso": 65
+  },
+  {
+   "id": "K2-4",
+   "tema": "Índice de cronicidad",
+   "enunciado": "En la misma biopsia: glomeruloesclerosis total del 30 %, semilunas fibrosas en <25 %, atrofia tubular del 30 % y fibrosis intersticial del 30 %. ¿Qué afirmación es correcta?",
+   "opciones": {
+    "A": "Cronicidad 8/12; contraindica cualquier inmunosupresión",
+    "B": "Cronicidad 7/12; atrofia y fibrosis se puntúan aparte",
+    "C": "Cronicidad 5/12; atrofia y fibrosis forman un solo rubro",
+    "D": "Cronicidad 9/12; las semilunas fibrosas valen el doble",
+    "E": "Cronicidad 6/12; la esclerosis segmentaria no se cuenta"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "Ningún valor de cronicidad contraindica por sí solo tratar una actividad alta.",
+    "B": "2 (esclerosis 25–50 %) + 1 (semilunas fibrosas) + 2 (atrofia) + 2 (fibrosis) = 7.",
+    "C": "En el NIH modificado, atrofia tubular y fibrosis intersticial se puntúan por separado (0–3 cada una).",
+    "D": "Las semilunas fibrosas no se ponderan; la ponderación solo se aplica en el índice de actividad.",
+    "E": "La ISN/RPS 2018 cuenta la glomeruloesclerosis total (global + segmentaria)."
+   },
+   "perla": "Cronicidad (máx. 12): esclerosis total + semilunas fibrosas + atrofia tubular + fibrosis intersticial, cada una 0–3.",
+   "referencias": [
+    "Bajema IM, et al. Kidney Int 2018;93:789-796 (ISN/RPS 2018)"
+   ],
+   "peso": 65
+  },
+  {
+   "id": "K2-5",
+   "tema": "Podocitopatía lúpica",
+   "enunciado": "Mujer de 19 años con LES; síndrome nefrótico abrupto (UPCR 9 g/g), creatinina 0.8 mg/dL, sedimento sin eritrocitos. Biopsia: glomérulos normales en MO, IgG y C3 mesangiales, borramiento difuso en ME, sin depósitos subendoteliales. ¿Tratamiento inicial?",
+   "opciones": {
+    "A": "Rituximab como agente único de primera línea",
+    "B": "Glucocorticoides más micofenolato, como en la clase IV",
+    "C": "Euro-Lupus por la intensidad de la proteinuria",
+    "D": "Glucocorticoides solos, como en cambios mínimos",
+    "E": "Solo bloqueo del SRAA, por tratarse de una clase II"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "El rituximab es opción en recaídas o dependencia de esteroides, no en primera línea.",
+    "B": "La combinación de la clase IV no es necesaria de inicio en la podocitopatía.",
+    "C": "La ciclofosfamida se reserva para enfermedad proliferativa grave.",
+    "D": "KDIGO 2024: se trata como cambios mínimos; la respuesta a esteroides es alta, pero las recaídas son frecuentes.",
+    "E": "El síndrome nefrótico con borramiento difuso requiere inmunosupresión; no basta el SRAA."
+   },
+   "perla": "Clase I/II + nefrótico + borramiento difuso = podocitopatía → esteroides; añadir MPAA, AZA o CNI si recae.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Hu W, et al. Clin J Am Soc Nephrol 2016;11:585-592"
+   ],
+   "peso": 65
+  },
+  {
+   "id": "K2-6",
+   "tema": "Clase V pura",
+   "enunciado": "Mujer de 35 años con NL clase V pura, UPCR 4.8 g/g, albúmina 2.4 g/dL y TFGe 88. Ya recibe losartán e hidroxicloroquina. ¿Cuál es la conducta?",
+   "opciones": {
+    "A": "Glucocorticoides en dosis moderada más micofenolato",
+    "B": "Ciclofosfamida IV en dosis NIH durante 6 meses",
+    "C": "Prednisona 1 mg/kg en monoterapia durante 3 meses",
+    "D": "Rituximab en monoterapia sin glucocorticoides",
+    "E": "Solo SRAA 6 meses más y luego valorar inmunosupresión"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Clase V nefrótica: SRAA + HCQ + GC (dosis moderada o reducida) + MPAA; alternativas: CNI o CFM.",
+    "B": "La CFM es alternativa si falla el MPAA, no la primera elección en dosis NIH.",
+    "C": "En la clase V, los GC solos fueron inferiores (27 % de remisión vs 60–84 % con CFM o ciclosporina).",
+    "D": "El rituximab es alternativa en casos refractarios, no primera línea.",
+    "E": "Con proteinuria nefrótica, KDIGO 2024 aconseja inmunosuprimir desde el inicio."
+   },
+   "perla": "Clase V: <3.5 g → SRAA + HCQ; nefrótica → GC + MPAA (o CNI, CFM, rituximab).",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 65
+  },
+  {
+   "id": "K2-7",
+   "tema": "Terapia triple y TFG",
+   "enunciado": "NL clase IV en una mujer de 29 años: UPCR 3.2 g/g, TFGe 38, índice de actividad 13. Se planea terapia triple. ¿Qué combinación es MENOS apropiada?",
+   "opciones": {
+    "A": "GC + micofenolato + belimumab",
+    "B": "GC + CFM IV en dosis bajas + belimumab",
+    "C": "GC + micofenolato + voclosporina",
+    "D": "GC + micofenolato, sin tercer agente",
+    "E": "GC + CFM IV en dosis bajas, sin biológico"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "Opción válida; belimumab no requiere ajuste por TFG.",
+    "B": "Opción válida (BLISS-LN incluyó CFM-AZA), aunque el beneficio fue menor en ese grupo.",
+    "C": "AURORA excluyó TFGe ≤45; KDIGO 2024 no recomienda voclosporina con TFGe basal ≤45.",
+    "D": "El MPAA con GC es un esquema de inducción reconocido.",
+    "E": "Euro-Lupus es una opción de primera línea."
+   },
+   "perla": "CNI en la inducción solo si la función no está muy deteriorada (voclosporina: TFGe >45).",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Rovin BH, et al. Lancet 2021;397:2070-2080 (AURORA 1)"
+   ],
+   "peso": 70
+  },
+  {
+   "id": "K2-8",
+   "tema": "MAT y SAF",
+   "enunciado": "NL clase IV, plaquetas 70 000, esquistocitos 3 %, LDH alta, ADAMTS13 62 %, anticoagulante lúpico y anti-β2GPI positivos (confirmados a 12 semanas). La biopsia muestra MAT arteriolar. ¿Qué conducta es la más adecuada?",
+   "opciones": {
+    "A": "Rivaroxabán más ácido acetilsalicílico",
+    "B": "Solo ácido acetilsalicílico en dosis baja",
+    "C": "Recambio plasmático diario más caplacizumab",
+    "D": "Eculizumab de inmediato como primera línea",
+    "E": "Anticoagulación con AVK y tratar la NL"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "Los ACOD no se recomiendan en la nefropatía por SAF (TRAPS).",
+    "B": "El AAS solo no basta con MAT activa.",
+    "C": "Recambio + caplacizumab es para PTT (ADAMTS13 <10 %).",
+    "D": "El eculizumab se prefiere en MAT mediada por complemento con aPL negativos, o en SAF catastrófico refractario.",
+    "E": "ADAMTS13 normal + aPL positivos = nefropatía por SAF: anticoagulación (warfarina a largo plazo), HCQ e inducción de la NL."
+   },
+   "perla": "MAT en NL: ADAMTS13 <10 % → PTT; aPL+ → anticoagular (AVK); aPL− y complemento → eculizumab.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Pengo V, et al. Blood 2018;132:1365-1371 (TRAPS)"
+   ],
+   "peso": 70
+  },
+  {
+   "id": "K2-9",
+   "tema": "Fármacos y embarazo",
+   "enunciado": "Mujer de 30 años con NL clase IV en remisión completa por 14 meses con MMF 2 g/día, belimumab, HCQ, prednisona 5 mg y enalapril. Desea embarazo. ¿Qué plan previo a la concepción es correcto?",
+   "opciones": {
+    "A": "Seguir belimumab y enalapril; pasar MMF a tacrolimus",
+    "B": "Pasar MMF a AZA ≥6 semanas antes; quitar belimumab",
+    "C": "Suspender todo, incluida la HCQ, 3 meses antes",
+    "D": "Pasar MMF a voclosporina y seguir con belimumab",
+    "E": "Seguir MMF y suspenderlo al confirmar el embarazo"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "Los IECA se retiran al buscar embarazo o al confirmarlo; belimumab no se recomienda en el embarazo.",
+    "B": "MMF → AZA (o tacrolimus) con al menos 6 semanas de margen; retirar belimumab; seguir HCQ, prednisona mínima y AAS antes de la semana 16.",
+    "C": "Suspender la HCQ aumenta las recaídas y las complicaciones; debe continuarse.",
+    "D": "La voclosporina debe evitarse en el embarazo; si se requiere un CNI, se prefiere tacrolimus.",
+    "E": "El MMF es teratógeno: debe cambiarse antes de la concepción, no después."
+   },
+   "perla": "Embarazo: sí HCQ, AZA, tacrolimus, ciclosporina, GC; no MMF, CFM, IECA/ARA II, belimumab, voclosporina.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Sammaritano LR, et al. Arthritis Rheumatol 2020;72:529-556"
+   ],
+   "peso": 70
+  },
+  {
+   "id": "K2-10",
+   "tema": "Preeclampsia vs brote",
+   "enunciado": "Embarazada de 26 semanas con NL clase III en remisión. TA 148/94, UPCR de 0.3 a 1.8 g/g. ¿Qué combinación favorece un brote de NL sobre preeclampsia?",
+   "opciones": {
+    "A": "Edema y proteinuria con complemento estable en el embarazo",
+    "B": "Ácido úrico alto, plaquetas bajas y sedimento inactivo",
+    "C": "Cociente sFlt-1/PlGF >85 con C3 y C4 normales",
+    "D": "Cilindros eritrocitarios, C3 bajo y anti-ADNdc alto",
+    "E": "AST y ALT elevadas con dolor en hipocondrio derecho"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "El edema y la proteinuria no distinguen entre ambas; el complemento estable no apoya el brote.",
+    "B": "Hiperuricemia y plaquetopenia con sedimento inactivo orientan a preeclampsia o HELLP.",
+    "C": "El cociente sFlt-1/PlGF elevado es el marcador angiogénico de preeclampsia.",
+    "D": "Sedimento activo, consumo de complemento y anti-ADNdc en ascenso favorecen el brote lúpico. En el embarazo normal, el complemento sube.",
+    "E": "Elevación de transaminasas y dolor en hipocondrio derecho sugieren HELLP."
+   },
+   "perla": "Brote lúpico: sedimento activo + ↓C3/C4 + ↑anti-ADNdc. Preeclampsia: ↑sFlt-1/PlGF, ↑úrico, sedimento inactivo.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Zeisler H, et al. N Engl J Med 2016;374:13-22"
+   ],
+   "peso": 70
+  },
+  {
+   "id": "K2-11",
+   "tema": "Falta de respuesta",
+   "enunciado": "Clase IV tratada 6 meses con MMF 3 g/día y GC: UPCR de 5.0 a 4.1 g/g, creatinina estable, C3 aún bajo. ¿Cuál es el primer paso?",
+   "opciones": {
+    "A": "Verificar adherencia y niveles de MPA y de HCQ",
+    "B": "Rebiopsiar antes de cualquier otra evaluación",
+    "C": "Subir el micofenolato a 4 g/día por 3 meses",
+    "D": "Agregar rituximab de inmediato al esquema actual",
+    "E": "Cambiar a ciclofosfamida IV sin más estudios"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Una reducción del 18 % a los 6 meses no alcanza la meta (≥50 %). KDIGO 2024: primero verificar adherencia y niveles (MPA, HCQ en sangre).",
+    "B": "La rebiopsia está indicada si se sospecha cronicidad u otro diagnóstico, tras confirmar adherencia.",
+    "C": "No hay evidencia de beneficio por encima de 3 g/día y aumenta la toxicidad.",
+    "D": "Escalar sin descartar mala adherencia expone a toxicidad innecesaria.",
+    "E": "Cambiar de agente es razonable solo después de confirmar adherencia y exposición."
+   },
+   "perla": "NL sin respuesta: adherencia y niveles → rebiopsia si hay duda → cambiar esquema → añadir anti-CD20 u otro biológico.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Fanouriakis A, et al. Ann Rheum Dis 2020;79:713-723 (EULAR/ERA-EDTA 2019)"
+   ],
+   "peso": 70
+  },
+  {
+   "id": "K2-12",
+   "tema": "Trasplante: momento",
+   "enunciado": "Mujer de 33 años con NL clase IV que progresó a ERC terminal; 4 meses en hemodiálisis. Sin artritis, serositis ni citopenias; C3 bajo y anti-ADNdc 1:80. Hermana donadora compatible. ¿Cuál es la conducta?",
+   "opciones": {
+    "A": "Exigir al menos 12 meses de diálisis antes de trasplantar",
+    "B": "Contraindicarlo por el riesgo de recurrencia en el injerto",
+    "C": "Proceder con el trasplante y estudiar anticuerpos aPL",
+    "D": "Trasplantar solo tras 6 meses de ciclofosfamida previa",
+    "E": "Diferir el trasplante hasta normalizar C3 y anti-ADNdc"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "No hay un tiempo mínimo de diálisis; menos tiempo en diálisis se asocia con mejores desenlaces.",
+    "B": "La recurrencia es poco frecuente y rara vez causa pérdida del injerto.",
+    "C": "KDIGO 2024: el trasplante es preferible a la diálisis y se realiza con enfermedad clínicamente inactiva; los aPL definen la profilaxis antitrombótica.",
+    "D": "No se requiere inducción con CFM antes del trasplante.",
+    "E": "La actividad serológica aislada, sin actividad clínica, no obliga a diferir el trasplante."
+   },
+   "perla": "NL con ERC terminal: trasplante con LES clínicamente inactivo; serología aislada no lo impide; buscar aPL.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 70
+  },
+  {
+   "id": "K2-13",
+   "tema": "Duración del tratamiento",
+   "enunciado": "NL clase IV con respuesta completa a los 12 meses, mantenida con MMF 1.5 g/día y prednisona 2.5 mg. Pregunta cuándo puede suspender el tratamiento. ¿Qué es correcto?",
+   "opciones": {
+    "A": "Nunca: el MMF debe ser de por vida en toda clase IV",
+    "B": "A los 24 meses, cambiando antes el MMF por azatioprina",
+    "C": "Al alcanzar la respuesta completa, sin esperar más",
+    "D": "A los 18 meses totales, si C3 y anti-ADNdc son normales",
+    "E": "Al menos 36 meses, con respuesta completa ≥12 meses"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "No se exige tratamiento de por vida; se individualiza y se retira de forma gradual.",
+    "B": "El cambio a AZA no es requisito para el retiro.",
+    "C": "Suspender al lograr la respuesta se asocia con recaídas.",
+    "D": "18 meses es menos del mínimo recomendado.",
+    "E": "KDIGO 2024: inducción + mantenimiento ≥36 meses en la NL proliferativa; considerar el retiro tras ≥12 meses de respuesta completa."
+   },
+   "perla": "NL proliferativa: inmunosupresión total ≥36 meses; retiro gradual tras ≥12 meses de respuesta completa.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 60
+  },
+  {
+   "id": "K2-14",
+   "tema": "Hidroxicloroquina: retina",
+   "enunciado": "Mujer de 40 años con NL y TFGe 52 que inicia hidroxicloroquina 5 mg/kg/día de peso real. Según KDIGO 2024, ¿cuándo debe iniciarse el tamizaje retiniano?",
+   "opciones": {
+    "A": "Basal obligatorio y luego cada 6 meses",
+    "B": "Anual desde el primer año, por la TFGe <60",
+    "C": "Solo después de 10 años de tratamiento",
+    "D": "Anual desde el quinto año, como en todo paciente",
+    "E": "Solo cuando aparezcan síntomas visuales"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "KDIGO 2024 (guía británica) no exige estudio basal ni vigilancia semestral.",
+    "B": "La TFGe <60 es un factor de riesgo adicional: tamizaje anual después del primer año.",
+    "C": "10 años es un intervalo demasiado tardío.",
+    "D": "Sin factores de riesgo, el tamizaje inicia a los 5 años; aquí hay uno.",
+    "E": "El daño es asintomático en etapas iniciales; esperar síntomas permite daño irreversible."
+   },
+   "perla": "Retina con HCQ: sin riesgo → anual desde 5 años; con riesgo (TFGe <60, >5 mg/kg, tamoxifeno) → anual desde el año 1.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Marmor MF, et al. Ophthalmology 2016;123:1386-1394"
+   ],
+   "peso": 60
+  },
+  {
+   "id": "K2-15",
+   "tema": "Lupus monogénico",
+   "enunciado": "Niño de 7 años, hijo de padres consanguíneos, con NL clase IV, anti-ADNdc muy alto, ANCA positivos, hipocomplementemia y urticaria vasculítica. ¿Qué defecto genético es el más probable?",
+   "opciones": {
+    "A": "Variante de ganancia de función en STING",
+    "B": "Haplotipo de riesgo renal de APOL1",
+    "C": "Pérdida de función heterocigota de TREX1",
+    "D": "Deficiencia bialélica de DNASE1L3",
+    "E": "Deficiencia homocigota de C2"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "La ganancia en STING (SAVI) produce vasculopatía y enfermedad pulmonar intersticial, no este perfil.",
+    "B": "APOL1 modifica la progresión de la NL en personas de ancestría africana; no causa LES.",
+    "C": "TREX1 se asocia sobre todo a lupus sabañón y Aicardi-Goutières.",
+    "D": "DNASE1L3 degrada el ADN de micropartículas; su déficit (autosómico recesivo) causa LES pediátrico con NL, anti-ADNdc alto, ANCA y vasculitis urticariana hipocomplementémica.",
+    "E": "El déficit de C2 es poco penetrante y rara vez causa NL grave en la infancia."
+   },
+   "perla": "LES pediátrico con consanguinidad: pensar en C1q, C4, DNASE1L3 y TREX1. DNASE1L3 = NL + ANCA + urticaria vasculítica.",
+   "referencias": [
+    "Al-Mayouf SM, et al. Nat Genet 2011;43:1186-1188",
+    "Lech M, Anders HJ. J Am Soc Nephrol 2013;24:1357-1366"
+   ],
+   "peso": 65
+  }
+ ],
+ "entrenadores": [
+  {
+   "id": "T2-UCI-1",
+   "serie_id": "UCI",
+   "orden": 1,
+   "subtema": "NL grave en UCI: hemorragia alveolar",
+   "caso": "Mujer de 24 años, LES de 1 año sin tratamiento, llega a UCI con disnea, hemoptisis e hipoxemia (PaO2/FiO2 120). TA 90/55, Hb de 11 a 7.2 g/dL en 24 h. Creatinina 2.8 mg/dL, UPCR 5.4 g/g, acantocitos y cilindros eritrocitarios. C3 38, C4 5, anti-ADNdc 1:1280. TC: infiltrados alveolares difusos bilaterales.",
+   "continuacion": "",
+   "enunciado": "¿Cuál es la conducta inicial más adecuada?",
+   "opciones": {
+    "A": "Prednisona 1 mg/kg oral más micofenolato, con vigilancia en piso de medicina interna",
+    "B": "Rituximab como único inmunosupresor, sin esteroides, por el riesgo de infección",
+    "C": "Eculizumab urgente por sospecha de microangiopatía mediada por complemento",
+    "D": "Pulsos de metilprednisolona, soporte ventilatorio, recambio plasmático y ciclofosfamida",
+    "E": "Antibiótico de amplio espectro solo, hasta tener cultivos y lavado bronquioalveolar negativos"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "La vía oral y el piso general son insuficientes para una hemorragia alveolar con insuficiencia respiratoria.",
+    "B": "Omitir glucocorticoides en una hemorragia alveolar lúpica no es aceptable; el anti-CD20 es coadyuvante.",
+    "C": "Sin datos de MAT mediada por complemento ni estudio de ADAMTS13, el eculizumab no es el paso inicial.",
+    "D": "Hemorragia alveolar lúpica: pulsos de metilprednisolona (0.25–1 g/día × 3), soporte, CFM IV y recambio plasmático como rescate; se cubre infección en paralelo.",
+    "E": "Hay que cubrir infección, pero no puede ser la única medida en una hemorragia alveolar con NL activa."
+   },
+   "perla": "Hemorragia alveolar lúpica: pulsos de GC + CFM IV ± recambio plasmático, con cobertura antimicrobiana empírica.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Fanouriakis A, et al. Ann Rheum Dis 2020;79:713-723 (EULAR/ERA-EDTA 2019)"
+   ],
+   "peso": 80
+  },
+  {
+   "id": "T2-UCI-2",
+   "serie_id": "UCI",
+   "orden": 2,
+   "subtema": "MAT en la UCI: diagnóstico diferencial",
+   "caso": "",
+   "continuacion": "Al segundo día: plaquetas 28 000, esquistocitos 5 %, LDH 1 150, haptoglobina indetectable, Coombs negativo, creatinina 4.1 mg/dL con oliguria. Anticoagulante lúpico positivo y anti-β2GPI IgG 90 U.",
+   "enunciado": "¿Cuál es la secuencia diagnóstica y terapéutica correcta?",
+   "opciones": {
+    "A": "Asumir PTT y dar recambio plasmático más caplacizumab, sin medir ADAMTS13",
+    "B": "Calcular PLASMIC, iniciar recambio plasmático y GC, medir ADAMTS13 y aPL",
+    "C": "Transfundir plaquetas para llevarlas a 50 000 antes de cualquier otra medida",
+    "D": "Esperar el ADAMTS13 antes de iniciar cualquier tratamiento dirigido a la MAT",
+    "E": "Iniciar eculizumab y suspender toda inmunosupresión hasta descartar sepsis"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "El caplacizumab se agrega al confirmarse PTT; no se asume sin ADAMTS13.",
+    "B": "Con PLASMIC intermedio o alto se inicia recambio plasmático y GC mientras llegan ADAMTS13, aPL y estudio de complemento (algoritmo KDIGO 2024).",
+    "C": "La transfusión de plaquetas en una MAT no es profiláctica y puede favorecer la trombosis.",
+    "D": "Esperar el resultado retrasa un tratamiento potencialmente salvador en la PTT.",
+    "E": "El eculizumab se reserva a MAT por complemento; suspender la inmunosupresión agrava la NL."
+   },
+   "perla": "NL + MAT: PLASMIC, recambio plasmático empírico si es intermedio/alto, y luego ADAMTS13, aPL y complemento.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 82
+  },
+  {
+   "id": "T2-UCI-3",
+   "serie_id": "UCI",
+   "orden": 3,
+   "subtema": "Nefropatía por SAF",
+   "caso": "",
+   "continuacion": "ADAMTS13 65 %. Biopsia renal: clase IV-G (A) con índice de actividad 16/24 y cronicidad 3/12; además trombos de fibrina en capilares y arteriolas, con edema endotelial, sin vasculitis.",
+   "enunciado": "¿Cuál es la interpretación y el tratamiento dirigido?",
+   "opciones": {
+    "A": "MAT secundaria a sepsis: solo antibiótico y soporte, sin anticoagular",
+    "B": "PTT adquirida: continuar recambio plasmático y añadir caplacizumab",
+    "C": "MAT por complemento: iniciar eculizumab y suspender la anticoagulación",
+    "D": "MAT por fármacos: suspender la ciclofosfamida como causa probable",
+    "E": "Nefropatía por SAF: anticoagular con heparina y luego warfarina"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "La sepsis puede contribuir, pero no explica el perfil serológico ni la trombosis renal documentada.",
+    "B": "La PTT exige ADAMTS13 <10 %; con 65 % queda descartada.",
+    "C": "La MAT por complemento se considera con aPL negativos; aquí son positivos y la anticoagulación es necesaria.",
+    "D": "La ciclofosfamida no es causa reconocida de MAT; sí lo son gemcitabina, inhibidores de VEGF y calcineurínicos.",
+    "E": "ADAMTS13 normal con aPL positivos y trombos de fibrina = nefropatía por SAF: heparina y después AVK; los ACOD no se recomiendan."
+   },
+   "perla": "ADAMTS13 normal + aPL positivos + trombos renales = nefropatía por SAF → anticoagulación; nunca ACOD.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 82
+  },
+  {
+   "id": "T2-UCI-4",
+   "serie_id": "UCI",
+   "orden": 4,
+   "subtema": "Inducción con TFG muy baja y diálisis",
+   "caso": "",
+   "continuacion": "Requiere hemodiálisis por oliguria y sobrecarga. Hemorragia alveolar controlada, extubada. Creatinina 5.6 mg/dL en diálisis; actividad 16/24, cronicidad 3/12.",
+   "enunciado": "¿Cuál es el esquema de inducción más apropiado?",
+   "opciones": {
+    "A": "Glucocorticoides más ciclofosfamida IV, con dosis ajustada",
+    "B": "Solo diálisis y esteroides; esperar a ver si recupera función renal",
+    "C": "Glucocorticoides más azatioprina, por el perfil de seguridad en la UCI",
+    "D": "Glucocorticoides más voclosporina, por la proteinuria alta",
+    "E": "Glucocorticoides más micofenolato más voclosporina en triple terapia"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Con NL rápidamente progresiva, semilunas y necesidad de diálisis, los GC más CFM IV (ajustada) son la opción con más respaldo; el MPAA es alternativa.",
+    "B": "No tratar la actividad histológica condena a la ERC terminal: hay actividad 16/24 con cronicidad baja.",
+    "C": "La azatioprina es de mantenimiento y no sirve como inducción en enfermedad grave.",
+    "D": "La voclosporina no se recomienda con TFGe ≤45, menos aún en diálisis.",
+    "E": "La triple terapia con CNI está contraindicada por la función renal y el riesgo de nefrotoxicidad."
+   },
+   "perla": "NL rápidamente progresiva con semilunas o necesidad de diálisis: GC en pulsos + CFM IV; evitar CNI.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Fanouriakis A, et al. Ann Rheum Dis 2020;79:713-723 (EULAR/ERA-EDTA 2019)"
+   ],
+   "peso": 85
+  },
+  {
+   "id": "T2-UCI-5",
+   "serie_id": "UCI",
+   "orden": 5,
+   "subtema": "Profilaxis en el paciente inmunosuprimido",
+   "caso": "",
+   "continuacion": "Linfocitos totales 420/µL, recibe pulsos de metilprednisolona y la primera dosis de ciclofosfamida IV.",
+   "enunciado": "¿Qué medida profiláctica es obligatoria en este momento?",
+   "opciones": {
+    "A": "Isoniazida empírica sin prueba previa de tuberculosis latente",
+    "B": "Inmunoglobulina IV mensual para prevenir infecciones graves",
+    "C": "Trimetoprim-sulfametoxazol contra Pneumocystis jirovecii",
+    "D": "Fluconazol diario para prevenir candidemia por el catéter",
+    "E": "Valganciclovir profiláctico en todos los casos de NL grave"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "La isoniazida requiere documentar infección latente (PPD o IGRA) antes de indicarse.",
+    "B": "La IgIV no es profilaxis estándar; se usa en hipogammaglobulinemia grave con infecciones repetidas.",
+    "C": "Con pulsos de GC, CFM y linfopenia, la profilaxis contra P. jirovecii con TMP-SMX es la medida de mayor rendimiento.",
+    "D": "No se recomienda profilaxis antifúngica rutinaria; el manejo del catéter es la medida clave.",
+    "E": "El valganciclovir no es profilaxis rutinaria en la NL; se vigila CMV según el riesgo."
+   },
+   "perla": "GC en dosis altas + CFM o anti-CD20 con linfopenia: profilaxis contra Pneumocystis y vacunación al estabilizar.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 75
+  },
+  {
+   "id": "T2-GIN-1",
+   "serie_id": "GIN",
+   "orden": 1,
+   "subtema": "Embarazo y NL: diagnóstico diferencial",
+   "caso": "Mujer de 28 años, 27 semanas de gestación, NL clase III en remisión 2 años con azatioprina, HCQ y prednisona 5 mg. Acude por edema y TA 158/98. UPCR de 0.4 a 2.6 g/g, creatinina 1.1 mg/dL (basal 0.7), plaquetas 150 000, AST y ALT normales. No recibió AAS.",
+   "continuacion": "",
+   "enunciado": "¿Cuál es el paso más útil para distinguir el brote de NL de la preeclampsia?",
+   "opciones": {
+    "A": "Solicitar biopsia renal percutánea de inmediato, antes de otros estudios",
+    "B": "Medir ácido úrico aislado, que es el marcador que discrimina mejor",
+    "C": "Repetir la UPCR en 48 horas y comparar la tendencia",
+    "D": "Medir C3, C4, anti-ADNdc, sedimento urinario y sFlt-1/PlGF",
+    "E": "Iniciar sulfato de magnesio e interrumpir el embarazo de urgencia"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "La biopsia es factible antes de la semana 30, pero se reserva a casos no resueltos con los estudios no invasivos.",
+    "B": "El ácido úrico apoya la preeclampsia, pero su rendimiento aislado es bajo.",
+    "C": "La tendencia de la proteinuria no distingue entre ambas entidades.",
+    "D": "El brote cursa con sedimento activo, caída de C3/C4 y anti-ADNdc en ascenso; la preeclampsia, con sFlt-1/PlGF elevado y sedimento inactivo.",
+    "E": "La interrupción se decide por gravedad materno-fetal, no como maniobra diagnóstica a las 27 semanas."
+   },
+   "perla": "Brote: sedimento activo, ↓C3/C4, ↑anti-ADNdc. Preeclampsia: sFlt-1/PlGF alto, úrico alto, sedimento inactivo.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Zeisler H, et al. N Engl J Med 2016;374:13-22"
+   ],
+   "peso": 78
+  },
+  {
+   "id": "T2-GIN-2",
+   "serie_id": "GIN",
+   "orden": 2,
+   "subtema": "Tratamiento del brote en el embarazo",
+   "caso": "",
+   "continuacion": "Los estudios muestran C3 42 mg/dL, C4 6 mg/dL, anti-ADNdc de negativo a 1:320, 15 % de acantocitos y cilindros eritrocitarios; sFlt-1/PlGF de 22. Se concluye brote de NL.",
+   "enunciado": "¿Cuál es el tratamiento más apropiado del brote renal?",
+   "opciones": {
+    "A": "Voclosporina más micofenolato, con vigilancia de la TA",
+    "B": "Pulsos de metilprednisolona, subir AZA y seguir HCQ",
+    "C": "Micofenolato 2 g/día, dado que ya está en el tercer trimestre",
+    "D": "Ciclofosfamida IV en dosis bajas (esquema Euro-Lupus)",
+    "E": "Belimumab añadido a la azatioprina que ya recibe"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "La voclosporina debe evitarse; si se requiere un CNI, se prefiere tacrolimus.",
+    "B": "En el brote gestacional: pulsos de metilprednisolona, optimizar AZA (≤2 mg/kg/día), seguir HCQ y añadir tacrolimus si no responde.",
+    "C": "El micofenolato es teratógeno y está contraindicado en cualquier trimestre del embarazo.",
+    "D": "La ciclofosfamida está contraindicada en el embarazo, salvo amenaza vital en el tercer trimestre.",
+    "E": "El belimumab no se recomienda durante el embarazo por datos insuficientes."
+   },
+   "perla": "Brote de NL en embarazo: GC (pulsos y luego la dosis mínima), AZA, tacrolimus y HCQ. Nunca MMF ni CFM.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Sammaritano LR, et al. Arthritis Rheumatol 2020;72:529-556"
+   ],
+   "peso": 80
+  },
+  {
+   "id": "T2-GIN-3",
+   "serie_id": "GIN",
+   "orden": 3,
+   "subtema": "Antihipertensivos en el embarazo",
+   "caso": "",
+   "continuacion": "Bajo tratamiento del brote persiste con TA de 150/95 mmHg a las 29 semanas.",
+   "enunciado": "¿Qué esquema antihipertensivo es el apropiado?",
+   "opciones": {
+    "A": "Espironolactona más furosemida, por el edema asociado",
+    "B": "Enalapril, por su efecto antiproteinúrico demostrado",
+    "C": "Losartán más amlodipino, para controlar mejor la cifra",
+    "D": "Atenolol, por su amplia experiencia en el embarazo",
+    "E": "Labetalol, nifedipino de acción lenta o metildopa"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "La espironolactona tiene efecto antiandrogénico y los diuréticos reducen el volumen plasmático.",
+    "B": "Los IECA son fetotóxicos: oligohidramnios, displasia tubular renal y muerte fetal.",
+    "C": "Los ARA II comparten la fetotoxicidad de los IECA y están contraindicados.",
+    "D": "El atenolol se asocia con restricción del crecimiento fetal y no es de primera línea.",
+    "E": "Labetalol, nifedipino de liberación prolongada y alfametildopa son los fármacos de elección; meta <140/90 mmHg."
+   },
+   "perla": "Embarazo: labetalol, nifedipino o metildopa. Prohibidos IECA, ARA II y espironolactona; AAS antes de la semana 16.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 75
+  },
+  {
+   "id": "T2-GIN-4",
+   "serie_id": "GIN",
+   "orden": 4,
+   "subtema": "Anticuerpos maternos y riesgo fetal",
+   "caso": "",
+   "continuacion": "El perfil inmunológico informa anti-Ro/SSA y anti-La/SSB positivos; no hay antecedente de hijos con bloqueo AV.",
+   "enunciado": "¿Qué conducta corresponde a este perfil de anticuerpos?",
+   "opciones": {
+    "A": "Ecocardiografía fetal seriada y continuar HCQ",
+    "B": "Dexametasona profiláctica semanal hasta el término",
+    "C": "Inmunoglobulina IV mensual para prevenir el bloqueo AV",
+    "D": "Marcapasos fetal programado antes de la semana 32",
+    "E": "Suspender la HCQ para evitar toxicidad fetal cardiaca"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Anti-Ro positivo: vigilancia ecocardiográfica fetal (semanas 16–26) y continuar HCQ, que reduce la recurrencia del bloqueo (PATCH).",
+    "B": "Los esteroides fluorados profilácticos no previenen el bloqueo y añaden riesgo fetal.",
+    "C": "El estudio PITCH no demostró prevención del bloqueo AV con IgIV.",
+    "D": "El marcapasos se coloca tras el nacimiento cuando hay bloqueo completo sintomático.",
+    "E": "La HCQ es segura en el embarazo y protege; suspenderla aumenta el riesgo."
+   },
+   "perla": "Anti-Ro/SSA: vigilancia ecocardiográfica fetal y HCQ. Antecedente de bloqueo: HCQ reduce la recurrencia (PATCH).",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Izmirly P, et al. J Am Coll Cardiol 2020;76:292-302 (PATCH)"
+   ],
+   "peso": 75
+  },
+  {
+   "id": "T2-GIN-5",
+   "serie_id": "GIN",
+   "orden": 5,
+   "subtema": "Lactancia y posparto",
+   "caso": "",
+   "continuacion": "Nace a las 36 semanas por preeclampsia superpuesta. A las 2 semanas posparto: UPCR 0.8 g/g, creatinina 0.9 mg/dL, sin actividad extrarrenal.",
+   "enunciado": "¿Qué ajuste posparto es el correcto si desea amamantar?",
+   "opciones": {
+    "A": "Iniciar belimumab, que no se excreta en la leche materna",
+    "B": "Reiniciar micofenolato de inmediato y suspender la lactancia",
+    "C": "Seguir con HCQ, prednisona y azatioprina en la lactancia",
+    "D": "Cambiar a ciclofosfamida mensual para consolidar la remisión",
+    "E": "Suspender toda inmunosupresión durante los 6 meses de lactancia"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "Los datos del belimumab en lactancia son insuficientes; no es la elección.",
+    "B": "Si la paciente desea amamantar, se evita el micofenolato; además, el posparto es de alto riesgo de brote.",
+    "C": "HCQ, prednisona (≤20 mg; si es mayor, espaciar 4 h la toma) y azatioprina son compatibles con la lactancia.",
+    "D": "La ciclofosfamida es incompatible con la lactancia y no está indicada en esta situación.",
+    "E": "El posparto concentra el riesgo de brote: suspender todo es la peor opción."
+   },
+   "perla": "Lactancia: HCQ, prednisona, azatioprina, tacrolimus y ciclosporina sí; MMF, CFM y metotrexato no.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Sammaritano LR, et al. Arthritis Rheumatol 2020;72:529-556"
+   ],
+   "peso": 70
+  },
+  {
+   "id": "T2-MI-1",
+   "serie_id": "MI",
+   "orden": 1,
+   "subtema": "NL refractaria: definición",
+   "caso": "Hombre de 31 años con NL clase IV-G (A), actividad 12/24 y cronicidad 2/12, tratado 9 meses con MMF 3 g/día y GC en dosis reducida. UPCR de 5.2 a 3.9 g/g, creatinina 1.4 mg/dL (basal 1.2), C3 persistentemente bajo, sedimento aún activo.",
+   "continuacion": "",
+   "enunciado": "¿Cómo se define la situación y cuál es el primer paso?",
+   "opciones": {
+    "A": "Respuesta completa tardía: iniciar el retiro de glucocorticoides",
+    "B": "Respuesta parcial adecuada: mantener el esquema otros 6 meses",
+    "C": "Recaída nefrítica: dar pulsos de GC y repetir la inducción",
+    "D": "Falta de respuesta: verificar adherencia y medir niveles de MPA",
+    "E": "Cronicidad irreversible: suspender la inmunosupresión y nefroproteger"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "La UPCR de 3.9 g/g está muy lejos del umbral de respuesta completa.",
+    "B": "Una reducción del 25 % a los 9 meses no cumple la meta de ≥50 % a los 6 meses.",
+    "C": "No hay recaída: nunca alcanzó la remisión; se trata de enfermedad persistente.",
+    "D": "Falta de respuesta: el primer paso es documentar adherencia y exposición al fármaco (niveles de MPA y de HCQ en sangre).",
+    "E": "Con cronicidad de 2/12 no se puede atribuir el cuadro a daño irreversible."
+   },
+   "perla": "Antes de llamar refractaria a una NL: adherencia, dosis, niveles de MPA y de HCQ, e infección o MAT concomitantes.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Fanouriakis A, et al. Ann Rheum Dis 2020;79:713-723 (EULAR/ERA-EDTA 2019)"
+   ],
+   "peso": 78
+  },
+  {
+   "id": "T2-MI-2",
+   "serie_id": "MI",
+   "orden": 2,
+   "subtema": "Niveles y adherencia",
+   "caso": "",
+   "continuacion": "Niveles: AUC de ácido micofenólico de 22 mg·h/L (objetivo 30–60) e hidroxicloroquina indetectable en sangre.",
+   "enunciado": "¿Cómo se interpretan los resultados y qué procede?",
+   "opciones": {
+    "A": "Exposición adecuada: considerar la enfermedad verdaderamente refractaria",
+    "B": "Exposición insuficiente: educar, revisar tolerancia y ajustar la dosis",
+    "C": "Intoxicación por MPA: reducir la dosis a la mitad de inmediato",
+    "D": "El nivel de MPA no es interpretable: cambiar directo a rituximab",
+    "E": "HCQ en rango: descartar que el MMF aporte beneficio adicional"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "Un AUC de MPA bajo y HCQ indetectable demuestran exposición insuficiente, no refractariedad.",
+    "B": "HCQ indetectable indica incumplimiento o malabsorción; se educa, se busca intolerancia digestiva y se reajusta antes de escalar.",
+    "C": "No hay datos de sobreexposición; el AUC está por debajo del objetivo (~30–60 mg·h/L).",
+    "D": "El AUC de MPA se usa cada vez más para guiar la dosis; no es inútil.",
+    "E": "La HCQ en rango no se demostró: está indetectable, que es el dato clave."
+   },
+   "perla": "HCQ en sangre indetectable = no adherencia. Resolverlo antes de etiquetar la NL como refractaria.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Costedoat-Chalumeau N, et al. Ann Rheum Dis 2013;72:1786-1792"
+   ],
+   "peso": 80
+  },
+  {
+   "id": "T2-MI-3",
+   "serie_id": "MI",
+   "orden": 3,
+   "subtema": "Rebiopsia",
+   "caso": "",
+   "continuacion": "Con adherencia documentada y niveles en rango, persiste la proteinuria y la creatinina sube de 1.4 a 1.6 mg/dL.",
+   "enunciado": "Tras 4 meses con adherencia confirmada persiste UPCR 3.4 g/g y creatinina 1.6 mg/dL. ¿Qué procede?",
+   "opciones": {
+    "A": "Suspender el MMF y mantener solo nefroprotección con SRAA",
+    "B": "Pulsos de metilprednisolona cada mes de forma indefinida",
+    "C": "Iniciar diálisis preventiva por el deterioro de la creatinina",
+    "D": "Añadir rituximab sin rebiopsiar, por ser refractaria confirmada",
+    "E": "Repetir la biopsia para medir actividad y cronicidad renal"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "Retirar la inmunosupresión con sedimento activo y complemento bajo promueve la progresión.",
+    "B": "Los pulsos repetidos de forma indefinida acumulan toxicidad sin evidencia de beneficio.",
+    "C": "Una creatinina de 1.6 mg/dL no es indicación de diálisis.",
+    "D": "Escalar sin tejido arriesga inmunosuprimir un riñón con cronicidad predominante.",
+    "E": "KDIGO 2024: rebiopsiar cuando la respuesta es insuficiente y se sospecha cronicidad, cambio de clase, MAT u otra lesión; esto define si escalar."
+   },
+   "perla": "Rebiopsia en NL: respuesta insuficiente, deterioro inexplicado o sospecha de otra lesión. Guía la decisión de escalar.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 80
+  },
+  {
+   "id": "T2-MI-4",
+   "serie_id": "MI",
+   "orden": 4,
+   "subtema": "Escalamiento terapéutico",
+   "caso": "",
+   "continuacion": "Rebiopsia: clase IV-G (A) con actividad 10/24 y cronicidad 4/12; sin MAT ni otra lesión agregada.",
+   "enunciado": "¿Cuál es la mejor opción terapéutica?",
+   "opciones": {
+    "A": "Añadir anti-CD20 (rituximab u obinutuzumab) al esquema",
+    "B": "Repetir los mismos 6 meses de MMF sin cambios en el esquema",
+    "C": "Mantener el MMF y añadir solo bloqueo del SRAA e inhibidor SGLT2",
+    "D": "Cambiar a azatioprina para reducir la toxicidad acumulada",
+    "E": "Suspender el MMF e iniciar prednisona 1 mg/kg en monoterapia"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Con actividad histológica persistente y exposición adecuada, KDIGO 2024 sugiere añadir rituximab u otro biológico, cambiar a CFM IV o incluir al paciente en un ensayo; obinutuzumab mostró superioridad en REGENCY (RRC 46.4 % vs 33.1 % a la semana 76).",
+    "B": "Repetir lo mismo sin cambios ignora la falta de respuesta documentada.",
+    "C": "Las medidas nefroprotectoras son necesarias, pero no tratan la actividad inmunológica persistente.",
+    "D": "La azatioprina es menos potente que el MMF: sería desescalar ante actividad persistente.",
+    "E": "Los esteroides en monoterapia son inferiores y muy tóxicos a esa dosis."
+   },
+   "perla": "NL refractaria con actividad confirmada: anti-CD20 (rituximab u obinutuzumab), CFM IV o un ensayo clínico.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Furie R, et al. N Engl J Med 2025;392:1471-1483 (REGENCY)"
+   ],
+   "peso": 82
+  },
+  {
+   "id": "T2-PAT-1",
+   "serie_id": "PAT",
+   "orden": 1,
+   "subtema": "Clase V vs membranosa primaria",
+   "caso": "Mujer de 26 años con LES (ANA 1:640, anti-Sm positivo) y síndrome nefrótico: UPCR 7.2 g/g, albúmina 2.1 g/dL, creatinina 0.9 mg/dL, sedimento sin hematuria. C3 y C4 normales. Se realiza biopsia renal.",
+   "continuacion": "",
+   "enunciado": "¿Qué hallazgos favorecen una nefritis lúpica clase V sobre una membranosa primaria?",
+   "opciones": {
+    "A": "Depósitos exclusivamente subepiteliales con IgG4 dominante",
+    "B": "Tinción intensa de PLA2R con IgG4 restringida en los depósitos",
+    "C": "C1q positivo, IgG1 e IgG3, con depósitos mesangiales",
+    "D": "Espigas y cráteres en la plata, con podocitos sin otra alteración",
+    "E": "Depósito lineal de IgG4 a lo largo de la membrana basal"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "La IgG4 dominante con depósitos solo subepiteliales favorece membranosa primaria.",
+    "B": "El PLA2R positivo con IgG4 restringida es el patrón de la membranosa primaria.",
+    "C": "Clase V: depósitos mesangiales acompañantes, C1q positivo (full house), IgG1 e IgG3 dominantes, inclusiones tubulorreticulares y depósitos subendoteliales.",
+    "D": "Las espigas y cráteres aparecen en cualquier membranosa, lúpica o primaria.",
+    "E": "El patrón lineal corresponde a la enfermedad anti-MBG."
+   },
+   "perla": "Clase V: C1q+, IgG1/IgG3, depósitos mesangiales, inclusiones tubulorreticulares. MN primaria: PLA2R+, IgG4, solo subepitelial.",
+   "referencias": [
+    "Bajema IM, et al. Kidney Int 2018;93:789-796 (ISN/RPS 2018)",
+    "Sethi S, Fervenza FC. N Engl J Med 2024;390:1694-1699"
+   ],
+   "peso": 78
+  },
+  {
+   "id": "T2-PAT-2",
+   "serie_id": "PAT",
+   "orden": 2,
+   "subtema": "Diferenciar podocitopatía de clase V",
+   "caso": "",
+   "continuacion": "Antes de revelar la inmunofluorescencia, el patólogo plantea el diagnóstico diferencial entre podocitopatía lúpica y clase V.",
+   "enunciado": "Si la microscopía de luz fuera normal, ¿qué dato definiría una podocitopatía lúpica?",
+   "opciones": {
+    "A": "Duplicación de la membrana basal glomerular con interposición",
+    "B": "Hipercelularidad mesangial sin ningún depósito en la IF",
+    "C": "Depósitos subepiteliales escasos con borramiento segmentario",
+    "D": "Borramiento podocitario difuso sin depósitos subepiteliales",
+    "E": "Trombos hialinos intracapilares sin proliferación acompañante"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "Los dobles contornos sugieren MAT o glomerulonefritis membranoproliferativa.",
+    "B": "La hipercelularidad mesangial aislada corresponde a una clase II, sin explicar el síndrome nefrótico.",
+    "C": "Cualquier depósito subepitelial significativo orienta a la clase V, no a podocitopatía.",
+    "D": "Podocitopatía lúpica: clase I/II en MO, borramiento difuso en ME y ausencia de depósitos subepiteliales; se trata como cambios mínimos.",
+    "E": "Los trombos hialinos son depósitos intracapilares de las clases proliferativas."
+   },
+   "perla": "Podocitopatía lúpica = clase I/II + síndrome nefrótico + borramiento difuso, sin depósitos subepiteliales.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Hu W, et al. Clin J Am Soc Nephrol 2016;11:585-592"
+   ],
+   "peso": 80
+  },
+  {
+   "id": "T2-PAT-3",
+   "serie_id": "PAT",
+   "orden": 3,
+   "subtema": "Tratamiento de la clase V pura",
+   "caso": "",
+   "continuacion": "La inmunofluorescencia muestra IgG, IgA, IgM, C3 y C1q granular subepitelial y mesangial; la ME confirma depósitos subepiteliales globales sin depósitos subendoteliales.",
+   "enunciado": "La biopsia confirma clase V pura (actividad 0/24, cronicidad 1/12). ¿Cuál es el tratamiento?",
+   "opciones": {
+    "A": "Solo losartán e hidroxicloroquina, por la actividad de 0/24",
+    "B": "Glucocorticoides más micofenolato, además de SRAA y HCQ",
+    "C": "Ciclofosfamida IV en dosis NIH durante 6 meses desde el inicio",
+    "D": "Rituximab más belimumab en terapia secuencial de primera línea",
+    "E": "Prednisona 1 mg/kg/día en monoterapia durante 16 semanas"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "Con proteinuria nefrótica no basta el tratamiento conservador; la actividad 0/24 no refleja la gravedad de la clase V.",
+    "B": "Clase V nefrótica: GC (dosis moderada o reducida) más otro agente, de preferencia MPAA, con SRAA, HCQ y control de la TA.",
+    "C": "La CFM es alternativa cuando el MPAA fracasa, no la primera elección.",
+    "D": "La combinación secuencial de biológicos no es tratamiento inicial de la clase V.",
+    "E": "Los GC en monoterapia lograron apenas ~27 % de remisión en el ensayo de clase V."
+   },
+   "perla": "Clase V nefrótica: GC + MPAA (o CNI, CFM, rituximab) + SRAA + HCQ. El índice de actividad no guía aquí la decisión.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 78
+  },
+  {
+   "id": "T2-PAT-4",
+   "serie_id": "PAT",
+   "orden": 4,
+   "subtema": "Complicaciones del síndrome nefrótico lúpico",
+   "caso": "",
+   "continuacion": "Inicia prednisona 0.5 mg/kg/día y MMF 2 g/día, con losartán y HCQ. Albúmina 2.0 g/dL.",
+   "enunciado": "A las 6 semanas presenta dolor lumbar agudo, hematuria macroscópica y caída de la TFG. ¿Qué sospecha?",
+   "opciones": {
+    "A": "Necrosis tubular aguda por el uso concomitante de losartán",
+    "B": "Nefritis intersticial aguda por el inhibidor de bomba de protones",
+    "C": "Transformación histológica a clase IV con semilunas difusas",
+    "D": "Infarto renal arterial por embolia de origen cardiaco",
+    "E": "Trombosis de la vena renal, favorecida por la hipoalbuminemia"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "La NTA por ARA II es un deterioro hemodinámico sin dolor ni hematuria macroscópica.",
+    "B": "La nefritis intersticial produce eosinofiluria y leucocituria, sin dolor agudo unilateral.",
+    "C": "La transformación a clase IV cursa con sedimento nefrítico progresivo, no con dolor súbito.",
+    "D": "El infarto arterial es mucho menos frecuente y no suele dar hematuria macroscópica.",
+    "E": "Membranosa (lúpica o primaria) con albúmina <2.5 g/dL: alto riesgo de trombosis venosa renal; cuadro típico de dolor, hematuria y caída de la TFG. Confirmar con angiotomografía o RM venosa."
+   },
+   "perla": "MN/clase V con albúmina <2.5 g/dL: pensar en trombosis de la vena renal ante dolor lumbar y hematuria macroscópica.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Lionaki S, et al. Clin J Am Soc Nephrol 2012;7:43-51"
+   ],
+   "peso": 75
+  },
+  {
+   "id": "T2-PAT-5",
+   "serie_id": "PAT",
+   "orden": 5,
+   "subtema": "Evaluación de la respuesta en clase V",
+   "caso": "",
+   "continuacion": "Buena adherencia, sin actividad extrarrenal; sedimento urinario inactivo.",
+   "enunciado": "A los 12 meses: UPCR 0.6 g/g, creatinina 0.9 mg/dL, albúmina 3.6 g/dL. ¿Cómo se interpreta?",
+   "opciones": {
+    "A": "Respuesta parcial casi completa: continuar y vigilar la UPCR",
+    "B": "Respuesta completa, porque la albúmina ya se normalizó por completo",
+    "C": "Recaída nefrótica: dar pulsos de GC y añadir rituximab al esquema",
+    "D": "Respuesta completa: suspender de inmediato toda inmunosupresión",
+    "E": "Falta de respuesta: cambiar a ciclofosfamida IV y rebiopsiar"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "La respuesta completa pide <0.5 g/g; 0.6 g/g con función normal es una respuesta parcial muy próxima a la meta. La clase V responde más despacio: se continúa el esquema.",
+    "B": "La albúmina no forma parte de la definición de respuesta renal.",
+    "C": "No hay recaída: la proteinuria descendió desde el inicio del tratamiento.",
+    "D": "La respuesta completa exige UPCR <0.5 g/g; además, el retiro requiere ≥12 meses de remisión.",
+    "E": "Reducir la proteinuria de 7.2 a 0.6 g/g es una respuesta franca, no un fracaso."
+   },
+   "perla": "Respuesta completa: UPCR <0.5 g/g con función estable (±10–15 %). La clase V puede tardar más de 12 meses.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 75
+  }
+ ],
+ "jefeC": [
+  {
+   "id": "B2-JEFE-1",
+   "serie_id": "JEFE",
+   "orden": 1,
+   "subtema": "ERC terminal por NL: decisión inicial",
+   "caso": "Mujer de 34 años con NL clase IV diagnosticada a los 21 años, con dos brotes y mala adherencia. Hoy: TFGe 9 mL/min/1.73 m², UPCR 1.9 g/g, Hb 8.4 g/dL, PTH 620 pg/mL, TA 150/90. Rebiopsia reciente: cronicidad 11/12 con actividad 1/24. Sin artritis ni citopenias; C3 normal, anti-ADNdc 1:80. Anticoagulante lúpico positivo en dos ocasiones, sin trombosis previa.",
+   "continuacion": "",
+   "enunciado": "¿Cuál es la conducta más apropiada en este momento?",
+   "opciones": {
+    "A": "Iniciar terapia sustitutiva, desescalar inmunosupresión y evaluar trasplante",
+    "B": "Mantener MMF y prednisona en dosis plenas de forma indefinida",
+    "C": "Rebiopsiar para decidir si todavía hay actividad recuperable",
+    "D": "Añadir inhibidor SGLT2 y diferir la terapia sustitutiva otros 6 meses",
+    "E": "Intensificar la inmunosupresión con CFM IV para recuperar función"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Riñones fibróticos sin actividad: iniciar diálisis según síntomas, reducir la inmunosupresión a lo que exija la enfermedad extrarrenal y evaluar para trasplante.",
+    "B": "Mantener dosis plenas en ERC terminal sin actividad aumenta el riesgo de infección y de neoplasia.",
+    "C": "La rebiopsia se realizó ya; repetirla con 11/12 de cronicidad no aporta.",
+    "D": "Los inhibidores SGLT2 no modifican una TFG de 9 mL/min; no sustituyen la terapia sustitutiva.",
+    "E": "Con cronicidad 11/12 y actividad mínima, inmunosuprimir añade riesgo infeccioso sin beneficio renal."
+   },
+   "perla": "NL con cronicidad alta y actividad mínima: desescalar la inmunosupresión y preparar la terapia sustitutiva o el trasplante.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 80
+  },
+  {
+   "id": "B2-JEFE-2",
+   "serie_id": "JEFE",
+   "orden": 2,
+   "subtema": "Acceso vascular y anticuerpos antifosfolípidos",
+   "caso": "",
+   "continuacion": "Se decide iniciar terapia sustitutiva. Se discute la modalidad y el acceso, considerando el anticoagulante lúpico positivo.",
+   "enunciado": "¿Qué consideración es más relevante para la terapia sustitutiva y el acceso?",
+   "opciones": {
+    "A": "Elegir catéter tunelizado permanente para evitar la fístula",
+    "B": "Contraindicar la diálisis peritoneal por los anticuerpos aPL",
+    "C": "Anticoagular a todos los portadores de aPL, con o sin trombosis",
+    "D": "Preferir hemodiálisis sobre diálisis peritoneal en toda NL",
+    "E": "Los aPL elevan el riesgo de trombosis del acceso y del injerto"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "El catéter tiene más infección y mortalidad; la fístula sigue siendo preferible, con vigilancia estrecha.",
+    "B": "El SAF no contraindica la diálisis peritoneal; no hay datos que favorezcan una modalidad.",
+    "C": "La anticoagulación plena no se indica solo por aPL positivos sin trombosis; sí se valora en el trasplante.",
+    "D": "KDIGO 2024: no hay datos que favorezcan hemodiálisis sobre diálisis peritoneal en la NL.",
+    "E": "Los aPL elevan el riesgo de trombosis del acceso y del injerto; KDIGO 2024 contempla anticoagulación profiláctica peritrasplante."
+   },
+   "perla": "aPL + ERC terminal: riesgo de trombosis de acceso y de injerto; valorar profilaxis antitrombótica peritrasplante.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 80
+  },
+  {
+   "id": "B2-JEFE-3",
+   "serie_id": "JEFE",
+   "orden": 3,
+   "subtema": "Momento del trasplante",
+   "caso": "",
+   "continuacion": "La paciente tiene donadora viva (hermana, HLA idéntica en 3 de 6 antígenos) y pregunta cuándo puede trasplantarse.",
+   "enunciado": "¿Cuál es la recomendación sobre el momento del trasplante?",
+   "opciones": {
+    "A": "Esperar 24 meses en diálisis para confirmar la quiescencia",
+    "B": "Esperar la negativización del anti-ADNdc antes de trasplantar",
+    "C": "Trasplantar con LES clínicamente inactivo, sin años de diálisis",
+    "D": "Contraindicarlo con anticoagulante lúpico positivo persistente",
+    "E": "Trasplantar solo si se demuestra ausencia total de actividad serológica"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "No existe un periodo obligatorio de 24 meses; más tiempo en diálisis empeora los desenlaces.",
+    "B": "La serología aislada no define el momento; muchos pacientes conservan títulos bajos.",
+    "C": "KDIGO 2024: el trasplante es preferible a la diálisis prolongada y puede realizarse una vez que la enfermedad está quiescente; menos tiempo en diálisis mejora los desenlaces.",
+    "D": "Los aPL no contraindican el trasplante; modifican la profilaxis antitrombótica.",
+    "E": "Exigir serología negativa retrasaría el trasplante sin justificación."
+   },
+   "perla": "Trasplante en NL: con LES clínicamente quiescente, lo antes posible. La serología aislada no lo retrasa.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 82
+  },
+  {
+   "id": "B2-JEFE-4",
+   "serie_id": "JEFE",
+   "orden": 4,
+   "subtema": "Recurrencia en el injerto",
+   "caso": "",
+   "continuacion": "Antes de firmar el consentimiento pregunta por el riesgo de que el lupus dañe el riñón trasplantado.",
+   "enunciado": "¿Qué afirmación sobre la recurrencia de la NL en el injerto es correcta?",
+   "opciones": {
+    "A": "Nunca recurre si el donador es un familiar de primer grado",
+    "B": "Recurre en 2–11 % y rara vez causa pérdida del injerto",
+    "C": "La recurrencia se previene suspendiendo la hidroxicloroquina",
+    "D": "La recurrencia obliga a trasplantectomía en la mayoría de los casos",
+    "E": "Recurre en más del 50 % y causa pérdida del injerto en la mitad"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "El parentesco no previene la recurrencia de la enfermedad autoinmune.",
+    "B": "La recurrencia histológica es poco frecuente (series: alrededor de 2–11 %, en general leve) y rara vez hace perder el injerto; los desenlaces son comparables a otras causas de ERC terminal.",
+    "C": "La HCQ se continúa; no favorece la recurrencia.",
+    "D": "La mayoría responde al ajuste de la inmunosupresión; la trasplantectomía es excepcional.",
+    "E": "Las cifras de recurrencia son muy inferiores a 50 % en las series publicadas."
+   },
+   "perla": "NL en el injerto: recurrencia poco frecuente y en general leve; sobrevida del injerto similar a otras causas.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69",
+    "Contreras G, et al. J Am Soc Nephrol 2010;21:1200-1207"
+   ],
+   "peso": 82
+  },
+  {
+   "id": "B2-JEFE-5",
+   "serie_id": "JEFE",
+   "orden": 5,
+   "subtema": "Postrasplante: deterioro y diagnóstico diferencial",
+   "caso": "",
+   "continuacion": "Recibe tacrolimus, micofenolato y prednisona; el anticoagulante lúpico persiste positivo.",
+   "enunciado": "A los 8 meses del trasplante: creatinina de 1.1 a 1.9 mg/dL, UPCR 1.2 g/g, plaquetas 95 000, LDH alta y esquistocitos. Tacrolimus en 14 ng/mL. ¿Cuál es el diagnóstico diferencial prioritario?",
+   "opciones": {
+    "A": "Recurrencia de NL clase IV como causa única del cuadro",
+    "B": "Rechazo celular agudo, que explica por sí solo la hemólisis",
+    "C": "Nefropatía por virus BK, que suele cursar con esquistocitos",
+    "D": "MAT: por tacrolimus, por SAF o por rechazo humoral",
+    "E": "Estenosis de la arteria del injerto con hipoperfusión crónica"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "La recurrencia es posible, pero no explica la hemólisis microangiopática.",
+    "B": "El rechazo celular no produce microangiopatía; el mediado por anticuerpos sí puede.",
+    "C": "La nefropatía por BK no cursa con hemólisis microangiopática ni plaquetopenia.",
+    "D": "Hemólisis microangiopática en el injerto con tacrolimus supraterapéutico y aPL: MAT por CNI, por SAF o por rechazo humoral. Se requiere biopsia del injerto, ajustar el tacrolimus y estudiar C4d, DSA y complemento.",
+    "E": "La estenosis arterial causa hipertensión y deterioro, pero no hemólisis ni plaquetopenia."
+   },
+   "perla": "MAT en el injerto: pensar en CNI, SAF, rechazo humoral e infección. Biopsia con C4d, DSA y niveles del fármaco.",
+   "referencias": [
+    "KDIGO 2024 Lupus Nephritis Guideline. Kidney Int 2024;105(1S):S1-S69"
+   ],
+   "peso": 85
+  }
+ ]
+}
