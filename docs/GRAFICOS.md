@@ -14,7 +14,10 @@ Estilo: pixel art a baja resolución, vista cenital, contorno oscuro de 1 px y p
 | Objetos de las casillas | `OBJ` (árbol, roca, cristal, célula, anillo/túbulo, eritrocito, cama, monitor, estante, mesa, ruina, charco) y `TILESET` (qué objetos y colores usa cada tipo de zona) | Para un escenario nuevo basta añadir una entrada a `TILESET` |
 | Suelo y hierba | `floorTile()` (con borde junto a los muros), `grassTile()` | Colores base en `THEME` |
 | Puerta, letrero, cristal de minijuego, salida | `gateSprite`, `signSprite`, `crystalSprite`, `exitSprite` | |
-| Combate (fondo, plataformas, cajas de vida) | `drawBattle()`, `uiBox()`, `hpbar()` | El jefe aún se dibuja a mano dentro de `drawBattle` |
+| Combate (fondo, plataformas, cajas de vida) | `drawBattle()`, `uiBox()`, `hpbar()` | |
+| Villanos con sprite propio en el mapa | `VILLAIN` (aine, contraste, genta, tacro, levamisol, solvente, hemo) y `personAs()` | La clave es el `cast` del entrenador en `story.json` |
+| Jefes | `bossSprite(fase,color,oscuro,cabezas)` y `drawBoss()` | F1 defensor · F2 corrupto (ojos rojos) · F3 cuernos de semiluna y tentáculos · F4 avatar de La Esclerosis con remolino |
+| Pantalla VS antes del jefe · Torre | `drawVS()`, `drawTorre()`, `vortex()`, `crescent()` | Se muestran con `OVER` (capa que reemplaza al mapa mientras dura) |
 | Animaciones de ataque | `drawFx()` | |
 | Viñetas al entrar/salir de una zona | `VIG.*` y `drawSpec()` | |
 | Paneles, botones y diálogo | bloque `<style>` | Paneles crema, cabeceras verdes, diálogo con borde azul |
