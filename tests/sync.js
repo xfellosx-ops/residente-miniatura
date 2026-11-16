@@ -14,6 +14,14 @@ const wait=ms=>new Promise(r=>setTimeout(r,ms));let bad=0;const fail=m=>{console
  // dispositivo B importa
  let b=open({},false);const n=b.__G.importar(code);if(n<1)fail('importar 0');b=open(dump(b),false);if(b.__G.S.potions!==9)fail('B no recibió la partida');
  if(b.__G.importar(code)!==0)fail('reimportar debió ser 0');
+ // caso real: B abrió el juego DESPUÉS (copia casi vacía pero más reciente); el código de A debe ganar por avance
+ let d=open({},false);d.document.querySelector('#t1').click();await wait(50);d.eval('save()');await wait(20);
+ const ts=JSON.parse(d.localStorage.getItem('rm_ts'));for(const k in ts)ts[k]=Date.now()+60000;d.localStorage.setItem('rm_ts',JSON.stringify(ts));
+ if(d.__G.importar(code)<1)fail('la copia vacía y más reciente ganó al código con avance');d=open(dump(d),false);if(d.__G.S.potions!==9)fail('D no recibió el avance');
+ // forzar reemplaza aunque lo local tenga más avance
+ let e2=open({},false);e2.__G.importar(code);e2=open(dump(e2),false);e2.__G.S.stats.n=99;e2.eval('save()');if(e2.__G.importar(code)!==0)fail('importó encima de más avance');if(e2.__G.importar(code,true)<1)fail('forzar no reemplazó');
+ // niveles superados se unen
+ let g1=open({rm_global:JSON.stringify({done:{'1':1},team:[]})},false),c1=g1.__G.exportar();let g2=open({rm_global:JSON.stringify({done:{'2':1},team:[]})},false);g2.__G.importar(c1);if(Object.keys(JSON.parse(g2.localStorage.getItem('rm_global')).done).sort().join()!=='1,2')fail('no unió niveles superados');
  // nube: A sube, B (vacío) baja solo en el título
  a=open(dump(a),true);await wait(300);if(!cloud['rm_v3_1'])fail('A no subió: '+Object.keys(cloud));
  let c=open({},true);await wait(300);c=open(dump(c),true);await wait(100);if(c.__G.S.potions!==9)fail('C no bajó de la nube');

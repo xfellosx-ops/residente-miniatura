@@ -703,7 +703,7 @@ $("#bA").onpointerdown=e=>{e.preventDefault();unlockAudio();pressA()};
 document.querySelectorAll(".dpad button").forEach(b=>{const d=b.dataset.d;b.onpointerdown=e=>{e.preventDefault();unlockAudio();if(KEYNAV&&MODE!=="world")return KEYNAV(d);if(MODE==="world")held=d};["pointerup","pointerleave","pointercancel"].forEach(ev=>b.addEventListener(ev,()=>{if(held===d)held=null}))});
 /* ================= título ================= */
 function title(){MODE="title";clearAll();cx.fillStyle="#0f380f";cx.fillRect(0,0,160,96);cx.fillStyle="#9bbc0f";cx.font="8px monospace";cx.fillText("EL RESIDENTE",42,30);cx.fillText("MINIATURA",50,42);person(72,52,"#ffffff","down",0);cx.font="6px monospace";{const s=(META.id+" · "+META.title).toUpperCase().slice(0,30);cx.fillText(s,Math.max(2,80-s.length*1.8),82)}hud();
- pn.innerHTML='<div class="who">EL RESIDENTE MINIATURA · versión 21 · 16/11</div><div class="box small">'+esc(META.id+" · "+META.title)+': '+STORY.zones.length+' zonas, '+STORY.zones.reduce((a,z)=>a+z.trainers.length,0)+' entrenadores, '+STORY.zones.reduce((a,z)=>a+z.minigames.length,0)+' minijuegos y el jefe '+esc(META.bossShort)+' en '+STORY.boss.phases.length+' fases. 😴 = despertador. Muévete con las flechas (o WASD). <b>A</b>/Z = acción, <b>B</b>/X = menú. Tu avance se guarda en este navegador.</div><div class="row"><button class="btn" id="t1">'+(S.flags.in_0?"▶ CONTINUAR "+esc(META.id):"▶ JUGAR "+esc(META.id))+'</button><button class="btn alt" id="t2">CHEQUEO DE ALERTA</button><button class="btn alt" id="t3">REPASO ('+dueCount()+')</button></div>';
+ pn.innerHTML='<div class="who">EL RESIDENTE MINIATURA · versión 22 · 16/11</div><div class="box small">'+esc(META.id+" · "+META.title)+': '+STORY.zones.length+' zonas, '+STORY.zones.reduce((a,z)=>a+z.trainers.length,0)+' entrenadores, '+STORY.zones.reduce((a,z)=>a+z.minigames.length,0)+' minijuegos y el jefe '+esc(META.bossShort)+' en '+STORY.boss.phases.length+' fases. 😴 = despertador. Muévete con las flechas (o WASD). <b>A</b>/Z = acción, <b>B</b>/X = menú. Tu avance se guarda en este navegador.</div><div class="row"><button class="btn" id="t1">'+(S.flags.in_0?"▶ CONTINUAR "+esc(META.id):"▶ JUGAR "+esc(META.id))+'</button><button class="btn alt" id="t2">CHEQUEO DE ALERTA</button><button class="btn alt" id="t3">REPASO ('+dueCount()+')</button></div>';
  const go=()=>{unlockAudio();if(!S.flags.in_0){MODE="dialog";return enterZone(0)}if(S.boss&&!S.done)return bossArena();enterZone(S.zone,true)};$("#t1").onclick=go;KEYA=go;if(LEVELS.length>1){$("#t1").insertAdjacentHTML("afterend",'<button class="btn" id="t4">🗺 MAPA</button>');$("#t4").onclick=()=>mapa(title)}$("#t3").insertAdjacentHTML("afterend",'<button class="btn alt" id="t5">💾 PARTIDA</button>');$("#t5").onclick=()=>partida(title);$("#t2").onclick=()=>pvt(title);$("#t3").onclick=()=>review(title)}
 /* mapa de regiones: elegir nivel recarga la página con ese nivel */
 function mapa(back){MODE="dialog";clearAll();const built=new Set(LEVELS.map(l=>l.story.meta.id));
@@ -763,8 +763,21 @@ function fmtClock(s){s=Math.max(0,s|0);const h=(s/3600)|0,m=((s%3600)/60)|0,x=s%
 const SKEYS=["rm_global","rm_torre","rm_cur",...LEVELS.map(l=>l.story.meta.key)];
 function exportar(){const d={},ts=tsGet();SKEYS.forEach(k=>{const v=localStorage.getItem(k);if(v!=null)d[k]={v,t:ts[k]||1}});return JSON.stringify({juego:"residente-miniatura",v:1,fecha:new Date().toISOString(),d})}
 /* importa solo lo que sea más nuevo que lo local (o todo, si forzar); devuelve cuántas claves cambió */
+/* ¿Qué copia tiene más avance? Se compara el avance real (no solo la hora): preguntas respondidas, zona, jefe y nivel superado.
+   Así abrir el juego en otro dispositivo no hace que su copia casi vacía "gane" por ser más reciente. */
+function avance(k,v){try{const o=JSON.parse(v);if(k==="rm_global")return Object.keys(o.done||{}).length*1e6+(o.team||[]).reduce((a,c)=>a+(c.lvl||0)*100+(c.xp||0)/100,0);
+  if(k==="rm_torre")return Object.keys(o.floors||{}).length*1e5+(o.best||0)*100+Object.keys((o.run&&o.run.ans)||{}).length;
+  if(k==="rm_cur")return 0;const st=o.stats||{};return (o.done?1e9:0)+(o.boss?1e8-((o.boss.hp||100)*1e5):0)+(o.zone||0)*1e6+(st.n||0)*10+Object.keys(o.flags||{}).length}catch(e){return 0}}
+/* une la partida global: niveles superados de ambas copias y el equipo más avanzado */
+function unirGlobal(a,b){try{const A=JSON.parse(a),B=JSON.parse(b);const best=avance("rm_global",a)>=avance("rm_global",b)?A:B;best.done=Object.assign({},B.done||{},A.done||{});return JSON.stringify(best)}catch(e){return b}}
+/* devuelve cuántas partes cambió; forzar = reemplazar todo con lo importado */
 function importar(txt,forzar){const o=JSON.parse(txt);if(!o||o.juego!=="residente-miniatura"||!o.d)throw new Error("formato");const ts=tsGet();let n=0;
- Object.entries(o.d).forEach(([k,x])=>{if(!SKEYS.includes(k)||!x||typeof x.v!=="string")return;if(forzar||(x.t||0)>(ts[k]||0)){localStorage.setItem(k,x.v);ts[k]=x.t||Date.now();n++}});localStorage.setItem("rm_ts",JSON.stringify(ts));return n}
+ Object.entries(o.d).forEach(([k,x])=>{if(!SKEYS.includes(k)||!x||typeof x.v!=="string")return;const loc=localStorage.getItem(k);let nv=null;
+  if(forzar||loc==null)nv=x.v;
+  else if(k==="rm_global"){const u=unirGlobal(loc,x.v);if(u!==loc)nv=u}
+  else if(k==="rm_cur"){if((x.t||0)>(ts[k]||0))nv=x.v}
+  else{const a=avance(k,x.v),b=avance(k,loc);if(a>b||(a===b&&(x.t||0)>(ts[k]||0)))nv=x.v}
+  if(nv!=null&&nv!==loc){localStorage.setItem(k,nv);ts[k]=Date.now();n++}});localStorage.setItem("rm_ts",JSON.stringify(ts));return n}
 const SYNC={db:null,col:null,state:"local",busy:false,msg:"Solo en este dispositivo"};
 function cloud(s,msg){SYNC.state=s;SYNC.msg=msg;const e=$("#cloud");if(e)e.textContent={ok:"☁✓",up:"☁↑",off:"☁✗",local:""}[s]||"";const m=$("#syncmsg");if(m)m.textContent=msg}
 const withT=(p,ms)=>Promise.race([p,new Promise((_,r)=>setTimeout(()=>r(new Error("tiempo")),ms))]);
@@ -774,7 +787,7 @@ async function syncPush(){if(!SYNC.col||SYNC.busy)return;SYNC.busy=true;try{cons
   cloud("ok","Sincronizado "+new Date().toLocaleTimeString().slice(0,5))}catch(e){cloud("off","Sin conexión: se guarda aquí y se sube al reconectar")}SYNC.busy=false}
 /* baja lo que otro dispositivo guardó después; en la pantalla de inicio se aplica solo, a media partida pregunta */
 async function syncPull(){const snap=await withT(SYNC.col.get(),10000);const ts=tsGet(),up=tsGet("rm_pushed"),nuevos={};
- snap.docs.forEach(d=>{const x=d.data()||{};if(SKEYS.includes(d.id)&&typeof x.v==="string"&&(x.t||0)>(ts[d.id]||0))nuevos[d.id]=x});const ks=Object.keys(nuevos);if(!ks.length)return 0;
+ snap.docs.forEach(d=>{const x=d.data()||{},k=d.id;if(!SKEYS.includes(k)||typeof x.v!=="string"||(x.t||0)<=(ts[k]||0))return;const loc=localStorage.getItem(k);if(loc!=null&&k!=="rm_cur"&&k!=="rm_global"&&avance(k,x.v)<avance(k,loc))return;if(k==="rm_global"&&loc!=null)x.v=unirGlobal(loc,x.v);nuevos[k]=x});const ks=Object.keys(nuevos);if(!ks.length)return 0;
  const aplicar=()=>{ks.forEach(k=>{localStorage.setItem(k,nuevos[k].v);ts[k]=nuevos[k].t;up[k]=nuevos[k].t});localStorage.setItem("rm_ts",JSON.stringify(ts));localStorage.setItem("rm_pushed",JSON.stringify(up));location.reload()};
  if(MODE==="title")aplicar();else modal("Hay avance más reciente guardado desde otro dispositivo ("+ks.length+" partes). ¿Cargarlo ahora? Si sigues jugando aquí sin cargarlo, este dispositivo lo reemplazará.",aplicar,"CARGAR");return ks.length}
 async function syncInit(){try{if(!window.claude||!claude.use)return;const [db,user]=await Promise.all([claude.use("db"),claude.use("user")]);if(!db||!user)return;const uid=await user.id();if(!uid)return;
@@ -793,7 +806,10 @@ function partida(back){MODE="title";clearAll();const nlv=Object.keys(G.done).len
  if($("#p0"))$("#p0").onclick=async()=>{try{await syncPull()}catch(e){}await syncPush()};
  $("#p1").onclick=()=>{io.value=exportar();try{navigator.clipboard.writeText(io.value).then(()=>msg("Código copiado. Pégalo en PARTIDA del otro dispositivo."),()=>{io.select();msg("Selecciona y copia el texto.")})}catch(e){io.select();msg("Selecciona y copia el texto.")}};
  $("#p2").onclick=async()=>{msg(await bajar("residente-partida.json",exportar(),"application/json")?"Archivo de partida listo.":"No se guardó.")};
- $("#p3").onclick=()=>{try{const n=importar(io.value.trim());if(n){msg("Importado. Recargando…");later(()=>location.reload(),600)}else msg("Ese código no trae nada más nuevo que lo que ya tienes aquí.")}catch(e){msg("El texto no es un código de partida válido.")}};
+ $("#p3").onclick=()=>{let n;try{n=importar(io.value.trim())}catch(e){return msg("El texto no es un código de partida válido. Revisa que lo pegaste completo.")}
+  if(n){msg("Importado. Recargando…");return later(()=>location.reload(),600)}
+  msg("Este dispositivo ya tiene igual o más avance que el código.");if(!$("#p5"))$("#p3").insertAdjacentHTML("afterend",'<button class="btn red" id="p5">REEMPLAZAR TODO CON EL CÓDIGO</button>');
+  $("#p5").onclick=()=>modal("Se borrará el avance de este dispositivo y quedará exactamente el del código. ¿Seguro?",()=>{try{importar(io.value.trim(),true);msg("Reemplazado. Recargando…");later(()=>location.reload(),600)}catch(e){msg("El texto no es un código de partida válido.")}},"SÍ, REEMPLAZAR")};
  $("#p4").onclick=async()=>{msg(await bajar("residente-miniatura.html",gameFile(),"text/html")?"Juego descargado. Ábrelo desde tus archivos con el navegador.":"No se descargó.")};
  $("#bk").onclick=back;KEYA=null}
 syncInit();
