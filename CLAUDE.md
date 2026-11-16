@@ -3,8 +3,10 @@
 Videojuego educativo estilo Pokémon Gen III (HTML/JS, canvas 160×96) para que Alfredo, residente de último año de nefrología, estudie para el examen del Consejo Mexicano de Nefrología (**16 de enero de 2027**, 300 preguntas con casos seriados). Lee `docs/DISENO.md` antes de cambiar nada.
 
 ## Comandos
-- `npm install` (una vez) · `python3 build.py [levels/<nivel>]` → `dist/index.html`
-- `npm test` → construye y juega el nivel completo con un autómata (modo correcto y con 35 % de errores). Debe terminar en `DONE` y `errors []`.
+- `npm install` (una vez) · `python3 build.py` → `dist/index.html` (juego completo: mapa, 32 niveles y Torre) · `python3 build.py levels/<nivel>` → `dist/<id>.html` (un nivel)
+- `python3 build.py --pwa` → `docs/` (app instalable que GitHub Pages sirve desde la rama, carpeta `/docs`: `index.html`, `sw.js`, `manifest.webmanifest`, iconos). **Vuelve a correrlo y haz commit de `docs/` cada vez que cambie el juego**, o los dispositivos no reciben la versión nueva.
+- `python3 tools/nivel.py [id…]` → regenera los niveles compactos desde `levels/_specs/*.py` (no edites a mano su `story.json`, `q_extra.json` ni `q_banco.json`)
+- `npm test` → construye y juega **todos** los niveles con un autómata (modo correcto y con 35 % de errores), y prueba el mapa y la Torre; `npm test -- levels/<nivel>` juega solo uno. Todo debe decir `PASA`.
 - `python3 tools/validate_story.py levels/<nivel>/story.json`
 - `python3 tools/validate_questions.py levels/<nivel>/q_extra.json` (sesgo de longitud ≤25 %, letras balanceadas)
 
@@ -16,13 +18,14 @@ Videojuego educativo estilo Pokémon Gen III (HTML/JS, canvas 160×96) para que 
 5. **El conocimiento pesa más que la destreza:** un ataque solo ocurre si se acierta la pregunta.
 6. **Prioridad de preguntas:** las recordadas de examen (`origen` terminado en `26` en `data/bank.json`) van a jefes y entrenadores.
 7. **Datos personales:** en el Drive de Alfredo hay expedientes de pacientes reales. No usarlos nunca.
-8. Las preguntas de `data/bank.json` traen sesgo de longitud (99 % la correcta es la más larga); Alfredo lo está corrigiendo en otra app. Pregúntale por la versión corregida antes de reutilizarlas en masa.
+8. `data/bank.json` es la versión corregida de la app "Banco maestro de nefrología" de Alfredo (15 nov 2026: 1010 preguntas; la correcta es la más larga en el 20 %, antes 99 %). Si Alfredo actualiza la app, vuelve a copiar `bank.json`, `temario.json` y `competencias.json` desde su artefacto y regenera los `q_banco.json` por `id`.
 
 ## Cómo añadir un nivel
-1. Copia la estructura de `levels/9-5-lupus/` (esquema en `docs/DISENO.md`).
-2. Guion → `story.json` (10 zonas aprox. para temas grandes, 3–5 para chicos).
-3. Preguntas → `q_extra.json` (pasto, puertas, entrenadores seriados, jefe) + `q_banco.json` (extraídas de `data/bank.json` por `tema_id`).
-4. Valida, construye y corre `npm test`. Pide a Alfredo que lo juegue antes de seguir con el siguiente.
+Hay dos clases de nivel:
+- **Largos, a mano** (`9-5-lupus`, `9-6-anca`): `story.json` y `q_extra.json` propios, con preguntas nuevas. Esquema en `docs/DISENO.md`, sección 5.
+- **Compactos, generados** (los otros 30): una especificación corta en `levels/_specs/*.py` (zonas, diálogos, minijuegos, jefe y pasto V/F). `tools/nivel.py` toma las preguntas de opción múltiple de `data/bank.json` y las reparte: recordadas de examen al jefe y a los entrenadores, el resto a las puertas.
 
-## Deuda técnica (hacer primero)
-Ver "Pendientes de ingeniería" en `docs/DISENO.md`: varias piezas del motor siguen escritas a mano para lupus.
+Para alargar un nivel compacto: añade zonas a su spec, o conviértelo en largo copiando la estructura de `9-6-anca`. Después valida, construye y corre `npm test`. El orden y el nombre de los niveles en el mapa están en `data/regiones.json`; las criaturas comunes, en `data/criaturas.json`.
+
+## Deuda técnica
+Ver "Pendientes de ingeniería" en `docs/DISENO.md`. El punto 1 (sacar lupus del motor) ya está hecho: el motor no debe volver a conocer ningún nivel; todo lo propio va en `story.json`.

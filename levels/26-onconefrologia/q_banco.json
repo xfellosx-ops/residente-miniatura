@@ -1,0 +1,818 @@
+[
+ {
+  "id": "IMG-3",
+  "serie_id": "IMG",
+  "orden": 3,
+  "sub": "26.a",
+  "subtema": "Clasificación de Bosniak: riesgo de malignidad",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Los hallazgos (septos gruesos con realce) corresponden a una lesión quística Bosniak III.",
+  "enunciado": "¿Cuál es el riesgo aproximado de malignidad y la conducta?",
+  "opciones": {
+   "A": "Entre 10 y 20%; control anual solamente, porque el riesgo de progresión a carcinoma es bajo en este tipo de lesión quística",
+   "B": "Menos de 1%; no requiere seguimiento, porque las lesiones con septos engrosados y realce son siempre benignas",
+   "C": "Alrededor de 50%; evaluación urológica con cirugía o ablación, o vigilancia activa si el riesgo quirúrgico es alto",
+   "D": "0%; es benigna, y solo se interviene si crece de forma documentada en estudios de imagen subsecuentes a lo largo de años",
+   "E": "Casi 100%; nefrectomía radical obligatoria sin otros estudios, porque los septos engrosados con realce son diagnósticos de cáncer"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Una cifra de 10 a 20% no corresponde a ninguna categoría, y no se recomienda solo el control anual.",
+   "B": "Menos de 1% corresponde a Bosniak I.",
+   "C": "En la clasificación de Bosniak, las lesiones I y II son benignas (riesgo menor de 1 a 5%) y no requieren seguimiento; la IIF requiere vigilancia; la III (septos gruesos o irregulares con realce, o paredes engrosadas) tiene un riesgo de cáncer de aproximadamente 50%, y la IV (nódulo mural con realce) cercano a 90 a 100%. Para Bosniak III se recomienda tratamiento (nefrectomía parcial o ablación) o vigilancia activa en pacientes con comorbilidad que eleven el riesgo quirúrgico, como este paciente con ERC G4.",
+   "D": "Ninguna lesión Bosniak III tiene 0% de riesgo.",
+   "E": "Bosniak IV se acerca al 90% a 100%, pero no justifica omitir estudios y decisiones individualizadas."
+  },
+  "perla": "Bosniak I/II benignas; IIF vigilancia; III ≈50% malignidad; IV ≈90% (nódulo mural con realce).",
+  "referencias": [
+   "Silverman SG et al. Radiology 2019;292:475",
+   "Comprehensive Clinical Nephrology (neoplasias renales)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o1",
+  "peso": 36.1
+ },
+ {
+  "id": "IMG-4",
+  "serie_id": "IMG",
+  "orden": 4,
+  "sub": "26.a",
+  "subtema": "Carcinoma renal de células claras: diseminación y factores de riesgo",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La nefrectomía parcial confirma carcinoma de células renales de células claras pT1b. El paciente pregunta por el riesgo de metástasis y por qué tuvo el tumor.",
+  "enunciado": "¿Qué afirmación es correcta sobre la diseminación y los factores de riesgo?",
+  "opciones": {
+   "A": "Es el subtipo más frecuente, invade vena renal y cava, y metastatiza a pulmón y hueso; la ERC con TRR es factor de riesgo",
+   "B": "Se disemina únicamente por contigüidad, sin metástasis a distancia, por lo que la nefrectomía parcial siempre es curativa en estos casos",
+   "C": "La ERC protege contra el cáncer renal, porque la atrofia renal impide la proliferación del epitelio tubular",
+   "D": "Es raro, se disemina solo por vía linfática y afecta sobre todo a mujeres jóvenes sin enfermedad renal previa ni tabaquismo",
+   "E": "Es el subtipo papilar, que no invade venas y casi nunca produce metástasis, por lo que no requiere vigilancia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El carcinoma de células renales de células claras es el subtipo más frecuente, predomina en hombres (relación de 1.5:1) y alcanza su máximo entre los 60 y 70 años. Se disemina por vía hematógena y linfática, con tendencia a invadir el sistema venoso (vena renal y cava inferior), y las metástasis son más comunes en pulmón y hueso. Los factores de riesgo incluyen tabaquismo, obesidad, hipertensión, enfermedad renal quística adquirida y la ERC terminal con terapia de reemplazo renal. En personas jóvenes se debe pensar en síndromes hereditarios (von Hippel-Lindau) y solicitar estudio genético.",
+   "B": "El carcinoma renal produce metástasis a distancia.",
+   "C": "La ERC con diálisis aumenta el riesgo de cáncer renal.",
+   "D": "La diseminación no es solo linfática ni afecta predominantemente a mujeres jóvenes.",
+   "E": "El subtipo papilar es menos frecuente, y el de células claras invade venas."
+  },
+  "perla": "CCR de células claras: más frecuente, invade vena renal/cava, metástasis a pulmón y hueso. Factor de riesgo: ERC con TRR. Joven → test genético.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (neoplasias renales)",
+   "Silverman SG et al. Radiology 2019;292:475"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o1",
+  "peso": 34.1
+ },
+ {
+  "id": "CSP-1",
+  "serie_id": "CSP",
+  "orden": 1,
+  "sub": "26.d",
+  "subtema": "Cisplatino: nefrotoxicidad y factores de riesgo",
+  "dificultad": "moderada",
+  "caso": "Hombre de 58 años con cáncer pulmonar de células pequeñas que recibe cisplatino 100 mg/m² más etopósido. Antecedentes: tabaquismo, albúmina de 3.0 g/dL, consumo habitual de omeprazol, TFGe basal de 68 mL/min/1.73 m². Dos semanas después del primer ciclo presenta náusea, creatinina de 2.3 mg/dL (basal 1.0), potasio de 3.0 mEq/L, magnesio de 1.0 mg/dL, calcio de 7.9 mg/dL y glucosuria con glucemia normal.",
+  "enunciado": "¿Cuál es el diagnóstico y cuál es el factor de riesgo de toxicidad que se evidencia?",
+  "opciones": {
+   "A": "Necrosis tubular por cisplatino con Fanconi parcial; hipomagnesemia, hipoalbuminemia y dosis acumulada elevan el riesgo",
+   "B": "Obstrucción posrenal por el tumor, que se trata con derivación urinaria urgente por el aumento de creatinina",
+   "C": "Glomerulonefritis posinfecciosa, con el tabaquismo como factor de riesgo, que se trata con diuréticos y vigilancia estrecha",
+   "D": "Síndrome de lisis tumoral, con la dosis alta de cisplatino como factor de riesgo, que se trata con rasburicasa",
+   "E": "Nefritis intersticial inmunoalérgica por omeprazol exclusivamente, con el consumo habitual del inhibidor de bomba como único factor"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El cisplatino se concentra en las células del túbulo proximal (segmento S3) mediante los transportadores OCT2 y Ctr1, donde provoca daño del ADN, lesión mitocondrial, estrés oxidativo e inflamación. Produce lesión renal aguda en 20 a 30% de los pacientes, con pérdida de magnesio, potasio y calcio y datos de disfunción tubular proximal (glucosuria normoglucémica). Los factores de riesgo incluyen edad avanzada, tabaquismo, hipoalbuminemia, enfermedad renal previa, dosis alta o acumulada, combinación con otros nefrotóxicos e hipomagnesemia. El omeprazol puede contribuir a la hipomagnesemia.",
+   "B": "La obstrucción no explicaría la glucosuria normoglucémica ni la pérdida de magnesio.",
+   "C": "No hay síndrome nefrítico ni infección previa.",
+   "D": "El síndrome de lisis tumoral cursa con hiperpotasemia, hiperfosfatemia e hiperuricemia, no con hipopotasemia.",
+   "E": "El omeprazol puede causar nefritis intersticial, pero el cuadro tubular proximal posterior al cisplatino lo explica mejor."
+  },
+  "perla": "Cisplatino: toxicidad tubular proximal (OCT2/Ctr1). Riesgo: edad, hipoMg, hipoalbuminemia, ERC, dosis acumulada, nefrotóxicos.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "continuacion": "",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "CSP-2",
+  "serie_id": "CSP",
+  "orden": 2,
+  "sub": "26.d",
+  "subtema": "Cisplatino: prevención de la nefrotoxicidad",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Antes del segundo ciclo, el oncólogo pide recomendaciones para reducir el riesgo renal.",
+  "enunciado": "¿Cuál es el conjunto de medidas preventivas con mayor sustento?",
+  "opciones": {
+   "A": "Hidratación con salina isotónica, suplemento de magnesio, evitar otros nefrotóxicos y valorar carboplatino si hay riesgo alto",
+   "B": "Administrar AINE para controlar el dolor sin restricciones, porque no interactúan con el efecto tubular del cisplatino",
+   "C": "Asociar aminoglucósidos profilácticos, porque previenen las infecciones que agravan la lesión renal durante la quimioterapia sistémica",
+   "D": "Restringir líquidos para evitar sobrecarga, porque la hidratación abundante aumenta la concentración urinaria de cisplatino activo",
+   "E": "Alcalinizar la orina con bicarbonato como única medida, porque el cisplatino cristaliza en la orina ácida del túbulo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La hidratación con cloruro de sodio al 0.9% (precarga y poscarga, con o sin diurético o manitol según protocolo) reduce la concentración intratubular del platino. La suplementación de magnesio disminuye la nefrotoxicidad y corrige la pérdida renal de magnesio. Se deben evitar nefrotóxicos concomitantes, vigilar la función renal y electrolitos antes de cada ciclo, considerar fraccionar la dosis y emplear alternativas menos nefrotóxicas (carboplatino) cuando el beneficio oncológico lo permita. La amifostina se utiliza poco por sus efectos adversos.",
+   "B": "Los AINE agregan toxicidad hemodinámica.",
+   "C": "Los aminoglucósidos son nefrotóxicos y su uso sumaría daño.",
+   "D": "Restringir líquidos aumenta la concentración de cisplatino en el túbulo y el riesgo de lesión.",
+   "E": "La alcalinización por sí sola no es la medida con sustento para cisplatino (sí lo es para el metotrexato)."
+  },
+  "perla": "Prevención cisplatino: NaCl 0.9% antes y después, magnesio, evitar nefrotóxicos; carboplatino como alternativa.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "CSP-3",
+  "serie_id": "CSP",
+  "orden": 3,
+  "sub": "26.d",
+  "subtema": "Pérdida renal de magnesio y su corrección",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El magnesio sérico sigue en 1.0 mg/dL con calambres y QT prolongado a pesar de suplementos orales, que provocan diarrea. La excreción fraccional de magnesio es de 6%.",
+  "enunciado": "¿Cuál es la interpretación y la conducta?",
+  "opciones": {
+   "A": "Normal; no requiere tratamiento, porque la excreción fraccional de 6% es habitual y la hipomagnesemia es asintomática",
+   "B": "Pérdida renal de magnesio (FEMg >2%) por daño tubular del cisplatino; sulfato de magnesio IV, corregir K y Ca",
+   "C": "Pérdida gastrointestinal con excreción fraccional menor de 2%; continuar suplementos orales a dosis altas, aunque provoquen diarrea",
+   "D": "Hipermagnesemia; suspender el magnesio, porque la excreción fraccional de 6% indica una carga excesiva de magnesio",
+   "E": "Debe suspenderse todo el tratamiento oncológico y no corregir el magnesio, porque la hipomagnesemia es irreversible"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El QT prolongado y los calambres exigen tratamiento.",
+   "B": "Con hipomagnesemia, una excreción fraccional de magnesio mayor de 2% indica pérdida renal; menor de 2% sugiere pérdida gastrointestinal o ingestión baja. El cisplatino daña el túbulo proximal y el asa ascendente y el túbulo distal (disminuye la expresión de TRPM6), y la pérdida renal de magnesio puede persistir meses o años. La hipomagnesemia sintomática (calambres, QT prolongado, arritmias) con intolerancia a los suplementos orales se corrige con magnesio intravenoso, además de reponer potasio y calcio, que no se corrigen mientras persiste la hipomagnesemia. Debe vigilarse el ECG.",
+   "C": "Una fracción de 6% indica pérdida renal, no digestiva.",
+   "D": "El magnesio está bajo, no alto.",
+   "E": "El magnesio debe corregirse; la suspensión de la quimioterapia es una decisión oncológica."
+  },
+  "perla": "HipoMg: FEMg >2% = pérdida renal (cisplatino); <2% = digestiva. HipoMg refractaria → Mg IV; corregir K y Ca solo si Mg normal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (onconefrología)",
+   "Comprehensive Clinical Nephrology (trastornos del magnesio)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 36.1
+ },
+ {
+  "id": "CSP-4",
+  "serie_id": "CSP",
+  "orden": 4,
+  "sub": "26.d",
+  "subtema": "Secuelas renales crónicas tras cisplatino",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Seis meses después, con la quimioterapia concluida y el cáncer en remisión, la TFGe se estabiliza en 48 mL/min/1.73 m² y persiste hipomagnesemia leve.",
+  "enunciado": "¿Qué seguimiento corresponde?",
+  "opciones": {
+   "A": "Alta definitiva sin seguimiento porque la lesión por cisplatino se resuelve siempre al concluir la quimioterapia y no deja daño",
+   "B": "Diálisis crónica inmediata, porque la TFGe de 48 mL/min/1.73 m² con hipomagnesemia indica falla renal terminal inminente",
+   "C": "Repetir cisplatino a la misma dosis para evaluar la recuperación, ya que el cáncer está en remisión completa",
+   "D": "Trasplante renal urgente, porque la hipomagnesemia persistente y la TFGe de 48 indican enfermedad renal terminal",
+   "E": "Seguirlo como paciente con riesgo de ERC (TFGe, albuminuria, TA, electrolitos), evitar nefrotóxicos y ajustar fármacos"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La lesión no siempre se resuelve; la ERC después de LRA es frecuente.",
+   "B": "Con TFGe de 48 no hay indicación de diálisis.",
+   "C": "Repetir el cisplatino agravaría el daño.",
+   "D": "No hay indicación de trasplante.",
+   "E": "La recuperación incompleta tras lesión renal aguda por cisplatino es frecuente; hasta un tercio de los pacientes conserva reducción de la TFG, y el daño tubulointersticial crónico puede evolucionar a ERC. Se recomienda seguimiento con TFGe, albuminuria, TA y electrolitos (magnesio, potasio), evitar nefrotóxicos (AINE, contrastes), ajustar la dosis de fármacos y preferir la cuantificación de la TFG con creatinina y cistatina C en pacientes con sarcopenia por cáncer. Este seguimiento es parte de la atención de sobrevivientes de cáncer."
+  },
+  "perla": "Tras cisplatino: seguimiento de ERC/ tubulopatía (Mg, K); la LRA no recuperada predispone a ERC.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "ICI-1",
+  "serie_id": "ICI",
+  "orden": 1,
+  "sub": "26.d",
+  "subtema": "Inhibidores de puntos de control: nefritis intersticial aguda",
+  "dificultad": "moderada",
+  "caso": "Hombre de 67 años con melanoma metastásico tratado con pembrolizumab desde hace 4 meses, con omeprazol por reflujo. Creatinina de 1.0 a 2.8 mg/dL en 3 semanas. EGO con leucocituria estéril, cilindros leucocitarios, sin hematuria; proteinuria de 0.8 g/g. Sin fiebre, exantema ni eosinofilia.",
+  "enunciado": "¿Cuál es la lesión renal más probable asociada a los inhibidores de puntos de control?",
+  "opciones": {
+   "A": "Glomeruloesclerosis focal y segmentaria únicamente, que se presenta con proteinuria nefrótica y creatinina estable",
+   "B": "Nefropatía membranosa primaria, con anti-PLA2R positivo y proteinuria nefrótica, sin leucocituria ni cilindros leucocitarios",
+   "C": "Necrosis tubular aguda por cristales de pembrolizumab, que se acompaña de cristaluria y de acidosis tubular",
+   "D": "Enfermedad por anticuerpos anti-membrana basal glomerular, con hemoptisis y hematuria con cilindros eritrocitarios",
+   "E": "Nefritis tubulointersticial aguda (la más frecuente), con inhibidores de bomba de protones como factor de riesgo"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La GEFS puede ocurrir, pero con menor frecuencia que la nefritis intersticial.",
+   "B": "La nefropatía membranosa primaria no es la presentación típica.",
+   "C": "La NTA por cristales no es la lesión típica de los inhibidores de punto de control.",
+   "D": "La enfermedad anti-MBG no se asocia de forma típica a estos fármacos.",
+   "E": "Los anticuerpos contra PD-1, PD-L1 y CTLA-4 liberan la tolerancia de linfocitos T y pueden causar eventos adversos inmunes. La manifestación renal más frecuente es la nefritis tubulointersticial aguda (cerca de 2 a 5% de los pacientes), con inicio variable y a menudo tardío (meses). Se manifiesta con deterioro de la función renal, leucocituria estéril, cilindros leucocitarios y proteinuria subnefrótica; con frecuencia no hay exantema, fiebre ni eosinofilia. El uso concomitante de inhibidores de bomba de protones (y de AINE o antibióticos) predispone porque rompe la tolerancia a fármacos y aumenta el riesgo. Las glomerulopatías (podocitopatías, vasculitis pauci-inmune, nefropatía por IgA) son menos frecuentes."
+  },
+  "perla": "ICI → nefritis intersticial aguda (más frecuente). Riesgo: IBP, AINE, antibióticos. Sin tríada clásica; inicio tardío.",
+  "referencias": [
+   "Cortazar FB et al. J Am Soc Nephrol 2020;31:435",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "continuacion": "",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "ICI-3",
+  "serie_id": "ICI",
+  "orden": 3,
+  "sub": "26.d",
+  "subtema": "Tratamiento de la nefritis por ICI",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia confirma nefritis tubulointersticial aguda con infiltrado de linfocitos T. La creatinina es de 3.2 mg/dL (más de 3 veces la basal).",
+  "enunciado": "¿Cuál es el tratamiento adecuado?",
+  "opciones": {
+   "A": "Suspender el inhibidor y dar prednisona 1–2 mg/kg/día con reducción en 4–6 semanas; si no responde, añadir micofenolato",
+   "B": "Solo hidratación y observación, porque la nefritis por inhibidores de punto de control se resuelve al suspender el fármaco",
+   "C": "Ciclofosfamida como primera línea, junto con plasmaféresis, por la gravedad de la lesión y la elevación de la creatinina",
+   "D": "Rituximab como primera línea, porque el infiltrado de linfocitos T indica un mecanismo mediado por linfocitos B",
+   "E": "Continuar el inhibidor a dosis menor, porque la nefritis es dependiente de la dosis y se resuelve al reducirla"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Para la nefritis por inhibidores de punto de control de grado alto (creatinina más de 3 veces la basal), las guías recomiendan suspender el inhibidor de forma definitiva o temporal según el grado e iniciar glucocorticoides a dosis altas (prednisona 1 a 2 mg/kg/día; 0.5 a 1 mg/kg en grado 2), con reducción lenta en 4 a 6 semanas. Si no hay mejoría en 3 a 7 días se añade micofenolato (o infliximab en eventos extrarrenales concurrentes). Más de 70% de los pacientes recupera la función renal, y la rapidez del tratamiento influye en el desenlace.",
+   "B": "Sin inmunosupresión la recuperación es incompleta con frecuencia.",
+   "C": "La ciclofosfamida no es el tratamiento de primera línea de esta nefritis.",
+   "D": "El rituximab no es la primera línea.",
+   "E": "Continuar el fármaco, incluso a menor dosis, perpetúa la inflamación."
+  },
+  "perla": "ICI-AIN grado alto: suspender ICI + prednisona 1–2 mg/kg, taper 4–6 sem; sin respuesta → micofenolato. Recuperación ~70%.",
+  "referencias": [
+   "Cortazar FB et al. J Am Soc Nephrol 2020;31:435",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 36.1
+ },
+ {
+  "id": "ICI-4",
+  "serie_id": "ICI",
+  "orden": 4,
+  "sub": "26.d",
+  "subtema": "Glomerulopatías asociadas a ICI y reinicio del fármaco",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente con cáncer pulmonar en tratamiento con nivolumab desarrolla síndrome nefrótico agudo (proteinuria de 9 g/24 h, albúmina de 1.8 g/dL) sin hematuria ni caída significativa de TFG.",
+  "enunciado": "¿Qué lesión glomerular es la más probable y cuál es la conducta?",
+  "opciones": {
+   "A": "Glomerulonefritis posestreptocócica, que se trata con antibióticos y diuréticos por el síndrome nefrótico agudo del paciente",
+   "B": "Nefropatía membranosa con anti-PLA2R positivo, que solo requiere observación por la ausencia de caída de la TFG",
+   "C": "Necrosis papilar, que se trata con hidratación y suspensión de los AINE ante la proteinuria masiva del paciente",
+   "D": "Podocitopatía (cambios mínimos o GEFS colapsante); suspender el inhibidor y dar glucocorticoides",
+   "E": "Amiloidosis AL, que se trata con bortezomib y dexametasona por la proteinuria de 9 g y la hipoalbuminemia grave"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay infección estreptocócica previa.",
+   "B": "La nefropatía membranosa primaria no es típica y requiere confirmación serológica e histológica.",
+   "C": "La necrosis papilar no produce síndrome nefrótico.",
+   "D": "Aunque la nefritis intersticial predomina, los inhibidores de punto de control pueden causar glomerulopatías, sobre todo podocitopatías con síndrome nefrótico agudo (enfermedad de cambios mínimos o GEFS), además de vasculitis pauci-inmune, nefropatía por IgA, nefritis lúpica-símil, microangiopatía trombótica y amiloidosis AA. El síndrome nefrótico agudo con TFG relativamente conservada sugiere podocitopatía, que responde a suspensión del inhibidor y glucocorticoides. La biopsia define el diagnóstico, y el reinicio del inhibidor se valora con el oncólogo.",
+   "E": "La amiloidosis AL no explicaría el síndrome nefrótico agudo en este contexto."
+  },
+  "perla": "ICI + nefrótico agudo = podocitopatía (MCD/GEFS). También pauci-inmune, IgA, TMA, amiloide AA (raros).",
+  "referencias": [
+   "Cortazar FB et al. J Am Soc Nephrol 2020;31:435",
+   "Perazella MA, Shirali AC. J Am Soc Nephrol 2018;29:2039"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 36.1
+ },
+ {
+  "id": "VEG-1",
+  "serie_id": "VEG",
+  "orden": 1,
+  "sub": "26.d",
+  "subtema": "Anti-VEGF: hipertensión, proteinuria y microangiopatía",
+  "dificultad": "moderada",
+  "caso": "Mujer de 62 años con cáncer colorrectal metastásico, en tratamiento con bevacizumab. A los 5 meses presenta TA de 172/104 mmHg, edema, proteinuria de 4 g/24 h y creatinina de 1.5 mg/dL. Plaquetas de 190,000/µL, hemoglobina estable, LDH normal, complemento normal y sedimento sin hematuria.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Nefropatía por IgA asociada con el cáncer colorrectal metastásico, por la proteinuria, el edema y la hipertensión",
+   "B": "Hipertensión esencial no relacionada con el tratamiento oncológico, con nefroesclerosis y proteinuria incidental del anciano",
+   "C": "Glomerulonefritis lúpica, por la proteinuria nefrótica, el edema, la hipertensión y la elevación de la creatinina",
+   "D": "Síndrome de lisis tumoral con lesión renal aguda, por la elevación de la creatinina y las plaquetas disminuidas",
+   "E": "Toxicidad glomerular por anti-VEGF: hipertensión, proteinuria y microangiopatía trombótica con endoteliosis"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La nefropatía por IgA produciría hematuria y no se asocia al fármaco.",
+   "B": "La hipertensión de inicio reciente con proteinuria bajo bevacizumab se debe considerar un efecto del fármaco.",
+   "C": "No hay datos de lupus ni complemento bajo.",
+   "D": "El síndrome de lisis tumoral no cursa con proteinuria nefrótica e hipertensión.",
+   "E": "El VEGF producido por los podocitos mantiene la fenestración y la integridad del endotelio glomerular. Su inhibición (bevacizumab, aflibercept, inhibidores de tirosina cinasa como sunitinib o sorafenib) causa hipertensión (por menor producción de óxido nítrico), proteinuria y, en algunos casos, una microangiopatía trombótica limitada al riñón, con endoteliosis glomerular, sin anemia hemolítica ni trombocitopenia sistémica. El diagnóstico se apoya en el tiempo de aparición y en la biopsia renal, que muestra lesión endotelial y esclerosis glomerular."
+  },
+  "perla": "Anti-VEGF: HTA + proteinuria ± TMA renal limitada (endoteliosis). Complemento y plaquetas normales.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "continuacion": "",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "VEG-2",
+  "serie_id": "VEG",
+  "orden": 2,
+  "sub": "26.d",
+  "subtema": "Manejo de la toxicidad renal por anti-VEGF",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La proteinuria se confirma en 4.2 g/24 h con TA de 170/102 mmHg. La biopsia muestra microangiopatía trombótica glomerular con endoteliosis.",
+  "enunciado": "¿Cuál es el manejo adecuado?",
+  "opciones": {
+   "A": "Iniciar ciclofosfamida y esteroides, porque la microangiopatía trombótica con endoteliosis es una glomerulonefritis inmunomediada",
+   "B": "Continuar sin cambios con restricción de sal, porque la proteinuria de 4.2 g/24 h no obliga a modificar el tratamiento",
+   "C": "Suspender el bevacizumab, controlar la TA con IECA/ARA-II o antagonistas del calcio y reevaluar la reanudación",
+   "D": "Administrar eculizumab inmediato en todos los casos, porque la microangiopatía por anti-VEGF depende del complemento",
+   "E": "Iniciar plasmaféresis diaria hasta la normalización de las plaquetas, como en la púrpura trombocitopénica trombótica"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La ciclofosfamida no tiene papel.",
+   "B": "Continuar con proteinuria nefrótica y TMA arriesga daño renal permanente.",
+   "C": "Las medidas son suspender temporal o definitivamente el inhibidor de VEGF cuando hay proteinuria nefrótica, deterioro de la función renal o microangiopatía trombótica, y controlar la hipertensión de forma agresiva con IECA/ARA-II (que además reducen la proteinuria) o antagonistas del calcio. La mayoría de los casos mejora tras suspender el fármaco, aunque puede quedar daño crónico. La reanudación se valora con el oncólogo según la gravedad, la recuperación y las alternativas. La plasmaféresis no está indicada en la TMA inducida por fármacos sin anemia hemolítica sistémica, y el eculizumab se reserva a casos refractarios.",
+   "D": "El eculizumab no es de primera línea y se reserva a casos refractarios.",
+   "E": "La plasmaféresis no es un tratamiento establecido de la TMA por anti-VEGF."
+  },
+  "perla": "Anti-VEGF + TMA/nefrótico: suspender, controlar TA (IECA/ARA-II, calcioantagonistas). Plasmaféresis no indicada.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 36.1
+ },
+ {
+  "id": "VEG-3",
+  "serie_id": "VEG",
+  "orden": 3,
+  "sub": "26.d",
+  "subtema": "Gemcitabina y microangiopatía trombótica",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Otro paciente con cáncer de páncreas, tras 7 meses de gemcitabina, presenta anemia hemolítica microangiopática (esquistocitos), trombocitopenia de 48,000/µL, LDH elevada, creatinina de 3.1 mg/dL e hipertensión grave. ADAMTS13 normal, complemento normal.",
+  "enunciado": "¿Qué diagnóstico y conducta son los correctos?",
+  "opciones": {
+   "A": "Síndrome hepatorrenal, que se trata con terlipresina y albúmina por la lesión renal y la neoplasia pancreática",
+   "B": "Púrpura trombocitopénica trombótica congénita (déficit de ADAMTS13), que se trata con plasma fresco y recambio plasmático diario",
+   "C": "Síndrome urémico hemolítico típico por Shiga, que se trata con antibióticos y soporte por la anemia y la lesión renal",
+   "D": "Microangiopatía trombótica por gemcitabina; suspender el fármaco, controlar la TA y dar soporte; la plasmaféresis no beneficia",
+   "E": "Lupus eritematoso sistémico, que se trata con ciclofosfamida y esteroides por la anemia, la trombocitopenia y la lesión renal aguda"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El síndrome hepatorrenal no cursa con hemólisis microangiopática.",
+   "B": "La PTT congénita se confirma con actividad de ADAMTS13 muy baja, que aquí es normal.",
+   "C": "No hay diarrea por Shiga ni evidencia de infección.",
+   "D": "La gemcitabina se asocia a microangiopatía trombótica en una minoría de pacientes (menos de 1%), con relación a la dosis acumulada y al tiempo de uso, que se manifiesta con anemia hemolítica microangiopática, trombocitopenia, hipertensión y lesión renal; la ADAMTS13 es normal. Es un daño endotelial directo y el tratamiento consiste en suspender el fármaco, controlar la TA y dar soporte (incluida diálisis si se requiere). La plasmaféresis y los esteroides no han demostrado beneficio, y el eculizumab se ha empleado en casos seleccionados sin evidencia sólida. La recuperación renal puede ser incompleta.",
+   "E": "No hay datos de lupus."
+  },
+  "perla": "Gemcitabina → TMA (acumulativa, ADAMTS13 normal). Suspender; soporte y control de TA; plasmaféresis sin beneficio.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "Comprehensive Clinical Nephrology (microangiopatía trombótica)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "MIF-1",
+  "serie_id": "MIF",
+  "orden": 1,
+  "sub": "26.d",
+  "subtema": "Metotrexato en dosis altas: nefropatía por cristales",
+  "dificultad": "moderada",
+  "caso": "Joven de 19 años con osteosarcoma que recibe metotrexato en dosis altas (12 g/m²). A las 24 horas la creatinina sube de 0.7 a 1.6 mg/dL, la diuresis disminuye y el metotrexato sérico es de 110 µmol/L (muy por encima del valor esperado). El pH urinario es de 5.0.",
+  "enunciado": "¿Cuál es el mecanismo de la lesión renal y cuál es el tratamiento específico?",
+  "opciones": {
+   "A": "Síndrome nefrótico por depósitos inmunes, que se trata con esteroides y suspensión definitiva del quimioterápico",
+   "B": "Cristales de metotrexato en orina ácida y toxicidad tubular directa; hidratación, alcalinización, leucovorina y glucarpidasa",
+   "C": "Nefritis lúpica, que se trata con ciclofosfamida y esteroides, porque el cuadro cursa con oliguria y creatinina elevada progresiva",
+   "D": "Vasculitis ANCA, que se trata con ciclofosfamida y plasmaféresis, porque el cuadro cursa con oliguria y creatinina elevada rápida",
+   "E": "Obstrucción litiásica por oxalato, que se trata con litotricia y analgésicos, por la oliguria y el aumento de creatinina sérica"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay datos de síndrome nefrótico.",
+   "B": "El metotrexato se elimina por vía renal y tiene baja solubilidad en orina ácida, donde precipita como cristales con su metabolito 7-hidroxi, causando obstrucción intratubular y toxicidad tubular directa. La lesión renal reduce su eliminación y prolonga la exposición (mielosupresión, mucositis, hepatotoxicidad). La prevención incluye hidratación intensa (unos 3 L/m²/día), alcalinización urinaria con bicarbonato (pH mayor de 7 a 7.5) y vigilancia de niveles de metotrexato. Si hay lesión renal y niveles tóxicos, se administra leucovorina de rescate y glucarpidasa (enzima que degrada el metotrexato); la hemodiálisis de alto flujo es una opción cuando no se dispone de glucarpidasa.",
+   "C": "No hay manifestaciones ni serología lúpica.",
+   "D": "La vasculitis ANCA no se relaciona con metotrexato.",
+   "E": "El cuadro no corresponde a litiasis por oxalato."
+  },
+  "perla": "MTX alta dosis: cristales en orina ácida. Hidratar, alcalinizar (pH >7), leucovorina, glucarpidasa; HD de alto flujo si no hay glucarpidasa.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "Howard SC et al. Oncologist 2016;21:1471"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "continuacion": "",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "MIF-2",
+  "serie_id": "MIF",
+  "orden": 2,
+  "sub": "26.d",
+  "subtema": "Ifosfamida: tubulopatía proximal y cistitis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente con sarcoma, tratado con ifosfamida (dosis acumulada de 90 g/m²) y antes con cisplatino, desarrolla poliuria, glucosuria con glucemia normal, hipofosfatemia, hipopotasemia, acidosis metabólica hiperclorémica y proteinuria de bajo peso molecular.",
+  "enunciado": "¿Cuál es el diagnóstico y cuál es el papel del mesna?",
+  "opciones": {
+   "A": "Nefropatía por IgA, en la que el mesna previene la progresión al neutralizar los inmunocomplejos mesangiales del riñón",
+   "B": "Fanconi por cloroacetaldehído de ifosfamida; el mesna previene la cistitis hemorrágica por acroleína, no daño tubular",
+   "C": "Acidosis tubular distal tipo 1, y el mesna previene la nefrotoxicidad al neutralizar los metabolitos tubulares tóxicos",
+   "D": "Diabetes insípida central, que se trata con vasopresina porque la poliuria se debe a la falta de hormona antidiurética",
+   "E": "Necrosis papilar, y el mesna protege la papila renal al neutralizar el metabolito tóxico de la ifosfamida en la médula"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La nefropatía por IgA no produce este cuadro tubular.",
+   "B": "La ifosfamida, un análogo de la ciclofosfamida, se metaboliza a cloroacetaldehído, que entra en las células del túbulo proximal por OCT2 y provoca lesión mitocondrial. Produce un síndrome de Fanconi (glucosuria normoglucémica, fosfaturia, aminoaciduria, acidosis tubular proximal tipo 2 y pérdida de potasio) y poliuria por diabetes insípida nefrogénica, que se relaciona con la dosis acumulada (más de 60 a 90 g/m²), cisplatino previo, edad temprana y riñón único. El mesna se une a la acroleína y previene la cistitis hemorrágica, pero no previene la nefrotoxicidad tubular. El tratamiento es reposición de electrolitos y bicarbonato, y suspensión o ajuste del fármaco.",
+   "C": "La acidosis tubular distal no cursa con glucosuria ni pérdida de fosfato; el mesna no previene la tubulopatía.",
+   "D": "En la diabetes insípida central no hay glucosuria ni Fanconi.",
+   "E": "No hay datos de necrosis papilar."
+  },
+  "perla": "Ifosfamida: Fanconi (cloroacetaldehído; dosis >60–90 g/m², cisplatino previo). Mesna previene cistitis (acroleína), no la tubulopatía.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 36.1
+ },
+ {
+  "id": "MIF-3",
+  "serie_id": "MIF",
+  "orden": 3,
+  "sub": "26.d",
+  "subtema": "Ciclofosfamida: hiponatremia y cistitis hemorrágica",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Una paciente con linfoma recibe ciclofosfamida intravenosa a dosis altas y a las 12 horas presenta sodio de 124 mEq/L con orina concentrada y hematuria macroscópica.",
+  "enunciado": "¿Cuáles son los efectos adversos y las medidas de prevención?",
+  "opciones": {
+   "A": "Hiponatremia por mayor acción de ADH y cistitis hemorrágica por acroleína; hidratación, evitar agua libre y mesna",
+   "B": "No hay efectos adversos renales ni urinarios, porque la ciclofosfamida se elimina por vía biliar sin metabolitos tóxicos",
+   "C": "Hipocalcemia por quelación del calcio, que se corrige con calcio oral y vitamina D en dosis altas antes del siguiente ciclo",
+   "D": "Hiperpotasemia por bloqueo de aldosterona, que se previene con patiromer y restricción de potasio durante la infusión",
+   "E": "Hipernatremia por diabetes insípida nefrogénica, que se previene restringiendo sodio y administrando desmopresina oral"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Las dosis altas de ciclofosfamida producen hiponatremia por un efecto antidiurético que potencia la acción de la vasopresina en el túbulo colector (puede ocurrir en las primeras 24 horas), por lo que se evita administrar grandes volúmenes de agua libre sin control y se monitoriza el sodio. Su metabolito acroleína, tóxico para el urotelio, produce cistitis hemorrágica y, a largo plazo, cáncer de vejiga. La prevención incluye hidratación abundante con vaciamiento frecuente, mesna (que neutraliza la acroleína) y vigilancia de hematuria. Otros efectos son mielosupresión, infecciones oportunistas, toxicidad gonadal y malignidad.",
+   "B": "Existen efectos adversos renales y urinarios importantes.",
+   "C": "No es una complicación característica.",
+   "D": "No es una complicación característica.",
+   "E": "El efecto es hiponatremia, no hipernatremia."
+  },
+  "perla": "Ciclofosfamida: hiponatremia (efecto ADH-like), cistitis hemorrágica (acroleína → mesna), cáncer de vejiga, toxicidad gonadal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "PAR-1",
+  "serie_id": "PAR",
+  "orden": 1,
+  "sub": "26.b",
+  "subtema": "Nefropatía membranosa asociada a cáncer",
+  "dificultad": "dificil",
+  "caso": "Hombre de 71 años, fumador de 45 paquetes-año, con síndrome nefrótico (proteinuria de 8 g/24 h, albúmina de 2.0 g/dL, creatinina de 1.1 mg/dL). Anticuerpos anti-PLA2R séricos negativos. La biopsia muestra nefropatía membranosa con tinción dominante para IgG1 e IgG2 y abundante infiltrado inflamatorio glomerular.",
+  "enunciado": "¿Qué sospecha debe plantearse?",
+  "opciones": {
+   "A": "Enfermedad de cambios mínimos, que es la causa más frecuente de síndrome nefrótico en adultos mayores con cáncer",
+   "B": "Nefropatía diabética, porque la proteinuria de 8 g/24 h con creatinina normal es típica de la nefropatía establecida del paciente",
+   "C": "Nefropatía membranosa primaria típica por anti-PLA2R, porque la proteinuria nefrótica con creatinina normal es lo habitual",
+   "D": "Amiloidosis AA, porque el tabaquismo prolongado y la inflamación crónica sistémica explican el síndrome nefrótico del paciente",
+   "E": "Nefropatía membranosa secundaria a neoplasia: edad >65 años, tabaquismo, anti-PLA2R negativo y predominio de IgG1/IgG2"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En la enfermedad de cambios mínimos no hay depósitos inmunes en la biopsia.",
+   "B": "No hay diabetes ni lesión nodular.",
+   "C": "La forma primaria cursa con anti-PLA2R positivo y predominio de IgG4.",
+   "D": "La amiloidosis AA se tiñe con rojo Congo y no muestra el patrón membranoso.",
+   "E": "Cerca de 10% de las nefropatías membranosas en adultos mayores se asocian a cáncer (pulmón, próstata, colon, mama, riñón). Los datos que sugieren asociación a neoplasia son edad mayor de 65 años, tabaquismo, anti-PLA2R negativo (la nefropatía membranosa primaria suele ser anti-PLA2R positiva, mientras que THSD7A también puede asociarse a cáncer), predominio de IgG1 e IgG2 en la biopsia (en la primaria predomina IgG4) y mayor infiltrado inflamatorio glomerular. KDIGO recomienda un tamizaje de cáncer apropiado para la edad y los factores de riesgo en estos pacientes."
+  },
+  "perla": "MN paraneoplásica: >65 años, tabaco, PLA2R(–), IgG1/IgG2, infiltrado glomerular. Tamizaje de cáncer según edad (KDIGO).",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Lefaucheur C et al. Kidney Int 2006;70:1510"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "continuacion": "",
+  "obj": "26.o2",
+  "peso": 36.1
+ },
+ {
+  "id": "PAR-2",
+  "serie_id": "PAR",
+  "orden": 2,
+  "sub": "26.b",
+  "subtema": "Tamizaje de cáncer y respuesta al tratamiento del tumor",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La tomografía de tórax muestra un nódulo de 2.5 cm en el lóbulo superior derecho. La biopsia confirma adenocarcinoma de pulmón estadio IA, y se programa lobectomía.",
+  "enunciado": "¿Qué se espera respecto a la proteinuria y qué conducta nefrológica corresponde?",
+  "opciones": {
+   "A": "La proteinuria no se relaciona con el tumor y persistirá siempre, por lo que se trata como nefropatía membranosa primaria",
+   "B": "Está contraindicado resecar el tumor mientras exista síndrome nefrótico, por el riesgo de tromboembolia posquirúrgica",
+   "C": "El tratamiento del tumor puede inducir remisión; se difiere la inmunosupresión intensiva y se vigila la proteinuria",
+   "D": "Debe iniciarse ciclofosfamida y esteroides de inmediato en todos los casos, antes de la lobectomía y de tratar el tumor",
+   "E": "Debe suspenderse el tratamiento oncológico para no empeorar la proteinuria ni la función renal del paciente"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La proteinuria puede resolverse al tratar el tumor.",
+   "B": "La resección es el tratamiento indicado.",
+   "C": "En la nefropatía membranosa asociada a neoplasia, el tratamiento eficaz del cáncer (resección, quimioterapia o radioterapia) suele producir remisión de la proteinuria, y la recurrencia de la proteinuria puede indicar recaída tumoral. Por ello se evita la inmunosupresión intensiva, que podría empeorar el pronóstico oncológico, y se maneja el síndrome nefrótico con medidas de soporte (restricción de sodio, diuréticos, bloqueo del SRAA, estatinas y anticoagulación profiláctica si el riesgo trombótico es alto), con vigilancia estrecha.",
+   "D": "La inmunosupresión intensiva se evita porque puede empeorar el cáncer.",
+   "E": "El tratamiento oncológico es lo más importante y no debe suspenderse."
+  },
+  "perla": "MN paraneoplásica remite al tratar el cáncer; evitar inmunosupresión intensiva; soporte (SRAA, diuréticos, anticoagulación si albúmina baja).",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o2",
+  "peso": 36.1
+ },
+ {
+  "id": "PAR-3",
+  "serie_id": "PAR",
+  "orden": 3,
+  "sub": "26.b",
+  "subtema": "Otras manifestaciones renales de neoplasias extrarenales",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se repasan otras asociaciones renales de neoplasias en el servicio de nefrología.",
+  "enunciado": "¿Cuál de las siguientes asociaciones es correcta?",
+  "opciones": {
+   "A": "Hipercalcemia tumoral con hiperpotasemia obligada, porque el calcio elevado impide la excreción de potasio",
+   "B": "Mieloma múltiple con nefropatía diabética exclusivamente, porque el mieloma no daña el riñón directamente",
+   "C": "Cambios mínimos con Hodgkin; cilindros con mieloma; amiloidosis AA con carcinoma renal; LRA por hipercalcemia con PTHrP",
+   "D": "Nefropatía membranosa con tuberculosis, porque la tuberculosis es la causa infecciosa más frecuente de membranosa secundaria",
+   "E": "Amiloidosis AA con enfermedad de cambios mínimos, porque ambas son paraneoplásicas habituales del linfoma de Hodgkin clásico"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hipercalcemia tumoral produce poliuria y deshidratación, no hipercalemia obligada.",
+   "B": "El mieloma se asocia a nefropatía por cilindros, amiloidosis AL y depósito de cadenas ligeras.",
+   "C": "Las neoplasias extrarenales causan daño renal por distintos mecanismos: glomerulopatías paraneoplásicas (enfermedad de cambios mínimos con linfoma de Hodgkin y, con menos frecuencia, otros linfomas y timoma; nefropatía membranosa con tumores sólidos; GN membranoproliferativa con leucemia linfocítica crónica; vasculitis), discrasias de células plasmáticas (nefropatía por cilindros, amiloidosis AL, enfermedad por depósito de cadenas ligeras), amiloidosis AA (por inflamación crónica de tumores como el carcinoma renal y el linfoma de Hodgkin), hipercalcemia (PTHrP, osteólisis, vitamina D en linfomas) con lesión renal prerrenal y nefrogénica, obstrucción de vías urinarias, síndrome de lisis tumoral y microangiopatía trombótica.",
+   "D": "La asociación clásica de la nefropatía membranosa con infección es con hepatitis B, no con tuberculosis, y con cáncer en adultos mayores.",
+   "E": "Son entidades distintas, no asociadas entre sí."
+  },
+  "perla": "Paraneoplásico: Hodgkin → MCD; mieloma → cilindros/AL/LCDD; tumores sólidos → MN; tumores/linfoma → AA; hipercalcemia → LRA; LLC → MPGN.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (onconefrología)",
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o2",
+  "peso": 16.0
+ },
+ {
+  "id": "NEF-1",
+  "serie_id": "NEF",
+  "orden": 1,
+  "sub": "26.c",
+  "subtema": "Masas renales pequeñas: cirugía conservadora de nefronas",
+  "dificultad": "moderada",
+  "caso": "Hombre de 66 años con ERC G3b (TFGe de 38 mL/min/1.73 m²), hipertensión y diabetes. Se descubre de forma incidental una masa sólida renal derecha de 3.8 cm, exofítica, con realce en la tomografía (T1a), sin invasión venosa ni metástasis. No tiene antecedentes familiares.",
+  "enunciado": "¿Cuál es la estrategia quirúrgica preferible?",
+  "opciones": {
+   "A": "Quimioterapia citotóxica neoadyuvante, porque reduce el tamaño del tumor y permite conservar la mayor cantidad de parénquima",
+   "B": "Radioterapia como tratamiento estándar, porque el carcinoma de células renales es muy radiosensible en estadio T1a",
+   "C": "Cirugía conservadora de nefronas (nefrectomía parcial) o ablación térmica, para preservar la función renal",
+   "D": "Nefrectomía radical, porque siempre ofrece mejor supervivencia oncológica que la cirugía conservadora de nefronas",
+   "E": "Observación sin tratamiento por ser siempre benigna, porque las masas sólidas con realce de 3.8 cm no progresan"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El carcinoma renal responde poco a la quimioterapia citotóxica.",
+   "B": "La radioterapia no es el tratamiento estándar del carcinoma renal localizado.",
+   "C": "Para tumores renales pequeños (T1a, hasta 4 cm, y T1b seleccionados), la nefrectomía parcial es el tratamiento de elección porque ofrece control oncológico equivalente a la radical con mejor preservación de la función renal y menor riesgo de ERC e hipertensión, algo especialmente importante en un paciente con ERC G3b previa. La ablación térmica (crioablación o radiofrecuencia) es una alternativa en tumores T1a de pacientes con alto riesgo quirúrgico, y la vigilancia activa puede considerarse en masas pequeñas (menores de 2 a 3 cm) en pacientes mayores o con comorbilidad importante. Después de una nefrectomía radical la TFG disminuye cerca de 25 a 30%.",
+   "D": "La nefrectomía radical elimina masa funcional y aumenta el riesgo de ERC; se reserva para tumores grandes o no resecables de forma parcial.",
+   "E": "Muchas masas sólidas son malignas; la observación solo se justifica en casos seleccionados."
+  },
+  "perla": "T1a: nefrectomía parcial (nefroprotección) ± ablación; vigilancia activa si <2–3 cm en frágiles. Radical: ↓TFG ~25–30%.",
+  "referencias": [
+   "Campbell S et al. J Urol 2017;198:520 (AUA)",
+   "Comprehensive Clinical Nephrology (neoplasias renales)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "continuacion": "",
+  "obj": "26.o3",
+  "peso": 34.1
+ },
+ {
+  "id": "NEF-2",
+  "serie_id": "NEF",
+  "orden": 2,
+  "sub": "26.a",
+  "subtema": "Cáncer renal en paciente joven: síndromes hereditarios",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente de 31 años, sin ERC, presenta tumores renales bilaterales y multifocales, hemangioblastomas cerebelosos y feocromocitoma. El hermano tuvo carcinoma renal a los 34 años.",
+  "enunciado": "¿Qué enfermedad hereditaria debe sospecharse y qué fármaco dirigido existe?",
+  "opciones": {
+   "A": "Esclerosis tuberosa, que solo requiere observación porque los tumores renales bilaterales son angiomiolipomas benignos",
+   "B": "Enfermedad renal poliquística autosómica dominante, que se trata con tolvaptán por los tumores renales y la afectación cerebelosa",
+   "C": "Enfermedad de von Hippel-Lindau (gen VHL); el belzutifán, inhibidor de HIF-2α, está indicado en tumores asociados",
+   "D": "Síndrome de Alport, con trasplante renal temprano como único tratamiento por los tumores renales y cerebelosos del paciente",
+   "E": "Síndrome de Fanconi hereditario, que se trata con bicarbonato y fosfato por los tumores renales y cerebelosos del paciente"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La esclerosis tuberosa se asocia a angiomiolipomas y a inhibidores de mTOR, no a hemangioblastomas.",
+   "B": "La poliquistosis renal no se asocia a feocromocitoma ni hemangioblastomas.",
+   "C": "La enfermedad de von Hippel-Lindau se debe a mutaciones del gen supresor VHL y se caracteriza por carcinoma de células renales de células claras multifocal y bilateral a edad temprana, hemangioblastomas del sistema nervioso central y retina, feocromocitoma, quistes renales y pancreáticos. Ante un tumor renal en un paciente joven (menor de 46 años), con múltiples tumores o antecedentes familiares, se solicita estudio genético. La pérdida de VHL activa HIF-2α, y el belzutifán, un inhibidor de HIF-2α, está aprobado para tumores asociados a VHL. Se prefiere la cirugía conservadora de nefronas, con vigilancia y umbral para tratar tumores de 3 cm.",
+   "D": "El Alport cursa con hematuria, sordera y lesiones oculares.",
+   "E": "El síndrome de Fanconi no cursa con tumores renales multifocales."
+  },
+  "perla": "CCR joven/bilateral/familiar → genética. VHL: hemangioblastoma, feocromocitoma, CCR claro; belzutifán (inhibidor HIF-2α).",
+  "referencias": [
+   "Jonasch E et al. N Engl J Med 2021;385:2036",
+   "Comprehensive Clinical Nephrology (neoplasias renales)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o1",
+  "peso": 36.1
+ },
+ {
+  "id": "NEF-3",
+  "serie_id": "NEF",
+  "orden": 3,
+  "sub": "26.c",
+  "subtema": "Carcinoma renal metastásico: terapia sistémica y riesgo renal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un tercer paciente con carcinoma renal de células claras metastásico inicia pembrolizumab más axitinib. A las 6 semanas presenta TA de 165/100 mmHg, proteinuria de 2 g/g y creatinina de 1.4 mg/dL (basal 0.9).",
+  "enunciado": "¿Cuál es la explicación más probable del cuadro renal?",
+  "opciones": {
+   "A": "Fibrosis retroperitoneal por radioterapia previa, que causa obstrucción ureteral y explica la hipertensión y la proteinuria",
+   "B": "Síndrome de lisis tumoral únicamente, por la rápida respuesta del tumor a la combinación a las 6 semanas de tratamiento",
+   "C": "Intoxicación por contraste, porque la tomografía de reestadificación se realizó pocos días antes del cuadro renal actual",
+   "D": "Hipotensión por deshidratación, porque el tratamiento con axitinib produce diarrea y depleción de volumen",
+   "E": "Inhibición de VEGF por axitinib (hipertensión y proteinuria) más posible nefritis inmune por pembrolizumab; biopsia"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No hay datos de radioterapia ni fibrosis retroperitoneal.",
+   "B": "El síndrome de lisis tumoral no explica hipertensión ni proteinuria sostenida.",
+   "C": "No hay exposición a contraste que explique el cuadro.",
+   "D": "Hay hipertensión, no hipotensión.",
+   "E": "Las combinaciones de inhibidor de punto de control con inhibidor de tirosina cinasa antiangiogénico (pembrolizumab más axitinib, nivolumab más cabozantinib) son el estándar en el carcinoma renal avanzado y aportan los efectos adversos renales de ambos: los inhibidores de VEGF producen hipertensión, proteinuria y a veces microangiopatía trombótica; los inhibidores de punto de control, nefritis tubulointersticial inmune o glomerulopatía. Ante hipertensión, proteinuria y deterioro de la creatinina es necesario distinguir los mecanismos con sedimento, proteinuria cuantificada y, si es necesario, biopsia, porque el tratamiento difiere (control de TA y ajuste del TKI frente a esteroides)."
+  },
+  "perla": "CCR avanzado: ICI + TKI anti-VEGF → HTA/proteinuria (VEGF) + nefritis inmune (ICI). Diferenciar con sedimento ± biopsia.",
+  "referencias": [
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o3",
+  "peso": 7.9
+ }
+]

@@ -1,0 +1,1861 @@
+[
+ {
+  "id": "CNV-1",
+  "serie_id": "CNV",
+  "orden": 1,
+  "sub": "19.a",
+  "subtema": "Convección y hemodiafiltración: principios",
+  "dificultad": "moderada",
+  "caso": "Hombre de 54 años en hemodiálisis de alto flujo desde hace 6 años, con prurito persistente, síndrome de piernas inquietas, anemia con resistencia a eritropoyetina e inflamación crónica (PCR elevada) a pesar de Kt/V de 1.5. El nefrólogo propone cambiar a hemodiafiltración en línea.",
+  "enunciado": "¿Qué mecanismo de depuración añade la hemodiafiltración respecto a la hemodiálisis convencional?",
+  "opciones": {
+   "A": "Aumento de la difusión de solutos pequeños por un gradiente osmótico entre la sangre y el líquido dializado",
+   "B": "Convección: arrastre de solutos medianos con el ultrafiltrado, compensado con líquido de reposición",
+   "C": "Adsorción exclusiva de toxinas a la membrana del filtro, sin ningún transporte convectivo adicional de solutos",
+   "D": "Mayor ultrafiltración neta sin reposición de líquido, con lo que se arrastran más solutos y se evita la hipotensión",
+   "E": "Solo una mayor difusión de urea y de otros solutos pequeños, sin cambio para las moléculas medianas ni grandes"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El gradiente osmótico es el mecanismo de la diálisis peritoneal.",
+   "B": "En la hemodiálisis estándar predomina la difusión, es decir, el paso de solutos pequeños a favor de su gradiente de concentración. La hemodiafiltración combina difusión y convección: se aplica una elevada tasa de ultrafiltración que arrastra agua y solutos, y el volumen extraído se repone con una solución estéril (en pre- o posdilución), lo que mejora la depuración de moléculas medianas y grandes (β2-microglobulina, fosfato, citocinas, toxinas urémicas unidas a proteínas). Por ello puede beneficiar a pacientes con inflamación crónica, resistencia a eritropoyetina, prurito, piernas inquietas e hiperfosfatemia refractaria.",
+   "C": "La adsorción es un fenómeno adicional de algunas membranas, pero no define la HDF.",
+   "D": "La ultrafiltración sin reposición sólo extrae volumen y no es HDF.",
+   "E": "La difusión de urea ya se logra con la hemodiálisis convencional; la ventaja de la HDF es la convección."
+  },
+  "perla": "HDF = difusión + convección con reposición; ↑ depuración de moléculas medianas (β2m, fosfato, toxinas ligadas a proteínas).",
+  "referencias": [
+   "Tattersall J et al. Nephrol Dial Transplant 2007;22(Suppl 2):ii5",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o3",
+  "peso": 80.8
+ },
+ {
+  "id": "CNV-2",
+  "serie_id": "CNV",
+  "orden": 2,
+  "sub": "19.a",
+  "subtema": "Volumen convectivo y evidencia de supervivencia",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se discute con el paciente el volumen convectivo que debe alcanzarse para obtener un beneficio sobre la supervivencia.",
+  "enunciado": "¿Qué volumen convectivo por sesión se asocia con un beneficio de supervivencia en los ensayos?",
+  "opciones": {
+   "A": "Alrededor de 5 L por sesión, volumen que ya basta para mostrar beneficio en la mortalidad",
+   "B": "Aproximadamente 10 L por sesión, umbral a partir del cual los ensayos muestran menor mortalidad",
+   "C": "Al menos 23 L por sesión (HDF de alto volumen en posdilución), como en CONVINCE con menor mortalidad global",
+   "D": "Cerca de 15 L por sesión, suficiente según los estudios observacionales y los ensayos aleatorizados recientes",
+   "E": "Cualquier volumen convectivo, pues los análisis no muestran relación dosis-respuesta con la supervivencia del paciente"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Con 5 L la convección es mínima y no da beneficio demostrado.",
+   "B": "Con 10 L la dosis convectiva es insuficiente.",
+   "C": "Los análisis del ensayo ESHOL y de estudios agrupados mostraron que la mortalidad disminuía cuando el volumen convectivo superaba aproximadamente 23 L por sesión, y el ensayo CONVINCE (N Engl J Med 2023) comprobó que la hemodiafiltración de alto volumen, con volumen de convección medio superior a 25 L, redujo la mortalidad por todas las causas en cerca de 23% frente a la hemodiálisis de alto flujo. El beneficio depende de la dosis convectiva, por lo que se fija como objetivo práctico un volumen de al menos 23 L por sesión. Se requieren acceso vascular con flujo adecuado (mayor de 350 a 400 mL/min) y agua ultrapura.",
+   "D": "Con 15 L aún está por debajo del umbral asociado a supervivencia.",
+   "E": "Sí existe relación dosis-respuesta con el volumen convectivo."
+  },
+  "perla": "HDF: objetivo ≥23 L por sesión (posdilución). CONVINCE: ↓ mortalidad global con HDF de alto volumen.",
+  "referencias": [
+   "Blankestijn PJ et al. N Engl J Med 2023;389:700",
+   "Maduell F et al. J Am Soc Nephrol 2013;24:487"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o3",
+  "peso": 80.8
+ },
+ {
+  "id": "CNV-3",
+  "serie_id": "CNV",
+  "orden": 3,
+  "sub": "19.a",
+  "subtema": "Agua ultrapura para hemodiálisis",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El servicio va a implementar HDF en línea y se revisan los requisitos del agua del dializado.",
+  "enunciado": "¿Cuál es la definición de agua ultrapura?",
+  "opciones": {
+   "A": "Menos de 1,000 UFC/mL de bacterias y menos de 1 UE/mL de endotoxinas, según los estándares internacionales vigentes",
+   "B": "Menos de 0.1 UFC/mL de bacterias y menos de 0.03 UE/mL de endotoxinas, según los estándares internacionales",
+   "C": "Menos de 100 UFC/mL de bacterias y menos de 0.25 UE/mL de endotoxinas, según los estándares internacionales actuales",
+   "D": "Agua destilada comercial, preparada con un sistema de destilación y almacenada en recipientes estériles",
+   "E": "Cualquier agua potable tratada por ósmosis inversa, sin necesidad de medir periódicamente bacterias ni endotoxinas"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Esos niveles son inaceptables para diálisis.",
+   "B": "El agua ultrapura para diálisis se define por una carga bacteriana menor de 0.1 UFC/mL y endotoxinas menores de 0.03 UE/mL (ISO 23500). Es indispensable para el dializado de la HDF en línea, porque en la convección el líquido de reposición pasa directamente a la circulación, y es útil en la diálisis de alto flujo porque reduce la inflamación crónica, la resistencia a eritropoyetina y el riesgo de amiloidosis. El agua estándar admite hasta 100 UFC/mL y 0.25 UE/mL; la ultrafiltración con filtros de endotoxinas en el equipo asegura la calidad.",
+   "C": "Esas cifras corresponden al agua estándar para hemodiálisis.",
+   "D": "El agua destilada comercial no se usa en las máquinas de hemodiálisis.",
+   "E": "El agua potable tratada por ósmosis no basta si no se cumplen los límites microbiológicos."
+  },
+  "perla": "Agua ultrapura: <0.1 UFC/mL y <0.03 UE/mL. Estándar: <100 UFC/mL y <0.25 UE/mL.",
+  "referencias": [
+   "Tattersall J et al. Nephrol Dial Transplant 2007;22(Suppl 2):ii5",
+   "ISO 23500:2019 (calidad del fluido de diálisis)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o3",
+  "peso": 68.7
+ },
+ {
+  "id": "CNV-4",
+  "serie_id": "CNV",
+  "orden": 4,
+  "sub": "19.a",
+  "subtema": "Hemodiálisis expandida con filtros de corte medio",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Para otro paciente que no tolera la HDF por acceso vascular insuficiente se evalúa la hemodiálisis expandida (HDx) con un dializador de corte medio.",
+  "enunciado": "¿Qué característica y qué precaución son correctas?",
+  "opciones": {
+   "A": "Poros más grandes con mayor depuración de moléculas medianas por difusión, y pérdida de albúmina de unos 2 a 4 g por sesión",
+   "B": "Requiere reposición de líquido en línea como la HDF, con grandes volúmenes convectivos, un monitor especial y agua ultrapura",
+   "C": "Se usa solo en insuficiencia renal aguda, porque en la enfermedad crónica la membrana se obstruye con rapidez",
+   "D": "Pierde de forma rutinaria unos 30 g de albúmina por sesión, por lo que obliga a reponerla con regularidad",
+   "E": "No elimina moléculas medianas mejor que un dializador de bajo flujo, porque sus poros son del mismo tamaño"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Los dializadores de corte medio (por ejemplo, Theranova) tienen poros de tamaño controlado que aumentan el aclaramiento de moléculas medianas (β2-microglobulina, mioglobina, cadenas ligeras libres λ y κ, FGF23) mediante difusión y un fenómeno de convección interna en el filtro, sin necesidad de reposición en línea. La pérdida de albúmina por sesión es pequeña (aproximadamente 2 a 4 g), muy inferior a la de las membranas de alto corte usadas en la nefropatía por cilindros del mieloma, por lo que se debe vigilar la albúmina sérica. Las indicaciones potenciales son inflamación crónica, prurito, piernas inquietas, resistencia a ESA y casos de mieloma con cadenas ligeras cuando la HDF no es posible.",
+   "B": "A diferencia de la HDF, la HDx no requiere reposición de líquido en línea.",
+   "C": "Se emplea en hemodiálisis crónica; no está limitada a la LRA.",
+   "D": "Una pérdida de 30 g por sesión no es la esperada con membranas de corte medio.",
+   "E": "La HDx elimina moléculas medianas mejor que los dializadores convencionales."
+  },
+  "perla": "HDx (corte medio): ↑ moléculas medianas sin reposición; pérdida de albúmina ~2–4 g/sesión; alternativa si no se tolera la HDF.",
+  "referencias": [
+   "Kirsch AH et al. Nephrol Dial Transplant 2017;32:165",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o3",
+  "peso": 70.7
+ },
+ {
+  "id": "HIP-1",
+  "serie_id": "HIP",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Hipotensión intradiálisis: manejo inicial",
+  "dificultad": "moderada",
+  "caso": "Mujer de 67 años con diabetes y cardiopatía isquémica, en hemodiálisis de 3.5 horas, con ganancia interdiálisis de 4.2 kg (peso seco de 60 kg). A los 90 minutos de la sesión tiene calambres, náuseas y TA de 82/48 mmHg (previa de 140/80 mmHg), FC de 96 lpm, con tasa de ultrafiltración de 1,200 mL/h.",
+  "enunciado": "¿Qué conducta inmediata es la más adecuada?",
+  "opciones": {
+   "A": "Terminar la diálisis sin más medidas y dar de alta al paciente cuando ceda la sintomatología, sin ajustar la UF",
+   "B": "Administrar un antihipertensivo de acción corta, por la cardiopatía isquémica, y continuar la sesión con la misma ultrafiltración",
+   "C": "Trendelenburg, suspender o reducir la UF y dar bolo de solución salina isotónica, con revisión posterior de la tasa de UF y del peso seco",
+   "D": "Aumentar la tasa de ultrafiltración para corregir pronto el volumen ganado entre sesiones y acortar la diálisis lo más posible",
+   "E": "Iniciar un inotrópico intravenoso de inmediato para sostener la presión, sin modificar la ultrafiltración de la sesión"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Terminar sin más medidas no corrige la causa y expone a eventos recurrentes.",
+   "B": "Los antihipertensivos agravarían la hipotensión.",
+   "C": "La hipotensión intradiálisis se define como la caída de la TA sistólica de 20 mmHg o más (o de la media de 10 mmHg o más) con síntomas o necesidad de intervención. La conducta inmediata es colocar al paciente en Trendelenburg, disminuir o detener la ultrafiltración y administrar un bolo de 100 a 250 mL de solución salina isotónica; luego se corrige la causa. En este caso la tasa de UF de 1,200 mL/h equivale a 20 mL/kg/h, muy por encima del umbral de 13 mL/kg/h asociado con mayor mortalidad cardiovascular. Los inotrópicos no se inician de rutina.",
+   "D": "Aumentar la UF empeora la hipotensión.",
+   "E": "No se inicia un inotrópico: el mecanismo es hipovolemia relativa por ultrafiltración excesiva."
+  },
+  "perla": "IDH: Trendelenburg, ↓ UF, bolo salino; evitar inotrópicos. Tasa de UF >13 mL/kg/h se asocia a mayor mortalidad.",
+  "referencias": [
+   "Kooman J et al. Nephrol Dial Transplant 2007;22(Suppl 2):ii22",
+   "Flythe JE et al. Kidney Int 2015;87:675"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o2",
+  "peso": 70.6
+ },
+ {
+  "id": "HIP-2",
+  "serie_id": "HIP",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Prevención de la hipotensión intradiálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente repite hipotensión en las siguientes sesiones. Gana 4 kg entre sesiones y se resiste a restringir líquidos. Toma amlodipino y carvedilol por la mañana antes de la diálisis.",
+  "enunciado": "¿Cuál es la medida con mayor impacto para prevenir la hipotensión intradiálisis?",
+  "opciones": {
+   "A": "Duplicar el sodio del dializado de forma permanente a 155 mEq/L, para mejorar la estabilidad hemodinámica durante la ultrafiltración",
+   "B": "Aumentar la tasa de ultrafiltración para acortar la sesión y compensar la ganancia interdialítica de 4 kg",
+   "C": "Bajar la temperatura corporal del paciente con un baño caliente antes de cada sesión de hemodiálisis",
+   "D": "Usar solo perfiles de ultrafiltración, sin cambiar la duración de la sesión ni restringir el sodio de la dieta",
+   "E": "Bajar la tasa de UF (sesiones más largas o más frecuentes), con restricción de sodio y de líquidos y revisión del peso seco"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El sodio elevado sostenido aumenta la sed, la ganancia de peso y la hipertensión.",
+   "B": "Aumentar la tasa de UF es la causa del problema.",
+   "C": "El calentamiento del paciente o del dializado favorece la vasodilatación e hipotensión.",
+   "D": "Los perfiles, por sí solos, tienen un efecto menor que modificar el tiempo.",
+   "E": "La causa principal de la hipotensión intradiálisis es la ultrafiltración rápida que excede la tasa de relleno plasmático, por lo que lo más eficaz es reducir la tasa de UF, alargando la sesión o añadiendo sesiones, y limitar la ganancia interdiálisis con restricción de sodio y agua. Se complementa con reevaluación del peso seco, dializado a menor temperatura (35 a 36 °C), sodio del dializado individualizado y no excesivo, ingesta de alimentos evitada durante la sesión y omisión o reprogramación de antihipertensivos dializables antes de la sesión. Los perfiles de ultrafiltración y de sodio ofrecen beneficio limitado frente al aumento de duración o frecuencia."
+  },
+  "perla": "IDH: ↓ tasa de UF (más tiempo/sesiones), restringir Na/agua, dializado fresco 35–36 °C, ajustar fármacos. Perfiles de UF: efecto menor.",
+  "referencias": [
+   "Kooman J et al. Nephrol Dial Transplant 2007;22(Suppl 2):ii22",
+   "Flythe JE et al. Kidney Int 2015;87:675"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 72.6
+ },
+ {
+  "id": "HIP-3",
+  "serie_id": "HIP",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Evaluación del peso seco",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se desea afinar el peso seco de la paciente, que tiene edema leve, TA elevada entre sesiones y calambres durante la UF.",
+  "enunciado": "¿Cuál de las siguientes herramientas es útil para evaluar el estado de volumen?",
+  "opciones": {
+   "A": "El hematocrito aislado, porque sube de forma lineal con la depleción del volumen intravascular durante la sesión",
+   "B": "Únicamente el peso previo a la diálisis, comparado con el de la sesión anterior y la TA del paciente",
+   "C": "Ecografía de vena cava inferior y pulmonar con líneas B, bioimpedancia y respuesta al peso seco",
+   "D": "La creatinina sérica predialítica, porque refleja el volumen de distribución del agua corporal total",
+   "E": "Solo la presión venosa yugular medida en el consultorio, porque es el parámetro más exacto del volumen"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El hematocrito aislado no indica estado de volumen.",
+   "B": "El peso predializante refleja la ganancia, no el estado de volumen.",
+   "C": "El peso seco es el peso más bajo que se tolera sin síntomas ni hipotensión y sin signos de sobrecarga. Es una estimación clínica que se apoya en herramientas objetivas: ecografía de la vena cava inferior (diámetro menor de 11 mm/m² y colapso mayor de 50% sugieren hipovolemia; dilatación y falta de colapso, hipervolemia), ecografía pulmonar (número de líneas B), bioimpedancia espectroscópica y el monitoreo de volumen sanguíneo. Un enfoque seguro es reducir de manera gradual el peso seco (por ejemplo, 0.5 kg por sesión) hasta lograr normotensión o síntomas de hipovolemia, como mostró el ensayo DRIP.",
+   "D": "La creatinina no refleja el volumen.",
+   "E": "La presión yugular es útil pero insuficiente por sí sola."
+  },
+  "perla": "Peso seco: VCI, líneas B pulmonares, bioimpedancia y reducción gradual guiada por síntomas/TA (DRIP).",
+  "referencias": [
+   "Agarwal R, Weir MR. Clin J Am Soc Nephrol 2010;5:1255",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [
+   "Belen26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o4",
+  "peso": 84.7
+ },
+ {
+  "id": "HIP-4",
+  "serie_id": "HIP",
+  "orden": 4,
+  "sub": "19.b",
+  "subtema": "Hipotensión intradiálisis refractaria: opciones adicionales",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A pesar de las medidas anteriores, la paciente sigue con hipotensión en 30% de las sesiones, pues tiene neuropatía autonómica diabética.",
+  "enunciado": "¿Qué opciones adicionales pueden considerarse?",
+  "opciones": {
+   "A": "Administrar furosemida durante la sesión para reducir el volumen intravascular y mejorar la tolerancia a la ultrafiltración neta",
+   "B": "Ninguna medida adicional es posible, porque la neuropatía autonómica diabética es irreversible y no se puede compensar",
+   "C": "Reducir el flujo sanguíneo a 50 mL/min sin otros cambios en el dializado, la temperatura ni la ultrafiltración, para mejorar la tolerancia",
+   "D": "Aumentar la dosis de carvedilol para controlar la presión arterial, aunque se administre previo a la sesión y cause más hipotensión",
+   "E": "Midodrina predialítica, dializado frío, más frecuencia o duración de sesiones (HDF, nocturna) y revisión de antihipertensivos"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La furosemida no es una intervención intradiálisis para hipotensión.",
+   "B": "Existen varias medidas adicionales.",
+   "C": "Reducir el flujo sanguíneo disminuye la eficiencia sin resolver la causa.",
+   "D": "Aumentar un betabloqueador empeora la hipotensión.",
+   "E": "En la hipotensión refractaria por neuropatía autonómica se combinan estrategias: midodrina (agonista α1) 2.5 a 10 mg antes de la sesión, que aumenta la TA y reduce los episodios, dializado frío de 35 a 36 °C (mejora la estabilidad hemodinámica), mayor tiempo o frecuencia de sesiones (diálisis diaria corta o nocturna), HDF, reevaluación del peso seco y retirada o reprogramación de los antihipertensivos que reducen la TA durante la diálisis. En pacientes seleccionados se puede considerar la transferencia a diálisis peritoneal, que causa menos inestabilidad hemodinámica."
+  },
+  "perla": "IDH refractaria: midodrina, dializado frío, más tiempo/frecuencia, HDF, ajustar antihipertensivos; considerar DP.",
+  "referencias": [
+   "Kooman J et al. Nephrol Dial Transplant 2007;22(Suppl 2):ii22"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 54.4
+ },
+ {
+  "id": "HTH-1",
+  "serie_id": "HTH",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Hipertensión en hemodiálisis: estrategia",
+  "dificultad": "moderada",
+  "caso": "Hombre de 49 años en hemodiálisis tres veces por semana desde hace 3 años, con TA predializante de 175/105 mmHg, ganancia interdiálisis de 3.8 kg, edema leve y sin hipotensión en las sesiones. Toma tres antihipertensivos. La TA posdiálisis es de 150/90 mmHg.",
+  "enunciado": "¿Cuál es la maniobra más eficaz para reducir la TA a largo plazo?",
+  "opciones": {
+   "A": "Alcanzar el peso seco con restricción de sodio y más tiempo o número de sesiones, en lugar de añadir antihipertensivos sin control",
+   "B": "Agregar un cuarto y quinto antihipertensivo sin evaluar el volumen, para llevar la presión predialítica a menos de 140/90 mmHg",
+   "C": "Aumentar el sodio del dializado para mejorar la tolerancia hemodinámica y reducir la ganancia interdialítica de peso",
+   "D": "Aumentar solo la tasa de ultrafiltración sin cambiar el tiempo, a pesar de que no hay hipotensión en las sesiones",
+   "E": "Liberalizar la ingesta de líquidos y de sodio para mejorar la nutrición, con ajuste posterior de los antihipertensivos"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La hipertensión en hemodiálisis es predominantemente dependiente del volumen. La estrategia más eficaz es lograr el peso seco, restringir sodio (menos de 2 g/día) y líquidos, evitar dializados con sodio alto, y alargar la duración o añadir sesiones, que logran un mejor control de TA que añadir fármacos. El estudio FHN mostró que la hemodiálisis seis veces por semana reducía la masa ventricular izquierda y facilitaba el control de la TA. Las intervenciones sobre la tasa de ultrafiltración sin cambiar el tiempo aumentan la intolerancia y las hipotensiones.",
+   "B": "Agregar fármacos sin evaluar el volumen suele fracasar y expone a hipotensión intradiálisis.",
+   "C": "El sodio alto del dializado aumenta la sed, la ganancia de peso y la TA.",
+   "D": "Elevar la tasa de UF sin aumentar tiempo produce hipotensión y calambres.",
+   "E": "Liberalizar líquidos aumenta la sobrecarga."
+  },
+  "perla": "HTA en HD = volumen: peso seco, sodio <2 g/día, más tiempo/sesiones (FHN). Los fármacos son secundarios.",
+  "referencias": [
+   "Agarwal R, Weir MR. Clin J Am Soc Nephrol 2010;5:1255",
+   "Chertow GM et al. N Engl J Med 2010;363:2287"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o2",
+  "peso": 70.6
+ },
+ {
+  "id": "HTH-2",
+  "serie_id": "HTH",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Hipertensión refractaria con peso seco alcanzado",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras alcanzar el peso seco con sesiones de 4.5 horas, la TA predializante sigue en 160/95 mmHg. No hay edema ni derrame, y el estudio ecográfico de la vena cava muestra colapsabilidad conservada.",
+  "enunciado": "¿Qué debe considerarse a continuación?",
+  "opciones": {
+   "A": "Optimizar los antihipertensivos (IECA/ARA-II, betabloqueadores no dializables), buscar causas secundarias y hacer MAPA",
+   "B": "Atribuirlo a la ansiedad del paciente (hipertensión de bata blanca) y no modificar el tratamiento ni el peso seco del paciente",
+   "C": "Reducir el peso seco en 5 kg adicionales de forma abrupta, para controlar la presión arterial predialítica sin vigilar hipotensión",
+   "D": "Iniciar diuréticos tiazídicos en un paciente anúrico, para aumentar la excreción renal de sodio y agua",
+   "E": "Suspender todos los antihipertensivos, porque la ultrafiltración ya basta para el control de la presión"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Cuando el peso seco se ha alcanzado y la TA persiste elevada, se optimiza el tratamiento farmacológico con IECA o ARA-II, betabloqueadores (carvedilol), antagonistas del calcio y, en casos seleccionados, antagonistas de mineralocorticoides, y se investigan causas secundarias o contribuyentes: estenosis de arteria renal, hiperaldosteronismo, apnea del sueño, dosis altas de ESA, hipertensión por calcio o dializado. La TA medida fuera de la sesión (MAPA o monitoreo domiciliario) es más fiable para el diagnóstico y el seguimiento que la TA predializante.",
+   "B": "Atribuirlo a ansiedad omite causas tratables.",
+   "C": "Disminuir el peso seco de manera abrupta aumenta el riesgo de hipotensión y calambres.",
+   "D": "Un paciente anúrico no responde a tiazidas.",
+   "E": "Suspender los antihipertensivos empeora el control."
+  },
+  "perla": "HTA persistente con peso seco logrado: ajustar fármacos, buscar causas secundarias (EAR, apnea, ESA) y usar MAPA.",
+  "referencias": [
+   "Agarwal R, Weir MR. Clin J Am Soc Nephrol 2010;5:1255",
+   "Comprehensive Clinical Nephrology (hipertensión en diálisis)"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o4",
+  "peso": 72.6
+ },
+ {
+  "id": "HTH-3",
+  "serie_id": "HTH",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Anemia y fosfato por diálisis inadecuada",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En otro paciente en hemodiálisis, con Kt/V de 1.0, anemia resistente a ESA (Hb 8.9 g/dL con dosis altas), hiperfosfatemia de 7.8 mg/dL y sobrecarga recurrente, no hay déficit de hierro ni inflamación aguda.",
+  "enunciado": "¿Cuál es la intervención más adecuada?",
+  "opciones": {
+   "A": "Aumentar la duración o frecuencia de las sesiones (o considerar HDF), porque la diálisis inadecuada explica el cuadro",
+   "B": "Aumentar solo la dosis de ESA, hasta alcanzar una hemoglobina de 11 a 12 g/dL, sin modificar la prescripción dialítica",
+   "C": "Añadir otro quelante cálcico únicamente, para controlar el fósforo sin cambiar la dosis de diálisis ni el tiempo de sesión",
+   "D": "Reducir el tiempo de las sesiones para mejorar la adherencia y la calidad de vida, y vigilar la hemoglobina",
+   "E": "Suspender el tratamiento con hierro, porque la resistencia al ESA se debe a la sobrecarga de hierro del paciente dializado"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Un Kt/V de 1.0 está por debajo de la dosis mínima recomendada (1.2 por sesión, objetivo de 1.4). La diálisis inadecuada mantiene toxinas urémicas que inhiben la eritropoyesis, aumenta el fósforo y la sobrecarga de volumen. El tratamiento es aumentar el tiempo o la frecuencia de las sesiones, mejorar el acceso (flujo sanguíneo) y, si se requiere, usar HDF; para el fósforo, además se ajusta la dieta y los quelantes. Aumentar sólo la ESA o el quelante trata el síntoma y no la causa.",
+   "B": "La ESA en dosis mayores no corrige la causa de la resistencia y tiene riesgos cardiovasculares.",
+   "C": "Un quelante cálcico adicional no corrige la diálisis insuficiente y aumenta la carga de calcio.",
+   "D": "Reducir el tiempo empeora la depuración.",
+   "E": "El hierro es necesario para la eritropoyesis; su suspensión no tiene sustento."
+  },
+  "perla": "Anemia/hiperfosfatemia con Kt/V bajo: ↑ tiempo y frecuencia de HD (o HDF) antes de subir ESA o quelantes.",
+  "referencias": [
+   "KDOQI Clinical Practice Guideline for Hemodialysis Adequacy: 2015 Update. Am J Kidney Dis 2015;66:884"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o4",
+  "peso": 70.6
+ },
+ {
+  "id": "ACC-1",
+  "serie_id": "ACC",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Maduración de la fístula arteriovenosa: regla de los 6",
+  "dificultad": "moderada",
+  "caso": "Mujer de 58 años con ERC G4 que recibió una fístula arteriovenosa radiocefálica izquierda hace 8 semanas. En la exploración hay frémito, el trayecto de la vena es palpable y pulsátil. Ecografía: diámetro de la vena de 7 mm, profundidad de 4 mm y flujo de 700 mL/min.",
+  "enunciado": "¿Qué criterios de maduración cumple y cuándo puede puncionarse según la 'regla de los 6'?",
+  "opciones": {
+   "A": "Solo se requiere el frémito palpable, por lo que se punciona sin necesidad de medir diámetro, profundidad ni flujo sanguíneo",
+   "B": "No puede puncionarse nunca una fístula radiocefálica, porque la vena es demasiado pequeña para el uso crónico",
+   "C": "Diámetro de 4 mm, profundidad de 10 mm, flujo de 300 mL/min y 2 semanas de maduración: cumple y puede puncionarse de inmediato",
+   "D": "Diámetro >6 mm, profundidad <6 mm, flujo >600 mL/min y ≥6 semanas de maduración: la fístula cumple y puede puncionarse",
+   "E": "Debe esperar 6 meses siempre antes de la primera punción, aunque ya cumpla los criterios de maduración"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La exploración clínica sola puede ser insuficiente en casos dudosos.",
+   "B": "La radiocefálica es el acceso de primera elección.",
+   "C": "Esos valores no cumplen los criterios de maduración.",
+   "D": "La 'regla de los 6' resume los criterios clásicos de maduración de una FAV: diámetro de la vena de más de 6 mm, profundidad menor de 6 mm desde la piel, flujo mayor de 600 mL/min y al menos 6 semanas desde la creación. Esta paciente cumple todos (7 mm, 4 mm, 700 mL/min, 8 semanas), por lo que puede ser puncionada con aguja bajo técnica adecuada. La maduración se valora con exploración física (frémito continuo, soplo y vena que se colapsa al elevar el brazo) y ecografía Doppler cuando hay dudas. La KDOQI 2019 pone énfasis en la evaluación clínica y la planificación centrada en el paciente.",
+   "E": "No siempre se requiere esperar 6 meses; el tiempo depende de los criterios."
+  },
+  "perla": "FAV madura: regla de los 6 (>6 mm de diámetro, <6 mm de profundidad, >600 mL/min, ≥6 semanas).",
+  "referencias": [
+   "Lok CE et al. Am J Kidney Dis 2020;75(4 Suppl 2):S1 (KDOQI Vascular Access 2019)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o5",
+  "peso": 70.6
+ },
+ {
+  "id": "ACC-2",
+  "serie_id": "ACC",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Trombosis de la fístula: causa y manejo",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tras 14 meses de uso, la paciente llega con pérdida del frémito y del soplo de la fístula, sin dolor ni datos de infección, desde hace 10 horas.",
+  "enunciado": "¿Cuál es la causa más frecuente y el manejo indicado?",
+  "opciones": {
+   "A": "Hipotensión sostenida en la sesión previa; se maneja solo con hidratación y observación",
+   "B": "Estenosis por hiperplasia neointimal con trombosis; fistulografía con trombectomía o angioplastia en 48 horas",
+   "C": "Compresión externa por el edema del brazo; observación durante 3 meses y nueva valoración",
+   "D": "Infección de la fístula arteriovenosa; antibióticos intravenosos prolongados sin intervención quirúrgica sobre el acceso",
+   "E": "Oclusión por cristales de calcio-fosfato; se maneja con alcalinización y heparina sistémica"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La hipotensión puede contribuir, pero la estenosis subyacente debe tratarse.",
+   "B": "La principal causa de disfunción de la fístula es la estenosis por hiperplasia neointimal (proliferación de células musculares lisas), sobre todo en el segmento yuxtaanastomótico en las fístulas radiocefálicas, o en la vena de salida; la trombosis ocurre sobre esa estenosis. El tratamiento es urgente (idealmente en menos de 48 horas, antes de que el trombo se organice): fistulografía diagnóstica seguida de angioplastia con balón y trombectomía por catéter o cirugía, y se coloca un catéter temporal si hay que dializar. Los factores de riesgo adicionales son hipotensión, hipercoagulabilidad y punciones repetidas.",
+   "C": "Esperar 3 meses organiza el trombo y reduce la posibilidad de rescate.",
+   "D": "Sin dolor, eritema ni fiebre, la infección no es la causa principal.",
+   "E": "Los cristales no obstruyen una fístula."
+  },
+  "perla": "FAV: causa más frecuente de trombosis = hiperplasia neointimal (zona yuxtaanastomótica). Fistulografía + angioplastia <48 h.",
+  "referencias": [
+   "Lok CE et al. Am J Kidney Dis 2020;75(4 Suppl 2):S1",
+   "Comprehensive Clinical Nephrology (acceso vascular)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 82.7
+ },
+ {
+  "id": "ACC-3",
+  "serie_id": "ACC",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Selección del acceso vascular",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se discute la jerarquía de accesos para una paciente con perspectiva de hemodiálisis crónica y buen lecho venoso.",
+  "enunciado": "¿Cuál es el orden de preferencia general recomendado?",
+  "opciones": {
+   "A": "FAV autóloga (radiocefálica y luego braquiocefálica), después injerto sintético y al final catéter tunelizado",
+   "B": "Catéter no tunelizado como acceso definitivo, porque permite iniciar la diálisis sin esperar la maduración ni la cirugía vascular",
+   "C": "Injerto sintético siempre antes que fístula, porque madura más rápido y tiene menor tasa de trombosis e infección",
+   "D": "Catéter tunelizado primero y luego fístula, porque esta solo se crea después de iniciar la diálisis de forma crónica",
+   "E": "No existe una jerarquía entre los accesos vasculares, y la elección depende solo de la preferencia del cirujano tratante"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La fístula arteriovenosa autóloga es el acceso de elección por su mejor permeabilidad a largo plazo, menor tasa de infección y menor mortalidad. Se prefiere en el miembro no dominante, empezando de distal a proximal (radiocefálica, luego braquiocefálica, luego braquiobasílica transpuesta). El injerto arteriovenoso se reserva para venas inadecuadas, y el catéter tunelizado se limita al puente temporal o a quienes no pueden tener otro acceso. La guía KDOQI 2019 recomienda un enfoque centrado en el paciente (plan 'ESRD Life-Plan') y proteger las venas del miembro con la futura fístula, evitando PICC y venopunciones.",
+   "B": "El catéter no tunelizado no se usa como acceso definitivo.",
+   "C": "El injerto sintético tiene más complicaciones que la fístula autóloga.",
+   "D": "El catéter tiene mayor riesgo de infección, disfunción y mortalidad.",
+   "E": "Sí hay una jerarquía basada en resultados."
+  },
+  "perla": "Acceso: FAV autóloga > injerto > catéter tunelizado. Preservar venas (evitar PICC y subclavia).",
+  "referencias": [
+   "Lok CE et al. Am J Kidney Dis 2020;75(4 Suppl 2):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 52.4
+ },
+ {
+  "id": "ACC-4",
+  "serie_id": "ACC",
+  "orden": 4,
+  "sub": "19.b",
+  "subtema": "Vigilancia y complicaciones de la fístula",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El nefrólogo revisa la vigilancia de la FAV de la paciente. Durante las sesiones ha notado hematomas frecuentes, tiempo prolongado de hemostasia y presión venosa dinámica creciente.",
+  "enunciado": "¿Qué sospecha y qué estudio son los más adecuados?",
+  "opciones": {
+   "A": "Hipercoagulabilidad; iniciar anticoagulación crónica para prevenir la trombosis del acceso y mejorar la hemostasia",
+   "B": "Estenosis venosa de salida: Doppler y fistulografía, con angioplastia si es hemodinámicamente significativa (>50% y datos clínicos)",
+   "C": "Aneurisma verdadero del acceso; solo observación periódica sin estudios de imagen, porque la presión venosa creciente es esperable en el acceso",
+   "D": "Síndrome de robo vascular; ligadura inmediata del acceso para evitar la isquemia de la mano y la pérdida del miembro",
+   "E": "Infección del acceso vascular; retirar la fístula de inmediato y administrar antibióticos de amplio espectro por vía intravenosa y cultivos"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La anticoagulación sistémica no corrige la estenosis.",
+   "B": "Los hematomas frecuentes, el sangrado prolongado en el sitio de punción y el aumento progresivo de la presión venosa o la presión dinámica reflejan una estenosis venosa de salida, que eleva la presión del acceso. La vigilancia clínica (exploración física: frémito, soplo, pulso aumentado distal a la estenosis) se complementa con ecografía Doppler y, si hay sospecha de estenosis significativa asociada a disfunción, con fistulografía y angioplastia, lo que prolonga la vida del acceso. La estenosis de más de 50% de la luz con alteraciones clínicas (flujo reducido, recirculación, sangrado prolongado) justifica la intervención.",
+   "C": "Un aneurisma verdadero puede vigilarse, pero el cuadro descrito indica estenosis.",
+   "D": "El robo se manifiesta con isquemia distal de la mano, no con sangrado prolongado.",
+   "E": "No hay datos de infección ni indicación de retirar la fístula."
+  },
+  "perla": "Sangrado prolongado, hematomas y ↑ presión venosa = estenosis venosa de salida: Doppler/fistulografía y angioplastia.",
+  "referencias": [
+   "Lok CE et al. Am J Kidney Dis 2020;75(4 Suppl 2):S1",
+   "Comprehensive Clinical Nephrology (acceso vascular)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 54.4
+ },
+ {
+  "id": "BAC-1",
+  "serie_id": "BAC",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Bacteriemia por catéter: tratamiento empírico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 68 años con hipertensión e insuficiencia cardiaca, en hemodiálisis crónica desde hace 2 años con catéter tunelizado yugular derecho. Presenta fiebre de 39 °C y escalofríos durante las sesiones, sin foco evidente. Exploración: eritema leve en el sitio de salida del catéter y soplo sistólico nuevo.",
+  "enunciado": "¿Cuál es el manejo inicial más adecuado?",
+  "opciones": {
+   "A": "Hemocultivos del catéter y periféricos, con vancomicina más cobertura gramnegativa (ceftazidima o gentamicina) de inmediato",
+   "B": "Retirar el catéter de inmediato sin cultivos ni antibióticos, porque toda fiebre durante la sesión implica infección del acceso",
+   "C": "Solo antipiréticos y vigilancia clínica durante 48 horas, porque la fiebre puede deberse a la sesión misma",
+   "D": "Esperar los resultados de los cultivos 72 horas antes de iniciar cualquier tratamiento antibiótico empírico",
+   "E": "Solo un betalactámico oral de amplio espectro, de forma ambulatoria, con control clínico en una semana"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La fiebre durante la hemodiálisis con catéter se considera bacteriemia relacionada con catéter hasta demostrar lo contrario. Se obtienen hemocultivos pareados (periférico y del catéter) y se inicia sin demora tratamiento empírico que cubre Staphylococcus aureus (incluido SARM) y gramnegativos: vancomicina más ceftazidima o un aminoglucósido, ajustando la dosis a la diálisis y desescalando con el antibiograma. La estrategia depende del germen y de la gravedad. La presencia de un soplo nuevo obliga además a descartar endocarditis infecciosa.",
+   "B": "Retirar el catéter sin cultivos ni tratamiento no es suficiente.",
+   "C": "El manejo sintomático solo expone a sepsis grave y a endocarditis.",
+   "D": "Esperar 72 horas sin tratar es peligroso en un paciente séptico.",
+   "E": "Un betalactámico oral es insuficiente en un paciente con bacteriemia por catéter."
+  },
+  "perla": "Fiebre en HD con catéter: hemocultivos pareados + vancomicina y cobertura gramnegativa empírica; soplo nuevo → descartar endocarditis.",
+  "referencias": [
+   "Mermel LA et al. Clin Infect Dis 2009;49:1",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o5",
+  "peso": 70.6
+ },
+ {
+  "id": "BAC-2",
+  "serie_id": "BAC",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Endocarditis en hemodiálisis: factores de riesgo e imagen",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Los hemocultivos del paciente resultan positivos para Staphylococcus aureus sensible a meticilina en 4 de 4 frascos. Persiste la fiebre y se mantiene el soplo.",
+  "enunciado": "¿Cuál es el principal factor de riesgo de endocarditis en estos pacientes y el estudio inicial de imagen de elección?",
+  "opciones": {
+   "A": "La diabetes mellitus de larga evolución; gammagrafía con leucocitos marcados como estudio inicial",
+   "B": "La edad avanzada del paciente; resonancia magnética cardiaca como estudio de imagen inicial de elección en la bacteriemia",
+   "C": "La enfermedad periodontal; ortopantomografía dental únicamente, sin estudio cardiaco inicial de imagen",
+   "D": "El sexo masculino; ecocardiograma de estrés como estudio de imagen inicial en la sospecha de endocarditis",
+   "E": "El acceso vascular (sobre todo el catéter central); ecocardiograma transtorácico y transesofágico si la sospecha es alta"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La gammagrafía no es estudio inicial para endocarditis.",
+   "B": "La edad se asocia pero el acceso vascular es el factor principal modificable.",
+   "C": "La enfermedad periodontal contribuye, pero no es el principal factor de riesgo en diálisis.",
+   "D": "El sexo no es un factor determinante.",
+   "E": "En los pacientes en hemodiálisis el principal factor de riesgo de endocarditis es el acceso vascular, sobre todo los catéteres tunelizados, por la bacteriemia recurrente por Staphylococcus aureus; otros factores son la edad, la diabetes, la cardiopatía valvular y la calcificación valvular. El ecocardiograma transtorácico es el primer estudio por su disponibilidad y bajo riesgo, y el transesofágico se solicita cuando la probabilidad es alta, el transtorácico no es concluyente, hay bacteriemia persistente, prótesis valvulares o sospecha de complicaciones perivalvulares. Las vegetaciones del lado derecho se asocian a catéteres, aunque en los pacientes en diálisis también se afectan válvulas mitral y aórtica calcificadas."
+  },
+  "perla": "Endocarditis en HD: principal factor = acceso vascular (catéter); ETT primero, ETE si alta sospecha o bacteriemia persistente.",
+  "referencias": [
+   "Baddour LM et al. Circulation 2015;132:1435",
+   "Mermel LA et al. Clin Infect Dis 2009;49:1"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 72.6
+ },
+ {
+  "id": "BAC-3",
+  "serie_id": "BAC",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "S. aureus en catéter: retiro y duración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma bacteriemia por S. aureus sensible a meticilina, sin vegetaciones en el ecocardiograma transtorácico y con hemocultivos que se negativizan a las 72 horas de tratamiento.",
+  "enunciado": "¿Cuál es el manejo del catéter y la duración del antibiótico?",
+  "opciones": {
+   "A": "Vancomicina durante 3 días hasta negativizar el hemocultivo, y conservar el catéter tunelizado",
+   "B": "Retirar el catéter tunelizado y cefazolina tras cada sesión por al menos 4 semanas (6 si hay complicaciones)",
+   "C": "Conservar el catéter con bloqueo antibiótico sin retirarlo, y completar 2 semanas de cefazolina",
+   "D": "Conservar el catéter y completar el tratamiento con un antibiótico oral durante 2 a 3 semanas",
+   "E": "Retirar el catéter y no dar antibióticos, porque los hemocultivos ya se negativizaron a las 72 horas"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Tres días son insuficientes y exponen a metástasis infecciosas.",
+   "B": "En la bacteriemia por S. aureus relacionada con catéter, la guía IDSA recomienda retirar el catéter, ya que la biopelícula protege a la bacteria de los antibióticos, y administrar antibiótico intravenoso (cefazolina después de cada hemodiálisis si es sensible a meticilina, o vancomicina si es resistente). La IDSA admite un mínimo de 14 días solo en bacteriemia no complicada (sin diabetes, inmunosupresión ni prótesis, con defervescencia en 72 horas y sin focos metastásicos); en hemodiálisis, por la alta tasa de complicaciones a distancia, la práctica habitual es de 4 a 6 semanas, y 6 semanas o más si hay endocarditis, tromboflebitis séptica u osteomielitis. El catéter definitivo se reinserta tras documentar hemocultivos negativos, y se prefiere la fístula como acceso. El empleo de antibióticos solos explica por qué la persistencia con catéter conduce a recaídas.",
+   "C": "El bloqueo antibiótico con el catéter no erradica de forma fiable S. aureus.",
+   "D": "El antibiótico oral solo no es adecuado.",
+   "E": "Sin antibiótico persiste la bacteriemia."
+  },
+  "perla": "CRBSI por S. aureus: retirar el catéter y tratar ≥4 semanas (6 si complicaciones); biopelícula explica la resistencia.",
+  "referencias": [
+   "Mermel LA et al. Clin Infect Dis 2009;49:1",
+   "Baddour LM et al. Circulation 2015;132:1435"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 84.7
+ },
+ {
+  "id": "BAC-4",
+  "serie_id": "BAC",
+  "orden": 4,
+  "sub": "19.b",
+  "subtema": "Biopelícula y prevención de infecciones del catéter",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En una revisión de calidad del servicio se discute por qué fallan los antibióticos en las infecciones de catéter y cómo disminuir las bacteriemias.",
+  "enunciado": "¿Cuál es la mejor explicación de la falla del tratamiento y de la prevención?",
+  "opciones": {
+   "A": "Mutación espontánea de las bacterias en la sangre durante la sesión; no existen medidas eficaces de prevención",
+   "B": "Uso de dializadores de alto flujo, que arrastran el antibiótico; se previene cambiando a membranas de bajo flujo",
+   "C": "Biopelícula en el catéter que protege a las bacterias; se previene con técnica aséptica, bloqueos antimicrobianos y acceso definitivo",
+   "D": "Hipoalbuminemia del paciente, que reduce la unión del fármaco; se previene administrando albúmina antes de cada sesión de diálisis",
+   "E": "Contaminación del agua del dializado con endotoxinas; no existen medidas de prevención aplicables en la unidad"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La resistencia por mutación no explica la falla frecuente con catéter.",
+   "B": "El tipo de dializador no explica las infecciones de catéter.",
+   "C": "Los estafilococos forman biopelículas en la superficie del catéter: una matriz de exopolisacáridos con bacterias de metabolismo lento que toleran concentraciones de antibiótico hasta mil veces mayores que las bacterias libres y evaden la respuesta inmune. Por eso el tratamiento sin retirar el catéter suele fallar. La prevención incluye minimizar el tiempo de catéter, higiene de manos y técnica aséptica, desinfección con clorhexidina, bloqueos con taurolidina o citrato (o antibiótico en pacientes seleccionados), mupirocina en el sitio de salida y cambio temprano a fístula. También contribuyen al fracaso las dosis mal ajustadas o los esquemas muy cortos.",
+   "D": "La hipoalbuminemia se asocia a riesgo, pero no explica la biopelícula.",
+   "E": "La contaminación del agua es otra causa de bacteriemia, pero no explica la biopelícula."
+  },
+  "perla": "Biopelícula: S. aureus/epidermidis toleran antibióticos; prevención con asepsia, bloqueos (taurolidina/citrato), mupirocina y retirar catéter.",
+  "referencias": [
+   "Mermel LA et al. Clin Infect Dis 2009;49:1",
+   "Lok CE et al. Am J Kidney Dis 2020;75(4 Suppl 2):S1"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 70.6
+ },
+ {
+  "id": "ADQ-1",
+  "serie_id": "ADQ",
+  "orden": 1,
+  "sub": "19.a",
+  "subtema": "Cálculo de Kt/V con la fórmula de Daugirdas",
+  "dificultad": "dificil",
+  "caso": "Mujer de 52 años de 70 kg en hemodiálisis de 3.5 horas, tres veces por semana. BUN predialítico de 80 mg/dL y posdialítico de 24 mg/dL. Se removieron 3 L de líquido en la sesión.",
+  "enunciado": "¿Cuál es el Kt/V de la sesión (monocompartimental, Daugirdas de segunda generación) y el URR?",
+  "opciones": {
+   "A": "Kt/V ≈ 1.0 y URR de 65% (descenso del BUN de 52 mg/dL, sin contar el aporte de la ultrafiltración de la sesión dialítica)",
+   "B": "Kt/V ≈ 0.7 y URR de 30% (descenso del BUN de 24 mg/dL, una sesión claramente insuficiente frente a la meta mínima)",
+   "C": "Kt/V ≈ 1.4 y URR de 70% (descenso del BUN de 56 mg/dL, con el aporte de la ultrafiltración de 3 L en la sesión)",
+   "D": "Kt/V ≈ 0.9 y URR de 50% (descenso del BUN de 40 mg/dL, una dosis por debajo de la mínima aceptada)",
+   "E": "Kt/V ≈ 2.0 y URR de 80% (descenso del BUN de 64 mg/dL, dosis muy superior a la requerida por sesión)"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El URR de 65% no coincide con la reducción observada (70%).",
+   "B": "Un URR de 30% no se compatibiliza con una reducción de BUN de 80 a 24 mg/dL.",
+   "C": "El URR (porcentaje de reducción de urea) es (80 − 24)/80 = 70%. Con R = BUN posdiálisis/predial = 24/80 = 0.30, t = 3.5 horas, UF = 3 L y W = 70 kg: Kt/V = −ln(R − 0.008 × t) + (4 − 3.5 × R) × UF/W = −ln(0.30 − 0.028) + (4 − 1.05) × 3/70 = 1.30 + 0.126 ≈ 1.43. Este Kt/V supera la dosis mínima recomendada de 1.2 por sesión (KDOQI 2015) y alcanza el objetivo de 1.4, con URR mayor del 65% mínimo sugerido.",
+   "D": "Un URR de 50% y Kt/V de 0.9 no corresponden a los datos del caso.",
+   "E": "El URR de 80% requeriría un BUN posdiálisis de 16 mg/dL."
+  },
+  "perla": "URR = (pre − post)/pre. Daugirdas: Kt/V = −ln(R − 0.008t) + (4 − 3.5R)·UF/W. Meta 1.4 (mínimo 1.2) por sesión.",
+  "referencias": [
+   "Daugirdas JT. J Am Soc Nephrol 1993;4:1205",
+   "KDOQI Clinical Practice Guideline for Hemodialysis Adequacy: 2015 Update. Am J Kidney Dis 2015;66:884"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o1",
+  "peso": 70.7
+ },
+ {
+  "id": "ADQ-2",
+  "serie_id": "ADQ",
+  "orden": 2,
+  "sub": "19.a",
+  "subtema": "Metas de adecuación y papel de la función renal residual",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En otro paciente en hemodiálisis, la diuresis residual es de 800 mL/día y la depuración renal de urea es de 3 mL/min. El Kt/V de la sesión es de 1.1 y el nefrólogo duda si es suficiente.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "Se debe aumentar siempre a Kt/V de 3, para compensar la mayor mortalidad de los pacientes con función residual",
+   "B": "El objetivo es Kt/V de 0.5 por sesión, sin importar la función renal residual ni la frecuencia semanal",
+   "C": "La meta del Kt/V no varía entre la diálisis diaria y la trisemanal, porque depende solo del peso del paciente",
+   "D": "La función renal residual no cuenta para la dosis de diálisis, porque la depuración renal de urea no contribuye y no permite ajustar la meta",
+   "E": "Kt/V mínimo de 1.2 por sesión (objetivo 1.4) en esquema trisemanal, con posible reducción si la depuración renal de urea es ≥2 mL/min"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No es necesario un Kt/V de 3 por sesión en hemodiálisis trisemanal.",
+   "B": "Un Kt/V de 0.5 es muy bajo.",
+   "C": "Las metas varían con la frecuencia: en diálisis más frecuente se usa Kt/V semanal estándar.",
+   "D": "La función residual contribuye a la depuración y puede considerarse para la dosis total.",
+   "E": "La guía KDOQI 2015 recomienda un objetivo de Kt/V monocompartimental de 1.4 por sesión para la hemodiálisis tres veces por semana, con un mínimo entregado de 1.2. En pacientes con función renal residual significativa (depuración renal de urea de 2 mL/min o más) se puede reducir la dosis de diálisis ('hemodiálisis incremental'), con vigilancia estricta de la función residual, el volumen y los electrolitos. Sin embargo, con Kt/V de 1.1, el paciente está por debajo del mínimo y debe evaluarse el tiempo de sesión, el flujo sanguíneo, la recirculación y el acceso, antes de reducir dosis."
+  },
+  "perla": "HD trisemanal: spKt/V objetivo 1.4, mínimo 1.2. Función residual (Kru ≥2 mL/min) permite diálisis incremental.",
+  "referencias": [
+   "KDOQI Clinical Practice Guideline for Hemodialysis Adequacy: 2015 Update. Am J Kidney Dis 2015;66:884"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o1",
+  "peso": 70.7
+ },
+ {
+  "id": "ADQ-3",
+  "serie_id": "ADQ",
+  "orden": 3,
+  "sub": "19.a",
+  "subtema": "Recirculación y causas de baja eficiencia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente con Kt/V de 1.1 usa una FAV braquiocefálica con flujo de 900 mL/min y recibe sesiones de 4 horas con flujo sanguíneo de 300 mL/min. Se encuentra recirculación de 18% y presiones venosas elevadas.",
+  "enunciado": "¿Cuál es la interpretación y la acción más adecuadas?",
+  "opciones": {
+   "A": "Aumentar el flujo sanguíneo a 600 mL/min sin investigar la causa de la recirculación, para mejorar el aclaramiento de urea",
+   "B": "No tiene relevancia clínica, porque el Kt/V de 1.1 se acerca al objetivo y la recirculación se considera un hallazgo menor",
+   "C": "Suspender la diálisis de inmediato y derivar al paciente a evaluación quirúrgica urgente del acceso vascular braquiocefálico",
+   "D": "Ignorar la recirculación porque el Kt/V ya es adecuado, y mantener el esquema actual de sesiones de cuatro horas sin más estudios",
+   "E": "Recirculación elevada que reduce la eficiencia: se descarta estenosis venosa o mala posición de agujas y se corrige"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Subir el flujo sin investigar puede empeorar la recirculación.",
+   "B": "Una recirculación de 18% reduce de manera apreciable la depuración.",
+   "C": "No hay motivo para suspender la diálisis.",
+   "D": "El Kt/V de 1.1 está por debajo del mínimo recomendado.",
+   "E": "La recirculación ocurre cuando la sangre recién dializada que sale por la aguja venosa vuelve a entrar por la aguja arterial; en la fístula suele deberse a estenosis venosa de salida, flujo del acceso inferior al flujo sanguíneo de la bomba o agujas mal colocadas. Reduce la depuración efectiva (a mayor recirculación, menor Kt/V) y se asocia con presiones venosas altas. Una recirculación mayor de 10% obliga a evaluar el acceso (Doppler o fistulografía) y corregir la causa antes de modificar el tiempo o el flujo."
+  },
+  "perla": "Recirculación >10%: sospechar estenosis venosa de salida o agujas mal posicionadas; reduce Kt/V efectivo.",
+  "referencias": [
+   "KDOQI Clinical Practice Guideline for Hemodialysis Adequacy: 2015 Update. Am J Kidney Dis 2015;66:884",
+   "Lok CE et al. Am J Kidney Dis 2020;75(4 Suppl 2):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o1",
+  "peso": 52.6
+ },
+ {
+  "id": "CMP-1",
+  "serie_id": "CMP",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Síndrome de desequilibrio de la diálisis",
+  "dificultad": "moderada",
+  "caso": "Hombre de 33 años con ERC terminal no diagnosticada previamente, urea de 420 mg/dL (BUN 196 mg/dL), creatinina de 18 mg/dL y encefalopatía urémica leve, que inicia su primera hemodiálisis de 4 horas con flujo sanguíneo de 350 mL/min. Al final de la sesión presenta cefalea intensa, náuseas, vómito, desorientación y una crisis convulsiva.",
+  "enunciado": "¿Cuál es el diagnóstico y cómo se previene?",
+  "opciones": {
+   "A": "Hemorragia subaracnoidea; solo tomografía de cráneo y observación, sin modificar la prescripción de la sesión ni su duración",
+   "B": "Síndrome de desequilibrio: sesión corta, flujo bajo y descenso de urea ≤30-40%; manitol o Na alto en riesgo alto",
+   "C": "Embolia gaseosa por entrada de aire en la línea venosa; posición de Trendelenburg y oxígeno al 100% de forma inmediata",
+   "D": "Hipoglucemia por el baño de diálisis sin glucosa; administrar glucosa intravenosa y continuar con la misma prescripción",
+   "E": "Hiperpotasemia por la urea elevada; gluconato de calcio intravenoso y repetir el electrocardiograma antes de continuar"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El cuadro de aparición durante la diálisis, con urea alta, es típico del desequilibrio.",
+   "B": "El síndrome de desequilibrio aparece en las primeras sesiones de diálisis, sobre todo con urea muy elevada, por la remoción rápida de urea del plasma, mientras que el cerebro conserva una osmolaridad mayor (osmoles idiogénicos y retraso en la salida de urea de las células cerebrales), con paso de agua al cerebro y edema cerebral. Se manifiesta con cefalea, náuseas, vómito, agitación, convulsiones y coma. Se previene iniciando con diálisis suave: sesiones de 2 horas, flujo sanguíneo bajo, dializador de menor superficie, flujo de dializado reducido y descenso de la urea no mayor del 30 al 40% (o URR menor de 40%), con sodio elevado en el dializado y manitol en riesgo alto. Una vez aparece, se detiene o reduce la diálisis y se trata de forma sintomática.",
+   "C": "La embolia gaseosa produce disnea y colapso, y no este cuadro neurológico gradual.",
+   "D": "No hay datos de hipoglucemia.",
+   "E": "La hiperpotasemia no explica la encefalopatía."
+  },
+  "perla": "Desequilibrio: primeras diálisis con urea muy alta → edema cerebral. Prevención: sesión corta, flujo bajo, ↓urea ≤30–40%, manitol/Na alto.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)",
+   "Daugirdas JT, Blake PG, Ing TS. Handbook of Dialysis"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o2",
+  "peso": 52.4
+ },
+ {
+  "id": "CMP-2",
+  "serie_id": "CMP",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Embolia gaseosa durante la diálisis",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En otro paciente, durante el retorno de sangre, entra aire por una conexión floja de la línea venosa; presenta disnea súbita, tos, dolor torácico y cianosis.",
+  "enunciado": "¿Cuál es la conducta inmediata?",
+  "opciones": {
+   "A": "Continuar la diálisis y observar la evolución, porque el aire que entra en el circuito venoso se reabsorbe sin consecuencias",
+   "B": "Aplicar masaje en el sitio de punción para favorecer la hemostasia y disolver el aire dentro de la vena periférica",
+   "C": "Administrar anticoagulante en dosis altas para disolver las burbujas de aire y evitar la formación de trombos en las venas periféricas",
+   "D": "Colocar en decúbito lateral derecho con la cabeza elevada, para que el aire quede atrapado en el ápex del ventrículo izquierdo",
+   "E": "Pinzar la línea venosa y parar la bomba, decúbito lateral izquierdo en Trendelenburg, oxígeno al 100% y valorar aspiración"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Continuar la diálisis aumenta el volumen de aire y el riesgo de muerte.",
+   "B": "El masaje en el sitio de punción no tiene utilidad.",
+   "C": "La anticoagulación no resuelve la embolia gaseosa.",
+   "D": "El decúbito lateral derecho con la cabeza elevada favorece el paso del aire a la circulación pulmonar o cerebral.",
+   "E": "La embolia gaseosa es una complicación poco frecuente pero potencialmente fatal. Se produce por entrada de aire en la línea venosa o por catéter abierto. Se manifiesta con disnea, tos, dolor torácico, cianosis, hipotensión y, en caso de embolia paradójica, déficits neurológicos. La conducta inmediata es pinzar la línea y detener la bomba, colocar al paciente en decúbito lateral izquierdo con la cabeza hacia abajo (Trendelenburg), para atrapar el aire en el vértice del ventrículo derecho y evitar su paso a la arteria pulmonar, administrar oxígeno al 100%, y considerar aspiración con catéter y oxigenoterapia hiperbárica en casos graves."
+  },
+  "perla": "Embolia gaseosa: pinzar, parar bomba, decúbito lateral izquierdo + Trendelenburg, O₂ 100%, aspirar/hiperbárica.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)",
+   "Daugirdas JT, Blake PG, Ing TS. Handbook of Dialysis"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 52.4
+ },
+ {
+  "id": "CMP-3",
+  "serie_id": "CMP",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Hemólisis aguda en hemodiálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un tercer paciente presenta dolor torácico y lumbar súbito, disnea y sangre de color rojo oscuro (vino) en la línea venosa a la hora de iniciar la sesión; el K sérico sube de 4.5 a 6.8 mEq/L.",
+  "enunciado": "¿Cuál es el diagnóstico y el manejo?",
+  "opciones": {
+   "A": "Hipoglucemia por el dializado; administrar dextrosa y continuar la sesión de hemodiálisis con vigilancia de la glucemia capilar",
+   "B": "Reacción anafilactoide al dializador; esteroides y antihistamínico, sin suspender la sesión de hemodiálisis programada del día",
+   "C": "Hipotensión por ultrafiltración; bolo salino y continuar la sesión, porque el cuadro se explica por el retiro excesivo de volumen",
+   "D": "Hemólisis aguda intradiálisis: suspender la diálisis sin devolver la sangre, tratar el K, transfundir y buscar la causa",
+   "E": "Embolia gaseosa; posición de Trendelenburg en decúbito lateral izquierdo, oxígeno al 100% y pinzado de la línea venosa del circuito"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La hipoglucemia no cambia el color de la sangre.",
+   "B": "La reacción anafilactoide se manifiesta con prurito, urticaria y broncoespasmo en los primeros minutos.",
+   "C": "La hipotensión por UF no explica la hiperpotasemia ni la sangre oscura.",
+   "D": "La hemólisis durante la diálisis causa dolor torácico o lumbar, disnea, sangre de color vino en la línea, hiperpotasemia y anemia aguda. Sus causas son mecánicas (líneas acodadas, bomba con oclusión excesiva), un dializado hipotónico (por error del sistema de agua o del concentrado), dializado sobrecalentado (mayor de 42 °C), contaminación con cloramina, cobre, nitratos o formaldehído. La conducta es detener la sesión, pinzar las líneas sin devolver la sangre hemolizada, tratar la hiperpotasemia (que puede ser grave y causar paro), dar oxígeno, transfundir si hay anemia grave, y examinar el sistema de tratamiento del agua y el equipo, notificando a otros pacientes que pudieron estar expuestos.",
+   "E": "La embolia gaseosa no produce sangre de color vino ni hiperpotasemia súbita."
+  },
+  "perla": "Hemólisis en HD: sangre color vino + dolor + hiperK. Parar, no devolver la sangre; buscar causa (línea acodada, dializado hipotónico/caliente, cloramina).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)",
+   "Daugirdas JT, Blake PG, Ing TS. Handbook of Dialysis"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 54.4
+ },
+ {
+  "id": "CMP-4",
+  "serie_id": "CMP",
+  "orden": 4,
+  "sub": "19.b",
+  "subtema": "Reacciones al dializador",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una paciente que usa enalapril y un dializador nuevo de membrana AN69 presenta, a los 5 minutos de iniciar la diálisis, prurito, urticaria, rinorrea, broncoespasmo y sensación de muerte inminente.",
+  "enunciado": "¿Cuál es el diagnóstico y la conducta?",
+  "opciones": {
+   "A": "Hipotensión intradiálisis por ultrafiltración; solución salina y continuar la sesión, aunque haya urticaria y broncoespasmo",
+   "B": "Hemólisis aguda por dializado inadecuado; hemodiálisis intensiva con control del potasio, pese a la urticaria y el prurito",
+   "C": "Anafilactoide tipo A por AN69 con IECA: suspender sin devolver sangre; adrenalina, antiH1, esteroide y cambiar membrana",
+   "D": "Embolia gaseosa por entrada de aire en la línea venosa; oxígeno al 100% y posición de Trendelenburg con decúbito lateral",
+   "E": "Síndrome de desequilibrio dialítico por descenso rápido de urea; manitol y reducción del flujo sanguíneo en las siguientes sesiones"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hipotensión sola no produce urticaria ni broncoespasmo.",
+   "B": "La hemólisis cursa con sangre oscura e hiperpotasemia.",
+   "C": "Las reacciones tipo A (anafilactoides, de aparición rápida en minutos) se deben a hipersensibilidad al óxido de etileno usado en la esterilización, a anticuerpos o a la activación de bradicinina por membranas de poliacrilonitrilo (AN69) en presencia de inhibidores de la ECA, que impiden degradar la bradicinina. Se presentan con prurito, urticaria, tos, broncoespasmo, edema laríngeo e hipotensión. La conducta es detener inmediatamente la diálisis y no devolver la sangre del circuito, tratar con adrenalina, antihistamínicos y esteroides, y prevenir recurrencias cambiando a un dializador esterilizado con vapor o radiación gamma, o suspendiendo el IECA. Las reacciones tipo B (síndrome del primer uso), más leves, producen dolor torácico y lumbar sin anafilaxia.",
+   "D": "La embolia gaseosa no produce urticaria.",
+   "E": "El desequilibrio produce síntomas neurológicos al final de las primeras sesiones."
+  },
+  "perla": "Reacción tipo A: minutos, anafilactoide; óxido de etileno o AN69 + IECA (bradicinina). Parar y no devolver la sangre; adrenalina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)",
+   "Daugirdas JT, Blake PG, Ing TS. Handbook of Dialysis"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 54.4
+ },
+ {
+  "id": "HEP-1",
+  "serie_id": "HEP",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Vacunación contra hepatitis B en hemodiálisis",
+  "dificultad": "moderada",
+  "caso": "Hombre de 40 años con ERC G5 que se prepara para iniciar hemodiálisis crónica. Serología: HBsAg negativo, anti-HBs negativo, anti-HBc negativo. Nunca se vacunó contra hepatitis B.",
+  "enunciado": "¿Cuál es el esquema de vacunación recomendado y cómo se monitoriza?",
+  "opciones": {
+   "A": "Dosis doble (40 µg) en 4 aplicaciones (0, 1, 2 y 6 meses), con anti-HBs 1-2 meses después y refuerzo si baja de 10 mUI/mL",
+   "B": "Dosis estándar única de 20 µg, con aplicación de refuerzo cada cinco años sin medir los anticuerpos",
+   "C": "No necesita vacuna en hemodiálisis, porque la hemodiálisis misma confiere protección contra la hepatitis B",
+   "D": "Una sola dosis anual de 40 µg, con medición de anti-HBs cada año y sin esquema inicial de varias dosis",
+   "E": "Esquema 0, 1 y 6 meses con dosis estándar de 20 µg, sin medición posterior de anti-HBs ni refuerzos adicionales programados"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Los pacientes en hemodiálisis tienen una respuesta inmunitaria menor a la vacuna, por lo que se emplean dosis mayores: 40 µg (dos dosis de 20 µg o una de 40 µg, según la formulación) en 4 aplicaciones, a los 0, 1, 2 y 6 meses. Se mide anti-HBs 1 a 2 meses después de completar el esquema; un título de 10 mUI/mL o más indica protección. Se vigila cada año y se aplica refuerzo si el título cae por debajo de 10 mUI/mL; los no respondedores repiten un esquema completo. Es mejor vacunar antes de iniciar diálisis, cuando la respuesta es mejor.",
+   "B": "Una dosis única no confiere protección.",
+   "C": "La vacunación está indicada en hemodiálisis por el alto riesgo de transmisión.",
+   "D": "Una dosis anual no corresponde a ningún esquema recomendado.",
+   "E": "El esquema de 20 µg en 3 dosis es el estándar para población sana, no para hemodiálisis."
+  },
+  "perla": "Hepatitis B en HD: 40 µg a 0, 1, 2 y 6 meses; anti-HBs ≥10 mUI/mL; revisión anual y refuerzo si <10.",
+  "referencias": [
+   "CDC. MMWR 2001;50(RR-5):1",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o7",
+  "peso": 70.6
+ },
+ {
+  "id": "HEP-2",
+  "serie_id": "HEP",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Marcadores de infectividad y aislamiento en HBV",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Un paciente nuevo llega con HBsAg positivo, anti-HBc IgG positivo, anti-HBs negativo y HBeAg positivo; ADN-VHB de 8 × 10⁶ UI/mL.",
+  "enunciado": "¿Qué indica HBeAg y qué medidas deben adoptarse?",
+  "opciones": {
+   "A": "No requiere precauciones adicionales, porque las precauciones universales bastan en todos los pacientes con HBsAg positivo y sala común",
+   "B": "HBeAg indica infección pasada resuelta, por lo que el paciente ya no es infeccioso y no requiere aislamiento",
+   "C": "HBeAg es un marcador de respuesta a la vacuna, con inmunidad protectora y baja infectividad del paciente",
+   "D": "Replicación activa e infectividad alta: sala aislada con equipo y personal dedicados, y antiviral con entecavir o tenofovir",
+   "E": "HBeAg indica inmunidad natural, por lo que el paciente puede dializarse en la sala general sin otras medidas"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Un paciente HBsAg positivo requiere precauciones estrictas.",
+   "B": "La infección resuelta muestra HBsAg negativo y anti-HBs positivo.",
+   "C": "La respuesta a la vacuna se evalúa con anti-HBs.",
+   "D": "El antígeno e (HBeAg) y la carga viral elevada identifican una replicación viral activa y alta infectividad. En las unidades de hemodiálisis, los pacientes HBsAg positivos se dializan en una sala o área separada, con equipo (máquina y material) dedicado, y personal sanitario que no atiende a pacientes susceptibles al mismo tiempo; el personal debe estar vacunado. Se indica tratamiento antiviral (entecavir o tenofovir ajustados a la TFGe) cuando hay replicación. La inmunidad por vacuna se evidencia con anti-HBs aislado; la infección resuelta tiene anti-HBs y anti-HBc.",
+   "E": "El anti-HBs es el marcador de inmunidad, no el HBeAg."
+  },
+  "perla": "HBeAg + ADN-VHB alto = alta infectividad. HBsAg+ en HD: aislamiento, equipo dedicado, personal vacunado, antiviral.",
+  "referencias": [
+   "CDC. MMWR 2001;50(RR-5):1"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 70.6
+ },
+ {
+  "id": "HEP-3",
+  "serie_id": "HEP",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Hepatitis C en hemodiálisis: precauciones y tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Un paciente de la unidad, con anti-VHC positivo y ARN-VHC detectable (genotipo 1b), no tiene cirrosis. La unidad pregunta si requiere aislamiento y qué tratamiento corresponde.",
+  "enunciado": "¿Cuál es el manejo recomendado?",
+  "opciones": {
+   "A": "Interferón pegilado más ribavirina como esquema actual, porque es el tratamiento de elección en pacientes en diálisis",
+   "B": "Aislamiento obligatorio permanente en una habitación cerrada, con máquina dedicada y personal exclusivo para ese paciente de diálisis",
+   "C": "Se prohíbe el trasplante renal en cualquier paciente con infección por VHC, aunque se logre la respuesta viral sostenida previa",
+   "D": "No se trata nunca porque está en diálisis, ya que los antivirales de acción directa están contraindicados en la ERC avanzada",
+   "E": "Precauciones estándar, sin aislamiento; tratar con antivirales de acción directa sin interferón, seguros en ERC avanzada"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El interferón pegilado con ribavirina ya no es el tratamiento recomendado.",
+   "B": "Para VHC no se exige aislamiento obligatorio; las precauciones estándar bastan.",
+   "C": "La infección por VHC no contraindica el trasplante.",
+   "D": "El tratamiento está indicado en diálisis y mejora el pronóstico.",
+   "E": "Para VHC en hemodiálisis, las guías (CDC y KDIGO) recomiendan precauciones estándar y estricto cumplimiento de higiene y desinfección, sin aislamiento obligatorio ni equipo dedicado, pero con tamizaje periódico de la unidad. Los antivirales de acción directa sin interferón (glecaprevir/pibrentasvir, sofosbuvir/velpatasvir, elbasvir/grazoprevir) tienen tasas de respuesta virológica sostenida mayores de 95% y buena seguridad, incluso con TFGe menor de 30 y en diálisis, por lo que han reemplazado al interferón y la ribavirina. El trasplante, con tratamiento previo o posterior, es posible; incluso se aceptan riñones de donantes VHC positivos para receptores positivos."
+  },
+  "perla": "VHC en HD: precauciones estándar (sin aislamiento obligatorio); tratar con AAD sin interferón (SVR >95%).",
+  "referencias": [
+   "CDC. MMWR 2001;50(RR-5):1",
+   "KDIGO 2022 Clinical Practice Guideline for the Prevention, Diagnosis, Evaluation, and Treatment of Hepatitis C in CKD. Kidney Int 2022;102(6S):S129"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o7",
+  "peso": 52.4
+ },
+ {
+  "id": "ANT-5",
+  "serie_id": "ANT",
+  "orden": 5,
+  "sub": "19.b",
+  "subtema": "Hemodiálisis sin heparina en paciente con sangrado",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres semanas después, el paciente ingresa por hemorragia digestiva alta con hemoglobina de 6.4 g/dL, hemodinámicamente estable tras transfusión. Le toca hemodiálisis.",
+  "enunciado": "¿Cómo se realiza la sesión de diálisis?",
+  "opciones": {
+   "A": "Administrar protamina en toda sesión, para neutralizar la heparina del circuito y reducir el riesgo hemorrágico del paciente",
+   "B": "Dar warfarina durante la sesión, para evitar la coagulación del circuito extracorpóreo sin usar heparina",
+   "C": "Hemodiálisis sin heparina (lavados salinos, flujo alto, predilución) o con citrato regional, en lugar de heparina",
+   "D": "Heparina a dosis completa para evitar coagulación del circuito, porque la hemorragia ya se controló con transfusión",
+   "E": "Suspender la diálisis hasta que cese el sangrado, sin importar el estado clínico ni los datos de uremia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La protamina neutraliza la heparina y no es una práctica de rutina.",
+   "B": "La warfarina es un anticoagulante oral y no se usa en la sesión; el sangrado la contraindica.",
+   "C": "En pacientes con sangrado activo o alto riesgo hemorrágico, la hemodiálisis se realiza sin anticoagulación sistémica: se utiliza un flujo sanguíneo alto (más de 250 mL/min), lavados periódicos del circuito con solución salina (cada 15 a 30 minutos), predilución, o se usa citrato regional (con infusión de calcio posdializador o dializado sin calcio), que da anticoagulación solo dentro del circuito. La heparina no fraccionada convencional (bolo de 25 a 50 U/kg o dosis fija, más infusión) se reserva para pacientes sin riesgo. Se vigila el coagulo en el circuito y los requerimientos, y se corrigen la causa del sangrado y la anemia.",
+   "D": "La heparina a dosis completa empeora la hemorragia activa.",
+   "E": "La indicación de diálisis (volumen, potasio, acidosis, uremia) persiste, y puede realizarse de forma segura sin heparina."
+  },
+  "perla": "HD con sangrado: sin heparina (lavados salinos, QB alto, predilución) o citrato regional. UFH solo si no hay riesgo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)",
+   "KDOQI Hemodialysis Adequacy 2015. Am J Kidney Dis 2015;66:884"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 44.4
+ },
+ {
+  "id": "ANT-6",
+  "serie_id": "ANT",
+  "orden": 6,
+  "sub": "19.b",
+  "subtema": "Trombocitopenia inducida por heparina en hemodiálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras reanudar heparina en las sesiones en la semana siguiente, las plaquetas bajan de 210,000 a 65,000/µL al día 7 y la fístula arteriovenosa se trombosa en la sesión siguiente. Sospecha clínica alta de trombocitopenia inducida por heparina.",
+  "enunciado": "¿Cuál es el manejo?",
+  "opciones": {
+   "A": "Continuar la heparina de bajo peso molecular, porque es menos inmunogénica y no desencadena trombocitopenia",
+   "B": "Suspender heparina, confirmar anti-PF4/heparina y usar argatrobán o bivalirudina para la diálisis",
+   "C": "Cambiar a warfarina inmediatamente sin otro anticoagulante, para evitar nuevas trombosis de la fístula",
+   "D": "Esperar a que la cifra de plaquetas se normalice con heparina, porque la trombocitopenia es transitoria",
+   "E": "Administrar transfusión de plaquetas profiláctica, para prevenir el sangrado por la trombocitopenia grave"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La heparina de bajo peso molecular tiene reacción cruzada con los anticuerpos de la TIH.",
+   "B": "La trombocitopenia inducida por heparina (TIH) es una reacción inmune mediada por anticuerpos contra el complejo PF4-heparina que activa las plaquetas y produce trombocitopenia (caída de más de 50% entre los días 5 y 10) con riesgo trombótico paradójico (trombosis del acceso vascular en este caso). Se sospecha con la puntuación 4T, se suspende toda exposición a heparina (incluyendo heparina de bajo peso molecular, lavados, catéteres impregnados) y se emplea un anticoagulante no heparínico: argatrobán (eliminación hepática, adecuado en insuficiencia renal) o bivalirudina. La warfarina no se inicia hasta que las plaquetas se recuperen y se mantenga la cobertura, porque puede inducir necrosis cutánea.",
+   "C": "Iniciar warfarina sola en la fase aguda se asocia a gangrena venosa y necrosis cutánea.",
+   "D": "Continuar la heparina perpetúa la activación plaquetaria y la trombosis.",
+   "E": "Las transfusiones de plaquetas pueden aumentar la trombosis y no se hacen de rutina."
+  },
+  "perla": "TIH en HD: plaquetas ↓>50% día 5–10 + trombosis; suspender TODA heparina (incl. HBPM); argatrobán/bivalirudina; warfarina solo con plaquetas recuperadas.",
+  "referencias": [
+   "Cuker A et al. Blood Adv 2018;2:3360 (ASH TIH)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 44.4
+ },
+ {
+  "id": "UCV-2",
+  "serie_id": "UCV",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Muerte súbita cardiaca en hemodiálisis: factores de riesgo y prevención",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al año, el paciente inicia hemodiálisis con baño de potasio de 1 mEq/L y calcio de 2.0 mEq/L, tres veces por semana, con sesiones de 3 horas y ganancias interdiálisis de 4 kg. Se presenta un episodio de paro cardiaco por fibrilación ventricular al final del intervalo largo de fin de semana, previo a la sesión del lunes. Se recupera con reanimación.",
+  "enunciado": "¿Qué factores favorecen el evento y cuál es la medida preventiva?",
+  "opciones": {
+   "A": "Es un evento aleatorio sin relación con la diálisis, por lo que no existen medidas preventivas específicas",
+   "B": "Se previene con un baño de potasio muy bajo y una alta velocidad de ultrafiltración para evitar la sobrecarga",
+   "C": "Más frecuente al final del intervalo largo y tras la sesión; se previene con baños de K⁺ y Ca²⁺ mayores y menor UF por hora",
+   "D": "Se debe solo a la hiperpotasemia, que se previene con un baño de potasio de 0 mEq/L en todas las sesiones",
+   "E": "Se previene con diuréticos tiazídicos en todos los pacientes, para reducir la ganancia de peso interdiálisis"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los eventos se asocian de forma clara con los intervalos y los cambios de la diálisis.",
+   "B": "El potasio bajo y la ultrafiltración rápida aumentan el riesgo de arritmias.",
+   "C": "La muerte súbita de origen cardiaco explica cerca de 25 a 30% de la mortalidad en hemodiálisis, con un riesgo más alto en el intervalo largo interdiálisis (sobre todo la última parte antes de la sesión del lunes, con sobrecarga de volumen, hiperpotasemia e hipocalcemia) y en las horas posteriores a la sesión, por los cambios rápidos de potasio, calcio y volumen, que prolongan el QT y favorecen las arritmias en un corazón con hipertrofia y fibrosis. Los factores de riesgo incluyen la cardiopatía isquémica, la hipertrofia ventricular, la insuficiencia cardiaca, la hiperpotasemia, la hipocalcemia, los baños con potasio bajo (menos de 2 mEq/L), las ultrafiltraciones altas y las ganancias interdiálisis altas. La prevención incluye baños con potasio de 2 a 3 mEq/L y calcio de 2.5 mEq/L, la ultrafiltración lenta, sesiones más largas o más frecuentes (o un tratamiento adicional antes del intervalo largo), control estricto del peso seco y del sodio, y tratamiento de la cardiopatía; el desfibrilador implantable no ha demostrado beneficio en prevención primaria en hemodiálisis (ensayo ICD2).",
+   "D": "Un baño de potasio de 0 mEq/L aumenta el riesgo de arritmias por la disminución rápida del potasio.",
+   "E": "Los diuréticos tiazídicos no previenen la muerte súbita en hemodiálisis."
+  },
+  "perla": "Muerte súbita en HD: pico al final del intervalo largo y tras la sesión (K⁺, Ca²⁺, volumen). Prevención: baños K 2–3 y Ca 2.5 mEq/L, UF lenta, más tiempo/frecuencia, peso seco. DAI primario sin beneficio (ICD2).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedad cardiovascular en la ERC)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o6",
+  "peso": 44.4
+ },
+ {
+  "id": "DLT-1",
+  "serie_id": "DLT",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Temperatura del dializado y estabilidad hemodinámica",
+  "dificultad": "moderada",
+  "caso": "Mujer de 66 años con diabetes tipo 2, cardiopatía hipertensiva con insuficiencia cardiaca con fracción de eyección preservada y hemodiálisis trisemanal por nefropatía diabética. Presenta hipotensión intradiálisis (descenso sintomático de la presión sistólica a menos de 90 mmHg) en cerca de 40% de las sesiones, con ganancias interdiálisis de 3 a 4 kg, ultrafiltración de 9 mL/kg/h y dializado a 37 °C. El peso seco fue reevaluado y es adecuado.",
+  "enunciado": "¿Qué medida sobre la prescripción del dializado es la más adecuada y cuál es su fundamento?",
+  "opciones": {
+   "A": "Usar siempre un dializado a 33 °C en todos los pacientes, porque reduce la mortalidad cardiovascular de forma comprobada",
+   "B": "Bajar el dializado a ≈35.5–36 °C (individualizado): vasoconstricción periférica y menos hipotensión; en MyTEMP no mejoró desenlaces",
+   "C": "La temperatura del dializado no influye en la hemodinámica ni en la tolerancia a la ultrafiltración del paciente",
+   "D": "Mantener el dializado a 37 °C y suprimir la ultrafiltración de forma permanente para evitar la hipotensión",
+   "E": "Aumentar la temperatura del dializado a 38 °C para elevar la presión arterial durante la ultrafiltración"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Un dializado a 33 °C no se recomienda de forma universal; se usan descensos modestos e individualizados por el riesgo de escalofríos.",
+   "B": "Un dializado más fresco (35.5 a 36 °C, o 0.5 °C por debajo de la temperatura central del paciente) evita el calentamiento del paciente durante la sesión (la sangre extracorpórea absorbe calor del dializado y la ultrafiltración reduce el flujo cutáneo), con lo que se mantienen la vasoconstricción periférica y la resistencia vascular sistémica, y se reduce la frecuencia de la hipotensión intradiálisis; además mejora la estabilidad de los pacientes con cardiopatía, diabetes y neuropatía autonómica. Por ello es una medida recomendada en pacientes con hipotensión intradiálisis recurrente, junto con la limitación de la ganancia interdiálisis, la ultrafiltración lenta, no comer durante la sesión, la reevaluación del peso seco, y sesiones más largas o más frecuentes. El ensayo grupal MyTEMP, que asignó a centros enteros a un dializado personalizado más frío (cerca de 0.5 °C por debajo de la temperatura del paciente) o al estándar de 36.5 °C, no redujo los desenlaces cardiovasculares compuestos, de modo que la medida se individualiza en quien la necesita.",
+   "C": "La temperatura del dializado modifica la vasoconstricción periférica y la tolerancia hemodinámica.",
+   "D": "Suspender la ultrafiltración de forma permanente favorece la sobrecarga de volumen, y no es una solución.",
+   "E": "Elevar la temperatura del dializado aumenta la vasodilatación y la hipotensión, y no la mejora."
+  },
+  "perla": "IDH recurrente: dializado 35.5–36 °C (≈0.5 °C bajo la temperatura central) → ↓ vasodilatación; individualizar. MyTEMP (Lancet 2022): enfriamiento a nivel de centro sin beneficio CV. Añadir: UF lenta, ↓ IDWG, no comer en sesión, revisar peso seco.",
+  "referencias": [
+   "Weir MA et al. Lancet 2022;400:1693 (MyTEMP)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o4",
+  "peso": 42.4
+ },
+ {
+  "id": "DLT-2",
+  "serie_id": "DLT",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Sodio del dializado: tolerancia hemodinámica frente a sobrecarga de sodio",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Para reducir la hipotensión se había subido el sodio del dializado a 145 mEq/L en otro centro. La paciente refiere ahora sed intensa, ganancias interdiálisis de hasta 4.5 kg, hipertensión predialítica de 168/94 mmHg y cefalea posdiálisis. El sodio predialítico es de 138 mEq/L.",
+  "enunciado": "¿Cuál es el abordaje más adecuado del sodio del dializado?",
+  "opciones": {
+   "A": "Usar un dializado con sodio de 130 mEq/L en todos los pacientes, para reducir la sed y la ganancia de peso",
+   "B": "Bajar el sodio del dializado a 137–140 mEq/L, porque el dializado hipernatrémico aumenta la sed, la ganancia y la hipertensión",
+   "C": "Aumentar aún más el sodio del dializado a 150 mEq/L, para mejorar la tolerancia hemodinámica de la paciente",
+   "D": "Mantener 145 mEq/L y sustituir la ultrafiltración con diuréticos de asa, para controlar el volumen de la paciente",
+   "E": "El sodio del dializado no se relaciona con la sed ni con la ganancia de peso interdiálisis de la paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Un sodio de 130 mEq/L genera un gradiente difusivo negativo importante, con riesgo de hipotensión, calambres y desequilibrio, y no se usa de rutina.",
+   "B": "El sodio del dializado determina el gradiente difusivo de sodio con el plasma: cuando es mayor que el plasmático (145 contra 138 mEq/L), el paciente gana sodio durante la sesión, lo que mejora la estabilidad hemodinámica a corto plazo (menos hipotensión por mejor relleno vascular) pero aumenta la osmolalidad plasmática, la sed, la ganancia de peso interdiálisis, la hipertensión predialítica y la carga de volumen, con un círculo vicioso de mayor ultrafiltración y mayor hipotensión. Por ello se recomienda individualizar el sodio del dializado cerca del plasmático (137 a 140 mEq/L), y se evitan sodios altos de rutina y los perfiles de sodio. Se acompaña de restricción de sodio de la dieta (menos de 2 g/día de sodio), limitación de la ganancia interdiálisis y otras medidas (dializado más fresco, ultrafiltración lenta, revisión del peso seco). La ganancia de sodio en el dializado también explica la cefalea posdiálisis, la sed y la hipertensión.",
+   "C": "Un sodio mayor de 145 mEq/L agravaría la sed, la ganancia de peso y la hipertensión.",
+   "D": "Mantener el sodio alto perpetúa la sed y la ganancia de volumen; los diuréticos de asa no sustituyen la ultrafiltración en un paciente con función renal residual escasa.",
+   "E": "El sodio del dializado sí influye en la sed y en la ganancia de peso interdiálisis."
+  },
+  "perla": "Dializado Na alto (145–150) ↑ estabilidad a corto plazo pero ↑ sed, IDWG, HTA y círculo vicioso de UF. Individualizar ≈ Na plasmático (137–140); restringir sodio dietético.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o6",
+  "peso": 44.4
+ },
+ {
+  "id": "DLT-3",
+  "serie_id": "DLT",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Bicarbonato del dializado y metas de bicarbonato predialítico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El bicarbonato sérico predialítico de la paciente es de 17 mEq/L, con un dializado de 32 mEq/L, y presenta fatiga y catabolismo proteico con albúmina de 3.3 g/dL. Se propone aumentar el bicarbonato del dializado a 40 mEq/L.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Disminuir el bicarbonato del dializado a 25 mEq/L, porque la acidosis es beneficiosa y protectora para el paciente en diálisis",
+   "B": "Meta predialítica cercana a 22 mEq/L sin alcalemia posdiálisis; subir el bicarbonato del dializado gradualmente o dar oral",
+   "C": "No tratar la acidosis, porque no tiene efectos clínicos relevantes sobre el catabolismo proteico ni la fatiga ni el estado nutricional",
+   "D": "Aumentar de inmediato el bicarbonato del dializado a 40 mEq/L para llegar a 30 mEq/L predialítico",
+   "E": "Usar solo ácido acético como tampón del dializado en todos los pacientes en hemodiálisis, para evitar el exceso de bicarbonato"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La acidosis metabólica persistente favorece el catabolismo, la desnutrición y la enfermedad ósea, por lo que no es beneficiosa.",
+   "B": "La acidosis metabólica persistente en hemodiálisis (bicarbonato predialítico menor de 22 mEq/L) se asocia con catabolismo proteico, desnutrición, enfermedad ósea, inflamación y mayor mortalidad, por lo que se busca un bicarbonato predialítico de 22 mEq/L o más (sin llegar a una alcalemia posdiálisis). Las opciones son aumentar el bicarbonato del dializado de manera escalonada (por ejemplo de 32 a 35 mEq/L), añadir bicarbonato oral, aumentar el tiempo o la frecuencia de diálisis, y aumentar el aporte de proteínas con valoración de las pérdidas. Se evita un bicarbonato del dializado muy alto (de 38 a 40 mEq/L) por la alcalemia posdiálisis (hipoventilación, hipocalcemia ionizada, arritmias y mortalidad en estudios observacionales). El dializado contiene además acetato o citrato (que se metabolizan a bicarbonato) y esto se considera en el cálculo.",
+   "C": "La acidosis tiene efectos clínicos importantes (catabolismo, hueso, mortalidad).",
+   "D": "Un dializado de 40 mEq/L produce alcalemia posdiálisis, con riesgo de hipocalcemia ionizada y arritmias, y puede asociarse con peor supervivencia.",
+   "E": "El acetato como único tampón causa intolerancia hemodinámica, y la mayoría de los dializados usan bicarbonato con una pequeña cantidad de ácido acético o citrato."
+  },
+  "perla": "HD: bicarbonato predialítico ≥22 mEq/L; ↑ gradual del bicarbonato del dializado (32→35) ± oral; evitar 38–40 (alcalemia posHD). Acidosis persistente → catabolismo, hueso, mortalidad.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o4",
+  "peso": 44.4
+ },
+ {
+  "id": "DLT-4",
+  "serie_id": "DLT",
+  "orden": 4,
+  "sub": "19.b",
+  "subtema": "Fatiga y tiempo de recuperación posdiálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras optimizar el dializado, la paciente refiere que necesita más de 6 horas para recuperarse después de cada sesión, con fatiga que le impide trabajar los días de diálisis. La hemoglobina es de 10.8 g/dL, el PHQ-9 de 12 puntos y la ganancia interdiálisis de 3 kg.",
+  "enunciado": "¿Cuál es el abordaje más adecuado?",
+  "opciones": {
+   "A": "Prescribir hipnóticos de forma indefinida sin evaluar otras causas de la fatiga ni del tiempo de recuperación",
+   "B": "Aumentar la velocidad de ultrafiltración para acortar la sesión y reducir el tiempo de recuperación posterior",
+   "C": "Reconocer la recuperación prolongada como desenlace relevante y tratar depresión, anemia, sueño, UF rápida y tiempo de diálisis",
+   "D": "Ignorar el síntoma, porque la fatiga posdiálisis es normal y sin importancia para el pronóstico del paciente",
+   "E": "Suspender la diálisis y esperar a que la fatiga se resuelva, para recuperar la capacidad de trabajar"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El abordaje requiere identificar las causas, y los hipnóticos indefinidos no son adecuados.",
+   "B": "Acelerar la ultrafiltración aumenta la hipotensión intradiálisis, la isquemia y el tiempo de recuperación.",
+   "C": "La fatiga y el tiempo de recuperación posdiálisis (un tiempo de recuperación prolongado, por ejemplo mayor de 6 horas, se asocia con peor calidad de vida y con mayor mortalidad y hospitalización en un análisis de DOPPS) son resultados que los pacientes consideran prioritarios (iniciativa SONG-HD). Se asocian con la ultrafiltración rápida, la hipotensión intradiálisis, la depresión, la anemia, la inflamación, los trastornos del sueño, la desnutrición y la inactividad. El abordaje incluye evaluar y tratar la depresión (cribado con PHQ-9 y tratamiento con psicoterapia o fármacos), corregir la anemia a metas habituales, optimizar la ultrafiltración y el peso seco, usar un dializado más fresco, promover el ejercicio y la nutrición, y considerar aumentar la duración o la frecuencia de la diálisis (los ensayos FHN, con sesiones más frecuentes, mejoraron la calidad de vida física).",
+   "D": "La fatiga posdiálisis prolongada tiene impacto y es tratable, y no debe ignorarse.",
+   "E": "Suspender la diálisis expone a la uremia y no resuelve el síntoma."
+  },
+  "perla": "Recuperación posHD >6 h: peor QoL, depresión, mortalidad (DOPPS). Tratar: depresión, anemia, sueño, UF rápida/hipotensión, dializado frío, más tiempo/frecuencia. SONG-HD: la fatiga es prioridad del paciente.",
+  "referencias": [
+   "Rayner HC et al. Am J Kidney Dis 2014;64:86 (tiempo de recuperación posdiálisis, DOPPS)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 44.4
+ },
+ {
+  "id": "FRD-1",
+  "serie_id": "FRD",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Hemodiálisis frecuente: resultados del ensayo FHN Daily",
+  "dificultad": "dificil",
+  "caso": "Hombre de 44 años en hemodiálisis trisemanal de 4 horas desde hace 3 años por glomeruloesclerosis focal, con hipertensión predialítica de 160/96 mmHg a pesar de peso seco ajustado y tres antihipertensivos, hipertrofia ventricular izquierda (masa de 130 g/m²), fósforo de 6.8 mg/dL con quelantes y ganancias interdiálisis de 3.5 kg. Pregunta por la hemodiálisis más frecuente.",
+  "enunciado": "¿Qué mostró el ensayo FHN Daily (hemodiálisis seis veces por semana frente a tres) y cómo se aplica a este paciente?",
+  "opciones": {
+   "A": "FHN Daily: seis sesiones semanales mejoraron los coprimarios (muerte/masa VI y muerte/calidad de vida), con más eventos del acceso",
+   "B": "La hemodiálisis frecuente solo se puede hacer en casa y no en el centro, por las limitaciones de la unidad",
+   "C": "El ensayo demostró que reduce la mortalidad a la mitad en todos los pacientes, sin efectos adversos del acceso",
+   "D": "La hemodiálisis frecuente no mostró ningún beneficio y aumentó la mortalidad, por lo que no se recomienda",
+   "E": "El ensayo evaluó solo la diálisis peritoneal frente a la hemodiálisis convencional en pacientes con hipertensión"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En el FHN Daily Trial (245 pacientes, hemodiálisis de 1.5 a 2.75 horas seis veces por semana frente a tres veces por semana), el grupo de hemodiálisis frecuente tuvo mejoría de los dos desenlaces coprimarios compuestos: muerte o aumento de la masa ventricular izquierda (cociente de riesgo cercano a 0.61) y muerte o descenso del componente físico de la calidad de vida (cociente de riesgo cercano a 0.70). También mejoraron la presión arterial y el control del fósforo, y a largo plazo se observó una menor mortalidad. El costo fue un mayor número de intervenciones sobre el acceso vascular (más trombosis y estenosis) y mayor carga para el paciente. En este paciente, con hipertrofia, hipertensión refractaria y mal control del fósforo, es una opción razonable si la logística (centro o domicilio) y el acceso lo permiten.",
+   "B": "La hemodiálisis frecuente se hizo en el centro en este ensayo, y también puede hacerse en casa.",
+   "C": "Los beneficios no fueron universales ni sin efectos adversos (más intervenciones sobre el acceso).",
+   "D": "El ensayo no aumentó la mortalidad; mostró beneficio en los desenlaces coprimarios.",
+   "E": "El ensayo evaluó hemodiálisis frecuente en el centro, no diálisis peritoneal."
+  },
+  "perla": "FHN Daily (NEJM 2010): 6×/sem vs 3×/sem → ↓ muerte/masa VI (HR ~0.61) y muerte/QoL físico (HR ~0.70); mejor PA y fósforo; más intervenciones de acceso. Seguimiento: menor mortalidad.",
+  "referencias": [
+   "FHN Trial Group. N Engl J Med 2010;363:2287",
+   "Chertow GM et al. J Am Soc Nephrol 2016;27:3654 (seguimiento a largo plazo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o4",
+  "peso": 44.4
+ },
+ {
+  "id": "FRD-2",
+  "serie_id": "FRD",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Hemodiálisis nocturna: resultados del ensayo FHN Nocturnal y selección",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente prefiere una modalidad domiciliaria con sesiones largas durante el sueño. Se discute la hemodiálisis nocturna seis veces por semana, con sesiones de 6 a 8 horas, que se asocia con un buen control del fósforo.",
+  "enunciado": "¿Qué mostró el ensayo FHN Nocturnal y qué implica?",
+  "opciones": {
+   "A": "Sin mejoría significativa en los coprimarios; mejoró el fósforo, con más pérdida de función residual y eventos del acceso",
+   "B": "Demostró que la hemodiálisis nocturna empeora siempre la presión arterial de los pacientes que la reciben",
+   "C": "Mostró una reducción marcada y significativa de la mortalidad frente a la convencional, sin efectos adversos",
+   "D": "Se limitó a pacientes sin función renal residual, por lo que no permite evaluar la pérdida de diuresis",
+   "E": "Demostró que la función renal residual mejora con la diálisis nocturna, además del control del fósforo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El FHN Nocturnal Trial (87 pacientes, hemodiálisis nocturna de 6 a 8 horas seis veces por semana frente a la convencional) no mostró diferencias significativas en los desenlaces coprimarios (muerte o cambio en la masa ventricular izquierda, y muerte o cambio en el componente físico de la calidad de vida), con un poder estadístico menor por el tamaño de la muestra y la baja adherencia; mejoró el control de la fosfatemia (con menor uso de quelantes), y se asoció con una mayor pérdida de función renal residual y más eventos de acceso vascular. Con base en esto, la hemodiálisis nocturna se ofrece de forma individualizada a pacientes motivados, con apoyo, un acceso adecuado y poca función renal residual, y tiene la ventaja de la libertad diurna y del control de volumen y fósforo.",
+   "B": "El ensayo no mostró un empeoramiento de la presión arterial con la modalidad nocturna.",
+   "C": "El ensayo no mostró una reducción significativa de la mortalidad ni de los desenlaces coprimarios.",
+   "D": "El ensayo incluyó pacientes con función renal residual, y la pérdida de ésta fue un hallazgo relevante.",
+   "E": "Se observó mayor pérdida de función renal residual con la diálisis frecuente, no mejoría."
+  },
+  "perla": "FHN Nocturnal (Kidney Int 2011): sin beneficio significativo en desenlaces coprimarios (n=87); ↓ fósforo/quelantes; ↑ pérdida de función residual y eventos de acceso. Individualizar.",
+  "referencias": [
+   "Rocco MV et al. Kidney Int 2011;80:1080 (FHN Nocturnal Trial)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o6",
+  "peso": 44.4
+ },
+ {
+  "id": "FRD-3",
+  "serie_id": "FRD",
+  "orden": 3,
+  "sub": "19.a",
+  "subtema": "Hemodiálisis incremental: criterios y vigilancia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente, de 59 años, inicia hemodiálisis con un volumen urinario de 1,100 mL/día, depuración de urea residual (Kru) de 4 mL/min/1.73 m², peso estable, sin hiperpotasemia ni sobrecarga de volumen, y adhesión a la restricción de sodio. El nefrólogo plantea una hemodiálisis incremental con 2 sesiones semanales.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "La hemodiálisis incremental está contraindicada en todos los pacientes, por la menor depuración de pequeños solutos",
+   "B": "El Kru y el volumen urinario no influyen en la decisión de la frecuencia de las sesiones de hemodiálisis",
+   "C": "Se recomienda hemodiálisis incremental solo en pacientes anúricos, por el menor riesgo de sobrecarga de volumen",
+   "D": "Se debe indicar 2 sesiones semanales de por vida, sin vigilancia de la función residual ni del volumen",
+   "E": "Hemodiálisis incremental de 2 sesiones semanales con Kru ≥2 mL/min y >500 mL/día de orina, con vigilancia y aumento si cae"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No está contraindicada en pacientes con función renal residual sustancial y seleccionados.",
+   "B": "El Kru y el volumen urinario son criterios clave de selección.",
+   "C": "El paciente anúrico requiere diálisis completa, y la incremental se reserva a quienes conservan función residual.",
+   "D": "Se reevalúa de forma periódica, porque la función renal residual disminuye con el tiempo.",
+   "E": "La hemodiálisis incremental (iniciar con 1 a 2 sesiones por semana y aumentar al disminuir la función renal residual) puede considerarse en pacientes con función renal residual sustancial (por ejemplo, depuración de urea residual de 2 mL/min o más, y diuresis mayor de 500 mL/día), estables, sin sobrecarga de volumen, hiperpotasemia ni acidosis, y con buena adherencia a la restricción de sodio y líquidos; la dosis se mide con la depuración de urea combinada (renal más dialítica) y el Kt/V estándar. Requiere vigilancia estrecha (función residual cada 1 a 3 meses, peso, presión, potasio, bicarbonato, fósforo) y el paso a 3 sesiones cuando la función residual disminuye o aparecen problemas de volumen. Los datos de beneficio provienen de estudios observacionales y de ensayos pequeños, y mantiene la función residual y reduce la carga de tratamiento, pero no hay ensayos grandes que prueben ventajas en supervivencia."
+  },
+  "perla": "HD incremental (1–2×/sem): Kru ≥2 mL/min, diuresis >500 mL/d, sin sobrecarga/hiperK/acidosis; vigilar función residual cada 1–3 meses y aumentar a 3×/sem. Evidencia observacional/ensayos pequeños.",
+  "referencias": [
+   "KDOQI Clinical Practice Guideline for Hemodialysis Adequacy: 2015 Update. Am J Kidney Dis 2015;66:884",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o1",
+  "peso": 42.5
+ },
+ {
+  "id": "STL-1",
+  "serie_id": "STL",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Síndrome de robo del acceso vascular: presentación y factores de riesgo",
+  "dificultad": "moderada",
+  "caso": "Mujer de 68 años con diabetes tipo 2 de 20 años, enfermedad arterial periférica y hemodiálisis reciente por ERC terminal. Se creó una fístula arteriovenosa braquiocefálica izquierda. A la semana, durante la diálisis, presenta dolor intenso, frialdad y palidez de la mano izquierda, parestesias y debilidad de los dedos, que mejoran al comprimir la fístula; el pulso radial es débil.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y qué factores de riesgo tiene la paciente?",
+  "opciones": {
+   "A": "Robo vascular por desvío del flujo a la fístula, favorecido por diabetes, enfermedad arterial, sexo femenino y acceso proximal",
+   "B": "Infección del sitio quirúrgico, con fiebre, eritema y secreción purulenta de la herida del brazo izquierdo",
+   "C": "Hipertensión venosa por estenosis central, que cursa con edema del brazo y circulación colateral visible",
+   "D": "Síndrome del túnel del carpo, que cursa con dolor nocturno y parestesias sin frialdad de la mano afectada",
+   "E": "Trombosis venosa profunda del brazo, que cursa con edema y dolor a lo largo del trayecto venoso afectado"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El síndrome de robo ocurre cuando el flujo arterial se desvía hacia la fístula (de baja resistencia) y la perfusión distal de la mano queda comprometida; se manifiesta con dolor (sobre todo durante la diálisis), frialdad, palidez, parestesias, debilidad, úlceras o necrosis de dedos en los casos graves, y mejora con la compresión de la fístula (disminuye el robo). Los factores de riesgo son la diabetes, la enfermedad arterial periférica, la edad avanzada, el sexo femenino, las fístulas de brazo (proximales) y los accesos previos en la misma extremidad, por lo que la paciente tiene varios. La neuropatía isquémica monomélica es una forma grave de aparición inmediata. El diagnóstico se apoya con índices digitales (índice dedo-brazo menor de 0.6), la ecografía Doppler y la angiografía.",
+   "B": "La infección cursa con fiebre, eritema y secreción, no con isquemia distal.",
+   "C": "La estenosis central causa hipertensión venosa y edema, no isquemia distal.",
+   "D": "El síndrome del túnel del carpo se relaciona con la amiloidosis por β2-microglobulina a largo plazo y no cursa con palidez ni frialdad.",
+   "E": "La trombosis venosa cursa con edema, y no con isquemia con mejoría con la compresión de la fístula."
+  },
+  "perla": "Robo: mano fría, pálida, dolorosa, ↑ en diálisis, mejora al comprimir la fístula. Riesgo: DM, EAP, mujer, edad, fístula proximal (braquial). Dx: índice dedo-brazo <0.6, Doppler, angiografía.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (acceso vascular)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o5",
+  "peso": 42.4
+ },
+ {
+  "id": "STL-2",
+  "serie_id": "STL",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Manejo del síndrome de robo según la gravedad",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Dos semanas después, la paciente tiene dolor en reposo, úlcera en la punta del dedo medio izquierdo y pulso digital ausente. La angiografía muestra estenosis de la arteria subclavia ipsilateral proximal al acceso, con flujo de la fístula de 1.8 L/min.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Observación y analgésicos, porque el robo grave se resuelve de forma espontánea sin necesidad de intervención adicional",
+   "B": "Retirar la fístula de inmediato en todos los casos, sin evaluar antes la arteria subclavia que alimenta el acceso",
+   "C": "Aumentar el flujo de la fístula para mejorar el drenaje venoso y la perfusión distal de la mano isquémica",
+   "D": "Administrar anticoagulación como único tratamiento de la isquemia distal grave, sin corregir la lesión arterial de entrada",
+   "E": "Isquemia grave: angioplastia de la subclavia y, si persiste, bandeo, DRIL o RUDI, conservando el acceso"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El robo grave con úlceras no se resuelve de forma espontánea y requiere intervención para evitar la pérdida del tejido.",
+   "B": "Primero se busca una causa arterial corregible, y la ligadura se reserva para casos sin otra alternativa.",
+   "C": "Aumentar el flujo agravaría el robo.",
+   "D": "La anticoagulación no corrige la causa y aumenta el riesgo de sangrado.",
+   "E": "El robo con isquemia grave (dolor en reposo, úlceras, necrosis) requiere intervención: primero se identifica y se corrige la causa arterial inflow, como una estenosis de la subclavia o de la arteria braquial proximal, con angioplastia, lo que puede resolver el cuadro. Si el robo persiste, se reduce el flujo con bandeo (con monitoreo del flujo intraoperatorio) o se recurre a procedimientos como la ligadura distal con revascularización (DRIL, un bypass distal con ligadura de la arteria por debajo de la anastomosis) o la revisión con inflow distal (RUDI), que preservan el acceso y mejoran la perfusión de la mano. Si no hay otra opción, se liga la fístula (ligadura simple), lo que resuelve la isquemia pero se pierde el acceso. Los casos leves (frialdad, parestesias sin úlceras) se vigilan y manejan de forma conservadora."
+  },
+  "perla": "Robo grave (dolor en reposo, úlcera): corregir estenosis inflow (angioplastia); si persiste: bandeo, DRIL, RUDI o ligadura. Leve: observar. Flujo alto agrava el robo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (acceso vascular)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 44.4
+ },
+ {
+  "id": "STL-3",
+  "serie_id": "STL",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Insuficiencia cardiaca de gasto alto por fístula arteriovenosa",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un año después, con la fístula ya revisada, la paciente presenta disnea progresiva, ortopnea y edema. Su fístula es braquiocefálica con flujo de 3.4 L/min (gasto cardiaco de 7.0 L/min), frecuencia cardiaca de 98 lpm y presión de pulso amplia; el BNP está elevado. Al comprimir manualmente la fístula, la frecuencia cardiaca disminuye de 98 a 80 lpm y la presión sube (signo de Nicoladoni-Branham).",
+  "enunciado": "¿Qué diagnóstico se sospecha y cuál es el manejo?",
+  "opciones": {
+   "A": "Insuficiencia cardiaca por infarto agudo, que se trata con trombolisis por la disnea y el edema progresivos",
+   "B": "Aumentar el flujo de la fístula para mejorar el gasto cardiaco, porque la insuficiencia es de bajo gasto",
+   "C": "IC de gasto alto por flujo excesivo del acceso (>2 L/min o >30% del gasto); se reduce con bandeo o ligadura de la fístula",
+   "D": "Estenosis aórtica, con soplo sistólico y gasto cardiaco bajo, que se corrige con sustitución valvular",
+   "E": "Síndrome del túnel del carpo, con disnea por compresión nerviosa, que se trata con liberación quirúrgica"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay datos de infarto agudo; el cuadro se explica por la sobrecarga hemodinámica por el acceso.",
+   "B": "Aumentar el flujo de la fístula agravaría la insuficiencia cardiaca de gasto alto.",
+   "C": "Una fístula arteriovenosa de flujo elevado (mayor de 2 a 3 L/min, o con una relación flujo del acceso/gasto cardiaco mayor de 30%) puede causar insuficiencia cardiaca de gasto alto por la disminución de la resistencia vascular sistémica y el retorno venoso aumentado, sobre todo en fístulas braquiales o proximales y en pacientes con cardiopatía previa. Se manifiesta con disnea, edema y presión de pulso amplia, y el signo de Nicoladoni-Branham (bradicardia y aumento de la presión al comprimir la fístula) apoya el diagnóstico. Se confirma con ecocardiograma y la medición del flujo del acceso (por ultrasonido), y el tratamiento consiste en reducir el flujo (bandeo o revisión del acceso, o ligadura si la función del acceso lo permite) con seguimiento hemodinámico; el trasplante renal es la solución definitiva.",
+   "D": "La estenosis aórtica cursa con gasto bajo y soplo característico, y el signo de Branham no se explica por ella.",
+   "E": "El túnel del carpo no explica la disnea ni la insuficiencia cardiaca."
+  },
+  "perla": "IC de gasto alto por FAV: flujo >2–3 L/min o >30% del GC; signo de Branham (↓FC al comprimir); eco + flujo del acceso; reducir flujo (bandeo/ligadura); trasplante definitivo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (acceso vascular)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 44.4
+ },
+ {
+  "id": "STL-4",
+  "serie_id": "STL",
+  "orden": 4,
+  "sub": "19.b",
+  "subtema": "Disfunción del catéter tunelizado: protocolo con activador tisular del plasminógeno",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Mientras se resuelve el acceso definitivo, la paciente dializa por un catéter yugular derecho tunelizado. En las últimas tres sesiones, el flujo sanguíneo no supera 200 mL/min con presiones arteriales muy negativas, aunque el catéter aspira y se irriga con dificultad. No hay fiebre y los hemocultivos son negativos.",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Retirar el catéter de inmediato sin ninguna maniobra previa, porque el flujo bajo indica infección del túnel",
+   "B": "Aumentar la dosis de heparina sistémica sin revisar el catéter, para evitar nuevas oclusiones del circuito",
+   "C": "Suspender la diálisis hasta que se resuelva solo el mal funcionamiento, y esperar la recuperación espontánea",
+   "D": "Aumentar la presión de irrigación para desobstruir el catéter a la fuerza, hasta recuperar el flujo sanguíneo",
+   "E": "Descartar causas mecánicas y dar activador tisular del plasminógeno (2 mg por luz, 30–60 min); si no responde, imagen y recambio"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Retirar el catéter sin intentar restablecer su función acorta su vida útil, y la disfunción por trombo suele responder al fibrinolítico.",
+   "B": "Aumentar la heparina sistémica no soluciona el trombo del catéter y aumenta el riesgo de sangrado.",
+   "C": "Suspender la diálisis expone al paciente a complicaciones urémicas, y es innecesario.",
+   "D": "La irrigación forzada puede romper el catéter, desplazar un trombo y causar daño.",
+   "E": "La disfunción del catéter (flujo menor de 300 mL/min con presiones prefiltro muy negativas, o incapacidad de aspirar o irrigar) puede deberse a causas mecánicas (acodamiento, mala posición de la punta, pinzas cerradas), a trombo intraluminal, a vaina de fibrina o a trombosis venosa central. Tras descartar lo mecánico (radiografía de tórax, revisión del trayecto), se aplica un fibrinolítico, como el activador tisular del plasminógeno (alteplasa 2 mg por luz con permanencia de 30 a 60 minutos, o infusión por la luz durante la sesión), que restablece el flujo en la mayoría de los casos. Si la disfunción persiste, se hace una fistulografía o cateterografía para valorar la vaina de fibrina o el trombo, con desvainado o recambio del catéter sobre guía. Se previene con cierre profiláctico con heparina o con alteplasa semanal, y con la reducción del tiempo de uso del catéter."
+  },
+  "perla": "Catéter disfuncional (flujo <300 mL/min, presión arterial muy negativa): descartar mecánico → alteplasa 2 mg/luz 30–60 min; si falla: imagen (vaina de fibrina/trombo), desvainado o recambio. Prevención: sello con heparina o alteplasa.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (acceso vascular)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 44.4
+ },
+ {
+  "id": "AB2-1",
+  "serie_id": "AB2",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Amiloidosis asociada con diálisis (β2-microglobulina): cuadro clínico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 57 años en hemodiálisis desde hace 14 años (los primeros 8 con dializadores de bajo flujo de celulosa), con dolor persistente de ambos hombros que empeora por la noche, parestesias y dolor nocturno en las manos con debilidad de pinza, rigidez de los dedos y un episodio de fractura patológica del cuello femoral. Los estudios de laboratorio muestran cadenas ligeras libres séricas normales, y la electroforesis de proteínas es normal.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y cómo se explica?",
+  "opciones": {
+   "A": "Enfermedad ósea adinámica, con dolor óseo sin amiloide y sin compromiso de las articulaciones ni del carpo",
+   "B": "Amiloidosis AL, que se diagnostica por cadenas ligeras clonales elevadas y compromiso cardiaco o renal",
+   "C": "Amiloidosis por β2-microglobulina asociada a diálisis (>5–10 años): túnel carpiano, artropatía de hombros y quistes óseos",
+   "D": "Artritis reumatoide, con factor reumatoide positivo y erosiones articulares simétricas de manos y pies",
+   "E": "Gota tofácea, con cristales de urato en el líquido sinovial y tofos en las articulaciones afectadas"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La enfermedad ósea adinámica no explica el síndrome del túnel del carpo ni el dolor de hombros por amiloide.",
+   "B": "La amiloidosis AL cursa con una gammapatía monoclonal (cadenas ligeras alteradas), y aquí es normal.",
+   "C": "La amiloidosis asociada con la diálisis (β2-microglobulina) se debe al depósito de fibrillas de β2-microglobulina (una proteína de bajo peso molecular, de 11.8 kDa, que el riñón normal depura y que se acumula en la ERC) en las estructuras osteoarticulares tras una exposición prolongada a diálisis (más de 5 a 10 años), sobre todo con membranas de bajo flujo y agua no ultrapura que favorecen la inflamación. Se manifiesta con síndrome del túnel del carpo (a menudo bilateral y recurrente), dolor y rigidez de los hombros (periartritis escapulohumeral), dedos en gatillo, espondiloartropatía destructiva y quistes óseos subcondrales con fracturas patológicas, como la de cuello femoral. En este paciente, el dolor, las manos, el tiempo en diálisis y el uso inicial de membranas de bajo flujo lo apoyan, y las cadenas ligeras normales y la electroforesis normal hacen poco probable la amiloidosis AL.",
+   "D": "La artritis reumatoide no explica la fractura por quistes óseos ni se asocia con la duración de la diálisis.",
+   "E": "La gota cursa con crisis articulares y tofos, y no explica el cuadro."
+  },
+  "perla": "Amiloidosis por diálisis (β2-m, 11.8 kDa): >5–10 años de diálisis; túnel del carpo, periartritis de hombro, dedos en gatillo, quistes óseos/fracturas, espondiloartropatía. Descartar AL (cadenas ligeras).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis y complicaciones a largo plazo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o6",
+  "peso": 42.4
+ },
+ {
+  "id": "AB2-2",
+  "serie_id": "AB2",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Diagnóstico de la amiloidosis por β2-microglobulina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se sospecha la amiloidosis por β2-microglobulina. Se plantea cómo confirmar el diagnóstico y qué hallazgos radiológicos apoyan.",
+  "enunciado": "¿Qué estudio y hallazgos apoyan el diagnóstico?",
+  "opciones": {
+   "A": "Biopsia (sinovial o del retináculo flexor) con rojo Congo (verde manzana) e IHQ para β2-microglobulina; quistes y erosiones óseas",
+   "B": "No hay manera de confirmar el diagnóstico, y la biopsia nunca se realiza en la amiloidosis por β2-microglobulina",
+   "C": "La gammagrafía con tecnecio de los huesos es diagnóstica por sí sola, sin necesidad de biopsia del tejido",
+   "D": "El diagnóstico se confirma solo con la electroforesis de proteínas urinarias, sin estudio del tejido afectado",
+   "E": "La elevación de la β2-microglobulina sérica por sí sola confirma el diagnóstico, sin necesidad de biopsia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El diagnóstico definitivo es histológico: se obtiene tejido (sinovial, retináculo flexor del carpo al liberar el túnel del carpo, hueso o cartílago) y se demuestran depósitos amiloides con rojo Congo (birrefringencia verde manzana con luz polarizada) y tinción inmunohistoquímica para β2-microglobulina, que lo distingue de otros tipos de amiloide (AL, AA, transtiretina). En la práctica, el cuadro clínico en un paciente con muchos años de diálisis y los hallazgos de imagen (quistes subcondrales en el carpo, la cabeza humeral y la cadera, erosiones, espondiloartropatía destructiva con erosión de los platillos vertebrales, y engrosamiento de las estructuras periarticulares por ecografía o resonancia) son suficientes en muchos casos para la sospecha. Las concentraciones séricas de β2-microglobulina están elevadas en todos los pacientes en diálisis y no distinguen a los que tienen la enfermedad.",
+   "B": "La biopsia es el método definitivo, y se obtiene con frecuencia en la cirugía del túnel del carpo.",
+   "C": "Una gammagrafía ósea no es diagnóstica por sí sola.",
+   "D": "La electroforesis de proteínas urinarias no identifica la amiloidosis por β2-microglobulina.",
+   "E": "La β2-microglobulina sérica está elevada en la mayoría de los pacientes en diálisis, y no confirma amiloidosis."
+  },
+  "perla": "Dx: biopsia (sinovia/retináculo) con rojo Congo (verde manzana) + IHQ β2-m. Imagen: quistes subcondrales, erosiones, espondiloartropatía. β2-m sérica ↑ en todo paciente en diálisis: no diagnóstica.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis y complicaciones a largo plazo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 44.4
+ },
+ {
+  "id": "AB2-3",
+  "serie_id": "AB2",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Prevención y tratamiento de la amiloidosis por β2-microglobulina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia del retináculo flexor confirma amiloide por β2-microglobulina. El paciente tiene función renal residual nula y espera un trasplante, y pregunta qué hacer para frenar la progresión y mejorar los síntomas.",
+  "enunciado": "¿Qué intervención es la más adecuada?",
+  "opciones": {
+   "A": "Radioterapia de las articulaciones afectadas, para reducir el depósito de amiloide y el dolor articular",
+   "B": "Membranas de alto flujo biocompatibles con agua ultrapura, hemodiafiltración, liberación del túnel carpiano y trasplante",
+   "C": "Administrar colchicina, que elimina el amiloide de las articulaciones y detiene por completo la progresión de la enfermedad",
+   "D": "Continuar con membranas de bajo flujo de celulosa, porque son las más eficaces y seguras para depurar la β2-microglobulina",
+   "E": "Esperar que desaparezcan solos los síntomas, sin cambiar la prescripción de diálisis ni el tipo de membrana"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La radioterapia no tiene indicación en esta enfermedad.",
+   "B": "La β2-microglobulina se elimina de forma mínima con las membranas de bajo flujo y mejor con las de alto flujo y, sobre todo, con la hemodiafiltración (convección), por lo que el uso de membranas de alto flujo biocompatibles y de agua ultrapura reduce la incidencia y la progresión de la amiloidosis por diálisis (los estudios con alto volumen convectivo muestran menores concentraciones de β2-microglobulina). La liberación quirúrgica del túnel del carpo alivia los síntomas de compresión del nervio mediano, y la analgesia y las medidas locales controlan el dolor articular. El trasplante renal es el tratamiento más eficaz: el dolor y la rigidez mejoran en días a semanas por el efecto de los esteroides y la normalización de la β2-microglobulina, aunque los depósitos óseos tardan en regresar y la destrucción ya establecida es irreversible. La prevención incluye la reducción de la exposición a membranas de bajo flujo, la mejora de la pureza del dializado y la preservación de la función renal residual.",
+   "C": "La colchicina no elimina el amiloide por β2-microglobulina; se usa en la amiloidosis AA por fiebre mediterránea familiar.",
+   "D": "Las membranas de bajo flujo no depuran la β2-microglobulina, y favorecen la amiloidosis.",
+   "E": "Sin cambio de tratamiento, el cuadro progresa y la destrucción ósea es irreversible."
+  },
+  "perla": "Amiloidosis por diálisis: alto flujo biocompatible + agua ultrapura + HDF (convección); cirugía de túnel del carpo; trasplante (alivia dolor rápido; depósitos regresan lento). Prevenir exposición a bajo flujo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis y complicaciones a largo plazo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o3",
+  "peso": 44.4
+ },
+ {
+  "id": "AGD-1",
+  "serie_id": "AGD",
+  "orden": 1,
+  "sub": "19.b",
+  "subtema": "Hemólisis aguda en un grupo de pacientes: cloraminas y conducta inmediata",
+  "dificultad": "dificil",
+  "caso": "En una unidad de hemodiálisis, durante el segundo turno, tres pacientes presentan en 40 minutos dolor torácico, disnea, náuseas y oscurecimiento de la sangre en las líneas, con caída de la hemoglobina de 11 a 8 g/dL, cianosis con saturación baja que no mejora con oxígeno, orina oscura y LDH elevada. Las máquinas funcionaban sin alarmas ni sobrecalentamiento, y el tratamiento de agua cambió de proveedor esta semana.",
+  "enunciado": "¿Cuál es la conducta inmediata y la causa más probable?",
+  "opciones": {
+   "A": "Atribuir el cuadro a deficiencia de hierro, e iniciar hierro intravenoso en los tres pacientes afectados",
+   "B": "Detener las sesiones, pinzar las líneas sin retornar la sangre, dar soporte y suspender el agua: cloraminas por falla del carbón",
+   "C": "Administrar solo antihistamínicos y esteroides, y proseguir la sesión porque la reacción es de tipo alérgico",
+   "D": "Atribuir el cuadro a hipotensión intradiálisis y reducir la ultrafiltración, sin interrumpir las sesiones",
+   "E": "Continuar la sesión hasta completarla y retornar la sangre, porque el cuadro es una reacción alérgica al dializador"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La deficiencia de hierro no causa un cuadro agudo de hemólisis con cianosis durante la sesión.",
+   "B": "La hemólisis aguda en varios pacientes del mismo turno apunta a una causa común en el agua o en el líquido de diálisis: cloraminas (por falla o agotamiento del lecho de carbón activado, que debe haber dos en serie con control del cloro total, con límite de 0.1 mg/L), cobre, nitratos, formaldehído, dializado hipotónico o sobrecalentado. Las cloraminas oxidan la hemoglobina (metahemoglobinemia con cianosis que no mejora con oxígeno) y desnaturalizan los eritrocitos, con hemólisis intravascular. La conducta es detener la sesión, pinzar las líneas y no devolver la sangre (por la hemoglobina libre y el potasio elevado, con riesgo de arritmia), medir potasio, tratar la hiperpotasemia, transfundir si es necesario, tratar la metahemoglobinemia grave con azul de metileno cuando esté indicada, y retirar el agua de uso hasta corregir el sistema; se notifica a la autoridad sanitaria.",
+   "C": "Una reacción alérgica no produce hemólisis masiva con metahemoglobinemia en un grupo de pacientes.",
+   "D": "La hipotensión no explica la hemólisis, la cianosis refractaria ni el oscurecimiento de la sangre.",
+   "E": "Retornar la sangre hemolizada y continuar expone a hiperpotasemia y más hemólisis, y debe evitarse."
+  },
+  "perla": "Hemólisis aguda en varios pacientes: parar, pinzar, NO retornar sangre, K y Hb, soporte; causa común en agua: cloraminas (carbón activado agotado; cloro total ≤0.1 mg/L) → metaHb + hemólisis; también cobre, nitratos, formaldehído, dializado hipotónico/caliente.",
+  "referencias": [
+   "AAMI/ISO 23500 (calidad del agua para diálisis)",
+   "Comprehensive Clinical Nephrology (hemodiálisis: complicaciones agudas)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "continuacion": "",
+  "obj": "19.o2",
+  "peso": 44.4
+ },
+ {
+  "id": "AGD-2",
+  "serie_id": "AGD",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Reacciones pirogénicas: endotoxinas y calidad microbiológica del dializado",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una semana después, otros dos pacientes presentan escalofríos, fiebre de 38.8 °C y mialgias a la hora de iniciar la sesión, con mejoría al terminarla; las presiones son estables. Los hemocultivos de ambos son negativos, y no hay foco infeccioso en el acceso.",
+  "enunciado": "¿Cuál es la interpretación más adecuada?",
+  "opciones": {
+   "A": "Hemólisis por cloraminas, con anemia aguda, oscurecimiento de la sangre en las líneas y dolor torácico",
+   "B": "Reacción alérgica al óxido de etileno, que ocurre en todas las sesiones con el mismo dializador",
+   "C": "Reacción pirogénica por endotoxinas del agua o el dializado (biofilm); se confirma con cultivos y se desinfecta el circuito",
+   "D": "Hipotensión intradiálisis con respuesta vagal, que explica los escalofríos y la fiebre al inicio de la sesión",
+   "E": "Bacteriemia por catéter, que se descarta por los hemocultivos negativos, pero que debe tratarse con antibióticos"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hemólisis por cloraminas cursa con anemia aguda y metahemoglobinemia, y no con fiebre y escalofríos aislados.",
+   "B": "La reacción al óxido de etileno es de tipo alérgico y ocurre con cada uso del dializador, y no en un grupo de pacientes con fiebre.",
+   "C": "Las reacciones pirogénicas se manifiestan con fiebre, escalofríos y mialgias en las primeras horas de la sesión, sin bacteriemia (hemocultivos negativos) y con mejoría rápida al finalizar, y se deben a endotoxinas (lipopolisacárido de gramnegativos) y fragmentos bacterianos del agua o el dializado contaminado, que atraviesan la membrana (sobre todo de alto flujo) o se transmiten por retrofiltración. La contaminación suele provenir de biofilm en tuberías, tanques y conexiones. Se evalúa el agua y el dializado con cultivo y endotoxinas (agua de diálisis: menos de 100 UFC/mL y menos de 0.25 UI/mL; dializado estándar: menos de 100 UFC/mL y 0.5 UI/mL; ultrapuro: menos de 0.1 UFC/mL y 0.03 UI/mL), y se corrige con desinfección del sistema y filtros terminales; el dializado ultrapuro además se asocia con menor inflamación crónica y se recomienda para la hemodiafiltración. Mientras se resuelve, se obtiene hemocultivo y se vigila al paciente, por si hay bacteriemia real.",
+   "D": "La hipotensión no explica la fiebre ni los escalofríos con presión estable.",
+   "E": "Los hemocultivos negativos y la mejoría al finalizar la sesión apuntan a endotoxinas, no a infección del catéter."
+  },
+  "perla": "Fiebre/escalofríos al iniciar HD, cultivos negativos, resuelve al terminar → endotoxinas (biofilm): cultivo/endotoxina del agua y dializado; estándar <100 UFC/mL, <0.5 UI/mL; ultrapuro <0.1 UFC/mL, <0.03 UI/mL; desinfectar y filtros ultrapuros.",
+  "referencias": [
+   "ISO 23500-5:2019 (calidad del líquido de diálisis)",
+   "Comprehensive Clinical Nephrology (hemodiálisis: complicaciones agudas)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 44.4
+ },
+ {
+  "id": "AGD-3",
+  "serie_id": "AGD",
+  "orden": 3,
+  "sub": "19.b",
+  "subtema": "Intoxicación por aluminio en hemodiálisis crónica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un hombre de 49 años con 14 años en hemodiálisis presenta disartria progresiva con mioclonías y apraxia del habla que empeoran durante la sesión, anemia microcítica refractaria a eritropoyetina con ferritina de 480 ng/mL y saturación de transferrina de 30%, y dolor óseo con fracturas espontáneas. Recibió hidróxido de aluminio como quelante durante años, y el agua de su unidad tiene contenido alto de aluminio.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y qué se hace?",
+  "opciones": {
+   "A": "Intoxicación por aluminio (encefalopatía, anemia microcítica y osteomalacia); aluminio sérico alto y biopsia ósea; suprimir fuentes",
+   "B": "Hiperparatiroidismo secundario grave, que se trata con paratiroidectomía urgente por la osteopatía y la anemia",
+   "C": "Enfermedad de Alzheimer de inicio temprano, sin relación con la diálisis ni con la anemia refractaria",
+   "D": "Intoxicación por plomo, con anemia microcítica y neuropatía periférica, que se trata con quelación",
+   "E": "Deficiencia de hierro, que se corrige con hierro intravenoso, y explicaría la anemia refractaria del paciente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La tríada clásica de la intoxicación por aluminio en diálisis es la encefalopatía (disartria, apraxia del habla, mioclonías, convulsiones, demencia; típicamente empeora en la sesión), la anemia microcítica con reservas de hierro normales o altas (el aluminio compite con el hierro y bloquea la síntesis de hemoglobina) y la enfermedad ósea (osteomalacia o enfermedad ósea adinámica, con dolor y fracturas). Las fuentes son el agua de diálisis con aluminio (el estándar exige menos de 10 µg/L) y los quelantes con aluminio. Un aluminio sérico mayor de 60 µg/L sugiere acumulación, y la prueba de deferoxamina (incremento mayor de 50 µg/L) o la biopsia ósea con tinción lo confirman. El tratamiento consiste en eliminar las fuentes, usar quelantes sin aluminio y, en casos seleccionados, deferoxamina en dosis bajas (que moviliza el aluminio pero aumenta el riesgo de mucormicosis, por lo que se vigila), con hemodiálisis de alto flujo o hemoperfusión para remover el complejo.",
+   "B": "El hiperparatiroidismo secundario cursa con PTH alta y osteítis fibrosa, y no explica la encefalopatía.",
+   "C": "El cuadro, con aluminio y agua contaminada, es una intoxicación específica, y no una demencia primaria.",
+   "D": "La intoxicación por plomo cursa con anemia microcítica con punteado basófilo y neuropatía motora, y no se asocia con estas exposiciones.",
+   "E": "La ferritina de 480 ng/mL y la saturación de 30% descartan el déficit de hierro como causa de la anemia."
+  },
+  "perla": "Aluminio en HD: encefalopatía (disartria/mioclonías, peor en sesión) + anemia microcítica con hierro normal + osteomalacia/adinámica; fuentes: agua (>10 µg/L) y quelantes; Al sérico >60 µg/L; deferoxamina dosis baja (riesgo de mucormicosis).",
+  "referencias": [
+   "KDIGO 2017 CKD-MBD Update. Kidney Int Suppl 2017;7:1",
+   "AAMI/ISO 23500 (calidad del agua para diálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 44.4
+ }
+]

@@ -1,0 +1,915 @@
+[
+ {
+  "id": "PRG-1",
+  "serie_id": "PRG",
+  "orden": 1,
+  "sub": "8.a",
+  "subtema": "Progresión de ERC diabética: pilares terapéuticos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 63 años con DM2 e hipertensión. TFGe 52 mL/min/1.73 m², ACR 180 mg/g, potasio 4.5 mEq/L, HbA1c 7.6%. Recibe losartán 100 mg y amlodipino 5 mg; TA 128/76 mmHg.",
+  "enunciado": "¿Cuál es el siguiente fármaco con mayor impacto sobre la progresión renal?",
+  "opciones": {
+   "A": "Espironolactona 25 mg, por su efecto antiproteinúrico, sin considerar la hiperpotasemia ni la TFGe de la paciente",
+   "B": "iSGLT2 (dapagliflozina o empagliflozina), por su efecto nefroprotector independiente de la glucemia",
+   "C": "Un IECA sumado al losartán, para lograr un doble bloqueo del sistema renina-angiotensina y reducir la ACR",
+   "D": "Pioglitazona, por su efecto sobre la sensibilidad a la insulina y la reducción de la progresión renal",
+   "E": "Aliskirén, por el bloqueo directo de la renina, sumado al losartán para la reducción de la albuminuria"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La espironolactona no tiene evidencia sólida de renoprotección en DM y aumenta la hiperpotasemia.",
+   "B": "En DM2 con ERC, el losartán a dosis máxima es la base. El siguiente pilar con mayor evidencia es el iSGLT2: reduce progresión de ERC, falla renal, hospitalización por insuficiencia cardiaca y mortalidad cardiovascular (CREDENCE, DAPA-CKD, EMPA-KIDNEY), con TFGe ≥20. Después se agrega finerenona si persiste albuminuria con K ≤4.8 mEq/L y TFGe ≥25, y un aGLP-1 con beneficio demostrado si falta control glucémico.",
+   "C": "La combinación IECA + ARA-II no mejora desenlaces renales y aumenta eventos adversos.",
+   "D": "La pioglitazona no tiene indicación para renoprotección y causa retención de líquidos.",
+   "E": "El aliskirén combinado con ARA-II aumenta hiperpotasemia y eventos renales (ALTITUDE)."
+  },
+  "perla": "DM2 + ERC: cuatro pilares = IECA/ARA-II máximos + iSGLT2 + finerenona (si ACR persistente y K ≤4.8) + aGLP-1 con beneficio.",
+  "referencias": [
+   "KDIGO 2022 Diabetes in CKD Guideline. Kidney Int 2022;102(5S):S1",
+   "Heerspink HJL et al. N Engl J Med 2020;383:1436 (DAPA-CKD)"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o3",
+  "peso": 39.9
+ },
+ {
+  "id": "PRG-3",
+  "serie_id": "PRG",
+  "orden": 3,
+  "sub": "8.a",
+  "subtema": "Finerenona en DM2 con ERC",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A los 4 meses la ACR sigue en 150 mg/g, K 4.6 mEq/L y TFGe 46 mL/min/1.73 m². Recibe losartán 100 mg y dapagliflozina 10 mg.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Agregar espironolactona 25 mg al día, porque bloquea el receptor mineralocorticoide con mayor evidencia renal que la finerenona",
+   "B": "Agregar finerenona 10 mg al día (TFGe 25–59), con potasio a las 4 semanas y aumento a 20 mg si el K es ≤4.8 mEq/L",
+   "C": "Duplicar el losartán a 200 mg, porque la dosis máxima aprobada es mayor y la albuminuria persistente lo justifica de forma clara",
+   "D": "Agregar un inhibidor de la enzima convertidora de angiotensina al ARA-II para un bloqueo dual más completo del SRAA",
+   "E": "Suspender el iSGLT2 por persistencia de albuminuria, porque el fármaco ya no ofrece beneficio renal adicional"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La espironolactona no tiene ensayos de desenlaces renales en DM y produce más hiperpotasemia.",
+   "B": "La finerenona, un antagonista no esteroideo selectivo del receptor mineralocorticoide, reduce progresión de ERC y eventos cardiovasculares en DM2 con albuminuria persistente a pesar de IECA/ARA-II máximos (FIDELIO-DKD, FIGARO-DKD; FIDELITY). Criterios: K ≤4.8 mEq/L y TFGe ≥25. Se inicia con 10 mg si TFGe 25 a 59 (20 mg si ≥60); se mide potasio y TFGe a las 4 semanas y se ajusta; el riesgo de hiperpotasemia es mayor que con placebo. La combinación con iSGLT2 reduce el riesgo de hiperpotasemia en análisis post hoc.",
+   "C": "El losartán ya está a la dosis máxima aprobada (100 mg).",
+   "D": "La asociación IECA/ARA-II está contraindicada por daño sin beneficio.",
+   "E": "El iSGLT2 no se suspende; es base del tratamiento aunque quede albuminuria residual."
+  },
+  "perla": "Finerenona: DM2 + ERC con albuminuria persistente, K ≤4.8 y TFGe ≥25; 10 mg si TFGe 25–59, 20 mg si ≥60; K a las 4 semanas.",
+  "referencias": [
+   "Bakris GL et al. N Engl J Med 2020;383:2219 (FIDELIO-DKD)",
+   "Agarwal R et al. Eur Heart J 2022;43:474 (FIDELITY)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 23.8
+ },
+ {
+  "id": "DMN-1",
+  "serie_id": "DMN",
+  "orden": 1,
+  "sub": "8.0",
+  "subtema": "Nefropatía diabética: clasificación G/A y riesgo",
+  "dificultad": "moderada",
+  "caso": "Hombre de 54 años con diabetes mellitus tipo 2 de 18 años de evolución, hipertensión y retinopatía diabética proliferativa. Creatinina de 1.7 mg/dL, TFGe de 42 mL/min/1.73 m², relación albúmina/creatinina de 2,000 mg/g (confirmada en tres muestras) y sedimento sin eritrocitos ni cilindros. TA de 148/90 mmHg.",
+  "enunciado": "¿Cuál es la clasificación KDIGO y el nivel de riesgo de este paciente?",
+  "opciones": {
+   "A": "G3b A3 (TFGe 30-44 y albuminuria >300 mg/g): riesgo muy alto de progresión y de eventos cardiovasculares",
+   "B": "G3a A2 (TFGe 45-59 y albuminuria 30-300 mg/g): riesgo moderado de progresión y de eventos cardiovasculares",
+   "C": "G3b A2 (TFGe 30-44 y albuminuria 30-300 mg/g): riesgo alto de progresión y de eventos cardiovasculares mayores",
+   "D": "G2 A3 (TFGe 60-89 y albuminuria >300 mg/g): riesgo moderado de progresión y de eventos cardiovasculares mayores",
+   "E": "G4 A3 (TFGe 15-29 y albuminuria >300 mg/g): riesgo alto de progresión y de eventos cardiovasculares en el paciente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La clasificación KDIGO combina la categoría de TFG (G1 mayor o igual a 90; G2, 60 a 89; G3a, 45 a 59; G3b, 30 a 44; G4, 15 a 29; G5, menor de 15) con la de albuminuria (A1 menor de 30; A2, 30 a 300; A3 mayor de 300 mg/g). Una TFGe de 42 corresponde a G3b y una relación albúmina/creatinina de 2,000 mg/g a A3. La combinación G3b A3 se ubica en la zona roja del mapa de calor de riesgo (riesgo muy alto de progresión a ERC terminal y de mortalidad cardiovascular). La presencia de retinopatía proliferativa y de albuminuria intensa con sedimento inactivo apoya la etiología diabética.",
+   "B": "G3a correspondería a una TFG de 45 a 59 y A2 a una albuminuria de 30 a 300 mg/g, ambos más bajos que los del paciente.",
+   "C": "La albuminuria de 2,000 mg/g es A3, no A2.",
+   "D": "G2 es una TFG de 60 a 89; el paciente tiene 42.",
+   "E": "G4 requiere TFG de 15 a 29; el paciente tiene 42."
+  },
+  "perla": "G3a 45–59; G3b 30–44. A1 <30, A2 30–300, A3 >300 mg/g. G3b A3 = riesgo muy alto.",
+  "referencias": [
+   "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117",
+   "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "DMN-2",
+  "serie_id": "DMN",
+  "orden": 2,
+  "sub": "8.0",
+  "subtema": "Hiperfiltración glomerular diabética: fisiopatología",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al revisar la historia natural, el residente explica que la lesión comenzó con hiperfiltración años antes de la albuminuria, y el paciente recibirá un inhibidor de SGLT2.",
+  "enunciado": "¿Cuál es el mecanismo de la hiperfiltración temprana y cómo lo modifica el iSGLT2?",
+  "opciones": {
+   "A": "Solo aumento de la superficie de filtración glomerular sin cambios hemodinámicos, y el iSGLT2 reduce el tamaño del glomérulo",
+   "B": "Aumento de la reabsorción distal de agua por vasopresina, y el iSGLT2 bloquea la vasopresina para reducir la presión",
+   "C": "Obstrucción tubular que eleva la presión del espacio de Bowman; el iSGLT2 la libera y reduce la presión de filtración",
+   "D": "Hiperglucemia: más reabsorción proximal por SGLT2, menos NaCl a la mácula y aferente dilatada; el iSGLT2 la contrae",
+   "E": "Vasoconstricción aferente y dilatación eferente por angiotensina II, y el iSGLT2 empeora la hiperfiltración glomerular"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La hiperfiltración es hemodinámica; el aumento de superficie contribuye pero no es el mecanismo central.",
+   "B": "La vasopresina no explica la hiperfiltración y el iSGLT2 no bloquea la vasopresina.",
+   "C": "La obstrucción tubular no es el mecanismo de la hiperfiltración diabética.",
+   "D": "En la diabetes, la mayor carga filtrada de glucosa incrementa la reabsorción proximal de sodio ligada a SGLT2. El menor aporte de NaCl a la mácula densa se interpreta como hipovolemia y apaga la retroalimentación tubuloglomerular, de modo que la arteriola aferente se dilata (también por factores como el glucagón y el óxido nítrico), mientras la angiotensina II contrae la arteriola eferente: resultan hiperfiltración e hipertensión intraglomerular. Los iSGLT2 aumentan el aporte distal de NaCl, restauran la señal de la mácula densa y provocan vasoconstricción aferente, con descenso inicial reversible y esperado de la TFG de unos 3 a 5 mL/min, que predice el beneficio renal a largo plazo. Los IECA/ARA-II actúan dilatando la arteriola eferente. Además del componente hemodinámico intervienen los productos de glucosilación avanzada, la vía de los polioles (aldosa reductasa), la proteína cinasa C, el TGF-β y la pérdida de podocitos.",
+   "E": "Es lo contrario: en la diabetes predomina la dilatación aferente con vasoconstricción eferente, y el iSGLT2 reduce la hiperfiltración."
+  },
+  "perla": "DM: ↑ SGLT2 proximal → ↓ NaCl en mácula densa → dilatación aferente + constricción eferente (AngII). iSGLT2: vasoconstricción aferente. IECA/ARA-II: dilatan la eferente.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefropatía diabética)",
+   "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o1",
+  "peso": 51.0
+ },
+ {
+  "id": "DMN-3",
+  "serie_id": "DMN",
+  "orden": 3,
+  "sub": "8.0",
+  "subtema": "Histología de la nefropatía diabética (Tervaert)",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se decide biopsiar al paciente por atipia clínica. El patólogo informa expansión mesangial sin hipercelularidad proliferativa, con nódulos acelulares PAS positivos y positivos con plata (Jones), engrosamiento de la membrana basal glomerular, arterioloesclerosis hialina de arteriolas aferente y eferente, y tinción negativa con rojo Congo.",
+  "enunciado": "¿Cuál es el diagnóstico y la clase histológica?",
+  "opciones": {
+   "A": "Amiloidosis AL, con nódulos mesangiales acelulares y depósitos que se tiñen con rojo Congo y muestran birrefringencia verde",
+   "B": "Enfermedad por depósito de cadenas ligeras sin diabetes, con nódulos mesangiales y depósitos lineales de cadenas kappa",
+   "C": "Glomerulonefritis fibrilar, con fibrillas de 12 a 24 nm y positividad para DNAJB9 en la inmunohistoquímica del tejido",
+   "D": "Nefropatía diabética clase III de Tervaert, con esclerosis nodular de Kimmelstiel-Wilson y engrosamiento de la MBG",
+   "E": "Nefropatía membranoproliferativa, con duplicación de la membrana basal, hipercelularidad y depósitos de C3 o inmunoglobulinas"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "En la amiloidosis AL el rojo Congo es positivo con birrefringencia verde manzana.",
+   "B": "La enfermedad por depósito de cadenas ligeras cursa con tinción monotípica en la inmunofluorescencia y no explicaría la hialinosis de la eferente.",
+   "C": "La glomerulonefritis fibrilar tiene fibrillas de 12 a 24 nm, Congo negativo y positividad para DNAJB9, sin arterioloesclerosis diabética.",
+   "D": "La clasificación de la Sociedad de Patología Renal (Tervaert) describe: clase I, engrosamiento de la membrana basal glomerular (solo por microscopía electrónica); IIa y IIb, expansión mesangial leve o grave; clase III, esclerosis nodular (nódulos de Kimmelstiel-Wilson en al menos un glomérulo); clase IV, glomeruloesclerosis diabética avanzada (más del 50% de glomérulos globalmente esclerosados). Los nódulos acelulares PAS y plata positivos, el engrosamiento de la membrana basal, la hialinosis de ambas arteriolas (la afectación de la eferente es característica) y rojo Congo negativo en un paciente con retinopatía y albuminuria confirman nefropatía diabética clase III.",
+   "E": "La membranoproliferativa tiene hipercelularidad mesangial y doble contorno con depósitos inmunes."
+  },
+  "perla": "Tervaert: I GBM engrosada (ME); IIa/IIb mesangio; III nódulos K-W; IV >50% esclerosis global. Hialinosis aferente + eferente.",
+  "referencias": [
+   "Tervaert TW et al. J Am Soc Nephrol 2010;21:556",
+   "Comprehensive Clinical Nephrology (nefropatía diabética)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "DMN-4",
+  "serie_id": "DMN",
+  "orden": 4,
+  "sub": "8.0",
+  "subtema": "Cuándo biopsiar a un paciente diabético",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Cuatro meses después, la TFGe baja de 42 a 22 mL/min/1.73 m², aparece hematuria con 60% de eritrocitos dismórficos y cilindros eritrocitarios, y la proteinuria sube sin cambios en la glucemia.",
+  "enunciado": "¿Cuál es la interpretación y la conducta?",
+  "opciones": {
+   "A": "Es esperable con iSGLT2; continuar sin estudios, porque la caída inicial de la TFGe es hemodinámica y benigna en todos los casos",
+   "B": "Atribuir a retinopatía en progresión, porque el daño microvascular de la retina y del riñón avanza en paralelo siempre y sin excepción",
+   "C": "Es la historia natural de la nefropatía diabética, por lo que solo se intensifica el control de la glucosa y la TA",
+   "D": "Corresponde a hiperfiltración, y se suspenden los IECA porque la reducción de la presión intraglomerular agrava aún más la TFGe",
+   "E": "Sospechar enfermedad no diabética superpuesta (GN proliferativa o vasculitis); solicitar serologías y repetir la biopsia"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El descenso inicial con iSGLT2 es leve y no se acompaña de hematuria dismórfica.",
+   "B": "La retinopatía no explica daño glomerular activo.",
+   "C": "Un descenso de 20 mL/min en 4 meses con sedimento activo no es la evolución habitual de la nefropatía diabética.",
+   "D": "La hiperfiltración es una fase inicial, no explica el cuadro, y suspender un IECA no está indicado.",
+   "E": "La nefropatía diabética evoluciona de forma lenta y sin sedimento activo. Deben hacerse pruebas y valorar biopsia cuando hay deterioro rápido de la TFG (por ejemplo, más de 5 mL/min/1.73 m² al año o descenso brusco), sedimento activo con eritrocitos dismórficos y cilindros, síndrome nefrótico de inicio súbito, ausencia de retinopatía (sobre todo en diabetes tipo 1), corta duración de la diabetes o síntomas sistémicos. Hasta un tercio de los diabéticos biopsiados por estas razones tienen enfermedad renal no diabética (nefropatía por IgA, membranosa, vasculitis ANCA, nefritis intersticial, entre otras), con implicaciones terapéuticas distintas. La rapidez de la progresión es el dato que más orienta a biopsiar."
+  },
+  "perla": "Biopsiar a diabéticos con: progresión rápida, sedimento activo, nefrótico súbito, sin retinopatía, DM corta. Hasta 1/3 tiene ERNDD.",
+  "referencias": [
+   "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. Kidney Int 2022;102(5S):S1",
+   "Comprehensive Clinical Nephrology (nefropatía diabética)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o1",
+  "peso": 51.0
+ },
+ {
+  "id": "DMS-1",
+  "serie_id": "DMS",
+  "orden": 1,
+  "sub": "8.0",
+  "subtema": "Tamizaje de nefropatía diabética: cuándo empezar",
+  "dificultad": "moderada",
+  "caso": "Mujer de 38 años con diabetes mellitus tipo 1 diagnosticada a los 14 años, retinopatía no proliferativa y TA de 132/84 mmHg. Nunca se le ha medido la albuminuria. Su endocrinólogo pregunta cuándo debió empezar el tamizaje renal.",
+  "enunciado": "¿Cuál es la recomendación sobre el momento de inicio del tamizaje de enfermedad renal diabética?",
+  "opciones": {
+   "A": "Solo cuando la creatinina supere 2 mg/dL, porque antes de ese valor el daño renal diabético no produce alteraciones medibles",
+   "B": "Solo cuando aparezca edema, porque la proteinuria clínicamente relevante se manifiesta primero con retención de líquidos",
+   "C": "En DM1, 5 años tras el diagnóstico; en DM2, desde el diagnóstico; en ambas con TFGe y albuminuria cada año",
+   "D": "Cada 5 años en ambos tipos de diabetes, porque la progresión de la enfermedad renal diabética es siempre muy lenta",
+   "E": "En diabetes tipo 1 desde el diagnóstico y en tipo 2 a los 5 años, por el mayor riesgo renal de la diabetes tipo 1"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Esperar a que la creatinina suba retrasa el diagnóstico años.",
+   "B": "El edema aparece en una fase avanzada, cuando la intervención es menos eficaz.",
+   "C": "En la diabetes tipo 1 la fase de hiperfiltración y la nefropatía no aparecen en los primeros años, por lo que el tamizaje de albuminuria y TFGe comienza 5 años después del diagnóstico (o en la pubertad si el diagnóstico fue en la infancia). En la diabetes tipo 2 la fecha de inicio es incierta y hasta un tercio ya tiene daño renal al diagnóstico, por lo que se evalúa desde ese momento. En ambos tipos el tamizaje es anual con relación albúmina/creatinina y TFGe. En México la prevalencia de diabetes diagnosticada en adultos supera el 12% (ENSANUT), y la diabetes es la principal causa de ERC terminal.",
+   "D": "El intervalo de 5 años es insuficiente.",
+   "E": "Está invertido: el tipo 1 se tamiza a los 5 años y el tipo 2 desde el diagnóstico."
+  },
+  "perla": "Tamizaje: DM1 a los 5 años y luego anual; DM2 al diagnóstico y luego anual. RAC + TFGe.",
+  "referencias": [
+   "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. Kidney Int 2022;102(5S):S1",
+   "Comprehensive Clinical Nephrology (nefropatía diabética)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "DMS-2",
+  "serie_id": "DMS",
+  "orden": 2,
+  "sub": "8.0",
+  "subtema": "Confirmación de albuminuria persistente",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se mide la relación albúmina/creatinina en una muestra de orina de la mañana: 85 mg/g. La paciente hizo ejercicio intenso el día anterior y tenía síntomas urinarios bajos.",
+  "enunciado": "¿Cuál es el siguiente paso?",
+  "opciones": {
+   "A": "Hacer una tira reactiva y, si es negativa, no repetir, porque la tira detecta toda albuminuria clínicamente relevante",
+   "B": "Confirmar con dos muestras más en 3-6 meses, excluyendo causas transitorias; es persistente si 2 de 3 son anormales",
+   "C": "Diagnosticar nefropatía diabética con esta sola muestra, porque una albuminuria de 85 mg/g ya es diagnóstica de la enfermedad",
+   "D": "Solicitar una biopsia renal de inmediato, para confirmar el diagnóstico y descartar otras causas de albuminuria",
+   "E": "Descartar la albuminuria por ser leve, porque las cifras menores de 100 mg/g no tienen significado clínico ni pronóstico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La tira reactiva detecta mal la microalbuminuria, y un resultado negativo no la excluye.",
+   "B": "La relación albúmina/creatinina en orina es el mejor método para evaluar la albuminuria. Debe confirmarse porque varía por ejercicio intenso en las últimas 24 horas, infección urinaria, fiebre, insuficiencia cardiaca, hiperglucemia marcada, hipertensión descontrolada y menstruación. Se define albuminuria persistente cuando 2 de 3 muestras recolectadas en 3 a 6 meses están por encima de 30 mg/g. Mientras tanto se tratan las causas transitorias.",
+   "C": "Una sola determinación, con factores transitorios, no permite diagnosticar.",
+   "D": "La biopsia no se indica en una paciente con curso típico y albuminuria leve.",
+   "E": "Una relación de 85 mg/g es moderadamente aumentada (A2) y requiere confirmación, no descarte."
+  },
+  "perla": "Albuminuria persistente = 2 de 3 muestras ≥30 mg/g en 3–6 meses. Falsos positivos: ejercicio, fiebre, ITU, hiperglucemia, HTA, menstruación.",
+  "referencias": [
+   "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117",
+   "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "DMS-3",
+  "serie_id": "DMS",
+  "orden": 3,
+  "sub": "8.a",
+  "subtema": "Diabetes tipo 1 con albuminuria: opciones terapéuticas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres muestras confirman una relación albúmina/creatinina de 120 mg/g con TFGe de 78 mL/min/1.73 m². La TA es de 134/86 mmHg.",
+  "enunciado": "¿Cuál es la conducta terapéutica más adecuada?",
+  "opciones": {
+   "A": "Solo dieta y ejercicio, sin tratamiento farmacológico, porque la albuminuria de 120 mg/g es un hallazgo benigno",
+   "B": "Iniciar finerenona como terapia única, porque reemplaza al bloqueo del SRAA y no requiere IECA ni ARA-II de ningún tipo",
+   "C": "Iniciar espironolactona y un diurético tiazídico sin IECA, porque con TA de 134/86 mmHg basta el diurético solo",
+   "D": "Iniciar iSGLT2 como primera línea, porque tiene beneficio renal comprobado en cualquier tipo de diabetes, incluida la tipo 1",
+   "E": "IECA o ARA-II a dosis máxima tolerada, con control de TA, glucemia y lípidos; sin iSGLT2 de rutina en tipo 1"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El tratamiento farmacológico nefroprotector está indicado desde la albuminuria persistente.",
+   "B": "La finerenona no tiene evidencia en diabetes tipo 1 ni se emplea como terapia única sin bloqueo del SRAA.",
+   "C": "Omitir el IECA o ARA-II renuncia al fármaco con mayor evidencia en esta población.",
+   "D": "En diabetes tipo 1 los iSGLT2 no se recomiendan de rutina por riesgo de cetoacidosis.",
+   "E": "En diabetes tipo 1 con albuminuria persistente e hipertensión, el bloqueo del SRAA con IECA o ARA-II a dosis máxima tolerada retrasa la progresión (estudio de Lewis con captopril en diabetes tipo 1), con control de TA (objetivo menor de 130/80 mmHg según la ADA, o sistólica menor de 120 mmHg medida de forma estandarizada según KDIGO), de glucemia y de lípidos. Los iSGLT2 tienen beneficio demostrado en diabetes tipo 2 y no tienen indicación aprobada en tipo 1 por el riesgo de cetoacidosis diabética, incluso euglucémica. La finerenona se estudió solo en diabetes tipo 2."
+  },
+  "perla": "DM1 + albuminuria: IECA/ARA-II máximo tolerado. iSGLT2: evidencia en DM2; en DM1 riesgo de cetoacidosis.",
+  "referencias": [
+   "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. Kidney Int 2022;102(5S):S1",
+   "Lewis EJ et al. N Engl J Med 1993;329:1456"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 23.8
+ },
+ {
+  "id": "DMS-4",
+  "serie_id": "DMS",
+  "orden": 4,
+  "sub": "8.0",
+  "subtema": "Progresión rápida y envío a nefrología",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tres años después, la TFGe de la paciente pasó de 78 a 60 mL/min/1.73 m² (descenso sostenido de unos 6 mL/min/1.73 m² por año) y la albuminuria subió a 450 mg/g a pesar del tratamiento.",
+  "enunciado": "¿Cómo se clasifica esta evolución y cuál es la conducta?",
+  "opciones": {
+   "A": "Mejoría de la función renal, porque la TFGe se mantiene en rango aceptable por encima de 60 mL/min/1.73 m²",
+   "B": "Evolución normal que no requiere cambios, porque el descenso de la TFGe corresponde a un envejecimiento renal fisiológico esperado",
+   "C": "Hiperfiltración reversible, que se corrige al intensificar el control glucémico sin otros cambios terapéuticos",
+   "D": "Progresión rápida (descenso sostenido >5 mL/min/1.73 m² al año): referir a nefrología y buscar causas adicionales",
+   "E": "Falla del laboratorio, por lo que se repiten las determinaciones sin modificar el tratamiento ni referir a la paciente"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La TFGe disminuyó, no mejoró.",
+   "B": "Un descenso de 6 mL/min por año supera lo esperable (cercano a 1 mL/min por año con la edad).",
+   "C": "La hiperfiltración se manifiesta como TFG elevada en la fase inicial.",
+   "D": "KDIGO define la progresión rápida como un descenso sostenido de la TFGe de más de 5 mL/min/1.73 m² por año. Junto con albuminuria creciente (ahora A3 con 450 mg/g), obliga a descartar causas reversibles (nefrotóxicos, AINE, obstrucción, hipovolemia, mal control de TA), a considerar enfermedad renal no diabética y a referir al nefrólogo. Otros criterios de referencia son TFGe menor de 30, albuminuria mayor de 300 mg/g con hematuria, etiología incierta y dificultad para controlar la TA o el potasio. El mapa de riesgo KDIGO y la ecuación de riesgo de falla renal ayudan a decidir la intensidad del seguimiento.",
+   "E": "El patrón se confirma con mediciones repetidas y no se atribuye a falla del laboratorio."
+  },
+  "perla": "Progresión rápida: pérdida sostenida >5 mL/min/1.73 m² por año. Referir; buscar causas; considerar ERNDD.",
+  "referencias": [
+   "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "DMG-1",
+  "serie_id": "DMG",
+  "orden": 1,
+  "sub": "8.a",
+  "subtema": "Control glucémico y memoria metabólica",
+  "dificultad": "moderada",
+  "caso": "Mujer de 41 años con diabetes tipo 1 de 24 años, con controles de HbA1c entre 9 y 10% durante la primera década y desde hace 8 años HbA1c de 7.2% con insulina intensiva. Presenta ahora microalbuminuria (relación albúmina/creatinina de 80 mg/g) con TFGe de 95 mL/min/1.73 m². Su médico explica la relación entre el control glucémico previo y su riesgo actual.",
+  "enunciado": "¿Qué concepto y qué evidencia son correctos?",
+  "opciones": {
+   "A": "Solo el control de la TA importa en diabetes tipo 1, porque el control glucémico no modifica el riesgo renal en estos pacientes",
+   "B": "Memoria metabólica: en DCCT/EDIC el control intensivo temprano redujo la albuminuria de forma duradera; el mal control inicial deja riesgo",
+   "C": "El control glucémico no influye en la nefropatía, que depende solo de la presión arterial y de la genética",
+   "D": "El control intensivo se asoció con mayor nefropatía en el DCCT, por la hiperfiltración glomerular que produce la insulina",
+   "E": "El efecto del control intensivo desaparece en pocos meses al relajar el tratamiento, sin beneficio residual ni a largo plazo en los pacientes"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Los factores glucémicos, de TA y de lípidos intervienen conjuntamente.",
+   "B": "El estudio DCCT en diabetes tipo 1 demostró que el tratamiento intensivo reducía la aparición de microalbuminuria y de albuminuria clínica, y el seguimiento EDIC mostró que el beneficio persistía décadas después (efecto legado o 'memoria metabólica'), igual que el mal control inicial deja riesgo residual de complicaciones microvasculares. En diabetes tipo 2, el UKPDS y otros ensayos mostraron reducción de complicaciones microvasculares con control intensivo, pero con efecto menor sobre la ERC terminal. Por eso se recomienda un control glucémico individualizado desde el inicio de la enfermedad, equilibrando el riesgo de hipoglucemia.",
+   "C": "El control glucémico influye en el riesgo de nefropatía.",
+   "D": "El control intensivo disminuyó la nefropatía; el aumento fue de hipoglucemia.",
+   "E": "El efecto persiste décadas, no meses."
+  },
+  "perla": "DCCT/EDIC: control intensivo precoz ↓ micro y macroalbuminuria con efecto duradero (memoria metabólica).",
+  "referencias": [
+   "Nathan DM et al. N Engl J Med 2005;353:2643 (DCCT/EDIC)",
+   "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o3",
+  "peso": 11.7
+ },
+ {
+  "id": "DMG-2",
+  "serie_id": "DMG",
+  "orden": 2,
+  "sub": "8.a",
+  "subtema": "Enfoque multifactorial y estudio Steno-2",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente pregunta si basta con mejorar la glucemia. El nefrólogo explica la intervención multifactorial del estudio Steno-2 en diabetes tipo 2 con microalbuminuria.",
+  "enunciado": "¿Qué componentes y qué resultado tuvo la intervención multifactorial intensiva?",
+  "opciones": {
+   "A": "Estatinas únicamente, sin efecto sobre la albuminuria ni sobre los eventos cardiovasculares en la diabetes",
+   "B": "Solo control intensivo de glucosa con insulina, y sin beneficio cardiovascular ni renal adicional demostrado en el seguimiento",
+   "C": "Solo aspirina a dosis bajas, sin impacto renal ni cardiovascular a largo plazo, aunque se use junto con las estatinas de forma habitual",
+   "D": "Control intensivo de glucosa, TA y lípidos con SRAA y aspirina: ≈50% menos eventos cardiovasculares y menos progresión renal",
+   "E": "Solo cambios de dieta y ejercicio, con pérdida de peso, pero sin impacto renal demostrable en el seguimiento"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Las estatinas formaron parte del conjunto, pero no fueron la única medida.",
+   "B": "El beneficio fue multifactorial, incluida la reducción de eventos cardiovasculares.",
+   "C": "La aspirina fue un componente, no la intervención completa.",
+   "D": "El estudio Steno-2 asignó a pacientes con diabetes tipo 2 y microalbuminuria a un tratamiento intensivo multifactorial dirigido a glucosa, TA, lípidos y albuminuria (con IECA/ARA-II), más aspirina y modificaciones del estilo de vida, frente a la atención convencional. La intervención redujo cerca de 50% los eventos cardiovasculares y retrasó la progresión a nefropatía manifiesta y la retinopatía, con beneficio mantenido en el seguimiento prolongado y mayor supervivencia. Es la base del enfoque actual de varios pilares: IECA/ARA-II, iSGLT2, antagonista no esteroideo del receptor mineralocorticoide cuando corresponde, GLP-1 RA, estatinas y control de TA y glucemia.",
+   "E": "La dieta es parte de la intervención, no la única."
+  },
+  "perla": "Steno-2: tratamiento multifactorial intensivo (glucosa, TA, lípidos, SRAA, aspirina) ↓ ~50% eventos CV y retrasa nefropatía.",
+  "referencias": [
+   "Gaede P et al. N Engl J Med 2003;348:383",
+   "Gaede P et al. N Engl J Med 2008;358:580"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 13.7
+ },
+ {
+  "id": "DMG-3",
+  "serie_id": "DMG",
+  "orden": 3,
+  "sub": "8.a",
+  "subtema": "GLP-1 RA y desenlaces renales: estudio FLOW",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Ahora se evalúa a un paciente distinto con diabetes tipo 2, IMC de 36, ya con IECA, iSGLT2 y metformina, que mantiene HbA1c de 7.9% y albuminuria de 500 mg/g con TFGe de 48 mL/min/1.73 m². Se considera añadir un agonista del receptor de GLP-1.",
+  "enunciado": "¿Qué sustenta esa decisión?",
+  "opciones": {
+   "A": "Los GLP-1 RA están contraindicados en la ERC, porque se eliminan por vía renal y se acumulan hasta niveles tóxicos elevados",
+   "B": "El estudio FLOW no mostró beneficio renal de la semaglutida en la diabetes tipo 2 con ERC, solo reducción del peso corporal",
+   "C": "Solo reducen el peso, sin efecto renal ni cardiovascular demostrado en ensayos de desenlaces clínicos mayores",
+   "D": "Se limitan a la diabetes tipo 1, porque la resistencia a la insulina no responde a ellos ni a otros fármacos incretínicos",
+   "E": "FLOW: semaglutida 1 mg semanal redujo ≈24% el compuesto renal primario en DM2 con ERC, con beneficio cardiovascular"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No están contraindicados; algunos no requieren ajuste por TFG.",
+   "B": "FLOW sí mostró beneficio renal significativo.",
+   "C": "Tienen beneficio cardiovascular y renal demostrado.",
+   "D": "La evidencia es en diabetes tipo 2.",
+   "E": "En FLOW (N Engl J Med 2024), la semaglutida subcutánea semanal en diabetes tipo 2 con ERC redujo el riesgo del desenlace renal primario compuesto en alrededor de 24%, con menor mortalidad cardiovascular y total y reducción de eventos cardiovasculares mayores, y descenso más lento de la TFG. La guía KDIGO 2022 recomienda agonistas de GLP-1 de eficacia demostrada en pacientes con diabetes tipo 2 y ERC que no alcanzan metas con metformina e iSGLT2 o que no pueden usarlos, y no requieren ajuste por TFG (liraglutida, semaglutida, dulaglutida); la exenatida no se recomienda con TFG menor de 30 mL/min. Efectos adversos: náusea, vómito y diarrea, que pueden causar lesión renal aguda por deshidratación."
+  },
+  "perla": "FLOW: semaglutida ↓ ~24% desenlaces renales en DM2 + ERC. GLP-1 RA: liraglutida/semaglutida/dulaglutida sin ajuste; exenatida evitar si TFG <30.",
+  "referencias": [
+   "Perkovic V et al. N Engl J Med 2024;391:109 (FLOW)",
+   "KDIGO 2022 Clinical Practice Guideline for Diabetes Management in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 13.7
+ },
+ {
+  "id": "DMG-4",
+  "serie_id": "DMG",
+  "orden": 4,
+  "sub": "8.a",
+  "subtema": "Trasplante de páncreas y lesiones de nefropatía diabética",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una paciente más joven con diabetes tipo 1 de 30 años, ERC terminal en hemodiálisis, hipoglucemias graves sin percepción y buen estado cardiovascular, pregunta por el trasplante combinado de riñón y páncreas.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "Riñón-páncreas simultáneo en DM1 con ERT y reserva CV buena; 10 años de euglucemia revierten lesiones en riñón nativo",
+   "B": "El trasplante de páncreas está indicado en diabetes tipo 2 obesa con ERC leve, porque corrige la resistencia a la insulina",
+   "C": "No existe ninguna opción de trasplante de páncreas, ni simultáneo con el riñón ni posterior a él, en ningún tipo de diabetes mellitus",
+   "D": "El páncreas siempre se trasplanta antes que el riñón, en una cirugía distinta realizada meses antes, por protocolo",
+   "E": "Las lesiones histológicas de la nefropatía diabética nunca revierten, aunque se logre normoglucemia sostenida durante años"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En pacientes con diabetes tipo 1 con ERC terminal o TFG menor de 20 a 30 mL/min, cuya enfermedad cardiovascular esté controlada, el trasplante simultáneo de riñón y páncreas ofrece independencia de la insulina y menos hipoglucemias graves. También existen el trasplante de páncreas después del riñón y el de riñón de donante vivo solo. En un estudio clásico (Fioretto, 1998), la normoglucemia sostenida lograda con el trasplante de páncreas permitió que las lesiones glomerulares de la nefropatía diabética revirtieran tras unos 10 años en riñones nativos, lo que demuestra que la lesión es potencialmente reversible. En diabetes tipo 2 el trasplante de páncreas es excepcional.",
+   "B": "No se recomienda en diabetes tipo 2 con ERC leve.",
+   "C": "Sí existe esta opción en pacientes seleccionados.",
+   "D": "En la modalidad simultánea ambos órganos se trasplantan juntos; el páncreas posterior al riñón es otra variante.",
+   "E": "Con 10 años de normoglucemia se documentó regresión de las lesiones."
+  },
+  "perla": "SPK en DM1 + ERC terminal con reserva cardiovascular; normoglucemia sostenida ~10 años revierte lesiones de nefropatía diabética (Fioretto).",
+  "referencias": [
+   "Fioretto P et al. N Engl J Med 1998;339:69",
+   "Comprehensive Clinical Nephrology (trasplante de páncreas)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 13.7
+ },
+ {
+  "id": "DMH-1",
+  "serie_id": "DMH",
+  "orden": 1,
+  "sub": "8.0",
+  "subtema": "Esclerosis nodular sin diabetes",
+  "dificultad": "dificil",
+  "caso": "Hombre de 63 años, fumador de 40 paquetes-año, hipertenso y con obesidad, sin diabetes (HbA1c de 5.2%, glucosa en ayuno normal). Proteinuria de 4 g/24 h, creatinina de 2.0 mg/dL. La biopsia muestra esclerosis mesangial nodular con nódulos PAS positivos, hialinosis arteriolar y engrosamiento de la membrana basal; la inmunofluorescencia es negativa para inmunoglobulinas y cadenas ligeras, el rojo Congo es negativo y la microscopía electrónica no muestra depósitos organizados.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Nefropatía diabética clase III en paciente sin diabetes, porque los nódulos de Kimmelstiel-Wilson son específicos de ella",
+   "B": "Amiloidosis AL, con depósitos mesangiales nodulares que se identifican por tinción de rojo Congo en la biopsia",
+   "C": "Glomeruloesclerosis nodular idiopática (tabaquismo, hipertensión, obesidad), tras excluir amiloidosis y cadenas ligeras",
+   "D": "Nefropatía membranosa, que cursa con proteinuria nefrótica y depósitos subepiteliales con engrosamiento de la MBG",
+   "E": "Enfermedad por depósito de cadenas ligeras, con depósitos lineales en las membranas basales tubular y glomerular, y paraproteína"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El paciente no tiene diabetes; antes hay que excluir otras causas y considerar antecedentes de hiperglucemia previa.",
+   "B": "En la amiloidosis AL el rojo Congo es positivo.",
+   "C": "La glomeruloesclerosis nodular idiopática es un diagnóstico de exclusión: la morfología es indistinguible de la nefropatía diabética (nódulos PAS positivos, hialinosis arteriolar), pero ocurre sin diabetes y se asocia a tabaquismo, hipertensión y obesidad. Para establecerla hay que descartar causas de glomeruloesclerosis nodular: amiloidosis (Congo positivo), depósito de cadenas ligeras (inmunofluorescencia monotípica con depósitos granulares en ME), glomerulonefritis fibrilar (fibrillas de 12 a 24 nm y DNAJB9), glomerulonefritis membranoproliferativa y la propia diabetes (incluida la prediabetes o la diabetes antigua con buen control actual).",
+   "D": "La nefropatía membranosa se caracteriza por depósitos subepiteliales con espículas, no por nódulos mesangiales.",
+   "E": "En el depósito de cadenas ligeras la inmunofluorescencia muestra una cadena ligera monotípica."
+  },
+  "perla": "Esclerosis nodular sin DM: idiopática (tabaco, HTA, obesidad). Excluir amiloide, LCDD, fibrilar, MPGN.",
+  "referencias": [
+   "Markowitz GS et al. Hum Pathol 2002;33:826",
+   "Comprehensive Clinical Nephrology (nefropatía diabética)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o1",
+  "peso": 51.0
+ },
+ {
+  "id": "DNA-1",
+  "serie_id": "DNA",
+  "orden": 1,
+  "sub": "8.0",
+  "subtema": "Enfermedad renal diabética no albuminúrica",
+  "dificultad": "moderada",
+  "caso": "Mujer de 68 años con diabetes tipo 2 de 14 años, hipertensión y cardiopatía isquémica. Creatinina de 1.5 mg/dL (TFGe de 38 mL/min/1.73 m²) estable desde hace 2 años, con cociente albúmina/creatinina de 12, 14 y 9 mg/g en tres muestras. Sedimento sin hematuria. Fondo de ojo sin retinopatía. Ecografía renal con riñones de tamaño normal-bajo y adelgazamiento cortical leve. Toma losartán y estatina; HbA1c de 7.4%.",
+  "enunciado": "¿Cuál es la interpretación más adecuada?",
+  "opciones": {
+   "A": "Nefropatía membranosa, que se confirma con anti-PLA2R y se trata con inmunosupresión desde el inicio",
+   "B": "No hay enfermedad renal, porque la albuminuria es normal y la creatinina de 1.5 mg/dL es aceptable en una mujer mayor",
+   "C": "Glomerulonefritis rápidamente progresiva, que requiere inmunosupresión, aunque la creatinina sea estable desde hace más de dos años",
+   "D": "Enfermedad diabética no albuminúrica (TFG baja, albuminuria normal), frecuente en mujeres mayores con hipertensión y vasculopatía",
+   "E": "Nefropatía diabética clásica, que siempre cursa con albuminuria en rango nefrótico desde las etapas iniciales de la enfermedad renal"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay síndrome nefrótico ni datos de glomerulopatía membranosa.",
+   "B": "La TFGe de 38 indica ERC G3b aunque la albuminuria sea normal.",
+   "C": "La creatinina es estable desde hace 2 años y no hay hematuria, lo que no sugiere un cuadro rápidamente progresivo.",
+   "D": "Una proporción de pacientes con diabetes tipo 2 y TFGe menor de 60 mL/min/1.73 m² (alrededor de 20 a 40% según la serie) no tiene albuminuria: es el fenotipo no albuminúrico de la enfermedad renal diabética, más frecuente en mujeres de edad avanzada con hipertensión, enfermedad aterosclerótica y uso de bloqueadores del SRAA, y en el que la biopsia muestra lesiones sobre todo vasculares (arterioloesclerosis, nefroangioesclerosis) y tubulointersticiales (fibrosis, atrofia), con menos lesiones glomerulares clásicas. Su curso es de progresión más lenta, pero con un riesgo cardiovascular alto. El diagnóstico es clínico, tras excluir otras causas (con sedimento sin hematuria, TFGe baja estable y ecografía compatible). Se maneja con control de la presión, el bloqueo del SRAA (aún con albuminuria normal por la indicación de hipertensión), el iSGLT2, la estatina y el control glucémico.",
+   "E": "El fenotipo clásico cursa con albuminuria creciente, y aquí es normal, lo que corresponde al fenotipo no albuminúrico."
+  },
+  "perla": "DKD no albuminúrica: TFGe <60 con albuminuria normal (20–40%): mujeres mayores, HTA, ECV; lesión vascular/tubulointersticial; progresión lenta pero alto riesgo CV. Se trata como ERC.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefropatía diabética)",
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o1",
+  "peso": 20.8
+ },
+ {
+  "id": "DNA-2",
+  "serie_id": "DNA",
+  "orden": 2,
+  "sub": "8.0",
+  "subtema": "Valor de la retinopatía para atribuir la lesión renal a la diabetes",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente, de 32 años, con diabetes tipo 1 de 18 años, presenta un cociente albúmina/creatinina de 650 mg/g, creatinina de 1.2 mg/dL (TFGe de 78 mL/min/1.73 m²) y eritrocitos dismórficos en el sedimento. El fondo de ojo con dilatación pupilar no muestra retinopatía.",
+  "enunciado": "¿Qué implica la ausencia de retinopatía en este paciente?",
+  "opciones": {
+   "A": "Confirma la nefropatía diabética, porque la retinopatía no es necesaria en la diabetes tipo 1 para el diagnóstico",
+   "B": "Es normal y no cambia el abordaje en la diabetes tipo 1, porque la nefropatía precede a la retinopatía",
+   "C": "Indica un buen pronóstico renal, sin necesidad de más estudios, porque la microvasculatura retiniana está preservada",
+   "D": "Indica que el paciente debe iniciar insulina de inmediato, porque la ausencia de retinopatía refleja un control glucémico claramente deficiente",
+   "E": "En DM1 la albuminuria diabética casi siempre cursa con retinopatía; sin ella y con hematuria dismórfica, buscar otra causa (biopsia)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La ausencia de retinopatía no apoya el diagnóstico de nefropatía diabética en la diabetes tipo 1.",
+   "B": "En la diabetes tipo 1 sí cambia el abordaje, y orienta a una enfermedad no diabética.",
+   "C": "Con hematuria dismórfica, la ausencia de retinopatía obliga a descartar otras glomerulopatías.",
+   "D": "La insulina es el tratamiento de base y no tiene relación con este hallazgo.",
+   "E": "En la diabetes tipo 1, la retinopatía y la nefropatía comparten la microangiopatía, de manera que la gran mayoría de los pacientes con nefropatía diabética con albuminuria establecida (más de 90%) tiene retinopatía; la ausencia de retinopatía debe hacer pensar en otra enfermedad renal, sobre todo si hay otros datos atípicos, como la hematuria glomerular (eritrocitos dismórficos), la caída rápida de la TFG, la proteinuria de aparición brusca o una evolución menor de 10 años (en la diabetes tipo 1, la nefropatía suele aparecer tras 10 años). En este caso se solicitan estudios serológicos (complemento, ANA, ANCA, anti-MBG, hepatitis, VIH) y se considera la biopsia renal. En la diabetes tipo 2, la retinopatía tiene un valor predictivo menor (la ausencia no descarta la nefropatía diabética), pero su presencia apoya el diagnóstico."
+  },
+  "perla": "DT1 con albuminuria sin retinopatía (+ hematuria dismórfica, <10 años, caída rápida) → pensar en ENDK/otra glomerulopatía: serologías y biopsia. En DT2, retinopatía apoya DKD pero su ausencia no la excluye.",
+  "referencias": [
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1",
+   "Comprehensive Clinical Nephrology (nefropatía diabética)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o1",
+  "peso": 22.8
+ },
+ {
+  "id": "DNA-3",
+  "serie_id": "DNA",
+  "orden": 3,
+  "sub": "8.a",
+  "subtema": "iSGLT2 con albuminuria baja: evidencia de EMPA-KIDNEY",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente del primer caso, con TFGe de 38 mL/min/1.73 m² y albuminuria normal (cociente albúmina/creatinina de 12 mg/g), ya recibe losartán. El médico duda si indicar un iSGLT2 porque no tiene albuminuria.",
+  "enunciado": "¿Cuál es la recomendación más adecuada?",
+  "opciones": {
+   "A": "No indicar, porque la TFGe de 38 es demasiado baja para que el fármaco tenga efecto y aumenta el riesgo de una lesión renal aguda grave",
+   "B": "Indicar solo si la HbA1c es mayor de 9%, porque el beneficio renal depende del control glucémico y no de otros factores",
+   "C": "No indicar, porque solo funcionan con albuminuria mayor de 300 mg/g, y la paciente tiene albuminuria normal de 12 mg/g",
+   "D": "Indicar un iSGLT2 (empagliflozina 10 mg): en EMPA-KIDNEY el beneficio renal con TFGe de 20 a <45 fue independiente de la albuminuria",
+   "E": "Indicar solo si hay insuficiencia cardiaca, porque el beneficio del fármaco se limita a ese diagnóstico y no a la progresión de la ERC"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Se inicia con TFGe de 20 o más, y 38 está dentro del rango.",
+   "B": "La indicación renal y cardiovascular no depende de la HbA1c.",
+   "C": "EMPA-KIDNEY mostró beneficio con albuminuria baja y TFGe de 20 a menos de 45.",
+   "D": "En el ensayo EMPA-KIDNEY se incluyeron pacientes con TFGe de 20 a menos de 45 mL/min/1.73 m² sin importar la albuminuria, o con TFGe de 45 a menos de 90 y cociente albúmina/creatinina de 200 mg/g o más; la empagliflozina redujo cerca de 28% el riesgo del desenlace compuesto de progresión de la ERC o muerte cardiovascular, y el beneficio fue consistente en los subgrupos con albuminuria baja, con y sin diabetes. La guía KDIGO 2022 y 2024 recomienda un iSGLT2 en la diabetes tipo 2 con ERC y TFGe de 20 o más (recomendación 1A), con independencia de la HbA1c, y mantenerlo hasta la diálisis o el trasplante si se tolera. Esta paciente (TFGe de 38, diabetes, enfermedad coronaria) es candidata, aunque su albuminuria sea normal; se vigila la caída inicial esperada de la TFG y se aplican las reglas de días de enfermedad.",
+   "E": "No se requiere insuficiencia cardiaca, y la ERC con diabetes es indicación suficiente."
+  },
+  "perla": "EMPA-KIDNEY: TFGe 20–<45 con cualquier albuminuria (o 45–<90 con RAC ≥200). ↓~28% progresión/muerte CV. KDIGO: iSGLT2 en DM2 + ERC con TFGe ≥20, independiente de HbA1c.",
+  "referencias": [
+   "EMPA-KIDNEY Collaborative Group. N Engl J Med 2023;388:117",
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 13.7
+ },
+ {
+  "id": "CFD-1",
+  "serie_id": "CFD",
+  "orden": 1,
+  "sub": "8.a",
+  "subtema": "Tratamiento combinado de finerenona y empagliflozina: ensayo CONFIDENCE",
+  "dificultad": "dificil",
+  "caso": "Hombre de 64 años con diabetes tipo 2, TFGe de 48 mL/min/1.73 m², cociente albúmina/creatinina de 620 mg/g, K⁺ de 4.6 mEq/L y HbA1c de 7.8%, con losartán 100 mg a dosis máxima tolerada, que no recibe ni iSGLT2 ni antagonista no esteroideo del receptor de mineralocorticoides. Se discuten el inicio escalonado frente al combinado.",
+  "enunciado": "¿Qué mostró el ensayo CONFIDENCE sobre el inicio combinado?",
+  "opciones": {
+   "A": "El ensayo demostró que la combinación elimina el riesgo de hiperpotasemia, por lo que ya no se requiere vigilar el potasio",
+   "B": "La combinación no mostró ventaja sobre la monoterapia, y el efecto sobre la albuminuria fue igual al de cada fármaco solo",
+   "C": "Finerenona más empagliflozina redujeron la albuminuria ≈52% a 180 días: 29–32% más que cada uno solo (efecto aditivo)",
+   "D": "La combinación redujo la mortalidad total a la mitad en el ensayo, tras seguimiento de 6 meses, frente a placebo y a cada fármaco solo",
+   "E": "La combinación solo funciona si la albuminuria es menor de 30 mg/g, porque en albuminuria mayor el efecto aditivo desaparece"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El ensayo no demostró que la combinación elimine el riesgo de hiperpotasemia; el potasio debe vigilarse.",
+   "B": "La combinación sí mostró una ventaja aditiva sobre cada monoterapia en la reducción de la albuminuria.",
+   "C": "CONFIDENCE fue un ensayo aleatorizado, doble ciego, en adultos con diabetes tipo 2 y ERC (TFGe de 30 a 90 mL/min/1.73 m² y cociente albúmina/creatinina de 100 a 5,000 mg/g) tratados con un bloqueador del SRAA, comparando finerenona, empagliflozina o ambas desde el inicio. A los 180 días, la combinación redujo la albuminuria cerca de 52% respecto del basal, es decir, 29% más que la finerenona sola y 32% más que la empagliflozina sola (efectos aditivos por mecanismos complementarios: la finerenona bloquea el receptor mineralocorticoide y el iSGLT2 disminuye la presión intraglomerular). La seguridad fue aceptable, con un perfil acorde con el de cada fármaco y un aumento leve del potasio (cerca de 0.27 mEq/L a los 14 días con la combinación). El estudio evaluó la albuminuria, no desenlaces clínicos duros, y las guías consideran los cuatro pilares (bloqueo del SRAA, iSGLT2, finerenona y agonista GLP-1) según el perfil del paciente.",
+   "D": "El ensayo evaluó albuminuria y no mostró una reducción de la mortalidad de 50%.",
+   "E": "El ensayo incluyó pacientes con albuminuria de 100 a 5,000 mg/g, no con valores menores de 30."
+  },
+  "perla": "CONFIDENCE: DM2 + ERC (TFGe 30–90, RAC 100–5000). Finerenona + empagliflozina desde el inicio: RAC −52% basal (−29% vs finerenona; −32% vs empagliflozina) a 180 días; K⁺ +0.27 reversible. Desenlace sustituto.",
+  "referencias": [
+   "CONFIDENCE Investigators. N Engl J Med 2025 (finerenona más empagliflozina)",
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o3",
+  "peso": 13.7
+ },
+ {
+  "id": "CFD-2",
+  "serie_id": "CFD",
+  "orden": 2,
+  "sub": "8.a",
+  "subtema": "Finerenona: reglas de inicio, seguimiento y suspensión por potasio",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia finerenona 10 mg junto con empagliflozina 10 mg. A las 4 semanas el K⁺ es de 5.4 mEq/L, la creatinina de 1.5 mg/dL (basal de 1.4), asintomático, sin AINE, sin suplementos de potasio, con ingesta dietética alta de frutas y sustitutos de sal.",
+  "enunciado": "¿Cuál es la conducta recomendada?",
+  "opciones": {
+   "A": "Continuar sin subir la dosis, quitar el sustituto de sal con K⁺ y repetir el potasio en 1–2 semanas; suspender solo si K⁺ >5.5 mEq/L",
+   "B": "Agregar un suplemento de potasio, porque el potasio de 5.4 mEq/L es bajo y puede corregirse con la dieta habitual",
+   "C": "Suspender la empagliflozina, porque causa hiperpotasemia y reduce la excreción renal de potasio de forma importante",
+   "D": "Suspender de forma definitiva la finerenona con cualquier potasio mayor de 5.0 mEq/L, sin intentar reiniciarla aunque el potasio baje después",
+   "E": "Aumentar la finerenona a 20 mg, para mejorar el efecto antiproteinúrico, aunque el potasio ya esté elevado"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Según la información de uso de la finerenona (ensayos FIDELIO-DKD y FIGARO-DKD), se inicia con K⁺ de 5.0 mEq/L o menos; el potasio se mide a las 4 semanas del inicio y después de manera periódica, y la dosis se aumenta de 10 a 20 mg solo si el K⁺ es de 4.8 mEq/L o menos. Si el K⁺ está entre 5.0 y 5.5 mEq/L, se mantiene la dosis con vigilancia; con K⁺ mayor de 5.5 mEq/L se suspende de forma temporal y se reinicia a 10 mg cuando baje a 5.0 mEq/L o menos. Antes se corrigen los factores modificables (sustitutos de sal con potasio, dieta, AINE) y se agregan medidas que reducen el potasio (diuréticos, quelantes como patiromer o ciclosilicato de sodio y zirconio) para mantener el beneficio renal y cardiovascular. El iSGLT2 reduce el riesgo de hiperpotasemia y no debe suspenderse por esta causa.",
+   "B": "Un potasio de 5.4 mEq/L es alto, y un suplemento lo agravaría.",
+   "C": "El iSGLT2 reduce el riesgo de hiperpotasemia, y no debe suspenderse.",
+   "D": "No se suspende de forma definitiva con potasio de 5.4; se maneja el potasio y se mantiene el tratamiento.",
+   "E": "No se aumenta la dosis con un potasio mayor de 4.8 mEq/L."
+  },
+  "perla": "Finerenona: iniciar si K⁺ ≤5.0; medir a las 4 sem; subir a 20 mg si K⁺ ≤4.8; suspender si >5.5 y reiniciar a 10 mg cuando ≤5.0. Corregir dieta/sales de potasio; diuréticos/quelantes. iSGLT2 baja el riesgo de hiperK.",
+  "referencias": [
+   "Bakris GL et al. N Engl J Med 2020;383:2219 (FIDELIO-DKD)",
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 13.7
+ },
+ {
+  "id": "CFD-3",
+  "serie_id": "CFD",
+  "orden": 3,
+  "sub": "8.a",
+  "subtema": "Reglas de días de enfermedad y suspensión perioperatoria del iSGLT2",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Cuatro meses después, el paciente consulta por vómito y diarrea de 2 días con ingesta oral escasa, presión de 100/60 mmHg y creatinina de 2.3 mg/dL (basal de 1.5), K⁺ de 5.6 mEq/L, HCO₃ de 15 mEq/L con glucosa de 150 mg/dL y β-hidroxibutirato elevado. Estaba programado para cirugía abdominal en una semana.",
+  "enunciado": "¿Cuál es el manejo y la medida preventiva correspondiente?",
+  "opciones": {
+   "A": "Iniciar diálisis de urgencia sin otras medidas, porque la creatinina de 2.3 mg/dL y el K⁺ de 5.6 mEq/L ya lo exigen de forma inmediata",
+   "B": "Continuar todos los fármacos para no perder el beneficio renal, porque suspenderlos aumenta el riesgo cardiovascular",
+   "C": "Cetoacidosis euglucémica por iSGLT2 y LRA prerrenal: dextrosa, insulina y líquidos; pausar iSGLT2, finerenona, SRAA y metformina",
+   "D": "Intoxicación por metformina pura, que no se asocia con cetonas elevadas y se maneja solo con hemodiálisis de inmediato, sin líquidos",
+   "E": "Cetoacidosis diabética clásica, que requiere solo restringir líquidos y administrar insulina sin aporte de dextrosa"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay indicación de diálisis urgente; el cuadro mejora con líquidos y suspensión de fármacos.",
+   "B": "Continuar los fármacos durante una deshidratación agrava la lesión renal y la hiperpotasemia.",
+   "C": "La depleción de volumen, la ingesta oral escasa y los iSGLT2 predisponen a la cetoacidosis euglucémica (glucosa menor de 250 mg/dL con acidosis y β-hidroxibutirato elevado), y la lesión renal aguda prerrenal por vómito y diarrea con IECA/ARA-II, diuréticos y finerenona explica la hiperpotasemia. El tratamiento consiste en reposición de líquidos, con dextrosa e insulina (como en cualquier cetoacidosis, con vigilancia del potasio) y suspensión de los fármacos nefroactivos. Las reglas de días de enfermedad indican suspender de forma temporal los iSGLT2, los antagonistas del receptor de mineralocorticoides, los IECA/ARA-II, los diuréticos, la metformina y los AINE durante la enfermedad intercurrente con deshidratación (vómito, diarrea, fiebre), y reiniciarlos a las 24 a 48 horas de volver a comer y beber con normalidad. Antes de una cirugía programada se suspende el iSGLT2 al menos 3 días antes (4 días con ertugliflozina), por el riesgo de cetoacidosis perioperatoria.",
+   "D": "La metformina causa acidosis láctica y no cetosis; aquí hay β-hidroxibutirato elevado y glucosa de 150.",
+   "E": "No hay hiperglucemia que corresponda a la cetoacidosis clásica, y restringir líquidos agravaría la lesión renal."
+  },
+  "perla": "Días de enfermedad: suspender iSGLT2, ARM, IECA/ARA-II, diuréticos, metformina, AINE con vómito/diarrea/fiebre; reiniciar a 24–48 h. iSGLT2 cetoacidosis euglucémica; suspender ≥3 días antes de cirugía (4 con ertugliflozina).",
+  "referencias": [
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 13.7
+ },
+ {
+  "id": "GLP-1",
+  "serie_id": "GLP",
+  "orden": 1,
+  "sub": "8.a",
+  "subtema": "Agonista de GLP-1 en diabetes tipo 2 con ERC: beneficio renal demostrado",
+  "dificultad": "moderada",
+  "caso": "Mujer de 61 años con diabetes tipo 2 de 12 años, IMC de 34 kg/m², hemoglobina glucosilada de 8.1% a pesar de metformina 1 000 mg cada 12 horas y empagliflozina 10 mg al día. Tiene ERC G3a A2 (TFG de 52 mL/min/1.73 m², cociente albúmina/creatinina de 280 mg/g), sin insuficiencia cardíaca, con losartán 100 mg y presión de 128/76 mmHg. El potasio es de 4.6 mEq/L.",
+  "enunciado": "¿Qué fármaco adicional aporta además beneficio renal y cardiovascular demostrado?",
+  "opciones": {
+   "A": "Un GLP-1 RA con beneficio comprobado, como semaglutida semanal: en FLOW redujo ≈24% el compuesto renal y cardiovascular",
+   "B": "Pioglitazona, porque mejora la albuminuria sin ningún riesgo en esta paciente con obesidad y riesgo de insuficiencia cardiaca",
+   "C": "Un inhibidor de DPP-4 (saxagliptina), porque reduce la progresión de la ERC y los eventos cardiovasculares mayores",
+   "D": "Una sulfonilurea de acción prolongada, para mejorar el control glucémico, porque además protege al riñón y reduce el peso",
+   "E": "Suspender la empagliflozina al iniciar el agonista de GLP-1, porque no pueden combinarse por el riesgo de hipoglucemia grave y de deshidratación"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la diabetes tipo 2 con ERC, la guía KDIGO 2022 recomienda un agonista del receptor de GLP-1 de acción prolongada con beneficio cardiovascular demostrado cuando no se alcanzan las metas glucémicas con metformina e inhibidor de SGLT2, o cuando estos no pueden usarse. El ensayo FLOW (semaglutida 1 mg semanal en diabetes tipo 2 con ERC) mostró una reducción de cerca de 24% del desenlace renal compuesto, además de menor riesgo de eventos cardiovasculares mayores y de muerte por cualquier causa. Su mecanismo incluye menor inflamación, control del peso y de la presión, y menor albuminuria, por lo que es complementario del inhibidor de SGLT2 y del bloqueo del SRAA. Aquí, además, la hemoglobina glucosilada de 8.1% y la obesidad refuerzan la indicación.",
+   "B": "La pioglitazona causa retención de líquidos y riesgo de insuficiencia cardíaca, y no tiene beneficio renal comprobado en ensayos de desenlaces.",
+   "C": "Los inhibidores de DPP-4 no han demostrado beneficio renal, y la saxagliptina se asoció con más hospitalizaciones por insuficiencia cardíaca.",
+   "D": "Las sulfonilureas de acción prolongada, como la glibenclamida, se acumulan en la ERC y causan hipoglucemia prolongada, y no aportan beneficio renal.",
+   "E": "El agonista de GLP-1 y el inhibidor de SGLT2 son complementarios y se combinan, y no se suspende uno para iniciar el otro."
+  },
+  "perla": "DM2 + ERC: bloqueo SRAA + iSGLT2 + metformina (según TFG); si falta control o no se puede, GLP-1 RA de acción prolongada con beneficio comprobado (semaglutida: FLOW, ↓~24% desenlace renal). Complementario del iSGLT2; finerenona si persiste albuminuria con K normal.",
+  "referencias": [
+   "Perkovic V et al. N Engl J Med 2024;391:109 (FLOW)",
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o3",
+  "peso": 11.7
+ },
+ {
+  "id": "GLP-2",
+  "serie_id": "GLP",
+  "orden": 2,
+  "sub": "8.a",
+  "subtema": "LRA por depleción de volumen con agonista de GLP-1: reglas de días de enfermedad",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia semaglutida con titulación y la paciente continúa con losartán, empagliflozina y metformina. A las 3 semanas presenta vómito y diarrea durante 2 días con poca ingesta. Llega con presión de 98/60 mmHg, mucosas secas, creatinina de 2.1 mg/dL (basal de 1.1) y potasio de 5.1 mEq/L, sin dolor abdominal intenso.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Corregir el volumen, pausar losartán, empagliflozina, metformina y GLP-1 RA durante la lesión y reiniciar de forma escalonada",
+   "B": "Continuar todos los fármacos y aumentar la dosis del agonista de GLP-1 para el control de las náuseas, el vómito y la hiporexia",
+   "C": "Administrar solo antieméticos y continuar el losartán y la empagliflozina, porque la lesión renal aguda es leve y siempre reversible",
+   "D": "Iniciar diálisis de urgencia por la creatinina de 2.1 mg/dL, porque el vómito y la diarrea indican uremia grave",
+   "E": "Suspender de forma definitiva todos los fármacos y no reiniciarlos nunca más, porque la lesión renal es permanente en estos casos"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Los efectos gastrointestinales de los agonistas de GLP-1 (náusea, vómito, diarrea) pueden causar depleción de volumen y lesión renal aguda prerrenal, sobre todo cuando se combinan con bloqueo del SRAA e inhibidor de SGLT2 (que reducen la presión de filtración y producen natriuresis) y con metformina, que se acumula en la hipoperfusión. Las reglas de días de enfermedad indican suspender de forma temporal estos fármacos durante la enfermedad con pérdida de líquidos, reponer volumen, vigilar creatinina y potasio, y reiniciar de forma escalonada al normalizar la ingesta y la función renal. Se descarta pancreatitis si hay dolor abdominal, y se reanuda el agonista con titulación más lenta.",
+   "B": "Aumentar la dosis del agonista de GLP-1 agravaría los síntomas gastrointestinales y la depleción de volumen.",
+   "C": "Continuar el bloqueo del SRAA y el inhibidor de SGLT2 en una depleción de volumen con lesión aguda empeora el daño hemodinámico.",
+   "D": "La creatinina de 2.1 mg/dL por depleción de volumen se resuelve con reposición, sin indicación de diálisis.",
+   "E": "El episodio es reversible y los fármacos tienen beneficios renales y cardiovasculares, de modo que no se suspenden de forma definitiva."
+  },
+  "perla": "GLP-1 RA: GI → depleción → LRA prerrenal; sick-day rules: pausar iSGLT2, SRAA, metformina (y el GLP-1 RA mientras haya síntomas), reponer, reiniciar escalonado; descartar pancreatitis si hay dolor.",
+  "referencias": [
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1",
+   "Comprehensive Clinical Nephrology (nefropatía diabética: tratamiento)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 13.7
+ },
+ {
+  "id": "GLP-3",
+  "serie_id": "GLP",
+  "orden": 3,
+  "sub": "8.a",
+  "subtema": "Elección del agonista de GLP-1 según la TFG y contraindicaciones",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un año después, la paciente se recupera y su TFG baja a 24 mL/min/1.73 m² (ERC G4). Un residente propone cambiar a exenatida de liberación inmediata, porque desea una dosificación más flexible, y pregunta qué agonistas de GLP-1 pueden usarse y cuáles no.",
+  "enunciado": "¿Cuál es la respuesta más adecuada?",
+  "opciones": {
+   "A": "Los agonistas de GLP-1 pueden usarse con antecedente de carcinoma medular de tiroides, si se vigila la calcitonina de forma periódica",
+   "B": "La semaglutida requiere reducir la dosis a la mitad con TFG de 24 mL/min, porque se acumula en la ERC avanzada",
+   "C": "Todos los agonistas de GLP-1 están contraindicados con TFG menor de 60 mL/min, por su eliminación renal y su acumulación en el organismo",
+   "D": "La exenatida es la mejor opción en ERC G4, porque su eliminación no depende del riñón y no requiere ajuste de dosis",
+   "E": "Semaglutida, liraglutida y dulaglutida no se ajustan por TFG; la exenatida (renal) no se usa con TFG <30; ninguno con CMT o NEM2"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El antecedente de carcinoma medular de tiroides es una contraindicación para esta clase de fármacos.",
+   "B": "La semaglutida no requiere ajuste de dosis por la TFG.",
+   "C": "No existe una contraindicación general con TFG menor de 60 mL/min, y varios agonistas se usan en ERC avanzada.",
+   "D": "La exenatida se elimina por vía renal, y por eso no se recomienda con TFG menor de 30 mL/min.",
+   "E": "La semaglutida, la liraglutida y la dulaglutida son péptidos que se degradan por proteólisis y no requieren ajuste por TFG (con datos limitados en TFG menor de 15 mL/min), y tienen datos de beneficio cardiovascular, por lo que son la elección en ERC avanzada. La exenatida de liberación inmediata se elimina por filtración glomerular y se acumula con TFG menor de 30 mL/min, por lo que no se recomienda. Todos los agonistas de GLP-1 de acción prolongada están contraindicados con antecedente personal o familiar de carcinoma medular de tiroides o de neoplasia endocrina múltiple tipo 2, y se vigilan la pancreatitis, los síntomas gastrointestinales y la retinopatía diabética, que puede empeorar si la hemoglobina glucosilada baja con rapidez (como en SUSTAIN-6 con semaglutida)."
+  },
+  "perla": "GLP-1 RA en ERC: semaglutida/liraglutida/dulaglutida sin ajuste de TFG; exenatida no si TFG <30; contraindicados con CMT/MEN2 personal o familiar; vigilar pancreatitis, retinopatía (caída rápida de HbA1c) y volumen.",
+  "referencias": [
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1",
+   "Perkovic V et al. N Engl J Med 2024;391:109 (FLOW)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 13.7
+ }
+]

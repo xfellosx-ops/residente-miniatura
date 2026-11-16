@@ -1,0 +1,661 @@
+{
+ "meta": {
+  "id": "14",
+  "title": "Enfermedades quísticas",
+  "key": "rm_v3_14",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Poliquístico",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Cilio Primario",
+   "palette": [
+    "#E8F4FC",
+    "#90C8E8",
+    "#386890",
+    "#0C2030"
+   ],
+   "tiles": "acantilado",
+   "vignette": "acantilado_podocito",
+   "join": [
+    "sonda",
+    "glifo"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 35 años, hipertenso, dolor lumbar. Su padre murió de un aneurisma."
+    ],
+    [
+     "Dr. J.",
+     "El ultrasonido muestra riñones enormes llenos de quistes."
+    ],
+    [
+     "Sabio Brenn",
+     "Baja al cilio. Las policistinas son su antena de calcio."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Policistina 1",
+     "lines": [
+      [
+       "Policistina 1",
+       "PKD1: 78 % de los casos, falla renal más temprana."
+      ],
+      [
+       "Policistina 1",
+       "PKD2 es más benigna. Las variantes truncantes de PKD1 son las peores."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "PKD1"
+    },
+    {
+     "id": "npc2",
+     "name": "AMPc",
+     "lines": [
+      [
+       "AMPc",
+       "Con poco calcio en la célula, yo subo. Y hago proliferar y secretar líquido."
+      ],
+      [
+       "AMPc",
+       "La vasopresina me alimenta por el receptor V2."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "vasopresina"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Ultrasonido (Ravine-Pei)",
+     "Con familiar afectado: ≥3 quistes a los 15–39 años; ≥2 por riñón a los 40–59."
+    ],
+    [
+     "Letrero · Extrarrenal",
+     "Quistes hepáticos, aneurismas intracraneales, prolapso mitral, divertículos."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "radio",
+     "specialty": "Radiología",
+     "serie": "ARP",
+     "intro": [
+      [
+       "Dr. Hugo Contraste",
+       "Tres quistes a los 60 años: poliquistosis. Le aviso a la familia."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Hugo Contraste",
+       "A los 60 hacen falta 4 o más por riñón… eran quistes simples."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "QSI",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Te reto con un caso: Quiste renal simple: características y significado"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "MSK",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Riñón en esponja medular"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 2
+    }
+   ],
+   "wild": [
+    {
+     "name": "Quiste en Expansión",
+     "type": "Celular",
+     "topic": "Quiste en Expansión"
+    },
+    {
+     "name": "Vasopresina",
+     "type": "Molecular",
+     "topic": "Vasopresina"
+    },
+    {
+     "name": "Aneurisma Silente",
+     "type": "Molecular",
+     "topic": "Aneurisma Silente"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "ERPAD: genética y criterios diagnósticos por imagen",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El número de quistes que hace diagnóstico depende de la edad."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Del gen al quiste",
+     "items": [
+      "Variante en PKD1 o PKD2",
+      "Policistina defectuosa en el cilio",
+      "Baja el calcio intracelular",
+      "Sube el AMPc (vasopresina, V2)",
+      "Proliferación y secreción de cloro",
+      "El quiste crece y comprime nefronas"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Glifo",
+       "Soy Glifo. Bajo la presión del glomérulo. Me vas a usar en lo crónico."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Ya sabes qué lo alimenta. Ahora, cómo frenarlo."
+      ]
+     ]
+    }
+   ],
+   "card": "ERPAD: PKD1 (más grave) y PKD2. Cilio → ↓Ca → ↑AMPc → quiste. Diagnóstico por imagen según edad. Aneurismas: tamizar si hay antecedente familiar."
+  },
+  {
+   "id": "z2",
+   "name": "Valle de Mayo",
+   "palette": [
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
+   ],
+   "tiles": "valle",
+   "vignette": "valle_tubulovascular",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "El volumen renal total ajustado a talla y edad predice la caída de la TFG."
+    ],
+    [
+     "Sabio Brenn",
+     "Clases de Mayo 1C, 1D y 1E: progresión rápida. A ellos, tolvaptán."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Tolvaptán",
+     "lines": [
+      [
+       "Tolvaptán",
+       "Bloqueo el receptor V2. Menos AMPc, quistes más lentos."
+      ],
+      [
+       "Tolvaptán",
+       "Doy mucha sed y poliuria. Vigila el hígado cada mes al inicio."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "tolvaptán"
+    },
+    {
+     "id": "npc2",
+     "name": "Quiste Infectado",
+     "lines": [
+      [
+       "Quiste Infectado",
+       "Fiebre y dolor con urocultivo negativo. Necesito antibiótico lipofílico."
+      ],
+      [
+       "Quiste Infectado",
+       "Quinolona o trimetoprim-sulfametoxazol: penetran mi pared."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "infección de quiste"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Medidas generales",
+     "Presión ≤110/75 en jóvenes con TFG conservada (HALT-PKD), agua abundante, poca sal."
+    ],
+    [
+     "Letrero · Otros quistes",
+     "Simples: Bosniak I–II no se siguen. Adquiridos en diálisis: riesgo de cáncer."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "NPH",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Riñones gigantes que duelen: nefrectomía y se acabó."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Solo si hay infección o sangrado recurrente, o falta de espacio."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "ACD",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Enfermedad quística renal adquirida: diagnóstico y factores"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Riñón de 2 Litros",
+     "type": "Celular",
+     "topic": "Riñón de 2 Litros"
+    },
+    {
+     "name": "Hematuria Quística",
+     "type": "Molecular",
+     "topic": "Hematuria Quística"
+    },
+    {
+     "name": "ADTKD-UMOD",
+     "type": "Molecular",
+     "topic": "ADTKD-UMOD"
+    },
+    {
+     "name": "Nefronoptisis",
+     "type": "Molecular",
+     "topic": "Nefronoptisis"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Clasificación de Mayo y tolvaptán",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: la vasopresina alimenta al quiste. Bloquear V2 lo frena."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Quiste y dueño",
+     "items": [],
+     "pairs": [
+      [
+       "ERPAD",
+       "Adulto, riñones grandes, hígado"
+      ],
+      [
+       "ERPAR",
+       "PKHD1, niño, fibrosis hepática"
+      ],
+      [
+       "Nefronoptisis",
+       "NPHP, poliuria, riñones pequeños"
+      ],
+      [
+       "ADTKD",
+       "UMOD/MUC1, gota, sedimento blando"
+      ],
+      [
+       "Esponja medular",
+       "Nefrocalcinosis, litos"
+      ],
+      [
+       "Adquirida",
+       "Diálisis prolongada; cáncer renal"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Clase 1D. Candidato a tolvaptán. El Poliquístico lo sabe."
+      ]
+     ]
+    }
+   ],
+   "card": "Mayo 1C–1E: progresión rápida → tolvaptán (TEMPO 3:4, REPRISE); vigilar hígado. HALT-PKD: control intensivo de PA en jóvenes."
+  }
+ ],
+ "boss": {
+  "name": "El Poliquístico",
+  "color": "#b9a6ff",
+  "dark": "#2a1a55",
+  "heads": 1,
+  "intro": [
+   [
+    "El Poliquístico",
+    "Crezco 5 % al año. No tengo prisa: tengo décadas."
+   ],
+   [
+    "Dr. J.",
+    "Diagnóstico por edad, riesgo de Mayo y tratamiento."
+   ]
+  ],
+  "outro": [
+   [
+    "El Poliquístico",
+    "Me frenaste. No me detuviste."
+   ],
+   [
+    "Sabio Brenn",
+    "Cada año ganado antes de la diálisis cuenta."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Diagnóstico por imagen",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Poliquístico",
+      "Cuenta mis quistes."
+     ]
+    ],
+    "topics": [
+     "Diagnóstico por imagen"
+    ],
+    "questions": [
+     "PK2-1",
+     "PK2-2",
+     "PK2-3"
+    ]
+   },
+   {
+    "name": "Riesgo de progresión",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Poliquístico",
+      "Mide mi volumen."
+     ]
+    ],
+    "topics": [
+     "Riesgo de progresión"
+    ],
+    "questions": [
+     "PK2-4",
+     "PK2-5"
+    ]
+   },
+   {
+    "name": "Tolvaptán y complicaciones",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Poliquístico",
+      "¿Aguantas la sed?"
+     ]
+    ],
+    "topics": [
+     "Tolvaptán y complicaciones"
+    ],
+    "questions": [
+     "PKD-1",
+     "PKD-2"
+    ]
+   },
+   {
+    "name": "Otras quísticas",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Poliquístico",
+      "No soy el único con quistes."
+     ]
+    ],
+    "topics": [
+     "Otras quísticas"
+    ],
+    "questions": [
+     "PKD-3",
+     "PKD-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "TEMPO 3:4",
+   "mnemonic": "A tempo lento crecen los quistes con tolvaptán.",
+   "result": "Menor crecimiento del volumen renal total y menor caída de la TFG a 3 años."
+  },
+  {
+   "trial": "HALT-PKD",
+   "mnemonic": "Alto a la presión: 110/75.",
+   "result": "Control intensivo de PA en jóvenes: menor crecimiento renal."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Cilio Primario",
+   "text": "ERPAD: PKD1 (más grave) y PKD2. Cilio → ↓Ca → ↑AMPc → quiste. Diagnóstico por imagen según edad. Aneurismas: tamizar si hay antecedente familiar."
+  },
+  {
+   "title": "Valle de Mayo",
+   "text": "Mayo 1C–1E: progresión rápida → tolvaptán (TEMPO 3:4, REPRISE); vigilar hígado. HALT-PKD: control intensivo de PA en jóvenes."
+  }
+ ]
+}

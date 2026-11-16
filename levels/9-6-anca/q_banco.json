@@ -1,0 +1,550 @@
+[
+ {
+  "id": "ANCA-1",
+  "serie_id": "ANCA",
+  "orden": 1,
+  "sub": "9.d.4",
+  "subtema": "GN ANCA: diagnóstico histológico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 62 años con 3 semanas de astenia, mialgias, artralgias y un episodio de hemoptisis. Creatinina 2.1 → 4.8 mg/dL en 2 semanas, hematuria dismórfica con cilindros eritrocitarios, proteinuria 1.8 g/24 h, Hb 8.9 g/dL. Anti-MPO 120 U (alto), anti-PR3 negativo, anti-GBM negativo, C3 y C4 normales.",
+  "enunciado": "¿Qué hallazgo histológico renal es el esperado?",
+  "opciones": {
+   "A": "Depósito lineal de IgG a lo largo de la membrana basal glomerular, con semilunas",
+   "B": "Glomerulonefritis necrosante con semilunas pauci-inmune (inmunofluorescencia sin depósitos o escasos)",
+   "C": "Depósitos granulares de IgG y C3 «full-house» con proliferación endocapilar y semilunas",
+   "D": "Engrosamiento difuso de la membrana basal con espículas en la plata y depósitos subepiteliales con tinción granular de IgG",
+   "E": "Depósitos densos intramembranosos con predominio de C3 y dominancia mesangial, con semilunas"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El depósito lineal de IgG corresponde a la enfermedad anti-MBG, que aquí se descartó serológicamente.",
+   "B": "La vasculitis asociada a ANCA (poliangeítis microscópica con anti-MPO) produce una glomerulonefritis necrosante focal con semilunas y escasa o nula inmunofluorescencia (pauci-inmune). El pronóstico renal se estima con la clasificación de Berden (focal, crescéntica, mixta, esclerótica) y el ANCA Renal Risk Score (porcentaje de glomérulos normales, fibrosis tubulointersticial y TFG al diagnóstico).",
+   "C": "El patrón «full-house» con depósitos granulares es característico de nefritis lúpica, no de vasculitis ANCA.",
+   "D": "El engrosamiento con espículas corresponde a la nefropatía membranosa, sin semilunas ni necrosis.",
+   "E": "La dominancia de C3 con depósitos densos orienta a glomerulopatía C3/enfermedad de depósitos densos."
+  },
+  "perla": "ANCA: pauci-inmune ≠ ausencia de lesión; semilunas y necrosis. Berden (focal/crescéntica/mixta/esclerótica) y ARRS predicen desenlace renal.",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline. Kidney Int 2024;105(3S):S71-S116",
+   "Berden AE et al. J Am Soc Nephrol 2010;21:1628"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o11",
+  "peso": 87.6
+ },
+ {
+  "id": "ANCA-2",
+  "serie_id": "ANCA",
+  "orden": 2,
+  "sub": "9.d.4",
+  "subtema": "GN ANCA: inducción",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia muestra 55% de glomérulos con semilunas celulares, 20% con esclerosis global y fibrosis intersticial del 20%. Hay infiltrados alveolares escasos en la radiografía con SpO2 95% al aire ambiente, sin hipoxemia significativa. Creatinina 4.8 mg/dL sin necesidad de diálisis.",
+  "enunciado": "¿Cuál es el tratamiento de inducción más apropiado?",
+  "opciones": {
+   "A": "Azatioprina más prednisona como terapia de inducción, con vigilancia de la función renal y de la cuenta leucocitaria cada semana",
+   "B": "Micofenolato en monoterapia como inducción, con vigilancia de la función renal y de las infecciones oportunistas graves",
+   "C": "Prednisona oral en monoterapia 1 mg/kg/día, con reducción gradual durante 6 meses y sin otro inmunosupresor asociado al esquema",
+   "D": "Recambio plasmático como único tratamiento de inducción, repetido hasta normalizar la creatinina del paciente y la hematuria",
+   "E": "Pulsos de metilprednisolona y prednisona reducida, más rituximab o ciclofosfamida, con profilaxis contra Pneumocystis"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La azatioprina es un fármaco de mantenimiento; no es inducción adecuada en afección orgánica grave.",
+   "B": "El micofenolato solo se acepta en casos seleccionados como alternativa si no se pueden usar rituximab o ciclofosfamida, con mayor recaída; no es la opción de elección.",
+   "C": "Los esteroides solos son inadecuados en enfermedad renal grave: la remisión y la supervivencia renal requieren un agente de inducción.",
+   "D": "El recambio plasmático no sustituye a la inmunosupresión; la evidencia (PEXIVAS) no demuestra beneficio rutinario en el desenlace compuesto de muerte o enfermedad renal terminal.",
+   "E": "La inducción en vasculitis ANCA con afección renal grave es glucocorticoides más rituximab o ciclofosfamida. Los esquemas de glucocorticoides en dosis reducida (PEXIVAS) son tan eficaces como los de dosis alta con menos infecciones graves. Cuando la creatinina es >4 mg/dL puede combinarse rituximab con 2 pulsos de ciclofosfamida IV. Se administra profilaxis contra Pneumocystis jirovecii (TMP-SMX con ajuste a TFG) y se considera avacopan como alternativa para reducir la exposición a esteroides. El recambio plasmático no es rutinario: se considera con creatinina >3.4 mg/dL que requiera diálisis o con hemorragia alveolar con hipoxemia."
+  },
+  "perla": "Inducción ANCA grave: GC (dosis reducida PEXIVAS) + RTX o CFM; Cr >4 mg/dL: RTX + 2 pulsos CFM posible. Avacopan puede reemplazar GC. PJP profilaxis.",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline. Kidney Int 2024;105(3S):S71-S116",
+   "Walsh M et al. N Engl J Med 2020;382:622 (PEXIVAS)",
+   "Jayne DRW et al. N Engl J Med 2021;384:599 (ADVOCATE)"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 89.6
+ },
+ {
+  "id": "ANCA-3",
+  "serie_id": "ANCA",
+  "orden": 3,
+  "sub": "9.d.4",
+  "subtema": "GN ANCA: hemorragia alveolar y recambio plasmático",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En el día 5 presenta disnea con SpO2 84% al aire, Hb 6.7 g/dL, infiltrados alveolares bilaterales difusos y hemoptisis. La creatinina sube a 5.9 mg/dL con oliguria y se inicia hemodiálisis.",
+  "enunciado": "¿Qué medida adicional debe considerarse?",
+  "opciones": {
+   "A": "Suspender la inmunosupresión porque la dependencia de diálisis indica daño renal irreversible",
+   "B": "Aumentar la prednisona a 1.5 mg/kg/día y esperar la respuesta durante 2 semanas antes de considerar otras medidas adicionales",
+   "C": "Añadir recambio plasmático (hemorragia alveolar con hipoxemia y creatinina >3.4 mg/dL en diálisis) a la inmunosupresión y al soporte",
+   "D": "Inmunoglobulina IV como único tratamiento de la hemorragia alveolar, sin modificar la inmunosupresión previa",
+   "E": "Cambiar el tratamiento de inducción a micofenolato, por su menor riesgo de infecciones pulmonares graves"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La dependencia de diálisis al inicio no contraindica el tratamiento: parte de los pacientes recupera función renal, sobre todo con inducción adecuada, y la hemorragia alveolar es potencialmente mortal.",
+   "B": "Aumentar los esteroides eleva el riesgo infeccioso sin demostrar mayor beneficio; en PEXIVAS la dosis reducida fue no inferior.",
+   "C": "Las guías KDIGO 2024 sugieren considerar el recambio plasmático cuando la creatinina es >3.4 mg/dL con necesidad de diálisis o cuando hay hemorragia alveolar difusa con hipoxemia (certeza baja de evidencia, dada la neutralidad global de PEXIVAS). El régimen habitual es 7 sesiones en 14 días con reposición de albúmina (plasma fresco si hay hemorragia activa o necesidad de reponer factores). Se mantiene la inmunosupresión de inducción y se da soporte respiratorio.",
+   "D": "La inmunoglobulina IV no trata la hemorragia alveolar por ANCA como monoterapia.",
+   "E": "Cambiar a micofenolato en la fase más grave expone a un agente menos potente y no tiene sustento."
+  },
+  "perla": "PLEX en ANCA: considerar si Cr >3.4 mg/dL con diálisis o HAD con hipoxemia, y siempre en el solapamiento con anti-MBG. No es rutinario en el resto.",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline. Kidney Int 2024;105(3S):S71-S116",
+   "Walsh M et al. N Engl J Med 2020;382:622"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 77.5
+ },
+ {
+  "id": "ANCA-4",
+  "serie_id": "ANCA",
+  "orden": 4,
+  "sub": "9.d.4",
+  "subtema": "Vasculitis ANCA: mantenimiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tras rituximab, esteroides en esquema reducido y 7 sesiones de recambio, resuelve la hemorragia alveolar y sale de diálisis a la semana 5 (creatinina 2.2 mg/dL). A los 6 meses está en remisión clínica con prednisona 5 mg/día.",
+  "enunciado": "¿Cuál es el plan de mantenimiento recomendado?",
+  "opciones": {
+   "A": "Micofenolato 3 g/día de forma indefinida, sin esteroides ni otro inmunosupresor asociado",
+   "B": "Rituximab (500 mg cada 6 meses) o azatioprina con prednisona en dosis baja, durante 18 meses a 4 años",
+   "C": "Suspender todo el tratamiento al lograr la remisión a los 6 meses y vigilar los ANCA",
+   "D": "Prednisona 20 mg/día como único fármaco de mantenimiento, de forma indefinida",
+   "E": "Ciclofosfamida oral continua 2 mg/kg durante 2 años, con vigilancia mensual de la cuenta leucocitaria y de la función renal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El micofenolato es inferior a la azatioprina en mantenimiento (IMPROVE) y no se usa a esa dosis indefinida.",
+   "B": "Tras la inducción se recomienda mantenimiento con rituximab (preferible en enfermedad PR3, recaída previa, fragilidad o cuando se quiere limitar esteroides) o azatioprina más prednisona en dosis baja (MAINRITSAN mostró superioridad de rituximab sobre azatioprina). La duración sugerida es de 18 meses a 4 años, individualizada según riesgo de recaída (PR3, ANCA persistente, afección renal grave). Debe vigilarse hipogammaglobulinemia y vacunar según esquema.",
+   "C": "Suspender el tratamiento a los 6 meses se asocia con recaídas frecuentes; la enfermedad requiere mantenimiento prolongado.",
+   "D": "Los esteroides en dosis medias prolongadas causan morbilidad sin sustituir a un agente ahorrador.",
+   "E": "La ciclofosfamida continua acumula toxicidad (cistitis hemorrágica, cáncer, gonadal) y no se usa como mantenimiento."
+  },
+  "perla": "Mantenimiento ANCA: RTX (c/6 m) o AZA + pred baja; 18 m–4 años. RTX preferido en PR3, recaída, fragilidad. MMF peor que AZA (IMPROVE).",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline. Kidney Int 2024;105(3S):S71-S116",
+   "Guillevin L et al. N Engl J Med 2014;371:1771 (MAINRITSAN)",
+   "Hiemstra TF et al. JAMA 2010;304:2381 (IMPROVE)"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 87.6
+ },
+ {
+  "id": "GBM-1",
+  "serie_id": "GBM",
+  "orden": 1,
+  "sub": "9.d.5",
+  "subtema": "Enfermedad anti-MBG: diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Mujer de 24 años, fumadora, con 10 días de hemoptisis y disnea. TA 148/90 mmHg, SpO2 89%, Hb 7.9 g/dL, creatinina 3.8 mg/dL (hace un mes normal), hematuria dismórfica, proteinuria 1.5 g/24 h. Anti-GBM (ELISA) 120 U (alto) y anti-MPO positivo a título moderado.",
+  "enunciado": "¿Cuál es el diagnóstico y qué hallazgos confirman la enfermedad?",
+  "opciones": {
+   "A": "Síndrome nefrótico por GEFS con hemoptisis, sin depósitos inmunes y con borramiento podocitario difuso",
+   "B": "GN posinfecciosa con edema pulmonar; humps subepiteliales y C3 bajo en la biopsia renal, por infección previa reciente",
+   "C": "Nefritis lúpica con hemorragia alveolar; IF «full-house» con depósitos granulares de IgG, IgA, IgM y C3",
+   "D": "Vasculitis ANCA pura: el anti-GBM positivo es un hallazgo inespecífico sin significado diagnóstico ni patogénico",
+   "E": "Enfermedad anti-MBG con doble positividad ANCA; IF con depósito lineal de IgG en la MBG, dirigido al dominio NC1 de la cadena α3"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La GEFS no causa hemorragia alveolar ni glomerulonefritis rápidamente progresiva.",
+   "B": "La glomerulonefritis posinfecciosa muestra depósitos granulares con humps subepiteliales y complemento bajo.",
+   "C": "La nefritis lúpica muestra depósitos granulares «full-house» y serología lúpica, no depósitos lineales.",
+   "D": "El anti-GBM por ELISA tiene alta especificidad; su positividad define enfermedad anti-MBG aunque haya ANCA.",
+   "E": "El síndrome pulmón-riñón con anti-GBM positivo establece la enfermedad anti-membrana basal glomerular: autoanticuerpos IgG contra el dominio NC1 de la cadena α3 del colágeno IV (antígeno de Goodpasture), con depósito lineal de IgG (a veces C3) en la membrana basal glomerular y alveolar, y glomerulonefritis con semilunas. El tabaquismo y la exposición a hidrocarburos favorecen la hemorragia pulmonar. Cerca de 30% tiene anticuerpos ANCA simultáneos (sobre todo anti-MPO), lo que condiciona un curso con recaídas del componente ANCA."
+  },
+  "perla": "Anti-MBG: IgG lineal, antígeno α3(IV) NC1; ~30% doble positivo (ANCA-MPO). Hemorragia pulmonar más probable con tabaco/hidrocarburos/infección. Biopsia con IF para confirmar.",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline (solapamiento anti-GBM). Kidney Int 2024;105(3S):S71-S116",
+   "McAdoo SP, Pusey CD. Clin J Am Soc Nephrol 2017;12:1162"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o11",
+  "peso": 70.1
+ },
+ {
+  "id": "GBM-2",
+  "serie_id": "GBM",
+  "orden": 2,
+  "sub": "9.d.5",
+  "subtema": "Enfermedad anti-MBG: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia muestra semilunas celulares en 80% de los glomérulos con IF lineal intensa de IgG. Persiste hemorragia alveolar con SpO2 88%; creatinina 4.2 mg/dL sin diálisis aún.",
+  "enunciado": "¿Cuál es el tratamiento inicial más apropiado?",
+  "opciones": {
+   "A": "Solo medidas de soporte y observación por la posibilidad de resolución espontánea de la enfermedad antimembrana basal glomerular",
+   "B": "Pulsos de metilprednisolona en monoterapia, sin recambio plasmático ni inmunosupresor adicional",
+   "C": "Recambio plasmático diario hasta anti-GBM indetectable, con ciclofosfamida y glucocorticoides, y abandono del tabaco",
+   "D": "Rituximab en monoterapia como tratamiento de inducción, sin recambio plasmático ni ciclofosfamida",
+   "E": "Micofenolato más prednisona como esquema de inducción, sin recambio plasmático ni ciclofosfamida"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La enfermedad anti-MBG progresa rápidamente a enfermedad renal terminal y puede causar muerte por hemorragia pulmonar; no se debe observar.",
+   "B": "Sin retirar el anticuerpo circulante y sin agente citotóxico, el tratamiento con esteroides solos es insuficiente.",
+   "C": "El tratamiento estándar de la enfermedad anti-MBG es recambio plasmático (diario o en días alternos, ~14 sesiones o hasta que el anticuerpo sea indetectable) para retirar el anticuerpo circulante, más ciclofosfamida (≈ 3 meses) y glucocorticoides para detener su síntesis. Debe evitarse el tabaco y otros desencadenantes pulmonares. Como hay positividad ANCA concomitante, el componente ANCA requiere mantenimiento posterior como en las vasculitis. El pronóstico renal depende de la creatinina al inicio y del porcentaje de semilunas; el inicio temprano es decisivo.",
+   "D": "El rituximab es una opción de rescate o en intolerancia a ciclofosfamida, no el esquema inicial establecido.",
+   "E": "El micofenolato carece de evidencia de eficacia como inducción en la enfermedad anti-MBG."
+  },
+  "perla": "Anti-MBG: PLEX diario + CFM (≈3 m) + prednisona; monitorizar anti-GBM. Solapamiento ANCA: mantener como vasculitis (RTX/AZA). Pronóstico renal: Cr y % semilunas al inicio.",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline. Kidney Int 2024;105(3S):S71-S116",
+   "Levy JB et al. Ann Intern Med 2001;134:1033"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 72.1
+ },
+ {
+  "id": "GBM-3",
+  "serie_id": "GBM",
+  "orden": 3,
+  "sub": "9.d.5",
+  "subtema": "Enfermedad anti-MBG: pronóstico y trasplante",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A los 6 meses cesó la hemorragia alveolar, el anti-GBM es indetectable, la paciente depende de hemodiálisis (creatinina previa 6.5 mg/dL, 100% de semilunas con fibrosis) y está sin tratamiento inmunosupresor activo salvo mantenimiento ANCA con rituximab. Pregunta por el trasplante renal.",
+  "enunciado": "¿Cuál es la recomendación sobre el trasplante?",
+  "opciones": {
+   "A": "Esperar remisión serológica sostenida con anti-GBM indetectable al menos 6 meses (y control del componente ANCA) antes de trasplantar",
+   "B": "Trasplantar de inmediato porque el anticuerpo ya es indetectable y el riesgo de recurrencia es nulo",
+   "C": "Contraindicar de forma definitiva el trasplante por riesgo de recurrencia de la enfermedad en el injerto renal",
+   "D": "Trasplantar solo con donante vivo HLA idéntico, porque disminuye la recurrencia de la enfermedad",
+   "E": "Repetir el recambio plasmático cada mes de manera profiláctica hasta el trasplante, para mantener indetectable el anticuerpo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La recurrencia de enfermedad anti-MBG en el injerto es rara cuando el anticuerpo es indetectable al trasplantar; por ello se recomienda diferir el trasplante hasta mantener anti-GBM indetectable durante al menos 6 meses (y la enfermedad ANCA en remisión). Con dependencia de diálisis y 100% de semilunas con fibrosis el riñón nativo no se recupera, de modo que se suspende la inmunosupresión citotóxica para la enfermedad anti-MBG tras el periodo inicial, salvo necesidades de otro componente (ANCA) o hemorragia pulmonar.",
+   "B": "El trasplante con anticuerpos recién indetectables sin periodo de espera de ≥6 meses aumenta el riesgo de recurrencia.",
+   "C": "El trasplante no está contraindicado; los resultados son buenos cuando el anticuerpo está indetectable.",
+   "D": "El tipo de donante no modifica el riesgo de recurrencia; la condición es la remisión serológica.",
+   "E": "El recambio plasmático profiláctico mensual no tiene indicación en ausencia de anticuerpo detectable."
+  },
+  "perla": "Anti-MBG y trasplante: esperar anti-GBM indetectable ≥6 m; recurrencia rara si indetectable. Sin recuperación renal si diálisis + 100% semilunas, salvo hemorragia pulmonar.",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline. Kidney Int 2024;105(3S):S71-S116",
+   "Levy JB et al. Ann Intern Med 2001;134:1033"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 60.0
+ },
+ {
+  "id": "ANB-1",
+  "serie_id": "ANB",
+  "orden": 1,
+  "sub": "9.d.4",
+  "subtema": "Vasculitis ANCA con fibrosis pulmonar: manejo inicial",
+  "dificultad": "dificil",
+  "caso": "Hombre de 66 años con fibrosis pulmonar intersticial conocida, que consulta por epistaxis recurrente, fiebre, artralgias y astenia de 4 semanas. Cr 3.2 mg/dL (hace 1 mes 1.2), hematuria con cilindros eritrocitarios y proteinuria 1.5 g/24 h. Hb 9.1 g/dL. Radiografía con infiltrado intersticial sin consolidación nueva.",
+  "enunciado": "¿Cuál es la conducta inicial más adecuada?",
+  "opciones": {
+   "A": "Enviar ANCA, anti-MBG y complemento e iniciar metilprednisolona en bolos sin esperar, por sospecha de GNRP vasculítica; biopsia renal pronto",
+   "B": "Plasmaféresis diaria de entrada, sin estudio serológico previo, por la gravedad de la afección pulmonar y renal del paciente y la sospecha de anti-MBG",
+   "C": "Esperar el resultado de la biopsia antes de cualquier tratamiento inmunosupresor, para no alterar los hallazgos histológicos",
+   "D": "Iniciar solo antibióticos de amplio espectro por posible neumonía, y reevaluar la función renal en una semana",
+   "E": "Iniciar ciclofosfamida oral sin serología ni biopsia previa, por la rapidez del deterioro de la función renal"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Una GN rápidamente progresiva con cilindros eritrocitarios y manifestaciones sistémicas (epistaxis, artralgias, pulmón) sugiere vasculitis asociada a ANCA. Es una emergencia nefrológica: el retraso en el tratamiento se asocia con pérdida irreversible de nefronas. Se toman las muestras (ANCA por inmunoensayo para PR3 y MPO, anti-MBG, ANA, complemento, crioglobulinas, hepatitis B y C) y se inician pulsos de metilprednisolona (500 a 1000 mg por 3 días) sin esperar, con biopsia renal en cuanto sea posible, y después se completa la inducción (rituximab o ciclofosfamida).",
+   "B": "La plasmaféresis no se inicia de entrada sin estudio ni indicación clara.",
+   "C": "Esperar la biopsia retrasa un tratamiento que no debe demorarse.",
+   "D": "Los antibióticos solos no tratan una vasculitis.",
+   "E": "No se inicia ciclofosfamida sin serología ni biopsia, aunque los esteroides sí pueden empezar."
+  },
+  "perla": "GNRP + síntomas sistémicos: tomar ANCA/anti-MBG y empezar pulsos de metilprednisolona sin esperar; biopsia para confirmar.",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline. Kidney Int 2024;105(3S)",
+   "Walsh M et al. N Engl J Med 2020;382:622 (PEXIVAS)"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o11",
+  "peso": 77.5
+ },
+ {
+  "id": "ANB-2",
+  "serie_id": "ANB",
+  "orden": 2,
+  "sub": "9.d.4",
+  "subtema": "Especificidad del ANCA: PR3 vs MPO",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Para completar el abordaje diagnóstico, el laboratorio puede realizar inmunofluorescencia indirecta y ensayos específicos. El paciente tiene fibrosis pulmonar y no tiene sinusitis crónica ni granulomas.",
+  "enunciado": "¿Cuál es el estudio para completar el diagnóstico y el antígeno más probable?",
+  "opciones": {
+   "A": "Factor reumatoide; es más probable MPO-ANCA por la fibrosis pulmonar y la edad avanzada",
+   "B": "Inmunoensayo específico para PR3 y MPO; es más probable MPO-ANCA, asociado a edad avanzada y enfermedad intersticial",
+   "C": "Anti-dsDNA y complemento sérico; es más probable PR3-ANCA, asociado a granulomatosis con poliangeítis y a afección sinusal",
+   "D": "Solo la inmunofluorescencia indirecta; un patrón c-ANCA indica MPO y no requiere más estudios",
+   "E": "Anti-PLA2R sérico; es más probable PR3-ANCA, asociado a sinusitis crónica y a granulomas"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El factor reumatoide no discrimina entre PR3 y MPO.",
+   "B": "El diagnóstico serológico se confirma con inmunoensayos específicos (ELISA, quimioluminiscencia) para PR3 y MPO, que superan a la IFI en especificidad. La poliangeítis microscópica y la GN pauci-inmune se asocian con MPO-ANCA (patrón perinuclear), más frecuente en adultos mayores y con enfermedad pulmonar intersticial (patrón de neumonía intersticial usual). La granulomatosis con poliangeítis se asocia con PR3-ANCA (patrón citoplasmático), con enfermedad sinusal y respiratoria granulomatosa, y mayor riesgo de recaída. Los fenotipos clínicos se correlacionan mejor con el antígeno que con el diagnóstico clásico.",
+   "C": "El anti-dsDNA es de lupus.",
+   "D": "El c-ANCA se asocia a PR3, no a MPO.",
+   "E": "El anti-PLA2R se relaciona con membranosa."
+  },
+  "perla": "MPO-ANCA (p-ANCA): PAM, ancianos, fibrosis pulmonar, riñón. PR3-ANCA (c-ANCA): GPA, sinusitis, granulomas, más recaídas. Usar inmunoensayo específico.",
+  "referencias": [
+   "KDIGO 2024 ANCA Vasculitis Guideline. Kidney Int 2024;105(3S)",
+   "Jennette JC, Nachman PH. Clin J Am Soc Nephrol 2017;12:1680"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 87.6
+ },
+ {
+  "id": "ANB-3",
+  "serie_id": "ANB",
+  "orden": 3,
+  "sub": "9.d.4",
+  "subtema": "Avacopan en la inducción",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "MPO-ANCA 120 U/mL, anti-MBG negativo. La biopsia muestra necrosis fibrinoide y semilunas en 55% de los glomérulos, con IF pauci-inmune. La Cr es de 4.0 mg/dL (TFGe 14). El equipo desea reducir la exposición a glucocorticoides, dado su riesgo de infección por fibrosis pulmonar.",
+  "enunciado": "¿Cuál es la estrategia con mejor sustento?",
+  "opciones": {
+   "A": "Eculizumab como inducción, por su bloqueo de la vía terminal del complemento en la vasculitis con semilunas extensas",
+   "B": "Rituximab o ciclofosfamida con glucocorticoides a dosis reducida, o con avacopan 30 mg dos veces al día para reducir el esteroide",
+   "C": "Avacopan en monoterapia, sin rituximab ni ciclofosfamida, por ser menos tóxico que la inmunosupresión convencional",
+   "D": "Observación con IECA y vigilancia de la creatinina, por ser una enfermedad limitada al riñón con respuesta espontánea",
+   "E": "Inmunoglobulina intravenosa como único fármaco de inducción, por su menor riesgo de infecciones y de toxicidad"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El eculizumab no es tratamiento de vasculitis ANCA.",
+   "B": "La inducción de remisión se basa en rituximab o ciclofosfamida más glucocorticoides. PEXIVAS mostró que un esquema reducido de glucocorticoides no es inferior al estándar con menos infecciones graves. El ensayo ADVOCATE demostró que avacopan (antagonista del receptor C5a) sustituyendo el esquema de prednisona fue no inferior a las 26 semanas y superior a las 52 en remisión sostenida, con mejor recuperación de la TFGe; se asocia a elevación de enzimas hepáticas y se vigila el hígado. Su experiencia es limitada con TFGe <15, por lo que se evalúa de forma individualizada.",
+   "C": "El avacopan se estudió junto con rituximab o ciclofosfamida, no en monoterapia.",
+   "D": "Sin inmunosupresión la GN pauci-inmune con semilunas evoluciona a ERC terminal.",
+   "E": "La IgIV no sustituye a la inmunosupresión."
+  },
+  "perla": "ANCA: RTX o CYC + GC reducido; avacopan (anti-C5aR) permite menos esteroide (ADVOCATE); nunca en monoterapia; vigilar hígado.",
+  "referencias": [
+   "Jayne DRW et al. N Engl J Med 2021;384:599 (ADVOCATE)",
+   "Walsh M et al. N Engl J Med 2020;382:622 (PEXIVAS)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 77.5
+ },
+ {
+  "id": "ANB-4",
+  "serie_id": "ANB",
+  "orden": 4,
+  "sub": "9.d.4",
+  "subtema": "Patogenia de la vasculitis ANCA",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El residente pregunta por qué la biopsia es pauci-inmune si la enfermedad es autoinmune.",
+  "enunciado": "¿Cuál es el mecanismo patogénico principal?",
+  "opciones": {
+   "A": "ANCA activan neutrófilos primados (enzimas, radicales, NET) y la vía alterna del complemento (C5a); sin depósitos inmunes",
+   "B": "Anticuerpos contra el dominio NC1 de la cadena α3 del colágeno IV que se depositan de forma lineal en la membrana basal glomerular",
+   "C": "Depósito de inmunocomplejos circulantes en la membrana basal glomerular, con activación de la vía clásica del complemento sérico",
+   "D": "Depósito de IgA1 con galactosa deficiente y formación de inmunocomplejos que se depositan en el mesangio",
+   "E": "Anticuerpos anti-PLA2R que se unen al podocito, activan el complemento y forman depósitos subepiteliales granulares"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la vasculitis ANCA, los autoanticuerpos contra PR3 o MPO activan neutrófilos previamente primados (por TNF o infecciones) con degranulación, estallido respiratorio y formación de trampas extracelulares (NET), que lesionan el endotelio. La activación de la vía alterna del complemento por C5a amplifica el reclutamiento y la activación de neutrófilos (base de avacopan). Como no hay depósito significativo de inmunoglobulina ni complemento en el tejido, el patrón de IF es pauci-inmune. Clínicamente se asocian manifestaciones extrarrenales como sinusitis, escleritis o uveítis, hemorragia alveolar y neuropatía.",
+   "B": "Es la patogenia de la enfermedad anti-MBG.",
+   "C": "Es la patogenia de las glomerulonefritis por inmunocomplejos.",
+   "D": "Es la patogenia de la nefropatía por IgA.",
+   "E": "Es la patogenia de la membranosa primaria."
+  },
+  "perla": "Pauci-inmune: ANCA activan neutrófilos primados (NET) + vía alterna (C5a) sin depósitos inmunes. Antígenos: PR3/MPO; anti-MBG: α3 NC1; IgAN: Gd-IgA1.",
+  "referencias": [
+   "Jennette JC, Nachman PH. Clin J Am Soc Nephrol 2017;12:1680",
+   "Jayne DRW et al. N Engl J Med 2021;384:599"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 75.5
+ },
+ {
+  "id": "AGB-1",
+  "serie_id": "AGB",
+  "orden": 1,
+  "sub": "9.d.5",
+  "subtema": "Hemorragia alveolar en la enfermedad anti-MBG: factores desencadenantes y estudios",
+  "dificultad": "dificil",
+  "caso": "Hombre de 22 años, fumador de 10 cigarrillos al día y trabajador de un taller con solventes (hidrocarburos), con una semana de hemoptisis, disnea y fatiga tras un cuadro gripal. Hemoglobina de 7.5 g/dL, creatinina de 4.1 mg/dL, hematuria dismórfica, proteinuria de 1.2 g/24 h, infiltrados alveolares bilaterales en la radiografía y anticuerpos anti-MBG (ELISA) positivos. La espirometría muestra DLCO elevada (130% del esperado).",
+  "enunciado": "¿Qué afirmación sobre la hemorragia alveolar de este paciente es correcta?",
+  "opciones": {
+   "A": "La hemorragia alveolar solo ocurre con anticuerpos ANCA, y no con anti-MBG, por la distribución tisular distinta del antígeno",
+   "B": "Requiere un 2.º factor (tabaco, hidrocarburos, infección) que expone el antígeno α3; el DLCO sube por captura de CO",
+   "C": "La hemorragia alveolar nunca se asocia con factores ambientales y se debe solo a la presencia del anticuerpo circulante",
+   "D": "El tabaquismo no influye, porque el antígeno alveolar siempre está expuesto al anticuerpo circulante desde el inicio",
+   "E": "El DLCO disminuye por la hemorragia alveolar, por lo que un DLCO de 130% descarta el diagnóstico de enfermedad anti-MBG"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La hemorragia alveolar ocurre con anti-MBG, con ANCA o con ambos, y no solo con ANCA.",
+   "B": "En la enfermedad anti-MBG, el antígeno diana (el dominio NC1 de la cadena α3 del colágeno IV) está oculto en el alvéolo normal; la hemorragia pulmonar aparece cuando un daño alveolar adicional (tabaquismo, inhalación de hidrocarburos o solventes, infección respiratoria, sobrecarga de líquidos, oxígeno en concentración alta o cocaína inhalada) lo expone al anticuerpo circulante, por eso la mayoría de los pacientes con hemorragia pulmonar fuma o tiene una exposición. El DLCO está aumentado durante la hemorragia reciente porque la hemoglobina libre en el alvéolo captura el monóxido de carbono, y es un dato que apoya la hemorragia alveolar activa. Se suspende el tabaco y se evitan los solventes, lo cual se asocia con menos recaídas y menor riesgo de hemorragia.",
+   "C": "Los factores ambientales (tabaco, hidrocarburos, infección) son necesarios para exponer el antígeno alveolar.",
+   "D": "El antígeno alveolar está oculto en condiciones normales, y el tabaquismo contribuye a su exposición.",
+   "E": "El DLCO aumenta con la hemorragia alveolar reciente, y no se descarta el diagnóstico."
+  },
+  "perla": "Anti-MBG: hemorragia pulmonar requiere segundo golpe (tabaco, hidrocarburos, infección, O2, cocaína) que expone α3(IV) NC1; DLCO ↑ en hemorragia reciente; suspender tabaco/solventes.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (enfermedad anti-MBG)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o11",
+  "peso": 31.8
+ },
+ {
+  "id": "AGB-2",
+  "serie_id": "AGB",
+  "orden": 2,
+  "sub": "9.d.5",
+  "subtema": "Enfermedad anti-MBG: pronóstico renal por la presentación y cuándo no inmunosuprimir",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente recibe recambio plasmático diario, ciclofosfamida y metilprednisolona, con control de la hemorragia pulmonar. Otro paciente, de 55 años, sin hemoptisis, ingresa con anuria y creatinina de 9.8 mg/dL que requiere diálisis desde el ingreso; la biopsia muestra 100% de glomérulos con semilunas celulares y fibrosas, sin glomérulos normales, y anti-MBG de 150 U.",
+  "enunciado": "¿Qué conducta se recomienda para el segundo paciente?",
+  "opciones": {
+   "A": "Iniciar siempre recambio plasmático y ciclofosfamida, sin importar el pronóstico renal ni la presencia de diálisis al momento del ingreso",
+   "B": "Suspender la diálisis y dar solo prednisona, porque la recuperación renal es posible aun con semilunas totales",
+   "C": "Iniciar rituximab como único tratamiento de rescate, porque el recambio plasmático no tiene eficacia en esta entidad inmunológica",
+   "D": "Realizar nefrectomía bilateral urgente para eliminar el antígeno glomerular y detener la producción del anticuerpo circulante",
+   "E": "Con diálisis, 100% de semilunas y sin hemorragia pulmonar no se inicia recambio ni inmunosupresión (supervivencia renal ≈8%)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El tratamiento intensivo sin considerar el pronóstico expone al paciente a toxicidad sin posibilidad de beneficio renal.",
+   "B": "La diálisis está indicada por la anuria, y los esteroides solos no ofrecen beneficio.",
+   "C": "El rituximab no es un tratamiento de rescate establecido en el anti-MBG, y no cambia el pronóstico renal en este escenario.",
+   "D": "La nefrectomía no está indicada, y no mejora el desenlace.",
+   "E": "El pronóstico renal de la enfermedad anti-MBG depende de la gravedad de la presentación: en la serie de Levy (Ann Intern Med 2001), con creatinina inicial menor de 5.7 mg/dL la supervivencia renal al año fue de 95%, con creatinina mayor sin diálisis inmediata fue de 82%, y con diálisis inmediata fue de 8% (supervivencia del paciente de 65%). Por eso KDIGO 2021 sugiere no administrar inmunosupresión a los pacientes dependientes de diálisis al ingreso con 100% de semilunas (o más de 50% de glomeruloesclerosis global) y sin hemorragia pulmonar, porque la recuperación renal es muy improbable y la toxicidad (infecciones) es alta; la hemorragia pulmonar sí justifica el tratamiento intensivo aun en dependencia de diálisis. Se inicia diálisis crónica y se planifica el trasplante cuando el anti-MBG sea indetectable."
+  },
+  "perla": "Anti-MBG: Cr <5.7 → SR renal 95%; Cr >5.7 sin diálisis 82%; diálisis al ingreso 8%. Diálisis al ingreso + 100% semilunas + sin hemorragia pulmonar → no inmunosupresión (KDIGO); la hemorragia pulmonar sí se trata.",
+  "referencias": [
+   "Levy JB et al. Ann Intern Med 2001;134:1033",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 31.8
+ },
+ {
+  "id": "AGB-3",
+  "serie_id": "AGB",
+  "orden": 3,
+  "sub": "9.d.5",
+  "subtema": "Anti-MBG: duración del tratamiento, doble positividad con ANCA y terapias en investigación",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El primer paciente (22 años) recupera diuresis, la creatinina baja a 2.2 mg/dL y los anti-MBG se negativizan tras 14 recambios. Tiene además anticuerpos anti-MPO positivos a título moderado. El residente pregunta cuánto durará la inmunosupresión y si hay terapias nuevas.",
+  "enunciado": "¿Cuál es la respuesta correcta?",
+  "opciones": {
+   "A": "Se debe mantener inmunosupresión de por vida en todos los casos de anti-MBG, por el alto riesgo de recaída tardía y recurrente",
+   "B": "La doble positividad con ANCA no cambia el manejo, y no requiere mantenimiento tras el tratamiento inicial",
+   "C": "Imlifidase es el tratamiento estándar aprobado y reemplaza al recambio plasmático en todos los casos de enfermedad anti-MBG",
+   "D": "Anti-MBG aislada es monofásica (≈6 meses); con ANCA se mantiene rituximab o azatioprina, e imlifidase aún es experimental",
+   "E": "La enfermedad anti-MBG recurre de forma habitual cada año, por lo que requiere ciclofosfamida cíclica permanente y vigilancia"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La enfermedad anti-MBG es monofásica, y no requiere inmunosupresión de por vida.",
+   "B": "La doble positividad modifica el seguimiento, porque conlleva riesgo de recaída tipo vasculitis ANCA.",
+   "C": "El imlifidase aún está en investigación y no sustituye al recambio plasmático en las guías.",
+   "D": "La enfermedad anti-MBG es típicamente monofásica: el esquema estándar (recambio plasmático diario durante 14 días o hasta que el anti-MBG sea indetectable, ciclofosfamida de 2 a 3 meses y prednisona en reducción hasta 6 meses) se completa sin necesidad de mantenimiento, y las recaídas son raras (suelen asociarse con tabaquismo o exposiciones). En los pacientes con doble positividad (anti-MBG y ANCA, cerca de 30% de los casos), la evolución renal sigue la del anti-MBG, pero hay un riesgo de recaída de tipo vasculitis ANCA, por lo que se considera un mantenimiento (rituximab o azatioprina) y se sigue el ANCA. El imlifidase (IdeS), una enzima que escinde la IgG y neutraliza rápidamente los anticuerpos anti-MBG, se ha evaluado en estudios de fase 2 con resultados prometedores, pero sigue siendo una terapia en investigación que no sustituye al recambio plasmático en las guías.",
+   "E": "Las recaídas de la enfermedad anti-MBG son poco frecuentes, y no hay ciclofosfamida permanente."
+  },
+  "perla": "Anti-MBG aislada: monofásica → PEX + ciclofosfamida 2–3 m + prednisona 6 m, sin mantenimiento; doble positivo ANCA: riesgo de recaída tipo ANCA → mantenimiento (RTX/AZA); imlifidase = investigación (fase 2).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Uhlin F et al. J Am Soc Nephrol 2022;33:829 (imlifidase en anti-MBG)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o11",
+  "peso": 31.8
+ }
+]

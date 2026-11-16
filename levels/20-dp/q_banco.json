@@ -1,0 +1,2448 @@
+[
+ {
+  "id": "DP-1",
+  "serie_id": "DP",
+  "orden": 1,
+  "tema": "Diálisis peritoneal",
+  "subtema": "Adecuación y prescripción",
+  "dificultad": "moderada",
+  "caso": "Mujer de 38 años con ERC por nefropatía lúpica inactiva, en diálisis peritoneal automatizada (DPA) desde hace 8 meses: 5 ciclos nocturnos de 2 L (10 L/noche) con dextrosa al 1.5%, abdomen seco de día. Diuresis residual 100 mL/día. Presenta edema, TA 160/100 mmHg, ultrafiltración de 350 mL/día y Kt/V total semanal de 1.5. El PET (4 h) muestra D/P creatinina 0.45.",
+  "continuacion": "",
+  "enunciado": "¿Cuál es el ajuste más adecuado de la prescripción?",
+  "opciones": {
+   "A": "Transferir a hemodiálisis de inmediato, porque la diálisis peritoneal ya no es suficiente para la paciente",
+   "B": "Mantener la prescripción y solo restringir líquidos y sal, con control del peso en la consulta",
+   "C": "Cambiar a dextrosa al 1.5% únicamente, para disminuir la absorción de glucosa y de calorías",
+   "D": "Aumentar el número de ciclos nocturnos con permanencias aún más cortas, hasta 8 ciclos",
+   "E": "Agregar un recambio diurno de larga permanencia y aumentar el volumen de llenado según la tolerancia"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Cambiar de modalidad es prematuro: todavía existen ajustes de la prescripción que no se han utilizado.",
+   "B": "Las restricciones ayudan, pero no resuelven un Kt/V inadecuado causado por la prescripción.",
+   "C": "Disminuir la glucosa reduce aún más la ultrafiltración y empeora el edema y la hipertensión.",
+   "D": "Es lo indicado para transportadores rápidos (altos). En lentos, los ciclos cortos agravan la baja depuración de solutos.",
+   "E": "Un D/P creatinina de 0.45 corresponde a transporte bajo (lento): la creatinina equilibra muy lentamente, por lo que requiere permanencias largas y mayor volumen de llenado. Los ciclos cortos de DPA no permiten equilibrio y el Kt/V cae (1.5 < meta ≈ 1.7 total semanal). Lo apropiado es una DPA con día húmedo (último llenado diurno) o aumento del volumen, con menos ciclos y mayor tiempo de permanencia. Los transportadores lentos tienen buena UF pero poco aclaramiento de solutos; por ello también se adecúa la concentración de glucosa a los objetivos de volumen."
+  },
+  "perla": "PET: D/P creat 4 h: bajo <0.50, bajo-promedio 0.50-0.64, alto-promedio 0.65-0.80, alto >0.81. Lento → permanencias largas/volumen alto (CAPD, DPA con día húmedo). Rápido → ciclos cortos (DPA) o icodextrina.",
+  "referencias": [
+   "ISPD Guidelines on Peritoneal Dialysis Adequacy 2020",
+   "Comprehensive Clinical Nephrology (cap. Diálisis peritoneal)"
+  ],
+  "origen": [
+   "Belen26",
+   "Alan26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "20.a",
+  "tema_id": 20,
+  "obj": "20.o2",
+  "peso": 84.6
+ },
+ {
+  "id": "DP-2",
+  "serie_id": "DP",
+  "orden": 2,
+  "tema": "Diálisis peritoneal",
+  "subtema": "Falla de ultrafiltración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Con la prescripción ajustada se controla el cuadro durante 6 años (CAPD con 4 recambios de 2.5 L). Ahora refiere edema recurrente y aumento de peso. No hay fugas, la posición del catéter es adecuada y la ingesta de sal y líquidos es adecuada. En un test con bolsa de dextrosa al 4.25% (2 L) la UF neta a 4 horas es de 250 mL; D/P creatinina a 4 horas 0.62; el descenso del sodio del dializado (D/P Na) a los 60 minutos es de 0.01.",
+  "enunciado": "¿Cuál es el diagnóstico y el mecanismo más probable?",
+  "opciones": {
+   "A": "No hay falla de ultrafiltración: la UF de 250 mL está dentro del rango normal para dextrosa de 4.25%",
+   "B": "Falla de ultrafiltración por disfunción de acuaporina-1 (menor conductancia osmótica; tipo IV en la numeración más usada)",
+   "C": "Falla de ultrafiltración tipo I por superficie peritoneal efectiva aumentada, con disipación rápida del gradiente osmótico",
+   "D": "Falla de ultrafiltración tipo II por reducción de la superficie peritoneal efectiva (adherencias o esclerosis)",
+   "E": "Falla de ultrafiltración por reabsorción linfática aumentada (tipo III), con transporte de solutos normal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "UF neta <400 mL a 4 h con 4.25% se define como falla de UF; 250 mL es insuficiente.",
+   "B": "Se define falla de UF como UF neta <400 mL tras 4 horas de permanencia con glucosa 4.25% (2 L). El transporte de solutos conservado (D/P 0.62), con ausencia de la caída esperada del sodio dializado a los 60 minutos (la dip debe ser ≥0.03 por el paso de agua libre por la acuaporina-1), indica disfunción del transporte transcelular de agua (acuaporina-1; tipo IV en la numeración más usada, aunque la numeración de los tipos III y IV varía entre fuentes y lo que importa es el mecanismo). Ocurre con el tiempo en DP y se asocia a la exposición prolongada a glucosa.",
+   "C": "En el tipo I el D/P de creatinina es alto (>0.8) con una caída del gradiente de glucosa, y el sodium sieving suele ser normal; aquí D/P es 0.62.",
+   "D": "En el tipo II el transporte de solutos y de agua es bajo (D/P creatinina bajo) por pérdida de la superficie efectiva. Aquí hay transporte promedio.",
+   "E": "La reabsorción linfática aumentada (tipo III en la numeración más usada) se confirma con marcadores de volumen (p. ej., dextrano) y no explica la ausencia de sodium sieving."
+  },
+  "perla": "Mini-PET: sodium sieving normal = caída D/P Na ≥0.03 a 60 min; <0.03 → disfunción de AQP-1. Tipos: I (alto transporte), II (superficie baja), III (AQP-1), IV (linfáticos).",
+  "referencias": [
+   "Mujais S et al. Perit Dial Int 2000;20(Suppl 4):S5",
+   "ISPD Guidelines on PD Adequacy 2020",
+   "Smit W et al. Kidney Int 2004 (mini-PET)"
+  ],
+  "origen": [
+   "Belen26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "20.a",
+  "tema_id": 20,
+  "obj": "20.o4",
+  "peso": 86.6
+ },
+ {
+  "id": "DP-3",
+  "serie_id": "DP",
+  "orden": 3,
+  "tema": "Diálisis peritoneal",
+  "subtema": "Soluciones: icodextrina",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Con el diagnóstico establecido, se decide modificar la solución de la permanencia larga. La paciente tiene además diabetes mellitus tipo 2 que se vigila con glucómetro capilar.",
+  "enunciado": "¿Cuál es la intervención y el mecanismo por el que mejora la ultrafiltración?",
+  "opciones": {
+   "A": "Dextrosa al 4.25% en todos los recambios para aumentar el gradiente osmótico, a través de acuaporinas",
+   "B": "Aminoácidos al 1.1% en todos los recambios, que producen ultrafiltración por ósmosis a través de poros grandes",
+   "C": "Icodextrina al 7.5% en la permanencia larga: actúa exclusivamente a través de acuaporina-1, igual que la glucosa",
+   "D": "Icodextrina al 7.5% en la permanencia larga: ultrafiltración por ósmosis coloidal a través de poros pequeños",
+   "E": "Solución con bajo contenido de calcio, que aumenta el gradiente osmótico a través de poros grandes"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Aumenta la UF solo transitoriamente, acelera el daño de la membrana, la absorción de glucosa y la dislipidemia; no resuelve una disfunción de AQP-1.",
+   "B": "La solución de aminoácidos se usa para nutrición (1 recambio al día); su capacidad de UF es limitada.",
+   "C": "La glucosa (cristaloide) genera UF principalmente por el canal acuaporina-1 (~50% del agua); la icodextrina actúa por ósmosis coloidal en poros pequeños.",
+   "D": "La icodextrina es un polímero de glucosa (7.5%) que genera presión coloidosmótica a través de los poros pequeños, manteniendo gradiente por 8-16 horas (permanencia larga nocturna en CAPD o diurna en DPA), sin depender de la acuaporina-1: por eso es eficaz en falla de UF tipo III o en transportadores altos. Importante: su metabolito maltosa interfiere con glucómetros que usan GDH-PQQ y da lecturas falsamente elevadas con riesgo de hipoglucemia no detectada en diabéticos; se deben usar métodos específicos para glucosa (glucosa oxidasa/GDH-FAD).",
+   "E": "El bajo calcio no genera gradiente osmótico relevante."
+  },
+  "perla": "Icodextrina: poros pequeños, coloidosmosis, 8-16 h, útil con alto transporte y falla tipo III; interferencia con glucómetros GDH-PQQ (falsa glucosa elevada).",
+  "referencias": [
+   "ISPD Guidelines on PD Adequacy 2020",
+   "Comprehensive Clinical Nephrology (cap. Diálisis peritoneal)"
+  ],
+  "origen": [
+   "Belen26",
+   "BancoAyuda",
+   "PDP2"
+  ],
+  "tipo_item": "corregida",
+  "sub": "20.a",
+  "tema_id": 20,
+  "obj": "20.o2",
+  "peso": 84.6
+ },
+ {
+  "id": "DP-4",
+  "serie_id": "DP",
+  "orden": 4,
+  "tema": "Diálisis peritoneal",
+  "subtema": "Peritonitis",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Dos meses después acude con dolor abdominal difuso y líquido de drenaje turbio. Afebril, TA 110/70 mmHg. El efluente tiene 1,850 leucocitos/µL con 85% de polimorfonucleares tras un tiempo de permanencia de 4 horas.",
+  "enunciado": "¿Cuál es la conducta inicial más apropiada?",
+  "opciones": {
+   "A": "Esperar el cultivo antes de iniciar antibióticos, para evitar resistencia y elegir el esquema",
+   "B": "Retirar el catéter peritoneal de inmediato y pasar a hemodiálisis, por la gravedad del cuadro",
+   "C": "Antifúngico profiláctico empírico por 14 días, junto con antibióticos de amplio espectro",
+   "D": "Tomar efluente para recuento y cultivo e iniciar sin demora antibióticos intraperitoneales de amplio espectro",
+   "E": "Antibiótico intravenoso exclusivo, porque se considera superior a la vía intraperitoneal en todos los casos"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El retraso del tratamiento empeora el pronóstico; se toma el cultivo y se inicia el tratamiento de inmediato.",
+   "B": "El retiro del catéter se reserva para peritonitis refractaria, fúngica, o por ciertos agentes; no como primera medida.",
+   "C": "La profilaxis antifúngica se indica durante ciclos de antibióticos como prevención, no como tratamiento empírico de peritonitis aguda.",
+   "D": "El diagnóstico de peritonitis requiere ≥2 de 3: síntomas (dolor, efluente turbio), leucocitos en efluente >100/µL con >50% de polimorfonucleares (tras permanencia ≥2 horas) y cultivo positivo. La conducta es tomar la muestra antes del antibiótico (cultivo en frascos de hemocultivo, que mejora el rendimiento; meta de cultivos negativos ≤15%) e iniciar de inmediato tratamiento intraperitoneal empírico con cobertura de grampositivos y gramnegativos, elegido según las sensibilidades locales (p. ej., vancomicina o una cefalosporina para grampositivos, más ceftazidima/cefepime para gramnegativos). El agente más frecuente son los estafilococos coagulasa-negativos; S. aureus y Pseudomonas son más graves.",
+   "E": "La vía intraperitoneal es de elección porque alcanza concentraciones mayores en el sitio de infección."
+  },
+  "perla": "Diagnóstico: 2 de 3 criterios. Cultivo en frascos de hemocultivo. La profilaxis antifúngica con nistatina/fluconazol se considera cuando se prescribe un esquema de antibióticos en pacientes de DP.",
+  "referencias": [
+   "Li PK et al. ISPD Peritonitis Recommendations: 2022 Update. Perit Dial Int 2022;42:110",
+   "Comprehensive Clinical Nephrology (cap. Diálisis peritoneal)"
+  ],
+  "origen": [
+   "Belen26",
+   "David26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "20.b",
+  "tema_id": 20,
+  "obj": "20.o1",
+  "peso": 83.1
+ },
+ {
+  "id": "DP-5",
+  "serie_id": "DP",
+  "orden": 5,
+  "tema": "Diálisis peritoneal",
+  "subtema": "Peritonitis refractaria",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El cultivo desarrolla Pseudomonas aeruginosa sensible a ceftazidima y ciprofloxacino; se ajusta el tratamiento a dos antibióticos con mecanismos diferentes. Al día 5 de tratamiento adecuado el efluente persiste turbio con 1,200 leucocitos/µL y la paciente mantiene dolor abdominal y fiebre.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Es peritonitis refractaria: se retira el catéter, se continúan los antibióticos y se pasa a hemodiálisis",
+   "B": "Añadir un antifúngico y mantener el catéter, porque el cuadro sugiere peritonitis fúngica y no bacteriana",
+   "C": "Continuar el mismo tratamiento 5 días más, porque la respuesta aún puede ser tardía con ese esquema",
+   "D": "Es una peritonitis recidivante, por lo que se repite el esquema completo de antibióticos intraperitoneales por 3 semanas",
+   "E": "Cambiar a vancomicina intraperitoneal, que cubre mejor a Pseudomonas aeruginosa, y conservar el catéter en su sitio"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La peritonitis refractaria es aquella en que el efluente no se aclara después de 5 días de antibióticos apropiados. En estos casos se indica retirar el catéter para proteger la membrana y reducir la mortalidad, mantener el antibiótico (generalmente 2 semanas más tras el retiro) y pasar a hemodiálisis; la reinserción del catéter se difiere hasta la resolución completa del episodio. En Pseudomonas el riesgo de falla del tratamiento y de infección del túnel es alto.",
+   "B": "No hay datos para infección fúngica; la persistencia con Pseudomonas es indicación de retiro del catéter.",
+   "C": "La persistencia más allá del día 5 define peritonitis refractaria; continuar solo prolonga la morbilidad.",
+   "D": "Recidivante (relapsing) es el episodio que aparece dentro de las 4 semanas tras finalizar el tratamiento con el mismo organismo; no es el caso.",
+   "E": "La vancomicina cubre grampositivos; el agente aislado es gramnegativo."
+  },
+  "perla": "Refractaria: efluente turbio tras 5 días de antibióticos adecuados → retirar catéter. Recidivante (relapsing): ≤4 semanas tras terminar el tratamiento, mismo germen (o episodio estéril). Recurrente: ≤4 semanas, germen distinto. Repetida (repeat): >4 semanas, mismo germen.",
+  "referencias": [
+   "Li PK et al. ISPD Peritonitis Recommendations: 2022 Update. Perit Dial Int 2022;42:110"
+  ],
+  "origen": [
+   "Belen26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "20.b",
+  "tema_id": 20,
+  "obj": "20.o1",
+  "peso": 85.1
+ },
+ {
+  "id": "PET-1",
+  "serie_id": "PET",
+  "orden": 1,
+  "sub": "20.a",
+  "subtema": "Prueba de equilibrio peritoneal: clasificación del transporte",
+  "dificultad": "moderada",
+  "caso": "Hombre de 52 años con diabetes, en DPCA desde hace 3 meses (4 recambios de 2 L con dextrosa al 1.5% y 2.5%). Edema, ultrafiltración de 200 mL/día y diuresis residual de 150 mL/día. Se realiza una prueba de equilibrio peritoneal (PET) con dextrosa al 2.27% por 4 horas: D/P de creatinina de 0.88 y D/D₀ de glucosa de 0.22.",
+  "enunciado": "¿Cómo se clasifica su transporte peritoneal y qué implicación tiene?",
+  "opciones": {
+   "A": "Transportador alto: pierde pronto el gradiente osmótico; se benefician las permanencias cortas e icodextrina en la larga",
+   "B": "No es clasificable con estos valores, por lo que se debe repetir la prueba con dextrosa al 4.25%",
+   "C": "Transportador promedio; no requiere ajustes de la prescripción y se mantienen las permanencias y las soluciones actuales del paciente",
+   "D": "Transportador bajo: requiere permanencias largas con volúmenes altos y menor frecuencia de recambios",
+   "E": "Transportador bajo-promedio: tiene indicación de hemodiálisis inmediata por la ultrafiltración baja"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Según la clasificación de Twardowski, un D/P de creatinina a las 4 horas mayor de 0.81 (o D/D₀ de glucosa menor de 0.26) corresponde a transportador alto. La difusión rápida de glucosa hacia la sangre disipa el gradiente osmótico en pocas horas, y en permanencias largas el líquido se reabsorbe, con ultrafiltración neta baja y sobrecarga hídrica. La estrategia es acortar las permanencias (DPA con ciclos rápidos o recambios más frecuentes) y usar icodextrina para la permanencia larga, porque su gradiente coloidosmótico se sostiene durante 8 a 16 horas. Estos pacientes tienen buena depuración de solutos pequeños.",
+   "B": "Los valores permiten clasificar claramente al paciente.",
+   "C": "El promedio (alto o bajo) tiene valores intermedios de 0.50 a 0.81 y no se corresponde con 0.88.",
+   "D": "El transportador bajo tendría D/P menor de 0.50 y requeriría permanencias largas, no cortas.",
+   "E": "No hay indicación de hemodiálisis inmediata; se optimiza la prescripción."
+  },
+  "perla": "PET (4 h, D/P creatinina): alto >0.81; alto-promedio 0.65–0.81; bajo-promedio 0.50–0.64; bajo <0.50. Alto → permanencias cortas/icodextrina.",
+  "referencias": [
+   "Twardowski ZJ et al. Perit Dial Bull 1987;7:138",
+   "Mujais S et al. Perit Dial Int 2000;20(Suppl 4):S5"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26",
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o4",
+  "peso": 84.6
+ },
+ {
+  "id": "PET-2",
+  "serie_id": "PET",
+  "orden": 2,
+  "sub": "20.a",
+  "subtema": "Prescripción en transportador alto",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se decide cambiar al paciente a DPA nocturna. Tiene diuresis residual escasa y no desea permanecer conectado durante el día.",
+  "enunciado": "¿Cuál es la prescripción más adecuada?",
+  "opciones": {
+   "A": "DPA con una sola permanencia nocturna de 10 horas con dextrosa al 4.25%, sin permanencia diurna ni uso de icodextrina",
+   "B": "Solo hemodiálisis, porque los transportadores altos no pueden tratarse con diálisis peritoneal de forma eficaz",
+   "C": "DPCA con 4 recambios manuales de 6 horas, con dextrosa al 2.5% en los recambios diurnos y nocturnos",
+   "D": "DPA con ciclos nocturnos cortos y permanencia diurna con icodextrina, ajustando la dextrosa según el volumen",
+   "E": "DPA con 3 ciclos largos de 3 horas con dextrosa al 1.5% y permanencia diurna con dextrosa al 1.5%"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Una permanencia nocturna única de 10 horas con 4.25% implica absorción total de glucosa y mala ultrafiltración.",
+   "B": "Los transportadores altos pueden tratarse en DP con ajustes; la transferencia a hemodiálisis se reserva para falla de la prescripción.",
+   "C": "Cuatro recambios de 6 horas son permanencias largas, que empeoran la ultrafiltración en transportador alto.",
+   "D": "En un transportador alto, la glucosa se absorbe con rapidez y la ultrafiltración se pierde si las permanencias son largas. La DPA nocturna con ciclos cortos mantiene el gradiente osmótico durante cada ciclo, y la permanencia diurna se llena con icodextrina para sostener la ultrafiltración. La dosis de dextrosa se ajusta a las necesidades de volumen, evitando concentraciones altas que empeoran la exposición a glucosa y dañan la membrana. La DPA con ciclos largos o el DPCA de 4 recambios largos favorecen la reabsorción de líquido.",
+   "E": "Ciclos de 3 horas siguen siendo largos y la dextrosa al 1.5% genera poco gradiente en este tipo de transporte."
+  },
+  "perla": "Transportador alto: DPA con ciclos cortos + icodextrina en la permanencia larga; evitar permanencias largas con glucosa.",
+  "referencias": [
+   "Mujais S et al. Perit Dial Int 2000;20(Suppl 4):S5",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 86.6
+ },
+ {
+  "id": "PET-3",
+  "serie_id": "PET",
+  "orden": 3,
+  "sub": "20.a",
+  "subtema": "Prescripción en transportador bajo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente, de 35 años y anúrica, está en DPA con 5 ciclos nocturnos de 2 L (10 L/noche) y un PET con D/P de creatinina de 0.48. Tiene Kt/V semanal de 1.5, ultrafiltración de 800 mL/día y TA controlada. Desea conservar la diálisis peritoneal.",
+  "enunciado": "¿Cuál es la modificación más adecuada de la prescripción?",
+  "opciones": {
+   "A": "Reducir el volumen por ciclo para aumentar la depuración y mejorar la ultrafiltración",
+   "B": "Suspender la diálisis peritoneal por ineficacia y pasar a hemodiálisis de inmediato",
+   "C": "Agregar un recambio o una permanencia diurna, o aumentar el volumen por ciclo, para dar más tiempo de contacto",
+   "D": "Acortar aún más los ciclos nocturnos para aumentar el número de ciclos, la depuración de solutos y la ultrafiltración neta",
+   "E": "Cambiar a dextrosa al 4.25% en todos los ciclos para aumentar la depuración de solutos"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Reducir el volumen disminuye la superficie de contacto y la depuración.",
+   "B": "No es necesario suspender la DP antes de optimizar la prescripción.",
+   "C": "En los transportadores bajos, la depuración de solutos pequeños es lenta y mejora con permanencias largas y mayores volúmenes, mientras que la ultrafiltración es buena. En DPA nocturna con 10 L y Kt/V insuficiente en un paciente anúrico, la opción es agregar una permanencia diurna (DPA con día húmedo, o recambios diurnos) y/o aumentar el volumen de cada ciclo si la tolerancia lo permite; si aun así no se alcanzan las metas, se considera la hemodiálisis (incremental o combinada).",
+   "D": "Acortar los ciclos reduce el tiempo de contacto y empeora la depuración en transportadores bajos.",
+   "E": "La concentración alta de glucosa no mejora la depuración de urea y aumenta la carga de glucosa."
+  },
+  "perla": "Transportador bajo + DPA insuficiente: agregar permanencia diurna/↑ volumen; si no basta, hemodiálisis (incremental o combinada).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)",
+   "Twardowski ZJ et al. Perit Dial Bull 1987;7:138"
+  ],
+  "origen": [
+   "Belen26",
+   "BancoAyuda",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 86.6
+ },
+ {
+  "id": "PET-4",
+  "serie_id": "PET",
+  "orden": 4,
+  "sub": "20.a",
+  "subtema": "Sodium sieving y tipos de falla de ultrafiltración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras 7 años en diálisis peritoneal, el paciente de la primera pregunta tiene UF de 300 mL en 4 horas con dextrosa al 4.25% (menos de 400 mL), sin fugas ni obstrucción del catéter. Se mide el sodio del dializado en la prueba para evaluar el transporte de agua libre.",
+  "enunciado": "¿Qué patrón del sodio indicaría disfunción de acuaporinas, y cuál es el mecanismo?",
+  "opciones": {
+   "A": "Descenso del D/P de sodio mayor de 0.03 a los 60 minutos, que indicaría falla de las acuaporinas",
+   "B": "Descenso del D/P de sodio menor de 0.03 a los 60 minutos (sin «sodium sieving») por menor transporte de agua libre",
+   "C": "Aumento del sodio dializado a los 60 minutos, por superficie peritoneal efectiva aumentada y mayor difusión pasiva de solutos",
+   "D": "Ausencia de cambio del sodio a los 60 minutos, por reabsorción linfática aumentada con transporte normal de agua libre",
+   "E": "Descenso mayor de 0.03 a los 120 minutos, por un exceso de acuaporinas y de poros pequeños"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Un descenso mayor de 0.03 a los 60 minutos indica sieving conservado.",
+   "B": "La falla de ultrafiltración se define como una UF neta menor de 400 mL tras una permanencia de 4 horas con dextrosa de 3.86 a 4.25%. Con glucosa hipertónica, el agua pasa libre de solutos a través de la acuaporina-1 de los capilares peritoneales, diluyendo el sodio del dializado: se espera un descenso de D/P de sodio de más de 0.03 (aproximadamente 5 mmol/L) a los 60 minutos ('sodium sieving'). Un descenso menor de 0.03 indica menor transporte de agua libre (conductancia osmótica reducida), típico de la membrana con fibrosis y pérdida de acuaporinas tras años de exposición a glucosa o peritonitis. Se contrasta con la falla por transporte alto (rápida disipación de glucosa), por menor área (adherencias) o por reabsorción linfática.",
+   "C": "El sodio dializado no aumenta; el aumento rápido de solutos corresponde a transporte alto.",
+   "D": "La ausencia de cambio sugiere disfunción de acuaporinas, pero no se explica por reabsorción linfática.",
+   "E": "Un descenso de 0.03 o más a los 60 minutos es el patrón normal, no de disfunción."
+  },
+  "perla": "Falla de UF: <400 mL/4 h con 4.25%. Sodium sieving normal: ↓D/P Na >0.03 a los 60 min; si no, pérdida de acuaporina-1 (agua libre).",
+  "referencias": [
+   "Mujais S et al. Perit Dial Int 2000;20(Suppl 4):S5",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "Belen26",
+   "David26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o4",
+  "peso": 86.6
+ },
+ {
+  "id": "APD-1",
+  "serie_id": "APD",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Diálisis peritoneal en LRA: selección y contraindicaciones",
+  "dificultad": "moderada",
+  "caso": "Hombre de 50 años con disnea, FC 110 lpm, TA 180/110 mmHg, estertores, edema, peso 59 kg, Hb 7.9 g/dL, BUN 190 mg/dL y K 6.5 mEq/L. Tiene ERC reagudizada con anuria en un hospital sin disponibilidad inmediata de hemodiálisis. Sin cirugía abdominal previa. El VEXUS es de grado severo.",
+  "enunciado": "¿Cuál es la mejor decisión respecto a la terapia de reemplazo?",
+  "opciones": {
+   "A": "Posponer la decisión hasta contar con un catéter tunelizado, y dar medidas médicas mientras tanto",
+   "B": "Iniciar diálisis peritoneal aguda con catéter flexible o rígido, porque es eficaz en LRA sin contraindicación abdominal",
+   "C": "Contraindicar la diálisis peritoneal en este paciente porque nunca es útil en la lesión renal aguda",
+   "D": "Realizar solo tratamiento médico con diuréticos, restricción de líquidos y resinas de intercambio",
+   "E": "Esperar hasta tener hemodiálisis disponible, aunque haya hiperpotasemia grave y sobrecarga de volumen con compromiso respiratorio"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La DP aguda se realiza con catéter percutáneo; no se necesita tunelizado.",
+   "B": "Las guías ISPD 2020 para LRA indican que la diálisis peritoneal es una modalidad adecuada para la LRA en todos los entornos, con resultados comparables a otras terapias, incluso en lugares con pocos recursos. Se coloca un catéter flexible (con técnica percutánea o quirúrgica) o rígido a la cabecera. Las contraindicaciones son relativas: cirugía abdominal reciente, peritonitis, fugas, insuficiencia respiratoria grave, hipercatabolismo extremo, hipertensión intraabdominal. Con sobrecarga, hiperpotasemia y uremia sintomática, la diálisis no debe diferirse.",
+   "C": "La diálisis peritoneal es una opción válida y eficaz en LRA.",
+   "D": "Los diuréticos no controlan la hiperpotasemia ni la uremia en un anúrico.",
+   "E": "Esperar con hiperpotasemia de 6.5 y sobrecarga es peligroso."
+  },
+  "perla": "DP aguda es válida en LRA (ISPD 2020). Contraindicaciones relativas: cirugía abdominal reciente, fuga, insuficiencia respiratoria grave.",
+  "referencias": [
+   "Cullis B et al. Perit Dial Int 2021;41:15",
+   "Comprehensive Clinical Nephrology (LRA)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o1",
+  "peso": 83.1
+ },
+ {
+  "id": "APD-2",
+  "serie_id": "APD",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Prescripción inicial y dosis de diálisis en LRA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se decide iniciar diálisis peritoneal aguda en el paciente anterior. Se pregunta por la prescripción inicial y la meta de dosis.",
+  "enunciado": "¿Cuál es la recomendación actual de dosis y de inicio?",
+  "opciones": {
+   "A": "No existe una meta de dosis recomendada, y la prescripción se ajusta solo por la clínica y la diuresis",
+   "B": "Volúmenes bajos a moderados para prevenir fugas y ciclos frecuentes con meta de Kt/V semanal de 3.5",
+   "C": "Kt/V semanal de 0.5 como meta suficiente, con recambios de larga permanencia para limitar la glucosa",
+   "D": "Kt/V semanal de 1.2, igual que en el paciente crónico, con permanencias largas y volúmenes de 2 L por recambio",
+   "E": "Volúmenes de 3 L desde el primer recambio para acelerar la depuración, con permanencias de 6 horas"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Sí existe una meta de dosis recomendada de 3.5 por semana.",
+   "B": "Las guías ISPD (2014 y 2020) recomiendan una dosis semanal de Kt/V de 3.5 en LRA, porque con ella los resultados son comparables a los de la hemodiálisis diaria, y un Kt/V mayor no mejoró la supervivencia en ensayos aleatorizados. Se comienza con volúmenes de llenado reducidos (por ejemplo, 1 a 1.5 L) para evitar fugas y se aumentan según tolerancia, con ciclos frecuentes de 1 a 2 horas, dextrosa de 1.5 a 4.25% según el balance, y adición de potasio cuando sea necesario.",
+   "C": "Esa meta sería insuficiente para el catabolismo de LRA.",
+   "D": "El objetivo de 1.7 semanal corresponde a la DP crónica, no a la aguda.",
+   "E": "Los volúmenes grandes iniciales favorecen fugas y dolor."
+  },
+  "perla": "DP en LRA: Kt/V semanal 3.5 (ISPD). Crónica: ≥1.7 total semanal. Volúmenes iniciales bajos para evitar fugas.",
+  "referencias": [
+   "Cullis B et al. Perit Dial Int 2021;41:15",
+   "Gabriel DP et al. Kidney Int 2008;73:988"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "corregida",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 85.1
+ },
+ {
+  "id": "APD-3",
+  "serie_id": "APD",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "Ajuste de la prescripción aguda: ultrafiltración excesiva",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 24 horas la ultrafiltración acumulada es de 4,200 mL, la TA es de 140/90 mmHg, el BUN de 140 mg/dL y el K de 5.0 mEq/L; el paciente ya no tiene estertores y el VEXUS mejoró.",
+  "enunciado": "¿Cuál es el siguiente paso?",
+  "opciones": {
+   "A": "Aumentar la dextrosa a 4.25% en todos los ciclos para continuar la ultrafiltración y la depuración de solutos",
+   "B": "Cambiar a hemodiálisis sin evaluar el balance hídrico, porque la DP aguda ya cumplió su objetivo de ultrafiltración y de depuración",
+   "C": "Suspender la diálisis porque ya se consiguió la ultrafiltración deseada, sin considerar el BUN de 140 mg/dL ni el potasio sérico",
+   "D": "Continuar la DP bajando la dextrosa (2.5% o 1.5%) para evitar hipovolemia, con ciclos frecuentes que sostengan la depuración",
+   "E": "Reducir a un solo recambio al día, para disminuir la exposición a glucosa y proteger la membrana peritoneal"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Aumentar la dextrosa agravaría la ultrafiltración y la hiperglucemia.",
+   "B": "La respuesta es buena; no hay indicación de cambiar de modalidad.",
+   "C": "El BUN y el potasio siguen elevados; suspender es prematuro.",
+   "D": "Con la sobrecarga resuelta y un balance ya satisfactorio, mantener soluciones hipertónicas expone a hipovolemia, hiperglucemia y pérdida de proteínas. Se disminuye la concentración de dextrosa (2.5% o 1.5%) y se continúa con ciclos frecuentes, porque el BUN de 140 mg/dL y el K de 5.0 mEq/L indican que todavía se necesita depuración. Se reevalúan balance, peso, TA y química cada 12 a 24 horas, y se ajusta el volumen por ciclo según tolerancia. La suspensión es prematura.",
+   "E": "Reducir a un recambio daría una depuración insuficiente."
+  },
+  "perla": "DP aguda: ajustar concentración de dextrosa según balance; mantener frecuencia de ciclos mientras BUN/K sigan elevados.",
+  "referencias": [
+   "Cullis B et al. Perit Dial Int 2021;41:15"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o3",
+  "peso": 73.0
+ },
+ {
+  "id": "APD-4",
+  "serie_id": "APD",
+  "orden": 4,
+  "sub": "20.b",
+  "subtema": "Complicaciones metabólicas y de la DP aguda",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "A las 72 horas de DP aguda, el paciente tiene glucemia de 310 mg/dL (no es diabético), albúmina de 2.4 g/dL, K de 3.1 mEq/L y dolor abdominal leve sin turbidez del líquido.",
+  "enunciado": "¿Cuál es la explicación y el manejo adecuados?",
+  "opciones": {
+   "A": "Absorción de glucosa dialítica y pérdida peritoneal de proteínas y K: ajustar dextrosa, añadir K y soporte nutricional",
+   "B": "Insuficiencia suprarrenal aguda; hidrocortisona intravenosa y suspensión de la diálisis peritoneal hasta estabilizar al paciente",
+   "C": "Sepsis abdominal con peritonitis; antibióticos de amplio espectro sin esperar el cultivo, aunque el líquido no esté turbio",
+   "D": "Pancreatitis aguda secundaria a la diálisis; suspender la diálisis, mantener ayuno y reponer volumen con cristaloides",
+   "E": "Hipoparatiroidismo agudo con hipocalcemia; calcio intravenoso en infusión lenta, sin modificar la dextrosa del dializado"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Durante la diálisis peritoneal se absorbe una parte importante de la glucosa del dializado (hasta 100 a 150 g/día), lo que puede causar hiperglucemia, incluso sin diabetes, y se pierden proteínas (5 a 15 g/día, más con peritonitis) y potasio, sobre todo si el paciente está en ayuno y el dializado carece de potasio. Se ajusta la concentración de dextrosa, se agrega potasio al dializado según el nivel sérico, se vigila la glucemia, se asegura una ingesta proteica adecuada y se descarta peritonitis ante dolor abdominal con efluente turbio y recuento celular.",
+   "B": "No hay datos de insuficiencia suprarrenal.",
+   "C": "Sin fiebre ni efluente turbio no se justifica tratar como sepsis sin cultivo.",
+   "D": "No hay datos de pancreatitis; la hiperglucemia tiene explicación directa.",
+   "E": "El calcio no explica el cuadro."
+  },
+  "perla": "DP: absorbe 100–150 g/día de glucosa; pierde 5–15 g/día de proteína y potasio. Ajustar dextrosa y añadir K al dializado.",
+  "referencias": [
+   "Cullis B et al. Perit Dial Int 2021;41:15",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o6",
+  "peso": 52.8
+ },
+ {
+  "id": "EPS-1",
+  "serie_id": "EPS",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Peritonitis esclerosante encapsulante: cuadro clínico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 46 años, con 9 años en diálisis peritoneal, múltiples episodios de peritonitis y una ultrafiltración cada vez menor (menos de 300 mL/día). Desde hace 3 semanas tiene anorexia, náuseas, vómito posprandial, distensión y pérdida de 7 kg, con dolor abdominal difuso y ruidos hiperperistálticos. El efluente no está turbio y los cultivos son negativos.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Peritonitis bacteriana aguda recurrente por Staphylococcus aureus, con el cuadro actual de inflamación peritoneal y cultivos positivos",
+   "B": "Obstrucción mecánica por un tumor colónico, sin relación alguna con el tiempo en diálisis peritoneal",
+   "C": "Peritonitis esclerosante encapsulante, con engrosamiento fibroso del peritoneo y obstrucción por encapsulación de asas",
+   "D": "Pancreatitis aguda de origen biliar, que explicaría las náuseas, el vómito y el dolor abdominal",
+   "E": "Gastroenteritis aguda viral, que explicaría los síntomas digestivos de las últimas semanas"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La peritonitis bacteriana cursa con efluente turbio y cultivo positivo.",
+   "B": "La obstrucción por tumor no explicaría la historia de DP prolongada con falla de UF.",
+   "C": "La peritonitis esclerosante encapsulante es una complicación grave de la DP prolongada. El peritoneo se engruesa y forma una cápsula fibrosa que envuelve las asas intestinales, con cuadros de obstrucción intestinal intermitente, náusea, vómito, anorexia, distensión, pérdida de peso, desnutrición y, a veces, sangrado o ascitis hemorrágica. Se sospecha por tiempo de DP largo (el factor de riesgo más claro, con aumento marcado después de 5 años), episodios repetidos de peritonitis, mala ultrafiltración y suspensión reciente de la diálisis o trasplante. El diagnóstico combina clínica y TC.",
+   "D": "No hay datos de pancreatitis.",
+   "E": "Una gastroenteritis no explicaría 3 semanas de síntomas obstructivos y falla de UF."
+  },
+  "perla": "EPS: DP >5 años, peritonitis previas, falla de UF; obstrucción intestinal, anorexia, desnutrición. Dx clínica + TC.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2017;37:362",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o1",
+  "peso": 83.1
+ },
+ {
+  "id": "EPS-2",
+  "serie_id": "EPS",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Peritonitis esclerosante: diagnóstico por imagen",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se solicita estudio de imagen para respaldar el diagnóstico.",
+  "enunciado": "¿Qué estudio y hallazgos son los más útiles?",
+  "opciones": {
+   "A": "Radiografía simple de abdomen sin otros estudios, que muestra de forma confiable el engrosamiento peritoneal",
+   "B": "Ecografía renal exclusivamente, para evaluar el tamaño de los riñones y la presencia de hidronefrosis",
+   "C": "Gammagrafía ósea con tecnecio, para buscar captación difusa en el peritoneo y las asas intestinales encapsuladas",
+   "D": "Colonoscopia como estudio de elección, para visualizar directamente el anclaje y la encapsulación de las asas intestinales",
+   "E": "TC abdominal, que puede mostrar calcificación peritoneal, engrosamiento y realce del peritoneo, dilatación y anclaje de asas"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La radiografía simple solo muestra niveles hidroaéreos o es normal y no confirma EPS.",
+   "B": "La ecografía renal no es útil en la evaluación del peritoneo ni de las asas.",
+   "C": "La gammagrafía ósea no evalúa el peritoneo.",
+   "D": "La colonoscopia no evalúa la encapsulación intestinal por fuera de la luz.",
+   "E": "El diagnóstico de EPS se basa en la presentación clínica (síntomas de obstrucción) junto con la TC, que puede mostrar calcificación peritoneal, engrosamiento y realce del peritoneo, dilatación y engrosamiento de las asas, anclaje de las asas intestinales y la imagen de 'capullo' (encapsulación). La TC es el estudio de elección porque, además, descarta otras causas de obstrucción. La resonancia magnética tiene un papel limitado. En ocasiones se requiere laparotomía para confirmar y tratar."
+  },
+  "perla": "EPS: TC (calcificación peritoneal, engrosamiento, asas ancladas/dilatadas, encapsulación) + clínica.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2017;37:362"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o3",
+  "peso": 71.0
+ },
+ {
+  "id": "EPS-3",
+  "serie_id": "EPS",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "Factores de riesgo de peritonitis esclerosante",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En una revisión sobre prevención de EPS, el servicio discute los factores de riesgo reconocidos por las guías ISPD.",
+  "enunciado": "¿Cuál enunciado es correcto?",
+  "opciones": {
+   "A": "No hay factores de riesgo identificados, por lo que la prevención no es posible con las guías actuales",
+   "B": "El tiempo en DP es el factor más consistente; también se asocian peritonitis grave, exposición acumulada a glucosa y cirugía abdominal",
+   "C": "La edad avanzada es el factor de riesgo principal y el tiempo en DP carece de influencia en el riesgo de esclerosis peritoneal encapsulante",
+   "D": "La icodextrina es el único factor de riesgo reconocido para el desarrollo de esclerosis peritoneal",
+   "E": "La isquemia mesentérica crónica es el principal factor de riesgo de esclerosis peritoneal encapsulante"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Se han identificado varios factores.",
+   "B": "Las guías ISPD indican que la mayoría de los estudios identifican la duración de la DP como el factor de riesgo más importante, y señalan otros posibles: mayor exposición acumulada a glucosa y a productos de degradación de la glucosa, episodios de peritonitis, cirugía abdominal, uso de betabloqueadores, falla de ultrafiltración, y el periodo posterior a la suspensión de la DP o el trasplante, cuando puede manifestarse. La isquemia mesentérica es una causa de dolor abdominal y no un factor de EPS. Se recomienda limitar la exposición a glucosa y considerar el cambio de modalidad tras largo tiempo en DP.",
+   "C": "El tiempo en DP sí influye de forma consistente.",
+   "D": "La icodextrina no es el único factor de riesgo y su papel es controvertido.",
+   "E": "La isquemia mesentérica crónica es un distractor frecuente y no es el principal factor."
+  },
+  "perla": "EPS: factor #1 tiempo en DP (>5 años); otros: glucosa acumulada, peritonitis, cirugía abdominal, betabloqueadores, falla de UF, post-DP/trasplante.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2017;37:362"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o3",
+  "peso": 73.0
+ },
+ {
+  "id": "EPS-4",
+  "serie_id": "EPS",
+  "orden": 4,
+  "sub": "20.b",
+  "subtema": "Tratamiento de la peritonitis esclerosante y trasplante",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El diagnóstico de EPS se confirma con la TC. El paciente tiene desnutrición, albúmina de 2.6 g/dL y obstrucción intestinal parcial. Es candidato a trasplante renal.",
+  "enunciado": "¿Cuál es el tratamiento apropiado?",
+  "opciones": {
+   "A": "Antibióticos intraperitoneales por 3 semanas y mantener la diálisis peritoneal con el mismo esquema de recambios",
+   "B": "Contraindicar de forma permanente el trasplante renal por el riesgo de recurrencia de la esclerosis peritoneal",
+   "C": "Continuar la diálisis peritoneal con más recambios y agregar suplementos nutricionales orales",
+   "D": "Suspender la diálisis peritoneal, pasar a hemodiálisis y dar soporte nutricional, tamoxifeno y esteroides",
+   "E": "Observación sin cambios y control con tomografía en 6 meses, porque la obstrucción es parcial"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay infección que justifique antibióticos prolongados.",
+   "B": "El EPS no contraindica el trasplante.",
+   "C": "Continuar la DP agrava la fibrosis y la obstrucción.",
+   "D": "El tratamiento incluye suspender la DP y pasar a hemodiálisis, soporte nutricional intensivo (nutrición parenteral cuando la vía enteral es insuficiente), fármacos antifibróticos o antiinflamatorios (tamoxifeno y corticosteroides, con evidencia de series observacionales) e inmunosupresión en algunos casos. La cirugía de enterolisis y resección de la cápsula, en centros expertos, se reserva para obstrucción persistente o fallo de tratamiento. El trasplante renal no está contraindicado y puede ofrecerse, aunque el EPS puede aparecer o empeorar tras el trasplante, por lo que se vigila a los pacientes con muchos años en DP.",
+   "E": "La observación expone a desnutrición y obstrucción progresiva."
+  },
+  "perla": "EPS: suspender DP → HD, nutrición, tamoxifeno + esteroides, cirugía en refractarios; no contraindica el trasplante.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2017;37:362"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o3",
+  "peso": 85.1
+ },
+ {
+  "id": "PEN-1",
+  "serie_id": "PEN",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Peritonitis asociada a diálisis: criterios diagnósticos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 44 años en DPCA con dolor abdominal leve y líquido de drenaje turbio desde hace 12 horas. El recuento del efluente tras una permanencia de 4 horas muestra 200 leucocitos/µL con 70% de polimorfonucleares. Se envía la tinción de Gram y el cultivo en frascos de hemocultivo.",
+  "enunciado": "¿Cuáles son los criterios para definir peritonitis asociada a diálisis peritoneal?",
+  "opciones": {
+   "A": "Solo el líquido de drenaje turbio, sin necesidad de recuento celular ni de cultivo del efluente",
+   "B": "Fiebre mayor de 38 °C obligatoria, junto con dolor abdominal y leucocitosis sérica",
+   "C": "Dos de tres: cuadro clínico, efluente con más de 100 leucocitos/µL y más de 50% de PMN, y cultivo positivo",
+   "D": "Recuento de más de 500 leucocitos/µL con permanencia de 30 minutos, con cualquier porcentaje",
+   "E": "Únicamente el cultivo positivo del efluente, aunque no haya síntomas ni leucocitos aumentados"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El líquido turbio sin recuento no establece el diagnóstico, pues existen otras causas de turbidez.",
+   "B": "La fiebre no es un criterio obligatorio.",
+   "C": "La ISPD define la peritonitis asociada a DP por la presencia de al menos dos de tres criterios: síntomas y signos de inflamación peritoneal (dolor abdominal y/o efluente turbio), recuento celular del efluente mayor de 100 leucocitos/µL (tras una permanencia de al menos 2 horas) con más de 50% de polimorfonucleares, y cultivo del efluente positivo. En DPA con permanencias cortas, el porcentaje de polimorfonucleares es el dato más relevante. Con esta paciente (recuento 200 con 70% de PMN y turbidez) se cumplen dos criterios y se inicia el tratamiento empírico sin esperar el cultivo.",
+   "D": "El umbral es de más de 100 leucocitos/µL, y la permanencia mínima es de 2 horas.",
+   "E": "El cultivo puede ser negativo en 10 a 20% de las peritonitis; no puede ser criterio único."
+  },
+  "perla": "Peritonitis en DP: ≥2 de 3 (clínica; >100 leuc/µL con >50% PMN tras ≥2 h de permanencia; cultivo +).",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110"
+  ],
+  "origen": [
+   "David26",
+   "Belen26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o1",
+  "peso": 83.1
+ },
+ {
+  "id": "PEN-2",
+  "serie_id": "PEN",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Definiciones: recurrente, recidivante, repetida y refractaria",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente completa 2 semanas de tratamiento por Staphylococcus epidermidis con resolución clínica. Doce días después de terminar el tratamiento, vuelve con efluente turbio y recuento de 1,100 leucocitos/µL; el cultivo desarrolla de nuevo Staphylococcus epidermidis.",
+  "enunciado": "Según las definiciones ISPD, ¿cómo se clasifica este nuevo episodio?",
+  "opciones": {
+   "A": "Peritonitis recidivante: ocurre en las 4 semanas tras terminar el tratamiento, con el mismo germen o cultivo estéril",
+   "B": "Peritonitis refractaria: efluente que no se aclara tras 5 días de antibióticos adecuados, con indicación de retirar el catéter",
+   "C": "Peritonitis recurrente: episodio con el mismo germen que ocurre 2 meses después del tratamiento previo",
+   "D": "Peritonitis repetida: episodio con el mismo germen más de 4 semanas después de completar el tratamiento",
+   "E": "Peritonitis asociada al catéter únicamente, por infección del sitio de salida con el mismo germen"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La ISPD define: recidivante (relapsing) como el episodio que aparece dentro de las 4 semanas de completar el tratamiento de un episodio previo, con el mismo microorganismo o con cultivo estéril; recurrente, el que aparece dentro de las 4 semanas posteriores a completar el tratamiento, pero con un germen distinto; repetida (repeat), el que aparece más de 4 semanas después de terminar el tratamiento, con el mismo germen; refractaria, la falta de aclaramiento del efluente tras 5 días de antibióticos adecuados; y asociada a catéter, la que ocurre junto con una infección del sitio de salida o del túnel por el mismo germen. En este caso, el mismo germen reapareció a los 12 días: recidivante.",
+   "B": "La refractaria se define por falta de aclaramiento durante el tratamiento, no tras su finalización.",
+   "C": "La recurrente implica un germen diferente en las primeras 4 semanas, no el mismo.",
+   "D": "La repetida ocurre después de 4 semanas del tratamiento.",
+   "E": "La asociada a catéter exige infección del sitio de salida o del túnel."
+  },
+  "perla": "Recidivante: ≤4 sem, mismo germen/estéril. Recurrente: ≤4 sem, germen distinto. Repetida: >4 sem, mismo germen. Refractaria: sin aclaramiento a los 5 días.",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110"
+  ],
+  "origen": [
+   "David26",
+   "Belen26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o1",
+  "peso": 85.1
+ },
+ {
+  "id": "PEN-3",
+  "serie_id": "PEN",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "Peritonitis recidivante: retiro del catéter",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia el nuevo esquema y el efluente se aclara; sin embargo, la paciente tiene ya dos episodios consecutivos por el mismo germen.",
+  "enunciado": "¿Cuál es la conducta recomendada para evitar nuevas recaídas?",
+  "opciones": {
+   "A": "Repetir el mismo antibiótico durante 6 meses de forma continua, para erradicar el germen alojado en la biopelícula del catéter",
+   "B": "Retirar el catéter y recolocar otro de inmediato en el mismo procedimiento, aun con el efluente todavía turbio",
+   "C": "Lavados peritoneales diarios con solución salina durante 2 semanas, para eliminar la biopelícula del catéter y evitar la recaída de la peritonitis",
+   "D": "Mantener el catéter y suspender los antibióticos en cuanto se aclare el efluente, para evitar resistencia",
+   "E": "Retirar el catéter por la biopelícula, completar el antibiótico y recolocar otro tras al menos 2 semanas con hemodiálisis"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Tratar 6 meses con el mismo antibiótico no erradica la biopelícula y favorece resistencia.",
+   "B": "La recolocación inmediata en el mismo acto solo se acepta en ciertos casos con efluente aclarado.",
+   "C": "Los lavados con salina no tratan la biopelícula.",
+   "D": "Suspender los antibióticos antes de completar el esquema favorece recaídas.",
+   "E": "En la peritonitis recidivante, repetida o refractaria, las guías ISPD recomiendan considerar el retiro del catéter, porque los gérmenes pueden persistir en la biopelícula adherida a la superficie del catéter (frecuente con Staphylococcus epidermidis y S. aureus, Pseudomonas, hongos). Tras tratar al paciente con el antibiótico adecuado, el catéter nuevo se coloca al menos 2 semanas después de aclarar el efluente y completar el tratamiento, y el paciente se mantiene con hemodiálisis temporal. La recolocación en el mismo acto solo se acepta en peritonitis recidivante o repetida cuando el efluente se ha aclarado y no hay infección activa."
+  },
+  "perla": "Peritonitis recidivante/repetida/refractaria: considerar retirar el catéter (biopelícula); recolocar ≥2 semanas tras resolución; HD temporal.",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110"
+  ],
+  "origen": [
+   "David26",
+   "BancoAyuda",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o1",
+  "peso": 85.1
+ },
+ {
+  "id": "PEN-4",
+  "serie_id": "PEN",
+  "orden": 4,
+  "sub": "20.b",
+  "subtema": "Peritonitis fúngica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente de 60 años, con diálisis peritoneal previa y un esquema de antibióticos por peritonitis bacteriana hace 3 semanas, vuelve con dolor y efluente turbio. El cultivo desarrolla Candida albicans.",
+  "enunciado": "¿Cuál es el manejo correcto?",
+  "opciones": {
+   "A": "Continuar DP con lavados peritoneales frecuentes y tratamiento antifúngico, sin retirar el catéter de diálisis",
+   "B": "Fluconazol por vía intraperitoneal sin retirar el catéter, por ser un antifúngico con buena penetración peritoneal",
+   "C": "Retirar el catéter al confirmar Candida, dar antifúngico sistémico ≥2 semanas tras el retiro y valorar la membrana antes de reiniciar DP",
+   "D": "Observación con vigilancia del efluente hasta que el hongo se resuelva solo, sin cambiar el esquema",
+   "E": "Ciclos de antibióticos antibacterianos más prolongados y de mayor espectro, hasta que el cultivo se negativice y el efluente se aclare"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Continuar la DP mantiene la infección.",
+   "B": "Mantener el catéter con fluconazol se asocia a fracaso por la biopelícula.",
+   "C": "La peritonitis fúngica tiene mortalidad alta y se asocia a uso reciente de antibióticos. La ISPD recomienda retirar de inmediato el catéter al identificar el hongo (en la tinción o el cultivo) y administrar tratamiento antifúngico prolongado (anfotericina, fluconazol o equinocandina, según la especie) por al menos 2 semanas después del retiro. Tras el episodio se pasa a hemodiálisis y solo una minoría puede volver a DP (cerca de un tercio en una serie), por el daño de la membrana. La profilaxis antifúngica durante tratamientos antibióticos prolongados puede considerarse en centros de riesgo.",
+   "D": "La peritonitis fúngica no se resuelve sola.",
+   "E": "Los antibacterianos no tratan el hongo y favorecen su crecimiento."
+  },
+  "perla": "Peritonitis fúngica: retiro inmediato del catéter + antifúngico ≥2 semanas; suele terminar en hemodiálisis.",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110"
+  ],
+  "origen": [
+   "Modulos",
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o1",
+  "peso": 73.0
+ },
+ {
+  "id": "CPL-1",
+  "serie_id": "CPL",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Hidrotórax peritoneopleural",
+  "dificultad": "dificil",
+  "caso": "Mujer de 56 años, que inició DPCA hace 2 semanas, presenta disnea progresiva y ultrafiltración baja. La radiografía muestra derrame pleural derecho masivo. La toracocentesis obtiene un trasudado con glucosa de 420 mg/dL (glucemia sérica de 120 mg/dL), con proteínas bajas.",
+  "enunciado": "¿Cuál es el diagnóstico y el manejo?",
+  "opciones": {
+   "A": "Tuberculosis pleural; antituberculosos por seis meses y retiro del catéter de diálisis peritoneal",
+   "B": "Derrame paraneumónico; antibióticos y drenaje pleural, porque el cuadro se asocia a neumonía reciente",
+   "C": "Hidrotórax por fuga pleuroperitoneal; suspender la DP o pasar a hemodiálisis y considerar pleurodesis o reparación toracoscópica",
+   "D": "Insuficiencia cardiaca; diuréticos y restricción de sodio, porque el derrame bilateral se debe a congestión",
+   "E": "Quilotórax; dieta con triglicéridos de cadena media y drenaje, por lesión del conducto torácico"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La tuberculosis pleural es exudado con glucosa baja y linfocitos.",
+   "B": "El derrame paraneumónico es exudado con glucosa baja.",
+   "C": "El hidrotórax pleuroperitoneal aparece en 1 a 2% de los pacientes en DP, casi siempre en el hemitórax derecho, por pasaje de dializado a través de defectos diafragmáticos al espacio pleural, a menudo en las primeras semanas de DP. El líquido pleural es un trasudado con glucosa muy elevada (mayor que la sérica, en relación con la del dializado) y proteínas bajas; se confirma con gammagrafía peritoneal con tecnecio-99m o con instilación de azul de metileno. El tratamiento consiste en suspender la DP temporalmente (hemodiálisis), con reposo del diafragma; si la fuga persiste, se recurre a pleurodesis o reparación toracoscópica.",
+   "D": "La insuficiencia cardiaca no explica la glucosa muy elevada del líquido pleural.",
+   "E": "El quilotórax se acompaña de triglicéridos altos en el líquido."
+  },
+  "perla": "Hidrotórax en DP: derecho, trasudado con glucosa alta (≫ sérica). Parar la DP; gammagrafía; pleurodesis si persiste.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o1",
+  "peso": 54.8
+ },
+ {
+  "id": "CPL-2",
+  "serie_id": "CPL",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Infección del sitio de salida del catéter",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Un tercer paciente, de 48 años, en DPCA, desarrolla eritema, induración de 1 cm y secreción purulenta en el orificio de salida del catéter. El cultivo reporta Staphylococcus aureus sensible a meticilina. El efluente está claro y sin dolor abdominal.",
+  "enunciado": "¿Cuál es la conducta recomendada?",
+  "opciones": {
+   "A": "Retirar el catéter de inmediato, por tratarse de una infección del orificio de salida por S. aureus",
+   "B": "Suspender la DP y colocar hemodiálisis, por el riesgo de peritonitis por la infección del sitio",
+   "C": "Antibiótico intraperitoneal únicamente, sin tratamiento oral ni cuidado local del orificio de salida",
+   "D": "Solo antisépticos tópicos sin antibiótico sistémico, porque la infección del orificio es superficial y no requiere más",
+   "E": "Antibiótico oral antiestafilocócico (cefalexina o dicloxacilina) por ≥2 semanas, con cuidado del sitio de salida"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El retiro del catéter se reserva para fracaso del tratamiento, túnel afectado o peritonitis concomitante.",
+   "B": "La suspensión de la DP no es necesaria en infecciones locales controlables.",
+   "C": "El antibiótico intraperitoneal es para peritonitis, no para infección aislada del sitio de salida.",
+   "D": "Los antisépticos solos no erradican una infección establecida por S. aureus.",
+   "E": "La infección del sitio de salida por S. aureus es frecuente y se trata con antibiótico oral (cefalexina, dicloxacilina o similar; vancomicina si SARM) durante al menos 2 semanas, junto con cuidado local. Como S. aureus puede progresar a infección del túnel y peritonitis, las guías ISPD recomiendan prevenir con mupirocina o gentamicina tópica en el sitio de salida y erradicar el estado de portador nasal. Si hay infección del túnel o falta de respuesta, se evalúa retiro del catéter para evitar peritonitis."
+  },
+  "perla": "Sitio de salida por S. aureus: antibiótico oral ≥2 sem + mupirocina/gentamicina tópica; retiro si falla o hay túnel/peritonitis.",
+  "referencias": [
+   "Szeto CC et al. Perit Dial Int 2017;37:141"
+  ],
+  "origen": [
+   "Modulos",
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "CPL-3",
+  "serie_id": "CPL",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "Fugas y hernias en diálisis peritoneal",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Otro paciente de 65 años, tres semanas después de colocar el catéter, tiene edema genital y de pared abdominal, ultrafiltración baja y una tumoración inguinal que aumenta con la maniobra de Valsalva.",
+  "enunciado": "¿Cuál es el manejo adecuado?",
+  "opciones": {
+   "A": "Retirar el catéter y abandonar siempre la diálisis peritoneal, porque el defecto de pared es una contraindicación absoluta y definitiva",
+   "B": "Aumentar el volumen del recambio para mejorar la ultrafiltración baja, sin tratar el defecto de pared ni suspender la técnica de DP",
+   "C": "Suspender DP o reducir volumen, pasar a DPA supina, confirmar con peritoneografía por TC y reparar la hernia antes de reanudar",
+   "D": "Continuar sin cambios en la prescripción, porque el edema genital se resuelve solo con reposo relativo y la hernia es asintomática",
+   "E": "Colocar diuréticos de asa para el edema genital y de pared abdominal, sin modificar la técnica ni estudiar el defecto"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El abandono definitivo de la DP no es obligatorio.",
+   "B": "Aumentar el volumen eleva la presión intraabdominal y agrava la fuga.",
+   "C": "Las fugas peritoneales y las hernias son complicaciones mecánicas relacionadas con el aumento de la presión intraabdominal por el volumen de dializado. Se manifiestan con edema de pared o genital, ultrafiltración baja y tumoración que aumenta con Valsalva. Se confirman con TC con contraste o peritoneografía; se reducen los volúmenes o se pasa a DPA en decúbito, y se repara quirúrgicamente la hernia o el defecto, con reposo de la DP durante unos días a semanas para permitir la cicatrización (a menudo con hemodiálisis temporal). Muchos pacientes pueden retomar la DP tras la reparación.",
+   "D": "Continuar sin cambios empeora el defecto y el edema.",
+   "E": "Los diuréticos no tratan la fuga."
+  },
+  "perla": "Fuga/hernia en DP: confirmar con TC peritoneografía; reducir volumen/decúbito; reparar; reposo de la DP antes de retomar.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o1",
+  "peso": 52.8
+ },
+ {
+  "id": "KTV-1",
+  "serie_id": "KTV",
+  "orden": 1,
+  "sub": "20.a",
+  "subtema": "Cálculo del Kt/V renal semanal",
+  "dificultad": "moderada",
+  "caso": "Hombre de 52 años con ERC estadio G4 por poliquistosis renal autosómica dominante. Pesa 80 kg y mide 1.89 m. Su TA es de 140/100 mmHg, la creatinina de 4.6 mg/dL, la urea de 137 mg/dL, la TFGe de 13 mL/min/1.73 m² y la diuresis de 24 horas de 2,460 mL. La depuración de urea medida es de 8 mL/min y su agua corporal total (volumen de distribución de la urea) es de 45 L. Planea elegir terapia sustitutiva y se evalúa la contribución de su función renal residual.",
+  "enunciado": "¿Cuál es el Kt/V renal semanal de urea?",
+  "opciones": {
+   "A": "1.79 (8 mL/min × 1,440 min = 11.5 L/día; ÷ 45 L = 0.256 por día; × 7 días)",
+   "B": "3.0 (Kt/V semanal tomando la TFGe de 13 mL/min como depuración de urea)",
+   "C": "0.256 (Kt/V diario, que no se multiplicó por los 7 días de la semana)",
+   "D": "2.55 (Kt/V semanal calculado con la depuración de creatinina y no la de urea)",
+   "E": "0.89 (Kt/V semanal con un volumen de distribución mayor al medido)"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El Kt/V expresa la depuración de urea (K) multiplicada por el tiempo (T), dividida entre el volumen de distribución de la urea (V, el agua corporal total). Con una depuración de 8 mL/min durante 1,440 minutos, el aclaramiento diario es de 11,520 mL (11.52 L); dividido entre 45 L resulta 0.256 por día, y al multiplicar por 7 días se obtiene un Kt/V semanal de 1.79. Esta cifra es mayor que el objetivo semanal de 1.7 para la diálisis peritoneal, lo que significa que la función renal residual del paciente aporta una dosis de depuración de solutos pequeños equivalente a la meta de diálisis; por ello, aún no se justifica iniciar el tratamiento por dosis insuficiente, y la indicación depende de los síntomas, de la sobrecarga y de la evolución clínica. En la práctica, la función renal residual en diálisis suele estimarse como el promedio de las depuraciones de urea y creatinina, porque la urea subestima la TFG por su reabsorción tubular.",
+   "B": "El valor de 3.0 no resulta de multiplicar 0.256 por 7.",
+   "C": "0.256 es el valor diario, no el semanal.",
+   "D": "El valor de 2.55 no corresponde al cálculo con estas cifras.",
+   "E": "0.89 no corresponde al cálculo con estas cifras."
+  },
+  "perla": "Kt/V = (K × T)/V. K 8 mL/min × 1,440 min = 11.5 L/d ÷ 45 L = 0.256/d ×7 = 1.79/semana. Meta DP ≥1.7/semana; RRF aporta al total.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)",
+   "Brown EA et al. Perit Dial Int 2020;40:244 (ISPD: prescripción de DP dirigida a metas)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o2",
+  "peso": 84.6
+ },
+ {
+  "id": "KTV-2",
+  "serie_id": "KTV",
+  "orden": 2,
+  "sub": "20.a",
+  "subtema": "Dosis total de diálisis peritoneal: aporte peritoneal y renal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Catorce meses después inicia diálisis peritoneal continua ambulatoria con 4 recambios al día de 2 L. El volumen drenado promedia 2.2 L por recambio y la relación dializado/plasma de urea al final de la permanencia es de 0.85. Conserva una diuresis de 600 mL/día, con nitrógeno ureico urinario de 250 mg/dL y BUN plasmático de 60 mg/dL. Su agua corporal total sigue siendo de 45 L.",
+  "enunciado": "¿Cuál es el Kt/V semanal total y cómo se interpreta?",
+  "opciones": {
+   "A": "Cerca de 1.84, por lo que cumple la meta de 1.7 y se mantiene la misma prescripción",
+   "B": "Cerca de 1.16, porque no se cuenta la función renal residual, y es insuficiente",
+   "C": "Cerca de 1.55 (peritoneal 1.16 + renal 0.39), menor de 1.7, por lo que se aumenta la dosis de diálisis",
+   "D": "Cerca de 2.4, por lo que está sobredializado y se reduce el número de recambios",
+   "E": "No puede calcularse sin la creatinina del dializado y la del plasma de la misma muestra, por lo que debe repetirse la prueba"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El valor de 1.84 se logra tras aumentar el volumen o el número de recambios, no con la prescripción actual.",
+   "B": "La función renal residual sí se cuenta en la dosis total de diálisis.",
+   "C": "El Kt/V peritoneal semanal es el volumen de dializado drenado en 24 horas por la relación dializado/plasma de urea, por 7 días, dividido entre V: (4 × 2.2 L × 0.85) × 7 = 52.4 L por semana, que dividido entre 45 L da 1.16. El componente renal es la depuración renal de urea: (urea urinaria/urea plasmática) × volumen urinario = (250/60) × 0.6 L = 2.5 L al día, o 17.5 L por semana, que dividido entre 45 L da 0.39. El Kt/V total es 1.16 + 0.39 = 1.55, menor que la meta mínima de 1.7 por semana, por lo que se debe aumentar la dosis: subir el volumen de llenado de 2 a 2.5 L, si la tolerancia y el área corporal lo permiten (peritoneal 1.45, total 1.84), o agregar un quinto recambio (también 1.45, total 1.84). Es importante conservar la diuresis residual con diuréticos de asa y evitar nefrotóxicos.",
+   "D": "La suma de ambos componentes no llega a 2.4.",
+   "E": "El Kt/V se calcula con urea, no se requiere la creatinina."
+  },
+  "perla": "Kt/V total = peritoneal (drenaje 24 h × D/P urea × 7 ÷ V) + renal (U/P × volumen urinario × 7 ÷ V). 1.16 + 0.39 = 1.55 <1.7 → ↑volumen (2→2.5 L) o + recambio.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2020;40:244 (ISPD: prescripción de DP dirigida a metas)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Alan26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o4",
+  "peso": 86.6
+ },
+ {
+  "id": "KTV-3",
+  "serie_id": "KTV",
+  "orden": 3,
+  "sub": "20.a",
+  "subtema": "Paciente anúrico en diálisis peritoneal automatizada con dosis insuficiente",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Dos años más tarde el paciente es anúrico y cambió a diálisis peritoneal automatizada nocturna con 4 recambios de 2 L (drenaje de 2.2 L) y una permanencia diurna larga de 2 L con icodextrina. Su Kt/V semanal es de 1.16, la ultrafiltración diaria de 450 mL, sin datos de sobrehidratación, con TA normal y sin síntomas urémicos.",
+  "enunciado": "¿Cuál es la mejor conducta?",
+  "opciones": {
+   "A": "Suspender la icodextrina y reducir los recambios para disminuir la exposición peritoneal a glucosa",
+   "B": "Aumentar la dosis de diuréticos y cambiar a diálisis peritoneal continua ambulatoria",
+   "C": "Pasar directamente a hemodiálisis sin modificar la prescripción de diálisis peritoneal",
+   "D": "Agregar un recambio diurno extra o aumentar el volumen; si no basta, considerar la hemodiálisis",
+   "E": "Mantener igual la prescripción porque no hay síntomas, y repetir la medición del Kt/V en 6 meses"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Reducir la dosis agravaría la insuficiencia, y la icodextrina ayuda a la ultrafiltración de la permanencia larga.",
+   "B": "Los diuréticos no tienen efecto en el paciente anúrico, y el cambio a la modalidad continua ambulatoria no resuelve por sí solo la dosis.",
+   "C": "Se debe intentar optimizar la prescripción antes de abandonar la técnica.",
+   "D": "En un paciente anúrico, la dosis de diálisis peritoneal depende solo de la depuración peritoneal, por lo que un Kt/V de 1.16 es insuficiente aunque no haya síntomas, ya que la dosis inadecuada aumenta el riesgo de uremia, desnutrición y mortalidad. El primer paso es intensificar la prescripción: agregar un recambio diurno (con lo cual, si cada recambio drena 2.2 L y D/P es 0.85, el Kt/V sube a cerca de 1.45) y aumentar el volumen de llenado si el tamaño corporal y la tolerancia lo permiten (2.5 L en 5 recambios daría cerca de 1.8). Si con las modificaciones no se alcanza la dosis o no se logra el control del volumen, se considera el paso a hemodiálisis o a un esquema combinado. Los diuréticos no sirven en el anúrico, y se verifican la adherencia y el tipo de transporte con la prueba de equilibrio peritoneal.",
+   "E": "Un Kt/V inferior a 1.7 requiere ajuste aunque el paciente esté asintomático."
+  },
+  "perla": "Anúrico en DP con Kt/V <1.7: agregar recambio diurno / ↑volumen; si no basta → HD o esquema combinado. Diuréticos no sirven en anuria. Verificar adherencia y PET.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2020;40:244 (ISPD: prescripción de DP dirigida a metas)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Belen26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 86.6
+ },
+ {
+  "id": "KTV-4",
+  "serie_id": "KTV",
+  "orden": 4,
+  "sub": "20.b",
+  "subtema": "Preservación de la función renal residual en diálisis peritoneal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al revisar su historia, el nefrólogo se pregunta qué medidas habrían preservado la función renal residual (diuresis de 600 mL/día) durante los primeros 14 meses de diálisis peritoneal y por qué importa.",
+  "enunciado": "¿Qué medidas protegen la función renal residual y cuál es su importancia pronóstica?",
+  "opciones": {
+   "A": "Restringir los líquidos de forma extrema para evitar poliuria, porque la diuresis residual daña la membrana",
+   "B": "Usar aminoglucósidos y contraste con frecuencia, porque la función renal residual no tiene importancia pronóstica alguna",
+   "C": "Mantener hipotensión intradiálisis para reducir el volumen, aunque disminuya la perfusión renal residual",
+   "D": "Suspender los IECA/ARA II al iniciar diálisis, porque ya no tienen utilidad sobre la función renal",
+   "E": "Evitar nefrotóxicos e hipovolemia, usar IECA/ARA II y diuréticos de asa; la función residual se asocia a mayor supervivencia"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Restringir los líquidos de manera extrema causa hipovolemia y deterioro de la función renal residual.",
+   "B": "Los nefrotóxicos deterioran la función residual, y esta tiene gran importancia pronóstica.",
+   "C": "La hipotensión es perjudicial para la función renal residual y no una estrategia de volumen.",
+   "D": "Los IECA/ARA II protegen la función residual, por lo que no deben suspenderse al iniciar diálisis.",
+   "E": "La función renal residual es uno de los predictores más fuertes de supervivencia en diálisis peritoneal: aporta depuración de solutos de tamaño medio y de fosfato, control del volumen (diuresis), menor inflamación, mejor estado nutricional y menor necesidad de dosis peritoneal. Para conservarla se evitan nefrotóxicos (AINE, aminoglucósidos, contraste, vancomicina en exceso), se previenen los episodios de hipovolemia e hipotensión, se mantiene el bloqueo del SRAA, se emplean diuréticos de asa en dosis altas para mantener la diuresis mientras el paciente no sea anúrico y se prefieren soluciones de menor carga de glucosa y más biocompatibles. La diálisis peritoneal, por no producir las hipotensiones de la hemodiálisis intermitente, se asocia a una declinación más lenta de la función residual en los primeros años."
+  },
+  "perla": "Proteger RRF: sin nefrotóxicos/hipovolemia, iSRAA, diurético de asa, soluciones biocompatibles. RRF ↑supervivencia y control de volumen. Contribuye al Kt/V.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2020;40:244 (ISPD: prescripción de DP dirigida a metas)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o3",
+  "peso": 54.8
+ },
+ {
+  "id": "CAT-1",
+  "serie_id": "CAT",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Colocación del catéter peritoneal y prevención de infecciones",
+  "dificultad": "moderada",
+  "caso": "Mujer de 47 años con ERC G5 por nefropatía lúpica inactiva que elige diálisis peritoneal. Se programa la colocación electiva de un catéter de Tenckhoff de dos manguitos por laparoscopia. Tiene estreñimiento crónico y vive a 40 minutos del hospital.",
+  "enunciado": "¿Qué medidas de preparación y perioperatorias recomienda la guía ISPD?",
+  "opciones": {
+   "A": "No es necesaria profilaxis antibiótica ni preparación intestinal, porque el abordaje laparoscópico tiene bajo riesgo de infección",
+   "B": "Colocar el sitio de salida orientado hacia arriba para facilitar el drenaje por gravedad y evitar el roce con el cinturón",
+   "C": "Usar apósitos oclusivos y cambiarlos a diario desde el primer día, aun sin signos de infección, para proteger el túnel",
+   "D": "Iniciar la diálisis con volúmenes completos el mismo día de la colocación, para evitar una demora innecesaria del tratamiento renal",
+   "E": "Marcar el sitio con la paciente sentada, tratar el estreñimiento, dar profilaxis antibiótica en dosis única y esperar 10-14 días"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La profilaxis antibiótica sistémica reduce las infecciones tempranas y se recomienda.",
+   "B": "El orificio de salida debe orientarse hacia abajo o lateral para evitar el acúmulo de líquido y suciedad.",
+   "C": "Los apósitos oclusivos húmedos aumentan el riesgo de infección y no se recomienda el cambio diario inicial.",
+   "D": "El inicio inmediato con volúmenes completos aumenta las fugas y la infección.",
+   "E": "Las recomendaciones de la ISPD para la inserción del catéter incluyen elegir y marcar el sitio de salida con la paciente sentada, evitando pliegues y la cintura, con orientación lateral o hacia abajo; corregir el estreñimiento y vaciar la vejiga antes del procedimiento; administrar una dosis única de antibiótico profiláctico sistémico antes de la cirugía (por ejemplo, cefazolina o vancomicina), que reduce las infecciones tempranas del sitio de salida y la peritonitis; y respetar un periodo de espera de 10 a 14 días (idealmente 2 semanas) para la cicatrización del túnel antes de iniciar la diálisis, o si se requiere una inicio urgente, usar volúmenes bajos y en decúbito para minimizar las fugas. El cuidado del sitio de salida sigue técnica limpia y el apósito no se cambia en los primeros días, salvo sangrado."
+  },
+  "perla": "Catéter DP: marcar salida sentada (lateral/hacia abajo), tratar estreñimiento, profilaxis antibiótica única (cefazolina/vancomicina), esperar 10–14 d (o volúmenes bajos supino).",
+  "referencias": [
+   "Crabtree JH et al. Perit Dial Int 2019;39:414 (ISPD: acceso peritoneal)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o5",
+  "peso": 52.8
+ },
+ {
+  "id": "CAT-2",
+  "serie_id": "CAT",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Falla de drenaje del catéter: abordaje inicial",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Catorce días después, durante el entrenamiento, el drenaje es muy lento: en un recambio de 1 L solo drenan 250 mL. No hay dolor ni fiebre; el abdomen está blando, la última evacuación fue hace 5 días y no hay fugas.",
+  "enunciado": "¿Cuál es la conducta inicial?",
+  "opciones": {
+   "A": "Aumentar los volúmenes de llenado a 3 L para mejorar el drenaje, y repetir el recambio con la misma técnica",
+   "B": "Realizar tomografía con contraste de urgencia, porque el drenaje lento indica una complicación quirúrgica grave del catéter",
+   "C": "Radiografía de abdomen para ver el catéter y la carga fecal, tratar el estreñimiento y verificar que no haya acodamiento externo",
+   "D": "Iniciar antibióticos intraperitoneales empíricos, aunque no haya fiebre, dolor ni efluente turbio",
+   "E": "Retirar de inmediato el catéter, por falla mecánica del drenaje en las primeras semanas de uso"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Aumentar el volumen en un catéter que no drena empeora la distensión y las fugas.",
+   "B": "No se justifica una tomografía de urgencia para el abordaje inicial.",
+   "C": "La falla de drenaje con flujo de entrada conservado es causada con mayor frecuencia por estreñimiento, que desplaza o comprime el catéter, o por migración de la punta fuera de la pelvis, fibrina o coágulos en la luz, y envoltura por el epiplón. El primer estudio es una radiografía simple de abdomen, que localiza la punta del catéter (normalmente en la pelvis verdadera) y muestra la carga fecal; el primer tratamiento es el manejo del estreñimiento con laxantes osmóticos o enemas, junto con la revisión de acodaduras en el trayecto externo o de pinzas cerradas y el cambio de posición. Si la obstrucción persiste con catéter mal posicionado, se plantea el reposicionamiento con guía o laparoscopia (con omentopexia). La infección no explica la falla de drenaje sin dolor ni fiebre.",
+   "D": "No hay datos de peritonitis (dolor, fiebre, dializado turbio).",
+   "E": "El retiro es prematuro, porque la mayoría de las fallas de drenaje se resuelven con medidas simples."
+  },
+  "perla": "Falla de drenaje: Rx abdomen (punta del catéter + heces) y laxantes/enemas primero. Causas: estreñimiento, migración, fibrina, epiplón. Persistente → reposicionamiento (laparoscopia).",
+  "referencias": [
+   "Crabtree JH et al. Perit Dial Int 2019;39:414 (ISPD: acceso peritoneal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o5",
+  "peso": 54.8
+ },
+ {
+  "id": "CAT-3",
+  "serie_id": "CAT",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "Fibrina en el efluente y heparina intraperitoneal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras el manejo del estreñimiento, la radiografía muestra la punta del catéter en la pelvis, y el drenaje mejora parcialmente. Se observan hebras de fibrina en el efluente y el flujo es lento tanto en el llenado como en el drenaje.",
+  "enunciado": "¿Qué tratamiento se indica?",
+  "opciones": {
+   "A": "Suspender definitivamente la diálisis peritoneal, porque la fibrina indica falla irreversible del catéter y de la membrana peritoneal",
+   "B": "Heparina intraperitoneal en el dializado (500 U/L), sin efecto sistémico; si no resuelve, lavados o alteplasa intraluminal",
+   "C": "Antibióticos intraperitoneales sin heparina, porque las hebras de fibrina indican siempre una peritonitis",
+   "D": "Retiro inmediato del catéter, porque la fibrina en el efluente es una indicación absoluta de recambio",
+   "E": "Heparina intravenosa en infusión continua, que disuelve la fibrina del catéter y previene su recurrencia"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay motivo para suspender la técnica.",
+   "B": "La fibrina en el efluente es frecuente al inicio y en la peritonitis, y puede obstruir la luz del catéter. La heparina agregada al dializado, habitualmente a 500 U por litro, previene la formación de coágulos y mejora la permeabilidad; actúa localmente, con absorción sistémica mínima, por lo que no aumenta el riesgo hemorrágico ni altera la coagulación (se puede emplear incluso en el posoperatorio inmediato, con precaución si hay sangrado activo). Si hay obstrucción de la luz, se intenta la irrigación con jeringa a presión baja y la instilación intraluminal de alteplasa o urocinasa; si persiste con mal posicionamiento, se recurre al reposicionamiento o al reemplazo. La heparina intravenosa no es necesaria, y la infección no es la causa del hallazgo.",
+   "C": "Los antibióticos no resuelven la fibrina sin infección.",
+   "D": "El retiro es innecesario si el problema es tratable.",
+   "E": "La heparina intravenosa no es necesaria y expone a hemorragia."
+  },
+  "perla": "Fibrina: heparina 500 U/L en el dializado (acción local, no sistémica); si obstruye la luz: irrigación o alteplasa/urocinasa intraluminal; reposicionar si hay migración.",
+  "referencias": [
+   "Crabtree JH et al. Perit Dial Int 2019;39:414 (ISPD: acceso peritoneal)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o5",
+  "peso": 54.8
+ },
+ {
+  "id": "PDS-1",
+  "serie_id": "PDS",
+  "orden": 1,
+  "sub": "20.a",
+  "subtema": "Soluciones biocompatibles: pH neutro y bajos productos de degradación de glucosa",
+  "dificultad": "moderada",
+  "caso": "Mujer de 52 años que inicia diálisis peritoneal automatizada por ERC G5 secundaria a nefroangioesclerosis. Conserva diuresis de 1,200 mL/día y una depuración de urea residual de 4 mL/min. Se discute si usar soluciones convencionales (pH ácido, con altos productos de degradación de glucosa) o soluciones de pH neutro con bajo contenido de productos de degradación de glucosa.",
+  "enunciado": "¿Qué sustenta el uso de las soluciones biocompatibles (pH neutro y bajos productos de degradación de glucosa)?",
+  "opciones": {
+   "A": "Eliminan por completo la absorción de glucosa del dializado, por lo que no producen cargas calóricas",
+   "B": "Menos productos de degradación de glucosa y mejor conservación de la diuresis (balANZ), sin efecto concluyente en supervivencia",
+   "C": "Aumentan la ultrafiltración al doble en todos los pacientes, por su mayor osmolaridad frente a las soluciones convencionales",
+   "D": "Previenen la peritonitis esclerosante encapsulante de forma comprobada en los pacientes con diálisis prolongada",
+   "E": "Están contraindicadas con función renal residual, porque aceleran la pérdida de diuresis de los pacientes"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Siguen conteniendo glucosa y se absorbe igual, de modo que no la eliminan.",
+   "B": "Las soluciones convencionales tienen un pH ácido y los productos de degradación de glucosa (GDP) formados con la esterilización por calor, que lesionan la membrana peritoneal y se asocian con la formación de productos finales de glicación avanzada. Las soluciones con pH neutro y bajo contenido de GDP (con compartimentos separados) reducen esta exposición, y los ensayos aleatorizados (como el balANZ) y los metaanálisis muestran una mejor conservación de la función renal residual y de la diuresis, con menos dolor a la infusión; el efecto sobre la peritonitis es inconsistente, y no hay una mejoría concluyente de la supervivencia del paciente o de la técnica, por lo que la guía ISPD sugiere su uso, sobre todo en pacientes con función renal residual. Su contenido de glucosa es el mismo, así que no cambian la ultrafiltración.",
+   "C": "No duplican la ultrafiltración: el gradiente osmótico depende de la glucosa.",
+   "D": "No hay evidencia que demuestre prevención de la peritonitis esclerosante.",
+   "E": "Están indicadas precisamente cuando hay función renal residual, y no contraindicadas."
+  },
+  "perla": "Soluciones pH neutro/bajo GDP: ↓ exposición a GDP, mejor preservación de función renal residual y diuresis (balANZ); efecto sobre peritonitis y supervivencia no concluyente; misma glucosa → misma UF.",
+  "referencias": [
+   "Johnson DW et al. J Am Soc Nephrol 2012;23:1097 (balANZ)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o2",
+  "peso": 44.3
+ },
+ {
+  "id": "PDS-2",
+  "serie_id": "PDS",
+  "orden": 2,
+  "sub": "20.a",
+  "subtema": "Carga de glucosa en diálisis peritoneal: estrategia ahorradora y soluciones alternativas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un año después, la paciente tiene IMC de 33 kg/m², triglicéridos de 380 mg/dL, glucosa en ayuno de 118 mg/dL y usa 3 de 5 recambios con glucosa al 2.5% por sobrecarga de volumen. La diuresis residual bajó a 300 mL/día y la ultrafiltración es de 400 mL/día.",
+  "enunciado": "¿Cuál es la estrategia más adecuada para reducir la carga de glucosa y mantener la ultrafiltración?",
+  "opciones": {
+   "A": "Restringir la ultrafiltración hasta la anuria, para no usar más glucosa en los recambios de la paciente",
+   "B": "Aumentar la concentración de glucosa de todos los recambios a 4.25%, para mantener la ultrafiltración",
+   "C": "Estrategia ahorradora de glucosa: restringir sodio y agua, diurético, icodextrina en la permanencia larga y aminoácidos si es útil",
+   "D": "Aumentar la ingesta de sodio para mejorar la sed y facilitar la ultrafiltración en los recambios diurnos",
+   "E": "Suspender la diálisis peritoneal y pasar a hemodiálisis, sin otras medidas previas de ahorro de glucosa"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Dejar de ultrafiltrar produce sobrecarga de volumen y falla de la técnica.",
+   "B": "Aumentar la glucosa aumenta la absorción calórica y daña la membrana, y empeora la dislipidemia y la obesidad.",
+   "C": "La absorción diaria de glucosa del dializado (cientos de calorías) contribuye a la obesidad, la dislipidemia y la hiperglucemia, y las concentraciones altas de glucosa (2.5 y 4.25%) lesionan la membrana peritoneal. La estrategia ahorradora de glucosa combina el control del volumen con restricción de sodio y agua, diuréticos de asa mientras haya diuresis residual, icodextrina en la permanencia larga (diurna en la diálisis peritoneal automatizada o nocturna en la ambulatoria continua), que produce una ultrafiltración sostenida por presión coloidosmótica en permanencias de 8 a 16 horas, y, si hace falta, un recambio al día con aminoácidos (útil en desnutrición, con riesgo de acidosis y azoemia). La icodextrina se metaboliza a maltosa, que interfiere con los glucómetros que usan glucosa deshidrogenasa PQQ (falsa hiperglucemia), por lo que se usan métodos específicos para glucosa.",
+   "D": "El sodio alto agrava la sed y la sobrecarga de volumen.",
+   "E": "Cambiar de modalidad sin optimizar el tratamiento es prematuro."
+  },
+  "perla": "Ahorro de glucosa en DP: ↓ sodio/agua, diurético si hay diuresis, icodextrina (permanencia larga), aminoácidos 1 recambio/día. Icodextrina → maltosa → falsa hiperglucemia con glucómetros GDH-PQQ.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 46.3
+ },
+ {
+  "id": "PDS-3",
+  "serie_id": "PDS",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "Hipopotasemia en diálisis peritoneal: causas y consecuencias",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A los 2 años, con diálisis peritoneal ambulatoria continua y diuresis residual de 500 mL/día, tiene K⁺ de 2.9 mEq/L en dos controles, con dieta pobre en frutas y verduras, hiporexia y diarrea intermitente. Toma furosemida y un IECA. El Mg es normal.",
+  "enunciado": "¿Cuál es la afirmación correcta sobre la hipopotasemia en diálisis peritoneal?",
+  "opciones": {
+   "A": "Es frecuente en DP y se asocia a más peritonitis y mortalidad; se corrige con dieta, potasio oral y ajuste del diurético",
+   "B": "Indica sobrecarga de volumen, que se trata con restricción de potasio y de líquidos en la dieta del paciente",
+   "C": "Se debe a la glucosa del dializado y desaparece al disminuir la glucosa de los recambios de la paciente",
+   "D": "Es siempre un hallazgo benigno de la diálisis peritoneal, que no requiere tratamiento ni vigilancia periódica",
+   "E": "Se debe corregir con un dializado con potasio de 4 mEq/L en todos los pacientes, para reponer la pérdida"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "A diferencia de la hemodiálisis, la diálisis peritoneal tiene un dializado sin potasio, de modo que la hipopotasemia es frecuente (cerca de 30% de los pacientes en algunas series), sobre todo con baja ingesta oral, hiporexia, desnutrición, diarrea, diuréticos de asa y una depuración peritoneal alta. Estudios observacionales la asocian con un mayor riesgo de peritonitis (por hipomotilidad intestinal y translocación bacteriana, con más gérmenes entéricos) y con una mayor mortalidad, aunque no hay ensayos que demuestren que corregirla las reduzca. El tratamiento es corregir la causa, liberalizar la dieta, administrar suplementos orales de cloruro de potasio y ajustar los diuréticos; los antagonistas de la aldosterona o los IECA con vigilancia pueden ayudar. Rara vez se agrega potasio al dializado, y requiere precaución.",
+   "B": "La hipopotasemia no indica sobrecarga de volumen, y restringir potasio la empeora.",
+   "C": "La glucosa influye poco; las causas son principalmente de ingesta, digestivas y renales.",
+   "D": "La hipopotasemia no es benigna: se asocia con arritmias, debilidad y mayor riesgo de peritonitis.",
+   "E": "Agregar potasio al dializado de manera rutinaria no se recomienda, y la corrección habitual es oral."
+  },
+  "perla": "DP: dializado sin K⁺ → hipopotasemia frecuente (baja ingesta, diarrea, asa, hiporexia). Asociada a peritonitis (entérica) y mortalidad. Dieta/KCl oral, ajustar diurético; tratar causa.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o6",
+  "peso": 44.8
+ },
+ {
+  "id": "HPT-1",
+  "serie_id": "HPT",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Hemoperitoneo benigno en diálisis peritoneal: menstruación y ovulación",
+  "dificultad": "moderada",
+  "caso": "Mujer de 29 años en diálisis peritoneal ambulatoria continua desde hace 8 meses. En el día 14 de su ciclo menstrual nota que el efluente se ve rosado a rojo en los recambios del día. Está afebril, sin dolor abdominal, con recuento de leucocitos del efluente de 15/µL, hemoglobina estable de 10.2 g/dL y sin traumatismo previo.",
+  "enunciado": "¿Cuál es la explicación más probable y la conducta?",
+  "opciones": {
+   "A": "Rechazo del catéter, que requiere su retiro inmediato por la reacción inflamatoria de la cavidad peritoneal",
+   "B": "Hemoperitoneo benigno por menstruación u ovulación, autolimitado; tranquilizar, vigilar hemoglobina y heparina si hay coágulos",
+   "C": "Perforación intestinal, que requiere laparotomía de urgencia por el riesgo de peritonitis fecal y sepsis",
+   "D": "Peritonitis esclerosante encapsulante, que requiere suspender la diálisis peritoneal y pasar a hemodiálisis",
+   "E": "Peritonitis bacteriana, que requiere antibióticos de inmediato, aunque la paciente esté afebril y sin dolor"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El catéter funciona, y no hay motivo para retirarlo.",
+   "B": "El hemoperitoneo es frecuente en mujeres en diálisis peritoneal y puede deberse a la menstruación (reflujo retrógrado por las trompas) o a la ovulación (a mitad del ciclo), con sangrado autolimitado en 1 a 3 días y sin repercusión clínica; también aparece en las primeras semanas tras colocar el catéter. Aquí, el efluente es rojo con recuento de leucocitos normal (15/µL, menos de 100/µL), sin fiebre ni dolor y con hemoglobina estable, lo que excluye peritonitis. El manejo consiste en tranquilizar a la paciente, vigilar la hemoglobina y el efluente, y, si hay coágulos o fibrina, realizar recambios rápidos con volúmenes pequeños y agregar heparina (500 U/L) al dializado para evitar la obstrucción del catéter; no se necesitan antibióticos ni suspender la diálisis.",
+   "C": "No hay dolor abdominal, fiebre ni signos peritoneales de perforación.",
+   "D": "No hay datos de obstrucción intestinal, dolor ni pérdida de ultrafiltración que sugieran esa complicación.",
+   "E": "No hay fiebre, dolor ni leucocitos del efluente elevados que sugieran peritonitis."
+  },
+  "perla": "Hemoperitoneo benigno (menstruación/ovulación/catéter nuevo): autolimitado, afebril, leucocitos efluente normales. Recambios rápidos + heparina 500 U/L si hay coágulos; vigilar Hb.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o1",
+  "peso": 42.8
+ },
+ {
+  "id": "HPT-2",
+  "serie_id": "HPT",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Hemoperitoneo persistente o con inestabilidad: causas graves y estudio",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente, de 55 años, con poliquistosis renal y diálisis peritoneal, anticoagulado con warfarina por fibrilación auricular, presenta efluente hemático franco de 5 días con dolor abdominal y lumbar, hemoglobina que baja de 10.4 a 7.9 g/dL y TA de 98/60 mmHg.",
+  "enunciado": "¿Cuál es el enfoque más adecuado?",
+  "opciones": {
+   "A": "Esperar, porque cualquier hemoperitoneo es benigno y se resuelve solo con recambios sin necesidad de estudios adicionales ni de vigilancia",
+   "B": "Aumentar la dosis de warfarina de forma progresiva, para prevenir la formación de coágulos en el catéter y en la cavidad peritoneal",
+   "C": "Aplicar solo recambios rápidos y muy frecuentes, sin estudiar la causa, hasta que el efluente deje de ser hemático por completo",
+   "D": "Hemoperitoneo no benigno: estabilizar, revisar INR, revertir la anticoagulación y buscar con imagen rotura de quiste o lesión",
+   "E": "Iniciar antifúngicos empíricos, porque el efluente hemático de varios días indica peritonitis fúngica asociada a la diálisis peritoneal"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No todo hemoperitoneo es benigno: con inestabilidad y caída de hemoglobina se estudia la causa.",
+   "B": "Aumentar la anticoagulación agravaría el sangrado.",
+   "C": "Sin estudiar la causa se puede pasar por alto una hemorragia grave.",
+   "D": "Un hemoperitoneo con inestabilidad hemodinámica, caída de la hemoglobina o dolor, que persiste más de 2 a 3 días o aparece en un paciente anticoagulado o con enfermedad quística, no es benigno. Las causas posibles son la rotura de un quiste renal o hepático en la poliquistosis, el sangrado por anticoagulación excesiva, la lesión de un vaso o de un órgano por el catéter, la rotura esplénica o hepática, la peritonitis esclerosante encapsulante, los tumores y la coagulopatía. Se estabiliza al paciente, se revisan el INR y las plaquetas (suspendiendo o revirtiendo la anticoagulación según el riesgo), se solicita imagen (ecografía o TC) y se transfunde si es necesario; los recambios rápidos con heparina se usan solo si hay coágulos y no hay riesgo de empeorar el sangrado. En este paciente, la caída de la hemoglobina y la hipotensión indican una hemorragia significativa.",
+   "E": "No hay indicación de antifúngicos, y el cuadro no sugiere peritonitis fúngica."
+  },
+  "perla": "Hemoperitoneo no benigno: anticoagulado, poliquistosis, dolor, caída de Hb, hipotensión, >2–3 días. Estabilizar, revisar INR, imagen; causas: rotura de quiste, órgano, catéter, EPS.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o1",
+  "peso": 44.8
+ },
+ {
+  "id": "HPT-3",
+  "serie_id": "HPT",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "Diálisis peritoneal en poliquistosis renal: factores prácticos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras estabilizar al paciente con poliquistosis renal, el equipo discute si debe continuar en diálisis peritoneal o cambiar a hemodiálisis. Tiene riñones de 22 cm cada uno, quistes hepáticos y una hernia umbilical pequeña.",
+  "enunciado": "¿Qué afirmación es correcta sobre la diálisis peritoneal en la poliquistosis renal autosómica dominante?",
+  "opciones": {
+   "A": "No está contraindicada, pero los riñones y el hígado grandes favorecen hernias y fugas; se reparan antes",
+   "B": "No tiene relación con las hernias ni con las fugas, porque la presión intraabdominal no cambia con el tamaño de los riñones",
+   "C": "Aumenta de forma importante la mortalidad frente a la hemodiálisis, por lo que se debe evitar en toda poliquistosis",
+   "D": "Se prefiere siempre sobre la hemodiálisis, aunque haya hernias, porque conserva mejor el acceso vascular del paciente",
+   "E": "Está contraindicada de forma absoluta en toda poliquistosis renal, por el riesgo de infección de los quistes hepáticos"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La poliquistosis renal autosómica dominante no es una contraindicación para la diálisis peritoneal, y los estudios muestran resultados comparables (supervivencia del paciente y de la técnica, peritonitis) con los de otras causas de ERC. Sin embargo, los riñones y el hígado muy grandes reducen la cavidad peritoneal, que tolera peores volúmenes de llenado (puede requerirse un volumen menor o la posición supina), aumentan la presión intraabdominal y el riesgo de hernias (umbilicales e inguinales), fugas, dolor lumbar y reflujo gastroesofágico, y el riesgo de hemoperitoneo por rotura de quistes. Antes de iniciar la diálisis peritoneal se reparan las hernias y se evalúa el tamaño de los riñones; si hay síntomas importantes o falla técnica, se cambia a hemodiálisis. La nefrectomía previa puede considerarse si el espacio es insuficiente.",
+   "B": "Sí hay relación: la presión intraabdominal aumentada favorece las hernias y las fugas.",
+   "C": "No hay un aumento importante de la mortalidad en la poliquistosis con diálisis peritoneal.",
+   "D": "No se prefiere siempre: las hernias y el espacio limitado pueden obligar a cambiar.",
+   "E": "No está contraindicada de forma absoluta y es una opción válida en muchos casos."
+  },
+  "perla": "ADPKD y DP: no contraindicada (resultados similares); riesgo de hernias/fugas, menor volumen de llenado tolerado, hemoperitoneo por quistes. Reparar hernias antes; cambiar a HD si falla técnica.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o1",
+  "peso": 44.8
+ },
+ {
+  "id": "PHF-1",
+  "serie_id": "PHF",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Diálisis peritoneal en insuficiencia cardíaca refractaria con ERC avanzada",
+  "dificultad": "dificil",
+  "caso": "Hombre de 66 años con miocardiopatía isquémica (FEVI de 25%), clase funcional III-IV de la NYHA, cuatro hospitalizaciones por insuficiencia cardíaca descompensada en un año, a pesar de dosis altas de furosemida (160 mg/día) y de bumetanida añadida, más espironolactona, sacubitrilo/valsartán a dosis baja y dapagliflozina suspendidos por hipotensión e hiperpotasemia. TFG de 14 mL/min/1.73 m², presión de 92/58 mmHg, sodio de 130 mEq/L. Tiene hepatomegalia congestiva, edema y pesa 11 kg sobre su peso seco. No tiene cirugías abdominales previas.",
+  "enunciado": "¿Qué estrategia de reemplazo renal es la más adecuada?",
+  "opciones": {
+   "A": "Colocar un catéter venoso central y hacer ultrafiltración aislada intermitente a diario por tiempo indefinido",
+   "B": "La hemodiálisis intermitente de alto flujo, porque la diálisis peritoneal está contraindicada en toda insuficiencia cardíaca",
+   "C": "Aumentar el diurético y esperar, porque ninguna modalidad de diálisis tiene indicación con una FEVI de 25%",
+   "D": "Considerar DP automatizada con icodextrina: ultrafiltración suave y continua que conserva la función residual; evidencia observacional",
+   "E": "Suspender cualquier terapia y pasar a cuidados paliativos exclusivos, sin ofrecer diálisis ni otras opciones de soporte"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La ultrafiltración venosa diaria aislada con catéter central implica riesgos de infección y de trombosis de venas centrales, y no es una estrategia crónica de elección.",
+   "B": "La insuficiencia cardíaca no contraindica la diálisis peritoneal, y la hemodiálisis intermitente puede agravar la inestabilidad hemodinámica.",
+   "C": "Con ERC avanzada y sobrecarga refractaria a diuréticos se requiere tratamiento sustitutivo, y la FEVI baja no lo contraindica por sí sola.",
+   "D": "En la insuficiencia cardíaca refractaria con ERC avanzada (síndrome cardiorrenal tipo 2), la diálisis peritoneal ofrece ultrafiltración lenta y continua con estabilidad hemodinámica (sin los cambios bruscos de volumen y de presión de la hemodiálisis intermitente, que pueden precipitar hipotensión e isquemia miocárdica), sin necesidad de acceso vascular ni anticoagulación, con mejor preservación de la función renal residual y manejo domiciliario. Las series observacionales describen mejoría de la clase funcional y menos hospitalizaciones por insuficiencia cardíaca; no hay ensayos aleatorizados definitivos, por lo que se individualiza con cardiología y nefrología. La modalidad automatizada con el recambio largo con icodextrina favorece la ultrafiltración sostenida y la eliminación de sodio. La hemodiálisis sigue siendo opción cuando no hay condiciones para la peritoneal (cirugías abdominales extensas, falta de apoyo en el domicilio o de entrenamiento).",
+   "E": "Los cuidados paliativos son una opción compatible con una decisión informada, pero no se ofrece exclusivamente sin discutir la diálisis."
+  },
+  "perla": "IC refractaria + ERC avanzada (CRS 2): DP (APD + icodextrina) = UF continua, estable, sin acceso vascular, conserva RRF; evidencia observacional; HD si contraindicación; decisión con cardiología y paciente.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (síndrome cardiorrenal y diálisis peritoneal)",
+   "Ronco C et al. J Am Coll Cardiol 2008;52:1527 (síndrome cardiorrenal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o2",
+  "peso": 44.8
+ },
+ {
+  "id": "PHF-2",
+  "serie_id": "PHF",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Prescripción de DP en insuficiencia cardíaca: sodio, ultrafiltración y función renal residual",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se decide diálisis peritoneal automatizada. Al mes, el paciente mantiene hipertensión pulmonar y edema con ultrafiltración de 450 mL/día; la prueba de equilibrio peritoneal muestra transporte alto-promedio. El volumen de orina residual es de 700 mL/día.",
+  "enunciado": "¿Qué ajuste es el más adecuado?",
+  "opciones": {
+   "A": "Suspender el diurético, porque la diuresis residual no tiene valor y no contribuye al control del volumen",
+   "B": "Aumentar solo la concentración de glucosa a 4.25% en todos los recambios, sin otros cambios en la prescripción",
+   "C": "Acortar los ciclos nocturnos, icodextrina en la permanencia larga, restringir sodio y conservar el diurético; evitar glucosa alta",
+   "D": "Pasar a hemodiálisis de inmediato, porque la DP no puede corregir la sobrecarga de volumen de este paciente",
+   "E": "Aumentar la permanencia nocturna a más de 12 horas con glucosa al 1.5%, para mejorar la ultrafiltración"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La diuresis residual de 700 mL/día es una fuente importante de remoción de sodio y agua, y se preserva con diurético.",
+   "B": "La glucosa al 4.25% en todos los recambios aumenta la absorción, la hiperglucemia y la toxicidad de la membrana, y no es una estrategia sostenible.",
+   "C": "Los transportadores altos y alto-promedio absorben glucosa con rapidez y pierden el gradiente osmótico en permanencias largas, por lo que la ultrafiltración cae en recambios largos con glucosa; por eso se acortan los ciclos nocturnos (DPA con recambios más frecuentes), y la icodextrina en la permanencia larga (un polímero de glucosa que mantiene la ultrafiltración durante 8 a 16 horas por presión coloidosmótica) sostiene la remoción de líquido y de sodio. Se mantiene la función renal residual (la orina de 700 mL/día contribuye a la remoción de sodio y agua) con diurético de asa, la restricción de sodio y el control del peso, evitando soluciones muy hipertónicas, que aumentan la carga de glucosa, la hiperglucemia y el daño de la membrana, y la sobreultrafiltración con hipotensión que puede dañar la función renal residual.",
+   "D": "La DP puede corregir la sobrecarga con ajustes de la prescripción, y la hemodiálisis se reserva cuando la DP no basta.",
+   "E": "Las permanencias largas con glucosa en transporte alto-promedio pierden el gradiente y reabsorben líquido."
+  },
+  "perla": "DP en IC con transporte alto/alto-promedio: ciclos nocturnos cortos + icodextrina en permanencia larga; preservar diuresis residual (asa); restringir Na; evitar hipertónicas y sobreultrafiltración.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: prescripción)",
+   "ISPD Guidelines. Perit Dial Int 2020;40:244 (prescripción)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o3",
+  "peso": 44.8
+ },
+ {
+  "id": "PHF-3",
+  "serie_id": "PHF",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "DP asistida en el adulto mayor frágil: quién se beneficia",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Otra paciente, de 82 años, con ERC G5, insuficiencia cardíaca con FEVI de 40%, deterioro cognitivo leve y artritis de manos que limita la destreza, vive sola con una hija que trabaja de día. Prefiere el tratamiento en casa y rechaza la hemodiálisis en centro.",
+  "enunciado": "¿Cuál es la opción más adecuada?",
+  "opciones": {
+   "A": "Instruir a la paciente para que haga sola la DP manual, aunque no pueda manipular los conectores por la artritis reumatoide grave",
+   "B": "La edad mayor de 80 años contraindica la DP, y debe ofrecerse solo hemodiálisis como única modalidad posible",
+   "C": "Ofrecer DP asistida (un cuidador conecta y desconecta, idealmente DPA nocturna) en decisión compartida con opción conservadora",
+   "D": "Rechazar cualquier terapia de reemplazo renal y no hablar de opciones, por la edad y la fragilidad de la paciente y su comorbilidad",
+   "E": "Colocar una fístula arteriovenosa y enviarla a hemodiálisis en centro hospitalario, contra su preferencia de tratamiento domiciliario"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Con limitación de la destreza y deterioro cognitivo, la autotécnica aumenta el riesgo de peritonitis.",
+   "B": "La edad no es una contraindicación para la DP, y la preferencia de la paciente cuenta.",
+   "C": "La edad no contraindica la diálisis peritoneal, y la limitación funcional o cognitiva puede superarse con diálisis peritoneal asistida, en la que un familiar, un cuidador o personal de enfermería domiciliario realiza las conexiones, con DPA nocturna para minimizar las intervenciones. Es una opción respaldada por programas de DP asistida (por ejemplo en Francia, Dinamarca y Canadá) en adultos mayores frágiles que quieren tratamiento en casa. Se evalúan la capacidad y la disponibilidad del cuidador, el entorno del domicilio, el riesgo de peritonitis y la carga del cuidador, y se discuten las opciones de forma compartida (DP asistida, hemodiálisis o tratamiento conservador) según los valores de la paciente.",
+   "D": "Se discuten siempre las opciones (diálisis y tratamiento conservador), y no se descarta una terapia sin información.",
+   "E": "Imponer una modalidad contra la preferencia de la paciente no respeta la decisión compartida."
+  },
+  "perla": "Adulto mayor frágil que prefiere domicilio: DP asistida (cuidador/enfermería, DPA nocturna); la edad no contraindica DP; valorar cuidador y domicilio; decisión compartida incluyendo tratamiento conservador.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal en el adulto mayor)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 42.8
+ },
+ {
+  "id": "PRL-1",
+  "serie_id": "PRL",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Peritonitis asociada a diálisis peritoneal: criterios y tratamiento empírico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 26 años en diálisis peritoneal continua ambulatoria (4 recambios al día) desde hace 14 meses, con diuresis residual de 600 mL/día y sin episodios previos de peritonitis. Presenta 48 horas de dolor abdominal difuso, náusea, vómito y efluente turbio, sin fiebre; el abdomen es doloroso sin irritación peritoneal franca. El citológico del efluente (permanencia de 4 horas) reporta 350 leucocitos/µL con 80% de polimorfonucleares. Su centro tiene baja prevalencia de S. aureus resistente a meticilina, y no tiene alergias.",
+  "enunciado": "¿Cuál es el tratamiento empírico de elección?",
+  "opciones": {
+   "A": "Cefalotina más vancomicina intraperitoneales, que cubren solo grampositivos y dejan sin cobertura a los gramnegativos",
+   "B": "Ceftriaxona más amikacina por vía intraperitoneal, esquema sin cobertura dirigida contra estafilococos meticilino-sensibles",
+   "C": "Vancomicina más amikacina intraperitoneales de rutina, sin considerar la prevalencia de SARM ni la función renal residual",
+   "D": "Linezolid más amikacina por vía intravenosa como primera línea, en lugar del esquema intraperitoneal recomendado",
+   "E": "Cefazolina IP más ceftazidima o cefepima para cubrir grampositivos y gramnegativos, iniciadas tras cultivo del efluente"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Ambos fármacos cubren grampositivos y dejan sin cobertura a los gramnegativos, que causan una proporción importante de los episodios.",
+   "B": "La ceftriaxona no cubre de forma fiable Pseudomonas y no cumple la cobertura recomendada, y ninguno de los dos cubre bien a los estafilococos.",
+   "C": "Es una combinación aceptable en casos con riesgo de SARM o alergia, pero no es la primera elección cuando la prevalencia de SARM es baja, y el aminoglucósido repetido amenaza la función renal residual.",
+   "D": "El linezolid no es de primera línea en la peritonitis empírica, y el aminoglucósido no sustituye una cobertura grampositiva dirigida de primera línea.",
+   "E": "El paciente cumple los criterios de peritonitis (al menos dos de tres: cuadro clínico compatible, leucocitos del efluente mayores de 100/µL con más de 50% de polimorfonucleares tras una permanencia de al menos 2 horas, y cultivo positivo). La guía ISPD 2022 indica tratar de forma empírica y de inmediato con cobertura de grampositivos (cefalosporina de primera generación o vancomicina) y de gramnegativos (cefalosporina de tercera generación como ceftazidima o cefepima, o un aminoglucósido), por vía intraperitoneal, que alcanza concentraciones altas en el sitio de infección. Cuando la prevalencia de SARM es baja, una cefalosporina de primera generación se prefiere a la vancomicina, y se evita el uso repetido de aminoglucósidos que dañan la función renal residual y el oído. Antes de la primera dosis se toma el efluente para recuento y cultivo."
+  },
+  "perla": "Peritonitis en DP: 2 de 3 criterios (clínica, >100 leucocitos/µL con >50% PMN tras ≥2 h de permanencia, cultivo +). Empírico IP inmediato: gram+ (cefazolina o vancomicina) + gram− (ceftazidima/cefepima o aminoglucósido); cultivo antes del antibiótico.",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110 (ISPD peritonitis 2022)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: peritonitis)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o1",
+  "peso": 71.0
+ },
+ {
+  "id": "PRL-2",
+  "serie_id": "PRL",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Peritonitis por S. aureus con infección concomitante del sitio de salida",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 48 horas, el cultivo del efluente desarrolla Staphylococcus aureus sensible a meticilina. El paciente mejora de forma parcial, pero el sitio de salida del catéter muestra secreción purulenta y eritema, el trayecto subcutáneo del túnel es doloroso a la palpación, y el cultivo del exudado del sitio de salida desarrolla el mismo S. aureus.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Cambiar a vancomicina intravenosa por 6 semanas sin intervenir sobre el catéter, a pesar de la infección del túnel",
+   "B": "Mantener la cobertura doble durante 2 semanas y conservar el catéter, ya que el paciente mejora de forma parcial y el efluente se aclara",
+   "C": "Monoterapia antiestafilocócica (cefazolina IP) 3 semanas, sin cobertura gramnegativa, y retirar o reemplazar el catéter por infección del túnel",
+   "D": "Suspender los antibióticos en cuanto se aclare el efluente, aunque no se complete el curso de 3 semanas",
+   "E": "Tratar solo el sitio de salida con antibiótico tópico y conservar el catéter, sin modificar el tratamiento intraperitoneal"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La vancomicina no es necesaria para un S. aureus sensible a meticilina, y mantener un catéter infectado no resuelve la fuente.",
+   "B": "Conservar el catéter con infección concomitante del túnel por el mismo microorganismo favorece la recidiva, y 2 semanas no bastan para S. aureus.",
+   "C": "El S. aureus es una causa frecuente de infección del sitio de salida y del túnel, y desde ahí invade el peritoneo. Cuando la peritonitis coincide con una infección del sitio de salida o del túnel por el mismo microorganismo, la guía ISPD sugiere retirar el catéter (con reemplazo simultáneo o diferido), porque la biopelícula del trayecto mantiene la infección y favorece la recaída. El tratamiento antibiótico se ajusta al cultivo (monoterapia dirigida contra el S. aureus sensible, como cefazolina intraperitoneal) y se mantiene 3 semanas para S. aureus, enterococo y gramnegativos (2 semanas para estafilococos coagulasa-negativos y estreptococos). Durante el período sin catéter se usa hemodiálisis temporal.",
+   "D": "Suspender antes de completar el curso expone a recaída, y el S. aureus requiere 3 semanas.",
+   "E": "El antibiótico tópico no resuelve la infección del túnel con peritonitis concomitante."
+  },
+  "perla": "Peritonitis + infección del sitio de salida/túnel por el mismo organismo (sobre todo S. aureus o Pseudomonas) → retirar/reemplazar el catéter; S. aureus 3 semanas (CoNS/estreptococo 2 semanas).",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110 (ISPD peritonitis 2022)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: peritonitis)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o5",
+  "peso": 73.0
+ },
+ {
+  "id": "PRL-3",
+  "serie_id": "PRL",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "Prevención de infecciones por S. aureus: portador nasal y sitio de salida",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El catéter se reemplaza, el paciente completa el tratamiento y reinicia diálisis peritoneal. El exudado nasal es positivo para S. aureus. El nefrólogo desea reducir el riesgo de nuevas infecciones del sitio de salida y peritonitis por este microorganismo.",
+  "enunciado": "¿Qué estrategia de prevención es la más adecuada?",
+  "opciones": {
+   "A": "Mupirocina intranasal si es portador y mupirocina o gentamicina tópica diaria en el sitio de salida, con buena técnica de manos",
+   "B": "Antibiótico sistémico profiláctico continuo de por vida, sin otras medidas de cuidado del sitio de salida ni del portador nasal de S. aureus",
+   "C": "Cambiar el catéter cada 6 meses de forma preventiva, para evitar la colonización de la biopelícula y de la piel",
+   "D": "No hacer nada, porque el estado de portador nasal de S. aureus no se asocia con peritonitis, con infección del orificio ni con infección del túnel",
+   "E": "Evitar el aseo del sitio de salida para no irritarlo, y mantenerlo siempre cubierto con apósito oclusivo sin cambiarlo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El estado de portador nasal de S. aureus predispone a infección del sitio de salida y a peritonitis por este agente. Las guías ISPD recomiendan prevenir la colonización del sitio de salida con mupirocina tópica (o crema de gentamicina, que además protege contra Pseudomonas) de forma sistemática, y erradicar el estado de portador con mupirocina intranasal; en la práctica se agrega rifampicina intermitente solo en situaciones seleccionadas, con riesgo de resistencia. El cuidado local con lavado de manos y limpieza del sitio de salida es parte esencial de la prevención. La tasa de peritonitis por S. aureus disminuye con estas medidas.",
+   "B": "La profilaxis sistémica continua genera resistencia y toxicidad, y no se recomienda.",
+   "C": "El recambio preventivo del catéter no está indicado y expone a complicaciones del procedimiento.",
+   "D": "El estado de portador nasal predispone a infección del sitio de salida y peritonitis por S. aureus.",
+   "E": "El aseo adecuado del sitio de salida y el lavado de manos son parte de la prevención."
+  },
+  "perla": "Portador nasal de S. aureus ↑ infección de sitio de salida/peritonitis: mupirocina nasal en portadores + mupirocina (o gentamicina) diaria en el sitio de salida + técnica higiénica.",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110 (ISPD peritonitis 2022)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o1",
+  "peso": 71.0
+ },
+ {
+  "id": "PRL-4",
+  "serie_id": "PRL",
+  "orden": 4,
+  "sub": "20.b",
+  "subtema": "Peritonitis por Pseudomonas aeruginosa: esquema, duración y retiro del catéter",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Cuatro meses después, el paciente presenta un nuevo episodio de peritonitis con efluente turbio y 1 800 leucocitos/µL, con 90% de polimorfonucleares. El cultivo desarrolla Pseudomonas aeruginosa sensible a ceftazidima y ciprofloxacino. El sitio de salida luce normal.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Dos antibióticos antipseudomónicos de distinta clase por 3 semanas; retirar el catéter si no hay mejoría al quinto día",
+   "B": "Monoterapia con ceftazidima durante 2 semanas, sin vigilar la respuesta clínica ni el recuento celular del efluente al tercer día",
+   "C": "Retirar el catéter de inmediato en todos los casos, sin intentar tratamiento antibiótico previo, por la gravedad del germen",
+   "D": "Tratar con vancomicina intraperitoneal sola, que cubre Pseudomonas aeruginosa y los grampositivos, durante 3 semanas completas",
+   "E": "Tratamiento oral con amoxicilina durante 14 días, por tratarse de un germen sensible y sin necesidad de retirar el catéter"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La peritonitis por Pseudomonas es grave y se asocia con frecuencia a infección del catéter, por lo que la guía ISPD recomienda dos antibióticos de distinta clase (por ejemplo, ceftazidima o cefepima con ciprofloxacino o un aminoglucósido) y una duración de 3 semanas. Se evalúa la respuesta: el efluente debe aclararse y el recuento de leucocitos descender en los primeros días, y si no hay mejoría tras 5 días de tratamiento apropiado se trata de una peritonitis refractaria y se retira el catéter. Se retira también cuando coexiste infección del sitio de salida o del túnel por Pseudomonas. Tras el retiro se usa hemodiálisis temporal, y el catéter puede reinsertarse tras el tratamiento completo.",
+   "B": "La monoterapia durante 2 semanas es insuficiente para Pseudomonas, que requiere doble esquema y 3 semanas.",
+   "C": "El retiro inmediato no es necesario si la respuesta clínica es adecuada y no hay infección concomitante del túnel.",
+   "D": "La vancomicina no tiene actividad contra Pseudomonas, que es un bacilo gramnegativo.",
+   "E": "La amoxicilina no cubre Pseudomonas aeruginosa."
+  },
+  "perla": "Pseudomonas peritonitis: 2 antibióticos de distinta clase ×3 semanas; sin mejoría al día 5 (refractaria) o con infección del sitio de salida/túnel por Pseudomonas → retirar catéter.",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110 (ISPD peritonitis 2022)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o1",
+  "peso": 73.0
+ },
+ {
+  "id": "PRL-5",
+  "serie_id": "PRL",
+  "orden": 5,
+  "sub": "20.b",
+  "subtema": "Secuelas de la peritonitis: pérdida de proteínas y transporte peritoneal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El episodio de Pseudomonas se resuelve y el paciente reinicia DPCA tras la reinserción del catéter. En las semanas siguientes tiene menor ultrafiltración con las mismas soluciones, ganancia de peso, edema y albúmina de 2.9 g/dL. Se solicita una nueva prueba de equilibrio peritoneal 3 semanas después de la resolución, con D/P de creatinina de 0.86, mayor que el valor basal de 0.68.",
+  "enunciado": "¿Qué interpretación y conducta son las más adecuadas?",
+  "opciones": {
+   "A": "Se debe suspender de forma definitiva la diálisis peritoneal tras cualquier peritonitis por Pseudomonas, por daño irreversible de la membrana peritoneal",
+   "B": "Aumento transitorio de la permeabilidad peritoneal tras la peritonitis (más transporte de solutos, menos UF): acortar permanencias o usar icodextrina",
+   "C": "La prueba demuestra falla de ultrafiltración por reabsorción linfática, sin relación con la peritonitis reciente ni con el catéter",
+   "D": "El aumento del D/P es un error de laboratorio o de técnica de la prueba, por lo que se ignora y se mantiene la prescripción",
+   "E": "El transporte disminuye de forma permanente tras la peritonitis, y no se requiere ajuste alguno de la prescripción ni vigilancia"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El episodio puede tratarse y la diálisis peritoneal reiniciarse tras resolver, y no se suspende de forma definitiva por un episodio.",
+   "B": "Durante y tras la peritonitis, la inflamación aumenta la perfusión y la permeabilidad de los capilares peritoneales: aumenta el transporte de solutos pequeños (mayor D/P de creatinina), se disipa más rápido el gradiente de glucosa y disminuye la ultrafiltración, con pérdidas proteicas mayores (que superan los 5 a 15 g/día habituales y pueden exceder los 20 g/día durante el episodio). Este fenómeno suele ser transitorio, y por eso la prueba de equilibrio peritoneal se repite al menos 4 semanas después de resolver el episodio. Mientras tanto se acortan las permanencias o se usa DPA con ciclos cortos y se sostiene la ultrafiltración con icodextrina en la permanencia larga; se incrementa el aporte proteico. Los episodios repetidos contribuyen a la falla de ultrafiltración tardía y se asocian con peritonitis esclerosante encapsulante.",
+   "C": "El aumento de D/P refleja mayor superficie efectiva y transporte alto, y la reabsorción linfática se mide con otros métodos.",
+   "D": "El D/P de 0.86 es coherente con la inflamación peritoneal tras el episodio, y no debe ignorarse.",
+   "E": "La peritonitis aumenta de forma transitoria el transporte, y no lo disminuye de forma permanente."
+  },
+  "perla": "Peritonitis → ↑ transitorio de transporte (D/P ↑, UF ↓) y ↑ pérdida de proteínas (>20 g/d en el episodio vs 5–15 g/d); ajustar prescripción, ↑ proteína, repetir PET ≥4 semanas después; episodios repetidos → falla de UF/EPS.",
+  "referencias": [
+   "Li PK et al. Perit Dial Int 2022;42:110 (ISPD peritonitis 2022)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: transporte peritoneal)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 73.0
+ },
+ {
+  "id": "BJT-1",
+  "serie_id": "BJT",
+  "orden": 1,
+  "sub": "20.a",
+  "subtema": "Transportador bajo en DPA con infradiálisis: clasificación y causa",
+  "dificultad": "dificil",
+  "caso": "Hombre de 44 años en diálisis peritoneal automatizada desde hace 8 meses: cicladora nocturna con 5 ciclos de 2 horas (2 L por ciclo, 10 L por noche), sin permanencia diurna (abdomen seco de día) y diuresis residual casi nula. Refiere anorexia, náusea, prurito y edema de tobillos; presión de 158/96 mmHg. BUN de 90 mg/dL, potasio de 6.0 mEq/L y bicarbonato de 17 mEq/L. La ultrafiltración es de 900 mL/día con soluciones de dextrosa 1.5% y 2.5%. La prueba de equilibrio peritoneal estándar (dextrosa 2.5%, 2 L, 4 horas) muestra D/P de creatinina de 0.42 y D/D0 de glucosa de 0.62.",
+  "enunciado": "¿Cómo se clasifica su transporte peritoneal y cuál es la causa de su infradiálisis?",
+  "opciones": {
+   "A": "Transportador alto, porque la depuración es mala y requiere permanencias más cortas para evitar la pérdida de ultrafiltración y la hipoalbuminemia",
+   "B": "Transportador bajo (D/P creatinina 4 h <0.50): con ciclos de 2 h y sin permanencia diurna el equilibrio es incompleto y la dosis insuficiente",
+   "C": "Peritonitis subclínica, que explica la uremia por reducción de la superficie peritoneal efectiva y debe descartarse con cultivo",
+   "D": "Transportador promedio alto, con infradiálisis causada por ultrafiltración excesiva y absorción rápida de glucosa del dializado",
+   "E": "Falla de ultrafiltración con transporte alto, porque el paciente presenta edema y la diuresis residual es escasa"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "En el transportador alto la depuración es rápida y lo que falla es la ultrafiltración, lo contrario de este paciente.",
+   "B": "La clasificación estándar usa el cociente D/P de creatinina a las 4 horas de la prueba de equilibrio peritoneal: alto (mayor de 0.81), promedio alto (0.65 a 0.81), promedio bajo (0.50 a 0.64) y bajo (menor de 0.50). Un D/P de 0.42 corresponde a transporte bajo, con depuración lenta de solutos pero con buena ultrafiltración porque el gradiente osmótico de glucosa persiste. En estos pacientes las permanencias cortas son ineficaces para la depuración, que depende del tiempo de contacto y del volumen; con 2 horas por ciclo y sin permanencia diurna, la dosis es insuficiente (uremia, hiperpotasemia, acidosis, anorexia). La sobrecarga de volumen se debe a la ingesta de sal y agua sin diuresis residual, no a una falla de la membrana.",
+   "C": "No hay datos de infección peritoneal, y el efluente no está turbio.",
+   "D": "El D/P de 0.42 no corresponde a la categoría promedio alta, y la ultrafiltración es adecuada.",
+   "E": "La falla de ultrafiltración se define por menos de 400 mL tras 4 horas con dextrosa de 4.25%, y aquí el problema es la depuración."
+  },
+  "perla": "PET (2.5%, 2 L, 4 h): D/P Cr alto >0.81, promedio-alto 0.65–0.81, promedio-bajo 0.50–0.64, bajo <0.50. Bajo transportador: buena UF, depuración lenta → necesita permanencias largas/más volumen.",
+  "referencias": [
+   "Twardowski ZJ et al. Perit Dial Bull 1987;7:138 (PET)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: transporte peritoneal)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o4",
+  "peso": 74.5
+ },
+ {
+  "id": "BJT-2",
+  "serie_id": "BJT",
+  "orden": 2,
+  "sub": "20.a",
+  "subtema": "Prescripción en transportador bajo: permanencias largas y modalidad",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma transporte bajo con dosis insuficiente. El paciente no tiene acceso a hemodiálisis en el centro de referencia en este momento, y desea continuar con diálisis peritoneal.",
+  "enunciado": "¿Cuál es la modificación más adecuada de la prescripción?",
+  "opciones": {
+   "A": "Aumentar los ciclos nocturnos a 8 de una hora cada uno, para depurar más solutos durante la noche y acortar las permanencias",
+   "B": "Pasar a DPCA, o a DPA con menos ciclos y permanencia diurna, con mayor volumen de llenado, para dar más tiempo de contacto",
+   "C": "Agregar icodextrina en el recambio diurno para mejorar la depuración de urea y de potasio en este paciente",
+   "D": "Aumentar la concentración de dextrosa a 4.25% en todos los ciclos, para mejorar la depuración de urea y la ultrafiltración nocturna",
+   "E": "Mantener la prescripción actual y solo restringir el potasio y los fosfatos en la dieta del paciente, sin cambiar las permanencias"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Más ciclos de una hora acortan el contacto y reducen la depuración en el transportador bajo.",
+   "B": "En el transportador bajo la creatinina y la urea se equilibran lentamente, de modo que necesita permanencias largas y volúmenes mayores: se beneficia de DPCA, o de DPA con permanencia diurna y menos ciclos nocturnos de mayor duración (incluso DPA con día húmedo), aumentando el volumen de llenado hasta donde lo tolere para elevar la superficie de contacto. Más ciclos de menor duración, lo que se hace con el transportador alto para sostener la ultrafiltración, reducen la depuración en el bajo. La dextrosa más concentrada no mejora la depuración, y solo aumenta la absorción de glucosa. Si, aun con la prescripción óptima, la dosis sigue siendo insuficiente (sobre todo sin diuresis residual), la opción es transferir a hemodiálisis.",
+   "C": "La icodextrina sostiene la ultrafiltración y no mejora la depuración de solutos de forma importante.",
+   "D": "La dextrosa de 4.25% aumenta la ultrafiltración, no la depuración, y expone a la absorción de glucosa.",
+   "E": "Restringir potasio no corrige la infradiálisis, y la causa es la prescripción inadecuada."
+  },
+  "perla": "Transportador bajo → permanencias largas + más volumen (DPCA o DPA con día húmedo/menos ciclos); ciclos cortos reducen la depuración. Si falla y no hay diuresis → hemodiálisis.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: prescripción)",
+   "Brown EA et al. Perit Dial Int 2020;40:244"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 74.5
+ },
+ {
+  "id": "BJT-3",
+  "serie_id": "BJT",
+  "orden": 3,
+  "sub": "20.a",
+  "subtema": "Icodextrina: en qué transportador aporta más",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Con la prescripción ajustada, la uremia mejora, pero persiste edema leve con ultrafiltración de 800 mL/día. El médico residente propone añadir icodextrina en la permanencia larga como solución principal y pregunta por qué en algunos pacientes se prioriza y en otros no.",
+  "enunciado": "¿Cuál es la respuesta más adecuada?",
+  "opciones": {
+   "A": "La icodextrina no tiene ningún papel en ningún tipo de transportador, porque su efecto osmótico es mínimo y no genera ultrafiltración sostenida",
+   "B": "Aporta más en transportadores altos con permanencias largas, donde la glucosa se disipa pronto; en el transportador bajo la ultrafiltración ya es buena",
+   "C": "La icodextrina se debe usar en todos los recambios del día para mejorar la ultrafiltración y la depuración de solutos",
+   "D": "La icodextrina está contraindicada en todo transportador bajo, por riesgo de peritonitis química, inflamación y esclerosis peritoneal",
+   "E": "La icodextrina solo sirve para mejorar la depuración de urea y de creatinina en el transportador bajo con permanencia diurna"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La icodextrina es útil para sostener la ultrafiltración en los transportadores altos y en la falla de ultrafiltración.",
+   "B": "La icodextrina (polímero de glucosa al 7.5%, casi isoosmolar al plasma) produce ultrafiltración por ósmosis coloidal a través de los poros pequeños, de forma sostenida durante 8 a 16 horas, y se absorbe lentamente (se metaboliza a maltosa). Su mayor utilidad es en permanencias largas de pacientes que absorben rápido la glucosa (transportadores altos y promedio altos), cuya ultrafiltración con glucosa se pierde por disipación del gradiente osmótico. En el transportador bajo el gradiente se mantiene más tiempo y la ultrafiltración ya es buena, de modo que no es la prioridad; no está contraindicada, y se puede considerar en una sobrecarga persistente o en permanencias muy largas. Se usa una vez al día, y puede interferir con ciertos glucómetros (falsos aumentos de glucosa por la maltosa).",
+   "C": "Solo se administra en un recambio al día, preferentemente en la permanencia larga.",
+   "D": "No está contraindicada en el transportador bajo, simplemente aporta menos beneficio que en el alto.",
+   "E": "La icodextrina mejora la ultrafiltración y no la depuración de urea."
+  },
+  "perla": "Icodextrina: UF por ósmosis coloidal (poros pequeños), 8–16 h, 1 recambio/día en permanencia larga; más útil en transportador alto/promedio-alto y falla de UF; no mejora depuración; maltosa falsea glucómetros.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: soluciones)",
+   "Brown EA et al. Perit Dial Int 2020;40:244"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 74.5
+ },
+ {
+  "id": "BJT-4",
+  "serie_id": "BJT",
+  "orden": 4,
+  "sub": "20.a",
+  "subtema": "Transportador bajo anúrico: límites de la diálisis peritoneal y transferencia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un año después, el paciente es anúrico, con DPCA de 4 recambios de 2.5 L, Kt/V semanal de urea de 1.4, potasio de 5.9 mEq/L, albúmina de 2.8 g/dL y retorno de síntomas urémicos. Su superficie corporal es de 1.9 m².",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Cambiar a DP tidal, para aumentar la eficiencia de la depuración sin modificar el volumen total ni el número de recambios al día",
+   "B": "Subir el volumen por recambio (hasta ~3 L) y añadir un recambio nocturno; si persiste la uremia sin función residual, pasar a hemodiálisis",
+   "C": "Esperar la recuperación de la diuresis, porque la función renal residual volverá en los próximos meses de tratamiento",
+   "D": "Añadir icodextrina en todos los recambios para mejorar la depuración de solutos pequeños y la ultrafiltración",
+   "E": "Mantener la prescripción y restringir las proteínas de la dieta para reducir la urea, aun con albúmina de 2.8 g/dL"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La DP tidal no incrementa la depuración, y se usa para prevenir el dolor y la disfunción del catéter.",
+   "B": "Con transporte bajo y sin diuresis residual, la dosis depende solo del aclaramiento peritoneal, que se incrementa con mayor volumen de llenado (hasta el máximo tolerado, con vigilancia de hernias, fugas y presión intraabdominal) y con más recambios (por ejemplo, combinando DPCA con cicladora nocturna). Si con esa dosis máxima persisten la infradiálisis (Kt/V insuficiente, hiperpotasemia, desnutrición, síntomas urémicos), el paciente está llegando al límite de la modalidad y debe transferirse a hemodiálisis (o a un esquema híbrido). La restricción proteica en un paciente con albúmina de 2.8 g/dL empeora la desnutrición, la icodextrina no mejora la depuración, la función renal residual no se recupera de forma espontánea una vez perdida, y la DP tidal no aumenta la eficiencia (se usa para prevenir el dolor de drenaje).",
+   "C": "La diuresis residual perdida no se recupera, y esperar prolonga la infradiálisis.",
+   "D": "La icodextrina sostiene la ultrafiltración y no mejora la depuración de solutos de forma importante.",
+   "E": "Restringir proteínas con albúmina baja agrava el desgaste proteico-energético, y no corrige la infradiálisis."
+  },
+  "perla": "Bajo transportador anúrico con Kt/V <1.7 y síntomas: ↑ volumen/↑ recambios (DPA nocturna añadida); si persiste infradiálisis sin diuresis → hemodiálisis. No restringir proteínas con desnutrición.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2020;40:244",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: adecuación)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 74.5
+ },
+ {
+  "id": "PTR-1",
+  "serie_id": "PTR",
+  "orden": 1,
+  "sub": "20.a",
+  "subtema": "PET: cálculo del D/P de creatinina y D/D0 de glucosa a partir de datos crudos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 38 años que inicia diálisis peritoneal. A los dos meses se realiza una prueba de equilibrio peritoneal estándar (dextrosa 2.5%, 2 L, permanencia de 4 horas, con diuresis residual de 500 mL/día). Creatinina sérica a las 2 horas: 6.0 mg/dL. Creatinina del dializado a las 4 horas: 4.4 mg/dL (ya corregida por la interferencia de la glucosa, que eleva de forma falsa la creatinina medida por el método de Jaffe) y a las 2 horas: 2.5 mg/dL. Glucosa del dializado: 2 300 mg/dL al inicio (0 horas) y 700 mg/dL a las 4 horas.",
+  "enunciado": "¿Cuáles son los cocientes de la prueba y la clasificación del transporte?",
+  "opciones": {
+   "A": "No puede clasificarse hasta repetir la prueba con una solución de dextrosa de 4.25%, por lo que se difiere",
+   "B": "D/P de creatinina de 0.42 (2.5 / 6.0, con el dato de las 2 horas): transportador bajo, que requiere permanencias muy largas y volúmenes altos",
+   "C": "D/P de creatinina a 4 h de 0.73 (4.4/6.0) y D/D0 de glucosa de 0.30: promedio alto, con riesgo de perder UF en permanencias largas",
+   "D": "D/P de creatinina de 1.36 (6.0 / 4.4): transportador alto, por lo que se indican solo permanencias cortas y glucosa alta",
+   "E": "D/P de creatinina de 0.73: transportador alto, porque la glucosa se absorbió con rapidez durante la permanencia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La prueba estándar con dextrosa de 2.5% es suficiente para clasificar, y la de 4.25% se emplea para evaluar la ultrafiltración o la falla de ultrafiltración.",
+   "B": "La clasificación usa el valor a las 4 horas, y el cociente de las 2 horas es menor para cualquier membrana porque el equilibrio aún es incompleto.",
+   "C": "El D/P de creatinina es la concentración de creatinina del dializado a las 4 horas entre la creatinina sérica (4.4 / 6.0 = 0.73), y el D/D0 de glucosa es la glucosa del dializado a las 4 horas entre la glucosa inicial del dializado (700 / 2 300 = 0.30). Con la clasificación estándar (alto mayor de 0.81, promedio alto de 0.65 a 0.81, promedio bajo de 0.50 a 0.64, bajo menor de 0.50), el valor de 0.73 corresponde a transportador promedio alto, y el D/D0 de 0.30 concuerda con una absorción relativamente rápida de glucosa. La ultrafiltración puede ser menor en permanencias largas con glucosa por disipación del gradiente osmótico, y se vigila el volumen. En la medición de creatinina del dializado, la glucosa interfiere con el método de Jaffe y se corrige restando un factor proporcional a la concentración de glucosa, o se usa un método enzimático.",
+   "D": "La relación se calcula con el dializado en el numerador, y 1.36 resulta de invertirla, lo que es imposible porque el dializado no supera la concentración plasmática.",
+   "E": "El valor de 0.73 pertenece a la categoría promedio alta, y el transportador alto exige un D/P mayor de 0.81."
+  },
+  "perla": "PET: D/P Cr = Cr dializado 4 h / Cr sérica; D/D0 glucosa = glucosa 4 h / glucosa 0 h. Alto >0.81; prom-alto 0.65–0.81; prom-bajo 0.50–0.64; bajo <0.50. La glucosa interfiere con la creatinina por Jaffe: corregir.",
+  "referencias": [
+   "Twardowski ZJ et al. Perit Dial Bull 1987;7:138 (PET)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: transporte peritoneal)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o4",
+  "peso": 72.5
+ },
+ {
+  "id": "PTR-2",
+  "serie_id": "PTR",
+  "orden": 2,
+  "sub": "20.a",
+  "subtema": "PET: qué parámetro clasifica y discordancias entre creatinina y glucosa",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente tiene D/P de creatinina de 0.52 y D/D0 de glucosa de 0.30 en la misma prueba estándar de 4 horas. El residente duda sobre cuál de los dos parámetros define la clasificación, porque ubican a la paciente en categorías cercanas pero no idénticas.",
+  "enunciado": "¿Cuál es la respuesta correcta?",
+  "opciones": {
+   "A": "La clasificación depende exclusivamente del volumen drenado al final de la prueba, y no de los solutos transportados ni de su equilibrio",
+   "B": "La clasificación se basa solo en la D/D0 de glucosa a las 4 horas, y se ignora la creatinina del dializado",
+   "C": "El D/P de creatinina a los 30 minutos es el que define la categoría de transporte, y el valor a las 4 horas es opcional",
+   "D": "Se clasifica por el D/P de creatinina a las 4 h (0.52, promedio bajo); la D/D0 de glucosa es complementaria y una discordancia leve es común",
+   "E": "Ambos parámetros deben coincidir siempre, y si no coinciden la prueba es inválida y debe repetirse en 1 semana"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El volumen drenado informa de la ultrafiltración, y la clasificación depende de los solutos.",
+   "B": "La creatinina es el parámetro de clasificación, y la glucosa es complementaria.",
+   "C": "La clasificación usa el valor a las 4 horas, y no el de 30 minutos.",
+   "D": "En la prueba de equilibrio peritoneal se calculan el D/P de creatinina (concentración en el dializado entre la sérica a las 4 horas) y el D/D0 de glucosa (glucosa del dializado a las 4 horas entre la glucosa inicial del dializado); la clasificación estándar en alto, promedio alto, promedio bajo y bajo se hace con el D/P de creatinina, y la glucosa sirve de apoyo (un valor menor indica que la glucosa se absorbe más rápido, característica del transporte alto). Una discordancia leve entre ambos es habitual y no invalida la prueba; la prescripción considera también el volumen de ultrafiltración, la clínica y la diuresis residual. El drenaje y la ultrafiltración de la prueba complementan, pero no sustituyen, la clasificación por solutos.",
+   "E": "Una diferencia leve es frecuente y no invalida la prueba."
+  },
+  "perla": "Clasificar con D/P creatinina 4 h; D/D0 glucosa = apoyo (↓ = alto transporte). Discordancia leve es común y no invalida; decidir con clínica + UF + diuresis residual.",
+  "referencias": [
+   "Twardowski ZJ et al. Perit Dial Bull 1987;7:138 (PET)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o4",
+  "peso": 74.5
+ },
+ {
+  "id": "PTR-3",
+  "serie_id": "PTR",
+  "orden": 3,
+  "sub": "20.a",
+  "subtema": "PET: valor a las 2 horas frente a las 4 horas estándar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un laboratorio externo informa para otro paciente (en DPA, con uremia) un D/P de creatinina de 0.30 medido a las 2 horas, sin dato a las 4 horas. Se pide clasificar su transporte.",
+  "enunciado": "¿Cómo debe interpretarse este resultado?",
+  "opciones": {
+   "A": "El resultado es inválido y debe descartarse sin repetir la prueba ni obtener la medición de las 4 horas",
+   "B": "Un D/P de 0.30 a las 2 horas demuestra transporte alto, porque es un valor bajo de creatinina en el dializado",
+   "C": "El valor a las 2 horas es el único que se necesita, y reemplaza por completo la medición de las 4 horas en todo paciente tratado con DPA",
+   "D": "Se clasifica como transportador alto si el valor a las 2 horas es menor de 0.50, que es el punto de corte",
+   "E": "No clasifica: las categorías usan el D/P a las 4 horas; a las 2 horas el equilibrio es incompleto y 0.30 no implica transporte alto"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El resultado no es inválido, pero es insuficiente para clasificar y se completa con el valor de las 4 horas.",
+   "B": "El valor bajo a las 2 horas no indica transporte alto, que se caracteriza por un D/P elevado.",
+   "C": "El valor de las 4 horas es el que clasifica, y no se sustituye por el de las 2 horas.",
+   "D": "Los puntos de corte de las categorías no se aplican al valor de las 2 horas.",
+   "E": "Los puntos de corte de transporte (alto mayor de 0.81, promedio alto de 0.65 a 0.81, promedio bajo de 0.50 a 0.64, bajo menor de 0.50) se definieron con el D/P de creatinina a las 4 horas de la prueba estándar; a las 2 horas la creatinina del dializado aún no ha alcanzado el equilibrio, y el cociente es menor para cualquier tipo de membrana, de modo que un valor de 0.30 a las 2 horas es compatible con transporte bajo o promedio y no basta para clasificar. En la práctica, la prueba incluye muestras seriadas (0, 2 y 4 horas), y el valor de las 4 horas es el que se interpreta; si falta, se repite la prueba o se obtiene. Rotularlo como alto o como bajo con un solo valor a 2 horas conduce a prescripciones erróneas."
+  },
+  "perla": "Las categorías del PET se definen con D/P Cr a las 4 h. D/P 0.30 a las 2 h es compatible con transporte bajo o promedio; completar el valor de 4 h antes de rotular.",
+  "referencias": [
+   "Twardowski ZJ et al. Perit Dial Bull 1987;7:138 (PET)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: transporte peritoneal)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o4",
+  "peso": 74.5
+ },
+ {
+  "id": "PTR-4",
+  "serie_id": "PTR",
+  "orden": 4,
+  "sub": "20.a",
+  "subtema": "Falla de ultrafiltración: definición, mecanismos y numeración de los tipos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una paciente con 5 años en diálisis peritoneal tiene sobrecarga de volumen persistente. En una prueba con dextrosa de 4.25% (2 L, 4 horas) drena una ultrafiltración neta de 250 mL, con D/P de creatinina de 0.88. El residente recuerda que la numeración de los tipos de falla de ultrafiltración difiere entre fuentes.",
+  "enunciado": "¿Cuál es el diagnóstico y el mecanismo más probable?",
+  "opciones": {
+   "A": "Falla de UF (neta <400 mL tras 4 h con dextrosa 4.25%) por transporte alto: la superficie efectiva mayor disipa pronto el gradiente de glucosa",
+   "B": "Falla de ultrafiltración por adherencias peritoneales con reducción de la superficie efectiva, con transporte bajo de solutos y D/P menor de 0.5",
+   "C": "No hay falla de ultrafiltración, porque el D/P de creatinina es alto y con ello el balance de líquido se considera suficiente",
+   "D": "Falla de ultrafiltración por disfunción de acuaporina-1, con ausencia de descenso del sodio del dializado y transporte de solutos normal",
+   "E": "Falla de ultrafiltración por reabsorción linfática aumentada, con D/P de creatinina normal y gradiente osmótico conservado durante la permanencia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Se define falla de ultrafiltración como una ultrafiltración neta menor de 400 mL tras una permanencia de 4 horas con dextrosa de 3.86% a 4.25% (2 L). Un D/P de 0.88 (transporte alto) indica que la creatinina y la glucosa se equilibran con rapidez: se pierde el gradiente osmótico y la ultrafiltración cae, mecanismo del tipo I (mayor superficie peritoneal efectiva y vascularización), que es el más frecuente y se desarrolla con el tiempo en diálisis o tras peritonitis. En la clasificación habitual, el tipo II es la reducción de superficie (adherencias, esclerosis) con transporte bajo, el tipo III la reabsorción linfática excesiva y el tipo IV la disfunción de acuaporinas con menor conductancia osmótica (la numeración de III y IV varía entre fuentes, por lo que importa el mecanismo). El tratamiento del tipo I es acortar las permanencias (DPA con ciclos cortos) y usar icodextrina en la larga.",
+   "B": "Las adherencias se asocian con transporte bajo, y el D/P de 0.88 es alto.",
+   "C": "La falla de ultrafiltración se define por el volumen drenado, y el D/P alto es su causa en este caso.",
+   "D": "En la disfunción de acuaporinas el transporte de solutos es normal, y aquí está aumentado.",
+   "E": "La reabsorción linfática aumentada no se asocia con un D/P de 0.88, y se identifica con otros estudios."
+  },
+  "perla": "Falla de UF: UF neta <400 mL tras 4 h con 4.25% (2 L). Tipos (numeración variable): alto transporte/superficie ↑ (el más frecuente) → ciclos cortos + icodextrina; superficie ↓/adherencias (transporte bajo); reabsorción linfática ↑; acuaporina-1 ↓ (sodium sieving ausente; icodextrina eficaz).",
+  "referencias": [
+   "Mujais S et al. Perit Dial Int 2000;20(Suppl 4):S5 (problemas de ultrafiltración)",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: falla de ultrafiltración)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o4",
+  "peso": 74.5
+ },
+ {
+  "id": "ADP-1",
+  "serie_id": "ADP",
+  "orden": 1,
+  "sub": "20.a",
+  "subtema": "Estimación de la función renal residual en diálisis peritoneal",
+  "dificultad": "moderada",
+  "caso": "Mujer de 52 años con ERC en DPA desde hace 3 meses. Se realiza recolección de orina de 24 horas (diuresis de 900 mL): depuración renal de urea de 4.0 mL/min y depuración renal de creatinina de 8.5 mL/min.",
+  "enunciado": "¿Cómo se estima su función renal residual?",
+  "opciones": {
+   "A": "Con la depuración de urea sola (4.0 mL/min), que es la única medida validada para estimar la función renal en diálisis peritoneal",
+   "B": "Promedio de las depuraciones de urea y creatinina urinarias: (4.0 + 8.5)/2 = 6.25 mL/min; la urea subestima y la creatinina sobreestima",
+   "C": "Con la suma de ambas depuraciones (12.5 mL/min), porque la urea y la creatinina se eliminan por vías complementarias",
+   "D": "Con la cistatina C sérica, que reemplaza la recolección de orina de 24 horas y no se modifica por los recambios",
+   "E": "Con la depuración de creatinina sola (8.5 mL/min), porque refleja mejor la filtración glomerular residual del paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La urea sola subestima la filtración por la reabsorción tubular.",
+   "B": "En pacientes con ERC avanzada, la depuración de urea subestima la filtración glomerular (por reabsorción tubular de urea) y la de creatinina la sobreestima (por secreción tubular), por lo que la función renal residual en diálisis se estima con el promedio de ambas en la orina de 24 horas: (4.0 + 8.5) / 2 = 6.25 mL/min. La función renal residual es importante en diálisis peritoneal: contribuye a la dosis total, al control del volumen, a la nutrición y a la sobrevida, y por eso se mide de forma periódica (cada 3 a 6 meses) y se preserva (evitando nefrotóxicos, controlando la presión y evitando la hipovolemia).",
+   "C": "La suma duplicaría el valor, y el promedio es el método aceptado.",
+   "D": "La cistatina C no sustituye la medición habitual con recolección de orina en estos pacientes.",
+   "E": "La creatinina sola sobreestima la filtración por la secreción tubular."
+  },
+  "perla": "Función renal residual en DP = promedio de depuración de urea y de creatinina (orina 24 h): urea subestima, creatinina sobreestima. Medirla cada 3–6 meses y preservarla.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: adecuación)",
+   "KDOQI Clinical Practice Guidelines for Peritoneal Dialysis Adequacy. Am J Kidney Dis 2006;48(Suppl 1):S98"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o2",
+  "peso": 72.5
+ },
+ {
+  "id": "ADP-2",
+  "serie_id": "ADP",
+  "orden": 2,
+  "sub": "20.a",
+  "subtema": "Estudio ADEMEX: función renal residual frente a aclaramiento peritoneal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La residente comenta que la función renal residual de la paciente pesa más en su pronóstico que el aclaramiento peritoneal, y le pide al nefrólogo sustentar esa afirmación con el estudio ADEMEX, un ensayo aleatorizado de pacientes en DPCA.",
+  "enunciado": "¿Cuál es la conclusión principal del estudio ADEMEX?",
+  "opciones": {
+   "A": "La dosis de diálisis peritoneal no influye en ningún desenlace clínico, ni en la supervivencia ni en la técnica",
+   "B": "No hubo ninguna asociación entre la función renal residual y la supervivencia de los pacientes del estudio",
+   "C": "Un Kt/V total menor de 1.7 se asoció con mayor supervivencia por menor exposición a glucosa y a productos de degradación",
+   "D": "Subir el aclaramiento peritoneal (46 a 57 L/sem/1.73 m²) no mejoró la supervivencia; la que se asoció con ella fue la función renal residual",
+   "E": "Aumentar el aclaramiento peritoneal por encima de 60 L/semana/1.73 m² redujo la mortalidad a la mitad a los dos años de seguimiento"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La dosis influye en síntomas y en la calidad de vida, aunque no mejora la supervivencia por encima de la meta.",
+   "B": "La función renal residual sí se asoció con supervivencia.",
+   "C": "Una dosis total menor de 1.7 se asoció con más problemas clínicos, y no con mayor supervivencia.",
+   "D": "El ADEMEX (Paniagua, J Am Soc Nephrol 2002) asignó al azar a pacientes mexicanos en DPCA a la dosis estándar (4 recambios de 2 L, con aclaramiento de creatinina de cerca de 46 L/semana/1.73 m²) o a una dosis mayor (cerca de 57 L/semana/1.73 m²), sin diferencia en la supervivencia entre los grupos, lo que sustentó que aumentar la dosis peritoneal por encima de la meta básica no ofrece ventaja de sobrevida. En los análisis secundarios, la función renal residual (aclaramiento renal de creatinina y volumen urinario) se asoció con menor riesgo de muerte, sin una asociación equivalente para el aclaramiento peritoneal. Es el estudio que respalda la meta de Kt/V cercana a 1.7 sin buscar valores mayores.",
+   "E": "El estudio no demostró reducción de mortalidad con mayor aclaramiento peritoneal."
+  },
+  "perla": "ADEMEX (México, JASN 2002): ↑ aclaramiento peritoneal de Cr (~46 → ~57 L/sem/1.73 m²) sin ganancia de supervivencia; la función renal residual (no el aclaramiento peritoneal) se asoció con supervivencia.",
+  "referencias": [
+   "Paniagua R et al. J Am Soc Nephrol 2002;13:1307 (ADEMEX)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 74.5
+ },
+ {
+  "id": "ADP-3",
+  "serie_id": "ADP",
+  "orden": 3,
+  "sub": "20.a",
+  "subtema": "Metas de dosis en diálisis peritoneal: Kt/V semanal y enfoque dirigido a objetivos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente (función renal residual de 6.25 mL/min) tiene Kt/V semanal total de urea de 2.1 (renal y peritoneal) con 4 recambios al día, sin síntomas, con volumen controlado y nutrición adecuada. El residente pregunta qué meta debe cumplirse y si debe aumentar la dosis.",
+  "enunciado": "¿Cuál es la respuesta más adecuada?",
+  "opciones": {
+   "A": "La meta es un Kt/V entre 1.2 y 1.7 únicamente con la función peritoneal, sin sumar el aclaramiento de la función renal residual",
+   "B": "No existe ninguna medida de adecuación en diálisis peritoneal, por lo que la dosis se decide solo por el número de recambios",
+   "C": "La meta es un Kt/V semanal menor de 1.0 para proteger la membrana peritoneal de la exposición a glucosa y a sus productos",
+   "D": "La meta clásica (KDOQI 2006) era Kt/V total ≥1.7, pero ISPD 2020 no fija meta numérica obligatoria y guía la dosis por síntomas, volumen y nutrición",
+   "E": "La meta es un Kt/V semanal de urea mayor de 3.0 solo con aclaramiento peritoneal, sin contar la función renal residual"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La meta de 1.7 incluye el aclaramiento renal y el peritoneal, y no se limita al peritoneal.",
+   "B": "La adecuación se evalúa con síntomas, volumen, nutrición y aclaramiento de solutos.",
+   "C": "Un Kt/V menor de 1.0 se considera insuficiente.",
+   "D": "La meta clásica de dosis en diálisis peritoneal es un Kt/V semanal total de urea de al menos 1.7 (la suma del aclaramiento renal y del peritoneal), adoptada por KDOQI 2006 con base en el ADEMEX y otros estudios (sin ventaja de supervivencia con dosis mayores). La ISPD 2020 propone una prescripción dirigida a objetivos (goal-directed): no hay un aclaramiento específico que garantice una diálisis suficiente para un individuo, y si los síntomas, la nutrición y el volumen están controlados, no se requiere cambiar la prescripción solo para alcanzar un valor arbitrario; un Kt/V menor de 1.7 puede asociarse con más morbilidad, pero con evidencia de certeza muy baja. En esta paciente, la dosis es suficiente. Ante la pérdida de la función renal residual se reevalúa y se ajusta.",
+   "E": "No existe una meta de 3.0 solo con aclaramiento peritoneal, y dosis mayores no mejoran la supervivencia."
+  },
+  "perla": "DP: Kt/V urea semanal total (renal + peritoneal) ≥1.7 (KDOQI 2006/ADEMEX); ISPD 2020: sin meta numérica obligatoria, prescripción dirigida a síntomas/volumen/nutrición; no ventaja de supervivencia por >1.7.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2020;40:244 (ISPD 2020)",
+   "KDOQI Clinical Practice Guidelines for Peritoneal Dialysis Adequacy. Am J Kidney Dis 2006;48(Suppl 1):S98"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 74.5
+ },
+ {
+  "id": "ADP-4",
+  "serie_id": "ADP",
+  "orden": 4,
+  "sub": "20.a",
+  "subtema": "Diálisis peritoneal incremental y reajuste al perder la función renal residual",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente mantiene 3 recambios al día (diálisis peritoneal incremental) y a los 14 meses su diuresis residual baja a 200 mL/día, con aclaramiento residual de 1.5 mL/min; reaparecen edema leve, náusea y albúmina de 3.2 g/dL, y el Kt/V semanal total baja a 1.5.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Mantener los 3 recambios hasta que se cumpla de forma estricta la meta de laboratorio, aunque el paciente tenga síntomas urémicos",
+   "B": "Suspender la diálisis peritoneal de inmediato y pasar a tratamiento conservador sin discutirlo con la paciente ni su familia",
+   "C": "Cambiar todos los recambios a dextrosa de 4.25%, sin modificar el número de recambios ni el volumen de llenado, para ganar UF",
+   "D": "Aumentar la dosis (más volumen o un recambio), pues la DP incremental lo exige al caer la función residual o con síntomas",
+   "E": "Disminuir los recambios a 2 al día, para proteger la membrana peritoneal de la exposición a glucosa y evitar infecciones"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La prescripción se ajusta a síntomas, volumen y nutrición, y no solo a un valor de laboratorio, y aquí hay síntomas.",
+   "B": "Cambiar a tratamiento conservador sin discutirlo no respeta la decisión compartida, y hay opciones para optimizar la diálisis.",
+   "C": "La dextrosa de 4.25% en todos los recambios aumenta la absorción de glucosa y daña la membrana, y no corrige la dosis.",
+   "D": "La diálisis peritoneal incremental (iniciar con una dosis menor a la completa en pacientes con función renal residual sustancial, aumentándola cuando esta disminuye) usa menos solución, reduce costo y exposición a glucosa y tiene resultados al menos equivalentes a la dosis completa en pacientes con función renal residual, según la guía ISPD 2020. Es una estrategia que exige vigilancia: al caer la diuresis y el aclaramiento residual (aquí a 200 mL/día y 1.5 mL/min), con síntomas urémicos, sobrecarga y desnutrición, y un Kt/V total de 1.5, debe aumentarse la prescripción (más recambios o más volumen, con ajuste de dextrosa o icodextrina según el transporte). Seguir con la dosis reducida expondría a la paciente a infradiálisis.",
+   "E": "Reducir los recambios agravaría la infradiálisis."
+  },
+  "perla": "DP incremental: dosis menor si hay función residual (ISPD 2020; resultados ≥ dosis completa); aumentar al ↓ de la diuresis/aclaramiento residual o si hay síntomas, sobrecarga, desnutrición; vigilar RRF, UF y nutrición.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2020;40:244 (ISPD 2020)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 74.5
+ },
+ {
+  "id": "MDP-1",
+  "serie_id": "MDP",
+  "orden": 1,
+  "sub": "20.b",
+  "subtema": "Modalidades de diálisis peritoneal: DPCA, DPA con día húmedo y NIPD",
+  "dificultad": "moderada",
+  "caso": "Una paciente de 36 años que trabaja de día recibe diálisis con una cicladora durante toda la noche (5 ciclos) y conserva 2 L de dializado en el abdomen durante el día, que se drena al conectarse de nuevo a la cicladora.",
+  "enunciado": "¿Cuál es la modalidad de diálisis peritoneal?",
+  "opciones": {
+   "A": "DP automatizada con permanencia diurna (DPCC/CCPD): ciclos nocturnos con la cicladora y una permanencia larga de día (día húmedo)",
+   "B": "Diálisis peritoneal intermitente nocturna con día seco (NIPD), con el abdomen vacío durante el día y diálisis solo en las horas de la noche",
+   "C": "Hemodiálisis nocturna domiciliaria, con sesiones largas y lentas realizadas durante el sueño en casa del paciente",
+   "D": "DP tidal sin permanencia diurna, con una reserva de líquido que no se drena por completo en cada ciclo nocturno",
+   "E": "Diálisis peritoneal continua ambulatoria (DPCA), con 4 a 5 recambios manuales al día sin cicladora ni ciclos nocturnos"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La DPA con permanencia diurna (CCPD) combina ciclos nocturnos con la cicladora (varios ciclos de 1 a 2 horas) y una permanencia larga durante el día (día húmedo), de modo que la diálisis es continua; la permanencia diurna aumenta la depuración, sobre todo en transportadores bajos, y puede hacerse con icodextrina para sostener la ultrafiltración. Se distingue de la DPCA (recambios manuales en el día con una permanencia larga nocturna, que es continua y ambulatoria, no intermitente) y de la NIPD con día seco (ciclos nocturnos y abdomen vacío de día, de menor dosis, adecuada con función renal residual).",
+   "B": "En la NIPD con día seco no queda dializado en el abdomen durante el día.",
+   "C": "No se trata de hemodiálisis, sino de diálisis peritoneal.",
+   "D": "La DP tidal drena parcialmente el volumen en cada ciclo, y no describe la permanencia diurna de este caso.",
+   "E": "La DPCA usa recambios manuales diurnos, y no cicladora."
+  },
+  "perla": "DPCA: manual, continua ambulatoria (3–5 recambios/día, permanencia nocturna larga). DPA/CCPD: cicladora nocturna + permanencia diurna (día húmedo). NIPD: cicladora nocturna con día seco. Tidal: drenaje parcial por ciclo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: modalidades)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o2",
+  "peso": 71.0
+ },
+ {
+  "id": "MDP-2",
+  "serie_id": "MDP",
+  "orden": 2,
+  "sub": "20.b",
+  "subtema": "Diálisis peritoneal tidal: indicación real",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente presenta dolor al final del drenaje y alarmas frecuentes de bajo volumen de drenaje en la cicladora, sin signos de peritonitis ni obstrucción mecánica del catéter. Su transporte es promedio.",
+  "enunciado": "¿Qué ajuste puede ayudar y cuál es su principal utilidad?",
+  "opciones": {
+   "A": "DP tidal: drena solo 50-85% del volumen en cada ciclo y deja un residuo que evita el dolor del drenaje total",
+   "B": "Aumentar el volumen de llenado a 4 L, para evitar el dolor al final del drenaje y mejorar la depuración",
+   "C": "Pasar a DPCA con recambios manuales cada hora, para evitar las alarmas de la cicladora y el dolor",
+   "D": "Suspender la diálisis peritoneal y pasar a hemodiálisis de inmediato, por intolerancia al drenaje y falla del catéter",
+   "E": "DP tidal, cuya principal utilidad es duplicar la depuración de urea sin aumentar el volumen total ni el número de ciclos"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la DP tidal se drena solo una parte del volumen (casi siempre 50% a 85%) en cada ciclo antes de rellenar, dejando un volumen residual. Se usa en la práctica para prevenir el dolor de drenaje y las alarmas por drenaje incompleto o la disfunción del catéter (por la succión del epiplón o de las asas), más que para aumentar la eficiencia; la ganancia de depuración es pequeña y en ocasiones se pierde por el volumen que no se renueva. Se excluyen primero causas mecánicas (estreñimiento, malposición) con radiografía simple y se trata el estreñimiento.",
+   "B": "Aumentar el volumen de llenado a 4 L expone a fugas, hernias y disnea, y no resuelve el dolor.",
+   "C": "La DPCA con recambios cada hora no es una modalidad práctica y no resuelve el dolor.",
+   "D": "No hay indicación para suspender la DP por dolor de drenaje.",
+   "E": "La DP tidal no duplica la depuración, y su ventaja principal es sobre el dolor de drenaje."
+  },
+  "perla": "DP tidal: drena 50–85% por ciclo, deja volumen residual; sirve para prevenir dolor de drenaje y alarmas/disfunción del catéter, no para aumentar la depuración.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: modalidades)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o5",
+  "peso": 73.0
+ },
+ {
+  "id": "MDP-3",
+  "serie_id": "MDP",
+  "orden": 3,
+  "sub": "20.b",
+  "subtema": "NIPD con día seco: cuándo agregar permanencia diurna",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente inició NIPD con día seco (5 noches por semana) con diuresis residual de 1 400 mL/día y buen control. Un año después la diuresis baja a 300 mL/día, con Kt/V semanal total de 1.5 y reaparecen edema y prurito.",
+  "enunciado": "¿Cuál es la modificación más adecuada?",
+  "opciones": {
+   "A": "Pasar a hemodiálisis de inmediato, sin intentar optimizar la diálisis peritoneal, por la caída marcada de la diuresis",
+   "B": "Mantener la NIPD con día seco y restringir la ingesta de agua y sodio para controlar el edema reaparecido",
+   "C": "Reducir el número de noches de diálisis a 3 por semana, para proteger la función renal residual y la membrana peritoneal",
+   "D": "Cambiar a dextrosa de 1.5% en todos los ciclos, para reducir el edema y proteger la membrana peritoneal a largo plazo",
+   "E": "Pasar a DPA con día húmedo (icodextrina si se necesita UF) y subir volumen o ciclos al caer la función residual"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Antes de transferir, se optimiza la prescripción peritoneal.",
+   "B": "Restringir agua no corrige la infradiálisis ni el prurito urémico.",
+   "C": "Reducir las noches de diálisis disminuye la dosis, y el paciente ya está infradializado.",
+   "D": "La dextrosa de 1.5% en todos los ciclos reduce la ultrafiltración y empeoraría la sobrecarga.",
+   "E": "La NIPD con día seco (dosis menor, sin permanencia diurna) es adecuada mientras la función renal residual aporta una parte importante de la depuración y del control del volumen. Al caer la diuresis y el aclaramiento residual, con síntomas y Kt/V menor de 1.7, se aumenta la dosis: se agrega una permanencia diurna (convirtiendo la NIPD en DPA con día húmedo), con icodextrina si se requiere ultrafiltración sostenida, y se ajusta el volumen y el número de ciclos. Si aun así la dosis es insuficiente, se considera la transferencia a hemodiálisis. La restricción de agua sola no corrige la infradiálisis, y reducir las noches empeoraría la dosis."
+  },
+  "perla": "NIPD con día seco sirve con buena función residual; al ↓ RRF/síntomas/Kt/V <1.7 → añadir permanencia diurna (DPA día húmedo ± icodextrina), ↑ volumen/ciclos; si no basta → HD.",
+  "referencias": [
+   "Brown EA et al. Perit Dial Int 2020;40:244",
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: modalidades)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 73.0
+ },
+ {
+  "id": "MEM-1",
+  "serie_id": "MEM",
+  "orden": 1,
+  "sub": "20.a",
+  "subtema": "Factores que determinan la difusión de solutos en diálisis peritoneal",
+  "dificultad": "moderada",
+  "caso": "Un residente repasa la fisiología de la membrana peritoneal, formada por el mesotelio, el intersticio y el endotelio capilar, que actúa como membrana semipermeable entre la sangre de los capilares y el dializado de la cavidad.",
+  "enunciado": "¿Cuál de los siguientes factores no determina de forma directa la tasa de difusión de un soluto pequeño en la diálisis peritoneal?",
+  "opciones": {
+   "A": "La resistencia intrínseca de la membrana peritoneal al paso de los solutos entre sangre y dializado",
+   "B": "La densidad de los capilares peritoneales perfundidos, que determina el área efectiva de intercambio de solutos con el dializado",
+   "C": "El tamaño (peso molecular) del soluto, porque los solutos pequeños difunden con mayor rapidez que los grandes",
+   "D": "El volumen de ultrafiltración, que es transporte convectivo (arrastre del soluto con el agua) y no difusión",
+   "E": "El gradiente de concentración entre la sangre y el dializado, que es la fuerza impulsora de la difusión"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La resistencia intrínseca de la membrana modifica la tasa de difusión.",
+   "B": "El área efectiva de intercambio depende de los capilares perfundidos, y modifica la difusión.",
+   "C": "El peso molecular del soluto determina su coeficiente de difusión.",
+   "D": "La difusión es el movimiento de solutos a favor de su gradiente de concentración, y depende del gradiente, del área efectiva de intercambio (densidad de capilares peritoneales perfundidos), de la resistencia intrínseca de la membrana (espesor y estructura de los poros) y del tamaño del soluto (los solutos pequeños difunden más rápido), además del tiempo de permanencia (que determina cuánto se equilibra el gradiente). La ultrafiltración, en cambio, es transporte convectivo: el agua arrastra solutos por los poros según su coeficiente de cribado, y es un mecanismo distinto, que se suma a la difusión en la depuración total pero no es uno de sus determinantes directos.",
+   "E": "El gradiente de concentración es el motor de la difusión."
+  },
+  "perla": "Difusión en DP: gradiente de concentración, área efectiva (capilares perfundidos), resistencia de la membrana, tamaño del soluto y tiempo; la UF es convección (mecanismo distinto).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: transporte peritoneal)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "continuacion": "",
+  "obj": "20.o2",
+  "peso": 72.5
+ },
+ {
+  "id": "MEM-2",
+  "serie_id": "MEM",
+  "orden": 2,
+  "sub": "20.a",
+  "subtema": "Modelo de tres poros: acuaporina-1, poros pequeños y grandes",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El residente pregunta por el modelo de tres poros del endotelio capilar peritoneal y por qué, con glucosa hipertónica, el sodio del dializado desciende durante la primera hora de una permanencia.",
+  "enunciado": "¿Cuál es la descripción correcta?",
+  "opciones": {
+   "A": "Todos los poros transportan agua y solutos de la misma manera, sin diferencias de tamaño ni de selectividad, y el sodio se diluye por la glucosa",
+   "B": "Los poros ultrapequeños (AQP-1) pasan solo agua; con glucosa hipertónica diluyen el sodio del dializado en la 1.ª hora (sodium sieving)",
+   "C": "La acuaporina-1 no interviene en la ultrafiltración con glucosa; el agua atraviesa solo los poros pequeños y los poros grandes del capilar",
+   "D": "El descenso del sodio del dializado se debe a la secreción activa de sodio por el mesotelio peritoneal hacia el capilar subyacente",
+   "E": "Los poros ultrapequeños transportan proteínas grandes, y los poros grandes transportan solo agua libre de solutos pequeños y de sodio"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Cada tipo de poro tiene una selectividad distinta.",
+   "B": "En el modelo de tres poros, el endotelio capilar peritoneal tiene poros ultrapequeños (acuaporina-1, que transporta solo agua, cerca de la mitad de la ultrafiltración con glucosa hipertónica), poros pequeños (casi la totalidad de los poros: transporte de solutos pequeños y agua con solutos, con ultrafiltración también por ósmosis coloidal de la icodextrina) y poros grandes (muy escasos, por donde pasan las proteínas). Con una solución hipertónica de glucosa, el agua libre de solutos que cruza la acuaporina-1 diluye el sodio del dializado en la primera hora (descenso de D/P de sodio de más de 0.03), que es el fenómeno de cribado de sodio, y su ausencia indica disfunción de acuaporinas.",
+   "C": "La acuaporina-1 es responsable de cerca de la mitad de la ultrafiltración con glucosa hipertónica.",
+   "D": "La dilución del sodio es un efecto del agua libre que atraviesa la acuaporina-1, y no una secreción activa.",
+   "E": "Las proteínas pasan por los poros grandes, y los ultrapequeños transportan agua libre."
+  },
+  "perla": "Tres poros: ultrapequeños (AQP1: agua libre, ~½ UF con glucosa, sodium sieving), pequeños (solutos pequeños; icodextrina por ósmosis coloidal), grandes (proteínas, pocos).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: transporte peritoneal)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 74.5
+ },
+ {
+  "id": "MEM-3",
+  "serie_id": "MEM",
+  "orden": 3,
+  "sub": "20.a",
+  "subtema": "Tiempo de permanencia: ultrafiltración y depuración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un paciente transportador alto con DPCA usa dextrosa de 2.5% en la permanencia nocturna de 10 horas y a la mañana drena menos volumen del que infundió (ultrafiltración neta negativa), con depuración de solutos buena.",
+  "enunciado": "¿Cuál es la explicación y la modificación más adecuada?",
+  "opciones": {
+   "A": "No hay solución, y debe suspenderse la diálisis peritoneal y transferir al paciente a hemodiálisis de inmediato por el riesgo de sobrecarga de volumen",
+   "B": "La ultrafiltración aumenta de forma lineal con el tiempo de permanencia, y el problema es un error de laboratorio o de registro del volumen drenado",
+   "C": "La depuración de solutos disminuye con permanencias largas, y la ultrafiltración neta aumenta de forma lenta y progresiva en el transportador alto",
+   "D": "El problema es una falla de acuaporinas, que se corrige aumentando el tiempo de permanencia nocturna a 12 horas",
+   "E": "Con permanencias largas el gradiente de glucosa se disipa y la reabsorción linfática supera la UF; se acorta la permanencia o se usa icodextrina"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La prescripción puede ajustarse con permanencias cortas e icodextrina, sin suspender la diálisis.",
+   "B": "La ultrafiltración alcanza un máximo y luego disminuye con el tiempo, no aumenta de forma lineal.",
+   "C": "La depuración de solutos aumenta con el tiempo de permanencia, y la ultrafiltración disminuye.",
+   "D": "El patrón corresponde a transporte alto con pérdida del gradiente, y alargar la permanencia empeora la ultrafiltración.",
+   "E": "Con la permanencia, el gradiente osmótico de glucosa se disipa (por absorción de glucosa, más rápida en el transportador alto) y la ultrafiltración alcanza un máximo y luego cae; además, el líquido se reabsorbe por vía linfática y capilar, de modo que tras muchas horas la ultrafiltración neta puede ser negativa. En cambio, la depuración de solutos pequeños aumenta con el tiempo de contacto hasta acercarse al equilibrio (D/P cercano a 1). Por eso el transportador alto requiere permanencias cortas para mantener la ultrafiltración (DPA con ciclos cortos), y en la permanencia larga se usa icodextrina, que sostiene la ultrafiltración durante 8 a 16 horas porque su gradiente coloidal no se disipa por absorción rápida."
+  },
+  "perla": "Permanencia ↑ → depuración de solutos ↑ (D/P → 1) pero UF ↑ hasta un máximo y luego ↓ (gradiente de glucosa se disipa + reabsorción linfática); transportador alto: ciclos cortos + icodextrina en la larga.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (diálisis peritoneal: transporte peritoneal)",
+   "Brown EA et al. Perit Dial Int 2020;40:244"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 20,
+  "tema": "Diálisis peritoneal",
+  "obj": "20.o2",
+  "peso": 74.5
+ }
+]

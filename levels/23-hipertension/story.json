@@ -1,0 +1,673 @@
+{
+ "meta": {
+  "id": "23",
+  "title": "Hipertensión arterial",
+  "key": "rm_v3_23",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Crisis",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Arterias en Tensión",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "urgencias",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 45 años, tres fármacos, 168/102 en consulta. Potasio 3.1."
+    ],
+    [
+     "Dr. J.",
+     "Lo mandan como «resistente». Yo todavía no lo creo."
+    ],
+    [
+     "Sabio Brenn",
+     "Resistente: sin control con tres fármacos a dosis óptima, uno de ellos diurético."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "MAPA de 24 Horas",
+     "lines": [
+      [
+       "MAPA de 24 Horas",
+       "Descarto la bata blanca. Y veo si la presión baja de noche."
+      ],
+      [
+       "MAPA de 24 Horas",
+       "Sin mí, o sin medición en casa, no llames resistente a nadie."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "seudorresistencia"
+    },
+    {
+     "id": "npc2",
+     "name": "Pastillero Vacío",
+     "lines": [
+      [
+       "Pastillero Vacío",
+       "La mitad de los «resistentes» no se toma las pastillas."
+      ],
+      [
+       "Pastillero Vacío",
+       "Pregunta sin juzgar. También por AINE, descongestionantes y regaliz."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "adherencia"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · KDIGO 2021",
+     "En ERC: sistólica <120 mmHg con medición estandarizada, si se tolera."
+    ],
+    [
+     "Letrero · Cuarto fármaco",
+     "PATHWAY-2: espironolactona fue el mejor."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "IM2",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Tres fármacos y sigue alto: denervación renal directo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero MAPA y adherencia… bien, lo reviso."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "CLC",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Te reto con un caso: Hipertensión resistente en ERC: confirmación y causas"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "ELD",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Hipertensión en el adulto muy mayor: evidencia de tratamiento"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Bata Blanca",
+     "type": "Molecular",
+     "topic": "Bata Blanca"
+    },
+    {
+     "name": "Sal Oculta",
+     "type": "Molecular",
+     "topic": "Sal Oculta"
+    },
+    {
+     "name": "Manguito Chico",
+     "type": "Molecular",
+     "topic": "Manguito Chico"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "HTA resistente y seudorresistencia",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: antes de llamarla resistente, descarta la seudorresistencia."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "HTA resistente",
+     "items": [
+      "Medición correcta y fuera del consultorio",
+      "Verificar adherencia y fármacos que suben la PA",
+      "Optimizar diurético según TFG",
+      "Buscar causa secundaria",
+      "Agregar espironolactona",
+      "Referir si persiste"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Seudorresistencia descartada. Y ese potasio bajo dice algo."
+      ]
+     ]
+    }
+   ],
+   "card": "HTA resistente: ≥3 fármacos con diurético. Descartar bata blanca y falta de adherencia. Cuarto fármaco: espironolactona. ERC: PAS <120 estandarizada."
+  },
+  {
+   "id": "z2",
+   "name": "Suprarrenal y Urgencias",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "vignette": "capsula_semiluna",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Aldosterona/renina alta: confirma y localiza con TC y muestreo venoso suprarrenal."
+    ],
+    [
+     "Sabio Brenn",
+     "Unilateral: cirugía. Bilateral: antagonista mineralocorticoide."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Adenoma Productor",
+     "lines": [
+      [
+       "Adenoma Productor",
+       "Fabrico aldosterona sin pedir permiso. La renina está por el suelo."
+      ],
+      [
+       "Adenoma Productor",
+       "Solo un tercio de mis pacientes tiene hipopotasemia."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "hiperaldosteronismo"
+    },
+    {
+     "id": "npc2",
+     "name": "Feocromocitoma",
+     "lines": [
+      [
+       "Feocromocitoma",
+       "Cefalea, sudor y palpitaciones. Mídeme metanefrinas."
+      ],
+      [
+       "Feocromocitoma",
+       "Bloqueo alfa antes que beta. Siempre."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "feocromocitoma"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Emergencia",
+     "Daño agudo a órgano blanco: bajar la PAM ≤25 % en la primera hora, vía IV."
+    ],
+    [
+     "Letrero · Excepciones",
+     "Disección aórtica: PAS <120 en minutos. Ictus isquémico: no bajar salvo >220/120."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "HTS",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "220/120 sin síntomas: nifedipino sublingual y baja en 10 minutos."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Sin daño a órgano es urgencia: oral y despacio. Entendido."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "HDN",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Denervación renal: indicación y expectativas"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "HTE",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Hipertensión de bata blanca: diagnóstico con medición fuera del con"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Renina Suprimida",
+     "type": "Molecular",
+     "topic": "Renina Suprimida"
+    },
+    {
+     "name": "Catecolamina",
+     "type": "Molecular",
+     "topic": "Catecolamina"
+    },
+    {
+     "name": "Apnea del Sueño",
+     "type": "Molecular",
+     "topic": "Apnea del Sueño"
+    },
+    {
+     "name": "Papiledema",
+     "type": "Molecular",
+     "topic": "Papiledema"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Hipertensión secundaria y emergencias hipertensivas",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Urgencia: sin daño agudo. Emergencia: con daño. La cifra sola no decide."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Causa secundaria y prueba",
+     "items": [],
+     "pairs": [
+      [
+       "Hiperaldosteronismo",
+       "Relación aldosterona/renina"
+      ],
+      [
+       "Renovascular",
+       "Doppler o angioTC"
+      ],
+      [
+       "Feocromocitoma",
+       "Metanefrinas"
+      ],
+      [
+       "Cushing",
+       "Cortisol tras dexametasona"
+      ],
+      [
+       "Apnea del sueño",
+       "Polisomnografía"
+      ],
+      [
+       "Coartación",
+       "Diferencia de pulsos"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Aldosterona alta, renina suprimida. Y la presión se dispara."
+      ]
+     ]
+    }
+   ],
+   "card": "HTA secundaria: aldosteronismo primario (el más frecuente). Emergencia: daño a órgano, IV, PAM −25 % en 1 h; disección <120 rápido."
+  }
+ ],
+ "boss": {
+  "name": "La Crisis",
+  "color": "#C0392B",
+  "dark": "#4a0a0a",
+  "heads": 1,
+  "intro": [
+   [
+    "La Crisis",
+    "No soy una cifra. Soy lo que la cifra le hace al cerebro, la retina y la aorta."
+   ],
+   [
+    "Dr. J.",
+    "Mide bien, busca la causa y baja a la velocidad correcta."
+   ]
+  ],
+  "outro": [
+   [
+    "La Crisis",
+    "Bajo. Despacio, como debe ser."
+   ],
+   [
+    "Sabio Brenn",
+    "La presión es el martillo que más nefronas rompe. Y se puede soltar."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Medición",
+    "type": "Molecular",
+    "lines": [
+     [
+      "La Crisis",
+      "¿Seguro que soy resistente?"
+     ]
+    ],
+    "topics": [
+     "Medición"
+    ],
+    "questions": [
+     "HTN-FEO-1",
+     "HTN-FEO-2",
+     "HTN-FEO-3"
+    ]
+   },
+   {
+    "name": "Causa secundaria",
+    "type": "Celular",
+    "lines": [
+     [
+      "La Crisis",
+      "Busca quién me sostiene."
+     ]
+    ],
+    "topics": [
+     "Causa secundaria"
+    ],
+    "questions": [
+     "HTN-ALD-1",
+     "HTN-ALD-2",
+     "HTN-ALD-3"
+    ]
+   },
+   {
+    "name": "Tratamiento",
+    "type": "Humoral",
+    "lines": [
+     [
+      "La Crisis",
+      "¿Cuál es tu cuarto fármaco?"
+     ]
+    ],
+    "topics": [
+     "Tratamiento"
+    ],
+    "questions": [
+     "EHT-1",
+     "EHT-2",
+     "EHT-3"
+    ]
+   },
+   {
+    "name": "Emergencia",
+    "type": "Complemento",
+    "lines": [
+     [
+      "La Crisis",
+      "Ahora hay papiledema."
+     ]
+    ],
+    "topics": [
+     "Emergencia"
+    ],
+    "questions": [
+     "EHT-4",
+     "EHT-5"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "PATHWAY-2",
+   "mnemonic": "El camino 2 lleva a la espironolactona.",
+   "result": "Espironolactona superior a bisoprolol y doxazosina como cuarto fármaco."
+  },
+  {
+   "trial": "SPRINT",
+   "mnemonic": "Carrera a 120.",
+   "result": "Meta sistólica <120: menos eventos cardiovasculares y muerte; más LRA e hipotensión."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Arterias en Tensión",
+   "text": "HTA resistente: ≥3 fármacos con diurético. Descartar bata blanca y falta de adherencia. Cuarto fármaco: espironolactona. ERC: PAS <120 estandarizada."
+  },
+  {
+   "title": "Suprarrenal y Urgencias",
+   "text": "HTA secundaria: aldosteronismo primario (el más frecuente). Emergencia: daño a órgano, IV, PAM −25 % en 1 h; disección <120 rápido."
+  }
+ ]
+}

@@ -30,7 +30,7 @@ Retroalimentación tras jugar la v3: lo mantiene despierto, la historia ayuda, l
 | 2 · Las herramientas | 4, 5 | Prólogo |
 | 3 · La lesión aguda | 6, 17, 11 | I |
 | 4 · El medio interno | 24, 25, 10 | I |
-| 5 · El glomérulo | 9 (7 subniveles; 9-5 lupus ya hecho) | II |
+| 5 · El glomérulo | 9 (7 subniveles; 9-5 y 9-6 largos, el resto compactos) | II |
 | 6 · Genes, quistes y cristales | 16, 14, 12, 13 | II |
 | 7 · Vasos, presión y embarazo | 15, 23, 18, 26 (cáncer y riñón) | II |
 | 8 · La enfermedad crónica | 8, 7, 22 | III |
@@ -56,23 +56,39 @@ Temas con muchas entidades pequeñas (tóxicos, cristales): un súbdito por clas
 | Vigilia | Alarma adaptada a las palabras en pantalla; ofrece DESPERTADOR (10 V/F con 6 s); Wake Lock |
 
 ## 5. Esquema de un nivel
-- `story.json`: `cast`, `zones[]` (`id,name,palette,tiles,intro,npcs,trainers,wild,gates,minigames,cutscenes,card`), `boss` (`intro,phases[],outro`), `creatures`, `typeChart`, `shields`, `nefrodex`. Validado por `tools/validate_story.py`.
-- `q_base.json`: `apertura`, `gates{}`, `subditos[]`, `pasto[]`, `stones[]`, `jefeB[]`.
+- `story.json`: `meta`, `cast`, `zones[]`, `boss`, `creatures`, `typeChart`, `shields`, `nefrodex` y, opcionales, `themes`, `enemyTypes`. Validado por `tools/validate_story.py`. Todo lo propio del nivel vive aquí; el motor no conoce ningún nivel.
+  - `meta`: `id` ("9-6"), `title`, `key` (clave de guardado en `localStorage`, **única por nivel y no cambiarla una vez publicada**: borra el avance), `arena`, `bossShort`, `bossChange`.
+  - `zones[i]`: `id,name,palette,tiles,intro,npcs,trainers,wild,gates,minigames,cutscenes,card` más
+    `join` (ids de criaturas que se unen al entrar), `signs` (`[[título,texto],…]`, ≤90 caracteres), `nurse` (true = enfermera que cura),
+    `vignette` (nombre de una viñeta de la biblioteca `VIG` del motor —las 10 de lupus: `urgencias, uv_piel, pantano_restos, ganglio, rio_sangre, delta_endocapilar, acantilado_podocito, ruinas_asas, capsula_semiluna, valle_tubulovascular`— o un objeto `{bg, layers[]}` con capas `rect, circ, ring, stripes, cells, drift, orbit, pulse, grow, person`; cada capa admite `every` para parpadear; ver ejemplos en `levels/9-6-anca/story.json`),
+    `theme` (`{f,w,g}`: piso, muro y hierba; sobrescribe los colores del `tiles`).
+  - `trainers[]`: `serie` (id de una serie de `q_extra.entrenadores`); si falta, se eligen `n` preguntas por `questionTopics`.
+  - `boss`: `intro, phases[], outro` y `color, dark, heads, headColors` (sprite). Cada fase: `name, type` (tipo enemigo), `lines`, `topics` y sus preguntas: `questions` (ids), `series` (series completas) y/o `pick` (`{topics,n}` por tema). Si no trae ninguna, se eligen por `topics`.
+  - `creatures[]`: además de `moves`, opcionales `color`, `dark` y, por movimiento, `fx` (animación de la biblioteca: `Fagocito, Depurador, Humoral, Regulador, Supresor, Antimetabolito, Endosomal, Podoprotector, Anti-citocina, Depletor, Alquilante`).
+- `tiles` disponibles (decoración del mapa): `hospital, playa, pantano, bosque, rio, delta, acantilado, ruinas, capsula, valle, arena`.
+- `q_base.json` (opcional, formato de 9-5): `apertura`, `gates{}`, `subditos[]`, `pasto[]`, `stones[]`, `jefeB[]`. Los niveles nuevos ponen todo en `q_extra.json`.
 - `q_extra.json`: `pasto[]`, `puertas[]`, `entrenadores[]` (con `serie_id`, `orden`, `caso`, `continuacion`), `jefeC[]`.
-- `q_banco.json`: preguntas del banco de Alfredo para ese tema (mismo formato que `data/bank.json`).
+- `q_banco.json` (opcional): preguntas del banco de Alfredo para ese tema (mismo formato que `data/bank.json`).
 - Pregunta de opción múltiple: `id, enunciado, opciones{A..E}, clave, explicaciones{A..E}, perla, referencias[], peso, tema`. Pasto V/F: `id, vf:true, enunciado, clave:"V"|"F", exp`.
 
 ## 6. Pendientes de ingeniería (en orden)
-1. **Sacar del motor lo específico de lupus** y moverlo a los datos del nivel: `JOIN` (qué criatura se une en qué zona), `SERIE_OF` (serie de cada entrenador), `PLAN.boss`, `SIGNS`, `drawVignette` (viñetas por zona), `deco`/`THEME` por `tiles`, y la clave de guardado `KEY`.
-2. **Selector de niveles / mapa de regiones** con progreso global y equipo persistente entre niveles.
-3. **PWA instalable sin internet** (service worker, manifest) y exportar/importar partida para pasar de celular a tableta; sincronización real si se añade un backend.
-4. Unificar los tres archivos de preguntas en uno por nivel; el autómata busca preguntas por `enunciado`, así que los enunciados duplicados lo confunden (ver `T2-UCI-4`): usar `id` en un `data-id`.
+1. ~~Sacar del motor lo específico de lupus~~ **Hecho (15 nov 2026).** `JOIN`, `SERIE_OF`, `PLAN.boss`, `SIGNS`, viñetas, colores por `tiles`, enfermera, `KEY` y textos del título y jefe salen de `story.json` (sección 5). La clave de lupus sigue siendo `rm_v2_95` para no perder la partida de Alfredo. Queda en el motor, como biblioteca reutilizable: los patrones de `deco` por `tiles`, las 10 viñetas de lupus (`VIG`) y las animaciones de ataque (`drawFx`).
+2. ~~Selector de niveles / mapa de regiones~~ **Hecho (15 nov 2026).** `python3 build.py` arma el juego completo: mapa de 9 regiones (`data/regiones.json`), 32 niveles, equipo y niveles superados compartidos (`rm_global`), catálogo común de criaturas (`data/criaturas.json`) y la Torre del Consejo (antesala de revancha de errores, 6 pisos de 50 con explicación y modo examen de 300 con reloj; muestra ponderada por `meta` del temario, casos seriados completos). Falta: jefes de región (El Simulador, El Alquimista, El Triaje, El Transportador, El Semilunar, El Heredero, El Endotelio Herido, La Progresión, el director de Hemo-Eterna) y candado de la Torre hasta vencerlos.
+3. ~~PWA instalable sin internet y pasar la partida entre dispositivos~~ **Hecho (15 nov 2026).** `python3 build.py --pwa` genera `docs/` (service worker `engine/sw.js`: responde de la caché y se actualiza en segundo plano). Botón 💾 PARTIDA: código de exportar/importar (gana lo más nuevo por nivel), descarga del juego en un archivo y, solo en el artefacto de Claude, sincronización automática por la base de datos privada del usuario (`data/users/<id>/`). La app de GitHub Pages no tiene nube: ahí el avance viaja con el código. Falta: sincronización real desde la PWA (necesita un backend).
+4. Unificar los tres archivos de preguntas en uno por nivel. (El `data-id` ya está: el autómata identifica las preguntas por `id`, y el falso error de `T2-UCI-4` desapareció.)
 5. Imágenes reales de biopsia en preguntas (solo propias o de licencia abierta, con crédito).
 6. Ideas aprobadas sin implementar: apuesta de confianza, modo guardia (caso sorpresa), prueba de entrada por tema que acorta o alarga el nivel, recuerdo escrito con teclado, arte y sonido mejores.
 
 ## 7. Pendientes de contenido
+- **Niveles compactos (30 de 32):** 2–3 zonas cada uno, con historia, giro y jefe de la biblia narrativa, pasto V/F nuevo (10–12 por nivel, escrito de memoria con hechos de guía: **revisarlos jugando**) y preguntas de opción múltiple del banco. Alfredo pidió niveles largos: alargar primero los de más peso (6, 7, 21, 4, 5, 20, 24, 16, 19). Temas con poco banco (1, 3, 11, 9-3, 9-4) necesitan casos nuevos.
+- **Reparto distinto a la biblia:** posinfecciosa, crioglobulinemia y GNMP/C3G están en 9-1 (no en 9-5); la MAT (9.d.8) está en el nivel 15; 9-7 quedó como paraproteínas y VIH.
+- **Borradores KDIGO:** LRA/AKD 2026 y diabetes/ERC 2026 solo aparecen como tarjetas "Ley nueva / Ley anterior" en la Nefrodex de 6 y 8; la guía final no está confirmada (dossier de Drive, 12 nov 2026). Anemia KDIGO 2026: tarjeta en el nivel 7 sin cifras; añadirlas con la guía en mano.
+- **Verificación del 15 nov 2026 (PubMed, resumen del artículo original):** coinciden con el juego FLOW (HR 0.76), CONVINCE (HR 0.77), MENTOR (60 % vs 20 % a 24 meses), PATHWAY-2, NefIgArd (16 mg × 9 meses), TESTING (HR 0.53; reducción de dosis por infecciones), DAPA-CKD (HR 0.61, con y sin diabetes), FIDELIO-DKD (HR 0.82), HALT-PKD (menor crecimiento del volumen renal), TEMPO 3:4, STARRT-AKI, AKIKI (49 % sin TRR), TREAT (más ictus) y ELITE-Symphony. Por búsqueda web (fuentes secundarias): meta de proteinuria de KDIGO 2025 en IgAN (<0.5, ideal <0.3 g/día) e ISPD 2022 (14 días coagulasa negativo, 21 días S. aureus, revisar retiro a los 5 días).
+- **Sin verificar todavía:** el resto del pasto V/F de los niveles compactos (hechos de guía escritos de memoria); ISPD 2022 para enterococo y Pseudomonas (3 semanas); ASTRAL/CORAL, IDEAL, SPRINT, BENEFIT, HEMO; y los **límites de agua de la NOM-003-SSA3-2010**: el letrero del nivel 19 usa los de ISO/AAMI porque no se pudo abrir dof.gob.mx desde la sesión. Alfredo: confirma los de la NOM (Apéndice A), que son los que puede preguntar el Consejo.
+- **Banco corregido integrado (15 nov 2026):** `data/bank.json`, `temario.json` y `competencias.json` vienen de la app de Alfredo. 9-6 usa sus 14 preguntas de ANCA/anti-MBG (`ANCA` y `GBM` en el jefe, `ANB` con Valeria en z2, `AGB` con Don Solvente en z4); `q_banco.json` de lupus se actualizó a la versión corregida con los mismos `id`. En ese subconjunto la correcta aún es la más larga en 4/14 (ANCA-3, GBM-1, GBM-3, ANB-3) y 5/13 de lupus; ANCA-1 y ANCA-4 tienen una opción fuera de ±25 %.
+- **9-5 (regla 4):** `validate_story.py` avisa más de 4 cuadros seguidos al entrar en z1, z2, z6, z7 y z10, y en intro del jefe + fase 1. Recortar con Alfredo.
 - Verificar en PubMed los PMID del guion de lupus (`levels/9-5-lupus/guion.md`, refs. 1–5, 18–23, 25) y los puntos marcados `[VERIFICAR]`.
-- `q_banco.json` de lupus: nomenclatura "IV-G (A)" obsoleta (ISN/RPS 2018 la eliminó) y sesgo de longitud.
+- `q_banco.json` de lupus: la nomenclatura "IV-G (A)" obsoleta (ISN/RPS 2018 la eliminó) sigue en LN-2 y LNB-2 aun en la versión corregida.
 - Temas con pocas preguntas en el banco (1, 3, 10, 11): generar casos nuevos.
 - Borradores KDIGO a incorporar: LRA/AKD 2026 (nivel 6) y diabetes y ERC 2026 (nivel 8).
 - Bibliografía oficial del Consejo: Brenner 9.ª, Comprehensive 5.ª, Primer NKF, Daugirdas, Danovitch, Rose, Graff, UpToDate. Alfredo puede subir capítulos; los términos de Elsevier restringen su uso con IA, es decisión suya.

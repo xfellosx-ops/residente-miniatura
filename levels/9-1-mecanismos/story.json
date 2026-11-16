@@ -1,0 +1,697 @@
+{
+ "meta": {
+  "id": "9-1",
+  "title": "Mecanismos, síndromes y biopsia",
+  "key": "rm_v3_91",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Guardián",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Sala de Síndromes",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "urgencias",
+   "join": [
+    "sonda",
+    "treg"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Acto II. Varón de 45 años con edema, espuma en la orina y albúmina de 2.1."
+    ],
+    [
+     "Dr. J.",
+     "Antes de entrar, nombra el síndrome. El nombre decide el diferencial."
+    ],
+    [
+     "Sabio Brenn",
+     "Nefrótico, nefrítico, GNRP, hematuria aislada. Cuatro puertas al mismo ovillo."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Síndrome Nefrótico",
+     "lines": [
+      [
+       "Síndrome Nefrótico",
+       "Proteinuria >3.5 g/día, albúmina baja, edema y lípidos altos."
+      ],
+      [
+       "Síndrome Nefrótico",
+       "Mi lesión es del podocito. Casi no traigo células inflamatorias."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "nefrótico"
+    },
+    {
+     "id": "npc2",
+     "name": "Síndrome Nefrítico",
+     "lines": [
+      [
+       "Síndrome Nefrítico",
+       "Hematuria dismórfica, hipertensión, edema y creatinina que sube."
+      ],
+      [
+       "Síndrome Nefrítico",
+       "Mi lesión es del endotelio y el mesangio: ahí llega la sangre con sus células."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "nefrítico"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Localización",
+     "Subepitelial: nefrótico. Subendotelial y mesangial: nefrítico."
+    ],
+    [
+     "Letrero · Complicaciones",
+     "Nefrótico: trombosis (albúmina <2.5), infección por encapsulados, dislipidemia."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "valeria",
+     "specialty": "Rival",
+     "serie": "NEE",
+     "intro": [
+      [
+       "Dra. Valeria Montes",
+       "Nefrótico es 3.5 gramos. Punto. ¿Qué más hay que saber?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Valeria Montes",
+       "¿Por qué no hay células inflamatorias? Eso no lo memoricé."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "NSC",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Te reto con un caso: Síndrome nefrótico: fisiopatología del edema"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "CRG",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Crioglobulinemia: clasificación de Brouet y errores preanalíticos"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Proteinuria Masiva",
+     "type": "Molecular",
+     "topic": "Proteinuria Masiva"
+    },
+    {
+     "name": "Hematuria Dismórfica",
+     "type": "Celular",
+     "topic": "Hematuria Dismórfica"
+    },
+    {
+     "name": "Edema Blando",
+     "type": "Molecular",
+     "topic": "Edema Blando"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Localización de depósitos y síndrome clínico",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Donde toca la sangre hay inflamación. Detrás de la membrana basal, solo proteinuria."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Depósito y enfermedad",
+     "items": [],
+     "pairs": [
+      [
+       "Subepitelial",
+       "Membranosa"
+      ],
+      [
+       "Subendotelial",
+       "Lupus IV, GNMP"
+      ],
+      [
+       "Mesangial",
+       "IgA"
+      ],
+      [
+       "Jorobas subepiteliales",
+       "Posinfecciosa"
+      ],
+      [
+       "Lineal en MBG",
+       "Anti-MBG"
+      ],
+      [
+       "Sin depósitos",
+       "Cambios mínimos, ANCA"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Una Treg tranquila se une a tu equipo. La vas a necesitar."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Segunda herramienta: el complemento. Dice mucho con dos números."
+      ]
+     ]
+    }
+   ],
+   "card": "Nefrótico = podocito/subepitelial. Nefrítico = endotelio/mesangio/subendotelial. GNRP = semilunas. El síndrome orienta, la biopsia define."
+  },
+  {
+   "id": "z2",
+   "name": "Laboratorio del Complemento",
+   "palette": [
+    "#E8D8F0",
+    "#A080C0",
+    "#583878",
+    "#201030"
+   ],
+   "tiles": "pantano",
+   "vignette": "pantano_restos",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "C3 bajo con C4 normal: vía alterna. Posinfecciosa o glomerulopatía C3."
+    ],
+    [
+     "Sabio Brenn",
+     "C3 y C4 bajos: vía clásica. Lupus, crioglobulinemia, endocarditis."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Joroba Subepitelial",
+     "lines": [
+      [
+       "Joroba Subepitelial",
+       "Soy la firma de la posinfecciosa en microscopía electrónica."
+      ],
+      [
+       "Joroba Subepitelial",
+       "El C3 debe normalizarse en 6 a 8 semanas. Si no, busca C3G."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "posinfecciosa"
+    },
+    {
+     "id": "npc2",
+     "name": "Crioglobulina",
+     "lines": [
+      [
+       "Crioglobulina",
+       "Precipito con el frío. Tipo II: IgM monoclonal con factor reumatoide, por VHC."
+      ],
+      [
+       "Crioglobulina",
+       "Consumo mucho C4. Doy púrpura, artralgias y GN membranoproliferativa."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "crioglobulinemia"
+    },
+    {
+     "id": "npc3",
+     "name": "Factor Nefrítico C3",
+     "lines": [
+      [
+       "Factor Nefrítico C3",
+       "Estabilizo la convertasa de C3. La vía alterna ya no se apaga."
+      ]
+     ],
+     "gift": null,
+     "recall": "C3G"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · GNMP",
+     "Por IF: con inmunoglobulinas (infección, autoinmune, monoclonal) o solo C3 (C3G)."
+    ],
+    [
+     "Letrero · Estafilococo",
+     "GN asociada a infección activa en adultos: IgA dominante; trata la infección."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "HEM",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Posestreptocócica: penicilina y se cura el riñón."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "El antibiótico no cambia la nefritis… trata el foco y espera."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "GLM",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Localización de los depósitos inmunes y fenotipo clínico"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "MPI",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Patrón membranoproliferativo: clasificación por inmunofluorescencia"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "C3 Consumido",
+     "type": "Complemento",
+     "topic": "C3 Consumido"
+    },
+    {
+     "name": "Estreptococo Nefritógeno",
+     "type": "Innato",
+     "topic": "Estreptococo Nefritógeno"
+    },
+    {
+     "name": "Crioprecipitado",
+     "type": "Inmunocomplejo",
+     "topic": "Crioprecipitado"
+    },
+    {
+     "name": "Convertasa Desatada",
+     "type": "Complemento",
+     "topic": "Convertasa Desatada"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Patrones de complemento en glomerulonefritis",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Dos números, cinco enfermedades. El giro: el patrón no es el diagnóstico."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Complemento y causa",
+     "items": [],
+     "pairs": [
+      [
+       "C3 bajo, C4 normal, 2 semanas tras faringitis",
+       "Posestreptocócica"
+      ],
+      [
+       "C3 bajo persistente >8 semanas",
+       "Glomerulopatía C3"
+      ],
+      [
+       "C4 muy bajo, FR positivo",
+       "Crioglobulinemia mixta"
+      ],
+      [
+       "C3 y C4 bajos, anti-ADN",
+       "Lupus"
+      ],
+      [
+       "Complemento normal",
+       "IgA, ANCA, anti-MBG"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Ahora sí: la aguja. Tres microscopios te esperan."
+      ]
+     ]
+    }
+   ],
+   "card": "C3↓ C4 normal: PIGN (se normaliza en 6–8 sem) o C3G. C3↓ C4↓: lupus, crioglobulinemia, endocarditis. GNMP = patrón; clasifica por IF."
+  }
+ ],
+ "boss": {
+  "name": "El Guardián de la Biopsia",
+  "color": "#8e44ad",
+  "dark": "#3a1255",
+  "heads": 1,
+  "intro": [
+   [
+    "El Guardián",
+    "Tres microscopios y un patrón. Pero el patrón no es el diagnóstico."
+   ],
+   [
+    "Dr. J.",
+    "Síndrome, complemento, biopsia. Luego busca la causa."
+   ]
+  ],
+  "outro": [
+   [
+    "El Guardián",
+    "Pasa. El ovillo es tuyo."
+   ],
+   [
+    "Sabio Brenn",
+    "Siete enfermedades viven aquí dentro. Empecemos por la más silenciosa."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Síndromes",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Guardián",
+      "Nómbrame."
+     ]
+    ],
+    "topics": [
+     "Síndromes"
+    ],
+    "questions": [
+     "PIGN-1",
+     "PIGN-2",
+     "PIGN-3"
+    ]
+   },
+   {
+    "name": "Mecanismos",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Guardián",
+      "¿Dónde me deposito?"
+     ]
+    ],
+    "topics": [
+     "Mecanismos"
+    ],
+    "questions": [
+     "CRIO-1",
+     "CRIO-2"
+    ]
+   },
+   {
+    "name": "Complemento e infección",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Guardián",
+      "Cuenta mi C3."
+     ]
+    ],
+    "topics": [
+     "Complemento e infección"
+    ],
+    "questions": [
+     "CRIO-3",
+     "MEC-1",
+     "MEC-2"
+    ]
+   },
+   {
+    "name": "Patrón y causa",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Guardián",
+      "Membranoproliferativa. ¿Y luego?"
+     ]
+    ],
+    "topics": [
+     "Patrón y causa"
+    ],
+    "questions": [
+     "MEC-3",
+     "MEC-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Sala de Síndromes",
+   "text": "Nefrótico = podocito/subepitelial. Nefrítico = endotelio/mesangio/subendotelial. GNRP = semilunas. El síndrome orienta, la biopsia define."
+  },
+  {
+   "title": "Laboratorio del Complemento",
+   "text": "C3↓ C4 normal: PIGN (se normaliza en 6–8 sem) o C3G. C3↓ C4↓: lupus, crioglobulinemia, endocarditis. GNMP = patrón; clasifica por IF."
+  }
+ ]
+}

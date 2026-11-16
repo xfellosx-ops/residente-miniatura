@@ -1,0 +1,1912 @@
+[
+ {
+  "id": "HNA-1",
+  "serie_id": "HNA",
+  "orden": 1,
+  "sub": "24.b",
+  "subtema": "Hiponatremia: diagnóstico de SIADH",
+  "dificultad": "moderada",
+  "caso": "Mujer de 68 años, tabaquista, con tos y pérdida de peso, ingresa por 3 días de náusea, cefalea y confusión leve. Euvolémica: sin edema, mucosas húmedas, TA 128/76 mmHg. Na 118 mEq/L, K 4.0 mEq/L, glucosa 98 mg/dL, urea 12 mg/dL, ácido úrico 2.4 mg/dL, osmolalidad sérica 246 mOsm/kg, osmolalidad urinaria 490 mOsm/kg, Na urinario 62 mEq/L. TSH y cortisol matutino normales. No toma diuréticos. TC: masa pulmonar central.",
+  "enunciado": "¿Cuál es el diagnóstico y qué condiciones exige para confirmarlo?",
+  "opciones": {
+   "A": "Hiponatremia por insuficiencia cardiaca: hipervolemia con edema, Na urinario bajo y osmolalidad urinaria elevada",
+   "B": "Polidipsia primaria: osmolalidad urinaria <100 mOsm/kg con Na urinario bajo y una ingesta de agua muy elevada",
+   "C": "Hiponatremia hipovolémica por pérdidas gastrointestinales: Na urinario <20 mEq/L, con taquicardia y signos de depleción del volumen",
+   "D": "SIADH: hiponatremia hipotónica euvolémica con osmolalidad urinaria >100, Na urinario >30 y función tiroidea y suprarrenal normales",
+   "E": "Pseudohiponatremia por hiperlipidemia o hiperproteinemia: osmolalidad sérica normal con Na medido bajo por el método"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La insuficiencia cardiaca cursa con edema e hipervolemia, ausente en este caso.",
+   "B": "En la polidipsia primaria la orina está máximamente diluida (<100 mOsm/kg), distinto a 490 mOsm/kg.",
+   "C": "En hipovolemia extrarrenal el sodio urinario suele ser <20 mEq/L y hay signos de depleción; esta paciente está euvolémica con natriuresis alta.",
+   "D": "La combinación de hiponatremia hipotónica (osmolalidad sérica <275), osmolalidad urinaria >100 mOsm/kg, natriuresis >30 mEq/L con ingesta usual de sodio, euvolemia clínica y exclusión de hipotiroidismo, insuficiencia suprarrenal, enfermedad renal, uso de diuréticos y otras causas de ADH fisiológica (dolor, náusea, hipovolemia) define el SIADH. Hallazgos que apoyan: ácido úrico <4 mg/dL y urea baja por expansión leve del volumen y natriuresis. Aquí el carcinoma pulmonar (microcítico) produce ADH ectópica. El abordaje etiológico incluye neoplasias, fármacos (ISRS, carbamazepina, ciclofosfamida, vincristina), enfermedades pulmonares y del SNC, y dolor/náusea.",
+   "E": "La pseudohiponatremia tiene osmolalidad sérica normal, y aquí es de 246 mOsm/kg."
+  },
+  "perla": "SIADH: Posm <275, Uosm >100, UNa >30, euvolemia, ↓ácido úrico/urea, excluir hipotiroidismo/cortisol/diuréticos. Causas: CPCP, fármacos, SNC, pulmón, dolor/náusea.",
+  "referencias": [
+   "Spasovski G et al. Nephrol Dial Transplant 2014;29(S2):i1 (Guía europea de hiponatremia)",
+   "Verbalis JG et al. Am J Med 2013;126(10S1):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o2",
+  "peso": 70.8
+ },
+ {
+  "id": "HNA-2",
+  "serie_id": "HNA",
+  "orden": 2,
+  "sub": "24.b",
+  "subtema": "Hiponatremia grave sintomática",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Durante la noche presenta una crisis convulsiva tónico-clónica generalizada. Na sérico 113 mEq/L. Se coloca en vía aérea protegida; pesa 60 kg.",
+  "enunciado": "¿Cuál es el tratamiento inicial?",
+  "opciones": {
+   "A": "Restricción de líquidos a 800 mL/día únicamente, como tratamiento inicial de la crisis convulsiva",
+   "B": "Furosemida IV sin reposición de sodio, para eliminar agua libre y elevar el sodio sérico con rapidez",
+   "C": "Tolvaptan 15 mg vía oral, como antagonista de V2, para corregir con rapidez la hiponatremia sintomática grave en urgencias",
+   "D": "Bolo de NaCl al 3% (100-150 mL en 10-20 min, repetible) para subir el Na 4-6 mEq/L, sin pasar de 8 mEq/L en 24 horas",
+   "E": "Solución salina al 0.9% en infusión continua de 200 mL/h, hasta normalizar el sodio sérico y detener las convulsiones"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La restricción hídrica es lenta y no es suficiente ante convulsiones.",
+   "B": "La furosemida sin reposición de sodio puede agravar la hiponatremia y el volumen.",
+   "C": "Los vaptanes están contraindicados en hiponatremia aguda sintomática por riesgo de corrección excesiva y su inicio es lento.",
+   "D": "La hiponatremia con síntomas graves (convulsiones, coma, vómito intenso, compromiso respiratorio) es una emergencia: se administra NaCl al 3% en bolos de 100–150 mL durante 10–20 minutos, repetibles hasta 2–3 veces, con el objetivo de elevar el Na 4–6 mEq/L en las primeras 6 horas (o hasta que cedan los síntomas) y limitar el aumento total a 8–10 mEq/L en 24 horas (≤8 mEq/L en pacientes con riesgo de síndrome de desmielinización osmótica: Na ≤105, hipopotasemia, alcoholismo, desnutrición, hepatopatía avanzada). Se mide Na cada 1–2 horas. Un bolo único de 150 mL de NaCl 3% suele elevar el Na ~2–3 mEq/L.",
+   "E": "La solución salina isotónica puede empeorar el SIADH con osmolalidad urinaria alta (el soluto se excreta y el agua libre se retiene) y es lenta e ineficaz en una emergencia."
+  },
+  "perla": "Hipona grave: NaCl 3% 100–150 mL en bolo (10–20 min) ×1–3; ↑Na 4–6 mEq/L en 6 h; máx 8–10 mEq/L/24 h (8 si alto riesgo de ODS). Medir Na c/1–2 h.",
+  "referencias": [
+   "Spasovski G et al. Nephrol Dial Transplant 2014;29(S2):i1",
+   "Verbalis JG et al. Am J Med 2013;126(10S1):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 72.8
+ },
+ {
+  "id": "HNA-3",
+  "serie_id": "HNA",
+  "orden": 3,
+  "sub": "24.b",
+  "subtema": "Hiponatremia: sobrecorrección y prevención de ODS",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Cesa la convulsión tras dos bolos de NaCl 3%. Al suspender la hipertónica y retirar el factor desencadenante (náusea, dolor), diuresis de 400 mL/h con osmolalidad urinaria de 90 mOsm/kg. A las 10 horas el Na es 125 mEq/L (aumento de 12 mEq/L), y sigue subiendo.",
+  "enunciado": "¿Cuál es la conducta más apropiada?",
+  "opciones": {
+   "A": "Continuar sin intervención porque la paciente está asintomática y el sodio ya se encuentra en mejoría",
+   "B": "Iniciar furosemida para mantener la diuresis y evitar la sobrecarga de volumen por la solución salina hipertónica",
+   "C": "Re-reducir el Na: desmopresina 2-4 µg IV cada 6-8 h con dextrosa al 5% (3 mL/kg/h) y Na cada 1-2 h hasta quedar en el límite",
+   "D": "Restringir líquidos a 500 mL/día para frenar la elevación del sodio sérico y mantener el límite de 8 mEq/L",
+   "E": "Administrar más solución hipertónica para llevar el sodio a un valor normal en pocas horas y prevenir nuevas convulsiones"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La ausencia de síntomas inmediata no descarta la desmielinización, que aparece días después.",
+   "B": "La furosemida aumenta la pérdida de agua y empeora la sobrecorrección.",
+   "C": "La aquaresis brusca (orina diluida y diuresis alta) tras retirar el estímulo de ADH o corregir la hipovolemia puede elevar el sodio muy rápidamente. Una corrección >8–10 mEq/L en 24 horas aumenta el riesgo de síndrome de desmielinización osmótica (disartria, disfagia, cuadriparesia espástica, síndrome de enclaustramiento, con aparición 2–6 días después). Cuando el aumento excede la meta, se recomienda de inmediato reinducir la hiponatremia: desmopresina (2–4 µg IV/SC cada 6–8 horas, que bloquea la diuresis) con agua libre (dextrosa al 5% 3 mL/kg/h IV, o 6 mL/kg en 2 horas), con determinaciones de Na cada 1–2 horas hasta alcanzar el sodio meta (<8–10 mEq/L sobre la base). Puede darse la desmopresina de manera proactiva en pacientes de alto riesgo.",
+   "D": "La restricción de líquidos no frena una aquaresis ya establecida ni baja el sodio.",
+   "E": "Más hipertónica acelera aún más el aumento del Na."
+  },
+  "perla": "Sobrecorrección: DDAVP 2–4 µg c/6–8 h + D5W 3 mL/kg/h ('relowering'). ODS 2–6 días después. Alto riesgo: Na ≤105, hipoK, alcoholismo, desnutrición, hepatopatía.",
+  "referencias": [
+   "Spasovski G et al. Nephrol Dial Transplant 2014;29(S2):i1",
+   "Sterns RH. N Engl J Med 2015;372:55"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 72.8
+ },
+ {
+  "id": "HNA-4",
+  "serie_id": "HNA",
+  "orden": 4,
+  "sub": "24.b",
+  "subtema": "SIADH crónico: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras iniciar quimioterapia persiste SIADH con Na 126–128 mEq/L. Osmolalidad urinaria 520 mOsm/kg, Na urinario 70 y K urinario 45 mEq/L, Na sérico 127 mEq/L. Su ingesta hídrica es de 1.5 L/día y no mejora con restricción de 1 L/día.",
+  "enunciado": "¿Qué opción terapéutica es la más apropiada?",
+  "opciones": {
+   "A": "Demeclociclina de primera línea sin monitoreo renal, aunque puede causar nefrotoxicidad y diabetes insípida",
+   "B": "Restricción hídrica más estricta a 500 mL/día únicamente, aunque la relación (UNa+UK)/Na sérico sea mayor de 1 en la paciente",
+   "C": "Desmopresina para aumentar la retención de agua y mantener el sodio sérico en el rango normal",
+   "D": "Urea oral (15-30 g/día), o diurético de asa con sal; la restricción hídrica probablemente fallará porque (UNa+UK)/Na sérico es >1",
+   "E": "Solución salina isotónica en infusión continua, que corrige la hiponatremia del SIADH con osmolalidad urinaria alta"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La demeclociclina causa diabetes insípida nefrogénica y es nefrotóxica, por lo que no se usa de primera línea.",
+   "B": "Restricciones muy estrictas son mal toleradas y poco efectivas cuando la orina está concentrada.",
+   "C": "La desmopresina reduce la excreción de agua y agravaría la hiponatremia.",
+   "D": "Una relación (Na urinario + K urinario)/Na sérico >1, una osmolalidad urinaria >500 mOsm/kg o un volumen urinario <1.5 L/día predicen mala respuesta a la restricción hídrica. En SIADH crónico las guías europeas sugieren urea oral (0.25–0.5 g/kg/día, usualmente 15–30 g) o diurético de asa con tabletas de sal; en Estados Unidos también se aprueban los vaptanes (tolvaptan) con inicio hospitalario y vigilancia del sodio por riesgo de corrección excesiva, contraindicados en hepatopatía y en hipovolemia. Cuando hay un tumor, el tratamiento etiológico es lo definitivo.",
+   "E": "La salina isotónica puede empeorar la hiponatremia en SIADH con osmolalidad urinaria alta."
+  },
+  "perla": "Predictores de falla a restricción hídrica: UOsm >500, (UNa+UK)/SNa >1, diuresis <1.5 L. 2ª línea: urea 15–30 g/d, asa + sal; tolvaptan con vigilancia. Evitar DDAVP y salina isotónica.",
+  "referencias": [
+   "Spasovski G et al. Nephrol Dial Transplant 2014;29(S2):i1",
+   "Furst H et al. Am J Med Sci 2000;319:240"
+  ],
+  "origen": [
+   "Alan26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 60.7
+ },
+ {
+  "id": "HNH-1",
+  "serie_id": "HNH",
+  "orden": 1,
+  "sub": "24.b",
+  "subtema": "Hipernatremia por diabetes insípida nefrogénica",
+  "dificultad": "moderada",
+  "caso": "Hombre de 72 años, de 70 kg, en tratamiento con litio por trastorno bipolar desde hace 25 años. Poliuria de 6 L/día y nicturia. Ingresa por infección respiratoria con ingesta oral escasa: Na 158 mEq/L, osmolalidad sérica 330 mOsm/kg, osmolalidad urinaria 160 mOsm/kg, glucosa 105 mg/dL, calcio 9.4 mg/dL, K 3.7 mEq/L. Tras 2 µg de desmopresina IV, la osmolalidad urinaria sube a 175 mOsm/kg.",
+  "enunciado": "¿Cuál es el diagnóstico?",
+  "opciones": {
+   "A": "Diabetes insípida nefrogénica inducida por litio, con resistencia tubular renal a la vasopresina",
+   "B": "Hiperaldosteronismo primario, con hipernatremia leve por retención renal de sodio y poliuria secundaria",
+   "C": "Polidipsia primaria, con poliuria hipotónica por ingesta excesiva de agua y supresión de la vasopresina",
+   "D": "Diuresis osmótica por hiperglucemia en un paciente con diabetes, con glucosuria intensa y osmolalidad urinaria elevada por solutos",
+   "E": "Diabetes insípida central por déficit de vasopresina, con respuesta completa a la desmopresina exógena"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La poliuria con orina hipotónica y osmolalidad urinaria que no responde a desmopresina (aumento <50% o <100 mOsm/kg) define diabetes insípida nefrogénica. El litio es la causa farmacológica más común: entra a las células principales por el canal ENaC y disminuye la expresión de acuaporina 2, además de causar nefropatía tubulointersticial crónica. Otras causas: hipercalcemia, hipopotasemia, uropatía obstructiva, fármacos (demeclociclina, anfotericina, cidofovir) y mutaciones de V2R/AQP2. La polidipsia puede compensar hasta que se limita la ingesta de agua, como en infección.",
+   "B": "El hiperaldosteronismo causa hipopotasemia, hipertensión e hipernatremia leve, no orina diluida que no responde a desmopresina.",
+   "C": "La polidipsia primaria produce hiponatremia o sodio normal-bajo y orina diluida con respuesta normal al deshidratar.",
+   "D": "La glucemia es normal; no hay diuresis osmótica.",
+   "E": "La DI central responde a desmopresina con aumento de >50% de la osmolalidad urinaria."
+  },
+  "perla": "DIN: Uosm <300 y <50% de ↑ con DDAVP. Litio (ENaC → ↓AQP2) es la causa más frecuente. Otras: hiperCa, hipoK, obstrucción, anfotericina, demeclociclina.",
+  "referencias": [
+   "Bockenhauer D, Bichet DG. Nat Rev Nephrol 2015;11:576",
+   "Comprehensive Clinical Nephrology (cap. Trastornos del sodio)"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o2",
+  "peso": 58.7
+ },
+ {
+  "id": "HNH-2",
+  "serie_id": "HNH",
+  "orden": 2,
+  "sub": "24.b",
+  "subtema": "Hipernatremia: cálculo y velocidad de corrección",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El Na de 158 mEq/L se desarrolló en varios días (hipernatremia crónica) y el paciente está letárgico pero hemodinámicamente estable. Su agua corporal total estimada es de 50% del peso.",
+  "enunciado": "¿Cuál es el déficit de agua libre aproximado y cómo se corrige?",
+  "opciones": {
+   "A": "≈9 L; corregir en 6 horas con dextrosa al 5% IV, para normalizar el sodio sérico lo antes posible",
+   "B": "≈2 L; corregir con NaCl al 0.45% en bolo, para evitar el edema cerebral durante la corrección del sodio",
+   "C": "≈4.5 L; corregir en 6 horas con agua destilada IV, para normalizar con rapidez el sodio sérico y la osmolalidad",
+   "D": "≈1.0 L; corregir en 4 horas con dextrosa al 5%, porque la hipernatremia crónica tolera corrección rápida",
+   "E": "≈4.5 L; agua libre oral o dextrosa al 5% IV, con descenso del sodio ≤10-12 mEq/L en 24 horas y reposición de pérdidas continuas"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El cálculo de 9 L duplica el déficit y la velocidad de 6 horas es excesiva.",
+   "B": "El déficit calculado es de 4.5 L y el bolo de salina hipotónica no corrige el déficit de agua libre de forma controlada.",
+   "C": "El agua destilada IV causa hemólisis y está contraindicada.",
+   "D": "Un déficit de 1 L no corresponde a la fórmula, y corregir en 4 horas es peligroso por edema cerebral.",
+   "E": "Déficit de agua libre = ACT × (Na actual/140 − 1) = 35 L × (158/140 − 1) ≈ 35 × 0.129 ≈ 4.5 L. En hipernatremia crónica (>48 horas) las neuronas generan osmolitos idiógenos, por lo que una corrección rápida puede producir edema cerebral y convulsiones; el descenso debe ser ≤10–12 mEq/L en 24 horas (≈0.5 mEq/L/h), repartiendo el déficit en 48–72 horas y agregando las pérdidas continuas (aquí poliuria hipotónica, porque el diabético insípido pierde agua libre). Se prefiere la vía oral o enteral; si es IV, dextrosa al 5% o NaCl 0.45% según las pérdidas."
+  },
+  "perla": "Déficit de agua = ACT × (Na/140 − 1). ACT: 0.6 (varón joven), 0.5 (varón mayor o mujer joven), 0.45 (mujer mayor). Crónica: ↓Na ≤10–12/24 h. Sumar pérdidas continuas. Nunca agua destilada IV.",
+  "referencias": [
+   "Sterns RH. N Engl J Med 2015;372:55",
+   "Adrogué HJ, Madias NE. N Engl J Med 2000;342:1493"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 60.7
+ },
+ {
+  "id": "HNH-3",
+  "serie_id": "HNH",
+  "orden": 3,
+  "sub": "24.b",
+  "subtema": "DIN por litio: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras 3 días con corrección gradual, Na 140 mEq/L. Mantiene poliuria de 5 L/día. Litio sérico 0.7 mEq/L, creatinina 1.5 mg/dL (TFGe 47). El psiquiatra considera esencial continuar el litio por buen control del trastorno.",
+  "enunciado": "¿Qué estrategia es la más apropiada para reducir la poliuria?",
+  "opciones": {
+   "A": "Triamtereno con trimetoprim, para bloquear el ENaC y aumentar la reabsorción distal de agua, con vigilancia del potasio sérico",
+   "B": "Desmopresina intranasal en dosis altas, porque la poliuria por litio responde a la vasopresina exógena",
+   "C": "Suplementos de sodio y restricción de agua, para concentrar la orina y reducir el volumen urinario diario del paciente",
+   "D": "Amilorida (bloquea la entrada de litio por ENaC), dieta baja en sodio y tiazídico a dosis bajas; vigilar litemia",
+   "E": "Furosemida a dosis altas, para disminuir el volumen urinario por la inhibición del cotransportador del asa de Henle"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El triamtereno con trimetoprim aumenta el riesgo de hiperpotasemia y no es una estrategia estándar.",
+   "B": "La desmopresina es ineficaz porque el receptor V2 está alterado en la DIN.",
+   "C": "Restringir agua en DIN con poliuria causa hipernatremia grave y deshidratación.",
+   "D": "En la diabetes insípida nefrogénica por litio, la amilorida bloquea el canal ENaC por el que entra el litio a las células principales, y se ha demostrado que mejora la capacidad de concentración y reduce la poliuria. Los tiazídicos (a dosis bajas) y una dieta con restricción de sodio producen contracción de volumen leve que aumenta la reabsorción proximal de agua y reduce el flujo al colector, y los AINE pueden usarse con cautela por su nefrotoxicidad y el riesgo de aumentar el litio. Los tiazídicos y la amilorida elevan el litio sérico (se requiere monitoreo). Se debe garantizar acceso libre al agua y vigilar la función renal; si progresa la nefropatía, valorar suspender el litio y cambiar de estabilizador.",
+   "E": "La furosemida aumenta la pérdida de agua y la depleción de volumen, y puede aumentar la nefrotoxicidad del litio."
+  },
+  "perla": "DIN por litio: amilorida (bloquea ENaC), tiazida + dieta hiposódica, AINE con cautela; vigilar litiemia (↑ con tiazida/AINE/IECA). Agua libre siempre. Evaluar suspender litio si ↓TFG.",
+  "referencias": [
+   "Bockenhauer D, Bichet DG. Nat Rev Nephrol 2015;11:576",
+   "Batlle DC et al. N Engl J Med 1985;312:408"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 42.6
+ },
+ {
+  "id": "HK-1",
+  "serie_id": "HK",
+  "orden": 1,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia grave: estabilización de membrana",
+  "dificultad": "moderada",
+  "caso": "Hombre de 58 años con diabetes tipo 2 y ERC G4 (TFGe 22), tratado con lisinopril 20 mg, espironolactona 25 mg y, desde hace 5 días, trimetoprim-sulfametoxazol por infección urinaria. Ingresa con debilidad muscular y palpitaciones. K 7.2 mEq/L, bicarbonato 17 mEq/L, creatinina 2.9 mg/dL (basal 2.2), glucosa 210 mg/dL. ECG: ondas T picudas, PR prolongado y QRS ensanchado de 130 ms.",
+  "enunciado": "¿Cuál es la primera medida terapéutica?",
+  "opciones": {
+   "A": "Esperar el resultado de una segunda muestra de laboratorio, porque la hiperpotasemia podría ser una seudohiperpotasemia sin repercusión",
+   "B": "Gluconato de calcio al 10% 10 mL IV en 2-3 minutos con monitoreo ECG, repetible a los 5 minutos si persisten los cambios",
+   "C": "Hemodiálisis de urgencia antes de cualquier otra medida, aun sin estabilizar la membrana cardiaca con calcio",
+   "D": "Bicarbonato de sodio en bolo como única medida, para reducir el potasio sérico con rapidez en la ERC",
+   "E": "Resina de poliestireno sulfonato por vía oral, que reduce el potasio con rapidez en pocos minutos"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Con alteraciones electrocardiográficas no se debe retrasar el tratamiento por esperar otra muestra.",
+   "B": "Los cambios electrocardiográficos (ondas T picudas, PR largo, QRS ancho) indican toxicidad cardiaca por hiperpotasemia y obligan a la estabilización de la membrana miocárdica con calcio IV: gluconato de calcio al 10% (10 mL = 1 g) o cloruro de calcio por vía central, en 2–3 minutos, con efecto en 1–3 minutos que dura 30–60 minutos (no baja el potasio) y que puede repetirse si el ECG no mejora. A continuación se administra tratamiento para redistribuir potasio (insulina, agonistas β2) y para eliminarlo (diuréticos, fijadores, diálisis).",
+   "C": "La hemodiálisis es eficaz pero requiere tiempo de preparación; se inicia la estabilización con calcio mientras tanto.",
+   "D": "El bicarbonato tiene efecto limitado y lento sobre el potasio y se reserva a acidosis metabólica grave, nunca como única medida.",
+   "E": "El poliestireno sulfonato tiene inicio lento (horas), es poco predecible y riesgoso en abdomen agudo; no es tratamiento de emergencia."
+  },
+  "perla": "HiperK con cambios ECG: 1) Ca IV (estabiliza; 30–60 min) → 2) redistribuir (insulina+glucosa, albuterol) → 3) eliminar (asa, SZC/patiromer, HD).",
+  "referencias": [
+   "Palmer BF, Clegg DJ. N Engl J Med 2015;373:548",
+   "UK Kidney Association Clinical Practice Guidelines: Treatment of Acute Hyperkalaemia in Adults 2023"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o3",
+  "peso": 56.4
+ },
+ {
+  "id": "HK-2",
+  "serie_id": "HK",
+  "orden": 2,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia: redistribución y eliminación",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras el calcio, el QRS se estrecha a 100 ms. K 7.0 mEq/L. Peso 68 kg, glucemia 210 mg/dL, diuresis conservada (60 mL/h), sin vómito.",
+  "enunciado": "¿Cuál combinación terapéutica es la más apropiada a continuación?",
+  "opciones": {
+   "A": "Suspender únicamente trimetoprim-sulfametoxazol y esperar, porque el potasio descenderá solo al retirarlo",
+   "B": "Insulina regular 20 U IV sin dextrosa, para disminuir con rapidez el potasio, con control posterior",
+   "C": "Insulina regular 5-10 U IV con dextrosa y vigilancia glucémica, salbutamol nebulizado, diurético de asa y fijador de potasio",
+   "D": "Solo furosemida IV, que elimina el potasio por la orina sin necesidad de otras medidas asociadas",
+   "E": "Solo bicarbonato de sodio IV y observar la evolución, aunque el paciente no tenga acidosis metabólica documentada ni hipovolemia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Suspender el fármaco sin tratamiento eficaz deja al paciente con riesgo de arritmia.",
+   "B": "La insulina sin dextrosa causa hipoglucemia grave, sobre todo en ERC por menor depuración de insulina.",
+   "C": "El tratamiento combina redistribución intracelular (insulina regular 10 U IV con 25 g de dextrosa, o 5 U en ERC/bajo peso por mayor riesgo de hipoglucemia, con glucemia seriada porque el riesgo persiste hasta 6 horas; salbutamol nebulizado 10–20 mg, que añade ~0.5–1 mEq/L de descenso; el bicarbonato solo si hay acidosis marcada) con eliminación del potasio del organismo (diurético de asa con función renal conservada, fijadores gastrointestinales como ciclosilicato de sodio y zirconio —10 g c/8 h hasta 48 horas, inicio en ~1 hora— o patiromer, de inicio más lento, y hemodiálisis si es refractaria, hay oliguria o LRA grave). Es necesario retirar los factores precipitantes: TMP (bloquea ENaC como amilorida), espironolactona, IECA y AINE.",
+   "D": "El diurético solo es insuficiente para una hiperpotasemia severa con efectos eléctricos.",
+   "E": "El bicarbonato solo es poco eficaz y es el tratamiento menos fundamentado en normobicarbonatemia/acidosis leve."
+  },
+  "perla": "HiperK: insulina 5–10 U + 25 g dextrosa (hipoglucemia hasta 6 h), albuterol 10–20 mg, asa, SZC 10 g c/8 h / patiromer; HD si refractaria u oligúrica. TMP = amilorida-like.",
+  "referencias": [
+   "UK Kidney Association Clinical Practice Guidelines: Treatment of Acute Hyperkalaemia in Adults 2023",
+   "Kosiborod M et al. JAMA 2014;312:2223 (SZC)"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 58.4
+ },
+ {
+  "id": "HK-3",
+  "serie_id": "HK",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia: causas y prevención de recurrencia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras el tratamiento el K baja a 5.0 mEq/L. Se retira TMP-SMX y espironolactona. La familia pregunta por qué ocurrió, y el nefrólogo debe explicar la fisiopatología y planear el seguimiento.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "El TMP estimula la secreción distal de potasio por hiperaldosteronismo secundario a la depleción de volumen de la infección",
+   "B": "El TMP bloquea el ENaC del túbulo colector y reduce la secreción de K⁺; con IECA, espironolactona y ERC G4 causó la hiperpotasemia",
+   "C": "No hay necesidad de seguimiento, porque el potasio ya se normalizó tras suspender el TMP-SMX y la espironolactona",
+   "D": "La hiperpotasemia se debió solo a la glucemia de 210 mg/dL, por el desplazamiento transcelular del potasio",
+   "E": "La espironolactona aumenta la excreción renal de potasio, por lo que no pudo contribuir a la hiperpotasemia"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El TMP no estimula la secreción de potasio; la inhibe y también puede inducir un estado de pseudohipoaldosteronismo.",
+   "B": "El trimetoprim bloquea el canal epitelial de sodio (ENaC) en las células principales del túbulo colector, reduciendo el gradiente eléctrico luminal negativo que impulsa la secreción de potasio por ROMK (efecto equivalente a amilorida), y también disminuye el intercambio. En un paciente con TFGe 22, que ya recibe un IECA y un antagonista mineralocorticoide, la suma de mecanismos genera hiperpotasemia grave, y el riesgo de muerte súbita en ancianos que reciben TMP-SMX junto con ARA/IECA está documentado. Se deben usar alternativas antibióticas, reevaluar la necesidad de espironolactona y monitorizar potasio y creatinina a los 3–7 días de iniciar o modificar tratamientos que alteren el potasio.",
+   "C": "La normalización inicial no excluye recurrencia si se mantiene la combinación de riesgo.",
+   "D": "La hiperglucemia puede aportar una redistribución mínima, pero no explica un K de 7.2.",
+   "E": "La espironolactona bloquea el receptor mineralocorticoide y reduce la excreción de potasio."
+  },
+  "perla": "Causas de hiperK en ERC: IECA/ARA, ARM, TMP, AINE, heparina, β-bloqueadores, acidosis, dieta/sal con K. TMP = bloqueo de ENaC. Revisar K a 3–7 días de cambios.",
+  "referencias": [
+   "Antoniou T et al. Arch Intern Med 2010;170:1045",
+   "Palmer BF, Clegg DJ. N Engl J Med 2015;373:548"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 46.3
+ },
+ {
+  "id": "HPK-1",
+  "serie_id": "HPK",
+  "orden": 1,
+  "sub": "24.c",
+  "subtema": "Hipopotasemia refractaria",
+  "dificultad": "moderada",
+  "caso": "Mujer de 50 años con osteoporosis, en tratamiento con omeprazol 40 mg/día desde hace 6 años e hidroclorotiazida 25 mg/día. Consulta por calambres, debilidad y palpitaciones. K 2.7 mEq/L, Mg 0.9 mg/dL, calcio 8.2 mg/dL, creatinina 0.8 mg/dL, bicarbonato 28 mEq/L. ECG con ondas U y extrasístoles ventriculares ocasionales. Recibió 120 mEq de KCl en 3 días sin lograr corregir el K, que sigue en 2.9 mEq/L; excreción urinaria de potasio de 38 mEq/día.",
+  "enunciado": "¿Cuál es la explicación más probable de la hipopotasemia refractaria?",
+  "opciones": {
+   "A": "Pseudohipopotasemia por leucocitosis, con potasio real normal y sin pérdida renal de potasio ni de magnesio",
+   "B": "Mala adherencia al suplemento de potasio oral, que explica la persistencia de la hipopotasemia en la paciente",
+   "C": "Hipomagnesemia con pérdida renal de potasio: la falta de Mg libera el canal ROMK y perpetúa la caliuresis",
+   "D": "Acidosis tubular renal distal, con pérdida urinaria de potasio y acidosis metabólica hiperclorémica asociada",
+   "E": "Hiperaldosteronismo primario, con hipertensión, alcalosis metabólica y supresión marcada de la renina plasmática"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La pseudohipopotasemia requiere leucocitosis extrema (>100,000/µL) y no explica la clínica.",
+   "B": "La reposición fue hospitalaria y supervisada; la mala adherencia no explica la caliuresis persistente.",
+   "C": "El magnesio intracelular bloquea el canal secretor de potasio ROMK del túbulo distal; cuando hay déficit de Mg, ese bloqueo desaparece y aumenta la secreción de K, con caliuresis inapropiada para el grado de hipopotasemia (excreción de 38 mEq/día con K sérico de 2.7). Además, el Mg es cofactor de la Na-K-ATPasa. Por eso la hipopotasemia asociada a hipomagnesemia es refractaria a la reposición de potasio mientras no se repone el Mg. La hipomagnesemia puede además provocar hipocalcemia (por deficiencia y resistencia a PTH), como en este caso, y arritmias.",
+   "D": "La ATR distal cursa con acidosis metabólica, no con bicarbonato de 28.",
+   "E": "El hiperaldosteronismo cursa con hipertensión e hipernatremia leve; esta paciente tiene alcalosis leve por tiazida, sin hipertensión referida."
+  },
+  "perla": "HipoK refractaria → pensar en HipoMg (ROMK desinhibido). HipoMg también causa hipoCa (↓PTH y resistencia). Reponer Mg primero o a la vez.",
+  "referencias": [
+   "Huang CL, Kuo E. J Am Soc Nephrol 2007;18:2649",
+   "Comprehensive Clinical Nephrology (cap. Trastornos del potasio y magnesio)"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o3",
+  "peso": 44.3
+ },
+ {
+  "id": "HPK-2",
+  "serie_id": "HPK",
+  "orden": 2,
+  "sub": "24.e",
+  "subtema": "Hipomagnesemia: causa por excreción fraccional",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se mide la excreción fraccional de magnesio (FEMg) con colección de orina: 1.2%. No hay diarrea evidente, no usa aminoglicósidos ni cisplatino ni anticalcineurínicos, y su ingesta dietética es adecuada.",
+  "enunciado": "¿Cómo se interpreta la FEMg y cuál es el mecanismo probable?",
+  "opciones": {
+   "A": "FEMg >2% indica pérdida renal por tiazida; el inhibidor de bomba de protones no participa en el mecanismo de la hipomagnesemia",
+   "B": "La hipomagnesemia se debe exclusivamente a hipocalcemia, que altera la reabsorción tubular de magnesio",
+   "C": "FEMg <2% descarta la pérdida intestinal, por lo que el origen de la hipomagnesemia es siempre renal y tubular",
+   "D": "FEMg <2% indica pérdida extrarrenal o menor absorción; el IBP crónico reduce la absorción activa intestinal de Mg (TRPM6/7)",
+   "E": "FEMg de 1.2% es un valor normal y no explica nada, porque el magnesio sérico bajo carece de relevancia clínica"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Una FEMg de 1.2% descarta pérdida renal significativa; la tiazida puede contribuir de manera menor, pero el patrón apunta a malabsorción.",
+   "B": "La hipocalcemia es consecuencia de la hipomagnesemia, no su causa.",
+   "C": "La FEMg baja descarta pérdida renal, no pérdida intestinal.",
+   "D": "En un paciente con hipomagnesemia y función renal normal, una excreción fraccional de Mg <2% indica que el riñón conserva magnesio (respuesta apropiada) y que la pérdida es extrarrenal (gastrointestinal) o por déficit de ingreso/absorción; una FEMg >2% (o >4% en función renal reducida) indica pérdida renal (diuréticos de asa o tiazídicos, aminoglucósidos, anfotericina, cisplatino, cetuximab/panitumumab, inhibidores de calcineurina, síndrome de Gitelman). Los IBP, con uso prolongado, causan hipomagnesemia por reducción de la absorción intestinal activa transcelular (TRPM6/7) y por disminución del pH luminal, y se asocia a hipopotasemia e hipocalcemia refractarias; la FEMg baja apoya este mecanismo, que suele corregirse al suspender el IBP.",
+   "E": "En hipomagnesemia, una FEMg de 1.2% no es 'normal': indica la respuesta renal esperada (conservación)."
+  },
+  "perla": "FEMg en hipoMg: <2% = extrarrenal (GI, IBP, desnutrición); >2% (≥4% en ERC) = pérdida renal (diuréticos, aminoglucósidos, anfotericina, cisplatino, anti-EGFR, CNI, Gitelman).",
+  "referencias": [
+   "Cundy T, Dissanayake A. Clin Endocrinol 2008;69:338",
+   "Epstein M et al. N Engl J Med 2006;355:1834 (IBP e hipomagnesemia)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o5",
+  "peso": 28.4
+ },
+ {
+  "id": "HPK-3",
+  "serie_id": "HPK",
+  "orden": 3,
+  "sub": "24.e",
+  "subtema": "Hipomagnesemia: tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente está sintomática con calambres y extrasístoles; creatinina 0.8 mg/dL. Se decide el tratamiento.",
+  "enunciado": "¿Cuál es el tratamiento más apropiado?",
+  "opciones": {
+   "A": "Calcio IV en bolo como única terapia, porque los calambres y las extrasístoles se deben a hipocalcemia",
+   "B": "Sulfato de magnesio IV rápido y sin monitorización, aunque exista insuficiencia renal grave y riesgo de hipermagnesemia grave",
+   "C": "Magnesio IV en bolo rápido de 10 g, para corregir de inmediato la hipomagnesemia y suspender los síntomas",
+   "D": "MgSO₄ IV (2 g en 15–60 min, luego infusión 24 h) con reposición de potasio; suspender IBP y tiazida; Mg oral fraccionado",
+   "E": "Solo KCl oral en dosis altas, porque la hipopotasemia explica los síntomas y se corrige sin reponer el magnesio ni cambiar fármacos"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El calcio no corrige la hipomagnesemia ni la hipopotasemia; se corrige indirectamente al reponer Mg.",
+   "B": "En insuficiencia renal grave el riesgo de hipermagnesemia obliga a reducir la dosis; esta paciente tiene función normal, pero la administración sin monitoreo es insegura.",
+   "C": "Un bolo rápido de 10 g causa hipotensión y bloqueo neuromuscular, y se pierde por riñón.",
+   "D": "En hipomagnesemia sintomática o con arritmias se administra sulfato de magnesio IV (1–2 g en 5–60 minutos), seguido de reposición (≈4–6 g en 24 h, ajustada a la función renal), porque el magnesio sérico no refleja el déficit total; después se continúa con Mg oral (óxido, cloruro, lactato o citrato; limitado por diarrea) en dosis fraccionadas. La reposición del potasio se hace al mismo tiempo, y se retiran los factores causales (IBP, tiazida, otros fármacos). El control de los niveles de Mg, reflejos osteotendinosos y diuresis evita la hipermagnesemia, sobre todo en insuficiencia renal. Después de normalizar el Mg se corrige el calcio, que mejora por sí solo.",
+   "E": "Sin reponer Mg el K no se corrige, como se observó."
+  },
+  "perla": "HipoMg: MgSO4 IV 1–2 g en 15–60 min si sintomática, luego ~4–6 g/24 h (ajustar a TFG); Mg oral limitado por diarrea. Retirar IBP/tiazida. Corregir K y Ca después de Mg.",
+  "referencias": [
+   "Palmer BF, Clegg DJ. N Engl J Med 2015;373:548",
+   "Comprehensive Clinical Nephrology (cap. Trastornos del magnesio)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o5",
+  "peso": 26.4
+ },
+ {
+  "id": "HCA-1",
+  "serie_id": "HCA",
+  "orden": 1,
+  "sub": "24.d",
+  "subtema": "Hipercalcemia: diagnóstico diferencial",
+  "dificultad": "moderada",
+  "caso": "Hombre de 66 años, fumador, con tos y pérdida de 8 kg en 2 meses, ingresa por confusión, polidipsia, poliuria y estreñimiento. Calcio total 13.8 mg/dL con albúmina 3.0 g/dL, fósforo 2.4 mg/dL, creatinina 2.6 mg/dL (TFGe 26), PTH intacta 6 pg/mL, 25-OH vitamina D 25 ng/mL, 1,25-(OH)₂ vitamina D bajo, PTHrP elevado. TC de tórax: masa pulmonar escamosa de 6 cm.",
+  "enunciado": "¿Cuál es el calcio corregido y el mecanismo de la hipercalcemia?",
+  "opciones": {
+   "A": "≈13.8 mg/dL; hiperparatiroidismo primario, con PTH elevada y fósforo bajo por el exceso de hormona paratiroidea",
+   "B": "≈12.0 mg/dL; hipercalcemia por exceso de vitamina D, con 1,25-dihidroxivitamina D elevada y PTH suprimida",
+   "C": "≈14.6 mg/dL; hipercalcemia humoral de la neoplasia, mediada por PTHrP, con PTH suprimida y fósforo bajo",
+   "D": "≈14.6 mg/dL; metástasis osteolíticas como único mecanismo, sin participación de PTHrP ni de otros factores humorales",
+   "E": "≈13.0 mg/dL; hipercalcemia hipocalciúrica familiar, con calciuria baja y PTH normal o ligeramente elevada"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "En el hiperparatiroidismo primario la PTH está elevada o inapropiadamente normal.",
+   "B": "Con 25-OH D normal y 1,25-(OH)₂D bajo, el exceso de vitamina D no es la causa.",
+   "C": "Calcio corregido = 13.8 + 0.8 × (4.0 − 3.0) = 14.6 mg/dL. Con PTH suprimida (6 pg/mL) la hipercalcemia es PTH-independiente; el PTHrP elevado en un carcinoma escamoso de pulmón establece la hipercalcemia humoral de neoplasia (≈80% de las hipercalcemias malignas), por activación de receptores PTH1R en hueso y riñón, con fósforo bajo y 1,25-(OH)₂D bajo. Otros mecanismos malignos: osteólisis local por citocinas (mieloma, metástasis óseas) y producción ectópica de 1,25-(OH)₂D (linfomas). Hipercalcemia grave y rápida causa nefrotoxicidad por vasoconstricción y diabetes insípida nefrogénica con depleción de volumen.",
+   "D": "El PTHrP elevado y la PTH suprimida indican un mecanismo humoral; el hueso participa, pero no es el único.",
+   "E": "La hipercalcemia hipocalciúrica familiar tiene PTH normal-alta y calcio leve, no calcio de 14 con masa pulmonar."
+  },
+  "perla": "Ca corregido = Ca + 0.8×(4 − alb). HiperCa maligna: PTHrP (80%), osteólisis (mieloma/metástasis), 1,25-D ectópica (linfoma). PTH baja → PTH-independiente.",
+  "referencias": [
+   "Stewart AF. N Engl J Med 2005;352:373",
+   "Comprehensive Clinical Nephrology (cap. Trastornos del calcio)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o4",
+  "peso": 51.2
+ },
+ {
+  "id": "HCA-2",
+  "serie_id": "HCA",
+  "orden": 2,
+  "sub": "24.d",
+  "subtema": "Hipercalcemia maligna: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Está euvolémico a hipovolémico, con poliuria hipotónica. TFGe 26 mL/min/1.73 m². ECG con QT corto. Se inicia tratamiento.",
+  "enunciado": "¿Cuál es el tratamiento más apropiado?",
+  "opciones": {
+   "A": "Hidroclorotiazida para aumentar la calciuria y así disminuir la calcemia en forma rápida y sostenida en el paciente con cáncer",
+   "B": "Suplementos de fósforo oral en dosis altas, para reducir la calcemia al formar complejos con el calcio sérico libre ionizado circulante",
+   "C": "Salina isotónica hasta euvolemia, calcitonina 4 U/kg SC c/12 h para efecto rápido y denosumab 120 mg SC para efecto sostenido",
+   "D": "Furosemida IV en dosis altas como primera medida, con restricción de líquidos, antes de reponer el volumen intravascular del paciente",
+   "E": "Ácido zoledrónico 4 mg IV en dosis plena sin ajuste, aunque la TFGe sea de 26 mL/min/1.73 m², por su efecto sostenido en el hueso"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los tiazídicos reducen la calciuria y aumentan el calcio sérico.",
+   "B": "La administración de fósforo precipita calcio en tejidos blandos y está contraindicada en hipercalcemia grave.",
+   "C": "El tratamiento de la hipercalcemia maligna grave (≥14 mg/dL o sintomática) se basa en: (1) rehidratación con NaCl 0.9% para restaurar el volumen y favorecer la calciuresis (los diuréticos de asa solo cuando hay sobrecarga); (2) calcitonina 4 U/kg SC cada 12 horas, de acción rápida (horas) y taquifilaxia en 48 horas; (3) agente antirresortivo de efecto sostenido: bisfosfonato IV (zoledronato 4 mg en ≥15 min, con ajuste de dosis o evitado si el CrCl es <30–35 mL/min) o denosumab 120 mg SC, que no requiere ajuste renal y es preferible en insuficiencia renal o refractariedad, vigilando hipocalcemia. En linfoma o enfermedades granulomatosas con exceso de 1,25-D se emplean glucocorticoides.",
+   "D": "Los diuréticos de asa sin reposición del volumen agravan la hipovolemia y el daño renal.",
+   "E": "El zoledronato con TFGe <30 aumenta el riesgo de nefrotoxicidad y no se recomienda sin ajuste."
+  },
+  "perla": "HiperCa maligna: NaCl 0.9% → calcitonina 4 U/kg c/12 h (48 h) → bisfosfonato (ajuste) o denosumab (ERC/refractaria). Glucocorticoides si ↑1,25-D (linfoma, sarcoide). HD con bajo Ca en casos extremos.",
+  "referencias": [
+   "Stewart AF. N Engl J Med 2005;352:373",
+   "Hu MI et al. J Clin Endocrinol Metab 2014;99:3144 (denosumab)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o4",
+  "peso": 53.2
+ },
+ {
+  "id": "HCA-3",
+  "serie_id": "HCA",
+  "orden": 3,
+  "sub": "24.d",
+  "subtema": "Hipercalcemia refractaria con LRA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 48 horas persiste hipercalcemia de 15.2 mg/dL con somnolencia, oliguria y creatinina de 4.3 mg/dL; recibió salina, calcitonina y denosumab. Edema pulmonar incipiente por sobrecarga.",
+  "enunciado": "¿Cuál es el siguiente paso?",
+  "opciones": {
+   "A": "Diálisis peritoneal con dextrosa al 4.25% y sin otras medidas, porque elimina el calcio con la misma rapidez que la hemodiálisis",
+   "B": "Calcio oral como quelante para neutralizar el fosfato y detener la progresión de la hipercalcemia en este paciente",
+   "C": "Hemodiálisis con dialisato de bajo calcio (1.0-1.25 mmol/L o libre de calcio) como terapia de rescate por la sobrecarga",
+   "D": "Cinacalcet por vía oral, que reduce con rapidez la calcemia de origen tumoral y evita el uso de diálisis en este caso clínico",
+   "E": "Más solución salina en bolos sucesivos para forzar la calciuresis, pese al edema pulmonar incipiente y la oliguria actual"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La diálisis peritoneal con baja concentración de calcio puede ser útil, pero la hemodiálisis es mucho más eficaz y rápida en este escenario.",
+   "B": "El calcio oral agrava la hipercalcemia.",
+   "C": "En hipercalcemia grave con oliguria, sobrecarga de volumen y deterioro neurológico, la hemodiálisis con dialisato de bajo contenido de calcio extrae el calcio con rapidez y corrige el volumen, sin esperar el efecto de los antirresortivos (que tardan 2–4 días). Se vigila el fósforo y el calcio cada 2–4 horas por riesgo de hipocalcemia rebote al combinarse con denosumab. El tratamiento definitivo es el de la neoplasia subyacente, y se evalúa el pronóstico: la hipercalcemia maligna refractaria suele indicar enfermedad avanzada.",
+   "D": "El cinacalcet actúa sobre el receptor sensor de calcio en la paratiroides y es ineficaz en hipercalcemia con PTH suprimida por PTHrP (excepto en carcinoma paratiroideo).",
+   "E": "Con oliguria y edema pulmonar incipiente, más solución salina puede agravar la sobrecarga."
+  },
+  "perla": "HiperCa refractaria + LRA/sobrecarga → HD con dialisato de Ca bajo (≈1.0–1.25 mmol/L). Cinacalcet no sirve en PTHrP. Los antirresortivos tardan 2–4 días.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (cap. Trastornos del calcio)",
+   "Stewart AF. N Engl J Med 2005;352:373"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o4",
+  "peso": 53.2
+ },
+ {
+  "id": "HMM-1",
+  "serie_id": "HMM",
+  "orden": 1,
+  "sub": "24.d",
+  "subtema": "Hipercalcemia de la malignidad: mecanismos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 64 años con carcinoma epidermoide de pulmón, con confusión, poliuria, estreñimiento y deshidratación. Calcio sérico corregido de 14.8 mg/dL, creatinina de 2.4 mg/dL (basal 0.9), PTH intacta suprimida de 4 pg/mL, PTHrP elevado y calcitriol bajo.",
+  "enunciado": "¿Cuál es el mecanismo de la hipercalcemia?",
+  "opciones": {
+   "A": "Intoxicación por vitamina D, con 25-hidroxivitamina D elevada y PTH suprimida, por el uso de suplementos en la paciente",
+   "B": "Hipercalcemia humoral por péptido relacionado con PTH (PTHrP), frecuente en tumores epidermoides, renales y de mama",
+   "C": "Inmovilización únicamente, porque el reposo prolongado aumenta la resorción ósea y la calcemia sin otros factores",
+   "D": "Producción ectópica de calcitriol por un linfoma, con 1,25-dihidroxivitamina D elevada y PTH suprimida en esta paciente",
+   "E": "Hiperparatiroidismo primario por adenoma, con PTH intacta elevada y fósforo bajo, sin relación con el tumor pulmonar"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La intoxicación por vitamina D cursa con calcidiol elevado y PTH suprimida, sin PTHrP.",
+   "B": "La hipercalcemia de la malignidad ocurre por tres mecanismos principales: humoral por PTHrP (cerca de 80%; tumores epidermoides de pulmón, cabeza y cuello, renales, de mama y ováricos), osteólisis local (mieloma múltiple, cáncer de mama con metástasis óseas) y producción excesiva de calcitriol por linfomas. Aquí la PTH está suprimida, el PTHrP elevado y el calcitriol bajo, lo que indica mecanismo humoral. La hipercalcemia causa diabetes insípida nefrogénica con poliuria, depleción de volumen, vasoconstricción renal y lesión renal aguda prerrenal.",
+   "C": "La inmovilización no explica una hipercalcemia tan intensa con PTHrP elevado.",
+   "D": "El calcitriol está bajo, lo que descarta el mecanismo de los linfomas.",
+   "E": "En el hiperparatiroidismo primario la PTH está elevada o inapropiadamente normal."
+  },
+  "perla": "Hipercalcemia maligna: PTHrP (80%), osteólisis (mieloma, mama), calcitriol (linfoma). PTH suprimida.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o4",
+  "peso": 51.2
+ },
+ {
+  "id": "HMM-2",
+  "serie_id": "HMM",
+  "orden": 2,
+  "sub": "24.d",
+  "subtema": "Tratamiento inicial de la hipercalcemia grave",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente está deshidratada y confusa. Se desea reducir el calcio de forma segura.",
+  "enunciado": "¿Cuál es el tratamiento inicial?",
+  "opciones": {
+   "A": "Tiazidas, porque aumentan la excreción urinaria de calcio y reducen la calcemia con rapidez en la paciente deshidratada y hospitalizada",
+   "B": "Suplementos de calcio y vitamina D, para evitar la hipocalcemia posterior al uso de antirresortivos en la paciente",
+   "C": "Restricción de líquidos, para reducir la poliuria y evitar mayor pérdida de volumen en la paciente confusa y deshidratada",
+   "D": "Salina isotónica abundante, calcitonina para efecto rápido y bisfosfonato o denosumab sostenido; asa solo tras euvolemia",
+   "E": "Furosemida en altas dosis antes de hidratar, para forzar la calciuresis y reducir la calcemia con la mayor rapidez posible en ella"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Las tiazidas reducen la excreción de calcio y empeoran la hipercalcemia.",
+   "B": "Suplementar calcio y vitamina D empeora la hipercalcemia.",
+   "C": "La restricción de líquidos agrava la lesión renal.",
+   "D": "El primer paso es la expansión de volumen con solución salina isotónica (200 a 300 mL/h inicialmente, ajustada a diuresis y función cardiaca), porque la hipercalcemia causa pérdida de volumen y vasoconstricción renal; esto aumenta la excreción urinaria de calcio. La calcitonina (4 a 8 UI/kg cada 6 a 12 horas) reduce el calcio en horas, con taquifilaxia a las 48 horas. El efecto sostenido lo dan los bisfosfonatos (ácido zoledrónico 4 mg o pamidronato) o el denosumab, que inician su acción en 2 a 4 días. Los diuréticos de asa se reservan para sobrecarga después de la rehidratación, y se evitan las tiazidas, los suplementos de calcio y vitamina D.",
+   "E": "La furosemida antes de la hidratación agrava la depleción de volumen."
+  },
+  "perla": "Hipercalcemia grave: salina isotónica → calcitonina (rápida) → bisfosfonato/denosumab (sostenido). Asa después de euvolemia; evitar tiazidas.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o4",
+  "peso": 51.2
+ },
+ {
+  "id": "FGF-4",
+  "serie_id": "FGF",
+  "orden": 4,
+  "sub": "24.d",
+  "subtema": "Exceso de FGF23 sin ERC: osteomalacia oncogénica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En otro paciente de 52 años sin ERC, con dolor óseo progresivo, debilidad proximal y fracturas por fragilidad en 18 meses, se encuentra fósforo de 1.8 mg/dL, calcio normal, PTH normal, fosfatasa alcalina elevada, reabsorción tubular de fosfato disminuida (TmP/TFG baja), calcitriol inapropiadamente normal y FGF23 elevado. No hay antecedentes familiares.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y la conducta?",
+  "opciones": {
+   "A": "Síndrome de Fanconi por tenofovir, que se maneja cambiando a un antirretroviral alternativo y reponiendo fosfato",
+   "B": "Hiperparatiroidismo primario, con calcio elevado y fósforo bajo, que se trata con paratiroidectomía",
+   "C": "Deficiencia nutricional de vitamina D, que se corrige con vitamina D sola sin buscar otra causa de hipofosfatemia",
+   "D": "Osteomalacia oncogénica (tumor con FGF23): localizar con PET-DOTATATE y resecar; burosumab si no es resecable",
+   "E": "Raquitismo hipofosfatémico ligado al X (PHEX) de inicio adulto, sin necesidad de buscar un tumor productor de FGF23"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El Fanconi por tenofovir cursa con glucosuria normoglucémica, acidosis y aminoaciduria, y el FGF23 no es la causa.",
+   "B": "En el hiperparatiroidismo primario hay hipercalcemia y PTH elevada.",
+   "C": "La deficiencia de vitamina D produce hipocalcemia con PTH elevada y fosfato bajo, no fosfaturia con PTH normal.",
+   "D": "La hipofosfatemia con fosfaturia (TmP/TFG baja), calcio y PTH normales, fosfatasa alcalina alta, calcitriol inapropiadamente normal o bajo y FGF23 elevado indica exceso de FGF23. En un adulto sin antecedentes familiares, la causa es la osteomalacia oncogénica, producida por tumores mesenquimatosos pequeños (a menudo en hueso o tejidos blandos) que secretan FGF23. Se localizan con gammagrafía u PET-TC con análogos de somatostatina (DOTATATE), y la resección completa es curativa. Si no es resecable, se emplea fósforo con calcitriol o burosumab, un anticuerpo monoclonal anti-FGF23.",
+   "E": "El XLH (mutación PHEX) también tiene FGF23 alto, pero comienza en la infancia con antecedentes familiares; la edad y la progresión rápida orientan a un tumor."
+  },
+  "perla": "↓P + fosfaturia + PTH/Ca normales + FGF23 ↑ = exceso de FGF23: tumor mesenquimatoso (adulto) o XLH (niño). Tratamiento: resección o burosumab.",
+  "referencias": [
+   "Haffner D et al. Nat Rev Nephrol 2019;15:435",
+   "Comprehensive Clinical Nephrology (trastornos del fósforo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o4",
+  "peso": 43.2
+ },
+ {
+  "id": "RAA-3",
+  "serie_id": "RAA",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia por bloqueo del SRAA: cómo mantener el tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente está euvolémica, sin disnea, con TA de 150/88 mmHg, y no desea suspender un tratamiento que protege su riñón. Tiene ECG sin cambios por hiperpotasemia.",
+  "enunciado": "¿Cuál estrategia permite mantener el bloqueo del SRAA?",
+  "opciones": {
+   "A": "Retirar el IECA de forma permanente y no volver a prescribirlo, por el riesgo de nuevas hiperpotasemias",
+   "B": "Indicar trimetoprim-sulfametoxazol para la infección, que no modifica el potasio en pacientes con ERC",
+   "C": "Administrar sustitutos de sal con cloruro de potasio, para mejorar la adherencia a la dieta hiposódica",
+   "D": "Añadir espironolactona para tratar la hiperpotasemia, por su efecto sobre la excreción renal de potasio",
+   "E": "Dieta baja en potasio, suspender AINE y suplementos, añadir diurético, corregir acidosis y usar un quelante (patiromer o SZC)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Suspender de por vida priva de protección renal y cardiovascular y es innecesario si se puede controlar el potasio.",
+   "B": "El trimetoprim bloquea el ENaC y favorece la hiperpotasemia.",
+   "C": "Los sustitutos de sal con cloruro de potasio aportan potasio y empeoran la hiperpotasemia.",
+   "D": "La espironolactona es un antagonista de la aldosterona y aumenta la hiperpotasemia.",
+   "E": "La hiperpotasemia por bloqueo del SRAA se maneja primero eliminando factores agravantes (AINE, suplementos de potasio, sustitutos de sal con KCl, trimetoprim, heparina), reduciendo el potasio de la dieta, y aumentando la excreción urinaria de potasio con un diurético tiazídico o de asa si no hay hipovolemia. La corrección de la acidosis con bicarbonato de sodio favorece la entrada de potasio a las células y su excreción. Si persiste la hiperpotasemia, los quelantes de potasio (patiromer, ciclosilicato de sodio y zirconio) permiten mantener los IECA o ARA II. La fludrocortisona se reserva para pacientes con hipoaldosteronismo verdadero sin hipertensión ni sobrecarga de volumen."
+  },
+  "perla": "Hiperpotasemia por iSRAA: quitar AINE/K/TMP, dieta, diurético, bicarbonato y quelante (patiromer, SZC) para mantener iSRAA.",
+  "referencias": [
+   "Palmer BF. N Engl J Med 2004;351:585",
+   "KDIGO 2024 CKD Guideline"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 46.3
+ },
+ {
+  "id": "CDI-1",
+  "serie_id": "CDI",
+  "orden": 1,
+  "sub": "24.b",
+  "subtema": "Diabetes insípida central posquirúrgica: diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Varón de 34 años, 80 kg, tres días después de resección transesfenoidal de un macroadenoma hipofisario no funcionante. Presenta poliuria de 350 mL/h, sed intensa, sodio sérico de 158 mEq/L, osmolalidad sérica de 322 mOsm/kg, osmolalidad urinaria de 95 mOsm/kg y glucemia normal. Recibe hidrocortisona de reemplazo.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Polidipsia primaria, con ingesta excesiva de agua y supresión fisiológica de la vasopresina por la sobrehidratación crónica",
+   "B": "SIADH posquirúrgico, con secreción inapropiada de vasopresina, retención de agua e hiponatremia dilucional",
+   "C": "Diabetes insípida central por déficit de vasopresina secundario a la manipulación quirúrgica de la región hipofisaria",
+   "D": "Diabetes insípida nefrogénica hereditaria, por resistencia tubular renal a la acción de la vasopresina desde el nacimiento",
+   "E": "Diuresis osmótica por hiperglucemia o por soluto en el posoperatorio, con glucosuria y osmolalidad urinaria elevada por solutos"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Con osmolalidad sérica de 322 mOsm/kg y sodio de 158, no hay exceso de agua; la polidipsia primaria cursa con sodio bajo o normal.",
+   "B": "El SIADH cursa con hiponatremia y orina concentrada.",
+   "C": "La poliuria hipotónica (osmolalidad urinaria de 95 mOsm/kg con osmolalidad sérica de 322), la hipernatremia y la sed en el posoperatorio de cirugía hipofisaria indican diabetes insípida central: la lesión de las neuronas supraópticas o del tallo hipofisario reduce la liberación de vasopresina, de modo que las células principales del colector no insertan acuaporina-2 y no se concentra la orina. En la polidipsia primaria la osmolalidad sérica y el sodio son bajos o normales, porque el exceso de agua los diluye. Se descartan primero causas osmóticas y la sobrecarga de líquidos del perioperatorio.",
+   "D": "La forma nefrogénica hereditaria se presenta en la infancia, y el contexto quirúrgico sugiere una causa central.",
+   "E": "La glucemia es normal y la osmolalidad urinaria es muy baja, no la de una diuresis osmótica (mayor de 300 mOsm/kg)."
+  },
+  "perla": "Poliuria hipotónica (Uosm <300) + Na↑ + posquirúrgico de hipófisis/TCE = DI central. Polidipsia primaria: Na bajo/normal.",
+  "referencias": [
+   "Christ-Crain M et al. Nat Rev Dis Primers 2019;5:54",
+   "Adrogué HJ, Madias NE. N Engl J Med 2000;342:1493"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o2",
+  "peso": 70.8
+ },
+ {
+  "id": "CDI-2",
+  "serie_id": "CDI",
+  "orden": 2,
+  "sub": "24.b",
+  "subtema": "Confirmación con desmopresina",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se administra desmopresina 2 µg por vía subcutánea. Una hora después la osmolalidad urinaria sube de 95 a 480 mOsm/kg y la diuresis disminuye a 80 mL/h.",
+  "enunciado": "¿Cómo se interpreta esta respuesta?",
+  "opciones": {
+   "A": "Aumento de la osmolalidad urinaria mayor de 50% con desmopresina: confirma deficiencia de vasopresina (central)",
+   "B": "Descarta la diabetes insípida, porque la diuresis disminuyó tras la desmopresina y la osmolalidad urinaria subió",
+   "C": "Respuesta menor de 10%: confirma diabetes insípida nefrogénica, por falta de respuesta tubular renal a la vasopresina",
+   "D": "Prueba no interpretable porque se requiere privación de agua previa durante 8 a 12 horas para valorar la respuesta a la desmopresina",
+   "E": "Confirma polidipsia primaria, porque la osmolalidad urinaria se concentra bien al administrar desmopresina"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Cuando hay hipernatremia con orina hipotónica, la privación de agua es innecesaria y peligrosa; basta administrar desmopresina. Un incremento de la osmolalidad urinaria mayor de 50% (aquí 405%) y la caída de la diuresis confirman que los túbulos responden a la hormona, por lo que el defecto es la falta de vasopresina (diabetes insípida central). En la forma nefrogénica la respuesta es menor de 10%, por el defecto del receptor V2 o de la acuaporina-2 o por resistencia adquirida. La copeptina estimulada ayuda a distinguir la diabetes insípida de la polidipsia primaria cuando el diagnóstico es dudoso.",
+   "B": "La respuesta confirma una deficiencia de vasopresina.",
+   "C": "Una respuesta menor de 10% orienta a diabetes insípida nefrogénica, pero aquí es mayor.",
+   "D": "Con hipernatremia y osmolalidad sérica alta, la prueba de privación no es necesaria ni segura.",
+   "E": "En la polidipsia primaria la orina se concentra con la restricción de agua y la respuesta a desmopresina es menor de 50% en la prueba de privación."
+  },
+  "perla": "DI central: ↑Uosm >50% con desmopresina. Nefrogénica: <10%. Hipernatremia franca: no hacer privación de agua.",
+  "referencias": [
+   "Christ-Crain M et al. Nat Rev Dis Primers 2019;5:54"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 70.8
+ },
+ {
+  "id": "CDI-3",
+  "serie_id": "CDI",
+  "orden": 3,
+  "sub": "24.b",
+  "subtema": "Déficit de agua libre y velocidad de corrección",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente pesa 80 kg y su sodio es de 158 mEq/L; se considera una hipernatremia de varios días. Se desea calcular el déficit de agua libre y planear la corrección.",
+  "enunciado": "¿Cuál es el déficit de agua libre aproximado y la velocidad máxima de descenso del sodio?",
+  "opciones": {
+   "A": "Aproximadamente 0.6 L; descenso rápido de 25 mEq/L en 24 horas, para evitar la lesión neurológica",
+   "B": "No hay déficit porque el paciente toma agua, por lo que solo se corrige la causa de la poliuria",
+   "C": "Aproximadamente 6 L; solución salina al 3% para corregir de forma rápida el sodio del paciente",
+   "D": "Aproximadamente 6 L; descenso de no más de 10-12 mEq/L en 24 horas, con agua oral o dextrosa al 5% IV y desmopresina",
+   "E": "Aproximadamente 12 L; corregir en 4 horas con agua libre por sonda, para evitar el daño neurológico del paciente"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Es un error de cálculo, y una corrección tan rápida causa edema cerebral.",
+   "B": "El déficit es real; con polidipsia insuficiente y poliuria persiste la hipernatremia.",
+   "C": "La solución salina hipertónica aumentaría el sodio sérico.",
+   "D": "Déficit de agua = agua corporal total × (Na sérico/140 − 1). El agua corporal total del varón es 0.6 × 80 kg = 48 L, y el cálculo es 48 × (158/140 − 1) = 48 × 0.129 ≈ 6.2 L. En la hipernatremia crónica (más de 48 horas) las neuronas generan osmolitos idiógenos, por lo que una corrección rápida produce edema cerebral; el sodio debe bajar no más de 10 a 12 mEq/L en 24 horas, y se vigila cada 4 a 6 horas. Se repone agua por vía oral o enteral o con dextrosa al 5% IV, más desmopresina para frenar la diuresis, e incluyendo las pérdidas continuas.",
+   "E": "El déficit calculado es de alrededor de 6 L, y la corrección en pocas horas es peligrosa en hipernatremia crónica."
+  },
+  "perla": "Déficit de agua = ACT × (Na/140 − 1). ACT varón 0.6×kg. Hipernatremia crónica: bajar Na ≤10–12 mEq/L/24 h.",
+  "referencias": [
+   "Adrogué HJ, Madias NE. N Engl J Med 2000;342:1493",
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 60.7
+ },
+ {
+  "id": "CDI-4",
+  "serie_id": "CDI",
+  "orden": 4,
+  "sub": "24.b",
+  "subtema": "Respuesta trifásica y riesgo de hiponatremia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente recibe desmopresina cada 8 horas y se le administran 3 a 4 L diarios de líquidos hipotónicos por indicación del equipo. Al sexto día presenta sodio de 123 mEq/L, osmolalidad urinaria de 540 mOsm/kg, euvolemia, con náusea y cefalea.",
+  "enunciado": "¿Cuál es la causa y el manejo inmediato?",
+  "opciones": {
+   "A": "Pérdida de sal cerebral; solución salina al 3% a ritmo alto, para corregir con rapidez la hiponatremia sintomática",
+   "B": "Persistencia de diabetes insípida central; aumentar la desmopresina y mantener los líquidos hipotónicos indicados por el equipo médico",
+   "C": "Polidipsia primaria, que se trata con restricción de líquidos y control psiquiátrico del paciente hospitalizado",
+   "D": "Insuficiencia suprarrenal; suspender la hidrocortisona y administrar fludrocortisona para corregir el sodio",
+   "E": "SIADH transitorio de la segunda fase trifásica, con desmopresina y exceso de agua; suspender desmopresina y restringir líquidos"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El paciente está euvolémico con orina concentrada y la causa es un exceso de agua con ADH, no una pérdida de sal cerebral.",
+   "B": "Aumentar la desmopresina agravaría la hiponatremia.",
+   "C": "En la polidipsia primaria la orina es diluida.",
+   "D": "El paciente recibe hidrocortisona, y no hay datos de insuficiencia suprarrenal.",
+   "E": "Tras la lesión hipofisaria puede observarse una respuesta trifásica: poliuria inicial por inhibición de la liberación de vasopresina (2 a 5 días), una fase intermedia de 5 a 7 días en la que las neuronas que se degeneran liberan hormona almacenada sin control (SIADH transitorio, con riesgo de hiponatremia), y después diabetes insípida permanente si hubo pérdida neuronal de más de 80 a 90%. Dar desmopresina y grandes volúmenes hipotónicos durante la segunda fase produce hiponatremia con orina concentrada. El manejo es suspender la desmopresina, restringir líquidos y vigilar el sodio, corrigiendo no más de 8 a 10 mEq/L en 24 horas si hay sintomatología leve."
+  },
+  "perla": "Hipófisis/tallo: respuesta trifásica (DI → SIADH transitorio 5–7 d → DI permanente). No dar desmopresina + exceso de agua en la fase 2.",
+  "referencias": [
+   "Christ-Crain M et al. Nat Rev Dis Primers 2019;5:54",
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 60.7
+ },
+ {
+  "id": "SHK-1",
+  "serie_id": "SHK",
+  "orden": 1,
+  "sub": "24.a",
+  "subtema": "Respuesta a líquidos en ventilación mecánica",
+  "dificultad": "dificil",
+  "caso": "Hombre de 68 años, 80 kg, con choque séptico de origen pulmonar. Está intubado, en ventilación controlada por volumen (8 mL/kg de peso ideal), sedado y sin esfuerzos inspiratorios, en ritmo sinusal, con norepinefrina a 0.2 µg/kg/min, lactato de 4.1 mmol/L y PAM de 58 mmHg. Ya recibió 30 mL/kg de cristaloides.",
+  "enunciado": "¿Qué parámetro es un predictor validado de respuesta a líquidos en esta situación?",
+  "opciones": {
+   "A": "Frecuencia cardiaca mayor de 100 lpm, que indica hipovolemia y respuesta a líquidos en el paciente séptico",
+   "B": "Colapsabilidad de la vena cava mayor de 50% con inspiración espontánea, válida en cualquier modo de ventilación y con cualquier esfuerzo",
+   "C": "Diámetro absoluto de la vena cava inferior de 1.5 cm medido al final de la espiración",
+   "D": "Variación de la presión de pulso >12 a 13% o distensibilidad de la VCI >18% con ventilación controlada sin esfuerzos",
+   "E": "Presión venosa central menor de 8 mmHg, que indica respuesta a líquidos con alta certeza"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La taquicardia es inespecífica.",
+   "B": "La colapsabilidad aplica en respiración espontánea; con presión positiva la cava se distiende en inspiración.",
+   "C": "El diámetro absoluto aislado no predice la respuesta a volumen.",
+   "D": "En ventilación mecánica con presión positiva, controlada, sin esfuerzos espontáneos, con ritmo sinusal y volumen corriente de al menos 8 mL/kg, la variación respiratoria del volumen sistólico o de la presión de pulso (mayor de 12 a 13%) y la distensibilidad de la vena cava inferior (mayor de 18%, que se dilata en inspiración) predicen que el gasto cardiaco aumentará con un bolo de líquidos. Estos índices dinámicos valoran la posición en la curva de Frank-Starling y son superiores a los parámetros estáticos. Pierden fiabilidad con arritmias, volumen corriente bajo, esfuerzos respiratorios, hipertensión abdominal o corazón derecho disfuncional.",
+   "E": "La presión venosa central es un parámetro estático que no predice la respuesta a líquidos."
+  },
+  "perla": "Ventilado, sin esfuerzos, sinusal, Vt ≥8: VPP >12–13% o dIVC >18% predicen respuesta a líquidos. Los parámetros estáticos (PVC, diámetro de VCI) no.",
+  "referencias": [
+   "Feissel M et al. Intensive Care Med 2004;30:1834",
+   "Barbier C et al. Intensive Care Med 2004;30:1740"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o1",
+  "peso": 79.3
+ },
+ {
+  "id": "SHK-2",
+  "serie_id": "SHK",
+  "orden": 2,
+  "sub": "24.a",
+  "subtema": "Elevación pasiva de las piernas en fibrilación auricular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las pocas horas el paciente desarrolla fibrilación auricular con respuesta ventricular de 140 lpm, y persiste hipotenso. Se desea volver a evaluar la respuesta a líquidos.",
+  "enunciado": "¿Qué prueba es adecuada?",
+  "opciones": {
+   "A": "Evaluar solo la presión arterial tras elevar las piernas, porque la presión refleja bien el gasto cardiaco",
+   "B": "Elevación pasiva de las piernas con medición en tiempo real del gasto cardiaco o del VTI; un aumento de 10% o más predice respuesta",
+   "C": "Variación de la presión de pulso, porque es válida también durante la fibrilación auricular con respuesta ventricular rápida",
+   "D": "Medición de la presión venosa central después del bolo, porque un aumento predice la respuesta a líquidos",
+   "E": "Administrar 2 litros de cristaloide sin evaluación previa, porque la hipotensión persistente indica hipovolemia"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La presión arterial puede no cambiar aun si el gasto cardiaco responde, por lo que no basta.",
+   "B": "La elevación pasiva de las piernas (desde la posición semisentada a 45°, con las piernas elevadas) moviliza cerca de 300 mL de sangre venosa hacia el corazón, simulando un bolo reversible. Es válida en arritmias y en respiración espontánea, y por eso es útil cuando la variación de la presión de pulso pierde fiabilidad (fibrilación auricular, esfuerzos respiratorios, volumen corriente bajo). La respuesta se valora con una medición en tiempo real del gasto cardiaco (integral velocidad-tiempo del tracto de salida del ventrículo izquierdo o ecocardiografía): un aumento de 10% o más indica que el paciente responde. La presión arterial sola es poco sensible.",
+   "C": "La variación de la presión de pulso no es confiable en arritmias.",
+   "D": "La presión venosa central no predice la respuesta a líquidos.",
+   "E": "Los líquidos sin evaluar aumentan el riesgo de sobrecarga."
+  },
+  "perla": "PLR: ~300 mL de autotransfusión reversible. Válida en arritmia y respiración espontánea; medir gasto cardiaco/VTI (↑ ≥10% = respondedor).",
+  "referencias": [
+   "Monnet X, Teboul JL. Crit Care 2015;19:18"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "VXS-1",
+  "serie_id": "VXS",
+  "orden": 1,
+  "sub": "24.a",
+  "subtema": "Puntuación VExUS: gradación",
+  "dificultad": "dificil",
+  "caso": "Hombre de 60 años con insuficiencia cardiaca de fracción de eyección reducida, aumento de peso de 7 kg, disnea y creatinina de 2.4 mg/dL (basal de 1.3). En el ultrasonido en el punto de atención: vena cava inferior de 2.6 cm con colapso menor de 20%; onda S invertida en las venas suprahepáticas; fracción de pulsatilidad de la vena porta de 62%; Doppler intrarrenal con patrón monofásico (solo onda D).",
+  "enunciado": "¿Qué grado de congestión venosa (VExUS) corresponde?",
+  "opciones": {
+   "A": "Grado 1 (leve): vena cava de 2 cm o más con patrones Doppler normales o levemente anormales",
+   "B": "Grado 3 (grave): vena cava de 2 cm o más con al menos dos patrones Doppler gravemente anormales",
+   "C": "No es clasificable, porque faltan los datos del Doppler de alguno de los tres territorios venosos",
+   "D": "Grado 2 (moderado), porque solo una de las venas explorada tiene un patrón gravemente alterado",
+   "E": "Grado 0: sin congestión, ya que la vena cava dilatada es un hallazgo normal en insuficiencia cardiaca"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El grado 1 no incluye patrones gravemente anormales.",
+   "B": "El VExUS (Venous Excess Ultrasound) combina el diámetro de la vena cava inferior (2 cm o más para continuar con el Doppler) con el Doppler de la vena suprahepática, la vena porta y las venas intrarrenales. Los patrones gravemente anormales son onda S invertida (suprahepática), fracción de pulsatilidad de la porta de 50% o más y flujo monofásico (solo onda D) en el riñón. Grado 0: cava menor de 2 cm; grado 1 (leve): cava de 2 cm o más con patrones normales o levemente anormales; grado 2 (moderado): un patrón gravemente anormal; grado 3 (grave): dos o más patrones gravemente anormales. El paciente tiene tres, por lo que es grado 3.",
+   "C": "El caso incluye todos los datos para clasificar.",
+   "D": "Tiene tres venas con patrón grave, no una.",
+   "E": "El grado 0 requiere una cava menor de 2 cm."
+  },
+  "perla": "VExUS: VCI <2 cm = 0; VCI ≥2 cm con patrones normales/leves = 1; 1 patrón grave = 2; ≥2 patrones graves = 3.",
+  "referencias": [
+   "Beaubien-Souligny W et al. Ultrasound J 2020;12:16",
+   "Rola P et al. Ultrasound J 2021;13:32"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o1",
+  "peso": 79.3
+ },
+ {
+  "id": "VXS-2",
+  "serie_id": "VXS",
+  "orden": 2,
+  "sub": "24.a",
+  "subtema": "Patrones Doppler normales y graves",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un residente pregunta qué patrón Doppler se considera normal y cuál grave en cada territorio.",
+  "enunciado": "¿Cuál es la correspondencia correcta?",
+  "opciones": {
+   "A": "El patrón intrarrenal grave corresponde al flujo continuo, y el normal a la onda D aislada",
+   "B": "Suprahepática: normal S>D, grave S invertida. Porta: normal <30%, grave ≥50%. Intrarrenal: normal continuo, grave solo D",
+   "C": "La vena porta es normal cuando su flujo es pulsátil en el 100% de cada ciclo cardiaco",
+   "D": "Los tres territorios son normales cuando muestran flujo monofásico y continuo, sin pulsatilidad",
+   "E": "Suprahepática: normal con S invertida. Porta: normal con pulsatilidad >50%. Intrarrenal: normal solo onda D, grave flujo continuo"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El flujo continuo es el normal.",
+   "B": "En la vena suprahepática, el patrón normal tiene onda S mayor que D (flujo sistólico anterógrado dominante); la onda S reducida es una anomalía leve, y la S invertida es grave. En la vena porta, la fracción de pulsatilidad ((velocidad máxima − mínima)/máxima) menor de 30% es normal, de 30 a 49% leve y de 50% o más grave, porque la congestión transmite la pulsatilidad auricular al sistema portal. En las venas intrarrenales, el flujo continuo es normal, el patrón bifásico (S y D con interrupción) es leve, y el patrón monofásico (solo D) es grave. Estos patrones reflejan transmisión de la presión auricular derecha elevada.",
+   "C": "Una pulsatilidad de 100% es una anomalía grave.",
+   "D": "El flujo monofásico intrarrenal es patológico.",
+   "E": "Es lo contrario de lo correcto: esos hallazgos son los graves."
+  },
+  "perla": "Normal → grave: hepática S>D → S invertida; porta PF <30% → ≥50%; renal continuo → solo onda D. PF = (Vmáx − Vmín)/Vmáx.",
+  "referencias": [
+   "Beaubien-Souligny W et al. Ultrasound J 2020;12:16"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o1",
+  "peso": 79.3
+ },
+ {
+  "id": "VXS-3",
+  "serie_id": "VXS",
+  "orden": 3,
+  "sub": "24.a",
+  "subtema": "Utilidad clínica de la congestión venosa",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se discute el significado clínico del VExUS grado 3 en el paciente.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "Mide la respuesta a líquidos y justifica administrar nuevos bolos de cristaloide para optimizar la precarga",
+   "B": "Solo puede utilizarse en pacientes con ventilación mecánica invasiva y sin esfuerzo inspiratorio",
+   "C": "Refleja congestión venosa sistémica y mayor riesgo de LRA y orienta a la descongestión, pero no evalúa la respuesta a líquidos",
+   "D": "Descarta cualquier causa de LRA distinta a la congestión venosa, como la necrosis tubular, la nefritis intersticial o la obstrucción",
+   "E": "Una puntuación alta indica hipovolemia y, por tanto, requiere reposición de volumen intravascular"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El VExUS no evalúa la respuesta a líquidos y la congestión contraindica nuevos bolos.",
+   "B": "Se utiliza en pacientes con y sin ventilación.",
+   "C": "El VExUS cuantifica la congestión venosa; la elevación de la presión venosa central disminuye la presión de perfusión renal (PAM menos presión venosa) y aumenta la presión intersticial renal ('tamponade renal'), lo que explica su asociación con la LRA, descrita en pacientes poscirugía cardiaca, con grado 3 vinculado a mayor riesgo. Sirve para guiar la descongestión con diuréticos o ultrafiltración y vigilar la respuesta (mejoría del patrón Doppler). No mide la respuesta a líquidos: un paciente con congestión puede ser incluso respondedor en términos de gasto cardiaco, pero no debe recibir líquidos; la evaluación de respuesta a volumen se hace con índices dinámicos.",
+   "D": "No descarta otras causas, por lo que se interpreta con el cuadro clínico.",
+   "E": "Una puntuación alta indica sobrecarga venosa, no hipovolemia."
+  },
+  "perla": "VExUS: mide congestión venosa (no respuesta a volumen). Grado 3 ↑ riesgo de LRA; guía diuréticos/UF.",
+  "referencias": [
+   "Beaubien-Souligny W et al. Ultrasound J 2020;12:16",
+   "Rola P et al. Ultrasound J 2021;13:32"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o1",
+  "peso": 79.3
+ },
+ {
+  "id": "VOL-1",
+  "serie_id": "VOL",
+  "orden": 1,
+  "sub": "24.a",
+  "subtema": "Hipovolemia: índices urinarios en LRA prerrenal",
+  "dificultad": "moderada",
+  "caso": "Hombre de 64 años con 4 días de diarrea y vómito. TA de 88/52 mmHg en decúbito, FC de 118 lpm, mucosas secas, pliegue cutáneo lento. Creatinina de 2.4 mg/dL (basal de 0.9), BUN de 68 mg/dL, sodio urinario de 8 mEq/L, FENa de 0.4%, osmolalidad urinaria de 640 mOsm/kg, sedimento sin cilindros.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "opciones": {
+   "A": "LRA prerrenal por hipovolemia; cristaloide isotónico balanceado con vigilancia de diuresis, recuperación en 24–72 h",
+   "B": "Necrosis tubular aguda establecida, tratada con furosemida para forzar la diuresis y evitar la oliguria posterior prolongada",
+   "C": "Glomerulonefritis rápidamente progresiva, tratada con pulsos de metilprednisolona por la elevación de creatinina sérica",
+   "D": "Nefritis intersticial aguda, que se trata suspendiendo el fármaco sospechoso y con prednisona por la diarrea",
+   "E": "Obstrucción posrenal, tratada con sonda vesical y restricción de líquidos mientras se resuelve la oliguria"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La combinación de hipovolemia clínica, BUN/creatinina elevado (más de 20), sodio urinario menor de 20 mEq/L, FENa menor de 1%, osmolalidad urinaria alta (más de 500 mOsm/kg) y sedimento sin cilindros granulosos indica LRA prerrenal: la hipoperfusión activa la retención renal de sodio y agua (sistema renina-angiotensina-aldosterona y vasopresina). El tratamiento es la reposición del volumen con cristaloides isotónicos, con corrección de la causa, y la creatinina se normaliza en 24 a 72 horas. Si persiste la hipoperfusión, la prerrenal puede evolucionar a necrosis tubular aguda, con FENa mayor de 2% y cilindros granulosos.",
+   "B": "En la necrosis tubular aguda el FENa es mayor de 2% y la orina es isostenúrica, con cilindros granulosos.",
+   "C": "No hay hematuria, proteinuria ni cilindros eritrocitarios que sugieran glomerulonefritis.",
+   "D": "La nefritis intersticial aguda presenta piuria estéril, eosinofiluria y FENa elevado, sin hipovolemia.",
+   "E": "No hay datos obstructivos, y la hipovolemia exige líquidos."
+  },
+  "perla": "Prerrenal: BUN/Cr >20, UNa <20, FENa <1%, Uosm >500, sedimento bland. NTA: FENa >2%, cilindros granulosos, orina isostenúrica.",
+  "referencias": [
+   "KDIGO AKI 2012. Kidney Int Suppl 2012;2:1",
+   "Comprehensive Clinical Nephrology (lesión renal aguda)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o1",
+  "peso": 47.1
+ },
+ {
+  "id": "VOL-2",
+  "serie_id": "VOL",
+  "orden": 2,
+  "sub": "24.a",
+  "subtema": "Fracción excretada de urea con diuréticos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente, con insuficiencia cardiaca, recibió furosemida 80 mg dos días antes de desarrollar LRA por hipovolemia. Presenta sodio urinario de 56 mEq/L y FENa de 2.3%. La fracción excretada de urea es de 22%.",
+  "enunciado": "¿Cómo se interpretan estos índices?",
+  "opciones": {
+   "A": "Ambos índices son inútiles y se descartan, porque la diuresis tras la furosemida invalida toda evaluación urinaria",
+   "B": "El FENa es poco confiable por la furosemida; una FEurea menor de 28-35% sugiere LRA de origen prerrenal en este paciente",
+   "C": "La FEurea de 22% descarta hipovolemia, porque indica que el túbulo reabsorbe poca urea en este paciente con diuréticos de asa",
+   "D": "El FENa de 2.3% confirma necrosis tubular aguda, porque supera el límite de 2% aun con el uso reciente de diuréticos de asa",
+   "E": "El FENa se interpreta igual con diuréticos, porque la furosemida no modifica la excreción fraccionada de sodio"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La FEurea es útil cuando el FENa no es confiable.",
+   "B": "Los diuréticos de asa y las tiazidas aumentan la excreción de sodio y elevan el FENa de forma artificial (más de 1%, incluso en prerrenal). La urea se reabsorbe en el túbulo proximal junto con el sodio y el agua por la depleción de volumen, pero su reabsorción es menos influida por los diuréticos, por lo que la fracción excretada de urea (FEurea) es más confiable: un valor menor de 35% (algunos usan menor de 28%) sugiere LRA prerrenal. Aquí 22% coincide con hipoperfusión. Otros datos como el cociente BUN/creatinina, la respuesta a volumen y el sedimento complementan.",
+   "C": "Una FEurea baja sugiere hipoperfusión renal, no la descarta.",
+   "D": "El FENa elevado por la furosemida no confirma necrosis tubular aguda.",
+   "E": "Con diuréticos el FENa pierde validez."
+  },
+  "perla": "Con diuréticos: FENa no sirve; FEurea <35% (≈<28–35%) = prerrenal. FEurea = (Uurea×Pcr)/(Purea×Ucr).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (lesión renal aguda)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o1",
+  "peso": 49.1
+ },
+ {
+  "id": "VOL-4",
+  "serie_id": "VOL",
+  "orden": 4,
+  "sub": "24.a",
+  "subtema": "Volumen arterial efectivo en insuficiencia cardiaca y cirrosis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un tercer paciente, con cirrosis y ascitis a tensión, tiene edema de miembros inferiores y sodio urinario de 6 mEq/L en una muestra aislada, con creatinina de 1.0 mg/dL.",
+  "enunciado": "¿Qué explica la retención de sodio y cuál es el tratamiento diurético inicial?",
+  "opciones": {
+   "A": "Bajo volumen efectivo por vasodilatación esplácnica; espironolactona 100 mg con furosemida 40 mg y dieta sin sal",
+   "B": "Insuficiencia suprarrenal asociada a la cirrosis, que se trata con hidrocortisona y explica la retención de sodio",
+   "C": "Hipervolemia efectiva con inhibición del sistema renina-angiotensina-aldosterona; se trata solo con restricción de líquidos",
+   "D": "Hipotiroidismo, que se trata con levotiroxina, porque explica el edema y la retención de sodio en el cirrótico",
+   "E": "Pérdida renal de sodio, que se trata con solución salina para reponer el volumen circulante efectivo del cirrótico"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la cirrosis, la vasodilatación esplácnica reduce el volumen arterial efectivo y activa los mecanismos neurohumorales (renina-angiotensina-aldosterona, sistema simpático y vasopresina), que provocan retención renal avida de sodio y agua con sodio urinario bajo (menor de 10 mEq/L) pese a la expansión del volumen total. El tratamiento inicial de la ascitis es restricción de sodio (menos de 2 g/día) y espironolactona 100 mg con furosemida 40 mg (relación 100:40 para mantener la normopotasemia), con ajuste cada 3 a 5 días. La meta de pérdida de peso es de 0.5 kg/día sin edema periférico y 1 kg/día con edema. Una relación sodio/potasio urinaria mayor de 1 indica excreción adecuada de sodio.",
+   "B": "No hay datos de insuficiencia suprarrenal.",
+   "C": "La retención de sodio se debe a activación, no inhibición, del sistema renina-angiotensina.",
+   "D": "El hipotiroidismo no explica el cuadro.",
+   "E": "El riñón retiene sodio de manera avida, no lo pierde."
+  },
+  "perla": "Cirrosis/IC: ↓volumen arterial efectivo → RAAS/SNS/ADH → UNa <10. Diurético: espironolactona 100 + furosemida 40; pérdida ≤0.5 kg/d (sin edema) o ≤1 kg/d (con edema).",
+  "referencias": [
+   "Runyon BA. Hepatology 2013;57:1651 (AASLD)",
+   "Comprehensive Clinical Nephrology (cardiorrenal y hepatorrenal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o1",
+  "peso": 49.1
+ },
+ {
+  "id": "BAL-3",
+  "serie_id": "BAL",
+  "orden": 3,
+  "sub": "24.b",
+  "subtema": "Corrección segura en pacientes con alto riesgo de desmielinización osmótica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente tiene Na⁺ de 112 mEq/L con confusión sin convulsiones, diuresis de 60 mL/h y factores de riesgo para desmielinización osmótica (alcoholismo, desnutrición e hipopotasemia).",
+  "enunciado": "¿Cuál es el manejo inicial más adecuado?",
+  "opciones": {
+   "A": "Restricción de sodio y furosemida, para reducir el volumen circulante y elevar la osmolalidad sérica con rapidez",
+   "B": "Solución salina isotónica en bolo de 2 litros y reanudar la dieta completa sin vigilancia, para corregir el déficit",
+   "C": "Suspender agua libre, tiamina antes de dextrosa, potasio con vigilancia, sodio cada 2–4 h; meta +4–6 mEq/L en 24 h (máx. 8)",
+   "D": "Corregir el sodio a 135 mEq/L en 12 horas para evitar las convulsiones, con solución salina hipertónica en infusión continua",
+   "E": "Dextrosa al 5% en infusión rápida, porque la hiponatremia se debe a la falta de aporte calórico y de glucosa del alcoholismo"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los diuréticos de asa pueden agravar la hipopotasemia y no son el tratamiento de la hiponatremia por ingesta baja de solutos.",
+   "B": "Un bolo grande de solución salina isotónica puede desencadenar aquaresis y una sobrecorrección rápida en un paciente con ingesta baja de solutos.",
+   "C": "Los factores de alto riesgo para la desmielinización osmótica son el sodio menor o igual a 105 mEq/L, la hipopotasemia, el alcoholismo, la desnutrición y la hepatopatía; en ellos la meta es subir 4 a 6 mEq/L por día y no pasar de 8 mEq/L en 24 horas. Se suspende el agua libre y se da tiamina antes de la dextrosa (riesgo de encefalopatía de Wernicke). La reposición de potasio aumenta el sodio sérico (el potasio entra a las células y el sodio sale), de modo que debe contarse dentro del cálculo. Al reanudarse la ingesta de solutos y suprimirse el estímulo hipovolémico, puede aparecer una aquaresis brusca con diuresis mayor de 100 mL/h y osmolalidad urinaria menor de 100, que corrige el sodio con rapidez; por eso se mide el sodio cada 2 a 4 horas, se vigila la diuresis y, si aparece sobrecorrección, se actúa con desmopresina y dextrosa al 5%. La hipertónica al 3% se reserva para síntomas graves (convulsiones, coma).",
+   "D": "Corregir 23 mEq/L en 12 horas supera ampliamente el límite y favorece la desmielinización osmótica.",
+   "E": "La dextrosa al 5% en infusión rápida empeora la hiponatremia por agua libre."
+  },
+  "perla": "Alto riesgo de ODS (alcohol, desnutrición, hipoK, hepatopatía, Na ≤105): meta 4–6, máx 8 mEq/L/24 h. Tiamina antes de dextrosa; K cuenta; vigilar Na c/2–4 h y diuresis (aquaresis).",
+  "referencias": [
+   "Verbalis JG et al. Am J Med 2013;126(10 Suppl 1):S1",
+   "Sterns RH. N Engl J Med 2015;372:55"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 32.5
+ },
+ {
+  "id": "BAL-4",
+  "serie_id": "BAL",
+  "orden": 4,
+  "sub": "24.b",
+  "subtema": "Desmielinización osmótica: cuadro clínico y diagnóstico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Por un error, el sodio del paciente subió de 112 a 128 mEq/L en 24 horas por una diuresis acuosa de 400 mL/h no vigilada. Mejoró del estado de alerta, pero 4 días después presenta disartria, disfagia, tetraparesia espástica y somnolencia.",
+  "enunciado": "¿Cuál es el diagnóstico y qué hallazgos se esperan?",
+  "opciones": {
+   "A": "Edema cerebral por hiponatremia persistente, que se trata con solución salina hipertónica y corrección adicional del sodio",
+   "B": "Síndrome de Guillain-Barré, con arreflexia ascendente, disociación albuminocitológica y respuesta a inmunoglobulina",
+   "C": "Hemorragia pontina con TC craneal inicial hiperdensa, que explica la disartria y la disfagia del paciente",
+   "D": "Desmielinización osmótica por corrección rápida: curso bifásico, lesiones T2/FLAIR pontinas tardías y manejo de soporte",
+   "E": "Encefalopatía de Wernicke por alcoholismo y desnutrición, con lesiones en los cuerpos mamilares y respuesta inmediata a tiamina"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El edema cerebral por hiponatremia ocurre con el descenso del sodio y no 4 días después de su elevación rápida.",
+   "B": "El Guillain-Barré causa debilidad flácida y arreflexia, no disartria espástica con disfagia tras un aumento brusco del sodio.",
+   "C": "Una hemorragia se vería como una hiperdensidad en la TC y no con deterioro bifásico a los 4 días.",
+   "D": "La corrección rápida de la hiponatremia crónica (aquí 16 mEq/L en 24 horas) deshidrata el cerebro adaptado y daña a los oligodendrocitos, con desmielinización. El cuadro es bifásico: mejoría inicial del estado neurológico, seguida a los 2 a 7 días por disartria, disfagia, tetraparesia espástica, alteración del estado de alerta y, en casos graves, síndrome de enclaustramiento; la afectación extrapontina produce movimientos anormales, parkinsonismo o distonía. La resonancia magnética muestra una lesión simétrica central de la protuberancia hiperintensa en T2 y FLAIR, pero puede ser normal en la primera semana y aparecer 1 a 2 semanas después. No hay tratamiento específico: el soporte, la prevención y, ante una sobrecorrección reconocida, el uso temprano de desmopresina y dextrosa para volver a bajar el sodio (la reducción tiene respaldo limitado).",
+   "E": "La encefalopatía de Wernicke cursa con oftalmoplejía, ataxia y confusión, y no tiene el curso bifásico tras un aumento rápido del sodio."
+  },
+  "perla": "ODS: corrección >8–10 mEq/L/24 h en hiponatremia crónica. Bifásico (mejoría → 2–7 d disartria, disfagia, tetraparesia espástica, enclaustramiento). RM puede ser normal 1.ª semana; T2/FLAIR protuberancia. Soporte.",
+  "referencias": [
+   "Sterns RH. N Engl J Med 2015;372:55",
+   "Verbalis JG et al. Am J Med 2013;126(10 Suppl 1):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 32.5
+ },
+ {
+  "id": "TUR-1",
+  "serie_id": "TUR",
+  "orden": 1,
+  "sub": "24.b",
+  "subtema": "Síndrome posresección transuretral: absorción de irrigante hipotónico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 72 años, 40 minutos después de una resección transuretral de próstata de 90 minutos con irrigación de glicina al 1.5%. Presenta náusea, vómito, confusión, cefalea, alteraciones visuales transitorias, bradicardia de 48 lpm y TA de 164/70 mmHg que pasa a 94/50 mmHg. Na⁺ de 108 mEq/L, osmolalidad sérica medida de 262 mOsm/kg (calculada de 224).",
+  "enunciado": "¿Cuál es el diagnóstico y cómo se explican la hiponatremia y la osmolalidad medida?",
+  "opciones": {
+   "A": "Seudohiponatremia por hiperlipidemia, con osmolalidad sérica normal y triglicéridos muy elevados en el suero",
+   "B": "Insuficiencia suprarrenal aguda por el estrés quirúrgico, con hipotensión, hiperpotasemia e hipoglucemia",
+   "C": "Reacción anafiláctica a la anestesia raquídea, con hipotensión, broncoespasmo y urticaria generalizada tras el bloqueo neuroaxial",
+   "D": "Síndrome de secreción inadecuada de ADH posquirúrgico, con euvolemia, osmolalidad urinaria alta y brecha osmolal normal",
+   "E": "Síndrome de RTU por absorción de irrigante: hiponatremia dilucional con brecha osmolal elevada y toxicidad por glicina"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La seudohiponatremia cursa con osmolalidad medida normal y no con un cuadro neurológico agudo tras la irrigación; además no se esperaría la hipertensión con bradicardia inicial.",
+   "B": "No hay hiperpotasemia ni hipotensión inicial con hipertensión; el antecedente de irrigación apunta a la absorción del líquido.",
+   "C": "No hay urticaria, broncoespasmo ni los datos típicos de anafilaxia; la hiponatremia y la brecha osmolal indican absorción del irrigante.",
+   "D": "El SIADH no explica el inicio tan agudo posterior a la irrigación ni la brecha osmolal elevada.",
+   "E": "Durante la resección transuretral de próstata, o en la histeroscopia, los irrigantes no electrolíticos (glicina, sorbitol, manitol) pueden absorberse en grandes cantidades por los senos venosos abiertos (cerca de 1 a 2 litros o más), lo que expande el volumen (hipertensión inicial y bradicardia refleja, luego hipotensión), diluye el sodio de manera aguda (hiponatremia grave) y provoca edema cerebral y pulmonar. La glicina, un neurotransmisor inhibidor, causa alteraciones visuales transitorias, náusea y confusión, y su metabolismo produce amoníaco. Como la glicina aporta osmoles, la osmolalidad medida puede ser normal o solo ligeramente baja y la brecha osmolal es elevada (262 − 224 = 38 mOsm/kg), lo que distingue el cuadro de la hiponatremia hipotónica habitual. Se previene con irrigación a baja presión, resecciones menores de 60 a 90 minutos y sistemas bipolares con solución salina."
+  },
+  "perla": "Síndrome post-RTU: absorción de glicina/sorbitol → hiponatremia aguda dilucional, brecha osmolal ↑, hipertensión/bradicardia inicial, luego hipotensión, trastornos visuales y encefalopatía (amoníaco).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o2",
+  "peso": 30.5
+ },
+ {
+  "id": "TUR-2",
+  "serie_id": "TUR",
+  "orden": 2,
+  "sub": "24.b",
+  "subtema": "Tratamiento del síndrome post-RTU",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente presenta además disnea con crepitantes bilaterales y saturación de 90%. Está somnoliento, sin convulsiones. Se envía amonio y se suspende la irrigación.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Finalizar el procedimiento, soporte y furosemida; salina al 3% en bolos de 100–150 mL si hay síntomas neurológicos graves",
+   "B": "Solo observación, porque el cuadro se resuelve de forma espontánea siempre, aun con síntomas neurológicos y sobrecarga de volumen",
+   "C": "Administrar agua libre para diluir la glicina, porque la hiponatremia depende de su acumulación en el plasma",
+   "D": "Administrar más irrigante para lavar la próstata y la glicina, antes de finalizar la resección transuretral",
+   "E": "Corregir el sodio a 140 mEq/L en 4 horas con solución hipertónica, para revertir por completo la encefalopatía y la sobrecarga"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En el síndrome post-RTU, el tratamiento se basa en terminar el procedimiento tan pronto como sea posible, dar soporte de la vía aérea y la hemodinamia, y corregir la hiponatremia según los síntomas: con síntomas neurológicos graves (somnolencia progresiva, convulsiones, coma) se administran bolos de solución salina al 3% (100 a 150 mL), con meta inicial de elevar el sodio 4 a 6 mEq/L, suficiente para revertir el edema cerebral; como hay sobrecarga de volumen y edema pulmonar, el diurético de asa ayuda a eliminar el agua absorbida. Como el cuadro es agudo (menos de 48 horas), el riesgo de desmielinización es menor, pero se mantiene el límite de 8 a 10 mEq/L en 24 horas. Se vigilan el amonio (la glicina se metaboliza a amoníaco), la visión y la función cardiaca, y se previene con técnica y sistemas bipolares con solución salina.",
+   "B": "La hiponatremia aguda sintomática con edema pulmonar requiere tratamiento activo.",
+   "C": "El agua libre empeoraría la hiponatremia y el edema cerebral.",
+   "D": "Más irrigante aumentaría la absorción y agravaría el cuadro.",
+   "E": "Una corrección tan rápida y excesiva expone a daño neurológico por desmielinización."
+  },
+  "perla": "Post-RTU: suspender irrigación, soporte, furosemida si sobrecarga; NaCl 3% (100–150 mL) si síntomas graves; meta +4–6 y máx 8–10 en 24 h; medir amonio. Prevención: bipolar con salina, <60–90 min.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)",
+   "Verbalis JG et al. Am J Med 2013;126(10 Suppl 1):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 32.5
+ },
+ {
+  "id": "AVP-2",
+  "serie_id": "AVP",
+  "orden": 2,
+  "sub": "24.b",
+  "subtema": "Hiponatremia asociada al ejercicio: ADH no osmótica y sobrehidratación",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una de las pacientes del repaso es una mujer de 38 años, de 55 kg, que terminó un maratón en 5 h 40 min tras beber cerca de 6 litros durante la carrera (aumento de 2 kg de peso). Al llegar presenta cefalea, náusea, vómito y confusión. Na⁺ de 123 mEq/L, osmolalidad urinaria de 380 mOsm/kg, sin convulsiones.",
+  "enunciado": "¿Cuál es el mecanismo y el tratamiento más adecuados?",
+  "opciones": {
+   "A": "Insuficiencia suprarrenal aguda primaria; se administra solo hidrocortisona y se restringe la sal en la dieta de la corredora",
+   "B": "Hiponatremia por ejercicio: exceso de líquidos hipotónicos y ADH no osmótica; bolos de salina al 3% y no dar más líquidos",
+   "C": "Intoxicación por sodio por las bebidas deportivas hipertónicas; se administra furosemida y se restringe la sal de la dieta",
+   "D": "Diabetes insípida central tras el esfuerzo físico intenso; se administra desmopresina y se aumenta el aporte de líquidos orales",
+   "E": "Deshidratación por el esfuerzo; se administran 2 litros de solución salina isotónica y se continúa la ingesta oral libre de líquidos"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay datos de insuficiencia suprarrenal y el tratamiento con solo hidrocortisona no controla el edema cerebral.",
+   "B": "La hiponatremia asociada al ejercicio (sodio menor de 135 mEq/L durante o hasta 24 horas después del ejercicio) se debe sobre todo a la ingesta excesiva de líquidos hipotónicos más allá de la sed, sumada a la secreción no osmótica de ADH por el esfuerzo, la náusea, el dolor o el estrés, que impide excretar el agua; el aumento de peso durante la carrera es un dato clave. Cuando hay encefalopatía (cefalea, confusión, vómito), el edema cerebral es una urgencia: se administran bolos de solución salina hipertónica al 3% (100 mL, hasta 3 veces, cada 10 minutos) hasta la mejoría clínica, sin esperar el resultado del sodio, y se evitan más líquidos. La solución isotónica es ineficaz o puede empeorar el cuadro en la hiponatremia por exceso de agua con ADH elevada, y la forma aguda tiene menor riesgo de desmielinización osmótica. Se previene bebiendo según la sed y sin sobrehidratar.",
+   "C": "No hay exceso de sodio; el sodio es bajo.",
+   "D": "La diabetes insípida produce poliuria con orina diluida y sodio alto; aquí la orina está concentrada.",
+   "E": "No hay deshidratación: hubo aumento de peso, y la solución isotónica no corrige la hiponatremia con ADH elevada y puede empeorarla."
+  },
+  "perla": "Hiponatremia asociada al ejercicio: sobrehidratación + ADH no osmótica; encefalopatía → NaCl 3% 100 mL en bolos (hasta 3) sin esperar laboratorio. Isotónica ineficaz; prevenir bebiendo según la sed.",
+  "referencias": [
+   "Hew-Butler T et al. Clin J Sport Med 2015;25:303 (consenso hiponatremia asociada al ejercicio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 32.5
+ },
+ {
+  "id": "AVP-3",
+  "serie_id": "AVP",
+  "orden": 3,
+  "sub": "24.b",
+  "subtema": "Reajuste del osmostato: tipos de SIADH y capacidad de dilución",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un hombre de 62 años con tuberculosis cavitaria crónica y desnutrición tiene Na⁺ de 128 mEq/L estable desde hace meses, asintomático, con osmolalidad sérica de 266 mOsm/kg y osmolalidad urinaria de 290 mOsm/kg. Tras una carga de agua de 20 mL/kg, la osmolalidad urinaria cae a 80 mOsm/kg y elimina más de 80% de la carga en 4 horas; el sodio se mantiene en torno a 126 a 130 mEq/L en distintos días y con ingestas variables.",
+  "enunciado": "¿Cuál es el diagnóstico y la conducta?",
+  "opciones": {
+   "A": "SIADH clásico con liberación continua de ADH y sin capacidad de diluir; requiere vaptanes y restricción hídrica estricta",
+   "B": "Intoxicación hídrica aguda que requiere solución salina hipertónica urgente y vigilancia estrecha en terapia intensiva",
+   "C": "Polidipsia primaria que requiere restricción hídrica estricta de 500 mL al día y vigilancia seriada y diaria del sodio sérico",
+   "D": "Insuficiencia suprarrenal oculta que requiere hidrocortisona de inmediato, aunque el sodio sea estable y el paciente asintomático",
+   "E": "Reajuste del osmostato (SIADH tipo C): umbral osmótico menor con dilución conservada; no requiere restricción hídrica"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En el SIADH clásico la orina no se diluye tras la carga de agua; aquí se diluye con rapidez.",
+   "B": "La hiponatremia es crónica, estable y asintomática; la hipertónica no está indicada.",
+   "C": "La polidipsia primaria suele cursar con orina diluida basal (osmolalidad menor de 100), lo que no corresponde al dato de 290 mOsm/kg.",
+   "D": "No hay hiperpotasemia, hipotensión ni datos de insuficiencia suprarrenal, y el cuadro es estable.",
+   "E": "En el reajuste del osmostato (tipo C de SIADH), el umbral osmótico de liberación de ADH se desplaza a un valor menor, de modo que el sodio sérico se mantiene estable en un nivel inferior (típicamente 125 a 135 mEq/L) y el paciente conserva la capacidad de diluir la orina al cargar agua (la osmolalidad urinaria cae por debajo de 100 mOsm/kg y excreta más de 80% de la carga). Se observa en la tuberculosis, las neumopatías crónicas, la desnutrición, la psicosis, la cuadriplejía y, de forma fisiológica, en el embarazo. Como la hiponatremia es estable y asintomática, el tratamiento es el de la enfermedad de base; la restricción hídrica no suele ser necesaria ni útil, y los vaptanes o la hipertónica no están indicados. Reconocerlo evita tratar de forma innecesaria. Se distingue del SIADH con falla de dilución (tipo A y B), en el que la orina no se diluye tras la carga de agua y el sodio cae al aumentar la ingesta."
+  },
+  "perla": "Reajuste del osmostato (SIADH tipo C): Na estable 125–135, dilución conservada (Uosm <100 tras carga de agua). TB, neumopatías, desnutrición, psicosis, cuadriplejía; fisiológico en embarazo. Sin restricción ni vaptanes.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o2",
+  "peso": 32.5
+ },
+ {
+  "id": "PSK-1",
+  "serie_id": "PSK",
+  "orden": 1,
+  "sub": "24.c",
+  "subtema": "Pseudohiperpotasemia por leucocitosis extrema",
+  "dificultad": "moderada",
+  "caso": "Hombre de 67 años con leucemia linfocítica crónica y leucocitos de 310,000/µL, asintomático, que acude a control. El potasio sérico reportado es de 6.9 mEq/L; el ECG es normal, la creatinina es de 0.9 mg/dL, el bicarbonato de 25 mEq/L, no usa IECA, ARA-II ni suplementos, y la muestra viajó por tubo neumático al laboratorio.",
+  "enunciado": "¿Cuál es la explicación más probable y qué estudio confirma el diagnóstico?",
+  "opciones": {
+   "A": "Acidosis tubular renal tipo 4; se indica fludrocortisona, porque la hiperpotasemia asintomática refleja hipoaldosteronismo",
+   "B": "Intoxicación digitálica; se indica anticuerpo antidigoxina, porque la hiperpotasemia asintomática refleja bloqueo de la bomba Na⁺/K⁺ celular",
+   "C": "Hiperpotasemia verdadera por insuficiencia renal; se inicia insulina con glucosa de inmediato, aunque el ECG sea normal",
+   "D": "Pseudohiperpotasemia por liberación in vitro desde leucocitos frágiles; se confirma con potasio en plasma heparinizado o sangre total",
+   "E": "Parálisis periódica hiperpotasémica; se administra calcio y salbutamol, porque la hiperpotasemia asintomática refleja un ataque agudo típico"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La acidosis tubular tipo 4 cursa con acidosis metabólica y causa conocida de hipoaldosteronismo, que aquí no hay.",
+   "B": "No hay antecedente de digoxina ni síntomas de toxicidad.",
+   "C": "La creatinina es normal y el ECG no tiene cambios, lo que no apoya una hiperpotasemia verdadera.",
+   "D": "La pseudohiperpotasemia es una elevación del potasio medido sin aumento real de la concentración in vivo. Con leucocitosis extrema (más de 50,000 a 100,000/µL) y con trombocitosis, los elementos celulares liberan potasio durante la coagulación (en el suero) y por fragilidad durante el transporte, sobre todo con tubo neumático, torniquete prolongado o enfriamiento de la muestra. Se sospecha cuando no hay causa de hiperpotasemia real (función renal normal, sin fármacos que la causen), el paciente está asintomático y el ECG es normal. Se confirma con el potasio en plasma heparinizado (centrifugado rápido) o en sangre total con un gasómetro; una diferencia de más de 0.4 mEq/L entre suero y plasma apoya el diagnóstico. Se evita el tratamiento innecesario (insulina, quelantes, diálisis), que puede causar hipoglucemia o hipopotasemia real.",
+   "E": "Las parálisis periódicas cursan con debilidad, y el paciente está asintomático."
+  },
+  "perla": "PseudohiperK: leucocitosis (>50–100 mil), trombocitosis, hemólisis in vitro, tubo neumático. ECG normal y asintomático. Confirmar con K en plasma heparinizado o gasometría; suero–plasma >0.4 mEq/L.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hiperpotasemia)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o3",
+  "peso": 16.1
+ },
+ {
+  "id": "PSK-2",
+  "serie_id": "PSK",
+  "orden": 2,
+  "sub": "24.c",
+  "subtema": "Pseudohiperpotasemia por trombocitosis: diferencia entre suero y plasma",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El potasio en plasma heparinizado del paciente es de 4.4 mEq/L. Se evalúa también a una segunda paciente con trombocitemia esencial (plaquetas de 1,300,000/µL), con potasio sérico de 6.3 mEq/L, plasma heparinizado de 4.6 mEq/L, función renal normal y sin síntomas.",
+  "enunciado": "¿Qué mecanismo explica la discordancia en esta segunda paciente?",
+  "opciones": {
+   "A": "Liberación de potasio por las plaquetas al coagular in vitro; el K sérico sube y el plasmático no (diferencia >0.4 mEq/L)",
+   "B": "Hemólisis intravascular real, con aumento de la haptoglobina, que libera potasio de los eritrocitos al plasma",
+   "C": "Hipoaldosteronismo hiporreninémico, que se trata con fludrocortisona, por la retención de potasio y la acidosis metabólica",
+   "D": "Redistribución del potasio por acidosis metabólica, que se corrige con bicarbonato y también eleva el potasio plasmático real",
+   "E": "Error del laboratorio sin explicación fisiológica, porque el potasio plasmático no puede diferir del sérico"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Durante la formación del coágulo en el tubo sin anticoagulante, las plaquetas liberan potasio, de modo que el suero tiene un potasio mayor que el plasma; el efecto es importante cuando las plaquetas superan los 600,000 a 1,000,000/µL. Como el plasma heparinizado conserva las plaquetas y evita la coagulación, mide el potasio real (aquí, de 4.6 mEq/L). La diferencia de más de 0.4 mEq/L entre suero y plasma apoya el diagnóstico de pseudohiperpotasemia. Otras causas de pseudohiperpotasemia son la hemólisis in vitro, la leucocitosis extrema, el puño cerrado con torniquete, el almacenamiento en frío o con demora, y formas familiares (fuga de potasio de los eritrocitos a baja temperatura). Si hay discordancia, se confirma con plasma o sangre total y se evita el tratamiento de una hiperpotasemia que no existe.",
+   "B": "La hemólisis intravascular real elevaría la LDH y bajaría la haptoglobina, y la medición en plasma sería también elevada.",
+   "C": "El hipoaldosteronismo causaría hiperpotasemia real, con potasio plasmático elevado.",
+   "D": "No hay acidosis; el potasio plasmático es normal.",
+   "E": "La discordancia tiene una explicación fisiológica conocida."
+  },
+  "perla": "Trombocitosis: las plaquetas liberan K al coagular → suero > plasma (>0.4 mEq/L). Medir K en plasma heparinizado o sangre total.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hiperpotasemia)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 18.1
+ },
+ {
+  "id": "PSK-3",
+  "serie_id": "PSK",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Pseudohipopotasemia por captación celular in vitro",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un tercer paciente, con leucemia mieloide aguda y leucocitos de 400,000/µL, tiene un potasio reportado de 1.9 mEq/L; está asintomático, con ECG normal y sin pérdidas digestivas ni diuréticos. La muestra permaneció 6 horas a temperatura ambiente antes de procesarse.",
+  "enunciado": "¿Cuál es la interpretación correcta?",
+  "opciones": {
+   "A": "Parálisis periódica hipopotasémica, porque el paciente está asintomático y con potasio bajo en un episodio",
+   "B": "Hipopotasemia verdadera grave; se administra potasio intravenoso a dosis altas por el riesgo de arritmias",
+   "C": "Pseudohipopotasemia por captación de potasio leucocitaria in vitro; repetir en sangre total o plasma separado, sin dar potasio",
+   "D": "Síndrome de lisis tumoral, que causa hiperpotasemia y por tanto no explica el hallazgo de hipopotasemia reportado",
+   "E": "Hiperaldosteronismo primario con potasio bajo, porque la leucocitosis extrema estimula la secreción suprarrenal de aldosterona y renina"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La parálisis periódica cursa con debilidad durante los ataques, y el paciente no tiene síntomas.",
+   "B": "El paciente está asintomático y con ECG normal, y la muestra se demoró; el valor es probablemente artefactual.",
+   "C": "En la leucocitosis extrema (más de 100,000/µL), los leucocitos que permanecen en la muestra a temperatura ambiente consumen glucosa y captan potasio con la bomba Na⁺/K⁺-ATPasa, de modo que la concentración medida es falsamente baja (pseudohipopotasemia, que ocurre sobre todo en la leucemia mieloide aguda y la leucemia mieloide crónica). Se sospecha cuando el potasio es muy bajo en un paciente asintomático, sin ECG anormal, sin pérdidas y con una muestra demorada o mantenida a temperatura ambiente. Se confirma con una medición inmediata en sangre total (gasómetro) o en plasma separado de inmediato o conservado en hielo. Dar dosis altas de potasio a un paciente con potasio real normal expone al riesgo de hiperpotasemia grave. Si el potasio es realmente bajo, se trata de manera habitual.",
+   "D": "La lisis tumoral produce hiperpotasemia y no explica el potasio bajo.",
+   "E": "No hay hipertensión ni datos de exceso de aldosterona."
+  },
+  "perla": "Pseudohipopotasemia: leucocitosis >100,000 (LMA/LMC) y muestra a temperatura ambiente: los leucocitos captan K in vitro. Repetir inmediato o en hielo; no dar K a ciegas.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hipopotasemia)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 18.1
+ },
+ {
+  "id": "TPP-1",
+  "serie_id": "TPP",
+  "orden": 1,
+  "sub": "24.c",
+  "subtema": "Parálisis periódica tirotóxica: mecanismo e hipopotasemia por redistribución",
+  "dificultad": "moderada",
+  "caso": "Hombre de 29 años que despierta con debilidad flácida de ambas piernas e incapacidad para caminar, después de una cena rica en carbohidratos y ejercicio intenso el día anterior. Refiere pérdida de 6 kg en 3 meses, palpitaciones y temblor. Frecuencia cardiaca de 112 lpm, reflejos disminuidos, fuerza de 2/5 proximal. K⁺ de 2.1 mEq/L, HCO₃ de 24 mEq/L, creatinina de 0.8 mg/dL, K⁺ urinario de 12 mEq/día (bajo), TSH suprimida y T4 libre elevada.",
+  "enunciado": "¿Cuál es el diagnóstico y el mecanismo de la hipopotasemia?",
+  "opciones": {
+   "A": "Intoxicación por bario, con pérdida renal de potasio, por la debilidad flácida posterior a la ingesta abundante de carbohidratos",
+   "B": "Acidosis tubular renal distal, con acidosis metabólica hiperclorémica y pérdida renal de potasio por la acidosis, sin relación con carbohidratos",
+   "C": "Pérdida digestiva de potasio por diarrea crónica, con acidosis metabólica y excreción urinaria de potasio baja",
+   "D": "Pérdida renal de potasio por hiperaldosteronismo primario, con hipertensión, alcalosis y excreción urinaria alta",
+   "E": "Parálisis periódica tirotóxica: el potasio entra a la célula (mayor Na⁺/K⁺-ATPasa), con potasio total normal y kaliuresis baja"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El bario causa hipopotasemia por redistribución, no por pérdida renal, y no explica el hipertiroidismo.",
+   "B": "La acidosis tubular distal produce acidosis hiperclorémica y caliuresis relativamente elevada, y aquí el bicarbonato es normal.",
+   "C": "La diarrea crónica causa pérdida digestiva, con acidosis metabólica, y no ataques desencadenados por carbohidratos ni hipertiroidismo.",
+   "D": "El hiperaldosteronismo cursa con hipertensión y potasio urinario elevado, y aquí la caliuresis es baja.",
+   "E": "La parálisis periódica tirotóxica es una complicación de la hiperfunción tiroidea (sobre todo en la enfermedad de Graves) que se presenta con ataques de debilidad flácida de las piernas y los músculos proximales, desencadenados por comidas ricas en carbohidratos, ejercicio intenso y descanso posterior; es más frecuente en hombres de ascendencia asiática o hispana en la tercera década. El mecanismo es una redistribución del potasio al espacio intracelular: la hormona tiroidea aumenta la actividad de la bomba Na⁺/K⁺-ATPasa, y la insulina y las catecolaminas la intensifican (se han descrito además variantes en el canal de potasio Kir2.6, KCNJ18). El potasio corporal total es normal y la excreción urinaria de potasio es baja (menor de 20 mEq/día o TTKG bajo), a diferencia de las pérdidas renales de potasio, que se acompañan de caliuresis elevada. El diagnóstico se confirma con TSH suprimida y T4 libre elevada."
+  },
+  "perla": "TPP: hombre joven, hipertiroidismo, ataque tras carbohidratos/ejercicio; K⁺ muy bajo con K⁺ urinario bajo (redistribución, no pérdida). Bomba Na⁺/K⁺-ATPasa ↑ por T3/insulina/catecolaminas.",
+  "referencias": [
+   "Lin SH. Mayo Clin Proc 2005;80:99 (parálisis periódica tirotóxica)",
+   "Comprehensive Clinical Nephrology (hipopotasemia)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o3",
+  "peso": 16.1
+ },
+ {
+  "id": "TPP-2",
+  "serie_id": "TPP",
+  "orden": 2,
+  "sub": "24.c",
+  "subtema": "Parálisis periódica tirotóxica: tratamiento y riesgo de hiperpotasemia de rebote",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente continúa con debilidad intensa. El residente propone reponer potasio de forma agresiva con suero glucosado con KCl a ritmo elevado, para normalizar el potasio en pocas horas.",
+  "enunciado": "¿Qué se recomienda?",
+  "opciones": {
+   "A": "Reposición agresiva con suero glucosado, porque la glucosa corrige la hipopotasemia al entrar el potasio a la célula con rapidez",
+   "B": "Administrar diuréticos de asa para corregir el potasio, porque aumentan el flujo tubular distal y la excreción",
+   "C": "KCl en dosis pequeñas, sin glucosa y con monitoreo por el rebote de hiperpotasemia; propranolol y tratar el hipertiroidismo",
+   "D": "No reponer potasio y solo observar, porque el ataque de debilidad se resuelve solo y nunca hay riesgo de arritmias",
+   "E": "Administrar insulina para elevar el potasio sérico, porque favorece la salida del potasio desde la célula hacia el plasma sanguíneo"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La glucosa estimula la insulina y empeora la redistribución, lo que agrava la hipopotasemia.",
+   "B": "Los diuréticos de asa aumentan la pérdida urinaria de potasio y no ayudan.",
+   "C": "Como el potasio corporal total es normal y el trastorno es una redistribución, al resolverse el ataque el potasio sale de nuevo de las células, y una reposición agresiva puede producir hiperpotasemia de rebote (que se ha descrito en una proporción importante de los pacientes tratados con dosis altas, hasta cerca de 40% en algunas series); por eso se repone con KCl en dosis pequeñas, con monitoreo del potasio y del ECG, en soluciones sin dextrosa (la glucosa libera insulina y agrava la entrada de potasio a la célula). Los β-bloqueadores no selectivos como el propranolol bloquean la estimulación adrenérgica de la bomba y revierten con rapidez los ataques y los previenen. El tratamiento definitivo es controlar el hipertiroidismo (antitiroideos, yodo radiactivo o cirugía), con lo que se curan los ataques, y se evita la ingesta de carbohidratos y el ejercicio intenso hasta eutiroidismo.",
+   "D": "No reponer potasio dejaría sin tratar una hipopotasemia con riesgo arrítmico.",
+   "E": "La insulina aumenta la entrada de potasio a la célula y empeora el ataque."
+  },
+  "perla": "TPP: KCl en dosis pequeñas, sin dextrosa y con monitoreo (rebote de hiperK); propranolol (no selectivo) aborta/previene; curar el hipertiroidismo.",
+  "referencias": [
+   "Lin SH. Mayo Clin Proc 2005;80:99"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 18.1
+ },
+ {
+  "id": "TPP-3",
+  "serie_id": "TPP",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Parálisis periódica familiar: diferenciación y tratamiento preventivo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente, de 17 años, con función tiroidea normal, tiene ataques recurrentes de debilidad desde los 13 años, que ocurren de madrugada tras comidas con carbohidratos o ejercicio intenso, con potasio de 2.3 mEq/L durante los ataques y normal entre ellos. Su padre y un tío tienen episodios similares. El ECG intercrítico es normal, sin dismorfias.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento preventivo?",
+  "opciones": {
+   "A": "Hiperaldosteronismo familiar, que cursa con hipertensión, hipopotasemia persistente y renina suprimida",
+   "B": "Miastenia gravis, que cursa con debilidad fluctuante y anticuerpos antirreceptor de acetilcolina, sin cambios del potasio",
+   "C": "Parálisis periódica hiperpotasémica, que cursa con potasio elevado durante los ataques y mejora con carbohidratos",
+   "D": "Parálisis periódica hipopotasémica familiar (CACNA1S/SCN4A); evitar carbohidratos y ejercicio, con acetazolamida o ahorradores de K",
+   "E": "Síndrome de Andersen-Tawil, que cursa con arritmias ventriculares, rasgos dismórficos y potasio sérico variable durante los ataques periódicos"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El hiperaldosteronismo familiar produce hipertensión, y aquí no la hay.",
+   "B": "La miastenia no cursa con hipopotasemia ni historia familiar de este patrón.",
+   "C": "En la forma hiperpotasémica el potasio sube durante los ataques, y aquí es bajo.",
+   "D": "La parálisis periódica hipopotasémica familiar es una canalopatía muscular autosómica dominante (variantes de CACNA1S, que codifica el canal de calcio tipo L, o de SCN4A, del canal de sodio), con ataques de debilidad que comienzan en la adolescencia, se desencadenan por comidas ricas en carbohidratos, ejercicio intenso y reposo posterior, y cursan con hipopotasemia por redistribución durante el ataque y potasio normal entre ellos. El diagnóstico se basa en la historia familiar, la función tiroidea normal (para excluir la forma tirotóxica) y el análisis genético. La prevención incluye evitar carbohidratos y ejercicio intenso, los inhibidores de la anhidrasa carbónica (acetazolamida, diclorfenamida) y, si hace falta, diuréticos ahorradores de potasio (triamtereno, espironolactona); el tratamiento agudo consiste en KCl oral en dosis pequeñas.",
+   "E": "El síndrome de Andersen-Tawil se acompaña de arritmias ventriculares, QT/U prolongado y rasgos dismórficos, ausentes aquí."
+  },
+  "perla": "PP hipopotasémica familiar: AD (CACNA1S, SCN4A), ataques nocturnos tras carbohidratos/ejercicio, K⁺ bajo solo en ataque. Prevención: evitar desencadenantes, acetazolamida/diclorfenamida, ahorradores de K⁺. Excluir tirotoxicosis.",
+  "referencias": [
+   "Statland JM et al. Muscle Nerve 2018;57:522",
+   "Comprehensive Clinical Nephrology (hipopotasemia)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 18.1
+ },
+ {
+  "id": "MGH-1",
+  "serie_id": "MGH",
+  "orden": 1,
+  "sub": "24.e",
+  "subtema": "Hipermagnesemia en ERC: causa y presentación clínica",
+  "dificultad": "moderada",
+  "caso": "Mujer de 71 años con ERC G4 (TFGe de 17 mL/min/1.73 m²) que, por estreñimiento crónico, usa a diario hidróxido de magnesio y un antiácido con magnesio. Acude por letargo, debilidad generalizada, náusea y confusión. TA de 82/48 mmHg, FC de 46 lpm, arreflexia osteotendinosa, respiración superficial. Mg sérico de 11.8 mg/dL (normal 1.7 a 2.4), Ca de 7.9 mg/dL, K⁺ de 4.6 mEq/L. El ECG muestra PR de 280 ms y QRS ensanchado.",
+  "enunciado": "¿Cuál es el diagnóstico y la causa principal?",
+  "opciones": {
+   "A": "Hiperpotasemia grave por la ERC, con parálisis flácida, QRS ancho y ondas T picudas en el electrocardiograma de la paciente",
+   "B": "Hipercalcemia maligna con arreflexia, por la debilidad generalizada y el letargo en una paciente anciana",
+   "C": "Hipotiroidismo grave con bradicardia, por el letargo, la debilidad y el estreñimiento crónico de la paciente",
+   "D": "Intoxicación por digoxina con bradicardia, porque produce náusea, letargo y bloqueo de la conducción",
+   "E": "Hipermagnesemia por magnesio oral y ERC avanzada: bloqueo neuromuscular y cardiaco (arreflexia, hipotensión, bradicardia)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El potasio es de 4.6 mEq/L, y el magnesio elevado explica los hallazgos.",
+   "B": "El calcio sérico es bajo, y la arreflexia con bradicardia se explica por el magnesio.",
+   "C": "El hipotiroidismo no explicaría el Mg de 11.8 ni el ensanchamiento del QRS en este contexto.",
+   "D": "No hay antecedente de digoxina, y el magnesio de 11.8 explica el cuadro.",
+   "E": "La hipermagnesemia casi siempre se debe a una excreción renal reducida (ERC avanzada, lesión renal aguda) en combinación con una ingesta o administración excesiva de magnesio (laxantes con hidróxido de magnesio, antiácidos, enemas, sulfato de magnesio en la preeclampsia). Produce letargo y debilidad, y el bloqueo de la transmisión neuromuscular produce arreflexia (alrededor de 9 a 12 mg/dL), parálisis respiratoria (alrededor de 12 a 18 mg/dL) y, a concentraciones aún más altas, paro cardiaco; en el corazón, el magnesio bloquea los canales de calcio y causa bradicardia, hipotensión, prolongación del PR, ensanchamiento del QRS y bloqueos. La hipocalcemia acompañante se debe a la supresión de la PTH por el magnesio. Aquí, la ERC G4, el uso diario de dos fuentes de magnesio y el cuadro clínico, con una concentración de 11.8 mg/dL, establecen el diagnóstico."
+  },
+  "perla": "Hipermagnesemia: ERC/LRA + Mg oral/IV. Arreflexia ~9–12 mg/dL, depresión respiratoria ~12–18, paro >25. Bradicardia, ↑PR, QRS ancho, hipotensión; hipocalcemia por supresión de PTH.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (magnesio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o5",
+  "peso": 16.3
+ },
+ {
+  "id": "MGH-2",
+  "serie_id": "MGH",
+  "orden": 2,
+  "sub": "24.e",
+  "subtema": "Hipermagnesemia grave: calcio intravenoso y hemodiálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se suspende el magnesio y la paciente sigue con hipotensión y bradicardia, con diuresis de 200 mL/día y TFGe de 17 mL/min/1.73 m². Se intubará por hipoventilación progresiva.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Solo solución salina y furosemida, porque la diuresis forzada es siempre suficiente, incluso con diuresis de 200 mL/día",
+   "B": "Esperar sin tratamiento, porque el magnesio se elimina solo con rapidez y no hay riesgo de parálisis respiratoria ni de paro cardiaco",
+   "C": "Gluconato de calcio IV, soporte ventilatorio y hemodinámico, y hemodiálisis con dializado sin magnesio; la diuresis sola no basta",
+   "D": "Administrar bicarbonato de sodio como antídoto, porque alcaliniza la sangre y desplaza el magnesio hacia la orina",
+   "E": "Administrar más magnesio para compensar el bloqueo neuromuscular, porque la hipotensión indica déficit del ion"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Con TFGe de 17 y oliguria, la diuresis forzada no elimina suficiente magnesio, y es insuficiente en un caso grave.",
+   "B": "Con ERC avanzada, la eliminación es lenta y el paciente corre riesgo de paro respiratorio y cardiaco.",
+   "C": "El calcio intravenoso (por ejemplo, 1 a 2 g de gluconato de calcio en 5 a 10 minutos, con repetición según la respuesta) antagoniza de inmediato la acción del magnesio sobre la unión neuromuscular y el miocardio y estabiliza al paciente mientras se elimina el exceso, además del soporte ventilatorio (aquí, hipoventilación progresiva) y hemodinámico. Para eliminar el magnesio, en la función renal normal basta con solución salina y un diurético de asa, pero con una TFGe de 17 y oliguria la excreción es insuficiente: la hemodiálisis (con dialisato sin magnesio) es muy eficaz y está indicada en la hipermagnesemia grave con repercusión neuromuscular o cardiaca y en la insuficiencia renal. Además, hay que suspender todos los fármacos con magnesio y buscar alternativas (laxantes osmóticos sin magnesio).",
+   "D": "El bicarbonato no es un antídoto del magnesio.",
+   "E": "Dar más magnesio agravaría el bloqueo neuromuscular y cardiaco."
+  },
+  "perla": "Hipermagnesemia grave: gluconato de calcio IV (antagonista), soporte ventilatorio, suspender Mg; si ERC/oliguria → hemodiálisis (dialisato sin Mg). Diuresis forzada solo si hay función renal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (magnesio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o5",
+  "peso": 18.3
+ },
+ {
+  "id": "MGH-3",
+  "serie_id": "MGH",
+  "orden": 3,
+  "sub": "24.e",
+  "subtema": "Sulfato de magnesio en preeclampsia con deterioro renal: vigilancia y toxicidad",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una embarazada de 31 semanas con preeclampsia con criterios de severidad, creatinina de 2.0 mg/dL y diuresis de 20 mL/h recibe sulfato de magnesio para prevenir convulsiones. Se pregunta cómo debe administrarse.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Carga habitual y mantenimiento reducido guiado por niveles; vigilar reflejos, respiración, diuresis y nivel, con calcio disponible",
+   "B": "Administrar el doble de la dosis para compensar la oliguria, porque la acumulación del magnesio no es un riesgo real",
+   "C": "Suspender de forma definitiva el magnesio, porque está contraindicado con creatinina elevada y diuresis baja en la preeclampsia grave",
+   "D": "Sustituirlo por diazepam como profilaxis convulsiva de primera línea, porque es más seguro en la insuficiencia renal y no requiere vigilancia",
+   "E": "Mantenimiento estándar sin vigilancia, porque el riñón no participa en la eliminación del magnesio ni se acumula"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El sulfato de magnesio es el fármaco de elección para prevenir y tratar la eclampsia, y se elimina casi por completo por vía renal; con TFG reducida (aquí, creatinina de 2.0 mg/dL) o con oliguria, se acumula y puede producir hipermagnesemia tóxica. Se usa la dosis de carga habitual (la distribución no depende del riñón), pero la dosis de mantenimiento se reduce o se ajusta con niveles séricos (el rango terapéutico es de aproximadamente 4.8 a 8.4 mg/dL), con vigilancia cada hora de la diuresis (al menos 25 a 30 mL/h), los reflejos osteotendinosos (su pérdida precede a la depresión respiratoria), la frecuencia respiratoria y la saturación. Debe haber gluconato de calcio a la cabecera para antagonizar la toxicidad, y en la insuficiencia renal grave se puede considerar la diálisis.",
+   "B": "Duplicar la dosis aumentaría el riesgo de hipermagnesemia en la oliguria.",
+   "C": "No está contraindicado; se ajusta y se vigila de forma estrecha.",
+   "D": "Las benzodiacepinas no son de primera línea para la profilaxis de la eclampsia.",
+   "E": "El riñón es la vía de eliminación principal, y sin vigilancia hay riesgo de toxicidad."
+  },
+  "perla": "MgSO₄ en preeclampsia con ERC/oliguria: carga estándar, mantenimiento reducido o guiado por nivel (4.8–8.4 mg/dL); vigilar reflejos, FR, diuresis ≥25–30 mL/h; calcio como antídoto.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (magnesio y embarazo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o5",
+  "peso": 18.3
+ },
+ {
+  "id": "ALC-3",
+  "serie_id": "ALC",
+  "orden": 3,
+  "sub": "24.d",
+  "subtema": "Síndrome de leche y álcali: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En el servicio de urgencias, con calcio de 13.2 mg/dL, creatinina de 2.1 mg/dL, volumen urinario conservado y ECG con intervalo QT corto, se decide el tratamiento.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Suspender calcio, álcali, vitamina D y tiazídico; salina isotónica y asa solo si hay euvolemia; calcitonina o diálisis si es grave",
+   "B": "Continuar el carbonato de calcio y añadir un bisfosfonato oral, para frenar la resorción ósea y la hipercalcemia",
+   "C": "Indicar paratiroidectomía urgente, porque la hipercalcemia con creatinina elevada indica hiperparatiroidismo primario",
+   "D": "Administrar un diurético de asa a dosis altas desde el inicio, sin líquidos, para forzar la calciuresis de entrada",
+   "E": "Administrar solución de dextrosa al 5% para diluir el calcio sérico y reponer el volumen intravascular del paciente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El tratamiento consiste en suspender las fuentes de calcio y álcali, la vitamina D y el tiazídico, y en reponer volumen con solución salina isotónica, que corrige la depleción y la alcalosis (el aporte de cloro favorece la excreción de bicarbonato) y aumenta la calciuresis; el diurético de asa se añade solo cuando el paciente está euvolémico, para acentuar la calciuresis sin reducir más el volumen. Se corrige la hipopotasemia, que mantiene la alcalosis. La calcitonina o los bisfosfonatos rara vez son necesarios, porque la PTH está suprimida y la hipercalcemia cede con la reposición de volumen y la suspensión de las fuentes (los bisfosfonatos tardan días en actuar); la diálisis con dializado bajo en calcio se reserva para la hipercalcemia grave con lesión renal que no responde. La función renal suele recuperarse, aunque puede quedar daño tubulointersticial.",
+   "B": "Continuar el calcio perpetúa la causa del cuadro.",
+   "C": "La PTH está suprimida, y la paratiroidectomía no tiene indicación.",
+   "D": "Sin reposición previa de volumen, el diurético de asa agravaría la depleción y la lesión renal.",
+   "E": "La dextrosa al 5% aporta agua libre, no corrige la depleción del líquido extracelular y puede causar hiponatremia."
+  },
+  "perla": "Leche-álcali: suspender Ca/álcali/vit D/tiazida; salina isotónica (corrige volumen, alcalosis y calciuresis); asa solo si euvolemia; K⁺; calcitonina/bisfosfonato/diálisis solo graves. Recuperación renal habitual.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio y ácido-base)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o4",
+  "peso": 43.2
+ },
+ {
+  "id": "KHD-1",
+  "serie_id": "KHD",
+  "orden": 1,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia en hemodiálisis: intervalo interdialítico largo y medidas iniciales",
+  "dificultad": "moderada",
+  "caso": "Hombre de 62 años en hemodiálisis tres veces por semana (lunes, miércoles y viernes) con dializado de potasio de 2 mEq/L, sin función renal residual. El potasio predialítico es de 6.4 mEq/L los lunes (después del intervalo largo) y de 5.4 mEq/L los miércoles y viernes. Recibe lisinopril por cardiopatía, y su dieta incluye jugos y sustitutos de sal. El ECG de los lunes muestra ondas T altas. No hay estreñimiento ni hemólisis de la muestra.",
+  "enunciado": "¿Cuál es la interpretación y la conducta inicial más adecuadas?",
+  "opciones": {
+   "A": "El potasio de 6.4 mEq/L es normal para el intervalo largo, y no requiere intervención adicional alguna",
+   "B": "Suspender la hemodiálisis de los lunes para evitar la hipopotasemia posdiálisis y las arritmias",
+   "C": "Bajar el dializado de potasio a 0 mEq/L en todas las sesiones, para eliminar más potasio y evitar por completo la hiperpotasemia",
+   "D": "Riesgo arrítmico por el intervalo largo: dieta, fármacos, corrección de acidosis y estreñimiento, y captor en días sin diálisis",
+   "E": "Indicar solo resina de poliestireno sulfonato de sodio de forma crónica sin otras medidas dietéticas ni de diálisis"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El potasio mayor de 6.0 mEq/L con cambios electrocardiográficos no es normal, y se asocia con riesgo de arritmia.",
+   "B": "Suspender la diálisis agravaría la hiperpotasemia y la sobrecarga de volumen.",
+   "C": "Los dializados con potasio muy bajo producen un gradiente alto que favorece las arritmias, por lo que se evitan.",
+   "D": "El potasio se acumula durante el intervalo interdialítico, y el más largo (cerca de 68 a 72 horas) se asocia con mayor mortalidad, muerte cardiovascular y hospitalizaciones en el día posterior, según un estudio observacional publicado en 2011 (Foley). El abordaje integral incluye la asesoría dietética (evitar sustitutos de sal con cloruro de potasio, jugos, frutas con alto contenido y aditivos con potasio, y preferir la cocción con descarte del agua), el repaso de fármacos que elevan el potasio (IECA, ARA-II, antagonistas mineralocorticoides, betabloqueadores no selectivos, trimetoprim), el tratamiento del estreñimiento y de la acidosis, y la valoración de más tiempo o frecuencia de diálisis. Si persiste, se agrega un captor de potasio en los días sin diálisis. Los dializados con potasio de 0 a 1 mEq/L se evitan por el riesgo de arritmia.",
+   "E": "La resina como único tratamiento tiene inicio lento y riesgo de necrosis colónica, y no sustituye las medidas dietéticas y de fármacos."
+  },
+  "perla": "HD: el intervalo largo (68–72 h) ↑ hiperK, arritmia y muerte súbita (Foley 2011). Manejo: dieta (aditivos, sustitutos de sal), fármacos, estreñimiento/acidosis, dializado K 2–3 (evitar 0–1), más tiempo/frecuencia, captor en días sin diálisis.",
+  "referencias": [
+   "Foley RN et al. N Engl J Med 2011;365:1099",
+   "Comprehensive Clinical Nephrology (hiperpotasemia en diálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o3",
+  "peso": 16.1
+ },
+ {
+  "id": "KHD-3",
+  "serie_id": "KHD",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Hipopotasemia posdialítica por sobrecorrección: ajuste del captor y del dializado",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras 6 semanas con 15 g los días sin diálisis, el potasio predialítico es de 3.4 mEq/L, y al final de la sesión de 2.7 mEq/L, con dializado de 2 mEq/L. El paciente refiere calambres y palpitaciones, y el ECG muestra ondas U y extrasístoles ventriculares aisladas. Toma además digoxina por fibrilación auricular.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Aumentar el captor a la dosis máxima, para mantener el potasio bajo y evitar cualquier riesgo de hiperpotasemia entre las sesiones de diálisis",
+   "B": "No intervenir, porque el potasio bajo en diálisis es siempre benéfico y protege contra las arritmias",
+   "C": "Reducir o suspender el captor, subir el dializado a 3 mEq/L, corregir K y Mg y revisar la digoxina por el riesgo de arritmias",
+   "D": "Bajar el dializado a 1 mEq/L, para mantener el potasio bajo y evitar calambres y palpitaciones",
+   "E": "Indicar suplementos de potasio de 80 mEq por día sin vigilancia, para corregir la hipopotasemia de forma rápida"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Aumentar el captor agravaría la hipopotasemia y el riesgo arrítmico.",
+   "B": "Tanto la hiperpotasemia como la hipopotasemia se asocian con mayor mortalidad en diálisis.",
+   "C": "El potasio sérico muy bajo, y sobre todo la caída rápida durante la sesión con un gradiente alto entre el suero y el dializado, se asocia con arritmias ventriculares y muerte súbita; la hipopotasemia también potencia la toxicidad de la digoxina. El paciente se sobrecorrigió con el captor a dosis altas, de modo que se reduce o suspende, se aumenta el dializado de potasio a 3 mEq/L para disminuir el gradiente, se controlan el potasio y el magnesio (la hipomagnesemia agrava el riesgo arrítmico y dificulta corregir el potasio), y se revisa la dosis y el nivel de digoxina. Se busca un potasio predialítico de 4 a 5 mEq/L, evitando tanto los valores altos como los muy bajos (curva en U de la mortalidad).",
+   "D": "Un dializado de 1 mEq/L aumenta el gradiente y el riesgo de arritmia.",
+   "E": "Suplementar sin vigilancia en un paciente anúrico expone a una hiperpotasemia grave."
+  },
+  "perla": "HD: curva en U de mortalidad con el potasio; evitar K predialítico <4 y caídas bruscas (dializado 1–2 con gradiente alto), sobre todo con digoxina o hipoMg; sobrecorrección por captor → reducir captor, ↑ K del dializado a 3, corregir Mg.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del potasio en diálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 18.1
+ }
+]

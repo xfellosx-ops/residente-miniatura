@@ -1,0 +1,894 @@
+[
+ {
+  "id": "VAN-3",
+  "serie_id": "VAN",
+  "orden": 3,
+  "sub": "17.a",
+  "subtema": "Nefrotoxicidad por aminoglucósidos",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Una paciente de 66 años recibe gentamicina por bacteriemia por gramnegativos durante 7 días junto con furosemida. Al sexto día presenta aumento de creatinina de 1.0 a 2.1 mg/dL, diuresis conservada, hipomagnesemia, hipopotasemia y cilindros granulosos en la orina.",
+  "enunciado": "¿Cuál es el mecanismo de lesión y la medida preventiva más eficaz?",
+  "opciones": {
+   "A": "Nefritis intersticial alérgica, con tratamiento con esteroides, porque la exposición al antibiótico explica el cuadro",
+   "B": "Captación por megalina-cubilina en el túbulo proximal; se previene con dosis única diaria, ajuste a TFGe y evitando nefrotóxicos",
+   "C": "Depósito de cristales en el túbulo colector; hidratación abundante y alcalinización de la orina para evitar la precipitación tubular",
+   "D": "Vasoconstricción de la arteriola eferente por el fármaco; se previene suspendiendo los IECA y los diuréticos de asa",
+   "E": "Obstrucción por mioglobina; alcalinización urinaria y diuresis forzada, porque la rabdomiólisis explica el aumento de la creatinina"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La nefritis alérgica cursa con piuria estéril y eosinofilia, no con cilindros granulosos y pérdida de magnesio.",
+   "B": "Los aminoglucósidos policatiónicos se filtran, se unen a los fosfolípidos aniónicos del borde en cepillo y se endocitan por megalina-cubilina en el túbulo proximal; en las células se translocan al lisosoma y provocan ruptura lisosomal y daño mitocondrial, con necrosis tubular típicamente 5 a 7 días después del inicio, de curso no oligúrico y con pérdida de magnesio, potasio y calcio. La saturación del sistema de captación con dosis única diaria reduce la acumulación, y se combina con ajuste por TFGe, niveles valle bajos, duración corta y evitar diuréticos de asa, vancomicina, contraste y anfotericina.",
+   "C": "La obstrucción por cristales corresponde a fármacos como aciclovir o sulfadiazina.",
+   "D": "La vasoconstricción eferente por IECA no describe la toxicidad de aminoglucósidos.",
+   "E": "La mioglobina corresponde a rabdomiólisis."
+  },
+  "perla": "Aminoglucósidos: megalina-cubilina → lisosoma/mitocondria; NTA no oligúrica a los 5–7 días con hipoMg e hipoK. Dosis única diaria.",
+  "referencias": [
+   "Nagai J, Takano M. Drug Metab Pharmacokinet 2004;19:159",
+   "Comprehensive Clinical Nephrology (nefrotoxicidad)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o1",
+  "peso": 50.9
+ },
+ {
+  "id": "VAN-4",
+  "serie_id": "VAN",
+  "orden": 4,
+  "sub": "17.a",
+  "subtema": "Prevención de la nefrotoxicidad antibiótica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente mejora, pero necesita completar 7 días más de tratamiento por infección con gramnegativos sensible a ceftriaxona, y tiene TFGe de 35 mL/min/1.73 m².",
+  "enunciado": "¿Cuál es la estrategia más adecuada?",
+  "opciones": {
+   "A": "Continuar gentamicina con el mismo esquema, porque la TFGe de 35 mL/min/1.73 m² no obliga a ajustar ni a cambiar de fármaco",
+   "B": "Añadir vancomicina para cubrir mayor espectro, aunque el germen sea sensible a ceftriaxona y se eleve el riesgo de nefrotoxicidad",
+   "C": "Suspender el antibiótico para proteger el riñón, aunque falten 7 días de tratamiento de una infección documentada y activa",
+   "D": "Pasar a ceftriaxona (betalactámico no nefrotóxico), suspender el aminoglucósido, hidratar y evitar otros nefrotóxicos",
+   "E": "Aumentar la dosis de furosemida para promover la diuresis y así eliminar con mayor rapidez el aminoglucósido, sin cambiar de fármaco"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Continuar gentamicina prolonga el daño tubular en una paciente con TFGe de 35.",
+   "B": "Añadir vancomicina sin indicación aumenta la nefrotoxicidad.",
+   "C": "Suspender el tratamiento deja sin cubrir una infección grave.",
+   "D": "Si hay alternativa eficaz y segura según el antibiograma, lo más razonable es cambiar a un betalactámico que no requiere ajuste importante (ceftriaxona se elimina por vía biliar y renal), suspender el aminoglucósido, mantener euvolemia y vigilar la recuperación de la necrosis tubular. Se evitan combinaciones nefrotóxicas como la vancomicina con aminoglucósidos o piperacilina-tazobactam, así como los diuréticos de asa en dosis altas sin indicación.",
+   "E": "Los diuréticos de asa no previenen la nefrotoxicidad y pueden empeorarla."
+  },
+  "perla": "NTA por aminoglucósidos: cambiar a alternativa no nefrotóxica sensible; evitar sumar nefrotóxicos (vancomicina, asa, contraste).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad)",
+   "Nagai J, Takano M. Drug Metab Pharmacokinet 2004;19:159"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o1",
+  "peso": 52.9
+ },
+ {
+  "id": "NSA-1",
+  "serie_id": "NSA",
+  "orden": 1,
+  "sub": "17.e",
+  "subtema": "AINE: LRA hemodinámica y 'triple whammy'",
+  "dificultad": "moderada",
+  "caso": "Hombre de 68 años con hipertensión y cirrosis hepática compensada que toma losartán, furosemida y 'ibuprofeno' 600 mg cada 8 horas por lumbalgia desde hace 5 días. Creatinina 2.8 mg/dL (basal 1.1), Na urinario de 8 mEq/L, FEurea de 25% y sedimento bland. TA 98/60 mmHg.",
+  "enunciado": "¿Cuál es el mecanismo de lesión renal?",
+  "opciones": {
+   "A": "Obstrucción por coágulos de las vías urinarias, con lesión renal posrenal secundaria a la hematuria",
+   "B": "Vasoconstricción aferente por inhibición de prostaglandinas vasodilatadoras, potenciada por el ARA-II y el diurético",
+   "C": "Glomerulonefritis rápidamente progresiva, por depósito de inmunocomplejos relacionados con el uso reciente de ibuprofeno",
+   "D": "Nefritis intersticial alérgica con eosinofilia, por hipersensibilidad al ibuprofeno tras cinco días de uso continuo del fármaco",
+   "E": "Necrosis tubular por cristales de ibuprofeno, que precipitan en el túbulo distal con la deshidratación"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay datos obstructivos.",
+   "B": "Los AINE inhiben la ciclooxigenasa y la síntesis de prostaglandinas vasodilatadoras renales (PGE₂, PGI₂), que mantienen la perfusión del riñón cuando hay contracción de volumen, cirrosis, insuficiencia cardiaca o ERC. Resultan en vasoconstricción de la arteriola aferente predominante y descenso de la presión de ultrafiltración. Cuando se combinan con un bloqueador del SRAA (que dilata la eferente) y con un diurético (que reduce el volumen), se produce la 'triple whammy', con lesión renal aguda prerrenal, orina concentrada, Na urinario bajo y FEurea baja, de curso reversible al suspender los fármacos.",
+   "C": "El sedimento bland excluye una GN rápidamente progresiva.",
+   "D": "La nefritis alérgica cursa con piuria estéril y eosinofiluria, aunque puede coexistir con AINE.",
+   "E": "El ibuprofeno no forma cristales renales."
+  },
+  "perla": "Triple whammy: AINE + IECA/ARA-II + diurético → LRA prerrenal; AINE vasoconstriñen la aferente por ↓prostaglandinas.",
+  "referencias": [
+   "Whelton A. Am J Med 1999;106:13S",
+   "Comprehensive Clinical Nephrology (nefrotoxicidad)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "continuacion": "",
+  "obj": "17.o3",
+  "peso": 45.3
+ },
+ {
+  "id": "NSA-2",
+  "serie_id": "NSA",
+  "orden": 2,
+  "sub": "17.e",
+  "subtema": "AINE: síndrome nefrótico con nefritis intersticial",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente de 72 años, tras 6 semanas de naproxeno por artrosis, presenta edema, proteinuria de 8 g/24 h, albúmina de 2.0 g/dL y creatinina de 2.2 mg/dL. El sedimento muestra leucocitos sin eosinofilia notable. La biopsia muestra fusión difusa de pedicelos, infiltrado intersticial linfocitario y glomérulos normales a la microscopía óptica.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "opciones": {
+   "A": "GEFS primaria, que se trata con ciclofosfamida por la proteinuria nefrótica de inicio reciente en la paciente",
+   "B": "Cambios mínimos y nefritis intersticial por AINE; suspender el AINE y valorar esteroides si no remite",
+   "C": "Nefropatía membranosa, que se trata con rituximab por la proteinuria nefrótica y la edad de la paciente",
+   "D": "Nefropatía diabética, que se maneja con control glucémico y bloqueo del SRAA por la proteinuria nefrótica",
+   "E": "Amiloidosis AA, que se trata con colchicina por el antecedente de artrosis y el uso crónico de AINE"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La GEFS primaria muestra lesiones segmentarias esclerosantes.",
+   "B": "Los AINE pueden producir, en raros casos, síndrome nefrótico por enfermedad de cambios mínimos (y menos a menudo glomeruloesclerosis segmentaria o nefropatía membranosa) con nefritis tubulointersticial concurrente, más frecuente en mayores y tras semanas a meses de exposición. La biopsia muestra borramiento difuso de los pedicelos con glomérulos normales por microscopía óptica e infiltrado intersticial linfocitario con pocos eosinófilos. Se suspende el AINE y el cuadro suele remitir en semanas a meses; si persiste el síndrome nefrótico o hay deterioro progresivo, se trata con esteroides.",
+   "C": "La membranosa tendría engrosamiento de la membrana basal y depósitos subepiteliales.",
+   "D": "Una diabética tendría esclerosis nodular y engrosamiento de la membrana basal.",
+   "E": "La amiloidosis AA muestra depósitos Congo rojo positivos."
+  },
+  "perla": "AINE y nefrótico: cambios mínimos + NTI (linfocitos, pocos eosinófilos). Suspender AINE; esteroides si no remite.",
+  "referencias": [
+   "Whelton A. Am J Med 1999;106:13S",
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o3",
+  "peso": 47.3
+ },
+ {
+  "id": "NSA-3",
+  "serie_id": "NSA",
+  "orden": 3,
+  "sub": "17.e",
+  "subtema": "Necrosis papilar por AINE",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un tercer paciente, diabético y con rasgo drepanocítico, de 55 años, con uso crónico de AINE, presenta dolor de flanco, hematuria macroscópica, expulsión de tejido y fiebre. La TC con contraste muestra papilas con contorno irregular y cavidades.",
+  "enunciado": "¿Cuál es el diagnóstico y el hallazgo característico en la urografía?",
+  "opciones": {
+   "A": "Necrosis papilar; «sombra anular» (en anillo) por el desprendimiento de la papila y las cavidades papilares en la urografía",
+   "B": "Litiasis coraliforme; imagen en «coral» que ocupa la pelvis y los cálices, con infección urinaria crónica",
+   "C": "Poliquistosis renal; quistes múltiples bilaterales con riñones agrandados y distorsión del sistema colector",
+   "D": "Pielonefritis xantogranulomatosa; masa renal con imagen en «oso panda» y litiasis obstructiva crónica asociada al cuadro",
+   "E": "Tuberculosis renal; calcificaciones en «masilla» con destrucción parenquimatosa y estenosis de la vía urinaria"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La necrosis papilar renal afecta las pirámides renales por isquemia de la médula (vasos rectos) y se asocia a diabetes, hemoglobinopatías (drepanocitosis), analgésicos/AINE (usados de forma crónica), obstrucción e infección. Cursa con dolor cólico, hematuria, fiebre y expulsión de fragmentos papilares. La TC con contraste muestra puntas papilares irregulares, pérdida de papilas y cavidades; en la urografía excretora clásica se observa la 'sombra anular' (signo del anillo) cuando la papila desprendida se rodea de contraste. Se trata con suspensión del agente causal y tratamiento de la infección y de la obstrucción.",
+   "B": "La litiasis coraliforme muestra molde del sistema colector.",
+   "C": "La poliquistosis no se manifiesta con expulsión de papilas.",
+   "D": "La pielonefritis xantogranulomatosa muestra un riñón aumentado con cálculo y lesiones hipodensas ('oso panda').",
+   "E": "La tuberculosis renal se asocia a calcificaciones y estenosis, con piuria estéril."
+  },
+  "perla": "Necrosis papilar: diabetes, drepanocitosis, analgésicos/AINE, obstrucción. TC: papilas irregulares; urografía: 'sombra anular'.",
+  "referencias": [
+   "Brix AE. Toxicol Pathol 2002;30:672",
+   "Comprehensive Clinical Nephrology (nefropatía por analgésicos)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o3",
+  "peso": 59.4
+ },
+ {
+  "id": "NSA-4",
+  "serie_id": "NSA",
+  "orden": 4,
+  "sub": "17.e",
+  "subtema": "Intoxicación por AINE y uso en ERC",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Una paciente de 35 años ingresa por ingesta voluntaria de 40 tabletas de ibuprofeno de 400 mg con náuseas, vómito, somnolencia, acidosis con brecha aniónica elevada, creatinina de 1.9 mg/dL y convulsión aislada.",
+  "enunciado": "¿Cuál es el manejo apropiado?",
+  "opciones": {
+   "A": "Hemoperfusión con carbón de rutina, para eliminar el ibuprofeno circulante en la intoxicación aguda",
+   "B": "Antídoto específico con N-acetilcisteína, que revierte la toxicidad del ibuprofeno en la sobredosis aguda",
+   "C": "Hemodiálisis urgente para eliminar el fármaco, dada la acidosis, las convulsiones y la lesión renal",
+   "D": "Alcalinización urinaria con bicarbonato en dosis altas como único tratamiento de la intoxicación aguda",
+   "E": "Soporte con carbón activado temprano, control de convulsiones y acidosis, y vigilancia renal; la hemodiálisis es ineficaz"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La hemoperfusión no es rutina en intoxicación por AINE.",
+   "B": "La N-acetilcisteína es antídoto del paracetamol, no de los AINE.",
+   "C": "La hemodiálisis no elimina de forma útil fármacos con alta unión a proteínas.",
+   "D": "La alcalinización no sustituye al soporte y no es el único tratamiento.",
+   "E": "Los AINE se unen a proteínas en 95 a 99% y tienen un volumen de distribución pequeño pero no dializable por esa unión, por lo que la hemodiálisis es ineficaz; el manejo es de soporte: carbón activado si la ingesta fue en la última hora o dos, control de convulsiones con benzodiazepinas, corrección de acidosis y vigilancia de lesión renal aguda, casi siempre reversible. La plasmaféresis puede considerarse en intoxicaciones graves, aunque con poca evidencia. Se evitan AINE con TFGe menor de 30 y, si es posible, el uso prolongado con TFGe menor de 60, así como combinaciones con litio, IECA/ARA-II y diuréticos."
+  },
+  "perla": "Intoxicación por AINE: soporte, la HD no sirve (unión a proteínas 95–99%). Evitar AINE si TFGe <30.",
+  "referencias": [
+   "Whelton A. Am J Med 1999;106:13S",
+   "Comprehensive Clinical Nephrology (nefropatía por analgésicos)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o3",
+  "peso": 45.3
+ },
+ {
+  "id": "CNT-1",
+  "serie_id": "CNT",
+  "orden": 1,
+  "sub": "17.b",
+  "subtema": "Lesión renal aguda por contraste: factores de riesgo",
+  "dificultad": "moderada",
+  "caso": "Hombre de 72 años con diabetes, ERC G3b (TFGe de 36 mL/min/1.73 m²), insuficiencia cardiaca con fracción de eyección de 35% y síndrome coronario agudo. Se propone coronariografía de urgencia con contraste yodado intraarterial. Toma furosemida, enalapril y metformina.",
+  "enunciado": "¿Cómo se define la lesión por contraste y cuáles son los principales factores de riesgo?",
+  "opciones": {
+   "A": "Aumento de creatinina ≥0.3 mg/dL en 48 h o 1.5 veces en 7 días; riesgo con TFGe baja, diabetes, falla cardiaca y mucho contraste",
+   "B": "Se define solo por proteinuria, y el principal factor de riesgo es la hipertensión arterial sistémica",
+   "C": "No tiene factores de riesgo conocidos, porque aparece en cualquier paciente con la misma probabilidad",
+   "D": "Aumento de creatinina de 0.1 mg/dL a los 10 minutos del contraste, con diabetes y falla cardiaca como únicos factores de riesgo conocidos",
+   "E": "Solo ocurre en personas con TFG normal, porque la lesión depende de la hiperfiltración glomerular"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La lesión renal aguda asociada a contraste se define por aumento de la creatinina de 0.3 mg/dL o más dentro de 48 horas, o de 1.5 veces el valor basal dentro de 7 días, tras la administración de contraste yodado. Sus factores de riesgo son TFG baja (el umbral es de 45 mL/min/1.73 m² para la vía intraarterial con exposición renal de primer paso, como la coronariografía, y de 30 mL/min/1.73 m² para la vía intravenosa), diabetes, insuficiencia cardiaca, hipovolemia, anemia, edad avanzada, volumen alto de contraste, contraste hiperosmolar y uso concurrente de fármacos nefrotóxicos (AINE, aminoglucósidos).",
+   "B": "La definición es por creatinina o diuresis, no por proteinuria.",
+   "C": "Los factores de riesgo están bien descritos.",
+   "D": "La creatinina no cambia a los 10 minutos; el aumento ocurre en 24 a 48 horas.",
+   "E": "El riesgo es mayor con TFG baja, no en personas con TFG normal."
+  },
+  "perla": "CA-AKI: ↑Cr ≥0.3 en 48 h o ≥1.5× en 7 d. Riesgo: TFGe <45 (IA) o <30 (IV), DM, IC, hipovolemia, volumen de contraste.",
+  "referencias": [
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)",
+   "Comprehensive Clinical Nephrology (nefropatía por contraste)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "continuacion": "",
+  "obj": "17.o2",
+  "peso": 16.5
+ },
+ {
+  "id": "CNT-2",
+  "serie_id": "CNT",
+  "orden": 2,
+  "sub": "17.b",
+  "subtema": "Prevención: expansión de volumen y evidencia de NAC y bicarbonato",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se discute la profilaxis antes de la coronariografía en este paciente con insuficiencia cardiaca.",
+  "enunciado": "¿Cuál es la medida preventiva con mayor sustento?",
+  "opciones": {
+   "A": "Furosemida profiláctica para forzar la diuresis, porque reduce el tiempo de contacto del contraste con el túbulo",
+   "B": "No se requiere ninguna medida preventiva, porque la lesión por contraste es siempre leve y se autolimita en el paciente",
+   "C": "N-acetilcisteína sola, por su eficacia comprobada para prevenir la lesión renal por contraste en cardiopatía",
+   "D": "Bicarbonato de sodio como único método, por ser superior a la solución salina isotónica en la prevención según los ensayos recientes",
+   "E": "Salina isotónica ajustada a la función cardiaca, menor dosis de contraste y retiro de nefrotóxicos; NAC y bicarbonato no la superan"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La diuresis forzada con furosemida sola no previene y puede empeorar la hipovolemia.",
+   "B": "Con TFGe de 36 y vía intraarterial se indica profilaxis.",
+   "C": "La N-acetilcisteína no tuvo beneficio en PRESERVE.",
+   "D": "El bicarbonato no fue superior a la solución salina.",
+   "E": "La única medida preventiva con respaldo es la expansión de volumen con solución salina isotónica (por ejemplo, 1 a 1.5 mL/kg/h durante 6 a 12 horas antes y después, ajustada en insuficiencia cardiaca, a veces guiada por la presión telediastólica del ventrículo izquierdo), junto con minimizar el volumen de contraste, elegir agentes iso o de baja osmolaridad y suspender nefrotóxicos. En el estudio PRESERVE no hubo diferencias entre bicarbonato y solución salina ni entre N-acetilcisteína y placebo. Los diuréticos de asa no previenen el daño (la furosemida profiláctica se asoció a más lesión), y la hemofiltración profiláctica no está recomendada."
+  },
+  "perla": "CA-AKI: solución salina isotónica (ajustar en IC), ↓ volumen de contraste, suspender nefrotóxicos. NAC y bicarbonato no ganan a salina (PRESERVE).",
+  "referencias": [
+   "Weisbord SD et al. N Engl J Med 2018;378:603 (PRESERVE)",
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o2",
+  "peso": 18.5
+ },
+ {
+  "id": "CNT-3",
+  "serie_id": "CNT",
+  "orden": 3,
+  "sub": "17.b",
+  "subtema": "Evolución típica y metformina",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tras la coronariografía, la creatinina sube de 1.9 a 2.6 mg/dL a las 48 horas, alcanza su pico a los 4 días y baja después. La FeNa es menor de 1% y el sedimento muestra pocos cilindros. El paciente sigue tomando metformina.",
+  "enunciado": "¿Cuál es el curso esperado y qué se hace con la metformina?",
+  "opciones": {
+   "A": "La creatinina sube a los 14 días y nunca regresa, porque la lesión por contraste es siempre irreversible",
+   "B": "Continuar metformina sin cambios, porque el contraste no interfiere con su eliminación renal",
+   "C": "La FeNa es siempre mayor de 3%, porque la lesión por contraste es una necrosis tubular establecida",
+   "D": "Pico a los 3–5 días y regreso al basal en 7–10 días, con FeNa baja; se suspende la metformina por el riesgo de acidosis láctica",
+   "E": "Iniciar corticoides, porque la lesión renal por contraste es de tipo inflamatorio y responde a la inmunosupresión en pocos días de tratamiento"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El aumento no ocurre a los 14 días y suele revertir.",
+   "B": "Con lesión renal aguda la metformina debe suspenderse.",
+   "C": "La FeNa suele ser baja al inicio, no mayor de 3%.",
+   "D": "El curso clásico de la lesión por contraste es un aumento de la creatinina entre 24 y 48 horas, con pico entre 3 y 5 días y recuperación en 7 a 10 días. La fisiopatología incluye vasoconstricción medular y toxicidad tubular directa, y puede acompañarse de FeNa baja, orina concentrada y pocos cilindros granulosos. Aunque la mayoría se recupera, algunos pacientes quedan con daño permanente. La metformina se suspende ante lesión renal aguda o TFGe menor de 30 por el riesgo de acidosis láctica, y se reinicia cuando la función se estabiliza. No hay tratamiento específico (los corticoides no tienen papel).",
+   "E": "Los corticoides no tienen beneficio."
+  },
+  "perla": "CA-AKI: Cr ↑24–48 h, pico 3–5 d, normaliza 7–10 d; FeNa baja. Suspender metformina si LRA o TFG <30.",
+  "referencias": [
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)",
+   "Comprehensive Clinical Nephrology (nefropatía por contraste)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o2",
+  "peso": 16.5
+ },
+ {
+  "id": "IAR-1",
+  "serie_id": "IAR",
+  "orden": 1,
+  "sub": "17.c",
+  "subtema": "IECA/ARA II: aumento esperado de creatinina",
+  "dificultad": "moderada",
+  "caso": "Mujer de 34 años con diabetes tipo 1 desde los 12 años, hipertensión arterial, TFGe de 70 mL/min/1.73 m² (creatinina de 1.0 mg/dL), cociente albúmina/creatinina de 600 mg/g y potasio de 4.6 mEq/L. Se inicia losartán 50 mg al día. A los 10 días su creatinina es de 1.2 mg/dL (aumento de 20%), el potasio de 5.0 mEq/L y la TA de 126/78 mmHg; está euvolémica y no toma AINE.",
+  "enunciado": "¿Cuál es la conducta apropiada?",
+  "opciones": {
+   "A": "Cambiar a un diurético tiazídico y no usar bloqueo del SRAA, porque la creatinina subió tras iniciar el losartán y el fármaco es nefrotóxico",
+   "B": "Suspender definitivamente el losartán por lesión renal aguda, porque el aumento de creatinina indica nefrotoxicidad",
+   "C": "Solicitar angiografía renal de urgencia, porque el aumento de creatinina tras el ARA-II indica estenosis bilateral",
+   "D": "Duplicar la dosis de inmediato, porque el aumento de creatinina indica que el fármaco ya es efectivo",
+   "E": "Continuar el losartán y repetir creatinina y K en 1–2 semanas; un aumento ≤30% es esperado (↓ presión glomerular)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Las tiazidas no sustituyen la nefroprotección del bloqueo del SRAA en diabetes con albuminuria.",
+   "B": "Suspender por un aumento menor de 30% elimina el beneficio nefroprotector sin justificación.",
+   "C": "No hay indicación de angiografía con un aumento menor de 30%.",
+   "D": "No se duplica la dosis sin confirmar la estabilidad de la creatinina y del potasio.",
+   "E": "Los IECA y los ARA II dilatan la arteriola eferente y reducen la presión del capilar glomerular, lo que disminuye la TFG de manera hemodinámica y aumenta la creatinina; este efecto es esperado y beneficioso a largo plazo, porque reduce la hiperfiltración y la proteinuria. La guía KDIGO 2024 recomienda continuar el bloqueo del SRAA y no suspenderlo por un aumento de creatinina de hasta 30% en las primeras 4 semanas del inicio o de un aumento de dosis, siempre que el paciente esté euvolémico, y repetir creatinina y potasio a las 2 a 4 semanas. Un aumento mayor de 30% o una hiperpotasemia refractaria obliga a buscar causas de hipoperfusión (hipovolemia, AINE, insuficiencia cardiaca) y, en situaciones específicas, estenosis bilateral de arterias renales. Suspender el fármaco por un cambio esperado priva al paciente de la nefroprotección."
+  },
+  "perla": "IECA/ARA II: ↑Cr ≤30% en 4 semanas es esperado (hemodinámico) → continuar y vigilar; >30% o K refractario → buscar hipovolemia/AINE/EAR bilateral. KDIGO 2024.",
+  "referencias": [
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117",
+   "Comprehensive Clinical Nephrology (nefrotoxicidad)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "continuacion": "",
+  "obj": "17.o3",
+  "peso": 15.7
+ },
+ {
+  "id": "IAR-4",
+  "serie_id": "IAR",
+  "orden": 4,
+  "sub": "17.c",
+  "subtema": "Bloqueo del SRAA en ERC avanzada: continuar o suspender",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Años después, la paciente tiene nefropatía diabética con TFGe de 24 mL/min/1.73 m² (G4A3), CAC de 1,400 mg/g, TA de 138/82 mmHg y potasio de 5.1 mEq/L bajo losartán 100 mg. El médico de primer contacto propone suspender el losartán 'porque la TFG ya es baja'.",
+  "enunciado": "¿Qué se recomienda?",
+  "opciones": {
+   "A": "Suspender y reiniciar solo cuando la TFGe sea mayor de 60, porque el bloqueo del SRAA no es seguro con G4",
+   "B": "Suspender solo si hay proteinuria, porque sin proteinuria el bloqueo del SRAA carece de beneficio renal",
+   "C": "Suspender de inmediato, porque los IECA/ARA II están contraindicados con TFGe menor de 30 mL/min/1.73 m² y potasio de 5.1 mEq/L",
+   "D": "Cambiar a espironolactona, porque el antagonista mineralocorticoide es más seguro en la ERC avanzada",
+   "E": "Continuar el losartán: STOP-ACEi no mostró mejoría de la TFG al suspenderlo; manejar el potasio con dieta, diuréticos y captores"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No hay un umbral de TFGe de 60 para reintroducirlos; en la ERC avanzada se continúan.",
+   "B": "La proteinuria es una razón para continuar el bloqueo, no para suspenderlo.",
+   "C": "No están contraindicados con TFGe menor de 30; la suspensión sistemática no mostró beneficio.",
+   "D": "La espironolactona no sustituye a los IECA/ARA II y elevaría aún más el potasio.",
+   "E": "En la ERC avanzada, los IECA y ARA II conservan la nefroprotección y la protección cardiovascular, y no están contraindicados con TFGe menor de 30. El ensayo STOP-ACEi (Bhandari et al., N Engl J Med 2022), con pacientes de TFGe 15 a 30 mL/min/1.73 m², mostró que suspender el bloqueo del SRAA no mejoró la TFGe a 3 años frente a continuarlo, sin diferencias en la progresión a terapia sustitutiva ni en eventos cardiovasculares. La guía KDIGO 2024 recomienda continuar el bloqueo del SRAA en la ERC avanzada, y suspenderlo solo ante hipotensión sintomática, hiperpotasemia incontrolable a pesar de las medidas (dieta, diurético, bicarbonato, captores de potasio) o lesión renal aguda intercurrente, y como parte de las reglas de día enfermo. Un potasio de 5.1 mEq/L no justifica la suspensión."
+  },
+  "perla": "ERC G4–G5: continuar iSRAA (STOP-ACEi 2022: suspender no mejora TFG ni diálisis). Suspender solo si hipotensión sintomática, K refractario o LRA intercurrente.",
+  "referencias": [
+   "Bhandari S et al. N Engl J Med 2022;387:2021 (STOP-ACEi)",
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o3",
+  "peso": 17.7
+ },
+ {
+  "id": "IAR-3",
+  "serie_id": "IAR",
+  "orden": 3,
+  "sub": "17.c",
+  "subtema": "Reglas de día enfermo con bloqueo del SRAA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un año después, la paciente presenta 3 días de vómito y diarrea con ingesta oral mínima, mientras continúa con losartán, metformina, empagliflozina e ibuprofeno. Ingresa con TA de 88/54 mmHg, creatinina de 2.7 mg/dL, potasio de 6.1 mEq/L, bicarbonato de 14 mEq/L y lactato de 4.2 mmol/L. El electrocardiograma muestra ondas T picudas.",
+  "enunciado": "¿Cuál es el manejo y la recomendación para el futuro?",
+  "opciones": {
+   "A": "Suspender solo el ibuprofeno, porque es el único fármaco nefrotóxico de la lista y el resto es seguro",
+   "B": "Gluconato de calcio IV, volumen y suspensión temporal de losartán, metformina, empagliflozina e ibuprofeno; reglas de día enfermo",
+   "C": "Hemodiálisis inmediata sin otras medidas, porque la hiperpotasemia con lesión renal aguda lo exige",
+   "D": "Duplicar el losartán para controlar la presión, porque la hipotensión es secundaria a la hipertensión previa",
+   "E": "Continuar todos los fármacos y solo administrar líquidos, porque la lesión renal aguda se corrige con volumen y sin suspender nada"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Suspender únicamente el ibuprofeno deja la nefrotoxicidad y la hiperpotasemia por los otros fármacos.",
+   "B": "Una lesión renal aguda hemodinámica por hipovolemia, con bloqueo del SRAA, un AINE, un inhibidor de SGLT2 y metformina, produce hiperpotasemia, acidosis y riesgo de acidosis láctica. El manejo incluye estabilizar la membrana cardiaca con gluconato de calcio al haber cambios electrocardiográficos, restituir el volumen con cristaloides balanceados y retirar de forma temporal los fármacos implicados: iSRAA, AINE, metformina, inhibidores de SGLT2 y diuréticos. Las 'reglas de día enfermo' (sick-day rules) consisten en suspender estos fármacos durante enfermedades con vómito, diarrea o fiebre y reanudarlos cuando se recupera la ingesta, entre 24 y 48 horas después. Se reevalúa la función renal antes de reintroducirlos, y el AINE se evita de forma permanente.",
+   "C": "La diálisis no es de primera línea si el cuadro puede corregirse con volumen y retiro de fármacos.",
+   "D": "Aumentar el losartán agravaría la hipotensión renal y la hiperpotasemia.",
+   "E": "Continuar los fármacos agravaría la lesión renal, la acidosis y la hiperpotasemia."
+  },
+  "perla": "Día enfermo: suspender iSRAA, AINE, diuréticos, metformina, iSGLT2; reanudar a las 24–48 h con ingesta. Hiperpotasemia con ECG: calcio IV primero.",
+  "referencias": [
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o3",
+  "peso": 17.7
+ },
+ {
+  "id": "IAR-2",
+  "serie_id": "IAR",
+  "orden": 2,
+  "sub": "17.c",
+  "subtema": "Fetotoxicidad de IECA/ARA II",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente, que mantiene el losartán con creatinina estable, quiere embarazarse y pregunta por los riesgos del fármaco.",
+  "enunciado": "¿Cuál es el riesgo y la recomendación?",
+  "opciones": {
+   "A": "Son seguros en todo el embarazo, porque no cruzan la barrera placentaria ni afectan al feto",
+   "B": "Deben iniciarse al conocer el embarazo para proteger el riñón fetal, porque disminuyen la hiperfiltración",
+   "C": "Son fetotóxicos (oligohidramnios, hipoplasia pulmonar, anuria neonatal); se suspenden y se sustituyen por labetalol o nifedipino",
+   "D": "Su único riesgo es la hipoglucemia neonatal, que se previene con alimentación temprana y vigilancia glucémica estrecha del recién nacido",
+   "E": "Solo son peligrosos en el primer trimestre, y se pueden usar con seguridad después de la semana 13"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No son seguros en ninguna etapa del embarazo.",
+   "B": "No deben iniciarse en el embarazo.",
+   "C": "La angiotensina II es esencial para el desarrollo y el flujo sanguíneo renal fetal. Los IECA y ARA II administrados en el segundo y tercer trimestre producen la fetopatía por inhibición del SRAA: hipotensión fetal e isquemia renal con oliguria, oligohidramnios, hipoplasia pulmonar, displasia tubular renal, hipoplasia de la calota craneal, contracturas y anuria neonatal, con alta mortalidad. También se han descrito malformaciones con exposición en el primer trimestre. Por eso se suspenden antes de la concepción, con vigilancia estrecha de la proteinuria y de la presión, o en cuanto se detecta el embarazo. Para controlar la presión se usan labetalol, nifedipino de liberación prolongada o metildopa, y en el embarazo con proteinuria se vigila la preeclampsia.",
+   "D": "Sus riesgos no se limitan a la hipoglucemia, e incluyen daño renal y pulmonar fetal.",
+   "E": "El mayor riesgo es en el segundo y tercer trimestres, aunque el primer trimestre tampoco está exento."
+  },
+  "perla": "IECA/ARA II: fetotoxicidad (2º-3º trim: oligohidramnios, hipoplasia pulmonar, displasia renal, anuria). Suspender preconcepción/al embarazo; labetalol, nifedipino, metildopa.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (riñón y embarazo)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o3",
+  "peso": 17.7
+ },
+ {
+  "id": "ICN-1",
+  "serie_id": "ICN",
+  "orden": 1,
+  "sub": "17.d",
+  "subtema": "Ciclosporina: nefrotoxicidad aguda hemodinámica",
+  "dificultad": "moderada",
+  "caso": "Hombre de 40 años con síndrome nefrótico por glomeruloesclerosis focal y segmentaria resistente a esteroides, tratado con ciclosporina (3.5 mg/kg/día) y prednisona durante 8 meses, con remisión parcial. Su creatinina pasó de 1.0 a 1.5 mg/dL, la concentración valle de ciclosporina es de 290 ng/mL (objetivo de 100 a 150), la TA es de 152/96 mmHg y el potasio de 5.4 mEq/L. El examen general de orina no muestra hematuria ni cilindros.",
+  "enunciado": "¿Cuál es el mecanismo del aumento de creatinina y la conducta?",
+  "opciones": {
+   "A": "Depósito de cristales de ciclosporina en el túbulo, por lo que se alcaliniza la orina y se aumenta la hidratación",
+   "B": "Trombosis de la vena renal por el síndrome nefrótico persistente, por lo que se anticoagula y se solicita Doppler",
+   "C": "Vasodilatación aferente excesiva por la ciclosporina, por lo que se agrega un AINE para restablecer el tono y la TFG",
+   "D": "Nefritis intersticial alérgica por la ciclosporina, por lo que se aumentan los esteroides y se suspende el inhibidor definitivamente",
+   "E": "Vasoconstricción aferente dosis-dependiente (↑endotelina, ↑tromboxano, ↓NO); se reduce la dosis al nivel meta"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No hay cristaluria ni fármacos que formen cristales.",
+   "B": "No hay datos clínicos de trombosis venosa.",
+   "C": "La toxicidad es por vasoconstricción y no por vasodilatación; los AINE agravarían la lesión.",
+   "D": "No hay datos de nefritis intersticial alérgica, y el fenómeno es dosis-dependiente.",
+   "E": "Los inhibidores de calcineurina (ciclosporina y tacrolimus) causan una nefrotoxicidad hemodinámica aguda y dependiente de la dosis por vasoconstricción de la arteriola aferente (aumento de endotelina-1, tromboxano A₂ y activación del SRAA, con menor producción de óxido nítrico y prostaciclina), que reduce el flujo plasmático y la TFG. Se manifiesta con aumento de la creatinina, hipertensión, hiperpotasemia, acidosis tubular tipo 4, hipomagnesemia e hiperuricemia. Con niveles supraterapéuticos como el de este paciente, el manejo es reducir la dosis y mantener el nivel objetivo, evitar fármacos que eleven los niveles o que sean nefrotóxicos (AINE) y vigilar la creatinina; el efecto agudo es reversible. Un aumento persistente de más de 30% a pesar de la reducción obliga a considerar suspender o a biopsia."
+  },
+  "perla": "CNI agudo: vasoconstricción aferente dosis-dependiente (↑ET-1, TXA₂, SRAA; ↓NO/PGI₂) → ↑Cr, HTA, ↑K, ↓Mg, ↑ácido úrico. Reversible: bajar dosis a nivel objetivo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por inmunosupresores)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "continuacion": "",
+  "obj": "17.o4",
+  "peso": 34.2
+ },
+ {
+  "id": "ICN-2",
+  "serie_id": "ICN",
+  "orden": 2,
+  "sub": "17.d",
+  "subtema": "Alteraciones electrolíticas e hipertensión por inhibidores de calcineurina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente tiene además magnesio de 1.2 mg/dL, bicarbonato de 19 mEq/L con brecha aniónica normal, ácido úrico de 9.1 mg/dL y temblor fino. Persisten la hipertensión y el potasio elevado a pesar de ajustar la dosis.",
+  "enunciado": "¿Qué mecanismo explica la hiperpotasemia y la hipertensión por estos fármacos, y qué antihipertensivo tiene sentido?",
+  "opciones": {
+   "A": "Bloqueo del canal ROMK por el fármaco, por lo que se agrega amilorida para reducir la pérdida de sodio",
+   "B": "Hiperaldosteronismo primario, por lo que se usa espironolactona, porque la hiperpotasemia indica exceso de aldosterona",
+   "C": "Inhibición de la 11β-hidroxiesteroide deshidrogenasa, por lo que se dan esteroides para reponer el cortisol y corregir la presión",
+   "D": "Activación del NCC por WNK/SPAK con menor secreción distal de K⁺ (Gordon adquirido); tiazida corrige K y presión",
+   "E": "Defecto del receptor de ADH, por lo que se administra desmopresina, porque el fármaco bloquea la acción de la vasopresina"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La amilorida bloquea ENaC y agravaría la hiperpotasemia.",
+   "B": "No hay hiperaldosteronismo; la espironolactona empeoraría la hiperpotasemia.",
+   "C": "No hay un defecto de la 11β-HSD2, y los esteroides no corrigen el cuadro.",
+   "D": "Los inhibidores de calcineurina aumentan la actividad del cotransportador Na-Cl del túbulo contorneado distal (NCC) al estimular la vía WNK1/WNK4-SPAK/OSR1, con retención de sodio, expansión de volumen e hipertensión, y reducen la entrega distal de sodio con menor secreción de potasio, lo que explica la hiperpotasemia y la acidosis tubular tipo 4 (fenotipo de síndrome de Gordon). Además, disminuyen la expresión de TRPM6 (canal de magnesio distal), con hipomagnesemia, y aumentan el ácido úrico por menor excreción. Por eso, las tiazidas son útiles para tratar hipertensión e hiperpotasemia en estos pacientes, con monitoreo del volumen y la función renal. Los síntomas neurológicos como el temblor indican niveles elevados.",
+   "E": "No hay poliuria ni defecto de ADH."
+  },
+  "perla": "CNI → ↑NCC (WNK-SPAK): HTA + ↑K + ATR IV ('Gordon adquirido'); ↓TRPM6 → ↓Mg; ↑urato. Tiazida corrige HTA e hiperpotasemia.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por inmunosupresores)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o4",
+  "peso": 18.0
+ },
+ {
+  "id": "ICN-3",
+  "serie_id": "ICN",
+  "orden": 3,
+  "sub": "17.d",
+  "subtema": "Interacciones farmacológicas con ciclosporina y tacrolimus",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se decide agregar un antagonista del calcio para controlar la presión arterial, y el paciente además recibirá tratamiento por una micosis ungueal y una infección respiratoria.",
+  "enunciado": "¿Qué combinaciones deben evitarse o vigilarse?",
+  "opciones": {
+   "A": "Evitar verapamilo, diltiazem, azoles y macrólidos, que elevan los niveles del ICN; preferir amlodipino o nifedipino",
+   "B": "Usar verapamilo sin vigilancia porque disminuye los niveles del inhibidor de calcineurina y no interactúa con CYP3A4",
+   "C": "El pomelo reduce los niveles del inhibidor de calcineurina y se recomienda su consumo diario como medida de ahorro del fármaco",
+   "D": "Evitar cualquier antagonista del calcio, porque todos son nefrotóxicos y potencian la toxicidad de los inhibidores de calcineurina",
+   "E": "Usar rifampicina y fenitoína porque aumentan el nivel del inhibidor de calcineurina y permiten reducir la dosis de tacrolimus"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La ciclosporina y el tacrolimus se metabolizan por CYP3A4 y son sustratos de la glicoproteína P. Los inhibidores de estas vías (verapamilo, diltiazem, azoles como ketoconazol, fluconazol a dosis altas e itraconazol, macrólidos como claritromicina y eritromicina, ritonavir y el jugo de pomelo) elevan los niveles y aumentan la nefrotoxicidad y la toxicidad neurológica; los inductores (rifampicina, fenitoína, carbamazepina, fenobarbital e hipérico) los reducen y favorecen el rechazo o la pérdida de efecto. Para la hipertensión se prefieren las dihidropiridinas (amlodipino, nifedipino), que no elevan significativamente los niveles y dilatan la arteriola aferente, contrarrestando la vasoconstricción; la azitromicina tiene menos interacción que la claritromicina. Se deben vigilar los niveles valle ante cualquier fármaco nuevo.",
+   "B": "El verapamilo eleva los niveles, no los reduce.",
+   "C": "El pomelo inhibe CYP3A4 y eleva los niveles.",
+   "D": "Las dihidropiridinas son útiles y no son nefrotóxicas en este contexto.",
+   "E": "La rifampicina y la fenitoína inducen el metabolismo y reducen el nivel."
+  },
+  "perla": "CNI: ↑nivel con verapamilo, diltiazem, azoles, macrólidos (claritro/eritro), pomelo; ↓nivel con rifampicina, fenitoína, carbamazepina, hipérico. HTA: dihidropiridina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por inmunosupresores)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o4",
+  "peso": 36.2
+ },
+ {
+  "id": "ICN-4",
+  "serie_id": "ICN",
+  "orden": 4,
+  "sub": "17.d",
+  "subtema": "Nefrotoxicidad crónica por ciclosporina: histología y duración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras 2.5 años con ciclosporina por dependencia de este fármaco para mantener la remisión parcial, la creatinina es de 1.8 mg/dL a pesar de niveles dentro del objetivo. Se realiza una nueva biopsia.",
+  "enunciado": "¿Qué lesión es más característica de la nefrotoxicidad crónica y cuál es el manejo?",
+  "opciones": {
+   "A": "Hialinosis arteriolar nodular y fibrosis en banda con atrofia tubular; limitar el fármaco a <2 años y cambiar",
+   "B": "Necrosis fibrinoide con semilunas y depósitos de IgA, que indican una nefropatía por IgA crescéntica superpuesta",
+   "C": "Depósitos de amiloide y nódulos mesangiales, que indican amiloidosis renal secundaria al tratamiento prolongado",
+   "D": "Nódulos de Kimmelstiel-Wilson con membrana basal engrosada, que indican nefropatía diabética nodular establecida",
+   "E": "Cristales de oxalato en la luz tubular únicamente, que indican nefropatía por oxalato secundaria a la ciclosporina crónica"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La toxicidad crónica por inhibidores de calcineurina se caracteriza por arteriolopatía hialina nodular que protruye de la media hacia la adventicia (el marcador más específico), fibrosis intersticial en banda (en rayas) que sigue los rayos medulares, atrofia tubular y esclerosis glomerular global o segmentaria isquémica; la lesión tiene un componente irreversible. Se relaciona con la dosis y la duración, con riesgo claro después de 2 años de tratamiento (por ejemplo, en síndrome nefrótico) y con aumentos persistentes de creatinina mayores de 30%. En lo posible, el tratamiento se limita a 1 o 2 años, con la menor dosis eficaz, vigilancia de la TFG y biopsia ante deterioro, y se considera cambiar a micofenolato, rituximab u otras estrategias. En el trasplante renal, la arteriolopatía puede confundirse con la nefropatía crónica del injerto.",
+   "B": "Corresponde a una glomerulonefritis proliferativa con semilunas, no a la toxicidad por CNI.",
+   "C": "El amiloide se tiñe con rojo Congo y no se asocia a este fármaco.",
+   "D": "Los nódulos de Kimmelstiel-Wilson son lesiones de nefropatía diabética.",
+   "E": "El oxalato produce una nefropatía por cristales, sin las lesiones arteriolares descritas."
+  },
+  "perla": "CNI crónico: hialinosis arteriolar nodular (más específica) + fibrosis en banda + GE isquémica. Limitar a ≤2 años cuando sea posible; biopsia si ↑Cr >30%.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por inmunosupresores)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o4",
+  "peso": 18.0
+ },
+ {
+  "id": "MET-1",
+  "serie_id": "MET",
+  "orden": 1,
+  "sub": "17.f",
+  "subtema": "Nefropatía crónica por plomo",
+  "dificultad": "moderada",
+  "caso": "Hombre de 52 años que trabaja desde hace 25 años en el reciclaje de baterías de automóviles. Tiene hipertensión, episodios de artritis gotosa desde los 40 años, cólicos abdominales recurrentes, anemia normocítica con punteado basófilo, creatinina de 1.9 mg/dL y proteinuria de 0.5 g/día. Se descartan diabetes y glomerulopatías.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y cuál es la explicación de la gota?",
+  "opciones": {
+   "A": "Nefropatía por IgA; depósitos mesangiales, porque la hipertensión y la anemia sugieren una glomerulopatía",
+   "B": "Nefropatía tubulointersticial crónica por plomo; reduce la excreción de ácido úrico y causa 'gota saturnina' e hipertensión",
+   "C": "Nefropatía diabética; hiperglucemia, porque la hipertensión con gota y cólicos indica diabetes no diagnosticada",
+   "D": "Nefritis lúpica; anticuerpos antinucleares, porque la artritis con anemia en un hombre indica lupus",
+   "E": "Nefropatía membranosa por mercurio; proteinuria, porque el reciclaje de baterías de automóviles expone a mercurio inorgánico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La nefropatía por IgA cursa con hematuria glomerular, no con gota ni cólicos.",
+   "B": "La exposición crónica al plomo (baterías, soldaduras, pinturas, cerámica, bebidas alcohólicas ilícitas) produce una nefropatía tubulointersticial crónica con fibrosis, atrofia tubular y deterioro progresivo de la función, junto con hipertensión. Reduce la excreción fraccional de ácido úrico y causa hiperuricemia con gota juvenil o atípica (gota saturnina) y se acompaña de anemia con punteado basófilo, cólico abdominal, neuropatía motora periférica y línea gingival azulada. Es una causa de ERC con proteinuria leve y sedimento pobre. El diagnóstico se apoya en la historia ocupacional y en la plumbemia, y el EDTA cálcico se usa para la prueba de movilización.",
+   "C": "No hay diabetes; los hallazgos de anemia con punteado basófilo y cólicos orientan a plomo.",
+   "D": "El lupus no explica la ocupación, la gota ni el punteado basófilo.",
+   "E": "La membranosa por mercurio produce síndrome nefrótico, con proteinuria mayor."
+  },
+  "perla": "Plomo: ERC tubulointersticial + HTA + gota ('saturnina', ↓FEUA) + anemia con punteado basófilo + cólico + neuropatía. Dx: plumbemia / movilización con EDTA.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por metales)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "continuacion": "",
+  "obj": "17.o4",
+  "peso": 16.3
+ },
+ {
+  "id": "MET-2",
+  "serie_id": "MET",
+  "orden": 2,
+  "sub": "17.f",
+  "subtema": "Diagnóstico y quelación en la nefropatía por plomo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La plumbemia es de 28 µg/dL. La carga corporal no se refleja bien en la sangre, porque el plomo se almacena sobre todo en el hueso.",
+  "enunciado": "¿Qué prueba y qué tratamiento se plantean?",
+  "opciones": {
+   "A": "Prueba de movilización con EDTA cálcico (plomo urinario de 24 h); si la carga es alta, quelación con EDTA y suspender la exposición",
+   "B": "Quelación con deferoxamina como primera elección, porque es el quelante más eficaz para el plomo almacenado en el hueso",
+   "C": "Hemodiálisis para eliminar el plomo, porque el metal circula libre en el plasma y se depura bien con el dializador",
+   "D": "Medir solo la creatinina; no existe ningún tratamiento específico para la nefropatía por plomo, y se espera la progresión inevitable",
+   "E": "Biopsia renal como único método diagnóstico, porque la plumbemia no refleja la carga corporal ni la exposición"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La plumbemia refleja la exposición reciente, pero no la carga ósea, que es la que se asocia a la nefropatía crónica. La prueba de movilización con EDTA cálcico (administración intramuscular o intravenosa y medición del plomo urinario de 24 a 72 horas) estima la carga corporal. En pacientes con ERC y carga elevada, ciclos de quelación con EDTA cálcico (Lin et al., N Engl J Med 2003) frenaron la progresión de la enfermedad, y se acompañan de suspensión de la exposición, control de la hipertensión y tratamiento de la gota. En intoxicaciones sintomáticas se emplean succímero (DMSA) o dimercaprol, según la gravedad. La quelación debe hacerse con vigilancia, porque el EDTA es nefrotóxico si se emplea en dosis excesivas.",
+   "B": "La deferoxamina se usa en la sobrecarga de hierro y aluminio.",
+   "C": "La hemodiálisis no depura el plomo, que se almacena en el hueso.",
+   "D": "Se dispone de pruebas diagnósticas y tratamientos específicos.",
+   "E": "El diagnóstico se basa en la exposición y la plumbemia/movilización, y no en la biopsia."
+  },
+  "perla": "Plomo: plumbemia (exposición reciente) vs movilización con CaNa₂EDTA (carga ósea). Quelación con EDTA cálcico frenó progresión de ERC (Lin 2003); DMSA/BAL en sintomáticos.",
+  "referencias": [
+   "Lin JL et al. N Engl J Med 2003;348:277",
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por metales)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o4",
+  "peso": 18.3
+ },
+ {
+  "id": "MET-3",
+  "serie_id": "MET",
+  "orden": 3,
+  "sub": "17.f",
+  "subtema": "Cadmio: tubulopatía proximal y proteinuria de bajo peso molecular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El compañero de trabajo del paciente, soldador de baterías de níquel-cadmio durante 20 años, tiene glucosuria con glucemia normal, fosfaturia, hipercalciuria, litiasis renal, osteomalacia y proteinuria de 1 g/día, compuesta sobre todo por β₂-microglobulina y retinol-binding protein.",
+  "enunciado": "¿Cuál es el mecanismo y qué se debe saber sobre el tratamiento?",
+  "opciones": {
+   "A": "Nefritis lúpica, que se trata con ciclofosfamida y esteroides, por la proteinuria y la osteomalacia asociadas",
+   "B": "Cadmio acumulado en el túbulo proximal, con Fanconi y proteinuria; quelación ineficaz, suspender la exposición",
+   "C": "Toxicidad por plomo con gota saturnina, que se trata con quelación con EDTA y suspensión de la exposición laboral",
+   "D": "Nefropatía por IgA, que se trata con esteroides y bloqueo del SRAA por la glucosuria, la fosfaturia y la proteinuria",
+   "E": "Nefropatía diabética con glucosuria, que se trata con IECA e iSGLT2 por la proteinuria persistente del paciente soldador"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El lupus produce proteinuria glomerular y sedimento activo.",
+   "B": "El cadmio, presente en baterías de níquel-cadmio, soldadura, fundición, pigmentos y el humo del tabaco, se absorbe y se une a la metalotioneína; el complejo se filtra y se reabsorbe en el túbulo proximal por endocitosis, donde libera cadmio libre que daña la célula. La vida media renal es de 10 a 30 años. Produce proteinuria tubular de bajo peso molecular (β₂-microglobulina, proteína ligadora de retinol, α₁-microglobulina), glucosuria normoglucémica, fosfaturia, aminoaciduria, hipercalciuria con litiasis y osteomalacia (enfermedad de itai-itai en poblaciones expuestas por arroz contaminado), y luego ERC. La quelación no es eficaz para eliminar el cadmio renal y puede ser nefrotóxica; el eje del tratamiento es suspender la exposición y tratar las complicaciones óseas y electrolíticas.",
+   "C": "El plomo produce gota, hipertensión y anemia, y no este perfil de tubulopatía proximal.",
+   "D": "La nefropatía por IgA cursa con hematuria y proteinuria glomerular.",
+   "E": "La proteinuria de bajo peso molecular y la tubulopatía no son de nefropatía diabética."
+  },
+  "perla": "Cadmio: baterías Ni-Cd, soldadura, tabaco; metalotioneína, vida media renal 10–30 a; Fanconi + β₂-microglobulina + litiasis + osteomalacia. Sin quelación eficaz.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por metales)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o4",
+  "peso": 36.4
+ },
+ {
+  "id": "OAU-1",
+  "serie_id": "OAU",
+  "orden": 1,
+  "sub": "17.g",
+  "subtema": "Penicilamina y sales de oro: nefropatía membranosa",
+  "dificultad": "moderada",
+  "caso": "Mujer de 49 años con artritis reumatoide seropositiva tratada con penicilamina desde hace 7 meses. Presenta edema de miembros inferiores, albúmina de 2.4 g/dL, proteinuria de 5.5 g/día, creatinina de 0.8 mg/dL, complemento normal y anticuerpos antinucleares y anti-PLA2R negativos. Una biopsia muestra engrosamiento de la membrana basal con depósitos subepiteliales granulares de IgG y C3.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento de la lesión renal?",
+  "opciones": {
+   "A": "Membranosa por penicilamina: suspender el fármaco y dar soporte con SRAA; la remisión toma 6–18 meses sin inmunosupresión inicial",
+   "B": "Glomerulonefritis lúpica clase V; ciclofosfamida, porque la artritis reumatoide seropositiva se asocia con lupus",
+   "C": "Enfermedad de cambios mínimos; esteroides de entrada, porque la proteinuria nefrótica en adultos suele responder",
+   "D": "Nefropatía membranosa primaria anti-PLA2R; rituximab inmediato, porque el cuadro clínico es idéntico al de la forma idiopática y requiere inmunosupresión",
+   "E": "Nefritis intersticial aguda; esteroides, porque el fármaco reciente produce una reacción inmunoalérgica renal"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La penicilamina y las sales de oro (aurotiomalato, auranofina), usadas en la artritis reumatoide, causan nefropatía membranosa en una proporción de los pacientes (cerca de 5 a 10% con penicilamina y 3 a 10% con oro), con proteinuria que aparece típicamente después de varios meses de tratamiento. El hallazgo de anti-PLA2R negativo, el contexto farmacológico y los depósitos subepiteliales orientan a una forma secundaria. Se vigila la proteinuria antes de cada dosis (sobre todo con oro), se suspende el fármaco, se da tratamiento de soporte con IECA o ARA II, control de lípidos y de edema, y se espera la remisión espontánea, que suele ocurrir entre 6 y 18 meses después de suspenderlo. Otras causas de membranosa secundaria: lupus, hepatitis B, neoplasias, AINE, captopril, litio y mercurio.",
+   "B": "No hay datos clínicos ni serológicos de lupus.",
+   "C": "En cambios mínimos no hay depósitos subepiteliales.",
+   "D": "El anti-PLA2R negativo y el fármaco causal apuntan a una forma secundaria, que no requiere rituximab inicial.",
+   "E": "La nefritis intersticial no produce proteinuria nefrótica ni depósitos subepiteliales."
+  },
+  "perla": "MN secundaria a fármacos: penicilamina, oro, captopril, AINE, litio, mercurio. Anti-PLA2R (−). Suspender, soporte, remisión en 6–18 meses.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (nefrotoxicidad)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "continuacion": "",
+  "obj": "17.o4",
+  "peso": 16.2
+ },
+ {
+  "id": "OAU-2",
+  "serie_id": "OAU",
+  "orden": 2,
+  "sub": "17.g",
+  "subtema": "Seguimiento y decisión de inmunosupresión",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se suspende la penicilamina. A los 4 meses la proteinuria es de 3.8 g/día con albúmina de 2.9 g/dL y creatinina estable; a los 10 meses, de 1.1 g/día.",
+  "enunciado": "¿Cuál es la interpretación y la conducta?",
+  "opciones": {
+   "A": "Evolución esperada tras retirar el fármaco: soporte, e inmunosupresión solo si hay nefrótico grave, deterioro",
+   "B": "Indicación de diálisis, porque la proteinuria persistente a los 4 meses indica pérdida de la función renal",
+   "C": "Progresión inevitable a ERC terminal, porque la nefropatía membranosa por penicilamina no remite de forma espontánea",
+   "D": "Recaída de artritis que obliga a reintroducir penicilamina, porque la proteinuria refleja actividad de la enfermedad",
+   "E": "Falla terapéutica que obliga a iniciar ciclofosfamida y esteroides a los 4 meses, porque la proteinuria persistente indica enfermedad activa"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La nefropatía membranosa inducida por fármacos tiene un pronóstico favorable: la proteinuria suele disminuir lentamente tras retirar el agente, con remisión completa en la mayoría de los casos en 6 a 18 meses. Por eso, la conducta inicial es de soporte (bloqueo del SRAA, control de la presión, estatinas, manejo del edema y anticoagulación cuando la albúmina es muy baja) y se vigila la creatinina. La inmunosupresión (rituximab o esquemas con ciclofosfamida) se reserva para síndrome nefrótico grave con complicaciones, deterioro de la función renal o falta de mejoría tras un periodo razonable de observación después de suspender el fármaco. En la artritis se cambia a otro antirreumático que no sea nefrotóxico (por ejemplo, metotrexato, hidroxicloroquina o un biológico).",
+   "B": "La función renal es normal y no hay indicación de diálisis.",
+   "C": "El pronóstico renal es favorable en esta forma.",
+   "D": "La reintroducción de penicilamina reproduciría el daño glomerular.",
+   "E": "La mejoría progresiva indica buena evolución y no justifica ciclofosfamida."
+  },
+  "perla": "MN por fármacos: remisión espontánea en 6–18 m tras suspender; inmunosupresión solo si nefrótico grave, ↓TFG o sin mejoría. Cambiar el antirreumático.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o4",
+  "peso": 18.2
+ },
+ {
+  "id": "OAU-3",
+  "serie_id": "OAU",
+  "orden": 3,
+  "sub": "17.f",
+  "subtema": "Mercurio inorgánico en cosméticos y glomerulopatía",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente, de 26 años, sin enfermedades previas, consulta por edema y orina espumosa de 3 semanas. Presenta proteinuria de 7 g/día, albúmina de 2.2 g/dL, creatinina normal y anti-PLA2R negativo. Refiere uso diario de una crema aclarante de la piel comprada sin receta durante 8 meses.",
+  "enunciado": "¿Qué sospecha y qué estudio se solicita?",
+  "opciones": {
+   "A": "Glomerulopatía por mercurio de la crema (membranosa NELL1+ o cambios mínimos); Hg urinario 24 h y suspender la crema",
+   "B": "Nefropatía diabética; se solicita HbA1c, porque la proteinuria nefrótica en una joven sin antecedentes sugiere diabetes",
+   "C": "Nefropatía por IgA; se solicita IgA sérica, porque el síndrome nefrótico con anti-PLA2R negativo sugiere esta enfermedad",
+   "D": "Amiloidosis AL; se solicita biopsia de grasa subcutánea, porque la proteinuria nefrótica con creatinina normal sugiere amiloide",
+   "E": "Nefropatía por plomo; se solicita plumbemia, porque los cosméticos importados contienen metales pesados con frecuencia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Las cremas aclarantes y otros productos con mercurio inorgánico (cloruro de mercurio amoniacal) son una causa reconocida de síndrome nefrótico en adultos jóvenes. La lesión más frecuente es la nefropatía membranosa, que en los casos descritos es con frecuencia anti-NELL1 positiva y anti-PLA2R negativa, aunque también se describe enfermedad de cambios mínimos. El diagnóstico se apoya en la historia de exposición y en la medición del mercurio en orina de 24 horas (la sangre refleja la exposición reciente). El tratamiento es suspender de inmediato la exposición, con tratamiento de soporte y quelantes como DMPS o DMSA en las intoxicaciones significativas, y la remisión es la regla en semanas o meses sin necesidad de inmunosupresión en la mayoría. También se advierte sobre el riesgo para convivientes y niños.",
+   "B": "No hay datos de diabetes.",
+   "C": "No hay datos de hematuria ni de IgA, y el cuadro es nefrótico con exposición.",
+   "D": "La amiloidosis AL es rara a esta edad y no se asocia a cremas.",
+   "E": "El plomo produce nefropatía tubulointersticial, no nefropatía membranosa nefrótica."
+  },
+  "perla": "Hg inorgánico (cremas aclarantes): SN en joven; MN (a menudo NELL1+, PLA2R−) o CM. Hg en orina 24 h. Suspender exposición ± DMPS/DMSA; remisión habitual.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por metales)",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o4",
+  "peso": 18.3
+ }
+]

@@ -1,0 +1,428 @@
+[
+ {
+  "id": "LMA-1",
+  "serie_id": "LMA",
+  "orden": 1,
+  "sub": "11.a",
+  "subtema": "Cólico renal: estudio de imagen y analgesia",
+  "dificultad": "moderada",
+  "caso": "Hombre de 34 años con dolor intenso en el flanco izquierdo irradiado a la ingle, náusea y hematuria microscópica desde hace 6 horas. Afebril, TA de 148/90 mmHg, creatinina de 1.0 mg/dL. EGO sin leucocituria ni nitritos.",
+  "enunciado": "¿Cuál es la imagen de elección y la analgesia de primera línea?",
+  "opciones": {
+   "A": "Opioide como única analgesia de primera línea, porque los AINE están contraindicados en todo cólico renal",
+   "B": "TC sin contraste de abdomen y pelvis (sens. y espec. ≈95%) con AINE como analgesia inicial, según la función renal",
+   "C": "Resonancia con gadolinio, porque evita la radiación y tiene mejor sensibilidad para cálculos ureterales",
+   "D": "Radiografía simple solamente, porque detecta todos los cálculos urinarios y evita la radiación de la tomografía computarizada",
+   "E": "Urografía excretora como primera opción, porque define la anatomía y la función de ambos riñones y localiza el cálculo con precisión"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Los opioides se reservan si los AINE están contraindicados o no bastan.",
+   "B": "En el cólico renal en adultos, la tomografía de baja dosis sin contraste es el estudio de imagen con mayor sensibilidad y especificidad (cercanas a 95%) para detectar el cálculo, su tamaño, su ubicación y la hidronefrosis; la ecografía se prefiere en el embarazo y en niños, y la radiografía simple complementa solo en cálculos radiopacos. Los AINE (ketorolaco o diclofenaco) son la analgesia de primera línea, más eficaces que los opioides y con menos vómito, con precaución en ERC, hipovolemia o lesión renal aguda, donde se usan opioides. Se recomienda terapia expulsiva para cálculos distales sintomáticos de 5 a 10 mm.",
+   "C": "La resonancia no es el estudio de elección y el gadolinio no aporta.",
+   "D": "La radiografía simple omite cálculos radiolúcidos y cálculos pequeños.",
+   "E": "La urografía excretora ha sido reemplazada por la tomografía."
+  },
+  "perla": "Cólico renal: TC sin contraste (sens ~95%); US en embarazo/niños; AINE de primera línea (cuidado en ERC/LRA).",
+  "referencias": [
+   "Assimos D et al. J Urol 2016;196:1153 (AUA)",
+   "Türk C et al. Eur Urol 2016;69:468 (EAU)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "continuacion": "",
+  "obj": "11.o1",
+  "peso": 29.8
+ },
+ {
+  "id": "LMA-2",
+  "serie_id": "LMA",
+  "orden": 2,
+  "sub": "11.a",
+  "subtema": "Probabilidad de expulsión y terapia expulsiva",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La tomografía muestra un cálculo de 6 mm en el uréter distal izquierdo con hidronefrosis leve. El paciente controla el dolor con analgésicos orales.",
+  "enunciado": "¿Cuál es la conducta apropiada?",
+  "opciones": {
+   "A": "Manejo expectante con terapia expulsiva (tamsulosina) y seguimiento; la mayoría de los cálculos distales de 5–7 mm se expulsa",
+   "B": "Sin seguimiento alguno, porque el cálculo de 6 mm siempre se elimina de forma espontánea sin complicaciones",
+   "C": "Cirugía abierta inmediata, porque la hidronefrosis leve indica obstrucción completa con riesgo de pérdida renal inminente e irreversible",
+   "D": "Litotricia en todos los casos, porque la expulsión espontánea de cálculos de 6 mm es poco probable en adultos",
+   "E": "Nefrectomía del riñón afectado, porque la hidronefrosis con cálculo ureteral distal indica pérdida funcional irreversible del riñón"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La probabilidad de expulsión espontánea depende del tamaño y la ubicación: los cálculos de 4 mm o menos se expulsan en cerca de 80 a 90%, los de 5 a 7 mm en alrededor de 50% y los mayores de 8 mm en menos de 20%, con mayor probabilidad en uréter distal. En un paciente con dolor controlado, sin infección ni deterioro renal, se ofrece observación con terapia expulsiva con tamsulosina (su beneficio es mayor en cálculos distales de más de 5 mm, con evidencia mixta) y seguimiento en 2 a 4 semanas con imagen. Se interviene (ureteroscopia o litotricia) si el cálculo no se desplaza, el dolor es incontrolable o aparecen fiebre, deterioro renal o riñón único obstruido.",
+   "B": "Se debe vigilar para identificar obstrucción persistente.",
+   "C": "La cirugía abierta es una opción obsoleta para este caso.",
+   "D": "No todos los cálculos requieren litotricia; muchos se expulsan.",
+   "E": "No hay indicación de nefrectomía."
+  },
+  "perla": "Expulsión espontánea: ≤4 mm ~80–90%, 5–7 mm ~50%, >8 mm <20%. Terapia expulsiva con tamsulosina; vigilar.",
+  "referencias": [
+   "Assimos D et al. J Urol 2016;196:1153 (AUA)",
+   "Türk C et al. Eur Urol 2016;69:468 (EAU)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "obj": "11.o1",
+  "peso": 29.8
+ },
+ {
+  "id": "LMA-3",
+  "serie_id": "LMA",
+  "orden": 3,
+  "sub": "11.a",
+  "subtema": "Cálculo obstructivo infectado: derivación urgente",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres días después el paciente regresa con fiebre de 39.6 °C, escalofríos, taquicardia, hipotensión de 88/50 mmHg, leucocitos de 21,000/µL, creatinina de 2.3 mg/dL y dolor en el flanco. La ecografía muestra hidronefrosis moderada izquierda.",
+  "enunciado": "¿Cuál es el manejo prioritario?",
+  "opciones": {
+   "A": "Ureteroscopia con litotricia inmediata sin descompresión previa, porque resuelve la causa obstructiva de la sepsis de una sola vez en el mismo acto",
+   "B": "Litotricia extracorpórea urgente, porque fragmenta el cálculo y alivia la obstrucción sin necesidad de drenaje",
+   "C": "Antibióticos orales y observación, porque la fiebre y la leucocitosis se resuelven al tratar la infección urinaria",
+   "D": "Descompresión urgente (catéter ureteral o nefrostomía), antibióticos de amplio espectro y reanimación; el cálculo se trata después",
+   "E": "Solo analgésicos y líquidos orales, porque el dolor en el flanco y la fiebre no requieren descompresión ni antibióticos"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La litotricia o ureteroscopia sin drenaje previo aumenta el riesgo de sepsis.",
+   "B": "La litotricia extracorpórea está contraindicada en infección activa no drenada.",
+   "C": "Los antibióticos orales son insuficientes en un paciente con choque séptico y obstrucción.",
+   "D": "La obstrucción de la vía urinaria con infección (pionefrosis, urosepsis) es una urgencia urológica con riesgo de choque séptico: se requiere descompresión inmediata mediante catéter doble J o nefrostomía percutánea (ambas equivalentes), cultivo de orina y sangre, antibióticos intravenosos de amplio espectro y reanimación con fluidos. El tratamiento definitivo del cálculo (ureteroscopia, nefrolitotomía) se difiere hasta que se controle la sepsis, porque la manipulación del sistema infectado empeora la bacteriemia. Otras indicaciones de derivación urgente son la obstrucción con lesión renal aguda, riñón único y dolor incontrolable.",
+   "E": "El control del dolor no resuelve la sepsis."
+  },
+  "perla": "Obstrucción + infección: descomprimir urgente (JJ o nefrostomía) + antibiótico IV; cirugía del cálculo después.",
+  "referencias": [
+   "Assimos D et al. J Urol 2016;196:1153 (AUA)",
+   "Türk C et al. Eur Urol 2016;69:468 (EAU)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "obj": "11.o1",
+  "peso": 31.8
+ },
+ {
+  "id": "OBS-1",
+  "serie_id": "OBS",
+  "orden": 1,
+  "sub": "11.a",
+  "subtema": "Uropatía obstructiva: fisiopatología y primer paso",
+  "dificultad": "moderada",
+  "caso": "Hombre de 72 años con hiperplasia prostática benigna, oliguria de 4 días y distensión suprapúbica. TA de 168/98 mmHg, creatinina de 4.8 mg/dL, potasio de 5.9 mEq/L. El escáner vesical muestra 1,100 mL. La ecografía revela hidronefrosis bilateral.",
+  "enunciado": "¿Cuál es el mecanismo de la caída de la TFG y la primera medida terapéutica?",
+  "opciones": {
+   "A": "Estenosis bilateral de arterias renales, tratada con angioplastia como primera medida terapéutica del cuadro",
+   "B": "Isquemia por hipovolemia, con administración de 2 L de cristaloide como primera medida de tratamiento inmediato",
+   "C": "Aumento de la presión intratubular con vasoconstricción aferente y menor filtración; colocar sonda vesical",
+   "D": "Necrosis tubular tóxica, con indicación de diálisis inmediata como primera medida terapéutica en este paciente",
+   "E": "Glomerulonefritis aguda, tratada con esteroides como primera medida por la oliguria y la hipertensión arterial"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay datos de estenosis arterial renal.",
+   "B": "No hay hipovolemia; el problema es obstructivo y los líquidos no lo resuelven.",
+   "C": "En la obstrucción de la vía urinaria el aumento de la presión intratubular se transmite hacia la cápsula de Bowman y reduce la presión neta de ultrafiltración; además, tras una fase inicial de aumento del flujo, la liberación de tromboxano A₂, angiotensina II y otros vasoconstrictores contrae la arteriola aferente y reduce el flujo plasmático renal y la TFG. La obstrucción baja por hiperplasia prostática se alivia con una sonda vesical (transuretral, o suprapúbica si no se puede pasar), que es la primera maniobra. Después se estudia la causa y se vigilan la diuresis posobstructiva y los electrolitos. El alivio en menos de 1 a 2 semanas permite casi siempre la recuperación completa.",
+   "D": "La diálisis no es de primera línea si se puede aliviar la obstrucción.",
+   "E": "No hay datos de síndrome nefrítico."
+  },
+  "perla": "Obstrucción: ↑presión intratubular + vasoconstricción aferente (TXA₂, Ang II) → ↓TFG. Tx inicial: sonda vesical. Alivio en <1–2 sem → recuperación casi completa.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (uropatía obstructiva)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "continuacion": "",
+  "obj": "11.o1",
+  "peso": 48.0
+ },
+ {
+  "id": "OBS-2",
+  "serie_id": "OBS",
+  "orden": 2,
+  "sub": "11.a",
+  "subtema": "Diuresis posobstructiva",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras la colocación de la sonda se drenan 1,200 mL, y en las siguientes 6 horas el paciente orina 350 mL/h. Está euvolémico, con TA de 140/80 mmHg, sodio de 138 mEq/L y potasio de 4.6 mEq/L.",
+  "enunciado": "¿Cuál es el manejo de la poliuria?",
+  "opciones": {
+   "A": "Diuréticos de asa para aumentar la diuresis, porque la poliuria posobstructiva indica siempre sobrecarga de volumen",
+   "B": "Restricción hídrica estricta, porque la poliuria posobstructiva se corrige limitando todo aporte de líquidos al paciente en todo momento",
+   "C": "Reposición intravenosa de 100% del volumen urinario con solución salina isotónica, para mantener la euvolemia del paciente",
+   "D": "Desmopresina en todos los casos, para reducir la diuresis y evitar la deshidratación y la hipernatremia posterior",
+   "E": "Observar con control de diuresis, peso y electrolitos y líquidos orales; reposición IV hipotónica solo si hay hipovolemia"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Los diuréticos agravan la pérdida de volumen.",
+   "B": "La restricción hídrica en poliuria produce deshidratación e hipernatremia.",
+   "C": "Reponer 100% perpetúa la diuresis por mantenimiento del estímulo osmótico y volumétrico.",
+   "D": "La desmopresina no es adecuada: la poliuria no es por déficit de ADH.",
+   "E": "La diuresis posobstructiva (más de 200 mL/h por 2 horas consecutivas o más de 3 L/día) se debe a la excreción de la urea y el sodio retenidos (diuresis osmótica), a la expansión de volumen durante la obstrucción y a la disfunción tubular transitoria (menor acuaporina-2 y cotransportadores de sodio), y en la mayoría de los casos es fisiológica y autolimitada. El manejo es la observación con vigilancia de diuresis, peso, signos de volumen y electrolitos (sodio, potasio, magnesio), con ingesta oral libre; la reposición intravenosa de 100% mantiene la poliuria. Se repone con solución hipotónica (medio salino) a 50 a 75% de la diuresis solo si hay hipovolemia, hipernatremia o deterioro hemodinámico."
+  },
+  "perla": "Poliuria posobstructiva (>200 mL/h × 2 h): observar, VO libre, vigilar Na/K/Mg; reponer IV (hipotónico, 50–75%) solo si hipovolemia.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (uropatía obstructiva)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "obj": "11.o1",
+  "peso": 50.0
+ },
+ {
+  "id": "OBS-3",
+  "serie_id": "OBS",
+  "orden": 3,
+  "sub": "11.a",
+  "subtema": "Defectos tubulares tras el alivio de la obstrucción",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Dos semanas después, la creatinina es de 1.9 mg/dL. El paciente tiene potasio de 5.8 mEq/L, bicarbonato de 17 mEq/L con brecha aniónica normal, pH urinario de 5.2 y osmolalidad urinaria máxima de 380 mOsm/kg.",
+  "enunciado": "¿Qué trastornos tubulares explican este cuadro?",
+  "opciones": {
+   "A": "Acidosis láctica por hipoperfusión renal, con brecha aniónica elevada y lactato mayor de 4 mmol/L en sangre",
+   "B": "Acidosis tubular renal proximal con hipopotasemia, glucosuria y fosfaturia por daño del túbulo proximal",
+   "C": "Síndrome de Bartter, con hipopotasemia, alcalosis metabólica e hipercalciuria por defecto del asa de Henle",
+   "D": "ATR tipo 4 (hiperpotasémica) y defecto de concentración (DI nefrogénica adquirida) por la lesión tubulointersticial obstructiva",
+   "E": "Hiperaldosteronismo primario, con hipopotasemia, alcalosis metabólica e hipertensión resistente por exceso mineralocorticoide"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La brecha aniónica es normal, por lo que no hay anión no medido.",
+   "B": "La ATR proximal cursa con hipopotasemia y pH urinario variable, no con hiperpotasemia.",
+   "C": "El Bartter cursa con hipopotasemia y alcalosis, es hereditario y no se debe a obstrucción.",
+   "D": "La obstrucción prolongada lesiona la nefrona distal y la médula: la secreción de potasio y de protones en el túbulo colector disminuye (acidosis tubular renal tipo 4, con hiperpotasemia, acidosis hiperclorémica y pH urinario menor de 5.5, por resistencia a la aldosterona o por hipoaldosteronismo hiporreninémico), y la acuaporina-2 y el gradiente osmolar medular disminuyen, con defecto de concentración (diabetes insípida nefrogénica adquirida y osmolalidad urinaria máxima baja). Estas alteraciones pueden persistir semanas o ser permanentes si el daño fue prolongado, y se manejan con dieta baja en potasio, bicarbonato o diuréticos y agua libre.",
+   "E": "El hiperaldosteronismo causa hipopotasemia y alcalosis."
+  },
+  "perla": "Postobstrucción: ATR tipo 4 (↑K, acidosis hiperclorémica) + defecto de concentración (DIN adquirida). Pueden persistir.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (uropatía obstructiva)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "obj": "11.o1",
+  "peso": 31.8
+ },
+ {
+  "id": "OBS-4",
+  "serie_id": "OBS",
+  "orden": 4,
+  "sub": "11.a",
+  "subtema": "Pronóstico de la recuperación renal según la duración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El nefrólogo explica al paciente el pronóstico de recuperación según el tiempo de obstrucción completa.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "Aliviar en <1–2 semanas permite casi recuperación completa; la obstrucción >12 semanas causa daño irreversible",
+   "B": "La recuperación es completa sin importar la duración de la obstrucción, porque el parénquima siempre se regenera",
+   "C": "El daño es irreversible desde las primeras 24 horas, por lo que el alivio de la obstrucción carece de beneficio alguno",
+   "D": "La duración de la obstrucción carece de importancia pronóstica, porque solo cuenta el grado de hidronefrosis inicial",
+   "E": "La obstrucción unilateral nunca produce pérdida de función, porque el riñón contralateral compensa por completo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El pronóstico depende de la duración y del grado de la obstrucción, de la edad, de la presencia de infección y de la función basal. La obstrucción completa liberada en menos de 1 a 2 semanas se recupera casi por completo; entre 2 y 12 semanas la recuperación es parcial, y después de 12 semanas el daño es en gran parte irreversible por fibrosis tubulointersticial (activación de TGF-β, angiotensina II, apoptosis tubular y atrofia). La obstrucción parcial puede causar daño crónico silencioso. La obstrucción unilateral puede causar pérdida funcional de ese riñón con compensación del contralateral, que oculta el deterioro en la creatinina.",
+   "B": "La duración condiciona la irreversibilidad.",
+   "C": "Existe recuperación posible si se alivia pronto.",
+   "D": "La duración es el factor pronóstico principal.",
+   "E": "La obstrucción unilateral prolongada produce atrofia del riñón afectado."
+  },
+  "perla": "Obstrucción completa: alivio <1–2 sem → recuperación casi completa; >12 sem → daño irreversible (fibrosis). Unilateral puede pasar inadvertida (compensación).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (uropatía obstructiva)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "obj": "11.o1",
+  "peso": 31.8
+ },
+ {
+  "id": "RVU-1",
+  "serie_id": "RVU",
+  "orden": 1,
+  "sub": "11.b",
+  "subtema": "Reflujo vesicoureteral: sospecha y estudio de imagen",
+  "dificultad": "moderada",
+  "caso": "Mujer de 17 años con infecciones urinarias recurrentes desde la infancia, que acude con fiebre de 39.5 °C, dolor lumbar bilateral, síntomas irritativos y TA de 70/50 mmHg. Creatinina de 1.9 mg/dL. La ecografía muestra dilatación pielocalicial grave bilateral y riñones con contorno irregular.",
+  "enunciado": "¿Cuál es el diagnóstico de fondo y el estudio de elección para confirmarlo?",
+  "opciones": {
+   "A": "Glomerulonefritis rápidamente progresiva con infección sobreagregada; se confirma con biopsia renal percutánea guiada por imagen",
+   "B": "Litiasis bilateral obstructiva con pielonefritis; se confirma con urografía excretora por el dolor lumbar bilateral y la fiebre alta",
+   "C": "Reflujo vesicoureteral con nefropatía por reflujo; se confirma con cistouretrografía miccional y gradación del reflujo",
+   "D": "Poliquistosis renal autosómica dominante; se confirma con resonancia magnética por las infecciones recurrentes urinarias",
+   "E": "Necrosis papilar; se confirma con gammagrafía con DTPA por la fiebre alta, el dolor lumbar y la hipotensión"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El cuadro es infeccioso y obstructivo, no glomerular.",
+   "B": "No hay datos de cólico ni de litiasis.",
+   "C": "En una mujer joven con infecciones urinarias recurrentes y daño renal con dilatación pielocalicial bilateral, la causa más probable es el reflujo vesicoureteral, que en los varones obliga a descartar valvas de uretra posterior. El reflujo es el flujo retrógrado de orina de la vejiga al uréter y la pelvis renal por un túnel submucoso corto de la unión ureterovesical; es la anomalía más frecuente del complejo CAKUT (1 a 6%), con alta agregación familiar (30% de hermanos y 50 a 60% de hijos). El estudio de elección es la cistouretrografía miccional, que confirma y gradúa el reflujo (grados I a V). La ecografía es útil para dilatación y tamaño renal, pero no diagnostica el reflujo.",
+   "D": "La poliquistosis no explica las infecciones recurrentes con dilatación y cicatrices.",
+   "E": "La necrosis papilar tiene otra causa, y la gammagrafía DTPA mide filtrado y drenaje, no el reflujo."
+  },
+  "perla": "RVU: mujeres → reflujo; varones → valvas uretrales posteriores. Dx: CUM (cistouretrografía miccional). CAKUT más frecuente; familiar (30% hermanos).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (reflujo vesicoureteral)"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "continuacion": "",
+  "obj": "11.o2",
+  "peso": 37.6
+ },
+ {
+  "id": "RVU-2",
+  "serie_id": "RVU",
+  "orden": 2,
+  "sub": "11.b",
+  "subtema": "Gammagrafía DMSA para cicatrices renales",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se confirma reflujo bilateral grado IV. El equipo desea valorar el daño parenquimatoso y las cicatrices corticales.",
+  "enunciado": "¿Cuál es el estudio de elección para detectar pielonefritis y cicatrices renales?",
+  "opciones": {
+   "A": "Tomografía por emisión de positrones, porque detecta la inflamación del parénquima con mayor sensibilidad",
+   "B": "Gammagrafía renal con DMSA marcado con 99mTc, estándar para detectar pielonefritis aguda y cicatrices corticales",
+   "C": "Gammagrafía renal con MAG3, que es el estándar para cicatrices corticales, porque mide la función tubular y el drenaje urinario",
+   "D": "Resonancia con gadolinio, por ser el estudio de elección para las cicatrices del niño con reflujo vesicoureteral grave",
+   "E": "Cistouretrografía miccional repetida, porque muestra la cicatriz cortical durante el llenado vesical y la micción"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El PET no se emplea de rutina para valorar cicatrices.",
+   "B": "El DMSA marcado con tecnecio 99m se fija a las células tubulares proximales funcionantes; las áreas de hipocaptación reflejan pielonefritis aguda (en los primeros meses) o cicatrices corticales (si persisten 4 a 6 meses después de la infección). Es el estándar de oro para valorar cicatrización renal y daño parenquimatoso, con mayor sensibilidad con SPECT. La cistouretrografía miccional detecta el reflujo, pero no las cicatrices; el MAG3 y el DTPA miden perfusión, filtrado y drenaje (útiles en obstrucción), y el MAG3 sirve para estimar flujo plasmático renal efectivo.",
+   "C": "El MAG3 evalúa función y drenaje, no es el estándar de cicatrices.",
+   "D": "La resonancia con gadolinio no es el estudio de primera elección y tiene restricciones con TFG baja.",
+   "E": "La CUM define el reflujo, no la cicatriz."
+  },
+  "perla": "DMSA-Tc99m: estándar para pielonefritis y cicatrices (≥4–6 meses). CUM: reflujo. MAG3/DTPA: función y drenaje.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (reflujo vesicoureteral)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "obj": "11.o2",
+  "peso": 19.5
+ },
+ {
+  "id": "RVU-3",
+  "serie_id": "RVU",
+  "orden": 3,
+  "sub": "11.b",
+  "subtema": "Urosepsis en reflujo con insuficiencia renal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente está hipotensa, con lactato de 3.8 mmol/L y creatinina de 1.9 mg/dL; tuvo tratamientos antibióticos previos y cultivos con enterobacterias productoras de betalactamasa de espectro extendido. La ecografía muestra pelvis dilatadas, sin litos.",
+  "enunciado": "¿Cuál es el manejo inicial adecuado?",
+  "opciones": {
+   "A": "Nitrofurantoína oral, por la cobertura de enterobacterias y la buena concentración en el tracto urinario",
+   "B": "Cristaloides, cultivos y carbapenémico IV ajustado a la TFG por riesgo de BLEE; derivar si hay obstrucción",
+   "C": "Observación sin antibióticos hasta el resultado del cultivo, para evitar el uso innecesario de antimicrobianos",
+   "D": "Fluoroquinolona oral ambulatoria, porque cubre las enterobacterias productoras de BLEE en pacientes estables",
+   "E": "Cirugía antirreflujo inmediata, para prevenir nuevos episodios de pielonefritis y la lesión renal progresiva"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La nitrofurantoína no alcanza niveles tisulares ni plasmáticos en la pielonefritis ni en la sepsis.",
+   "B": "La pielonefritis con sepsis en una paciente con reflujo, uropatía y colonización previa por enterobacterias productoras de BLEE requiere reanimación inmediata, toma de cultivos y antibioticoterapia intravenosa empírica de amplio espectro que cubra BLEE, como un carbapenémico (imipenem o meropenem) con ajuste a la función renal, y cambio según el antibiograma. Se valora la descompresión de la vía urinaria si hay obstrucción añadida. La corrección del reflujo (inyección endoscópica o reimplante ureteral) se hace de forma diferida, después de controlar la infección.",
+   "C": "Retrasar el antibiótico en sepsis aumenta la mortalidad.",
+   "D": "Una fluoroquinolona oral es insuficiente en sepsis y la resistencia es alta.",
+   "E": "La cirugía no se hace durante la fase séptica aguda."
+  },
+  "perla": "Urosepsis con riesgo de BLEE: reanimación + cultivos + carbapenémico ajustado a TFG; corregir reflujo de forma diferida.",
+  "referencias": [
+   "Gupta K et al. Clin Infect Dis 2011;52:e103 (IDSA)",
+   "Comprehensive Clinical Nephrology (reflujo vesicoureteral)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "obj": "11.o2",
+  "peso": 39.6
+ },
+ {
+  "id": "RVU-4",
+  "serie_id": "RVU",
+  "orden": 4,
+  "sub": "11.b",
+  "subtema": "Nefropatía por reflujo: progresión y GEFS secundaria",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras recuperarse, la paciente tiene seguimiento. Cuatro años después presenta creatinina de 2.3 mg/dL, TA de 150/95 mmHg y proteinuria de 3.2 g/día sin hematuria. Una biopsia renal muestra glomeruloesclerosis focal y segmentaria con atrofia tubular y fibrosis intersticial.",
+  "enunciado": "¿Cuál es el mecanismo y el manejo?",
+  "opciones": {
+   "A": "Glomerulonefritis posinfecciosa; antibióticos, por el antecedente de infecciones urinarias y la proteinuria",
+   "B": "Nefropatía membranosa; rituximab, por la proteinuria de 3.2 g/día sin hematuria y con hipertensión arterial",
+   "C": "GEFS secundaria a hiperfiltración tras pérdida de masa renal por cicatrices; IECA/ARA II y control de TA, sin inmunosupresión",
+   "D": "GEFS primaria por factor circulante; prednisona, por la proteinuria nefrótica y la creatinina elevada",
+   "E": "Enfermedad por cambios mínimos; esteroides, por la proteinuria nefrótica y la ausencia de hematuria"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay antecedente posinfeccioso agudo ni hipocomplementemia.",
+   "B": "La biopsia muestra GEFS, no depósitos subepiteliales de membranosa.",
+   "C": "La nefropatía por reflujo (5 a 10% de la ERC terminal pediátrica y adulta) lleva a pérdida de nefronas por cicatrización (pielonefritis recurrente con respuesta inflamatoria y fibrosis), y las nefronas restantes desarrollan hiperfiltración e hipertensión glomerular, que producen glomeruloesclerosis focal y segmentaria secundaria (variante perihiliar) con proteinuria, hipertensión y progresión. La proteinuria predice la progresión a ERC. El tratamiento incluye bloqueo del SRAA, control estricto de la TA, restricción de sodio, evitar nefrotoxinas, prevenir infecciones y tratar el reflujo, sin esteroides ni inmunosupresores, que no tienen utilidad en la GEFS secundaria.",
+   "D": "La GEFS secundaria a pérdida de masa renal no responde a esteroides.",
+   "E": "Los cambios mínimos no muestran esclerosis ni atrofia."
+  },
+  "perla": "Nefropatía por reflujo → GEFS secundaria (hiperfiltración): bloqueo SRAA + control de TA; sin esteroides. Proteinuria predice progresión.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (reflujo vesicoureteral)"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 11,
+  "tema": "Enfermedad renal obstructiva",
+  "obj": "11.o2",
+  "peso": 39.6
+ }
+]

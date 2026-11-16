@@ -1,0 +1,632 @@
+[
+ {
+  "id": "MM-1",
+  "serie_id": "MM",
+  "orden": 1,
+  "tema": "Enfermedades glomerulares",
+  "subtema": "Mieloma: nefropatía por cilindros",
+  "dificultad": "moderada",
+  "caso": "Hombre de 66 años con lumbalgia, fatiga y nocturia. Hb 8.4 g/dL, calcio corregido 12.9 mg/dL, creatinina 4.6 mg/dL (0.9 mg/dL hace 6 meses). Examen general de orina: proteína negativa en tira reactiva, 24 h con proteinuria de 4.8 g (con albuminuria <10%), sin hematuria. Radiografías con lesiones líticas en cráneo. Cadenas ligeras libres séricas kappa 5,200 mg/L, cociente κ/λ > 100.",
+  "continuacion": "",
+  "enunciado": "¿Cuál es la causa de la lesión renal y su mecanismo?",
+  "opciones": {
+   "A": "Nefropatía por hipercalcemia exclusivamente, con vasoconstricción renal y diabetes insípida nefrogénica",
+   "B": "Nefritis tubulointersticial inducida por AINE usados para tratar la lumbalgia de las últimas semanas",
+   "C": "Riñón de mieloma: cadenas ligeras libres que se unen a la uromodulina en el túbulo distal y forman cilindros obstructivos",
+   "D": "Enfermedad por depósito de cadenas ligeras (MIDD), con depósito lineal en la membrana basal tubular y glomerular y proteinuria no albuminúrica",
+   "E": "Amiloidosis AL: depósito de fibrillas de cadenas ligeras en el glomérulo con proteinuria nefrótica y albuminuria"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hipercalcemia contribuye a la LRA por vasoconstricción y depleción de volumen, pero no explica la proteinuria por cadenas ligeras ni las FLC masivas.",
+   "B": "No hay antecedente de AINE; la NTIA cursa con piuria estéril y eosinofilia, sin explicar CRAB.",
+   "C": "El paciente cumple criterios CRAB (hipercalcemia, daño renal, anemia, lesiones óseas). La LRA con proteinuria no albuminúrica (tira negativa, que detecta albúmina y no cadenas ligeras), FLC muy elevadas (>1,500 mg/L) es característica de la nefropatía por cilindros: la cadena ligera filtrada se une a la proteína de Tamm-Horsfall (uromodulina) en la rama ascendente y el túbulo distal, formando cilindros cristalinos que obstruyen e inducen inflamación tubulointersticial. La deshidratación, hipercalcemia, AINE, contraste y diuréticos favorecen la precipitación. Con FLC involucradas >1,500 mg/L el diagnóstico se presume; la biopsia se considera cuando las FLC son bajas (<500 mg/L) o hay albuminuria significativa.",
+   "D": "La MIDD produce proteinuria albuminúrica/nefrótica con depósitos lineales en MBT; no explica la LRA con cilindros.",
+   "E": "La amiloidosis AL cursa con proteinuria predominantemente albuminúrica (síndrome nefrótico), y no con tira negativa y LRA rápida."
+  },
+  "perla": "Tira reactiva negativa + proteinuria de 24 h alta (no albúmina) → paraproteína. Riñón de mieloma: FLC >1,500 mg/L (diagnóstico presuntivo); biopsia si FLC <500 mg/L. CRAB: Ca, Renal, Anemia, Bone.",
+  "referencias": [
+   "Hutchison CA et al. Clin J Am Soc Nephrol 2008;3:S4",
+   "IMWG consensus on renal impairment in MM (Dimopoulos MA et al. J Clin Oncol 2016)",
+   "Comprehensive Clinical Nephrology (cap. Discrasias de células plasmáticas)"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "9.d.6",
+  "tema_id": 9,
+  "obj": "9.o12",
+  "peso": 77.7
+ },
+ {
+  "id": "MM-2",
+  "serie_id": "MM",
+  "orden": 2,
+  "tema": "Enfermedades glomerulares",
+  "subtema": "Mieloma: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma mieloma múltiple por plasmocitosis en médula ósea de 40%. Se plantea iniciar el tratamiento. El paciente tiene diuresis conservada y no tiene indicación inmediata de diálisis. Calcio 12.9 mg/dL.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Iniciar lenalidomida a dosis completa por ser el esquema más eficaz, sin ajustar a la función renal ni esperar a la respuesta de la hipercalcemia",
+   "B": "Esperar la biopsia renal y su resultado antes de iniciar cualquier tratamiento antimieloma, para confirmar el diagnóstico histológico",
+   "C": "Iniciar solo plasmaféresis para retirar las cadenas ligeras, sin quimioterapia antimieloma asociada",
+   "D": "Bortezomib con dexametasona a dosis alta sin demora, más hidratación, control de la hipercalcemia y retiro de nefrotóxicos",
+   "E": "Realizar de inmediato un autotrasplante de progenitores con melfalán 200 mg/m², antes de toda inducción"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La lenalidomida requiere ajuste de dosis por TFG y se acumula en insuficiencia renal grave; no es esquema de inicio en LRA.",
+   "B": "Con FLC >1,500 mg/L y cuadro típico no se retrasa el tratamiento por biopsia; el retraso empeora la recuperación renal.",
+   "C": "La plasmaféresis aislada no trata la clona productora y no mejora los resultados renales.",
+   "D": "La recuperación renal depende de reducir rápidamente las cadenas ligeras (idealmente una reducción >50% en 21 días). Los esquemas basados en bortezomib (bortezomib-ciclofosfamida-dexametasona o con daratumumab) no requieren ajuste de dosis por TFG, tienen rápida respuesta y son la base del tratamiento en riñón de mieloma. Se acompaña con hidratación (alrededor de 3 L/día), tratamiento de la hipercalcemia (hidratación, calcitonina; los bifosfonatos y denosumab se usan con ajuste de dosis o precaución en ERC), y suspensión de AINE, contrastes y otros nefrotóxicos.",
+   "E": "El trasplante autólogo se plantea después de la inducción, no en LRA activa."
+  },
+  "perla": "Meta: reducir FLC >50% en 21 días para recuperar la función renal. Bortezomib: sin ajuste renal. Evitar nefrotóxicos y AINE; hidratación 3 L/día.",
+  "referencias": [
+   "Dimopoulos MA et al. J Clin Oncol 2016;34:1544",
+   "Comprehensive Clinical Nephrology (cap. Discrasias de células plasmáticas)"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "9.d.6",
+  "tema_id": 9,
+  "obj": "9.o12",
+  "peso": 79.7
+ },
+ {
+  "id": "MM-3",
+  "serie_id": "MM",
+  "orden": 3,
+  "tema": "Enfermedades glomerulares",
+  "subtema": "Mieloma: depuración extracorpórea",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Después de 2 semanas de bortezomib-dexametasona, la creatinina llegó a 7.8 mg/dL con oliguria y requirió hemodiálisis. Las cadenas ligeras kappa bajaron de 5,200 a 1,800 mg/L (65% de reducción). El nefrólogo pregunta por la utilidad de la hemodiálisis con membranas de alto punto de corte (HCO) o de la plasmaféresis.",
+  "enunciado": "¿Cuál es la recomendación más adecuada?",
+  "opciones": {
+   "A": "Considerar el caso irreversible y suspender el tratamiento oncológico, porque la diálisis ya es definitiva",
+   "B": "No se recomienda de rutina la HD con HCO ni la plasmaféresis; continuar la quimioterapia efectiva con diálisis convencional",
+   "C": "Realizar plasmaféresis diaria sin quimioterapia, para eliminar las cadenas ligeras y recuperar la función renal",
+   "D": "Suspender la quimioterapia para evitar la nefrotoxicidad hasta que se recupere la función renal del paciente",
+   "E": "La HD con HCO es el estándar de tratamiento, por mejorar la independencia de diálisis en ensayos aleatorizados y multicéntricos"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Aunque requiera diálisis inicialmente, hay posibilidad de recuperación con respuesta hematológica profunda.",
+   "B": "Los ensayos aleatorizados con membranas de alto punto de corte (EuLITE y MYRE) no demostraron beneficio consistente en la independencia de diálisis frente a la HD convencional con quimioterapia eficaz, y la plasmaféresis tampoco tiene evidencia sólida (ensayo de Clark, 2005, sin diferencia), por lo que las guías (IMWG) no recomiendan su uso de rutina. Lo que determina la recuperación renal es reducir rápidamente la producción de cadenas ligeras con quimioterapia. Con reducción del 65%, se continúa el tratamiento y se espera recuperación renal, que puede ocurrir en semanas a meses.",
+   "C": "La plasmaféresis sin quimioterapia no controla la producción de cadenas ligeras.",
+   "D": "La quimioterapia es la base del tratamiento: suspenderla pierde la oportunidad de recuperación renal.",
+   "E": "Los ensayos aleatorizados no demostraron superioridad de HCO sobre HD convencional; no es estándar."
+  },
+  "perla": "HCO-HD y PLEX no son rutina en cast nephropathy. Recuperación renal depende de respuesta hematológica rápida y profunda (FLC).",
+  "referencias": [
+   "Hutchison CA et al. Lancet Haematol 2019;6:e217 (EuLITE)",
+   "Clark WF et al. Ann Intern Med 2005;143:777",
+   "Dimopoulos MA et al. J Clin Oncol 2016"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "sub": "9.d.6",
+  "tema_id": 9,
+  "obj": "9.o12",
+  "peso": 67.6
+ },
+ {
+  "id": "HVN-1",
+  "serie_id": "HVN",
+  "orden": 1,
+  "sub": "9.d.7",
+  "subtema": "Nefropatía asociada a VIH: presentación",
+  "dificultad": "moderada",
+  "caso": "Hombre de 34 años con infecciones recurrentes durante 6 meses, pérdida de peso y orina espumosa. Cr 2.3 mg/dL, albúmina 2.5 g/dL, proteinuria 7 g/24 h, hipertensión leve. Ecografía: riñones de tamaño aumentado y ecogenicidad incrementada. Sedimento con pocas células.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y la prueba que debe solicitarse primero?",
+  "opciones": {
+   "A": "Enfermedad de cambios mínimos con síndrome nefrótico; se solicita primero una tira reactiva de orina de control semanal",
+   "B": "Mieloma múltiple con nefropatía por cilindros; se solicita primero electroforesis de proteínas séricas y urinarias con inmunofijación",
+   "C": "Nefropatía asociada a VIH con GEFS colapsante; primero serología para VIH (cuarta generación) con carga viral y CD4",
+   "D": "Nefritis lúpica proliferativa; se solicitan primero ANA y anticuerpos anti-dsDNA con complemento sérico",
+   "E": "Nefropatía membranosa primaria; se solicita primero el anticuerpo anti-PLA2R sérico, antes de cualquier biopsia renal"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los cambios mínimos no deterioran la función renal de esta manera ni se asocian a infecciones recurrentes por inmunodeficiencia.",
+   "B": "El mieloma es poco probable a los 34 años y cursa con anemia y cilindros, sin proteinuria glomerular de esta magnitud.",
+   "C": "La nefropatía asociada a VIH (HIVAN) se presenta con proteinuria nefrótica y deterioro de la función renal rápido, riñones grandes y ecogénicos, con edema e hipertensión relativamente escasos, y se relaciona con viremia no controlada y CD4 bajo. La biopsia muestra GEFS colapsante, dilatación microquística tubular e inclusiones tubuloreticulares. Se sospecha en un paciente con infecciones recurrentes y pérdida de peso, y se confirma con serología VIH, carga viral y CD4. Es frecuente en personas con ancestría africana y variantes de riesgo de APOL1.",
+   "D": "El lupus cursa con sedimento activo y complemento bajo.",
+   "E": "La membranosa por PLA2R no explica el cuadro infeccioso ni los riñones grandes."
+  },
+  "perla": "VIH + síndrome nefrótico + riñones grandes ecogénicos + deterioro rápido: HIVAN (GEFS colapsante). Confirmar VIH, carga viral y CD4.",
+  "referencias": [
+   "Lucas GM et al. Clin Infect Dis 2014;59:e96 (IDSA/HIVMA)",
+   "Wyatt CM et al. Semin Nephrol 2008;28:513"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o13",
+  "peso": 63.9
+ },
+ {
+  "id": "HVN-2",
+  "serie_id": "HVN",
+  "orden": 2,
+  "sub": "9.d.7",
+  "subtema": "HIVAN: hallazgos histológicos y de microscopía electrónica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma VIH con carga viral de 280,000 copias/mL y CD4 de 85 células/µL. Se realiza biopsia renal y microscopía electrónica.",
+  "enunciado": "¿Qué hallazgo ultraestructural es característico?",
+  "opciones": {
+   "A": "Microtúbulos de 30 a 50 nm organizados en los depósitos glomerulares, propios de la glomerulopatía inmunotactoide",
+   "B": "Depósitos densos subepiteliales con espigas y engrosamiento difuso de la membrana basal glomerular",
+   "C": "Lamelación de la membrana basal glomerular con áreas lúcidas, propia del síndrome de Alport",
+   "D": "Fibrillas rectas de 10 nm no ramificadas con tinción positiva para rojo Congo, propias de la amiloidosis sistémica",
+   "E": "Inclusiones tubuloreticulares endoteliales en la ME, con colapso del penacho y dilatación tubular microquística"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Los microtúbulos organizados caracterizan la glomerulopatía inmunotactoide y algunas crioglobulinas.",
+   "B": "Los depósitos subepiteliales con espigas son propios de la membranosa.",
+   "C": "La lamelación de la membrana basal es característica del síndrome de Alport.",
+   "D": "Las fibrillas de 10 nm con Rojo Congo son amiloidosis.",
+   "E": "En HIVAN la microscopía electrónica muestra inclusiones tubuloreticulares en el citoplasma de células endoteliales (agregados de membranas inducidos por interferón), además de borramiento podocitario y aumento de tamaño y proliferación de los podocitos; la óptica revela GEFS colapsante, microquistes tubulares con cilindros proteicos e inflamación intersticial. Las inclusiones tubuloreticulares también se observan en lupus, y su hallazgo en un paciente no lúpico debe hacer pensar en infección por VIH."
+  },
+  "perla": "HIVAN: GEFS colapsante + microquistes tubulares + inclusiones tubuloreticulares endoteliales (también vistas en lupus).",
+  "referencias": [
+   "Wyatt CM et al. Semin Nephrol 2008;28:513",
+   "Lucas GM et al. Clin Infect Dis 2014;59:e96"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 65.9
+ },
+ {
+  "id": "HVN-3",
+  "serie_id": "HVN",
+  "orden": 3,
+  "sub": "9.d.7",
+  "subtema": "HIVAN: tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La biopsia confirma GEFS colapsante con microquistes tubulares compatible con HIVAN.",
+  "enunciado": "¿Cuál es el tratamiento de elección?",
+  "opciones": {
+   "A": "Prednisona 1 mg/kg/día por 16 semanas como único tratamiento, sin antirretrovirales ni bloqueo del SRAA",
+   "B": "Iniciar terapia antirretroviral combinada de inmediato, sin importar el recuento de CD4, con IECA o ARA-II como adyuvante",
+   "C": "Esperar a que el CD4 baje de 200 células/µL antes de iniciar los antirretrovirales y solo entonces usar la terapia adyuvante",
+   "D": "Rituximab en dos dosis de 1 g, para depletar los linfocitos B y controlar la proteinuria nefrótica",
+   "E": "Ciclofosfamida y esteroides en dosis altas, como en la glomerulonefritis rápidamente progresiva del paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Los esteroides solos no son el tratamiento y exponen a infecciones oportunistas.",
+   "B": "El tratamiento de la HIVAN es la terapia antirretroviral combinada, que debe iniciarse al diagnóstico de VIH sin importar el CD4. Mejora la función renal y la proteinuria, y puede lograr remisión. Se agrega IECA/ARA-II para reducir la proteinuria. Los esteroides se reservan para casos seleccionados, con nefritis intersticial o deterioro rápido, y con precaución por riesgo de infecciones. Se ajustan los fármacos a la TFGe y se evitan nefrotóxicos como tenofovir disoproxilo en presencia de ERC, prefiriendo alafenamida o alternativas.",
+   "C": "Se recomienda iniciar tratamiento antirretroviral en todos los pacientes con VIH, sin esperar un CD4 bajo.",
+   "D": "No hay indicación de rituximab.",
+   "E": "La ciclofosfamida está contraindicada por inmunosupresión adicional."
+  },
+  "perla": "HIVAN: antirretrovirales de inmediato (sin importar CD4) + IECA/ARA-II; evitar tenofovir disoproxilo con ERC.",
+  "referencias": [
+   "Lucas GM et al. Clin Infect Dis 2014;59:e96",
+   "Wyatt CM et al. Semin Nephrol 2008;28:513"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 63.9
+ },
+ {
+  "id": "HVN-4",
+  "serie_id": "HVN",
+  "orden": 4,
+  "sub": "9.d.7",
+  "subtema": "Factores genéticos de riesgo: APOL1",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se discute por qué algunos pacientes con VIH desarrollan HIVAN y otros no, a pesar de viremia similar. El paciente es de origen afrodescendiente.",
+  "enunciado": "¿Qué factor genético explica la mayor susceptibilidad?",
+  "opciones": {
+   "A": "Polimorfismo de MYH9 como causa única de la susceptibilidad, sin participación de otros genes en la enfermedad",
+   "B": "Mutación de NPHS1 en la nefrina, que explica la GEFS colapsante en los pacientes con infección por VIH",
+   "C": "Variantes de la uromodulina, que determinan la nefropatía asociada al VIH en la población afrodescendiente",
+   "D": "Mutación de COL4A5, causante del síndrome de Alport y responsable de la susceptibilidad frente al VIH",
+   "E": "Genotipo de alto riesgo de APOL1 (dos alelos G1/G2), que predispone a GEFS colapsante con un segundo golpe como el VIH"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Los polimorfismos de MYH9 se asociaron inicialmente, pero la señal principal la explica APOL1.",
+   "B": "NPHS1 produce síndrome nefrótico congénito tipo finlandés.",
+   "C": "La uromodulina causa enfermedad tubulointersticial autosómica dominante.",
+   "D": "COL4A5 produce síndrome de Alport.",
+   "E": "Las variantes de riesgo de APOL1 (G1 y G2), frecuentes en ancestría africana, aumentan el riesgo de nefropatías asociadas al VIH, GEFS, colapsante inducida por COVID-19 y ERC progresiva, sobre todo con dos alelos de riesgo. Se requiere un segundo golpe (VIH, interferón, SARS-CoV-2) para expresar la enfermedad. En personas con dos alelos de riesgo sin tratamiento antirretroviral, el riesgo de HIVAN es muy alto. El efecto es tóxico, de ganancia de función, sobre el podocito (canal de poro catiónico e inflamación)."
+  },
+  "perla": "APOL1 (G1/G2, dos alelos) = alto riesgo de HIVAN, GEFS y colapsante tras segundo golpe (VIH, SARS-CoV-2, interferón).",
+  "referencias": [
+   "Genovese G et al. Science 2010;329:841",
+   "Kopp JB et al. J Am Soc Nephrol 2011;22:2129"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 47.8
+ },
+ {
+  "id": "HVN-5",
+  "serie_id": "HVN",
+  "orden": 5,
+  "sub": "9.d.7",
+  "subtema": "VIH y trasplante renal: interacciones",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras 3 años de antirretrovirales (carga viral indetectable, CD4 de 450 células/µL), la HIVAN progresó a enfermedad renal terminal y el paciente está en hemodiálisis. Es candidato a trasplante y su esquema incluye un inhibidor de proteasa potenciado con ritonavir.",
+  "enunciado": "¿Qué precaución es la más importante?",
+  "opciones": {
+   "A": "No hay interacción farmacológica entre los inhibidores de proteasa y el tacrolimus, por lo que se usa la dosis estándar",
+   "B": "Usar solo prednisona como inmunosupresión, para evitar las interacciones con los antirretrovirales del paciente",
+   "C": "Ajustar mucho el inhibidor de calcineurina por la inhibición de CYP3A4 del ritonavir, vigilando niveles, o cambiar a un esquema sin potenciador",
+   "D": "Aumentar la dosis de tacrolimus por la inducción enzimática del ritonavir sobre el metabolismo del fármaco",
+   "E": "Suspender los antirretrovirales durante el trasplante y reiniciarlos cuando el injerto esté estable y funcional"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La interacción es clínicamente muy relevante.",
+   "B": "El rechazo es más frecuente en estos pacientes; la prednisona sola es insuficiente.",
+   "C": "Los inhibidores de proteasa potenciados con ritonavir o cobicistat inhiben CYP3A4 y P-gp, por lo que elevan mucho los niveles de tacrolimus, ciclosporina y sirolimus; a veces basta una dosis semanal. Se prefieren esquemas con inhibidores de integrasa (dolutegravir, raltegravir), que no interactúan, y se monitoriza estrechamente. Los receptores con VIH tienen una mayor tasa de rechazo agudo, aunque la supervivencia del injerto es comparable; se exige carga viral indetectable y CD4 >200 (y estabilidad). No se interrumpe la terapia antirretroviral.",
+   "D": "El ritonavir inhibe, no induce, CYP3A4 (la rifampicina sí es inductora).",
+   "E": "Suspender el tratamiento antirretroviral permite la replicación viral y complicaciones."
+  },
+  "perla": "VIH + trasplante: ritonavir/cobicistat inhiben CYP3A4 (↑↑ tacrolimus); preferir inhibidores de integrasa; más rechazo agudo que en receptores sin VIH.",
+  "referencias": [
+   "Stock PG et al. N Engl J Med 2010;363:2004",
+   "Lucas GM et al. Clin Infect Dis 2014;59:e96"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 65.9
+ },
+ {
+  "id": "AMY-1",
+  "serie_id": "AMY",
+  "orden": 1,
+  "sub": "9.d.6",
+  "subtema": "Amiloidosis AL: presentación renal",
+  "dificultad": "moderada",
+  "caso": "Mujer de 64 años con proteinuria de 8 g/24 h, albúmina 2.0 g/dL, Cr 1.5 mg/dL, macroglosia, púrpura periorbitaria, hepatomegalia y hipotensión ortostática. Inmunofijación sérica con banda monoclonal λ y cadenas ligeras libres λ elevadas. Sin lesiones líticas.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y el hallazgo histológico confirmatorio?",
+  "opciones": {
+   "A": "Nefropatía membranosa; espigas con PLA2R, depósitos subepiteliales de IgG y engrosamiento de la membrana basal",
+   "B": "Amiloidosis AL: depósito amorfo eosinófilo con birrefringencia verde manzana con rojo Congo y fibrillas rígidas de 8 a 12 nm en la ME",
+   "C": "Mieloma múltiple con nefropatía por cilindros; cilindros fracturados con reacción de células gigantes tubulares",
+   "D": "Enfermedad de cambios mínimos; borramiento podocitario difuso, sin depósitos y con microscopía de luz normal",
+   "E": "Enfermedad de depósito de cadenas ligeras; nódulos mesangiales PAS positivos sin rojo Congo y con depósito lineal en la membrana basal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La membranosa no explica macroglosia ni hipotensión ortostática.",
+   "B": "La amiloidosis AL se asocia a una discrasia de células plasmáticas con cadenas ligeras amiloidogénicas (más frecuentemente λ). Afecta riñón (proteinuria nefrótica), corazón, hígado, sistema nervioso autónomo y lengua; la macroglosia y la púrpura periorbitaria son características. La biopsia (renal, de grasa abdominal o de médula) muestra material amorfo eosinófilo que da birrefringencia verde manzana con Rojo Congo en luz polarizada, y por ME fibrillas de 8 a 12 nm sin ramificar.",
+   "C": "La nefropatía por cilindros produce LRA con proteinuria de cadenas ligeras sin albuminuria significativa.",
+   "D": "Los cambios mínimos no explican macroglosia ni banda monoclonal.",
+   "E": "La enfermedad por depósito de cadenas ligeras muestra nódulos PAS positivos y Rojo Congo negativo."
+  },
+  "perla": "AL: nefrótico + macroglosia + púrpura periorbitaria + hipotensión ortostática; Rojo Congo verde manzana; fibrillas 8–12 nm.",
+  "referencias": [
+   "Gertz MA. Am J Hematol 2018;93:1169",
+   "Comprehensive Clinical Nephrology (amiloidosis)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o12",
+  "peso": 65.6
+ },
+ {
+  "id": "AMY-2",
+  "serie_id": "AMY",
+  "orden": 2,
+  "sub": "9.d.6",
+  "subtema": "Tipificación de la amiloidosis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia confirma amiloide. La paciente tiene además un clon plasmático. El hematólogo pregunta cómo confirmar que el amiloide es AL y no otro tipo.",
+  "enunciado": "¿Cuál es el método de tipificación de referencia?",
+  "opciones": {
+   "A": "Gammagrafía con pirofosfato únicamente, que distingue por sí sola la amiloidosis AL de la amiloidosis por transtiretina",
+   "B": "Medir la proteína C reactiva, porque su elevación sostenida identifica el tipo de amiloide depositado en el tejido",
+   "C": "Tinción de Rojo Congo adicional con luz polarizada, que permite diferenciar los tipos de amiloide por su birrefringencia",
+   "D": "Microdisección láser del tejido con espectrometría de masas, que es el método de referencia para tipificar el amiloide",
+   "E": "Solo la inmunofijación sérica, porque una banda monoclonal siempre implica amiloidosis AL y evita tipificar el tejido amiloide"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La gammagrafía con pirofosfato ayuda en ATTR cardiaca, no tipifica el depósito renal.",
+   "B": "La PCR se eleva en amiloidosis AA, pero no tipifica.",
+   "C": "El Rojo Congo confirma amiloide pero no tipifica.",
+   "D": "La microdisección láser seguida de espectrometría de masas identifica la proteína del depósito (cadenas ligeras λ o κ en AL, transtiretina en ATTR, SAA en AA, etc.) con alta sensibilidad y especificidad. Es esencial porque una proteína monoclonal es frecuente en personas mayores y puede coexistir con amiloidosis ATTR, con un tratamiento muy distinto. La inmunohistoquímica puede ser insuficiente y en AL a menudo es poco informativa. El Rojo Congo solo confirma amiloide, no su tipo.",
+   "E": "La banda monoclonal puede coexistir con amiloidosis no AL."
+  },
+  "perla": "Tipificar siempre el amiloide: LMD + espectrometría de masas. Una banda monoclonal no basta para diagnosticar AL.",
+  "referencias": [
+   "Gertz MA. Am J Hematol 2018;93:1169",
+   "Vrana JA et al. Blood 2009;114:4957"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 49.5
+ },
+ {
+  "id": "AMY-3",
+  "serie_id": "AMY",
+  "orden": 3,
+  "sub": "9.d.6",
+  "subtema": "Estadificación y afectación cardiaca",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma amiloidosis AL λ. La paciente refiere disnea de esfuerzo leve y edema; el ECG tiene bajo voltaje y el ecocardiograma muestra engrosamiento ventricular.",
+  "enunciado": "¿Qué estudios determinan el pronóstico y la estadificación?",
+  "opciones": {
+   "A": "Cuantificación de IgA sérica, porque determina la carga de amiloide y la estadificación de la afectación orgánica en la paciente",
+   "B": "Velocidad de sedimentación globular, porque refleja la actividad inflamatoria y la extensión sistémica de la amiloidosis",
+   "C": "Solo la creatinina sérica, porque la afectación renal es el principal determinante del pronóstico de la amiloidosis AL",
+   "D": "NT-proBNP y troponina, con la diferencia de cadenas ligeras libres, para la estadificación de Mayo, y eco con strain",
+   "E": "Hemoglobina glucosilada, porque el control glucémico determina el pronóstico y la progresión de la enfermedad de depósito"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La IgA sérica no estadifica.",
+   "B": "La VSG es inespecífica.",
+   "C": "La creatinina no estadifica ni determina riesgo cardiaco.",
+   "D": "La afectación cardiaca es el principal determinante de supervivencia en la amiloidosis AL. La estadificación de Mayo (versión 2012) utiliza NT-proBNP, troponina y la diferencia de cadenas ligeras libres (dFLC), mientras la estadificación renal utiliza la proteinuria y la TFGe. El ecocardiograma con strain longitudinal (patrón de preservación apical) y la resonancia magnética con realce tardío orientan el diagnóstico. La afectación cardiaca avanzada limita la tolerancia al tratamiento (por ejemplo, el bortezomib o los trasplantes de médula ósea) y exige ajustes terapéuticos.",
+   "E": "La HbA1c no es relevante en amiloidosis AL."
+  },
+  "perla": "AL: pronóstico = corazón. Mayo 2012: NT-proBNP + troponina + dFLC. Eco con strain y RM cardiaca para extensión.",
+  "referencias": [
+   "Kumar S et al. J Clin Oncol 2012;30:989",
+   "Gertz MA. Am J Hematol 2018;93:1169"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 49.5
+ },
+ {
+  "id": "AMY-4",
+  "serie_id": "AMY",
+  "orden": 4,
+  "sub": "9.d.6",
+  "subtema": "Tratamiento de la amiloidosis AL",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Estadio Mayo II, sin contraindicaciones para tratamiento sistémico. No es candidata a trasplante autólogo de progenitores por edad y afectación cardiaca.",
+  "enunciado": "¿Cuál es el tratamiento de primera línea con mejor evidencia?",
+  "opciones": {
+   "A": "Tocilizumab como inhibidor de la interleucina 6, que reduce la producción de cadenas ligeras",
+   "B": "Prednisona en monoterapia durante seis meses, sin agente dirigido al clon de células plasmáticas",
+   "C": "Plasmaféresis diaria para retirar la cadena ligera circulante, sin tratar el clon",
+   "D": "Daratumumab con ciclofosfamida, bortezomib y dexametasona (esquema Dara-CyBorD, ANDROMEDA)",
+   "E": "Colchicina en monoterapia, como antifibrótica que evita el depósito amiloide en el corazón y el riñón"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El tocilizumab se emplea en inflamación (AA), no en AL.",
+   "B": "Los glucocorticoides solos no controlan el clon.",
+   "C": "La plasmaféresis no reduce el clon plasmático.",
+   "D": "El ensayo ANDROMEDA mostró que añadir daratumumab subcutáneo a ciclofosfamida, bortezomib y dexametasona incrementa de forma significativa la respuesta hematológica completa (53% frente a 18%) y la respuesta cardiaca y renal, y es el estándar para amiloidosis AL no candidata a trasplante o como inducción. El objetivo es eliminar el clon productor de cadenas ligeras. Se vigila la toxicidad cardiaca, la hipotensión y la neuropatía y se ajusta según la función renal y cardiaca. El trasplante autólogo se reserva para pacientes seleccionados con baja afectación cardiaca.",
+   "E": "La colchicina previene la amiloidosis AA de la fiebre mediterránea familiar, no trata AL."
+  },
+  "perla": "AL no candidata a TAPH: Dara-CyBorD (ANDROMEDA). AA: tratar la inflamación de base. FMF: colchicina.",
+  "referencias": [
+   "Kastritis E et al. N Engl J Med 2021;385:46 (ANDROMEDA)",
+   "Gertz MA. Am J Hematol 2018;93:1169"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 79.7
+ },
+ {
+  "id": "AMY-5",
+  "serie_id": "AMY",
+  "orden": 5,
+  "sub": "9.d.6",
+  "subtema": "Respuesta renal y trasplante",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tras 6 ciclos hay respuesta hematológica completa (cadenas ligeras libres normales). La proteinuria bajó de 8 a 2.5 g/día y la TFGe se mantiene en 55 mL/min/1.73 m². Años después progresa a ERC terminal.",
+  "enunciado": "¿Cuál de las siguientes afirmaciones es correcta?",
+  "opciones": {
+   "A": "No hay recurrencia del amiloide en el injerto, porque el clon plasmático se controló con la quimioterapia previa",
+   "B": "El trasplante debe hacerse antes de controlar el clon, para evitar la progresión de la enfermedad renal terminal",
+   "C": "El trasplante renal está contraindicado de por vida en la amiloidosis AL, aun con respuesta hematológica completa",
+   "D": "Respuesta renal: proteinuria ↓≥30% sin caída de TFGe ≥25%; se trasplanta con respuesta hematológica sostenida",
+   "E": "La respuesta renal se define solo por la normalización de la creatinina sérica, sin considerar la proteinuria urinaria"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El amiloide puede recurrir en el injerto si el clon persiste.",
+   "B": "El trasplante antes de controlar el clon se asocia a recurrencia.",
+   "C": "No está contraindicado de por vida; depende del estado hematológico y de órgano.",
+   "D": "La respuesta renal en AL se define como una reducción de la proteinuria ≥30% o por debajo de 0.5 g/día sin deterioro de TFGe ≥25% respecto de la basal; la mejoría renal sigue meses o años a la respuesta hematológica. En ERC terminal, el trasplante renal es una opción para pacientes con remisión hematológica sostenida y sin disfunción cardiaca o de otros órganos graves; sin control del clon el amiloide puede recurrir en el injerto. Algunos centros realizan trasplante autólogo tras el renal o combinan trasplante de riñón y corazón en casos seleccionados.",
+   "E": "La creatinina es un marcador tardío e insensible de respuesta."
+  },
+  "perla": "Respuesta renal AL: proteinuria ↓≥30% o <0.5 g/d sin ↓TFGe ≥25%. Trasplante renal con remisión hematológica sostenida y corazón conservado.",
+  "referencias": [
+   "Palladini G et al. Blood 2014;124:2325",
+   "Gertz MA. Am J Hematol 2018;93:1169"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 47.5
+ },
+ {
+  "id": "PRT-3",
+  "serie_id": "PRT",
+  "orden": 3,
+  "sub": "9.d.6",
+  "subtema": "Nefropatía por cilindros: biopsia y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Resultados: cadenas ligeras libres séricas κ de 3,400 mg/L, cociente κ/λ mayor de 100, inmunofijación con proteína monoclonal κ y plasmocitos de 45% en médula ósea. Sin proteinuria albuminúrica.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Tratar como glomerulonefritis membranoproliferativa, con inmunosupresión dirigida a los depósitos de complemento",
+   "B": "Nefropatía por cilindros: iniciar bortezomib y dexametasona de inmediato, con hidratación y sin nefrotóxicos, sin esperar la biopsia",
+   "C": "Iniciar corticoides en monoterapia y esperar el resultado de la biopsia renal durante 4 semanas antes de decidir si se agrega quimioterapia",
+   "D": "Diálisis crónica sin tratamiento antimieloma, porque el daño renal por cilindros ya es irreversible",
+   "E": "Solo suspender nefrotóxicos y observar la evolución de la creatinina durante varias semanas, sin quimioterapia"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay patrón de glomerulonefritis; el daño es tubular por cilindros.",
+   "B": "La nefropatía por cilindros es una urgencia hematológica y nefrológica: la recuperación renal depende de la rapidez con que se reduzcan las cadenas ligeras (idealmente más de 60% en los primeros 21 días). Se inicia sin demora un esquema con bortezomib (de elección por su eficacia y por no requerir ajuste renal) más dexametasona, con hidratación vigorosa, corrección de hipercalcemia, hiperuricemia y acidosis, y se evitan AINE, contrastes y otros nefrotóxicos. Cuando el contexto es típico y las cadenas ligeras séricas son mayores de 500 mg/L, no se requiere biopsia para iniciar tratamiento; se hace si hay dudas sobre otras lesiones (amiloidosis AL, enfermedad por depósito de cadenas ligeras).",
+   "C": "Los corticoides en monoterapia y la espera prolongada retrasan la reducción de cadenas ligeras.",
+   "D": "La diálisis no es la única medida; la recuperación depende del tratamiento antimieloma.",
+   "E": "La observación sin tratamiento específico condiciona pérdida renal irreversible."
+  },
+  "perla": "Cilindros de mieloma: bortezomib + dexametasona ya; CLL >500 mg/L permite omitir biopsia; evitar AINE/contraste; reducción rápida de CLL = recuperación renal.",
+  "referencias": [
+   "Hutchison CA et al. J Am Soc Nephrol 2011;22:1129",
+   "Comprehensive Clinical Nephrology (nefropatía por cilindros)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 67.6
+ },
+ {
+  "id": "DMH-2",
+  "serie_id": "DMH",
+  "orden": 2,
+  "sub": "9.d.6",
+  "subtema": "Enfermedad por depósito de cadenas ligeras",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Para el diagnóstico diferencial, el patólogo comenta qué hallazgos habrían cambiado el diagnóstico: tinción lineal monotípica para cadenas ligeras κ a lo largo de las membranas basales glomerular y tubular en la inmunofluorescencia, con depósitos granulares densos 'polvosos' en la microscopía electrónica.",
+  "enunciado": "¿Qué diagnóstico indicaría ese patrón y qué estudio sistémico se solicitaría?",
+  "opciones": {
+   "A": "Enfermedad por depósito de cadenas ligeras (GMSR o mieloma): cadenas ligeras libres séricas, inmunofijación y médula ósea",
+   "B": "Nefropatía por IgA con depósitos mesangiales de IgA dominante; se solicita la IgA sérica y su glicosilación",
+   "C": "Glomerulonefritis posestreptocócica con depósitos granulares de C3; se solicitan ASLO y el complemento sérico",
+   "D": "Nefropatía diabética con nódulos de Kimmelstiel-Wilson; solo control de la glucosa y de la presión arterial, sin estudio sistémico adicional",
+   "E": "Enfermedad de Fabry con inclusiones lamelares en los podocitos; actividad de α-galactosidasa A en plasma"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La enfermedad por depósito de cadenas ligeras (la forma más frecuente de enfermedad por depósito de inmunoglobulinas monoclonales) produce nódulos mesangiales PAS positivos y se reconoce por inmunofluorescencia con tinción lineal monotípica (más a menudo κ) de membranas basales glomerulares y tubulares, y por depósitos electrondensos granulares, finos y 'polvosos' en el lado interno de las membranas basales en microscopía electrónica. Se asocia a una discrasia de células plasmáticas, por lo que se solicitan cadenas ligeras libres séricas, inmunofijación en suero y orina y valoración de médula ósea. El tratamiento va dirigido a la clona de células plasmáticas (por ejemplo, bortezomib), no a la glucemia.",
+   "B": "La nefropatía por IgA tiene depósitos mesangiales de IgA policlonal, sin patrón nodular monotípico.",
+   "C": "La GN posestreptocócica muestra depósitos subepiteliales en 'jorobas', con C3.",
+   "D": "La nefropatía diabética no tiene tinción monotípica en inmunofluorescencia.",
+   "E": "Fabry produce inclusiones laminadas ('cebra') en podocitos."
+  },
+  "perla": "LCDD: IF lineal monotípica (κ) en GBM y TBM + depósitos 'polvosos' en ME + nódulos PAS(+). Buscar clona (CLL, IFE, médula).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (discrasias de células plasmáticas)",
+   "Leung N et al. Nat Rev Nephrol 2019;15:45"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 67.6
+ },
+ {
+  "id": "DMH-3",
+  "serie_id": "DMH",
+  "orden": 3,
+  "sub": "9.d.6",
+  "subtema": "Amiloidosis AL vs glomerulonefritis fibrilar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En otro caso de diagnóstico diferencial con glomeruloesclerosis nodular, el rojo Congo es negativo pero la microscopía electrónica muestra fibrillas de 14 a 20 nm de diámetro, y la inmunohistoquímica es positiva para DNAJB9.",
+  "enunciado": "¿Cuál es el diagnóstico y cómo se distingue de la amiloidosis?",
+  "opciones": {
+   "A": "Amiloidosis AL, porque las fibrillas siempre miden 8 a 12 nm y el rojo Congo es negativo en este caso",
+   "B": "Glomerulopatía inmunotactoide, porque las fibrillas son microtúbulos huecos de más de 30 nm organizados en paralelo",
+   "C": "Nefropatía diabética porque hay fibrillas en la matriz mesangial, además de la glomeruloesclerosis nodular",
+   "D": "Nefropatía membranosa con depósitos subepiteliales, que en la ME muestran fibrillas dispersas en el mesangio",
+   "E": "GN fibrilar (DNAJB9 positivo); la amiloidosis tiene rojo Congo positivo con birrefringencia verde manzana y fibrillas de 8 a 12 nm"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En la amiloidosis el rojo Congo es positivo; en este caso es negativo.",
+   "B": "La glomerulopatía inmunotactoide tiene microtúbulos de diámetro mayor (más de 30 nm).",
+   "C": "La nefropatía diabética no tiene fibrillas organizadas en ME.",
+   "D": "La nefropatía membranosa muestra depósitos subepiteliales, no fibrillas.",
+   "E": "La glomerulonefritis fibrilar se caracteriza por fibrillas aleatoriamente orientadas de unos 12 a 24 nm de diámetro, rojo Congo negativo y positividad para DNAJB9, un marcador muy sensible y específico (más del 95%). La amiloidosis (AL o AA) tiene fibrillas de 8 a 12 nm, rojo Congo positivo con birrefringencia verde manzana bajo luz polarizada y se confirma tipificando la proteína por espectrometría de masas. La glomerulopatía inmunotactoide tiene microtúbulos más gruesos (más de 30 nm) con disposición paralela y suele asociarse a gammapatía monoclonal. La fibrilar se asocia a autoinmunidad, hepatitis C y neoplasias, y la amiloidosis AL a discrasias de células plasmáticas."
+  },
+  "perla": "Fibrilar: 12–24 nm, Congo (–), DNAJB9 (+). Amiloide: 8–12 nm, Congo (+), verde manzana. Inmunotactoide: >30 nm.",
+  "referencias": [
+   "Nasr SH et al. Kidney Int Rep 2018;3:56",
+   "Comprehensive Clinical Nephrology (glomerulopatías fibrilares)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 67.6
+ }
+]

@@ -1,0 +1,789 @@
+[
+ {
+  "id": "LPH-1",
+  "serie_id": "LPH",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Litiasis recurrente con hipercalcemia: hiperparatiroidismo primario",
+  "dificultad": "moderada",
+  "caso": "Mujer de 45 años con su segundo episodio de litiasis renal en 18 meses. Calcio sérico de 10.9 mg/dL, fósforo de 2.0 mg/dL, creatinina de 0.8 mg/dL, ácido úrico sérico de 4.1 mg/dL. Orina de 24 horas: calcio de 350 mg, ácido úrico de 500 mg, oxalato de 32 mg, citrato de 480 mg, volumen de 2.1 L; pH urinario de 6.4 en tres muestras.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Cistinuria, enfermedad hereditaria con cristales hexagonales y excreción urinaria elevada de cistina desde la infancia",
+   "B": "Hiperuricosuria con litiasis de ácido úrico, por exceso de purinas en la dieta y producción de cálculos radiolúcidos",
+   "C": "Hipocitraturia aislada, por acidosis intracelular o dieta rica en proteína animal, sin alteración del calcio sérico total",
+   "D": "Acidosis tubular renal distal, con pH urinario persistentemente alto, hipocitraturia y bicarbonato sérico bajo en la paciente",
+   "E": "Hiperparatiroidismo primario con hipercalciuria: calcio alto con fósforo bajo en una litiásica es el patrón clásico"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La cistinuria no explica la hipercalcemia ni la hipofosfatemia.",
+   "B": "El ácido úrico urinario es normal y el pH es alcalino, lo que no favorece los cálculos de ácido úrico.",
+   "C": "El citrato de 480 mg/24 h es normal (hipocitraturia: menos de 320 mg/24 h).",
+   "D": "La ATR distal cursa con acidosis metabólica e hipopotasemia, con hipocitraturia.",
+   "E": "La hipercalcemia con hipofosfatemia, litiasis recurrente y calciuria elevada (más de 250 mg/día en mujeres y 300 mg/día en varones) sugiere hiperparatiroidismo primario: la PTH aumenta la reabsorción ósea, la absorción intestinal de calcio por vía del calcitriol y la fosfaturia. Cerca de 15 a 20% de los pacientes con hiperparatiroidismo primario tiene nefrolitiasis, y alrededor de 5% de los pacientes con litiasis cálcica tiene hiperparatiroidismo. El citrato (480 mg), el oxalato (32 mg) y el ácido úrico urinario (500 mg) son normales, y el pH urinario alto favorece el fosfato de calcio."
+  },
+  "perla": "Litiasis + Ca ↑ + P ↓ = hiperparatiroidismo primario. Valores 24 h: Ca >250 (M)/300 (H) mg, citrato <320, oxalato >40–45.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 67.0
+ },
+ {
+  "id": "LPH-2",
+  "serie_id": "LPH",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Composición del cálculo en hiperparatiroidismo primario",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se recupera un cálculo expulsado por la paciente para análisis.",
+  "enunciado": "¿Qué composición se espera y con qué pH urinario se asocia?",
+  "opciones": {
+   "A": "Xantina, cálculo radiolúcido muy raro por déficit hereditario de xantina oxidasa, con pH urinario ácido",
+   "B": "Estruvita por Proteus mirabilis, asociada a infección urinaria por gérmenes ureasa positivos y pH muy alcalino",
+   "C": "Fosfato de calcio (apatita), asociado con un pH urinario alcalino (mayor de 6.0 a 6.5) y con hipercalciuria",
+   "D": "Cistina, con cristales hexagonales y pH urinario ácido, en un trastorno hereditario del transporte de aminoácidos",
+   "E": "Ácido úrico puro, con pH urinario menor de 5.5, que es radiolúcido en la radiografía simple de abdomen"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La xantina es rara y no se asocia a este cuadro.",
+   "B": "La estruvita requiere infección por bacterias que desdoblan la urea y pH mayor de 7.2.",
+   "C": "En el hiperparatiroidismo primario predominan los cálculos de fosfato de calcio (apatita o brushita), que se forman en orina alcalina (pH mayor de 6.0 a 6.5) con hipercalciuria; también pueden coexistir cálculos de oxalato de calcio. Los cálculos de ácido úrico se forman en orina persistentemente ácida (pH menor de 5.5), los de cistina en cistinuria, los de estruvita con infecciones por bacterias que desdoblan la urea (Proteus) en orina alcalina con pH mayor de 7.2 y los de xantina en el déficit de xantina oxidasa.",
+   "D": "La cistina se asocia a cistinuria, no a hipercalcemia.",
+   "E": "El ácido úrico se forma en orina ácida y la paciente tiene pH de 6.4."
+  },
+  "perla": "PHPT: fosfato de calcio (± oxalato), pH urinario alcalino. Ácido úrico: pH <5.5. Estruvita: pH >7.2 con Proteus.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 67.0
+ },
+ {
+  "id": "LPH-3",
+  "serie_id": "LPH",
+  "orden": 3,
+  "sub": "12",
+  "subtema": "Confirmación, localización y tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La PTH intacta es de 112 pg/mL (normal de 15 a 65), con 25-OH vitamina D de 32 ng/mL y TFGe de 95 mL/min/1.73 m².",
+  "enunciado": "¿Cuál es el siguiente paso en el estudio y el tratamiento de elección?",
+  "opciones": {
+   "A": "Tratar con alendronato únicamente, porque protege el hueso y reduce la hipercalciuria en el hiperparatiroidismo",
+   "B": "Observar sin cirugía a pesar de la litiasis, con vigilancia anual del calcio y de la densidad mineral ósea",
+   "C": "Prescribir solo tiazidas e hidratación, porque corrigen la hipercalciuria y permiten evitar la cirugía de las paratiroides",
+   "D": "Radioterapia cervical dirigida a las paratiroides, como alternativa no quirúrgica de primera línea en la litiasis",
+   "E": "Localizar con ecografía cervical y sestamibi y proceder a paratiroidectomía, porque la nefrolitiasis es indicación quirúrgica"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Un bisfosfonato aislado no corrige la causa ni la litiasis.",
+   "B": "La litiasis es indicación de cirugía.",
+   "C": "Las tiazidas disminuyen la calciuria pero elevan el calcio sérico, por lo que están contraindicadas en el hiperparatiroidismo primario.",
+   "D": "La radioterapia no es un tratamiento del hiperparatiroidismo primario.",
+   "E": "La PTH elevada con hipercalcemia confirma el hiperparatiroidismo primario. Se localiza la glándula con ecografía cervical, gammagrafía con 99mTc-sestamibi (SPECT/TC) o TC 4D, y el tratamiento definitivo es la paratiroidectomía. Las indicaciones quirúrgicas incluyen edad menor de 50 años, calcio más de 1 mg/dL por arriba del límite, osteoporosis o fractura, TFGe menor de 60, nefrolitiasis o nefrocalcinosis y calciuria de 24 horas mayor de 400 mg/día. En esta paciente, la litiasis recurrente indica cirugía. La paratiroidectomía reduce la recurrencia de litiasis."
+  },
+  "perla": "PHPT con litiasis → paratiroidectomía (localizar: US cervical, sestamibi, TC 4D). Tiazidas contraindicadas (↑Ca).",
+  "referencias": [
+   "Bilezikian JP et al. J Bone Miner Res 2022;37:2293",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 67.0
+ },
+ {
+  "id": "LPH-4",
+  "serie_id": "LPH",
+  "orden": 4,
+  "sub": "12",
+  "subtema": "Hipercalciuria idiopática: tratamiento con tiazidas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente, varón de 38 años, tiene litiasis de oxalato de calcio recurrente, calcio sérico normal (9.4 mg/dL), PTH normal y calciuria de 410 mg/24 h con ingesta normal de calcio y sodio de 140 mEq/día.",
+  "enunciado": "¿Cuál es el tratamiento farmacológico y la medida dietética adecuada?",
+  "opciones": {
+   "A": "Restricción estricta de calcio en la dieta, para disminuir la absorción intestinal y la calciuria",
+   "B": "No se requiere tratamiento, porque con calcio y PTH séricos normales la calciuria no es relevante",
+   "C": "Furosemida para aumentar la calciuria y favorecer el arrastre de los cristales por la orina",
+   "D": "Suplementos de vitamina D en dosis altas, para mejorar la mineralización ósea y el balance de calcio",
+   "E": "Tiazida para disminuir la calciuria, con restricción de sodio y calcio dietético normal (1,000-1,200 mg/día)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La restricción de calcio en la dieta aumenta la absorción intestinal de oxalato y el riesgo de litiasis.",
+   "B": "Una calciuria de 410 mg/24 h es elevada.",
+   "C": "Los diuréticos de asa aumentan la excreción de calcio y favorecen la litiasis.",
+   "D": "La vitamina D en dosis altas aumenta la absorción de calcio.",
+   "E": "En la hipercalciuria idiopática (calcio sérico y PTH normales) las tiazidas aumentan la reabsorción distal de calcio y reducen la calciuria hasta 50%, disminuyendo la recurrencia de litiasis; se acompañan de dieta baja en sodio (el sodio aumenta la calciuria), ingesta normal de calcio (la restricción aumenta la absorción de oxalato y la formación de cálculos), hidratación y limitación de proteína animal. Efectos adversos de las tiazidas: hipopotasemia (que reduce el citrato; se corrige con citrato de potasio), hiponatremia, hipercalcemia y gota. La hidroclorotiazida de 25 a 50 mg y la clortalidona de 25 mg son esquemas de uso común."
+  },
+  "perla": "Hipercalciuria idiopática: tiazida + Na bajo + calcio dietético normal. Tiazida: vigilar K, Na, Ca; K citrate si hipoK/hipocitraturia.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Fink HA et al. Ann Intern Med 2013;158:535"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 81.1
+ },
+ {
+  "id": "LCT-1",
+  "serie_id": "LCT",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Hipocitraturia aislada",
+  "dificultad": "moderada",
+  "caso": "Hombre de 36 años con litiasis de oxalato de calcio recurrente, calcio, fósforo y PTH séricos normales. Orina de 24 horas: volumen de 2.4 L, calcio de 190 mg, oxalato de 30 mg, ácido úrico de 520 mg, sodio de 110 mEq y citrato de 250 mg. Bicarbonato sérico de 25 mEq/L y pH urinario de 5.8.",
+  "enunciado": "¿Cuál es la alteración metabólica?",
+  "opciones": {
+   "A": "Hiperoxaluria (oxalato urinario mayor de 40 a 45 mg/24 h)",
+   "B": "Hipercalciuria idiopática familiar (calcio urinario mayor de 250 mg/24 h)",
+   "C": "Hiperuricosuria con hipercalciuria (ácido úrico mayor de 800 mg/24 h)",
+   "D": "Hipocitraturia aislada (citrato <320 mg/24 h) con el resto normal",
+   "E": "Perfil urinario normal, sin alteración metabólica identificable"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El oxalato de 30 mg/día es normal (hiperoxaluria: mayor de 40 a 45 mg/día).",
+   "B": "El calcio de 190 mg/día es normal.",
+   "C": "El ácido úrico de 520 mg/día y el calcio de 190 mg no son elevados.",
+   "D": "El citrato es el principal inhibidor de la cristalización del calcio: forma complejos solubles con el calcio y bloquea la nucleación del oxalato y fosfato de calcio. Se define hipocitraturia como citrato en orina de 24 horas menor de 320 mg (menor de 0.67 mmol en algunos criterios), y es la anomalía metabólica más frecuente en los formadores de cálculos de calcio. En este paciente es la única alteración: el calcio (190 mg), el oxalato (30 mg), el ácido úrico (520 mg) y el sodio son normales.",
+   "E": "El citrato está bajo."
+  },
+  "perla": "Hipocitraturia: citrato <320 mg/24 h. Inhibidor principal de cristalización cálcica.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "David26",
+   "Alan26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 79.1
+ },
+ {
+  "id": "LCT-2",
+  "serie_id": "LCT",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Causas de hipocitraturia",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se investigan las causas de la hipocitraturia, que se reabsorbe en el túbulo proximal en condiciones de acidosis intracelular.",
+  "enunciado": "¿Cuál de los siguientes se asocia a hipocitraturia?",
+  "opciones": {
+   "A": "Consumo abundante de frutas y verduras, que aportan álcalis y aumentan la excreción urinaria de citrato",
+   "B": "Acidosis tubular renal distal (tipo 1), diarrea crónica, hipopotasemia, dieta rica en proteína animal, acetazolamida y tiazidas",
+   "C": "Alcalosis metabólica por vómito, que aumenta el citrato urinario por la carga de bicarbonato y la alcalinización intracelular del túbulo proximal",
+   "D": "Ingesta alta de citrato, que se excreta por el riñón y eleva su concentración en la orina de 24 horas",
+   "E": "Hipermagnesemia leve, que forma complejos con el citrato y aumenta su excreción urinaria total del día"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Las frutas y verduras proporcionan álcali y aumentan el citrato urinario.",
+   "B": "La acidosis intracelular del túbulo proximal aumenta la reabsorción de citrato por el cotransportador NaDC-1 y reduce su excreción: ocurre en la ATR distal tipo 1 (con litiasis y nefrocalcinosis), diarrea crónica y malabsorción, hipopotasemia, ERC, dieta con exceso de proteína animal (carga ácida), tratamiento con acetazolamida y, en menor grado, con tiazidas por la hipopotasemia que producen. La alcalosis, el consumo de frutas y verduras (carga alcalina) y el citrato aumentan la excreción de citrato.",
+   "C": "La alcalosis aumenta la excreción de citrato.",
+   "D": "El citrato ingerido aumenta la citraturia.",
+   "E": "La hipermagnesemia no es una causa de hipocitraturia."
+  },
+  "perla": "↓ Citrato: ATR distal, diarrea crónica, hipoK, ERC, dieta rica en proteínas animales, acetazolamida, tiazidas.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 67.0
+ },
+ {
+  "id": "LCT-3",
+  "serie_id": "LCT",
+  "orden": 3,
+  "sub": "12",
+  "subtema": "Tratamiento con citrato de potasio",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El paciente no tiene acidosis tubular renal ni infección urinaria, y su pH urinario es de 5.8.",
+  "enunciado": "¿Cuál es el tratamiento más adecuado de la hipocitraturia?",
+  "opciones": {
+   "A": "Acidificar la orina con cloruro de amonio, para disolver los cálculos de fosfato de calcio y aumentar el citrato",
+   "B": "Restricción total de líquidos para concentrar la orina y reducir el volumen urinario de 24 horas del paciente",
+   "C": "Suplementos de vitamina C en dosis altas, para acidificar la orina y reducir la formación de cálculos de calcio",
+   "D": "Citrato de sodio, que corrige el citrato urinario y no modifica la calciuria, por lo que se prefiere al de potasio",
+   "E": "Citrato de potasio (30 a 60 mEq/día en dosis divididas) para elevar el citrato urinario a >320-400 mg/24 h y el pH a 6.0-6.5, con hidratación"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La acidificación empeora la hipocitraturia y favorece los cálculos de ácido úrico.",
+   "B": "La restricción de líquidos favorece la sobresaturación urinaria.",
+   "C": "La vitamina C se metaboliza a oxalato y aumenta el riesgo.",
+   "D": "El sodio aumenta la excreción de calcio y disminuye el beneficio.",
+   "E": "El citrato de potasio es el tratamiento de la hipocitraturia: se metaboliza a bicarbonato, alcaliniza la orina, aumenta el citrato urinario y reduce la saturación de calcio. Se prefiere el potasio al sodio porque la carga de sodio aumenta la calciuria y contrarresta el efecto. Se ajusta con citrato y pH urinario en orina de 24 horas. Se evita en pacientes con hiperpotasemia (ERC avanzada, IECA con potasio alto) y con infecciones por bacterias que desdoblan la urea, porque la alcalinización favorece la estruvita. La ingesta de líquidos para una diuresis de más de 2 a 2.5 L/día es la base de la prevención."
+  },
+  "perla": "Hipocitraturia: citrato de potasio (no sodio) + diuresis >2–2.5 L. Evitar en hiperK, estruvita/infección por ureasa.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 67.0
+ },
+ {
+  "id": "LCT-4",
+  "serie_id": "LCT",
+  "orden": 4,
+  "sub": "12",
+  "subtema": "Prevención dietética de la litiasis y causas de hiperoxaluria",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El paciente pregunta qué medidas dietéticas reducen el riesgo, y qué condiciones elevan el oxalato urinario.",
+  "enunciado": "¿Cuál afirmación es correcta?",
+  "opciones": {
+   "A": "El consumo elevado de sodio reduce la calciuria, por lo que protege contra la formación de cálculos de calcio",
+   "B": "El bypass gástrico no modifica el oxalato urinario, porque la absorción de oxalato ocurre en el estómago",
+   "C": "La vitamina C en altas dosis protege contra la litiasis, porque aumenta la excreción urinaria de citrato",
+   "D": "El riesgo disminuye restringiendo estrictamente el calcio de la dieta, que reduce el calcio urinario y también el oxalato",
+   "E": "DASH o mediterránea y diuresis de más de 2 L/día reducen el riesgo; el bypass gástrico, la vitamina C y el orlistat elevan el oxalato"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El sodio aumenta la calciuria.",
+   "B": "El bypass gástrico causa hiperoxaluria entérica.",
+   "C": "La vitamina C en altas dosis aumenta la oxaluria.",
+   "D": "Restringir calcio aumenta la absorción de oxalato y el riesgo de litiasis.",
+   "E": "La hidratación (diuresis mayor de 2 a 2.5 L/día), la dieta mediterránea o DASH (rica en frutas, verduras, legumbres y granos, con poca proteína animal y sodio) y el consumo normal de calcio reducen el riesgo de litiasis. La hiperoxaluria entérica se produce cuando la malabsorción de grasas (bypass gástrico, pancreatitis crónica, enfermedad inflamatoria intestinal, resección ileal, orlistat) deja ácidos grasos libres que se unen al calcio de la luz intestinal y dejan oxalato libre para su absorción colónica. La vitamina C en altas dosis es precursor de oxalato."
+  },
+  "perla": "Prevención: agua (>2–2.5 L), DASH/mediterránea, calcio normal, Na bajo. Hiperoxaluria: bypass gástrico, pancreatitis, orlistat, vitamina C.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 67.0
+ },
+ {
+  "id": "LST-1",
+  "serie_id": "LST",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Litiasis coraliforme por estruvita",
+  "dificultad": "moderada",
+  "caso": "Mujer de 52 años con infecciones urinarias de repetición, paraplejia por mielomeningocele y sondeo intermitente. Presenta dolor lumbar crónico y fiebre intermitente. La radiografía muestra una litiasis radiopaca en forma de asta de ciervo en el riñón derecho. pH urinario de 8.0 y urocultivo con Proteus mirabilis.",
+  "enunciado": "¿Cuál es el tipo de cálculo y el mecanismo de formación?",
+  "opciones": {
+   "A": "Oxalato de calcio por hiperoxaluria entérica, con cristales en sobre de carta en el sedimento y orina ácida persistente",
+   "B": "Xantina por déficit hereditario de xantina oxidasa, una causa rara de litiasis con cálculos radiolúcidos en la radiografía",
+   "C": "Estruvita (fosfato amónico magnésico), por ureasa de Proteus mirabilis que hidroliza la urea y alcaliniza la orina",
+   "D": "Cistina por defecto hereditario del transportador de aminoácidos dibásicos en el túbulo proximal, con cristales hexagonales en la orina",
+   "E": "Ácido úrico por orina persistentemente ácida e hiperuricosuria en paciente con vejiga neurógena"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El oxalato de calcio no explica la ureasa ni el pH alcalino.",
+   "B": "La xantina es una causa rara.",
+   "C": "Los cálculos de estruvita (fosfato amónico magnésico hexahidratado, con carbonato apatita) se forman únicamente en presencia de bacterias que producen ureasa (Proteus mirabilis, la más frecuente; también Klebsiella, Providencia, Pseudomonas, Ureaplasma urealyticum, Corynebacterium urealyticum). La ureasa hidroliza la urea en amoníaco y CO₂, lo que alcaliniza la orina (pH mayor de 7.2) y provoca precipitación de estruvita. Son frecuentes en mujeres con infecciones recurrentes, vejiga neurogénica y sondajes, y crecen rápido hasta formar cálculos coraliformes. Son radiopacos.",
+   "D": "La cistina no se forma por infección.",
+   "E": "Los cálculos de ácido úrico se forman con pH ácido y son radiolúcidos."
+  },
+  "perla": "Estruvita: Proteus mirabilis (ureasa), pH >7.2, coraliforme, radiopaco. Vejiga neurogénica e IVU recurrente.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 79.1
+ },
+ {
+  "id": "LST-2",
+  "serie_id": "LST",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Tratamiento de la litiasis coraliforme",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente tiene función renal de 55 mL/min/1.73 m² y la tomografía confirma una litiasis coraliforme completa con hidronefrosis leve.",
+  "enunciado": "¿Cuál es el manejo recomendado?",
+  "opciones": {
+   "A": "Alcalinizar la orina con citrato de potasio para disolver el cálculo y evitar la cirugía",
+   "B": "Litotricia extracorpórea por ondas de choque como monoterapia, repetida hasta fragmentar por completo el cálculo coraliforme",
+   "C": "Remoción quirúrgica completa, con nefrolitotomía percutánea como primera opción, y antibiótico dirigido por cultivo",
+   "D": "Solo antibióticos orales durante 6 semanas, sin retirar el cálculo ni intervenir la vía urinaria",
+   "E": "Acidificar la orina con vitamina C a dosis altas y observar, con imagen cada 6 meses"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La alcalinización favorece la estruvita.",
+   "B": "La monoterapia con litotricia deja fragmentos y recurrencia.",
+   "C": "La estruvita actúa como reservorio de bacterias, de modo que la erradicación de la infección exige retirar todo el cálculo. La nefrolitotomía percutánea es la primera línea para cálculos coraliformes (guías AUA/EAU), con antibiótico dirigido por cultivo antes y después, y tratamiento de la causa (sondajes, vejiga neurogénica). La litotricia extracorpórea como monoterapia deja fragmentos infectados y no se recomienda. El ácido acetohidroxámico, un inhibidor de ureasa, se reserva para pacientes que no son candidatos a cirugía por sus efectos adversos (anemia hemolítica, trombosis, teratogenicidad, síntomas neurológicos).",
+   "D": "Sin retirar el cálculo la infección persiste y progresa a destrucción renal.",
+   "E": "La acidificación con vitamina C no disuelve la estruvita y aumenta el oxalato."
+  },
+  "perla": "Coraliforme/estruvita: remoción completa (NLP) + antibiótico dirigido; ESWL sola no. Ácido acetohidroxámico si no hay cirugía.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Assimos D et al. J Urol 2016;196:1153"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 81.1
+ },
+ {
+  "id": "LUR-1",
+  "serie_id": "LUR",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Litiasis de ácido úrico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 57 años con diabetes tipo 2, obesidad, gota y litiasis recurrente. La radiografía simple de abdomen es normal pero la tomografía muestra un cálculo renal de 9 mm con densidad de 420 UH. Ácido úrico sérico de 8.4 mg/dL. Orina de 24 horas: volumen de 1.4 L, pH constante de 5.2 en varias muestras, ácido úrico de 850 mg, calcio y citrato normales.",
+  "enunciado": "¿Cuál es el tipo de cálculo más probable y el mecanismo principal?",
+  "opciones": {
+   "A": "Cistina, por defecto del transporte tubular de aminoácidos dibásicos, con cristales hexagonales característicos en el sedimento",
+   "B": "Fosfato de calcio por hipercalcemia, que se forma en orinas alcalinas y es radiopaco en la radiografía simple de abdomen",
+   "C": "Oxalato de calcio por hiperoxaluria entérica, asociada a malabsorción de grasas y a cirugía bariátrica previa del paciente",
+   "D": "Ácido úrico (radiolúcido), por orina persistentemente ácida (pH <5.5), típica del síndrome metabólico y la diabetes",
+   "E": "Estruvita, por infección crónica con bacterias productoras de ureasa y orina alcalina persistente en la vía urinaria"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La cistina se asocia a cistinuria.",
+   "B": "El fosfato de calcio se forma con orina alcalina.",
+   "C": "La hiperoxaluria entérica produce oxalato de calcio.",
+   "D": "Los cálculos de ácido úrico son radiolúcidos en la radiografía simple (aunque visibles en la tomografía, con densidad de 200 a 450 UH) y se forman cuando la orina es persistentemente ácida (pH menor de 5.5): el ácido úrico no ionizado es poco soluble. El factor más importante es el pH urinario bajo, causado por la resistencia a la insulina (disminución de la excreción de amonio) en la diabetes tipo 2, la obesidad y el síndrome metabólico; la hiperuricosuria (más de 800 mg/día en varones) y el volumen urinario bajo contribuyen. La gota y la diarrea crónica son otras asociaciones.",
+   "E": "La estruvita requiere infección por bacterias con ureasa y pH alcalino."
+  },
+  "perla": "Ácido úrico: radiolúcido, TC 200–450 UH, pH <5.5 (resistencia a la insulina), ± hiperuricosuria, volumen bajo.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 48.9
+ },
+ {
+  "id": "LUR-2",
+  "serie_id": "LUR",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Disolución y prevención de la litiasis de ácido úrico",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El cálculo de ácido úrico es pequeño, no obstructivo, y el paciente no tiene infección ni hiperpotasemia.",
+  "enunciado": "¿Cuál es el tratamiento adecuado?",
+  "opciones": {
+   "A": "Tiazidas únicamente, porque reducen la calciuria y previenen la formación de cálculos de ácido úrico y de calcio en general",
+   "B": "Restricción de líquidos, porque reduce el volumen urinario y evita así la precipitación de los cristales de urato en el riñón",
+   "C": "Acidificar la orina con cloruro de amonio, porque el ácido úrico se disuelve mejor en una orina de pH muy bajo y acidificada",
+   "D": "Aumentar la ingesta de purinas, porque la carga de purinas incrementa la disolución del cálculo en la orina",
+   "E": "Alcalinizar con citrato de potasio (pH 6.0-6.5), aumentar la diuresis y reducir proteína animal; alopurinol si hay gota"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Las tiazidas no son el tratamiento de elección del ácido úrico.",
+   "B": "La restricción de líquidos favorece la precipitación.",
+   "C": "La acidificación aumenta la precipitación del ácido úrico.",
+   "D": "Las purinas elevan el ácido úrico urinario.",
+   "E": "La litiasis de ácido úrico es la única que puede disolverse con tratamiento médico: se alcaliniza la orina con citrato de potasio a un pH de 6.0 a 6.5 (valores mayores favorecen fosfato de calcio), se aumenta la diuresis y se reduce el consumo de proteína animal y de purinas. Se agrega alopurinol o febuxostat cuando hay hiperuricosuria o gota. La alcalinización no se emplea en pacientes con infección por bacterias con ureasa ni con hiperpotasemia."
+  },
+  "perla": "Ácido úrico: alcalinizar (pH 6–6.5) con citrato de potasio + agua; alopurinol si hiperuricosuria/gota. Se disuelve.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 48.9
+ },
+ {
+  "id": "LMA-4",
+  "serie_id": "LMA",
+  "orden": 4,
+  "sub": "12",
+  "subtema": "Manejo definitivo según tamaño y localización",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Resuelta la sepsis, la tomografía muestra un cálculo de 12 mm en el uréter proximal izquierdo y otro de 25 mm en la pelvis renal derecha, sin infección.",
+  "enunciado": "¿Cuál es el tratamiento definitivo adecuado para cada cálculo?",
+  "opciones": {
+   "A": "Nefrectomía bilateral, porque los cálculos de gran tamaño destruyen el parénquima y causan infecciones recurrentes",
+   "B": "Cirugía abierta de ambos cálculos, porque es el método de elección para los cálculos mayores de 10 mm de diámetro en el riñón y el uréter",
+   "C": "Observación de ambos cálculos, porque son asintomáticos y la expulsión espontánea es esperable en pocas semanas",
+   "D": "Litotricia extracorpórea para el de 25 mm como primera opción, porque es el método menos invasivo y de mayor tasa de éxito en este caso",
+   "E": "Ureteroscopia con láser (o litotricia extracorpórea) para el ureteral de 12 mm; nefrolitotomía percutánea para el renal >20 mm"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No hay indicación de nefrectomía.",
+   "B": "La cirugía abierta es excepcional hoy.",
+   "C": "Un cálculo de 25 mm o uno de 12 mm ureteral difícilmente se expulsa.",
+   "D": "La litotricia extracorpórea es menos eficaz en cálculos de más de 20 mm.",
+   "E": "Para los cálculos renales mayores de 20 mm, la nefrolitotomía percutánea es el tratamiento de elección porque la litotricia extracorpórea tiene menor tasa de libre de cálculo y requiere múltiples sesiones. Para los cálculos ureterales proximales de más de 10 mm se ofrece ureteroscopia con litotricia láser o litotricia extracorpórea, con mayores tasas de libre de cálculo con ureteroscopia. Los cálculos renales menores de 20 mm pueden tratarse con litotricia extracorpórea o ureteroscopia, según la localización (los cálculos del polo inferior de más de 10 mm responden menos a la litotricia)."
+  },
+  "perla": "Renal >20 mm: NLP. Renal <20 mm: ESWL/URS. Ureter >10 mm: URS o ESWL. Polo inferior >10 mm: URS/NLP.",
+  "referencias": [
+   "Assimos D et al. J Urol 2016;196:1153 (AUA)",
+   "Türk C et al. Eur Urol 2016;69:468 (EAU)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 50.9
+ },
+ {
+  "id": "OXA-1",
+  "serie_id": "OXA",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Evaluación metabólica del formador de cálculos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 38 años con tercer episodio de litiasis renal en tres años. Fue sometida a bypass gástrico en Y de Roux hace dos años, con pérdida de 45 kg, y refiere evacuaciones frecuentes, voluminosas y grasosas. Creatinina de 1.0 mg/dL, calcio sérico de 9.2 mg/dL, bicarbonato de 22 mEq/L. En la tomografía se observan dos cálculos de 4 mm en el riñón derecho.",
+  "enunciado": "¿Cuál es la conducta diagnóstica más adecuada?",
+  "opciones": {
+   "A": "Observación sin estudios metabólicos porque el cálculo es pequeño y probablemente se expulse de manera espontánea",
+   "B": "Solo tratar con analgésicos y repetir la tomografía en un año para vigilar la formación de nuevos cálculos",
+   "C": "Evaluación metabólica completa: análisis del cálculo, química sérica (calcio, ácido úrico, bicarbonato, PTH) y dos orinas de 24 horas",
+   "D": "Una sola muestra aislada de orina con relación calcio/creatinina, que basta para clasificar el riesgo litogénico",
+   "E": "Biopsia renal para valorar el depósito de cristales en el parénquima, antes de cualquier estudio metabólico"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El tamaño del cálculo no descarta alto riesgo cuando existen recurrencias y cirugía bariátrica.",
+   "B": "El tratamiento sintomático sin identificar el trastorno metabólico permite que continúe la recurrencia.",
+   "C": "La paciente tiene criterios de alto riesgo para recurrencia (litiasis recurrente, adulta joven y cirugía bariátrica con malabsorción), por lo que se recomienda evaluación metabólica completa. Incluye análisis de composición del cálculo (espectroscopía infrarroja o difracción de rayos X), química sérica (calcio, ácido úrico, creatinina, bicarbonato, potasio y PTH si hay hipercalcemia), examen de orina con pH y dos recolecciones de orina de 24 horas con dieta habitual, a las 6 semanas del episodio agudo, que miden volumen, pH, calcio, oxalato, citrato, ácido úrico, sodio, potasio, fosfato, magnesio, creatinina y nitrógeno ureico. El resultado orienta el tratamiento específico.",
+   "D": "Una muestra aislada no es suficiente para el diagnóstico de los trastornos metabólicos, y se recomiendan dos recolecciones de 24 horas.",
+   "E": "La biopsia renal no forma parte del estudio inicial de un formador de cálculos."
+  },
+  "perla": "Alto riesgo (recurrente, joven, bypass, enfermedad intestinal, nefrocalcinosis, riñón único, cálculos no cálcicos): análisis del cálculo + química sérica + 2 orinas de 24 h.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 67.0
+ },
+ {
+  "id": "OXA-2",
+  "serie_id": "OXA",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Hiperoxaluria entérica: mecanismo",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La orina de 24 horas muestra volumen de 1.0 L, pH de 5.4, calcio de 140 mg, oxalato de 82 mg (normal menor de 40 a 45 mg), citrato de 110 mg y ácido úrico de 600 mg. El cálculo expulsado es de oxalato de calcio monohidratado.",
+  "enunciado": "¿Cuál es el mecanismo principal de la hiperoxaluria en esta paciente?",
+  "opciones": {
+   "A": "Malabsorción de grasas: el calcio luminal se une a ácidos grasos, el oxalato libre se absorbe en el colon y las sales biliares lo facilitan",
+   "B": "Hipercalciuria de absorción, por mayor absorción intestinal de calcio dependiente de calcitriol y exceso de PTH",
+   "C": "Defecto hepático hereditario de alanina-glioxilato aminotransferasa, con sobreproducción de oxalato desde la infancia y depósito sistémico",
+   "D": "Pérdida renal de oxalato por un defecto tubular, con exceso de secreción tubular proximal de este anión",
+   "E": "Sobreproducción de oxalato por la ingesta de vitamina C en dosis altas, que se metaboliza a oxalato"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la hiperoxaluria entérica (bypass gástrico, pancreatitis crónica, enfermedad inflamatoria intestinal, resección ileal), la esteatorrea produce ácidos grasos libres que se unen al calcio en la luz intestinal y reducen la formación de oxalato de calcio insoluble; el oxalato libre se absorbe en el colon, donde las sales biliares y los ácidos grasos aumentan la permeabilidad. La pérdida de Oxalobacter formigenes, que degrada oxalato, contribuye. Además, la diarrea produce hipocitraturia, orina ácida y bajo volumen urinario, todos factores litógenos presentes en este caso (citrato de 110 mg, pH de 5.4 y volumen de 1.0 L).",
+   "B": "El calcio urinario de 140 mg/día es normal.",
+   "C": "La deficiencia de alanina-glioxilato aminotransferasa es la hiperoxaluria primaria tipo 1, de inicio infantil, y la paciente tiene una causa adquirida clara.",
+   "D": "El riñón no es el sitio de producción en esta alteración.",
+   "E": "No hay datos de consumo de vitamina C, y el bypass explica el cuadro."
+  },
+  "perla": "Hiperoxaluria entérica: grasa libre secuestra Ca → oxalato libre absorbido en colon. Se acompaña de hipocitraturia, pH ácido y volumen bajo.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 67.0
+ },
+ {
+  "id": "OXA-3",
+  "serie_id": "OXA",
+  "orden": 3,
+  "sub": "12",
+  "subtema": "Nefropatía por oxalato",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un año después, sin seguimiento, la paciente presenta creatinina de 2.4 mg/dL con sedimento escaso y proteinuria leve. La biopsia renal muestra depósitos birrefringentes de oxalato de calcio en la luz tubular con daño tubular y fibrosis intersticial.",
+  "enunciado": "¿Cuál es el diagnóstico y cuál es el mejor tratamiento?",
+  "opciones": {
+   "A": "Nefritis intersticial alérgica por fármacos, que se trata con prednisona a dosis de 1 mg/kg por 4 a 6 semanas",
+   "B": "Nefropatía por oxalato con hiperoxaluria entérica; restricción estricta del calcio de la dieta y suplementos de vitamina C en dosis altas",
+   "C": "Necrosis tubular aguda isquémica por hipovolemia; observación y vigilancia seriada de la creatinina sérica",
+   "D": "Nefropatía por oxalato por hiperoxaluria entérica: dieta baja en grasa y oxalato, calcio con las comidas, citrato de potasio e hidratación",
+   "E": "Nefropatía por IgA recurrente; inhibidores del SRAA y corticoides, con vigilancia de la proteinuria"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay datos de fármacos ni infiltrado inflamatorio con eosinófilos; los cristales de oxalato definen la lesión.",
+   "B": "Restringir calcio aumenta la absorción de oxalato, y la vitamina C se convierte en oxalato.",
+   "C": "La necrosis tubular aguda no explica los depósitos cristalinos y la fibrosis, y no mejora con observación si persiste la causa.",
+   "D": "Los depósitos tubulares de oxalato de calcio con atrofia y fibrosis intersticial son diagnósticos de nefropatía por oxalato, complicación de la hiperoxaluria entérica que puede producir ERC aun sin episodios de cólico. El tratamiento reduce la absorción y la excreción de oxalato: dieta baja en grasa y oxalato, suplemento de calcio (preferentemente citrato de calcio) con las comidas para unir oxalato en la luz intestinal, citrato de potasio para corregir la hipocitraturia y alcalinizar, hidratación para una diuresis mayor de 2.5 L, y valorar secuestrantes de sales biliares. Si hay progresión se evalúa la reversión del bypass.",
+   "E": "La nefropatía por IgA se diagnostica por depósitos mesangiales de IgA, no por cristales tubulares."
+  },
+  "perla": "Oxalato en biopsia + bypass/malabsorción = nefropatía por oxalato. Tratar: calcio con comidas, dieta baja en grasa/oxalato, citrato de potasio, agua; evitar vitamina C.",
+  "referencias": [
+   "Nazzal L et al. Clin J Am Soc Nephrol 2016;11:1423",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 69.0
+ },
+ {
+  "id": "OXA-4",
+  "serie_id": "OXA",
+  "orden": 4,
+  "sub": "12",
+  "subtema": "Errores a evitar en hiperoxaluria entérica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente mejora parcialmente. En consulta pregunta sobre su dieta y suplementos.",
+  "enunciado": "¿Cuál de las siguientes recomendaciones es correcta?",
+  "opciones": {
+   "A": "Añadir vitamina C 2 g al día para acidificar la orina y disolver los cálculos de oxalato",
+   "B": "Reducir el consumo de líquidos para evitar la diarrea y la pérdida de volumen intestinal",
+   "C": "Tomar calcio con las comidas para unir el oxalato, limitar alimentos ricos en oxalato e hidratarse bien",
+   "D": "Tomar suplementos de calcio lejos de las comidas y en ayunas, para favorecer su absorción intestinal",
+   "E": "Restringir todo el calcio de la dieta y aumentar el consumo de espinaca por su aporte de hierro"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La vitamina C es precursor de oxalato y aumenta el riesgo.",
+   "B": "La restricción de líquidos aumenta la sobresaturación y el riesgo de nefropatía.",
+   "C": "El calcio ingerido con las comidas se une al oxalato de la dieta en la luz intestinal y reduce su absorción; por eso la restricción de calcio es un error. Se evita la vitamina C en altas dosis (más de 1 g/día), que aumenta la oxaluria al metabolizarse en oxalato, y se limitan las fuentes ricas en oxalato (espinaca, ruibarbo, remolacha, almendras, nueces, chocolate, té en exceso). La hidratación sigue siendo clave para mantener diuresis mayor de 2.5 L, con reposición de la pérdida por diarrea. En ERC se valora el riesgo de hipercalcemia con suplementos.",
+   "D": "El calcio en ayunas no encuentra oxalato en la luz intestinal y no reduce su absorción.",
+   "E": "La restricción de calcio y las dietas ricas en oxalato aumentan la absorción de oxalato y el daño renal."
+  },
+  "perla": "Calcio CON las comidas (no restringirlo), evitar vitamina C y alimentos ricos en oxalato, mantener agua >2.5 L.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2014;192:316 (AUA)",
+   "Nazzal L et al. Clin J Am Soc Nephrol 2016;11:1423"
+  ],
+  "origen": [
+   "David26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 81.1
+ },
+ {
+  "id": "PHX-1",
+  "serie_id": "PHX",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Hiperoxaluria primaria tipo 1: diagnóstico",
+  "dificultad": "dificil",
+  "caso": "Varón de 19 años con litiasis recurrente desde los 6 años, nefrocalcinosis bilateral en la ecografía y TFGe de 38 mL/min/1.73 m². No tiene enfermedad intestinal ni antecedentes de ingesta de vitamina C. Oxalato en orina de 24 horas de 1.4 mmol/1.73 m² (normal menor de 0.45) con glicolato urinario elevado. Una hermana falleció por insuficiencia renal a los 25 años.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y el defecto de base?",
+  "opciones": {
+   "A": "Acidosis tubular renal distal hereditaria, con nefrocalcinosis, hipocitraturia y acidosis metabólica hiperclorémica",
+   "B": "Hiperoxaluria primaria tipo 1: déficit hepático de alanina-glioxilato aminotransferasa (AGXT), autosómico recesivo",
+   "C": "Hiperparatiroidismo primario, con hipercalcemia, hipercalciuria y litiasis cálcica recurrente en el adulto joven",
+   "D": "Hiperoxaluria entérica por malabsorción de grasas, con litiasis de oxalato de calcio y enfermedad intestinal previa",
+   "E": "Cistinuria tipo A, con cálculos de cistina radiolúcidos y cristales hexagonales en el sedimento urinario"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La ATR distal produce hipocitraturia y acidosis, no oxaluria elevada.",
+   "B": "Litiasis desde la infancia, nefrocalcinosis, ERC temprana con historia familiar y oxaluria muy elevada (mayor de 0.7 mmol/1.73 m²/día) con glicolato elevado sugieren hiperoxaluria primaria tipo 1, causada por mutaciones en AGXT, que codifica la alanina-glioxilato aminotransferasa peroxisomal hepática (requiere piridoxal fosfato). Su déficit desvía el glioxilato hacia oxalato, que no se metaboliza y se excreta por el riñón. Los tipos 2 (GRHPR, con L-glicerato elevado) y 3 (HOGA1) son menos graves. El diagnóstico se confirma con estudio genético.",
+   "C": "El hiperparatiroidismo primario cursa con hipercalcemia.",
+   "D": "La hiperoxaluria entérica requiere enfermedad intestinal y no se presenta en la infancia con glicolato elevado.",
+   "E": "La cistinuria produce cálculos de cistina sin nefrocalcinosis ni oxaluria elevada."
+  },
+  "perla": "PH1 (AGXT): litiasis en la infancia, nefrocalcinosis, ERC temprana, oxaluria >0.7 mmol/1.73 m²/d + glicolato ↑. Tipo 2: L-glicerato. Confirmar con genética.",
+  "referencias": [
+   "Cochat P, Rumsby G. N Engl J Med 2013;369:649",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 40.8
+ },
+ {
+  "id": "PHX-2",
+  "serie_id": "PHX",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Hiperoxaluria primaria: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente aún no tiene síntomas de oxalosis sistémica y su TFGe es de 38 mL/min/1.73 m².",
+  "enunciado": "¿Cuál es el tratamiento médico adecuado?",
+  "opciones": {
+   "A": "Restricción de calcio y vitamina C en dosis altas, para reducir la absorción intestinal y la producción de oxalato",
+   "B": "Observación hasta que llegue a diálisis, porque no existe tratamiento médico que modifique la historia natural",
+   "C": "Solo tiazidas, porque reducen la calciuria y con ello la formación de cálculos de oxalato en la hiperoxaluria",
+   "D": "Prednisona y ciclofosfamida, porque la nefrocalcinosis y la ERC se deben a una enfermedad inmunomediada",
+   "E": "Hidratación alta, citrato de potasio, prueba con piridoxina y lumasiran (ARNi contra la glicolato oxidasa)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La restricción de calcio aumenta el oxalato absorbido, y la vitamina C produce oxalato.",
+   "B": "Esperar acelera la pérdida de función renal y la oxalosis sistémica.",
+   "C": "Las tiazidas reducen la calciuria, pero no corrigen la sobreproducción de oxalato.",
+   "D": "No es una enfermedad inmunológica.",
+   "E": "El tratamiento conservador de la hiperoxaluria primaria tipo 1 incluye hidratación abundante (más de 3 L/día por 1.73 m² de superficie), inhibidores de cristalización como el citrato de potasio, y una prueba de piridoxina (vitamina B6 en dosis altas), que reduce la oxaluria en una parte de los pacientes con ciertos genotipos. El lumasiran es un ARN de interferencia dirigido al ARNm de la glicolato oxidasa (HAO1) hepática que reduce el sustrato para la síntesis de oxalato y disminuye la oxaluria en alrededor de la mitad o más; se aplica por vía subcutánea. El nedosiran, que inhibe la lactato deshidrogenasa hepática, también se emplea. Se evita la vitamina C."
+  },
+  "perla": "PH1: agua >3 L/1.73 m², citrato de K, prueba de piridoxina, lumasiran (siRNA HAO1) o nedosiran (LDHA). Evitar vitamina C.",
+  "referencias": [
+   "Garrelfs SF et al. N Engl J Med 2021;384:1216 (ILLUMINATE-A)",
+   "Cochat P, Rumsby G. N Engl J Med 2013;369:649"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 40.8
+ },
+ {
+  "id": "MSK-2",
+  "serie_id": "MSK",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Alteraciones metabólicas en riñón en esponja",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se solicita el estudio metabólico urinario y sérico por la litiasis recurrente.",
+  "enunciado": "¿Qué alteraciones se esperan con mayor frecuencia?",
+  "opciones": {
+   "A": "Estudio metabólico siempre normal, porque la litiasis recurrente casi nunca tiene una alteración metabólica identificable",
+   "B": "Hipercalciuria e hipocitraturia, con defecto de acidificación (ATR distal incompleta) y a veces hiperparatiroidismo",
+   "C": "Hiperoxaluria primaria, con glicolato elevado en orina y déficit hepático de la enzima peroxisomal AGXT en el paciente",
+   "D": "Cistinuria, con aumento de la excreción urinaria de cistina y de aminoácidos dibásicos por defecto del transportador tubular",
+   "E": "Hipercalcemia con hipocalciuria, propia de la hipercalcemia hipocalciúrica familiar y de la litiasis cálcica recurrente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Las alteraciones metabólicas son frecuentes y deben buscarse.",
+   "B": "Hasta la mitad de los pacientes con riñón en esponja medular tiene hipercalciuria, y son frecuentes la hipocitraturia, la acidosis tubular distal incompleta (pH urinario alto con bicarbonato sérico normal) y el hiperparatiroidismo primario, que deben buscarse porque son tratables y determinan la recurrencia de los cálculos (oxalato de calcio y fosfato de calcio). Por eso se realizan calcio, PTH, bicarbonato y potasio séricos, y orina de 24 horas con calcio, citrato y pH. Los cálculos suelen formarse en los túbulos dilatados por estasis y alteraciones metabólicas.",
+   "C": "La hiperoxaluria primaria es una enfermedad genética que se presenta con ERC y no se asocia a este patrón anatómico.",
+   "D": "La cistinuria no es parte de este cuadro.",
+   "E": "La hipocalciuria con hipercalcemia es la hipercalcemia hipocalciúrica familiar, un diagnóstico distinto."
+  },
+  "perla": "Riñón en esponja: buscar hipercalciuria, hipocitraturia, ATR distal incompleta y PHPT.",
+  "referencias": [
+   "Gambaro G et al. Kidney Int 2006;69:1545",
+   "Comprehensive Clinical Nephrology (enfermedades quísticas)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 38.8
+ }
+]

@@ -1,0 +1,595 @@
+{
+ "meta": {
+  "id": "9-7",
+  "title": "Paraproteínas y VIH",
+  "key": "rm_v3_97",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Clon",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Médula del Clon",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "vignette": "capsula_semiluna",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 65 años: creatinina 6.4, hemoglobina 8, calcio 11.8, dolor de espalda."
+    ],
+    [
+     "Dr. J.",
+     "La tira dice proteínas negativas. La orina de 24 horas dice 5 gramos."
+    ],
+    [
+     "Sabio Brenn",
+     "Lo que la tira no ve son cadenas ligeras. Busca el clon."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Cadena Ligera Libre",
+     "lines": [
+      [
+       "Cadena Ligera Libre",
+       "Me filtro libre y saturo al túbulo proximal."
+      ],
+      [
+       "Cadena Ligera Libre",
+       "En la rama ascendente me pego a la uromodulina y formo cilindros."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "nefropatía por cilindros"
+    },
+    {
+     "id": "npc2",
+     "name": "Bortezomib",
+     "lines": [
+      [
+       "Bortezomib",
+       "Inhibo el proteasoma. No necesito ajuste renal: empiézame ya."
+      ],
+      [
+       "Bortezomib",
+       "Bajar rápido las cadenas ligeras es lo que rescata al riñón."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "bortezomib"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Estudio",
+     "Cadenas ligeras libres en suero, electroforesis e inmunofijación en suero y orina."
+    ],
+    [
+     "Letrero · Desencadenantes",
+     "Deshidratación, AINE, contraste, hipercalcemia, diuréticos de asa."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "DMH",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Es un MGUS, 5 % de plasmáticas. No lo trato."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "¿Clon chico con daño renal grande? MGRS… sí lo trato."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 2
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "PRT",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Te reto con un caso: Nefropatía por cilindros: biopsia y tratamiento"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Cilindro Fracturado",
+     "type": "Molecular",
+     "topic": "Cilindro Fracturado"
+    },
+    {
+     "name": "Plasmocito Clonal",
+     "type": "Humoral",
+     "topic": "Plasmocito Clonal"
+    },
+    {
+     "name": "Hipercalcemia",
+     "type": "Molecular",
+     "topic": "Hipercalcemia"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Nefropatía por cilindros: diagnóstico y tratamiento",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: un clon pequeño puede hacer un daño renal grande."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Paraproteína y lesión",
+     "items": [],
+     "pairs": [
+      [
+       "Cilindros de cadenas ligeras",
+       "LRA en mieloma"
+      ],
+      [
+       "Amiloide AL",
+       "Nefrótico, rojo Congo, casi siempre λ"
+      ],
+      [
+       "Depósito de cadenas ligeras",
+       "Nódulos, κ lineal en IF"
+      ],
+      [
+       "Fanconi por cadenas ligeras",
+       "Cristales proximales, κ"
+      ],
+      [
+       "GN con depósitos monoclonales",
+       "Patrón membranoproliferativo"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Hay otra cara del clon: la que se pliega mal."
+      ]
+     ]
+    }
+   ],
+   "card": "Cilindros: cadenas ligeras + uromodulina; tira negativa. Hidratar, evitar nefrotóxicos y bortezomib temprano. MGRS: clon pequeño, riñón enfermo."
+  },
+  {
+   "id": "z2",
+   "name": "Valle del Amiloide",
+   "palette": [
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
+   ],
+   "tiles": "valle",
+   "vignette": "valle_tubulovascular",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Fibrillas de 8 a 12 nm, sin ramificar. Rojo Congo con birrefringencia verde manzana."
+    ],
+    [
+     "Sabio Brenn",
+     "AL: nefrótico, corazón, lengua grande, neuropatía. El corazón marca el pronóstico."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Fibrilla AL",
+     "lines": [
+      [
+       "Fibrilla AL",
+       "Soy cadena ligera λ mal plegada. Me deposito en mesangio y vasos."
+      ],
+      [
+       "Fibrilla AL",
+       "Tipifícame con espectrometría de masas si la inmunofluorescencia duda."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "amiloidosis AL"
+    },
+    {
+     "id": "npc2",
+     "name": "Glomérulo Colapsado",
+     "lines": [
+      [
+       "Glomérulo Colapsado",
+       "VIH: GEFS colapsante, túbulos con microquistes e inclusiones tubulorreticulares."
+      ],
+      [
+       "Glomérulo Colapsado",
+       "APOL1 de alto riesgo me predispone. Me trata el antirretroviral."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "HIVAN"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Tratamiento AL",
+     "Daratumumab + CyBorD (ANDROMEDA); trasplante autólogo en candidatos."
+    ],
+    [
+     "Letrero · VIH",
+     "HIVAN, GN por inmunocomplejos, toxicidad por tenofovir y MAT."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "AMY",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Corazón grueso con voltaje bajo. Será hipertensión."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Voltaje bajo con pared gruesa: amiloide. Lo mando a biopsia."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    }
+   ],
+   "wild": [
+    {
+     "name": "Rojo Congo",
+     "type": "Molecular",
+     "topic": "Rojo Congo"
+    },
+    {
+     "name": "NT-proBNP Alto",
+     "type": "Molecular",
+     "topic": "NT-proBNP Alto"
+    },
+    {
+     "name": "Virus en el Podocito",
+     "type": "Innato",
+     "topic": "Virus en el Podocito"
+    },
+    {
+     "name": "Fibrilar No Amiloide",
+     "type": "Molecular",
+     "topic": "Fibrilar No Amiloide"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Amiloidosis AL y nefropatía asociada a VIH",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Congo negativo y fibrillas más gruesas: fibrilar, con DNAJB9."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Sospecha de amiloidosis AL",
+     "items": [
+      "Nefrótico sin hematuria en adulto mayor",
+      "Cadenas ligeras libres e inmunofijación",
+      "Biopsia (grasa, médula o riñón) con rojo Congo",
+      "Tipificar el amiloide",
+      "Estadificar el corazón (troponina, NT-proBNP)",
+      "Tratar el clon"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Cadenas ligeras a la mitad en dos semanas. Ve por el clon."
+      ]
+     ]
+    }
+   ],
+   "card": "AL: rojo Congo, λ, fibrillas 8–12 nm; pronóstico por corazón; daratumumab-CyBorD. HIVAN: colapsante, APOL1, inclusiones tubulorreticulares; antirretroviral."
+  }
+ ],
+ "boss": {
+  "name": "El Clon",
+  "color": "#D4A017",
+  "dark": "#5a3a00",
+  "heads": 1,
+  "intro": [
+   [
+    "El Clon",
+    "Soy pequeño. Cinco por ciento de la médula. Y aun así te apago los riñones."
+   ],
+   [
+    "Dr. J.",
+    "Lesión, diagnóstico y tratar al clon, no al riñón."
+   ]
+  ],
+  "outro": [
+   [
+    "El Clon",
+    "Me apago."
+   ],
+   [
+    "Sabio Brenn",
+    "Salió de diálisis. Tratar rápido al clon fue tratar al riñón."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Espectro de lesiones",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Clon",
+      "¿Cilindro, amiloide o depósito?"
+     ]
+    ],
+    "topics": [
+     "Espectro de lesiones"
+    ],
+    "questions": [
+     "HVN-1",
+     "HVN-2"
+    ]
+   },
+   {
+    "name": "Diagnóstico",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Clon",
+      "La tira no me ve."
+     ]
+    ],
+    "topics": [
+     "Diagnóstico"
+    ],
+    "questions": [
+     "HVN-3",
+     "HVN-4"
+    ]
+   },
+   {
+    "name": "Tratamiento del clon",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Clon",
+      "¿Me filtras o me matas?"
+     ]
+    ],
+    "topics": [
+     "Tratamiento del clon"
+    ],
+    "questions": [
+     "HVN-5",
+     "MM-1"
+    ]
+   },
+   {
+    "name": "VIH",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Clon",
+      "Cambio de máscara: colapso."
+     ]
+    ],
+    "topics": [
+     "VIH"
+    ],
+    "questions": [
+     "MM-2",
+     "MM-3"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Médula del Clon",
+   "text": "Cilindros: cadenas ligeras + uromodulina; tira negativa. Hidratar, evitar nefrotóxicos y bortezomib temprano. MGRS: clon pequeño, riñón enfermo."
+  },
+  {
+   "title": "Valle del Amiloide",
+   "text": "AL: rojo Congo, λ, fibrillas 8–12 nm; pronóstico por corazón; daratumumab-CyBorD. HIVAN: colapsante, APOL1, inclusiones tubulorreticulares; antirretroviral."
+  }
+ ]
+}

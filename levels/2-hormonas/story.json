@@ -1,0 +1,757 @@
+{
+ "meta": {
+  "id": "2",
+  "title": "Hormonas y riñón",
+  "key": "rm_v3_2",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Eje",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Aparato Yuxtaglomerular",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "vignette": "capsula_semiluna",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mismo donador. Ahora el simulador enciende cada eje hormonal, uno por uno."
+    ],
+    [
+     "Sabio Brenn",
+     "Empieza donde nace la renina: células granulares de la aferente."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Renina",
+     "lines": [
+      [
+       "Renina",
+       "Me liberan tres señales: menos presión en la aferente, menos cloro en la mácula y β1."
+      ],
+      [
+       "Renina",
+       "Corto el angiotensinógeno del hígado. La ECA del pulmón termina el trabajo."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "renina"
+    },
+    {
+     "id": "npc2",
+     "name": "Aldosterona",
+     "lines": [
+      [
+       "Aldosterona",
+       "Vengo de la zona glomerulosa. Abro ENaC y ROMK en la célula principal."
+      ],
+      [
+       "Aldosterona",
+       "Me estimulan la angiotensina II y el potasio alto."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "aldosterona"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Relación A/R",
+     "Aldosterona alta con renina suprimida: hiperaldosteronismo primario."
+    ],
+    [
+     "Letrero · Escape",
+     "El «escape» de aldosterona explica el poco edema del hiperaldosteronismo primario."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "ETA",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Las hormonas son asunto mío. El riñón solo filtra."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "¿EPO, calcitriol y renina salen de ahí? Vaya glándula."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "REN",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Regulación de la liberación de renina y efecto de los fármacos"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Angiotensina II",
+     "type": "Molecular",
+     "topic": "Angiotensina II"
+    },
+    {
+     "name": "Renina Suelta",
+     "type": "Molecular",
+     "topic": "Renina Suelta"
+    },
+    {
+     "name": "Célula Granular",
+     "type": "Celular",
+     "topic": "Célula Granular"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Sistema renina-angiotensina-aldosterona",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Tres estímulos sueltan renina. Si los nombras, la puerta se abre."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Cascada del SRAA",
+     "items": [
+      "Baja la perfusión renal",
+      "Renina (aparato yuxtaglomerular)",
+      "Angiotensinógeno → angiotensina I",
+      "ECA pulmonar → angiotensina II",
+      "Aldosterona (zona glomerulosa)",
+      "ENaC: retiene sodio, pierde potasio"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Ahora sube al cerebro. Hay una hormona que solo mueve agua."
+      ]
+     ]
+    }
+   ],
+   "card": "Renina: baja presión aferente, bajo cloro en mácula densa, β1. Ang II: eferente, aldosterona, sed, ADH. Aldosterona: ENaC/ROMK en célula principal."
+  },
+  {
+   "id": "z2",
+   "name": "Bosque de la Sed",
+   "palette": [
+    "#E0F8D0",
+    "#88C070",
+    "#346856",
+    "#081820"
+   ],
+   "tiles": "bosque",
+   "vignette": "ganglio",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "La ADH responde a 1 % de cambio en la osmolalidad. Es el sensor más fino del cuerpo."
+    ],
+    [
+     "Sabio Brenn",
+     "En el colector, el receptor V2 sube AMPc y pone acuaporina 2 en la membrana."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Acuaporina 2",
+     "lines": [
+      [
+       "Acuaporina 2",
+       "Vivo en vesículas. Cuando llega ADH al V2, salgo a la membrana luminal."
+      ],
+      [
+       "Acuaporina 2",
+       "El litio y la hipercalcemia me dejan encerrada: diabetes insípida nefrogénica."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "acuaporina"
+    },
+    {
+     "id": "npc2",
+     "name": "Fibroblasto Peritubular",
+     "lines": [
+      [
+       "Fibroblasto Peritubular",
+       "Yo fabrico la EPO. Mi sensor de oxígeno se llama HIF."
+      ],
+      [
+       "Fibroblasto Peritubular",
+       "Con oxígeno, la prolil-hidroxilasa degrada HIF. Sin oxígeno, HIF me enciende."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "EPO"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · HIF",
+     "Los inhibidores de prolil-hidroxilasa (roxadustat, daprodustat) estabilizan HIF."
+    ],
+    [
+     "Letrero · Péptidos natriuréticos",
+     "ANP y BNP dilatan la aferente e inhiben renina y aldosterona."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "serie": "NAT",
+     "intro": [
+      [
+       "Dr. Max Presor",
+       "En mi terapia todo sodio bajo es SIADH. Fin."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Max Presor",
+       "Volumen, osmolalidad urinaria, sodio urinario… está bien, lo estudio."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "HPI",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Eje HIF-EPO: mecanismo de los inhibidores de prolil-hidroxilasa"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "ADH Insistente",
+     "type": "Molecular",
+     "topic": "ADH Insistente"
+    },
+    {
+     "name": "Osmorreceptor",
+     "type": "Celular",
+     "topic": "Osmorreceptor"
+    },
+    {
+     "name": "HIF Inestable",
+     "type": "Molecular",
+     "topic": "HIF Inestable"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "ADH, receptor V2 y acuaporina 2",
+     "text": [
+      [
+       "Sabio Brenn",
+       "V1 aprieta vasos. V2 mueve agua. No los confundas."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Hormona y sitio",
+     "items": [],
+     "pairs": [
+      [
+       "EPO",
+       "Fibroblasto peritubular"
+      ],
+      [
+       "Renina",
+       "Célula granular"
+      ],
+      [
+       "1α-hidroxilasa",
+       "Túbulo proximal"
+      ],
+      [
+       "ADH",
+       "Núcleos supraóptico y paraventricular"
+      ],
+      [
+       "FGF23",
+       "Osteocito"
+      ],
+      [
+       "Aldosterona",
+       "Zona glomerulosa"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Queda el eje que más se pregunta: fósforo, calcio y hueso."
+      ]
+     ]
+    }
+   ],
+   "card": "ADH → V2 → AMPc → AQP2 luminal. EPO: fibroblasto peritubular, regulada por HIF. ANP/BNP: natriuresis e inhiben SRAA."
+  },
+  {
+   "id": "z3",
+   "name": "Ruinas del Hueso",
+   "palette": [
+    "#F8E0F0",
+    "#D088C0",
+    "#703878",
+    "#200820"
+   ],
+   "tiles": "ruinas",
+   "vignette": "ruinas_asas",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "El FGF23 sale del osteocito y necesita a Klotho para actuar en el riñón."
+    ],
+    [
+     "Sabio Brenn",
+     "Tira el fósforo por la orina y apaga la 1α-hidroxilasa. Sube antes que la PTH."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "FGF23",
+     "lines": [
+      [
+       "FGF23",
+       "Bajo NaPi-2a y NaPi-2c: fosfaturia. Y freno el calcitriol."
+      ],
+      [
+       "FGF23",
+       "En la ERC subo desde G2–G3, mucho antes que el fósforo."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "FGF23"
+    },
+    {
+     "id": "npc2",
+     "name": "PTH",
+     "lines": [
+      [
+       "PTH",
+       "Subo el calcio: hueso, túbulo distal y calcitriol. También tiro fósforo."
+      ],
+      [
+       "PTH",
+       "Me frenan el calcio (receptor CaSR), el calcitriol y el FGF23."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "PTH"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Calcitriol",
+     "25-OH (hígado) → 1,25-(OH)2 por la 1α-hidroxilasa del túbulo proximal."
+    ],
+    [
+     "Letrero · Klotho",
+     "Correceptor de FGF23; cae pronto en la ERC."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "PTV",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "La vitamina D es una sola y se toma en gotas."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "¿25 y 1,25 no son lo mismo? Con razón no me cuadraban los labs."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Fósforo Retenido",
+     "type": "Molecular",
+     "topic": "Fósforo Retenido"
+    },
+    {
+     "name": "Osteocito Alarmado",
+     "type": "Celular",
+     "topic": "Osteocito Alarmado"
+    },
+    {
+     "name": "Paratiroides Hiperplásica",
+     "type": "Celular",
+     "topic": "Paratiroides Hiperplásica"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "FGF23, PTH y vitamina D en la ERC temprana",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Orden de aparición: Klotho baja, FGF23 sube, calcitriol baja, PTH sube, fósforo sube."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Orden en la ERC-MBD",
+     "items": [
+      "Baja Klotho",
+      "Sube FGF23",
+      "Baja calcitriol",
+      "Sube PTH",
+      "Sube fósforo sérico"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Ejes encendidos. El simulador los va a mezclar."
+      ]
+     ]
+    }
+   ],
+   "card": "ERC-MBD temprana: ↓Klotho → ↑FGF23 → ↓calcitriol → ↑PTH → ↑fósforo (tardío). FGF23: fosfatúrico, inhibe 1α-hidroxilasa."
+  }
+ ],
+ "boss": {
+  "name": "El Eje",
+  "color": "#D4A017",
+  "dark": "#6b4f00",
+  "heads": 1,
+  "intro": [
+   [
+    "El Eje",
+    "Soy todos los ejes a la vez. Mueve uno y los demás responden."
+   ],
+   [
+    "Dr. J.",
+    "Piensa en asas de retroalimentación, no en listas."
+   ]
+  ],
+  "outro": [
+   [
+    "El Eje",
+    "Equilibrio restaurado."
+   ],
+   [
+    "Sabio Brenn",
+    "Una hormona nunca viene sola. Recuérdalo en la ERC."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Fisiología",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Eje",
+      "¿Quién me enciende?"
+     ]
+    ],
+    "topics": [
+     "Fisiología"
+    ],
+    "questions": [
+     "FGF-1",
+     "FGF-2"
+    ]
+   },
+   {
+    "name": "Relación aldosterona/renina",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Eje",
+      "Mídeme bien o me confundes."
+     ]
+    ],
+    "topics": [
+     "Relación aldosterona/renina"
+    ],
+    "questions": [
+     "FGF-3"
+    ]
+   },
+   {
+    "name": "Hueso y mineral",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Eje",
+      "Ahora el fósforo."
+     ]
+    ],
+    "topics": [
+     "Hueso y mineral"
+    ],
+    "questions": [
+     "EPO-1",
+     "RAA-1"
+    ]
+   },
+   {
+    "name": "Bloqueo farmacológico",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Eje",
+      "Intenta apagarme."
+     ]
+    ],
+    "topics": [
+     "Bloqueo farmacológico"
+    ],
+    "questions": [
+     "AVP-1"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Aparato Yuxtaglomerular",
+   "text": "Renina: baja presión aferente, bajo cloro en mácula densa, β1. Ang II: eferente, aldosterona, sed, ADH. Aldosterona: ENaC/ROMK en célula principal."
+  },
+  {
+   "title": "Bosque de la Sed",
+   "text": "ADH → V2 → AMPc → AQP2 luminal. EPO: fibroblasto peritubular, regulada por HIF. ANP/BNP: natriuresis e inhiben SRAA."
+  },
+  {
+   "title": "Ruinas del Hueso",
+   "text": "ERC-MBD temprana: ↓Klotho → ↑FGF23 → ↓calcitriol → ↑PTH → ↑fósforo (tardío). FGF23: fosfatúrico, inhibe 1α-hidroxilasa."
+  }
+ ]
+}

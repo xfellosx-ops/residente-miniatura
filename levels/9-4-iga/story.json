@@ -1,0 +1,590 @@
+{
+ "meta": {
+  "id": "9-4",
+  "title": "Nefropatía por IgA y vasculitis por IgA",
+  "key": "rm_v3_94",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Galacto",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Mucosa Faríngea",
+   "palette": [
+    "#FFF4D6",
+    "#F2C27A",
+    "#B5651D",
+    "#4A2508"
+   ],
+   "tiles": "playa",
+   "vignette": "uv_piel",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 24 años. Orina color cola el segundo día de una faringitis."
+    ],
+    [
+     "Dr. J.",
+     "No dos semanas después: el mismo día. Esa pista vale oro."
+    ],
+    [
+     "Sabio Brenn",
+     "Sinfaringítica: IgA. Con latencia de 1–3 semanas: posestreptocócica."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "IgA1 Sin Galactosa",
+     "lines": [
+      [
+       "IgA1 Sin Galactosa",
+       "Golpe 1: me fabricaron con la bisagra incompleta."
+      ],
+      [
+       "IgA1 Sin Galactosa",
+       "Golpe 2: hacen anticuerpos contra mí. Golpe 3: formamos complejos."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "cuatro golpes"
+    },
+    {
+     "id": "npc2",
+     "name": "Placa de Peyer",
+     "lines": [
+      [
+       "Placa de Peyer",
+       "Aquí nacen los linfocitos B que hacen esa IgA. La budesónida dirigida llega hasta mí."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "budesónida"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Cuatro golpes",
+     "Gd-IgA1 → autoanticuerpos → inmunocomplejos → depósito mesangial y complemento."
+    ],
+    [
+     "Letrero · Secundaria",
+     "Cirrosis, enfermedad celiaca, espondiloartritis."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "valeria",
+     "specialty": "Rival",
+     "serie": "IGB",
+     "intro": [
+      [
+       "Dra. Valeria Montes",
+       "Hematuria tras faringitis: posestreptocócica. Me lo sé."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Valeria Montes",
+       "¿La latencia las distingue? Mi tarjeta no decía eso."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Gd-IgA1",
+     "type": "Humoral",
+     "topic": "Gd-IgA1"
+    },
+    {
+     "name": "Anticuerpo Antiglicano",
+     "type": "Humoral",
+     "topic": "Anticuerpo Antiglicano"
+    },
+    {
+     "name": "Complejo Circulante",
+     "type": "Inmunocomplejo",
+     "topic": "Complejo Circulante"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Patogenia de la nefropatía por IgA: múltiples golpes",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: ningún golpe aislado basta. Se necesitan los cuatro."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Los cuatro golpes",
+     "items": [
+      "IgA1 deficiente en galactosa",
+      "Autoanticuerpos antiglicano (IgG)",
+      "Inmunocomplejos circulantes",
+      "Depósito en el mesangio",
+      "Complemento (alterna y lectinas)",
+      "Proliferación mesangial y fibrosis"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Entra al mesangio. Ahí se califica el daño."
+      ]
+     ]
+    }
+   ],
+   "card": "IgAN: hematuria sinfaringítica; cuatro golpes (Gd-IgA1, anti-glicano, complejos, mesangio). C3 con IgA dominante; complemento sérico normal."
+  },
+  {
+   "id": "z2",
+   "name": "Mesangio de Oxford",
+   "palette": [
+    "#E0F8D0",
+    "#88C070",
+    "#346856",
+    "#081820"
+   ],
+   "tiles": "bosque",
+   "vignette": "ganglio",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "MEST-C: Mesangial, Endocapilar, eSclerosis segmentaria, Túbulo-intersticio, Crecientes."
+    ],
+    [
+     "Sabio Brenn",
+     "El pronóstico lo marcan la proteinuria en el tiempo, la presión y la TFG."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Púrpura Palpable",
+     "lines": [
+      [
+       "Púrpura Palpable",
+       "Soy la vasculitis por IgA: piel, articulaciones, intestino y riñón."
+      ],
+      [
+       "Púrpura Palpable",
+       "En el adulto doy peor pronóstico renal que en el niño."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "vasculitis por IgA"
+    },
+    {
+     "id": "npc2",
+     "name": "Don Ensayo",
+     "lines": [
+      [
+       "Don Ensayo",
+       "TESTING: metilprednisolona redujo eventos renales, con más infecciones a dosis alta."
+      ],
+      [
+       "Don Ensayo",
+       "NefIgArd: budesónida de liberación dirigida, 9 meses."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "TESTING"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Meta",
+     "KDIGO 2025: proteinuria <0.5 g/día, idealmente <0.3; tratar si ≥0.5."
+    ],
+    [
+     "Letrero · Dos frentes",
+     "Bajar la IgA patógena (budesónida dirigida) y proteger la nefrona (iSRAA, iSGLT2)."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "pedia",
+     "specialty": "Pediatría",
+     "serie": "IGV",
+     "intro": [
+      [
+       "Dra. Pilar Percentil",
+       "Púrpura en un niño: se quita sola, sin seguimiento."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Pilar Percentil",
+       "Orina y presión por 6 a 12 meses… apuntado."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Proliferación Mesangial",
+     "type": "Celular",
+     "topic": "Proliferación Mesangial"
+    },
+    {
+     "name": "Semiluna Aislada",
+     "type": "Celular",
+     "topic": "Semiluna Aislada"
+    },
+    {
+     "name": "Proteinuria Persistente",
+     "type": "Molecular",
+     "topic": "Proteinuria Persistente"
+    },
+    {
+     "name": "Lectina MBL",
+     "type": "Complemento",
+     "topic": "Lectina MBL"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Oxford MEST-C y riesgo de progresión",
+     "text": [
+      [
+       "Sabio Brenn",
+       "MEST-C describe; no dicta tratamiento por sí solo."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Arsenal de la IgAN",
+     "items": [],
+     "pairs": [
+      [
+       "iSRAA a dosis máxima",
+       "Base de todos"
+      ],
+      [
+       "iSGLT2",
+       "Nefroprotección añadida"
+      ],
+      [
+       "Sparsentán",
+       "Bloqueo dual endotelina-angiotensina"
+      ],
+      [
+       "Budesónida dirigida",
+       "Menos IgA patógena en el íleon"
+      ],
+      [
+       "Iptacopán",
+       "Inhibe el factor B"
+      ],
+      [
+       "Esteroide sistémico",
+       "Dosis reducida, con profilaxis"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Proteinuria 1.8 g tras 3 meses de soporte. A pelear."
+      ]
+     ]
+    }
+   ],
+   "card": "IgAN: MEST-C; meta de proteinuria <0.5 g/día. Soporte + iSGLT2; budesónida dirigida o esteroide a dosis reducida; complemento y linfocito B como blancos nuevos."
+  }
+ ],
+ "boss": {
+  "name": "El Galactodeficiente",
+  "color": "#f2c94c",
+  "dark": "#7a5a00",
+  "heads": 1,
+  "intro": [
+   [
+    "El Galactodeficiente",
+    "Me faltó un azúcar. Por eso me atacan, y por eso ataco."
+   ],
+   [
+    "Dr. J.",
+    "Diagnóstico, riesgo y los dos frentes de tratamiento."
+   ]
+  ],
+  "outro": [
+   [
+    "El Galactodeficiente",
+    "Mi mesangio descansa."
+   ],
+   [
+    "Sabio Brenn",
+    "En IgA se gana despacio: gramo a gramo de proteinuria."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Diagnóstico",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Galactodeficiente",
+      "¿IgA o posinfecciosa?"
+     ]
+    ],
+    "topics": [
+     "Diagnóstico"
+    ],
+    "questions": [
+     "IGA-1"
+    ]
+   },
+   {
+    "name": "Riesgo",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Galactodeficiente",
+      "Califícame."
+     ]
+    ],
+    "topics": [
+     "Riesgo"
+    ],
+    "questions": [
+     "IGA-2"
+    ]
+   },
+   {
+    "name": "Tratamiento",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Galactodeficiente",
+      "¿Soporte o algo más?"
+     ]
+    ],
+    "topics": [
+     "Tratamiento"
+    ],
+    "questions": [
+     "IGA-3"
+    ]
+   },
+   {
+    "name": "Vasculitis y RPGN",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Galactodeficiente",
+      "Ahora tengo púrpura y semilunas."
+     ]
+    ],
+    "topics": [
+     "Vasculitis y RPGN"
+    ],
+    "questions": [
+     "IGA-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "TESTING",
+   "mnemonic": "Probando esteroide: sirve, pero cobra.",
+   "result": "Metilprednisolona redujo el desenlace renal; dosis reducida con menos eventos graves."
+  },
+  {
+   "trial": "NefIgArd",
+   "mnemonic": "Nef-IgA-rd: budesónida a la placa de Peyer.",
+   "result": "Budesónida de liberación dirigida 16 mg × 9 meses: menos proteinuria y mejor TFG."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Ley nueva · IgAN",
+   "text": "KDIGO 2025 y el comentario de 2026 sobre inhibidores de complemento y agentes anti-linfocito B: tratar la causa (IgA patógena) y la consecuencia (pérdida de nefronas) a la vez."
+  },
+  {
+   "title": "Ley anterior · KDIGO 2021",
+   "text": "Soporte optimizado 3 meses y, si persistía proteinuria >1 g/día, valorar 6 meses de glucocorticoide."
+  },
+  {
+   "title": "Oxford MEST-C",
+   "text": "M, E, S, T y C: cada letra predice desenlace de forma independiente; T es la de más peso."
+  },
+  {
+   "title": "Vasculitis por IgA",
+   "text": "Púrpura palpable obligatoria más dolor abdominal, artritis, afección renal o IgA en biopsia."
+  }
+ ]
+}
