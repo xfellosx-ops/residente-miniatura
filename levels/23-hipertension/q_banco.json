@@ -1049,5 +1049,81 @@
   "tema": "Hipertensión arterial",
   "obj": "23.o1",
   "peso": 15.4
+ },
+ {
+  "id": "AZ7-1",
+  "tema_id": 23,
+  "sub": "23.a",
+  "obj": "23.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión arterial en ERC",
+  "caso": "",
+  "enunciado": "¿Cuál es la mejor opción de tratamiento de la HAS en pacientes con ERC, independientemente de la etiología?",
+  "perla": "IECA o ARA. Las guías KDIGO recomiendan como primera línea de tratamiento de la HAS en ERC a los IECA o ARA, pues además del efecto antihipertensivo tienen propiedades antiproteinúricas, pocos efectos colaterales y amplia disponibilidad.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 7: Hipertensión arterial en ERC"
+  ],
+  "serie_id": "AZ7-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 7)"
+  ],
+  "opciones": {
+   "A": "IECA",
+   "B": "ARA",
+   "C": "Calcioantagonistas",
+   "D": "IECA o ARA",
+   "E": "No hay evidencia de superioridad"
+  },
+  "explicaciones": {
+   "A": "Ambas clases son primera línea; ninguna se prefiere sobre la otra.",
+   "B": "Ambas clases son primera línea; ninguna se prefiere sobre la otra.",
+   "C": "Los calcioantagonistas se suman al IECA o ARA en la combinación doble o triple.",
+   "D": "Correcto. IECA o ARA. Las guías KDIGO recomiendan como primera línea de tratamiento de la HAS en ERC a los IECA o ARA, pues además del efecto antihipertensivo tienen propiedades antiproteinúricas, pocos efectos colaterales y amplia disponibilidad. Vigilar siempre el potasio sérico, sobre todo en ERC avanzada o en conjunto con antagonistas del receptor de aldosterona (Bhandari, NEJM 2022;387:2021).",
+   "E": "Sí hay evidencia que respalda al bloqueo del sistema reninaangiotensina como base del tratamiento."
+  },
+  "clave": "D",
+  "tema": "Hipertensión arterial",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ7-2",
+  "tema_id": 23,
+  "sub": "23.a",
+  "obj": "23.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión arterial en ERC",
+  "caso": "",
+  "enunciado": "¿Cuál es la meta de TA en pacientes con ERC según KDIGO?",
+  "perla": "PAS <120 mmHg. Las guías KDIGO de manejo de la HAS en ERC publicadas en 2021 recomiendan mantener la presión sistólica por debajo de 120 mmHg, con base sustancial en el estudio SPRINT, que demostró mejores desenlaces cardiovasculares en el grupo de control intensivo (PAS <120 mmHg).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 7: Hipertensión arterial en ERC"
+  ],
+  "serie_id": "AZ7-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 7)"
+  ],
+  "opciones": {
+   "A": "TA sistólica <120 mmHg",
+   "B": "TA <130/80 mmHg",
+   "C": "TA sistólica <130 mmHg",
+   "D": "TA <140/90 mmHg",
+   "E": "TA <125/75 mmHg"
+  },
+  "explicaciones": {
+   "A": "Correcto. PAS <120 mmHg. Las guías KDIGO de manejo de la HAS en ERC publicadas en 2021 recomiendan mantener la presión sistólica por debajo de 120 mmHg, con base sustancial en el estudio SPRINT, que demostró mejores desenlaces cardiovasculares en el grupo de control intensivo (PAS <120 mmHg).",
+   "B": "<130/80 mmHg es la meta de otras guías para ERC con albuminuria ≥300 mg/g, diabetes, riesgo cardiovascular o trasplante.",
+   "C": "Una PAS <130 mmHg no es la meta de KDIGO.",
+   "D": "<140/90 mmHg es la meta general de otras guías para todos los pacientes con ERC (Theodorakopoulou, Clin Kidney J 2024;17:36).",
+   "E": "No es la meta KDIGO."
+  },
+  "clave": "A",
+  "tema": "Hipertensión arterial",
+  "tipo_item": "nueva"
  }
 ]

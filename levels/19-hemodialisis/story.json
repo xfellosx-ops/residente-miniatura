@@ -263,11 +263,11 @@
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "UCV",
+     "serie": "AZ14-2",
      "intro": [
       [
        "Dr. Rocco Filo",
-       "Te reto con un caso: Muerte súbita cardiaca en hemodiálisis: factores de riesgo y preven"
+       "Te reto con un caso: HDi, HDx y hemodiafiltración"
       ]
      ],
      "defeat": [
@@ -508,11 +508,11 @@
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "AGD",
+     "serie": "AZ14-3",
      "intro": [
       [
        "Dr. Anselmo Frágil",
-       "Te reto con un caso: Hemólisis aguda en un grupo de pacientes: cloraminas y conducta inm"
+       "Te reto con un caso: HDi, HDx y hemodiafiltración"
       ]
      ],
      "defeat": [
@@ -522,7 +522,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -592,51 +592,47 @@
      ]
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
+     "type": "clasif",
+     "title": "Bacteriemia por catéter de HD: ¿salvar o retirar?",
+     "bins": [
+      "Salvamento posible",
+      "Retirar el catéter"
+     ],
+     "items": [
       [
-       "Kt/V monocompartimental",
-       "Meta ≥1.4 (mínimo 1.2)"
+       "Estafilococo coagulasa negativo no complicado",
+       "Salvamento posible"
       ],
       [
-       "URR",
-       "Meta ≥70%"
+       "Respuesta rápida sin infección del túnel",
+       "Salvamento posible"
       ],
       [
-       "Hemodiafiltración",
-       "CONVINCE: ↓mortalidad"
+       "S. aureus",
+       "Retirar el catéter"
       ],
       [
-       "Fístula AV",
-       "Acceso de elección"
+       "P. aeruginosa",
+       "Retirar el catéter"
       ],
       [
-       "Síndrome de desequilibrio",
-       "1.ª sesión; edema cerebral"
+       "Candida",
+       "Retirar el catéter"
       ],
       [
-       "Reacción tipo A",
-       "Anafilaxia temprana"
+       "Choque séptico",
+       "Retirar el catéter"
       ],
       [
-       "Síndrome de robo",
-       "Isquemia distal tras fístula"
+       "Bacteriemia persistente a 72 h",
+       "Retirar el catéter"
       ],
       [
-       "Difusión",
-       "Solutos pequeños (urea)"
-      ],
-      [
-       "Convección",
-       "Medianas moléculas (β2-m)"
-      ],
-      [
-       "Hipotensión intradiálisis",
-       "Enfriar dializado, ↓UF"
+       "Infección del túnel",
+       "Retirar el catéter"
       ]
-     ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -744,11 +740,11 @@
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "ANT",
+     "serie": "AZ2-10",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Hemodiálisis sin heparina en paciente con sangrado"
+       "Te reto con un caso: Hipotensión intradiálisis y peso seco"
       ]
      ],
      "defeat": [
@@ -758,17 +754,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
     },
     {
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "DLT",
+     "serie": "AZ14-4",
      "intro": [
       [
        "Dra. Sara Esquistocito",
-       "Te reto con un caso: Temperatura del dializado y estabilidad hemodinámica"
+       "Te reto con un caso: HDi, HDx y hemodiafiltración"
       ]
      ],
      "defeat": [
@@ -778,7 +774,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 1
     }
    ],
    "wild": [
@@ -839,6 +835,53 @@
       [
        "Preservar venas",
        "No puncionar el brazo no dominante"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Kt/V monocompartimental",
+       "Meta ≥1.4 (mínimo 1.2)"
+      ],
+      [
+       "URR",
+       "Meta ≥70%"
+      ],
+      [
+       "Hemodiafiltración",
+       "CONVINCE: ↓mortalidad"
+      ],
+      [
+       "Fístula AV",
+       "Acceso de elección"
+      ],
+      [
+       "Síndrome de desequilibrio",
+       "1.ª sesión; edema cerebral"
+      ],
+      [
+       "Reacción tipo A",
+       "Anafilaxia temprana"
+      ],
+      [
+       "Síndrome de robo",
+       "Isquemia distal tras fístula"
+      ],
+      [
+       "Difusión",
+       "Solutos pequeños (urea)"
+      ],
+      [
+       "Convección",
+       "Medianas moléculas (β2-m)"
+      ],
+      [
+       "Hipotensión intradiálisis",
+       "Enfriar dializado, ↓UF"
       ]
      ]
     }

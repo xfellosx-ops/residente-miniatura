@@ -2444,5 +2444,993 @@
   "tema": "Diálisis peritoneal",
   "obj": "20.o2",
   "peso": 74.5
+ },
+ {
+  "id": "AZ13-1",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Peritonitis asociada a DP",
+  "caso": "Mujer de 45 años en DPA (4 recambios en 8 h, día seco desde hace 2 años), con dolor abdominal de 2 días, diuresis residual de 1,500 mL y balances neutros.",
+  "enunciado": "¿Mejor opción para descartar peritonitis?",
+  "perla": "En DPA con día seco no hay líquido de estancia larga: se infunde ~1 L, se deja 1–2 h y se drena para recuento, %PMN y cultivo (ISPD 2022). Así la muestra es interpretable y el tratamiento no se retrasa.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 13: Peritonitis asociada a DP"
+  ],
+  "serie_id": "AZ13-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 13)"
+  ],
+  "opciones": {
+   "A": "Tomar muestra de la bolsa del efluente durante la desconexión",
+   "B": "Cambiar la cicladora a día húmedo y tomar la muestra al llegar al centro",
+   "C": "Pedir un recambio manual la noche previa y muestrear por la mañana",
+   "D": "Tomar la muestra del primer drenaje nocturno sin infusión diurna",
+   "E": "Infundir 1 L de dializante y tomar la muestra a las 2 h"
+  },
+  "explicaciones": {
+   "A": "La bolsa de la desconexión corresponde a ciclos cortos y diluidos: puede subestimar el recuento y no está estandarizada.",
+   "B": "Cambiar la prescripción y esperar a llegar al centro retrasa el diagnóstico, y cada hora de retraso aumenta ~5.5% el riesgo de falla o muerte.",
+   "C": "Esperar a la mañana siguiente también retrasa el diagnóstico de un paciente sintomático.",
+   "D": "El día seco no permite evaluar una estancia adecuada.",
+   "E": "Correcto. En DPA con día seco no hay líquido de estancia larga: se infunde ~1 L, se deja 1–2 h y se drena para recuento, %PMN y cultivo (ISPD 2022). Así la muestra es interpretable y el tratamiento no se retrasa."
+  },
+  "clave": "E",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ13-2",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Peritonitis asociada a DP",
+  "caso": "",
+  "enunciado": "La hipokalemia es factor de riesgo de peritonitis bacteriana asociada a DP porque:",
+  "perla": "La hipokalemia reduce la motilidad intestinal; la estasis favorece el sobrecrecimiento y la traslocación bacteriana transmural, con peritonitis de origen entérico. El K⁺ bajo es uno de los factores bioquímicos de riesgo en PDOPPS.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 13: Peritonitis asociada a DP"
+  ],
+  "serie_id": "AZ13-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 13)"
+  ],
+  "opciones": {
+   "A": "Acidifica el dializante y daña la luz del catéter",
+   "B": "Inhibe los estafilococos de la piel y favorece cepas patógenas",
+   "C": "Reduce la motilidad intestinal y favorece traslocación",
+   "D": "Causa alcalosis que reduce la eficacia de los antibióticos IP",
+   "E": "Aumenta la glucosa del dializante y el biofilm"
+  },
+  "explicaciones": {
+   "A": "El K⁺ sérico no modifica el pH del dializante ni daña la luz del catéter.",
+   "B": "El K⁺ sérico no regula la flora cutánea.",
+   "C": "Correcto. La hipokalemia reduce la motilidad intestinal; la estasis favorece el sobrecrecimiento y la traslocación bacteriana transmural, con peritonitis de origen entérico. El K⁺ bajo es uno de los factores bioquímicos de riesgo en PDOPPS.",
+   "D": "La hipokalemia no se vincula con menor eficacia de los antibióticos IP; el mecanismo es intestinal.",
+   "E": "No es el mecanismo."
+  },
+  "clave": "C",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ13-3",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Peritonitis asociada a DP",
+  "caso": "Paciente en DPA que trae muestra de líquido peritoneal.",
+  "enunciado": "¿Qué dato tiene mayor peso para sospechar peritonitis asociada a DP?",
+  "perla": "En DPA la estancia es corta y el recuento absoluto puede quedar <100/µL; por eso el porcentaje de PMN >50% es el dato que establece el diagnóstico (ISPD 2022).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 13: Peritonitis asociada a DP"
+  ],
+  "serie_id": "AZ13-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 13)"
+  ],
+  "opciones": {
+   "A": ">50% de polimorfonucleares en el efluente",
+   "B": "Balances positivos en la última semana",
+   "C": "Líquido turbio",
+   "D": ">50 leucocitos/µL si la estancia fue <2 h",
+   "E": "Cultivo positivo de la piel del orificio"
+  },
+  "explicaciones": {
+   "A": "Correcto. En DPA la estancia es corta y el recuento absoluto puede quedar <100/µL; por eso el porcentaje de PMN >50% es el dato que establece el diagnóstico (ISPD 2022).",
+   "B": "Los balances positivos sugieren problemas de ultrafiltración, no peritonitis.",
+   "C": "El líquido turbio es solo un criterio clínico y tiene otras causas (fibrina, quilo, eosinófilos, linfocitos o sangrado).",
+   "D": "El umbral absoluto es >100/µL con estancia ≥2 h; con estancia corta pesa el %PMN, no un número de 50.",
+   "E": "No define peritonitis."
+  },
+  "clave": "A",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ13-5",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Peritonitis asociada a DP",
+  "caso": "Paciente en su 5.º día de antibiótico IP ajustado a sensibilidad: el efluente sigue turbio, pero el dolor se resolvió y los leucocitos bajaron de 3,500 a 250/µL.",
+  "enunciado": "¿Conducta más apropiada?",
+  "perla": "Aunque el efluente siga turbio, hay mejoría clínica y los leucocitos bajaron >30% (3,500 → 250/µL): es una refractaria parcial. Se continúa el esquema, se repite el cultivo y se reevalúa al día 10 (Nardelli 2026).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 13: Peritonitis asociada a DP"
+  ],
+  "serie_id": "AZ13-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 13)"
+  ],
+  "opciones": {
+   "A": "Uroquinasa intraluminal para eliminar el biofilm",
+   "B": "Añadir un segundo antimicrobiano y esperar 72 h",
+   "C": "Retirar el catéter por peritonitis refractaria",
+   "D": "Mantener el esquema si los leucocitos bajan",
+   "E": "Retirar el catéter y recolocar en el mismo acto"
+  },
+  "explicaciones": {
+   "A": "La uroquinasa intraluminal no forma parte del manejo de una peritonitis que responde.",
+   "B": "Añadir otro antimicrobiano no está indicado si el esquema ajustado a sensibilidad funciona.",
+   "C": "Retirar el catéter corresponde a la refractaria completa, sin descenso ni mejoría.",
+   "D": "Correcto. Aunque el efluente siga turbio, hay mejoría clínica y los leucocitos bajaron >30% (3,500 → 250/µL): es una refractaria parcial. Se continúa el esquema, se repite el cultivo y se reevalúa al día 10 (Nardelli 2026).",
+   "E": "No está indicado sin falla."
+  },
+  "clave": "D",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ13-6",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Peritonitis asociada a DP",
+  "caso": "Hombre de 50 años en DPA con día húmedo requiere colonoscopia diagnóstica.",
+  "enunciado": "¿Qué medidas reducen el riesgo de peritonitis entérica?",
+  "perla": "La colonoscopia (sobre todo con polipectomía o insuflación) se considera de alto riesgo: profilaxis contra enterobacterias y anaerobios (p. ej., ampicilina + aminoglucósido ± metronidazol) y vaciar la cavidad antes del procedimiento (ISPD; Hsueh 2021).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 13: Peritonitis asociada a DP"
+  ],
+  "serie_id": "AZ13-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 13)"
+  ],
+  "opciones": {
+   "A": "Profilaxis contra gramnegativos y anaerobios, con cavidad vacía",
+   "B": "Suspender la DP 48 h antes y pasar a HD si no tiene diuresis residual",
+   "C": "Vancomicina IP 24 h antes y recambio de icodextrina el día del estudio",
+   "D": "Metronidazol VO 48 h antes y drenar el líquido al terminar",
+   "E": "Cefazolina IP 1 h antes sin vaciar cavidad"
+  },
+  "explicaciones": {
+   "A": "Correcto. La colonoscopia (sobre todo con polipectomía o insuflación) se considera de alto riesgo: profilaxis contra enterobacterias y anaerobios (p. ej., ampicilina + aminoglucósido ± metronidazol) y vaciar la cavidad antes del procedimiento (ISPD; Hsueh 2021).",
+   "B": "No es necesario suspender la DP ni pasar a HD.",
+   "C": "La vancomicina IP no cubre gramnegativos ni anaerobios, y la icodextrina deja la cavidad llena.",
+   "D": "El metronidazol solo no cubre enterobacterias, y el líquido debe drenarse antes, no después.",
+   "E": "No cubre gramnegativos ni anaerobios."
+  },
+  "clave": "A",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ13-7",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Peritonitis asociada a DP",
+  "caso": "",
+  "enunciado": "En la peritonitis tratada con aminoglucósidos IP se sugiere añadir N-acetilcisteína oral porque:",
+  "perla": "La amikacina genera especies reactivas de oxígeno en las células ciliadas; la N-acetilcisteína (600 mg c/12 h VO) es antioxidante y en un ensayo aleatorizado redujo el deterioro auditivo en altas frecuencias, con efecto sostenido a 12 meses (Vural 2019).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 13: Peritonitis asociada a DP"
+  ],
+  "serie_id": "AZ13-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 13)"
+  ],
+  "opciones": {
+   "A": "Reduce la formación de biofilm en el catéter Tenckhoff",
+   "B": "Reduce la inflamación peritoneal",
+   "C": "Reduce la ototoxicidad de los aminoglucósidos",
+   "D": "Es bacteriostática contra Pseudomonas sensibles",
+   "E": "Aumenta los niveles IP del aminoglucósido"
+  },
+  "explicaciones": {
+   "A": "La NAC no se indica para prevenir el biofilm en este contexto.",
+   "B": "Bajó TNF-α e IL-6, pero el motivo de usarla es la otoprotección, no la recuperación peritoneal.",
+   "C": "Correcto. La amikacina genera especies reactivas de oxígeno en las células ciliadas; la N-acetilcisteína (600 mg c/12 h VO) es antioxidante y en un ensayo aleatorizado redujo el deterioro auditivo en altas frecuencias, con efecto sostenido a 12 meses (Vural 2019).",
+   "D": "No tiene acción antibacteriana clínicamente útil contra Pseudomonas.",
+   "E": "No es su efecto."
+  },
+  "clave": "C",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ13-8",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Peritonitis asociada a DP",
+  "caso": "Paciente con peritonitis: 1,500 leucocitos/µL con 50% PMN, y el mismo día el Gram reporta hifas.",
+  "enunciado": "¿Acción prioritaria?",
+  "perla": "La peritonitis fúngica tiene mortalidad de 20–30%: el catéter se retira de inmediato al confirmarla por Gram o cultivo, se pasa a HD y se da antifúngico 2–4 semanas tras el retiro, según la especie.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 13: Peritonitis asociada a DP"
+  ],
+  "serie_id": "AZ13-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 13)"
+  ],
+  "opciones": {
+   "A": "Anfotericina B liposomal IP y reevaluar al día 5",
+   "B": "Pasar a HD temporal solo si hay sepsis",
+   "C": "Carga de fluconazol y lavados peritoneales con antifúngico",
+   "D": "Nistatina oral y continuar la DP",
+   "E": "Retirar de inmediato el catéter, pasar a HD y dar antifúngico"
+  },
+  "explicaciones": {
+   "A": "Reevaluar al día 5 retrasa el retiro y aumenta la mortalidad.",
+   "B": "El paso a HD y el retiro no dependen de que haya sepsis.",
+   "C": "El fluconazol con lavados peritoneales sin retirar el catéter no erradica la infección; además, las hifas sugieren moho, que no responde a fluconazol.",
+   "D": "La profilaxis no trata la peritonitis fúngica.",
+   "E": "Correcto. La peritonitis fúngica tiene mortalidad de 20–30%: el catéter se retira de inmediato al confirmarla por Gram o cultivo, se pasa a HD y se da antifúngico 2–4 semanas tras el retiro, según la especie."
+  },
+  "clave": "E",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ13-4",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Peritonitis asociada a DP",
+  "caso": "Hombre de 66 años con nefropatía diabética en DPCA (3 recambios/día) y diuresis residual de 1,200 mL; inicia cefepime IP por peritonitis.",
+  "enunciado": "¿Qué ajuste requiere por su función renal residual?",
+  "perla": "Con diuresis residual, los antibióticos de eliminación renal (como cefepime) se depuran más rápido: la ISPD 2022 sugiere aumentar 25% la dosis (carga y mantenimiento) para no quedar en niveles subterapéuticos.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 13: Peritonitis asociada a DP"
+  ],
+  "serie_id": "AZ13-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 13)"
+  ],
+  "opciones": {
+   "A": "Aumentar 25% la dosis de carga y de mantenimiento",
+   "B": "Darlo IV para mantener niveles plasmáticos estables",
+   "C": "Ninguno: por vía IP mantiene concentraciones adecuadas",
+   "D": "Aumentar 50% la dosis de mantenimiento",
+   "E": "Reducir 25% la dosis por la vía IP"
+  },
+  "explicaciones": {
+   "A": "Correcto. Con diuresis residual, los antibióticos de eliminación renal (como cefepime) se depuran más rápido: la ISPD 2022 sugiere aumentar 25% la dosis (carga y mantenimiento) para no quedar en niveles subterapéuticos.",
+   "B": "La vía IP es la de elección y no se cambia a IV por la función renal residual.",
+   "C": "La vía IP no evita la depuración renal; sin ajuste hay riesgo de subdosificación.",
+   "D": "El ajuste sugerido es de 25%, no de 50%.",
+   "E": "Con FRR se aumenta, no se reduce."
+  },
+  "clave": "A",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-1",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "54 años en DPA, sin FRR; Hb 9.6, BUN 60, CrS 15.34, K 6, P 8. El monitoreo remoto muestra tratamientos completos sin alarmas relevantes.",
+  "enunciado": "¿Mejor interpretación?",
+  "perla": "La ausencia de alarmas no equivale a adecuación: con K 6, P 8, Hb 9.6, TA 171/91 y peso 3.8 kg sobre el seco, la terapia es insuficiente aunque se haya completado. La adecuación integra depuración, volumen, estado clínico, FRR y dosis realmente recibida.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "La terapia es adecuada porque no hay alarmas",
+   "B": "La ausencia de alarmas confirma que la dosis prescrita es suficiente",
+   "C": "No se requieren cambios si la UF es adecuada",
+   "D": "Reevaluar depuración, clínica y dosis recibida",
+   "E": "Bajar la dosis por buen apego"
+  },
+  "explicaciones": {
+   "A": "Las alarmas solo informan sobre la ejecución técnica del tratamiento, no sobre si la dosis alcanza las metas clínicas.",
+   "B": "Las alarmas solo informan sobre la ejecución técnica del tratamiento, no sobre si la dosis alcanza las metas clínicas.",
+   "C": "La UF es solo una dimensión; aquí hay hiperkalemia, hiperfosfatemia y HTA no controlada.",
+   "D": "Correcto. La ausencia de alarmas no equivale a adecuación: con K 6, P 8, Hb 9.6, TA 171/91 y peso 3.8 kg sobre el seco, la terapia es insuficiente aunque se haya completado. La adecuación integra depuración, volumen, estado clínico, FRR y dosis realmente recibida.",
+   "E": "Hay datos de diálisis insuficiente."
+  },
+  "clave": "D",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-2",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "DPA con monitoreo remoto: en 10 días, UF en descenso, aumento de peso y de la TA.",
+  "enunciado": "¿Conducta?",
+  "perla": "El valor de la telemedicina está en la tendencia: UF que cae, peso que sube y TA que aumenta durante 10 días sugieren sobrecarga progresiva; se correlaciona con la clínica y se ajusta la prescripción de forma oportuna.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "Analizar la tendencia con la clínica y ajustar",
+   "B": "Interpretar cada dato por separado",
+   "C": "Esperar a la siguiente consulta mensual",
+   "D": "Aumentar automáticamente la concentración de glucosa",
+   "E": "Suspender la icodextrina"
+  },
+  "explicaciones": {
+   "A": "Correcto. El valor de la telemedicina está en la tendencia: UF que cae, peso que sube y TA que aumenta durante 10 días sugieren sobrecarga progresiva; se correlaciona con la clínica y se ajusta la prescripción de forma oportuna.",
+   "B": "Interpretar datos aislados pierde el patrón; tener datos no es tener información.",
+   "C": "Esperar a la consulta mensual desaprovecha la detección temprana (conducta reactiva).",
+   "D": "Subir la glucosa sin evaluar la causa (adherencia, drenaje, sal y agua, membrana) expone a descontrol glucémico y daño peritoneal.",
+   "E": "No sin evaluación."
+  },
+  "clave": "A",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-3",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "Múltiples alarmas nocturnas de drenaje, con pérdida significativa del tiempo efectivo y drenajes incompletos.",
+  "enunciado": "¿Cómo se clasifica?",
+  "perla": "Alto impacto: interrupción repetida, pérdida significativa de tiempo, drenajes persistentemente incompletos, disminución de la dosis efectiva o asociación con deterioro clínico.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "Bajo impacto",
+   "B": "Exclusivamente impacto intermedio",
+   "C": "Irrelevante si el paciente está asintomático",
+   "D": "Impacto técnico sin relevancia clínica",
+   "E": "Alto impacto clínico"
+  },
+  "explicaciones": {
+   "A": "Bajo impacto es la alarma esporádica, sin pérdida de tiempo ni de volumen y sin repercusión clínica.",
+   "B": "El impacto intermedio (recurrente, aumenta tiempo perdido, requiere intervención) se rebasa cuando hay pérdida significativa de tiempo y drenajes incompletos.",
+   "C": "La pérdida de dosis efectiva tiene impacto aunque aún no haya síntomas.",
+   "D": "Reduce el tiempo efectivo.",
+   "E": "Correcto. Alto impacto: interrupción repetida, pérdida significativa de tiempo, drenajes persistentemente incompletos, disminución de la dosis efectiva o asociación con deterioro clínico."
+  },
+  "clave": "E",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-4",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "DPA con drenaje lento recurrente y volumen drenado menor al infundido. Antes de subir la dosis,",
+  "enunciado": "¿qué se evalúa primero?",
+  "perla": "Un drenaje lento (> 20 min) o menor al volumen infundido sugiere obstrucción (hasta 50% de los catéteres): coágulos, fibrina, estreñimiento o atrapamiento epiploico. Se explora el abdomen, se revisa el acceso, se interroga y se solicita imagen.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "Aumentar el número de ciclos",
+   "B": "Aumentar el volumen de infusión",
+   "C": "Causas mecánicas del drenaje",
+   "D": "Cambiar todas las soluciones a mayor concentración",
+   "E": "Cambiar a DPCA"
+  },
+  "explicaciones": {
+   "A": "Aumentar ciclos o volumen no corrige la causa mecánica y aumenta el volumen residual y las alarmas.",
+   "B": "Aumentar ciclos o volumen no corrige la causa mecánica y aumenta el volumen residual y las alarmas.",
+   "C": "Correcto. Un drenaje lento (> 20 min) o menor al volumen infundido sugiere obstrucción (hasta 50% de los catéteres): coágulos, fibrina, estreñimiento o atrapamiento epiploico. Se explora el abdomen, se revisa el acceso, se interroga y se solicita imagen.",
+   "D": "Mayor concentración no resuelve el drenaje y añade carga de glucosa y daño peritoneal.",
+   "E": "Primero se evalúa la mecánica."
+  },
+  "clave": "C",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-6",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "Sobrecarga de volumen con depuración aceptable.",
+  "enunciado": "¿Qué estrategia mejora principalmente la UF?",
+  "perla": "Aumentar la tonicidad (glucosa) es la modificación más frecuente para mejorar la UF (mayor transporte por convección), junto con la restricción de sal y agua; su riesgo es el descontrol glucémico y el daño peritoneal.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "Disminuir la duración del tratamiento",
+   "B": "Aumentar la tonicidad de las soluciones",
+   "C": "Reducir el volumen de los intercambios",
+   "D": "Suspender el seguimiento del peso",
+   "E": "Agregar un recambio con 1.5%"
+  },
+  "explicaciones": {
+   "A": "Acortar el tratamiento reduce la UF y la depuración.",
+   "B": "Correcto. Aumentar la tonicidad (glucosa) es la modificación más frecuente para mejorar la UF (mayor transporte por convección), junto con la restricción de sal y agua; su riesgo es el descontrol glucémico y el daño peritoneal.",
+   "C": "Reducir el volumen no está dirigido a la UF y disminuye la depuración.",
+   "D": "El peso es un dato clínico clave para valorar el estado de volumen.",
+   "E": "Aporta poca UF."
+  },
+  "clave": "B",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-7",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "",
+  "enunciado": "¿Cuál es el objetivo fundamental del monitoreo remoto en DP?",
+  "perla": "El monitoreo remoto busca pasar de una conducta reactiva a una proactiva: detectar tempranamente lo que ocurre entre consultas (adherencia, UF, alarmas, drenaje, volumen) y actuar a tiempo.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "Sustituir por completo la consulta clínica",
+   "B": "Generar el mayor número posible de datos",
+   "C": "Vigilar exclusivamente la adherencia",
+   "D": "Reducir las visitas presenciales a cero",
+   "E": "Permitir una conducta proactiva"
+  },
+  "explicaciones": {
+   "A": "Complementa, no sustituye, la evaluación clínica.",
+   "B": "Más datos sin interpretación no generan información.",
+   "C": "La adherencia es solo uno de los datos del tratamiento; también hay datos técnicos y clínicos.",
+   "D": "No sustituye la consulta.",
+   "E": "Correcto. El monitoreo remoto busca pasar de una conducta reactiva a una proactiva: detectar tempranamente lo que ocurre entre consultas (adherencia, UF, alarmas, drenaje, volumen) y actuar a tiempo."
+  },
+  "clave": "E",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-8",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "",
+  "enunciado": "En DPA con monitoreo remoto, la ausencia de alarmas durante el tratamiento significa que:",
+  "perla": "Que no haya alarmas solo indica que la máquina completó el tratamiento sin incidentes técnicos; no informa si la depuración, la UF o el control clínico son suficientes.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "La prescripción es adecuada",
+   "B": "La depuración es suficiente",
+   "C": "No puede asumirse adecuación",
+   "D": "La UF es adecuada",
+   "E": "El drenaje es completo"
+  },
+  "explicaciones": {
+   "A": "La prescripción, la depuración y la UF deben evaluarse con laboratorio, estado de volumen, FRR y dosis realmente recibida (caso de 54 años: sin alarmas, pero con K 6, P 8 y TA 171/91).",
+   "B": "La prescripción, la depuración y la UF deben evaluarse con laboratorio, estado de volumen, FRR y dosis realmente recibida (caso de 54 años: sin alarmas, pero con K 6, P 8 y TA 171/91).",
+   "C": "Correcto. Que no haya alarmas solo indica que la máquina completó el tratamiento sin incidentes técnicos; no informa si la depuración, la UF o el control clínico son suficientes.",
+   "D": "La prescripción, la depuración y la UF deben evaluarse con laboratorio, estado de volumen, FRR y dosis realmente recibida (caso de 54 años: sin alarmas, pero con K 6, P 8 y TA 171/91).",
+   "E": "No necesariamente."
+  },
+  "clave": "C",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-9",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "",
+  "enunciado": "¿Secuencia para convertir los datos remotos en una intervención?",
+  "perla": "Dato → tendencia → interpretación → decisión → resultado: el dato aislado se convierte en información cuando se analiza su tendencia y se interpreta en el contexto clínico, antes de decidir.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "Dato → tendencia → interpretación → decisión → resultado",
+   "B": "Dato → decisión → tendencia → resultado",
+   "C": "Alarma → cambio de prescripción → evaluación clínica",
+   "D": "Dato → resultado → interpretación → decisión",
+   "E": "Alarma → decisión → resultado"
+  },
+  "explicaciones": {
+   "A": "Correcto. Dato → tendencia → interpretación → decisión → resultado: el dato aislado se convierte en información cuando se analiza su tendencia y se interpreta en el contexto clínico, antes de decidir.",
+   "B": "Decide antes de conocer la tendencia.",
+   "C": "Modifica la prescripción ante una alarma sin evaluar al paciente.",
+   "D": "Coloca el resultado antes de interpretar y decidir.",
+   "E": "Omite tendencia e interpretación."
+  },
+  "clave": "A",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-10",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "",
+  "enunciado": "¿Qué ejemplifica mejor la utilidad clínica del monitoreo remoto en DP?",
+  "perla": "Integra datos del tratamiento (adherencia, sesiones, duración real, volúmenes prescritos vs administrados, UF), técnicos (alarmas, drenajes incompletos, tiempo perdido, problemas de flujo) y clínicos (peso, TA, síntomas).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "Sustituir la valoración clínica presencial",
+   "B": "Conocer adherencia, UF, alarmas y duración efectiva",
+   "C": "Calcular automáticamente la adecuación integral",
+   "D": "Evitar medir la función renal residual",
+   "E": "Calcular el Kt/V semanal y la depuración de creatinina"
+  },
+  "explicaciones": {
+   "A": "La telemedicina no reemplaza la valoración presencial.",
+   "B": "Correcto. Integra datos del tratamiento (adherencia, sesiones, duración real, volúmenes prescritos vs administrados, UF), técnicos (alarmas, drenajes incompletos, tiempo perdido, problemas de flujo) y clínicos (peso, TA, síntomas).",
+   "C": "La adecuación integral requiere juicio clínico y laboratorio, no un cálculo automático.",
+   "D": "La FRR sigue siendo una dimensión de la adecuación.",
+   "E": "No lo calcula."
+  },
+  "clave": "B",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ21-2",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter peritoneal urgente",
+  "caso": "",
+  "enunciado": "En el contexto del inicio urgente, ¿qué se define como inicio temprano?",
+  "perla": "Se considera inicio temprano el uso del catéter entre las 72 h y los 14–15 días tras la colocación; el inicio urgente es <72 h y el planeado, después de 14 días (Hangai 2022).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 21: Catéter peritoneal urgente"
+  ],
+  "serie_id": "AZ21-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 21)"
+  ],
+  "opciones": {
+   "A": "Iniciar diálisis en las primeras 72 h tras la colocación",
+   "B": "Iniciar diálisis con volúmenes de 2 L por recambio",
+   "C": "Inicio planeado de la DP",
+   "D": "Iniciar entre 72 h y 14 días",
+   "E": "Iniciar después de 4 semanas"
+  },
+  "explicaciones": {
+   "A": "<72 h corresponde al inicio urgente.",
+   "B": "El volumen de los recambios no define el momento de inicio; en el inicio urgente se usan volúmenes bajos en supino para reducir fugas.",
+   "C": "El inicio planeado ocurre después del periodo de cicatrización.",
+   "D": "Correcto. Se considera inicio temprano el uso del catéter entre las 72 h y los 14–15 días tras la colocación; el inicio urgente es <72 h y el planeado, después de 14 días (Hangai 2022).",
+   "E": "Es inicio convencional."
+  },
+  "clave": "D",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ21-3",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter peritoneal urgente",
+  "caso": "",
+  "enunciado": "¿Cuál es una contraindicación absoluta para la DP?",
+  "perla": "Las adherencias intraabdominales extensas impiden una superficie peritoneal funcional y la colocación segura del catéter; por eso no se recomienda la técnica percutánea a ciegas cuando hay riesgo de adherencias.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 21: Catéter peritoneal urgente"
+  ],
+  "serie_id": "AZ21-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 21)"
+  ],
+  "opciones": {
+   "A": "Adherencias extensas",
+   "B": "Edad mayor de 75 años",
+   "C": "Cirugías abdominales previas",
+   "D": "Obesidad",
+   "E": "Hernia umbilical reparable"
+  },
+  "explicaciones": {
+   "A": "Correcto. Las adherencias intraabdominales extensas impiden una superficie peritoneal funcional y la colocación segura del catéter; por eso no se recomienda la técnica percutánea a ciegas cuando hay riesgo de adherencias.",
+   "B": "La edad avanzada no contraindica la DP.",
+   "C": "Las cirugías abdominales previas no la contraindican: el US puede descartar adherencias, o se puede usar laparoscopia.",
+   "D": "La obesidad no es contraindicación; se pueden usar catéteres extendidos o preesternales.",
+   "E": "Contraindicación relativa."
+  },
+  "clave": "A",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ21-4",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter peritoneal urgente",
+  "caso": "",
+  "enunciado": "¿Cuál es la principal ventaja de que el nefrólogo coloque el catéter peritoneal por vía percutánea?",
+  "perla": "Que el nefrólogo coloque el catéter por vía percutánea, al pie de la cama, evita depender del quirófano y del cirujano, agiliza el inicio y acorta el tiempo de atención de complicaciones como la disfunción o la migración.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 21: Catéter peritoneal urgente"
+  ],
+  "serie_id": "AZ21-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 21)"
+  ],
+  "opciones": {
+   "A": "Garantiza que no habrá complicaciones infecciosas",
+   "B": "Permite volúmenes convencionales sin riesgo de fuga",
+   "C": "Agiliza el inicio y la atención de complicaciones",
+   "D": "Es la única opción con cirugías abdominales previas",
+   "E": "Evita el periodo de cicatrización"
+  },
+  "explicaciones": {
+   "A": "Las complicaciones infecciosas siguen ocurriendo (aunque fueron menores con técnicas percutáneas).",
+   "B": "El inicio inmediato exige volúmenes bajos por el riesgo de fuga.",
+   "C": "Correcto. Que el nefrólogo coloque el catéter por vía percutánea, al pie de la cama, evita depender del quirófano y del cirujano, agiliza el inicio y acorta el tiempo de atención de complicaciones como la disfunción o la migración.",
+   "D": "Con cirugías previas y riesgo de adherencias se prefiere la laparoscopia o, al menos, evaluar con US.",
+   "E": "No lo evita."
+  },
+  "clave": "C",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ21-5",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter peritoneal urgente",
+  "caso": "",
+  "enunciado": "Frente a la HD de inicio urgente, ¿cómo es la supervivencia técnica de la DP de inicio urgente?",
+  "perla": "En la cohorte prospectiva del HCG (120 DPu vs 103 HDu), la mortalidad no difirió (aHR 1.26, IC 95% 0.73–2.18), con corrección comparable de acidosis e hiperkalemia.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 21: Catéter peritoneal urgente"
+  ],
+  "serie_id": "AZ21-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 21)"
+  ],
+  "opciones": {
+   "A": "La HD siempre es mejor para corregir la acidosis grave y reduce la mortalidad",
+   "B": "Iniciar HD y cambiar a DP al estabilizar reduce la mortalidad",
+   "C": "La DP tiene mayor mortalidad solo en los primeros 30 días",
+   "D": "DP urgente con más bacteriemias",
+   "E": "La supervivencia de la técnica y la mortalidad son comparables"
+  },
+  "explicaciones": {
+   "A": "La corrección del HCO₃⁻ fue comparable (+9.0 vs +6.1 mEq/L) y la mortalidad similar (OR 1.56, p=0.424).",
+   "B": "Iniciar HD y luego pasar a DP se asocia con más mortalidad (HR 1.69; +2% por cada mes en HD).",
+   "C": "No hubo exceso de mortalidad temprana con DP.",
+   "D": "La DP evita catéteres venosos.",
+   "E": "Correcto. En la cohorte prospectiva del HCG (120 DPu vs 103 HDu), la mortalidad no difirió (aHR 1.26, IC 95% 0.73–2.18), con corrección comparable de acidosis e hiperkalemia."
+  },
+  "clave": "E",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ21-7",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter peritoneal urgente",
+  "caso": "",
+  "enunciado": "En pacientes obesos o con estomas, ¿qué diseño de catéter se sugiere para mejorar los resultados y reducir infecciones?",
+  "perla": "El catéter preesternal (extendido) sitúa el orificio de salida en el tórax, lejos de pliegues abdominales y estomas, lo que facilita el cuidado y reduce las infecciones del orificio en obesos y pacientes con estomas.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 21: Catéter peritoneal urgente"
+  ],
+  "serie_id": "AZ21-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 21)"
+  ],
+  "opciones": {
+   "A": "Catéter preesternal",
+   "B": "Tenckhoff recto de doble cojinete",
+   "C": "Cola de cochino con cuello de cisne",
+   "D": "Ambas condiciones contraindican de forma absoluta la DP",
+   "E": "Catéter corto de un cojinete"
+  },
+  "explicaciones": {
+   "A": "Correcto. El catéter preesternal (extendido) sitúa el orificio de salida en el tórax, lejos de pliegues abdominales y estomas, lo que facilita el cuidado y reduce las infecciones del orificio en obesos y pacientes con estomas.",
+   "B": "El orificio de los catéteres abdominales convencionales queda en zonas de pliegues o cerca del estoma, con más riesgo de infección.",
+   "C": "El orificio de los catéteres abdominales convencionales queda en zonas de pliegues o cerca del estoma, con más riesgo de infección.",
+   "D": "Ni la obesidad ni los estomas contraindican la DP de forma absoluta.",
+   "E": "No mejora resultados."
+  },
+  "clave": "A",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ21-8",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter peritoneal urgente",
+  "caso": "",
+  "enunciado": "¿Cuál es una de las mayores ventajas de la técnica laparoscópica frente a las percutáneas?",
+  "perla": "La laparoscopia permite colocar el catéter bajo visión directa y realizar procedimientos adyuvantes como la omentopexia (además de adhesiólisis), que reducen el riesgo de disfunción; además tiene menor riesgo de fuga.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 21: Catéter peritoneal urgente"
+  ],
+  "serie_id": "AZ21-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 21)"
+  ],
+  "opciones": {
+   "A": "Menos tiempo de espera y poco entrenamiento",
+   "B": "Consumibles baratos y ampliamente disponibles",
+   "C": "Permite colocar el catéter sin importar si es recto o cola de cochino",
+   "D": "Permite omentopexia para reducir el riesgo de disfunción",
+   "E": "No requiere anestesia"
+  },
+  "explicaciones": {
+   "A": "Al contrario: requiere entrenamiento y depende del quirófano.",
+   "B": "Sus consumibles son costosos.",
+   "C": "La configuración del catéter no es una ventaja exclusiva de la laparoscopia.",
+   "D": "Correcto. La laparoscopia permite colocar el catéter bajo visión directa y realizar procedimientos adyuvantes como la omentopexia (además de adhesiólisis), que reducen el riesgo de disfunción; además tiene menor riesgo de fuga.",
+   "E": "Requiere anestesia general."
+  },
+  "clave": "D",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ20-5",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Adecuación y monitoreo remoto en DP",
+  "caso": "42 años sin FRR, síntomas urémicos persistentes, PIA 16; 5 ciclos nocturnos de 2 L.",
+  "enunciado": "¿Qué puede mejorar la depuración?",
+  "perla": "Agregar cavidad húmeda diurna aprovecha las horas del día para depurar más (en el caso de la ponencia, 5 ciclos nocturnos de 2 L + permanencia diurna de ~1 L). Con PIA elevada no es conveniente aumentar el volumen de cada recambio.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 20: Adecuación y monitoreo remoto en DP"
+  ],
+  "serie_id": "AZ20-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 20)"
+  ],
+  "opciones": {
+   "A": "Disminuir el volumen de cada intercambio",
+   "B": "Iniciar cavidad húmeda",
+   "C": "Aumentar el volumen de infusión",
+   "D": "Disminuir el tiempo total de terapia",
+   "E": "Sustituir glucosa por aminoácidos"
+  },
+  "explicaciones": {
+   "A": "El aumento de volumen recluta membrana (2 → 2.5 L eleva el Kt/V 18–20%), pero con PIA alta y sin buena tolerancia no es la opción preferida en este paciente.",
+   "B": "Correcto. Agregar cavidad húmeda diurna aprovecha las horas del día para depurar más (en el caso de la ponencia, 5 ciclos nocturnos de 2 L + permanencia diurna de ~1 L). Con PIA elevada no es conveniente aumentar el volumen de cada recambio.",
+   "C": "El aumento de volumen recluta membrana (2 → 2.5 L eleva el Kt/V 18–20%), pero con PIA alta y sin buena tolerancia no es la opción preferida en este paciente.",
+   "D": "Menor volumen o menor tiempo de terapia reducen la depuración.",
+   "E": "No mejora la depuración."
+  },
+  "clave": "B",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ21-1",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter peritoneal urgente",
+  "caso": "Según el estudio multicéntrico de Moguel-González (2026),",
+  "enunciado": "¿qué técnica de colocación permite iniciar la diálisis más rápido, en menos de 6 h?",
+  "perla": "En la cohorte multicéntrica de 429 pacientes (Clin Kidney J 2026), las técnicas percutáneas (Seldinger y estilete) permitieron iniciar la diálisis en 0–6 h tras la colocación, sin más complicaciones mayores.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 21: Catéter peritoneal urgente"
+  ],
+  "serie_id": "AZ21-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 21)"
+  ],
+  "opciones": {
+   "A": "Minilaparotomía quirúrgica",
+   "B": "Laparoscópica",
+   "C": "Inserción quirúrgica",
+   "D": "Técnica de Seldinger con fluoroscopia sola",
+   "E": "Técnica percutánea"
+  },
+  "explicaciones": {
+   "A": "La laparoscopia depende de quirófano, cirujano entrenado y consumibles costosos, lo que retrasa el inicio.",
+   "B": "La laparoscopia depende de quirófano, cirujano entrenado y consumibles costosos, lo que retrasa el inicio.",
+   "C": "La minilaparotomía y la inserción quirúrgica requieren quirófano, y en la cohorte sus inicios se concentraron después de las 24 h.",
+   "D": "No es la del estudio.",
+   "E": "Correcto. En la cohorte multicéntrica de 429 pacientes (Clin Kidney J 2026), las técnicas percutáneas (Seldinger y estilete) permitieron iniciar la diálisis en 0–6 h tras la colocación, sin más complicaciones mayores."
+  },
+  "clave": "E",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ21-6",
+  "tema_id": 20,
+  "sub": "20.b",
+  "obj": "20.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter peritoneal urgente",
+  "caso": "",
+  "enunciado": "¿Qué complicación mecánica es significativamente más frecuente en la DP de inicio urgente que en la de inicio convencional?",
+  "perla": "Usar el catéter antes de que cicatricen los tejidos aumenta la presión intraabdominal sobre la herida: la fuga pericatéter es la complicación mecánica que más aumenta con el inicio urgente; se reduce con volúmenes bajos y en supino.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 21: Catéter peritoneal urgente"
+  ],
+  "serie_id": "AZ21-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 21)"
+  ],
+  "opciones": {
+   "A": "Infección del túnel",
+   "B": "Esclerosis peritoneal encapsulante",
+   "C": "Fuga pericatéter",
+   "D": "Peritonitis",
+   "E": "Disfunción por migración del catéter"
+  },
+  "explicaciones": {
+   "A": "La infección del túnel no aumentó de forma significativa con el inicio urgente.",
+   "B": "La esclerosis peritoneal encapsulante es una complicación tardía de la membrana, no mecánica ni del inicio.",
+   "C": "Correcto. Usar el catéter antes de que cicatricen los tejidos aumenta la presión intraabdominal sobre la herida: la fuga pericatéter es la complicación mecánica que más aumenta con el inicio urgente; se reduce con volúmenes bajos y en supino.",
+   "D": "La peritonitis no fue significativamente más frecuente.",
+   "E": "No difirió significativamente."
+  },
+  "clave": "C",
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
  }
 ]

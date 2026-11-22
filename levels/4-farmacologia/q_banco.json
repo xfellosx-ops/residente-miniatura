@@ -2459,5 +2459,537 @@
    "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
   ],
   "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-4",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Frecuencia y dosis de furosemida",
+  "caso": "Paciente con IC descompensada recibe furosemida IV 80 mg una vez al día con respuesta pobre.",
+  "enunciado": "¿Por qué 40 mg c/12 h no equivale a 80 mg en dosis única?",
+  "perla": "Curva dosis-respuesta: en ERC se desplaza a la derecha (defecto de secreción); en IC, hacia abajo (menor respuesta máxima).",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Producen la misma natriuresis y solo difieren en comodidad",
+   "B": "La dosis dividida siempre es más potente que la única",
+   "C": "La dosis cruza el umbral; la frecuencia define la duración",
+   "D": "La furosemida tiene vida media de 24 h y se acumula",
+   "E": "La dosis única evita la retención posdiurética de sodio"
+  },
+  "explicaciones": {
+   "A": "La natriuresis depende de cruzar el umbral.",
+   "B": "Si cada dosis no cruza el umbral, dividirla no sirve.",
+   "C": "Correcto. La furosemida actúa ~6 h; la dosis debe superar el umbral natriurético y la frecuencia (c/8–12 h) evita la retención posdiurética de Na⁺.",
+   "D": "Su efecto dura ~6 h.",
+   "E": "La dosis única favorece la retención posdiurética."
+  },
+  "clave": "C",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-5",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Dosis inicial de furosemida según TFGe",
+  "caso": "Hombre de 68 años con ICFEr, ERC G4 (TFGe 20) y anasarca; en casa toma torasemida 80 mg/día. Con furosemida IV 80 mg c/12 h: diuresis 1250 mL/24 h, balance +200 mL, NaU 42 mmol/L, HCO₃ 32, Cl 89.",
+  "enunciado": "¿Cuál es el ajuste más apropiado?",
+  "perla": "Bolo IV inicial: TFG normal 40–80 mg; TFGe 30–45: 120 mg; <25–30: ≥160 mg; con diurético en casa: 2–2.5× la dosis oral. NaU a 2 h ≥50–70 mmol/L = respuesta adecuada.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Mantener la dosis y agregar espironolactona 100 mg",
+   "B": "Duplicar el asa y agregar acetazolamida",
+   "C": "Suspender el diurético y dar albúmina IV",
+   "D": "Iniciar ultrafiltración inmediata",
+   "E": "Agregar tolvaptán para aumentar la diuresis"
+  },
+  "explicaciones": {
+   "A": "ATHENA-HF: sin beneficio agudo y más K⁺.",
+   "B": "Correcto. Dosis y frecuencia insuficientes (con TFGe <25–30 se requieren ≥160 mg) más alcalosis hipoclorémica: duplicar el asa y añadir acetazolamida. En el caso: NaU 42 → 88 y balance −6.2 L en 72 h.",
+   "C": "La albúmina no potencia el diurético.",
+   "D": "Primero se optimiza la terapia médica.",
+   "E": "Da acuaresis sin natriuresis."
+  },
+  "clave": "B",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-7",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Descongestión con PA alta y ascitis",
+  "caso": "IC descompensada con congestión franca, PAS 158 mmHg, sin hipoperfusión y con ascitis a tensión.",
+  "enunciado": "¿Qué combinación reduce la presión venosa y favorece la perfusión renal?",
+  "perla": "Nitroprusiato si PAM >65 con resistencias altas o IM/IAo grave. Paracentesis si hay síndrome compartimental abdominal.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Noradrenalina para elevar la PAM",
+   "B": "Cristaloide IV para mejorar el retorno",
+   "C": "Nitratos y paracentesis evacuadora",
+   "D": "Suspender el diurético hasta bajar la PA",
+   "E": "Dopamina a dosis renal"
+  },
+  "explicaciones": {
+   "A": "No hay hipotensión; el problema es la presión venosa.",
+   "B": "Agrava la congestión.",
+   "C": "Correcto. Flujo renal = (PAM − PVC)/resistencia renal: nitratos si PAS >140 y paracentesis reducen la presión venosa e intraabdominal.",
+   "D": "No se suspende el diurético por la PA.",
+   "E": "Sin beneficio renal global."
+  },
+  "clave": "C",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-10",
+  "tema_id": 4,
+  "sub": "4.i",
+  "obj": "4.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "iSGLT2 en ICFEr con ERC",
+  "caso": "Paciente con ICFEr y ERC, TFGe 24, K 5.1 mEq/L, al preparar el alta.",
+  "enunciado": "¿Qué afirmación sobre los iSGLT2 es correcta?",
+  "perla": "Reintroducción: iSGLT2 desde el ingreso; IECA/ARA/ARNI al alcanzar euvolemia; ARM tras corregir K⁺ (Cr <2.5); finerenona TFGe ≥25 y K ≤5.0; betabloqueador mantener salvo bajo gasto.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Solo pueden iniciarse con TFGe de 45 o más",
+   "B": "Están contraindicados con diurético de asa",
+   "C": "Aumentan la hiperpotasemia combinados con ARM",
+   "D": "Inician con TFGe ≥20 y reducen la hiperK grave",
+   "E": "Deben suspenderse si la TFGe baja al inicio"
+  },
+  "explicaciones": {
+   "A": "El umbral es 20.",
+   "B": "Se combinan con asa sin problema.",
+   "C": "La reducen.",
+   "D": "Correcto. iSGLT2 desde la hospitalización con TFGe ≥20, hasta la diálisis; reducen la hiperpotasemia grave (HR 0.84) y facilitan reintroducir IECA/ARA y ARM.",
+   "E": "La caída inicial es esperada."
+  },
+  "clave": "D",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-2",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "Antes de etiquetar a un paciente como resistente,",
+  "enunciado": "¿cuál corresponde a pseudo-resistencia?",
+  "perla": "En la pseudo-resistencia el diurético nunca fue puesto a prueba: el edema es venoso, linfático o mixedematoso (o por calcioantagonistas), o hay dosis insuficiente, mala adherencia, ingesta alta de sodio o AINE.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "Hipertrofia e hiperplasia del TCD con aumento del NCC",
+   "B": "Edema por calcioantagonistas, linfedema o hipotiroidismo",
+   "C": "Competencia de toxinas urémicas por OAT1/OAT3",
+   "D": "Activación de las cinasas WNK por hipocloremia",
+   "E": "Hipoalbuminemia que impide la secreción"
+  },
+  "explicaciones": {
+   "A": "La hipertrofia distal con ↑ NCC/ENaC es un mecanismo de resistencia verdadera (adaptación tubular).",
+   "B": "Correcto. En la pseudo-resistencia el diurético nunca fue puesto a prueba: el edema es venoso, linfático o mixedematoso (o por calcioantagonistas), o hay dosis insuficiente, mala adherencia, ingesta alta de sodio o AINE.",
+   "C": "La competencia por OAT1/OAT3 es un mecanismo farmacocinético.",
+   "D": "La activación de WNK por hipocloremia es un mecanismo cloro-dependiente de resistencia verdadera.",
+   "E": "No es seudorresistencia."
+  },
+  "clave": "B",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-3",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "",
+  "enunciado": "En la ERC avanzada se requieren dosis mayores de diurético de asa principalmente porque:",
+  "perla": "Los diuréticos de asa circulan unidos a albúmina y casi no se filtran: llegan a la luz por secreción proximal vía OAT1/OAT3. En la ERC, los aniones orgánicos urémicos (y fármacos como los AINE) compiten por el transportador y desplazan la curva dosis–respuesta a la derecha y hacia abajo.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "Llega a la luz tubular por filtración glomerular, que está reducida",
+   "B": "Su vida media se acorta en proporción a la caída de la TFG",
+   "C": "Su metabolismo hepático se acelera en la uremia",
+   "D": "Las toxinas urémicas compiten por su secreción tubular",
+   "E": "El diurético se une menos a la albúmina"
+  },
+  "explicaciones": {
+   "A": "Su llegada no depende de la filtración glomerular.",
+   "B": "La ponencia no atribuye la necesidad de más dosis a un acortamiento de la vida media; el problema es la menor secreción tubular.",
+   "C": "El mecanismo es renal (secreción), no un aumento del metabolismo hepático.",
+   "D": "Correcto. Los diuréticos de asa circulan unidos a albúmina y casi no se filtran: llegan a la luz por secreción proximal vía OAT1/OAT3. En la ERC, los aniones orgánicos urémicos (y fármacos como los AINE) compiten por el transportador y desplazan la curva dosis–respuesta a la derecha y hacia abajo.",
+   "E": "No explica la dosis."
+  },
+  "clave": "D",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-4",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "",
+  "enunciado": "¿Dosis umbral aproximada de furosemida IV para lograr natriuresis en ERC avanzada?",
+  "perla": "Con función renal normal bastan 10–20 mg IV; en ERC avanzada el umbral natriurético se desplaza a 80–160 mg. Dosis < 80 mg suelen ser ineficaces y su falta de respuesta no es resistencia verdadera.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "80–160 mg",
+   "B": "10–20 mg, igual que con función renal normal",
+   "C": "20–40 mg",
+   "D": "40–60 mg",
+   "E": "200–400 mg"
+  },
+  "explicaciones": {
+   "A": "Correcto. Con función renal normal bastan 10–20 mg IV; en ERC avanzada el umbral natriurético se desplaza a 80–160 mg. Dosis < 80 mg suelen ser ineficaces y su falta de respuesta no es resistencia verdadera.",
+   "B": "Es el umbral con función renal normal.",
+   "C": "20–40 mg IV es la dosis inicial del paciente sin uso previo de diurético, no el umbral en ERC avanzada.",
+   "D": "Sigue por debajo de 80 mg, por lo que suele ser ineficaz en ERC avanzada.",
+   "E": "Excesivo como umbral."
+  },
+  "clave": "A",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-5",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "Paciente hospitalizado con sobrecarga de volumen que ya tomaba furosemida oral crónica.",
+  "enunciado": "¿Esquema inicial correcto?",
+  "perla": "En el paciente ya expuesto a diurético de asa, la dosis IV inicial es ~2–2.5 veces la dosis oral habitual (en el paciente sin uso previo, furosemida IV 20–40 mg), en 2–3 bolos en 24 h o infusión continua con dosis de carga, reevaluando UNa/diuresis a las 2–6 h.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "La misma dosis oral de casa, ahora IV",
+   "B": "Un solo bolo IV diario a dosis alta",
+   "C": "Bloqueo secuencial, asa + tiazida desde el primer día",
+   "D": "Doble dosis oral sin cambiar la vía",
+   "E": "2–2.5 veces la dosis oral, en bolos o infusión"
+  },
+  "explicaciones": {
+   "A": "La misma dosis suele quedar por debajo del umbral natriurético.",
+   "B": "El bolo único diario permite el rebote post-diurético: al caer el fármaco bajo el umbral, el riñón vuelve a retener sodio.",
+   "C": "El bloqueo secuencial es un paso posterior, tras corregir vía, dosis y fraccionamiento y documentar mala respuesta.",
+   "D": "La absorción oral es errática.",
+   "E": "Correcto. En el paciente ya expuesto a diurético de asa, la dosis IV inicial es ~2–2.5 veces la dosis oral habitual (en el paciente sin uso previo, furosemida IV 20–40 mg), en 2–3 bolos en 24 h o infusión continua con dosis de carga, reevaluando UNa/diuresis a las 2–6 h."
+  },
+  "clave": "E",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-7",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "",
+  "enunciado": "¿Por qué la hipocloremia es relevante en la resistencia a diuréticos?",
+  "perla": "El cloro intracelular regula las cinasas WNK: al bajar, se activan y estimulan NCC y NKCC2, perpetuando la reabsorción de sodio. La hipocloremia —más que la hiponatremia— se asocia con peor respuesta natriurética y peor pronóstico, y los diuréticos de asa la agravan (círculo vicioso con alcalosis por contracción).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "El cloro bajo indica siempre depleción intravascular",
+   "B": "El cloro es necesario para la secreción del diurético por OAT",
+   "C": "El cloro bajo activa WNK y aumenta la reabsorción",
+   "D": "Inhibe la vasopresina y aumenta la pérdida de agua libre",
+   "E": "Indica siempre exceso de agua libre"
+  },
+  "explicaciones": {
+   "A": "La hipocloremia no indica siempre depleción intravascular; el paciente puede estar congestivo.",
+   "B": "La secreción por OAT depende de la competencia con aniones orgánicos, no del cloro.",
+   "C": "Correcto. El cloro intracelular regula las cinasas WNK: al bajar, se activan y estimulan NCC y NKCC2, perpetuando la reabsorción de sodio. La hipocloremia —más que la hiponatremia— se asocia con peor respuesta natriurética y peor pronóstico, y los diuréticos de asa la agravan (círculo vicioso con alcalosis por contracción).",
+   "D": "La vasopresina está aumentada en estos pacientes y favorece la retención de agua libre.",
+   "E": "La hipocloremia puede ser por depleción y no solo por dilución."
+  },
+  "clave": "C",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-9",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "",
+  "enunciado": "En ERC con sobrecarga, el ensayo tailandés de acetazolamida mostró que:",
+  "perla": "En 53 pacientes con ERC 3–4 (TFG media 37.9 mL/min/1.73 m²) y sobrecarga por bioimpedancia, acetazolamida 250 mg/d + furosemida basal vs duplicar la furosemida por 2 semanas: −1.37 kg de diferencia, pérdida ≥ 2 kg en 40.7% vs 12% y > 5% del peso en 25.9% vs 0%, sin eventos adversos serios.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "Solo fue útil con TFG > 60 mL/min",
+   "B": "Acetazolamida 250 mg/d logró más pérdida de peso",
+   "C": "Causó acidosis grave y se suspendió en la mayoría",
+   "D": "Equivalió a duplicar la furosemida en todo",
+   "E": "Se suspendió por hiperpotasemia"
+  },
+  "explicaciones": {
+   "A": "Se estudió en ERC 3–4, no en función renal conservada.",
+   "B": "Correcto. En 53 pacientes con ERC 3–4 (TFG media 37.9 mL/min/1.73 m²) y sobrecarga por bioimpedancia, acetazolamida 250 mg/d + furosemida basal vs duplicar la furosemida por 2 semanas: −1.37 kg de diferencia, pérdida ≥ 2 kg en 40.7% vs 12% y > 5% del peso en 25.9% vs 0%, sin eventos adversos serios.",
+   "C": "No hubo eventos adversos serios en ninguna rama (sí deben vigilarse equilibrio ácido-base y potasio).",
+   "D": "Fue superior a duplicar la furosemida en la pérdida de peso.",
+   "E": "No hubo hiperpotasemia que obligara a suspenderla."
+  },
+  "clave": "B",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-10",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "",
+  "enunciado": "¿Cuál es el papel del puntaje BAN-ADHF?",
+  "perla": "BAN-ADHF (derivado de DOSE, ROSE-AHF, ATHENA-HF, CARRESS-HF y ESCAPE) clasifica la eficiencia diurética con variables basales (HTA, FA, hospitalización reciente, dosis domiciliaria, PAD, CrS, BUN, NT-proBNP): un puntaje alto predice menor eficiencia, estancias más largas y mayor mortalidad.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "Indica cuántos mg de furosemida dar según la TFG",
+   "B": "Es un tratamiento de intensificación tras fallar el bloqueo secuencial",
+   "C": "Sustituye al UNa y a la prueba de estrés con furosemida",
+   "D": "Define el umbral de ultrafiltración",
+   "E": "Identifica tempranamente la baja eficiencia diurética, a quién escalar"
+  },
+  "explicaciones": {
+   "A": "No es un esquema de dosificación.",
+   "B": "No es un tratamiento, sino una herramienta de decisión.",
+   "C": "Identifica el riesgo antes del diurético; el UNa y la prueba de estrés con furosemida miden la respuesta ya obtenida, y se usan juntos.",
+   "D": "No es su uso.",
+   "E": "Correcto. BAN-ADHF (derivado de DOSE, ROSE-AHF, ATHENA-HF, CARRESS-HF y ESCAPE) clasifica la eficiencia diurética con variables basales (HTA, FA, hospitalización reciente, dosis domiciliaria, PAD, CrS, BUN, NT-proBNP): un puntaje alto predice menor eficiencia, estancias más largas y mayor mortalidad."
+  },
+  "clave": "E",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-1",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "",
+  "enunciado": "¿Cuál es la definición de resistencia a diuréticos empleada en la ponencia?",
+  "perla": "La resistencia es la falta de balance negativo de sodio y agua pese a una prescripción correcta (dosis, vía y frecuencia). No hay estándar único (FENa, natriuresis o volumen urinario) y siempre debe distinguirse de la pseudo-resistencia; incidencia 20–35% en ERC y hasta 1 de cada 3 pacientes con IC aguda.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "Sin balance negativo de Na pese a dosis y vía adecuadas",
+   "B": "Edema que persiste tras 24 h de tratamiento diurético",
+   "C": "Necesidad de dar el diurético IV en lugar de VO",
+   "D": "Aumento de la CrS > 0.3 mg/dL tras iniciar el diurético",
+   "E": "Hipocalemia secundaria al diurético"
+  },
+  "explicaciones": {
+   "A": "Correcto. La resistencia es la falta de balance negativo de sodio y agua pese a una prescripción correcta (dosis, vía y frecuencia). No hay estándar único (FENa, natriuresis o volumen urinario) y siempre debe distinguirse de la pseudo-resistencia; incidencia 20–35% en ERC y hasta 1 de cada 3 pacientes con IC aguda.",
+   "B": "La persistencia del edema por sí sola no define resistencia: puede deberse a dosis insuficiente, mala adherencia o edema no volumétrico (pseudo-resistencia).",
+   "C": "La vía IV es una estrategia (p. ej., por edema intestinal), no un criterio diagnóstico.",
+   "D": "El aumento de creatinina es un efecto adverso posible (p. ej., CLOROTIC), no la definición.",
+   "E": "No define resistencia."
+  },
+  "clave": "A",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-6",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "",
+  "enunciado": "Sobre la evaluación de la respuesta diurética, es correcto que:",
+  "perla": "El UNa puntual 1–2 h después del diurético IV correlaciona con la natriuresis acumulada de 6 h y es la herramienta más práctica para decidir escalar; < 50–70 mmol/L predice mala respuesta.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "El peso diario y el balance hídrico reflejan mejor la pérdida real de sodio",
+   "B": "El volumen urinario se evalúa hasta las 48 h de terapia IV",
+   "C": "La ecografía pulmonar y el VExUS sustituyen a los parámetros bioquímicos",
+   "D": "La diuresis a 24 h es el mejor indicador inicial",
+   "E": "UNa < 50–70 mmol/L a 1–2 h indica respuesta inadecuada"
+  },
+  "explicaciones": {
+   "A": "El peso y el balance hídrico correlacionan mal con la pérdida real de sodio.",
+   "B": "El volumen urinario se evalúa en las primeras 6 h (> 100–150 mL/h = respuesta satisfactoria).",
+   "C": "La ecografía pulmonar y el VExUS complementan, pero no sustituyen, los parámetros bioquímicos.",
+   "D": "El UNa temprano es mejor.",
+   "E": "Correcto. El UNa puntual 1–2 h después del diurético IV correlaciona con la natriuresis acumulada de 6 h y es la herramienta más práctica para decidir escalar; < 50–70 mmol/L predice mala respuesta."
+  },
+  "clave": "E",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ29-8",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Resistencia a diuréticos en ERC",
+  "caso": "En CLOROTIC (HCTZ añadida a furosemida IV en IC aguda),",
+  "enunciado": "¿cuál fue el hallazgo principal?",
+  "perla": "CLOROTIC (doble ciego, n = 230, IC aguda, ya con asa oral 80–240 mg/d) mostró mayor pérdida de peso a 72 h (−2.3 vs −1.5 kg; p = 0.002) sin diferencia en la disnea (coprimarios), más diuresis a 24 h (1,775 vs 1,400 mL; p = 0.05) y más pérdida de peso por cada 40 mg de furosemida (p < 0.001), con más deterioro renal (46.5% vs 17.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 29: Resistencia a diuréticos en ERC"
+  ],
+  "serie_id": "AZ29-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 29)"
+  ],
+  "opciones": {
+   "A": "Sin diferencias en diuresis ni peso vs placebo",
+   "B": "Redujo significativamente la mortalidad intrahospitalaria",
+   "C": "Más peso perdido y más deterioro renal, desenlaces iguales",
+   "D": "Excluyó a pacientes con TFG < 30 mL/min",
+   "E": "Menor mortalidad a 90 días y menos reingresos"
+  },
+  "explicaciones": {
+   "A": "Sí hubo diferencias significativas en peso (coprimario) y en diuresis.",
+   "B": "No hubo diferencia en mortalidad.",
+   "C": "Correcto. CLOROTIC (doble ciego, n = 230, IC aguda, ya con asa oral 80–240 mg/d) mostró mayor pérdida de peso a 72 h (−2.3 vs −1.5 kg; p = 0.002) sin diferencia en la disnea (coprimarios), más diuresis a 24 h (1,775 vs 1,400 mL; p = 0.05) y más pérdida de peso por cada 40 mg de furosemida (p < 0.001), con más deterioro renal (46.5% vs 17.2%), predominantemente reversible y sin diferencias en mortalidad ni rehospitalización.",
+   "D": "Al contrario, ajustó la HCTZ por TFG e incluyó el estrato < 20 mL/min (100 mg/d): el bloqueo secuencial sirve también en ERC avanzada.",
+   "E": "No hubo diferencias."
+  },
+  "clave": "C",
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
  }
 ]

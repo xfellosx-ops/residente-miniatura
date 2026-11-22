@@ -2870,5 +2870,1525 @@
   "tema": "Trasplante renal",
   "obj": "21.o9",
   "peso": 24.5
+ },
+ {
+  "id": "AZ16-1",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "Un paciente presenta MVI significativa con DSA negativos y C4d negativo.",
+  "enunciado": "¿Cuál es la interpretación más adecuada?",
+  "perla": "Banff 2022 reconoce la MVI DSA−/C4d− como un fenotipo distinto, asociado a mayor riesgo de pérdida del injerto (HR 2.1 al reclasificar desde \"no RMA\").",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "Lesión inespecífica sin impacto pronóstico demostrado",
+   "B": "Es un RMA activo aun sin evidencia serológica adicional",
+   "C": "Ausencia de rechazo según los criterios actuales",
+   "D": "Fenotipo intermedio con relevancia pronóstica propia",
+   "E": "Indica rechazo celular agudo"
+  },
+  "explicaciones": {
+   "A": "Sí tiene impacto pronóstico demostrado.",
+   "B": "Sin DSA ni C4d no cumple los criterios de RMA activo; es una categoría intermedia.",
+   "C": "Banff 2022 la separa precisamente de la categoría \"no RMA\".",
+   "D": "Correcto. Banff 2022 reconoce la MVI DSA−/C4d− como un fenotipo distinto, asociado a mayor riesgo de pérdida del injerto (HR 2.1 al reclasificar desde \"no RMA\").",
+   "E": "La MVI es lesión de tipo humoral."
+  },
+  "clave": "D",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-3",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "Un ensayo muestra reducción de DSA y de la actividad inflamatoria, pero sin beneficio funcional.",
+  "enunciado": "¿Cuál es la mejor interpretación?",
+  "perla": "IMAGINE ilustra la disociación entre respuesta biológica y beneficio clínico: el clazakizumab redujo DSA y PCR, pero la TFGe cayó más que con placebo (−8.0 vs −5.2 mL/min).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "El tratamiento carece necesariamente de actividad biológica",
+   "B": "El efecto en biomarcadores no garantiza beneficio",
+   "C": "Los DSA no participan en la fisiopatología del rechazo",
+   "D": "La función renal es un desenlace poco útil en RMA",
+   "E": "Demuestra que la TFG no cambia en el RMA"
+  },
+  "explicaciones": {
+   "A": "Reducir DSA e inflamación demuestra actividad biológica.",
+   "B": "Correcto. IMAGINE ilustra la disociación entre respuesta biológica y beneficio clínico: el clazakizumab redujo DSA y PCR, pero la TFGe cayó más que con placebo (−8.0 vs −5.2 mL/min).",
+   "C": "Los DSA sí participan en la fisiopatología; reducirlos simplemente no bastó.",
+   "D": "La función renal es un desenlace relevante; el problema es la falta de jerarquía entre desenlaces.",
+   "E": "No es la interpretación."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-4",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "",
+  "enunciado": "¿Qué variable distingue mejor la actividad potencialmente reversible del daño establecido en RMA?",
+  "perla": "La cronicidad condiciona la reversibilidad y el pronóstico, incluso ante actividad inmunológica persistente: la lesión activa es tratable, el daño crónico no.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "La intensidad de los DSA circulantes",
+   "B": "El tiempo desde el trasplante",
+   "C": "La presencia aislada de C4d",
+   "D": "La carga de lesiones crónicas",
+   "E": "La clase I o II de los DSA"
+  },
+  "explicaciones": {
+   "A": "La intensidad de los DSA no distingue lesión reversible de irreversible.",
+   "B": "El tiempo influye, pero la temporalidad no contraindica tratar sin cronicidad avanzada.",
+   "C": "El C4d aislado indica interacción anticuerpoendotelio, no reversibilidad.",
+   "D": "Correcto. La cronicidad condiciona la reversibilidad y el pronóstico, incluso ante actividad inmunológica persistente: la lesión activa es tratable, el daño crónico no.",
+   "E": "No distingue actividad de cronicidad."
+  },
+  "clave": "D",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-5",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "Dos pacientes tienen el mismo grado de MVI; uno con mínima cronicidad y otro con fibrosis avanzada.",
+  "enunciado": "¿Qué conclusión es más razonable?",
+  "perla": "La lesión activa y la crónica no son equivalentes; la segunda limita el potencial de recuperación aun con el mismo grado de inflamación.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "El de mayor cronicidad tendría menor reversibilidad",
+   "B": "Ambos responderán de forma similar al tratamiento",
+   "C": "La MVI determina por sí sola el pronóstico funcional",
+   "D": "La fibrosis modifica poco la respuesta si persisten DSA",
+   "E": "Ambos deben recibir el mismo esquema intensivo"
+  },
+  "explicaciones": {
+   "A": "Correcto. La lesión activa y la crónica no son equivalentes; la segunda limita el potencial de recuperación aun con el mismo grado de inflamación.",
+   "B": "La cronicidad diferencia su respuesta.",
+   "C": "La MVI no basta; el pronóstico integra actividad y cronicidad.",
+   "D": "La fibrosis sí limita la respuesta, independientemente de los DSA.",
+   "E": "La cronicidad cambia la reversibilidad."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-6",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "",
+  "enunciado": "¿Por qué el fracaso del rituximab no invalida una estrategia dirigida a la inmunidad humoral?",
+  "perla": "El rituximab depleta células B CD20+, pero no elimina directamente las células plasmáticas productoras de DSA, que no expresan CD20.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "Porque el rituximab no altera la activación del complemento",
+   "B": "Porque su efecto depende de reducir el C4d tisular",
+   "C": "Porque solo actúa sobre DSA fijadores de complemento",
+   "D": "Porque destruye todas las células plasmáticas",
+   "E": "Porque CD20 no se expresa en las células plasmáticas maduras"
+  },
+  "explicaciones": {
+   "A": "No actuar sobre el complemento no explica por qué fracasa una estrategia humoral.",
+   "B": "Su mecanismo no se basa en reducir el C4d tisular.",
+   "C": "Actúa sobre células B, no selectivamente sobre ciertos DSA.",
+   "D": "Las plasmáticas maduras son CD20 negativas.",
+   "E": "Correcto. El rituximab depleta células B CD20+, pero no elimina directamente las células plasmáticas productoras de DSA, que no expresan CD20."
+  },
+  "clave": "E",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-8",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "",
+  "enunciado": "¿Cuál es la principal limitación al comparar ensayos terapéuticos de RMA?",
+  "perla": "Sobrevida del injerto, pendiente de la TFGe e histología se han usado sin una jerarquía uniforme, lo que dificulta comparar la eficacia entre estudios.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "La mayoría usa poblaciones exclusivamente pediátricas",
+   "B": "Casi todos excluyen pacientes con DSA de novo",
+   "C": "Los estudios emplean desenlaces de respuesta no uniformes",
+   "D": "La histología rara vez se incorpora como desenlace",
+   "E": "La falta de biopsias de seguimiento obligatorias"
+  },
+  "explicaciones": {
+   "A": "Los ensayos de RMA son predominantemente en adultos.",
+   "B": "Incluyen DSA preformados y de novo, y esa mezcla genera heterogeneidad.",
+   "C": "Correcto. Sobrevida del injerto, pendiente de la TFGe e histología se han usado sin una jerarquía uniforme, lo que dificulta comparar la eficacia entre estudios.",
+   "D": "La histología sí se usa como desenlace (p. ej., felzartamab).",
+   "E": "No es la principal limitación."
+  },
+  "clave": "C",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-9",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "Paciente con RMA crónico activo, deterioro funcional, DSA persistentes y cronicidad avanzada.",
+  "enunciado": "¿Qué debería guiar principalmente la conducta?",
+  "perla": "La decisión debe ponderar cuánto componente potencialmente tratable permanece frente a la lesión irreversible acumulada; con cronicidad avanzada, el objetivo cambia a minimizar la IS y nefroprotección.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "La persistencia de DSA",
+   "B": "Balance entre actividad reversible y daño irreversible",
+   "C": "La intensidad del tratamiento recibido previamente",
+   "D": "El tiempo absoluto desde el trasplante",
+   "E": "El valor absoluto de MFI de los DSA"
+  },
+  "explicaciones": {
+   "A": "Los DSA pueden persistir sin lesión activa, y tratar solo por DSA ignora el daño estructural.",
+   "B": "Correcto. La decisión debe ponderar cuánto componente potencialmente tratable permanece frente a la lesión irreversible acumulada; con cronicidad avanzada, el objetivo cambia a minimizar la IS y nefroprotección.",
+   "C": "El tratamiento previo no define la reversibilidad actual.",
+   "D": "La temporalidad no contraindica tratar; lo determinante es la cronicidad.",
+   "E": "No guía por sí solo."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-10",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "",
+  "enunciado": "¿Qué escenario justificaría mejor una biopsia de seguimiento tras tratar un RMA?",
+  "perla": "La biopsia permite valorar la actividad (IA) y la cronicidad (IC), algo que no puede inferirse de forma confiable solo con los DSA o la función renal; en México, biopsia + DSA es el algoritmo más costo-efectivo.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "DSA persistentemente positivos con función renal estable",
+   "B": "Descenso parcial de los DSA después del tratamiento",
+   "C": "Normalización transitoria de la creatinina sérica",
+   "D": "Proteinuria estable menor de 0.3 g/día",
+   "E": "Necesidad de diferenciar actividad residual de cronicidad"
+  },
+  "explicaciones": {
+   "A": "Los DSA, persistentes o en descenso, no reflejan por sí solos la lesión histológica.",
+   "B": "Los DSA, persistentes o en descenso, no reflejan por sí solos la lesión histológica.",
+   "C": "La creatinina puede normalizarse mientras progresa la lesión.",
+   "D": "No justifica biopsia.",
+   "E": "Correcto. La biopsia permite valorar la actividad (IA) y la cronicidad (IC), algo que no puede inferirse de forma confiable solo con los DSA o la función renal; en México, biopsia + DSA es el algoritmo más costo-efectivo."
+  },
+  "clave": "E",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-1",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "Mujer de 45 años con TR hace 6 meses, función renal estable y urocultivo con E. coli >100,000 UFC/mL, sin fiebre, disuria ni dolor del injerto.",
+  "enunciado": "¿Conducta más apropiada?",
+  "perla": "Después de los primeros 2 meses postrasplante, tratar de rutina la bacteriuria asintomática no reduce la ITU sintomática (Coussement 2021: HR 0.83, p=0.49) y favorece la exposición innecesaria a antimicrobianos (AST e IDSA 2019).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "Carbapenémico durante 5 días",
+   "B": "Fosfomicina en dosis única",
+   "C": "Sin antibiótico; vigilancia clínica",
+   "D": "Reducir la dosis de micofenolato",
+   "E": "Nitrofurantoína por 7 días y urocultivo"
+  },
+  "explicaciones": {
+   "A": "Un carbapenémico sin indicación promueve resistencia y no aporta beneficio.",
+   "B": "La fosfomicina en dosis única solo tiene utilidad preprocedimiento (retiro de catéteres en las primeras semanas).",
+   "C": "Correcto. Después de los primeros 2 meses postrasplante, tratar de rutina la bacteriuria asintomática no reduce la ITU sintomática (Coussement 2021: HR 0.83, p=0.49) y favorece la exposición innecesaria a antimicrobianos (AST e IDSA 2019).",
+   "D": "Reducir el micofenolato no está indicado por una bacteriuria asintomática con función estable.",
+   "E": "No se trata la bacteriuria asintomática."
+  },
+  "clave": "C",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-3",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "",
+  "enunciado": "¿Qué intervención tiene mejor sustento para disminuir la ITU temprana después del TR?",
+  "perla": "Reducir la duración de los dispositivos urinarios disminuye el riesgo de ITU (Patel 2017; Guedes 2025); no existe profilaxis farmacológica específica que justifique tratar sistemáticamente la bacteriuria.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "Retiro temprano de sonda y doble J",
+   "B": "Urocultivos mensuales durante los primeros 3–6 meses",
+   "C": "Tratar la bacteriuria asintomática",
+   "D": "Fosfomicina semanal durante 3 meses",
+   "E": "Ciprofloxacino profiláctico 12 meses"
+  },
+  "explicaciones": {
+   "A": "Correcto. Reducir la duración de los dispositivos urinarios disminuye el riesgo de ITU (Patel 2017; Guedes 2025); no existe profilaxis farmacológica específica que justifique tratar sistemáticamente la bacteriuria.",
+   "B": "Las guías recomiendan no tamizar con urocultivos de rutina después de los primeros meses.",
+   "C": "Tratar la bacteriuria asintomática no reduce la ITU sintomática.",
+   "D": "La fosfomicina solo mostró utilidad antes del retiro de catéteres, no como profilaxis prolongada.",
+   "E": "Favorece resistencias."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-4",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "",
+  "enunciado": "¿Qué receptor de TR tiene el mayor riesgo de infección y enfermedad por CMV?",
+  "perla": "El receptor seronegativo que recibe un órgano de donante IgG positivo tiene una infección primaria bajo IS: incidencia acumulada ~62% (Hidaka 2025). El riesgo se define con IgG; la IgM no es útil.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "Donante IgG− / receptor IgG−",
+   "B": "Donante IgG+ / receptor IgG−",
+   "C": "Donante IgG− / receptor IgG+",
+   "D": "Donante IgG+ / receptor IgG+",
+   "E": "Donante y receptor seronegativos con transfusión"
+  },
+  "explicaciones": {
+   "A": "D−/R− es el grupo de menor riesgo (0%).",
+   "B": "Correcto. El receptor seronegativo que recibe un órgano de donante IgG positivo tiene una infección primaria bajo IS: incidencia acumulada ~62% (Hidaka 2025). El riesgo se define con IgG; la IgM no es útil.",
+   "C": "D−/R+ es riesgo intermedio (25%) por reactivación.",
+   "D": "D+/R+ también es intermedio (47%), por reactivación o reinfección.",
+   "E": "El mayor riesgo es D+/R−."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-5",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "",
+  "enunciado": "¿Qué ventaja relevante tiene letermovir frente a valganciclovir como profilaxis de CMV en receptores renales de alto riesgo?",
+  "perla": "Letermovir es no inferior a valganciclovir como profilaxis en D+/R− (sin enfermedad a 52 semanas 88.2% vs 87.1%) y causa menos toxicidad hematológica (leucopenia).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "También previene herpes simple y varicela-zóster",
+   "B": "Es más efectivo que valganciclovir",
+   "C": "Sirve para tratar la enfermedad activa por CMV",
+   "D": "Produce menos leucopenia",
+   "E": "Menos interacciones con tacrolimus"
+  },
+  "explicaciones": {
+   "A": "Letermovir no tiene actividad contra HSV/VZV y requiere aciclovir 400 mg c/12 h.",
+   "B": "Es no inferior, no superior (HR 0.90, 0.56–1.47).",
+   "C": "Solo se usa como profilaxis, no como tratamiento.",
+   "D": "Correcto. Letermovir es no inferior a valganciclovir como profilaxis en D+/R− (sin enfermedad a 52 semanas 88.2% vs 87.1%) y causa menos toxicidad hematológica (leucopenia).",
+   "E": "Letermovir sí interactúa con ICN."
+  },
+  "clave": "D",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-6",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "Receptor renal CMV D+/R− con profilaxis universal.",
+  "enunciado": "¿Qué duración se recomienda para este grupo de alto riesgo?",
+  "perla": "En alto riesgo D+/R− se indica profilaxis universal por ~200 días; en receptores seropositivos (riesgo intermedio), ~100 días.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "200 días",
+   "B": "30 días",
+   "C": "100 días",
+   "D": "12 meses en todos los casos",
+   "E": "6 meses solo si hay timoglobulina"
+  },
+  "explicaciones": {
+   "A": "Correcto. En alto riesgo D+/R− se indica profilaxis universal por ~200 días; en receptores seropositivos (riesgo intermedio), ~100 días.",
+   "B": "30 días es insuficiente y no es una duración recomendada.",
+   "C": "100 días corresponde al riesgo intermedio; en D+/R−, 200 días redujo la enfermedad frente a 100 (IMPACT).",
+   "D": "No se extiende a 12 meses en todos; al terminar se vigila PCR-CMV 8–12 semanas por CMV tardío.",
+   "E": "La duración es de 200 días en D+/R−."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-7",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "Receptor de TR con fiebre, citopenias y DNAemia-CMV de 11,600 UI/mL, función renal estable y tolerancia a la vía oral.",
+  "enunciado": "¿Qué tratamiento inicial es apropiado?",
+  "perla": "VGC oral es tan efectivo como GCV IV en la enfermedad por CMV si el paciente está clínicamente estable y absorbe la vía oral (VICTOR).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "Letermovir",
+   "B": "Ganciclovir IV",
+   "C": "Valganciclovir",
+   "D": "Maribavir",
+   "E": "Foscarnet"
+  },
+  "explicaciones": {
+   "A": "Letermovir solo se usa como profilaxis.",
+   "B": "GCV IV se reserva para enfermedad grave, intolerancia oral o dudas de adherencia/absorción.",
+   "C": "Correcto. VGC oral es tan efectivo como GCV IV en la enfermedad por CMV si el paciente está clínicamente estable y absorbe la vía oral (VICTOR).",
+   "D": "Maribavir se reserva para CMV refractario o resistente.",
+   "E": "Reservado para resistencia."
+  },
+  "clave": "C",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-2",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "Receptora de TR con su tercer episodio de ITU sintomática en 6 meses.",
+  "enunciado": "¿Qué intervención identifica mejor un factor modificable de recurrencia?",
+  "perla": "Ante ITU recurrente (≥3 episodios en 12 meses o ≥2 en 6 meses) deben buscarse anomalías anatómicas, obstrucción, litiasis, reflujo u otros factores urológicos corregibles.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "Fosfomicina semanal como profilaxis",
+   "B": "Tratar todo urocultivo positivo para prevenir ITU sintomática",
+   "C": "Suspender el antimetabolito",
+   "D": "Cambiar tacrolimus por ciclosporina",
+   "E": "Evaluación urológica"
+  },
+  "explicaciones": {
+   "A": "No hay profilaxis farmacológica específica; la fosfomicina c/10 días no fue mejor que TMP/SMX.",
+   "B": "Tratar la bacteriuria entre episodios no reduce la ITU sintomática.",
+   "C": "Suspender el antimetabolito no corrige la causa y aumenta el riesgo inmunológico.",
+   "D": "No es un factor modificable de ITU.",
+   "E": "Correcto. Ante ITU recurrente (≥3 episodios en 12 meses o ≥2 en 6 meses) deben buscarse anomalías anatómicas, obstrucción, litiasis, reflujo u otros factores urológicos corregibles."
+  },
+  "clave": "E",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-9",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "Receptor de TR a los 2 meses, con creatinina estable y PCR-BK plasmática de 6,000 copias/mL en una determinación aislada.",
+  "enunciado": "¿Conducta inicial más apropiada?",
+  "perla": "Una carga de 1,000–10,000 copias/mL debe confirmarse y valorarse por persistencia y tendencia (dos determinaciones con >2 semanas de diferencia) antes de reducir la IS; una DNAemia aislada no equivale a nefropatía.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "Repetir la PCR-BK en 2 semanas",
+   "B": "Biopsia renal",
+   "C": "Suspender la inmunosupresión",
+   "D": "Iniciar leflunomida",
+   "E": "Iniciar ciprofloxacino"
+  },
+  "explicaciones": {
+   "A": "Correcto. Una carga de 1,000–10,000 copias/mL debe confirmarse y valorarse por persistencia y tendencia (dos determinaciones con >2 semanas de diferencia) antes de reducir la IS; una DNAemia aislada no equivale a nefropatía.",
+   "B": "La biopsia es obligada si hay disfunción del injerto, no con Cr estable.",
+   "C": "No se recomienda suspender la IS, y una carga positiva no obliga ni a reducirla sin valorar el riesgo inmunológico.",
+   "D": "La leflunomida no se recomienda (fuerte, B).",
+   "E": "Sin beneficio en BK."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-10",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "",
+  "enunciado": "¿Cuál es la intervención ante DNAemia BK persistente significativa o carga >10,000 copias/mL?",
+  "perla": "El tratamiento central de BK es reducir la IS, ajustando MMF y/o ICN de forma escalonada y vigilando BK c/2–4 semanas (BKEVER: aclaramiento 81% vs 55% frente a añadir everolimus).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "Cidofovir",
+   "B": "Leflunomida",
+   "C": "Inmunoglobulina IV",
+   "D": "Reducir la inmunosupresión",
+   "E": "Aumentar la dosis de micofenolato"
+  },
+  "explicaciones": {
+   "A": "Cidofovir y leflunomida: se recomienda no usarlos (fuerte, B).",
+   "B": "Leflunomida: se recomienda no usarlos (fuerte, B).",
+   "C": "La IgIV es solo adyuvante cuando la respuesta a reducir la IS es insuficiente (débil, D).",
+   "D": "Correcto. El tratamiento central de BK es reducir la IS, ajustando MMF y/o ICN de forma escalonada y vigilando BK c/2–4 semanas (BKEVER: aclaramiento 81% vs 55% frente a añadir everolimus).",
+   "E": "Empeora la replicación."
+  },
+  "clave": "D",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ17-8",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en trasplante renal",
+  "caso": "Paciente con >2 semanas de tratamiento antiviral adecuado para CMV: la carga viral reduce <1 log10 con persistencia de síntomas.",
+  "enunciado": "¿Interpretación más adecuada?",
+  "perla": "Se sospecha refractariedad si tras ≥2 semanas de tratamiento adecuado no hay mejoría clínica y/o la carga no baja ≥1 log10. Refractariedad no es resistencia: revisar adherencia, dosis y absorción y, si procede, pedir genotipo.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 17: Infecciones en trasplante renal"
+  ],
+  "serie_id": "AZ17-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 17)"
+  ],
+  "opciones": {
+   "A": "Posible CMV refractario",
+   "B": "Respuesta antiviral normal",
+   "C": "La carga viral no debe monitorizarse durante el tratamiento",
+   "D": "Diagnostica resistencia genotípica",
+   "E": "Recaída por suspensión de la profilaxis"
+  },
+  "explicaciones": {
+   "A": "Correcto. Se sospecha refractariedad si tras ≥2 semanas de tratamiento adecuado no hay mejoría clínica y/o la carga no baja ≥1 log10. Refractariedad no es resistencia: revisar adherencia, dosis y absorción y, si procede, pedir genotipo.",
+   "B": "La respuesta esperada es un descenso ≥1 log10 a 2 semanas.",
+   "C": "La carga viral debe vigilarse para evaluar la respuesta y decidir la suspensión.",
+   "D": "La resistencia (1–2%) se confirma con genotipo, no se asume.",
+   "E": "No define refractariedad."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-1",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "",
+  "enunciado": "¿Por qué es importante evaluar el riesgo inmunológico?",
+  "perla": "Hasta 64% de las pérdidas del injerto tiene participación del daño mediado por anticuerpos (Sellarés 2012). Los anticuerpos preformados contra el donante y un mayor mismatch HLA aumentan el riesgo de rechazo mediado por anticuerpos.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Así lo establece la ley de trasplantes en México",
+   "B": "Identifica a los pacientes con mayor riesgo de morir postrasplante",
+   "C": "La principal causa de pérdida del injerto es el daño mediado por anticuerpos",
+   "D": "Detecta qué pacientes son más sensibles o resistentes a ciertos inmunosupresores",
+   "E": "Define la dosis de tacrolimus"
+  },
+  "explicaciones": {
+   "A": "La ley mexicana no especifica qué estudios hacer; los reglamentos solo exigen un protocolo de estudio de la pareja.",
+   "B": "La principal causa de muerte postrasplante es cardiovascular, seguida de infecciones y cáncer; los estudios inmunológicos no se hacen con ese fin.",
+   "C": "Correcto. Hasta 64% de las pérdidas del injerto tiene participación del daño mediado por anticuerpos (Sellarés 2012). Los anticuerpos preformados contra el donante y un mayor mismatch HLA aumentan el riesgo de rechazo mediado por anticuerpos.",
+   "D": "El Immunobiogram no está estandarizado ni forma parte de la evaluación del riesgo inmunológico.",
+   "E": "No es su objetivo."
+  },
+  "clave": "C",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-2",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "",
+  "enunciado": "¿Cuál NO es un factor sensibilizante?",
+  "perla": "Los factores sensibilizantes exponen a un individuo a células humanas de otro: transfusiones, embarazos y trasplantes previos.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Cirugías",
+   "B": "Transfusiones",
+   "C": "Embarazos",
+   "D": "Trasplantes previos",
+   "E": "Implantes de válvula homóloga"
+  },
+  "explicaciones": {
+   "A": "Correcto. Los factores sensibilizantes exponen a un individuo a células humanas de otro: transfusiones, embarazos y trasplantes previos.",
+   "B": "Son los tres factores sensibilizantes clásicos. En una cirugía, lo que sensibiliza es la transfusión, no el acto quirúrgico.",
+   "C": "Son los tres factores sensibilizantes clásicos. En una cirugía, lo que sensibiliza es la transfusión, no el acto quirúrgico.",
+   "D": "Son los tres factores sensibilizantes clásicos. En una cirugía, lo que sensibiliza es la transfusión, no el acto quirúrgico.",
+   "E": "Sí es sensibilizante."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-4",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "",
+  "enunciado": "¿Qué estudios debe hacer todo laboratorio de histocompatibilidad en una pareja de trasplante renal de donante vivo?",
+  "perla": "Los estudios indispensables son prueba cruzada, tipificación HLA de donante y receptor y single antigen, y todo laboratorio de histocompatibilidad debe además corroborar el grupo sanguíneo: los errores son raros, pero sus consecuencias en trasplante son muy graves.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Prueba cruzada, tipificación HLA de donante y receptor y single antigen",
+   "B": "Grupo ABO, prueba cruzada, HLA y single antigen",
+   "C": "Prueba cruzada, tipificación HLA, single antigen e Immunobiogram",
+   "D": "Solo la prueba cruzada es indispensable",
+   "E": "Solo grupo ABO y HLA"
+  },
+  "explicaciones": {
+   "A": "Omite el grupo sanguíneo.",
+   "B": "Correcto. Los estudios indispensables son prueba cruzada, tipificación HLA de donante y receptor y single antigen, y todo laboratorio de histocompatibilidad debe además corroborar el grupo sanguíneo: los errores son raros, pero sus consecuencias en trasplante son muy graves.",
+   "C": "El Immunobiogram no está estandarizado ni es parte de la evaluación de rutina.",
+   "D": "La prueba cruzada sola no basta para estratificar el riesgo.",
+   "E": "Faltan la prueba cruzada y el single antigen."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-5",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "",
+  "enunciado": "¿Qué prueba cruzada NO tiene correlación establecida con la MFI de los anticuerpos anti-HLA por single antigen?",
+  "perla": "El Flow-DSA es reciente y no se han establecido los niveles de MFI que corresponden a una prueba positiva.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Citotoxicidad dependiente del complemento, CDC",
+   "B": "Citometría de flujo",
+   "C": "Virtual",
+   "D": "Flow-DSA",
+   "E": "Ninguna; todas correlacionan con la MFI"
+  },
+  "explicaciones": {
+   "A": "La CDC y la citometría estaban estandarizadas antes del single antigen, y los niveles de MFI se calibraron para predecir su positividad (~6000 y ~2000 MFI).",
+   "B": "La CDC y la citometría estaban estandarizadas antes del single antigen, y los niveles de MFI se calibraron para predecir su positividad (~6000 y ~2000 MFI).",
+   "C": "La prueba virtual se basa directamente en los anticuerpos medidos contra los alelos del donante.",
+   "D": "Correcto. El Flow-DSA es reciente y no se han establecido los niveles de MFI que corresponden a una prueba positiva.",
+   "E": "No es así: una de ellas carece de correlación establecida."
+  },
+  "clave": "D",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-6",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "",
+  "enunciado": "En trasplante de donante fallecido, ¿cuáles son ventajas de la prueba cruzada virtual?",
+  "perla": "Con la tipificación del donante disponible antes de la procuración, varios centros pueden cruzar a sus receptores de forma simultánea, lo que permite evaluar más receptores y reduce el tiempo de isquemia fría. En México se logra solicitando por adelantado una muestra de sangre al centro procurador.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Más receptores, menos isquemia y centros simultáneos",
+   "B": "Reduce el tiempo de isquemia fría",
+   "C": "Permite cruzar más receptores potenciales para un donante",
+   "D": "Varios centros pueden hacerla simultáneamente para el mismo donante",
+   "E": "Elimina la necesidad de tipificar al donante"
+  },
+  "explicaciones": {
+   "A": "Correcto. Con la tipificación del donante disponible antes de la procuración, varios centros pueden cruzar a sus receptores de forma simultánea, lo que permite evaluar más receptores y reduce el tiempo de isquemia fría. En México se logra solicitando por adelantado una muestra de sangre al centro procurador.",
+   "B": "Son correctas, pero incompletas por separado. Requisito: que los receptores tengan una medición reciente de anticuerpos por single antigen.",
+   "C": "Son correctas, pero incompletas por separado. Requisito: que los receptores tengan una medición reciente de anticuerpos por single antigen.",
+   "D": "Son correctas, pero incompletas por separado. Requisito: que los receptores tengan una medición reciente de anticuerpos por single antigen.",
+   "E": "La tipificación del donante sigue siendo indispensable para el cruce virtual."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-7",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "",
+  "enunciado": "¿En qué caso no se recomienda desensibilizar y se considera contraindicación para el trasplante?",
+  "perla": "En los pacientes desensibilizados con CDC positiva, la sobrevida del injerto y del paciente fue la peor (Orandi 2014). Por ello ya no se desensibilizan y se prefiere la donación pareada o priorizar al paciente altamente sensibilizado en la lista de donante fallecido.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Prueba cruzada por citometría de flujo positiva",
+   "B": "Prueba cruzada por Flow-DSA positiva",
+   "C": "Prueba cruzada por CDC positiva",
+   "D": "Prueba cruzada virtual positiva",
+   "E": "Single antigen con MFI 800"
+  },
+  "explicaciones": {
+   "A": "La citometría positiva con CDC negativa es de muy alto riesgo, pero permite desensibilizar.",
+   "B": "El FlowDSA aún no tiene puntos de corte estandarizados.",
+   "C": "Correcto. En los pacientes desensibilizados con CDC positiva, la sobrevida del injerto y del paciente fue la peor (Orandi 2014). Por ello ya no se desensibilizan y se prefiere la donación pareada o priorizar al paciente altamente sensibilizado en la lista de donante fallecido.",
+   "D": "La virtual positiva con citometría y CDC negativas tuvo resultados cercanos a los de los pacientes compatibles.",
+   "E": "No contraindica."
+  },
+  "clave": "C",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-9",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "Con estudios de histocompatibilidad completos en donante vivo,",
+  "enunciado": "¿qué receptores podrían no requerir inducción?",
+  "perla": "Cualquier diferencia con el donante, por mínima que sea, permite el desarrollo de rechazo humoral y celular. Solo con 2 haplotipos compartidos el riesgo es mínimo y puede omitirse la inducción.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "%PRA clase I y II de 0% sin exposición a factores sensibilizantes",
+   "B": "Anticuerpos anti-HLA presentes, pero ninguno contra el donante",
+   "C": "Menos de 10 mismatches de epletes",
+   "D": "Receptor con PRA de 98%",
+   "E": "Receptores que comparten 2 haplotipos con su donante"
+  },
+  "explicaciones": {
+   "A": "Sin sensibilización persiste el riesgo de aloinmunidad de novo por los mismatches.",
+   "B": "Sin ADE se trasplanta con inducción (basiliximab o timoglobulina según el %PRA).",
+   "C": "Incluso pocos mismatches de epletes generan ADE de novo.",
+   "D": "Alto riesgo.",
+   "E": "Correcto. Cualquier diferencia con el donante, por mínima que sea, permite el desarrollo de rechazo humoral y celular. Solo con 2 haplotipos compartidos el riesgo es mínimo y puede omitirse la inducción."
+  },
+  "clave": "E",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-10",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "",
+  "enunciado": "¿Qué opción NO es una ventaja de la tipificación de alta resolución por secuenciación de nueva generación?",
+  "perla": "La tipificación por secuenciación aún es algo más costosa y no está disponible en todos los laboratorios.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Es mucho más económica",
+   "B": "Permite identificar anticuerpos anti-HLA falsos positivos",
+   "C": "Identifica mismatches no detectados con otras técnicas",
+   "D": "Identifica alelos no representados en las perlas de single antigen",
+   "E": "Identifica alelos raros"
+  },
+  "explicaciones": {
+   "A": "Correcto. La tipificación por secuenciación aún es algo más costosa y no está disponible en todos los laboratorios.",
+   "B": "Si el donante es A*02:04 y la perla positiva es A*02:10, con baja resolución (A*02) se reportaría un falso DSA.",
+   "C": "Donante y receptor pueden compartir el antígeno (A*02) pero diferir en el alelo (A*02:01 vs A*02:04), lo cual es un mismatch.",
+   "D": "Hay más de 20,000 alelos y el single antigen incluye menos de 100 por clase, así que siempre habrá alelos sin representar.",
+   "E": "Identificar alelos raros sí es una ventaja de la NGS."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-1",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Hombre de 60 años con DM2, HAS y ERC; TR de donante fallecido hace 10 semanas, con Cr estable de 1.2 mg/dL y sin complicaciones.",
+  "enunciado": "¿Con qué frecuencia se mide la Cr sérica entre los meses 2 y 3?",
+  "perla": "Según el comentario KDOQI a KDIGO 2009, la Cr se mide a diario la 1.ª semana, 2 veces/semana en las semanas 2–4, semanal en los meses 2–3, c/2 semanas en los meses 4–6, mensual en los meses 7–12 y c/2–3 meses después del año.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "Dos veces por semana",
+   "B": "Cada 2 semanas",
+   "C": "Una vez al mes",
+   "D": "Una vez por semana",
+   "E": "Cada 3 meses"
+  },
+  "explicaciones": {
+   "A": "2 veces por semana corresponde a las semanas 2–4.",
+   "B": "C/2 semanas corresponde a los meses 4–6.",
+   "C": "Mensual corresponde a los meses 7–12.",
+   "D": "Correcto. Según el comentario KDOQI a KDIGO 2009, la Cr se mide a diario la 1.ª semana, 2 veces/semana en las semanas 2–4, semanal en los meses 2–3, c/2 semanas en los meses 4–6, mensual en los meses 7–12 y c/2–3 meses después del año.",
+   "E": "Muy espaciado."
+  },
+  "clave": "D",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-2",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Mujer de 45 años con TR hace 2 años: UPCR 0.8 g/g (850 mg/24 h), Cr 1.3 mg/dL y dnDSA negativos.",
+  "enunciado": "¿Qué valor pronóstico tiene la proteinuria frente a otros marcadores inmunológicos?",
+  "perla": "La proteinuria es un fuerte predictor de pérdida del injerto, incluso mayor que la presencia de ADE; por eso el seguimiento del injerto incluye Cr y proteinuria (UPCR y UACR).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "Es un predictor secundario sin impacto independiente si la Cr es normal",
+   "B": "Predice la pérdida del injerto incluso más que la presencia aislada de ADE",
+   "C": "Solo tiene valor pronóstico en rango nefrótico, >3.5 g/24 h",
+   "D": "Solo refleja glomerulopatía recurrente y no se relaciona con rechazo humoral",
+   "E": "Solo predice si es mayor de 1 g/día"
+  },
+  "explicaciones": {
+   "A": "Tiene impacto pronóstico independiente aunque la Cr sea normal.",
+   "B": "Correcto. La proteinuria es un fuerte predictor de pérdida del injerto, incluso mayor que la presencia de ADE; por eso el seguimiento del injerto incluye Cr y proteinuria (UPCR y UACR).",
+   "C": "No necesita llegar a rango nefrótico: una proteinuria persistente baja ya se asocia con menor supervivencia del injerto.",
+   "D": "Refleja daño de varias causas, incluido el rechazo, no solo glomerulopatía recurrente.",
+   "E": "Predice desde 0.5."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-4",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Mujer de 31 años con TR hace 18 meses, Cr 1.1 mg/dL, proteinuria 180 mg/24 h y sin rechazo en el último año, con TAC + MPA + PDN; desea embarazarse.",
+  "enunciado": "¿Qué cambio de IS y qué anticonceptivo se recomiendan?",
+  "perla": "El MPA es teratógeno (+++), así que se reemplaza por azatioprina antes de la concepción. La concepción se difiere al menos 1 año postrasplante, sin rechazo en 1 año, Cr ≤1.5 mg/dL y proteinuria <500 mg/24 h; el anticonceptivo más eficaz es el DIU.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "TAC → sirolimus; anticonceptivos orales combinados",
+   "B": "Suspender PDN y reducir MPA; preservativo",
+   "C": "MPA → everolimus; duchas vaginales y prueba de ovulación",
+   "D": "MPA a azatioprina antes de concebir; DIU",
+   "E": "Suspender toda inmunosupresión"
+  },
+  "explicaciones": {
+   "A": "Los inhibidores de mTOR también son teratógenos (+++), y los anticonceptivos orales no son el método más eficaz.",
+   "B": "Mantener MPA conserva el riesgo teratógeno, y el preservativo es menos eficaz.",
+   "C": "El everolimus es teratógeno, y las duchas y la prueba de ovulación no son métodos anticonceptivos eficaces.",
+   "D": "Correcto. El MPA es teratógeno (+++), así que se reemplaza por azatioprina antes de la concepción. La concepción se difiere al menos 1 año postrasplante, sin rechazo en 1 año, Cr ≤1.5 mg/dL y proteinuria <500 mg/24 h; el anticonceptivo más eficaz es el DIU.",
+   "E": "Riesgo de rechazo."
+  },
+  "clave": "D",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-5",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Hombre de 42 años a 6 meses del TR, asintomático, Cr 1.3 mg/dL y dd-cfDNA de 1.2% (umbral 0.5–1.0%).",
+  "enunciado": "¿Qué describe mejor las fortalezas y limitaciones del dd-cfDNA?",
+  "perla": "El dd-cfDNA discrimina el rechazo mejor que la Cr (AUC 0.798 vs 0.492), se asocia sobre todo con RAMA (>0.5–1%), pero no distingue el rechazo celular de otras causas de daño como la nefropatía por BK.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "AUC ~0.80; no distingue rechazo celular de BK",
+   "B": "Distingue con certeza el rechazo celular agudo de la infección por BK",
+   "C": "Discrimina el rechazo peor que la Cr, AUC 0.49",
+   "D": ">1.0% es patognomónico de rechazo celular y descarta rechazo humoral",
+   "E": "Sustituye a la biopsia del injerto"
+  },
+  "explicaciones": {
+   "A": "Correcto. El dd-cfDNA discrimina el rechazo mejor que la Cr (AUC 0.798 vs 0.492), se asocia sobre todo con RAMA (>0.5–1%), pero no distingue el rechazo celular de otras causas de daño como la nefropatía por BK.",
+   "B": "No permite distinguir con certeza rechazo celular de BK.",
+   "C": "El AUC de 0.49 corresponde a la Cr, no al ddcfDNA.",
+   "D": "No es patognomónico, y un valor elevado se asocia más con rechazo humoral.",
+   "E": "No la sustituye."
+  },
+  "clave": "A",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-6",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Mujer de 52 años en el 4.º mes postrasplante, estable con TAC + MMF + PDN.",
+  "enunciado": "¿Con qué frecuencia se tamiza el virus BK (PCR en sangre o células señuelo en orina)?",
+  "perla": "El virus BK se tamiza con PCR cuantitativa en sangre o células señuelo en orina mensualmente los primeros 6 meses y luego cada 3 meses hasta los 2 años.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "Anual a partir del primer año",
+   "B": "Semanal durante todo el primer año",
+   "C": "Solo si la Cr sube >30% sobre la basal",
+   "D": "Cada 6 meses desde el inicio",
+   "E": "Mensual 6 meses y trimestral hasta 2 años"
+  },
+  "explicaciones": {
+   "A": "Empezar al año pierde el periodo de mayor riesgo.",
+   "B": "La PCR semanal se usa para CMV en la estrategia anticipada, no para BK.",
+   "C": "El tamizaje busca detectar la replicación antes de la disfunción; esperar el ascenso de la Cr es tardío.",
+   "D": "Insuficiente.",
+   "E": "Correcto. El virus BK se tamiza con PCR cuantitativa en sangre o células señuelo en orina mensualmente los primeros 6 meses y luego cada 3 meses hasta los 2 años."
+  },
+  "clave": "E",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-7",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "",
+  "enunciado": "¿Qué biomarcadores urinarios recomienda explícitamente la ESOT para detectar de forma no invasiva el rechazo del injerto renal?",
+  "perla": "La ESOT (Park, Transpl Int 2024) recomienda las quimiocinas urinarias CXCL9 y CXCL10 para detectar de forma no invasiva el rechazo subclínico y manifiesto.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "ATP en linfocitos, ImmuKnow",
+   "B": "Expresión génica en sangre periférica, TruGraf, kSORT",
+   "C": "Quimiocinas urinarias CXCL9 y CXCL10",
+   "D": "Albúmina modificada por isquemia en orina",
+   "E": "Creatinina urinaria de 24 h"
+  },
+  "explicaciones": {
+   "A": "ImmuKnow (ATP) y los perfiles de expresión génica en sangre (TruGraf, kSORT) son pruebas de sangre sin recomendación de las asociaciones.",
+   "B": "Los perfiles de expresión génica en sangre (TruGraf, kSORT) son pruebas de sangre sin recomendación de las asociaciones.",
+   "C": "Correcto. La ESOT (Park, Transpl Int 2024) recomienda las quimiocinas urinarias CXCL9 y CXCL10 para detectar de forma no invasiva el rechazo subclínico y manifiesto.",
+   "D": "La albúmina modificada por isquemia no forma parte de los biomarcadores revisados.",
+   "E": "No detecta rechazo."
+  },
+  "clave": "C",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-3",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Hombre de 58 años con TR hace 12 meses (TAC + MMF + PDN): Cr 1.3 → 2.1 mg/dL con toxicidad crónica por ICN en la biopsia, HAS grave y DMPT de difícil control; EBV seropositivo.",
+  "enunciado": "¿Indicación y requisito del belatacept?",
+  "perla": "El belatacept sirve para reducir o reemplazar el ICN ante disfunción renal por ICN o comorbilidades no controlables (HAS, DMPT, dislipidemia), solo en receptores EBV positivos (Nelson 2022).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "Reemplazar MMF por leucopenia, sin importar el estado de EBV",
+   "B": "Reducir o reemplazar el ICN; requiere EBV positivo",
+   "C": "Primera línea para sustituir esteroides en el rechazo agudo mediado por T",
+   "D": "Solo en receptores EBV negativos, para prevenir PTLD",
+   "E": "Aumentar el tacrolimus por disfunción"
+  },
+  "explicaciones": {
+   "A": "El reemplazo de MPA por intolerancia se hace con azatioprina o inhibidores de mTOR, y el belatacept siempre exige conocer el EBV.",
+   "B": "Correcto. El belatacept sirve para reducir o reemplazar el ICN ante disfunción renal por ICN o comorbilidades no controlables (HAS, DMPT, dislipidemia), solo en receptores EBV positivos (Nelson 2022).",
+   "C": "No es un sustituto de esteroides en el rechazo agudo.",
+   "D": "Está contraindicado en receptores EBV negativos por el riesgo de PTLD.",
+   "E": "Empeora la toxicidad."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-9",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Hombre de 52 años a 14 meses del TR (TAC + MPA + PDN) con nefrotoxicidad crónica por ICN, CMV recurrente y lesiones de sarcoma de Kaposi.",
+  "enunciado": "¿Qué modificación de la IS está más indicada?",
+  "perla": "Los inhibidores de mTOR permiten reducir o reemplazar el ICN por nefrotoxicidad, y tienen un papel en pacientes con malignidad (como el sarcoma de Kaposi) e infección por CMV (Nelson 2022).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "Aumentar TAC y añadir ciclosporina",
+   "B": "Cambiar solo MPA por azatioprina sin tocar el TAC",
+   "C": "Iniciar belatacept sin conocer la serología de EBV",
+   "D": "Aumentar el esteroide",
+   "E": "Cambiar el TAC por un inhibidor de mTOR"
+  },
+  "explicaciones": {
+   "A": "Aumentar el TAC empeora la nefrotoxicidad, y combinar dos ICN no tiene sentido.",
+   "B": "Cambiar solo el MPA no corrige la nefrotoxicidad ni aporta efecto antineoplásico.",
+   "C": "El belatacept exige conocer la serología de EBV y no aporta el beneficio contra CMV y Kaposi de los mTOR.",
+   "D": "No está indicado.",
+   "E": "Correcto. Los inhibidores de mTOR permiten reducir o reemplazar el ICN por nefrotoxicidad, y tienen un papel en pacientes con malignidad (como el sarcoma de Kaposi) e infección por CMV (Nelson 2022)."
+  },
+  "clave": "E",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-10",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Receptora de 35 años de alto riesgo para EBV (D+/R−).",
+  "enunciado": "¿Con qué frecuencia se hace PCR cuantitativa de EBV durante el primer año?",
+  "perla": "En el receptor de alto riesgo para EBV (D+/R−), la PCR (NAT) se hace la primera semana, mensual hasta el mes 6 y trimestral hasta el año, para detectar la replicación que precede al PTLD.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "Una al alta y luego anual",
+   "B": "Quincenal 3 meses y luego semestral",
+   "C": "1.ª semana, mensual a 6 meses, trimestral al año",
+   "D": "Semanal 6 meses, sin controles posteriores",
+   "E": "Solo si hay síntomas compatibles con linfoproliferativo"
+  },
+  "explicaciones": {
+   "A": "Una medición al alta y una anual no detecta la replicación a tiempo.",
+   "B": "Los intervalos quincenal y semestral no corresponden a lo recomendado.",
+   "C": "Correcto. En el receptor de alto riesgo para EBV (D+/R−), la PCR (NAT) se hace la primera semana, mensual hasta el mes 6 y trimestral hasta el año, para detectar la replicación que precede al PTLD.",
+   "D": "Suspender la vigilancia después del mes 6 deja sin cubrir la segunda mitad del primer año.",
+   "E": "Insuficiente."
+  },
+  "clave": "C",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ31-8",
+  "tema_id": 21,
+  "sub": "21.e",
+  "obj": "21.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguimiento del trasplante renal",
+  "caso": "Hombre de 64 años con TR hace 3 años y antecedente de VHC con respuesta virológica sostenida.",
+  "enunciado": "¿Qué tumores requieren tamizaje adicional en el receptor de TR?",
+  "perla": "Además del tamizaje de la población general, el receptor de TR requiere vigilancia de cáncer de piel, carcinoma de células renales, PTLD y hepatocarcinoma (este último con VHB+ o VHC+, mediante US ± AFP si hay cirrosis).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 31: Seguimiento del trasplante renal"
+  ],
+  "serie_id": "AZ31-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 31)"
+  ],
+  "opciones": {
+   "A": "Solo carcinoma papilar de tiroides y osteosarcoma",
+   "B": "Cáncer de piel, carcinoma de células renales, PTLD y hepatocarcinoma",
+   "C": "Cáncer de páncreas y retinoblastoma",
+   "D": "Solo carcinoma basocelular, sin evaluar PTLD ni hepatocarcinoma",
+   "E": "Cáncer de próstata y colon solamente"
+  },
+  "explicaciones": {
+   "A": "Tiroides y osteosarcoma no forman parte del tamizaje adicional.",
+   "B": "Correcto. Además del tamizaje de la población general, el receptor de TR requiere vigilancia de cáncer de piel, carcinoma de células renales, PTLD y hepatocarcinoma (este último con VHB+ o VHC+, mediante US ± AFP si hay cirrosis).",
+   "C": "Páncreas y retinoblastoma tampoco.",
+   "D": "El cáncer de piel incluye carcinoma epidermoide y melanoma, y además se vigilan PTLD y hepatocarcinoma, sobre todo con antecedente de VHC.",
+   "E": "Omite piel, PTLD, renal y hepatocarcinoma."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-2",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "",
+  "enunciado": "¿Qué hallazgo cuestiona más directamente una clasificación binaria de rechazo presente o ausente?",
+  "perla": "La existencia de MVI DSA−/C4d− muestra que una biopsia que no cumple los criterios clásicos de RMA puede conservar relevancia biológica y pronóstica, lo que rompe la dicotomía rechazo presente/ausente.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "La persistencia de DSA después del tratamiento",
+   "B": "La fibrosis intersticial avanzada en la biopsia",
+   "C": "La disminución aislada de la TFGe",
+   "D": "La presencia de MVI sin DSA ni C4d",
+   "E": "La ausencia de C4d con DSA positivos"
+  },
+  "explicaciones": {
+   "A": "La persistencia de DSA tras el tratamiento es un dato de seguimiento, no un fenotipo intermedio.",
+   "B": "La fibrosis refleja cronicidad, ya contemplada en Banff.",
+   "C": "La caída aislada de la TFGe es inespecífica.",
+   "D": "Correcto. La existencia de MVI DSA−/C4d− muestra que una biopsia que no cumple los criterios clásicos de RMA puede conservar relevancia biológica y pronóstica, lo que rompe la dicotomía rechazo presente/ausente.",
+   "E": "Ya está contemplado en Banff."
+  },
+  "clave": "D",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ16-7",
+  "tema_id": 21,
+  "sub": "21.c",
+  "obj": "21.o9",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Rechazo mediado por anticuerpos",
+  "caso": "",
+  "enunciado": "¿Qué diferencia mecanística justifica el interés actual en las terapias anti-CD38?",
+  "perla": "El blanco terapéutico se desplaza del precursor B a la célula plasmática efectora: el felzartamab (anti-CD38) logró 82 vs 20% de resolución morfológica a la semana 24.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 16: Rechazo mediado por anticuerpos"
+  ],
+  "serie_id": "AZ16-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 16)"
+  ],
+  "opciones": {
+   "A": "Inhiben preferentemente la activación terminal del complemento",
+   "B": "Actúan sobre las células plasmáticas productoras de anticuerpos",
+   "C": "Reducen la presentación antigénica de las células dendríticas",
+   "D": "Bloquean selectivamente la síntesis hepática de IgG",
+   "E": "Bloquean la vía alterna del complemento"
+  },
+  "explicaciones": {
+   "A": "Eso describe a los inhibidores del complemento (eculizumab, BIVV020).",
+   "B": "Correcto. El blanco terapéutico se desplaza del precursor B a la célula plasmática efectora: el felzartamab (anti-CD38) logró 82 vs 20% de resolución morfológica a la semana 24.",
+   "C": "CD38 no actúa sobre la presentación antigénica.",
+   "D": "La IgG no se sintetiza en el hígado; su reciclaje se bloquea vía FcRn (efgartigimod).",
+   "E": "No es su mecanismo."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-3",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "En un paciente sin anticuerpos anti-HLA actuales,",
+  "enunciado": "¿por qué importa la historia de exposición a factores sensibilizantes?",
+  "perla": "Los títulos de anticuerpos cambian con el tiempo. Si el nuevo injerto comparte alelos HLA con las exposiciones previas, puede desencadenarse una respuesta de memoria muy temprana que los estudios no predicen; por ello el consenso STAR los ubica en una categoría de mayor riesgo que al paciente nunca expuesto (Tambur 2018).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Pudo haber adquirido infecciones como hepatitis o VIH",
+   "B": "Pueden desaparecer y generar respuesta de memoria",
+   "C": "Es irrelevante si actualmente no tiene anticuerpos",
+   "D": "Obliga a repetir la medición con el suero diluido para descartar efecto prozona",
+   "E": "Obliga a repetir la tipificación HLA del donante"
+  },
+  "explicaciones": {
+   "A": "El riesgo infeccioso no se relaciona con el riesgo inmunológico.",
+   "B": "Correcto. Los títulos de anticuerpos cambian con el tiempo. Si el nuevo injerto comparte alelos HLA con las exposiciones previas, puede desencadenarse una respuesta de memoria muy temprana que los estudios no predicen; por ello el consenso STAR los ubica en una categoría de mayor riesgo que al paciente nunca expuesto (Tambur 2018).",
+   "C": "La ausencia actual de anticuerpos no descarta la memoria inmunológica.",
+   "D": "El efecto prozona causa falsos negativos en presencia de anticuerpos, pero no explica la desaparición real de anticuerpos tras una exposición antigua.",
+   "E": "No es lo relevante."
+  },
+  "clave": "B",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ30-8",
+  "tema_id": 21,
+  "sub": "21.d",
+  "obj": "21.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Evaluación del riesgo inmunológico",
+  "caso": "Independientemente de los estudios de histocompatibilidad,",
+  "enunciado": "¿qué escenario tiene el menor riesgo de rechazo?",
+  "perla": "La senescencia inmunológica del receptor de edad avanzada disminuye la potencia del sistema inmune: menor riesgo de rechazo, pero mayor riesgo de infecciones.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 30: Evaluación del riesgo inmunológico"
+  ],
+  "serie_id": "AZ30-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 30)"
+  ],
+  "opciones": {
+   "A": "Receptor afroamericano",
+   "B": "Función retardada del injerto",
+   "C": "Injerto marginal",
+   "D": "Receptor pediátrico",
+   "E": "Receptor de edad avanzada"
+  },
+  "explicaciones": {
+   "A": "La población afroamericana tiene mayor riesgo de rechazo en múltiples cohortes.",
+   "B": "La función retardada y el injerto marginal implican mayor daño endotelial, mayor expresión de moléculas HLA y más epletes inmunogénicos expuestos.",
+   "C": "La función retardada y el injerto marginal implican mayor daño endotelial, mayor expresión de moléculas HLA y más epletes inmunogénicos expuestos.",
+   "D": "Mayor riesgo.",
+   "E": "Correcto. La senescencia inmunológica del receptor de edad avanzada disminuye la potencia del sistema inmune: menor riesgo de rechazo, pero mayor riesgo de infecciones."
+  },
+  "clave": "E",
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
  }
 ]

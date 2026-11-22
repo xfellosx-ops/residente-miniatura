@@ -950,5 +950,81 @@
   ],
   "tipo_item": "nueva",
   "peso": 60.0
+ },
+ {
+  "id": "AZ6-2",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Enfermedad renal diabética",
+  "caso": "",
+  "enunciado": "¿Qué dato justifica la realización de una biopsia renal?",
+  "perla": "La proteinuria en aumento rápido o el síndrome nefrótico es un criterio que sugiere otra causa de daño renal y justifica la biopsia (Am Fam Physician 2019).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 6: Enfermedad renal diabética"
+  ],
+  "serie_id": "AZ6-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 6)"
+  ],
+  "opciones": {
+   "A": "La presencia de retinopatía diabética",
+   "B": "El grado de albuminuria de 8.7 g/día",
+   "C": "El tiempo de evolución de la albuminuria",
+   "D": "La TFGe de 64 mL/min",
+   "E": "La ausencia de hematuria en el EGO"
+  },
+  "explicaciones": {
+   "A": "La retinopatía favorece el diagnóstico de ND (OR 8.9), no la biopsia.",
+   "B": "Correcto. La proteinuria en aumento rápido o el síndrome nefrótico es un criterio que sugiere otra causa de daño renal y justifica la biopsia (Am Fam Physician 2019).",
+   "C": "La diabetes de larga duración (> 10 años) también favorece la ND.",
+   "D": "Una TFGe de 64 mL/min estable no indica una disminución rápida de la función.",
+   "E": "Favorece nefropatía diabética, no otra causa."
+  },
+  "clave": "B",
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ6-3",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Enfermedad renal diabética",
+  "caso": "Inicia dapagliflozina 10 mg/día, espironolactona 50 mg/día y atorvastatina 40 mg/día, y se programa la biopsia. A su ingreso: edema en mejoría, creatinina 1.4 mg/dL, TFGe 58 mL/min, albúmina sérica 3.0 g/dL y albuminuria 4.1 g/día. La biopsia con nefropatía diabética clase III, glomeruloesclerosis focal y segmentaria variedad de la punta y fibrosis tubulointersticial del 15%.",
+  "enunciado": "¿Cuál sería la medida terapéutica más adecuada?",
+  "perla": "La GEFyS variedad de la punta es una podocitopatía que suele responder a esteroides; con 15% de fibrosis hay poca cronicidad y potencial de reversibilidad. La evolución confirmó la respuesta: la albuminuria cayó de 10.3 a 0.17 g/día en 3 meses con función renal estable.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 6: Enfermedad renal diabética"
+  ],
+  "serie_id": "AZ6-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 6)"
+  ],
+  "opciones": {
+   "A": "Agregar un agonista del GLP-1",
+   "B": "Cambiar espironolactona por finerenona",
+   "C": "Continuar con el mismo manejo",
+   "D": "Iniciar esteroide oral a 1 mg/kg",
+   "E": "Iniciar rituximab por GEFS con proteinuria nefrótica"
+  },
+  "explicaciones": {
+   "A": "El agonista GLP-1 y la finerenona son nefroprotectores en la ERD, pero no tratan la lesión podocitaria que explica el síndrome nefrótico.",
+   "B": "El agonista GLP-1 y la finerenona son nefroprotectores en la ERD, pero no tratan la lesión podocitaria que explica el síndrome nefrótico.",
+   "C": "Continuar igual deja sin tratar la GEFyS, a pesar de la proteinuria persistente en rango nefrótico. Resolución del caso. Con dapagliflozina, espironolactona y atorvastatina, y antes del esteroide, la albuminuria bajó de 8.7 a 4.1 g/día. La biopsia mostró ND clase III + GEFyS variedad de la punta + 15% de fibrosis tubulointersticial. Tras el tratamiento, la albuminuria bajó de 10.3 a 2.6, 0.23 y 0.17 g/día en los meses 1, 2 y 3, con creatinina estable (1.3–1.5 mg/dL).",
+   "D": "Correcto. La GEFyS variedad de la punta es una podocitopatía que suele responder a esteroides; con 15% de fibrosis hay poca cronicidad y potencial de reversibilidad. La evolución confirmó la respuesta: la albuminuria cayó de 10.3 a 0.17 g/día en 3 meses con función renal estable.",
+   "E": "La variante de la punta responde a esteroides; rituximab no es primera línea."
+  },
+  "clave": "D",
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
  }
 ]

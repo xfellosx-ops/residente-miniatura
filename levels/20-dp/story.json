@@ -338,14 +338,52 @@
      ]
     },
     {
-     "type": "algoritmo",
-     "title": "Peritonitis en DP",
+     "type": "clasif",
+     "title": "Peritonitis en DP: definiciones ISPD 2022",
+     "bins": [
+      "Refractaria",
+      "Recaída",
+      "Recurrente",
+      "Repetición"
+     ],
      "items": [
-      "Efluente turbio o dolor abdominal",
-      "Citología, Gram y cultivo del efluente",
-      "Antibiótico empírico intraperitoneal (Gram+ y Gram−)",
-      "Ajustar según cultivo",
-      "Sin respuesta a 5 días → retirar catéter"
+      [
+       "Efluente turbio tras 5 días de antibiótico adecuado",
+       "Refractaria"
+      ],
+      [
+       "Mismo germen < 4 semanas tras terminar el antibiótico",
+       "Recaída"
+      ],
+      [
+       "Episodio estéril < 4 semanas tras terminar",
+       "Recaída"
+      ],
+      [
+       "Germen distinto < 4 semanas tras terminar",
+       "Recurrente"
+      ],
+      [
+       "Mismo germen > 4 semanas tras terminar",
+       "Repetición"
+      ],
+      [
+       "Obliga a retirar el catéter",
+       "Refractaria"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Peritonitis en DPA con día seco",
+     "items": [
+      "Infundir 1 L y dejar 1–2 h",
+      "Muestra: citológico y 5–10 mL en frascos de hemocultivo",
+      "Iniciar antibiótico IP empírico sin esperar resultados",
+      "Ajustar por cultivo al día 2–3",
+      "Reevaluar al día 5: refractaria → retiro",
+      "Completar 14 o 21 días según germen"
      ],
      "pairs": []
     }
@@ -545,6 +583,18 @@
       "Revalorar la cuenta celular a los 3–5 días",
       "Ajustar al cultivo y completar 2–3 semanas",
       "Retirar el catéter si es refractaria o fúngica"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Peritonitis en DP",
+     "items": [
+      "Efluente turbio o dolor abdominal",
+      "Citología, Gram y cultivo del efluente",
+      "Antibiótico empírico intraperitoneal (Gram+ y Gram−)",
+      "Ajustar según cultivo",
+      "Sin respuesta a 5 días → retirar catéter"
      ],
      "pairs": []
     },

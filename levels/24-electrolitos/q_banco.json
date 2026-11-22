@@ -3337,5 +3337,1601 @@
    "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
   ],
   "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-1",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "PVC: regla de parada",
+  "caso": "Paciente séptico en reanimación con PVC 14 mmHg y oliguria.",
+  "enunciado": "Según el metaanálisis de Chen (2020), ¿cómo debe usarse la PVC?",
+  "perla": "Presión de perfusión renal = PAM − PVC (o presión intraabdominal, la mayor). 'El riñón no se perfunde con litros'.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "Como objetivo de reanimación de 8 a 12 mmHg",
+   "B": "Como predictor de respuesta a un bolo de líquido",
+   "C": "Como regla de parada: su elevación se asocia a LRA",
+   "D": "Solo tiene valor pronóstico si supera 20 mmHg",
+   "E": "Una PVC normal descarta congestión de órgano"
+  },
+  "explicaciones": {
+   "A": "Perseguir una meta de PVC promueve congestión.",
+   "B": "La PVC no predice respuesta a líquidos.",
+   "C": "Correcto. PVC alta se asoció con LRA (OR 2.09) y mortalidad (OR 1.65); cada mmHg aumentó 6% el riesgo de LRA (23% en sepsis). Mide restricción al retorno venoso, no volemia.",
+   "D": "La asociación es dosis-dependiente desde valores menores.",
+   "E": "No descarta congestión de órgano."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-2",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "VCI en hemodiálisis: punto de corte",
+  "caso": "Paciente en HD crónica con ganancia interdialítica de 1.2 kg; VCI prediálisis 1.9 cm en eje largo.",
+  "enunciado": "¿Cuál es la interpretación más adecuada según la serie mexicana presentada?",
+  "perla": "VCI: 'buen cribado, mal juez'. Falsos: atletas, presión intraabdominal alta, efecto cilindro, VM, confusión con aorta. No mide respuesta a volumen.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "Compatible con sobrecarga: el mejor corte fue 1.75 cm",
+   "B": "Descarta sobrecarga por medir menos de 2 cm",
+   "C": "El eje largo correlaciona r ≈ 0.9 con la PAD",
+   "D": "El índice de colapso detecta bien el cambio tras la UF",
+   "E": "La VCI sola basta para definir el peso seco"
+  },
+  "explicaciones": {
+   "A": "Correcto. En 78 pacientes (BIS como referencia), el corte de 2 cm tuvo sensibilidad de 35%; el mejor fue 1.75 cm (S 76%, E 78%; AUC 0.84). Integrar con LUS y Doppler venoso.",
+   "B": "El umbral occidental de 2 cm es poco sensible en esta población.",
+   "C": "El eje largo correlaciona poco (r = 0.24); el cociente eje corto/largo, r = 0.75.",
+   "D": "Tras 2 L de UF el colapso no cambió.",
+   "E": "La VCI sola no es POCUS: falta pulmón y corazón."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-3",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Fenotipos de congestión",
+  "caso": "Paciente con IC, edema y Cr en ascenso. Pulmón con patrón A en 8 zonas; VCI 2.4 cm, suprahepática con S invertida, porta con pulsatilidad de 60%, vena intrarrenal monofásica.",
+  "enunciado": "¿Qué fenotipo tiene y cuál es la dirección terapéutica?",
+  "perla": "Fenotipos: A sin congestión; B tisular (líneas B, VExUS 0–1, CA125 ↑); C vascular (pulmón limpio, VExUS ≥2, NT-proBNP ↑); D mixto. LUS = presiones izquierdas; VExUS = presión venosa sistémica.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "Congestión tisular: favorecer el relleno intravascular",
+   "B": "Congestión vascular (VExUS 3): natriuresis o UF",
+   "C": "Sin congestión: buscar otra causa del deterioro",
+   "D": "Congestión mixta: suspender diuréticos hasta líneas B",
+   "E": "Hipovolemia: bolo de cristaloide guiado por VTI"
+  },
+  "explicaciones": {
+   "A": "El tisular tiene líneas B difusas con VExUS 0–1.",
+   "B": "Correcto. Pulmón limpio con VExUS ≥2 = predominio vascular (NT-proBNP alto, CA125 normal): natriuresis o ultrafiltración apoyando al VD. La congestión 'no se ve' en la radiografía.",
+   "C": "VExUS 3 confirma congestión venosa.",
+   "D": "El mixto requiere líneas B y no se suspende el diurético.",
+   "E": "La VCI pletórica y las ondas venosas descartan hipovolemia."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-4",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Responder frente a tolerar líquidos",
+  "caso": "Choque séptico tras 2 L de cristaloide. Elevación pasiva de piernas: VTI +25%. LUS con perfil B en 4 de 8 zonas; VD normal; VExUS 1.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Responde y tolera: bolo ≥4 mL/kg. Responde y no tolera: vasopresor/inotrópico. No responde y tolera: buscar otra causa. No responde ni tolera: descongestionar. Solo ~50% en choque responde a líquidos.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "Tercer litro, porque es respondedor a volumen",
+   "B": "Diurético inmediato por el VExUS de grado 1",
+   "C": "Líquidos hasta una PVC de 12 mmHg",
+   "D": "Vasopresor: responde, pero ya no tolera líquidos",
+   "E": "Inotrópico por bajo gasto cardiaco"
+  },
+  "explicaciones": {
+   "A": "Dar más volumen agravaría la congestión pulmonar.",
+   "B": "VExUS 1 no indica congestión venosa significativa.",
+   "C": "La PVC es regla de parada, no meta.",
+   "D": "Correcto. Responder (ΔVTI >20%) no es tolerar: el perfil B indica que el pulmón ya no acepta agua. Norepinefrina en lugar de más litros y reevaluar perfusión.",
+   "E": "El VI es hiperdinámico; no hay bajo gasto."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-5",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Graduación del VExUS",
+  "caso": "Posoperado de cirugía cardiaca: VCI 2.3 cm; suprahepática S < D sin inversión; porta con pulsatilidad de 55%; vena intrarrenal bifásica.",
+  "enunciado": "¿Qué grado de VExUS tiene?",
+  "perla": "VExUS: suprahepática S>D normal, S<D leve, S invertida severa; porta <30% / 30–50% / >50%; intrarrenal continuo / bifásico / monofásico. La porta mejora primero; la renal, al último.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "Grado 2: un patrón severo (porta)",
+   "B": "Grado 0: los patrones no son graves",
+   "C": "Grado 1: ningún patrón severo",
+   "D": "Grado 3: dos patrones severos",
+   "E": "No graduable sin ECG simultáneo"
+  },
+  "explicaciones": {
+   "A": "Correcto. Con VCI ≥2 cm: grado 1 sin patrones severos; grado 2 un patrón severo; grado 3 dos o más. Severos: S invertida, porta >50%, intrarrenal monofásica. Aquí solo la porta es severa.",
+   "B": "El grado 0 requiere VCI <2 cm.",
+   "C": "La porta >50% es un patrón severo.",
+   "D": "S<D y bifásico son patrones leves.",
+   "E": "Se puede graduar; el ECG ayuda en la suprahepática."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-6",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "VExUS en fibrilación auricular",
+  "caso": "Paciente con FA crónica: VCI 2.2 cm, suprahepática S < D, porta con pulsatilidad <30% y vena intrarrenal continua.",
+  "enunciado": "¿Cuál es la interpretación correcta?",
+  "perla": "Desconfiar del VExUS: cirrosis con HTP (porta falsamente continua), IT grave, VM, delgados o fístulas arterioportales (pulsatilidad falsa), ERC avanzada o hidronefrosis (Doppler renal poco fiable).",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "Grado 2: iniciar descongestión de inmediato",
+   "B": "La FA invalida el VExUS; no debe realizarse",
+   "C": "Grado 1 como máximo; la S baja puede deberse a la FA",
+   "D": "La porta continua indica mala adquisición de la suprahepática",
+   "E": "Grado 3 por la combinación de VCI y suprahepática"
+  },
+  "explicaciones": {
+   "A": "No hay ningún patrón severo.",
+   "B": "Se interpreta con cautela, no se invalida.",
+   "C": "Correcto. En FA se pierde la contracción y relajación auricular y la onda S disminuye sin congestión; con porta y vena renal normales no hay congestión significativa.",
+   "D": "Porta y renal normales apoyan ausencia de congestión.",
+   "E": "No hay patrones severos."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-7",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "VExUS en sepsis",
+  "caso": "Se revisan los resultados del estudio multicéntrico de Song (2025) en 108 pacientes con sepsis en UCI.",
+  "enunciado": "¿Qué mostró el estudio?",
+  "perla": "VExUS es sólido donde el motor es cardiaco (cirugía cardiaca: grado 3 E 96%, HR 3.69 para LRA), dinámico en diálisis y débil en sepsis. Sin ECA positivo en mortalidad.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "VExUS ≥2 en la mayoría y predijo LRA con OR cercano a 4",
+   "B": "VExUS correlacionó fuertemente con la PVC (r >0.8)",
+   "C": "El Doppler intrarrenal fue el componente más fácil",
+   "D": "VExUS ≥2 aumentó al día 5 por sobrecarga hídrica",
+   "E": "Congestión infrecuente, sin asociación con LRA ni muerte"
+  },
+  "explicaciones": {
+   "A": "La congestión fue infrecuente y no predijo LRA.",
+   "B": "No hubo correlación con la PVC.",
+   "C": "El Doppler intrarrenal fue el mayor motivo de exclusión.",
+   "D": "Disminuyó de 18% a 6%.",
+   "E": "Correcto. VExUS ≥2 en 18% el día 1 y 6% el día 5; sin correlación con PVC ni balance, y sin asociación con LRA (OR 1.82, NS) ni mortalidad. Detecta congestión intravascular, no el edema intersticial séptico."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-8",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Falla anterógrada durante la descongestión",
+  "caso": "Paciente con IC y VExUS 3 en descongestión. A las 72 h la porta es continua y la suprahepática recuperó la onda S, pero la Cr subió de 2.1 a 2.9 mg/dL; VTI del TSVI 12 cm.",
+  "enunciado": "¿Cuál es la interpretación más probable?",
+  "perla": "A pie de cama: ondas mejoran + Cr sube poco = seguir; ondas mejoran + Cr sube mucho + VTI bajo = falla anterógrada; ondas no mejoran + Cr sube = congestión persistente o resistencia diurética.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "Falla anterógrada: inotrópico, no más diurético",
+   "B": "Congestión persistente: aumentar el diurético",
+   "C": "Seudoempeoramiento benigno: continuar sin cambios",
+   "D": "Error de medición: repetir el VExUS en una semana",
+   "E": "Nefritis intersticial aguda por la furosemida"
+  },
+  "explicaciones": {
+   "A": "Correcto. Ondas que mejoran + Cr que sube mucho + VTI bajo (normal 18–22 cm) = bajo flujo. Inotrópico, no más diurético.",
+   "B": "Las ondas venosas ya mejoraron.",
+   "C": "El seudoempeoramiento cursa con ascenso pequeño de Cr y flujo adecuado.",
+   "D": "El VTI bajo explica el cuadro.",
+   "E": "No hay datos que la sugieran."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ2-9",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Ondas de la vena suprahepática",
+  "caso": "Se evalúa la vena suprahepática con ECG simultáneo.",
+  "enunciado": "¿Después de qué ondas del ECG aparecen las ondas A, S y D?",
+  "perla": "Sin ECG, la fusión D-S en estados hiperdinámicos, el PR largo y la FA se leen al revés. Técnica: 1–2 cm de la unión con la VCI, apnea tele-espiratoria, escala ~40 cm/s.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "A tras la T, S tras la P y D tras el QRS",
+   "B": "A tras el QRS, S tras la T y D tras la P",
+   "C": "Las tres aparecen dentro del complejo QRS",
+   "D": "A tras la P, S tras el QRS y D tras la T",
+   "E": "A y S tras la P; D tras el QRS"
+  },
+  "explicaciones": {
+   "A": "Orden incorrecto.",
+   "B": "Orden incorrecto.",
+   "C": "Cada onda corresponde a una fase distinta del ciclo.",
+   "D": "Correcto. A: contracción auricular (retrógrada) tras la P; S: sístole del VD (anterógrada) tras el QRS; V: fin de sístole, al final de la T; D: diástole (anterógrada) tras la T.",
+   "E": "Orden incorrecto."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-8",
+  "tema_id": 24,
+  "sub": "24.b",
+  "obj": "24.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Cloro sérico en la IC: ROSE-AHF",
+  "caso": "Paciente con IC aguda con Cl⁻ 92 mEq/L al ingreso.",
+  "enunciado": "En ROSE-AHF, ¿qué se asoció con menor eficiencia diurética y mayor mortalidad?",
+  "perla": "Hipocloremia por dilución (osm <280): limitar agua, salina hipertónica. Por depleción (HCO₃ alto, brecha Na–Cl >42): KCl y acetazolamida.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Cl⁻ bajo al ingreso",
+   "B": "Descenso agudo de Cl⁻ en 72 h de diurético",
+   "C": "Cl⁻ alto por sobrecarga de NaCl",
+   "D": "Na⁺ bajo, independiente del Cl⁻",
+   "E": "Bicarbonato bajo al ingreso"
+  },
+  "explicaciones": {
+   "A": "Correcto. Cl⁻ bajo al ingreso = menor eficiencia diurética, independiente de Na⁺ y HCO₃; mortalidad a 180 días 27%, 21% y 12% por terciles. El Cl⁻ bajo activa WNK-SPAK y sobreexpresa el NCC.",
+   "B": "El descenso agudo (~0.9 mEq/L/día) no se asoció con desenlaces.",
+   "C": "Lo asociado fue el Cl⁻ bajo.",
+   "D": "El efecto fue independiente del Na⁺.",
+   "E": "No fue el factor asociado."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-9",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "facil",
+  "peso": 45,
+  "subtema": "Líquidos orales durante la descongestión",
+  "caso": "Paciente con IC y sobrecarga en descongestión; osmolalidad sérica 288 mOsm/L.",
+  "enunciado": "¿Qué se recomienda sobre la ingesta de líquidos?",
+  "perla": "Meta: 150–250 mmol netos de Na⁺ por kg sobre el peso seco; K⁺ >4 con KCl y Mg²⁺ 12 mmol/día con diurético IV. Se retienen ~257 mmol de Na⁺ por litro en exceso.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Restricción estricta a menos de 1000 mL/día",
+   "B": "Beber según la sed, sin balance positivo",
+   "C": "Solución salina para compensar la diuresis",
+   "D": "Suspender la vía oral y reponer por vena",
+   "E": "Agua libre abundante para prevenir LRA"
+  },
+  "explicaciones": {
+   "A": "La restricción estricta solo si hay hiponatremia hipotónica.",
+   "B": "Correcto. Con osmolalidad ≥280 mOsm/L, beber según la sed; FRESH-UP: ingesta liberal vs 1500 mL/día no empeoró el estado de salud y redujo la sed.",
+   "C": "Evitar líquidos con sodio.",
+   "D": "No tiene sustento.",
+   "E": "Evitar balance positivo."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ4-1",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Ecocardiograma para el nefrólogo",
+  "caso": "",
+  "enunciado": "¿Qué hallazgo ecocardiográfico permite estimar mejor la probabilidad de hipertensión pulmonar?",
+  "perla": "La TRVmax, medida por Doppler continuo, permite estimar el gradiente VD-AD y, con ello, la PSAP: < 2.8 m/s indica baja probabilidad de HP y > 3.4 m/s, alta probabilidad.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 4: Ecocardiograma para el nefrólogo"
+  ],
+  "serie_id": "AZ4-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 4)"
+  ],
+  "opciones": {
+   "A": "Gravedad de la insuficiencia tricuspídea",
+   "B": "Diámetro de la arteria pulmonar",
+   "C": "Velocidad máxima del jet tricuspídeo",
+   "D": "Diámetro del anillo tricuspídeo",
+   "E": "Presión arterial sistémica media"
+  },
+  "explicaciones": {
+   "A": "La gravedad de la IT no se relaciona directamente con la presión pulmonar; la IT puede ser grave por causas primarias o auriculares con presiones normales.",
+   "B": "Los diámetros de la arteria pulmonar y del anillo tricuspídeo son signos indirectos o de apoyo, sin el poder de la TRVmax para estimar la probabilidad.",
+   "C": "Correcto. La TRVmax, medida por Doppler continuo, permite estimar el gradiente VD-AD y, con ello, la PSAP: < 2.8 m/s indica baja probabilidad de HP y > 3.4 m/s, alta probabilidad.",
+   "D": "Los diámetros de la arteria pulmonar y del anillo tricuspídeo son signos indirectos o de apoyo, sin el poder de la TRVmax para estimar la probabilidad.",
+   "E": "No estima presiones pulmonares."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ4-2",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Ecocardiograma para el nefrólogo",
+  "caso": "En la evaluación de la función diastólica,",
+  "enunciado": "¿qué parámetro refleja de manera más directa la velocidad de relajación del VI?",
+  "perla": "La eʹ, medida por Doppler tisular en el anillo mitral, refleja directamente la velocidad de relajación del VI; un valor bajo indica relajación alterada.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 4: Ecocardiograma para el nefrólogo"
+  ],
+  "serie_id": "AZ4-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 4)"
+  ],
+  "opciones": {
+   "A": "Integral velocidad-tiempo del tracto de salida del VI",
+   "B": "Desplazamiento sistólico del anillo mitral lateral, MAPSE",
+   "C": "Velocidad de la onda E por Doppler pulsado transmitral",
+   "D": "Relación E/A transmitral aislada",
+   "E": "Velocidad de la onda eʹ por Doppler tisular"
+  },
+  "explicaciones": {
+   "A": "La integral velocidad-tiempo del TSVI estima el volumen latido (función sistólica).",
+   "B": "El MAPSE mide la función sistólica longitudinal.",
+   "C": "La onda E depende de la presión de la AI y de la relajación, por lo que no refleja directamente la relajación; puede aumentar por hipercontractilidad.",
+   "D": "Depende de precarga y no mide relajación directamente.",
+   "E": "Correcto. La eʹ, medida por Doppler tisular en el anillo mitral, refleja directamente la velocidad de relajación del VI; un valor bajo indica relajación alterada."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ4-3",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Ecocardiograma para el nefrólogo",
+  "caso": "Paciente con congestión venosa (pulso venoso yugular elevado y VCI dilatada sin colapso).",
+  "enunciado": "¿Qué hallazgo sugiere falla cardiaca derecha aislada?",
+  "perla": "Una E/eʹ de 4 (< 8) indica presiones de llenado del VI normales: la congestión venosa sistémica no proviene del corazón izquierdo y sugiere falla derecha aislada (HAP, IT primaria, pericarditis constrictiva).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 4: Ecocardiograma para el nefrólogo"
+  ],
+  "serie_id": "AZ4-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 4)"
+  ],
+  "opciones": {
+   "A": "Relación E/eʹ de 4",
+   "B": "Dilatación de la aurícula izquierda",
+   "C": "Velocidad eʹ de 4 cm/s",
+   "D": "Derrame pleural laminar bilateral",
+   "E": "Patrón B pulmonar difuso"
+  },
+  "explicaciones": {
+   "A": "Correcto. Una E/eʹ de 4 (< 8) indica presiones de llenado del VI normales: la congestión venosa sistémica no proviene del corazón izquierdo y sugiere falla derecha aislada (HAP, IT primaria, pericarditis constrictiva).",
+   "B": "La dilatación de la AI es un dato de presión elevada de la AI (falla izquierda).",
+   "C": "Una eʹ de 4 cm/s indica relajación alterada del VI.",
+   "D": "El derrame pleural bilateral solo ocurre con aumento de la LVEDP y es patognomónico de falla izquierda.",
+   "E": "Indica presiones izquierdas altas, no falla derecha aislada."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ4-4",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Ecocardiograma para el nefrólogo",
+  "caso": "",
+  "enunciado": "¿Qué hallazgo NO se espera en un paciente con falla cardiaca izquierda y FEVI preservada?",
+  "perla": "El derrame pericárdico con colapso diastólico del VD corresponde a fisiología de tamponade, no a la falla cardiaca izquierda con FEVI preservada.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 4: Ecocardiograma para el nefrólogo"
+  ],
+  "serie_id": "AZ4-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 4)"
+  ],
+  "opciones": {
+   "A": "Relación E/eʹ elevada",
+   "B": "Patrón B pulmonar",
+   "C": "Probabilidad intermedia o alta de hipertensión pulmonar",
+   "D": "Derrame pericárdico con colapso diastólico del VD",
+   "E": "Aurícula izquierda dilatada"
+  },
+  "explicaciones": {
+   "A": "En la falla izquierda es esperable una E/eʹ elevada (> 14) por aumento de las presiones de llenado.",
+   "B": "El patrón B refleja congestión pulmonar.",
+   "C": "La HP del grupo 2 es la primera manifestación de la falla izquierda y la forma más común de HP.",
+   "D": "Correcto. El derrame pericárdico con colapso diastólico del VD corresponde a fisiología de tamponade, no a la falla cardiaca izquierda con FEVI preservada.",
+   "E": "Es esperable en falla izquierda con FEVI preservada."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ4-6",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Ecocardiograma para el nefrólogo",
+  "caso": "",
+  "enunciado": "En un sujeto joven y sano, ¿cuál es la manifestación hemodinámica más esperada de la hipervolemia?",
+  "perla": "Con un corazón sano, que opera en la meseta de la curva de función cardiaca, el volumen excedente aumenta el gasto cardiaco y, como TA = GC × RPT, la presión arterial, sin elevar las presiones de llenado. Si la excreción renal de sal está intacta, la respuesta es la poliuria.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 4: Ecocardiograma para el nefrólogo"
+  ],
+  "serie_id": "AZ4-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 4)"
+  ],
+  "opciones": {
+   "A": "Congestión pulmonar",
+   "B": "Hipertensión arterial",
+   "C": "Elevación de las presiones de llenado cardiacas",
+   "D": "Congestión venosa sistémica",
+   "E": "Edema periférico con derrame pleural"
+  },
+  "explicaciones": {
+   "A": "La congestión pulmonar y la elevación de las presiones de llenado requieren disfunción diastólica o sistólica del VI (LVEDP > 15 mmHg).",
+   "B": "Correcto. Con un corazón sano, que opera en la meseta de la curva de función cardiaca, el volumen excedente aumenta el gasto cardiaco y, como TA = GC × RPT, la presión arterial, sin elevar las presiones de llenado. Si la excreción renal de sal está intacta, la respuesta es la poliuria.",
+   "C": "La congestión pulmonar y la elevación de las presiones de llenado requieren disfunción diastólica o sistólica del VI (LVEDP > 15 mmHg).",
+   "D": "La congestión venosa sistémica ocurre con falla izquierda o derecha, no en un corazón sano.",
+   "E": "En corazón sano el volumen eleva el gasto y la PA, no las presiones de llenado."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-1",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "Durante una elevación pasiva de piernas (PLR), el ITV del TSVI aumenta de 18 a 21 cm.",
+  "enunciado": "¿Cómo se interpreta?",
+  "perla": "ΔITV = (21 − 18) / 18 × 100 = 16.7%. Un aumento ≥ 10% durante la PLR indica aumento significativo del volumen sistólico (parte ascendente de Frank-Starling).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "No respondedor a volumen",
+   "B": "Congestión venosa grave",
+   "C": "Disfunción ventricular izquierda",
+   "D": "Respondedor a volumen",
+   "E": "Hipovolemia grave no respondedora"
+  },
+  "explicaciones": {
+   "A": "El no respondedor aumenta < 10%.",
+   "B": "El ITV evalúa flujo anterógrado; la congestión se valora con VExUS, VCI y pulmón.",
+   "C": "Un ITV que aumenta con la precarga no define disfunción del VI; esta se valora con FEVI, EPSS, MAPSE o ITV basal bajo.",
+   "D": "Correcto. ΔITV = (21 − 18) / 18 × 100 = 16.7%. Un aumento ≥ 10% durante la PLR indica aumento significativo del volumen sistólico (parte ascendente de Frank-Starling).",
+   "E": "Es respondedor."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-2",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "",
+  "enunciado": "¿Qué incremento del ITV tras una PLR sugiere respuesta a volumen?",
+  "perla": "Un incremento del ITV ≥ 10% durante la PLR es el umbral compatible con respuesta a precarga, siempre que la medición sea técnicamente reproducible.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "≥ 10%",
+   "B": "≥ 5%",
+   "C": "≥ 20%",
+   "D": "≥ 30%",
+   "E": "≥ 2%"
+  },
+  "explicaciones": {
+   "A": "Correcto. Un incremento del ITV ≥ 10% durante la PLR es el umbral compatible con respuesta a precarga, siempre que la medición sea técnicamente reproducible.",
+   "B": "5% está dentro de la variabilidad de la medición (el caso final de la ponencia, +4%, fue no respondedor).",
+   "C": "20–30% son umbrales demasiado altos que clasificarían como no respondedores a pacientes que sí responden.",
+   "D": "20–30% son umbrales demasiado altos que clasificarían como no respondedores a pacientes que sí responden.",
+   "E": "Insuficiente."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-3",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "",
+  "enunciado": "En VExUS, una pulsatilidad de la vena porta ≥ 50% se considera:",
+  "perla": "Fracción de pulsatilidad portal = (Vmáx − Vmín)/Vmáx × 100: < 30% normal, 30–49% alteración moderada y ≥ 50% alteración grave; refleja mayor transmisión de la presión venosa a la circulación esplácnica.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "Normal",
+   "B": "Alteración leve",
+   "C": "No valorable",
+   "D": "Patrón bifásico",
+   "E": "Alteración grave"
+  },
+  "explicaciones": {
+   "A": "Lo normal es un flujo casi continuo con pulsatilidad < 30%. Imagen A.",
+   "B": "La alteración leve/moderada corresponde a 30–49%. Imagen B.",
+   "C": "Es un parámetro valorable y cuantificable con Doppler pulsado. Imagen D.",
+   "D": "Es de la vena renal.",
+   "E": "Correcto. Fracción de pulsatilidad portal = (Vmáx − Vmín)/Vmáx × 100: < 30% normal, 30–49% alteración moderada y ≥ 50% alteración grave; refleja mayor transmisión de la presión venosa a la circulación esplácnica."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-5",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "",
+  "enunciado": "Una VCI ≥ 2 cm con alteraciones graves en ≥ 2 territorios VExUS corresponde a:",
+  "perla": "Con VCI ≥ 2 cm, las alteraciones graves en dos o más territorios (vena hepática con onda S reversa, porta ≥ 50%, intrarrenal monofásico) corresponden a VExUS 3.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "VExUS 0",
+   "B": "VExUS 1",
+   "C": "VExUS 3",
+   "D": "VExUS 2",
+   "E": "VExUS 4"
+  },
+  "explicaciones": {
+   "A": "VExUS 0 es VCI < 2 cm.",
+   "B": "VExUS 1 es VCI ≥ 2 cm con Doppler normal o solo alteraciones leves.",
+   "C": "Correcto. Con VCI ≥ 2 cm, las alteraciones graves en dos o más territorios (vena hepática con onda S reversa, porta ≥ 50%, intrarrenal monofásico) corresponden a VExUS 3.",
+   "D": "VExUS 2 es una sola alteración grave.",
+   "E": "El VExUS solo tiene grados 0 a 3."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-6",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "",
+  "enunciado": "¿Cuál es una limitación importante de usar la VCI de forma aislada?",
+  "perla": "El diámetro y la colapsabilidad de la VCI dependen de la presión intratorácica, la ventilación mecánica, la presión intraabdominal, la hipertensión pulmonar y la función del VD; por sí sola no define respuesta a líquidos ni congestión con repercusión orgánica.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "No puede visualizarse con ultrasonido",
+   "B": "No define por sí sola respuesta ni tolerancia",
+   "C": "Solo evalúa la función del VI",
+   "D": "Solo sirve en pacientes ventilados",
+   "E": "Sobrestima siempre la presión de la aurícula derecha"
+  },
+  "explicaciones": {
+   "A": "Se visualiza bien por ventana subxifoidea o axilar media.",
+   "B": "Correcto. El diámetro y la colapsabilidad de la VCI dependen de la presión intratorácica, la ventilación mecánica, la presión intraabdominal, la hipertensión pulmonar y la función del VD; por sí sola no define respuesta a líquidos ni congestión con repercusión orgánica.",
+   "C": "Refleja la presión auricular derecha, no la función del VI.",
+   "D": "Se usa en respiración espontánea y ventilada; la ventilación es más bien un factor de confusión.",
+   "E": "La VCI puede ser normal con PAD alta y viceversa; no siempre sobrestima."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-7",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "Si el ITV basal es 20 cm y tras la PLR aumenta a 23 cm,",
+  "enunciado": "¿cuál es el cambio porcentual?",
+  "perla": "ΔITV = (ITV post − ITV basal)/ITV basal × 100 = (23 − 20)/20 × 100 = 15%, compatible con respuesta a precarga.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "5%",
+   "B": "10%",
+   "C": "20%",
+   "D": "25%",
+   "E": "15%"
+  },
+  "explicaciones": {
+   "A": "Subestiman el cambio (3 cm sobre 20 cm).",
+   "B": "Subestiman el cambio (3 cm sobre 20 cm).",
+   "C": "Sobreestima el cambio; 20% correspondería a un ITV post-PLR de 24 cm.",
+   "D": "Cálculo incorrecto.",
+   "E": "Correcto. ΔITV = (ITV post − ITV basal)/ITV basal × 100 = (23 − 20)/20 × 100 = 15%, compatible con respuesta a precarga."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-8",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "",
+  "enunciado": "Múltiples líneas B bilaterales y difusas en el ultrasonido pulmonar sugieren principalmente:",
+  "perla": "Las líneas B múltiples y difusas indican síndrome intersticial y, en el contexto hemodinámico adecuado, aumento del agua pulmonar extravascular (congestión pulmonar); en HD disminuyen al retirar volumen.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "Neumotórax",
+   "B": "Hipovolemia",
+   "C": "Más agua extravascular pulmonar",
+   "D": "Derrame pericárdico",
+   "E": "Consolidación lobar por neumonía bacteriana"
+  },
+  "explicaciones": {
+   "A": "El neumotórax abole el deslizamiento pleural y las líneas B.",
+   "B": "La hipovolemia cursa con pulmón seco (patrón A, ≤ 2 líneas B).",
+   "C": "Correcto. Las líneas B múltiples y difusas indican síndrome intersticial y, en el contexto hemodinámico adecuado, aumento del agua pulmonar extravascular (congestión pulmonar); en HD disminuyen al retirar volumen.",
+   "D": "El derrame pericárdico se diagnostica con ecocardiografía focalizada.",
+   "E": "No es lo sugerido."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-9",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "",
+  "enunciado": "¿Qué combinación corresponde a una evaluación integral de congestión con POCUS?",
+  "perla": "La congestión es multiorgánica: integrar VCI, Doppler hepático, portal e intrarrenal (VExUS) y ultrasonido pulmonar permite valorar la congestión venosa sistémica y su repercusión pulmonar.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "VCI, Doppler venoso y pulmón",
+   "B": "VCI exclusivamente",
+   "C": "VCI + presión arterial",
+   "D": "Ultrasonido pulmonar exclusivamente",
+   "E": "Doppler intrarrenal y VCI sin ventana pulmonar"
+  },
+  "explicaciones": {
+   "A": "Correcto. La congestión es multiorgánica: integrar VCI, Doppler hepático, portal e intrarrenal (VExUS) y ultrasonido pulmonar permite valorar la congestión venosa sistémica y su repercusión pulmonar.",
+   "B": "La VCI sola no determina congestión ni su repercusión.",
+   "C": "La PA no evalúa congestión y una PAM normal puede coexistir con LRA congestiva.",
+   "D": "El pulmón no valora la congestión venosa sistémica.",
+   "E": "Sin la ventana pulmonar no se evalúa la congestión tisular."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ33-1",
+  "tema_id": 24,
+  "sub": "24.b",
+  "obj": "24.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hiponatremia",
+  "caso": "",
+  "enunciado": "En la hiponatremia hipotónica, la concentración plasmática de sodio depende fundamentalmente de:",
+  "perla": "Por la ecuación de Edelman, el Na⁺ plasmático ≈ (Na⁺ + K⁺ intercambiables) / agua corporal total: la natremia mide una relación soluto/agua, no el contenido de sodio, y la hiponatremia hipotónica es casi siempre un exceso relativo de agua libre. Corolario: reponer potasio también eleva el sodio.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 33: Hiponatremia"
+  ],
+  "serie_id": "AZ33-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 33)"
+  ],
+  "opciones": {
+   "A": "La cantidad total de sodio corporal",
+   "B": "La ingesta diaria de sal",
+   "C": "El nivel sérico de hormona tiroidea",
+   "D": "Na⁺ + K⁺ intercambiables entre agua corporal total",
+   "E": "La concentración de sodio en el líquido extracelular solamente"
+  },
+  "explicaciones": {
+   "A": "La natremia no refleja el contenido total de sodio; puede haber hiponatremia con sodio corporal aumentado (IC, cirrosis).",
+   "B": "La ingesta de sal no determina por sí sola la natremia.",
+   "C": "El hipotiroidismo solo causa hiponatremia relevante en formas severas.",
+   "D": "Correcto. Por la ecuación de Edelman, el Na⁺ plasmático ≈ (Na⁺ + K⁺ intercambiables) / agua corporal total: la natremia mide una relación soluto/agua, no el contenido de sodio, y la hiponatremia hipotónica es casi siempre un exceso relativo de agua libre. Corolario: reponer potasio también eleva el sodio.",
+   "E": "No determina el sodio plasmático."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ33-3",
+  "tema_id": 24,
+  "sub": "24.b",
+  "obj": "24.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hiponatremia",
+  "caso": "",
+  "enunciado": "Mujer de 52 años con Na⁺ 108 mmol/L que presenta una crisis convulsiva en urgencias. La conducta inmediata correcta es:",
+  "perla": "El síntoma severo, no la cifra, define la urgencia: bolo de salina al 3% (100–150 mL en 10–20 min, repetible) con meta de +4–6 mmol/L o hasta que cedan los síntomas. Conviene tomar la muestra de orina antes de infundir, pero sin retrasar el tratamiento (SALSA; Spasovski 2024).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 33: Hiponatremia"
+  ],
+  "serie_id": "AZ33-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 33)"
+  ],
+  "opciones": {
+   "A": "Bolo de salina 3%, 100–150 mL en 10–20 min",
+   "B": "Restricción hídrica a 1 L/día",
+   "C": "Salina 0.9% a 100 mL/h y reevaluar en 6 horas",
+   "D": "Esperar la osmolalidad urinaria antes de tratar",
+   "E": "Tolvaptán 15 mg VO"
+  },
+  "explicaciones": {
+   "A": "Correcto. El síntoma severo, no la cifra, define la urgencia: bolo de salina al 3% (100–150 mL en 10–20 min, repetible) con meta de +4–6 mmol/L o hasta que cedan los síntomas. Conviene tomar la muestra de orina antes de infundir, pero sin retrasar el tratamiento (SALSA; Spasovski 2024).",
+   "B": "La restricción hídrica es lenta y no trata el edema cerebral.",
+   "C": "La salina 0.9% no eleva el sodio con la rapidez necesaria y puede empeorarlo en el SIAD.",
+   "D": "El diagnóstico se completa mientras se trata.",
+   "E": "No es para el manejo urgente."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ33-4",
+  "tema_id": 24,
+  "sub": "24.b",
+  "obj": "24.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hiponatremia",
+  "caso": "Hombre de 48 años con alcoholismo y desnutrición, sin síntomas neurológicos severos; Na⁺ 110 y K⁺ 2.8 mmol/L. Recibe salina 0.9% con KCl intenso y a las 8 h el Na⁺ es 119 mmol/L.",
+  "enunciado": "¿Interpretación y conducta?",
+  "perla": "En el paciente hipokalémico el potasio es sodio encubierto: al reponerlo, la natremia sube por la ecuación de Edelman.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 33: Hiponatremia"
+  ],
+  "serie_id": "AZ33-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 33)"
+  ],
+  "opciones": {
+   "A": "Ascenso adecuado; mantener el esquema hasta completar 24 h",
+   "B": "El ascenso se debe solo a la salina; basta con reducir su velocidad",
+   "C": "Sin síntomas severos, no se requiere intervención hasta las 24 h",
+   "D": "Agregar salina hipertónica",
+   "E": "El K⁺ contribuyó; frenar la corrección con DDAVP y D5%"
+  },
+  "explicaciones": {
+   "A": "El ascenso ya supera el límite para un paciente de alto riesgo.",
+   "B": "Ignora la contribución del potasio y la diuresis acuosa.",
+   "C": "La ausencia de síntomas no protege de la desmielinización; hay que actuar en horas.",
+   "D": "Acelera la corrección.",
+   "E": "Correcto. En el paciente hipokalémico el potasio es sodio encubierto: al reponerlo, la natremia sube por la ecuación de Edelman. Con cuatro factores de riesgo de SDO (alcoholismo, desnutrición, hipokalemia y Na⁺ <115) el límite es 8 mmol/L/24 h, y +9 mmol/L en 8 h ya lo supera: detener los aportes de Na⁺/K⁺ y frenar con glucosa al 5% más desmopresina."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ33-5",
+  "tema_id": 24,
+  "sub": "24.b",
+  "obj": "24.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hiponatremia",
+  "caso": "Mujer de 74 años con hidroclorotiazida, Na⁺ 122 mmol/L, aparentemente euvolémica; Osm urinaria 430 mOsm/kg, Na⁺ urinario 46 mmol/L, ácido úrico 3.9 mg/dL y TSH normal.",
+  "enunciado": "¿Abordaje correcto antes de etiquetar SIAD e iniciar restricción hídrica?",
+  "perla": "La tiazida es la causa ambulatoria más frecuente y debe suspenderse antes de atribuir el cuadro a SIAD; la exploración física de la volemia es poco fiable (concordancia ~32% frente a 71% del algoritmo), y hasta 1 de cada 7 euvolemias es insuficiencia suprarrenal.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 33: Hiponatremia"
+  ],
+  "serie_id": "AZ33-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 33)"
+  ],
+  "opciones": {
+   "A": "Diagnosticar SIAD de inmediato: Osm urinaria >100 y Na⁺ urinario >30",
+   "B": "Si no hay edema ni hipovolemia, por definición es SIAD",
+   "C": "Suspender la tiazida y descartar causas endocrinas",
+   "D": "Iniciar salina hipertónica al 3%",
+   "E": "Iniciar tolvaptán"
+  },
+  "explicaciones": {
+   "A": "Cumplir Osm urinaria >100 y Na⁺ urinario >30 no basta con una tiazida en curso; el SIAD es un diagnóstico de exclusión.",
+   "B": "La impresión clínica de euvolemia es poco fiable.",
+   "C": "Correcto. La tiazida es la causa ambulatoria más frecuente y debe suspenderse antes de atribuir el cuadro a SIAD; la exploración física de la volemia es poco fiable (concordancia ~32% frente a 71% del algoritmo), y hasta 1 de cada 7 euvolemias es insuficiencia suprarrenal. La FE de urato (>12% apoya SIAD; <8% hipovolemia) es útil incluso con diuréticos (Fenske 2008, 2010).",
+   "D": "La hipertónica no está indicada en la hiponatremia crónica sin síntomas severos.",
+   "E": "Primero se excluyen tiazida y causas endocrinas antes de tratar como SIAD."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ33-6",
+  "tema_id": 24,
+  "sub": "24.b",
+  "obj": "24.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hiponatremia",
+  "caso": "Mujer de 76 años con SIAD idiopático crónico y dos caídas; Na⁺ 128 mmol/L, Osm urinaria 550 mOsm/kg y (Na⁺u + K⁺u)/Na⁺p ≈ 1.0, sin mejoría tras un mes de restricción a 1 L/día.",
+  "enunciado": "¿Conducta más apropiada?",
+  "perla": "Un cociente (Na⁺u + K⁺u)/Na⁺p ≥1 y una Osm urinaria alta predicen el fracaso de la restricción, que sola eleva el sodio 3–4 mmol/L. La urea (15–30 g/día) es eficaz, segura, con bajo riesgo de sobrecorrección y ~88% más económica que el tolvaptán.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 33: Hiponatremia"
+  ],
+  "serie_id": "AZ33-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 33)"
+  ],
+  "opciones": {
+   "A": "Restricción a 500 mL/día como única medida y reevaluar en un mes",
+   "B": "Reconocer los predictores de fracaso de la restricción y pasar a segunda línea, como urea 15–30 g/día",
+   "C": "Salina hipertónica al 3% por el riesgo de caídas",
+   "D": "Furosemida más NaCl como segunda línea de elección por su eficacia demostrada frente a la restricción",
+   "E": "Aumentar la ingesta de líquidos"
+  },
+  "explicaciones": {
+   "A": "Intensificar una medida con predictores de fracaso no resolverá el problema y es mal tolerado.",
+   "B": "Correcto. Un cociente (Na⁺u + K⁺u)/Na⁺p ≥1 y una Osm urinaria alta predicen el fracaso de la restricción, que sola eleva el sodio 3–4 mmol/L. La urea (15–30 g/día) es eficaz, segura, con bajo riesgo de sobrecorrección y ~88% más económica que el tolvaptán.",
+   "C": "La hipertónica no está indicada en la hiponatremia crónica asintomática.",
+   "D": "En EFFUSE-FLUID, furosemida + NaCl no fue superior a la restricción sola y aumentó la LRA y la hipokalemia.",
+   "E": "Empeora la hiponatremia."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ33-2",
+  "tema_id": 24,
+  "sub": "24.b",
+  "obj": "24.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hiponatremia",
+  "caso": "",
+  "enunciado": "El umbral de 48 horas que separa la hiponatremia aguda de la crónica es decisivo porque:",
+  "perla": "La adaptación cerebral (extrusión de electrolitos y luego de osmolitos orgánicos) se completa hacia las 48 h. Antes, el peligro es el edema cerebral; después, el riesgo dominante es la desmielinización osmótica si el sodio sube demasiado rápido. Ante la duda, se trata como crónica.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 33: Hiponatremia"
+  ],
+  "serie_id": "AZ33-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 33)"
+  ],
+  "opciones": {
+   "A": "Define el momento en que se establece el SIAD",
+   "B": "Determina la dosis de salina hipertónica",
+   "C": "Después de ese tiempo la hiponatremia deja de producir síntomas",
+   "D": "Define cuándo iniciar tolvaptán",
+   "E": "Marca la adaptación cerebral y cambia el riesgo dominante"
+  },
+  "explicaciones": {
+   "A": "El SIAD no se define por el tiempo.",
+   "B": "La dosis de hipertónica la determinan los síntomas, no el umbral temporal.",
+   "C": "La hiponatremia crónica puede producir síntomas (marcha, atención, caídas).",
+   "D": "No es el motivo.",
+   "E": "Correcto. La adaptación cerebral (extrusión de electrolitos y luego de osmolitos orgánicos) se completa hacia las 48 h. Antes, el peligro es el edema cerebral; después, el riesgo dominante es la desmielinización osmótica si el sodio sube demasiado rápido. Ante la duda, se trata como crónica."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-2",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "",
+  "enunciado": "Al disminuir la función renal, ¿qué mecanismo ayuda a mantener la homeostasis del K⁺?",
+  "perla": "Aunque el riñón es la principal vía de eliminación, en la ERC aumenta la secreción colónica de K⁺ (canales BK regulados por aldosterona), que gana peso conforme cae la función renal.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Disminución progresiva de la secreción colónica de K⁺",
+   "B": "Supresión completa de la aldosterona",
+   "C": "Aumento de la excreción gastrointestinal de K⁺",
+   "D": "Menor secreción distal de K⁺ por nefrona residual",
+   "E": "Mayor reabsorción proximal de K⁺"
+  },
+  "explicaciones": {
+   "A": "La secreción colónica aumenta, no disminuye.",
+   "B": "La aldosterona no se suprime; de hecho estimula la secreción colónica y distal.",
+   "C": "Correcto. Aunque el riñón es la principal vía de eliminación, en la ERC aumenta la secreción colónica de K⁺ (canales BK regulados por aldosterona), que gana peso conforme cae la función renal.",
+   "D": "Cada nefrona residual secreta más K⁺, no menos.",
+   "E": "La reabsorción proximal aumentada no favorece la excreción de K⁺."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-3",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "",
+  "enunciado": "Sobre la hipokalemia en la ERC, ¿qué afirmación es correcta?",
+  "perla": "La pérdida de función renal no protege contra la hipokalemia: diuréticos, vómito, diarrea, laxantes, malnutrición e hiperaldosteronismo son causas frecuentes, y se asocia con arritmias y mortalidad.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Se asocia con diuréticos, pérdidas GI y malnutrición",
+   "B": "Prácticamente no ocurre con TFGe <30 mL/min/1.73 m²",
+   "C": "Siempre refleja ingesta dietética insuficiente",
+   "D": "No se relaciona con desenlaces cardiovasculares",
+   "E": "Es exclusiva de la diálisis peritoneal"
+  },
+  "explicaciones": {
+   "A": "Correcto. La pérdida de función renal no protege contra la hipokalemia: diuréticos, vómito, diarrea, laxantes, malnutrición e hiperaldosteronismo son causas frecuentes, y se asocia con arritmias y mortalidad.",
+   "B": "En ≥65 años con ERC G4–5, 15% tiene K⁺ <4 mmol/L, más que hiperkalemia (7%).",
+   "C": "También la causan redistribución (diuréticos, tono β) y pérdidas renales o GI.",
+   "D": "Se asocia con arritmias, muerte súbita, enfermedad CV e IC.",
+   "E": "No es exclusiva."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-4",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "Paciente con ERC G4 y un episodio de hiperkalemia ya corregido.",
+  "enunciado": "¿Conducta conceptual más apropiada?",
+  "perla": "La hiperkalemia es frecuentemente recurrente, sobre todo con ERC, diabetes, IC o iSRAA: tras un primer evento la probabilidad de otro es de 60.5% y llega a 76.5% al 6.º, con intervalos cada vez más cortos.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Considerarlo un evento aislado una vez normalizado el K⁺",
+   "B": "Reconocer recurrencia y establecer prevención",
+   "C": "Suspender de forma permanente todo fármaco que actúe sobre el SRAA",
+   "D": "Reiniciar el tratamiento habitual sin vigilancia adicional",
+   "E": "Iniciar diálisis"
+  },
+  "explicaciones": {
+   "A": "En REVOLUTIONIZE I, 56% recurrió (37.4% en el primer mes).",
+   "B": "Correcto. La hiperkalemia es frecuentemente recurrente, sobre todo con ERC, diabetes, IC o iSRAA: tras un primer evento la probabilidad de otro es de 60.5% y llega a 76.5% al 6.º, con intervalos cada vez más cortos.",
+   "C": "Suspender el iSRAA se asocia con más eventos cardiorrenales y mortalidad.",
+   "D": "Sin vigilancia ni prevención se repite el ciclo de corrección aguda y recurrencia.",
+   "E": "No indicado."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-5",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "",
+  "enunciado": "¿Qué paciente tiene mayor riesgo de hiperkalemia recurrente?",
+  "perla": "El riesgo aumenta al caer la función renal (incidencia anual de 31% en G4) y con diabetes (RP 1.74), insuficiencia cardiaca (RP 2.31) y fármacos que inhiben el SRAA.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "ERC G2, sin diabetes ni fármacos que interfieran con el SRAA",
+   "B": "Función renal normal y ejercicio regular",
+   "C": "ERC G2 tratado solo con un calcioantagonista",
+   "D": "ERC G4, diabetes e insuficiencia cardiaca con un iSRAA",
+   "E": "Adulto joven con ERC G1"
+  },
+  "explicaciones": {
+   "A": "ERC G2 sin diabetes ni iSRAA es de bajo riesgo.",
+   "B": "La función renal normal mantiene la excreción, y el ejercicio solo causa elevaciones transitorias.",
+   "C": "Los calcioantagonistas no reducen la excreción de K⁺.",
+   "D": "Correcto. El riesgo aumenta al caer la función renal (incidencia anual de 31% en G4) y con diabetes (RP 1.74), insuficiencia cardiaca (RP 2.31) y fármacos que inhiben el SRAA.",
+   "E": "Bajo riesgo."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-7",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "",
+  "enunciado": "¿Cuál es una ventaja fundamental de los nuevos captores de K⁺ en la hiperkalemia crónica o recurrente?",
+  "perla": "Patiromer y SZC controlan el K⁺ de forma crónica y facilitan mantener u optimizar los iSRAA y ARM (ZS-005: 87% continuó o aumentó su iSRAA; REALIZE-K: OR 4.45 para continuar espironolactona).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Controlan el K⁺ y pueden facilitar la continuidad de los iSRAA",
+   "B": "Sustituyen por completo las medidas dietéticas",
+   "C": "Son el tratamiento principal de las arritmias por hiperkalemia grave",
+   "D": "Eliminan la necesidad de vigilar el K⁺",
+   "E": "Mayor eficacia que la hemodiálisis"
+  },
+  "explicaciones": {
+   "A": "Correcto. Patiromer y SZC controlan el K⁺ de forma crónica y facilitan mantener u optimizar los iSRAA y ARM (ZS-005: 87% continuó o aumentó su iSRAA; REALIZE-K: OR 4.45 para continuar espironolactona).",
+   "B": "Complementan, pero no sustituyen las medidas dietéticas individualizadas.",
+   "C": "En la urgencia con arritmias, lo prioritario es calcio IV y redistribución; el captor es complementario.",
+   "D": "Se debe seguir vigilando el K⁺ (riesgo de hipokalemia y edema con SZC).",
+   "E": "Los captores no sustituyen a la hemodiálisis en hiperK grave."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-8",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "Una paciente con ERC pregunta: \"¿qué ya no puedo comer?\".",
+  "enunciado": "¿Enfoque más apropiado?",
+  "perla": "Debe individualizarse: K⁺ sérico, fuentes de K⁺ (orgánico 50–60% absorbible vs aditivos ~100%), ultraprocesados, estreñimiento, fármacos y comorbilidades.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Eliminar plátano, tomate, aguacate, naranja y verduras de hoja verde",
+   "B": "Dieta estricta baja en K⁺ a toda ERC G3–5",
+   "C": "Individualizar según K⁺, fuentes y comorbilidades",
+   "D": "El K⁺ dietético no tiene relevancia en la ERC",
+   "E": "Suprimir toda fruta"
+  },
+  "explicaciones": {
+   "A": "Eliminar frutas y verduras priva de fibra, carga alcalina y beneficio cardiorrenal, y suele llevar a más ultraprocesados.",
+   "B": "La restricción universal carece de evidencia sólida; KDIGO dirige la restricción al K⁺ biodisponible en quien tiene hiperkalemia.",
+   "C": "Correcto. Debe individualizarse: K⁺ sérico, fuentes de K⁺ (orgánico 50–60% absorbible vs aditivos ~100%), ultraprocesados, estreñimiento, fármacos y comorbilidades.",
+   "D": "El K⁺ de aditivos y ultraprocesados sí es relevante.",
+   "E": "Suprimir toda fruta es excesivo y empeora la dieta."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-9",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "K⁺ 6.8 mmol/L con alteraciones electrocardiográficas.",
+  "enunciado": "¿Prioridad terapéutica?",
+  "perla": "La hiperkalemia grave con cambios en el ECG es una urgencia: calcio IV para estabilizar la membrana, insulina-glucosa y salbutamol para redistribuir, y luego eliminar el K⁺ (diuréticos, captores o diálisis), revalorando a los 30–60 min.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Iniciar solo un captor de K⁺ de mantenimiento",
+   "B": "Suspender alimentos ricos en K⁺ y reevaluar en una semana",
+   "C": "Esperar una segunda determinación antes de actuar",
+   "D": "Dar solo resina",
+   "E": "Estabilizar membrana, redistribuir y eliminar K⁺"
+  },
+  "explicaciones": {
+   "A": "El captor de mantenimiento no actúa con la rapidez necesaria.",
+   "B": "Retrasar el tratamiento una semana es peligroso.",
+   "C": "Con cambios electrocardiográficos no se espera una segunda determinación.",
+   "D": "Insuficiente.",
+   "E": "Correcto. La hiperkalemia grave con cambios en el ECG es una urgencia: calcio IV para estabilizar la membrana, insulina-glucosa y salbutamol para redistribuir, y luego eliminar el K⁺ (diuréticos, captores o diálisis), revalorando a los 30–60 min."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-10",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "",
+  "enunciado": "¿Qué estrategia representa mejor el manejo moderno de los trastornos del K⁺ en la ERC?",
+  "perla": "El objetivo no es solo \"bajar el K⁺\": mantenerlo en un rango seguro, reconocer que la hipo y la hiperkalemia tienen implicaciones pronósticas, corregir causas, prevenir recurrencias y preservar las terapias con beneficio cardiorrenal.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Mantener homeostasis y preservar terapia cardiorrenal",
+   "B": "Mantener el K⁺ lo más bajo posible",
+   "C": "Suspender pronto los fármacos que puedan elevar el K⁺",
+   "D": "Restringir de forma universal los alimentos ricos en K⁺",
+   "E": "Diálisis temprana en todos"
+  },
+  "explicaciones": {
+   "A": "Correcto. El objetivo no es solo \"bajar el K⁺\": mantenerlo en un rango seguro, reconocer que la hipo y la hiperkalemia tienen implicaciones pronósticas, corregir causas, prevenir recurrencias y preservar las terapias con beneficio cardiorrenal.",
+   "B": "Un K⁺ demasiado bajo también aumenta el riesgo (curva en U).",
+   "C": "Suspender iSRAA o ARM se asocia con más eventos y mortalidad.",
+   "D": "La restricción universal no tiene sustento y pierde los beneficios de las dietas basadas en plantas.",
+   "E": "No es el enfoque."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-4",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "",
+  "enunciado": "¿Qué patrón Doppler venoso intrarrenal se asocia a la congestión más grave?",
+  "perla": "Con la congestión, el flujo venoso intrarrenal pasa de continuo a bifásico (componentes sistólico y diastólico separados) y finalmente a monofásico discontinuo, solo diastólico: alteración grave.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "Flujo continuo",
+   "B": "Bifásico",
+   "C": "Flujo arterial reverso",
+   "D": "Monofásico discontinuo",
+   "E": "Flujo pulsátil arterializado"
+  },
+  "explicaciones": {
+   "A": "El flujo continuo es normal.",
+   "B": "El bifásico corresponde a congestión moderada.",
+   "C": "VExUS evalúa el flujo venoso (vena interlobar), no el arterial.",
+   "D": "Correcto. Con la congestión, el flujo venoso intrarrenal pasa de continuo a bifásico (componentes sistólico y diastólico separados) y finalmente a monofásico discontinuo, solo diastólico: alteración grave.",
+   "E": "No es patrón venoso."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ27-10",
+  "tema_id": 24,
+  "sub": "24.a",
+  "obj": "24.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "POCUS en nefrología",
+  "caso": "",
+  "enunciado": "En un paciente con LRA e hipotensión, antes de dar líquidos POCUS debería ayudar sobre todo a diferenciar:",
+  "perla": "Son dos preguntas distintas: respuesta a volumen (¿aumentará el gasto cardiaco si elevo la precarga?: PLR + ITV) y tolerancia a volumen (¿puede recibir líquidos sin desarrollar o agravar congestión?: líneas B, VD, VCI, VExUS).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 27: POCUS en nefrología"
+  ],
+  "serie_id": "AZ27-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 27)"
+  ],
+  "opciones": {
+   "A": "Precarga y poscarga",
+   "B": "Respuesta y tolerancia a volumen",
+   "C": "PA sistólica y diastólica",
+   "D": "LRA prerrenal y NTA exclusivamente",
+   "E": "Gasto cardiaco y resistencias"
+  },
+  "explicaciones": {
+   "A": "Precarga y poscarga no responden a la pregunta de si dar líquidos.",
+   "B": "Correcto. Son dos preguntas distintas: respuesta a volumen (¿aumentará el gasto cardiaco si elevo la precarga?: PLR + ITV) y tolerancia a volumen (¿puede recibir líquidos sin desarrollar o agravar congestión?: líneas B, VD, VCI, VExUS).",
+   "C": "La PA sistólica y diastólica no predicen respuesta ni tolerancia.",
+   "D": "La LRA no es un diagnóstico hemodinámico; además de prerrenal y NTA existen fenotipos vasopléjico, cardiogénico, congestivo y obstructivo.",
+   "E": "No es la pregunta."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-1",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "",
+  "enunciado": "En pacientes con ERC, ¿qué describe mejor la relación entre el K⁺ sérico y la mortalidad?",
+  "perla": "En la ERC hay una relación en U entre el K⁺ sérico y los desenlaces: tanto la hipo como la hiperkalemia se asocian con más mortalidad y eventos CV. El objetivo es mantener la homeostasis, no solo evitar la hiperkalemia.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Relación en U: el riesgo aumenta con K⁺ bajo y con K⁺ alto",
+   "B": "El riesgo aumenta solo cuando el K⁺ es >6.0 mmol/L",
+   "C": "La hipokalemia tiene poca relevancia pronóstica frente a la hiperkalemia",
+   "D": "El riesgo disminuye conforme baja el K⁺",
+   "E": "Lineal: mayor riesgo a mayor K⁺"
+  },
+  "explicaciones": {
+   "A": "Correcto. En la ERC hay una relación en U entre el K⁺ sérico y los desenlaces: tanto la hipo como la hiperkalemia se asocian con más mortalidad y eventos CV. El objetivo es mantener la homeostasis, no solo evitar la hiperkalemia.",
+   "B": "El riesgo no aparece solo con K⁺ >6.0: aumenta conforme el K⁺ se aleja del rango normal en cualquier dirección.",
+   "C": "La hipokalemia también se asocia con arritmias, muerte súbita y mortalidad.",
+   "D": "Bajar el K⁺ por debajo del rango normal aumenta el riesgo.",
+   "E": "La relación es en U: también la hipokalemia aumenta el riesgo."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ34-6",
+  "tema_id": 24,
+  "sub": "24.c",
+  "obj": "24.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Trastornos del potasio",
+  "caso": "Paciente con ERC e IC tratado con un iSRAA desarrolla hiperkalemia.",
+  "enunciado": "¿Principio general de KDIGO y los consensos?",
+  "perla": "KDIGO 2024 y los consensos recomiendan no desescalar el iSRAA hasta optimizar otras medidas: revisar fármacos y suplementos, corregir precipitantes, diuréticos si están indicados, tratar la acidosis y usar captores de K⁺.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 34: Trastornos del potasio"
+  ],
+  "serie_id": "AZ34-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 34)"
+  ],
+  "opciones": {
+   "A": "Suspender de inmediato el iSRAA ante cualquier K⁺ >5.0 mmol/L",
+   "B": "Optimizar medidas antes de reducir o suspender",
+   "C": "Reducir siempre la dosis antes de otras intervenciones",
+   "D": "Sustituir sistemáticamente el iSRAA por un calcioantagonista",
+   "E": "Cambiar a betabloqueador"
+  },
+  "explicaciones": {
+   "A": "Incluso la ESC indica reducir o suspender solo con K⁺ >6.5 mmol/L.",
+   "B": "Correcto. KDIGO 2024 y los consensos recomiendan no desescalar el iSRAA hasta optimizar otras medidas: revisar fármacos y suplementos, corregir precipitantes, diuréticos si están indicados, tratar la acidosis y usar captores de K⁺.",
+   "C": "Reducir la dosis no debe ser el primer paso; las dosis submáximas también se asocian con peores desenlaces.",
+   "D": "Cambiar a calcioantagonista pierde la protección cardiorrenal.",
+   "E": "No es el principio."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "tipo_item": "nueva"
  }
 ]

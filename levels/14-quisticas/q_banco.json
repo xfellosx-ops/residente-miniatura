@@ -969,5 +969,347 @@
   "tema": "Enfermedades quísticas del riñón",
   "obj": "14.o2",
   "peso": 64.6
+ },
+ {
+  "id": "AZ24-2",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "",
+  "enunciado": "¿Cuál es el estándar de referencia para la volumetría renal?",
+  "perla": "La segmentación manual corte por corte es el método de máxima exactitud y reproducibilidad, contra el cual se comparan los demás; su limitación es el tiempo (hasta ~55 minutos por caso).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "Fórmula elipsoide",
+   "B": "Planimetría manual",
+   "C": "Estereología",
+   "D": "Ultrasonido tridimensional",
+   "E": "Volumetría por gammagrafía"
+  },
+  "explicaciones": {
+   "A": "La elipsoide es la más rápida (~5 min), pero difiere ~3% en promedio y hasta > 20% en casos aislados.",
+   "B": "Correcto. La segmentación manual corte por corte es el método de máxima exactitud y reproducibilidad, contra el cual se comparan los demás; su limitación es el tiempo (hasta ~55 minutos por caso).",
+   "C": "La estereología es una alternativa validada (2–6% de diferencia), no la referencia.",
+   "D": "El ultrasonido subestima el volumen.",
+   "E": "No es estándar."
+  },
+  "clave": "B",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ24-3",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "",
+  "enunciado": "¿Es válido el ultrasonido para calcular el volumen renal total y asignar la clasificación de Mayo?",
+  "perla": "La clasificación de Mayo se derivó y validó con TC y RM. El ultrasonido subestima el VRT en ~11% y clasifica erróneamente las subclases de alto riesgo en ~22%; KDIGO lo acepta solo si las otras modalidades no están disponibles o están contraindicadas.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "Sí, es equivalente a la TC y la RM",
+   "B": "Nunca debe usarse",
+   "C": "Solo en menores de 40 años",
+   "D": "No es lo ideal; se prefieren TC o RM",
+   "E": "Sí, si el operador es experto"
+  },
+  "explicaciones": {
+   "A": "No es equivalente.",
+   "B": "Sí es útil para tamizaje y diagnóstico, y como último recurso para el volumen.",
+   "C": "La edad no define su validez para la volumetría.",
+   "D": "Correcto. La clasificación de Mayo se derivó y validó con TC y RM. El ultrasonido subestima el VRT en ~11% y clasifica erróneamente las subclases de alto riesgo en ~22%; KDIGO lo acepta solo si las otras modalidades no están disponibles o están contraindicadas.",
+   "E": "Sigue siendo menos preciso."
+  },
+  "clave": "D",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ24-4",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "",
+  "enunciado": "En la fórmula elipsoide, ¿cómo se obtiene la longitud renal?",
+  "perla": "El eje mayor del riñón es oblicuo, de modo que cada plano lo proyecta acortado; el promedio de las mediciones coronal y sagital corrige esa oblicuidad.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "Promedio coronal y sagital",
+   "B": "En el plano coronal",
+   "C": "En el plano sagital",
+   "D": "En el corte axial de mayor diámetro",
+   "E": "Medida en el plano transversal anterior"
+  },
+  "explicaciones": {
+   "A": "Correcto. El eje mayor del riñón es oblicuo, de modo que cada plano lo proyecta acortado; el promedio de las mediciones coronal y sagital corrige esa oblicuidad.",
+   "B": "Un solo plano subestima la longitud real.",
+   "C": "Un solo plano subestima la longitud real.",
+   "D": "En el corte axial se miden el ancho y la profundidad, no la longitud.",
+   "E": "No es el método."
+  },
+  "clave": "A",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ24-5",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "Un paciente tiene el riñón derecho masivamente quístico y el izquierdo con solo dos quistes.",
+  "enunciado": "¿Se le puede asignar categoría 1A a 1E?",
+  "perla": "El nomograma asume un crecimiento exponencial en enfermedad bilateral y difusa. Un riñón masivamente quístico con un contralateral de 0–2 quistes es una presentación atípica (clase 2A unilateral), en la que el volumen no refleja la velocidad de crecimiento y la predicción pierde validez.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "Sí, midiendo ambos riñones",
+   "B": "Sí, midiendo únicamente el riñón afectado",
+   "C": "Sí, si el volumen renal total supera 750 mL",
+   "D": "Sí, duplicando el volumen del riñón afectado",
+   "E": "No: presentación atípica, clase 2"
+  },
+  "explicaciones": {
+   "A": "Medir uno o ambos riñones no corrige la atipicidad.",
+   "B": "Medir uno o ambos riñones no corrige la atipicidad.",
+   "C": "Ningún umbral de volumen convierte una presentación atípica en típica.",
+   "D": "No es válido.",
+   "E": "Correcto. El nomograma asume un crecimiento exponencial en enfermedad bilateral y difusa. Un riñón masivamente quístico con un contralateral de 0–2 quistes es una presentación atípica (clase 2A unilateral), en la que el volumen no refleja la velocidad de crecimiento y la predicción pierde validez."
+  },
+  "clave": "E",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ24-7",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "",
+  "enunciado": "¿Cómo se calcula el volumen renal ajustado a la talla?",
+  "perla": "HtVRT = VRT ÷ talla en metros, expresado en mL/m (p. ej., 3254.7 mL ÷ 1.70 m = 1914 mL/m). Dividir entre la talla en centímetros reduce el resultado cien veces y produce una categoría falsamente benigna.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "Volumen renal total entre el peso",
+   "B": "Volumen renal total entre la superficie corporal",
+   "C": "Volumen renal total entre la talla en metros",
+   "D": "Volumen del riñón mayor entre la talla",
+   "E": "Volumen renal total entre la edad"
+  },
+  "explicaciones": {
+   "A": "El nomograma de Mayo se construyó ajustando por talla, no por peso ni superficie corporal.",
+   "B": "El nomograma de Mayo se construyó ajustando por talla, no por peso ni superficie corporal.",
+   "C": "Correcto. HtVRT = VRT ÷ talla en metros, expresado en mL/m (p. ej., 3254.7 mL ÷ 1.70 m = 1914 mL/m). Dividir entre la talla en centímetros reduce el resultado cien veces y produce una categoría falsamente benigna.",
+   "D": "Se usa el volumen total de ambos riñones.",
+   "E": "No es la fórmula."
+  },
+  "clave": "C",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ24-8",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "",
+  "enunciado": "¿Qué categoría de la clasificación de Mayo tiene la edad mediana más temprana de falla renal?",
+  "perla": "La categoría 1E, con crecimiento renal > 6% anual, tiene una edad mediana de falla renal de 45.1 años.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "1A",
+   "B": "1E",
+   "C": "1B",
+   "D": "1C",
+   "E": "1D"
+  },
+  "explicaciones": {
+   "A": "En la 1A, menos del 20% llega a falla renal.",
+   "B": "Correcto. La categoría 1E, con crecimiento renal > 6% anual, tiene una edad mediana de falla renal de 45.1 años.",
+   "C": "En la 1B, la edad mediana es de 71.2 años.",
+   "D": "En la 1C, de 62.8 años.",
+   "E": "No es la más temprana."
+  },
+  "clave": "B",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ24-9",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "",
+  "enunciado": "¿Qué debe especificar el nefrólogo en la solicitud del estudio?",
+  "perla": "Un estudio de abdomen convencional no incluye la volumetría; si el radiólogo no sabe que se le solicita, no la realiza.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "Únicamente RM de abdomen",
+   "B": "RM de abdomen con gadolinio",
+   "C": "Urotomografía",
+   "D": "Ultrasonido renal con Doppler y medición de longitud",
+   "E": "RM o TC simple con volumetría"
+  },
+  "explicaciones": {
+   "A": "\"RM de abdomen\" sin especificar no garantiza la volumetría ni la clasificación.",
+   "B": "El gadolinio no es necesario para medir el volumen.",
+   "C": "La urotomografía usa contraste y está orientada a la vía urinaria, no a la volumetría.",
+   "D": "No permite clasificar.",
+   "E": "Correcto. Un estudio de abdomen convencional no incluye la volumetría; si el radiólogo no sabe que se le solicita, no la realiza."
+  },
+  "clave": "E",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ24-10",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "En un paciente con presentación atípica,",
+  "enunciado": "¿qué debe incluir el reporte radiológico?",
+  "perla": "Lo esencial es describir el subtipo atípico (unilateral, segmentario, asimétrico, lopsided o con atrofia). El volumen sigue siendo útil para dimensionar el órgano, documentar síntomas compresivos y dar seguimiento morfológico, pero la categoría del nomograma no es válida.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "La categoría 1A a 1E, como en cualquier caso",
+   "B": "Ningún dato volumétrico bajo ninguna circunstancia",
+   "C": "Describir el patrón atípico, sin asignar nomograma",
+   "D": "Únicamente la longitud renal",
+   "E": "El volumen por fórmula elipsoide con clase 1C"
+  },
+  "explicaciones": {
+   "A": "Asignar 1A–1E en la clase 2 da un pronóstico erróneo.",
+   "B": "El volumen sí puede reportarse con fines descriptivos.",
+   "C": "Correcto. Lo esencial es describir el subtipo atípico (unilateral, segmentario, asimétrico, lopsided o con atrofia). El volumen sigue siendo útil para dimensionar el órgano, documentar síntomas compresivos y dar seguimiento morfológico, pero la categoría del nomograma no es válida.",
+   "D": "La longitud sola es insuficiente para describir la enfermedad.",
+   "E": "No aplica a atípicos."
+  },
+  "clave": "C",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ24-6",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Imagen en enfermedad renal poliquística",
+  "caso": "",
+  "enunciado": "¿Cuál es el criterio de la clasificación de Mayo para la clase 1 (típica)?",
+  "perla": "La homogeneidad en la distribución de la carga quística hace que el volumen refleje fielmente la biología. Un patrón bilateral con el volumen concentrado en pocos quistes corresponde al subtipo lopsided, que es clase 2.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 24: Imagen en enfermedad renal poliquística"
+  ],
+  "serie_id": "AZ24-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 24)"
+  ],
+  "opciones": {
+   "A": "Cualquier afectación bilateral",
+   "B": "Riñones mayores de 14.5 cm",
+   "C": "Afectación bilateral difusa y homogénea",
+   "D": "Presencia de quistes hepáticos asociados",
+   "E": "Más de 10 quistes en cada riñón por resonancia"
+  },
+  "explicaciones": {
+   "A": "La afectación bilateral no basta; debe ser difusa y homogénea.",
+   "B": "La longitud < 14.5 cm aparece en el criterio de atrofia bilateral (clase 2B), no define la clase 1.",
+   "C": "Correcto. La homogeneidad en la distribución de la carga quística hace que el volumen refleje fielmente la biología. Un patrón bilateral con el volumen concentrado en pocos quistes corresponde al subtipo lopsided, que es clase 2.",
+   "D": "Los quistes hepáticos apoyan el diagnóstico, pero no la clase.",
+   "E": "No es el criterio de Mayo."
+  },
+  "clave": "C",
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
  }
 ]

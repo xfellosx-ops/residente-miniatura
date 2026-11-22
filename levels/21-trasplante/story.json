@@ -392,6 +392,57 @@
       ]
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Rechazo celular (TCMR)",
+       "Tubulitis + inflamación intersticial"
+      ],
+      [
+       "Rechazo humoral (AMR)",
+       "DSA + C4d + capilaritis"
+      ],
+      [
+       "Prueba cruzada virtual",
+       "DSA por antígeno único (Luminex)"
+      ],
+      [
+       "Nefropatía por BK",
+       "Reducir inmunosupresión"
+      ],
+      [
+       "CMV D+/R−",
+       "Valganciclovir 6 meses"
+      ],
+      [
+       "Función retardada",
+       "Diálisis en 1.ª semana"
+      ],
+      [
+       "KDPI",
+       "Calidad del donante fallecido"
+      ],
+      [
+       "Inhibidor mTOR",
+       "Linfocele, proteinuria, mala cicatrización"
+      ],
+      [
+       "Desensibilización",
+       "IVIG + plasmaféresis ± rituximab"
+      ],
+      [
+       "Imlifidasa",
+       "Escinde IgG"
+      ],
+      [
+       "PTLD",
+       "Asociado a VEB"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -828,55 +879,17 @@
      "pairs": []
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
-      [
-       "Rechazo celular (TCMR)",
-       "Tubulitis + inflamación intersticial"
-      ],
-      [
-       "Rechazo humoral (AMR)",
-       "DSA + C4d + capilaritis"
-      ],
-      [
-       "Prueba cruzada virtual",
-       "DSA por antígeno único (Luminex)"
-      ],
-      [
-       "Nefropatía por BK",
-       "Reducir inmunosupresión"
-      ],
-      [
-       "CMV D+/R−",
-       "Valganciclovir 6 meses"
-      ],
-      [
-       "Función retardada",
-       "Diálisis en 1.ª semana"
-      ],
-      [
-       "KDPI",
-       "Calidad del donante fallecido"
-      ],
-      [
-       "Inhibidor mTOR",
-       "Linfocele, proteinuria, mala cicatrización"
-      ],
-      [
-       "Desensibilización",
-       "IVIG + plasmaféresis ± rituximab"
-      ],
-      [
-       "Imlifidasa",
-       "Escinde IgG"
-      ],
-      [
-       "PTLD",
-       "Asociado a VEB"
-      ]
-     ]
+     "type": "algoritmo",
+     "title": "Viremia BK en el trasplante",
+     "items": [
+      "Tamizaje PCR mensual hasta el mes 9",
+      "Carga baja aislada: repetir en ~2 semanas",
+      "Persistente o > 10 000 copias/mL: reducir IS",
+      "Reducir MMF y luego ICN de forma escalonada",
+      "PCR-BK cada 2–4 semanas",
+      "Reintroducir IS al resolver la viremia"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [

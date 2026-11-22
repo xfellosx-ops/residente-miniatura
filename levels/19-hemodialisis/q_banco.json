@@ -1857,5 +1857,1601 @@
   "tema": "Hemodiálisis",
   "obj": "19.o2",
   "peso": 44.4
+ },
+ {
+  "id": "AZ2-10",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipotensión intradiálisis y peso seco",
+  "caso": "Paciente en HD con hipertensión prediálisis e hipotensión con calambres. Pre-HD: VCI 1.9 cm, LUS 10 líneas B, VExUS 2. UF de 2.5 L en 4 h (10 mL/kg/h); post-HD: VCI 1.5 cm, LUS 4, VExUS 0; hipotensión al final.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Hipotensión intradiálisis con VExUS 0 y VCI colapsable no es 'falta de volumen': es velocidad de UF. BIS: OH/ECW >15% predice mortalidad.",
+  "referencias": [
+   "Arizaga Nápoles M. Estado de volumen y POCUS. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 2"
+  ],
+  "serie_id": "AZ2-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 2)"
+  ],
+  "opciones": {
+   "A": "Subir el peso seco porque la hipotensión indica hipovolemia",
+   "B": "Bajar el peso seco de forma gradual con UF ≤13 mL/kg/h",
+   "C": "Aumentar la UF a 15 mL/kg/h para alcanzar el peso seco antes",
+   "D": "Suspender el antihipertensivo y mantener la misma prescripción",
+   "E": "Cambiar a diálisis con sodio bajo y dializado tibio"
+  },
+  "explicaciones": {
+   "A": "La congestión prediálisis indica que aún está sobre el peso seco.",
+   "B": "Correcto. Tenía congestión real y se descongestionó; la hipotensión ocurrió cerca del peso seco. Sesión más larga o adicional, sodio y dializado fríos, y reevaluar con LUS y VExUS.",
+   "C": "UF >13 mL/kg/h se asocia a mortalidad y aturdimiento miocárdico.",
+   "D": "No corrige la velocidad de ultrafiltración.",
+   "E": "El dializado frío, no tibio, mejora la estabilidad."
+  },
+  "clave": "B",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-2",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "",
+  "enunciado": "¿Qué condición es el motivo para ofrecer HD incremental a un paciente y qué parámetros deben vigilarse periódicamente?",
+  "perla": "La FRR suficiente y medible es determinante, porque su depuración se suma a la de la HD. No basta con que orine: debe cuantificarse el Kru en orina interdialítica y verificar una depuración semanal total adecuada. Hay que reevaluarlo periódicamente e intensificar si cae la FRR o se pierde el control.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "Edad < 65 años; vigilar solo la creatinina",
+   "B": "TFGe < 10 sin importar la diuresis; vigilar solo el Kt/V de cada sesión",
+   "C": "Fístula arteriovenosa madura; mantener 2/semana indefinidamente si el acceso funciona",
+   "D": "FRR medida por Kru con diuresis; vigilar Kru y adecuación total",
+   "E": "Albúmina normal; vigilar solo la ganancia de peso"
+  },
+  "explicaciones": {
+   "A": "La edad no define la elegibilidad y la creatinina no cuantifica la contribución renal.",
+   "B": "La TFGe no sustituye al aclaramiento urinario en diálisis, y vigilar solo el Kt/V ignora la FRR, el volumen y los electrolitos.",
+   "C": "El acceso es necesario, pero no justifica reducir la frecuencia, y la prescripción no es indefinida.",
+   "D": "Correcto. La FRR suficiente y medible es determinante, porque su depuración se suma a la de la HD. No basta con que orine: debe cuantificarse el Kru en orina interdialítica y verificar una depuración semanal total adecuada. Hay que reevaluarlo periódicamente e intensificar si cae la FRR o se pierde el control.",
+   "E": "La FRR medida define la elegibilidad."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-3",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "Según ISO 23500, la NOM-003-SSA3-2010 y los expertos,",
+  "enunciado": "¿cuál es el parámetro más importante para reducir el estímulo inflamatorio crónico?",
+  "perla": "La ISO 23500-3:2024 fija requisitos químicos y microbiológicos y la ISO 23500-5:2024 define el líquido ultrapuro (bacterias < 0.1 UFC/mL, endotoxinas < 0.03 UE/mL). La NOM-003-SSA3-2010 exige tratamiento, desinfección y registros.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "El agua transparente y potable es adecuada",
+   "B": "Cumplir límites con vigilancia documentada y líquido ultrapuro",
+   "C": "Una conductividad normal garantiza la seguridad si se usa ósmosis inversa",
+   "D": "Mantener el calcio del agua < 2 mg/L; la pureza microbiológica solo importa si hay fiebre",
+   "E": "Usar solo filtros de carbón activado sin cultivos"
+  },
+  "explicaciones": {
+   "A": "El aspecto del agua no define su utilidad, y la dureza solo refleja sales de calcio y magnesio.",
+   "B": "Correcto. La ISO 23500-3:2024 fija requisitos químicos y microbiológicos y la ISO 23500-5:2024 define el líquido ultrapuro (bacterias < 0.1 UFC/mL, endotoxinas < 0.03 UE/mL). La NOM-003-SSA3-2010 exige tratamiento, desinfección y registros. Las endotoxinas son el parámetro más vinculado a la inflamación: activan monocitos y citocinas aun sin infección.",
+   "C": "La conductividad refleja sales disueltas; aun con ósmosis inversa deben medirse aluminio, cloro/cloraminas, bacterias y endotoxinas.",
+   "D": "El calcio del agua no se relaciona con la inflamación, y la ausencia de fiebre no excluye inflamación sistémica.",
+   "E": "No garantiza pureza microbiológica."
+  },
+  "clave": "B",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-4",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "",
+  "enunciado": "Ventaja de la HV HDF (hemodiafiltración de alto volumen) vs. HDx (hemodiálisis expandida con membrana de punto de corte mediano).",
+  "perla": "CONVINCE (25.3 L/sesión) mostró menor mortalidad con HDF-AV frente a HD de alto flujo (17.3 vs 21.9%; HR 0.77) y menor deterioro de la calidad de vida, pero no la comparó con HDx.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "La HDF-AV es superior a la HDx en todos los desenlaces",
+   "B": "La HDx tiene mayor sobrevida que la HDF-AV y mejora de forma concluyente la inflamación y la nutrición",
+   "C": "Ambas son equivalentes en todo; el acceso, el volumen convectivo y la albúmina no influyen en la elección",
+   "D": "HDF-AV mejora sobrevida frente a alto flujo; HDx no inferior a HDF",
+   "E": "La HDx no requiere vigilar la albúmina"
+  },
+  "explicaciones": {
+   "A": "Extrapola el beneficio frente a alto flujo como si se hubiera demostrado frente a HDx.",
+   "B": "La HDx no tiene evidencia de mayor sobrevida y puede causar una pequeña pérdida de albúmina.",
+   "C": "La falta de superioridad no equivale a equivalencia: el acceso, el volumen convectivo y la albúmina sí influyen en la elección.",
+   "D": "Correcto. CONVINCE (25.3 L/sesión) mostró menor mortalidad con HDF-AV frente a HD de alto flujo (17.3 vs 21.9%; HR 0.77) y menor deterioro de la calidad de vida, pero no la comparó con HDx. Ambas amplían la depuración de moléculas medianas, con resultados dependientes de la molécula; frente a HDx no hay superioridad definitiva en mortalidad, hemodinamia, nutrición ni inflamación.",
+   "E": "La HDx puede perder albúmina."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-6",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "Con base en los resultados de MOTheR y CONCORDIA (2026),",
+  "enunciado": "¿cuál es la interpretación más correcta sobre la mortalidad con HDx?",
+  "perla": "MOTheR (ECA) cumplió no inferioridad para el compuesto de muerte y eventos CV (14.6 vs 16.9/100 pacientes-año), con mortalidad cruda similar (20.2 vs 21.4%), pero no fue diseñado para la mortalidad aislada. CONCORDIA (observacional, control externo DOPPS) mostró HR 0.75 (0.54–1.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "No inferioridad frente a HDF: comparabilidad, no superioridad",
+   "B": "Ambos demostraron que la HDx reduce la mortalidad frente a la HDF en línea",
+   "C": "CONCORDIA, por su ajuste multivariable, demuestra de forma causal que la HDx es superior a la HD de alto flujo",
+   "D": "Equivalen a demostrar que la HDx reduce la mortalidad frente a HD de alto flujo, porque HDF y alto flujo son intercambiables",
+   "E": "MOTheR mostró menor mortalidad con HDx frente a HDF"
+  },
+  "explicaciones": {
+   "A": "Correcto. MOTheR (ECA) cumplió no inferioridad para el compuesto de muerte y eventos CV (14.6 vs 16.9/100 pacientes-año), con mortalidad cruda similar (20.2 vs 21.4%), pero no fue diseñado para la mortalidad aislada. CONCORDIA (observacional, control externo DOPPS) mostró HR 0.75 (0.54–1.04): el intervalo incluye 1, así que no demuestra superioridad. Ambos sugieren comparabilidad y son preliminares.",
+   "B": "Confunde no inferioridad con superioridad.",
+   "C": "El ajuste multivariable no convierte un estudio observacional en aleatorizado, y el comparador fue HDF, no HD de alto flujo.",
+   "D": "La HDF de alto volumen y la HD de alto flujo son modalidades distintas; un resultado frente a una no se extrapola a la otra.",
+   "E": "Mostró no inferioridad en un compuesto."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-7",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "Hombre en HDF 3 × 4 h, con FAV, Qb 380–400 mL/min y Hct 32%.",
+  "enunciado": "¿Qué es lo más importante para implementar la HDF posdilucional de alto volumen?",
+  "perla": "Lo decisivo es poder administrar de forma sostenida una dosis convectiva alta (sustitución + UF neta ≥ 23 L/sesión en posdilución; CONVINCE logró ~25 L). Se requiere acceso con flujo alto y estable, tiempo suficiente, dializador de alto flujo, control de la fracción de filtración y líquido ultrapuro.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "Edad < 65 años y β2-microglobulina elevada",
+   "B": "Cualquier dializador de alto flujo y 15 L de sustitución",
+   "C": "Reducir el Qb a < 250 mL/min; la pureza del líquido es secundaria",
+   "D": "Prescribir 30 L de sustitución en predilución",
+   "E": "Sostener ≥23 L convectivos con acceso, Qb y agua ultrapura"
+  },
+  "explicaciones": {
+   "A": "Ni la edad ni la β2M garantizan alcanzar el volumen.",
+   "B": "10–15 L no reproducen la dosis de los ensayos; la hemoconcentración se maneja individualizando la prescripción.",
+   "C": "Un Qb bajo reduce el agua plasmática disponible, y el líquido en línea entra directo a la sangre, por lo que su pureza no es secundaria.",
+   "D": "La predilución no equivale a posdilución.",
+   "E": "Correcto. Lo decisivo es poder administrar de forma sostenida una dosis convectiva alta (sustitución + UF neta ≥ 23 L/sesión en posdilución; CONVINCE logró ~25 L). Se requiere acceso con flujo alto y estable, tiempo suficiente, dializador de alto flujo, control de la fracción de filtración y líquido ultrapuro. Este paciente reúne las condiciones."
+  },
+  "clave": "E",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-8",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "Hombre de 64 años en HDF posdilucional 3 × 240 min por FAV; Qb efectivo 285 mL/min, volumen convectivo 21.5 L, sin alarmas de PTM, coagulación ni inestabilidad.",
+  "enunciado": "¿Qué modificarías de manera inicial para superar 23 L?",
+  "perla": "Volumen convectivo = vol. sustitución + UF neta (21.5 L); faltan ≥ 1.5 . En posdilución, la sustitución depende de la sangre procesada (Qb efectivo × tiempo) y de la fracción de filtración. Con tiempo, presiones y acceso adecuado, lo major es subir gradualmente el Qb cuidando PTM, presión venosa, hemoconcentración y coagulación.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "Reducir el Qb a 250 mL/min para aumentar el tiempo de contacto con la membrana",
+   "B": "Aumentar la UF neta 2 L por debajo del peso seco",
+   "C": "Subir el Qb a 350–400 mL/min vigilando presiones",
+   "D": "Cambiar a predilución con 23 L de sustitución, por ser equivalente a posdilución",
+   "E": "Prolongar a 5 h reduciendo el Qb a 200"
+  },
+  "explicaciones": {
+   "A": "Reducir el Qb disminuye el agua plasmática procesada y la sustitución.",
+   "B": "La UF neta debe prescribirse según la ganancia y el peso seco; retirar 2 L de más causa hipovolemia e hipotensión.",
+   "C": "Correcto. Volumen convectivo = vol. sustitución + UF neta (21.5 L); faltan ≥ 1.5 . En posdilución, la sustitución depende de la sangre procesada (Qb efectivo × tiempo) y de la fracción de filtración. Con tiempo, presiones y acceso adecuado, lo major es subir gradualmente el Qb cuidando PTM, presión venosa, hemoconcentración y coagulación.",
+   "D": "La predilución diluye los solutos que llegan al dializador; 1 L en predilución no equivale a 1 L en posdilución.",
+   "E": "Bajar el Qb reduce la convección."
+  },
+  "clave": "C",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-1",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "Paciente en HD con catéter tunelizado presenta fiebre y escalofríos. Hemocultivos simultáneos del CVC y de vena periférica aíslan el mismo microorganismo.",
+  "enunciado": "¿Qué hallazgo apoya que el catéter sea la fuente?",
+  "perla": "Un tiempo diferencial de positividad ≥ 2 h a favor del CVC apoya la BRC; KDOQI también acepta una relación cuantitativa ≥ 3:1 CVC/periférico.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "El cultivo periférico se positiviza 2 h antes que el del CVC",
+   "B": "El cultivo del CVC se positiviza al menos 2 h antes que el periférico",
+   "C": "Ambos se positivizan simultáneamente, sin importar la carga bacteriana",
+   "D": "El cultivo periférico tiene 3 veces más UFC que el del CVC",
+   "E": "El cultivo del CVC muestra la mitad de UFC que el periférico"
+  },
+  "explicaciones": {
+   "A": "Si el periférico se positiviza antes, sugiere otra fuente.",
+   "B": "Correcto. Un tiempo diferencial de positividad ≥ 2 h a favor del CVC apoya la BRC; KDOQI también acepta una relación cuantitativa ≥ 3:1 CVC/periférico.",
+   "C": "La positividad simultánea no permite localizar el origen.",
+   "D": "La mayor carga debe estar en la muestra del CVC, no en la periférica.",
+   "E": "El CVC debe tener ≥3 veces más UFC."
+  },
+  "clave": "B",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-2",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "En sospecha de bacteriemia relacionada a catéter (BRC), cuando es difícil obtener sangre periférica,",
+  "enunciado": "¿qué estrategia es apropiada específicamente en HD?",
+  "perla": "IDSA recomienda proteger las venas potenciales para una FAV; si no se puede obtener muestra periférica, pueden cultivarse las líneas conectadas al CVC durante la HD, que equivalen a una fuente periférica.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Puncionar una vena proximal más accesible",
+   "B": "Un cultivo del lumen, venoso o arterial",
+   "C": "Omitir cultivos y tratar empíricamente",
+   "D": "Tomar sangre arterial femoral por punción directa",
+   "E": "Tomar muestras del circuito de HD conectado al CVC"
+  },
+  "explicaciones": {
+   "A": "Puncionar venas proximales compromete futuros accesos.",
+   "B": "Un solo cultivo del lumen no permite comparar dos sitios.",
+   "C": "Los cultivos deben tomarse antes del antibiótico siempre que sea posible.",
+   "D": "Innecesaria y lesiva para el capital vascular.",
+   "E": "Correcto. IDSA recomienda proteger las venas potenciales para una FAV; si no se puede obtener muestra periférica, pueden cultivarse las líneas conectadas al CVC durante la HD, que equivalen a una fuente periférica."
+  },
+  "clave": "E",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-3",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "Paciente con BRC que inició vancomicina empírica. Se identifica S. aureus meticilino sensible; está estable y sin alergia a betalactámicos.",
+  "enunciado": "¿Cuál es la mejor conducta?",
+  "perla": "En MSSA se recomienda un betalactámico activo; en HD, continuar vancomicina se asoció a más fracaso terapéutico que la cefazolina (31.2 vs 13%).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Continuar vancomicina 3 a 4 semanas",
+   "B": "Cambiar a linezolid oral para evitar efectos adversos",
+   "C": "Cambiar a cefazolina posterior a la HD",
+   "D": "Mantener vancomicina y añadir gentamicina 3 a 4 semanas",
+   "E": "Daptomicina como primera elección"
+  },
+  "explicaciones": {
+   "A": "La vancomicina es inferior para MSSA.",
+   "B": "El linezolid oral no es el tratamiento de elección para una bacteriemia por S. aureus.",
+   "C": "Correcto. En MSSA se recomienda un betalactámico activo; en HD, continuar vancomicina se asoció a más fracaso terapéutico que la cefazolina (31.2 vs 13%).",
+   "D": "Agregar gentamicina aumenta la toxicidad sin beneficio.",
+   "E": "Reservada para enterococo resistente."
+  },
+  "clave": "C",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-5",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "BRC por MSSA; el catéter fue retirado y recibió tratamiento dirigido. A las 72 h persisten fiebre y hemocultivos positivos.",
+  "enunciado": "¿Qué es lo más correcto?",
+  "perla": "La bacteriemia persistente > 72 h obliga a investigar infección complicada; la endocarditis, la tromboflebitis o la persistencia tras el retiro suelen requerir 4–6 semanas, y la osteomielitis, 6–8 semanas.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Probable infección complicada: buscar foco metastásico",
+   "B": "Evolución esperable; reevaluar en 72 horas más",
+   "C": "Suspender cefazolina y usar solo sello antibiótico",
+   "D": "Colocar de inmediato un nuevo CVC tunelizado",
+   "E": "Cambiar a vancomicina por falta de respuesta"
+  },
+  "explicaciones": {
+   "A": "Correcto. La bacteriemia persistente > 72 h obliga a investigar infección complicada; la endocarditis, la tromboflebitis o la persistencia tras el retiro suelen requerir 4–6 semanas, y la osteomielitis, 6–8 semanas.",
+   "B": "No es una evolución esperable y retrasa el diagnóstico.",
+   "C": "El sello no tiene papel si ya se retiró el catéter y nunca sustituye al sistémico.",
+   "D": "No debe colocarse un nuevo tunelizado hasta documentar hemocultivos negativos.",
+   "E": "El problema es un foco, no el antibiótico."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-6",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "En infecciones del acceso vascular, el antibiótico se inició el lunes y los cultivos se negativizan por primera vez el jueves.",
+  "enunciado": "¿Qué día es el día 1 del tratamiento?",
+  "perla": "IDSA define el día 1 del tratamiento como el primer día en que se obtienen hemocultivos negativos.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Lunes",
+   "B": "Jueves",
+   "C": "Martes",
+   "D": "El día del retiro del CVC",
+   "E": "El día de la primera dosis de antibiótico efectivo"
+  },
+  "explicaciones": {
+   "A": "El inicio del antibiótico no define la duración.",
+   "B": "Correcto. IDSA define el día 1 del tratamiento como el primer día en que se obtienen hemocultivos negativos.",
+   "C": "El inicio del antibiótico no define la duración.",
+   "D": "El retiro del catéter es una medida de control del foco, no el inicio del conteo.",
+   "E": "El día 1 es el primer cultivo negativo."
+  },
+  "clave": "B",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-7",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿En qué escenario es más razonable conservar un catéter tunelizado con antibiótico sistémico + sello antibiótico?",
+  "perla": "El salvamento se reserva para casos seleccionados sin indicación de retiro; el estafilococo coagulasa negativo no complicado es el escenario clásico.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "S. aureus con buena respuesta a los 7 días",
+   "B": "P. aeruginosa con buena respuesta en menos de 7 días",
+   "C": "Candidemia sin alergia a fluconazol",
+   "D": "Coagulasa negativo no complicado con respuesta rápida",
+   "E": "Enterococo con fiebre persistente a 72 h"
+  },
+  "explicaciones": {
+   "A": "S. aureus, Pseudomonas y Candida favorecen el retiro del catéter, aun con buena respuesta inicial.",
+   "B": "S. aureus, Pseudomonas y Candida favorecen el retiro del catéter, aun con buena respuesta inicial.",
+   "C": "S. aureus, Pseudomonas y Candida favorecen el retiro del catéter, aun con buena respuesta inicial.",
+   "D": "Correcto. El salvamento se reserva para casos seleccionados sin indicación de retiro; el estafilococo coagulasa negativo no complicado es el escenario clásico.",
+   "E": "La persistencia obliga a retirar."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-8",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "Respecto al sello terapéutico de un catéter tunelizado,",
+  "enunciado": "¿qué afirmación es correcta?",
+  "perla": "El sello es adjunto al tratamiento sistémico; se usa el volumen exacto del lumen y permanece durante el periodo interdialítico.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Se instila al terminar la HD con el volumen marcado",
+   "B": "Sustituye al antibiótico sistémico en la BRC",
+   "C": "Debe sobrellenarse el lumen con al menos 0.5 mL extra al volumen marcado",
+   "D": "Se administra como bolo sistémico al inicio de la siguiente HD",
+   "E": "Se cambia una vez por semana"
+  },
+  "explicaciones": {
+   "A": "Correcto. El sello es adjunto al tratamiento sistémico; se usa el volumen exacto del lumen y permanece durante el periodo interdialítico.",
+   "B": "Nunca sustituye al antibiótico sistémico en la BRC.",
+   "C": "No debe sobrellenarse, para evitar la fuga sistémica.",
+   "D": "El sello se aspira antes de usar el lumen; no se administra como bolo.",
+   "E": "Se renueva en cada sesión."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-10",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "La ferritina elevada se ha asociado con infección relacionada a catéter.",
+  "enunciado": "¿Cuál es la interpretación correcta?",
+  "perla": "La asociación multivariada no demuestra causalidad: la ferritina puede reflejar inflamación o comorbilidad; la duración del catéter también permaneció asociada.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Demuestra causalidad y debe reducirse para prevenir infecciones",
+   "B": "Identifica específicamente S. aureus",
+   "C": "Marcador de inflamación; no prueba causalidad",
+   "D": "Anula el efecto de la duración del catéter",
+   "E": "Contraindica el hierro IV en todo paciente"
+  },
+  "explicaciones": {
+   "A": "Una asociación no prueba causalidad.",
+   "B": "La ferritina no identifica microorganismos.",
+   "C": "Correcto. La asociación multivariada no demuestra causalidad: la ferritina puede reflejar inflamación o comorbilidad; la duración del catéter también permaneció asociada.",
+   "D": "La duración del catéter siguió siendo un factor independiente.",
+   "E": "No es lo que demuestra la asociación."
+  },
+  "clave": "C",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-11",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "Injerto de PTFE con colección focal, hemocultivos negativos, resto del injerto íntegro y anastomosis no afectada.",
+  "enunciado": "¿Qué estrategia es aceptable?",
+  "perla": "La AHA 2026 permite resección parcial + antimicrobianos en una infección verdaderamente localizada para intentar el salvamento, reconociendo un mayor riesgo de recurrencia.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-11",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Antibióticos solos durante 4 a 6 semanas",
+   "B": "Escisión total obligatoria siempre",
+   "C": "Continuar canulando el segmento infectado",
+   "D": "Trombectomía del injerto y antibiótico en sello local",
+   "E": "Resección parcial más antibiótico y vigilancia"
+  },
+  "explicaciones": {
+   "A": "Los antibióticos solos rara vez erradican la infección del material protésico.",
+   "B": "La escisión total se reserva para la infección extensa.",
+   "C": "Canular el segmento infectado perpetúa la infección.",
+   "D": "No controla el foco.",
+   "E": "Correcto. La AHA 2026 permite resección parcial + antimicrobianos en una infección verdaderamente localizada para intentar el salvamento, reconociendo un mayor riesgo de recurrencia."
+  },
+  "clave": "E",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-12",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "Injerto infectado con pseudoaneurisma que compromete la anastomosis arterial.",
+  "enunciado": "¿Cuál es la mejor conducta?",
+  "perla": "La AHA identifica la anastomosis arterial infectada como una situación especial que exige reconstrucción; el pseudoaneurisma o el sangrado indican infección profunda.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-12",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Cirugía urgente con resección y reconstrucción arterial",
+   "B": "Conservar la anastomosis si los cultivos se negativizan en menos de 7 días",
+   "C": "Drenaje percutáneo urgente + antibióticos y esperar 72 horas",
+   "D": "Sello antibiótico dentro del injerto",
+   "E": "Ligadura de la vena eferente sin resecar"
+  },
+  "explicaciones": {
+   "A": "Correcto. La AHA identifica la anastomosis arterial infectada como una situación especial que exige reconstrucción; el pseudoaneurisma o el sangrado indican infección profunda.",
+   "B": "La negativización de los cultivos no elimina el riesgo de ruptura.",
+   "C": "El drenaje percutáneo no controla la infección de la anastomosis y retrasa la cirugía.",
+   "D": "El sello antibiótico se usa en catéteres, no en injertos.",
+   "E": "No controla la infección."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-1",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "Paciente de 82 años con fragilidad avanzada, neoplasia activa y hemodiálisis prevista por pocos meses.",
+  "enunciado": "¿Cuál es el enfoque más apropiado para definir el acceso?",
+  "perla": "La estrategia actual no es \"fístula primero\" para todos, sino un plan de vida renal individualizado; si se anticipa un periodo corto de hemodiálisis, un catéter puede ser razonable si evita procedimientos sin beneficio probable.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Crear obligatoriamente una FAV radiocefálica, que siempre es la primera elección",
+   "B": "Decisión compartida según pronóstico y preferencias",
+   "C": "Colocar sistemáticamente un injerto protésico en el brazo dominante",
+   "D": "Diferir la conversación hasta que haya indicación urgente de diálisis",
+   "E": "FAV braquiocefálica por mejor flujo"
+  },
+  "explicaciones": {
+   "A": "La FAV no es obligatoria si la expectativa de vida no permite su maduración y uso.",
+   "B": "Correcto. La estrategia actual no es \"fístula primero\" para todos, sino un plan de vida renal individualizado; si se anticipa un periodo corto de hemodiálisis, un catéter puede ser razonable si evita procedimientos sin beneficio probable.",
+   "C": "El injerto no es sistemático y se prefiere el brazo no dominante.",
+   "D": "Diferir la conversación lleva a iniciar con catéter de urgencia.",
+   "E": "No considera la expectativa de vida."
+  },
+  "clave": "B",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-2",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "En una persona con alto riesgo de requerir hemodiálisis,",
+  "enunciado": "¿qué medida protege mejor las opciones de acceso?",
+  "perla": "Las punciones repetidas, los PICC y los dispositivos centrales lesionan las venas periféricas y centrales y comprometen una futura FAV; la preservación venosa debe empezar antes de la diálisis.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Preferir PICC para cualquier tratamiento IV prolongado",
+   "B": "Tomar muestras repetidas de la vena cefálica para documentar su permeabilidad",
+   "C": "Colocar catéter subclavio porque causa menos estenosis central",
+   "D": "Evitar punciones proximales en el brazo de la FAV",
+   "E": "Colocar catéter yugular izquierdo temprano"
+  },
+  "explicaciones": {
+   "A": "Los PICC dañan las venas del brazo.",
+   "B": "Las punciones repetidas de la cefálica la lesionan.",
+   "C": "El catéter subclavio causa más estenosis central.",
+   "D": "Correcto. Las punciones repetidas, los PICC y los dispositivos centrales lesionan las venas periféricas y centrales y comprometen una futura FAV; la preservación venosa debe empezar antes de la diálisis.",
+   "E": "Daña el capital venoso."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-4",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "Si la anatomía y las preferencias lo permiten,",
+  "enunciado": "¿qué principio debe guiar la localización inicial del acceso?",
+  "perla": "Una estrategia distal primero conserva segmentos proximales para futuras reconstrucciones, equilibrando anatomía, probabilidad de maduración, canulación y plan de vida renal.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Comenzar en el sitio más proximal para maximizar el flujo",
+   "B": "Usar siempre el brazo dominante",
+   "C": "Evitar la muñeca en todo paciente diabético",
+   "D": "Comenzar con un injerto protésico",
+   "E": "Favorecer un sitio distal"
+  },
+  "explicaciones": {
+   "A": "Iniciar proximal agota opciones y aumenta el riesgo de robo.",
+   "B": "Se prefiere el brazo no dominante.",
+   "C": "La diabetes no excluye la muñeca si el mapeo es adecuado.",
+   "D": "No preserva opciones.",
+   "E": "Correcto. Una estrategia distal primero conserva segmentos proximales para futuras reconstrucciones, equilibrando anatomía, probabilidad de maduración, canulación y plan de vida renal."
+  },
+  "clave": "E",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-5",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "Al planear una FAV, la arteria y la vena miden 1.8 mm.",
+  "enunciado": "¿Cuál es el mensaje más correcto para el paciente?",
+  "perla": "La guía recomienda informar que uno o ambos vasos < 2.0 mm predicen resultados menos favorables; no es una prohibición absoluta, pero modifica la probabilidad de éxito y la decisión compartida.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "El éxito está garantizado si el cirujano tiene experiencia",
+   "B": "El diámetro no influye en la maduración",
+   "C": "Vasos < 2 mm: peor resultado, discutir riesgo",
+   "D": "La única alternativa es un catéter no tunelizado",
+   "E": "Debe usarse injerto de inmediato"
+  },
+  "explicaciones": {
+   "A": "La experiencia no garantiza el éxito con vasos pequeños.",
+   "B": "El diámetro es un predictor clave (vena > 3.0 mm y arteria > 2.5 mm ideales).",
+   "C": "Correcto. La guía recomienda informar que uno o ambos vasos < 2.0 mm predicen resultados menos favorables; no es una prohibición absoluta, pero modifica la probabilidad de éxito y la decisión compartida.",
+   "D": "Pueden considerarse otros sitios o un injerto.",
+   "E": "No es la única opción."
+  },
+  "clave": "C",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-6",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Cuándo debe hacerse, en general, la primera valoración formal de maduración de una FAV en un adulto?",
+  "perla": "La valoración entre 2 y 6 semanas permite identificar problemas de maduración; si la falta de maduración persiste más allá de 6 semanas, debe investigarse y corregirse o plantearse una alternativa.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Solo en las primeras 24 horas",
+   "B": "Entre 2 y 6 semanas después de su creación",
+   "C": "A los 6 meses, aunque haya hallazgos anormales",
+   "D": "Hasta el primer intento de canulación",
+   "E": "A los 3 meses de forma sistemática"
+  },
+  "explicaciones": {
+   "A": "A las 24 horas solo se revisan complicaciones inmediatas.",
+   "B": "Correcto. La valoración entre 2 y 6 semanas permite identificar problemas de maduración; si la falta de maduración persiste más allá de 6 semanas, debe investigarse y corregirse o plantearse una alternativa.",
+   "C": "Esperar 6 meses retrasa el rescate.",
+   "D": "Canular una FAV inmadura la daña.",
+   "E": "Esperar 3 meses retrasa la detección de falla de maduración."
+  },
+  "clave": "B",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-7",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Qué hallazgo en un aneurisma de FAV sugiere mayor riesgo y necesidad de valoración urgente?",
+  "perla": "La piel comprometida, la expansión rápida, el dolor, la infección o el sangrado aumentan el riesgo de hemorragia; suele favorecerse la reparación quirúrgica.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Diámetro estable con piel íntegra y canulación fácil",
+   "B": "Thrill continuo estable sin síntomas",
+   "C": "Ausencia de cambios durante años",
+   "D": "Diámetro mayor de 2 cm estable",
+   "E": "Piel adelgazada, crecimiento rápido o sangrado"
+  },
+  "explicaciones": {
+   "A": "Describen aneurismas estables de bajo riesgo, que se vigilan.",
+   "B": "Describen aneurismas estables de bajo riesgo, que se vigilan.",
+   "C": "Describen aneurismas estables de bajo riesgo, que se vigilan.",
+   "D": "El tamaño estable no es alarma.",
+   "E": "Correcto. La piel comprometida, la expansión rápida, el dolor, la infección o el sangrado aumentan el riesgo de hemorragia; suele favorecerse la reparación quirúrgica."
+  },
+  "clave": "E",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-8",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "Paciente con dolor intenso en reposo, frialdad y lesión digital tras crear una FAV.",
+  "enunciado": "¿Cuál es la conducta correcta?",
+  "perla": "El robo con dolor en reposo o pérdida tisular es isquemia clínicamente significativa; el tratamiento se individualiza (revisión del flujo de entrada, banding calibrado, DRIL, RUDI).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Observar 3 meses, porque todo robo es autolimitado",
+   "B": "Aumentar el flujo de la FAV",
+   "C": "Valoración vascular urgente y restaurar la perfusión",
+   "D": "Canular la FAV con mayor frecuencia",
+   "E": "Aumentar el Qb para mejorar el flujo distal"
+  },
+  "explicaciones": {
+   "A": "El robo grave no es autolimitado y puede causar pérdida digital.",
+   "B": "Aumentar el flujo empeora el robo.",
+   "C": "Correcto. El robo con dolor en reposo o pérdida tisular es isquemia clínicamente significativa; el tratamiento se individualiza (revisión del flujo de entrada, banding calibrado, DRIL, RUDI).",
+   "D": "La canulación no modifica la isquemia.",
+   "E": "Agrava el robo."
+  },
+  "clave": "C",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-10",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "Una FAV muestra estenosis del 60% en imagen, pero conserva diálisis adecuada y no tiene signos de disfunción.",
+  "enunciado": "¿Cuál es la conducta más apropiada?",
+  "perla": "Se interviene cuando la estenosis radiológicamente significativa se acompaña de indicadores clínicos de disfunción; tratar lesiones incidentales añade procedimientos y daño sin beneficio demostrado.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Vigilancia; no intervenir una estenosis asintomática",
+   "B": "Angioplastia inmediata por el porcentaje de estenosis",
+   "C": "Stent cubierto preventivo",
+   "D": "Ligadura inmediata de la FAV",
+   "E": "Trombólisis preventiva"
+  },
+  "explicaciones": {
+   "A": "Correcto. Se interviene cuando la estenosis radiológicamente significativa se acompaña de indicadores clínicos de disfunción; tratar lesiones incidentales añade procedimientos y daño sin beneficio demostrado.",
+   "B": "El porcentaje de estenosis por sí solo no indica intervención.",
+   "C": "El porcentaje de estenosis por sí solo no indica intervención.",
+   "D": "La ligadura no tiene indicación en un acceso funcional.",
+   "E": "No está indicada."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-2",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Qué combinación define el fenotipo de hipertensión enmascarada en hemodiálisis?",
+  "perla": "La hipertensión queda oculta para la medición en la unidad, pero aparece al evaluar la presión fuera del centro (6.9% en la cohorte de 217 pacientes).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "Presión normal en la unidad y alta en casa",
+   "B": "Presión alta en la unidad y normal en casa",
+   "C": "Presión alta en la unidad y en casa",
+   "D": "Presión normal en la unidad y en casa",
+   "E": "Hipotensión intradiálisis recurrente"
+  },
+  "explicaciones": {
+   "A": "Correcto. La hipertensión queda oculta para la medición en la unidad, pero aparece al evaluar la presión fuera del centro (6.9% en la cohorte de 217 pacientes).",
+   "B": "Corresponde al fenotipo de bata blanca.",
+   "C": "Corresponde a hipertensión sostenida.",
+   "D": "Corresponde a normotensión sostenida.",
+   "E": "No define el fenotipo."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-3",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Qué afirmación refleja mejor el conocimiento actual sobre la meta de presión arterial en hemodiálisis?",
+  "perla": "Faltan ECA con potencia suficiente y desenlaces duros que definan una meta universal en HD; se requiere individualizar.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "La TAS prediálisis debe mantenerse en 110–140 mmHg porque el estudio BID demostró menor mortalidad",
+   "B": "No existe una meta validada por ensayos con poder para desenlaces duros; se requiere individualizar",
+   "C": "Existe una meta universal validada < 130/80 mmHg, igual que en la población general",
+   "D": "La falta de meta se debe solo a que la presión domiciliaria no puede medirse de forma confiable",
+   "E": "La meta es TAS prediálisis < 160 mmHg"
+  },
+  "explicaciones": {
+   "A": "BID fue un piloto de factibilidad y seguridad, sin poder para mortalidad.",
+   "B": "Correcto. Faltan ECA con potencia suficiente y desenlaces duros que definan una meta universal en HD; se requiere individualizar.",
+   "C": "No se respalda extrapolar una cifra fija de la población general.",
+   "D": "Sí hay métodos válidos (MAPA y monitoreo domiciliario); el problema es la falta de ensayos de metas.",
+   "E": "No validada."
+  },
+  "clave": "B",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-4",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Cuál es la interpretación más adecuada del estudio DRIP?",
+  "perla": "Ese fue el efecto aproximado en DRIP, acompañado de más síntomas de hipotensión intradiálisis.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "Toda hipertensión en HD se explica por hipervolemia",
+   "B": "Intensificar la ultrafiltración redujo la mortalidad cardiovascular",
+   "C": "Justifica bajar el peso seco de forma indiscriminada hasta normalizar la presión prediálisis",
+   "D": "Bajar ~1 kg el peso redujo ~7 mmHg la TAS",
+   "E": "La HTA en HD no depende del volumen"
+  },
+  "explicaciones": {
+   "A": "DRIP aporta evidencia causal de respuesta al volumen en pacientes seleccionados, pero no demuestra que el volumen explique todos los casos.",
+   "B": "El desenlace fue la presión ambulatoria a 8 semanas, no la mortalidad.",
+   "C": "DRIP no respalda la ultrafiltración indiscriminada; debe considerarse la tolerancia.",
+   "D": "Correcto. Ese fue el efecto aproximado en DRIP, acompañado de más síntomas de hipotensión intradiálisis.",
+   "E": "El volumen sí participa."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-5",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "Respecto a la ecografía pulmonar para guiar el manejo de volumen,",
+  "enunciado": "¿qué mostró el ensayo LUST?",
+  "perla": "LUST mejoró el control de la congestión (78 vs 56%), pero no redujo el compuesto de muerte total, infarto no fatal o insuficiencia cardiaca descompensada.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "Alivió la congestión con más frecuencia, sin reducir el desenlace cardiovascular primario",
+   "B": "Redujo significativamente el compuesto de muerte, infarto no fatal o insuficiencia cardiaca",
+   "C": "No modificó la congestión, pero redujo la mortalidad total",
+   "D": "Debe sustituir a la evaluación clínica en todos los pacientes",
+   "E": "Aumentó la hipotensión intradiálisis"
+  },
+  "explicaciones": {
+   "A": "Correcto. LUST mejoró el control de la congestión (78 vs 56%), pero no redujo el compuesto de muerte total, infarto no fatal o insuficiencia cardiaca descompensada.",
+   "B": "No redujo significativamente su desenlace primario.",
+   "C": "Sí alivió la congestión y no redujo la mortalidad.",
+   "D": "Es útil para fenotipificar el volumen, pero no reemplaza la evaluación clínica.",
+   "E": "LUST no aumentó la hipotensión intradiálisis ni la redujo."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-7",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "Ante un aumento recurrente de la TA durante la sesión,",
+  "enunciado": "¿cuál es la más correcta?",
+  "perla": "En este fenotipo compiten varios mecanismos: volumen y sodio, mayor resistencia vascular, disfunción endotelial y remoción u horario de los fármacos.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "Asumir que el paciente está euvolémico porque la presión aumentó",
+   "B": "Considerarlo un fenómeno aislado y dar clonidina",
+   "C": "Confirmar recurrencia y reevaluar volumen y sodio",
+   "D": "Suspender toda ultrafiltración, ya que la resistencia vascular no participa",
+   "E": "Aumentar el sodio del dializado"
+  },
+  "explicaciones": {
+   "A": "Algunos pacientes con este fenotipo tienen mayor volumen extracelular; el aumento de la presión no define euvolemia.",
+   "B": "Primero debe confirmarse la recurrencia e investigarse el mecanismo; la evidencia de clonidina crónica es muy baja.",
+   "C": "Correcto. En este fenotipo compiten varios mecanismos: volumen y sodio, mayor resistencia vascular, disfunción endotelial y remoción u horario de los fármacos.",
+   "D": "La resistencia vascular sí participa y es parte de las hipótesis fisiopatológicas.",
+   "E": "Agrava la hipertensión."
+  },
+  "clave": "C",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-8",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Qué afirmación interpreta correctamente la evidencia farmacológica directa en hemodiálisis?",
+  "perla": "El ensayo de 2025 mostró una mayor reducción de la presión con ARNI (también en el subgrupo de HD), pero no tuvo potencia para MACE ni supervivencia.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "El amlodipino redujo la mortalidad",
+   "B": "Los IECA han demostrado cardioprotección universal y menos MACE",
+   "C": "La clonidina tiene ensayos grandes y prolongados que respaldan su uso crónico",
+   "D": "Atenolol aumentó la mortalidad en HDPAL",
+   "E": "Sacubitrilo/valsartán bajó más la TA, sin beneficio en MACE"
+  },
+  "explicaciones": {
+   "A": "En Tepel, la mortalidad (desenlace primario) fue numéricamente menor pero no significativa; el compuesto CV favorable fue secundario.",
+   "B": "FOSIDIAL y ARCADIA fueron neutrales para sus desenlaces CV.",
+   "C": "La evidencia de clonidina viene de estudios pequeños y breves, con certeza muy baja.",
+   "D": "No fue lo hallado.",
+   "E": "Correcto. El ensayo de 2025 mostró una mayor reducción de la presión con ARNI (también en el subgrupo de HD), pero no tuvo potencia para MACE ni supervivencia."
+  },
+  "clave": "E",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-9",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Qué concluyen ALCHEMIST y ACHIEVE sobre espironolactona en diálisis?",
+  "perla": "ALCHEMIST fue neutral para MACE y ACHIEVE no redujo la muerte CV ni la hospitalización por IC, y se detuvo por futilidad.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "Neutrales: no respaldan prevención CV rutinaria",
+   "B": "Debe usarse siempre para prevenir eventos CV",
+   "C": "Redujo de forma consistente la masa ventricular y la TA",
+   "D": "La hiperkalemia grave fue menos frecuente con espironolactona en ACHIEVE",
+   "E": "Aumentaron la mortalidad"
+  },
+  "explicaciones": {
+   "A": "Correcto. ALCHEMIST fue neutral para MACE y ACHIEVE no redujo la muerte CV ni la hospitalización por IC, y se detuvo por futilidad.",
+   "B": "Ningún ensayo grande demostró beneficio CV que justifique el uso preventivo rutinario.",
+   "C": "SPin-D y MiREnDa no mostraron mejoría consistente de masa ventricular, función cardiaca ni presión.",
+   "D": "En ACHIEVE, la hiperkalemia grave fue mayor con espironolactona (6.6 vs 4.5%).",
+   "E": "No fue lo hallado."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-10",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Cuál es la mejor secuencia para el manejo práctico de la hipertensión en hemodiálisis?",
+  "perla": "La secuencia propuesta es medición, volumen, sodio y prescripción de HD, seguida del razonamiento por mecanismo si la hipertensión persiste. Es un marco clínico, no un algoritmo validado por ECA.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "Agregar fármacos, después definir el estado de volumen y guiar con esto la ultrafiltración",
+   "B": "Fijar el mismo peso seco a todos y ultrafiltrar con base en ese peso aunque tengan calambres",
+   "C": "Suspender los antihipertensivos a todos antes de cada sesión y dar fármacos durante la diálisis si se requiere",
+   "D": "Medir bien, optimizar volumen y sodio, luego fármacos",
+   "E": "Iniciar betabloqueador a todos"
+  },
+  "explicaciones": {
+   "A": "Primero debe confirmarse la carga hipertensiva y valorarse los moduladores no farmacológicos antes de escalar fármacos; el volumen no se infiere de la presión.",
+   "B": "No existe un peso seco ni una meta universales; los calambres durante la UF obligan a individualizar y reevaluar el volumen objetivamente.",
+   "C": "TAKE-HOLD mostró que suspender de rutina no es inocuo, porque aumenta la hipertensión no controlada; la decisión se individualiza según dializabilidad y horario.",
+   "D": "Correcto. La secuencia propuesta es medición, volumen, sodio y prescripción de HD, seguida del razonamiento por mecanismo si la hipertensión persiste. Es un marco clínico, no un algoritmo validado por ECA.",
+   "E": "No es la secuencia."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-1",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "Hombre de 60 años con ERCT: diuresis 1000 mL/24 h, TFGe 8 mL/min, HCO3 17 mEq/L, K 5.8 mEq/L, sin sobrecarga.",
+  "enunciado": "¿Cuál es la conducta más apropiada?",
+  "perla": "La TRR no se inicia solo por la TFGe ni por el volumen urinario. La hiperkalemia y la acidosis aún no son refractarias, así que primero se corrigen.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "Diferir la diálisis por la diuresis de 1000 mL/día",
+   "B": "Iniciar HD 3/semana solo por la TFGe de 8 mL/min",
+   "C": "Mantener tratamiento conservador indefinido mientras no haya sobrecarga ni insuficiencia cardiaca",
+   "D": "Optimizar manejo médico, planear acceso y considerar HD incremental",
+   "E": "Iniciar DP urgente con catéter percutáneo"
+  },
+  "explicaciones": {
+   "A": "La diuresis refleja excreción de agua, no depuración de solutos, y no permite ignorar alteraciones persistentes.",
+   "B": "Una TFGe de 8 no obliga por sí sola a 3 sesiones/semana.",
+   "C": "La ausencia de sobrecarga no neutraliza el riesgo arrítmico de la hiperkalemia ni las consecuencias de una acidosis refractaria.",
+   "D": "Correcto. La TRR no se inicia solo por la TFGe ni por el volumen urinario. La hiperkalemia y la acidosis aún no son refractarias, así que primero se corrigen. Si persisten, la ausencia de sobrecarga y la diuresis conservada favorecen la HDi, pero antes debe medirse el Kru (mejores resultados con Kru > 3 mL/min y diuresis > 500 mL/día) y vigilarse mensualmente.",
+   "E": "No hay indicación urgente."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-5",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "",
+  "enunciado": "¿Por qué CONTRAST y Turkish OL-HDF fueron neutros, mientras ESHOL y CONVINCE mostraron menor mortalidad con HDF?",
+  "perla": "\"HDF en línea\" no fue la misma exposición: CONTRAST (19.8 L; HR 0.95) y Turkish (17.2 L) lograron volúmenes menores, con señales favorables solo post hoc; ESHOL (22.9–23.9 L) mostró HR 0.70; CONVINCE seleccionó desde el inicio candidatos a ≥ 23 L y confirmó, por intención de tratar, HR 0.77. El metaanálisis de 2024 (HR 0.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "El volumen convectivo realmente alcanzado",
+   "B": "CONTRAST y Turkish usaron predilución; ESHOL y CONVINCE, posdilución",
+   "C": "Los cuatro compararon contra HD de bajo flujo, pero solo ESHOL y CONVINCE usaron agua ultrapura",
+   "D": "Solo el tamaño muestral",
+   "E": "El uso de dializadores de bajo flujo en ESHOL"
+  },
+  "explicaciones": {
+   "A": "Correcto. \"HDF en línea\" no fue la misma exposición: CONTRAST (19.8 L; HR 0.95) y Turkish (17.2 L) lograron volúmenes menores, con señales favorables solo post hoc; ESHOL (22.9–23.9 L) mostró HR 0.70; CONVINCE seleccionó desde el inicio candidatos a ≥ 23 L y confirmó, por intención de tratar, HR 0.77. El metaanálisis de 2024 (HR 0.84) mostró una relación gradual entre volumen y riesgo.",
+   "B": "Los cuatro usaron HDF predominantemente posdilucional.",
+   "C": "Solo CONTRAST comparó contra bajo flujo; Turkish y CONVINCE, contra alto flujo, y la pureza del agua no explica la divergencia.",
+   "D": "También variaron el desenlace, el comparador, el volumen, la elegibilidad, la adherencia y el análisis.",
+   "E": "No explica la diferencia."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ14-9",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "HDi, HDx y hemodiafiltración",
+  "caso": "Paciente de 62 años en hemodiafiltración en línea (HDF), con Kt/V adecuado, que presenta prurito urémico persistente y concentraciones elevadas de β2-microglobulina. Debido a limitaciones del acceso vascular, mantiene un flujo sanguíneo (Qb) de 300 mL/min y alcanza un volumen convectivo de 16 L por sesión. Se considera cambiar a hemodiálisis expandida (HDx) con membrana de medium cut-off (MCO).",
+  "enunciado": "¿Cuál de las siguientes afirmaciones justifica mejor esta estrategia?",
+  "perla": "La HDx mejora la eliminación de ciertas moléculas medianas frente a la HD convencional y puede ser una alternativa cuando la HDF alcanza volúmenes convectivos bajos.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 14: HDi, HDx y hemodiafiltración"
+  ],
+  "serie_id": "AZ14-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 14)"
+  ],
+  "opciones": {
+   "A": "La HDx proporciona una eliminación de β2-microglobulina superior a la HDF de alto volumen y ha demostrado reducir la mortalidad cardiovascular",
+   "B": "La HDx elimina eficazmente las toxinas unidas a proteínas y evita las pérdidas de albúmina, por lo que no requiere vigilancia nutricional",
+   "C": "Mejora moléculas medianas sin sustitución; beneficio no probado",
+   "D": "La HDx requiere alcanzar un volumen convectivo mayor de 23 L por sesión para proporcionar una depuración adecuada de moléculas medianas",
+   "E": "La HDx no tiene ningún efecto sobre la β2-microglobulina"
+  },
+  "explicaciones": {
+   "A": "La HDx no ha demostrado reducir la mortalidad.",
+   "B": "No elimina eficazmente las toxinas unidas a proteínas y puede ocasionar pérdidas de albúmina.",
+   "C": "Correcto. La HDx mejora la eliminación de ciertas moléculas medianas frente a la HD convencional y puede ser una alternativa cuando la HDF alcanza volúmenes convectivos bajos.",
+   "D": "No requiere sustitución en línea.",
+   "E": "Sí aumenta su depuración."
+  },
+  "clave": "C",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-4",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "Paciente con su primer catéter no tunelizado, presenta BRC por Pseudomonas aeruginosa susceptible y requiere seguir en HD.",
+  "enunciado": "¿Cuál sería la mejor estrategia?",
+  "perla": "Ante BRC por Pseudomonas, S. aureus o Candida, IDSA recomienda retirar el CVC; si se requiere acceso inmediato, colocar otro en un sitio distinto. El intercambio sobre guía solo se considera si no hay alternativa.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Conservar el CVC con antibiótico sistémico y sello",
+   "B": "Intercambiar sobre guía para conservar siempre el acceso venoso",
+   "C": "Mantenerlo si la fiebre desaparece en 24 h",
+   "D": "Cambiar a sello de etanol y conservar el catéter",
+   "E": "Retirar el CVC y colocar otro en otro sitio"
+  },
+  "explicaciones": {
+   "A": "Pseudomonas favorece el retiro, y en un catéter no tunelizado no se intenta salvamento.",
+   "B": "Al ser su primer catéter, hay otros sitios disponibles.",
+   "C": "La desaparición de la fiebre no garantiza la erradicación del foco.",
+   "D": "Pseudomonas obliga a retirar.",
+   "E": "Correcto. Ante BRC por Pseudomonas, S. aureus o Candida, IDSA recomienda retirar el CVC; si se requiere acceso inmediato, colocar otro en un sitio distinto. El intercambio sobre guía solo se considera si no hay alternativa."
+  },
+  "clave": "E",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ15-9",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Infecciones en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Qué afirmación refleja mejor la evidencia sobre el riesgo infeccioso por tipo de acceso?",
+  "perla": "La literatura resumida por Hajji reporta ~3 veces más riesgo con catéter que con injerto y ~7 veces más que con FAV nativa.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 15: Infecciones en hemodiálisis"
+  ],
+  "serie_id": "AZ15-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 15)"
+  ],
+  "opciones": {
+   "A": "Catéter: ~3 veces el injerto y ~7 veces la FAV",
+   "B": "Catéter y fístula tienen riesgo comparable",
+   "C": "El injerto siempre supera al catéter",
+   "D": "El riesgo depende principalmente de otras comorbilidades",
+   "E": "El injerto tiene más riesgo que el catéter"
+  },
+  "explicaciones": {
+   "A": "Correcto. La literatura resumida por Hajji reporta ~3 veces más riesgo con catéter que con injerto y ~7 veces más que con FAV nativa.",
+   "B": "El riesgo del catéter es mucho mayor.",
+   "C": "Es al revés: el catéter supera en riesgo al injerto.",
+   "D": "El tipo de acceso es el principal determinante del riesgo infeccioso.",
+   "E": "El catéter es el de mayor riesgo."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-3",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Cuál es la evaluación preoperatoria más apropiada antes de decidir el sitio de una FAV?",
+  "perla": "La decisión de crear una FAV y dónde se informa mejor combinando exploración clínica y ultrasonido, que valora flujo arterial, venas superficiales, profundidad, continuidad y diámetros (62 vs 26% de permeabilidad a 1 año con mapeo).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Exploración física aislada en todos los pacientes",
+   "B": "Ultrasonido aislado sin integrar la clínica",
+   "C": "Angiografía arterial invasiva sistemática",
+   "D": "Clínica combinada con ultrasonido",
+   "E": "Flebografía con contraste en todos"
+  },
+  "explicaciones": {
+   "A": "Cada uno por separado pierde información.",
+   "B": "Cada uno por separado pierde información.",
+   "C": "La angiografía invasiva no es rutinaria; se reserva para casos seleccionados.",
+   "D": "Correcto. La decisión de crear una FAV y dónde se informa mejor combinando exploración clínica y ultrasonido, que valora flujo arterial, venas superficiales, profundidad, continuidad y diámetros (62 vs 26% de permeabilidad a 1 año con mapeo).",
+   "E": "No es sistemática."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ18-9",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acceso vascular en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Qué estrategia de canulación debe evitarse por favorecer daño focal, aneurismas y pérdida de la zona útil?",
+  "perla": "La punción repetida en una zona limitada concentra el trauma y favorece la dilatación y el deterioro de la pared; se prefiere la escalera de cuerda (o buttonhole en FAV seleccionadas), y en injertos, la escalera de cuerda.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 18: Acceso vascular en hemodiálisis"
+  ],
+  "serie_id": "AZ18-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 18)"
+  ],
+  "opciones": {
+   "A": "Punción por área repetitiva",
+   "B": "Escalera de cuerda",
+   "C": "Buttonhole en una FAV seleccionada",
+   "D": "Canulación ecoguiada en un acceso difícil",
+   "E": "Cambio de sitio de punción en cada sesión"
+  },
+  "explicaciones": {
+   "A": "Correcto. La punción repetida en una zona limitada concentra el trauma y favorece la dilatación y el deterioro de la pared; se prefiere la escalera de cuerda (o buttonhole en FAV seleccionadas), y en injertos, la escalera de cuerda.",
+   "B": "Son técnicas recomendadas.",
+   "C": "Son técnicas recomendadas.",
+   "D": "La canulación ecoguiada es útil en accesos difíciles.",
+   "E": "Es la técnica recomendada (escalera de cuerda)."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-1",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "En un paciente en HD con cifras elevadas antes y después de la sesión,",
+  "enunciado": "¿qué método ofrece la mejor certeza diagnóstica para confirmar la hipertensión interdialítica?",
+  "perla": "El MAPA de 44 horas es el estándar de oro para estimar la carga hipertensiva interdialítica; el MAPA de 24 horas y el monitoreo domiciliario protocolizado son alternativas útiles cuando no es factible.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "Una medición aislada inmediatamente antes de la HD",
+   "B": "El promedio de las mediciones pre y postdiálisis de una sesión",
+   "C": "La presión postdiálisis, por ser la más cercana a la euvolemia",
+   "D": "El MAPA de 44 horas",
+   "E": "Medición domiciliaria de un solo día"
+  },
+  "explicaciones": {
+   "A": "La prediálisis aislada tiene límites de concordancia muy amplios con la presión ambulatoria y puede sobre o subestimar la carga.",
+   "B": "Promediar dos mediciones peridiálisis no corrige la baja concordancia ni identifica los patrones fuera de la unidad.",
+   "C": "La postdiálisis informa sobre la estabilidad hemodinámica, pero tampoco estima con precisión la exposición interdialítica.",
+   "D": "Correcto. El MAPA de 44 horas es el estándar de oro para estimar la carga hipertensiva interdialítica; el MAPA de 24 horas y el monitoreo domiciliario protocolizado son alternativas útiles cuando no es factible.",
+   "E": "Insuficiente."
+  },
+  "clave": "D",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ23-6",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Hipertensión en hemodiálisis",
+  "caso": "",
+  "enunciado": "¿Qué concluyen los ensayos Daily y Nocturnal del FHN sobre hemodiálisis más frecuente?",
+  "perla": "Daily y Nocturnal redujeron la TAS 7.7 y 7.3 mmHg, respectivamente, con ~0.36–0.44 antihipertensivos menos por paciente.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 23: Hipertensión en hemodiálisis"
+  ],
+  "serie_id": "AZ23-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 23)"
+  ],
+  "opciones": {
+   "A": "Redujo la TAS ~7–8 mmHg",
+   "B": "La HD 6 veces por semana elevó la TAS para prevenir hipotensión",
+   "C": "El beneficio se explicó solo por la mayor depuración de urea",
+   "D": "Todos los pacientes deben recibir HD nocturna domiciliaria",
+   "E": "Duplicó la hipotensión intradiálisis"
+  },
+  "explicaciones": {
+   "A": "Correcto. Daily y Nocturnal redujeron la TAS 7.7 y 7.3 mmHg, respectivamente, con ~0.36–0.44 antihipertensivos menos por paciente.",
+   "B": "La TAS disminuyó en ambos ensayos.",
+   "C": "La prescripción integra frecuencia, tiempo, sodio, UF, depuración e intervalo; el efecto no se atribuye a una sola variable.",
+   "D": "Muestran que la prescripción modula la presión, pero no indican HD nocturna universal.",
+   "E": "No fue el hallazgo."
+  },
+  "clave": "A",
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
  }
 ]

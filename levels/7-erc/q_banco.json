@@ -2801,5 +2801,765 @@
   "tema": "Enfermedad renal crónica y síndrome urémico",
   "obj": "7.o14",
   "peso": 56.2
+ },
+ {
+  "id": "AZ19-1",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "",
+  "enunciado": "¿A partir de qué HCO₃ sérico se diagnostica habitualmente la acidosis metabólica en la ERC?",
+  "perla": "HCO₃ < 22 mmol/L es el umbral estándar en la práctica clínica y en cohortes como CRIC para definir acidosis metabólica en la ERC (presente en ~15% de los pacientes).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "< 18 mEq/L",
+   "B": "< 22 mEq/L",
+   "C": "< 15 mEq/L",
+   "D": "< 26 mEq/L",
+   "E": "< 20 mEq/L"
+  },
+  "explicaciones": {
+   "A": "< 18 mmol/L es el umbral de KDIGO 2024 para iniciar tratamiento farmacológico, no el diagnóstico.",
+   "B": "Correcto. HCO₃ < 22 mmol/L es el umbral estándar en la práctica clínica y en cohortes como CRIC para definir acidosis metabólica en la ERC (presente en ~15% de los pacientes).",
+   "C": "< 15 mEq/L corresponde a acidosis grave y subdiagnosticaría el trastorno.",
+   "D": "26 mEq/L es el límite superior normal; por encima hay riesgo de alcalosis.",
+   "E": "No es el umbral habitual."
+  },
+  "clave": "B",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-2",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "",
+  "enunciado": "¿Qué tipo de acidosis metabólica predomina en la ERC en estado estable?",
+  "perla": "En la cohorte de Zijlstra y Stegeman (501 pacientes, ERC estable), la elevación del AG fue limitada y la acidosis con AG normal (hiperclorémica) fue la más frecuente.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "Con anion gap elevado",
+   "B": "Acidosis láctica tipo B",
+   "C": "Cetoacidosis diabética",
+   "D": "Con anion gap normal",
+   "E": "Acidosis respiratoria crónica"
+  },
+  "explicaciones": {
+   "A": "El AG aumentó poco, de ~8.9 (G1) a ~11.1 mEq/L (G5).",
+   "B": "La acidosis láctica y la cetoacidosis son causas agudas con AG elevado, no la acidosis crónica de la ERC estable.",
+   "C": "La acidosis láctica y la cetoacidosis son causas agudas con AG elevado, no la acidosis crónica de la ERC estable.",
+   "D": "Correcto. En la cohorte de Zijlstra y Stegeman (501 pacientes, ERC estable), la elevación del AG fue limitada y la acidosis con AG normal (hiperclorémica) fue la más frecuente.",
+   "E": "No es metabólica."
+  },
+  "clave": "D",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-3",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "",
+  "enunciado": "En un paciente con ERC, ¿qué implica un anion gap > 15 mEq/L?",
+  "perla": "La retención de aniones orgánicos en la ERC estable eleva poco el AG (~11.2 mEq/L aun en G5): un AG > 15 mEq/L sugiere una causa adicional que hay que investigar.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "Es poco probable que se deba solo a la ERC",
+   "B": "Es consecuencia directa de hipoalbuminemia grave",
+   "C": "Confirma una ingesta excesiva de proteínas",
+   "D": "Indica una progresión normal hacia la etapa 5",
+   "E": "Indica acidosis tubular distal"
+  },
+  "explicaciones": {
+   "A": "Correcto. La retención de aniones orgánicos en la ERC estable eleva poco el AG (~11.2 mEq/L aun en G5): un AG > 15 mEq/L sugiere una causa adicional que hay que investigar.",
+   "B": "La hipoalbuminemia disminuye el AG, no lo eleva.",
+   "C": "La ingesta de proteínas no altera significativamente el AG.",
+   "D": "Incluso en G5 el AG típico es ~11 mEq/L, no > 15.",
+   "E": "El AG alto sugiere otra causa."
+  },
+  "clave": "A",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-5",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "Según KDIGO 2024 y el comentario de KDOQI,",
+  "enunciado": "¿cuándo considerar el tratamiento farmacológico en adultos?",
+  "perla": "KDIGO 2024 adopta un enfoque más conservador: considerar fármacos (NaHCO₃) solo si HCO₃ < 18 mmol/L o hay indicación clara; KDOQI lo atribuye a la falta de ensayos con beneficio inequívoco frente a los riesgos de sobrecarga de sodio.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "En todo paciente con ERC G3",
+   "B": "Con anion gap > 20 mEq/L",
+   "C": "Con HCO₃ < 18 mmol/L",
+   "D": "Con HCO₃ < 22 mmol/L",
+   "E": "Con HCO₃ < 20 mmol/L"
+  },
+  "explicaciones": {
+   "A": "La etapa de ERC sola no es indicación.",
+   "B": "El AG no define la indicación de álcali; un AG > 15 obliga a buscar otra causa.",
+   "C": "Correcto. KDIGO 2024 adopta un enfoque más conservador: considerar fármacos (NaHCO₃) solo si HCO₃ < 18 mmol/L o hay indicación clara; KDOQI lo atribuye a la falta de ensayos con beneficio inequívoco frente a los riesgos de sobrecarga de sodio.",
+   "D": "< 22 mmol/L era el umbral de KDIGO 2012; con 18–22 se prioriza la dieta y se observa.",
+   "E": "No es el umbral de KDIGO 2024."
+  },
+  "clave": "C",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-6",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "Aunque no se ha evaluado en grandes ensayos,",
+  "enunciado": "¿qué complicación teórica tiene el bicarbonato de sodio?",
+  "perla": "Modelos animales sugieren que la acidosis protege contra la calcificación vascular; corregirla en exceso, sobre todo con hiperfosfatemia, podría favorecerla.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "Aumento de la excreción urinaria de amonio",
+   "B": "Pérdida irreversible de masa muscular",
+   "C": "Acidosis láctica",
+   "D": "Hiperpotasemia",
+   "E": "Promoción de la calcificación vascular"
+  },
+  "explicaciones": {
+   "A": "El bicarbonato reduce la amoniogénesis y la excreción de amonio.",
+   "B": "Al contrario, se asocia a menor catabolismo y aumento de la masa muscular.",
+   "C": "No hay evidencia de que cause acidosis láctica.",
+   "D": "El bicarbonato tiende a bajar el K.",
+   "E": "Correcto. Modelos animales sugieren que la acidosis protege contra la calcificación vascular; corregirla en exceso, sobre todo con hiperfosfatemia, podría favorecerla."
+  },
+  "clave": "E",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-7",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "",
+  "enunciado": "¿Qué marcador estima indirectamente la excreción urinaria de amonio cuando no puede medirse?",
+  "perla": "El anion gap urinario (Na⁺ + K⁺ − Cl⁻) estima indirectamente el NH₄⁺, que se excreta con Cl⁻ para mantener la electroneutralidad: cuanto más negativo, mayor excreción de amonio.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "Anion gap urinario",
+   "B": "Cociente albúmina/creatinina urinario",
+   "C": "pH urinario en tira reactiva",
+   "D": "Anion gap sérico",
+   "E": "Osmolalidad sérica"
+  },
+  "explicaciones": {
+   "A": "Correcto. El anion gap urinario (Na⁺ + K⁺ − Cl⁻) estima indirectamente el NH₄⁺, que se excreta con Cl⁻ para mantener la electroneutralidad: cuanto más negativo, mayor excreción de amonio.",
+   "B": "El cociente albúmina/creatinina mide daño glomerular.",
+   "C": "El pH urinario no cuantifica el amonio (el NH₃ amortigua).",
+   "D": "El AG sérico clasifica la acidosis, pero no estima la excreción renal de amonio.",
+   "E": "No estima amonio urinario."
+  },
+  "clave": "A",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-8",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "",
+  "enunciado": "¿Por qué el anion gap urinario se vuelve más positivo al caer la TFG?",
+  "perla": "Al disminuir la TFG cae la excreción de NH₄⁺ (y de Cl⁻ que lo acompaña), por lo que el AG urinario se hace más positivo: mediana 12.8 mEq/L con TFGe ≥ 90 vs 20.0 con TFGe < 30 (p = 0.002) (Ito, Sci Rep 2025).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "Por mayor secreción tubular de sodio",
+   "B": "Por pérdida urinaria de bicarbonato en el túbulo distal",
+   "C": "Porque el pH urinario se vuelve muy alcalino",
+   "D": "Por menor excreción renal de amonio",
+   "E": "Por menor excreción de sulfato"
+  },
+  "explicaciones": {
+   "A": "No hay aumento de la secreción tubular de sodio.",
+   "B": "La pérdida distal de HCO₃ no es el mecanismo de la ERC.",
+   "C": "En la ERC el pH urinario suele ser ácido; un pH muy alcalino no explica el cambio.",
+   "D": "Correcto. Al disminuir la TFG cae la excreción de NH₄⁺ (y de Cl⁻ que lo acompaña), por lo que el AG urinario se hace más positivo: mediana 12.8 mEq/L con TFGe ≥ 90 vs 20.0 con TFGe < 30 (p = 0.002) (Ito, Sci Rep 2025).",
+   "E": "No es la causa."
+  },
+  "clave": "D",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-9",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "",
+  "enunciado": "¿Qué limita el anion gap urinario para estimar el amonio en ERC avanzada?",
+  "perla": "En la ERC avanzada se acumulan y excretan aniones no medidos (fosfato, sulfato) que alteran el AG urinario independientemente del amonio.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "La ausencia total de cloro urinario",
+   "B": "Aniones no medidos, como fosfato o sulfato",
+   "C": "Solo es válido con dieta vegetariana",
+   "D": "El amonio se une a la albúmina urinaria",
+   "E": "El pH urinario alcalino"
+  },
+  "explicaciones": {
+   "A": "La orina conserva cloro en la ERC avanzada.",
+   "B": "Correcto. En la ERC avanzada se acumulan y excretan aniones no medidos (fosfato, sulfato) que alteran el AG urinario independientemente del amonio.",
+   "C": "Su validez no depende de una dieta vegetariana.",
+   "D": "El amonio no se une a la albúmina urinaria.",
+   "E": "No es su principal limitación."
+  },
+  "clave": "B",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-2",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "Hombre de 49 años, trasplante renal hace 3 años, injerto estable, TFGe 48, c-LDL 118 mg/dL, sin ASCVD.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "El trasplante no elimina el riesgo cardiovascular de la ERC (disfunción renal residual, inmunosupresores que empeoran la dislipidemia, daño endotelial acumulado): la ERC G3 mantiene la indicación de prevención primaria, considerando interacciones y tolerabilidad.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "La ERC G3 mantiene la indicación de hipolipemiante en prevención primaria",
+   "B": "El trasplante elimina la indicación de hipolipemiante asociada a ERC",
+   "C": "Debe evitarse la estatina por interacción con tacrolimus",
+   "D": "Solo se trata si el CAC es > 100",
+   "E": "Solo se trata si hay diabetes"
+  },
+  "explicaciones": {
+   "A": "Correcto. El trasplante no elimina el riesgo cardiovascular de la ERC (disfunción renal residual, inmunosupresores que empeoran la dislipidemia, daño endotelial acumulado): la ERC G3 mantiene la indicación de prevención primaria, considerando interacciones y tolerabilidad.",
+   "B": "El riesgo persiste tras el trasplante.",
+   "C": "El tacrolimus solo es sustrato de CYP3A4, con interacción moderada; es mucho más seguro que la ciclosporina y permite usar estatina vigilando niveles valle.",
+   "D": "El CAC no condiciona el tratamiento cuando la ERC ya lo indica.",
+   "E": "La ERC G3 basta."
+  },
+  "clave": "A",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-3",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "Paciente de 57 años con ERC G4 y diabetes con estatina de alta intensidad: c-LDL 67, TG 285, c-HDL 37 y c-no-HDL 104 mg/dL.",
+  "enunciado": "¿Qué prueba ayuda a evaluar el riesgo residual?",
+  "perla": "La apoB es particularmente útil para evaluar el riesgo residual con TG > 200 mg/dL, diabetes o c-LDL alcanzado < 70 mg/dL, situaciones en las que el c-LDL subestima las partículas aterogénicas.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "Lipasa pancreática",
+   "B": "ApoB",
+   "C": "Homocisteína",
+   "D": "CK total",
+   "E": "Ácido úrico"
+  },
+  "explicaciones": {
+   "A": "La lipasa evalúa pancreatitis, no riesgo aterogénico.",
+   "B": "Correcto. La apoB es particularmente útil para evaluar el riesgo residual con TG > 200 mg/dL, diabetes o c-LDL alcanzado < 70 mg/dL, situaciones en las que el c-LDL subestima las partículas aterogénicas.",
+   "C": "La homocisteína no forma parte de los objetivos lipídicos de la guía.",
+   "D": "La CK vigila la miotoxicidad de las estatinas, no el riesgo residual.",
+   "E": "No evalúa riesgo residual lipídico."
+  },
+  "clave": "B",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-4",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "Mujer de 46 años con ERC G3a, c-LDL 82 mg/dL, sin ASCVD; su padre tuvo un infarto a los 48 años. Nunca se ha medido Lp(a).",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "La guía recomienda medir Lpal menos una vez en la vida; ≥ 125 nmol/L (≥ 50 mg/dL) es un factor que aumenta el riesgo y favorece una reducción más intensiva del c-LDL y el control de otros factores.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "Solo se mide si el c-LDL es > 190 mg/dL",
+   "B": "Solo se mide tras un evento cardiovascular",
+   "C": "No tiene utilidad en la ERC",
+   "D": "Lp, a se mide al menos una vez",
+   "E": "Solo en mujeres posmenopáusicas"
+  },
+  "explicaciones": {
+   "A": "La medición no depende del c-LDL ni de un evento previo; es de cribado universal.",
+   "B": "La medición no depende del c-LDL ni de un evento previo; es de cribado universal.",
+   "C": "La Lpes uno de los marcadores relevantes en la ERC, donde el c-LDL no siempre refleja el riesgo.",
+   "D": "Correcto. La guía recomienda medir Lpal menos una vez en la vida; ≥ 125 nmol/L (≥ 50 mg/dL) es un factor que aumenta el riesgo y favorece una reducción más intensiva del c-LDL y el control de otros factores.",
+   "E": "No es criterio."
+  },
+  "clave": "D",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-5",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "",
+  "enunciado": "¿Qué recomienda ACC/AHA 2026 sobre las estatinas en hemodiálisis de mantenimiento?",
+  "perla": "En ERC en hemodiálisis de mantenimiento, continuar la estatina es razonable (2b, C-LD), con decisión individualizada según la supervivencia esperada, las comorbilidades y la gravedad de la ASCVD.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "Continuarla puede ser razonable, individualizando",
+   "B": "Estatina de alta intensidad en todos",
+   "C": "Suspender toda estatina al iniciar HD",
+   "D": "Usar únicamente ezetimiba",
+   "E": "Iniciar fibrato en todos para reducir triglicéridos"
+  },
+  "explicaciones": {
+   "A": "Correcto. En ERC en hemodiálisis de mantenimiento, continuar la estatina es razonable (2b, C-LD), con decisión individualizada según la supervivencia esperada, las comorbilidades y la gravedad de la ASCVD.",
+   "B": "4D y AURORA no mostraron beneficio de iniciar estatina en todos los pacientes en HD.",
+   "C": "No se recomienda suspenderla automáticamente.",
+   "D": "La evidencia en ERC (SHARP) fue con simvastatina + ezetimiba, no con ezetimiba sola.",
+   "E": "Sin beneficio demostrado."
+  },
+  "clave": "A",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-7",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "Paciente de 58 años con ERC G3b, sin ASCVD, c-LDL 112 mg/dL.",
+  "enunciado": "¿Estrategia recomendada por ACC/AHA 2026?",
+  "perla": "En adultos de 40–75 años con ERC ≥ G3 y c-LDL 70–189 mg/dL se recomienda estatina de intensidad moderada o moderada + ezetimiba (1, B-R).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "No tratar porque el c-LDL es < 130 mg/dL",
+   "B": "Estatina de alta intensidad independientemente del c-LDL",
+   "C": "Estatina de intensidad moderada o moderada + ezetimiba",
+   "D": "Pedir CAC antes de considerar tratamiento",
+   "E": "Solo cambios en el estilo de vida"
+  },
+  "explicaciones": {
+   "A": "La ERC G3 es indicación independientemente del c-LDL.",
+   "B": "La alta intensidad se reserva para ASCVD clínica o DM de alto riesgo.",
+   "C": "Correcto. En adultos de 40–75 años con ERC ≥ G3 y c-LDL 70–189 mg/dL se recomienda estatina de intensidad moderada o moderada + ezetimiba (1, B-R).",
+   "D": "El CAC no es requisito cuando la ERC ya indica tratamiento.",
+   "E": "Hay indicación farmacológica."
+  },
+  "clave": "C",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-8",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "",
+  "enunciado": "¿Cuál de estos pacientes con ERC tiene indicación de hipolipemiante independientemente de su c-LDL?",
+  "perla": "La indicación independiente del c-LDL aplica a adultos de 40–75 años con ERC G3 o G4; el paciente de 45 años con G3a cumple ambos criterios.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "35 años con ERC G2",
+   "B": "30 años con albuminuria A2 y c-LDL 65 mg/dL",
+   "C": "78 años con ERC G2 y c-LDL 80 mg/dL",
+   "D": "40 años con ERC G1 sin albuminuria",
+   "E": "45 años con ERC G3a"
+  },
+  "explicaciones": {
+   "A": "A los 35 años con ERC G2 no hay indicación automática; se decide con PREVENT.",
+   "B": "30 años y ERC por albuminuria sin TFGe < 60 queda fuera del grupo de 40–75 años con G3–G4.",
+   "C": "78 años supera el rango de edad y G2 no es G3–G4; requiere discusión individual.",
+   "D": "No hay indicación.",
+   "E": "Correcto. La indicación independiente del c-LDL aplica a adultos de 40–75 años con ERC G3 o G4; el paciente de 45 años con G3a cumple ambos criterios."
+  },
+  "clave": "E",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-9",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "Paciente de 62 años con ERC G4 e infarto previo; c-LDL 92 mg/dL con atorvastatina 40 mg/d.",
+  "enunciado": "¿Cuál es el objetivo de c-LDL?",
+  "perla": "En ERC con ASCVD clínica (infarto previo) la meta es c-LDL < 55 mg/dL, con reducción ≥ 50% y c-no-HDL < 85 mg/dL.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "< 55 mg/dL",
+   "B": "< 100 mg/dL",
+   "C": "< 70 mg/dL",
+   "D": "< 40 mg/dL",
+   "E": "< 85 mg/dL"
+  },
+  "explicaciones": {
+   "A": "Correcto. En ERC con ASCVD clínica (infarto previo) la meta es c-LDL < 55 mg/dL, con reducción ≥ 50% y c-no-HDL < 85 mg/dL.",
+   "B": "< 100 mg/dL es la meta de prevención primaria de bajo riesgo o intermedio.",
+   "C": "< 70 mg/dL es la meta de DM sin ASCVD con alto riesgo.",
+   "D": "< 40 mg/dL no es una meta de la guía para este escenario.",
+   "E": "No es la meta."
+  },
+  "clave": "A",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-10",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "Paciente de 60 años con ERC G3b y SCA hace 2 años, con atorvastatina a dosis máxima + ezetimiba; c-LDL 73 mg/dL.",
+  "enunciado": "¿Siguiente paso?",
+  "perla": "En prevención secundaria de muy alto riesgo la meta es c-LDL < 55 mg/dL; si no se alcanza con estatina a dosis máxima + ezetimiba, se agrega iPCSK9 (o inclisirán si no lo tolera u obtiene; ácido bempedoico como alternativa).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "Sin cambios porque el c-LDL es < 100 mg/dL",
+   "B": "Suspender ezetimiba y dejar solo la estatina",
+   "C": "Cambiar la estatina por fibrato",
+   "D": "Intensificar con agente no estatínico",
+   "E": "Agregar niacina"
+  },
+  "explicaciones": {
+   "A": "73 mg/dL no está en meta (< 55).",
+   "B": "Retirar ezetimiba alejaría al paciente de la meta.",
+   "C": "Los fibratos no sustituyen a la estatina para reducir el c-LDL ni el riesgo ASCVD.",
+   "D": "Correcto. En prevención secundaria de muy alto riesgo la meta es c-LDL < 55 mg/dL; si no se alcanza con estatina a dosis máxima + ezetimiba, se agrega iPCSK9 (o inclisirán si no lo tolera u obtiene; ácido bempedoico como alternativa).",
+   "E": "Sin beneficio."
+  },
+  "clave": "D",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-4",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "",
+  "enunciado": "¿Cuál es el factor de riesgo más importante para la acidosis metabólica en la ERC?",
+  "perla": "La capacidad de excretar ácido depende directamente de la función renal (amoniogénesis); la magnitud de la caída de la TFG es el predictor más fuerte.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "Diabetes mellitus",
+   "B": "Uso de IECA",
+   "C": "Albúmina sérica elevada",
+   "D": "Hipertensión arterial",
+   "E": "Reducción de la TFG"
+  },
+  "explicaciones": {
+   "A": "La diabetes no figura entre los factores principales de la ponencia.",
+   "B": "Los IECA/ARA II sí son un factor (atenúan la secreción de ácido mediada por aldosterona), pero menos potente que la TFG.",
+   "C": "La albuminuria, no la albúmina sérica elevada, se asocia a acidosis; además hiperkalemia, anemia y no usar diurético.",
+   "D": "No es el principal.",
+   "E": "Correcto. La capacidad de excretar ácido depende directamente de la función renal (amoniogénesis); la magnitud de la caída de la TFG es el predictor más fuerte."
+  },
+  "clave": "E",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ19-10",
+  "tema_id": 7,
+  "sub": "7.0",
+  "obj": "7.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Acidosis metabólica en ERC",
+  "caso": "",
+  "enunciado": "¿Cuál fue el resultado principal de VALOR-CKD con veverímero sobre la progresión de la ERC?",
+  "perla": "En VALOR-CKD (1,480 aleatorizados, ERC con TFG 20–40 y HCO₃ 12–20 mmol/L), el desenlace compuesto ocurrió en 149 vs 148 pacientes (HR 0.99; IC 95% 0.8–1.2; p = 0.90): sin beneficio sobre la progresión.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 19: Acidosis metabólica en ERC"
+  ],
+  "serie_id": "AZ19-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 19)"
+  ],
+  "opciones": {
+   "A": "Aumentó la TFG a los 6 meses",
+   "B": "Redujo 24% el riesgo de muerte renal",
+   "C": "No retrasó la progresión",
+   "D": "Se detuvo por nefrotoxicidad",
+   "E": "Redujo la mortalidad cardiovascular"
+  },
+  "explicaciones": {
+   "A": "No aumentó la TFG; el desenlace fue de progresión.",
+   "B": "No hubo reducción del riesgo renal (HR 0.99).",
+   "C": "Correcto. En VALOR-CKD (1,480 aleatorizados, ERC con TFG 20–40 y HCO₃ 12–20 mmol/L), el desenlace compuesto ocurrió en 149 vs 148 pacientes (HR 0.99; IC 95% 0.8–1.2; p = 0.90): sin beneficio sobre la progresión.",
+   "D": "El estudio no se detuvo por nefrotoxicidad; simplemente no mostró eficacia.",
+   "E": "No hubo beneficio."
+  },
+  "clave": "C",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-6",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "Paciente de 67 años con ERC G4 y enfermedad coronaria estable; c-LDL 78 mg/dL con estatina de alta intensidad.",
+  "enunciado": "¿Siguiente estrategia?",
+  "perla": "En ERC con ASCVD clínica, la guía recomienda estatina de alta intensidad con o sin ezetimiba y/o anticuerpo anti-PCSK9 para lograr reducción ≥ 50% y c-LDL < 55 mg/dL; con 78 mg/dL no está en meta.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "Suspender la estatina porque el c-LDL es < 100 mg/dL",
+   "B": "Mantener solo la estatina y aceptar c-LDL < 100 mg/dL",
+   "C": "Cambiar a fibrato como tratamiento principal",
+   "D": "Agregar omega-3 sin cambiar estatina",
+   "E": "Intensificar con ezetimiba y/o iPCSK9"
+  },
+  "explicaciones": {
+   "A": "Suspender la estatina aumentaría el riesgo; la meta no es < 100 mg/dL.",
+   "B": "< 100 mg/dL es la meta de prevención primaria de bajo riesgo, no de ERC con ASCVD.",
+   "C": "Los fibratos no son tratamiento principal para reducir el c-LDL.",
+   "D": "No es la estrategia.",
+   "E": "Correcto. En ERC con ASCVD clínica, la guía recomienda estatina de alta intensidad con o sin ezetimiba y/o anticuerpo anti-PCSK9 para lograr reducción ≥ 50% y c-LDL < 55 mg/dL; con 78 mg/dL no está en meta."
+  },
+  "clave": "E",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ25-1",
+  "tema_id": 7,
+  "sub": "7.a",
+  "obj": "7.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Lípidos en ERC",
+  "caso": "Mujer de 54 años con ERC G3b, UACR 420 mg/g y DM2, sin ASCVD; c-LDL 61 mg/dL sin tratamiento.",
+  "enunciado": "¿Conducta según ACC/AHA 2026?",
+  "perla": "ACC/AHA 2026 considera la ERC G3–5 (y la G1–2 con albuminuria) una condición de riesgo que justifica hipolipemiante en prevención primaria, con independencia del c-LDL basal.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 25: Lípidos en ERC"
+  ],
+  "serie_id": "AZ25-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 25)"
+  ],
+  "opciones": {
+   "A": "No tratar porque el c-LDL es < 70 mg/dL",
+   "B": "Esperar a que el c-LDL sea ≥ 100 mg/dL",
+   "C": "Pedir calcio coronario antes de cualquier tratamiento",
+   "D": "Iniciar hipolipemiante: ERC G3b es indicación",
+   "E": "Iniciar solo ezetimiba por ser diabética"
+  },
+  "explicaciones": {
+   "A": "El c-LDL bajo no elimina la indicación en ERC G3b.",
+   "B": "Retrasar el tratamiento no tiene sustento.",
+   "C": "El CAC no es requisito cuando la ERC ya es indicación.",
+   "D": "Correcto. ACC/AHA 2026 considera la ERC G3–5 (y la G1–2 con albuminuria) una condición de riesgo que justifica hipolipemiante en prevención primaria, con independencia del c-LDL basal.",
+   "E": "La estatina es la base del tratamiento."
+  },
+  "clave": "D",
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "tipo_item": "nueva"
  }
 ]

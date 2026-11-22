@@ -367,6 +367,19 @@
       ]
      ],
      "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Evaluación de LRA",
+     "items": [
+      "Confirmar y estadificar (KDIGO)",
+      "Valorar volumen y suspender nefrotóxicos",
+      "Ecografía renal (descartar obstrucción)",
+      "EGO con sedimento",
+      "Índices urinarios (FENa/FEUrea)",
+      "Biopsia si la causa no es clara"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -515,11 +528,11 @@
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "HMM",
+     "serie": "AZ1-1",
      "intro": [
       [
        "Dr. Anselmo Frágil",
-       "Te reto con un caso: Hipercalcemia y lesión renal: elección del antirresortivo"
+       "Te reto con un caso: KDIGO 2026: LRA estructural (B1)"
       ]
      ],
      "defeat": [
@@ -595,17 +608,104 @@
      ]
     },
     {
-     "type": "algoritmo",
-     "title": "Evaluación de LRA",
+     "type": "clasif",
+     "title": "Biomarcadores de LRA (KDIGO 2026)",
+     "bins": [
+      "Estrés celular",
+      "Daño celular",
+      "Inflamación",
+      "Función"
+     ],
      "items": [
-      "Confirmar y estadificar (KDIGO)",
-      "Valorar volumen y suspender nefrotóxicos",
-      "Ecografía renal (descartar obstrucción)",
-      "EGO con sedimento",
-      "Índices urinarios (FENa/FEUrea)",
-      "Biopsia si la causa no es clara"
+      [
+       "[TIMP-2]×[IGFBP7]",
+       "Estrés celular"
+      ],
+      [
+       "NGAL",
+       "Daño celular"
+      ],
+      [
+       "KIM-1",
+       "Daño celular"
+      ],
+      [
+       "L-FABP",
+       "Daño celular"
+      ],
+      [
+       "NAG",
+       "Daño celular"
+      ],
+      [
+       "IL-18",
+       "Inflamación"
+      ],
+      [
+       "IL-9",
+       "Inflamación"
+      ],
+      [
+       "CCL14",
+       "Inflamación"
+      ],
+      [
+       "Cistatina C",
+       "Función"
+      ],
+      [
+       "Volumen urinario",
+       "Función"
+      ]
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "KDIGO estadio 3",
+       "Cr ×3, ≥4 mg/dL o TRR"
+      ],
+      [
+       "FENa <1%",
+       "Prerrenal (sin diurético)"
+      ],
+      [
+       "FEUrea <35%",
+       "Prerrenal con diurético"
+      ],
+      [
+       "Síndrome hepatorrenal",
+       "Terlipresina + albúmina"
+      ],
+      [
+       "Lisis tumoral",
+       "Rasburicasa + hidratación"
+      ],
+      [
+       "Rabdomiólisis",
+       "CK >5000, mioglobinuria"
+      ],
+      [
+       "Nefropatía aguda por fosfato",
+       "Purgas de fosfato de sodio"
+      ],
+      [
+       "NGAL",
+       "Biomarcador de daño tubular"
+      ],
+      [
+       "STARRT-AKI",
+       "TRR acelerada sin beneficio en mortalidad"
+      ],
+      [
+       "TRR urgente",
+       "AEIOU refractario"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -733,11 +833,11 @@
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "AKS-2",
+     "serie": "AZ1-6",
      "intro": [
       [
        "Dra. Sara Esquistocito",
-       "Te reto con un caso: Anuria: diagnóstico diferencial"
+       "Te reto con un caso: Momento de inicio de la TRR"
       ]
      ],
      "defeat": [
@@ -808,51 +908,52 @@
      ]
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
+     "type": "clasif",
+     "title": "Indicación de TRR en LRA (KDIGO 2026)",
+     "bins": [
+      "Urgente",
+      "Relativa",
+      "No es indicación"
+     ],
+     "items": [
       [
-       "KDIGO estadio 3",
-       "Cr ×3, ≥4 mg/dL o TRR"
+       "K⁺ > 6 refractario o con ECG",
+       "Urgente"
       ],
       [
-       "FENa <1%",
-       "Prerrenal (sin diurético)"
+       "pH < 7.2 y HCO₃ < 12 con pCO₂ normal",
+       "Urgente"
       ],
       [
-       "FEUrea <35%",
-       "Prerrenal con diurético"
+       "Sobrecarga con hipoxemia",
+       "Urgente"
       ],
       [
-       "Síndrome hepatorrenal",
-       "Terlipresina + albúmina"
+       "Pericarditis o encefalopatía urémica",
+       "Urgente"
       ],
       [
-       "Lisis tumoral",
-       "Rasburicasa + hidratación"
+       "KDIGO 3 persistente con oliguria",
+       "Relativa"
       ],
       [
-       "Rabdomiólisis",
-       "CK >5000, mioglobinuria"
+       "Carga de solutos anticipada: lisis tumoral",
+       "Relativa"
       ],
       [
-       "Nefropatía aguda por fosfato",
-       "Purgas de fosfato de sodio"
+       "Imposibilidad de nutrir por restricción hídrica",
+       "Relativa"
       ],
       [
-       "NGAL",
-       "Biomarcador de daño tubular"
+       "BUN aislado de 85 mg/dL",
+       "No es indicación"
       ],
       [
-       "STARRT-AKI",
-       "TRR acelerada sin beneficio en mortalidad"
-      ],
-      [
-       "TRR urgente",
-       "AEIOU refractario"
+       "Alcanzar estadio KDIGO 3 sin complicaciones",
+       "No es indicación"
       ]
-     ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [

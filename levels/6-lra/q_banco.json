@@ -3436,5 +3436,1753 @@
    "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
   ],
   "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-1",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "moderada",
+  "peso": 60,
+  "subtema": "KDIGO 2026: LRA estructural (B1)",
+  "caso": "Hombre de 68 años, DM2, HAS y cardiopatía isquémica; Cr basal 0.9 mg/dL. Ingresa por neumonía con choque séptico (TA 86/48, lactato 3.2). Cr 1.1 mg/dL, diuresis 0.5 mL/kg/h en 4 h. NGAL urinario elevado.",
+  "enunciado": "Según KDIGO 2026, ¿cómo se clasifica?",
+  "perla": "KDIGO 2026: LRA = alteración de función o estructura en ≤7 d. Función: Cr ↑≥0.3 o ≥1.5×, cistatina C ≥1.5×, diuresis <0.5 mL/kg/h >6 h. Estructura: biomarcador de daño en escenario validado. Estadios C1–3 / U1–3 + B0/B1.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "Sin LRA: no cumple criterios de creatinina",
+   "B": "LRA C1 U1 por la oliguria de 4 horas",
+   "C": "LRA C0 U0 B1: biomarcador de daño positivo",
+   "D": "Enfermedad renal aguda por el tiempo de evolución",
+   "E": "Lesión subclínica, que KDIGO no considera LRA"
+  },
+  "explicaciones": {
+   "A": "La definición 2026 incluye el criterio estructural aunque la Cr no suba.",
+   "B": "La oliguria cuenta si dura más de 6 h; aquí son 4 h.",
+   "C": "Correcto. KDIGO 2026 define LRA por función (Cr, cistatina C, diuresis) o por estructura: un biomarcador de daño positivo en un escenario validado. Cada estadio funcional lleva B0 o B1.",
+   "D": "La ERA corresponde a alteraciones de 7 a 90 días.",
+   "E": "En 2026 el biomarcador positivo en escenario validado ya define LRA."
+  },
+  "clave": "C",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-2",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "facil",
+  "peso": 50,
+  "subtema": "Biomarcadores: estrés, daño e inflamación",
+  "caso": "Se revisan los biomarcadores aceptados por KDIGO 2026 para evaluar la LRA.",
+  "enunciado": "¿Cuál se clasifica como marcador de estrés tubular celular?",
+  "perla": "Marcadores KDIGO 2026: funcionales (Cr, diuresis, cistatina C); estrés ([TIMP-2]×[IGFBP7]); daño (NGAL, KIM-1, NAG, L-FABP); inflamación (IL-18, IL-9, CCL14). IL-9 orienta a nefritis intersticial; CCL14, a persistencia.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "NGAL urinario",
+   "B": "KIM-1 urinario",
+   "C": "CCL14 urinario",
+   "D": "Cistatina C sérica",
+   "E": "[TIMP-2]×[IGFBP7]"
+  },
+  "explicaciones": {
+   "A": "NGAL es marcador de daño celular.",
+   "B": "KIM-1 es marcador de daño celular.",
+   "C": "CCL14 es de inflamación y predice persistencia de LRA grave en UCI.",
+   "D": "La cistatina C es un marcador funcional.",
+   "E": "Correcto. [TIMP-2]×[IGFBP7] refleja arresto del ciclo celular (estrés); se mide 4 a 12 h tras el insulto, en UCI y cirugía."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-3",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Predicción del riesgo: puntaje de Malhotra",
+  "caso": "Paciente en UCI con HAS, cardiopatía isquémica y sepsis, sin ERC, pH 7.36, sin nefrotóxicos ni ventilación mecánica.",
+  "enunciado": "¿Qué estrategia recomienda KDIGO 2026 para estratificar su riesgo de LRA y cómo resulta?",
+  "perla": "Malhotra (UCI): ERC, hepatopatía crónica, IC, HAS, coronariopatía = 2 c/u; pH ≤7.30 y nefrotóxicos = 3 c/u; sepsis y VM = 2 c/u; anemia 1. ≥5 = alto riesgo. Albuminuria basal añade valor pronóstico.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "Modelo validado externamente; Malhotra 6: riesgo alto",
+   "B": "Biomarcadores en todos los hospitalizados; NGAL normal",
+   "C": "Solo creatinina sérica; no requiere más evaluación",
+   "D": "Biopsia renal en todo paciente de alto riesgo",
+   "E": "Modelo de IA local, sin validación externa"
+  },
+  "explicaciones": {
+   "A": "Correcto. KDIGO 2026 (2C): modelos clínicos validados externamente. Malhotra: HAS 2 + coronariopatía 2 + sepsis 2 = 6; ≥5 predice LRA (AUC 0.81).",
+   "B": "KDIGO no recomienda biomarcadores universales; solo en su indicación validada.",
+   "C": "La creatinina sola detecta tarde y no estratifica.",
+   "D": "La biopsia no tiene papel en la predicción del riesgo.",
+   "E": "Los modelos de IA tienen gran heterogeneidad (I² >90%) y requieren validación."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-4",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Fenotipo de LRA: sedimento y POCUS",
+  "caso": "Mujer de 70 años en choque séptico, Cr 0.8 → 2.6 mg/dL, FENa 0.8%. Se busca distinguir LRA hemodinámica de lesión tubular aguda.",
+  "enunciado": "¿Qué herramientas propone el manual para fenotipar la LRA?",
+  "perla": "Puntaje de sedimento ≥3: RR 7.3 de empeoramiento. Fenotipar: sedimento + POCUS + biomarcadores + prueba de furosemida. 'De prerrenal vs NTA a fenotipar la LRA'.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "La FENa como prueba definitiva de lesión tubular",
+   "B": "La relación BUN/creatinina mayor de 20",
+   "C": "El BUN aislado y la osmolalidad urinaria",
+   "D": "Sedimento urinario y POCUS renal, venoso y cardiaco",
+   "E": "Gammagrafía renal con DTPA de urgencia"
+  },
+  "explicaciones": {
+   "A": "La FENa es poco fiable en sepsis.",
+   "B": "Es inespecífica y depende de catabolismo y sangrado.",
+   "C": "No distinguen bien NTA de LRA hemodinámica.",
+   "D": "Correcto. Cilindros granulosos pardos y células tubulares tienen especificidad de 100% para NTA por biopsia; más de 30% con FENa <1% los tiene. POCUS define respuesta a volumen y descarta obstrucción.",
+   "E": "No tiene papel en el fenotipado agudo."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-5",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "facil",
+  "peso": 50,
+  "subtema": "LRA transitoria, persistente y ERA",
+  "caso": "Paciente posoperado con Cr 1.0 → 2.1 mg/dL que regresa a 1.1 mg/dL a las 36 h.",
+  "enunciado": "¿Cómo se clasifica según KDIGO 2026?",
+  "perla": "Resolución completa: Cr <1.2× la basal en 7 d; parcial: 1.2 a <1.5×. ERA: 7–90 d. Cr 25–35% sobre la basal al alta → ERC HR 2.22. La recuperación a 7 d predice el estado a 90 d.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "LRA persistente: dura más de 24 h",
+   "B": "LRA transitoria: dura 48 h o menos",
+   "C": "Enfermedad renal aguda: dura más de 7 días",
+   "D": "Recuperación parcial por quedar sobre la basal",
+   "E": "No se clasifica hasta los 90 días"
+  },
+  "explicaciones": {
+   "A": "El corte es 48 h, no 24 h.",
+   "B": "Correcto. Transitoria ≤48 h; persistente >48 h a 7 días; >7 días = ERA (hasta 90 días). La duración predice ERC y eventos CV independientemente de la gravedad.",
+   "C": "La ERA requiere más de 7 días.",
+   "D": "Volvió a <1.2× la basal en 7 días: resolución completa.",
+   "E": "Los 90 días separan ERA de ERC, no la LRA transitoria."
+  },
+  "clave": "B",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-6",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 60,
+  "subtema": "Momento de inicio de la TRR",
+  "caso": "Adulto en UCI con LRA estadio 3 por sepsis, K 5.4 mEq/L, pH 7.28, sin sobrecarga con hipoxemia ni complicaciones urémicas.",
+  "enunciado": "¿Qué estrategia recomienda KDIGO 2026?",
+  "perla": "Indicaciones urgentes: K >6 refractario, en ascenso o con ECG; pH <7.2 y HCO₃ <12 con pCO₂ normal; sobrecarga con hipoxemia; uremia (sangrado, pericarditis, encefalopatía); hiperamonemia; intoxicación dializable. AKIKI-2: retrasar más allá (BUN >140) puede dañar.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "Inicio inmediato por alcanzar el estadio 3",
+   "B": "Inicio cuando el BUN supere 80 mg/dL",
+   "C": "Inicio preventivo en las primeras 12 h de la LRA",
+   "D": "Estrategia diferida con vigilancia activa",
+   "E": "Inicio inmediato si la creatinina supera 4 mg/dL"
+  },
+  "explicaciones": {
+   "A": "El estadio por sí solo no es indicación urgente.",
+   "B": "Un BUN aislado no es indicación.",
+   "C": "Precoz aumenta dependencia de TRR y eventos adversos sin beneficio.",
+   "D": "Correcto. KDIGO 2026 (1C): diferida sobre precoz o preventiva. Con estrategia diferida solo 50–60% llega a necesitar TRR, con menos complicaciones y la misma mortalidad (RR 1.01).",
+   "E": "Una cifra aislada de Cr no es indicación urgente."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-7",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "dificil",
+  "peso": 55,
+  "subtema": "Bicarbonato antes de TRR: BICAR-ICU-2",
+  "caso": "Hombre en UCI con LRA KDIGO 3, pH 7.16, HCO₃ 10 mEq/L, pCO₂ 30 mmHg, K 5.0 mEq/L, sin sobrecarga ni otra indicación urgente.",
+  "enunciado": "¿Qué sugiere KDIGO 2026 y qué mostró BICAR-ICU-2?",
+  "perla": "BICAR-ICU (2018): beneficio en mortalidad solo en LRA 2–3 (46 vs 63%). BICAR-ICU-2 (JAMA 2025): mortalidad igual, menos TRR. NaHCO₃ 4.2% hasta pH ≥7.30.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "Bicarbonato IV primero; menos TRR, igual mortalidad",
+   "B": "TRR inmediata; el bicarbonato aumentó la mortalidad",
+   "C": "Bicarbonato IV; redujo la mortalidad a 90 días",
+   "D": "THAM en lugar de bicarbonato para no aportar sodio",
+   "E": "Ni bicarbonato ni TRR hasta que el pH baje de 7.0"
+  },
+  "explicaciones": {
+   "A": "Correcto. KDIGO 2026 (2C): con pH <7.20 sin otra indicación urgente, bicarbonato IV antes que TRR. BICAR-ICU-2 (640 pacientes, LRA 2–3): mortalidad a 90 d 62.1% vs 61.7%; TRR 35% vs 50%.",
+   "B": "No aumentó la mortalidad.",
+   "C": "En BICAR-ICU-2 la mortalidad fue igual; el beneficio previo fue en un subgrupo de BICAR-ICU.",
+   "D": "THAM no se recomienda en LRA (hiperpotasemia).",
+   "E": "Esperar a pH <7.0 no tiene sustento."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-8",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Contraste en LRA grave",
+  "caso": "Paciente con LRA KDIGO 3 por bacteriemia persistente por S. aureus y sospecha de absceso de psoas que requiere TC contrastada.",
+  "enunciado": "¿Cuál es la conducta más apropiada?",
+  "perla": "Riesgo de contraste: TFG baja, DM, hipovolemia, nefrotóxicos; procedimiento: hiperosmolar, volumen alto, estudios seriados, vía intraarterial.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "Contraindicar el contraste en cualquier LRA",
+   "B": "Esperar a que la creatinina se normalice",
+   "C": "Dar hemodiálisis profiláctica después del contraste",
+   "D": "Usar solo N-acetilcisteína y diferir 72 horas",
+   "E": "Valorar riesgo-beneficio y no retrasar el estudio"
+  },
+  "explicaciones": {
+   "A": "No hay contraindicación absoluta.",
+   "B": "Retrasar el control del foco empeora el desenlace.",
+   "C": "La HD no previene la LRA por contraste.",
+   "D": "La NAC no tiene beneficio y diferir es peligroso.",
+   "E": "Correcto. KDIGO 2026: si el beneficio supera el riesgo no se difiere ni retrasa el estudio; usar alternativas de imagen cuando sea posible. Drenar el foco infeccioso cambia el pronóstico."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-9",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Suspensión de la TRR",
+  "caso": "Paciente en TRRC por LRA séptica que mejora hemodinámicamente; no recibe diuréticos.",
+  "enunciado": "¿Qué hallazgo predice suspensión exitosa de la TRR?",
+  "perla": "Suspender TRR: diuresis >450 mL/d sin diurético o >2300 con diurético; DCr 2 h ≥23 mL/min. ISPD (DP aguda): diuresis >1 L/24 h con descenso espontáneo de Cr.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "Diuresis mayor de 200 mL/24 h sin diuréticos",
+   "B": "Diuresis mayor de 1000 mL/24 h con diuréticos",
+   "C": "Diuresis mayor de 450 mL/24 h sin diuréticos",
+   "D": "Depuración de creatinina mayor de 10 mL/min",
+   "E": "Descenso del BUN durante la terapia continua"
+  },
+  "explicaciones": {
+   "A": "Es insuficiente para predecir éxito.",
+   "B": "Con diuréticos el corte es >2300 mL/24 h.",
+   "C": "Correcto. Diuresis >450 mL/24 h sin diuréticos o >2300 mL/24 h con diuréticos, y depuración de creatinina en 2 h ≥23 mL/min (AUC 0.82), predicen suspensión exitosa.",
+   "D": "El corte de depuración en 2 h es ≥23 mL/min.",
+   "E": "El BUN baja por la propia TRR y no refleja la función nativa."
+  },
+  "clave": "C",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-10",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "facil",
+  "peso": 45,
+  "subtema": "Seguimiento tras la LRA: KAMPS",
+  "caso": "Paciente dado de alta tras LRA KDIGO 3 por sepsis con Cr 1.1 mg/dL (basal 0.9).",
+  "enunciado": "¿Cuándo recomienda KDIGO reevaluar la función y el daño renal?",
+  "perla": "Post-LRA: estratificar el riesgo de ERC al alta (2D), reevaluar a 3 meses, KAMPS (función, educación, conciliación de fármacos, PA, protocolos de días de enfermedad).",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "Solo antes del alta, con creatinina",
+   "B": "A los 3 meses, con EGO y albuminuria",
+   "C": "A las 48 horas del egreso hospitalario",
+   "D": "A los 30 días, solo con creatinina",
+   "E": "Al año, si aparece hipertensión"
+  },
+  "explicaciones": {
+   "A": "La recuperación no termina con el alta.",
+   "B": "Correcto. Reevaluar a los 3 meses para documentar resolución o ERC nueva; seguimiento coordinado (1B). KAMPS: Kidney function, Advocacy, Medications, Pressure, Sick day protocols.",
+   "C": "Es demasiado temprano para documentar el desenlace.",
+   "D": "Se requieren también marcadores de daño (albuminuria, EGO).",
+   "E": "Es tardío y no depende de la aparición de HTA."
+  },
+  "clave": "B",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ1-11",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "TFG cinética (KeGFR) para dosificar",
+  "caso": "Paciente séptico con Cr 0.9 → 1.1 → 2.5 mg/dL en 24 h, que recibe vancomicina 15 mg/kg cada 12 h.",
+  "enunciado": "¿Cómo debe estimarse la función renal para ajustar la dosis?",
+  "perla": "Fármacos que suben la Cr sin daño: trimetoprim, cimetidina, dolutegravir, pirimetamina, inhibidores de TK; ↑ producción: corticoides, fenofibratos, creatina; interferencia en el ensayo: cefalosporinas, 5-flucitosina.",
+  "referencias": [
+   "Galindo PE. Lesión renal aguda. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 1"
+  ],
+  "serie_id": "AZ1-11",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 1)"
+  ],
+  "opciones": {
+   "A": "CKD-EPI con la creatinina de 2.5 mg/dL",
+   "B": "CKD-EPI con la creatinina basal de 0.9 mg/dL",
+   "C": "Cockcroft-Gault con el peso actual",
+   "D": "No ajustar hasta tener depuración de 24 h",
+   "E": "TFG cinética: la Cr no está en estado estable"
+  },
+  "explicaciones": {
+   "A": "Las ecuaciones de estado estable sobreestiman o subestiman con Cr cambiante.",
+   "B": "Sobreestima la función actual.",
+   "C": "También supone estado estable.",
+   "D": "Retrasar el ajuste expone a toxicidad.",
+   "E": "Correcto. KDIGO 2026 (2B): calcular la KeGFR fuera del estado estable cuando cambie decisiones; en el caso era ~2.8 mL/min y obligaba a ajustar la vancomicina. Predijo LRA (AUC 0.86) y TRR (AUC 0.90)."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-1",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Determinante del deterioro renal en IC aguda",
+  "caso": "Paciente hospitalizado por IC aguda descompensada con Cr en ascenso.",
+  "enunciado": "¿Cuál es el principal determinante hemodinámico del deterioro renal?",
+  "perla": "El fenotipo hemodinámico (congestión × perfusión), no el tipo de Ronco, decide el tratamiento. >50% de pacientes con IC tiene ERC; cada 10 mL/min menos de TFGe ↑7% la mortalidad.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Índice cardiaco bajo por disfunción sistólica",
+   "B": "PAM menor de 65 mmHg por vasodilatación",
+   "C": "Resistencia vascular sistémica elevada",
+   "D": "Presión auricular derecha elevada",
+   "E": "Hipovolemia por el diurético de asa"
+  },
+  "explicaciones": {
+   "A": "El gasto bajo contribuye menos que la congestión.",
+   "B": "No es el principal determinante en IC descompensada.",
+   "C": "No explica el deterioro renal principal.",
+   "D": "Correcto. En ESCAPE, la presión de la AD elevada, no el gasto bajo, se asoció con el empeoramiento renal. La presión venosa reduce el gradiente de ultrafiltración y causa 'tamponade renal'.",
+   "E": "El problema central es la congestión."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-2",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Falsos negativos del VExUS",
+  "caso": "Paciente con congestión venosa grave clínica, pero flujo portal no pulsátil en el Doppler.",
+  "enunciado": "¿Qué condición puede enmascarar la congestión?",
+  "perla": "Pulsatilidad portal = (Vmáx − Vmín)/Vmáx × 100. La normalización portal coincidió con la resolución de la LRA congestiva.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Cirrosis con hipertensión portal",
+   "B": "Insuficiencia tricuspídea grave",
+   "C": "Fístula arterioportal",
+   "D": "Índice de masa corporal bajo",
+   "E": "Ventilación mecánica con PEEP baja"
+  },
+  "explicaciones": {
+   "A": "Correcto. En cirrosis con hipertensión portal el flujo portal puede ser falsamente continuo (o hepatófugo) pese a congestión.",
+   "B": "La IT grave eleva el puntaje (falso positivo).",
+   "C": "Las fístulas arterioportales dan pulsatilidad falsamente alta.",
+   "D": "Los delgados tienen porta pulsátil sin PAD alta.",
+   "E": "No enmascara la pulsatilidad portal."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-3",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Enfermedad renal intrínseca en IC: amiloidosis",
+  "caso": "Hombre de 72 años con IC y ERC; ECG con bajo voltaje pese a HVI, túnel del carpo bilateral y estenosis del canal raquídeo.",
+  "enunciado": "Antes de atribuir la disfunción renal a congestión, ¿qué estudio es el más pertinente?",
+  "perla": "Antes de culpar a la congestión: ACR >220 mg/mmol → glomerulopatía; riñones <8–9 cm → ERC establecida. SCR tipo 5: tratar la causa, no escalar el diurético.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Actividad de α-galactosidasa A en leucocitos",
+   "B": "Biopsia de adenopatías en busca de granulomas",
+   "C": "Ultrasonido renal para medir la longitud",
+   "D": "Prueba de estrés con furosemida IV",
+   "E": "Cadenas ligeras y gammagrafía con PYP"
+  },
+  "explicaciones": {
+   "A": "Fabry cursa con acroparestesias, angioqueratomas e hipohidrosis.",
+   "B": "Sarcoidosis: conducción, uveítis, hipercalcemia.",
+   "C": "No orienta la causa sistémica.",
+   "D": "No identifica la enfermedad infiltrativa.",
+   "E": "Correcto. Bajo voltaje con hipertrofia, túnel del carpo y estenosis de canal sugieren amiloidosis (AL o por transtiretina): electroforesis, inmunofijación, cadenas ligeras y gammagrafía ósea."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-6",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seudoempeoramiento renal",
+  "caso": "Mujer de 74 años con ICFEp, ERC G3b y VExUS 3; furosemida 120 mg IV c/12 h con NaU 96 mmol/L y balance −4.8 L a 48 h. Cr 2.1 → 2.4 mg/dL el día 2.",
+  "enunciado": "¿Cuál es la conducta?",
+  "perla": "Deterioro verdadero: Cr >50% o >3 mg/dL, ≥5 días, con congestión persistente o hipoperfusión. Seudo: ≤4 días, congestión en resolución. Cambio aceptable con SRAA/ARNI/iSGLT2: Cr <50%.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Suspender el diurético por LRA establecida",
+   "B": "Dar cristaloide por la FENa baja",
+   "C": "Reducir el diurético a la mitad",
+   "D": "Iniciar TRR por el empeoramiento renal",
+   "E": "Mantener la dosis: es seudoempeoramiento"
+  },
+  "explicaciones": {
+   "A": "Suspender por la Cr deja congestión no resuelta, que es el verdadero riesgo.",
+   "B": "La FENa baja refleja avidez tubular, no hipovolemia.",
+   "C": "La respuesta es adecuada.",
+   "D": "No hay indicación.",
+   "E": "Correcto. Cr que sube ≤4 días tras el ingreso con congestión en resolución es seudoempeoramiento; en el caso la Cr bajó a 1.6 mg/dL al alta."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ3-11",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Diálisis peritoneal en congestión refractaria",
+  "caso": "Se evalúa remoción de volumen extracorpórea o peritoneal en congestión refractaria.",
+  "enunciado": "¿En qué paciente es más atractiva la DP?",
+  "perla": "Na⁺ por litro: orina con asa 86 mmol/L, asa + acetazolamida 98, ultrafiltrado 135–140. UF ajustable 100–500 mL/h (AVOID-HF); CARRESS-HF (tasa fija 200 mL/h) sin beneficio. Ninguna remoción mejoró supervivencia.",
+  "referencias": [
+   "Folch Padilla JE. Síndrome cardiorrenal. En: Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM (eds). Manual Actualízame 2026, IMIN, cap. 3"
+  ],
+  "serie_id": "AZ3-11",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 3)"
+  ],
+  "opciones": {
+   "A": "Hipotensión y ascitis por congestión venosa",
+   "B": "Hernia abdominal y cirugía abdominal reciente",
+   "C": "Peritonitis reciente",
+   "D": "Mala cicatrización de heridas",
+   "E": "Necesidad de remover 4 L en 6 horas"
+  },
+  "explicaciones": {
+   "A": "Correcto. La DP (dextrosa 4.25%, 4–6 recambios) es ideal con hipotensión o ascitis.",
+   "B": "Defectos de pared y cirugía reciente la desaconsejan.",
+   "C": "Riesgo infeccioso.",
+   "D": "Riesgo de fugas e infección.",
+   "E": "La DP no permite remoción rápida y predecible."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-1",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "LRA KDIGO 3 sin indicaciones urgentes de TRR.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Sin indicación urgente ni complicación refractaria, KDIGO propone vigilancia activa (watch & wait): optimizar la hemodinamia, evitar insultos secundarios y monitorizar la trayectoria de la enfermedad y de otras fallas orgánicas.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "Iniciar TRRC de inmediato por ser KDIGO 3",
+   "B": "Esperar a que el BUN supere 140 mg/dL",
+   "C": "Suspender la vigilancia hasta que aparezca una complicación grave",
+   "D": "Vigilancia activa, optimizar la hemodinamia y reevaluar la trayectoria",
+   "E": "Iniciar TRRC al superar una creatinina de 4 mg/dL"
+  },
+  "explicaciones": {
+   "A": "El estadio KDIGO 3 por sí solo no obliga a iniciar; AKIKI y STARRT-AKI no mostraron beneficio del inicio temprano y sí más eventos adversos.",
+   "B": "No existe un umbral obligatorio de BUN; en AKIKI-2 retrasar aún más la TRR tendió a mayor mortalidad.",
+   "C": "La vigilancia debe ser continua; suspenderla retrasa la detección de indicaciones.",
+   "D": "Correcto. Sin indicación urgente ni complicación refractaria, KDIGO propone vigilancia activa (watch & wait): optimizar la hemodinamia, evitar insultos secundarios y monitorizar la trayectoria de la enfermedad y de otras fallas orgánicas.",
+   "E": "Una cifra aislada de Cr no es indicación."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-2",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "",
+  "enunciado": "¿Qué hallazgo favorece considerar TRR aun sin indicación urgente?",
+  "perla": "Son indicaciones relativas de KDIGO: LRA KDIGO 3 persistente ± oligoanuria prolongada, falla orgánica no renal exacerbada por la LRA, empeoramiento de la trayectoria, carga de solutos anticipada, reserva fisiológica limitada e incapacidad de dar soporte nutricional.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "KDIGO 3 persistente con oliguria y peor trayectoria",
+   "B": "Creatinina elevada aislada, sin cambio en la evolución",
+   "C": "BUN aislado de 85 mg/dL",
+   "D": "Hiperkalemia leve que responde al tratamiento médico",
+   "E": "Proteinuria de 1 g/día sin cambio en la diuresis"
+  },
+  "explicaciones": {
+   "A": "Correcto. Son indicaciones relativas de KDIGO: LRA KDIGO 3 persistente ± oligoanuria prolongada, falla orgánica no renal exacerbada por la LRA, empeoramiento de la trayectoria, carga de solutos anticipada, reserva fisiológica limitada e incapacidad de dar soporte nutricional.",
+   "B": "Un valor aislado de creatinina o de BUN, sin cambios en la evolución, no define el inicio; importan la tendencia y el contexto.",
+   "C": "Un valor aislado de creatinina o de BUN, sin cambios en la evolución, no define el inicio; importan la tendencia y el contexto.",
+   "D": "Solo la hiperkalemia grave o refractaria es indicación; la leve que responde al manejo médico no lo es.",
+   "E": "No es criterio de TRR."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-3",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "",
+  "enunciado": "¿En qué escenario NO se recomienda elegir TRRC?",
+  "perla": "La TRRC es de baja eficiencia; ante hiperkalemia grave con cambios electrocardiográficos se requiere un control rápido de solutos, por lo que se prefiere una modalidad intermitente.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "Falla hepática aguda y encefalopatía moderada a grave",
+   "B": "Na 114 mEq/L con LRA e inestabilidad hemodinámica",
+   "C": "LRA con criterios dialíticos y hemorragia subaracnoidea",
+   "D": "Choque séptico con norepinefrina a dosis alta",
+   "E": "K 8.2 mEq/L con cambios electrocardiográficos"
+  },
+  "explicaciones": {
+   "A": "En FHA con encefalopatía ≥ grado 2, KDIGO y el ACG sugieren TRRC para depurar amonio.",
+   "B": "En disnatremias extremas con inestabilidad, la TRRC permite corregir el sodio de forma lenta y controlada y es mejor tolerada.",
+   "C": "En el paciente neurocrítico la TRRC evita cambios osmóticos bruscos y elevación de la presión intracraneal.",
+   "D": "La inestabilidad hemodinámica favorece la TRRC.",
+   "E": "Correcto. La TRRC es de baja eficiencia; ante hiperkalemia grave con cambios electrocardiográficos se requiere un control rápido de solutos, por lo que se prefiere una modalidad intermitente."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-5",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "",
+  "enunciado": "¿Qué estrategia aumenta la dosis efectiva de TRRC?",
+  "perla": "Un mayor tiempo efectivo de funcionamiento del circuito aumenta la dosis realmente entregada y la depuración; cada interrupción por acceso, coagulación o alarmas es terapia perdida.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "Aumentar indefinidamente la dosis prescrita",
+   "B": "Aumentar exclusivamente la UFNET",
+   "C": "Reducir interrupciones del circuito",
+   "D": "Usar siempre el mayor Qb posible",
+   "E": "Aumentar la heparina sin evaluar el acceso"
+  },
+  "explicaciones": {
+   "A": "Subir la prescripción no corrige la causa de las interrupciones, y las dosis altas no mejoran desenlaces (RENAL).",
+   "B": "La UFNET regula el balance de líquidos, no la depuración de solutos, y aumentarla eleva la FF y el riesgo de hipotensión.",
+   "C": "Correcto. Un mayor tiempo efectivo de funcionamiento del circuito aumenta la dosis realmente entregada y la depuración; cada interrupción por acceso, coagulación o alarmas es terapia perdida.",
+   "D": "Un Qb máximo no prolonga el circuito y aumenta las alarmas de acceso.",
+   "E": "Sin corregir el acceso persisten las interrupciones."
+  },
+  "clave": "C",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-6",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "",
+  "enunciado": "Sobre el flujo sanguíneo (Qb) en TRRC, elige la opción más apropiada:",
+  "perla": "Un Qb mayor no necesariamente prolonga el circuito: aumenta el estrés sobre el catéter y favorece alarmas, interrupciones, estasis y coagulación.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "Aumentarlo siempre prolonga la vida del circuito",
+   "B": "Flujo estable sin alarmas ni problemas de acceso",
+   "C": "250 vs 150 mL/min prolonga significativamente la vida del filtro",
+   "D": "No se relaciona con la coagulación del circuito",
+   "E": "Usar siempre el máximo Qb que tolere el catéter"
+  },
+  "explicaciones": {
+   "A": "Es falso que siempre lo prolongue.",
+   "B": "Correcto. Un Qb mayor no necesariamente prolonga el circuito: aumenta el estrés sobre el catéter y favorece alarmas, interrupciones, estasis y coagulación.",
+   "C": "El ECA que comparó 150 vs 250 mL/min no encontró diferencia significativa (9.1 vs 10 h; HR 0.85; p = 0.46).",
+   "D": "El Qb sí se relaciona con la coagulación, a través de la estasis, la hemoconcentración y las interrupciones.",
+   "E": "Más Qb aumenta alarmas y estrés del acceso."
+  },
+  "clave": "B",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-7",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "",
+  "enunciado": "Paciente en CVVHDF con FF de 32%. ¿Qué maniobras realizarías para disminuirla?",
+  "perla": "Para llevar la FF por debajo de 20–25% puede aumentarse la reposición prefiltro (diluye la sangre que entra) o agregarse flujo dializante (depura por difusión sin aumentar la filtración); usar CVVHD es la maniobra que más la reduce.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "Incrementar solo la reposición posfiltro",
+   "B": "Aumentar el Qb solo hasta que cedan los signos de hemoconcentración",
+   "C": "Aumentar la UFNET",
+   "D": "Aumentar la UF neta y la reposición posdilucional",
+   "E": "Aumentar la reposición prefiltro o el flujo dializante"
+  },
+  "explicaciones": {
+   "A": "La reposición posfiltro aumenta el numerador sin modificar el denominador, por lo que la FF sube.",
+   "B": "Guiarse por signos clínicos de hemoconcentración no es una meta objetiva (la FF se calcula) y subir el Qb puede generar alarmas de acceso.",
+   "C": "Aumentar la UFNET incrementa el numerador y la FF.",
+   "D": "Ambas maniobras aumentan la FF.",
+   "E": "Correcto. Para llevar la FF por debajo de 20–25% puede aumentarse la reposición prefiltro (diluye la sangre que entra) o agregarse flujo dializante (depura por difusión sin aumentar la filtración); usar CVVHD es la maniobra que más la reduce."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-8",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "",
+  "enunciado": "¿Cuál de las siguientes supone una ventaja del citrato regional como método anticoagulante en TRRC?",
+  "perla": "Frente a heparina sistémica, el citrato prolongó la vida del filtro (47 vs 26 h) y redujo el sangrado mayor (5.1 vs 16.9%), aunque requiere vigilar alteraciones metabólicas, sobre todo del calcio y del metabolismo del citrato.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "Reduce la necesidad de monitorizar calcio",
+   "B": "Elimina el riesgo de alteraciones metabólicas",
+   "C": "Prolonga el circuito y reduce el sangrado",
+   "D": "Está contraindicado en toda hiperlactatemia",
+   "E": "Reduce la mortalidad frente a la heparina sistémica"
+  },
+  "explicaciones": {
+   "A": "Al contrario, obliga a monitorizar calcio iónico sistémico y posfiltro y el cociente CaT/Cai.",
+   "B": "No elimina el riesgo; puede haber hipocalcemia, alcalosis metabólica o acumulación de citrato.",
+   "C": "Correcto. Frente a heparina sistémica, el citrato prolongó la vida del filtro (47 vs 26 h) y redujo el sangrado mayor (5.1 vs 16.9%), aunque requiere vigilar alteraciones metabólicas, sobre todo del calcio y del metabolismo del citrato.",
+   "D": "La hiperlactatemia no es contraindicación absoluta; el consenso de expertos apoya usarlo con cautela.",
+   "E": "En el ECA de 2020 la mortalidad no difirió."
+  },
+  "clave": "C",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-10",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "Sobre la anticoagulación regional con citrato,",
+  "enunciado": "¿cuál de las siguientes opciones es la correcta?:",
+  "perla": "Según la evidencia y el consenso de expertos, el citrato puede usarse incluso en falla hepática, con dosis bajas de citrato y monitorización estrecha de las complicaciones metabólicas.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "Puede usarse en pacientes con falla hepática",
+   "B": "El principal efecto adverso es la hipercalcemia sistémica",
+   "C": "Prolonga el circuito y reduce mortalidad y sangrado frente a la sistémica",
+   "D": "Está contraindicada en pacientes pediátricos",
+   "E": "Evita por completo la hipocalcemia sistémica"
+  },
+  "explicaciones": {
+   "A": "Correcto. Según la evidencia y el consenso de expertos, el citrato puede usarse incluso en falla hepática, con dosis bajas de citrato y monitorización estrecha de las complicaciones metabólicas.",
+   "B": "El efecto adverso más frecuente es la hipocalcemia, no la hipercalcemia.",
+   "C": "Prolonga la vida del circuito y reduce el sangrado, pero no disminuye la mortalidad (51.2 vs 53.6%, NS).",
+   "D": "KDIGO recomienda el citrato tanto en niños como en adultos.",
+   "E": "La hipocalcemia es su efecto adverso típico."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-1",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "Un metaanálisis reciente no encuentra diferencia significativa en mortalidad entre DP y terapias extracorpóreas en la LRA.",
+  "enunciado": "¿Interpretación más apropiada?",
+  "perla": "Los metaanálisis no muestran diferencias consistentes en mortalidad ni recuperación renal, pero la certeza y la precisión son limitadas: la ausencia de diferencia estadística no equivale a demostrar equivalencia ni no inferioridad.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "La DP es superior a las terapias extracorpóreas",
+   "B": "Se demostró formalmente su equivalencia",
+   "C": "La falta de significancia demuestra que son intercambiables",
+   "D": "Se puede recomendar DP como primera opción en todos los pacientes",
+   "E": "Sin diferencia consistente, pero no prueba equivalencia"
+  },
+  "explicaciones": {
+   "A": "Ningún metaanálisis demostró superioridad de la DP en mortalidad.",
+   "B": "Demostrar equivalencia exige un diseño de equivalencia o no inferioridad con márgenes predefinidos.",
+   "C": "La falta de significancia no demuestra que sean intercambiables; las modalidades difieren en rapidez, control de volumen y requisitos.",
+   "D": "La elección depende del paciente y del contexto, no hay una primera modalidad universal.",
+   "E": "Correcto. Los metaanálisis no muestran diferencias consistentes en mortalidad ni recuperación renal, pero la certeza y la precisión son limitadas: la ausencia de diferencia estadística no equivale a demostrar equivalencia ni no inferioridad."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-3",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "LRA con K⁺ 7.8 mmol/L, QRS que se ensancha y arritmia ventricular pese al tratamiento médico; hay HD disponible de inmediato.",
+  "enunciado": "¿Estrategia dialítica más apropiada?",
+  "perla": "La hiperkalemia grave no contraindica necesariamente la DP, pero cuando amenaza la vida (QRS ancho, arritmia) y hay HD disponible de inmediato, la rapidez de la corrección favorece la terapia extracorpórea.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "HD por su corrección metabólica rápida",
+   "B": "DP con recambios cada 6 h",
+   "C": "DP con permanencias de 4 h y dextrosa 1.5%",
+   "D": "Esperar la respuesta al tratamiento médico",
+   "E": "DP y HD son necesariamente equivalentes aquí"
+  },
+  "explicaciones": {
+   "A": "Correcto. La hiperkalemia grave no contraindica necesariamente la DP, pero cuando amenaza la vida (QRS ancho, arritmia) y hay HD disponible de inmediato, la rapidez de la corrección favorece la terapia extracorpórea.",
+   "B": "Recambios de 6 h o permanencias de 4 h corrigen el K⁺ con demasiada lentitud para una arritmia que amenaza la vida.",
+   "C": "Recambios de 6 h o permanencias de 4 h corrigen el K⁺ con demasiada lentitud para una arritmia que amenaza la vida.",
+   "D": "Con arritmia pese al tratamiento médico no se debe esperar.",
+   "E": "En esta urgencia no son equivalentes: la HD corrige más rápido."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-4",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "Paciente con LRA en DP con uremia, acidosis, hiperkalemia y sobrecarga que requieren corrección inicial rápida. Según la ISPD,",
+  "enunciado": "¿qué cambio es más apropiado?",
+  "perla": "Según la ISPD, ciclos de ~1–2 h probablemente corrigen más rápido uremia, hiperkalemia, sobrecarga y acidosis; se prolongan cuando se resuelve la urgencia (2C).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "Prolongar las permanencias a 6–8 h",
+   "B": "Ciclos de 4 h siempre, sin importar la evolución",
+   "C": "Suspender la DP y pasar obligatoriamente a HD",
+   "D": "Ciclos de ~1–2 h y prolongarlos al controlar la urgencia",
+   "E": "Reducir el volumen de dializado para evitar depuración excesiva"
+  },
+  "explicaciones": {
+   "A": "Las permanencias de 6–8 h son para mantenimiento y corrigen más lento.",
+   "B": "Los ciclos se ajustan a la evolución: cortos en la urgencia y más largos después.",
+   "C": "Estos trastornos no obligan a cambiar a HD si la DP es eficaz.",
+   "D": "Correcto. Según la ISPD, ciclos de ~1–2 h probablemente corrigen más rápido uremia, hiperkalemia, sobrecarga y acidosis; se prolongan cuando se resuelve la urgencia (2C).",
+   "E": "Reducir el volumen disminuye la depuración que se necesita."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-5",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "",
+  "enunciado": "¿Qué afirmación refleja correctamente las recomendaciones de la ISPD para la DP en LRA?",
+  "perla": "La ISPD señala que un Kt/V semanal de 2.2 puede ser equivalente a 3.5 (1B): aumentar la dosis indefinidamente no mejora necesariamente los desenlaces (p. ej., 3.3 vs 2.26 sin diferencia en mortalidad).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "Kt/V semanal de 1.7 es la meta universal",
+   "B": "Kt/V semanal de 2.2 equivale a 3.5",
+   "C": "El Kt/V no sirve en la LRA",
+   "D": "Todos deben alcanzar un Kt/V semanal ≥4.0",
+   "E": "La meta es la misma que en DP crónica"
+  },
+  "explicaciones": {
+   "A": "1.7 es la meta de la DP crónica, no de la DP aguda.",
+   "B": "Correcto. La ISPD señala que un Kt/V semanal de 2.2 puede ser equivalente a 3.5 (1B): aumentar la dosis indefinidamente no mejora necesariamente los desenlaces (p. ej., 3.3 vs 2.26 sin diferencia en mortalidad).",
+   "C": "El Kt/V sí sirve para medir la dosis cuando los recursos lo permiten.",
+   "D": "No se exige un Kt/V ≥4.0; la mayor intensidad no mejoró la supervivencia.",
+   "E": "La meta de la DP aguda es distinta de la crónica."
+  },
+  "clave": "B",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-2",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "Hombre de 56 años con choque séptico, LRA KDIGO 3, oliguria y sobrecarga, en un hospital con HDI, PIRRT, TRRC y DP disponibles y experiencia en todas.",
+  "enunciado": "¿Qué principio debe guiar la elección de la TRR?",
+  "perla": "No existe una jerarquía universal de TRR: la elección surge de la interacción entre paciente, urgencia, fisiología, recursos y experiencia del centro.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "La TRRC siempre es la primera opción en la LRA grave",
+   "B": "Preferir DP porque no requiere acceso vascular",
+   "C": "HDI de inicio por su mayor depuración instantánea",
+   "D": "Individualizar según paciente, recursos y experiencia",
+   "E": "Elegir la modalidad de menor costo"
+  },
+  "explicaciones": {
+   "A": "La TRRC aporta más con inestabilidad hemodinámica y remoción predecible de volumen, pero no es siempre la primera opción.",
+   "B": "No requerir acceso vascular es una ventaja de la DP, pero no basta para elegirla en todos los casos.",
+   "C": "La HDI corrige más rápido, pero tolera peor la inestabilidad hemodinámica del choque séptico.",
+   "D": "Correcto. No existe una jerarquía universal de TRR: la elección surge de la interacción entre paciente, urgencia, fisiología, recursos y experiencia del centro.",
+   "E": "El costo es un factor, no el principio que decide."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-7",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "Un hospital tiene soluciones de DP y cicladoras, pero ningún cirujano podrá colocar catéter en 24 h.",
+  "enunciado": "¿Estrategia más congruente?",
+  "perla": "La disponibilidad de una modalidad incluye obtener a tiempo el acceso: el nefrólogo u otro personal entrenado puede colocar el catéter al pie de la cama con técnicas mínimamente invasivas, guiadas por ultrasonido.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "Formar personal en colocación mínimamente invasiva",
+   "B": "La DP no puede formar parte de un programa de LRA",
+   "C": "Colocar catéter venoso central a todos los candidatos",
+   "D": "Usar solo catéteres rígidos temporales",
+   "E": "Esperar siempre al cirujano"
+  },
+  "explicaciones": {
+   "A": "Correcto. La disponibilidad de una modalidad incluye obtener a tiempo el acceso: el nefrólogo u otro personal entrenado puede colocar el catéter al pie de la cama con técnicas mínimamente invasivas, guiadas por ultrasonido.",
+   "B": "La falta de cirujano no excluye la DP si hay personal capacitado.",
+   "C": "Colocar catéter venoso central a todos expone a complicaciones y no aprovecha la DP disponible.",
+   "D": "Los catéteres rígidos temporales se han sustituido por catéteres flexibles, con menos complicaciones.",
+   "E": "Esperar retrasa la TRR sin necesidad."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-8",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "Paciente en DP aguda 24 h con 36 L de solución al 1.36%. Con absorción de ~35% de la glucosa,",
+  "enunciado": "¿cuánta energía absorbe aproximadamente?",
+  "perla": "Una solución al 1.36% contiene 13.6 g/L: 36 L aportan 489.6 g de glucosa; con 35% de absorción son ~171 g, × 4 kcal/g ≈ 685 kcal/día. La DP aguda no es metabólicamente neutra.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "170 kcal/día",
+   "B": "350 kcal/día",
+   "C": "490 kcal/día",
+   "D": "1,400 kcal/día",
+   "E": "685 kcal/día"
+  },
+  "explicaciones": {
+   "A": "170 corresponde a los gramos absorbidos, no a las kcal.",
+   "B": "350 kcal subestima la carga.",
+   "C": "490 corresponde a los gramos administrados, no a la energía absorbida.",
+   "D": "1,400 kcal sobrestima: con solución al 2.27% serían ~1,144 kcal/día.",
+   "E": "Correcto. Una solución al 1.36% contiene 13.6 g/L: 36 L aportan 489.6 g de glucosa; con 35% de absorción son ~171 g, × 4 kcal/g ≈ 685 kcal/día. La DP aguda no es metabólicamente neutra."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-9",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "Tras un desastre natural, un hospital recibe muchos pacientes con LRA y tiene pocas máquinas extracorpóreas.",
+  "enunciado": "¿Qué papel puede tener la DP?",
+  "perla": "La nefrología de desastres busca anticipar escenarios médicos y logísticos; la DP puede ampliar la capacidad de TRR cuando faltan máquinas extracorpóreas, siempre que haya acceso, insumos y personal capacitado (como durante la COVID-19).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "Evitarla: la LRA por desastre requiere TRRC obligatoriamente",
+   "B": "Su utilidad es solo económica",
+   "C": "Ampliar la capacidad de TRR con personal capacitado",
+   "D": "Usarla solo sin sobrecarga hídrica",
+   "E": "Sustituye necesariamente a las modalidades extracorpóreas"
+  },
+  "explicaciones": {
+   "A": "La LRA por desastre no requiere obligatoriamente TRRC; la DP es factible y adaptable.",
+   "B": "Su utilidad no es solo económica: no necesita acceso vascular, anticoagulación ni infraestructura compleja.",
+   "C": "Correcto. La nefrología de desastres busca anticipar escenarios médicos y logísticos; la DP puede ampliar la capacidad de TRR cuando faltan máquinas extracorpóreas, siempre que haya acceso, insumos y personal capacitado (como durante la COVID-19).",
+   "D": "La sobrecarga no la excluye.",
+   "E": "Es complementaria; no sustituye necesariamente a las modalidades extracorpóreas."
+  },
+  "clave": "C",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-6",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "",
+  "enunciado": "¿Qué describe mejor una limitación de la DP aguda frente a la TRRC en un paciente crítico con sobrecarga?",
+  "perla": "La DP produce UF clínicamente relevante (como muestran los registros de la cicladora), pero el control del volumen es menos predecible que con una terapia continua en la que la UF neta se programa directamente.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "La DP no logra UF clínicamente significativa",
+   "B": "UF significativa, pero menos predecible",
+   "C": "La UF con DP no depende de la glucosa ni de la permanencia",
+   "D": "La sobrecarga contraindica de forma absoluta la DP",
+   "E": "La UF con DP requiere anticoagulación sistémica"
+  },
+  "explicaciones": {
+   "A": "La DP sí logra UF significativa (p. ej., 1.85 L en una noche).",
+   "B": "Correcto. La DP produce UF clínicamente relevante (como muestran los registros de la cicladora), pero el control del volumen es menos predecible que con una terapia continua en la que la UF neta se programa directamente.",
+   "C": "La UF depende de la concentración de glucosa y del tiempo de permanencia.",
+   "D": "La sobrecarga no contraindica la DP; se usa solución al 4.25% con ciclos de 2 h (solo la sobrecarga grave sin ventilación es contraindicación relativa).",
+   "E": "La DP no requiere anticoagulación sistémica, una de sus ventajas."
+  },
+  "clave": "B",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ12-10",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Diálisis peritoneal en la LRA",
+  "caso": "",
+  "enunciado": "¿Qué afirmación sintetiza mejor el papel de la DP en la LRA en 2026?",
+  "perla": "Es la tesis central de la ponencia: no hay diferencia consistente en mortalidad o recuperación renal frente a la TRR extracorpórea, pero tampoco equivalencia universal; la DP es una modalidad legítima que se elige según el paciente, la urgencia, la fisiología, los recursos y la experiencia.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 12: Diálisis peritoneal en la LRA"
+  ],
+  "serie_id": "AZ12-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 12)"
+  ],
+  "opciones": {
+   "A": "Debe sustituir a la TRRC por su menor costo",
+   "B": "Sin diferencia consistente: modalidad según contexto",
+   "C": "La TRRC es superior y la DP es solo de rescate",
+   "D": "La DP es superior en mortalidad y recuperación renal",
+   "E": "Todas las modalidades son clínicamente equivalentes"
+  },
+  "explicaciones": {
+   "A": "El costo no justifica sustituir a la TRRC.",
+   "B": "Correcto. Es la tesis central de la ponencia: no hay diferencia consistente en mortalidad o recuperación renal frente a la TRR extracorpórea, pero tampoco equivalencia universal; la DP es una modalidad legítima que se elige según el paciente, la urgencia, la fisiología, los recursos y la experiencia.",
+   "C": "La TRRC no es intrínsecamente superior y la DP no es solo de rescate.",
+   "D": "No se ha demostrado superioridad de la DP.",
+   "E": "Las modalidades no son equivalentes en todos los escenarios (p. ej., hiperkalemia que pone en riesgo la vida)."
+  },
+  "clave": "B",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-1",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "Caso seriado. Cirrosis por MAFLD Child B, MELD-Na 15, con astenia y adinamia. TA 80/50 (TAM 60), sin ingurgitación yugular, ascitis grado 3, sin edema. Cr 2.4 mg/dL (basal 0.6), BT 8.2, albúmina 2.1, lactato 1.5; EGO con densidad 1.035, sin proteinuria ni hematuria, sedimento normal, FENa < 0.2%. POCUS: pulmón patrón A, yugular pequeña y colapsable, ITV 28 cm, E/eʹ 16.",
+  "enunciado": "¿Sospecha diagnóstica inicial?",
+  "perla": "Cirrosis descompensada con deterioro agudo de la función renal, EGO normal y FENa < 0.2% (activación del eje RAA); el POCUS solo muestra datos de miocardiopatía cirrótica (E/eʹ 16, ITV alto) sin hipovolemia ni congestión.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "SHR-lesión renal aguda",
+   "B": "Nefropatía colémica",
+   "C": "SHR-enfermedad renal crónica",
+   "D": "LRA por necrosis tubular aguda",
+   "E": "LRA prerrenal por diuréticos"
+  },
+  "explicaciones": {
+   "A": "Correcto. Cirrosis descompensada con deterioro agudo de la función renal, EGO normal y FENa < 0.2% (activación del eje RAA); el POCUS solo muestra datos de miocardiopatía cirrótica (E/eʹ 16, ITV alto) sin hipovolemia ni congestión.",
+   "B": "La bilirrubina no está tan elevada y no hay cilindros pigmentados.",
+   "C": "La creatinina basal es normal, sin proteinuria ni hematuria glomerular: no hay datos de ERC.",
+   "D": "No hay choque, el lactato es normal, no hay cilindros granulosos ni células tubulares y la FENa es < 1%.",
+   "E": "Sin respuesta a albúmina."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-3",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "",
+  "enunciado": "Sin PBE, recibe albúmina 1 g/kg. A las 24 h: TA 80/50, Cr 2.2 mg/dL y diuresis 0.4 mL/kg/h. Decides iniciar vasoconstrictor en forma temprana:",
+  "perla": "La terlipresina es un análogo de vasopresina con 2–6 veces más afinidad por V1a (vasoconstricción esplácnica); la meta es aumentar la TAM > 15 mmHg sobre la basal. No ha mostrado superioridad contundente en mortalidad frente a norepinefrina.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "Norepinefrina por mayor afinidad V1a y menor mortalidad que terlipresina; meta TAM > 65 mmHg",
+   "B": "Norepinefrina por mayor afinidad V2, sin diferencia en mortalidad; meta TAM > 65 mmHg",
+   "C": "Terlipresina por mayor afinidad V2, sin diferencia en mortalidad; meta TAM > 15 mmHg sobre la basal",
+   "D": "Terlipresina, sin diferencia en mortalidad vs norepinefrina",
+   "E": "Dopamina a dosis renal"
+  },
+  "explicaciones": {
+   "A": "La norepinefrina es agonista α y β adrenérgico, no V1a, y no tiene menor mortalidad.",
+   "B": "La norepinefrina no actúa sobre V2 y la meta en SHR no es una TAM fija > 65 mmHg.",
+   "C": "El efecto vasoconstrictor de la terlipresina es por V1a; V2 media efectos renales sobre el agua.",
+   "D": "Correcto. La terlipresina es un análogo de vasopresina con 2–6 veces más afinidad por V1a (vasoconstricción esplácnica); la meta es aumentar la TAM > 15 mmHg sobre la basal. No ha mostrado superioridad contundente en mortalidad frente a norepinefrina.",
+   "E": "Sin beneficio."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-4",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "",
+  "enunciado": "Para evitar edema agudo pulmonar, ¿cuáles son los efectos hemodinámicos de la albúmina y los vasopresores?",
+  "perla": "La albúmina expande el volumen intravascular (↑ precarga) y los vasopresores aumentan la resistencia vascular (↑ poscarga); en un corazón con disfunción diastólica la combinación puede precipitar edema pulmonar.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "Albúmina ↑ precarga; vasopresores ↑ poscarga",
+   "B": "Albúmina ↓ precarga; vasopresores ↑ poscarga",
+   "C": "Albúmina ↑ precarga; vasopresores ↓ poscarga",
+   "D": "Albúmina ↓ precarga; vasopresores ↓ poscarga",
+   "E": "Albúmina ↓ poscarga; vasopresores ↓ precarga"
+  },
+  "explicaciones": {
+   "A": "Correcto. La albúmina expande el volumen intravascular (↑ precarga) y los vasopresores aumentan la resistencia vascular (↑ poscarga); en un corazón con disfunción diastólica la combinación puede precipitar edema pulmonar.",
+   "B": "Los vasopresores no reducen la poscarga; la aumentan. En la RM, la terlipresina incluso redujo el gasto cardiaco 15%.",
+   "C": "Los vasopresores no reducen la poscarga; la aumentan. En la RM, la terlipresina incluso redujo el gasto cardiaco 15%.",
+   "D": "La albúmina no disminuye la precarga.",
+   "E": "La albúmina aumenta la precarga y los vasopresores la poscarga."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-5",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "",
+  "enunciado": "¿Qué mecanismo desencadena el SHR en la cirrosis?",
+  "perla": "La hipertensión portal libera vasodilatadores (óxido nítrico), reduce el volumen arterial efectivo y activa SRAA, SNS y vasopresina, con vasoconstricción renal.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "Obstrucción tubular por depósitos de bilirrubina",
+   "B": "Toxicidad de los ácidos biliares sobre la membrana basal glomerular",
+   "C": "Vasodilatación esplácnica secundaria a hipertensión portal",
+   "D": "Aumento compensatorio del gasto cardiaco que daña el glomérulo",
+   "E": "Glomerulonefritis por IgA secundaria"
+  },
+  "explicaciones": {
+   "A": "Describen la nefropatía colémica, entidad controvertida que no explica el SHR.",
+   "B": "Describen la nefropatía colémica, entidad controvertida que no explica el SHR.",
+   "C": "Correcto. La hipertensión portal libera vasodilatadores (óxido nítrico), reduce el volumen arterial efectivo y activa SRAA, SNS y vasopresina, con vasoconstricción renal.",
+   "D": "El aumento del gasto cardiaco es una respuesta compensatoria inicial y no daña el glomérulo per se.",
+   "E": "No es el mecanismo."
+  },
+  "clave": "C",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-7",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "En el SHR sin respuesta a albúmina ni vasoconstrictores,",
+  "enunciado": "¿cuál es el papel de la TRR?",
+  "perla": "La TRR no mejora por sí sola la supervivencia en el SHR, pero mantiene estable al paciente hasta el trasplante hepático; en no candidatos se individualiza (diálisis por tiempo limitado o cuidados paliativos).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "Es el tratamiento definitivo para revertir la vasoconstricción esplácnica",
+   "B": "Mejora la supervivencia del SHR",
+   "C": "Se recomienda en todos los no candidatos a trasplante",
+   "D": "Contraindicada en todos",
+   "E": "Terapia de soporte en candidatos a trasplante hepático"
+  },
+  "explicaciones": {
+   "A": "No revierte la vasoconstricción esplácnica.",
+   "B": "La mortalidad es similar en SHR y NTA que requieren TRR (84–85% sin trasplante a 6 meses).",
+   "C": "Habitualmente no se recomienda en no candidatos; con ≥ 5 fallas orgánicas la mortalidad en UCI fue de 100%.",
+   "D": "No está contraindicada.",
+   "E": "Correcto. La TRR no mejora por sí sola la supervivencia en el SHR, pero mantiene estable al paciente hasta el trasplante hepático; en no candidatos se individualiza (diálisis por tiempo limitado o cuidados paliativos)."
+  },
+  "clave": "E",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-8",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "",
+  "enunciado": "En el síndrome hepatocardiorrenal, ¿qué papel tiene la disfunción cardiaca en la LRA?",
+  "perla": "La miocardiopatía cirrótica (disfunción diastólica en ~55%) impide aumentar el gasto cardiaco ante la vasodilatación sistémica, con caída del filtrado glomerular.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "La miocardiopatía cirrótica reduce el gasto",
+   "B": "La taquicardia refleja lesiona los capilares peritubulares",
+   "C": "El exceso de péptidos natriuréticos contrae la arteriola aferente",
+   "D": "La uremia deteriora el corazón y, por ende, el hígado",
+   "E": "Aumenta la reabsorción de urea"
+  },
+  "explicaciones": {
+   "A": "Correcto. La miocardiopatía cirrótica (disfunción diastólica en ~55%) impide aumentar el gasto cardiaco ante la vasodilatación sistémica, con caída del filtrado glomerular.",
+   "B": "La taquicardia no lesiona mecánicamente los capilares peritubulares.",
+   "C": "Los péptidos natriuréticos son vasodilatadores y natriuréticos.",
+   "D": "Describe una secuencia renocardiohepática sin sustento en la ponencia.",
+   "E": "No es el mecanismo."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-9",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "",
+  "enunciado": "¿Qué parámetro ecográfico predijo mejor una PVC > 8 mmHg en cirrosis?",
+  "perla": "En Leal-Villarreal et al., un índice de colapsabilidad del área de la yugular interna < 25% (a 30°) predijo PVC > 8 mmHg con sensibilidad 100% y especificidad 97.1%, superior a la VCI en cirrosis.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "VCI > 2.1 cm con colapso inspiratorio < 50%",
+   "B": "Pulsatilidad de la porta > 30%",
+   "C": "Índice de colapsabilidad de la VCI > 40%",
+   "D": "Colapso del área yugular < 25%",
+   "E": "Diámetro de la porta"
+  },
+  "explicaciones": {
+   "A": "La pulsatilidad portal no fue el mejor predictor y su papel (VExUS) en cirrosis aún no está claro.",
+   "B": "La pulsatilidad portal no fue el mejor predictor y su papel (VExUS) en cirrosis aún no está claro.",
+   "C": "La VCI es menos fiable en cirrosis por la hipertensión intraabdominal, el hígado cirrótico y las colaterales portosistémicas.",
+   "D": "Correcto. En Leal-Villarreal et al., un índice de colapsabilidad del área de la yugular interna < 25% (a 30°) predijo PVC > 8 mmHg con sensibilidad 100% y especificidad 97.1%, superior a la VCI en cirrosis.",
+   "E": "No predice PVC."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-10",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "",
+  "enunciado": "Con FoCUS, ¿cómo se interpreta un ITV del TSVI de 30 cm?",
+  "perla": "Un ITV mayor de lo normal (18–22 cm) indica circulación hiperdinámica, frecuente en cirrosis, y ayuda a descartar la depleción de volumen como causa de la LRA.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "Disfunción sistólica grave por miocardiopatía cirrótica",
+   "B": "Gasto cardiaco elevado; hace poco probable la hipovolemia",
+   "C": "Precarga inadecuada que justifica expandir con albúmina",
+   "D": "Signo patognomónico de SHR que obliga a iniciar vasoconstrictores",
+   "E": "Indica taponamiento"
+  },
+  "explicaciones": {
+   "A": "Un ITV alto no indica disfunción sistólica.",
+   "B": "Correcto. Un ITV mayor de lo normal (18–22 cm) indica circulación hiperdinámica, frecuente en cirrosis, y ayuda a descartar la depleción de volumen como causa de la LRA.",
+   "C": "No refleja precarga inadecuada; la hipovolemia daría ITV bajo (VTI/min < 2,000 mL).",
+   "D": "No es patognomónico de SHR; puede corresponder a falla de alto gasto.",
+   "E": "Un ITV alto indica gasto alto, no taponamiento."
+  },
+  "clave": "B",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-4",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "",
+  "enunciado": "Paciente con TRRC con dosis prescrita de 30 mL/kg/h con múltiples interrupciones por alarmas de acceso y coagulación del filtro. Elige la opción correcta:",
+  "perla": "La dosis prescrita es distinta a la entregada: tiempos muertos, problemas de acceso, coagulación del filtro, factor de dilución y cambios en la UF neta reducen la dosis que realmente recibe el paciente.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "La dosis entregada siempre iguala a la prescrita",
+   "B": "Las interrupciones no afectan si la dosis prescrita es ≥ 25 mL/kg/h",
+   "C": "La dosis efectiva depende solo del Qb",
+   "D": "La dosis entregada puede ser considerablemente menor que la prescrita",
+   "E": "La dosis entregada supera a la prescrita con predilución"
+  },
+  "explicaciones": {
+   "A": "La dosis entregada casi siempre es menor que la prescrita.",
+   "B": "Las interrupciones reducen la dosis cualquiera que sea la prescripción; por eso KDIGO recomienda revisarla a diario.",
+   "C": "La dosis efectiva depende del tiempo de funcionamiento, del efluente, de la dilución y de la saturación del filtro, no solo del Qb.",
+   "D": "Correcto. La dosis prescrita es distinta a la entregada: tiempos muertos, problemas de acceso, coagulación del filtro, factor de dilución y cambios en la UF neta reducen la dosis que realmente recibe el paciente.",
+   "E": "La predilución reduce, no aumenta, la dosis efectiva."
+  },
+  "clave": "D",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ5-9",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Terapia de reemplazo renal continua",
+  "caso": "",
+  "enunciado": "Hct 30%, Qb 120 mL/min, Qpre 500, Qpost 500, Qd 500 y QUFnet 100 mL/h. El filtro se coagula a las 24 h y te sugieren pasar toda la dosis a prefiltro (Qpre 1500, QUFnet 100 mL/h). Este cambio:",
+  "perla": "FF = (QUFnet + Qpre + Qpost) / (Qp + Qpre); Qp = 120 × (1 − 0.30) = 84 mL/min; los flujos en mL/h se dividen entre 60. Prescripción original: (1.67 + 8.33 + 8.33) / (84 + 8.33) = 19.9%. Todo prefiltro: (1.67 + 25) / (84 + 25) = 24.5%. Pasar toda la dosis a prefiltro aumenta la FF.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 5: Terapia de reemplazo renal continua"
+  ],
+  "serie_id": "AZ5-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 5)"
+  ],
+  "opciones": {
+   "A": "Disminuye la fracción de filtración",
+   "B": "Aumenta la fracción de filtración",
+   "C": "Aumenta la fracción de flujo",
+   "D": "No modifica la fracción de filtración",
+   "E": "Diluye la sangre que entra al filtro y reduce la coagulación"
+  },
+  "explicaciones": {
+   "A": "La \"fracción de flujo\" no es un parámetro del circuito.",
+   "B": "Correcto. FF = (QUFnet + Qpre + Qpost) / (Qp + Qpre); Qp = 120 × (1 − 0.30) = 84 mL/min; los flujos en mL/h se dividen entre 60. Prescripción original: (1.67 + 8.33 + 8.33) / (84 + 8.33) = 19.9%. Todo prefiltro: (1.67 + 25) / (84 + 25) = 24.5%. Pasar toda la dosis a prefiltro aumenta la FF.",
+   "C": "La \"fracción de flujo\" no es un parámetro del circuito.",
+   "D": "El cálculo muestra que la FF sube de 19.9 a 24.5%.",
+   "E": "La predilución sí diluye la sangre, pero al convertir el Qd y el Qpost en reposición prefiltro el volumen ultrafiltrado crece más que la dilución, así que la FF aumenta y no se reduce el riesgo de coagulación."
+  },
+  "clave": "B",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-6",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "",
+  "enunciado": "En el ensayo CONFIRM, ¿cuál fue el evento adverso grave más notable con terlipresina + albúmina?",
+  "perla": "En CONFIRM, la insuficiencia respiratoria grave ocurrió en 14% con terlipresina vs 5% con placebo, posiblemente por sobrecarga circulatoria por la combinación con albúmina.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "Encefalopatía hepática grado IV",
+   "B": "Sangrado variceal",
+   "C": "Insuficiencia respiratoria por edema pulmonar",
+   "D": "Síndrome coronario agudo con elevación del ST",
+   "E": "Isquemia mesentérica"
+  },
+  "explicaciones": {
+   "A": "No fueron los eventos adversos graves destacados del estudio; la terlipresina sí puede causar isquemia, pero el hallazgo notable fue la falla respiratoria.",
+   "B": "No fueron los eventos adversos graves destacados del estudio; la terlipresina sí puede causar isquemia, pero el hallazgo notable fue la falla respiratoria.",
+   "C": "Correcto. En CONFIRM, la insuficiencia respiratoria grave ocurrió en 14% con terlipresina vs 5% con placebo, posiblemente por sobrecarga circulatoria por la combinación con albúmina.",
+   "D": "No fueron los eventos adversos graves destacados del estudio; la terlipresina sí puede causar isquemia, pero el hallazgo notable fue la falla respiratoria.",
+   "E": "No fue el más notable."
+  },
+  "clave": "C",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ32-2",
+  "tema_id": 6,
+  "sub": "6.a.ii.hepato",
+  "obj": "6.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Síndrome hepatorrenal",
+  "caso": "Cirrosis con SHR-LRA: presión intraabdominal 15 mmHg y TAM 60 mmHg. Además de descartar PBE,",
+  "enunciado": "¿qué busca la paracentesis terapéutica?",
+  "perla": "Presión de perfusión renal = TAM − presión intraabdominal (o PVC, la mayor) = 60 − 15 = 45 mmHg. Reducir la presión intraabdominal con paracentesis mejora la perfusión renal.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 32: Síndrome hepatorrenal"
+  ],
+  "serie_id": "AZ32-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 32)"
+  ],
+  "opciones": {
+   "A": "Mejorar la PPR; la PPR del paciente es de 45 mmHg",
+   "B": "Mejorar la PPR; la PPR del paciente es de 30 mmHg",
+   "C": "Mejorar la PPR; la PPR del paciente es de 55 mmHg",
+   "D": "Mejorar la PPR; la PPR del paciente es de 35 mmHg",
+   "E": "Mejorar la PPR; la PPR del paciente es de 75 mmHg"
+  },
+  "explicaciones": {
+   "A": "Correcto. Presión de perfusión renal = TAM − presión intraabdominal (o PVC, la mayor) = 60 − 15 = 45 mmHg. Reducir la presión intraabdominal con paracentesis mejora la perfusión renal.",
+   "B": "Cálculo incorrecto.",
+   "C": "Cálculo incorrecto.",
+   "D": "Cálculo incorrecto.",
+   "E": "Suma en lugar de restar la presión intraabdominal."
+  },
+  "clave": "A",
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
  }
 ]

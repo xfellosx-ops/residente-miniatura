@@ -471,5 +471,461 @@
   "tema": "Enfermedades glomerulares",
   "obj": "9.o7",
   "peso": 36.5
+ },
+ {
+  "id": "AZ9-1",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "¿Qué componente del score Oxford MEST-C es el mejor predictor de progresión a ERCT y de menor respuesta a la inmunosupresión?",
+  "perla": "La fibrosis intersticial y atrofia tubular (T1/T2; IFTA > 25–50%) refleja daño crónico irreversible y, en las cohortes de validación del score Oxford, es el predictor histológico independiente más fuerte de caída de la TFGe y progresión (HR 2.46); además se asocia a resistencia a la inmunosupresión.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "Hipercelularidad mesangial, M1",
+   "B": "Hipercelularidad endocapilar, E1",
+   "C": "Fibrosis intersticial y atrofia tubular",
+   "D": "Esclerosis segmentaria, S1",
+   "E": "Semilunas celulares en menos del 25% de glomérulos"
+  },
+  "explicaciones": {
+   "A": "M1 tiene menor peso pronóstico (HR 1.34) y refleja proliferación inicial.",
+   "B": "E1 es una lesión activa con alta tasa de regresión, cuyo valor pronóstico se mitiga con tratamiento.",
+   "C": "Correcto. La fibrosis intersticial y atrofia tubular (T1/T2; IFTA > 25–50%) refleja daño crónico irreversible y, en las cohortes de validación del score Oxford, es el predictor histológico independiente más fuerte de caída de la TFGe y progresión (HR 2.46); además se asocia a resistencia a la inmunosupresión.",
+   "D": "S1 es una cicatriz segmentaria, pero con menor peso que T y con respuesta a esteroides en el fenotipo podocitopático.",
+   "E": "C1 es inflamación reversible."
+  },
+  "clave": "C",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-2",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "¿Qué lesión del MEST-C es un marcador de inflamación activa, potencialmente reversible y con mayor probabilidad de responder a la inmunosupresión?",
+  "perla": "La E1 corresponde a la oclusión de la luz capilar por infiltrado leucocitario y proliferación endotelial: un proceso inflamatorio agudo-subagudo con altas tasas de regresión con inmunomodulación.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "Atrofia tubular, T2",
+   "B": "Hipercelularidad endocapilar, E1",
+   "C": "Esclerosis segmentaria inactiva, S1",
+   "D": "Glomeruloesclerosis global",
+   "E": "Fibrosis intersticial T1"
+  },
+  "explicaciones": {
+   "A": "T2, la esclerosis segmentaria inactiva y la glomeruloesclerosis global son lesiones crónicas, irreversibles y sin respuesta a la inmunosupresión.",
+   "B": "Correcto. La E1 corresponde a la oclusión de la luz capilar por infiltrado leucocitario y proliferación endotelial: un proceso inflamatorio agudo-subagudo con altas tasas de regresión con inmunomodulación.",
+   "C": "T2, la esclerosis segmentaria inactiva y la glomeruloesclerosis global son lesiones crónicas, irreversibles y sin respuesta a la inmunosupresión.",
+   "D": "T2, la esclerosis segmentaria inactiva y la glomeruloesclerosis global son lesiones crónicas, irreversibles y sin respuesta a la inmunosupresión.",
+   "E": "Es lesión crónica."
+  },
+  "clave": "B",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-3",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "¿Cuál es la utilidad fundamental del International IgAN Prediction Tool (IIgAN-PT)?",
+  "perla": "El IIgAN-PT integra variables clínicas (TFGe, presión arterial, proteinuria, edad, uso de bloqueadores del SRAA) e histológicas (MEST) al momento de la biopsia para calcular el riesgo absoluto de una caída del 50% de la TFGe o ERCT en 5–7 años.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "Diagnosticar la NIgA sin biopsia renal",
+   "B": "Determinar qué inmunosupresor prescribir",
+   "C": "Predecir hematuria macroscópica sinfaringítica",
+   "D": "Indicar budesonida o esteroide sistémico según puntaje",
+   "E": "Estimar el riesgo de caída de TFGe o falla a 5–7 años"
+  },
+  "explicaciones": {
+   "A": "Requiere el MEST de la biopsia, por lo que no la sustituye.",
+   "B": "No está validado para predecir la respuesta a un tratamiento específico.",
+   "C": "No incluye la hematuria ni predice sus episodios.",
+   "D": "No debe usarse para elegir tratamiento.",
+   "E": "Correcto. El IIgAN-PT integra variables clínicas (TFGe, presión arterial, proteinuria, edad, uso de bloqueadores del SRAA) e histológicas (MEST) al momento de la biopsia para calcular el riesgo absoluto de una caída del 50% de la TFGe o ERCT en 5–7 años."
+  },
+  "clave": "E",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-5",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "La microhematuria persistente (> 5 eritrocitos/campo) se asocia de forma independiente con:",
+  "perla": "La microhematuria persistente no es benigna: refleja actividad inflamatoria glomerular continua y se asocia de forma independiente a mayor riesgo de deterioro y progresión a falla renal (HR 2.84).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "La extensión de la fibrosis tubulointersticial",
+   "B": "Sobreestimación del riesgo calculado con el IIgAN-PT",
+   "C": "Mayor riesgo de progresión a falla renal",
+   "D": "Ninguna repercusión sobre la función renal",
+   "E": "Mayor respuesta a bloqueo del SRAA"
+  },
+  "explicaciones": {
+   "A": "Se asocia a lesiones proliferativas activas (E1, M1, C1/C2), no a la fibrosis.",
+   "B": "El IIgAN-PT no incluye la hematuria, así que no puede sobreestimar el riesgo por ella.",
+   "C": "Correcto. La microhematuria persistente no es benigna: refleja actividad inflamatoria glomerular continua y se asocia de forma independiente a mayor riesgo de deterioro y progresión a falla renal (HR 2.84).",
+   "D": "Sí tiene repercusión, y su remisión mejora la sobrevida renal.",
+   "E": "No se asocia de forma independiente."
+  },
+  "clave": "C",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-6",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "Hombre de 48 años con NIgA, proteinuria de 1.4 g/día tras 3 meses de ramipril + iSGLT2, sedimento inactivo y biopsia T2 (IFTA > 50%), E0, C0.",
+  "enunciado": "¿Cuál es la conducta indicada?",
+  "perla": "Con T2 (IFTA > 50%) y sedimento inactivo, la proteinuria residual se debe a hiperfiltración adaptativa por pérdida de nefronas, no a inflamación. La inmunosupresión es fútil e iatrogénica, así que se optimiza la nefroprotección hemodinámica (SRAA, iSGLT2, antagonistas de endotelina).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "Nefroprotección hemodinámica sin inmunosupresión",
+   "B": "Budesonida de liberación dirigida 16 mg/día por 9 meses",
+   "C": "Glucocorticoides a dosis reducida y TMP-SMX",
+   "D": "Rebiopsia antes de iniciar terapia inmunosupresora",
+   "E": "Micofenolato por proteinuria mayor de 1 g/día"
+  },
+  "explicaciones": {
+   "A": "Correcto. Con T2 (IFTA > 50%) y sedimento inactivo, la proteinuria residual se debe a hiperfiltración adaptativa por pérdida de nefronas, no a inflamación. La inmunosupresión es fútil e iatrogénica, así que se optimiza la nefroprotección hemodinámica (SRAA, iSGLT2, antagonistas de endotelina).",
+   "B": "El umbral de 0.5 g/día no basta; Nefecon se indica en fenotipo activo.",
+   "C": "Los esteroides están contraindicados con IFTA > 50% y aumentan la mortalidad por infecciones.",
+   "D": "Una biopsia reciente con T2 ya define el fenotipo fibrótico, sin indicación de rebiopsia ni de terapia triple.",
+   "E": "Con T2 la inmunosupresión es fútil."
+  },
+  "clave": "A",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-7",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "¿Cuál es la meta óptima de proteinuria para preservar al máximo la función renal a largo plazo?",
+  "perla": "La meta es proteinuria < 0.5 g/día, idealmente < 0.3 g/día; alcanzarla se correlaciona con estabilización de la TFGe a largo plazo.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "< 1.5 g/día",
+   "B": "< 0.5 g/día, idealmente < 0.3 g/día",
+   "C": "Entre 1.0 y 2.0 g/día",
+   "D": "No hay meta si la presión arterial está controlada",
+   "E": "< 1.0 g/día, sin meta inferior"
+  },
+  "explicaciones": {
+   "A": "Valores ≥ 0.5 g/día mantienen el riesgo de progresión.",
+   "B": "Correcto. La meta es proteinuria < 0.5 g/día, idealmente < 0.3 g/día; alcanzarla se correlaciona con estabilización de la TFGe a largo plazo.",
+   "C": "Valores ≥ 0.5 g/día mantienen el riesgo de progresión.",
+   "D": "El control de la presión arterial no sustituye la meta de proteinuria; ambas son metas independientes.",
+   "E": "La meta es menor de 0.5 g/día."
+  },
+  "clave": "B",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-8",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "¿Qué pendiente de declive de la TFGe define una intervención nefroprotectora exitosa?",
+  "perla": "La nefroprotección busca llevar la pérdida de función al ritmo fisiológico del envejecimiento: < 1 mL/min/1.73 m²/año.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "Pérdida de 3 mL/min/año",
+   "B": "Pérdida de 5 mL/min/año",
+   "C": "La pendiente es irrelevante si el sedimento es inactivo",
+   "D": "Pérdida < 1 mL/min/año",
+   "E": "Pérdida de 2 mL/min/año"
+  },
+  "explicaciones": {
+   "A": "Pérdidas de 3–5 mL/min/año equivalen a las de los grupos placebo de los ensayos y llevan a ERCT.",
+   "B": "Pérdidas de 3–5 mL/min/año equivalen a las de los grupos placebo de los ensayos y llevan a ERCT.",
+   "C": "La pendiente es relevante aun con sedimento inactivo, porque refleja la progresión por hiperfiltración.",
+   "D": "Correcto. La nefroprotección busca llevar la pérdida de función al ritmo fisiológico del envejecimiento: < 1 mL/min/1.73 m²/año.",
+   "E": "No alcanza la meta de menos de 1."
+  },
+  "clave": "D",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-10",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "¿Cuál es la posología estándar de la budesonida de liberación dirigida (Nefecon) en pacientes de alto riesgo?",
+  "perla": "Nefecon libera budesonida en el tejido linfoide del íleon (placas de Peyer) a 16 mg/día VO en un ciclo único de 9 meses, para reducir la producción de Gd-IgA1.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "16 mg/día VO por 9 meses",
+   "B": "4 mg/día VO de forma indefinida",
+   "C": "100 mg/día IV por 2 semanas",
+   "D": "8 mg/día solo durante infecciones respiratorias",
+   "E": "9 mg/día VO por 3 meses"
+  },
+  "explicaciones": {
+   "A": "Correcto. Nefecon libera budesonida en el tejido linfoide del íleon (placas de Peyer) a 16 mg/día VO en un ciclo único de 9 meses, para reducir la producción de Gd-IgA1.",
+   "B": "No es un tratamiento indefinido.",
+   "C": "Es de administración oral, no IV.",
+   "D": "No es un tratamiento a demanda durante infecciones.",
+   "E": "Dosis y duración incorrectas."
+  },
+  "clave": "A",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-11",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "Al prescribir glucocorticoides sistémicos (protocolo TESTING de dosis reducida),",
+  "enunciado": "¿qué profilaxis es obligatoria según KDIGO?",
+  "perla": "Por el riesgo de infecciones graves observado en los ensayos (TESTING), todo esquema con glucocorticoides sistémicos exige profilaxis contra Pneumocystis jirovecii con TMP-SMX, además de protección gastrointestinal y ósea.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-11",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "Anticoagulación plena con warfarina",
+   "B": "Restricción de agua a < 500 mL/día",
+   "C": "TMP-SMX contra Pneumocystis jirovecii",
+   "D": "Vacunas de virus vivos atenuados durante el tratamiento",
+   "E": "Profilaxis con valganciclovir"
+  },
+  "explicaciones": {
+   "A": "No se requiere anticoagulación.",
+   "B": "La restricción hídrica no tiene indicación.",
+   "C": "Correcto. Por el riesgo de infecciones graves observado en los ensayos (TESTING), todo esquema con glucocorticoides sistémicos exige profilaxis contra Pneumocystis jirovecii con TMP-SMX, además de protección gastrointestinal y ósea.",
+   "D": "Las vacunas de virus vivos están contraindicadas durante la inmunosupresión.",
+   "E": "No es la profilaxis indicada."
+  },
+  "clave": "C",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-12",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "¿Cuál es el mecanismo de acción del iptacopan en la NIgA?",
+  "perla": "El iptacopan es un inhibidor oral del factor B de la vía alterna del complemento: detiene la amplificación de la C3 convertasa mesangial (golpe 4). Dosis: 200 mg c/12 h.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-12",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "Bloqueo del receptor de angiotensina II",
+   "B": "Quelación enteral de potasio y sodio",
+   "C": "Anticuerpo anti-CD20 que deplete linfocitos B",
+   "D": "Inhibición de APRIL soluble circulante",
+   "E": "Inhibición del factor B del complemento"
+  },
+  "explicaciones": {
+   "A": "Eso describe a un ARA II (o, en parte, al sparsentan).",
+   "B": "Eso corresponde a los quelantes de potasio.",
+   "C": "Eso describe al rituximab.",
+   "D": "Es el mecanismo de sibeprenlimab.",
+   "E": "Correcto. El iptacopan es un inhibidor oral del factor B de la vía alterna del complemento: detiene la amplificación de la C3 convertasa mesangial (golpe 4). Dosis: 200 mg c/12 h."
+  },
+  "clave": "E",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-4",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "Según KDIGO, ¿a partir de qué proteinuria persiste el riesgo de pérdida progresiva de la función renal y se debe intensificar el manejo?",
+  "perla": "KDIGO bajó el umbral de riesgo de > 1.0 g/día a ≥ 0.5 g/día (UPCR ≥ 0.44 g/g); en RaDaR, el 30% con proteinuria de 0.5–1.0 g/d llegó a ERCT a 10 años. Quien rebase esta cifra requiere intervenciones adicionales.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "≥ 3.5 g/día",
+   "B": "≥ 1.0 g/día",
+   "C": "≥ 0.5 g/día, o UPCR ≥ 0.44 g/g",
+   "D": "≥ 0.15 g/día, solo en diabéticos",
+   "E": "≥ 2.0 g/día"
+  },
+  "explicaciones": {
+   "A": "3.5 g/día es el rango nefrótico, demasiado tardío.",
+   "B": "1.0 g/día era el umbral anterior y subestima el riesgo.",
+   "C": "Correcto. KDIGO bajó el umbral de riesgo de > 1.0 g/día a ≥ 0.5 g/día (UPCR ≥ 0.44 g/g); en RaDaR, el 30% con proteinuria de 0.5–1.0 g/d llegó a ERCT a 10 años. Quien rebase esta cifra requiere intervenciones adicionales.",
+   "D": "El umbral no depende de la diabetes y 0.15 g/día es prácticamente normal.",
+   "E": "Umbral antiguo, demasiado alto."
+  },
+  "clave": "C",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ9-9",
+  "tema_id": 9,
+  "sub": "9.c.5",
+  "obj": "9.o7",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefropatía por IgA",
+  "caso": "",
+  "enunciado": "¿Cuál es la base nefroprotectora de primera línea en todo paciente con NIgA y proteinuria persistente ≥ 0.5 g/día?",
+  "perla": "KDIGO 2025 establece el bloqueo del SRAA (IECA o ARA II a dosis máxima tolerada) junto con un iSGLT2 como pilar inicial de la nefroprotección: reducen la presión intraglomerular y la progresión.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 9: Nefropatía por IgA"
+  ],
+  "serie_id": "AZ9-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 9)"
+  ],
+  "opciones": {
+   "A": "Ciclofosfamida oral",
+   "B": "SRAA a dosis máxima + iSGLT2",
+   "C": "Pulsos de metilprednisolona IV por 1 año",
+   "D": "Rituximab IV semanal",
+   "E": "Esteroide sistémico a dosis plena por 6 meses"
+  },
+  "explicaciones": {
+   "A": "La ciclofosfamida se reserva para la GN rápidamente progresiva.",
+   "B": "Correcto. KDIGO 2025 establece el bloqueo del SRAA (IECA o ARA II a dosis máxima tolerada) junto con un iSGLT2 como pilar inicial de la nefroprotección: reducen la presión intraglomerular y la progresión.",
+   "C": "Los esteroides sistémicos se usan a dosis reducida por 6–9 meses y solo si no hay terapia dirigida, nunca como pulsos por un año.",
+   "D": "El rituximab no ha mostrado beneficio en NIgA y no forma parte del manejo.",
+   "E": "No es la base de primera línea."
+  },
+  "clave": "B",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
  }
 ]

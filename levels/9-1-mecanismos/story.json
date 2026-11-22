@@ -394,17 +394,98 @@
      "pairs": []
     },
     {
-     "type": "algoritmo",
-     "title": "Vasculitis ANCA con GN",
+     "type": "clasif",
+     "title": "MEST-C en nefropatía por IgA",
+     "bins": [
+      "Activa / reversible",
+      "Crónica / irreversible"
+     ],
      "items": [
-      "Sospecha: GN rápidamente progresiva",
-      "ANCA (MPO/PR3) y anti-MBG",
-      "Biopsia renal",
-      "Inducción: glucocorticoide + rituximab o ciclofosfamida (± avacopan)",
-      "Mantenimiento con rituximab",
-      "Vigilar recaída e infecciones"
+      [
+       "M1 hipercelularidad mesangial",
+       "Activa / reversible"
+      ],
+      [
+       "E1 hipercelularidad endocapilar",
+       "Activa / reversible"
+      ],
+      [
+       "C1 semilunas celulares",
+       "Activa / reversible"
+      ],
+      [
+       "T2 IFTA > 50%",
+       "Crónica / irreversible"
+      ],
+      [
+       "T1 IFTA 26–50%",
+       "Crónica / irreversible"
+      ],
+      [
+       "S1 esclerosis segmentaria inactiva",
+       "Crónica / irreversible"
+      ],
+      [
+       "Glomeruloesclerosis global",
+       "Crónica / irreversible"
+      ]
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Anti-PLA2R",
+       "Membranosa primaria"
+      ],
+      [
+       "Anti-THSD7A",
+       "Membranosa (buscar neoplasia)"
+      ],
+      [
+       "IgA mesangial",
+       "Nefropatía IgA (MEST-C)"
+      ],
+      [
+       "Anti-MBG",
+       "Depósito lineal (Goodpasture)"
+      ],
+      [
+       "ANCA-MPO",
+       "Poliangeítis microscópica"
+      ],
+      [
+       "ANCA-PR3",
+       "Granulomatosis con poliangeítis"
+      ],
+      [
+       "C3 bajo >8 semanas",
+       "Pensar GMN C3, no postinfecciosa"
+      ],
+      [
+       "Clase IV ISN/RPS",
+       "Nefritis lúpica difusa"
+      ],
+      [
+       "Variante colapsante",
+       "APOL1, VIH, COVID"
+      ],
+      [
+       "Avacopan",
+       "Antagonista C5aR (ANCA)"
+      ],
+      [
+       "Sparsentan",
+       "Dual endotelina/AT1"
+      ],
+      [
+       "Iptacopan",
+       "Inhibidor del factor B"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -676,59 +757,17 @@
      "pairs": []
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
-      [
-       "Anti-PLA2R",
-       "Membranosa primaria"
-      ],
-      [
-       "Anti-THSD7A",
-       "Membranosa (buscar neoplasia)"
-      ],
-      [
-       "IgA mesangial",
-       "Nefropatía IgA (MEST-C)"
-      ],
-      [
-       "Anti-MBG",
-       "Depósito lineal (Goodpasture)"
-      ],
-      [
-       "ANCA-MPO",
-       "Poliangeítis microscópica"
-      ],
-      [
-       "ANCA-PR3",
-       "Granulomatosis con poliangeítis"
-      ],
-      [
-       "C3 bajo >8 semanas",
-       "Pensar GMN C3, no postinfecciosa"
-      ],
-      [
-       "Clase IV ISN/RPS",
-       "Nefritis lúpica difusa"
-      ],
-      [
-       "Variante colapsante",
-       "APOL1, VIH, COVID"
-      ],
-      [
-       "Avacopan",
-       "Antagonista C5aR (ANCA)"
-      ],
-      [
-       "Sparsentan",
-       "Dual endotelina/AT1"
-      ],
-      [
-       "Iptacopan",
-       "Inhibidor del factor B"
-      ]
-     ]
+     "type": "algoritmo",
+     "title": "Vasculitis ANCA con GN",
+     "items": [
+      "Sospecha: GN rápidamente progresiva",
+      "ANCA (MPO/PR3) y anti-MBG",
+      "Biopsia renal",
+      "Inducción: glucocorticoide + rituximab o ciclofosfamida (± avacopan)",
+      "Mantenimiento con rituximab",
+      "Vigilar recaída e infecciones"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
