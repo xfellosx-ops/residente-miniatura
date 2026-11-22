@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "uro",
      "specialty": "Urología",
-     "serie": "LMA",
+     "serie": "OBS-5",
      "intro": [
       [
        "Dr. Bruno Salas",
@@ -237,7 +237,47 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "OBMA-1",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Te reto con un caso: Obstrucción ureteral maligna: cómo drenar"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "OBS-7",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Fibrosis retroperitoneal por IgG4"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -281,6 +321,45 @@
       "Resolver la causa cuando esté estable"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Hidronefrosis",
+       "Ecografía como primer estudio"
+      ],
+      [
+       "Diuresis posobstructiva",
+       "Riesgo de hipovolemia e hipoK"
+      ],
+      [
+       "Fibrosis retroperitoneal",
+       "IgG4; responde a esteroide"
+      ],
+      [
+       "Obstrucción bilateral",
+       "LRA anúrica"
+      ],
+      [
+       "Renograma MAG3 + diurético",
+       "Distingue obstrucción funcional"
+      ],
+      [
+       "Válvulas uretrales posteriores",
+       "Varones pediátricos"
+      ],
+      [
+       "Obstrucción crónica",
+       "ATR tipo 4, DI nefrogénica"
+      ],
+      [
+       "Urosepsis obstructiva",
+       "Descompresión urgente"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -363,7 +442,68 @@
      "Cicatrices polares, HTA y proteinuria por GEFS secundaria."
     ]
    ],
-   "trainers": [],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "OBS-6",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Orina 5 litros: le repongo 5 litros. Mililitro por mililitro."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Así perpetúo la poliuria… repongo la mitad."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "RVU-5",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Cuándo pedir cistouretrografía tras una IVU febril"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "RCAP-1",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Retención crónica de alta presión"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
    "wild": [
     {
      "name": "Poliuria Posobstructiva",
@@ -383,7 +523,7 @@
    ],
    "gates": [
     {
-     "after": null,
+     "after": "t1_0",
      "topic": "Diuresis posobstructiva: reconocimiento y manejo",
      "text": [
       [
@@ -543,6 +683,38 @@
   {
    "title": "La Presa Rota",
    "text": "Diuresis posobstructiva: vigilar peso, electrolitos; reponer parcialmente con 0.45 %. Reflujo: grados I–V, cicatrices, GEFS secundaria."
+  },
+  {
+   "title": "💎 Diuresis posobstructiva",
+   "text": "Poliuria posobstructiva (>200 mL/h × 2 h): observar, VO libre, vigilar Na/K/Mg; reponer IV (hipotónico, 50–75%) solo si hipovolemia."
+  },
+  {
+   "title": "💎 Uropatía obstructiva: fisiopatología y p",
+   "text": "Obstrucción: ↑presión intratubular + vasoconstricción aferente (TXA₂, Ang II) → ↓TFG. Tx inicial: sonda vesical. Alivio en <1–2 sem → recuperación casi completa."
+  },
+  {
+   "title": "💎 Obstrucción sin dilatación en la ecograf",
+   "text": "Obstrucción sin hidronefrosis: muy temprana, hipovolemia, fibrosis retroperitoneal, infiltración tumoral. Anuria = descartar obstrucción siempre."
+  },
+  {
+   "title": "💎 Renograma con diurético",
+   "text": "MAG3 + furosemida: t½ >20 min obstructivo; <10 min no obstructivo; 10–20 indeterminado."
+  },
+  {
+   "title": "💎 Obstrucción ureteral maligna: cómo drena",
+   "text": "Obstrucción maligna (70% GU): PCN si sepsis; drenar el mejor riñón; stents fallan 40–50% en compresión extrínseca; cambiar c/3–6 meses; reobstrucción stent 11% vs PCN 1%. Urotelial alto: stent, no PCN (siembra)."
+  },
+  {
+   "title": "💎 Cuándo pedir cistouretrografía tras una ",
+   "text": "RVU: CUMS es el estudio diagnóstico (se hace al terminar el antibiótico); DMSA para pielonefritis y cicatriz (cicatriz a los 6 meses); cistografía nuclear para seguimiento; eco no diagnostica reflujo."
+  },
+  {
+   "title": "💎 Fibrosis retroperitoneal por IgG4",
+   "text": "Fibrosis retroperitoneal: periaórtica, uréteres medializados; IgG4 en parte de los casos; tratamiento: glucocorticoides ± rituximab + derivación."
+  },
+  {
+   "title": "💎 Retención crónica de alta presión",
+   "text": "Retención crónica de baja presión (sin hidronefrosis) vs alta presión (hidronefrosis + LRA): esta última no se maneja solo con fármacos. RPM >1 L: peor resultado quirúrgico → cateterismo intermitente."
   }
  ]
 }

@@ -336,6 +336,18 @@
        "Protegerla: predice supervivencia"
       ]
      ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "Peritonitis en DP",
+     "items": [
+      "Efluente turbio o dolor abdominal",
+      "Citología, Gram y cultivo del efluente",
+      "Antibiótico empírico intraperitoneal (Gram+ y Gram−)",
+      "Ajustar según cultivo",
+      "Sin respuesta a 5 días → retirar catéter"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -535,6 +547,53 @@
       "Retirar el catéter si es refractaria o fúngica"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "PET",
+       "Clasifica transporte (D/P creatinina)"
+      ],
+      [
+       "Alto transportador",
+       "DPA con estancias cortas + icodextrina"
+      ],
+      [
+       "Kt/V semanal DP",
+       "Meta ≥1.7"
+      ],
+      [
+       "Peritonitis",
+       "> 100 leucocitos/µL, > 50% PMN"
+      ],
+      [
+       "Antibiótico empírico",
+       "Gram+ y Gram− intraperitoneal"
+      ],
+      [
+       "Peritonitis fúngica",
+       "Retirar catéter"
+      ],
+      [
+       "Esclerosis peritoneal encapsulante",
+       "Obstrucción intestinal tras años"
+      ],
+      [
+       "Icodextrina",
+       "UF sostenida en estancia larga"
+      ],
+      [
+       "Hidrotórax",
+       "Comunicación pleuroperitoneal derecha"
+      ],
+      [
+       "Fuga pericatéter",
+       "Inicio temprano tras colocación"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -665,6 +724,38 @@
   {
    "title": "Cavidad Infectada",
    "text": "Peritonitis: 2 de 3 (clínica, >100 leucocitos con >50 % PMN, cultivo). IP empírico G+ y G−. Fúngica o refractaria (5 días): retirar catéter."
+  },
+  {
+   "title": "💎 Falla de ultrafiltración",
+   "text": "Mini-PET: sodium sieving normal = caída D/P Na ≥0.03 a 60 min; <0.03 → disfunción de AQP-1. Tipos: I (alto transporte), II (superficie baja), III (AQP-1), IV (linfáticos)."
+  },
+  {
+   "title": "💎 Prescripción en transportador alto",
+   "text": "Transportador alto: DPA con ciclos cortos + icodextrina en la permanencia larga; evitar permanencias largas con glucosa."
+  },
+  {
+   "title": "💎 Prescripción en transportador bajo",
+   "text": "Transportador bajo + DPA insuficiente: agregar permanencia diurna/↑ volumen; si no basta, hemodiálisis (incremental o combinada)."
+  },
+  {
+   "title": "💎 Sodium sieving y tipos de falla de ultra",
+   "text": "Falla de UF: <400 mL/4 h con 4.25%. Sodium sieving normal: ↓D/P Na >0.03 a los 60 min; si no, pérdida de acuaporina-1 (agua libre)."
+  },
+  {
+   "title": "💎 Dosis total de diálisis peritoneal: apor",
+   "text": "Kt/V total = peritoneal (drenaje 24 h × D/P urea × 7 ÷ V) + renal (U/P × volumen urinario × 7 ÷ V). 1.16 + 0.39 = 1.55 <1.7 → ↑volumen (2→2.5 L) o + recambio."
+  },
+  {
+   "title": "💎 Paciente anúrico en diálisis peritoneal ",
+   "text": "Anúrico en DP con Kt/V <1.7: agregar recambio diurno / ↑volumen; si no basta → HD o esquema combinado. Diuréticos no sirven en anuria. Verificar adherencia y PET."
+  },
+  {
+   "title": "💎 Peritonitis refractaria",
+   "text": "Refractaria: efluente turbio tras 5 días de antibióticos adecuados → retirar catéter. Recidivante (relapsing): ≤4 semanas tras terminar el tratamiento, mismo germen (o episodio estéril). Recurrente: ≤4 semanas, germen distinto. Repetida (repeat): >4 semanas, mismo germen."
+  },
+  {
+   "title": "💎 Prescripción inicial y dosis de diálisis",
+   "text": "DP en LRA: Kt/V semanal 3.5 (ISPD). Crónica: ≥1.7 total semanal. Volúmenes iniciales bajos para evitar fugas."
   }
  ]
 }

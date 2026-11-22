@@ -566,5 +566,385 @@
   "tema": "Enfermedades túbulo-intersticiales",
   "obj": "10.o1",
   "peso": 16.5
+ },
+ {
+  "id": "NTC-1",
+  "tema_id": 10,
+  "sub": "10.b",
+  "obj": "10.o2",
+  "dificultad": "moderada",
+  "peso": 44,
+  "subtema": "Nefropatía crónica por litio",
+  "caso": "Mujer de 52 años con 20 años de litio. TFGe 38, proteinuria menor de 0.5 g/día, poliuria. Ecografía con microquistes corticomedulares.",
+  "enunciado": "¿Qué hallazgo histológico y conducta son los más característicos?",
+  "perla": "Litio: DI nefrogénica (defecto de concentración 50%, poliuria 20%), NTI crónica con microquistes, latencia a ERCT ~20 años. Tto: bajar dosis, una toma diaria, amilorida, evitar tiazidas e hipovolemia; niveles 0.6–1.25; toxicidad grave >2.5.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 65: Chronic Interstitial Nephritis (Tanaka, Nangaku)"
+  ],
+  "serie_id": "NTC-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Glomeruloesclerosis nodular; iniciar iSGLT2 y continuar el litio sin cambios",
+   "B": "Depósitos de IgG4 en el intersticio; iniciar glucocorticoides",
+   "C": "Fibrosis intersticial con microquistes; reducir dosis y decidir con psiquiatría",
+   "D": "Necrosis papilar; suspender analgésicos y continuar el litio",
+   "E": "Granulomas no caseificantes; buscar sarcoidosis con calcio sérico"
+  },
+  "explicaciones": {
+   "A": "No es lesión glomerular diabética.",
+   "B": "No hay datos de enfermedad por IgG4.",
+   "C": "Correcto. Johnson cap. 65: el litio crónico da NTI crónica focal con microquistes del túbulo distal (RM T2 sin gadolinio o eco los detectan) y DI nefrogénica. Primero se reduce la dosis; si la TFG sigue baja se valora biopsia, que rara vez obliga a suspender. Amilorida para la poliuria; evitar tiazidas; niveles 0.6 a 1.25 mmol/L; vigilancia anual de creatinina y volumen urinario.",
+   "D": "La necrosis papilar es propia de analgésicos, no del litio.",
+   "E": "No hay datos de sarcoidosis."
+  },
+  "clave": "C",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NTC-2",
+  "tema_id": 10,
+  "sub": "10.b",
+  "obj": "10.o2",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "Nefropatía por plomo",
+  "caso": "Hombre de 50 años que trabajó en reciclaje de baterías. Gota, HTA y ERC con sedimento blando y ácido úrico elevado.",
+  "enunciado": "¿Qué estudio confirma la exposición crónica al plomo?",
+  "perla": "Plomo: HTA casi siempre, gota saturnina ~50%, hiperuricemia por ↓excreción, proteinuria <2 g. Plomo en sangre insensible. Prueba: EDTA CaNa2 0.5 g ×2 c/12 h; orina 3 días; normal <650 µg. Tto: EDTA + retirar fuente.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 65: Chronic Interstitial Nephritis (Tanaka, Nangaku)"
+  ],
+  "serie_id": "NTC-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Excreción urinaria de plomo tras quelación con EDTA",
+   "B": "Ácido úrico urinario de 24 horas mayor de 800 mg",
+   "C": "Fluorescencia de rayos X del hueso como única prueba disponible",
+   "D": "Biopsia renal con depósitos de urato en la médula",
+   "E": "Plomo en sangre total como prueba única y suficiente"
+  },
+  "explicaciones": {
+   "A": "Correcto. El plomo en sangre refleja exposición reciente; la carga corporal se estima con la excreción urinaria tras EDTA (o fluorescencia ósea donde existe). La nefropatía saturnina asocia gota, HTA y NTI crónica.",
+   "B": "La gota saturnina cursa con uricosuria baja, no alta.",
+   "C": "Es útil pero poco disponible; no es la única.",
+   "D": "La biopsia no confirma la exposición.",
+   "E": "El plomo en sangre puede ser normal pese a una carga ósea alta."
+  },
+  "clave": "A",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MEN-1",
+  "tema_id": 10,
+  "sub": "10.b",
+  "obj": "10.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Nefropatía mesoamericana",
+  "caso": "Hombre de 32 años, cortador de caña en la costa del Pacífico, con ERC G3b, sin DM ni HTA, proteinuria mínima e hipopotasemia.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "perla": "Johnson cap. 66: hombres 20–60 años, campo, calor; proteinuria <1 g/d, hipoK, hipoNa, pérdida de Mg y P, urato ~2 mg/dL más alto que lo esperado. Tto: hidratación sin bebidas azucaradas, evitar AINE, IECA a dosis baja, alopurinol + bicarbonato. En México: Tierra Blanca, Veracruz.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 66: Endemic Nephropathies (García-Trabanino, Anand, Johnson, Madero)"
+  ],
+  "serie_id": "MEN-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Glomeruloesclerosis focal y segmentaria primaria por la edad",
+   "B": "Nefropatía por ácido aristolóquico por consumo de hierbas",
+   "C": "Riñón poliquístico con presentación tardía y quistes pequeños",
+   "D": "Nefropatía mesoamericana por calor y deshidratación repetidas",
+   "E": "Nefropatía diabética temprana sin retinopatía en un adulto joven"
+  },
+  "explicaciones": {
+   "A": "La GEFS primaria cursa con proteinuria alta.",
+   "B": "No hay exposición a hierbas con aristolóquico.",
+   "C": "La ecografía no se describe con quistes.",
+   "D": "Correcto. La ERC de causa no tradicional afecta a trabajadores agrícolas jóvenes de Centroamérica y México. Es tubulointersticial: proteinuria baja, hipopotasemia e hiperuricemia; se asocia a estrés térmico y deshidratación recurrente.",
+   "E": "No hay diabetes."
+  },
+  "clave": "D",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LEP-1",
+  "tema_id": 10,
+  "sub": "10.a",
+  "obj": "10.o1",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Leptospirosis: LRA no oligúrica con hipopotasemia",
+  "caso": "Hombre de 30 años tras inundaciones, con fiebre, mialgias en pantorrillas, sufusión conjuntival, ictericia y creatinina de 3.2. K 3.0 mEq/L, diuresis conservada.",
+  "enunciado": "¿Cuál es el mecanismo renal y el manejo?",
+  "perla": "NTI infecciosa (leptospira, Legionella, hantavirus, CMV, EBV, polioma, TB): se trata la infección; esteroides no (Johnson cap. 64). Leptospirosis: LRA no oligúrica con hipoK.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 64: Acute Interstitial Nephritis (MacGinley, Rossert)"
+  ],
+  "serie_id": "LEP-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Rabdomiólisis sin daño tubular; solo hidratación vigorosa",
+   "B": "NTI aguda con daño proximal; penicilina o doxiciclina",
+   "C": "Glomerulonefritis rápidamente progresiva; pulsos de metilprednisolona",
+   "D": "Microangiopatía trombótica; recambio plasmático urgente",
+   "E": "Síndrome hepatorrenal; terlipresina y albúmina"
+  },
+  "explicaciones": {
+   "A": "Puede haber rabdomiólisis, pero el daño tubular es directo.",
+   "B": "Correcto. La leptospira lesiona el túbulo proximal: LRA no oligúrica con hipopotasemia por pérdida renal de potasio. Se trata con penicilina, ceftriaxona o doxiciclina, y diálisis si hace falta.",
+   "C": "No es una glomerulonefritis.",
+   "D": "No hay hemólisis microangiopática descrita.",
+   "E": "La ictericia no implica síndrome hepatorrenal; el daño es tubular."
+  },
+  "clave": "B",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HPKN-1",
+  "tema_id": 10,
+  "sub": "10.b",
+  "obj": "10.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Nefropatía hipopotasémica",
+  "caso": "Mujer de 27 años con anorexia nerviosa y vómito autoinducido desde hace 5 años. IMC 14, K 2.7 mEq/L, poliuria y nocturia, creatinina 1.5 mg/dL.",
+  "enunciado": "¿Qué hallazgo esperaría en la biopsia renal?",
+  "perla": "HipoK crónica (<3.0 por meses-años): vacuolización proximal (≥1 mes, reversible) → fibrosis medular y quistes; poliuria por ↓AQP2. Vacuolas similares en etilenglicol.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 65: Chronic Interstitial Nephritis (Tanaka, Nangaku)"
+  ],
+  "serie_id": "HPKN-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Granulomas no caseificantes en el intersticio cortical",
+   "B": "Infiltrado de células plasmáticas IgG4 con fibrosis estoriforme",
+   "C": "Vacuolas en túbulo proximal, reversibles al reponer potasio",
+   "D": "Inclusiones intranucleares en túbulo proximal sin inflamación",
+   "E": "Depósitos cálcicos intersticiales con atrofia tubular extensa"
+  },
+  "explicaciones": {
+   "A": "Los granulomas sugieren sarcoidosis, TB o fármacos.",
+   "B": "Es el patrón de la enfermedad por IgG4.",
+   "C": "Correcto. Johnson cap. 65: la hipopotasemia prolongada, presente en 15% a 20% de la anorexia nerviosa, vacuoliza los túbulos proximales tras al menos un mes; es reversible con potasio. Si persiste causa fibrosis medular, atrofia y quistes, con defecto de concentración por menos AQP2.",
+   "D": "Las inclusiones intranucleares son del plomo.",
+   "E": "Los depósitos cálcicos indican nefropatía hipercalcémica."
+  },
+  "clave": "C",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CDN-1",
+  "tema_id": 10,
+  "sub": "10.b",
+  "obj": "10.o2",
+  "dificultad": "moderada",
+  "peso": 38,
+  "subtema": "Nefropatía por cadmio",
+  "caso": "Hombre de 58 años que trabajó 25 años en una fábrica de baterías y aleaciones. Dolor óseo, glucosuria normoglucémica, hipofosfatemia y TFGe 52.",
+  "enunciado": "¿Qué estudio orienta al diagnóstico y qué se espera del tratamiento?",
+  "perla": "Cadmio: Fanconi + osteomalacia (itai-itai, Toyama); β2M y Cd urinario >7 µg/g; quelación ineficaz. Plomo: gota + HTA; EDTA. Arsénico: neuropatía, hiperqueratosis, ATR proximal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 65: Chronic Interstitial Nephritis (Tanaka, Nangaku)"
+  ],
+  "serie_id": "CDN-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Plomo en sangre normal y prueba de EDTA negativa; quelar de todos modos",
+   "B": "IgG4 sérica alta; responde a prednisona en dosis de 40 mg",
+   "C": "Arsénico urinario alto; las líneas de Mees confirman el diagnóstico",
+   "D": "Ácido úrico urinario bajo; responde a alopurinol en dosis plena",
+   "E": "β2-microglobulina y cadmio urinarios altos; la quelación no es eficaz"
+  },
+  "explicaciones": {
+   "A": "Describe la evaluación del plomo.",
+   "B": "No hay datos de enfermedad por IgG4.",
+   "C": "El arsénico causa neuropatía e hiperqueratosis.",
+   "D": "No corresponde al cuadro.",
+   "E": "Correcto. Johnson cap. 65: el cadmio se concentra en el túbulo proximal unido a metalotioneína (vida media ~10 años), causa Fanconi, osteomalacia y dolor óseo (itai-itai). Se sugiere por β2-microglobulina urinaria y cadmio urinario mayor de 7 µg/g de creatinina. La lesión progresa aunque cese la exposición; la quelación no sirve, solo la prevención."
+  },
+  "clave": "E",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "URI-1",
+  "tema_id": 10,
+  "sub": "10.b",
+  "obj": "10.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Nefropatía crónica por ácido úrico: cuándo tratar",
+  "caso": "Hombre de 52 años, de origen coreano, con gota tofácea, creatinina 1.8 mg/dL y ácido úrico de 11.5 mg/dL. TFGe descendiendo 5 mL/min por año.",
+  "enunciado": "¿Cuál es la conducta más adecuada según Johnson?",
+  "perla": "Urato desproporcionado: Cr <1.5 → >9; 1.5–2.0 → >10; >2.0 → >12 mg/dL. Tratar si >8–9 o gota con progresión. Alopurinol 50–100 → 200–300; HLA-B*58:01. Diferencial: plomo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 65: Chronic Interstitial Nephritis (Tanaka, Nangaku)"
+  ],
+  "serie_id": "URI-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Bajar el urato: tipificar HLA-B*58:01 e iniciar alopurinol a 50 a 100 mg",
+   "B": "No tratar, porque CKD-FIX y PERL demostraron que bajar el urato no sirve",
+   "C": "Iniciar alopurinol en dosis plena de 300 mg desde el primer día",
+   "D": "Prescribir solo dieta baja en purinas sin fármaco hipouricemiante",
+   "E": "Quelación con EDTA porque el urato alto confirma nefropatía por plomo"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 65 recomienda bajar el urato si es mayor de 8 a 9 mg/dL o hay gota con ERC en progresión. CKD-FIX y PERL fueron negativos, pero incluyeron normouricémicos sin gota. El alopurinol se inicia a 50 a 100 mg y se sube a 200 a 300; el HLA-B*58:01, frecuente en coreanos y chinos han, predice hipersensibilidad.",
+   "B": "Esos estudios excluyeron a quienes tenían gota.",
+   "C": "Iniciar en dosis plena aumenta el riesgo de hipersensibilidad.",
+   "D": "La dieta sola es insuficiente.",
+   "E": "Debe descartarse el plomo por historia, no asumirse."
+  },
+  "clave": "A",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ANG-1",
+  "tema_id": 10,
+  "sub": "10.b",
+  "obj": "10.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Nefropatía por analgésicos",
+  "caso": "Mujer de 64 años que tomó por 20 años un compuesto de fenacetina, aspirina y cafeína. ERC G3b, piuria estéril. TC sin contraste: riñones pequeños, contornos abollonados y calcificaciones papilares.",
+  "enunciado": "¿Qué seguimiento es indispensable?",
+  "perla": "Analgésicos: mujeres 5–7×, necrosis papilar (también en DM, drepanocitosis, obstrucción, TB), TC: riñones pequeños, abollonados, calcificación papilar; carcinoma urotelial → citología anual.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 65: Chronic Interstitial Nephritis (Tanaka, Nangaku)"
+  ],
+  "serie_id": "ANG-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Tamizaje anual de carcinoma de células claras con resonancia con gadolinio",
+   "B": "Búsqueda de aneurismas cerebrales por la asociación con quistes renales",
+   "C": "Medición seriada de IgG4 sérica para detectar recaída inflamatoria",
+   "D": "Vigilancia de carcinoma urotelial con examen general de orina y citología",
+   "E": "Colonoscopia anual por el riesgo de cáncer colorrectal asociado"
+  },
+  "explicaciones": {
+   "A": "El riesgo principal es urotelial, no de células claras.",
+   "B": "No hay relación con aneurismas.",
+   "C": "No es una enfermedad por IgG4.",
+   "D": "Correcto. Johnson cap. 65: la isquemia medular por metabolitos de fenacetina causa necrosis papilar y aumenta el riesgo de carcinoma de células transicionales del urotelio. Se suspenden los analgésicos y se vigila con examen general de orina y citología anual; toda hematuria nueva amerita cistoscopia y TC.",
+   "E": "No hay asociación descrita con cáncer de colon."
+  },
+  "clave": "D",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AINS-1",
+  "tema_id": 10,
+  "sub": "10.a",
+  "obj": "10.o1",
+  "dificultad": "moderada",
+  "peso": 44,
+  "subtema": "NTI por AINE con síndrome nefrótico",
+  "caso": "Hombre de 68 años con naproxeno diario por 7 meses. Edema, proteinuria de 7 g/día, creatinina de 1.0 a 2.9 mg/dL, sin exantema ni fiebre.",
+  "enunciado": "¿Qué hallazgos histológicos son los más probables?",
+  "perla": "NTI por AINE: nefrótico 75% (cambios mínimos), >50 años, ~6 meses de uso, mitad con fenoprofeno, extrarrenales ~10%. Diferenciar de LRA hemodinámica, necrosis papilar y NM por AINE.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 64: Acute Interstitial Nephritis (MacGinley, Rossert)"
+  ],
+  "serie_id": "AINS-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefropatía membranosa con depósitos subepiteliales y PLA2R positivo",
+   "B": "NTI con glomérulos normales y lesión tipo cambios mínimos",
+   "C": "Glomeruloesclerosis focal colapsante con microquistes tubulares",
+   "D": "Glomerulonefritis proliferativa difusa con semilunas celulares",
+   "E": "Necrosis papilar aislada sin afectación glomerular ni intersticial"
+  },
+  "explicaciones": {
+   "A": "Los AINE pueden causar nefropatía membranosa, pero el cuadro con LRA e infiltrado intersticial es el clásico.",
+   "B": "Correcto. Johnson cap. 64: la NTI por AINE se asocia a síndrome nefrótico en ~75% de los casos, en mayores de 50 años, tras meses de uso; los glomérulos parecen normales y la lesión es como cambios mínimos. Solo ~10% tiene síntomas extrarrenales. Los esteroides no modifican el curso del nefrótico.",
+   "C": "No es la lesión de los AINE.",
+   "D": "No hay datos de GN proliferativa.",
+   "E": "La necrosis papilar no explica el nefrótico."
+  },
+  "clave": "B",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HTV-1",
+  "tema_id": 10,
+  "sub": "10.a",
+  "obj": "10.o1",
+  "dificultad": "moderada",
+  "peso": 38,
+  "subtema": "Hantavirus: NTI infecciosa",
+  "caso": "Hombre de 34 años que limpió una bodega con roedores. Fiebre, dolor lumbar intenso, trombocitopenia, LRA con proteinuria de 3 g/día y hematuria.",
+  "enunciado": "¿Qué es lo correcto sobre esta entidad?",
+  "perla": "Hantavirus (fiebre hemorrágica con síndrome renal): roedores, lumbalgia, trombocitopenia, proteinuria; médula hemorrágica; serología; recuperación completa. Eosinofiluria: 36% NTI vs 28% NTA → abandonar.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 64: Acute Interstitial Nephritis (MacGinley, Rossert)"
+  ],
+  "serie_id": "HTV-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Se trata con pulsos de metilprednisolona por ser una NTI inmunológica",
+   "B": "La biopsia muestra semilunas y anticuerpos anti-MBG circulantes",
+   "C": "Requiere hemodiálisis crónica en la mayoría de los casos",
+   "D": "Congestión y hemorragia medular; suele recuperarse por completo",
+   "E": "La eosinofiluria mayor de 1% confirma el diagnóstico"
+  },
+  "explicaciones": {
+   "A": "En la NTI infecciosa se trata la infección; no se usan esteroides.",
+   "B": "No es una enfermedad anti-MBG.",
+   "C": "La función suele recuperarse en días.",
+   "D": "Correcto. Johnson cap. 64: el hantavirus se contagia por vía aérea desde roedores. Da fiebre, dolor lumbar intenso, trombocitopenia con sangrado y LRA con proteinuria a veces nefrótica. La biopsia, rara vez necesaria, muestra infiltrado medular con congestión y hemorragia. El diagnóstico es serológico y la recuperación suele ser completa.",
+   "E": "La eosinofiluria no sirve para diagnosticar NTI."
+  },
+  "clave": "D",
+  "tema": "Enfermedades túbulo-intersticiales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
  }
 ]

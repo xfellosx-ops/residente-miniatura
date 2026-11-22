@@ -2421,5 +2421,43 @@
   "tema": "Farmacología y riñón",
   "obj": "4.o1",
   "peso": 21.8
+ },
+ {
+  "id": "DIU-P1",
+  "tema_id": 4,
+  "sub": "4.b",
+  "obj": "4.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Farmacología de los diuréticos de asa",
+  "caso": "Hombre de 66 años con IC descompensada que no responde a furosemida oral 40 mg al día; con IV 40 mg orina mucho por 4 horas y luego casi nada.",
+  "enunciado": "¿Qué principio explica el fenómeno y qué ajuste corresponde?",
+  "perla": "Asa: 25% del Na filtrado; dosis umbral (IV 10 mg inicia, 40 mg máximo en sano); retención posdiurética → 2 veces al día o c/6 h; frenado crónico. Resistencia en IC: transporte distal → añadir tiazida.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 8: Disorders of Extracellular Volume (Ellison)"
+  ],
+  "serie_id": "DIU-P1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Vida media corta y biodisponibilidad variable; dosis IV más frecuentes",
+   "B": "Resistencia por hipoalbuminemia; añadir albúmina IV antes de cada dosis",
+   "C": "Efecto techo ya alcanzado; cambiar a acetazolamida como diurético principal",
+   "D": "Ototoxicidad incipiente; cambiar a ácido etacrínico en dosis bajas",
+   "E": "Hiperaldosteronismo primario; añadir solo espironolactona en dosis bajas"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 8: la biodisponibilidad oral de furosemida promedia 50% (10% a 100%); bumetanida y torsemida rondan 80%. Tras cada dosis hay retención de sodio posdiurética, y con el uso crónico aparece el frenado. Se usan dosis por arriba del umbral, repetidas hasta cada 6 h, con dieta baja en sal.",
+   "B": "La albúmina no es el problema principal descrito.",
+   "C": "La acetazolamida es un diurético débil.",
+   "D": "El ácido etacrínico es más ototóxico; se reserva para alergia.",
+   "E": "No hay hiperaldosteronismo primario."
+  },
+  "clave": "A",
+  "tema": "Farmacología y riñón",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
  }
 ]

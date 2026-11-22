@@ -1101,5 +1101,1427 @@
   "tema": "Alteraciones del equilibrio ácido-base",
   "obj": "25.o1",
   "peso": 37.1
+ },
+ {
+  "id": "CAD-1",
+  "tema_id": 25,
+  "sub": "25.e",
+  "obj": "25.o5",
+  "dificultad": "moderada",
+  "peso": 66,
+  "subtema": "Caso encadenado CAD: trastorno primario y compensación",
+  "caso": "Mujer de 24 años con diabetes tipo 1, tres días de vómito y dolor abdominal. Na 134, K 5.1, Cl 80, HCO3 10 mEq/L, glucosa 520 mg/dL, albúmina 4.0 g/dL, BUN 40 mg/dL, creatinina 1.6 mg/dL, cetonemia positiva. Gasometría arterial: pH 7.18, pCO2 25 mmHg.",
+  "enunciado": "¿Cuál es el trastorno primario y cómo está la compensación respiratoria?",
+  "perla": "Winter (cap. 15): pCO2 = 1.5 × HCO3 + 8 ± 2. Johnson cap. 13 da equivalentes: ↓1.2 de pCO2 por cada 1 de HCO3, pCO2 ≈ HCO3 + 15 o ≈ decimales del pH. Si la pCO2 se aleja más de 5 de lo esperado, hay trastorno respiratorio agregado.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)",
+   "Umpierrez GE et al. Diabetes Care 2024;47:1257 (consenso ADA/EASD de crisis hiperglucémicas)"
+  ],
+  "serie_id": "CAD",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Acidosis metabólica con compensación respiratoria adecuada",
+   "B": "Alcalosis metabólica primaria con hipoventilación compensadora esperada",
+   "C": "Acidosis metabólica con alcalosis respiratoria primaria por dolor y ansiedad",
+   "D": "Acidosis metabólica con acidosis respiratoria agregada por fatiga muscular",
+   "E": "Acidosis respiratoria aguda con compensación renal todavía insuficiente"
+  },
+  "explicaciones": {
+   "A": "Correcto. pCO2 esperada = 1.5 × 10 + 8 = 23 ± 2, es decir 21 a 25 mmHg. La pCO2 de 25 cae en el rango: compensación adecuada.",
+   "B": "El pH es ácido: no puede ser una alcalosis primaria dominante.",
+   "C": "Una alcalosis respiratoria agregada exigiría pCO2 menor de 21 mmHg.",
+   "D": "Habría acidosis respiratoria agregada si la pCO2 fuera mayor de 25 mmHg.",
+   "E": "El HCO3 bajo y la pCO2 baja indican un trastorno metabólico primario, no respiratorio."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CAD-2",
+  "tema_id": 25,
+  "sub": "25.e",
+  "obj": "25.o5",
+  "dificultad": "dificil",
+  "peso": 64,
+  "subtema": "Caso encadenado CAD: brecha aniónica y delta/delta",
+  "caso": "Mujer de 24 años con diabetes tipo 1, tres días de vómito y dolor abdominal. Na 134, K 5.1, Cl 80, HCO3 10 mEq/L, glucosa 520 mg/dL, albúmina 4.0 g/dL, BUN 40 mg/dL, creatinina 1.6 mg/dL, cetonemia positiva. Gasometría arterial: pH 7.18, pCO2 25 mmHg.",
+  "enunciado": "Con la brecha aniónica y la relación delta/delta, ¿qué trastorno adicional existe?",
+  "perla": "Δ/Δ = (BA − 12)/(24 − HCO3): <1 → acidosis hiperclorémica agregada; 1–2 → BA pura; >2 → alcalosis metabólica agregada. Vómito + CAD es el ejemplo clásico.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "CAD",
+  "orden": 2,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ninguno: la relación delta/delta de 1 a 2 indica acidosis de brecha aislada",
+   "B": "Acidosis láctica agregada por hipoperfusión, demostrada por la brecha de 24",
+   "C": "Pseudohiponatremia por hiperglucemia que invalida el cálculo de la brecha",
+   "D": "Alcalosis metabólica concomitante por el vómito, con delta/delta mayor de 2",
+   "E": "Acidosis hiperclorémica concomitante por diarrea, con delta/delta menor de 1"
+  },
+  "explicaciones": {
+   "A": "La relación calculada es 2.3, fuera del rango de 1 a 2.",
+   "B": "La brecha es 44, no 24; además la relación apunta a alcalosis, no a otra acidosis.",
+   "C": "La hiperglucemia causa hiponatremia por translocación, no pseudohiponatremia; la brecha se calcula con el sodio medido.",
+   "D": "Correcto. Brecha = 134 − (80 + 10) = 44; Δbrecha = 44 − 12 = 32; ΔHCO3 = 24 − 10 = 14; relación 2.3. El bicarbonato está más alto de lo esperado por la brecha: hay alcalosis metabólica por pérdida de HCl con el vómito.",
+   "E": "Una relación menor de 1 sugeriría acidosis hiperclorémica agregada; aquí es mayor de 2."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CAD-3",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 62,
+  "subtema": "Caso encadenado CAD: potasio, insulina y bicarbonato",
+  "caso": "Mujer de 24 años con diabetes tipo 1, tres días de vómito y dolor abdominal. Na 134, K 5.1, Cl 80, HCO3 10 mEq/L, glucosa 520 mg/dL, albúmina 4.0 g/dL, BUN 40 mg/dL, creatinina 1.6 mg/dL, cetonemia positiva. Gasometría arterial: pH 7.18, pCO2 25 mmHg.",
+  "enunciado": "¿Cuál es el manejo inicial más adecuado en las primeras horas?",
+  "perla": "CAD: K <3.3 → reponer antes de insulina; 3.3–5.2 → añadir K; >5.2 → no añadir y medir c/2 h. Bicarbonato: ADA 2024 si pH <7.0; Johnson cap. 13 si pH <7.1. βOHB >3.0 mmol/L confirma CAD en adultos (el nitroprusiato no detecta βOHB).",
+  "referencias": [
+   "Umpierrez GE et al. Diabetes Care 2024;47:1257 (consenso ADA/EASD de crisis hiperglucémicas)"
+  ],
+  "serie_id": "CAD",
+  "orden": 3,
+  "continuacion": "",
+  "opciones": {
+   "A": "Bicarbonato de sodio IV de inmediato por el pH de 7.18 antes de iniciar insulina",
+   "B": "Cristaloide isotónico e insulina IV, sin potasio mientras sea mayor de 5.2 y con control cada 2 h",
+   "C": "Insulina IV con potasio 20 mEq/L desde el inicio, porque el déficit corporal total es grande",
+   "D": "Solución hipotónica al 0.45% desde el inicio para no empeorar la hipernatremia corregida",
+   "E": "Diferir la insulina hasta corregir la acidosis con líquidos durante seis horas"
+  },
+  "explicaciones": {
+   "A": "El bicarbonato solo se considera con pH menor de 7.0; con 7.18 no está indicado y aumenta el riesgo de hipopotasemia.",
+   "B": "Correcto. Hidratación isotónica e insulina en infusión. Con K mayor de 5.2 no se añade potasio, pero se vigila cada 2 h porque la insulina lo introduce a la célula; se repone cuando baja a 3.3 a 5.2.",
+   "C": "Con K de 5.1 inicial, en el límite, no se agrega de entrada; si fuera menor de 3.3 se repondría antes de la insulina.",
+   "D": "Se inicia con isotónico; la hipotónica se usa después según el sodio corregido.",
+   "E": "La insulina detiene la cetogénesis y es parte del tratamiento inicial, no se difiere."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CAD-4",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "dificil",
+  "peso": 60,
+  "subtema": "Caso encadenado CAD: acidosis hiperclorémica en la recuperación",
+  "caso": "Mujer de 24 años con diabetes tipo 1, tres días de vómito y dolor abdominal. Na 134, K 5.1, Cl 80, HCO3 10 mEq/L, glucosa 520 mg/dL, albúmina 4.0 g/dL, BUN 40 mg/dL, creatinina 1.6 mg/dL, cetonemia positiva. Gasometría arterial: pH 7.18, pCO2 25 mmHg.",
+  "enunciado": "A las 14 horas: glucosa 210, Na 140, Cl 114, HCO3 16 mEq/L, cetonas negativas. ¿Cómo se interpreta?",
+  "perla": "Recuperación de CAD: la brecha se cierra antes que el HCO3 suba → acidosis hiperclorémica transitoria. Seguir la brecha, no el HCO3, para guiar la insulina.",
+  "referencias": [
+   "Umpierrez GE et al. Diabetes Care 2024;47:1257 (consenso ADA/EASD de crisis hiperglucémicas)",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "CAD",
+  "orden": 4,
+  "continuacion": "",
+  "opciones": {
+   "A": "Acidosis por dilución sin importancia que se corrige con solución hipotónica",
+   "B": "Acidosis tubular renal distal de novo que debe estudiarse con pH urinario",
+   "C": "Recaída de la cetoacidosis que exige reiniciar la insulina a dosis completa",
+   "D": "Acidosis láctica tipo B por la insulina que requiere medir lactato seriado",
+   "E": "Acidosis hiperclorémica por pérdida urinaria de cetoaniones; se autolimita"
+  },
+  "explicaciones": {
+   "A": "No es solo dilución: hay pérdida real de precursores de bicarbonato.",
+   "B": "Es un fenómeno esperado de la recuperación, no una ATR.",
+   "C": "Con la brecha cerrada y cetonas negativas no hay recaída de cetoacidosis.",
+   "D": "La brecha normal descarta acidosis láctica significativa.",
+   "E": "Correcto. Brecha = 140 − 130 = 10, ya normal. Los cetoaniones, precursores de bicarbonato, se perdieron en la orina, y la solución salina aportó cloro. El bicarbonato se regenera en días."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ETG-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "dificil",
+  "peso": 66,
+  "subtema": "Caso encadenado: brecha osmolar y alcoholes tóxicos",
+  "caso": "Hombre de 45 años llevado por confusión y vómito. Na 140, K 4.8, Cl 102, HCO3 8 mEq/L, glucosa 90 mg/dL, BUN 14 mg/dL, creatinina 2.1 mg/dL, lactato 2 mmol/L, osmolalidad medida 330 mOsm/kg. pH 7.10, pCO2 22 mmHg. Sin cetonas. Sedimento con cristales en aguja y en sobre.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "perla": "Brecha osmolar normal <10 (incluir etanol/4.6). Cada 100 mg/dL de etilenglicol suma ~16 mOsm; de metanol ~32. Etilenglicol: oxalato y LRA a las 24–36 h. Metanol: retina, pancreatitis, putamen (Johnson cap. 13).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 9: Disorders of Water Metabolism (Kashkouli, Berl, Sands)"
+  ],
+  "serie_id": "ETG",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Intoxicación por isopropanol con acidosis grave y cristales de oxalato",
+   "B": "Cetoacidosis alcohólica con brecha osmolar por etanol y cristales de urato",
+   "C": "Etilenglicol: brecha aniónica 30, brecha osmolar 40 y cristales de oxalato",
+   "D": "Acidosis láctica tipo A por choque con lesión renal aguda prerrenal",
+   "E": "Acidosis urémica por lesión renal aguda con hiperfosfatemia y cristales"
+  },
+  "explicaciones": {
+   "A": "El isopropanol se metaboliza a acetona: brecha osmolar alta pero sin acidosis importante.",
+   "B": "Sin cetonas y con cristales de oxalato, la cetoacidosis alcohólica es poco probable.",
+   "C": "Correcto. Brecha aniónica = 140 − 110 = 30. Osmolalidad calculada = 280 + 5 + 5 = 290; brecha osmolar = 40. Acidosis de brecha alta con brecha osmolar alta y cristales de oxalato de calcio = etilenglicol.",
+   "D": "El lactato de 2 no explica una brecha de 30.",
+   "E": "Una creatinina de 2.1 no explica una brecha de 30 ni la brecha osmolar."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ETG-2",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "dificil",
+  "peso": 62,
+  "subtema": "Caso encadenado: tratamiento del etilenglicol",
+  "caso": "Hombre de 45 años llevado por confusión y vómito. Na 140, K 4.8, Cl 102, HCO3 8 mEq/L, glucosa 90 mg/dL, BUN 14 mg/dL, creatinina 2.1 mg/dL, lactato 2 mmol/L, osmolalidad medida 330 mOsm/kg. pH 7.10, pCO2 22 mmHg. Sin cetonas. Sedimento con cristales en aguja y en sobre.",
+  "enunciado": "¿Cuál es el tratamiento más adecuado?",
+  "perla": "Fomepizol 15 mg/kg, luego 10 mg/kg c/12 h por 48 h, después 15 mg/kg c/12 h; c/4 h durante HD. Sin fomepizol: etanol IV para niveles de 100–200 mg/dL. HD retira tóxico y metabolitos. Etilenglicol: + tiamina y piridoxina; metanol: + folato.",
+  "referencias": [
+   "Mégarbane B et al. EXTRIP. Crit Care Med 2023 (etilenglicol)",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "ETG",
+  "orden": 2,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hemodiálisis sola sin antídoto, ya que el fomepizol está contraindicado con LRA",
+   "B": "Etanol IV como primera elección, preferido sobre el fomepizol por su eficacia",
+   "C": "Fomepizol solo, porque la hemodiálisis no remueve el etilenglicol ni sus metabolitos",
+   "D": "Bicarbonato IV hasta pH normal y vigilar sin antídoto específico",
+   "E": "Fomepizol y hemodiálisis por acidosis grave y lesión renal, más tiamina y piridoxina"
+  },
+  "explicaciones": {
+   "A": "El fomepizol no está contraindicado en la LRA; se ajusta la dosis durante la diálisis.",
+   "B": "El etanol es alternativa si no hay fomepizol; este es de elección por su perfil de seguridad.",
+   "C": "La hemodiálisis sí remueve etilenglicol, glicolato y oxalato.",
+   "D": "El bicarbonato es coadyuvante; sin antídoto continúa la formación de ácidos tóxicos.",
+   "E": "Correcto. El fomepizol bloquea la alcohol deshidrogenasa. La hemodiálisis está indicada con acidosis grave, brecha aniónica alta o lesión renal, porque remueve el tóxico y el glicolato. Tiamina y piridoxina desvían el glioxilato a metabolitos no tóxicos."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ETG-3",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Brecha osmolar normal en presentación tardía",
+  "caso": "Mujer de 38 años llega 48 horas después de ingerir anticongelante. pH 7.02, HCO3 5, brecha aniónica 34, brecha osmolar 6 mOsm/kg.",
+  "enunciado": "¿Cómo se interpreta la brecha osmolar normal?",
+  "perla": "Alcoholes tóxicos: temprano brecha osmolar ↑ y BA normal; tardío brecha osmolar normal y BA ↑. Una brecha osmolar normal no descarta.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "ETG-3",
+  "orden": 1,
+  "continuacion": "",
+  "variante_de": "TUR-3",
+  "opciones": {
+   "A": "Indica que la intoxicación es leve y no requiere fomepizol ni hemodiálisis",
+   "B": "El alcohol ya se metabolizó a ácidos, que suben la brecha aniónica pero no la osmolar",
+   "C": "Es un error de laboratorio; la brecha osmolar siempre está elevada en esta intoxicación",
+   "D": "Demuestra una ingesta de metanol, que no eleva la brecha osmolar en ninguna fase",
+   "E": "Descarta la intoxicación por etilenglicol y obliga a buscar otra causa de acidosis"
+  },
+  "explicaciones": {
+   "A": "La acidosis grave indica intoxicación seria; se trata con hemodiálisis y fomepizol.",
+   "B": "Correcto. Al inicio predomina la brecha osmolar (alcohol intacto); con el tiempo el alcohol se convierte en ácidos y la brecha osmolar cae mientras sube la aniónica. Una brecha osmolar normal no descarta intoxicación tardía.",
+   "C": "No es un error: refleja el metabolismo del tóxico.",
+   "D": "El metanol también eleva la brecha osmolar en su fase inicial.",
+   "E": "No la descarta: es el patrón esperado en la presentación tardía."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "variante"
+ },
+ {
+  "id": "UAG-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 62,
+  "subtema": "Brecha aniónica urinaria: diarrea frente a ATR distal",
+  "caso": "Mujer de 50 años con diarrea crónica. Na 138, K 3.0, Cl 115, HCO3 14 mEq/L. Orina: Na 40, K 30, Cl 110 mEq/L, pH 5.8.",
+  "enunciado": "¿Qué indica la brecha aniónica urinaria?",
+  "perla": "Brecha aniónica urinaria = Na + K − Cl. Normal +30 a +50. Negativa (en diarrea a menudo < −20) = NH4+ alto. Positiva con acidosis = NH4+ bajo (ATR distal, tipo 4, ERC). El pH urinario no las distingue (Johnson cap. 13).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "UAG-1",
+  "orden": 1,
+  "continuacion": "",
+  "variante_de": "ATR-1",
+  "opciones": {
+   "A": "No es interpretable porque el pH urinario es mayor de 5.5",
+   "B": "Es positiva: excreción de amonio baja, compatible con acidosis tubular renal distal",
+   "C": "Es negativa: excreción de amonio baja, compatible con acidosis tubular tipo 4",
+   "D": "Negativa: amoniuria adecuada, compatible con pérdida digestiva de bicarbonato",
+   "E": "Es positiva: hay hipurato en orina, como en la intoxicación por tolueno"
+  },
+  "explicaciones": {
+   "A": "La brecha urinaria se interpreta aunque el pH sea mayor de 5.5; un pH alto no excluye diarrea con amoniogénesis alta.",
+   "B": "La brecha es negativa, no positiva.",
+   "C": "En la ATR tipo 4 la amoniuria está baja y la brecha suele ser positiva.",
+   "D": "Correcto. Brecha urinaria = 40 + 30 − 110 = −40. El cloro urinario acompaña al amonio: una brecha negativa refleja amoniuria adecuada, como en la diarrea. El pH de 5.8 puede verse por el amonio que amortigua.",
+   "E": "La brecha es negativa; en el tolueno se vuelve positiva por el hipurato."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "variante"
+ },
+ {
+  "id": "UOG-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "dificil",
+  "peso": 52,
+  "subtema": "Brecha osmolar urinaria cuando la brecha aniónica urinaria falla",
+  "caso": "Hombre de 22 años que inhala pegamento con tolueno. Acidosis con brecha aniónica normal, HCO3 12, K 2.6. Orina: brecha aniónica urinaria +20 mEq/L; brecha osmolar urinaria 320 mOsm/kg.",
+  "enunciado": "¿Cómo se integran los datos urinarios?",
+  "perla": "La brecha aniónica urinaria falla con aniones no medidos (cetonas, hipurato, benzoato). Brecha osmolar urinaria = Uosm medida − [2(Na+K) + BUN/2.8 + glucosa/18]; normal 10–100; >100 = NH4+ alto (Johnson cap. 13).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "UOG-1",
+  "orden": 1,
+  "continuacion": "",
+  "variante_de": "ATR-1",
+  "opciones": {
+   "A": "El hipurato falsea la brecha aniónica urinaria; la brecha osmolar muestra amonio alto",
+   "B": "La brecha osmolar urinaria alta indica diuresis osmótica por glucosa no detectada",
+   "C": "Ambos índices confirman excreción baja de amonio por daño tubular del tolueno",
+   "D": "La brecha aniónica urinaria positiva confirma ATR distal y obliga a dar álcali a largo plazo",
+   "E": "La hipopotasemia invalida ambos índices urinarios y obliga a medir amonio directo"
+  },
+  "explicaciones": {
+   "A": "Correcto. El tolueno se metaboliza a ácido hipúrico; el hipurato se excreta con Na y K y vuelve positiva la brecha aniónica urinaria. Johnson cap. 13: la brecha osmolar urinaria normal es 10 a 100 mOsm/kg; valores claramente mayores de 100, como 320, reflejan excreción alta de sales de amonio.",
+   "B": "La brecha osmolar urinaria refleja sobre todo amonio cuando la glucosa y la urea se restan.",
+   "C": "La brecha osmolar urinaria alta indica amonio alto, no bajo.",
+   "D": "La amoniuria es alta; el patrón no es de ATR distal.",
+   "E": "La hipopotasemia no invalida la brecha osmolar urinaria."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "variante"
+ },
+ {
+  "id": "ALB-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 58,
+  "subtema": "Brecha aniónica corregida por albúmina",
+  "caso": "Hombre de 68 años con cirrosis y sepsis. Na 136, Cl 104, HCO3 18 mEq/L, albúmina 2.0 g/dL, lactato 5 mmol/L.",
+  "enunciado": "¿Cómo se interpreta la brecha aniónica?",
+  "perla": "BA corregida = BA + 2.5 × (4 − albúmina g/dL). Hipoalbuminemia (cirrosis, sepsis, síndrome nefrótico) oculta una BA alta.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "ALB-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La albúmina baja eleva la brecha, por lo que la brecha real es menor de 14",
+   "B": "La brecha no puede interpretarse con lactato elevado y debe calcularse el delta",
+   "C": "Corregida por albúmina es 19: acidosis de brecha alta oculta",
+   "D": "La brecha corregida es 9: la acidosis láctica no contribuye al trastorno",
+   "E": "La brecha de 14 es normal: es acidosis hiperclorémica pura por solución salina"
+  },
+  "explicaciones": {
+   "A": "La albúmina baja reduce la brecha, no la eleva.",
+   "B": "Sí se interpreta; precisamente la corrección permite detectar el lactato.",
+   "C": "Correcto. Brecha = 136 − 122 = 14. Corrección: + 2.5 × (4.0 − 2.0) = +5 → 19. La albúmina es el principal anión no medido; su descenso enmascara la acidosis láctica.",
+   "D": "La corrección se suma, no se resta.",
+   "E": "Sin corregir parece normal, pero corregida está elevada."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "DLA-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "dificil",
+  "peso": 44,
+  "subtema": "Acidosis por D-lactato en síndrome de intestino corto",
+  "caso": "Mujer de 55 años con síndrome de intestino corto tras resección intestinal amplia. Tras una comida rica en carbohidratos presenta ataxia, disartria y confusión. HCO3 12, brecha aniónica 24, L-lactato 1.2 mmol/L.",
+  "enunciado": "¿Cuál es el diagnóstico y el manejo?",
+  "perla": "Intestino corto + encefalopatía tras carbohidratos + BA alta + L-lactato normal = D-lactato. El laboratorio mide L-lactato.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "DLA-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Acidosis por D-lactato bacteriano: restringir carbohidratos y dar antibiótico oral",
+   "B": "Encefalopatía de Wernicke con acidosis láctica por déficit de tiamina",
+   "C": "Acidosis láctica tipo A por isquemia mesentérica que requiere cirugía urgente",
+   "D": "Cetoacidosis por ayuno que se corrige con solución glucosada y tiamina",
+   "E": "Acidosis por piroglutamato que exige suspender el paracetamol de inmediato"
+  },
+  "explicaciones": {
+   "A": "Correcto. Las bacterias del colon fermentan los carbohidratos que no se absorben y producen D-lactato, que no detecta el ensayo habitual de L-lactato. Causa encefalopatía. Se trata con menos carbohidratos, antibiótico oral y bicarbonato.",
+   "B": "La tiamina no explica la brecha alta con L-lactato normal.",
+   "C": "El L-lactato normal y el cuadro tras la comida apuntan a D-lactato, no a isquemia.",
+   "D": "No hay datos de cetosis por ayuno; el desencadenante es la carga de carbohidratos.",
+   "E": "El piroglutamato se asocia a paracetamol crónico, no a intestino corto."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "PGLY-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "dificil",
+  "peso": 42,
+  "subtema": "Propilenglicol en infusión de benzodiacepinas",
+  "caso": "Hombre de 60 años en UCI con lorazepam IV en dosis altas durante 5 días por abstinencia. Desarrolla acidosis de brecha aniónica alta con brecha osmolar de 28 y lactato de 6 mmol/L.",
+  "enunciado": "¿Cuál es la causa más probable?",
+  "perla": "Brecha osmolar alta + lactato alto en UCI = propilenglicol (lorazepam, diazepam, fenobarbital IV).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "PGLY-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Síndrome de realimentación con déficit de tiamina y lactato elevado",
+   "B": "Acidosis láctica por hipoperfusión secundaria a sepsis no reconocida",
+   "C": "Cetoacidosis alcohólica tardía por la abstinencia del etanol",
+   "D": "Acumulación de propilenglicol del vehículo, que se metaboliza a lactato",
+   "E": "Intoxicación oculta por metanol ingerido antes del ingreso"
+  },
+  "explicaciones": {
+   "A": "No explica la brecha osmolar.",
+   "B": "La brecha osmolar alta no se explica por sepsis.",
+   "C": "La cetoacidosis alcohólica no eleva tanto la brecha osmolar sin etanol presente.",
+   "D": "Correcto. El propilenglicol, vehículo del lorazepam y del diazepam IV, eleva la brecha osmolar y se metaboliza a lactato. Se trata suspendiendo la infusión; la hemodiálisis lo remueve en casos graves.",
+   "E": "Cinco días de hospitalización hacen improbable una ingesta previa de metanol."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ERCA-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 56,
+  "subtema": "Acidosis metabólica en ERC: cuándo tratar",
+  "caso": "Hombre de 63 años con ERC G4 (TFGe 22), sin edema, PA controlada. HCO3 venoso de 17 mEq/L en dos determinaciones.",
+  "enunciado": "Según KDIGO 2024, ¿cuál es la conducta más adecuada?",
+  "perla": "Acidosis en ERC: KDIGO 2024 trata HCO3 persistente <18; Johnson cap. 13 desde <22 (NaHCO3 0.5–1.5 mmol/kg/d). Hiperclorémica con TFG <30; brecha alta (urémica) con TFG <15. Veverimer: negativo en VALOR-CKD.",
+  "referencias": [
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117",
+   "Tangri N et al. Lancet 2022;399:1503 (VALOR-CKD)"
+  ],
+  "serie_id": "ERCA-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Agregar acetazolamida para aumentar la excreción renal de ácido",
+   "B": "Considerar bicarbonato de sodio oral junto con más frutas y verduras en la dieta",
+   "C": "Iniciar diálisis por acidosis metabólica refractaria al manejo dietético",
+   "D": "No tratar porque los álcalis aceleran la calcificación vascular en ERC avanzada",
+   "E": "Iniciar veverimer, que redujo la progresión renal en el ensayo VALOR-CKD"
+  },
+  "explicaciones": {
+   "A": "La acetazolamida aumenta la pérdida de bicarbonato y empeora la acidosis.",
+   "B": "Correcto. KDIGO 2024 sugiere considerar tratamiento farmacológico, con o sin intervención dietética, cuando el HCO3 es persistentemente menor de 18 mEq/L. Johnson cap. 13 es más liberal: NaHCO3 0.5 a 1.5 mmol/kg/día desde HCO3 menor de 22, con diurético de asa si hay riesgo de sobrecarga. Con 17 ambos criterios indican tratar.",
+   "C": "Un HCO3 de 17 no es indicación de diálisis por sí mismo.",
+   "D": "El beneficio esperado es frenar la pérdida muscular y ósea y, posiblemente, la progresión.",
+   "E": "VALOR-CKD no mostró reducción de la progresión con veverimer."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "SNG-1",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "moderada",
+  "peso": 66,
+  "subtema": "Caso encadenado: alcalosis por succión gástrica y compensación",
+  "caso": "Mujer de 63 años con ERC G3a en el tercer día de succión nasogástrica por íleo tras cirugía de colon. PA 104/66, FC 108, yugulares planas. Na 137, K 3.0, Cl 90, CO2 total 35 mEq/L, creatinina 1.6 mg/dL. pH 7.52, pCO2 48 mmHg.",
+  "enunciado": "¿Cómo se interpreta la gasometría?",
+  "perla": "Alcalosis metabólica: pCO2 ≈ HCO3 + 10 (Johnson cap. 14, válido con HCO3 30–50) o 40 + 0.7 × ΔHCO3. Leve: 45–50; grave: 50–55. pCO2 >55 sugiere debilidad respiratoria por hipoK o acidosis respiratoria agregada.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "SNG",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Acidosis respiratoria crónica con compensación renal exagerada",
+   "B": "Alcalosis metabólica sin compensación por hipopotasemia grave",
+   "C": "Alcalosis metabólica con acidosis respiratoria primaria agregada",
+   "D": "Alcalosis mixta metabólica y respiratoria por dolor posoperatorio",
+   "E": "Alcalosis metabólica con compensación respiratoria adecuada"
+  },
+  "explicaciones": {
+   "A": "El pH alcalino descarta acidosis respiratoria primaria.",
+   "B": "Hay compensación; la hipopotasemia grave puede causar debilidad e hipoventilación excesiva, no ausencia de compensación.",
+   "C": "Una acidosis respiratoria agregada daría pCO2 mayor de 53.",
+   "D": "Una alcalosis respiratoria agregada daría pCO2 menor de 43.",
+   "E": "Correcto. Con HCO3 de 35, Johnson cap. 14 estima pCO2 ≈ HCO3 + 10 = 45; la regla de 0.7 por mEq da 40 + 0.7 × 11 ≈ 48. La pCO2 de 48 cae en el rango esperado (±5): compensación adecuada."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "SNG-2",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "dificil",
+  "peso": 64,
+  "subtema": "Caso encadenado: sodio urinario frente a cloro urinario en la alcalosis",
+  "caso": "Mujer de 63 años con ERC G3a en el tercer día de succión nasogástrica por íleo tras cirugía de colon. PA 104/66, FC 108, yugulares planas. Na 137, K 3.0, Cl 90, CO2 total 35 mEq/L, creatinina 1.6 mg/dL. pH 7.52, pCO2 48 mmHg.",
+  "enunciado": "Orina: Na 45, K 40, Cl 8 mEq/L, pH 7.5. ¿Qué dato define mejor el mecanismo y el estado de volumen?",
+  "perla": "Vómito o SNG: Na urinario puede ser >20 (bicarbonaturia), pero Cl urinario <20 = depleción de volumen → alcalosis cloro-sensible.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "SNG",
+  "orden": 2,
+  "continuacion": "",
+  "variante_de": "VOL-3",
+  "opciones": {
+   "A": "El potasio urinario alto: hay hiperaldosteronismo primario que mantiene la alcalosis",
+   "B": "Ninguno: la ERC impide interpretar los electrolitos urinarios",
+   "C": "El cloro urinario bajo: hay depleción de volumen y la alcalosis responde a cloro",
+   "D": "El pH urinario alcalino: indica acidosis tubular distal concomitante",
+   "E": "El sodio urinario alto: no hay depleción de volumen y la alcalosis resiste al cloro"
+  },
+  "explicaciones": {
+   "A": "La caliuresis se explica por la llegada distal de sodio con bicarbonato y por la aldosterona secundaria.",
+   "B": "Aun con ERC, el cloro urinario bajo orienta a depleción.",
+   "C": "Correcto. La bicarbonaturia arrastra sodio y potasio aunque haya depleción de volumen; el cloro urinario menor de 20 mEq/L es el que refleja la contracción y predice respuesta a NaCl.",
+   "D": "El pH alcalino refleja la bicarbonaturia de la fase de generación, no una ATR.",
+   "E": "El sodio urinario está alto por la bicarbonaturia obligada, no porque el volumen esté normal."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "variante"
+ },
+ {
+  "id": "SNG-3",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "moderada",
+  "peso": 62,
+  "subtema": "Caso encadenado: tratamiento de la alcalosis por pérdida de HCl",
+  "caso": "Mujer de 63 años con ERC G3a en el tercer día de succión nasogástrica por íleo tras cirugía de colon. PA 104/66, FC 108, yugulares planas. Na 137, K 3.0, Cl 90, CO2 total 35 mEq/L, creatinina 1.6 mg/dL. pH 7.52, pCO2 48 mmHg.",
+  "enunciado": "¿Cuál es el tratamiento más adecuado?",
+  "perla": "Alcalosis cloro-sensible: NaCl IV + KCl (déficit de K habitual 200–400 mmol). IBP si las pérdidas gástricas continúan (Johnson cap. 14).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "SNG",
+  "orden": 3,
+  "continuacion": "",
+  "variante_de": "ACB-3",
+  "opciones": {
+   "A": "Acetazolamida IV como primera línea para eliminar el exceso de bicarbonato",
+   "B": "Ácido clorhídrico IV por vía central como tratamiento inicial",
+   "C": "Restringir líquidos y dar espironolactona para corregir el potasio",
+   "D": "Hemodiálisis con baño bajo en bicarbonato por la ERC concomitante",
+   "E": "Salina 0.9% y KCl, con inhibidor de bomba de protones si sigue la succión"
+  },
+  "explicaciones": {
+   "A": "La acetazolamida se usa cuando hay sobrecarga de volumen, no en contracción.",
+   "B": "El HCl se reserva para alcalosis grave refractaria.",
+   "C": "Restringir líquidos empeora la contracción que mantiene la alcalosis.",
+   "D": "La hemodiálisis se reserva para alcalosis grave con falla renal avanzada o sobrecarga.",
+   "E": "Correcto. Expandir el volumen con NaCl permite que el riñón excrete el bicarbonato, y el KCl repone el déficit de potasio (habitualmente 200 a 400 mEq). El IBP reduce la pérdida de HCl si la succión continúa."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "variante"
+ },
+ {
+  "id": "ALK-1",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "dificil",
+  "peso": 58,
+  "subtema": "Alcalosis con hipertensión: perfil de renina y aldosterona",
+  "caso": "Hombre de 44 años con HTA de 165/100, K 2.8, HCO3 33 mEq/L. Cl urinario 60 mEq/L. Renina suprimida y aldosterona suprimida. Consume caramelos de regaliz a diario.",
+  "enunciado": "¿Cuál es el mecanismo y el tratamiento?",
+  "perla": "Alcalosis + HTA + Cl urinario >20: renina↓ aldo↑ (primario); renina↓ aldo↓ (Liddle, regaliz/carbenoxolona, EAM, Cushing por ACTH ectópica, HSC 11β o 17α); renina↑ aldo↑ (tumor de renina, renovascular). Todos empeoran con sal (Johnson cap. 14).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "ALK-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hiperaldosteronismo primario: confirmar con supresión salina y realizar TC suprarrenal",
+   "B": "El regaliz inhibe la 11β-HSD2 y el cortisol activa el receptor; suspenderlo",
+   "C": "Uso oculto de diuréticos: realizar tamizaje urinario de diuréticos",
+   "D": "Estenosis de arteria renal con hiperaldosteronismo secundario: realizar angiotomografía",
+   "E": "Síndrome de Gitelman: suplementar potasio y magnesio y no tratar la presión"
+  },
+  "explicaciones": {
+   "A": "En el hiperaldosteronismo primario la aldosterona está alta.",
+   "B": "Correcto. El ácido glicirrético inhibe la 11β-HSD2; el cortisol ocupa el receptor mineralocorticoide. Renina y aldosterona quedan suprimidas. Se suspende el regaliz; la espironolactona es útil porque bloquea el receptor.",
+   "C": "Los diuréticos elevan la renina y no causan hipertensión.",
+   "D": "En la estenosis renal la renina y la aldosterona están altas.",
+   "E": "En Gitelman la presión es normal o baja y la renina está alta."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ALK-2",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "moderada",
+  "peso": 54,
+  "subtema": "Síndrome de Liddle: por qué no funciona la espironolactona",
+  "caso": "Mujer de 19 años con HTA, K 2.9, HCO3 32 mEq/L, renina y aldosterona suprimidas, antecedente familiar de HTA temprana. No mejora con espironolactona.",
+  "enunciado": "¿Cuál es el tratamiento adecuado?",
+  "perla": "Liddle: ENaC abierto → amilorida o triamtereno; espironolactona y eplerenona no funcionan.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "ALK-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Suplementar potasio y magnesio sin tratamiento antihipertensivo específico",
+   "B": "Eplerenona a dosis altas, más selectiva que la espironolactona",
+   "C": "Dexametasona para suprimir la ACTH y la aldosterona dependiente de ella",
+   "D": "Amilorida o triamtereno con poca sal: el ENaC está abierto sin aldosterona",
+   "E": "Adrenalectomía unilateral tras cateterismo de venas suprarrenales"
+  },
+  "explicaciones": {
+   "A": "La hipertensión requiere bloquear el canal.",
+   "B": "Los antagonistas mineralocorticoides no actúan porque el defecto es distal al receptor.",
+   "C": "La dexametasona sirve en el hiperaldosteronismo remediable con glucocorticoides, con aldosterona alta.",
+   "D": "Correcto. En Liddle, mutaciones de ganancia de función mantienen el ENaC abierto sin depender de la aldosterona; se bloquea el canal con amilorida o triamtereno. Empeora con sal y mejora con restricción de sodio.",
+   "E": "No hay producción autónoma de aldosterona."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ALK-3",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "moderada",
+  "peso": 56,
+  "subtema": "Alcalosis por diuréticos con sobrecarga de volumen",
+  "caso": "Hombre de 70 años con insuficiencia cardiaca y edema que recibe furosemida en dosis altas. HCO3 38, K 3.4 mEq/L, pH 7.50. Persiste congestión pulmonar.",
+  "enunciado": "¿Cuál es la medida más adecuada para la alcalosis?",
+  "perla": "Alcalosis por diurético con edema: reducir diurético, KCl, ahorrador de K (amilorida, triamtereno, espironolactona) o acetazolamida, que obliga a reponer K de forma agresiva (Johnson cap. 14).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "ALK-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Acetazolamida con suplemento de potasio para eliminar bicarbonato",
+   "B": "Bicarbonato de sodio para mejorar la respuesta a los diuréticos de asa",
+   "C": "Solución salina 0.9% para reponer cloro y corregir la alcalosis",
+   "D": "Ácido clorhídrico IV como primera línea por la congestión",
+   "E": "Suspender todos los diuréticos hasta normalizar el bicarbonato"
+  },
+  "explicaciones": {
+   "A": "Correcto. Con sobrecarga, la salina empeora la congestión. La acetazolamida inhibe la reabsorción proximal de bicarbonato y aumenta la natriuresis; causa pérdida de potasio, por lo que debe suplementarse. Los ahorradores de potasio también ayudan.",
+   "B": "El bicarbonato empeoraría la alcalosis.",
+   "C": "La salina corregiría la alcalosis pero agrava la sobrecarga de volumen.",
+   "D": "El HCl se reserva para alcalosis grave refractaria.",
+   "E": "Suspender diuréticos empeora la congestión."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ALK-4",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Vómito oculto frente a diuréticos frente a Gitelman",
+  "caso": "Mujer de 31 años, bailarina, preocupada por su peso. K 2.9, HCO3 33, Mg 2.1 mg/dL. PA 98/62. Orina: Na 35, K 40 y Cl 7 mEq/L en dos muestras separadas. Niega vómito.",
+  "enunciado": "¿Cuál es la causa más probable?",
+  "perla": "Cl urinario bajo persistente = vómito (el Na urinario puede estar alto por bicarbonaturia). Cl alto persistente = Bartter/Gitelman. Cl que sube y baja = diurético intermitente (Johnson cap. 14).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "ALK-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hiperaldosteronismo primario normotenso con cloro urinario bajo",
+   "B": "Síndrome de Gitelman: alcalosis hipopotasémica con cloro urinario bajo",
+   "C": "Vómito autoinducido oculto: cloro urinario persistentemente bajo",
+   "D": "Síndrome de Bartter: alcalosis con hipercalciuria y cloro urinario bajo",
+   "E": "Abuso de diuréticos: cloro urinario bajo por la acción del fármaco"
+  },
+  "explicaciones": {
+   "A": "El hiperaldosteronismo cursa con hipertensión y cloro urinario alto.",
+   "B": "En Gitelman el cloro urinario es alto y suele haber hipomagnesemia.",
+   "C": "Correcto. El cloro urinario bajo y persistente indica pérdida extrarrenal de cloro (vómito). En el abuso de diuréticos el cloro urinario es alto mientras actúa el fármaco y bajo después; en Bartter y Gitelman es persistentemente alto.",
+   "D": "En Bartter el cloro urinario es alto.",
+   "E": "Con diuréticos el cloro urinario se eleva mientras actúan; un valor bajo y persistente no encaja."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ALK-5",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "dificil",
+  "peso": 44,
+  "subtema": "Alcalosis metabólica grave con falla renal",
+  "caso": "Mujer de 66 años con ERC G5 sin diálisis, vómito incoercible y sobrecarga de volumen. pH 7.64, HCO3 48 mEq/L, K 3.1. No tolera solución salina por edema pulmonar.",
+  "enunciado": "¿Cuál es la opción terapéutica más adecuada?",
+  "perla": "Alcalosis grave + falla renal o sobrecarga: HD con baño bajo en HCO3. Alternativa: HCl 100–150 mmol/L por vía central (Vd ≈ 50% del peso). Dosis ≈ 0.5 × peso × (HCO3 actual − deseado).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "ALK-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hemodiálisis con baño bajo en bicarbonato o HCl IV por vía central",
+   "B": "Acetazolamida IV, que será eficaz a pesar de la TFG muy baja",
+   "C": "Espironolactona y suplemento de potasio por vía oral",
+   "D": "Solución salina 0.9% en dosis altas con furosemida para evitar el edema",
+   "E": "Esperar la compensación respiratoria, que normalizará el pH"
+  },
+  "explicaciones": {
+   "A": "Correcto. Sin función renal no se puede excretar el bicarbonato. La hemodiálisis con baño bajo en bicarbonato corrige el pH y la sobrecarga. Si no es posible, Johnson cap. 14 indica HCl de 100 a 150 mmol/L por vena central, con volumen de distribución de ~50% del peso.",
+   "B": "La acetazolamida pierde eficacia con TFG muy baja.",
+   "C": "No corrige una alcalosis de esta magnitud.",
+   "D": "La salina agrava la sobrecarga y el riñón no puede excretar el bicarbonato.",
+   "E": "La compensación respiratoria es limitada y no basta con pH de 7.64."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MXR-1",
+  "tema_id": 25,
+  "sub": "25.e",
+  "obj": "25.o5",
+  "dificultad": "dificil",
+  "peso": 52,
+  "subtema": "EPOC con diuréticos: acidosis respiratoria crónica más alcalosis metabólica",
+  "caso": "Hombre de 72 años con EPOC e insuficiencia cardiaca, tratado con furosemida. pH 7.45, pCO2 60 mmHg, HCO3 41 mEq/L, Cl 88 mEq/L.",
+  "enunciado": "¿Cuál es la interpretación correcta?",
+  "perla": "Respiratoria crónica: ΔHCO3 ≈ 3.5 (cap. 13) a 4 (cap. 15) por 10 de pCO2; adaptación completa en 3–5 días. pH normal con pCO2 y HCO3 muy alterados = trastorno mixto.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)"
+  ],
+  "serie_id": "MXR-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Alcalosis metabólica primaria con hipoventilación compensadora adecuada",
+   "B": "Acidosis respiratoria crónica con compensación renal exactamente esperada",
+   "C": "Alcalosis respiratoria crónica con compensación metabólica",
+   "D": "Acidosis respiratoria crónica más alcalosis metabólica por el diurético",
+   "E": "Acidosis respiratoria aguda sin compensación renal todavía"
+  },
+  "explicaciones": {
+   "A": "Para una alcalosis metabólica con HCO3 de 41 la pCO2 esperada sería ≈ 52; 60 es excesiva.",
+   "B": "La compensación crónica nunca normaliza el pH; el HCO3 es mayor de lo esperado.",
+   "C": "La pCO2 está alta, no baja.",
+   "D": "Correcto. En la acidosis respiratoria crónica el HCO3 sube 3.5 a 4 por cada 10 de pCO2: esperado ≈ 24 + 7 a 8 = 31 a 32. Un HCO3 de 41 excede lo esperado: hay alcalosis metabólica agregada; el pH normal lo confirma.",
+   "E": "En la aguda el HCO3 solo sube 1 por cada 10 de pCO2."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MXR-2",
+  "tema_id": 25,
+  "sub": "25.e",
+  "obj": "25.o5",
+  "dificultad": "dificil",
+  "peso": 48,
+  "subtema": "Sepsis temprana: alcalosis respiratoria más acidosis láctica",
+  "caso": "Mujer de 59 años con fiebre y taquipnea por pielonefritis. pH 7.40, pCO2 24 mmHg, HCO3 14 mEq/L, Na 138, Cl 104, lactato 4.",
+  "enunciado": "¿Cuál es la interpretación?",
+  "perla": "Si la pCO2 es >5 mmHg menor que la de Winter: alcalosis respiratoria agregada. Descartar siempre salicilatos; también sepsis, falla hepática (Johnson cap. 15).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)"
+  ],
+  "serie_id": "MXR-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Acidosis metabólica hiperclorémica con compensación esperada",
+   "B": "Acidosis de brecha alta con alcalosis respiratoria primaria agregada",
+   "C": "Gasometría normal sin trastorno ácido-base significativo",
+   "D": "Alcalosis respiratoria crónica con compensación renal completa",
+   "E": "Acidosis metabólica con compensación respiratoria adecuada y pH normal"
+  },
+  "explicaciones": {
+   "A": "La brecha está elevada.",
+   "B": "Correcto. Brecha = 138 − 118 = 20. Winter: 1.5 × 14 + 8 = 29 ± 2; la pCO2 de 24 es menor: hay alcalosis respiratoria primaria, típica de la sepsis temprana. El pH normal no descarta trastornos.",
+   "C": "HCO3 de 14 y pCO2 de 24 no son normales.",
+   "D": "La brecha de 20 indica acidosis de brecha alta.",
+   "E": "La compensación nunca normaliza por completo el pH; la pCO2 es menor que la esperada."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RAC-1",
+  "tema_id": 25,
+  "sub": "25.c",
+  "obj": "25.o3",
+  "dificultad": "moderada",
+  "peso": 44,
+  "subtema": "Acidosis respiratoria aguda frente a crónica",
+  "caso": "Hombre de 66 años con sobredosis de opioides. pH 7.20, pCO2 70 mmHg, HCO3 27 mEq/L.",
+  "enunciado": "¿Qué indica el bicarbonato?",
+  "perla": "Respiratoria: aguda ΔHCO3 1 (acidosis) o 2 (alcalosis) por 10 de pCO2; crónica 3.5–4 (acidosis) o 4–5 (alcalosis).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)"
+  ],
+  "serie_id": "RAC-1",
+  "orden": 1,
+  "continuacion": "",
+  "variante_de": "RESP-1",
+  "opciones": {
+   "A": "Acidosis respiratoria con acidosis metabólica concomitante",
+   "B": "Acidosis respiratoria crónica con compensación renal completa",
+   "C": "Acidosis respiratoria crónica agudizada con compensación excesiva",
+   "D": "Acidosis respiratoria con alcalosis metabólica concomitante",
+   "E": "Acidosis respiratoria aguda: subió cerca de 1 por cada 10 de pCO2"
+  },
+  "explicaciones": {
+   "A": "Un HCO3 de 27 no es menor de lo esperado.",
+   "B": "Si fuera crónica el HCO3 sería ≈ 35.",
+   "C": "El HCO3 está en el rango agudo.",
+   "D": "Un HCO3 de 27 es el esperado, no excesivo.",
+   "E": "Correcto. Aguda: ΔHCO3 ≈ 1 por 10 de pCO2 → 24 + 3 = 27. Crónica: 3.5 a 4 por 10 → 34 a 36."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "variante"
+ },
+ {
+  "id": "ATR-P1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ATR proximal: diagnóstico y dosis de álcali",
+  "caso": "Mujer de 45 años con mieloma múltiple. Na 139, Cl 113, HCO3 16, K 3.1 mEq/L. Glucosuria con glucosa sérica de 92 mg/dL, fósforo 2.0 mg/dL, ácido úrico 2.1 mg/dL. pH urinario 5.2 en ayuno.",
+  "enunciado": "¿Cuál es el diagnóstico y qué ocurre al dar álcali?",
+  "perla": "ATR2: pH urinario <5.5 en estado estable, Fanconi, hipoK, HCO3 16–18, citrato urinario alto, sin litos (salvo topiramato). Adultos: tratar si HCO3 <18; niños 5–15 mmol/kg/d. Mieloma = causa adquirida más común en adultos.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "ATR-P1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "ATR distal clásica; el álcali corrige la acidosis con dosis de 1 a 2 mmol/kg al día",
+   "B": "ATR tipo 4 por hipoaldosteronismo; el álcali empeora la hiperpotasemia de base",
+   "C": "ATR proximal con Fanconi; el álcali eleva poco el HCO3 porque se pierde en la orina",
+   "D": "Acidosis por diarrea oculta; el álcali no es necesario si se trata la causa",
+   "E": "Acidosis de la ERC avanzada; el álcali se inicia cuando el HCO3 baja de 22"
+  },
+  "explicaciones": {
+   "A": "La ATR distal no acidifica por debajo de 5.5 y no cursa con Fanconi.",
+   "B": "El potasio está bajo, no alto.",
+   "C": "Correcto. Glucosuria normoglucémica, hipofosfatemia e hipouricemia con pH urinario menor de 5.5 en estado estable indican ATR proximal con Fanconi; en adultos suele deberse a cadenas ligeras. Al subir el HCO3 se rebasa el umbral proximal y se pierde: hacen falta dosis enormes (Johnson: 700 a 1000 mmol/día en 70 kg), de preferencia como citrato de potasio.",
+   "D": "La glucosuria y la hipofosfatemia apuntan a disfunción tubular proximal.",
+   "E": "No hay datos de ERC avanzada."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ATR-D1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 52,
+  "subtema": "ATR distal en Sjögren: potasio antes que álcali",
+  "caso": "Mujer de 38 años con xerostomía y xeroftalmia. Debilidad flácida. Na 140, Cl 118, HCO3 11, K 2.1 mEq/L. pH urinario 6.6, brecha aniónica urinaria +18. Nefrocalcinosis en la ecografía.",
+  "enunciado": "¿Cuál es el primer paso terapéutico?",
+  "perla": "ATR1: pH urinario >5.5 con acidosis, brecha urinaria positiva, hipoK, nefrocalcinosis, citrato bajo, HCO3 hasta 10. Causas: Sjögren, anfotericina (defecto de gradiente), tolueno, AE1, H-ATPasa. K antes que álcali; álcali 1–2 mmol/kg/d.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "ATR-D1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Bicarbonato de sodio IV en bolo para subir el HCO3 a 20",
+   "B": "Fludrocortisona 0.1 mg al día para estimular la secreción de H",
+   "C": "Acetazolamida para aumentar la excreción de citrato urinario",
+   "D": "Restricción de proteínas para reducir la carga ácida diaria",
+   "E": "Reponer potasio antes de corregir la acidosis con álcali"
+  },
+  "explicaciones": {
+   "A": "Sin reponer antes el potasio, la hipopotasemia empeora peligrosamente.",
+   "B": "La fludrocortisona se usa en ATR tipo 4 con hipoaldosteronismo.",
+   "C": "La acetazolamida agrava la acidosis y la hipopotasemia.",
+   "D": "No corrige un defecto de secreción distal de H.",
+   "E": "Correcto. Con K de 2.1, corregir la acidosis con sales de sodio mete potasio a la célula y puede causar parálisis o arritmia. Johnson cap. 13 indica iniciar potasio antes; después álcali de 1 a 2 mmol/kg/día, combinando sales de sodio y de potasio. Sjögren es causa secundaria frecuente."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ATR-41",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ATR tipo 4: pH urinario según el mecanismo",
+  "caso": "Hombre de 66 años con DM2 de 20 años, TFGe 42. Na 137, Cl 111, HCO3 19, K 6.0 mEq/L. Renina y aldosterona bajas. pH urinario 5.1. PA 128/76, sin edema.",
+  "enunciado": "¿Qué interpretación y tratamiento corresponden?",
+  "perla": "ATR4: HCO3 18–22, K 5.5–6.5, DM 5.ª–7.ª década. pH urinario <5.5 si déficit de aldosterona; >5.5 si daño estructural del colector (obstrucción, drepanocitosis, lupus). Tto: bajar K; diurético de asa si TFG <30; fludrocortisona sin HTA; patiromer o SZC.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 12: Normal Acid-Base Balance (Palmer)"
+  ],
+  "serie_id": "ATR-41",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hipoaldosteronismo hiporreninémico; bajar el K suele corregir también la acidosis",
+   "B": "ATR distal clásica; el pH urinario bajo descarta un defecto de acidificación",
+   "C": "Acidosis por diarrea; el pH urinario bajo refleja amoniuria adecuada",
+   "D": "ATR proximal; dar bicarbonato en dosis altas con citrato de potasio",
+   "E": "Acidosis urémica; iniciar diálisis por hiperpotasemia y acidosis"
+  },
+  "explicaciones": {
+   "A": "Correcto. En la ATR tipo 4 por déficit mineralocorticoide el pH urinario suele ser menor de 5.5: la hiperpotasemia suprime la amoniogénesis y la poca H secretada acidifica una orina sin amortiguador. Johnson cap. 13: corregir la hiperpotasemia restaura el amonio; continuar IECA o ARA, retirar fármacos no esenciales, fludrocortisona 0.1 mg si no hay HTA, o diurético y quelantes de potasio.",
+   "B": "La ATR distal clásica cursa con hipopotasemia y pH urinario alto.",
+   "C": "No hay diarrea y la brecha urinaria sería negativa.",
+   "D": "La ATR proximal cursa con hipopotasemia.",
+   "E": "Con TFGe 42 no es acidosis urémica ni hay indicación de diálisis."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "DEF-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 44,
+  "subtema": "Déficit de bicarbonato y volumen de distribución",
+  "caso": "Hombre de 70 kg con acidosis metabólica grave por diarrea profusa: HCO3 6 mEq/L, pH 7.08, sin edema.",
+  "enunciado": "¿Cuál es el planteamiento correcto de la reposición?",
+  "perla": "Déficit HCO3 = 0.5 × peso magro × (24 − HCO3); Vd sube hasta ≥1 L/kg si HCO3 ≤5; sumar edema. 50% en 24 h. NaHCO3 650 mg = 8 mmol; ampolla 50 mmol/50 mL; 150 mmol en 1 L D5W = isotónico.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "DEF-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Déficit de 126 mmol con Vd 0.1 L/kg; darlo completo en 1 hora",
+   "B": "Déficit de 1260 mmol con Vd 1 L/kg; darlo completo en 6 horas",
+   "C": "No hay déficit calculable; dar bicarbonato hasta normalizar el pH",
+   "D": "Déficit ≥ 630 mmol con Vd 0.5 L/kg; dar la mitad en 24 h y reevaluar",
+   "E": "Déficit de 315 mmol con Vd 0.25 L/kg; dar todo en bolo hipertónico"
+  },
+  "explicaciones": {
+   "A": "El Vd del bicarbonato no es 0.1 L/kg.",
+   "B": "Corregir todo en horas causa sobrecarga, hipernatremia y alcalosis de rebote.",
+   "C": "La meta no es normalizar el pH de inmediato.",
+   "D": "Correcto. Johnson cap. 13: déficit = 0.5 × peso magro × (24 − HCO3) = 0.5 × 70 × 18 = 630 mmol. Con HCO3 de 5 o menos el Vd puede llegar a 1 L/kg, por lo que el déficit real puede ser mayor. En tratamiento agudo se repone 50% en 24 h y se reevalúa.",
+   "E": "El Vd no es 0.25 L/kg y el bolo hipertónico total es peligroso."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ILE-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Derivación urinaria intestinal y acidosis hiperclorémica",
+  "caso": "Mujer de 59 años con cistectomía y ureterosigmoidostomía hace años. Ahora HCO3 15, Cl 116, K 3.2 mEq/L, brecha aniónica 9.",
+  "enunciado": "¿Qué mecanismo explica la acidosis?",
+  "perla": "Derivación urinaria: acidosis hiperclorémica hipoK; peor con ureterosigmoidostomía (más contacto y superficie). Conducto ileal con acidosis nueva → descartar obstrucción del asa.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "ILE-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La orina en el colon genera D-lactato por fermentación bacteriana",
+   "B": "El colon reabsorbe NH4Cl urinario e intercambia Cl urinario por HCO3",
+   "C": "La derivación produce ATR proximal por daño tubular directo",
+   "D": "Se pierde bicarbonato pancreático por la anastomosis intestinal",
+   "E": "La cistectomía elimina la secreción de H de la vejiga"
+  },
+  "explicaciones": {
+   "A": "El D-lactato aparece en el intestino corto, con brecha aniónica alta.",
+   "B": "Correcto. El intestino absorbe el NH4Cl de la orina (su metabolismo a urea consume HCO3) y su intercambiador Cl/HCO3 secreta bicarbonato a cambio del cloro urinario. Johnson cap. 13: es más frecuente y grave con ureterosigmoidostomía que con conducto ileal; si aparece en un conducto ileal, buscar obstrucción del asa.",
+   "C": "Puede haber daño tubular por pielonefritis, pero no es el mecanismo principal.",
+   "D": "No hay pérdida de jugo pancreático en esta derivación.",
+   "E": "La vejiga no regula el equilibrio ácido-base."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AKA-1",
+  "tema_id": 25,
+  "sub": "25.a",
+  "obj": "25.o1",
+  "dificultad": "moderada",
+  "peso": 44,
+  "subtema": "Cetoacidosis alcohólica: tratamiento",
+  "caso": "Hombre de 47 años con alcoholismo, 3 días sin comer y vómito. Glucosa 88 mg/dL, HCO3 12, brecha aniónica 26, lactato 2.5. Tira de cetonas en orina débilmente positiva.",
+  "enunciado": "¿Qué medida resuelve con mayor rapidez la acidosis?",
+  "perla": "Cetoacidosis alcohólica: catecolaminas + NADH alto → βOHB predomina → nitroprusiato débil. Tto: glucosa + tiamina + volumen. Ayuno: HCO3 rara vez <18 y no necesita tratamiento específico.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)"
+  ],
+  "serie_id": "AKA-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Insulina IV en infusión como en la cetoacidosis diabética",
+   "B": "Bicarbonato de sodio IV hasta normalizar el pH",
+   "C": "Fomepizol por sospecha de alcohol tóxico",
+   "D": "Dextrosa IV con tiamina previa y reposición de volumen",
+   "E": "Hemodiálisis urgente para retirar los cetoácidos"
+  },
+  "explicaciones": {
+   "A": "No hay hiperglucemia; la insulina sin glucosa causaría hipoglucemia.",
+   "B": "No es necesario normalizar el pH con bicarbonato.",
+   "C": "No hay brecha osmolar ni datos de alcohol tóxico.",
+   "D": "Correcto. Johnson cap. 13: la glucosa estimula la insulina, frena la lipólisis y la cetogénesis, y la acidosis se resuelve rápido. Se da tiamina antes de la dextrosa en el alcohólico. La tira subestima la cetosis porque el NADH alto desvía acetoacetato a β-hidroxibutirato, que el nitroprusiato no detecta.",
+   "E": "No hay indicación de diálisis."
+  },
+  "clave": "D",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "SAL-2",
+  "tema_id": 25,
+  "sub": "25.e",
+  "obj": "25.o5",
+  "dificultad": "moderada",
+  "peso": 46,
+  "subtema": "Salicilatos: diferencias por edad y tratamiento",
+  "caso": "Mujer de 34 años tras ingesta intencional de ácido acetilsalicílico. pH 7.47, pCO2 22, HCO3 15, brecha aniónica 24. Salicilemia 92 mg/dL, confusa.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Salicilato: adulto alcalosis resp + acidosis BA alta; niño acidosis. Alcalinizar sangre y orina; HD si >80 mg/dL o grave. Ante MAc + RAlk, descartarlo siempre (Johnson cap. 13 y 15).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 13: Metabolic Acidosis (Palmer)",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)"
+  ],
+  "serie_id": "SAL-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Alcalinizar sangre y orina; hemodiálisis por nivel mayor de 80 y clínica",
+   "B": "Acidificar la orina para atrapar el salicilato y evitar su reabsorción",
+   "C": "Intubar e hiperventilar no es necesario; solo carbón activado y observar",
+   "D": "Fomepizol para bloquear el metabolismo hepático del salicilato",
+   "E": "Solo bicarbonato oral, porque la diálisis no remueve salicilatos"
+  },
+  "explicaciones": {
+   "A": "Correcto. El salicilato estimula el centro respiratorio y desacopla la fosforilación oxidativa: alcalosis respiratoria más acidosis de brecha alta, sobre todo en adultos; en niños predomina la acidosis. Johnson cap. 13: alcalinizar aumenta la fracción ionizada, que no entra al SNC y no se reabsorbe en el túbulo; HD con más de 80 mg/dL o toxicidad grave.",
+   "B": "La orina ácida favorece la reabsorción del salicilato.",
+   "C": "Con confusión y nivel de 92 hace falta eliminación extracorpórea.",
+   "D": "El fomepizol es para metanol y etilenglicol.",
+   "E": "El salicilato sí se dializa."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "PHC-1",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "moderada",
+  "peso": 44,
+  "subtema": "Alcalosis poshipercápnica",
+  "caso": "Hombre de 69 años con EPOC y pCO2 basal de 65 con HCO3 38. Se intuba por neumonía y se ventila hasta pCO2 de 38. A las 12 h: pH 7.60, HCO3 37. Ha recibido poca solución salina.",
+  "enunciado": "¿Qué explica la alcalemia y cómo se corrige?",
+  "perla": "Poshipercápnica: corregir pCO2 crónica rápido → alcalosis metabólica; persiste con depleción de Cl o volumen → NaCl. Ventilar hacia la pCO2 basal, no a 40.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)"
+  ],
+  "serie_id": "PHC-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Se agregó una alcalosis metabólica por vómito oculto; dar inhibidor de bomba",
+   "B": "Es alcalosis respiratoria crónica; reducir la FiO2 hasta normalizar",
+   "C": "Es un error de laboratorio; repetir la gasometría sin cambios terapéuticos",
+   "D": "Hay hiperaldosteronismo primario; iniciar espironolactona",
+   "E": "El riñón aún no excreta el HCO3 compensatorio; dar NaCl y ajustar la ventilación"
+  },
+  "explicaciones": {
+   "A": "No hay datos de vómito.",
+   "B": "La pCO2 de 38 no es alcalosis respiratoria crónica.",
+   "C": "El cuadro es una complicación esperable, no un error.",
+   "D": "No hay datos de hiperaldosteronismo.",
+   "E": "Correcto. Al bajar rápido una pCO2 crónicamente alta, el HCO3 elevado por compensación persiste. Johnson cap. 14 y 15: se mantiene si hay volumen eficaz bajo o TFG reducida, y se corrige al reponer NaCl. Conviene bajar la pCO2 de forma gradual, cerca de la basal del paciente."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CIT-1",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Alcalosis por citrato en transfusión masiva",
+  "caso": "Mujer de 41 años con hemorragia obstétrica; recibió 18 unidades de hemoderivados y plasma. Creatinina 2.3 mg/dL. HCO3 39, pH 7.55.",
+  "enunciado": "¿Cuál es el mecanismo de la alcalosis?",
+  "perla": "Fuentes exógenas de álcali: citrato (1 → 3 HCO3), acetato, lactato, NaHCO3. Se mantiene si TFG baja. También en recambio plasmático con plasma y en CRRT con citrato.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "CIT-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La hemorragia causa pérdida de cloro y la orina retiene bicarbonato",
+   "B": "El plasma aporta albúmina, que eleva el bicarbonato por efecto de carga",
+   "C": "El citrato se metaboliza a bicarbonato y la TFG baja impide excretarlo",
+   "D": "La transfusión causa hiperpotasemia que estimula la secreción de H",
+   "E": "La oxitocina produce hiperaldosteronismo con retención de bicarbonato"
+  },
+  "explicaciones": {
+   "A": "La hemorragia no es pérdida selectiva de cloro.",
+   "B": "La albúmina no genera bicarbonato.",
+   "C": "Correcto. Johnson cap. 14: cada mol de citrato de sodio genera 3 moles de bicarbonato al oxidarse; ocurre en transfusiones masivas y recambio plasmático con plasma. La alcalosis se mantiene porque la TFG reducida limita la excreción de bicarbonato.",
+   "D": "La hiperpotasemia tiende a causar acidosis.",
+   "E": "No es un mecanismo descrito."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "PDR-1",
+  "tema_id": 25,
+  "sub": "25.b",
+  "obj": "25.o2",
+  "dificultad": "dificil",
+  "peso": 38,
+  "subtema": "Pendrina y células intercaladas tipo B",
+  "caso": "Varón de 24 años con sordera congénita y bocio. Al iniciar hidroclorotiazida por HTA presenta Na 128, K 2.6, HCO3 42 y depleción de volumen grave.",
+  "enunciado": "¿Qué explica la gravedad de la alcalosis?",
+  "perla": "Intercalada B: pendrina apical (HCO3 a cambio de Cl) + H-ATPasa basolateral; requiere Cl distal; hipoK la reduce. Pendred (sordera, bocio) + tiazida → alcalosis grave con depleción.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 12: Normal Acid-Base Balance (Palmer)",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 14: Metabolic Alkalosis (Szerlip, Emmett)"
+  ],
+  "serie_id": "PDR-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Exceso de ENaC por mutación activadora como en el síndrome de Liddle",
+   "B": "Falta de pendrina: la célula intercalada B no secreta HCO3 a cambio de Cl",
+   "C": "Déficit de anhidrasa carbónica II con osteopetrosis asociada",
+   "D": "Mutación de NKCC2 que imita un síndrome de Bartter neonatal",
+   "E": "Hiperaldosteronismo remediable con glucocorticoides"
+  },
+  "explicaciones": {
+   "A": "Liddle cursa con HTA y renina baja, no con depleción.",
+   "B": "Correcto. Johnson cap. 12 y 14: la pendrina (SLC26A4) secreta HCO3 a cambio de Cl en la célula intercalada B y, con el NDCBE, reabsorbe NaCl. En el síndrome de Pendred, sordera y bocio, la tiazida bloquea la otra vía de reabsorción de NaCl: depleción de sal y alcalosis grave.",
+   "C": "El déficit de AC II causa acidosis, no alcalosis.",
+   "D": "Bartter no explica la sordera con bocio ni el desencadenante.",
+   "E": "No explica la depleción de volumen."
+  },
+  "clave": "B",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AAG-1",
+  "tema_id": 25,
+  "sub": "25.c",
+  "obj": "25.o3",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Gradiente alveolo-arterial en la acidosis respiratoria",
+  "caso": "Dos pacientes respiran aire ambiente a nivel del mar. A: PaO2 62, PaCO2 70 por sobredosis de opioides. B: PaO2 62, PaCO2 42 por neumonía.",
+  "enunciado": "¿Cuál es la interpretación correcta?",
+  "perla": "PAO2 = 150 − 1.25 × PaCO2 (aire, nivel del mar). Gradiente normal (edad+10)/4. Normal = hipoventilación (depresión central, neuromuscular); alto = V/Q, cortocircuito, difusión.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)"
+  ],
+  "serie_id": "AAG-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ambos tienen gradiente alto, porque los dos están hipoxémicos",
+   "B": "A tiene gradiente alto por cortocircuito; B tiene gradiente normal",
+   "C": "Ninguno puede valorarse sin conocer la hemoglobina",
+   "D": "A y B tienen gradiente normal, porque la FiO2 es la misma",
+   "E": "A: gradiente normal por hipoventilación; B: gradiente alto por V/Q"
+  },
+  "explicaciones": {
+   "A": "La hipoxemia de A se explica toda por la hipercapnia.",
+   "B": "Está invertido.",
+   "C": "El cálculo no requiere hemoglobina.",
+   "D": "B tiene gradiente claramente alto.",
+   "E": "Correcto. Johnson cap. 15: PAO2 = 150 − 1.25 × PaCO2. A: 150 − 87.5 = 62.5 → gradiente ≈ 0, hipoventilación pura. B: 150 − 52.5 = 97.5 → gradiente ≈ 35, alto por alteración V/Q o cortocircuito. Normal: (edad + 10)/4, de 5 a 25."
+  },
+  "clave": "E",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "PRA-1",
+  "tema_id": 25,
+  "sub": "25.d",
+  "obj": "25.o4",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "Seudoalcalosis respiratoria en falla circulatoria",
+  "caso": "Hombre de 62 años en choque cardiogénico durante reanimación. Gasometría arterial: pH 7.46, pCO2 32. Gasometría venosa central simultánea: pH 7.12, pCO2 78.",
+  "enunciado": "¿Cómo se interpreta?",
+  "perla": "Seudoalcalosis respiratoria: arterial normal o hipocápnica + venosa con hipercapnia grave en choque o paro. Gasometría venosa normal tiene buen valor predictivo negativo para hipercapnia.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)"
+  ],
+  "serie_id": "PRA-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Alcalosis respiratoria primaria que requiere reducir la ventilación",
+   "B": "Error de muestra, porque las dos gasometrías deben coincidir",
+   "C": "Seudoalcalosis respiratoria: la arterial no refleja la acidosis tisular",
+   "D": "Acidosis metabólica pura compensada por hiperventilación",
+   "E": "Alcalosis metabólica por bicarbonato administrado en la reanimación"
+  },
+  "explicaciones": {
+   "A": "La ventilación no es el problema; reducirla empeora la hipercapnia tisular.",
+   "B": "La disociación arteriovenosa es esperable en choque.",
+   "C": "Correcto. Johnson cap. 15: en falla circulatoria profunda con función respiratoria preservada, la sangre arterial muestra eucapnia o hipocapnia mientras la venosa tiene hipercapnia grave: el tejido acumula CO2 por bajo flujo. Guiarse por la gasometría venosa y mejorar el gasto.",
+   "D": "La pCO2 venosa de 78 indica acidosis respiratoria tisular.",
+   "E": "No explica la pCO2 venosa alta."
+  },
+  "clave": "C",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RALK-1",
+  "tema_id": 25,
+  "sub": "25.d",
+  "obj": "25.o4",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Alcalosis respiratoria confundida con acidosis hiperclorémica",
+  "caso": "Mujer de 30 años con 34 semanas de embarazo. Química: Na 136, Cl 108, CO2 total 19 mEq/L, brecha aniónica 9. Asintomática.",
+  "enunciado": "¿Qué dato evita un diagnóstico erróneo?",
+  "perla": "HCO3 bajo + Cl alto ≠ siempre acidosis: en embarazo y cirrosis suele ser alcalosis respiratoria crónica (−5 HCO3 por 10 de pCO2). Corregir de golpe la pCO2 deja acidosis metabólica.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 15: Respiratory Acidosis, Respiratory Alkalosis, and Mixed Acid-Base Disorders (Bansal)"
+  ],
+  "serie_id": "RALK-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Medir el pH: es alcalosis respiratoria crónica compensada",
+   "B": "Medir la brecha urinaria: confirma ATR distal del embarazo",
+   "C": "Medir lactato: la brecha normal oculta una acidosis láctica",
+   "D": "Medir cetonas: el ayuno nocturno explica el bicarbonato bajo",
+   "E": "No hace falta otro dato: es acidosis hiperclorémica fisiológica"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 15: la progesterona estimula la ventilación, sobre todo en el tercer trimestre; el HCO3 baja por compensación renal. Si solo se mira la química, se confunde con acidosis hiperclorémica. Lo mismo ocurre en cirrosis.",
+   "B": "No hay datos de ATR.",
+   "C": "Una brecha de 9 no sugiere acidosis láctica.",
+   "D": "El ayuno no explica la hipercloremia.",
+   "E": "Sin el pH no puede definirse el trastorno primario."
+  },
+  "clave": "A",
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
  }
 ]

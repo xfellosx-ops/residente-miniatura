@@ -243,11 +243,11 @@
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "SEA",
+     "serie": "NTC-1",
      "intro": [
       [
        "Dra. Carmen Triaje",
-       "Te reto con un caso: Nefritis intersticial aguda por fármacos: sedimento y tratamiento"
+       "Te reto con un caso: Nefropatía crónica por litio"
       ]
      ],
      "defeat": [
@@ -263,11 +263,11 @@
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "NIX",
+     "serie": "MEN-1",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Síndrome de nefritis tubulointersticial y uveítis (TINU)"
+       "Te reto con un caso: Nefropatía mesoamericana"
       ]
      ],
      "defeat": [
@@ -277,7 +277,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -322,6 +322,53 @@
       "Reducción en 4–6 semanas"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "NTIA por fármacos",
+       "IBP, AINE, β-lactámicos"
+      ],
+      [
+       "Tríada clásica",
+       "Fiebre, rash, eosinofilia (rara completa)"
+      ],
+      [
+       "Litio crónico",
+       "DI nefrogénica, microquistes"
+      ],
+      [
+       "Plomo",
+       "Gota saturnina + HTA"
+      ],
+      [
+       "Sarcoidosis",
+       "Granulomas + hipercalcemia"
+      ],
+      [
+       "Enfermedad por IgG4",
+       "Plasmocitos IgG4+, ↓complemento"
+      ],
+      [
+       "TINU",
+       "NTI + uveítis"
+      ],
+      [
+       "Leptospirosis",
+       "LRA no oligúrica con hipokalemia"
+      ],
+      [
+       "Tratamiento de NTIA",
+       "Retirar fármaco ± esteroide temprano"
+      ],
+      [
+       "Ácido aristolóquico",
+       "Nefropatía por hierbas + cáncer urotelial"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -421,11 +468,11 @@
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "NIA",
+     "serie": "AINS-1",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Nefritis intersticial aguda por inhibidores de la bomba de protones"
+       "Te reto con un caso: NTI por AINE con síndrome nefrótico"
       ]
      ],
      "defeat": [
@@ -435,7 +482,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "LEP-1",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Leptospirosis: LRA no oligúrica con hipopotasemia"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -618,6 +685,38 @@
   {
    "title": "Túbulo Cicatrizado",
    "text": "NTI crónica: proteinuria tubular <1–2 g, anemia desproporcionada, defectos tubulares. Causas: analgésicos, litio, plomo, aristolóquico, Sjögren, sarcoidosis, IgG4."
+  },
+  {
+   "title": "💎 Fisiopatología y biopsia en ADTKD",
+   "text": "ADTKD-UMOD: uromodulina mal plegada atrapada en el RE de la rama ascendente gruesa; fibrosis inespecífica; uromodulina urinaria baja."
+  },
+  {
+   "title": "💎 Enfermedad tubulointersticial autosómica",
+   "text": "ADTKD-UMOD: gota precoz + FEUA baja + ERC lenta + sedimento bland + herencia AD. Gen UMOD (uromodulina)."
+  },
+  {
+   "title": "💎 Otros genes de ADTKD",
+   "text": "ADTKD: UMOD (gota), MUC1 (ERC lenta, difícil de secuenciar), REN (anemia infantil, hiperK, TA baja), HNF1B (quistes, diabetes, hipoMg), SEC61A1."
+  },
+  {
+   "title": "💎 Nefropatía tubulointersticial autosómica",
+   "text": "ADTKD-UMOD: gota juvenil + ERC lenta + sedimento bland, familiar. Sin tratamiento específico; sin recurrencia en trasplante."
+  },
+  {
+   "title": "💎 Nefritis por inhibidores de puntos de co",
+   "text": "ICI-AIN: suspender ICI y IBP; biopsia si posible (infiltrado T ± granulomas); tratamiento guiado por grado."
+  },
+  {
+   "title": "💎 Nefropatía crónica por litio",
+   "text": "Litio: DI nefrogénica (defecto de concentración 50%, poliuria 20%), NTI crónica con microquistes, latencia a ERCT ~20 años. Tto: bajar dosis, una toma diaria, amilorida, evitar tiazidas e hipovolemia; niveles 0.6–1.25; toxicidad grave >2.5."
+  },
+  {
+   "title": "💎 NTI por AINE con síndrome nefrótico",
+   "text": "NTI por AINE: nefrótico 75% (cambios mínimos), >50 años, ~6 meses de uso, mitad con fenoprofeno, extrarrenales ~10%. Diferenciar de LRA hemodinámica, necrosis papilar y NM por AINE."
+  },
+  {
+   "title": "💎 Nefropatía mesoamericana",
+   "text": "Johnson cap. 66: hombres 20–60 años, campo, calor; proteinuria <1 g/d, hipoK, hipoNa, pérdida de Mg y P, urato ~2 mg/dL más alto que lo esperado. Tto: hidratación sin bebidas azucaradas, evitar AINE, IECA a dosis baja, alopurinol + bicarbonato. En México: Tierra Blanca, Veracruz."
   }
  ]
 }

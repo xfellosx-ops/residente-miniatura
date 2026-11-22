@@ -26,6 +26,9 @@ function step(){ticks++;
  // battle menus
  if($('#bf')){$('#bf').click();return}
  const mv=d.querySelector('.opt[data-i]');if(mv&&g.MODE==='battle'){mv.click();return}
+ // clasificación
+ const ci=$('#citem.clasif');if(ci&&d.querySelector('[data-bin]:not([disabled])')){const z=STORY.zones[g.S.zone];let ans=null;z.minigames.forEach(m=>{if(m.type==='clasif')m.items.forEach(([it,b])=>{if(it===ci.textContent)ans=m.bins.indexOf(b)})});
+   const bt=[...d.querySelectorAll('[data-bin]')];(bt[ans]||bt[0]).click();return}
  // stones
  const st=[...d.querySelectorAll('.stone')];if(st.length){const z=STORY.zones[g.S.zone];const done=d.querySelector('.box.small').textContent;const mg=z.minigames.find(m=>m.items.some(it=>st.some(s=>s.dataset.t===it)));const nxt=mg.items.find(it=>st.some(s=>s.dataset.t===it)&&!done.includes(it));st.find(s=>s.dataset.t===nxt).click();return}
  // memorama con memoria

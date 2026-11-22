@@ -778,5 +778,122 @@
   "tema": "Hormonas y riñón",
   "obj": "2.o1",
   "peso": 41.0
+ },
+ {
+  "id": "NEW-2-1",
+  "tema_id": 2,
+  "sub": "2",
+  "obj": "2.o2",
+  "dificultad": "dificil",
+  "subtema": "Vasopresina, osmorregulación y trastornos de su acción",
+  "caso": "Mujer de 48 años con trastorno bipolar tratada con litio por 12 años. Refiere poliuria de 6 L/día y nicturia. Na 146 mEq/L, osmolalidad plasmática 300 mOsm/kg, osmolalidad urinaria 130 mOsm/kg. Tras desmopresina, la osmolalidad urinaria sube a 145 mOsm/kg. Copeptina estimulada elevada.",
+  "enunciado": "¿Cuál es el diagnóstico y el mecanismo principal?",
+  "opciones": {
+   "A": "Diabetes insípida central por lesión hipotalámica con deficiencia de vasopresina",
+   "B": "Polidipsia primaria con lavado del gradiente medular por ingesta excesiva de agua",
+   "C": "Diabetes insípida nefrogénica: el litio entra por ENaC y reduce la acuaporina 2",
+   "D": "Diuresis osmótica por urea secundaria a dieta hiperproteica con hipercatabolismo",
+   "E": "Síndrome de secreción inadecuada de ADH con fenómeno de escape renal del agua"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "En la DI central la desmopresina eleva la osmolalidad urinaria más de 50% y la copeptina está baja.",
+   "B": "En la polidipsia primaria el sodio tiende a ser bajo, no 146 mEq/L, y la copeptina estimulada no está elevada.",
+   "C": "Correcta. Copeptina alta con respuesta mínima a desmopresina define DI nefrogénica. El litio entra a la célula principal por ENaC, inhibe GSK-3β y reduce la expresión de AQP2. La amilorida bloquea esa entrada y puede atenuar la poliuria.",
+   "D": "La diuresis osmótica tiene osmolalidad urinaria mayor de 300 mOsm/kg, no orina hipotónica.",
+   "E": "El SIADH cursa con hiponatremia y orina concentrada, lo opuesto a este cuadro."
+  },
+  "perla": "DI nefrogénica por litio: copeptina alta, desmopresina con respuesta <10–20%. Mecanismo: litio por ENaC → ↓AQP2. Tratamiento: amilorida, tiazida, dieta baja en sodio y solutos.",
+  "referencias": [
+   "Christ-Crain M et al. Nat Rev Dis Primers 2019;5:54 (diabetes insípida)",
+   "Fenske W et al. N Engl J Med 2018;379:428 (copeptina)"
+  ],
+  "serie_id": "NEW-2-1",
+  "orden": 1,
+  "continuacion": "",
+  "tema": "Hormonas y riñón",
+  "origen": [
+   "Claude-2026-11 competencia sin preguntas"
+  ],
+  "tipo_item": "nueva",
+  "peso": 60.0
+ },
+ {
+  "id": "NEW-2-2",
+  "tema_id": 2,
+  "sub": "2",
+  "obj": "2.o3",
+  "dificultad": "moderada",
+  "subtema": "FGF23, klotho, vitamina D y PTH en la ERC",
+  "caso": "Hombre de 58 años con ERC G3a por nefroesclerosis. Calcio y fósforo séricos normales; PTH en el límite superior normal; 25-hidroxivitamina D suficiente.",
+  "enunciado": "¿Cuál es la alteración más temprana del eje mineral en esta etapa?",
+  "opciones": {
+   "A": "Hiperfosfatemia sostenida como primer cambio que estimula después la PTH",
+   "B": "Elevación de FGF23 con descenso de klotho antes de la hiperfosfatemia",
+   "C": "Aumento de calcitriol por activación de la 1-alfa-hidroxilasa proximal",
+   "D": "Hipercalcemia por mayor absorción intestinal de calcio dependiente de PTH",
+   "E": "Supresión de la PTH por retención de fósforo y aumento del calcio iónico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La hiperfosfatemia aparece tarde, generalmente en G4–G5, porque FGF23 y PTH mantienen la fosfaturia.",
+   "B": "Correcta. FGF23 sube desde etapas tempranas, con caída de klotho, para mantener la fosfaturia; también suprime la 1-alfa-hidroxilasa y reduce el calcitriol, lo que después eleva la PTH.",
+   "C": "FGF23 inhibe la 1-alfa-hidroxilasa: el calcitriol baja, no sube.",
+   "D": "El calcio sérico suele ser normal o bajo; la hipercalcemia no es un cambio temprano de la ERC.",
+   "E": "La retención de fósforo y el calcitriol bajo estimulan la PTH, no la suprimen."
+  },
+  "perla": "Secuencia CKD-MBD: ↑FGF23 y ↓klotho (temprano) → ↓calcitriol → ↑PTH → hiperfosfatemia (tardía).",
+  "referencias": [
+   "KDIGO 2017 CKD-MBD Guideline Update. Kidney Int Suppl 2017;7:1",
+   "Isakova T et al. Kidney Int 2011;79:1370 (FGF23 en CRIC)"
+  ],
+  "serie_id": "NEW-2-2",
+  "orden": 1,
+  "continuacion": "",
+  "tema": "Hormonas y riñón",
+  "origen": [
+   "Claude-2026-11 competencia sin preguntas"
+  ],
+  "tipo_item": "nueva",
+  "peso": 60.0
+ },
+ {
+  "id": "NEW-2-3",
+  "tema_id": 2,
+  "sub": "2",
+  "obj": "2.o4",
+  "dificultad": "dificil",
+  "subtema": "Endotelina, péptidos natriuréticos y prostaglandinas en la hemodinámica renal",
+  "caso": "Hombre de 34 años con nefropatía por IgA y proteinuria de 1.8 g/día pese a irbesartán a dosis máxima por 3 meses. Se cambia a sparsentan.",
+  "enunciado": "¿Qué mecanismo explica el efecto antiproteinúrico adicional de sparsentan?",
+  "opciones": {
+   "A": "Inhibición de la neprilisina que aumenta los péptidos natriuréticos circulantes",
+   "B": "Antagonismo del receptor mineralocorticoide con menor inflamación y fibrosis",
+   "C": "Bloqueo dual del receptor A de endotelina y del receptor AT1 de angiotensina II",
+   "D": "Inhibición del cotransportador SGLT2 que restaura la retroalimentación tubular",
+   "E": "Inhibición directa de la renina con descenso de la actividad plasmática de renina"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Es el mecanismo de sacubitrilo, no de sparsentan.",
+   "B": "Corresponde a finerenona o espironolactona.",
+   "C": "Correcta. La endotelina-1 vía receptor ETA produce vasoconstricción, daño podocitario, inflamación y fibrosis. Sparsentan bloquea ETA y AT1; en PROTECT redujo más la proteinuria que irbesartán. Vigilar edema y retención de líquidos; contraindicado en embarazo.",
+   "D": "Es el mecanismo de los iSGLT2.",
+   "E": "Corresponde a aliskiren, sin beneficio renal demostrado y con riesgo al combinarlo con IECA o ARA II."
+  },
+  "perla": "Sparsentan = antagonista dual ETA + AT1 (PROTECT). Endotelina-1: vasoconstricción, daño podocitario y fibrosis. Efectos adversos: edema; teratogénico.",
+  "referencias": [
+   "Rovin BH et al. Lancet 2023;402:2077 (PROTECT)",
+   "Floege J et al. Kidney Int 2025;108:548 (KDIGO 2025 IgAN, resumen ejecutivo)"
+  ],
+  "serie_id": "NEW-2-3",
+  "orden": 1,
+  "continuacion": "",
+  "tema": "Hormonas y riñón",
+  "origen": [
+   "Claude-2026-11 competencia sin preguntas"
+  ],
+  "tipo_item": "nueva",
+  "peso": 60.0
  }
 ]

@@ -1,7 +1,7 @@
 import json
 import sys; d = json.load(open(sys.argv[1] if len(sys.argv)>1 else "levels/9-5-lupus/story.json", encoding="utf-8"))
 TILES = set("hospital playa pantano bosque rio delta acantilado ruinas capsula valle arena".split())
-MG = set("stones river memorama algoritmo indices".split())
+MG = set("stones river memorama algoritmo indices clasif".split())
 WT = set("Innato Humoral Celular Complemento Inmunocomplejo Molecular".split()) | set(d.get("enemyTypes") or {})
 VIG = set("urgencias uv_piel pantano_restos ganglio rio_sangre delta_endocapilar acantilado_podocito ruinas_asas capsula_semiluna valle_tubulovascular".split())
 LAYERS = set("rect circ ring stripes cells drift orbit pulse grow person".split())
@@ -53,6 +53,7 @@ for z in d["zones"]:
         if m["type"] not in MG: err.append((m["title"], "mgtype"))
         if m["type"] in ("stones", "algoritmo") and not m["items"]: err.append((m["title"], "items"))
         if m["type"] == "memorama" and not m["pairs"]: err.append((m["title"], "pairs"))
+        if m["type"] == "clasif" and not (m.get("bins") and all(len(x) == 2 and x[1] in m["bins"] for x in m["items"])): err.append((m["title"], "clasif"))
     for c in z["cutscenes"]:
         chk(c["lines"], z["id"] + "." + c["trigger"])
         if c["trigger"].startswith("after_trainer:") and c["trigger"].split(":")[1] not in [t["id"] for t in z["trainers"]]:

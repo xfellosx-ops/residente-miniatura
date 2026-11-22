@@ -328,6 +328,53 @@
       "Vacunar contra meningococo y dar profilaxis"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Displasia fibromuscular",
+       "Mujer joven, angioplastia sin stent"
+      ],
+      [
+       "Estenosis aterosclerótica",
+       "Manejo médico (CORAL, ASTRAL)"
+      ],
+      [
+       "Ateroembolia",
+       "Livedo, eosinofilia, ↓C3 tras cateterismo"
+      ],
+      [
+       "SHU atípico",
+       "Complemento → eculizumab"
+      ],
+      [
+       "PTT",
+       "ADAMTS13 <10%"
+      ],
+      [
+       "SHU típico",
+       "E. coli productora de Shiga"
+      ],
+      [
+       "Crisis renal esclerodérmica",
+       "IECA (captopril)"
+      ],
+      [
+       "Trombosis de vena renal",
+       "Membranosa, albúmina <2.5"
+      ],
+      [
+       "Nefroesclerosis",
+       "Hialinosis arteriolar"
+      ],
+      [
+       "SAF",
+       "MAT → anticoagulación"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -684,6 +731,38 @@
   {
    "title": "Arterias Renales",
    "text": "Estenosis ateroesclerótica: tratamiento médico (ASTRAL, CORAL). Ateroembolia: poscateterismo, eosinofilia. Crisis esclerodérmica: IECA."
+  },
+  {
+   "title": "💎 Microangiopatía trombótica: diagnóstico ",
+   "text": "MAT = anemia hemolítica con esquistocitos + plaquetopenia + daño orgánico, con Coombs negativo y coagulación normal (distingue de CID)."
+  },
+  {
+   "title": "💎 ADAMTS13 y diagnóstico diferencial",
+   "text": "PTT: actividad de ADAMTS13 <10% (con inhibidor en la forma adquirida). Pedir actividad, no solo niveles de antígeno."
+  },
+  {
+   "title": "💎 MAT inducida por gemcitabina",
+   "text": "Gemcitabina → MAT (dosis acumulada, HAS, esquistocitos); otros: mitomicina C, inhibidores de calcineurina, quinina, VEGF/proteasoma."
+  },
+  {
+   "title": "💎 MAT por gemcitabina: pronóstico y seguim",
+   "text": "MAT por gemcitabina: no reexponer; seguimiento de ERC residual y bloqueo del SRAA."
+  },
+  {
+   "title": "💎 MAT: manejo inicial mientras se completa",
+   "text": "MAT con plaquetopenia grave: recambio plasmático + esteroides de inmediato (tras tomar ADAMTS13); no esperar el resultado."
+  },
+  {
+   "title": "💎 SHU atípico: tratamiento anti-C5",
+   "text": "ADAMTS13 >10% + sin Shiga = SHUa: eculizumab/ravulizumab (anti-C5) con vacunación antimeningocócica y profilaxis antibiótica. C3 normal no lo excluye."
+  },
+  {
+   "title": "💎 Fisiopatología del SHU atípico",
+   "text": "SHUa: desregulación de la vía alterna (CFH, CFI, MCP, C3, CFB) → C5b-9 en endotelio. C3G: factor nefrítico. PTT: anti-ADAMTS13. SHU típico: toxina Shiga."
+  },
+  {
+   "title": "💎 SHU atípico y trasplante renal",
+   "text": "SHUa y trasplante: riesgo alto de recurrencia (CFH, C3, CFB) → profilaxis anti-C5 desde el trasplante; riesgo bajo (MCP aislada) → sin profilaxis."
   }
  ]
 }

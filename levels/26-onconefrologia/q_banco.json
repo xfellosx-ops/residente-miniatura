@@ -814,5 +814,272 @@
   "tema": "Cáncer y riñón (onconefrología)",
   "obj": "26.o3",
   "peso": 7.9
+ },
+ {
+  "id": "RCC-2",
+  "tema_id": 26,
+  "sub": "26.a",
+  "obj": "26.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Síndromes paraneoplásicos del carcinoma renal",
+  "caso": "Hombre de 58 años con masa renal derecha de 7 cm, hemoglobina 18.5 g/dL, calcio 11.8 mg/dL con PTH suprimida y fosfatasa alcalina elevada sin metástasis hepáticas.",
+  "enunciado": "¿Qué mecanismos explican los hallazgos?",
+  "perla": "Carcinoma renal paraneoplásico: eritrocitosis (EPO), hipercalcemia (PTHrP), Stauffer, HTA (renina), fiebre.",
+  "referencias": [
+   "Guía EAU de carcinoma renal 2020 (citada por Johnson cap. 63); síndromes paraneoplásicos: conocimiento estándar"
+  ],
+  "serie_id": "RCC-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Metástasis óseas líticas y hepáticas ocultas no detectadas",
+   "B": "Deficiencia de 1α-hidroxilasa por destrucción del parénquima",
+   "C": "Hemoconcentración por deshidratación e hipercalcemia por inmovilidad",
+   "D": "Policitemia vera concomitante con hiperparatiroidismo primario",
+   "E": "Eritropoyetina tumoral, PTHrP y síndrome de Stauffer"
+  },
+  "explicaciones": {
+   "A": "No hay metástasis demostradas; es paraneoplásico.",
+   "B": "La destrucción renal causa hipocalcemia, no hipercalcemia.",
+   "C": "Hb 18.5 con hipercalcemia y PTH suprimida no se explica así.",
+   "D": "La PTH suprimida descarta hiperparatiroidismo primario.",
+   "E": "Correcto. El carcinoma renal produce eritropoyetina, PTHrP y citocinas que alteran la función hepática sin metástasis (Stauffer), que mejora tras la nefrectomía."
+  },
+  "clave": "E",
+  "tema": "Cáncer y riñón (onconefrología)",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AML-1",
+  "tema_id": 26,
+  "sub": "26.c",
+  "obj": "26.o3",
+  "dificultad": "moderada",
+  "peso": 38,
+  "subtema": "Angiomiolipoma en esclerosis tuberosa",
+  "caso": "Mujer de 29 años con esclerosis tuberosa y angiomiolipomas bilaterales; el mayor mide 5 cm, asintomático.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "perla": "Angiomiolipoma >3–4 cm: riesgo de sangrado (Wunderlich). TSC: everolimus; embolización si sangra.",
+  "referencias": [
+   "Bissler JJ et al. Lancet 2013;381:817 (EXIST-2)"
+  ],
+  "serie_id": "AML-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Observación anual sin tratamiento hasta que sangre",
+   "B": "Radioterapia estereotáctica de la lesión de mayor tamaño",
+   "C": "Everolimus para reducir el tamaño y el riesgo de sangrado",
+   "D": "Quimioterapia con sunitinib como primera línea",
+   "E": "Nefrectomía radical bilateral profiláctica"
+  },
+  "explicaciones": {
+   "A": "Con 5 cm el riesgo de sangrado justifica tratar.",
+   "B": "No es tratamiento estándar.",
+   "C": "Correcto. Los angiomiolipomas mayores de 3 a 4 cm tienen riesgo de hemorragia; en esclerosis tuberosa los inhibidores de mTOR reducen su volumen (EXIST-2). La embolización es útil en sangrado o como alternativa.",
+   "D": "No es primera línea.",
+   "E": "La nefrectomía radical sacrifica nefronas y es excesiva."
+  },
+  "clave": "C",
+  "tema": "Cáncer y riñón (onconefrología)",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NFX-1",
+  "tema_id": 26,
+  "sub": "26.c",
+  "obj": "26.o3",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Nefrectomía parcial frente a radical y riesgo de ERC",
+  "caso": "Mujer de 57 años con HTA, TFGe 64 y masa renal sólida exofítica de 5.5 cm, sin metástasis.",
+  "enunciado": "¿Qué opción preserva mejor la función renal sin comprometer el control oncológico?",
+  "perla": "Masa renal: cirugía conservadora en todo tumor <7 cm si es factible; radical ≥T2; ablación <4 cm en alto riesgo. Hasta 30% de masas <3 cm son benignas; biopsia S y E >98%. Bosniak III y IV: cirugía; IIF: TC c/6–12 meses.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 63: Urologic Issues for the Nephrologist"
+  ],
+  "serie_id": "NFX-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Quimioterapia neoadyuvante seguida de nefrectomía radical",
+   "B": "Embolización arterial como tratamiento definitivo",
+   "C": "Ablación por radiofrecuencia como primera elección en tumores de 5 cm",
+   "D": "Nefrectomía radical, porque la parcial tiene más recurrencia local",
+   "E": "Nefrectomía parcial: indicada en tumores menores de 7 cm si es factible"
+  },
+  "explicaciones": {
+   "A": "No hay indicación de neoadyuvancia.",
+   "B": "No es tratamiento curativo.",
+   "C": "La ablación se reserva para tumores menores de 4 cm en pacientes de alto riesgo quirúrgico.",
+   "D": "La recurrencia local no es mayor en T1a.",
+   "E": "Correcto. Johnson cap. 63: la cirugía conservadora de nefronas se recomienda en todo tumor menor de 7 cm (T1a y T1b) cuando es técnicamente factible; ofrece control oncológico equivalente y menos ERC. La radical se reserva para T2 o mayores. La ablación se limita a tumores menores de 4 cm en pacientes de alto riesgo."
+  },
+  "clave": "E",
+  "tema": "Cáncer y riñón (onconefrología)",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LEUK-1",
+  "tema_id": 26,
+  "sub": "26.b",
+  "obj": "26.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Infiltración renal por linfoma",
+  "caso": "Mujer de 69 años con pérdida de peso, adenopatía retroperitoneal y riñones de 18 cm sin hidronefrosis. Creatinina 4.5, ácido úrico 11.7, fósforo 7.6 mg/dL, orina con tira negativa.",
+  "enunciado": "¿Cuál es la causa más probable de la LRA?",
+  "perla": "Riñones grandes + sedimento blando + LRA en linfoma/leucemia = infiltración. Lisozima (leucemia monocítica) → Fanconi. Leucostasis en LMA >100,000 → citorreducción + leucoféresis.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 67: Onconephrology (Abudayyeh, Perazella)"
+  ],
+  "serie_id": "LEUK-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Obstrucción ureteral sin hidronefrosis por adenopatía",
+   "B": "Infiltración linfomatosa de los riñones",
+   "C": "Síndrome de lisis tumoral con nefropatía por cristales",
+   "D": "LRA por hipercalcemia de origen tumoral",
+   "E": "LRA prerrenal por náusea y vómito"
+  },
+  "explicaciones": {
+   "A": "La adenopatía puede obstruir, pero no explica riñones de 18 cm.",
+   "B": "Correcto. Johnson cap. 67: la infiltración por linfoma o leucemia se sospecha con riñones grandes, sedimento blando y proteinuria tubular; la LRA se debe a compresión tubular y aumento de la presión intersticial. Se encuentra en 34% de las autopsias. Responde a quimioterapia o radioterapia.",
+   "C": "El urato y el fósforo altos pueden verse sin lisis, por la infiltración y la LRA.",
+   "D": "No hay hipercalcemia relevante descrita.",
+   "E": "No explica los riñones grandes."
+  },
+  "clave": "B",
+  "tema": "Cáncer y riñón (onconefrología)",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CTX-1",
+  "tema_id": 26,
+  "sub": "26.d",
+  "obj": "26.o4",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Cetuximab e hipomagnesemia",
+  "caso": "Hombre de 61 años con cáncer colorrectal tratado con cetuximab. Calambres, Mg 0.8 mg/dL, K 3.1 y Ca 7.6 mg/dL. Fracción excretada de Mg elevada.",
+  "enunciado": "¿Cuál es el mecanismo?",
+  "perla": "Pérdida renal de Mg: cetuximab, panitumumab, cisplatino. Fanconi: cisplatino, ifosfamida, pemetrexed, imatinib. DI nefrogénica: cisplatino, ifosfamida, pemetrexed. SIADH: ciclofosfamida, vincristina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 67: Onconephrology (Abudayyeh, Perazella)"
+  ],
+  "serie_id": "CTX-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Necrosis tubular proximal con síndrome de Fanconi completo",
+   "B": "Diarrea crónica con pérdida intestinal exclusiva de magnesio",
+   "C": "Inhibición de la claudina 16 en la rama ascendente gruesa",
+   "D": "Secreción tumoral de FGF23 con pérdida de fosfato y magnesio",
+   "E": "Bloqueo del receptor de EGF que reabsorbe Mg distal"
+  },
+  "explicaciones": {
+   "A": "El Fanconi es típico de cisplatino e ifosfamida.",
+   "B": "La fracción excretada alta indica pérdida renal.",
+   "C": "No es el mecanismo de los anti-EGFR.",
+   "D": "No se relaciona con FGF23.",
+   "E": "Correcto. Johnson cap. 67: el EGF, al unirse a su receptor, estimula la reabsorción de Mg en el túbulo distal (vía TRPM6). Cetuximab y panitumumab compiten por el receptor y causan hipermagnesiuria. La hipomagnesemia agrava la hipocalcemia y la hipopotasemia."
+  },
+  "clave": "E",
+  "tema": "Cáncer y riñón (onconefrología)",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HCAT-1",
+  "tema_id": 26,
+  "sub": "26.b",
+  "obj": "26.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Hipercalcemia maligna en ERC",
+  "caso": "Hombre de 66 años con mieloma, Ca 14.1 mg/dL, TFGe 24, deshidratado y confuso.",
+  "enunciado": "¿Qué esquema es el más adecuado?",
+  "perla": "HiperCa grave (>13 mg/dL o síntomas): salina → asa solo tras euvolemia → calcitonina (taquifilaxia) → bifosfonato o denosumab 120 mg SC. Johnson discrepa: cap. 67 contraindica zoledronato con TFG <30; cap. 11 los considera seguros en ERC.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 67: Onconephrology",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 11: Disorders of Calcium, Phosphate, and Magnesium Metabolism"
+  ],
+  "serie_id": "HCAT-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Zoledronato 4 mg IV como primera medida, antes de dar volumen",
+   "B": "Furosemida en dosis altas sin reponer volumen primero",
+   "C": "Salina IV, calcitonina, prednisona y denosumab",
+   "D": "Pamidronato 90 mg en bolo rápido por ser menos nefrotóxico",
+   "E": "Solo hemodiálisis con baño de calcio estándar"
+  },
+  "explicaciones": {
+   "A": "Primero se repone volumen; además, el cap. 67 lo contraindica con TFG menor de 30.",
+   "B": "Sin volumen, el diurético empeora la LRA.",
+   "C": "Correcto. Johnson: primero volumen con salina y asa solo tras euvolemia; calcitonina para efecto rápido (taquifilaxia); prednisona en mieloma, linfoma o granulomas. En TFG baja el denosumab (120 mg SC, no se elimina por riñón) es la opción más segura. Ojo: cap. 67 contraindica zoledronato con TFG menor de 30; cap. 11 dice que los bifosfonatos se han usado con seguridad en ERC.",
+   "D": "El pamidronato se asocia a GEFS colapsante y se infunde en 2 a 4 h.",
+   "E": "Si se dializa, el baño debe ser bajo en calcio."
+  },
+  "clave": "C",
+  "tema": "Cáncer y riñón (onconefrología)",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ACK-1",
+  "tema_id": 26,
+  "sub": "26.a",
+  "obj": "26.o1",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Enfermedad quística adquirida y carcinoma renal",
+  "caso": "Hombre de 47 años con 11 años de hemodiálisis, candidato a trasplante. Ecografía: múltiples quistes corticales bilaterales y una masa sólida de 2.2 cm en el riñón izquierdo.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "ACKD: >3 quistes por riñón sin causa hereditaria; 5–20% al iniciar diálisis, 80–100% a 10 años. CCR asociado a ACKD (36%), papilar de células claras (24%). TC con contraste o RM sin gadolinio; eco anual en trasplantados.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 92: Acquired Cystic Kidney Disease and Malignant Neoplasms (Mühlfeld, Boor)"
+  ],
+  "serie_id": "ACK-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Caracterizar con imagen y considerar nefrectomía por ser candidato a trasplante",
+   "B": "Observar sin estudios, porque los tumores menores de 3 cm nunca metastatizan",
+   "C": "Nefrectomía bilateral profiláctica por riesgo de malignización del 90%",
+   "D": "Diferir el trasplante 5 años aunque se reseque el tumor",
+   "E": "Buscar quistes hepáticos y aneurismas cerebrales por ser una enfermedad sistémica"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 92: la ACKD llega a 80% a 100% tras 10 años de diálisis y eleva 40 a 100 veces el riesgo de CCR (hombres 7:1). Los tumores mayores de 3 cm justifican biopsia o cirugía; en menores de 3 cm se vigila, salvo en candidatos a trasplante o con buena expectativa de vida, en quienes se considera nefrectomía. No se requiere retrasar el trasplante ni nefrectomía contralateral profiláctica.",
+   "B": "Los menores de 3 cm metastatizan rara vez, no nunca, y aquí el paciente es candidato a trasplante.",
+   "C": "La malignización no ocurre en 90%; la nefrectomía bilateral no se recomienda.",
+   "D": "No suele requerirse retrasar el trasplante.",
+   "E": "Los quistes de la ACKD se limitan al riñón."
+  },
+  "clave": "A",
+  "tema": "Cáncer y riñón (onconefrología)",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
  }
 ]

@@ -258,6 +258,26 @@
      ],
      "questionTopics": [],
      "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "NUT-B1",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Herramientas de evaluación nutricional"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -314,6 +334,45 @@
       [
        "Bioimpedancia",
        "Composición e hidratación"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Proteína ERC G3–5 sin diálisis",
+       "0.55–0.6 g/kg/d"
+      ],
+      [
+       "Proteína en diálisis",
+       "1.0–1.2 g/kg/d"
+      ],
+      [
+       "Desgaste proteico energético",
+       "↓Albúmina y masa muscular"
+      ],
+      [
+       "Valoración global subjetiva",
+       "Tamizaje nutricional"
+      ],
+      [
+       "nPCR",
+       "Estima ingesta proteica en HD"
+      ],
+      [
+       "Fósforo dietético",
+       "Evitar aditivos inorgánicos"
+      ],
+      [
+       "Dieta vegetal",
+       "No restringir K⁺ de rutina"
+      ],
+      [
+       "Energía",
+       "25–35 kcal/kg/día"
       ]
      ]
     }
@@ -414,6 +473,46 @@
      ],
      "questionTopics": [],
      "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "NUT-A1",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Requerimientos de energía y proteína en ERC no dialítica"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "NPCR-1",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: nPCR por cinética de urea"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -581,6 +680,38 @@
   {
    "title": "Cocina del Hospital",
    "text": "Proteína: 0.55–0.6 g/kg (ERC 3–5), 0.6–0.8 (con diabetes), 1.0–1.2 (HD/DP). Energía 25–35 kcal/kg. Evitar aditivos de fósforo. Suplemento oral primero."
+  },
+  {
+   "title": "💎 Marcadores de masa muscular y estado nut",
+   "text": "Creatinina sérica baja = baja masa muscular (estado estable). Albúmina: fase aguda negativa, pérdidas en DP. Usar SGA, nPNA, antropometría."
+  },
+  {
+   "title": "💎 Control dietético del fósforo",
+   "text": "Fósforo inorgánico (aditivos) ~90% absorbido; orgánico animal 40–60%; vegetal (fitato) 20–50%. Evitar ultraprocesados; quelantes CON las comidas."
+  },
+  {
+   "title": "💎 Ingesta proteica estimada: ecuación de M",
+   "text": "Maroni: proteína (g/d) = 6.25 × [NUU (g/d) + 0.031 × kg] + proteinuria (g/d). Requiere estado estable y volumen urinario completo."
+  },
+  {
+   "title": "💎 Nutrición parenteral suplementaria",
+   "text": "NP suplementaria: considerar después de la primera semana si <60% de metas por vía enteral. Antes: optimizar la enteral."
+  },
+  {
+   "title": "💎 Soporte nutricional en LRA grave: vía y ",
+   "text": "LRA en UCI: nutrición enteral temprana (24–48 h) con hemodinamia estable; la TRR no es contraindicación. Vigilar P, K, Mg (realimentación y TRRC)."
+  },
+  {
+   "title": "💎 Meta de proteína en ERC no dialítica",
+   "text": "KDIGO 2024: ERC G3–G5 sin diálisis: ~0.8 g/kg/d, evitar >1.3 g/kg/d. Dieta muy baja con cetoanálogos solo seleccionada. Diálisis: 1.0–1.2 g/kg/d (KDOQI)."
+  },
+  {
+   "title": "💎 Manejo del desgaste en DP: metas y causa",
+   "text": "PEW en DP: proteína 1.0–1.2+ g/kg/d, 25–35 kcal/kg/d (incluye glucosa del dializado), bicarbonato >22, suplementos, procinéticos; si falla: enteral/cambio de modalidad."
+  },
+  {
+   "title": "💎 Manejo de la gastroparesia y ajuste de l",
+   "text": "Gastroparesia en DP: procinético (metoclopramida ajustada/domperidona) + ↓ plenitud (menos volumen diurno/día seco) + ↓ glucosa absorbida (icodextrina) + verificar adecuación; luego suplementos/enteral."
   }
  ]
 }

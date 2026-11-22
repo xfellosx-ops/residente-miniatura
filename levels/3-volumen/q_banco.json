@@ -368,5 +368,236 @@
   "tema": "Control del volumen y la composición de los líquidos corporales",
   "obj": "3.o1",
   "peso": 21.3
+ },
+ {
+  "id": "NEW-3-1",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o2",
+  "dificultad": "dificil",
+  "subtema": "Balance de sodio y fuerzas de Starling en el edema nefrótico",
+  "caso": "Mujer de 30 años con enfermedad de cambios mínimos: albúmina 1.6 g/dL, proteinuria 12 g/día, edema generalizado, PA 138/86 mmHg, renina y aldosterona plasmáticas bajas.",
+  "enunciado": "Según el modelo de sobrellenado, ¿qué explica mejor la retención de sodio?",
+  "opciones": {
+   "A": "Hipovolemia por baja presión oncótica que activa renina, aldosterona y simpático",
+   "B": "Activación de ENaC por proteasas filtradas, como la plasmina, en el colector",
+   "C": "Aumento de la permeabilidad capilar sistémica por citocinas de linfocitos T",
+   "D": "Insuficiencia linfática relativa por exceso de filtrado intersticial de proteínas",
+   "E": "Secreción de vasopresina no osmótica por volumen circulante efectivo disminuido"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Es el modelo de infrallenado; no encaja con PA elevada y renina y aldosterona bajas.",
+   "B": "Correcta. En el modelo de sobrellenado la retención de sodio es primaria del riñón: el plasminógeno filtrado se convierte en plasmina, que escinde y activa ENaC. Con renina baja e hipertensión, explica el edema; la amilorida es útil como coadyuvante.",
+   "C": "La permeabilidad capilar sistémica no es el mecanismo principal del edema nefrótico.",
+   "D": "El drenaje linfático compensa inicialmente; no explica la retención renal de sodio.",
+   "E": "La ADH no osmótica retiene agua, no sodio, y requiere volumen efectivo bajo."
+  },
+  "perla": "Edema nefrótico: underfill (volumen efectivo bajo, renina alta, más en niños con ECM) vs overfill (retención primaria por ENaC activado por plasmina, renina baja). Amilorida + asa.",
+  "referencias": [
+   "Svenningsen P et al. J Am Soc Nephrol 2009;20:299 (plasmina y ENaC)",
+   "Comprehensive Clinical Nephrology, 7.ª ed., cap. Síndrome nefrótico"
+  ],
+  "serie_id": "NEW-3-1",
+  "orden": 1,
+  "continuacion": "",
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "origen": [
+   "Claude-2026-11 competencia sin preguntas"
+  ],
+  "tipo_item": "nueva",
+  "peso": 60.0
+ },
+ {
+  "id": "NEW-3-2",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o3",
+  "dificultad": "moderada",
+  "subtema": "Volemia efectiva en insuficiencia cardiaca",
+  "caso": "Hombre de 67 años con insuficiencia cardiaca de fracción reducida: edema hasta rodillas, ingurgitación yugular, peso 8 kg por arriba del seco. Na 128 mEq/L, Na urinario 8 mEq/L, FENa 0.3%, creatinina 1.6 mg/dL desde 1.1.",
+  "enunciado": "¿Qué describe mejor su estado de volumen?",
+  "opciones": {
+   "A": "Agua total y líquido extracelular aumentados con volumen efectivo arterial bajo",
+   "B": "Volumen efectivo arterial aumentado con supresión de renina y de vasopresina",
+   "C": "Depleción del líquido extracelular con redistribución al tercer espacio por sepsis",
+   "D": "Expansión aislada del líquido intracelular por hiponatremia de redistribución",
+   "E": "Euvolemia con secreción inadecuada de vasopresina de origen paraneoplásico"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Correcta. En la IC el agua corporal total y el LEC están aumentados, pero el gasto cardiaco bajo hace que los barorreceptores perciban volumen efectivo arterial bajo: se activan SRAA, simpático y ADH no osmótica. Esto causa FENa baja, hiponatremia hipervolémica y retención continua de sodio.",
+   "B": "Si el volumen efectivo estuviera aumentado habría natriuresis, no FENa de 0.3%.",
+   "C": "Hay sobrecarga evidente, no depleción del LEC.",
+   "D": "La hiponatremia mueve agua al intracelular, pero el problema dominante es la expansión del LEC.",
+   "E": "El SIADH es euvolémico, con Na urinario mayor de 30 mEq/L; aquí hay edema y FENa baja."
+  },
+  "perla": "IC y cirrosis: ACT y LEC ↑ pero volumen circulante efectivo ↓ → SRAA, simpático y ADH → FENa baja e hiponatremia hipervolémica.",
+  "referencias": [
+   "Schrier RW. N Engl J Med 1988;319:1065 y 1127 (volumen efectivo)",
+   "Comprehensive Clinical Nephrology, 7.ª ed., cap. Trastornos del volumen extracelular"
+  ],
+  "serie_id": "NEW-3-2",
+  "orden": 1,
+  "continuacion": "",
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "origen": [
+   "Claude-2026-11 competencia sin preguntas"
+  ],
+  "tipo_item": "nueva",
+  "peso": 60.0
+ },
+ {
+  "id": "OSM-4",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o1",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Tonicidad: urea frente a glucosa",
+  "caso": "Paciente con BUN de 140 mg/dL y Na de 138, y otro con glucosa de 900 mg/dL y Na de 126; ambos con osmolalidad medida elevada.",
+  "enunciado": "¿Cuál de los dos tiene hipertonicidad con deshidratación celular?",
+  "perla": "Urea y glucosa cruzan membranas celulares y no estimulan la AVP en condiciones normales; sin insulina, la glucosa sí es osmol efectivo. Hipertónicos: salina y manitol (Johnson cap. 9).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 9: Disorders of Water Metabolism",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 8: Disorders of Extracellular Volume"
+  ],
+  "serie_id": "OSM-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El hiperglucémico, porque la glucosa sin insulina es un osmol efectivo",
+   "B": "El urémico, porque la urea es el principal osmol efectivo del plasma",
+   "C": "Ninguno, porque sus sodios están en rango normal o bajo",
+   "D": "Ambos, porque toda osmolalidad elevada equivale a hipertonicidad",
+   "E": "El urémico, porque la urea arrastra agua del intracelular"
+  },
+  "explicaciones": {
+   "A": "Correcto. La urea cruza las membranas y no genera tonicidad. La glucosa, sin insulina, queda extracelular, extrae agua de las células y baja el sodio por translocación: hay hipertonicidad real.",
+   "B": "La urea es un osmol inefectivo.",
+   "C": "El sodio bajo del hiperglucémico es por translocación, con tonicidad alta.",
+   "D": "Osmolalidad alta no siempre es tonicidad alta.",
+   "E": "La urea se equilibra entre compartimentos."
+  },
+  "clave": "A",
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "STA-1",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Distribución de líquidos infundidos",
+  "caso": "Se infunde 1 L de tres soluciones a un adulto sano: NaCl 0.9%, dextrosa 5% y albúmina 5%.",
+  "enunciado": "¿Cuánto queda aproximadamente en el espacio intravascular con cada una?",
+  "perla": "1 L de salina: 1/4–1/3 intravascular (Johnson: 1/3). D5W: ~80 mL. Coloide: casi todo, salvo fuga capilar. Johnson cap. 8: coloides sin ventaja (SAFE); evitar almidón (HES) en sepsis; balanceadas mejor que salina (SMART).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 8: Disorders of Extracellular Volume (Ellison)"
+  ],
+  "serie_id": "STA-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Salina 80 mL, dextrosa 250 mL y albúmina 600 mL",
+   "B": "Salina todo el litro, dextrosa 500 mL y albúmina 250 mL",
+   "C": "Las tres quedan iguales porque se infundió el mismo volumen",
+   "D": "Salina de 250 a 330 mL, dextrosa unos 80 mL y albúmina casi 1 L",
+   "E": "Salina 600 mL, dextrosa 600 mL y albúmina todo el litro"
+  },
+  "explicaciones": {
+   "A": "Están invertidas salina y dextrosa.",
+   "B": "La salina sale al intersticio.",
+   "C": "Cada solución se distribuye distinto según su composición.",
+   "D": "Correcto. La salina se distribuye en el extracelular: Johnson cap. 8 dice que un tercio queda en el plasma (otros textos calculan un cuarto). La dextrosa se vuelve agua libre en el agua corporal total (plasma ≈ 1/12). La albúmina permanece en el plasma si la barrera capilar está íntegra.",
+   "E": "Sobrestima la retención intravascular de cristaloides."
+  },
+  "clave": "D",
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ESC-1",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Escape mineralocorticoide: HTA sin edema",
+  "caso": "Mujer de 47 años con adenoma suprarrenal productor de aldosterona. PA 172/104, K 3.1, HCO3 31. No tiene edema.",
+  "enunciado": "¿Por qué no presenta edema?",
+  "perla": "Escape: ↑TFG + ↑presión de perfusión renal → ↓reabsorción proximal, ↓NCC, ↑ANP → natriuresis. En IC no hay escape porque la presión de perfusión y la entrega distal están bajas.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 8: Disorders of Extracellular Volume (Ellison)"
+  ],
+  "serie_id": "ESC-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La aldosterona solo retiene potasio y no actúa sobre el sodio",
+   "B": "Escape mineralocorticoide: sube la entrega distal y hay natriuresis",
+   "C": "La hipopotasemia causa diabetes insípida y elimina el exceso de volumen",
+   "D": "El péptido natriurético está suprimido por la hipertensión",
+   "E": "La aldosterona aumenta la albúmina y evita la fuga capilar"
+  },
+  "explicaciones": {
+   "A": "La aldosterona sí estimula la reabsorción de sodio por ENaC.",
+   "B": "Correcto. Johnson cap. 8: tras una retención inicial, sube la TFG y la presión de perfusión renal, cae la reabsorción proximal, aumenta la entrega distal, baja el NCC y sube el ANP; aparece natriuresis y se restablece el balance. Por eso el hiperaldosteronismo primario da HTA, no edema.",
+   "C": "La hipopotasemia puede concentrar menos la orina, pero no explica la falta de edema.",
+   "D": "El ANP aumenta, no disminuye.",
+   "E": "No es un efecto de la aldosterona."
+  },
+  "clave": "B",
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NEU-1",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o3",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Edema nefrótico: subllenado frente a sobrellenado",
+  "caso": "Niño de 6 años con cambios mínimos, albúmina 1.4 g/dL, PA baja, taquicardia y creatinina en ascenso. Adulto de 50 años con GN membranoproliferativa, albúmina 2.6 g/dL, PA 160/98 y renina suprimida.",
+  "enunciado": "¿Qué mecanismo predomina en cada uno?",
+  "perla": "Nefrótico: subllenado (cambios mínimos, alb <2, hipotensión, LRA) vs sobrellenado (GN inflamatoria, HTA, renina baja). Plasmina filtrada activa ENaC → amilorida. Natriuresis en remisión antes de subir la albúmina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 8: Disorders of Extracellular Volume (Ellison)"
+  ],
+  "serie_id": "NEU-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ambos subllenados, porque los dos tienen hipoalbuminemia",
+   "B": "Niño sobrellenado por ENaC activo; adulto subllenado por albúmina baja",
+   "C": "Ambos sobrellenados, porque el síndrome nefrótico siempre es primario",
+   "D": "Niño subllenado con riesgo de LRA; adulto sobrellenado primario",
+   "E": "Ninguno: el edema nefrótico solo depende de la presión venosa"
+  },
+  "explicaciones": {
+   "A": "El adulto tiene HTA y renina suprimida: sobrellenado.",
+   "B": "Está invertido.",
+   "C": "El niño muestra datos de hipovolemia.",
+   "D": "Correcto. Johnson cap. 8: el subllenado predomina en cambios mínimos con albúmina menor de 2 g/dL, TFG preservada e hipotensión; tiene riesgo de LRA. Las glomerulopatías inflamatorias tienden al sobrellenado: HTA, renina suprimida, TFG baja. Las proteasas filtradas activan ENaC, que bloquea la amilorida.",
+   "E": "La presión oncótica y la retención renal de sodio son centrales."
+  },
+  "clave": "D",
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
  }
 ]

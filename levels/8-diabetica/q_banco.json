@@ -911,5 +911,44 @@
   "tema": "Nefropatía diabética",
   "obj": "8.o3",
   "peso": 13.7
+ },
+ {
+  "id": "NEW-8-1",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o2",
+  "dificultad": "moderada",
+  "subtema": "Indicaciones de biopsia en el paciente diabético",
+  "caso": "Hombre de 55 años con diabetes tipo 2 de 4 años de evolución, HbA1c 7.1%. Fondo de ojo sin retinopatía. Proteinuria de 4.5 g/día de inicio en los últimos 3 meses, hematuria con 30% de acantocitos y caída de la TFGe de 78 a 44 mL/min/1.73 m² en 6 meses.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Atribuirlo a nefropatía diabética y agregar finerenona al bloqueo del SRAA",
+   "B": "Iniciar un iSGLT2, optimizar la glucemia y repetir los estudios en seis meses",
+   "C": "Biopsia renal porque los datos sugieren una glomerulopatía no diabética",
+   "D": "Solicitar solo anti-PLA2R y tratar como membranosa si resulta positivo",
+   "E": "Realizar ecografía renal y continuar la vigilancia trimestral sin cambios"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Sin retinopatía, con evolución corta, sedimento activo y caída rápida, atribuirlo a ND sin biopsia es un error.",
+   "B": "Los iSGLT2 están indicados, pero no sustituyen el diagnóstico de una posible GN tratable.",
+   "C": "Correcta. Las banderas rojas para enfermedad no diabética son: ausencia de retinopatía, DM de menos de 5 años, inicio súbito de proteinuria nefrótica, hematuria dismórfica o cilindros eritrocitarios y caída rápida de la TFG. En estos casos se indica la biopsia.",
+   "D": "El anti-PLA2R ayuda, pero la hematuria glomerular activa y la caída rápida obligan a descartar otras GN.",
+   "E": "La ecografía no aclara la causa; diferir el diagnóstico arriesga daño irreversible."
+  },
+  "perla": "Biopsia en DM si: sin retinopatía, DM <5 años, proteinuria súbita o nefrótica, hematuria glomerular, caída rápida de TFG, síntomas sistémicos.",
+  "referencias": [
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1",
+   "Comprehensive Clinical Nephrology, 7.ª ed., cap. Nefropatía diabética"
+  ],
+  "serie_id": "NEW-8-1",
+  "orden": 1,
+  "continuacion": "",
+  "tema": "Nefropatía diabética",
+  "origen": [
+   "Claude-2026-11 competencia sin preguntas"
+  ],
+  "tipo_item": "nueva",
+  "peso": 60.0
  }
 ]

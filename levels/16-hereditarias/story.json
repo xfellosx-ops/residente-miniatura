@@ -340,6 +340,113 @@
        "Nefropatía tubulointersticial AD"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Tubulopatías con hipokalemia",
+     "bins": [
+      "Bartter",
+      "Gitelman",
+      "Liddle"
+     ],
+     "items": [
+      [
+       "Hipercalciuria",
+       "Bartter"
+      ],
+      [
+       "Hipocalciuria",
+       "Gitelman"
+      ],
+      [
+       "Hipomagnesemia marcada",
+       "Gitelman"
+      ],
+      [
+       "Hipertensión arterial",
+       "Liddle"
+      ],
+      [
+       "Renina y aldosterona suprimidas",
+       "Liddle"
+      ],
+      [
+       "Defecto en NKCC2/ROMK/CLC-Kb",
+       "Bartter"
+      ],
+      [
+       "Defecto en NCC (SLC12A3)",
+       "Gitelman"
+      ],
+      [
+       "Responde a amilorida",
+       "Liddle"
+      ],
+      [
+       "Inicio neonatal con polihidramnios",
+       "Bartter"
+      ],
+      [
+       "Imita uso crónico de tiazida",
+       "Gitelman"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Alport ligado al X",
+       "COL4A5"
+      ],
+      [
+       "Hematuria + sordera + lenticono",
+       "Síndrome de Alport"
+      ],
+      [
+       "Fabry",
+       "α-galactosidasa A; cuerpos de cebra"
+      ],
+      [
+       "Gitelman",
+       "NCC: hipoK, hipoMg, hipocalciuria"
+      ],
+      [
+       "Bartter",
+       "Asa: hipoK, hipercalciuria"
+      ],
+      [
+       "Liddle",
+       "ENaC ↑: HTA + hipoK → amilorida"
+      ],
+      [
+       "ATR distal (1)",
+       "pH urinario >5.5, nefrocalcinosis"
+      ],
+      [
+       "ATR proximal (2)",
+       "Fanconi; pérdida de HCO₃"
+      ],
+      [
+       "ATR tipo 4",
+       "Hipoaldosteronismo + hiperK"
+      ],
+      [
+       "Cistinosis",
+       "Cisteamina"
+      ],
+      [
+       "Hiperoxaluria primaria",
+       "Lumasirán (RNAi)"
+      ],
+      [
+       "APOL1",
+       "Riesgo en ascendencia africana"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -565,6 +672,58 @@
        "Glucosuria, fosfaturia, ATR 2"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Acidosis tubular renal",
+     "bins": [
+      "ATR 1 (distal)",
+      "ATR 2 (proximal)",
+      "ATR 4"
+     ],
+     "items": [
+      [
+       "pH urinario > 5.5 siempre",
+       "ATR 1 (distal)"
+      ],
+      [
+       "Nefrocalcinosis y litiasis",
+       "ATR 1 (distal)"
+      ],
+      [
+       "Síndrome de Fanconi",
+       "ATR 2 (proximal)"
+      ],
+      [
+       "FE de HCO₃ > 15% al corregir",
+       "ATR 2 (proximal)"
+      ],
+      [
+       "Hiperkalemia",
+       "ATR 4"
+      ],
+      [
+       "Hipoaldosteronismo hiporreninémico (DM)",
+       "ATR 4"
+      ],
+      [
+       "Requiere dosis altas de álcali",
+       "ATR 2 (proximal)"
+      ],
+      [
+       "Síndrome de Sjögren",
+       "ATR 1 (distal)"
+      ],
+      [
+       "Tenofovir, ifosfamida",
+       "ATR 2 (proximal)"
+      ],
+      [
+       "Trimetoprim, IECA, heparina",
+       "ATR 4"
+      ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -690,6 +849,38 @@
   {
    "title": "Túbulos Heredados",
    "text": "Bartter = asa (↑Ca urinario). Gitelman = tiazida (↓Ca urinario, ↓Mg). Liddle = ENaC (amilorida). Fabry: GLA, cuerpos de cebra, reemplazo enzimático o migalastat."
+  },
+  {
+   "title": "💎 Diferenciación entre ATR 1, 2 y 4",
+   "text": "Tipo 1: ↓K, pH urinario >5.5, BAU +. Tipo 2: ↓K, pH <5.5, BAU −, FEHCO₃ alta. Tipo 4: ↑K, pH <5.5, BAU +."
+  },
+  {
+   "title": "💎 Hipoaldosteronismo hiporreninémico (ATR ",
+   "text": "ATR tipo 4: ↑K, acidosis hiperclorémica, pH urinario <5.5, brecha aniónica urinaria positiva. Renina y aldosterona bajas = hiporreninémico (diabetes, AINE, IECA)."
+  },
+  {
+   "title": "💎 Alport: microscopía electrónica e inmuno",
+   "text": "Alport: laminación de la membrana basal (cesta tejida) + ausencia de α3/α4/α5 de colágeno IV (varones XL); mosaico en mujeres."
+  },
+  {
+   "title": "💎 Síndrome de Alport: genética",
+   "text": "Alport: COL4A5 ligado al X (80–85%); AR COL4A3/A4 (15%); AD (COL4A3/A4 heterocigoto) más frecuente de lo creído con NGS (20–30% de cohortes). El antecedente de varones afectados con sordera y ERC orienta a la forma ligada al X."
+  },
+  {
+   "title": "💎 Manifestaciones extrarrenales",
+   "text": "Alport: hipoacusia neurosensorial + lenticono anterior + retinopatía perimacular. Fabry: córnea verticilata y angioqueratomas."
+  },
+  {
+   "title": "💎 Tratamiento de la enfermedad de Fabry",
+   "text": "Fabry: ERT (agalsidasa alfa/beta, pegunigalsidasa) o migalastat si variante susceptible y TFGe ≥30; IECA/ARA-II; tratar temprano."
+  },
+  {
+   "title": "💎 Enfermedad de Fabry: diagnóstico clínico",
+   "text": "Fabry: acroparestesias + angioqueratomas + córnea verticilata + proteinuria; GLA (Xq22), α-Gal A baja; podocitos espumosos y cuerpos de cebra."
+  },
+  {
+   "title": "💎 ATR tipo 4: hipoaldosteronismo hiporreni",
+   "text": "ATR 4: hiperK + acidosis hiperclorémica + BAU positiva; retirar IECA/ARA-II, AINE, TMP-SMX; diurético de asa/tiazida; quelantes de K."
   }
  ]
 }

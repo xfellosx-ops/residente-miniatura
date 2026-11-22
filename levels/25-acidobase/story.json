@@ -243,11 +243,11 @@
      "id": "t0_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "PGL",
+     "serie": "SNG",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Acidosis de brecha elevada de causa no evidente: abordaje diagnósti"
+       "Te reto con un caso: Caso encadenado: alcalosis por succión gástrica y compensación"
       ]
      ],
      "defeat": [
@@ -263,11 +263,11 @@
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "MXD",
+     "serie": "ALB-1",
      "intro": [
       [
        "Dr. Rocco Filo",
-       "Te reto con un caso: Trastorno ácido-base triple: la brecha aniónica con bicarbonato nor"
+       "Te reto con un caso: Brecha aniónica corregida por albúmina"
       ]
      ],
      "defeat": [
@@ -277,7 +277,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 1
     }
    ],
    "wild": [
@@ -320,6 +320,70 @@
       "Brecha aniónica corregida por albúmina",
       "Delta-delta",
       "Brecha osmolar si la aniónica es alta"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Acidosis metabólica",
+     "bins": [
+      "Brecha aniónica alta",
+      "Brecha normal"
+     ],
+     "items": [
+      [
+       "Cetoacidosis",
+       "Brecha aniónica alta"
+      ],
+      [
+       "Diarrea",
+       "Brecha normal"
+      ],
+      [
+       "Metanol / etilenglicol",
+       "Brecha aniónica alta"
+      ],
+      [
+       "ATR distal",
+       "Brecha normal"
+      ],
+      [
+       "Acidosis láctica",
+       "Brecha aniónica alta"
+      ],
+      [
+       "Ureterosigmoidostomía",
+       "Brecha normal"
+      ],
+      [
+       "5-oxoprolina (paracetamol)",
+       "Brecha aniónica alta"
+      ],
+      [
+       "Solución salina masiva",
+       "Brecha normal"
+      ],
+      [
+       "Uremia avanzada",
+       "Brecha aniónica alta"
+      ],
+      [
+       "Acetazolamida",
+       "Brecha normal"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Abordaje de la alcalosis metabólica",
+     "items": [
+      "Confirmar HCO3 alto y pH alcalino",
+      "Verificar compensación: pCO2 ≈ HCO3 + 10",
+      "Evaluar volumen y presión arterial",
+      "Medir cloro urinario",
+      "Si HTA: renina y aldosterona",
+      "Tratar: NaCl y KCl, acetazolamida o bloqueo según la causa"
      ],
      "pairs": []
     }
@@ -425,11 +489,11 @@
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "MIX",
+     "serie": "CAD",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Trastorno mixto: intoxicación por salicilatos"
+       "Te reto con un caso: Caso encadenado CAD: trastorno primario y compensación"
       ]
      ],
      "defeat": [
@@ -439,17 +503,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "ALR",
+     "serie": "ALK-1",
      "intro": [
       [
        "Dr. Anselmo Frágil",
-       "Te reto con un caso: Alcalosis respiratoria aguda: compensación"
+       "Te reto con un caso: Alcalosis con hipertensión: perfil de renina y aldosterona"
       ]
      ],
      "defeat": [
@@ -459,7 +523,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -520,6 +584,101 @@
       [
        "5-oxoprolina",
        "Paracetamol crónico"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Alcalosis metabólica por cloro urinario",
+     "bins": [
+      "Cl urinario <20",
+      "Cl urinario >20 con PA normal o baja",
+      "Cl urinario >20 con HTA"
+     ],
+     "items": [
+      [
+       "Vómito o succión nasogástrica",
+       "Cl urinario <20"
+      ],
+      [
+       "Diurético que ya se suspendió",
+       "Cl urinario <20"
+      ],
+      [
+       "Alcalosis poshipercápnica",
+       "Cl urinario <20"
+      ],
+      [
+       "Diurético tomado hoy",
+       "Cl urinario >20 con PA normal o baja"
+      ],
+      [
+       "Síndrome de Gitelman",
+       "Cl urinario >20 con PA normal o baja"
+      ],
+      [
+       "Síndrome de Bartter",
+       "Cl urinario >20 con PA normal o baja"
+      ],
+      [
+       "Hiperaldosteronismo primario",
+       "Cl urinario >20 con HTA"
+      ],
+      [
+       "Síndrome de Liddle",
+       "Cl urinario >20 con HTA"
+      ],
+      [
+       "Regaliz",
+       "Cl urinario >20 con HTA"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Fórmula de Winter",
+       "pCO₂ = 1.5×HCO₃ + 8 ± 2"
+      ],
+      [
+       "Brecha aniónica",
+       "Na − (Cl + HCO₃); corregir por albúmina"
+      ],
+      [
+       "Delta/delta > 2",
+       "Alcalosis metabólica concomitante"
+      ],
+      [
+       "Brecha aniónica urinaria +",
+       "ATR distal (↓NH₄⁺)"
+      ],
+      [
+       "Alcalosis cloro-sensible",
+       "Cl urinario <20 (vómito)"
+      ],
+      [
+       "Alcalosis cloro-resistente",
+       "Exceso mineralocorticoide"
+      ],
+      [
+       "Láctica tipo B",
+       "Sin hipoperfusión (metformina)"
+      ],
+      [
+       "5-oxoprolina",
+       "Paracetamol crónico"
+      ],
+      [
+       "Cetoacidosis euglucémica",
+       "iSGLT2"
+      ],
+      [
+       "GOLDMARK",
+       "Acidosis con brecha aumentada"
       ]
      ]
     }
@@ -609,7 +768,7 @@
      "id": "t2_0",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "LAC",
+     "serie": "ETG",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -623,17 +782,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 2
     },
     {
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "ALC",
+     "serie": "UAG-1",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Síndrome de leche y álcali: diagnóstico"
+       "Te reto con un caso: Brecha aniónica urinaria: diarrea frente a ATR distal"
       ]
      ],
      "defeat": [
@@ -643,7 +802,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "ERCA-1",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Te reto con un caso: Acidosis metabólica en ERC: cuándo tratar"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -702,6 +881,19 @@
        "Causa clásica de tipo 1"
       ]
      ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "Análisis ácido-base",
+     "items": [
+      "Validar la gasometría y ver el pH",
+      "Identificar el trastorno primario",
+      "Verificar la compensación esperada (Winter, etc.)",
+      "Calcular la brecha aniónica corregida por albúmina",
+      "Si BA alta: delta/delta",
+      "Integrar con la clínica"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -830,6 +1022,38 @@
   {
    "title": "Túbulo del Bicarbonato",
    "text": "BA normal: BA urinaria (negativa = intestino). ATR 1 (K bajo, litos), 2 (Fanconi), 4 (K alto). Alcalosis: Cl urinario <20 responde a salina."
+  },
+  {
+   "title": "💎 Acidosis metabólica de brecha elevada: c",
+   "text": "euDKA por iSGLT2: glucosa <250, BHB >3, AG alto. Desencadenantes: ayuno/cirugía, vómito, infección, reducción de insulina, alcohol. Winter: PaCO₂ = 1.5×HCO₃ + 8 ± 2."
+  },
+  {
+   "title": "💎 Caso encadenado CAD: trastorno primario ",
+   "text": "Winter (cap. 15): pCO2 = 1.5 × HCO3 + 8 ± 2. Johnson cap. 13 da equivalentes: ↓1.2 de pCO2 por cada 1 de HCO3, pCO2 ≈ HCO3 + 15 o ≈ decimales del pH. Si la pCO2 se aleja más de 5 de lo esperado, hay trastorno respiratorio agregado."
+  },
+  {
+   "title": "💎 Caso encadenado: brecha osmolar y alcoho",
+   "text": "Brecha osmolar normal <10 (incluir etanol/4.6). Cada 100 mg/dL de etilenglicol suma ~16 mOsm; de metanol ~32. Etilenglicol: oxalato y LRA a las 24–36 h. Metanol: retina, pancreatitis, putamen (Johnson cap. 13)."
+  },
+  {
+   "title": "💎 Caso encadenado: alcalosis por succión g",
+   "text": "Alcalosis metabólica: pCO2 ≈ HCO3 + 10 (Johnson cap. 14, válido con HCO3 30–50) o 40 + 0.7 × ΔHCO3. Leve: 45–50; grave: 50–55. pCO2 >55 sugiere debilidad respiratoria por hipoK o acidosis respiratoria agregada."
+  },
+  {
+   "title": "💎 Cetoacidosis: insulina y potasio",
+   "text": "DKA/euDKA (consenso ADA 2024): K <3.5 → reponer antes de insulina; K <5.0 → iniciar reposición (meta 4–5); ≥5.0 → vigilar. euDKA: insulina + dextrosa 5–10%. Cerrar AG, BHB <0.6. Bicarbonato solo si pH <7.0."
+  },
+  {
+   "title": "💎 Cetoacidosis: delta-delta y prevención",
+   "text": "Hold iSGLT2: 3 d antes de cirugía (ertugliflozina 4 d), en enfermedad aguda/ayuno. Reinicio con ingesta estable. Recuperación de DKA: acidosis hiperclorémica residual común."
+  },
+  {
+   "title": "💎 Caso encadenado CAD: brecha aniónica y d",
+   "text": "Δ/Δ = (BA − 12)/(24 − HCO3): <1 → acidosis hiperclorémica agregada; 1–2 → BA pura; >2 → alcalosis metabólica agregada. Vómito + CAD es el ejemplo clásico."
+  },
+  {
+   "title": "💎 Caso encadenado: sodio urinario frente a",
+   "text": "Vómito o SNG: Na urinario puede ser >20 (bicarbonaturia), pero Cl urinario <20 = depleción de volumen → alcalosis cloro-sensible."
   }
  ]
 }

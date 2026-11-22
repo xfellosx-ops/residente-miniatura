@@ -265,11 +265,11 @@
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "HMM",
+     "serie": "AKS-1",
      "intro": [
       [
        "Dr. Rocco Filo",
-       "Te reto con un caso: Hipercalcemia y lesión renal: elección del antirresortivo"
+       "Te reto con un caso: FENa baja con necrosis tubular"
       ]
      ],
      "defeat": [
@@ -322,6 +322,49 @@
       "Sedimento e índices urinarios",
       "Retirar nefrotóxicos y ajustar dosis",
       "Decidir terapia de reemplazo"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "LRA prerrenal vs NTA",
+     "bins": [
+      "Prerrenal",
+      "NTA"
+     ],
+     "items": [
+      [
+       "FENa < 1%",
+       "Prerrenal"
+      ],
+      [
+       "Osm urinaria > 500",
+       "Prerrenal"
+      ],
+      [
+       "Na urinario > 40",
+       "NTA"
+      ],
+      [
+       "Cilindros granulosos pardos",
+       "NTA"
+      ],
+      [
+       "BUN/Cr > 20",
+       "Prerrenal"
+      ],
+      [
+       "Osm urinaria ~300 (isostenuria)",
+       "NTA"
+      ],
+      [
+       "Responde a volumen en 24–72 h",
+       "Prerrenal"
+      ],
+      [
+       "FEUrea > 50%",
+       "NTA"
+      ]
      ],
      "pairs": []
     }
@@ -472,11 +515,11 @@
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "KDI",
+     "serie": "HMM",
      "intro": [
       [
        "Dr. Anselmo Frágil",
-       "Te reto con un caso: Estadificación KDIGO por creatinina y diuresis"
+       "Te reto con un caso: Hipercalcemia y lesión renal: elección del antirresortivo"
       ]
      ],
      "defeat": [
@@ -486,7 +529,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -550,6 +593,19 @@
        "Presión >20 mmHg; descompresión"
       ]
      ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "Evaluación de LRA",
+     "items": [
+      "Confirmar y estadificar (KDIGO)",
+      "Valorar volumen y suspender nefrotóxicos",
+      "Ecografía renal (descartar obstrucción)",
+      "EGO con sedimento",
+      "Índices urinarios (FENa/FEUrea)",
+      "Biopsia si la causa no es clara"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -677,11 +733,11 @@
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "OBM",
+     "serie": "AKS-2",
      "intro": [
       [
        "Dra. Sara Esquistocito",
-       "Te reto con un caso: LRA obstructiva por neoplasia pélvica: descompresión urgente"
+       "Te reto con un caso: Anuria: diagnóstico diferencial"
       ]
      ],
      "defeat": [
@@ -691,7 +747,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -748,6 +804,53 @@
       [
        "SMART",
        "Balanceados: menos eventos renales"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "KDIGO estadio 3",
+       "Cr ×3, ≥4 mg/dL o TRR"
+      ],
+      [
+       "FENa <1%",
+       "Prerrenal (sin diurético)"
+      ],
+      [
+       "FEUrea <35%",
+       "Prerrenal con diurético"
+      ],
+      [
+       "Síndrome hepatorrenal",
+       "Terlipresina + albúmina"
+      ],
+      [
+       "Lisis tumoral",
+       "Rasburicasa + hidratación"
+      ],
+      [
+       "Rabdomiólisis",
+       "CK >5000, mioglobinuria"
+      ],
+      [
+       "Nefropatía aguda por fosfato",
+       "Purgas de fosfato de sodio"
+      ],
+      [
+       "NGAL",
+       "Biomarcador de daño tubular"
+      ],
+      [
+       "STARRT-AKI",
+       "TRR acelerada sin beneficio en mortalidad"
+      ],
+      [
+       "TRR urgente",
+       "AEIOU refractario"
       ]
      ]
     }
@@ -899,6 +1002,38 @@
   {
    "title": "Prueba de estrés con furosemida",
    "text": "1 mg/kg (1.5 si exposición previa); diuresis <200 mL en 2 h predice progresión a estadio 3."
+  },
+  {
+   "title": "💎 Congestión venosa y VEXUS",
+   "text": "VEXUS (VCI >2 cm): grado 1 (leve): patrones normales o levemente anormales; grado 2: un patrón severo; grado 3: ≥2 patrones severos. Severos: onda S invertida, PVPF ≥50%, flujo intrarrenal solo diastólico. Moderados/leves: S<D, PVPF 30-49%, flujo intrarrenal bifásico."
+  },
+  {
+   "title": "💎 Momento de inicio de TRR",
+   "text": "TRR temprana no es superior. Indicaciones urgentes: K refractaria, pH <7.15, sobrecarga con compromiso respiratorio, pericarditis/encefalopatía urémica, intoxicación dializable."
+  },
+  {
+   "title": "💎 Prescripción de TRRC",
+   "text": "TRRC: prescribir 25-30 mL/kg/h → entregar 20-25. Citrato regional > heparina si no hay contraindicación. Vigilar Ca total/iónico >2.5 (acumulación)."
+  },
+  {
+   "title": "💎 Resistencia a diuréticos y sobrecarga re",
+   "text": "Resistencia a diuréticos: infusión + bloqueo secuencial (tiazida/metolazona, acetazolamida). Sobrecarga refractaria con hipoxemia → TRR con UF neta (CRRT si inestable)."
+  },
+  {
+   "title": "💎 Prueba de estrés con furosemide",
+   "text": "FST: furosemide 1 mg/kg (naïve) o 1.5 mg/kg (previo) → diuresis <200 mL a las 2 h predice LRA 3. Seguridad: contraindicada en alergia, depleción de volumen."
+  },
+  {
+   "title": "💎 LRA: prerrenal vs necrosis tubular con d",
+   "text": "Con diurético: usar FeUrea (<35% prerrenal, >50% NTA). FeNa <1% prerrenal, >2% NTA (sin diuréticos). Sedimento: cilindros hialinos (prerrenal) vs granulosos marrón-turbio (NTA). Johnson 7.ª ed. cap. 72: FENa <1% prerrenal y >3% típica de NTA; FEurea <35% prerrenal y >35% NTA (otras fuentes usan >50%)."
+  },
+  {
+   "title": "💎 Prueba de estrés con furosemida",
+   "text": "FST: furosemida 1 mg/kg (1.5 si exposición previa); diuresis <200 mL/2 h predice LRA grado 3/TRR (S 87%, E 84%)."
+  },
+  {
+   "title": "💎 Paquete KDIGO de prevención guiado por b",
+   "text": "PrevAKI: TIMP-2·IGFBP7 ≥0.3 + paquete KDIGO (evitar nefrotóxicos, volumen/perfusión, glucemia, vigilar Cr y diuresis) ↓LRA (≈55% vs 72%). Dopamina, furosemida, fenoldopam, manitol: sin beneficio."
   }
  ]
 }

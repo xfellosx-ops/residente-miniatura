@@ -219,7 +219,7 @@
      "id": "t0_0",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "FLU",
+     "serie": "NEU-1",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -230,6 +230,46 @@
       [
        "Dr. Rocco Filo",
        "¿Dónde se queda cada solución? Nunca lo había pensado."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "OSM",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Te reto con un caso: Osmolalidad efectiva y sodio corregido en hiperglucemia"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "FLU",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Agua corporal total y distribución en compartimentos"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
       ]
      ],
      "questionTopics": [],
@@ -281,6 +321,45 @@
       [
        "Salina 3 %",
        "Saca agua de la célula"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Agua corporal total",
+       "~60% del peso (H) / 50% (M)"
+      ],
+      [
+       "Osmolalidad plasmática",
+       "2Na + Glu/18 + BUN/2.8"
+      ],
+      [
+       "Brecha osmolar >10",
+       "Metanol, etilenglicol"
+      ],
+      [
+       "Agua intracelular",
+       "~2/3 del agua corporal total"
+      ],
+      [
+       "Fuerzas de Starling",
+       "Hidrostática vs oncótica"
+      ],
+      [
+       "Sed",
+       "Osmorreceptores hipotalámicos"
+      ],
+      [
+       "ADH no osmótica",
+       "Barorreceptores ante ↓volumen efectivo"
+      ],
+      [
+       "Volumen circulante efectivo",
+       "Gobierna retención de Na (ICC, cirrosis)"
       ]
      ]
     }
@@ -370,7 +449,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "BAL",
+     "serie": "STA-1",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -381,6 +460,46 @@
       [
        "Dra. Sístole Ruiz",
        "Volumen arterial efectivo… por eso mi paciente no orinaba."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "TUR",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Osmolalidad medida, calculada y brecha osmolal en la hiponatremia"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "BAL",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Hiponatremia con orina diluida: ingesta baja de solutos"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
       ]
      ],
      "questionTopics": [],
@@ -484,7 +603,7 @@
      "Compartimentos"
     ],
     "questions": [
-     "OSM-1"
+     "NEW-3-1"
     ]
    },
    {
@@ -500,7 +619,7 @@
      "Sensores"
     ],
     "questions": [
-     "OSM-2"
+     "NEW-3-2"
     ]
    },
    {
@@ -516,7 +635,7 @@
      "Edema"
     ],
     "questions": [
-     "OSM-3"
+     "OSM-4"
     ]
    },
    {
@@ -532,7 +651,7 @@
      "Conducta"
     ],
     "questions": [
-     "TUR-3"
+     "ESC-1"
     ]
    }
   ]
@@ -548,6 +667,38 @@
   {
    "title": "Capilar de Starling",
    "text": "Edema = Starling alterado + retención renal de sodio. Cirrosis e IC: volumen arterial efectivo bajo → SRAA/ADH pese a exceso de volumen total."
+  },
+  {
+   "title": "💎 Balance de sodio y fuerzas de Starling e",
+   "text": "Edema nefrótico: underfill (volumen efectivo bajo, renina alta, más en niños con ECM) vs overfill (retención primaria por ENaC activado por plasmina, renina baja). Amilorida + asa."
+  },
+  {
+   "title": "💎 Volemia efectiva en insuficiencia cardia",
+   "text": "IC y cirrosis: ACT y LEC ↑ pero volumen circulante efectivo ↓ → SRAA, simpático y ADH → FENa baja e hiponatremia hipervolémica."
+  },
+  {
+   "title": "💎 Tonicidad: urea frente a glucosa",
+   "text": "Urea y glucosa cruzan membranas celulares y no estimulan la AVP en condiciones normales; sin insulina, la glucosa sí es osmol efectivo. Hipertónicos: salina y manitol (Johnson cap. 9)."
+  },
+  {
+   "title": "💎 Escape mineralocorticoide: HTA sin edema",
+   "text": "Escape: ↑TFG + ↑presión de perfusión renal → ↓reabsorción proximal, ↓NCC, ↑ANP → natriuresis. En IC no hay escape porque la presión de perfusión y la entrega distal están bajas."
+  },
+  {
+   "title": "💎 Edema nefrótico: subllenado frente a sob",
+   "text": "Nefrótico: subllenado (cambios mínimos, alb <2, hipotensión, LRA) vs sobrellenado (GN inflamatoria, HTA, renina baja). Plasmina filtrada activa ENaC → amilorida. Natriuresis en remisión antes de subir la albúmina."
+  },
+  {
+   "title": "💎 Distribución de líquidos infundidos",
+   "text": "1 L de salina: 1/4–1/3 intravascular (Johnson: 1/3). D5W: ~80 mL. Coloide: casi todo, salvo fuga capilar. Johnson cap. 8: coloides sin ventaja (SAFE); evitar almidón (HES) en sepsis; balanceadas mejor que salina (SMART)."
+  },
+  {
+   "title": "💎 Osmolalidad efectiva y sodio corregido e",
+   "text": "Osm efectiva = 2Na + glucosa/18 (urea no cuenta). Na corregido = Na + 1.6 (a 2.4) por cada 100 mg/dL de glucosa sobre 100."
+  },
+  {
+   "title": "💎 Distribución de líquidos en los comparti",
+   "text": "1 L D5W → 667 mL ICF / 333 mL ECF (~83 mL intravascular). 1 L NaCl 0.9% → todo ECF (~250 mL intravascular)."
   }
  ]
 }

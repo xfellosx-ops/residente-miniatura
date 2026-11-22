@@ -219,7 +219,7 @@
      "id": "t0_0",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "ETA",
+     "serie": "NEW-2-2",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -233,22 +233,42 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t0_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "REN",
+     "serie": "ETA",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Regulación de la liberación de renina y efecto de los fármacos"
+       "Te reto con un caso: Sistema de endotelina: receptores ETA y ETB y daño glomerular"
       ]
      ],
      "defeat": [
       [
        "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "REN",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Te reto con un caso: Regulación de la liberación de renina y efecto de los fármacos"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
        "Bien razonado. Sigue tu camino."
       ]
      ],
@@ -298,6 +318,45 @@
       "ENaC: retiene sodio, pierde potasio"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "FGF23",
+       "Fosfaturia y ↓calcitriol (requiere Klotho)"
+      ],
+      [
+       "EPO",
+       "Fibroblastos peritubulares, regulada por HIF"
+      ],
+      [
+       "1α-hidroxilasa",
+       "TCP: 25(OH)D → 1,25(OH)₂D"
+      ],
+      [
+       "ADH",
+       "Receptor V2 → AQP2 en colector"
+      ],
+      [
+       "Aldosterona",
+       "↑ENaC y secreción de K⁺/H⁺"
+      ],
+      [
+       "Péptido natriurético",
+       "Natriuresis, inhibe renina"
+      ],
+      [
+       "Renina",
+       "Células yuxtaglomerulares (aferente)"
+      ],
+      [
+       "PTH",
+       "↑Reabsorción de Ca en TCD, fosfaturia"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -385,7 +444,7 @@
      "id": "t1_0",
      "cast": "uti",
      "specialty": "Terapia Intensiva",
-     "serie": "NAT",
+     "serie": "NEW-2-3",
      "intro": [
       [
        "Dr. Max Presor",
@@ -399,22 +458,42 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "HPI",
+     "serie": "NAT",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Eje HIF-EPO: mecanismo de los inhibidores de prolil-hidroxilasa"
+       "Te reto con un caso: Péptidos natriuréticos en la ERC"
       ]
      ],
      "defeat": [
       [
        "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "HPI",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Te reto con un caso: Eje HIF-EPO: mecanismo de los inhibidores de prolil-hidroxilasa"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
        "Bien razonado. Sigue tu camino."
       ]
      ],
@@ -569,7 +648,7 @@
      "id": "t2_0",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "PTV",
+     "serie": "AVP",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -580,6 +659,26 @@
       [
        "Dr. Anselmo Frágil",
        "¿25 y 1,25 no son lo mismo? Con razón no me cuadraban los labs."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "PTV",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Acciones renales de la PTH"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
       ]
      ],
      "questionTopics": [],
@@ -732,7 +831,7 @@
      "Bloqueo farmacológico"
     ],
     "questions": [
-     "AVP-1"
+     "NEW-2-1"
     ]
    }
   ]
@@ -752,6 +851,38 @@
   {
    "title": "Ruinas del Hueso",
    "text": "ERC-MBD temprana: ↓Klotho → ↑FGF23 → ↓calcitriol → ↑PTH → ↑fósforo (tardío). FGF23: fosfatúrico, inhibe 1α-hidroxilasa."
+  },
+  {
+   "title": "💎 Resistencia de la paratiroides al FGF23",
+   "text": "ERC avanzada: paratiroides resistente al FGF23 (↓klotho/FGFR1), además de ↓VDR y ↓CaSR → HPT secundario refractario."
+  },
+  {
+   "title": "💎 FGF23 como primer marcador alterado en E",
+   "text": "Primer cambio de la ERC-TMO: ↑FGF23 (antes que ↑PTH y ↑P). Mantiene P normal con fosfaturia vía NaPi-IIa/c, a costa de ↓calcitriol."
+  },
+  {
+   "title": "💎 FGF23 y metabolismo de la vitamina D",
+   "text": "ERC: ↓masa tubular + ↑FGF23 → ↓calcitriol → ↓absorción de Ca → ↑PTH. Hiperfosfatemia y ↓klotho aceleran el hiperparatiroidismo secundario."
+  },
+  {
+   "title": "💎 SRAA: efecto hemodinámico de los IECA so",
+   "text": "IECA/ARA II: ↑Cr hasta 30% en 2–4 semanas es aceptable (vasodilatación eferente). >30%: buscar hipovolemia, AINE, estenosis renal bilateral."
+  },
+  {
+   "title": "💎 Producción renal de eritropoyetina",
+   "text": "EPO: fibroblastos peritubulares (corteza/médula externa), regulada por pO₂ tisular vía HIF-2α. ERC: ↓EPO, anemia normocítica hipoproliferativa."
+  },
+  {
+   "title": "💎 Vasopresina, osmorregulación y trastorno",
+   "text": "DI nefrogénica por litio: copeptina alta, desmopresina con respuesta <10–20%. Mecanismo: litio por ENaC → ↓AQP2. Tratamiento: amilorida, tiazida, dieta baja en sodio y solutos."
+  },
+  {
+   "title": "💎 FGF23, klotho, vitamina D y PTH en la ER",
+   "text": "Secuencia CKD-MBD: ↑FGF23 y ↓klotho (temprano) → ↓calcitriol → ↑PTH → hiperfosfatemia (tardía)."
+  },
+  {
+   "title": "💎 Endotelina, péptidos natriuréticos y pro",
+   "text": "Sparsentan = antagonista dual ETA + AT1 (PROTECT). Endotelina-1: vasoconstricción, daño podocitario y fibrosis. Efectos adversos: edema; teratogénico."
   }
  ]
 }

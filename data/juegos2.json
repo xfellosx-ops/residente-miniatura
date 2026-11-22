@@ -1,0 +1,809 @@
+{
+"clasif": [
+{
+"tid": 16,
+"t": "Tubulopatías con hipokalemia",
+"bins": [
+"Bartter",
+"Gitelman",
+"Liddle"
+],
+"items": [
+[
+"Hipercalciuria",
+"Bartter"
+],
+[
+"Hipocalciuria",
+"Gitelman"
+],
+[
+"Hipomagnesemia marcada",
+"Gitelman"
+],
+[
+"Hipertensión arterial",
+"Liddle"
+],
+[
+"Renina y aldosterona suprimidas",
+"Liddle"
+],
+[
+"Defecto en NKCC2/ROMK/CLC-Kb",
+"Bartter"
+],
+[
+"Defecto en NCC (SLC12A3)",
+"Gitelman"
+],
+[
+"Responde a amilorida",
+"Liddle"
+],
+[
+"Inicio neonatal con polihidramnios",
+"Bartter"
+],
+[
+"Imita uso crónico de tiazida",
+"Gitelman"
+]
+]
+},
+{
+"tid": 16,
+"t": "Acidosis tubular renal",
+"bins": [
+"ATR 1 (distal)",
+"ATR 2 (proximal)",
+"ATR 4"
+],
+"items": [
+[
+"pH urinario > 5.5 siempre",
+"ATR 1 (distal)"
+],
+[
+"Nefrocalcinosis y litiasis",
+"ATR 1 (distal)"
+],
+[
+"Síndrome de Fanconi",
+"ATR 2 (proximal)"
+],
+[
+"FE de HCO₃ > 15% al corregir",
+"ATR 2 (proximal)"
+],
+[
+"Hiperkalemia",
+"ATR 4"
+],
+[
+"Hipoaldosteronismo hiporreninémico (DM)",
+"ATR 4"
+],
+[
+"Requiere dosis altas de álcali",
+"ATR 2 (proximal)"
+],
+[
+"Síndrome de Sjögren",
+"ATR 1 (distal)"
+],
+[
+"Tenofovir, ifosfamida",
+"ATR 2 (proximal)"
+],
+[
+"Trimetoprim, IECA, heparina",
+"ATR 4"
+]
+]
+},
+{
+"tid": 5,
+"t": "Sedimento urinario",
+"bins": [
+"Glomerular",
+"Tubular",
+"Intersticial/infeccioso"
+],
+"items": [
+[
+"Cilindros eritrocitarios",
+"Glomerular"
+],
+[
+"Acantocitos > 5%",
+"Glomerular"
+],
+[
+"Cilindros granulosos pardos",
+"Tubular"
+],
+[
+"Células epiteliales tubulares",
+"Tubular"
+],
+[
+"Cilindros leucocitarios",
+"Intersticial/infeccioso"
+],
+[
+"Eosinofiluria",
+"Intersticial/infeccioso"
+],
+[
+"Cuerpos ovales grasos",
+"Glomerular"
+],
+[
+"Piuria con bacterias",
+"Intersticial/infeccioso"
+]
+]
+},
+{
+"tid": 9,
+"t": "Nefrítico vs nefrótico",
+"bins": [
+"Nefrítico",
+"Nefrótico"
+],
+"items": [
+[
+"Hematuria dismórfica",
+"Nefrítico"
+],
+[
+"Proteinuria > 3.5 g/d",
+"Nefrótico"
+],
+[
+"Hipoalbuminemia < 3 g/dL",
+"Nefrótico"
+],
+[
+"Hipertensión y oliguria",
+"Nefrítico"
+],
+[
+"Hiperlipidemia y lipiduria",
+"Nefrótico"
+],
+[
+"Cilindros eritrocitarios",
+"Nefrítico"
+],
+[
+"Cambios mínimos",
+"Nefrótico"
+],
+[
+"Postinfecciosa",
+"Nefrítico"
+],
+[
+"Membranosa",
+"Nefrótico"
+],
+[
+"Vasculitis ANCA",
+"Nefrítico"
+]
+]
+},
+{
+"tid": 9,
+"t": "Complemento en GN",
+"bins": [
+"C3 bajo",
+"Complemento normal"
+],
+"items": [
+[
+"Postinfecciosa",
+"C3 bajo"
+],
+[
+"Nefritis lúpica clase IV",
+"C3 bajo"
+],
+[
+"Glomerulopatía C3",
+"C3 bajo"
+],
+[
+"Crioglobulinemia (VHC)",
+"C3 bajo"
+],
+[
+"Nefropatía IgA",
+"Complemento normal"
+],
+[
+"Vasculitis ANCA",
+"Complemento normal"
+],
+[
+"Anti-MBG",
+"Complemento normal"
+],
+[
+"Endocarditis / nefritis de shunt",
+"C3 bajo"
+]
+]
+},
+{
+"tid": 6,
+"t": "LRA prerrenal vs NTA",
+"bins": [
+"Prerrenal",
+"NTA"
+],
+"items": [
+[
+"FENa < 1%",
+"Prerrenal"
+],
+[
+"Osm urinaria > 500",
+"Prerrenal"
+],
+[
+"Na urinario > 40",
+"NTA"
+],
+[
+"Cilindros granulosos pardos",
+"NTA"
+],
+[
+"BUN/Cr > 20",
+"Prerrenal"
+],
+[
+"Osm urinaria ~300 (isostenuria)",
+"NTA"
+],
+[
+"Responde a volumen en 24–72 h",
+"Prerrenal"
+],
+[
+"FEUrea > 50%",
+"NTA"
+]
+]
+},
+{
+"tid": 25,
+"t": "Acidosis metabólica",
+"bins": [
+"Brecha aniónica alta",
+"Brecha normal"
+],
+"items": [
+[
+"Cetoacidosis",
+"Brecha aniónica alta"
+],
+[
+"Diarrea",
+"Brecha normal"
+],
+[
+"Metanol / etilenglicol",
+"Brecha aniónica alta"
+],
+[
+"ATR distal",
+"Brecha normal"
+],
+[
+"Acidosis láctica",
+"Brecha aniónica alta"
+],
+[
+"Ureterosigmoidostomía",
+"Brecha normal"
+],
+[
+"5-oxoprolina (paracetamol)",
+"Brecha aniónica alta"
+],
+[
+"Solución salina masiva",
+"Brecha normal"
+],
+[
+"Uremia avanzada",
+"Brecha aniónica alta"
+],
+[
+"Acetazolamida",
+"Brecha normal"
+]
+]
+},
+{
+"tid": 24,
+"t": "Hiponatremia hipotónica",
+"bins": [
+"SIADH",
+"Pérdida cerebral de sal",
+"Polidipsia/potomanía"
+],
+"items": [
+[
+"Euvolemia, ácido úrico bajo que persiste al corregir Na",
+"Pérdida cerebral de sal"
+],
+[
+"Uosm < 100 mOsm/kg",
+"Polidipsia/potomanía"
+],
+[
+"Euvolemia, Uosm > 100, UNa > 30",
+"SIADH"
+],
+[
+"Hipovolemia con UNa alto tras HSA",
+"Pérdida cerebral de sal"
+],
+[
+"Cerveza y poca proteína",
+"Polidipsia/potomanía"
+],
+[
+"Se trata con restricción hídrica, urea, vaptanes",
+"SIADH"
+],
+[
+"Se trata con reposición de volumen y sodio",
+"Pérdida cerebral de sal"
+],
+[
+"Carcinoma pulmonar de células pequeñas",
+"SIADH"
+]
+]
+},
+{
+"tid": 21,
+"t": "Rechazo del injerto",
+"bins": [
+"TCMR",
+"AMR"
+],
+"items": [
+[
+"Tubulitis",
+"TCMR"
+],
+[
+"Capilaritis peritubular",
+"AMR"
+],
+[
+"C4d en capilares peritubulares",
+"AMR"
+],
+[
+"Anticuerpos donante-específicos",
+"AMR"
+],
+[
+"Inflamación intersticial (i)",
+"TCMR"
+],
+[
+"Glomerulitis (g)",
+"AMR"
+],
+[
+"Pulsos de metilprednisolona de primera línea",
+"TCMR"
+],
+[
+"Plasmaféresis + IVIG",
+"AMR"
+],
+[
+"Glomerulopatía del trasplante (cg)",
+"AMR"
+],
+[
+"Arteritis intimal (v) sin DSA",
+"TCMR"
+]
+]
+},
+{
+"tid": 19,
+"t": "Remoción de solutos",
+"bins": [
+"Difusión",
+"Convección"
+],
+"items": [
+[
+"Urea",
+"Difusión"
+],
+[
+"β2-microglobulina",
+"Convección"
+],
+[
+"Potasio",
+"Difusión"
+],
+[
+"Hemofiltración",
+"Convección"
+],
+[
+"Depende del gradiente de concentración",
+"Difusión"
+],
+[
+"Depende del flujo de ultrafiltración",
+"Convección"
+],
+[
+"Hemodiálisis convencional de bajo flujo",
+"Difusión"
+],
+[
+"Hemodiafiltración en línea",
+"Convección"
+]
+]
+},
+{
+"tid": 12,
+"t": "Tipo de cálculo",
+"bins": [
+"Oxalato/fosfato de Ca",
+"Ácido úrico",
+"Estruvita",
+"Cistina"
+],
+"items": [
+[
+"pH urinario < 5.5 persistente",
+"Ácido úrico"
+],
+[
+"Proteus productor de ureasa",
+"Estruvita"
+],
+[
+"Cristal hexagonal",
+"Cistina"
+],
+[
+"Radiolúcido en placa simple",
+"Ácido úrico"
+],
+[
+"Coraliforme con pH > 7",
+"Estruvita"
+],
+[
+"Hipercalciuria idiopática",
+"Oxalato/fosfato de Ca"
+],
+[
+"Tiopronina",
+"Cistina"
+],
+[
+"Bypass gástrico",
+"Oxalato/fosfato de Ca"
+],
+[
+"Alcalinizar a pH 6–6.5 y disolver",
+"Ácido úrico"
+]
+]
+},
+{
+"tid": 25,
+"t": "Alcalosis metabólica por cloro urinario",
+"bins": [
+"Cl urinario <20",
+"Cl urinario >20 con PA normal o baja",
+"Cl urinario >20 con HTA"
+],
+"items": [
+[
+"Vómito o succión nasogástrica",
+"Cl urinario <20"
+],
+[
+"Diurético que ya se suspendió",
+"Cl urinario <20"
+],
+[
+"Alcalosis poshipercápnica",
+"Cl urinario <20"
+],
+[
+"Diurético tomado hoy",
+"Cl urinario >20 con PA normal o baja"
+],
+[
+"Síndrome de Gitelman",
+"Cl urinario >20 con PA normal o baja"
+],
+[
+"Síndrome de Bartter",
+"Cl urinario >20 con PA normal o baja"
+],
+[
+"Hiperaldosteronismo primario",
+"Cl urinario >20 con HTA"
+],
+[
+"Síndrome de Liddle",
+"Cl urinario >20 con HTA"
+],
+[
+"Regaliz",
+"Cl urinario >20 con HTA"
+]
+]
+},
+{
+"tid": 24,
+"t": "Hiponatremia hipotónica por volemia",
+"bins": [
+"Hipovolémica",
+"Euvolémica",
+"Hipervolémica"
+],
+"items": [
+[
+"Vómito con Na urinario bajo",
+"Hipovolémica"
+],
+[
+"Tiazida",
+"Hipovolémica"
+],
+[
+"Insuficiencia suprarrenal primaria",
+"Hipovolémica"
+],
+[
+"Pérdida cerebral de sal",
+"Hipovolémica"
+],
+[
+"SIADH por carcinoma pulmonar",
+"Euvolémica"
+],
+[
+"Hipotiroidismo grave",
+"Euvolémica"
+],
+[
+"Insuficiencia suprarrenal secundaria",
+"Euvolémica"
+],
+[
+"Potomanía de cerveza",
+"Euvolémica"
+],
+[
+"Insuficiencia cardiaca",
+"Hipervolémica"
+],
+[
+"Cirrosis con ascitis",
+"Hipervolémica"
+],
+[
+"ERC avanzada con exceso de agua",
+"Hipervolémica"
+]
+]
+},
+{
+"tid": 24,
+"t": "Poliuria hipotónica: prueba de privación",
+"bins": [
+"DI central completa",
+"DI central parcial",
+"DI nefrogénica",
+"Polidipsia primaria"
+],
+"items": [
+[
+"Uosm 250 tras privación; 600 con DDAVP",
+"DI central completa"
+],
+[
+"Uosm 420 tras privación; 480 con DDAVP",
+"DI central parcial"
+],
+[
+"Uosm 200 tras privación; 210 con DDAVP",
+"DI nefrogénica"
+],
+[
+"Uosm 650 tras privación; 670 con DDAVP",
+"Polidipsia primaria"
+],
+[
+"Copeptina basal 30 pmol/L",
+"DI nefrogénica"
+],
+[
+"Copeptina estimulada con 3% de 8 pmol/L",
+"Polidipsia primaria"
+],
+[
+"Litio crónico",
+"DI nefrogénica"
+],
+[
+"Posoperatorio de hipófisis",
+"DI central completa"
+],
+[
+"Paciente con esquizofrenia y Na 131",
+"Polidipsia primaria"
+]
+]
+}
+],
+"orden": [
+{
+"tid": 24,
+"t": "Hiperkalemia con cambios en ECG",
+"s": [
+"ECG y monitorización",
+"Gluconato de calcio IV (estabilizar membrana)",
+"Insulina + glucosa IV (redistribuir)",
+"β2-agonista nebulizado",
+"Eliminar K⁺: diurético, quelante o hemodiálisis",
+"Buscar y retirar la causa (fármacos, dieta)"
+]
+},
+{
+"tid": 24,
+"t": "Abordaje de hiponatremia",
+"s": [
+"Confirmar hipotonicidad (Osm plasmática)",
+"Valorar síntomas graves → salina hipertónica",
+"Osmolalidad urinaria",
+"Estado de volumen",
+"Na urinario",
+"Causa específica y tratamiento dirigido"
+]
+},
+{
+"tid": 25,
+"t": "Análisis ácido-base",
+"s": [
+"Validar la gasometría y ver el pH",
+"Identificar el trastorno primario",
+"Verificar la compensación esperada (Winter, etc.)",
+"Calcular la brecha aniónica corregida por albúmina",
+"Si BA alta: delta/delta",
+"Integrar con la clínica"
+]
+},
+{
+"tid": 6,
+"t": "Evaluación de LRA",
+"s": [
+"Confirmar y estadificar (KDIGO)",
+"Valorar volumen y suspender nefrotóxicos",
+"Ecografía renal (descartar obstrucción)",
+"EGO con sedimento",
+"Índices urinarios (FENa/FEUrea)",
+"Biopsia si la causa no es clara"
+]
+},
+{
+"tid": 9,
+"t": "Vasculitis ANCA con GN",
+"s": [
+"Sospecha: GN rápidamente progresiva",
+"ANCA (MPO/PR3) y anti-MBG",
+"Biopsia renal",
+"Inducción: glucocorticoide + rituximab o ciclofosfamida (± avacopan)",
+"Mantenimiento con rituximab",
+"Vigilar recaída e infecciones"
+]
+},
+{
+"tid": 20,
+"t": "Peritonitis en DP",
+"s": [
+"Efluente turbio o dolor abdominal",
+"Citología, Gram y cultivo del efluente",
+"Antibiótico empírico intraperitoneal (Gram+ y Gram−)",
+"Ajustar según cultivo",
+"Sin respuesta a 5 días → retirar catéter"
+]
+},
+{
+"tid": 21,
+"t": "Disfunción del injerto",
+"s": [
+"Ascenso de creatinina confirmado",
+"Volumen, fármacos y niveles de tacrolimus",
+"Ecografía Doppler del injerto",
+"DSA y PCR de BK",
+"Biopsia del injerto",
+"Tratamiento según Banff"
+]
+},
+{
+"tid": 14,
+"t": "ADPKD y tolvaptán",
+"s": [
+"Diagnóstico por imagen (criterios de Pei/Ravine)",
+"Volumen renal total por RM o TC",
+"Clasificación de Mayo",
+"Clases 1C–1E: rápida progresión",
+"Tolvaptán con vigilancia de PFH"
+]
+},
+{
+"tid": 13,
+"t": "Pielonefritis complicada",
+"s": [
+"Urocultivo y hemocultivos",
+"Antibiótico empírico IV",
+"Imagen si no mejora en 48–72 h",
+"Drenar obstrucción o absceso",
+"Ajustar y completar el esquema"
+]
+},
+{
+"tid": 25,
+"t": "Abordaje de la alcalosis metabólica",
+"s": [
+"Confirmar HCO3 alto y pH alcalino",
+"Verificar compensación: pCO2 ≈ HCO3 + 10",
+"Evaluar volumen y presión arterial",
+"Medir cloro urinario",
+"Si HTA: renina y aldosterona",
+"Tratar: NaCl y KCl, acetazolamida o bloqueo según la causa"
+]
+},
+{
+"tid": 24,
+"t": "Corrección segura de hiponatremia crónica",
+"s": [
+"Definir síntomas y cronicidad",
+"Bolo de NaCl 3% si hay síntomas moderados o graves",
+"Fijar límite: ≤12 en 24 h y ≤18 en 48 h (8 si alto riesgo)",
+"Medir sodio cada 2 a 4 h y la diuresis",
+"Si hay acuaresis: desmopresina ± D5W",
+"Si se rebasa el límite: re-bajar con D5W y desmopresina"
+]
+},
+{
+"tid": 24,
+"t": "Abordaje de la hipernatremia",
+"s": [
+"Evaluar el volumen extracelular",
+"Si hay hipovolemia: salina isotónica primero",
+"Calcular el déficit de agua libre",
+"Sumar pérdidas continuas con agua libre de electrolitos",
+"Reponer con D5W o agua enteral en unas 48 h",
+"Tratar la causa: desmopresina, retirar diurético o soluto"
+]
+}
+]
+}

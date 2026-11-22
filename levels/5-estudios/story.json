@@ -331,6 +331,50 @@
        "Aumenta la producción"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Sedimento urinario",
+     "bins": [
+      "Glomerular",
+      "Tubular",
+      "Intersticial/infeccioso"
+     ],
+     "items": [
+      [
+       "Cilindros eritrocitarios",
+       "Glomerular"
+      ],
+      [
+       "Acantocitos > 5%",
+       "Glomerular"
+      ],
+      [
+       "Cilindros granulosos pardos",
+       "Tubular"
+      ],
+      [
+       "Células epiteliales tubulares",
+       "Tubular"
+      ],
+      [
+       "Cilindros leucocitarios",
+       "Intersticial/infeccioso"
+      ],
+      [
+       "Eosinofiluria",
+       "Intersticial/infeccioso"
+      ],
+      [
+       "Cuerpos ovales grasos",
+       "Glomerular"
+      ],
+      [
+       "Piuria con bacterias",
+       "Intersticial/infeccioso"
+      ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -546,6 +590,53 @@
       [
        "Hialino",
        "Inespecífico, deshidratación"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "CKD-EPI 2021",
+       "Ecuación sin coeficiente racial"
+      ],
+      [
+       "Cistatina C",
+       "Independiente de masa muscular"
+      ],
+      [
+       "Cilindros eritrocitarios",
+       "Glomerulonefritis"
+      ],
+      [
+       "Cilindros granulosos pardos",
+       "Necrosis tubular aguda"
+      ],
+      [
+       "Cilindros leucocitarios",
+       "Pielonefritis / NTI"
+      ],
+      [
+       "Acantocitos",
+       "Hematuria glomerular"
+      ],
+      [
+       "RAC 30–300 mg/g",
+       "Albuminuria A2"
+      ],
+      [
+       "Proteinuria nefrótica",
+       "> 3.5 g/24 h"
+      ],
+      [
+       "Cristales en sobre",
+       "Oxalato de Ca dihidratado"
+      ],
+      [
+       "Contraindicación de biopsia",
+       "Coagulopatía o HTA no controlada"
       ]
      ]
     }
@@ -863,6 +954,38 @@
   {
    "title": "Sala de Imagen y Biopsia",
    "text": "Biopsia: indicación que cambie conducta; contraindicada con sangrado no corregido, HTA descontrolada, infección, riñones pequeños. ≥10 glomérulos; LM + IF + ME."
+  },
+  {
+   "title": "💎 Proteinuria no albuminúrica: discordanci",
+   "text": "Tira (-) + RAC baja + PCR alta + SSA (+) = proteinuria no albuminúrica: cadenas ligeras (mieloma)."
+  },
+  {
+   "title": "💎 Estratificación de riesgo por TFG y albu",
+   "text": "ERC: >3 meses de TFG <60 o daño (albuminuria ≥30 mg/g). G2A2 en DM: IECA/ARA II (A2–A3) + iSGLT2 (TFGe ≥20) ± finerenona. Proteína ~0.8 g/kg/d."
+  },
+  {
+   "title": "💎 Rango nefrótico y tipos de proteinuria",
+   "text": "Rango nefrótico adulto: >3.5 g/24 h o PCR >3–3.5 g/g. En DM, hematuria dismórfica/cilindros, sin retinopatía o inicio rápido → biopsia (¿NDRD?)."
+  },
+  {
+   "title": "💎 Estudio inicial de gammapatía monoclonal",
+   "text": "Sospecha de mieloma: CLL séricas (κ/λ) + inmunofijación sérica y urinaria + médula ósea + imagen ósea. EPS sola no basta."
+  },
+  {
+   "title": "💎 Resonancia magnética y gadolinio en ERC",
+   "text": "Gadolinio: NSF si TFG <30, sobre todo grupo I lineal. Grupo II macrocíclico: riesgo muy bajo, usar si es necesario. RM ≠ siempre preferible a TC."
+  },
+  {
+   "title": "💎 Lesión quística compleja con ERC avanzad",
+   "text": "Quiste complejo + contraste yodado contraindicado: ecografía con contraste (S 95%, E 79%). TC con contraste = referencia (S 90%, E 85%)."
+  },
+  {
+   "title": "💎 Adecuación de la recolección de orina de",
+   "text": "24 h completa: creatinina 20–25 mg/kg/día (varón), 15–20 (mujer). Preferir PCR/RAC en muestra aislada."
+  },
+  {
+   "title": "💎 Criterios de referencia a nefrología",
+   "text": "Referir: TFGe <30, CAC ≥300 mg/g, caída >25% + cambio de categoría o >5/año, hematuria + proteinuria, HTA resistente, alteraciones electrolíticas, litiasis recurrente, hereditaria, KFRE 5 años 3–5%."
   }
  ]
 }

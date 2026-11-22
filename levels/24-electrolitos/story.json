@@ -264,11 +264,11 @@
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "HMM",
+     "serie": "WDT-1",
      "intro": [
       [
        "Dr. Rocco Filo",
-       "Te reto con un caso: Hipercalcemia de la malignidad: mecanismos"
+       "Te reto con un caso: Prueba de privación de agua: interpretación"
       ]
      ],
      "defeat": [
@@ -278,7 +278,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
     }
    ],
    "wild": [
@@ -321,6 +321,76 @@
       "Sodio urinario y volumen",
       "Tratar la causa",
       "Vigilar el ritmo de corrección"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Hiponatremia hipotónica",
+     "bins": [
+      "SIADH",
+      "Pérdida cerebral de sal",
+      "Polidipsia/potomanía"
+     ],
+     "items": [
+      [
+       "Euvolemia, ácido úrico bajo que persiste al corregir Na",
+       "Pérdida cerebral de sal"
+      ],
+      [
+       "Uosm < 100 mOsm/kg",
+       "Polidipsia/potomanía"
+      ],
+      [
+       "Euvolemia, Uosm > 100, UNa > 30",
+       "SIADH"
+      ],
+      [
+       "Hipovolemia con UNa alto tras HSA",
+       "Pérdida cerebral de sal"
+      ],
+      [
+       "Cerveza y poca proteína",
+       "Polidipsia/potomanía"
+      ],
+      [
+       "Se trata con restricción hídrica, urea, vaptanes",
+       "SIADH"
+      ],
+      [
+       "Se trata con reposición de volumen y sodio",
+       "Pérdida cerebral de sal"
+      ],
+      [
+       "Carcinoma pulmonar de células pequeñas",
+       "SIADH"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Hiperkalemia con cambios en ECG",
+     "items": [
+      "ECG y monitorización",
+      "Gluconato de calcio IV (estabilizar membrana)",
+      "Insulina + glucosa IV (redistribuir)",
+      "β2-agonista nebulizado",
+      "Eliminar K⁺: diurético, quelante o hemodiálisis",
+      "Buscar y retirar la causa (fármacos, dieta)"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Abordaje de la hipernatremia",
+     "items": [
+      "Evaluar el volumen extracelular",
+      "Si hay hipovolemia: salina isotónica primero",
+      "Calcular el déficit de agua libre",
+      "Sumar pérdidas continuas con agua libre de electrolitos",
+      "Reponer con D5W o agua enteral en unas 48 h",
+      "Tratar la causa: desmopresina, retirar diurético o soluto"
      ],
      "pairs": []
     }
@@ -467,11 +537,11 @@
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "VOL",
+     "serie": "HNS-1",
      "intro": [
       [
        "Dr. Anselmo Frágil",
-       "Te reto con un caso: Hipovolemia: índices urinarios en LRA prerrenal"
+       "Te reto con un caso: Hipernatremia por diuresis de solutos en nutrición enteral"
       ]
      ],
      "defeat": [
@@ -481,7 +551,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -538,6 +608,126 @@
       [
        "HTA + renina y aldosterona bajas",
        "Liddle o regaliz"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Hiponatremia hipotónica por volemia",
+     "bins": [
+      "Hipovolémica",
+      "Euvolémica",
+      "Hipervolémica"
+     ],
+     "items": [
+      [
+       "Vómito con Na urinario bajo",
+       "Hipovolémica"
+      ],
+      [
+       "Tiazida",
+       "Hipovolémica"
+      ],
+      [
+       "Insuficiencia suprarrenal primaria",
+       "Hipovolémica"
+      ],
+      [
+       "Pérdida cerebral de sal",
+       "Hipovolémica"
+      ],
+      [
+       "SIADH por carcinoma pulmonar",
+       "Euvolémica"
+      ],
+      [
+       "Hipotiroidismo grave",
+       "Euvolémica"
+      ],
+      [
+       "Insuficiencia suprarrenal secundaria",
+       "Euvolémica"
+      ],
+      [
+       "Potomanía de cerveza",
+       "Euvolémica"
+      ],
+      [
+       "Insuficiencia cardiaca",
+       "Hipervolémica"
+      ],
+      [
+       "Cirrosis con ascitis",
+       "Hipervolémica"
+      ],
+      [
+       "ERC avanzada con exceso de agua",
+       "Hipervolémica"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Abordaje de hiponatremia",
+     "items": [
+      "Confirmar hipotonicidad (Osm plasmática)",
+      "Valorar síntomas graves → salina hipertónica",
+      "Osmolalidad urinaria",
+      "Estado de volumen",
+      "Na urinario",
+      "Causa específica y tratamiento dirigido"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Hiponatremia: corrección máxima",
+       "8–10 mEq/L en 24 h"
+      ],
+      [
+       "SIADH",
+       "Uosm >100, UNa >30, euvolemia"
+      ],
+      [
+       "Hipernatremia",
+       "Déficit de agua libre"
+      ],
+      [
+       "DI central",
+       "Desmopresina"
+      ],
+      [
+       "HiperK con cambios ECG",
+       "Gluconato de calcio IV"
+      ],
+      [
+       "Patirómero / ZS-9",
+       "Quelantes de K⁺"
+      ],
+      [
+       "HipoK + HTA + renina ↓",
+       "Hiperaldosteronismo primario"
+      ],
+      [
+       "Hipercalcemia maligna",
+       "PTHrP → hidratación + bisfosfonato"
+      ],
+      [
+       "Hipomagnesemia",
+       "Impide corregir hipoK"
+      ],
+      [
+       "Realimentación",
+       "Hipofosfatemia"
+      ],
+      [
+       "Desmielinización osmótica",
+       "Corrección rápida de hipoNa crónica"
       ]
      ]
     }
@@ -647,11 +837,11 @@
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "HCA",
+     "serie": "TZD",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Hipercalcemia: diagnóstico diferencial"
+       "Te reto con un caso: Caso encadenado: hiponatremia por tiazida, mecanismo"
       ]
      ],
      "defeat": [
@@ -661,17 +851,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "FGF",
+     "serie": "FUR-1",
      "intro": [
       [
        "Dra. Sara Esquistocito",
-       "Te reto con un caso: Exceso de FGF23 sin ERC: osteomalacia oncogénica"
+       "Te reto con un caso: Predicción de respuesta a la restricción hídrica"
       ]
      ],
      "defeat": [
@@ -740,6 +930,68 @@
        "Calcio + álcali absorbible"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Poliuria hipotónica: prueba de privación",
+     "bins": [
+      "DI central completa",
+      "DI central parcial",
+      "DI nefrogénica",
+      "Polidipsia primaria"
+     ],
+     "items": [
+      [
+       "Uosm 250 tras privación; 600 con DDAVP",
+       "DI central completa"
+      ],
+      [
+       "Uosm 420 tras privación; 480 con DDAVP",
+       "DI central parcial"
+      ],
+      [
+       "Uosm 200 tras privación; 210 con DDAVP",
+       "DI nefrogénica"
+      ],
+      [
+       "Uosm 650 tras privación; 670 con DDAVP",
+       "Polidipsia primaria"
+      ],
+      [
+       "Copeptina basal 30 pmol/L",
+       "DI nefrogénica"
+      ],
+      [
+       "Copeptina estimulada con 3% de 8 pmol/L",
+       "Polidipsia primaria"
+      ],
+      [
+       "Litio crónico",
+       "DI nefrogénica"
+      ],
+      [
+       "Posoperatorio de hipófisis",
+       "DI central completa"
+      ],
+      [
+       "Paciente con esquizofrenia y Na 131",
+       "Polidipsia primaria"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Corrección segura de hiponatremia crónica",
+     "items": [
+      "Definir síntomas y cronicidad",
+      "Bolo de NaCl 3% si hay síntomas moderados o graves",
+      "Fijar límite: ≤12 en 24 h y ≤18 en 48 h (8 si alto riesgo)",
+      "Medir sodio cada 2 a 4 h y la diuresis",
+      "Si hay acuaresis: desmopresina ± D5W",
+      "Si se rebasa el límite: re-bajar con D5W y desmopresina"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -870,6 +1122,38 @@
   {
    "title": "Valle de los Minerales",
    "text": "Hipercalcemia: PTH suprimida (PTHrP, vitamina D, osteólisis) o no (HPT primario, FHH). Realimentación: hipofosfatemia. HipoMg perpetúa hipoK e hipoCa."
+  },
+  {
+   "title": "💎 Respuesta a líquidos en ventilación mecá",
+   "text": "Ventilado, sin esfuerzos, sinusal, Vt ≥8: VPP >12–13% o dIVC >18% predicen respuesta a líquidos. Los parámetros estáticos (PVC, diámetro de VCI) no."
+  },
+  {
+   "title": "💎 Puntuación VExUS: gradación",
+   "text": "VExUS: VCI <2 cm = 0; VCI ≥2 cm con patrones normales/leves = 1; 1 patrón grave = 2; ≥2 patrones graves = 3."
+  },
+  {
+   "title": "💎 Patrones Doppler normales y graves",
+   "text": "Normal → grave: hepática S>D → S invertida; porta PF <30% → ≥50%; renal continuo → solo onda D. PF = (Vmáx − Vmín)/Vmáx."
+  },
+  {
+   "title": "💎 Utilidad clínica de la congestión venosa",
+   "text": "VExUS: mide congestión venosa (no respuesta a volumen). Grado 3 ↑ riesgo de LRA; guía diuréticos/UF."
+  },
+  {
+   "title": "💎 Hiponatremia grave sintomática",
+   "text": "Hipona grave: NaCl 3% 100–150 mL en bolo (10–20 min) ×1–3; ↑Na 4–6 mEq/L en 6 h; máx 8–10 mEq/L/24 h (8 si alto riesgo de ODS). Medir Na c/1–2 h."
+  },
+  {
+   "title": "💎 Hiponatremia: sobrecorrección y prevenci",
+   "text": "Sobrecorrección: DDAVP 2–4 µg c/6–8 h + D5W 3 mL/kg/h ('relowering'). ODS 2–6 días después. Alto riesgo: Na ≤105, hipoK, alcoholismo, desnutrición, hepatopatía."
+  },
+  {
+   "title": "💎 Caso encadenado: acuaresis y riesgo de s",
+   "text": "Diuresis >100 mL/h con orina diluida durante la corrección = acuaresis → riesgo de sobrecorrección → DDAVP ± D5W."
+  },
+  {
+   "title": "💎 Hiponatremia: diagnóstico de SIADH",
+   "text": "SIADH: Posm <275, Uosm >100, UNa >30, euvolemia, ↓ácido úrico/urea, excluir hipotiroidismo/cortisol/diuréticos. Causas: CPCP, fármacos, SNC, pulmón, dolor/náusea."
   }
  ]
 }

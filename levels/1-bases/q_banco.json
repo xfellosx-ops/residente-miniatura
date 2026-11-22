@@ -385,5 +385,235 @@
   "tema": "Bases estructurales y funcionales del riñón",
   "obj": "1.o1",
   "peso": 51.0
+ },
+ {
+  "id": "NEW-1-1",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o2",
+  "dificultad": "dificil",
+  "subtema": "Autorregulación y hemodinámica glomerular",
+  "caso": "Mujer de 72 años con hipertensión tratada con losartán 100 mg/día. Por artrosis toma ibuprofeno 400 mg cada 8 horas desde hace dos semanas. Ingresa tras tres días de gastroenteritis con PA 98/60 mmHg. Creatinina basal 0.9 mg/dL; hoy 2.6 mg/dL, sedimento con cilindros hialinos y FENa 0.4%.",
+  "enunciado": "¿Qué alteración de la hemodinámica glomerular explica mejor la lesión renal aguda?",
+  "opciones": {
+   "A": "Vasoconstricción eferente excesiva por angiotensina II que eleva la fracción de filtración",
+   "B": "Activación de la retroalimentación tubuloglomerular por exceso de cloruro en la mácula densa",
+   "C": "Pérdida de la dilatación aferente por prostaglandinas y de la constricción eferente por Ang II",
+   "D": "Caída del coeficiente de ultrafiltración por contracción mesangial mediada por endotelina-1",
+   "E": "Aumento de la presión en la cápsula de Bowman por obstrucción tubular con cilindros hialinos"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El losartán bloquea el receptor AT1, de modo que la constricción eferente está abolida, no exagerada.",
+   "B": "Con hipovolemia llega menos cloruro a la mácula densa; la retroalimentación tiende a dilatar la aferente, no a contraerla.",
+   "C": "Correcta. Con volumen efectivo bajo, la TFG depende de la dilatación aferente por prostaglandinas (bloqueada por el AINE) y de la constricción eferente por angiotensina II (bloqueada por el ARA II): cae la presión intraglomerular. Es la LRA hemodinámica del triple golpe; FENa baja y sedimento blando lo apoyan.",
+   "D": "La endotelina puede reducir el Kf, pero no explica el cuadro ni la relación con fármacos y volumen.",
+   "E": "Los cilindros hialinos no obstruyen; la presión en Bowman aumenta en la obstrucción tubular por cristales o cilindros de mieloma."
+  },
+  "perla": "Triple golpe: hipovolemia + AINE (sin dilatación aferente) + IECA/ARA II (sin constricción eferente) = caída de la presión intraglomerular. Suspender ambos y reponer volumen.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed., cap. Fisiología renal: hemodinámica glomerular",
+   "Lapi F et al. BMJ 2013;346:e8525 (triple whammy)"
+  ],
+  "serie_id": "NEW-1-1",
+  "orden": 1,
+  "continuacion": "",
+  "tema": "Bases estructurales y funcionales del riñón",
+  "origen": [
+   "Claude-2026-11 competencia sin preguntas"
+  ],
+  "tipo_item": "nueva",
+  "peso": 60.0
+ },
+ {
+  "id": "NEW-1-2",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o3",
+  "dificultad": "moderada",
+  "subtema": "Transporte tubular por segmento y sitio de acción de diuréticos",
+  "caso": "Hombre de 64 años con insuficiencia cardiaca y resistencia a diuréticos pese a furosemida IV en infusión. Se agrega un fármaco que actúa en un segmento que reabsorbe 5 a 7% del sodio filtrado, cuyo transportador se hipertrofia con el uso crónico de diuréticos de asa, y que además disminuye la calciuria.",
+  "enunciado": "¿Sobre qué transportador actúa el fármaco agregado?",
+  "opciones": {
+   "A": "Cotransportador Na-K-2Cl de la rama ascendente gruesa del asa de Henle",
+   "B": "Canal epitelial de sodio de la célula principal del túbulo colector",
+   "C": "Intercambiador sodio-hidrógeno tipo 3 del túbulo contorneado proximal",
+   "D": "Cotransportador sodio-cloro del túbulo contorneado distal temprano",
+   "E": "Intercambiador cloro-bicarbonato pendrina de la célula intercalada beta"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Es el blanco de la furosemida; el problema es precisamente la resistencia a ese sitio.",
+   "B": "ENaC reabsorbe 2 a 3% del Na y se bloquea con amilorida, que no reduce la calciuria de forma relevante.",
+   "C": "NHE3 participa en la reabsorción proximal; la acetazolamida actúa indirectamente en el proximal y no disminuye la calciuria.",
+   "D": "Correcta. El NCC del túbulo distal reabsorbe 5 a 7% del Na filtrado, se hipertrofia con diuréticos de asa y es el blanco de tiazidas y metolazona: bloqueo secuencial de la nefrona. Las tiazidas reducen la calciuria.",
+   "E": "La pendrina participa en la secreción de bicarbonato y en la reabsorción de cloro, no es blanco de diuréticos de uso clínico."
+  },
+  "perla": "Reabsorción de Na: proximal ~65%, asa ~25%, distal 5–7% (NCC, tiazidas), colector 2–3% (ENaC, amilorida; ARM). Bloqueo secuencial = asa + tiazida o acetazolamida.",
+  "referencias": [
+   "Ellison DH, Felker GM. N Engl J Med 2017;377:1964 (diuréticos en IC)",
+   "Comprehensive Clinical Nephrology, 7.ª ed., cap. Diuréticos"
+  ],
+  "serie_id": "NEW-1-2",
+  "orden": 1,
+  "continuacion": "",
+  "tema": "Bases estructurales y funcionales del riñón",
+  "origen": [
+   "Claude-2026-11 competencia sin preguntas"
+  ],
+  "tipo_item": "nueva",
+  "peso": 60.0
+ },
+ {
+  "id": "FIS-5",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Retroalimentación tubuloglomerular",
+  "caso": "Estudiante pregunta qué ocurre cuando aumenta el NaCl que llega a la mácula densa en una sola nefrona.",
+  "enunciado": "¿Cuál es la respuesta correcta?",
+  "perla": "RTG: ↑NaCl en mácula densa → adenosina (A1) → vasoconstricción aferente → ↓TFG. iSGLT2 reactivan la RTG y reducen la hiperfiltración.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 2: Renal Physiology (Bailey, Unwin)"
+  ],
+  "serie_id": "FIS-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Libera adenosina, que contrae la arteriola aferente y reduce la TFG de esa nefrona",
+   "B": "Libera prostaglandinas, que dilatan la aferente y aumentan la TFG de esa nefrona",
+   "C": "Aumenta la renina, que contrae la eferente y eleva la presión glomerular",
+   "D": "Reduce el óxido nítrico del endotelio de la eferente y la dilata",
+   "E": "Activa el ENaC del colector para reabsorber el sodio que no se recuperó"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 2: el NaCl entra a la mácula densa por NKCC2, se libera ATP y, tras su degradación, la adenosina actúa en receptores A1 de la aferente y la contrae, bajando la TFG de esa nefrona. Los iSGLT2 aumentan la llegada de sodio y reactivan este mecanismo.",
+   "B": "Las prostaglandinas se liberan con menos NaCl, no con más.",
+   "C": "Más NaCl suprime la renina.",
+   "D": "No es la vía principal.",
+   "E": "No es el mecanismo de la retroalimentación tubuloglomerular."
+  },
+  "clave": "A",
+  "tema": "Bases estructurales y funcionales del riñón",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FIS-6",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o3",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Reabsorción de calcio y magnesio en el asa",
+  "caso": "Paciente con mutación de claudina-16 presenta hipomagnesemia, hipercalciuria y nefrocalcinosis.",
+  "enunciado": "¿Dónde y cómo se reabsorben normalmente calcio y magnesio en ese segmento?",
+  "perla": "Asa gruesa: Mg ~60% y Ca ~25% paracelular (claudina 16/19), impulsado por voltaje positivo de ROMK. Diuréticos de asa → pérdida de Ca y Mg.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 2: Renal Physiology (Bailey, Unwin)"
+  ],
+  "serie_id": "FIS-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Por vía paracelular en el colector cortical dependiente de aldosterona",
+   "B": "Por vía transcelular en el túbulo distal mediante el cotransportador NCC",
+   "C": "Paracelular en la rama ascendente gruesa, por voltaje luminal positivo",
+   "D": "Por vía transcelular en el túbulo proximal mediante el canal TRPV5",
+   "E": "Por endocitosis mediada por megalina en el túbulo proximal"
+  },
+  "explicaciones": {
+   "A": "El colector no es sitio principal de reabsorción de Ca y Mg.",
+   "B": "El NCC transporta Na y Cl, no Ca ni Mg.",
+   "C": "Correcto. En la rama ascendente gruesa, el reciclaje de K por ROMK crea un voltaje luminal positivo que empuja Ca y Mg por las uniones estrechas formadas por claudinas 16 y 19. Su mutación causa hipomagnesemia familiar con hipercalciuria y nefrocalcinosis.",
+   "D": "TRPV5 está en el túbulo distal, no en el proximal.",
+   "E": "La megalina reabsorbe proteínas filtradas."
+  },
+  "clave": "C",
+  "tema": "Bases estructurales y funcionales del riñón",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ALDP-1",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o3",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "Paradoja de la aldosterona",
+  "caso": "Dos estados con aldosterona alta: A, depleción de volumen con angiotensina II alta; B, hiperpotasemia con angiotensina II normal.",
+  "enunciado": "¿Por qué A retiene sodio sin perder potasio y B elimina potasio?",
+  "perla": "Paradoja de aldosterona: hipovolemia (AngII) → NCC activo + ROMK inhibido → retiene Na sin perder K. HiperK → NCC inhibido → Na distal → secreción de K. Dieta rica en K baja la PA.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 2: Renal Physiology (Bailey, Unwin)"
+  ],
+  "serie_id": "ALDP-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "A: la AngII activa NCC e inhibe ROMK; B: se inhibe NCC y el Na llega a ENaC",
+   "B": "En A la aldosterona no actúa sobre ENaC; en B actúa solo en el túbulo proximal",
+   "C": "En A predomina la reabsorción proximal; en B se activa la pendrina luminal",
+   "D": "En A se bloquea la 11β-HSD2; en B el cortisol estimula el receptor",
+   "E": "En ambos la secreción de potasio depende solo del flujo urinario"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 2: con hipovolemia, AngII más aldosterona activan la red WNK4: NCC del TCD reabsorbe Na sin secretar K, se inhibe ROMK y se activan pendrina y NDCBE. Con hiperpotasemia se inhibe NCC; el Na llega al principal, donde su entrada por ENaC impulsa la secreción de K. Por eso la dieta rica en K es natriurética.",
+   "B": "La aldosterona sí actúa sobre ENaC en ambos casos.",
+   "C": "No explica el balance de potasio.",
+   "D": "La 11β-HSD2 no cambia entre estos estados.",
+   "E": "El flujo influye, pero el mecanismo central es el NCC."
+  },
+  "clave": "A",
+  "tema": "Bases estructurales y funcionales del riñón",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CASR-1",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o3",
+  "dificultad": "moderada",
+  "peso": 38,
+  "subtema": "Hipercalcemia y defecto de concentración",
+  "caso": "Mujer de 55 años con hiperparatiroidismo y Ca 12.8 mg/dL que refiere poliuria de 4 L al día con orina diluida.",
+  "enunciado": "¿Cuál es el mecanismo del defecto de concentración?",
+  "perla": "DI nefrogénica adquirida: litio (entra por ENaC), hipercalcemia (CaSR → sin AQP2 y ↓NKCC2), hipoK (↓AQP2). Hereditaria: receptor V2 ligado a X (más común), AQP2 AR/AD.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 2: Renal Physiology (Bailey, Unwin)"
+  ],
+  "serie_id": "CASR-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La hipercalcemia destruye los osmorreceptores hipotalámicos y baja la AVP",
+   "B": "El calcio bloquea el receptor V2 de forma competitiva con la AVP",
+   "C": "El CaSR impide insertar AQP2 en el colector e inhibe NKCC2 en el asa",
+   "D": "La PTH inhibe directamente la síntesis de AQP1 en el túbulo proximal",
+   "E": "El calcio activa ENaC y genera una diuresis osmótica de sodio"
+  },
+  "explicaciones": {
+   "A": "La AVP está conservada; es resistencia renal.",
+   "B": "No es un antagonismo competitivo del V2.",
+   "C": "Correcto. Johnson cap. 2: el calcio luminal alto activa el receptor sensor de calcio apical de la célula principal e impide la inserción de AQP2, quizá para evitar litos. En la rama ascendente gruesa, el CaSR basolateral inhibe NKCC2 y ROMK y reduce el gradiente medular. La hipopotasemia, en cambio, reduce la expresión de AQP2.",
+   "D": "La AQP1 no es el blanco.",
+   "E": "El calcio no activa ENaC."
+  },
+  "clave": "C",
+  "tema": "Bases estructurales y funcionales del riñón",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
  }
 ]

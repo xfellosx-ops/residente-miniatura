@@ -574,8 +574,8 @@ function renderQ(q,label,timer,onDone){const vf=!!q.vf,opts=vf?{V:"Verdadero",F:
  const answer=l=>{if(over)return;over=true;clearAll();KEYNAV=null;const ok=l===q.clave;grade(q,ok);ok?sfx.ok():(sfx.bad(),vib(120));
   btns.forEach(b=>{b.disabled=true;if(b.dataset.l===q.clave)b.classList.add("ok");else if(b.dataset.l===l)b.classList.add("bad")});
   const ex=q.explicaciones||{};const main=vf?q.exp:(ex[q.clave]||q.exp||"");
-  let e='<div class="box"><b>'+(l===null?"¡Tiempo!":ok?"¡Correcto!":"Incorrecto.")+'</b> '+esc(clip(main,40))+'</div>';
-  const more=[];if(words(main).length>40)more.push(esc(main));if(!ok&&l&&ex[l])more.push('<b>Tu opción ('+l+'):</b> '+esc(ex[l]));if(q.perla)more.push('<b>Perla:</b> '+esc(q.perla));if(!vf)L.filter(k=>k!==q.clave&&k!==l&&ex[k]).forEach(k=>more.push(k+') '+esc(ex[k])));if(q.referencias)more.push('<span class="small">Ref.: '+esc(q.referencias.join(" · "))+'</span>');
+  let e='<div class="box"><b>'+(l===null?"¡Tiempo!":ok?"¡Correcto!":"Incorrecto.")+'</b> '+esc(clip(main,q.perla?26:40))+'</div>'+(q.perla?'<div class="box pearl small">💎 <b>Perla:</b> '+esc(clip(q.perla,22))+'</div>':'');
+  const more=[];if(words(main).length>40)more.push(esc(main));if(!ok&&l&&ex[l])more.push('<b>Tu opción ('+l+'):</b> '+esc(ex[l]));if(q.perla&&words(q.perla).length>22)more.push('<b>Perla completa:</b> '+esc(q.perla));if(!vf)L.filter(k=>k!==q.clave&&k!==l&&ex[k]).forEach(k=>more.push(k+') '+esc(ex[k])));if(q.referencias)more.push('<span class="small">Ref.: '+esc(q.referencias.join(" · "))+'</span>');
   if(more.length)e+='<details class="box small"><summary>▸ Ver más ('+(q.perla?"perla y ":"")+'explicación completa)</summary>'+more.join("<br>")+'</details>';
   e+='<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button></div>';pn.insertAdjacentHTML("beforeend",e);const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>{KEYA=null;onDone(ok)}};
  btns.forEach(b=>b.onclick=()=>answer(b.dataset.l))}
@@ -639,7 +639,14 @@ function gate(o){const z=STORY.zones[MAP.zi],g=z.gates[o.gi];const ids=PLAN["g_"
  dialog(g.text&&g.text.length?g.text:[["Puerta-llave",g.topic]],()=>{const tryQ=()=>{const q=ALL[ids[k%ids.length]]||nextPasto();renderQ(q,"🔒 PUERTA-LLAVE",0,ok=>{if(ok){S.flags["g_"+MAP.zi+"_"+o.gi]=1;addXP(active(),15);save();sfx.lvl();modal("La puerta se abre.",toWorld)}else{k++;const a=active();if(a){a.hp=Math.max(0,a.hp-Math.round(a.max*.2));save();hud()}if(!active())return lose();modal("La puerta sigue cerrada. Lee la explicación: viene otra pregunta del mismo concepto.",tryQ)}})};tryQ()})}
 /* ================= minijuegos ================= */
 function startMini(o){const m=STORY.zones[MAP.zi].minigames[o.i];held=null;MODE="dialog";const done=()=>{S.flags["m_"+MAP.zi+"_"+o.i]=1;addXP(active(),20);save();sfx.lvl();modal("¡Minijuego superado!",toWorld)};
- if(m.type==="memorama"||(m.type==="indices"&&m.pairs.length))return memorama(m,done);if(m.type==="river")return river(m,done);return order(m,done)}
+ if(m.type==="clasif")return clasif(m,done);if(m.type==="memorama"||(m.type==="indices"&&m.pairs.length))return memorama(m,done);if(m.type==="river")return river(m,done);return order(m,done)}
+/* clasificación: cada hallazgo va a su casilla (de la app NefroQuest); se pasa con ≥70 % */
+function clasif(m,done){const items=shuf(m.items).slice(0,8);let k=0,ok=0;const bins=m.bins;
+ const draw=()=>{if(k>=items.length){const pct=Math.round(100*ok/items.length);if(pct>=70)return done();return modal("Clasificaste bien "+ok+"/"+items.length+". Necesitas 70 %. Otra vez.",()=>clasif(m,done))}
+  const [it]=items[k];pn.innerHTML='<div class="who">🗂 '+esc(m.title)+' · '+(k+1)+'/'+items.length+'</div><div class="box q clasif" id="citem">'+esc(it)+'</div><div class="small">¿A qué casilla pertenece?</div>'+bins.map((b,i)=>'<button class="opt" data-bin="'+i+'"><b>'+(i+1)+'</b>'+esc(b)+'</button>').join("");
+  const btns=[...pn.querySelectorAll("[data-bin]")];let sel=-1;KEYA=()=>{if(sel>=0)btns[sel].click()};KEYNAV=d=>{sel=(sel+(d==="down"||d==="right"?1:-1)+btns.length)%btns.length;btns.forEach((b,i)=>b.classList.toggle("sel",i===sel))};
+  btns.forEach(b=>b.onclick=()=>{KEYNAV=null;const right=bins[+b.dataset.bin]===items[k][1];btns.forEach(x=>{x.disabled=true;if(bins[+x.dataset.bin]===items[k][1])x.classList.add("ok")});
+   if(right){ok++;sfx.ok()}else{b.classList.add("bad");sfx.bad();vib(60)}k++;later(draw,right?450:1300)})};draw()}
 function order(m,done){const items=m.items.slice();let k=0,err=0;const draw=()=>{pn.innerHTML='<div class="who">🪨 '+esc(m.title)+'</div><div class="small">Toca las piedras en orden para cruzar. '+k+'/'+items.length+' · errores '+err+'</div><div class="box small">'+items.slice(0,k).map((t,i)=>(i+1)+". "+esc(t)).join("<br>")+(k?"":"…")+'</div><div>'+shuf(items.slice(k)).map(t=>'<button class="stone" data-t="'+esc(t)+'">'+esc(t)+'</button>').join("")+'</div>';
  pn.querySelectorAll(".stone").forEach(b=>b.onclick=()=>{if(b.dataset.t===items[k]){k++;sfx.ok();if(k===items.length)done();else draw()}else{err++;sfx.bad();vib(60);b.classList.add("sink");setTimeout(()=>b.classList.remove("sink"),450)}})};draw()}
 function memorama(m,done){let pairs=m.pairs.length&&m.type!=="indices"?m.pairs:[];

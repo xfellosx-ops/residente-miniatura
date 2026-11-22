@@ -341,6 +341,70 @@
        "Cambios mínimos, ANCA"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Nefrítico vs nefrótico",
+     "bins": [
+      "Nefrítico",
+      "Nefrótico"
+     ],
+     "items": [
+      [
+       "Hematuria dismórfica",
+       "Nefrítico"
+      ],
+      [
+       "Proteinuria > 3.5 g/d",
+       "Nefrótico"
+      ],
+      [
+       "Hipoalbuminemia < 3 g/dL",
+       "Nefrótico"
+      ],
+      [
+       "Hipertensión y oliguria",
+       "Nefrítico"
+      ],
+      [
+       "Hiperlipidemia y lipiduria",
+       "Nefrótico"
+      ],
+      [
+       "Cilindros eritrocitarios",
+       "Nefrítico"
+      ],
+      [
+       "Cambios mínimos",
+       "Nefrótico"
+      ],
+      [
+       "Postinfecciosa",
+       "Nefrítico"
+      ],
+      [
+       "Membranosa",
+       "Nefrótico"
+      ],
+      [
+       "Vasculitis ANCA",
+       "Nefrítico"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Vasculitis ANCA con GN",
+     "items": [
+      "Sospecha: GN rápidamente progresiva",
+      "ANCA (MPO/PR3) y anti-MBG",
+      "Biopsia renal",
+      "Inducción: glucocorticoide + rituximab o ciclofosfamida (± avacopan)",
+      "Mantenimiento con rituximab",
+      "Vigilar recaída e infecciones"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -567,6 +631,104 @@
        "IgA, ANCA, anti-MBG"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Complemento en GN",
+     "bins": [
+      "C3 bajo",
+      "Complemento normal"
+     ],
+     "items": [
+      [
+       "Postinfecciosa",
+       "C3 bajo"
+      ],
+      [
+       "Nefritis lúpica clase IV",
+       "C3 bajo"
+      ],
+      [
+       "Glomerulopatía C3",
+       "C3 bajo"
+      ],
+      [
+       "Crioglobulinemia (VHC)",
+       "C3 bajo"
+      ],
+      [
+       "Nefropatía IgA",
+       "Complemento normal"
+      ],
+      [
+       "Vasculitis ANCA",
+       "Complemento normal"
+      ],
+      [
+       "Anti-MBG",
+       "Complemento normal"
+      ],
+      [
+       "Endocarditis / nefritis de shunt",
+       "C3 bajo"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Anti-PLA2R",
+       "Membranosa primaria"
+      ],
+      [
+       "Anti-THSD7A",
+       "Membranosa (buscar neoplasia)"
+      ],
+      [
+       "IgA mesangial",
+       "Nefropatía IgA (MEST-C)"
+      ],
+      [
+       "Anti-MBG",
+       "Depósito lineal (Goodpasture)"
+      ],
+      [
+       "ANCA-MPO",
+       "Poliangeítis microscópica"
+      ],
+      [
+       "ANCA-PR3",
+       "Granulomatosis con poliangeítis"
+      ],
+      [
+       "C3 bajo >8 semanas",
+       "Pensar GMN C3, no postinfecciosa"
+      ],
+      [
+       "Clase IV ISN/RPS",
+       "Nefritis lúpica difusa"
+      ],
+      [
+       "Variante colapsante",
+       "APOL1, VIH, COVID"
+      ],
+      [
+       "Avacopan",
+       "Antagonista C5aR (ANCA)"
+      ],
+      [
+       "Sparsentan",
+       "Dual endotelina/AT1"
+      ],
+      [
+       "Iptacopan",
+       "Inhibidor del factor B"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -692,6 +854,38 @@
   {
    "title": "Laboratorio del Complemento",
    "text": "C3↓ C4 normal: PIGN (se normaliza en 6–8 sem) o C3G. C3↓ C4↓: lupus, crioglobulinemia, endocarditis. GNMP = patrón; clasifica por IF."
+  },
+  {
+   "title": "💎 Preeclampsia sobreañadida vs brote de en",
+   "text": "sFlt-1/PlGF ≤38 excluye preeclampsia a corto plazo; ≥85 (<34 SDG) la apoya. Útil para distinguirla de un brote glomerular."
+  },
+  {
+   "title": "💎 Hipocomplementemia persistente: C3G",
+   "text": "C3 bajo >12 sem tras PIGN → C3G. IF: C3 ≥2 órdenes > Ig. DDD: depósitos intramembranosos densos; C3GN: otros sitios. Estudiar C3Nef, FH-Ab, genética, monoclonal (>50 años)."
+  },
+  {
+   "title": "💎 Nefropatía de membrana basal delgada",
+   "text": "COL4A3/A4 heterocigoto: membrana basal delgada; hematuria con buen pronóstico, pero 20–30% progresa a proteinuria/ERC; vigilancia de por vida."
+  },
+  {
+   "title": "💎 Vías del complemento y patrón de consumo",
+   "text": "C3 bajo + C4 normal: vía alterna (PIGN, C3G, endocarditis). C3 y C4 bajos: vía clásica (lupus, crioglobulinemia, MPGN inmunocomplejos)."
+  },
+  {
+   "title": "💎 Blancos terapéuticos según el mecanismo",
+   "text": "Belimumab = anti-BAFF; anifrolumab = anti-IFNAR1; voclosporina = CNI; rituximab/obinutuzumab = anti-CD20; avacopan = anti-C5aR."
+  },
+  {
+   "title": "💎 GN posinfecciosa: cuadro y complemento",
+   "text": "PIGN: C3↓ C4 normal (vía alterna) → normaliza en 8–12 sem. Humps subepiteliales, IF granular C3±IgG. C3 bajo persistente >12 sem = C3G."
+  },
+  {
+   "title": "💎 Crioglobulinemia por VHC: tratamiento",
+   "text": "VHC-crioglobulinemia: DAA + rituximab ± GC si enfermedad grave; PLEX si hiperviscosidad. DAA seguros en ERC/diálisis (GLE/PIB; SOF/VEL)."
+  },
+  {
+   "title": "💎 Crioglobulinemia mixta: diagnóstico",
+   "text": "Crioglobulinemia tipo II: IgM κ monoclonal + IgG policlonal; C4 muy bajo, FR+; VHC en la mayoría. Riñón: MPGN con trombos hialinos y doble contorno. Toma de muestra a 37 °C."
   }
  ]
 }

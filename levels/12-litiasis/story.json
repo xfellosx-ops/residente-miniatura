@@ -243,11 +243,11 @@
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "LMA",
+     "serie": "NEW-12-1",
      "intro": [
       [
        "Dra. Carmen Triaje",
-       "Te reto con un caso: Manejo definitivo según tamaño y localización"
+       "Te reto con un caso: Interpretación de la orina de 24 horas en litiasis recurrente"
       ]
      ],
      "defeat": [
@@ -263,11 +263,11 @@
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "PHX",
+     "serie": "LMA",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Hiperoxaluria primaria tipo 1: diagnóstico"
+       "Te reto con un caso: Manejo definitivo según tamaño y localización"
       ]
      ],
      "defeat": [
@@ -277,7 +277,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
     }
    ],
    "wild": [
@@ -340,6 +340,55 @@
        "Alcalinizar"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Tipo de cálculo",
+     "bins": [
+      "Oxalato/fosfato de Ca",
+      "Ácido úrico",
+      "Estruvita",
+      "Cistina"
+     ],
+     "items": [
+      [
+       "pH urinario < 5.5 persistente",
+       "Ácido úrico"
+      ],
+      [
+       "Proteus productor de ureasa",
+       "Estruvita"
+      ],
+      [
+       "Cristal hexagonal",
+       "Cistina"
+      ],
+      [
+       "Radiolúcido en placa simple",
+       "Ácido úrico"
+      ],
+      [
+       "Coraliforme con pH > 7",
+       "Estruvita"
+      ],
+      [
+       "Hipercalciuria idiopática",
+       "Oxalato/fosfato de Ca"
+      ],
+      [
+       "Tiopronina",
+       "Cistina"
+      ],
+      [
+       "Bypass gástrico",
+       "Oxalato/fosfato de Ca"
+      ],
+      [
+       "Alcalinizar a pH 6–6.5 y disolver",
+       "Ácido úrico"
+      ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -447,41 +496,41 @@
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "LUR",
+     "serie": "NEW-12-2",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Litiasis de ácido úrico"
+       "Te reto con un caso: Tiazidas en la prevención de la litiasis: ensayo NOSTONE"
       ]
      ],
      "defeat": [
       [
        "Dra. Sístole Ruiz",
-       "Bien razonado. Sigue tu camino."
-      ]
-     ],
-     "questionTopics": [],
-     "n": 2
-    },
-    {
-     "id": "t1_2",
-     "cast": "infecto",
-     "specialty": "Infectología",
-     "serie": "MSK",
-     "intro": [
-      [
-       "Dr. Félix Cultivo",
-       "Te reto con un caso: Alteraciones metabólicas en riñón en esponja"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dr. Félix Cultivo",
        "Bien razonado. Sigue tu camino."
       ]
      ],
      "questionTopics": [],
      "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "LUR",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Litiasis de ácido úrico"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 2
     }
    ],
    "wild": [
@@ -543,6 +592,53 @@
       [
        "Fosfato de calcio (brushita)",
        "ATR distal, hiperparatiroidismo"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Oxalato de calcio",
+       "Cálculo más frecuente"
+      ],
+      [
+       "Estruvita",
+       "Ureasa (Proteus), pH alcalino"
+      ],
+      [
+       "Ácido úrico",
+       "pH urinario <5.5, radiolúcido"
+      ],
+      [
+       "Cistina",
+       "Cristal hexagonal; tiopronina"
+      ],
+      [
+       "Hipocitraturia",
+       "Citrato de potasio"
+      ],
+      [
+       "Hipercalciuria idiopática",
+       "Tiazida + ↓sodio"
+      ],
+      [
+       "Hiperoxaluria entérica",
+       "Malabsorción; calcio con alimentos"
+      ],
+      [
+       "Calcio dietético",
+       "NO restringir (1000–1200 mg)"
+      ],
+      [
+       "Volumen urinario meta",
+       "> 2.5 L/día"
+      ],
+      [
+       "Topiramato",
+       "Cálculos de fosfato de calcio"
       ]
      ]
     }
@@ -668,6 +764,38 @@
   {
    "title": "Corriente de Cristales",
    "text": "Úrico: pH ácido, radiolúcido, alcalinizar. Estruvita: ureasa (Proteus), retirar completo. Cistina: hexágonos, álcali, tiopronina. TC sin contraste."
+  },
+  {
+   "title": "💎 Hipercalciuria idiopática: tratamiento c",
+   "text": "Hipercalciuria idiopática documentada: tiazida + Na bajo + calcio dietético normal. NOSTONE: sin beneficio empírico si no hay hipercalciuria. Vigilar K, Na, glucosa."
+  },
+  {
+   "title": "💎 Tratamiento de la litiasis coraliforme",
+   "text": "Coraliforme/estruvita: remoción completa (NLP) + antibiótico dirigido; ESWL sola no. Ácido acetohidroxámico si no hay cirugía."
+  },
+  {
+   "title": "💎 Errores a evitar en hiperoxaluria entéri",
+   "text": "Calcio CON las comidas (no restringirlo), evitar vitamina C y alimentos ricos en oxalato, mantener agua >2.5 L."
+  },
+  {
+   "title": "💎 Hipocitraturia aislada",
+   "text": "Hipocitraturia: citrato <320 mg/24 h. Inhibidor principal de cristalización cálcica."
+  },
+  {
+   "title": "💎 Litiasis coraliforme por estruvita",
+   "text": "Estruvita: Proteus mirabilis (ureasa), pH >7.2, coraliforme, radiopaco. Vejiga neurogénica e IVU recurrente."
+  },
+  {
+   "title": "💎 Nefropatía por oxalato",
+   "text": "Oxalato en biopsia + bypass/malabsorción = nefropatía por oxalato. Tratar: calcio con comidas, dieta baja en grasa/oxalato, citrato de potasio, agua; evitar vitamina C."
+  },
+  {
+   "title": "💎 Litiasis recurrente con hipercalcemia: h",
+   "text": "Litiasis + Ca ↑ + P ↓ = hiperparatiroidismo primario. Valores 24 h: Ca >250 (M)/300 (H) mg, citrato <320, oxalato >40–45."
+  },
+  {
+   "title": "💎 Composición del cálculo en hiperparatiro",
+   "text": "PHPT: fosfato de calcio (± oxalato), pH urinario alcalino. Ácido úrico: pH <5.5. Estruvita: pH >7.2 con Proteus."
   }
  ]
 }

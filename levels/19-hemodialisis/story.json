@@ -322,6 +322,49 @@
       "Vigilancia microbiológica periódica"
      ],
      "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Remoción de solutos",
+     "bins": [
+      "Difusión",
+      "Convección"
+     ],
+     "items": [
+      [
+       "Urea",
+       "Difusión"
+      ],
+      [
+       "β2-microglobulina",
+       "Convección"
+      ],
+      [
+       "Potasio",
+       "Difusión"
+      ],
+      [
+       "Hemofiltración",
+       "Convección"
+      ],
+      [
+       "Depende del gradiente de concentración",
+       "Difusión"
+      ],
+      [
+       "Depende del flujo de ultrafiltración",
+       "Convección"
+      ],
+      [
+       "Hemodiálisis convencional de bajo flujo",
+       "Difusión"
+      ],
+      [
+       "Hemodiafiltración en línea",
+       "Convección"
+      ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -545,6 +588,53 @@
       [
        "Desequilibrio",
        "Detener; manitol"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Kt/V monocompartimental",
+       "Meta ≥1.4 (mínimo 1.2)"
+      ],
+      [
+       "URR",
+       "Meta ≥70%"
+      ],
+      [
+       "Hemodiafiltración",
+       "CONVINCE: ↓mortalidad"
+      ],
+      [
+       "Fístula AV",
+       "Acceso de elección"
+      ],
+      [
+       "Síndrome de desequilibrio",
+       "1.ª sesión; edema cerebral"
+      ],
+      [
+       "Reacción tipo A",
+       "Anafilaxia temprana"
+      ],
+      [
+       "Síndrome de robo",
+       "Isquemia distal tras fístula"
+      ],
+      [
+       "Difusión",
+       "Solutos pequeños (urea)"
+      ],
+      [
+       "Convección",
+       "Medianas moléculas (β2-m)"
+      ],
+      [
+       "Hipotensión intradiálisis",
+       "Enfriar dializado, ↓UF"
       ]
      ]
     }
@@ -892,6 +982,38 @@
   {
    "title": "Río de la Fístula",
    "text": "Fístula: regla de los 6. Catéter: puente; retirar con S. aureus, Pseudomonas u hongos. Robo: isquemia distal. CONVINCE: HDF de alto volumen ↓ mortalidad."
+  },
+  {
+   "title": "💎 Evaluación del peso seco",
+   "text": "Peso seco: VCI, líneas B pulmonares, bioimpedancia y reducción gradual guiada por síntomas/TA (DRIP)."
+  },
+  {
+   "title": "💎 S. aureus en catéter: retiro y duración",
+   "text": "CRBSI por S. aureus: retirar el catéter y tratar ≥4 semanas (6 si complicaciones); biopelícula explica la resistencia."
+  },
+  {
+   "title": "💎 Trombosis de la fístula: causa y manejo",
+   "text": "FAV: causa más frecuente de trombosis = hiperplasia neointimal (zona yuxtaanastomótica). Fistulografía + angioplastia <48 h."
+  },
+  {
+   "title": "💎 Convección y hemodiafiltración: principi",
+   "text": "HDF = difusión + convección con reposición; ↑ depuración de moléculas medianas (β2m, fosfato, toxinas ligadas a proteínas)."
+  },
+  {
+   "title": "💎 Volumen convectivo y evidencia de superv",
+   "text": "HDF: objetivo ≥23 L por sesión (posdilución). CONVINCE: ↓ mortalidad global con HDF de alto volumen."
+  },
+  {
+   "title": "💎 Prevención de la hipotensión intradiális",
+   "text": "IDH: ↓ tasa de UF (más tiempo/sesiones), restringir Na/agua, dializado fresco 35–36 °C, ajustar fármacos. Perfiles de UF: efecto menor."
+  },
+  {
+   "title": "💎 Hipertensión refractaria con peso seco a",
+   "text": "HTA persistente con peso seco logrado: ajustar fármacos, buscar causas secundarias (EAR, apnea, ESA) y usar MAPA."
+  },
+  {
+   "title": "💎 Endocarditis en hemodiálisis: factores d",
+   "text": "Endocarditis en HD: principal factor = acceso vascular (catéter); ETT primero, ETE si alta sospecha o bacteriemia persistente."
   }
  ]
 }

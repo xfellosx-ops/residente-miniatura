@@ -739,5 +739,159 @@
   "tema": "Nutrición en las enfermedades renales",
   "obj": "22.o4",
   "peso": 45.2
+ },
+ {
+  "id": "NUT-A1",
+  "tema_id": 22,
+  "sub": "22.a",
+  "obj": "22.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Requerimientos de energía y proteína en ERC no dialítica",
+  "caso": "Hombre de 66 años, 70 kg, con ERC G4 metabólicamente estable, sin diabetes.",
+  "enunciado": "Según KDOQI 2020, ¿cuál es la indicación nutricional adecuada?",
+  "perla": "Johnson cap. 90: moderar 0.8–1.0 g/kg; KDIGO 0.8; KDOQI 2020 sin DM 0.55–0.6 (o 0.28–0.43 + cetoanálogos), con DM 0.6–0.8; diálisis 1.0–1.2; energía 25–35 kcal/kg; Na <100 mmol/d; HCO3 24–26.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 90: Nutrition in Chronic Kidney Disease",
+   "KDOQI-ACN Nutrition Guideline 2020. Am J Kidney Dis 2020;76(3S1):S1"
+  ],
+  "serie_id": "NUT-A1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Energía de 40 kcal/kg/día y proteína de 1.5 g/kg/día por catabolismo",
+   "B": "Energía de 25 a 35 kcal/kg/día y proteína de 0.55 a 0.6 g/kg/día bajo supervisión",
+   "C": "Energía libre y proteína de 0.3 g/kg/día sin suplementos ni vigilancia",
+   "D": "Restricción de energía y proteína para frenar la uremia sin control dietético",
+   "E": "Energía de 20 kcal/kg/día y proteína de 1.2 g/kg/día para evitar desgaste"
+  },
+  "explicaciones": {
+   "A": "Son requerimientos de estado crítico.",
+   "B": "Correcto. KDOQI 2020: en ERC 3 a 5 estable sin diabetes, 0.55 a 0.6 g/kg/día de proteína, o 0.28 a 0.43 con cetoanálogos, con 25 a 35 kcal/kg/día y seguimiento por nutrición.",
+   "C": "0.3 g/kg sin cetoanálogos causa desnutrición.",
+   "D": "Restringir energía favorece desgaste proteico-energético.",
+   "E": "1.2 g/kg es la meta en diálisis."
+  },
+  "clave": "B",
+  "tema": "Nutrición en las enfermedades renales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUT-B1",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Herramientas de evaluación nutricional",
+  "caso": "Mujer de 59 años en hemodiálisis con albúmina de 3.3 g/dL, pérdida de peso de 6% en 6 meses y menor fuerza de prensión.",
+  "enunciado": "¿Qué herramienta valida KDOQI 2020 para evaluar su estado nutricional?",
+  "perla": "Desgaste proteico-energético: VGS-7 o MIS + nPCR + fuerza de prensión + albúmina. Ningún marcador aislado basta.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 90: Nutrition in Chronic Kidney Disease",
+   "KDOQI-ACN Nutrition Guideline 2020. Am J Kidney Dis 2020;76(3S1):S1"
+  ],
+  "serie_id": "NUT-B1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Albúmina sérica aislada como único marcador del estado nutricional",
+   "B": "Prealbúmina semanal como única herramienta de seguimiento",
+   "C": "Creatinina sérica prediálisis como medida directa de la ingesta",
+   "D": "Valoración global subjetiva de 7 puntos o puntuación MIS",
+   "E": "Índice de masa corporal aislado como criterio diagnóstico suficiente"
+  },
+  "explicaciones": {
+   "A": "La albúmina se afecta por inflamación y volumen; no basta sola.",
+   "B": "La prealbúmina también depende de inflamación y función renal.",
+   "C": "Refleja masa muscular, no ingesta directa.",
+   "D": "Correcto. KDOQI 2020 recomienda la valoración global subjetiva de 7 puntos o la puntuación MIS para evaluar desnutrición en diálisis, junto con antropometría, fuerza y bioquímica.",
+   "E": "El IMC no distingue masa muscular de grasa ni de líquido."
+  },
+  "clave": "D",
+  "tema": "Nutrición en las enfermedades renales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NPCR-1",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "nPCR por cinética de urea",
+  "caso": "Paciente en hemodiálisis sin función residual. BUN posdiálisis 22 mg/dL y prediálisis siguiente 62 mg/dL, 48 horas después.",
+  "enunciado": "Con la fórmula simple de Johnson, ¿cuál es la nPCR aproximada?",
+  "perla": "nPCR = 0.22 + 0.036 × ΔBUN × 24/intervalo (h). Meta de proteína en HD y DP 1.0–1.2 g/kg/d. Desnutrición: prealbúmina <30 mg/dL, colesterol <150, pérdida de peso >10%.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 90: Nutrition in CKD (Bircher, Kalantar-Zadeh)"
+  ],
+  "serie_id": "NPCR-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "0.22 + 0.036 × 62 × 24/48 ≈ 1.34 g/kg/día",
+   "B": "0.22 + 0.036 × 40 × 24/48 ≈ 0.94 g/kg/día",
+   "C": "0.036 × 40 ≈ 1.44 g/kg/día sin corregir por intervalo",
+   "D": "0.22 + 0.036 × 22 ≈ 1.01 g/kg/día con el BUN posdiálisis",
+   "E": "62/22 × 0.36 ≈ 1.01 g/kg/día por cociente de BUN"
+  },
+  "explicaciones": {
+   "A": "Usa el BUN prediálisis en lugar del aumento.",
+   "B": "Correcto. Johnson cap. 90: nPCR = 0.22 + 0.036 × aumento interdialítico de BUN × 24/intervalo en horas. Aumento = 40 mg/dL; 0.22 + 0.036 × 40 × 0.5 = 0.94. Es algo menor que la meta de 1.0 a 1.2 g/kg/día; con función residual se suma la urea urinaria.",
+   "C": "Omite la constante y la corrección por intervalo.",
+   "D": "Usa el BUN posdiálisis.",
+   "E": "No es la fórmula."
+  },
+  "clave": "B",
+  "tema": "Nutrición en las enfermedades renales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IDPN-1",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "moderada",
+  "peso": 36,
+  "subtema": "Nutrición parenteral intradialítica",
+  "caso": "Mujer de 70 años en hemodiálisis con desgaste proteico-energético, albúmina 3.1 g/dL, que no tolera suplementos orales ni sonda.",
+  "enunciado": "¿Qué es correcto sobre la nutrición parenteral intradialítica?",
+  "perla": "NPID: 800–1200 kcal + 30–60 g proteína ×3/sem; evidencia insuficiente (KDOQI sí en casos, ASPEN no). DP: aminoácidos 1.1%. Vía GI preferida; suplementos intradialíticos con albúmina ≤3.5 asociados a mejor supervivencia.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 90: Nutrition in CKD (Bircher, Kalantar-Zadeh)"
+  ],
+  "serie_id": "IDPN-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cubre todos los requerimientos y sustituye la vía oral por completo",
+   "B": "Está demostrado que reduce la mortalidad en ensayos grandes",
+   "C": "Se administra diario por vía central fuera de la diálisis",
+   "D": "Aporta 800 a 1200 kcal y 30 a 60 g de proteína: es suplementaria",
+   "E": "Está contraindicada por KDOQI en cualquier paciente en hemodiálisis"
+  },
+  "explicaciones": {
+   "A": "Es suplementaria, no total.",
+   "B": "No hay beneficio demostrado en mortalidad.",
+   "C": "Se da durante la diálisis, por la línea venosa.",
+   "D": "Correcto. Johnson cap. 90: la NPID se infunde en la línea venosa tres veces por semana durante unas 4 h y aporta 800 a 1200 kcal con 30 a 60 g de proteína; no cubre todas las necesidades. La evidencia es insuficiente: KDOQI la sugiere si no se tolera la vía oral o enteral; ASPEN no la recomienda. En DP, los aminoácidos intraperitoneales al 1.1% se absorben ~80% en 4 h.",
+   "E": "KDOQI la considera en casos seleccionados."
+  },
+  "clave": "D",
+  "tema": "Nutrición en las enfermedades renales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
  }
 ]

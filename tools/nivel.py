@@ -30,6 +30,18 @@ CAST = {
 }
 EXTRA_CAST = ["mi", "uti", "urg", "cardio", "endo", "infecto", "cx", "geria", "hema", "pato", "radio", "onco", "gine", "uro", "pedia", "neumo"]
 def L(pairs): return [list(p) for p in pairs]
+J1 = json.loads((ROOT / "data/juegos.json").read_text(encoding="utf-8"))
+J2 = json.loads((ROOT / "data/juegos2.json").read_text(encoding="utf-8"))
+def perlas(bank, n=8):
+    """Perlas de mayor peso del banco del nivel, sin repetir, como páginas de la Nefrodex."""
+    out, seen = [], set()
+    for q in sorted(bank, key=lambda q: -q.get("peso", 0)):
+        pl = (q.get("perla") or "").strip(); k = pl[:40]
+        if not pl or k in seen: continue
+        seen.add(k); words = pl.split()
+        out.append({"title": "💎 " + (q.get("subtema") or q.get("tema") or "Perla")[:40], "text": " ".join(words[:60])})
+        if len(out) >= n: break
+    return out
 def rec(q): return any(str(o).endswith("26") for o in q.get("origen", []))
 
 def build(S):
@@ -77,6 +89,19 @@ def build(S):
         s = rest.pop(0); ck = EXTRA_CAST[ntr % len(EXTRA_CAST)]; ntr += 1; nm = cast[ck]["name"]; sub = series[s][0]["subtema"]
         z["trainers"].append({"id": f"t{zones.index(z)}_{len(z['trainers'])}", "cast": ck, "specialty": cast[ck]["role"].replace("Residente de ", ""), "serie": s,
                               "intro": L([(nm, ("Te reto con un caso: " + sub)[:88])]), "defeat": L([(nm, "Bien razonado. Sigue tu camino.")]), "questionTopics": [], "n": len(series[s])})
+    # minijuegos de la app NefroQuest (data/juegos.json y juegos2.json): clasificación, algoritmos y memorama del tema
+    tids = set(S.get("temas", [])) | ({9} if S["id"] == "9-1" else set())
+    extra = []
+    for c in J2.get("clasif", []):
+        if c["tid"] in tids: extra.append({"type": "clasif", "title": c["t"], "bins": c["bins"], "items": [list(x) for x in c["items"]], "pairs": []})
+    for o in J2.get("orden", []):
+        if o["tid"] in tids: extra.append({"type": "algoritmo", "title": o["t"], "items": o["s"], "pairs": []})
+    for tid in sorted(tids):
+        pr = J1.get(str(tid), {}).get("pares", [])
+        if len(pr) >= 6: extra.append({"type": "memorama", "title": "Memorama del tema", "items": [], "pairs": [list(x) for x in pr]})
+    for i, m in enumerate(extra):
+        z = min(zones, key=lambda z: (len(z["minigames"]), zones.index(z)))
+        z["minigames"].append(m)
     B = S["boss"]; nph = len(B["phases"]); per = [[] for _ in range(nph)]
     for i, qid in enumerate(boss_ids): per[min(nph - 1, i * nph // len(boss_ids))].append(qid)
     types = ["Molecular", "Celular", "Humoral", "Complemento"]
@@ -86,7 +111,7 @@ def build(S):
                       "intro": L(B["intro"]), "outro": L(B["outro"]),
                       "phases": [{"name": P[0], "type": types[i % 4], "lines": L([P[1]]), "topics": [P[0]], "questions": per[i]} for i, P in enumerate(B["phases"])]},
              "creatures": [], "typeChart": {}, "shields": [{"trial": s[0], "mnemonic": s[1], "result": s[2]} for s in S.get("shields", [])],
-             "nefrodex": [{"title": n[0], "text": n[1]} for n in S.get("nefrodex", [])] or [{"title": z["name"], "text": z["card"]} for z in zones]}
+             "nefrodex": ([{"title": n[0], "text": n[1]} for n in S.get("nefrodex", [])] or [{"title": z["name"], "text": z["card"]} for z in zones]) + perlas(bank)}
     pasto = [{"id": f"P2-{i+1}", "vf": True, "enunciado": p[0], "clave": p[1], "exp": p[2], "tema": S["title"], "nivel": "moderada"} for i, p in enumerate(S["vf"])]
     def walk(o, where=""):
         if isinstance(o, list) and len(o) == 2 and all(isinstance(x, str) for x in o) and len(o[1]) > 90: print(f"   LARGO {S['id']} ({len(o[1])}): {o[1]}")

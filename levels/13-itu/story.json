@@ -332,6 +332,18 @@
        "Estrógeno vaginal"
       ]
      ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "Pielonefritis complicada",
+     "items": [
+      "Urocultivo y hemocultivos",
+      "Antibiótico empírico IV",
+      "Imagen si no mejora en 48–72 h",
+      "Drenar obstrucción o absceso",
+      "Ajustar y completar el esquema"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -498,6 +510,45 @@
       "Ajustar al antibiograma y completar"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Bacteriuria asintomática",
+       "Tratar solo en embarazo / cirugía urológica"
+      ],
+      [
+       "Pielonefritis enfisematosa",
+       "DM; gas en parénquima"
+      ],
+      [
+       "E. coli",
+       "Principal uropatógeno"
+      ],
+      [
+       "Cistitis no complicada",
+       "Nitrofurantoína 5 d o fosfomicina"
+      ],
+      [
+       "IVU en trasplante",
+       "Profilaxis TMP-SMX primeros meses"
+      ],
+      [
+       "Malacoplaquia",
+       "Cuerpos de Michaelis-Gutmann"
+      ],
+      [
+       "Xantogranulomatosa",
+       "Coraliforme + Proteus → nefrectomía"
+      ],
+      [
+       "Tuberculosis renal",
+       "Piuria estéril"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -620,6 +671,38 @@
   {
    "title": "Parénquima en Llamas",
    "text": "Sin mejoría en 72 h: TC. Enfisematosa (diabetes): drenaje. Xantogranulomatosa: coraliforme + riñón excluido. TB: piuria estéril."
+  },
+  {
+   "title": "💎 Necrosis papilar en la IVU del diabético",
+   "text": "Necrosis papilar: POSTCARD (Pielonefritis, Obstrucción, Sickle, TB, Cirrosis, Analgésicos, Rechazo, Diabetes). Expulsión de papilas + fiebre + hematuria."
+  },
+  {
+   "title": "💎 Nitrofurantoína y función renal",
+   "text": "Nitrofurantoína: evitar si ClCr <30 mL/min (ineficaz en orina y tóxica). Fosfomicina y betalactámicos ajustados son alternativas."
+  },
+  {
+   "title": "💎 Bacteriuria asintomática: cuándo tratar",
+   "text": "Bacteriuria asintomática: tratar solo en embarazo y antes de procedimientos urológicos con sangrado mucoso. No en DM, ancianos, sonda ni trasplante renal >1 mes."
+  },
+  {
+   "title": "💎 Antibiótico empírico en pielonefritis co",
+   "text": "Pielonefritis con sepsis: ceftriaxona/cefepime (o carbapenémico si BLEE), evitar aminoglucósidos con LRA. 7 d (FQ) o 10–14 d (betalactámico)."
+  },
+  {
+   "title": "💎 Falta de respuesta a las 72 horas",
+   "text": "Sin mejoría a las 48–72 h: TC con contraste (absceso, obstrucción, gas). El riesgo de nefropatía por contraste con TFGe >30 es bajo."
+  },
+  {
+   "title": "💎 Clasificación y criterios de nefrectomía",
+   "text": "EPN: clase 1–2 → antibiótico + drenaje percutáneo; clase 3 con ≥2 factores (plaquetas bajas, LRA, conciencia alterada, choque) o clase 4 bilateral/riñón único → nefrectomía o drenaje bilateral."
+  },
+  {
+   "title": "💎 Pielonefritis enfisematosa clase 2: mane",
+   "text": "EPN sin factores de riesgo: antibiótico IV + drenaje percutáneo + descompresión de la obstrucción; nefrectomía solo si fracasa."
+  },
+  {
+   "title": "💎 Cistitis enfisematosa",
+   "text": "Cistitis enfisematosa: DM + vejiga neurogénica. Antibiótico IV + sonda ± irrigación; cirugía en ~10%. Descartar fístula entérica."
   }
  ]
 }

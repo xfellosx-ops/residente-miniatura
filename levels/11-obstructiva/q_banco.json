@@ -333,7 +333,7 @@
    "D": "La resonancia con gadolinio no es el estudio de primera elección y tiene restricciones con TFG baja.",
    "E": "La CUM define el reflujo, no la cicatriz."
   },
-  "perla": "DMSA-Tc99m: estándar para pielonefritis y cicatrices (≥4–6 meses). CUM: reflujo. MAG3/DTPA: función y drenaje.",
+  "perla": "DMSA-Tc99m: estándar para pielonefritis y cicatriz (cicatriz a los 6 meses del episodio, Johnson cap. 62). CUMS: reflujo. MAG3: función y drenaje. RM distingue edema de cicatriz.",
   "referencias": [
    "Comprehensive Clinical Nephrology (reflujo vesicoureteral)"
   ],
@@ -424,5 +424,424 @@
   "tema": "Enfermedad renal obstructiva",
   "obj": "11.o2",
   "peso": 39.6
+ },
+ {
+  "id": "OBS-5",
+  "tema_id": 11,
+  "sub": "11.a",
+  "obj": "11.o1",
+  "dificultad": "moderada",
+  "peso": 46,
+  "subtema": "Obstrucción sin dilatación en la ecografía",
+  "caso": "Hombre de 64 años con LRA anúrica, creatinina de 1.0 a 4.8 mg/dL en 5 días. Ecografía sin hidronefrosis. TC: masa retroperitoneal que envuelve ambos uréteres.",
+  "enunciado": "¿Qué explica la ausencia de hidronefrosis?",
+  "perla": "Obstrucción sin hidronefrosis: muy temprana, hipovolemia, fibrosis retroperitoneal, infiltración tumoral. Anuria = descartar obstrucción siempre.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 63: Urologic Issues for the Nephrologist (el cap. 61, Urinary Tract Obstruction, no está en el Drive)"
+  ],
+  "serie_id": "OBS-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La dilatación solo aparece cuando la obstrucción dura más de tres semanas",
+   "B": "La anuria corresponde a necrosis tubular y la masa es un hallazgo incidental",
+   "C": "La obstrucción bilateral nunca produce hidronefrosis por la caída de la TFG",
+   "D": "Una ecografía sin dilatación excluye obstrucción y obliga a buscar causa intrínseca",
+   "E": "La fibrosis retroperitoneal encierra el sistema colector e impide que se dilate"
+  },
+  "explicaciones": {
+   "A": "La dilatación puede faltar en las primeras horas, pero no tarda semanas.",
+   "B": "La masa que envuelve ambos uréteres explica la anuria.",
+   "C": "La obstrucción bilateral suele causar hidronefrosis; aquí la impide la fibrosis.",
+   "D": "Una ecografía normal no excluye obstrucción en estos escenarios.",
+   "E": "Correcto. La fibrosis retroperitoneal, la infiltración tumoral, la obstrucción muy temprana y la depleción de volumen pueden dar obstrucción sin dilatación. Ante anuria inexplicada se busca obstrucción con TC o pielografía."
+  },
+  "clave": "E",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "OBS-6",
+  "tema_id": 11,
+  "sub": "11.a",
+  "obj": "11.o1",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Renograma con diurético",
+  "caso": "Mujer de 28 años con hidronefrosis izquierda moderada y dolor intermitente. Creatinina normal. Se sospecha estenosis de la unión ureteropiélica.",
+  "enunciado": "¿Qué estudio confirma la obstrucción funcional?",
+  "perla": "MAG3 + furosemida: t½ >20 min obstructivo; <10 min no obstructivo; 10–20 indeterminado.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 63: Urologic Issues for the Nephrologist"
+  ],
+  "serie_id": "OBS-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Gammagrafía con DMSA para medir la función cortical diferencial",
+   "B": "Renograma MAG3 con furosemida y tiempo de vaciamiento",
+   "C": "Ecografía Doppler con índice de resistencia del lado afectado",
+   "D": "Cistouretrografía miccional para descartar reflujo de alto grado",
+   "E": "Urografía por resonancia sin contraste con secuencias T2"
+  },
+  "explicaciones": {
+   "A": "El DMSA evalúa cicatrices y función cortical, no el drenaje.",
+   "B": "Correcto. El MAG3 con furosemida distingue la dilatación obstructiva, con vaciamiento prolongado (t½ mayor de 20 min), de la no obstructiva (menor de 10 min), y cuantifica la función diferencial.",
+   "C": "El índice de resistencia es poco sensible y específico.",
+   "D": "Evalúa reflujo, no obstrucción.",
+   "E": "La resonancia muestra la anatomía pero no cuantifica bien el drenaje."
+  },
+  "clave": "B",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "OBS-7",
+  "tema_id": 11,
+  "sub": "11.a",
+  "obj": "11.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Fibrosis retroperitoneal por IgG4",
+  "caso": "Hombre de 61 años con dolor lumbar, hidronefrosis bilateral y masa periaórtica. IgG4 sérica elevada; pancreatitis autoinmune previa.",
+  "enunciado": "¿Cuál es el tratamiento inicial más adecuado?",
+  "perla": "Fibrosis retroperitoneal: periaórtica, uréteres medializados; IgG4 en parte de los casos; tratamiento: glucocorticoides ± rituximab + derivación.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 63: Urologic Issues for the Nephrologist",
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 65: Chronic Interstitial Nephritis"
+  ],
+  "serie_id": "OBS-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Observación, porque la regresión espontánea es la regla",
+   "B": "Ureterólisis quirúrgica inmediata sin tratamiento médico previo",
+   "C": "Tamoxifeno como monoterapia de primera elección",
+   "D": "Derivación urinaria si hay LRA y glucocorticoides",
+   "E": "Radioterapia sobre la masa retroperitoneal por sospecha de linfoma"
+  },
+  "explicaciones": {
+   "A": "Sin tratamiento progresa y daña los riñones.",
+   "B": "La cirugía se reserva para fracaso del tratamiento médico.",
+   "C": "El tamoxifeno es alternativa menos eficaz.",
+   "D": "Correcto. La fibrosis retroperitoneal idiopática o por IgG4 responde a glucocorticoides; se descomprime con catéter doble J o nefrostomía si hay LRA. Rituximab o micofenolato se usan como ahorradores.",
+   "E": "No hay datos de linfoma; se confirma con biopsia si hay duda."
+  },
+  "clave": "D",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "VUP-1",
+  "tema_id": 11,
+  "sub": "11.a",
+  "obj": "11.o1",
+  "dificultad": "moderada",
+  "peso": 38,
+  "subtema": "Válvulas de uretra posterior",
+  "caso": "Recién nacido varón con hidronefrosis bilateral prenatal, oligohidramnios, vejiga engrosada y chorro urinario débil.",
+  "enunciado": "¿Cuál es el diagnóstico y el estudio confirmatorio?",
+  "perla": "Varón + hidronefrosis bilateral + vejiga engrosada + oligohidramnios = válvulas de uretra posterior → CUMS.",
+  "referencias": [
+   "Conocimiento estándar de urología pediátrica; el cap. 61 de Johnson no está en el Drive"
+  ],
+  "serie_id": "VUP-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Válvulas de uretra posterior, confirmadas con cistouretrografía miccional",
+   "B": "Estenosis ureteropiélica bilateral, confirmada con renograma con MAG3",
+   "C": "Reflujo vesicoureteral primario, confirmado con gammagrafía con DMSA",
+   "D": "Síndrome de abdomen en ciruela pasa, confirmado con ecografía fetal",
+   "E": "Vejiga neurogénica por mielomeningocele, confirmada con resonancia"
+  },
+  "explicaciones": {
+   "A": "Correcto. Es la causa más frecuente de obstrucción infravesical en varones. La cistouretrografía miccional muestra la uretra posterior dilatada. Muchos evolucionan a ERC pese a la ablación.",
+   "B": "La estenosis ureteropiélica no explica la vejiga engrosada ni el chorro débil.",
+   "C": "El reflujo puede acompañar, pero no explica la obstrucción infravesical.",
+   "D": "El síndrome de ciruela pasa incluye ausencia de musculatura abdominal.",
+   "E": "No hay datos de defecto del tubo neural."
+  },
+  "clave": "A",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "OBMA-1",
+  "tema_id": 11,
+  "sub": "11.a",
+  "obj": "11.o1",
+  "dificultad": "dificil",
+  "peso": 42,
+  "subtema": "Obstrucción ureteral maligna: cómo drenar",
+  "caso": "Mujer de 49 años con cáncer cervicouterino avanzado, hidronefrosis bilateral, creatinina 6.8 mg/dL, fiebre y bacteriemia. Oncología aún puede ofrecer quimiorradioterapia.",
+  "enunciado": "¿Cuál es la mejor estrategia de derivación?",
+  "perla": "Obstrucción maligna (70% GU): PCN si sepsis; drenar el mejor riñón; stents fallan 40–50% en compresión extrínseca; cambiar c/3–6 meses; reobstrucción stent 11% vs PCN 1%. Urotelial alto: stent, no PCN (siembra).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 63: Urologic Issues for the Nephrologist (Warner, Mellon)"
+  ],
+  "serie_id": "OBMA-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefrostomía del riñón con mejor parénquima y luego stent anterógrado",
+   "B": "Stent doble J retrógrado bilateral bajo anestesia general de inmediato",
+   "C": "No derivar, porque la supervivencia esperada es menor de un mes",
+   "D": "Hemodiálisis urgente sin derivación hasta controlar la infección",
+   "E": "Ureterólisis abierta con omentoplastia en el mismo tiempo quirúrgico"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 63: con sepsis, la manipulación endoscópica puede causar choque; la nefrostomía con anestesia local es preferible y después se coloca stent anterógrado (éxito mayor de 90%). No siempre se requiere drenaje bilateral: basta el riñón con mejor parénquima. Los stents fallan en 40% a 50% de las compresiones extrínsecas.",
+   "B": "Con sepsis y compresión extrínseca el stent retrógrado es más riesgoso y falla con frecuencia.",
+   "C": "Hay opción oncológica; la derivación está justificada.",
+   "D": "La diálisis no trata la obstrucción infectada.",
+   "E": "La cirugía abierta rara vez se indica en agudo."
+  },
+  "clave": "A",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RCAP-1",
+  "tema_id": 11,
+  "sub": "11.a",
+  "obj": "11.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Retención crónica de alta presión",
+  "caso": "Hombre de 74 años con chorro débil, goteo y creatinina de 1.1 a 3.4 mg/dL en 4 meses. Ecografía: hidronefrosis bilateral, residuo posmiccional de 1.4 L.",
+  "enunciado": "¿Cuál es el manejo inicial correcto?",
+  "perla": "Retención crónica de baja presión (sin hidronefrosis) vs alta presión (hidronefrosis + LRA): esta última no se maneja solo con fármacos. RPM >1 L: peor resultado quirúrgico → cateterismo intermitente.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 63: Urologic Issues for the Nephrologist (Warner, Mellon)"
+  ],
+  "serie_id": "RCAP-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Tamsulosina y finasterida durante 3 meses antes de decidir otra medida",
+   "B": "Nefrostomía percutánea bilateral como primera medida de drenaje",
+   "C": "Hemodiálisis temporal hasta que la próstata disminuya de tamaño",
+   "D": "Resección transuretral urgente sin drenaje vesical previo",
+   "E": "Sonda vesical primero; no tratar solo con fármacos"
+  },
+  "explicaciones": {
+   "A": "El tratamiento médico es para retención aguda, de baja presión o síntomas.",
+   "B": "La obstrucción es infravesical: basta la sonda.",
+   "C": "La diálisis no resuelve la causa.",
+   "D": "Primero se drena y se valora el detrusor.",
+   "E": "Correcto. Johnson cap. 63: la retención crónica de alta presión, con hidronefrosis y daño renal, no debe tratarse solo con fármacos por el riesgo de empeorar la función. Primero se drena con sonda uretral o suprapúbica. Con residuo mayor de 1 L el detrusor suele estar débil y la cirugía rinde menos; el cateterismo intermitente es una buena opción."
+  },
+  "clave": "E",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HEMV-1",
+  "tema_id": 11,
+  "sub": "11.a",
+  "obj": "11.o1",
+  "dificultad": "moderada",
+  "peso": 38,
+  "subtema": "Estudio de la hematuria",
+  "caso": "Hombre de 58 años, fumador de 30 paquetes-año, con un episodio de hematuria macroscópica indolora. Toma warfarina con INR terapéutico.",
+  "enunciado": "¿Qué evaluación corresponde?",
+  "perla": "Hematuria visible: malignidad 15–22% → imagen + cistoscopia (excepto <40 años con patrón glomerular). Microhematuria: ≥3 eritrocitos/campo; riesgo intermedio (hombre >40, mujer >50, >10 paquetes-año, >11 eritrocitos) → cistoscopia.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 63: Urologic Issues for the Nephrologist (Warner, Mellon)"
+  ],
+  "serie_id": "HEMV-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Solo ajustar la warfarina, porque explica la hematuria",
+   "B": "Repetir el examen de orina en 6 semanas y estudiar si persiste",
+   "C": "Creatinina, cistoscopia y urotomografía, aun con anticoagulación",
+   "D": "Citología urinaria como prueba única de tamizaje",
+   "E": "Biopsia renal por sospecha de nefropatía IgA"
+  },
+  "explicaciones": {
+   "A": "La anticoagulación en rango no explica la hematuria.",
+   "B": "La hematuria visible se estudia desde el primer episodio.",
+   "C": "Correcto. Johnson cap. 63: todo adulto con un episodio de hematuria visible requiere imagen del tracto superior, de preferencia urotomografía, y cistoscopia, además de creatinina; la anticoagulación no la explica. La hematuria visible se asocia a malignidad en 15% a 22%, sobre todo cáncer vesical.",
+   "D": "La citología ya no se recomienda como prueba aislada.",
+   "E": "El patrón no es glomerular y tiene más de 40 años."
+  },
+  "clave": "C",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVU-5",
+  "tema_id": 11,
+  "sub": "11.b",
+  "obj": "11.o2",
+  "dificultad": "moderada",
+  "peso": 42,
+  "subtema": "Cuándo pedir cistouretrografía tras una IVU febril",
+  "caso": "Lactante de 9 meses con primera IVU febril por E. coli, buena respuesta al antibiótico. Ecografía renal y vesical normal.",
+  "enunciado": "¿Qué recomiendan AAP y NICE, según Johnson?",
+  "perla": "RVU: CUMS es el estudio diagnóstico (se hace al terminar el antibiótico); DMSA para pielonefritis y cicatriz (cicatriz a los 6 meses); cistografía nuclear para seguimiento; eco no diagnostica reflujo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 62: Primary Vesicoureteral Reflux and Reflux Nephropathy (Mathews, Damm, Mattoo)"
+  ],
+  "serie_id": "RVU-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hacer cistouretrografía a todos tras la primera IVU febril",
+   "B": "Hacer DMSA en fase aguda y decidir la cistouretrografía con ese resultado",
+   "C": "No de rutina; pedirla tras segunda IVU febril o eco anormal",
+   "D": "Iniciar profilaxis indefinida sin estudios adicionales",
+   "E": "Hacer urotomografía para descartar reflujo y litiasis"
+  },
+  "explicaciones": {
+   "A": "Ya no se recomienda de rutina.",
+   "B": "El DMSA agudo rara vez cambia el manejo; para cicatriz se hace a los 6 meses.",
+   "C": "Correcto. Johnson cap. 62: AAP (2 a 24 meses) y NICE no recomiendan cistouretrografía de rutina tras la primera IVU febril. Se pide si la eco es anormal, la IVU es compleja o atípica, hay cicatrices o CAKUT, o tras una segunda IVU febril. Advierte que hasta 17% con grado IV tenía eco normal.",
+   "D": "La profilaxis se decide caso por caso.",
+   "E": "La tomografía no diagnostica reflujo."
+  },
+  "clave": "C",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVU-6",
+  "tema_id": 11,
+  "sub": "11.b",
+  "obj": "11.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Profilaxis antibiótica en el reflujo",
+  "caso": "Lactante de 1 mes con reflujo grado IV bilateral detectado tras pielonefritis.",
+  "enunciado": "¿Qué profilaxis es adecuada?",
+  "perla": "Profilaxis RVU: <1 año con IVU febril → continua (AUA); mayores, selectiva (grado, recurrencia, DVI, cicatrices). <2 meses: no TMP-SMX. RIVUR: −50% de IVU, sin efecto demostrado en cicatriz.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 62: Primary Vesicoureteral Reflux and Reflux Nephropathy (Mathews, Damm, Mattoo)"
+  ],
+  "serie_id": "RVU-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "TMP-SMX, que es la primera elección a cualquier edad",
+   "B": "Ninguna, porque la profilaxis no reduce la recurrencia de IVU",
+   "C": "Ciprofloxacino diario hasta los 5 años de edad",
+   "D": "Amoxicilina con clavulanato por 7 días cada mes",
+   "E": "Cefalexina; evitar TMP-SMX en los primeros 2 meses"
+  },
+  "explicaciones": {
+   "A": "En los primeros 2 meses se evita.",
+   "B": "RIVUR y PRIVENT mostraron menor recurrencia.",
+   "C": "No es un esquema de profilaxis recomendado.",
+   "D": "No es profilaxis continua.",
+   "E": "Correcto. Johnson cap. 62: opciones de profilaxis son TMP-SMX, trimetoprim, nitrofurantoína y cefalexina; antes de los 2 meses se evita TMP-SMX porque agrava la hiperbilirrubinemia. AUA recomienda profilaxis continua en menores de 1 año con IVU febril y reflujo. RIVUR mostró 50% menos recurrencia con TMP-SMX, sin efecto demostrado sobre cicatrices."
+  },
+  "clave": "E",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVU-7",
+  "tema_id": 11,
+  "sub": "11.b",
+  "obj": "11.o2",
+  "dificultad": "moderada",
+  "peso": 38,
+  "subtema": "Resolución espontánea del reflujo",
+  "caso": "Cuatro niños con reflujo: A, niña de 2 años grado II unilateral; B, niña de 2 años grado IV; C, niño de 2 años grado II; D, niña de 6 años grado IV bilateral con cicatrices.",
+  "enunciado": "¿Cuál tiene menos probabilidad de resolución espontánea?",
+  "perla": "Resolución RVU: I 72%, II 61%, IV/V 32%; peor con edad mayor, bilateral, cicatrices, DVI. Predictores de ERC: diagnóstico >24 meses, grado V, daño bilateral.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 62: Primary Vesicoureteral Reflux and Reflux Nephropathy (Mathews, Damm, Mattoo)"
+  ],
+  "serie_id": "RVU-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "D, por edad mayor, grado IV bilateral y daño renal",
+   "B": "A, porque las niñas resuelven menos que los niños",
+   "C": "B, porque el grado IV nunca resuelve sin cirugía",
+   "D": "C, porque los varones con grado II casi nunca resuelven",
+   "E": "Todos tienen la misma probabilidad a esa edad"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 62: la resolución es más probable en grados bajos (I 72%, II 61% frente a IV/V 32%), en menores de 1 año, sin daño renal ni disfunción vesical-intestinal. Mayor edad, bilateralidad y grado IV o V bilateral la reducen mucho.",
+   "B": "El grado bajo unilateral resuelve con frecuencia.",
+   "C": "El grado IV resuelve en cerca de un tercio.",
+   "D": "El grado II en varones suele resolver.",
+   "E": "Edad, grado y lateralidad cambian el pronóstico."
+  },
+  "clave": "A",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVU-8",
+  "tema_id": 11,
+  "sub": "11.b",
+  "obj": "11.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Indicaciones de cirugía en el reflujo",
+  "caso": "Niña de 5 años con reflujo grado IV que, pese a buen apego a la profilaxis, presenta tres pielonefritis en un año y nuevas cicatrices en el DMSA.",
+  "enunciado": "¿Qué es correcto sobre la cirugía?",
+  "perla": "Cirugía RVU: IVU pese a profilaxis, cicatriz progresiva, mal apego. Reimplante abierto 95%, Deflux 70–80%, robótico 70–90%. HTA y proteinuria: IECA o ARA en monoterapia.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 62: Primary Vesicoureteral Reflux and Reflux Nephropathy (Mathews, Damm, Mattoo)"
+  ],
+  "serie_id": "RVU-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "No está indicada, porque la profilaxis siempre es superior a la cirugía",
+   "B": "La inyección endoscópica tiene éxito mayor que el reimplante abierto",
+   "C": "Tras la cirugía exitosa desaparecen todas las infecciones urinarias",
+   "D": "Indicada; el reimplante corrige ~95%, aunque persiste IVU baja",
+   "E": "Está demostrado que la cirugía previene nuevas cicatrices renales"
+  },
+  "explicaciones": {
+   "A": "Aquí falló la profilaxis.",
+   "B": "El endoscópico tiene menor éxito.",
+   "C": "Puede persistir IVU baja en 20%.",
+   "D": "Correcto. Johnson cap. 62: la cirugía se indica con IVU recurrente pese a profilaxis, cicatrices que empeoran o falta de apego. El reimplante abierto tiene ~95% de éxito; la inyección endoscópica 70 a 80%; la laparoscópica o robótica 70 a 90%. Reduce pielonefritis, pero 20% sigue con IVU baja y no se ha demostrado que prevenga cicatrices.",
+   "E": "No se ha demostrado efecto sobre cicatrices."
+  },
+  "clave": "D",
+  "tema": "Enfermedad renal obstructiva",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
  }
 ]

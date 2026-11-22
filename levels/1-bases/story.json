@@ -238,6 +238,46 @@
      ],
      "questionTopics": [],
      "n": 2
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "FIS-5",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Te reto con un caso: Retroalimentación tubuloglomerular"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "ALDP-1",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Te reto con un caso: Paradoja de la aldosterona"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -276,6 +316,45 @@
       "Ascenso de la pelvis a la fosa lumbar"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Mácula densa",
+       "Sensa NaCl → retroalimentación tubuloglomerular"
+      ],
+      [
+       "Podocito",
+       "Diafragma de hendidura (nefrina/podocina)"
+      ],
+      [
+       "Túbulo proximal",
+       "Reabsorbe ~65% del Na⁺ filtrado"
+      ],
+      [
+       "Asa ascendente gruesa",
+       "NKCC2 (blanco de furosemida)"
+      ],
+      [
+       "Túbulo distal",
+       "NCC (blanco de tiazidas)"
+      ],
+      [
+       "Célula principal",
+       "ENaC + ROMK (aldosterona)"
+      ],
+      [
+       "Intercalada α",
+       "Secreta H⁺ (H⁺-ATPasa)"
+      ],
+      [
+       "Arteriola eferente",
+       "Constricción por Ang II sostiene la TFG"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -363,7 +442,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "FIS",
+     "serie": "NEW-1-1",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -377,7 +456,47 @@
       ]
      ],
      "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "FIS",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Determinantes de la TFG: presión de ultrafiltración"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
      "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "CASR-1",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Te reto con un caso: Hipercalcemia y defecto de concentración"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -518,7 +637,48 @@
      "Célula principal: ENaC y acuaporina 2. Intercalada: ácido y bicarbonato."
     ]
    ],
-   "trainers": [],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "NEW-1-2",
+     "intro": [
+      [
+       "Dr. Ernesto Holístico",
+       "Los diuréticos son todos iguales: sacan agua. ¿No?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Ernesto Holístico",
+       "Cada uno en su segmento… tengo que repasar."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "FIS-6",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Reabsorción de calcio y magnesio en el asa"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
    "wild": [
     {
      "name": "Sodio Fugitivo",
@@ -538,7 +698,7 @@
    ],
    "gates": [
     {
-     "after": null,
+     "after": "t2_0",
      "topic": "Transportadores por segmento y sitio de acción de diuréticos",
      "text": [
       [
@@ -702,6 +862,38 @@
   {
    "title": "Río Tubular",
    "text": "Proximal NHE3/SGLT2 · Asa NKCC2 (furosemida) · Distal NCC (tiazida) · Colector ENaC (amilorida) y AQP2 (ADH). Contracorriente: asa crea, vasos rectos conservan."
+  },
+  {
+   "title": "💎 Acción de la ADH sobre el conducto colec",
+   "text": "ADH: V2 (Gs) → AMPc/PKA → AQP2 apical (AQP3/4 basolateral) + UT-A1. V1: vasoconstricción. DIN: V2/AQP2 mutados o litio."
+  },
+  {
+   "title": "💎 Autorregulación y hemodinámica glomerula",
+   "text": "Triple golpe: hipovolemia + AINE (sin dilatación aferente) + IECA/ARA II (sin constricción eferente) = caída de la presión intraglomerular. Suspender ambos y reponer volumen."
+  },
+  {
+   "title": "💎 Transporte tubular por segmento y sitio ",
+   "text": "Reabsorción de Na: proximal ~65%, asa ~25%, distal 5–7% (NCC, tiazidas), colector 2–3% (ENaC, amilorida; ARM). Bloqueo secuencial = asa + tiazida o acetazolamida."
+  },
+  {
+   "title": "💎 Control del tono arteriolar: papel de la",
+   "text": "Bajo VAE: Ang II contrae eferente (mantiene PGC) + PGE₂/PGI₂ dilatan aferente. AINE y IECA/ARA II rompen ese equilibrio → ↓TFG."
+  },
+  {
+   "title": "💎 Reabsorción proximal de bicarbonato y an",
+   "text": "TCP: 70–90% del HCO₃⁻ vía NHE3 + AC IV (luminal) y AC II (intracelular). Acetazolamida → bicarbonaturia + acidosis hiperclorémica (como ATR II)."
+  },
+  {
+   "title": "💎 Determinantes de la TFG: presión de ultr",
+   "text": "TFG ↓ con 'triple golpe': AINE (constricción aferente) + IECA/ARA (dilatación eferente) + diurético/hipovolemia → ↓ presión del capilar glomerular."
+  },
+  {
+   "title": "💎 Barrera de filtración: selectividad de c",
+   "text": "Cambios mínimos: pérdida de carga + borramiento podocitario → albuminuria selectiva; sin hematuria. Barrera = glucocálix/endotelio + MBG + diafragma de hendidura."
+  },
+  {
+   "title": "💎 Mecanismo contracorriente y gradiente me",
+   "text": "Efecto único: TAL (NKCC2) reabsorbe NaCl sin agua → contracorriente multiplicador; urea (UT-A1) aporta ~50% del gradiente; vasos rectos lo preservan."
   }
  ]
 }

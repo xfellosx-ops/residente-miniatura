@@ -243,11 +243,11 @@
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "IMG",
+     "serie": "LEUK-1",
      "intro": [
       [
        "Dra. Carmen Triaje",
-       "Te reto con un caso: Clasificación de Bosniak: riesgo de malignidad"
+       "Te reto con un caso: Infiltración renal por linfoma"
       ]
      ],
      "defeat": [
@@ -257,7 +257,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "ACK-1",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Te reto con un caso: Enfermedad quística adquirida y carcinoma renal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -318,6 +338,53 @@
       [
        "Oncocitoma",
        "Cicatriz central; benigno"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Riñón de mieloma",
+       "Nefropatía por cilindros de cadenas ligeras"
+      ],
+      [
+       "MGRS",
+       "Gammapatía de significado renal"
+      ],
+      [
+       "Amiloidosis AL",
+       "Rojo Congo, verde manzana"
+      ],
+      [
+       "Inhibidores de VEGF",
+       "HTA, proteinuria, MAT"
+      ],
+      [
+       "Ifosfamida",
+       "Síndrome de Fanconi"
+      ],
+      [
+       "Metotrexato tóxico",
+       "Glucarpidasa"
+      ],
+      [
+       "CAR-T",
+       "LRA por liberación de citocinas"
+      ],
+      [
+       "Inhibidor de checkpoint",
+       "NTI aguda"
+      ],
+      [
+       "Tumor renal T1",
+       "Nefrectomía parcial"
+      ],
+      [
+       "Cadenas ligeras libres",
+       "Cociente κ/λ"
       ]
      ]
     }
@@ -439,11 +506,11 @@
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "NEF",
+     "serie": "HCAT-1",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Masas renales pequeñas: cirugía conservadora de nefronas"
+       "Te reto con un caso: Hipercalcemia maligna en ERC"
       ]
      ],
      "defeat": [
@@ -453,7 +520,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "RCC-2",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Síndromes paraneoplásicos del carcinoma renal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -650,6 +737,38 @@
   {
    "title": "Túbulo Bajo Quimioterapia",
    "text": "Cisplatino: proximal + ↓Mg. Ifosfamida: Fanconi. MTX: cristales (alcalinizar, leucovorina). Anti-VEGF: HTA/proteinuria/MAT. ICI: NTI."
+  },
+  {
+   "title": "💎 Infiltración renal por linfoma",
+   "text": "Riñones grandes + sedimento blando + LRA en linfoma/leucemia = infiltración. Lisozima (leucemia monocítica) → Fanconi. Leucostasis en LMA >100,000 → citorreducción + leucoféresis."
+  },
+  {
+   "title": "💎 Hipercalcemia maligna en ERC",
+   "text": "HiperCa grave (>13 mg/dL o síntomas): salina → asa solo tras euvolemia → calcitonina (taquifilaxia) → bifosfonato o denosumab 120 mg SC. Johnson discrepa: cap. 67 contraindica zoledronato con TFG <30; cap. 11 los considera seguros en ERC."
+  },
+  {
+   "title": "💎 Enfermedad quística adquirida y carcinom",
+   "text": "ACKD: >3 quistes por riñón sin causa hereditaria; 5–20% al iniciar diálisis, 80–100% a 10 años. CCR asociado a ACKD (36%), papilar de células claras (24%). TC con contraste o RM sin gadolinio; eco anual en trasplantados."
+  },
+  {
+   "title": "💎 Síndromes paraneoplásicos del carcinoma ",
+   "text": "Carcinoma renal paraneoplásico: eritrocitosis (EPO), hipercalcemia (PTHrP), Stauffer, HTA (renina), fiebre."
+  },
+  {
+   "title": "💎 Nefrectomía parcial frente a radical y r",
+   "text": "Masa renal: cirugía conservadora en todo tumor <7 cm si es factible; radical ≥T2; ablación <4 cm en alto riesgo. Hasta 30% de masas <3 cm son benignas; biopsia S y E >98%. Bosniak III y IV: cirugía; IIF: TC c/6–12 meses."
+  },
+  {
+   "title": "💎 Cetuximab e hipomagnesemia",
+   "text": "Pérdida renal de Mg: cetuximab, panitumumab, cisplatino. Fanconi: cisplatino, ifosfamida, pemetrexed, imatinib. DI nefrogénica: cisplatino, ifosfamida, pemetrexed. SIADH: ciclofosfamida, vincristina."
+  },
+  {
+   "title": "💎 Angiomiolipoma en esclerosis tuberosa",
+   "text": "Angiomiolipoma >3–4 cm: riesgo de sangrado (Wunderlich). TSC: everolimus; embolización si sangra."
+  },
+  {
+   "title": "💎 Clasificación de Bosniak: riesgo de mali",
+   "text": "Bosniak I/II benignas; IIF vigilancia; III ≈50% malignidad; IV ≈90% (nódulo mural con realce)."
   }
  ]
 }
