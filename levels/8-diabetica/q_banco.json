@@ -1026,5 +1026,537 @@
   "clave": "D",
   "tema": "Nefropatía diabética",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-1",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Susceptibilidad genética a la ERD",
+  "caso": "Joven con DM1 cuyo hermano, también con DM1, está en diálisis por nefropatía diabética.",
+  "enunciado": "¿Qué riesgo de ERD le corresponde según Johnson?",
+  "perla": "Mayor prevalencia en afroamericanos, nativos americanos, mexicoamericanos, polinesios, aborígenes australianos y surasiáticos. Bajo peso al nacer y menos nefronas aumentan el riesgo. Las bebidas azucaradas con fructosa elevan el ácido úrico, pero PERL fue negativo.",
+  "referencias": [
+   "Pathogenesis, Clinical Manifestations, and Natural History of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 31"
+  ],
+  "serie_id": "NDJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Igual que la población diabética general, 5%",
+   "B": "~17% por herencia mendeliana",
+   "C": "~83%, frente a 17% sin nefropatía familiar",
+   "D": "~50% por herencia autosómica dominante",
+   "E": "Nulo si mantiene HbA1c menor de 7%"
+  },
+  "explicaciones": {
+   "A": "Solo 30–40% de los diabéticos desarrolla nefropatía.",
+   "B": "17% es con familiar sin nefropatía.",
+   "C": "Correcto. Agregación familiar marcada; heredabilidad ~35% en DM1, poligénica, con variantes como ELMO1 y ARHGAP24.",
+   "D": "No es mendeliana.",
+   "E": "El control reduce, no anula, el riesgo."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-2",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o1",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Histología diabética y función",
+  "caso": "Biopsia en DM1 de 20 años de evolución: nódulos de Kimmelstiel-Wilson, expansión mesangial difusa, hialinosis de arteriolas aferente y eferente, IgG lineal débil.",
+  "enunciado": "¿Qué lesión se correlaciona mejor con la caída de la función renal?",
+  "perla": "MBG normal 270–359 nm; puede triplicarse a los 10 años de diabetes. Lesiones difusas en 90% de DM1 >10 años y 25–50% de DM2. En DM2 la estructura es heterogénea.",
+  "referencias": [
+   "Pathogenesis, Clinical Manifestations, and Natural History of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 31"
+  ],
+  "serie_id": "NDJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Los nódulos de Kimmelstiel-Wilson",
+   "B": "La IgG lineal en la membrana basal",
+   "C": "El engrosamiento aislado de la cápsula de Bowman",
+   "D": "La hialinosis solo de la arteriola aferente",
+   "E": "Expansión mesangial difusa y fibrosis intersticial"
+  },
+  "explicaciones": {
+   "A": "Poco significado funcional.",
+   "B": "Es atrapamiento pasivo; no indica anti-MBG.",
+   "C": "No es lo descrito.",
+   "D": "La hialinosis de aferente y eferente juntas es muy específica de diabetes.",
+   "E": "Correcto. La glomeruloesclerosis difusa con expansión mesangial se correlaciona con la función; los nódulos tienen poco significado funcional. La fibrosis intersticial y la atrofia tubular son los mejores correlatos de la caída de TFG."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-3",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Variabilidad de la albuminuria",
+  "caso": "Mujer con DM2 y ACR de 85 mg/g en una muestra tomada durante una infección urinaria con glucemia de 320 mg/dL.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Tamizaje anual con ACR. Aun en el rango alto de la normoalbuminuria hay más riesgo renal y CV. Biomarcadores de progresión: TNFR1 y TNFR2 solubles.",
+  "referencias": [
+   "Pathogenesis, Clinical Manifestations, and Natural History of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 31"
+  ],
+  "serie_id": "NDJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Repetir ACR sin factores de confusión",
+   "B": "Diagnosticar ERD A2 e intensificar el SRAA",
+   "C": "Solicitar biopsia renal",
+   "D": "Iniciar finerenona",
+   "E": "Medir proteinuria con tira reactiva"
+  },
+  "explicaciones": {
+   "A": "Correcto. Variación intraindividual 30–50%; confunden fiebre, ejercicio, IVU, otra nefropatía, hematuria, IC, HTA o hiperglucemia no controladas. Primera orina de la mañana.",
+   "B": "Aún no se confirma.",
+   "C": "No está indicada.",
+   "D": "Requiere albuminuria persistente.",
+   "E": "La tira no detecta albuminuria de 30–300 mg/día."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-4",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Fenotipos de presentación",
+  "caso": "Hombre de 66 años con DM2, TFGe que cae 7 mL/min/año con SRAA y ACR de 20 mg/g, sin retinopatía.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "Presentaciones: ERD clásica ~60%, nefropatía isquémica 13%, enfermedad renal primaria coexistente 27%. Una forma frecuente es la LRA irreversible tras AINE, eventos cardiacos o sepsis.",
+  "referencias": [
+   "Pathogenesis, Clinical Manifestations, and Natural History of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 31"
+  ],
+  "serie_id": "NDJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Sin albuminuria se descarta enfermedad renal diabética",
+   "B": "Se espera una caída de 10 mL/min/año con SRAA",
+   "C": "Debe biopsiarse si los riñones son pequeños",
+   "D": "Caída mayor de 5 mL/min/año con SRAA amerita estudio",
+   "E": "La ausencia de retinopatía en DM2 excluye ERD"
+  },
+  "explicaciones": {
+   "A": "Existe el fenotipo no proteinúrico.",
+   "B": "No es lo esperado.",
+   "C": "Con riñones pequeños o asimétricos es prudente no biopsiar.",
+   "D": "Correcto. Con SRAA la caída anual esperada es ≤5 mL/min; más rápido exige descartar isquemia renovascular u otra causa.",
+   "E": "Solo 50–60% de los DM2 proteinúricos tiene retinopatía; en DM1 está casi siempre."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-5",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Presión arterial en la ERD",
+  "caso": "Hombre con DM2 y ACR 180 mg/g con PA de consultorio normal; el MAPA muestra PA nocturna mayor que la diurna.",
+  "enunciado": "¿Qué significado tiene?",
+  "perla": "En DM2, 80% tiene PA o perfil circadiano anormal al diagnóstico. La rigidez aórtica explica la HTA sistólica aislada; diastólica <70 aumenta los eventos coronarios.",
+  "referencias": [
+   "Pathogenesis, Clinical Manifestations, and Natural History of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 31"
+  ],
+  "serie_id": "NDJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hallazgo benigno sin valor pronóstico",
+   "B": "Mayor mortalidad y riesgo de falla renal",
+   "C": "Seudohipertensión por arterias calcificadas",
+   "D": "Indicación de suspender el SRAA",
+   "E": "Efecto exclusivo de la hipoglucemia nocturna"
+  },
+  "explicaciones": {
+   "A": "Tiene gran valor pronóstico.",
+   "B": "Correcto. El aumento nocturno de PA se asocia a mortalidad 20 veces mayor y más falla renal; el patrón no dipper puede preceder a la albuminuria moderada.",
+   "C": "La seudohipertensión eleva falsamente la PA en consultorio con poco daño a órgano.",
+   "D": "No es lo indicado.",
+   "E": "No es lo descrito."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-6",
+  "tema_id": 8,
+  "sub": "8.a",
+  "obj": "8.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Ensayos de control glucémico",
+  "caso": "Se discuten metas de HbA1c en DM2.",
+  "enunciado": "¿Qué resultado es correcto?",
+  "perla": "KDIGO 2022: HbA1c individualizada entre <6.5% y <8% sin diálisis; en diálisis la meta óptima es desconocida. La HbA1c pierde exactitud en ERC avanzada; usar MCG si no concuerda.",
+  "referencias": [
+   "Tong LL, Adler S, Wanner C. Prevention and Treatment of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 32, pp. 380-388"
+  ],
+  "serie_id": "NDJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "ADVANCE: HbA1c 6.5% aumentó la nefropatía",
+   "B": "UKPDS: el beneficio se perdió al igualar la HbA1c",
+   "C": "Kumamoto: sin efecto sobre la albuminuria",
+   "D": "ACCORD: HbA1c 6.4% aumentó 22% la mortalidad",
+   "E": "DCCT: beneficio renal evidente desde el primer año"
+  },
+  "explicaciones": {
+   "A": "Redujo 21% la nefropatía.",
+   "B": "Persistió 24% menos enfermedad microvascular: memoria metabólica.",
+   "C": "Redujo 60% la albuminuria moderada.",
+   "D": "Correcto. Control muy estricto en ACCORD: más mortalidad total, sin reducir eventos CV mayores.",
+   "E": "En EDIC la menor caída de TFG se vio tras más de 10 años."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-7",
+  "tema_id": 8,
+  "sub": "8.a",
+  "obj": "8.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "SRAA en normoalbuminuria",
+  "caso": "Mujer de 35 años con DM1, normotensa y normoalbuminúrica. Pregunta si debe tomar IECA para prevenir la nefropatía.",
+  "enunciado": "¿Qué recomienda Johnson?",
+  "perla": "En hipertensos normoalbuminúricos, BENEDICT mostró que trandolapril previene la albuminuria moderada. Asesorar anticoncepción antes del SRAA en mujeres fértiles.",
+  "referencias": [
+   "Tong LL, Adler S, Wanner C. Prevention and Treatment of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 32, pp. 380-388"
+  ],
+  "serie_id": "NDJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "No usar SRAA en normotensos normoalbuminúricos",
+   "B": "Iniciar IECA a todos los diabéticos",
+   "C": "Iniciar IECA más ARA II",
+   "D": "Iniciar verapamilo como alternativa",
+   "E": "Iniciar finerenona como prevención primaria"
+  },
+  "explicaciones": {
+   "A": "Correcto. La mayoría no desarrolla ERD; hay riesgos, incluida la teratogenicidad. DIRECT no apoyó la prevención primaria.",
+   "B": "No está indicado en este perfil.",
+   "C": "El doble bloqueo causa hiperpotasemia y LRA sin beneficio.",
+   "D": "En BENEDICT el verapamilo solo fue similar al placebo.",
+   "E": "No está indicado."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-8",
+  "tema_id": 8,
+  "sub": "8.a",
+  "obj": "8.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Ensayos con ARA II en DM2",
+  "caso": "Se comparan los ensayos de bloqueo del SRAA en nefropatía diabética.",
+  "enunciado": "¿Qué dato es correcto?",
+  "perla": "En DM1 con albuminuria moderada, los IECA reducen 60% la progresión y triplican la regresión. El beneficio del SRAA es independiente de la PA.",
+  "referencias": [
+   "Tong LL, Adler S, Wanner C. Prevention and Treatment of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 32, pp. 380-388"
+  ],
+  "serie_id": "NDJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "MARVAL: amlodipino redujo más el ACR",
+   "B": "IDNT y RENAAL redujeron 50% el compuesto",
+   "C": "Captopril en DM1 redujo 18% el compuesto",
+   "D": "Los IECA tienen más datos que los ARA II en DM2",
+   "E": "IRMA-2: irbesartán redujo 70% la progresión"
+  },
+  "explicaciones": {
+   "A": "Valsartán redujo 44% frente a 8% con igual PA.",
+   "B": "Redujeron 18–20%, frente a ~50% con captopril en DM1.",
+   "C": "Es al revés.",
+   "D": "En DM2 hay más datos con ARA II; telmisartán no fue inferior a enalapril.",
+   "E": "Correcto. Irbesartán en albuminuria moderada con HTA y DM2 redujo 70% la progresión a nefropatía manifiesta a 2 años."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-9",
+  "tema_id": 8,
+  "sub": "8.a",
+  "obj": "8.o3",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Elevación de creatinina con SRAA",
+  "caso": "Hombre con DM2 y ACR 1200 mg/g; tras iniciar losartán la creatinina sube de 1.6 a 2.3 mg/dL en 2 semanas.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Para sostener el SRAA: diurético y quelantes de potasio. STOP-ACE evaluó retirar el SRAA en ERC avanzada.",
+  "referencias": [
+   "Tong LL, Adler S, Wanner C. Prevention and Treatment of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 32, pp. 380-388"
+  ],
+  "serie_id": "NDJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Continuar sin cambios por ser esperable",
+   "B": "Agregar un IECA para potenciar el efecto",
+   "C": "Sospechar estenosis renal y revisar volemia",
+   "D": "Duplicar la dosis de losartán",
+   "E": "Suspender definitivamente todo bloqueo del SRAA"
+  },
+  "explicaciones": {
+   "A": "Supera 30%.",
+   "B": "El doble bloqueo está contraindicado.",
+   "C": "Correcto. Un aumento de hasta 30% es aceptable y se asocia a protección; >30%, aquí 44%, hace sospechar estenosis de arteria renal o depleción por diuréticos.",
+   "D": "Empeoraría.",
+   "E": "Corregir la causa y reintentar."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-10",
+  "tema_id": 8,
+  "sub": "8.a",
+  "obj": "8.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Magnitud del efecto de los iSGLT2",
+  "caso": "Se explica a residentes el beneficio de los iSGLT2 en ERD.",
+  "enunciado": "¿Qué afirmación es correcta según Johnson?",
+  "perla": "Mecanismos: retroalimentación tubuloglomerular, menor hiperfiltración, cambio a metabolismo de cetonas, menor hipoxia. Efectos adversos: cetoacidosis euglucémica e infecciones micóticas genitales.",
+  "referencias": [
+   "Tong LL, Adler S, Wanner C. Prevention and Treatment of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 32, pp. 380-388"
+  ],
+  "serie_id": "NDJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Solo protegen si bajan la HbA1c",
+   "B": "Su renoprotección es ~2.5 veces la del SRAA añadido",
+   "C": "Aumentan 23% la LRA",
+   "D": "No reducen la progresión en no diabéticos",
+   "E": "Pueden combinarse con un iDPP-4 sin riesgo de CAD"
+  },
+  "explicaciones": {
+   "A": "El beneficio va más allá de la glucemia.",
+   "B": "Correcto. Sobre el SRAA a dosis máxima; metaanálisis: −37% progresión, −23% LRA y −23% muerte CV u hospitalización por IC, con o sin diabetes.",
+   "C": "La reducen.",
+   "D": "Sí la reducen.",
+   "E": "Riesgo de cetoacidosis euglucémica con cualquier combinación; suspender en enfermedad aguda."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-11",
+  "tema_id": 8,
+  "sub": "8.a",
+  "obj": "8.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Antidiabéticos orales en ERC",
+  "caso": "Hombre con DM2 y TFGe 25 mL/min/1.73 m² requiere intensificar el tratamiento.",
+  "enunciado": "¿Qué opción no requiere ajuste renal?",
+  "perla": "No combinar iDPP-4 con arGLP-1. Meglitinidas: preferir repaglinida. El riñón depura 30–80% de la insulina sistémica: más hipoglucemia en ERC avanzada; los análogos se afectan poco.",
+  "referencias": [
+   "Management of Patients With Diabetes and Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 33"
+  ],
+  "serie_id": "NDJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Glibenclamida",
+   "B": "Sitagliptina a dosis plena",
+   "C": "Pioglitazona en insuficiencia cardiaca",
+   "D": "Clorpropamida",
+   "E": "Linagliptina"
+  },
+  "explicaciones": {
+   "A": "Las sulfonilureas de primera generación o con metabolitos activos renales causan hipoglucemia prolongada.",
+   "B": "Requiere reducción.",
+   "C": "Retiene líquido por ENaC y aumenta fracturas.",
+   "D": "Primera generación, eliminación casi exclusivamente renal: evitar.",
+   "E": "Correcto. Metabolismo hepático y excreción biliar."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-12",
+  "tema_id": 8,
+  "sub": "8.a",
+  "obj": "8.o3",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Nuevas terapias en ERD",
+  "caso": "Se revisan fármacos en investigación y aprobados para ERD.",
+  "enunciado": "¿Qué resultado es correcto?",
+  "perla": "Finerenona: vida media ~2 h, sin metabolitos activos; hiperpotasemia que obliga a suspender 2.3% frente a 0.9%. KDIGO propone triple terapia: SRAA, iSGLT2 y ARM no esteroideo.",
+  "referencias": [
+   "Pathogenesis, Clinical Manifestations, and Natural History of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 31"
+  ],
+  "serie_id": "NDJ-12",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "BEACON: bardoxolona redujo la insuficiencia cardiaca",
+   "B": "PERL: alopurinol redujo la progresión en DM1",
+   "C": "SONAR: atrasentán redujo eventos renales",
+   "D": "TREAT: darbepoetina frenó la caída de TFG",
+   "E": "Bloquear TGF-β mejoró la proteinuria en pacientes"
+  },
+  "explicaciones": {
+   "A": "Se detuvo por insuficiencia cardiaca temprana.",
+   "B": "Fue negativo.",
+   "C": "Correcto. Antagonista ETA en 2648 DM2 con TFGe 25–75 y ACR 300–5000: menos eventos renales a 2.2 años, con más retención de líquido y anemia.",
+   "D": "No modificó la pérdida de TFG.",
+   "E": "No mostró beneficio."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-13",
+  "tema_id": 8,
+  "sub": "8.a",
+  "obj": "8.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Meta de PA en ERD",
+  "caso": "Mujer de 60 años con DM2, ERC G3b A3, tolera bien los antihipertensivos y tiene PA estandarizada de 132/76 mmHg.",
+  "enunciado": "¿Qué meta propone la guía más reciente específica de PA en ERC?",
+  "perla": "Johnson cap. 32 propone <130/80 si hay ACR >30; se adopta la guía más nueva, individualizando. La meta intensiva busca beneficio CV y mortalidad, no renal; se asoció a mayor caída de TFGe en SPRINT, ACCORD y SPS3.",
+  "referencias": [
+   "Management of Patients With Diabetes and Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 33"
+  ],
+  "serie_id": "NDJ-13",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "PAS menor de 120 con medición estandarizada",
+   "B": "Menor de 140/90 por ser diabética",
+   "C": "PAS menor de 110 para máxima renoprotección",
+   "D": "No hay meta; solo reducir albuminuria",
+   "E": "Menor de 150/90 por riesgo de hipotensión"
+  },
+  "explicaciones": {
+   "A": "Correcto. KDIGO 2021: PAS <120 si se tolera y la medición es estandarizada; KDIGO reconoce menor certeza en diabéticos porque SPRINT los excluyó y ACCORD BP no mostró diferencia en eventos CV mayores.",
+   "B": "Meta previa, menos estricta.",
+   "C": "No recomendada.",
+   "D": "Sí hay meta.",
+   "E": "No es lo recomendado."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NDJ-14",
+  "tema_id": 8,
+  "sub": "8.0",
+  "obj": "8.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Mortalidad asociada a ERD",
+  "caso": "Se compara la mortalidad en DM1 con y sin proteinuria frente a la población general.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "La ERD fue 47.1% de los incidentes en TRR en EUA en 2018. Hasta 60% de los diabéticos asiáticos tiene albuminuria elevada, frente a 30–40% en occidentales.",
+  "referencias": [
+   "Pathogenesis, Clinical Manifestations, and Natural History of Diabetic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 31"
+  ],
+  "serie_id": "NDJ-14",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La proteinuria no modifica la mortalidad",
+   "B": "Sin proteinuria ×2–3; con proteinuria ×20–200",
+   "C": "Sin proteinuria la mortalidad es normal",
+   "D": "El exceso es solo por falla renal",
+   "E": "Las complicaciones macrovasculares son iguales sin ERD"
+  },
+  "explicaciones": {
+   "A": "La aumenta mucho.",
+   "B": "Correcto. La ERD multiplica la mortalidad en DM1 y DM2.",
+   "C": "Está aumentada 2–3 veces.",
+   "D": "Predomina la causa CV.",
+   "E": "EVC, coronariopatía y enfermedad arterial periférica son cinco veces más frecuentes con ERD."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nefropatía diabética",
+  "tipo_item": "nueva"
  }
 ]

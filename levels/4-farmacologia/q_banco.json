@@ -2991,5 +2991,537 @@
   "clave": "C",
   "tema": "Farmacología y riñón",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-1",
+  "tema_id": 4,
+  "sub": "4.a",
+  "obj": "4.o1",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Fracción excretada activa frente a metabolitos inactivos",
+  "caso": "Un fármaco se excreta 90% en orina: 10% intacto y 80% como metabolitos inactivos. El paciente tiene TFG de 15 mL/min.",
+  "enunciado": "¿Requiere ajuste de dosis?",
+  "perla": "Considerar también la ventana terapéutica: amplia, como penicilinas, tolera exposición alta; estrecha, como digoxina, obliga a ajustar. Metabolitos activos que se acumulan: morfina, normeperidina, O-desmetiltramadol.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Principles of Drug Therapy, Dosing, and Prescribing in CKD and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 77, pp. 892-902"
+  ],
+  "serie_id": "FRJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Sí: reducir 90% por la excreción urinaria total",
+   "B": "Sí: duplicar el intervalo por la TFG menor de 30",
+   "C": "Probablemente no: la fe activa es solo 10%",
+   "D": "No, porque nunca se ajusta con metabolitos",
+   "E": "Sí: suspenderlo por acumulación de metabolitos"
+  },
+  "explicaciones": {
+   "A": "Confunde excreción total con fe activa.",
+   "B": "La TFG <30 no basta si la fe es baja.",
+   "C": "Correcto. Lo relevante es la fracción activa excretada intacta; los metabolitos inactivos exageran el riesgo aparente. Ajustar suele ser necesario solo si fe >25–50%.",
+   "D": "Si los metabolitos son activos o tóxicos, sí se ajusta.",
+   "E": "Son inactivos."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-2",
+  "tema_id": 4,
+  "sub": "4.a",
+  "obj": "4.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Cálculo del factor de reducción",
+  "caso": "Fármaco con fe de 0.8 y sin cambios en la depuración no renal. El paciente tiene 25% de la función renal normal.",
+  "enunciado": "¿Qué fracción de la dosis habitual corresponde?",
+  "perla": "Método de intervalo: dosis habitual más espaciada, útil cuando importa el pico, como aminoglucósidos, o la concentración temprana, como oseltamivir. Método de dosis: menor dosis al intervalo habitual. Digoxina: ambos.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Principles of Drug Therapy, Dosing, and Prescribing in CKD and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 77, pp. 892-902"
+  ],
+  "serie_id": "FRJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "25%",
+   "B": "60%",
+   "C": "80%",
+   "D": "20%",
+   "E": "40%"
+  },
+  "explicaciones": {
+   "A": "Solo si fe = 1.",
+   "B": "Error de cálculo.",
+   "C": "Confunde fe con la dosis.",
+   "D": "Error de cálculo.",
+   "E": "Correcto. Dosis = 1 − fe × (1 − función) = 1 − 0.8 × 0.75 = 0.40."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-3",
+  "tema_id": 4,
+  "sub": "4.f",
+  "obj": "4.o6",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Oseltamivir en ERC",
+  "caso": "Hombre de 70 años con ERC G4 e influenza grave.",
+  "enunciado": "¿Cómo debe iniciarse el oseltamivir?",
+  "perla": "En HD, incluso poca función residual depura más rápido el oseltamivir carboxilato que en anúricos.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "75 mg y después reducir",
+   "B": "30 mg desde la primera dosis siempre",
+   "C": "Dosis habitual sin ajuste",
+   "D": "Contraindicado en ERC G4",
+   "E": "Solo zanamivir inhalado reducido a la mitad"
+  },
+  "explicaciones": {
+   "A": "Correcto. Su metabolito activo depende 99% del riñón y su AUC aumenta 10 veces en ERC grave; empezar con dosis menor retrasa alcanzar concentraciones terapéuticas, que tardan ~4 vidas medias prolongadas.",
+   "B": "Retrasa el efecto.",
+   "C": "Requiere ajuste del mantenimiento.",
+   "D": "No lo está.",
+   "E": "El zanamivir no requiere ajuste porque se absorbe ~2%; puede preferirse con depuración <20."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-4",
+  "tema_id": 4,
+  "sub": "4.g",
+  "obj": "4.o7",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Niveles tras diálisis y otras modalidades",
+  "caso": "Se mide vancomicina sérica 10 minutos después de terminar la hemodiálisis y el valor es bajo.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "Los suplementos posdiálisis rara vez se necesitan si se retira <30% o la ventana es amplia; dar tras la sesión los fármacos que se dializan. La peritonitis puede aumentar la depuración peritoneal.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Principles of Drug Therapy, Dosing, and Prescribing in CKD and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 77, pp. 892-902"
+  ],
+  "serie_id": "FRJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Refleja con exactitud la concentración tisular",
+   "B": "La DP depura igual que la HD",
+   "C": "La TRRC no depura moléculas mayores de 500 Da",
+   "D": "Puede estar falsamente bajo por rebote pendiente",
+   "E": "La unión a proteínas aumenta la depuración"
+  },
+  "explicaciones": {
+   "A": "No es representativo.",
+   "B": "La DP suele ser menos eficiente; requiere Vd y unión a proteínas muy bajos.",
+   "C": "La TRRC deja pasar hasta ~5000 Da; usar el coeficiente de cribado.",
+   "D": "Correcto. La HD puede retirar el fármaco del plasma más rápido de lo que se redistribuye desde los tejidos; tomar la muestra antes o 1–2 h después.",
+   "E": "La disminuye."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-5",
+  "tema_id": 4,
+  "sub": "4.i",
+  "obj": "4.o9",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Desprescripción en diálisis",
+  "caso": "Mujer de 82 años en HD con 13 fármacos.",
+  "enunciado": "¿Qué grupo se propone priorizar para desprescribir?",
+  "perla": "Un dializado toma típicamente 10–12 medicamentos; la polifarmacia aumenta reacciones adversas y no adherencia.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Principles of Drug Therapy, Dosing, and Prescribing in CKD and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 77, pp. 892-902"
+  ],
+  "serie_id": "FRJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Quelantes de fósforo y agentes estimulantes",
+   "B": "IBP, estatinas, quinina y α1-bloqueadores",
+   "C": "Insulina basal en diabéticos",
+   "D": "Vitaminas hidrosolubles",
+   "E": "Antihipertensivos de primera línea siempre"
+  },
+  "explicaciones": {
+   "A": "Son de uso dirigido al TMO y la anemia.",
+   "B": "Correcto. Johnson cap. 77 sugiere en ancianos dializados considerar quinina, diuréticos, α1-bloqueadores, IBP y estatinas; en ERC sin diálisis, IBP, hipoglucemiantes orales y estatinas.",
+   "C": "No es lo propuesto.",
+   "D": "No es lo propuesto.",
+   "E": "No es lo propuesto."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-6",
+  "tema_id": 4,
+  "sub": "4.e",
+  "obj": "4.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "AINE en ERC",
+  "caso": "Mujer de 65 años con ERC G3b toma celecoxib porque le dijeron que es más seguro para el riñón.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "Si un AINE es esencial: dosis mínima, tiempo corto y vigilancia de creatinina y potasio. AINE tópico: dosis habitual.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Los COX-2 no afectan la perfusión renal",
+   "B": "El paracetamol es más nefrotóxico que los AINE",
+   "C": "El fenoprofeno nunca causa nefritis intersticial",
+   "D": "Los COX-2 selectivos no tienen ventaja renal",
+   "E": "La combinación con IECA reduce la nefrotoxicidad"
+  },
+  "explicaciones": {
+   "A": "Sí la afectan.",
+   "B": "El paracetamol es el analgésico base más seguro; no requiere ajuste.",
+   "C": "Es el AINE más asociado a nefritis intersticial y a nefrótico tipo cambios mínimos.",
+   "D": "Correcto. La COX-2 se expresa en el riñón; no ofrecen ventaja frente a los no selectivos.",
+   "E": "La aumenta; triple combinación con diurético."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-7",
+  "tema_id": 4,
+  "sub": "4.f",
+  "obj": "4.o6",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Antibióticos en IVU con ERC avanzada",
+  "caso": "Mujer de 70 años con TFGe 18 mL/min/1.73 m² y cistitis por E. coli sensible a nitrofurantoína, trimetoprima y amoxicilina-clavulanato.",
+  "enunciado": "¿Qué opción es más lógica?",
+  "perla": "Los aminoglucósidos alcanzan altas concentraciones urinarias aun en ERC avanzada. En infecciones graves, no reducir de más la dosis inicial: el fracaso terapéutico pesa más que la toxicidad potencial.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Amoxicilina-clavulanato",
+   "B": "Nitrofurantoína a dosis reducida",
+   "C": "Trimetoprima a mitad de dosis",
+   "D": "Nitrofurantoína a dosis plena",
+   "E": "Fosfomicina IV en días alternos"
+  },
+  "explicaciones": {
+   "A": "Correcto. Los fármacos secretados además de filtrados alcanzan mejores concentraciones urinarias en ERC avanzada.",
+   "B": "Reducir la dosis empeora aún más la concentración urinaria y aumenta la toxicidad sistémica.",
+   "C": "Mismo problema.",
+   "D": "Concentración urinaria insuficiente y toxicidad sistémica.",
+   "E": "No es lo descrito."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-8",
+  "tema_id": 4,
+  "sub": "4.f",
+  "obj": "4.o6",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Monitoreo de aminoglucósidos en ERC",
+  "caso": "Hombre con ERC G4 y bacteriemia por gramnegativo recibe gentamicina en intervalo extendido.",
+  "enunciado": "¿Qué estrategia de monitoreo es adecuada?",
+  "perla": "Pico ideal 4–5 veces la CIM. Las penicilinas dependen del tiempo sobre la CIM: importa la frecuencia más que el tamaño de la dosis.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Basta un nomograma de Hartford",
+   "B": "El valle informa el pico alcanzado",
+   "C": "No requiere monitoreo si dura más de 48 h",
+   "D": "Dividir la dosis cada 8 h para menor toxicidad",
+   "E": "No usar nomogramas de un punto a 6–14 h"
+  },
+  "explicaciones": {
+   "A": "No es válido en ERC.",
+   "B": "No lo informa.",
+   "C": "El monitoreo es esencial en tratamientos >48 h.",
+   "D": "La dosis única diaria es más eficaz y menos tóxica: efecto dependiente de concentración y postantibiótico.",
+   "E": "Correcto. Los métodos gráficos de un punto solo son válidos con TFG casi normal y no informan el pico; en ERC usar picos y valles interpretados según la hora."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-9",
+  "tema_id": 4,
+  "sub": "4.d",
+  "obj": "4.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Macrólidos en trasplante",
+  "caso": "Receptor de trasplante renal con tacrolimus desarrolla neumonía atípica.",
+  "enunciado": "¿Qué macrólido tiene menos interacciones?",
+  "perla": "Inductores que bajan los inmunosupresores: rifampicina, fenitoína, carbamazepina, barbitúricos, hierba de San Juan. La rifabutina induce menos.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Claritromicina",
+   "B": "Eritromicina IV",
+   "C": "Azitromicina",
+   "D": "Eritromicina oral a dosis alta",
+   "E": "Todos interactúan igual"
+  },
+  "explicaciones": {
+   "A": "Inhibidor potente.",
+   "B": "Inhibidor potente; además prolonga el QT y es ototóxica a dosis altas.",
+   "C": "Correcto. Azitromicina y roxitromicina son inhibidores débiles de CYP3A4 y P-gp; claritromicina y eritromicina son potentes y elevan tacrolimus, ciclosporina, mTOR y estatinas.",
+   "D": "Igual.",
+   "E": "No es correcto."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-10",
+  "tema_id": 4,
+  "sub": "4.f",
+  "obj": "4.o6",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Antifúngicos en ERC",
+  "caso": "Paciente con TFGe 22 requiere tratamiento antifúngico IV por candidemia.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Anfotericina convencional: prehidratación e infusión continua; la liposomal es menos nefrotóxica. Terbinafina: reducir 50% en ERC moderada a grave.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Fluconazol no requiere ajuste de mantenimiento",
+   "B": "Voriconazol IV: se acumula su vehículo",
+   "C": "Caspofungina requiere reducción a la mitad",
+   "D": "Flucitosina se usa a dosis plena",
+   "E": "La anfotericina oral es nefrotóxica"
+  },
+  "explicaciones": {
+   "A": "Tras la carga, reducir mantenimiento y dar después de HD; útil en IVU fúngica.",
+   "B": "Correcto. El vehículo sulfobutil-betadex se acumula en ERC grave; la vía oral no tiene ese problema.",
+   "C": "Caspofungina y anidulafungina a dosis habitual.",
+   "D": "Requiere reducción importante.",
+   "E": "No se absorbe."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-11",
+  "tema_id": 4,
+  "sub": "4.f",
+  "obj": "4.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Antivirales de eliminación renal",
+  "caso": "Receptor de trasplante con TFGe 25 mL/min/1.73 m² inicia valganciclovir por CMV.",
+  "enunciado": "¿Cuál es el principal riesgo si no se ajusta la dosis?",
+  "perla": "Ribavirina contraindicada con TFG <50 por anemia; tenofovir: evitar con <30; cidofovir con probenecid e hidratación; aciclovir: cristales y neurotoxicidad. Los antivirales de acción directa contra VHC dependen poco del riñón.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefrotoxicidad tubular directa",
+   "B": "Hipercalcemia",
+   "C": "Diabetes insípida nefrogénica",
+   "D": "Hepatotoxicidad fulminante",
+   "E": "Mielosupresión grave"
+  },
+  "explicaciones": {
+   "A": "Es más típica de cidofovir o foscarnet.",
+   "B": "No es lo descrito.",
+   "C": "Foscarnet, cidofovir o litio.",
+   "D": "No es lo descrito.",
+   "E": "Correcto. Ganciclovir y valganciclovir se acumulan y causan mielotoxicidad; se dializan libremente y se dan tras HD."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-12",
+  "tema_id": 4,
+  "sub": "4.f",
+  "obj": "4.o6",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Heparinas en ERC",
+  "caso": "Mujer de 75 años con depuración de creatinina de 18 mL/min y TEP, con riesgo quirúrgico próximo.",
+  "enunciado": "¿Qué anticoagulante parenteral es preferible?",
+  "perla": "Tinzaparina no se acumula con depuración >20 mL/min tras 10 días y sirve como puente. Argatrobán a dosis habitual. La warfarina se titula por INR; hipoalbuminemia aumenta la sensibilidad.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-12",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Enoxaparina a dosis plena sin monitoreo",
+   "B": "Fondaparinux a dosis habitual",
+   "C": "Heparina no fraccionada titulada con TTPa",
+   "D": "Bivalirudina a dosis plena",
+   "E": "Dalteparina sin anti-Xa"
+  },
+  "explicaciones": {
+   "A": "Se acumula; usar anti-Xa si se elige.",
+   "B": "Se acumula; evitar o reducir.",
+   "C": "Correcto. Depuración saturable endotelial más renal no saturable; vida media solo ~1.5 veces mayor; efecto corto, medible y reversible.",
+   "D": "Se acumula.",
+   "E": "Se acumula."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-13",
+  "tema_id": 4,
+  "sub": "4.f",
+  "obj": "4.o6",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "Seudo-LRA por fármacos oncológicos",
+  "caso": "Paciente con cáncer de pulmón ALK+ inicia crizotinib; la creatinina sube 30% sin cambios en cistatina C ni en el sedimento.",
+  "enunciado": "¿Cuál es el mecanismo más probable?",
+  "perla": "Carboplatino: la dosis por fórmula de Calvert varía según el método de TFG y si se usa TFG indexada o absoluta. Requieren ajuste renal: bleomicina, capecitabina, cisplatino, etopósido, fludarabina, metotrexato, pemetrexed.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-13",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Inhibición tubular de OCT2",
+   "B": "Nefritis intersticial aguda inmune",
+   "C": "Microangiopatía trombótica por el fármaco",
+   "D": "Nefropatía por cristales",
+   "E": "Síndrome de lisis tumoral"
+  },
+  "explicaciones": {
+   "A": "Correcto. Como trimetoprima y cimetidina, compite por OCT2 en el túbulo proximal: seudo-LRA.",
+   "B": "No hay datos de sedimento ni de cistatina.",
+   "C": "No es lo descrito.",
+   "D": "No es lo descrito.",
+   "E": "No es lo descrito."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FRJ-14",
+  "tema_id": 4,
+  "sub": "4.f",
+  "obj": "4.o6",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Antibióticos sin ajuste y a evitar",
+  "caso": "Paciente en HD con infección polimicrobiana.",
+  "enunciado": "¿Qué antibiótico debe evitarse en ERC?",
+  "perla": "Metronidazol: dosis habitual o c/12 h en diálisis. Quinolonas: separar 1–2 h de quelantes metálicos. Cefazolina 20 mg/kg tras HD 3 veces por semana mantiene niveles.",
+  "referencias": [
+   "Cervelli MJ, Jones TE, Mirkov S. Common Issues in Prescribing in Kidney Disease and KRT. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 78, pp. 903-917"
+  ],
+  "serie_id": "FRJ-14",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Linezolid",
+   "B": "Tetraciclina",
+   "C": "Moxifloxacino",
+   "D": "Ceftriaxona",
+   "E": "Doxiciclina"
+  },
+  "explicaciones": {
+   "A": "Dosis habitual.",
+   "B": "Correcto. Es catabólica: aumenta urea, fósforo y acidosis y empeora la falla renal; la tetraciclina caducada causa síndrome tipo Fanconi.",
+   "C": "Depende poco del riñón; no se ajusta.",
+   "D": "Dosis habitual aun en diálisis en cursos cortos.",
+   "E": "Es un derivado que suele usarse sin ajuste."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Farmacología y riñón",
+  "tipo_item": "nueva"
  }
 ]

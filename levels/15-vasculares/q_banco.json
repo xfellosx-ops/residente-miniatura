@@ -1406,5 +1406,651 @@
   "tema": "Enfermedades vasculares del riñón",
   "obj": "15.o4",
   "peso": 17.5
+ },
+ {
+  "id": "RVJ-1",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Displasia fibromuscular: tratamiento",
+  "caso": "Mujer de 36 años con HTA resistente; angio-TC con imagen en cuentas de rosario en el tercio medio de la arteria renal derecha y gradiente translesional significativo.",
+  "enunciado": "¿Cuál es el tratamiento de elección?",
+  "perla": "Significación: gradiente ≥10% de la presión aórtica media. Reestenosis hasta 34%, sobre todo multifocal. Tratar aneurismas antes del embarazo. Añadir antiagregante y suspender tabaco.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Stent renal primario siempre",
+   "B": "Solo tratamiento médico",
+   "C": "Angioplastia sin stent",
+   "D": "Bypass aortorrenal primario",
+   "E": "Nefrectomía derecha"
+  },
+  "explicaciones": {
+   "A": "No se recomienda; solo como rescate ante disección.",
+   "B": "La DFM con significación hemodinámica debe revascularizarse.",
+   "C": "Correcto. La angioplastia transluminal es el tratamiento de elección; éxito técnico >90%, curación de la HTA 35–45% y mejoría en >85%.",
+   "D": "Se reserva para aneurismas >1.5 cm o fracaso endovascular.",
+   "E": "No está indicada."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-2",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Displasia fibromuscular: evaluación sistémica",
+  "caso": "Mujer de 42 años con DFM renal multifocal recién diagnosticada, cefalea y acúfeno pulsátil.",
+  "enunciado": "¿Qué estudio adicional se recomienda?",
+  "perla": "80–90% mujeres; hombres con fenotipo más agresivo, focal y con aneurismas. La angio-TC es la prueba de tamizaje recomendada para DFM, que afecta segmentos medios y ramas.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Prueba genética de PHACTR1",
+   "B": "Gammagrafía con captopril",
+   "C": "Renina en venas renales",
+   "D": "Biopsia renal",
+   "E": "Angio-TC de cabeza a pelvis"
+  },
+  "explicaciones": {
+   "A": "No existe prueba genética específica; tamizar clínicamente a familiares.",
+   "B": "No evalúa otros territorios.",
+   "C": "No aporta para este fin.",
+   "D": "No es diagnóstica.",
+   "E": "Correcto. La DFM es sistémica: cerebrovascular en 59–80% y dos territorios en ~48%; obtener al menos una vez imagen completa para detectar aneurismas ocultos."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-3",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Bloqueo del SRAA en estenosis renal",
+  "caso": "Hombre de 71 años con estenosis aterosclerótica bilateral de 70%; tras iniciar losartán la creatinina sube de 1.6 a 1.8 mg/dL.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "En CORAL la mayoría recibió IECA o ARA II, 20% con estenosis bilateral, sin señales de daño renal. Una caída excesiva no es específica: también ocurre con depleción de volumen o insuficiencia cardiaca o hepática.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Continuar y repetir química en 2–4 semanas",
+   "B": "Suspender el ARA II de forma definitiva",
+   "C": "Colocar stent bilateral urgente",
+   "D": "Cambiar a IECA a dosis alta",
+   "E": "Agregar aliskireno"
+  },
+  "explicaciones": {
+   "A": "Correcto. Se acepta un aumento <0.5 mg/dL o <30% de la TFGe; un cambio mayor obliga a buscar estenosis crítica.",
+   "B": "El aumento es aceptable y el bloqueo suele tolerarse bien.",
+   "C": "No hay indicación.",
+   "D": "No resuelve nada.",
+   "E": "El doble bloqueo no está indicado."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-4",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Doppler de arterias renales",
+  "caso": "Doppler renal: velocidad sistólica pico 260 cm/s, índice renal/aórtico 3.8 e índice de resistencia intrarrenal 0.86.",
+  "enunciado": "¿Qué se infiere?",
+  "perla": "Onda tardus-parvus puede indicar estenosis crítica aun sin VSP alta. Doppler: prueba de elección para vigilar reestenosis del stent; puede pasar por alto arterias accesorias.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Estudio normal",
+   "B": "Estenosis no significativa",
+   "C": "Alta probabilidad de curar la HTA con stent",
+   "D": "Estenosis >60% con mala respuesta esperada",
+   "E": "Patrón típico de displasia de ramas distales"
+  },
+  "explicaciones": {
+   "A": "No lo es.",
+   "B": "Los valores indican estenosis.",
+   "C": "El IR alto predice lo contrario.",
+   "D": "Correcto. VSP >200–220 cm/s y cociente >3.0–3.5 indican >60% de estenosis. IR >0.80 predice mala respuesta tensional a la intervención por daño microvascular.",
+   "E": "El Doppler es poco sensible para ramas distales."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-5",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Fisiopatología de la HTA renovascular",
+  "caso": "Comparación entre estenosis unilateral con riñón contralateral sano y estenosis de riñón único.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Activación del SRAA con estenosis ≥60–80%; cambios hemodinámicos detectables desde 75–80% del área. Estenosis de injerto renal: ejemplo de 1 pinza–1 riñón, con retención de líquidos y edema pulmonar.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ambos modelos dependen solo de la angiotensina II",
+   "B": "Con riñón único la HTA depende más del volumen",
+   "C": "Con riñón contralateral sano hay retención persistente de sodio",
+   "D": "La renina se mantiene alta en el modelo de riñón único",
+   "E": "El bloqueo del SRAA es más eficaz con riñón único"
+  },
+  "explicaciones": {
+   "A": "Difieren.",
+   "B": "Correcto. Modelo 1 pinza–1 riñón: retención de sodio, expansión y supresión del SRAA. En 1 pinza–2 riñones, la natriuresis por presión del riñón sano mantiene la HTA dependiente de angiotensina II.",
+   "C": "El riñón sano elimina sodio.",
+   "D": "Se suprime.",
+   "E": "Responde menos."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-6",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Estenosis de la arteria del injerto",
+  "caso": "Receptor de trasplante renal de donante fallecido, 8 meses postrasplante, con HTA nueva, edema y soplo sobre el injerto.",
+  "enunciado": "¿Qué dato es correcto?",
+  "perla": "Trombosis arterial del injerto: 0.4%, minutos a horas. Trombosis venosa: ~5% en adultos, primeros 5 días, más con riñón derecho. Seudoestenosis: estenosis ilíaca con claudicación.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Suele aparecer en la primera semana",
+   "B": "Es más frecuente con donante vivo",
+   "C": "Una VSP de 250 cm/s confirma la estenosis",
+   "D": "La angioplastia es el abordaje inicial",
+   "E": "La cirugía es de primera elección"
+  },
+  "explicaciones": {
+   "A": "Aparece entre 3 meses y 2 años.",
+   "B": "Más con donante fallecido, arterias múltiples y riñón pediátrico.",
+   "C": "26% de las arterias normales del injerto supera 250 cm/s; VSP >300, aceleración >0.1 s y turbulencia dan ~99%.",
+   "D": "Correcto. Éxito técnico ~90% y clínico 66–94%; reestenosis 18.9% con angioplastia sola y 9.1% con stent.",
+   "E": "Alta morbilidad: pérdida del injerto 15–30%."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-7",
+  "tema_id": 15,
+  "sub": "15.a",
+  "obj": "15.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Infarto renal: causas y diagnóstico",
+  "caso": "Hombre de 45 años sin arritmias con dolor lumbar súbito, LDH muy alta y defecto cuneiforme en la TC contrastada.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Signo del borde cortical: colaterales intactas. Infartos simultáneos de hígado o bazo en 10–15%. Bilateral hasta 20%. Sin causa en ~18%. Mortalidad a 30 días 10–13% en FA.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La disección espontánea predomina en hombres",
+   "B": "La embolia cardiaca es la causa de más de 80%",
+   "C": "La LDH es normal en la mayoría",
+   "D": "El ultrasonido Doppler es la prueba de elección",
+   "E": "Siempre existe dolor"
+  },
+  "explicaciones": {
+   "A": "Correcto. Relación hombre:mujer 4:1, alrededor de los 45 años. En una serie de 186 infartos, una lesión arterial causó >81% y la embolia solo 9%.",
+   "B": "No en esa serie, aunque la FA es la causa cardiaca más frecuente.",
+   "C": "Está elevada en >90%.",
+   "D": "La TC con contraste es la modalidad de elección.",
+   "E": "25% es asintomático."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-8",
+  "tema_id": 15,
+  "sub": "15.a",
+  "obj": "15.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Revascularización de la oclusión arterial",
+  "caso": "Paciente con oclusión total de la arteria renal y pérdida súbita de TFG.",
+  "enunciado": "¿Qué factor predice recuperación tras revascularizar?",
+  "perla": "En el trauma cerrado el infarto se establece en 3–6 h y el éxito de la revascularización es bajo. Valorar el riñón contralateral y el riesgo quirúrgico.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Creatinina basal mayor de 4 mg/dL",
+   "B": "Riñón de 7 cm",
+   "C": "Deterioro de la TFG de años de evolución",
+   "D": "Proteinuria de rango nefrótico",
+   "E": "Nefrograma con tamaño renal preservado"
+  },
+  "explicaciones": {
+   "A": "Predice lo contrario.",
+   "B": "Riñón pequeño indica atrofia.",
+   "C": "El deterioro reciente predice respuesta.",
+   "D": "La proteinuria predice mala respuesta.",
+   "E": "Correcto. Predicen recuperación: tamaño renal preservado, nefrograma o blush, deterioro reciente y creatinina basal reciente <3 mg/dL."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-9",
+  "tema_id": 15,
+  "sub": "15.d",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Enfermedad ateroembólica: diagnóstico",
+  "caso": "Hombre de 74 años, 5 semanas después de un cateterismo coronario, con deterioro escalonado de la TFG, livedo reticularis y dedos azules.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Hendiduras de colesterol biconvexas en arteriolas con reacción de células gigantes. VSG alta 97%. 70% iatrogénica. IECA para la HTA lábil; esteroides en casos inflamatorios; evitar nuevos procedimientos endovasculares.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La eosinofilia descarta el diagnóstico",
+   "B": "El complemento suele estar alto",
+   "C": "La tríada clínica típica hace innecesaria la biopsia",
+   "D": "La biopsia percutánea es más sensible que la abierta",
+   "E": "La anticoagulación es el tratamiento de elección"
+  },
+  "explicaciones": {
+   "A": "Aparece hasta en 57% y apoya el diagnóstico.",
+   "B": "C3 bajo en 25–70%.",
+   "C": "Correcto. Evento precipitante, lesión renal subaguda y lesiones cutáneas bastan; si no, biopsia de piel o músculo afectado.",
+   "D": "La biopsia en cuña es más sensible por la distribución en parches.",
+   "E": "Se recomienda evitarla en la fase aguda."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-1",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "SHUa: genética del complemento",
+  "caso": "Mujer de 24 años con MAT, LRA grave, ADAMTS13 de 62% y toxina Shiga negativa.",
+  "enunciado": "¿Qué alteración genética es la más frecuente?",
+  "perla": "En conjunto ~60% tiene variante: CFH 20–30%, C3 8–10%, MCP 8–10%, CFI 4–8%, híbridos CFH/CFHR 3–5%. Penetrancia incompleta. Iniciar tratamiento sin esperar la genética.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mutaciones de DGKE",
+   "B": "Variantes de CFH",
+   "C": "Variantes de CFB",
+   "D": "Mutaciones de THBD",
+   "E": "Variantes de MMACHC"
+  },
+  "explicaciones": {
+   "A": "Formas recesivas en menores de 1 año.",
+   "B": "Correcto. ~30%; suelen dar niveles normales de una proteína disfuncional que no regula el complemento sobre el endotelio.",
+   "C": "1–2%.",
+   "D": "3–4%.",
+   "E": "Causa SHU por defecto de cobalamina C."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-2",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "SHUa y trasplante",
+  "caso": "Hombre de 30 años en diálisis por SHUa con variante patogénica de CFH; su hermano desea donarle un riñón.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "MCP y DGKE se expresan en el riñón: el injerto corrige el defecto, salvo variante adicional en ~20% de MCP. Trasplante hepatorrenal con plasmaféresis y eculizumab perioperatorios: >80% buenos resultados.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El riesgo de recurrencia es menor de 10%",
+   "B": "El injerto corrige el defecto de CFH",
+   "C": "La plasmaféresis está contraindicada en el perioperatorio",
+   "D": "La profilaxis anti-C5 está contraindicada",
+   "E": "La donación de vivo relacionado está contraindicada"
+  },
+  "explicaciones": {
+   "A": "Recurrencia 60–80% con mutaciones de proteínas circulantes; pérdida del injerto 80–90%.",
+   "B": "CFH es de síntesis hepática; el trasplante hepatorrenal sí corrige el defecto.",
+   "C": "El plasma preventivo ha sido útil.",
+   "D": "La profilaxis con eculizumab se asocia a mejor supervivencia del injerto.",
+   "E": "Correcto. Riesgo alto de recurrencia y posible SHUa en el donante portador tras la nefrectomía."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-3",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "SHUa por mutación de MCP",
+  "caso": "Niño de 8 años con SHUa y mutación heterocigota aislada de MCP (CD46).",
+  "enunciado": "¿Qué evolución es la esperada?",
+  "perla": "Antes de anti-C5, 50–70% de los portadores de CFH, CFI, C3, CFB o THBD perdía la función o moría. 60% de los SHUa inicia en la infancia.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Buena respuesta sostenida al plasma",
+   "B": "ERCT en la mayoría al primer episodio",
+   "C": "Recaídas con buen pronóstico renal",
+   "D": "Recurrencia en casi todo injerto renal",
+   "E": "Inicio típico en el primer año"
+  },
+  "explicaciones": {
+   "A": "MCP es una proteína de membrana; el plasma tiene poco efecto.",
+   "B": "No es lo habitual.",
+   "C": "Correcto. 80% remite espontáneamente y queda libre de diálisis a largo plazo.",
+   "D": "El injerto aporta MCP normal.",
+   "E": "Eso caracteriza a DGKE."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-4",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguridad de eculizumab y ravulizumab",
+  "caso": "Paciente con SHUa grave en quien se decide iniciar eculizumab hoy; no está vacunado.",
+  "enunciado": "¿Cuál es la conducta correcta?",
+  "perla": "Ravulizumab: anti-C5 de vida media larga, remisión similar. Retiro de eculizumab: recaída en 13 de 55, predicha por variante rara del complemento.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Vacunar y dar antibiótico sin diferir",
+   "B": "Diferir dos semanas tras vacunar",
+   "C": "Vacunar solo contra meningococo ACWY",
+   "D": "Dar el anticuerpo sin profilaxis",
+   "E": "Usar ravulizumab porque no requiere vacuna"
+  },
+  "explicaciones": {
+   "A": "Correcto. Vacuna meningocócica, incluida B, sin retrasar el inicio; antibiótico obligatorio las primeras 2 semanas y recomendado todo el tratamiento.",
+   "B": "No debe retrasarse.",
+   "C": "Incluir serogrupo B.",
+   "D": "Riesgo alto de Neisseria.",
+   "E": "Tiene el mismo riesgo."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-5",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "SHUa con anticuerpos anti-CFH",
+  "caso": "Niño de 10 años con SHUa, anticuerpos anti-factor H positivos y deleción homocigota CFHR1/CFHR3.",
+  "enunciado": "¿Qué tratamiento se recomienda si no hay anti-C5 disponible?",
+  "perla": "Anti-CFH: 5–10% de SHUa y 25–50% en niños; casi todos antes de los 16 años. Atacan el extremo C-terminal. Recurrencia en injerto ~30%.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Infusión de plasma sin recambio",
+   "B": "Plasmaféresis e inmunosupresión",
+   "C": "Rituximab como monoterapia",
+   "D": "Hidroxocobalamina parenteral",
+   "E": "Esperar remisión espontánea"
+  },
+  "explicaciones": {
+   "A": "No remueve los anticuerpos.",
+   "B": "Correcto. Inducción con esteroide y ciclofosfamida, mantenimiento con azatioprina o MMF; 60–70% libre de diálisis.",
+   "C": "Datos escasos e inconsistentes.",
+   "D": "Es para el defecto de cobalamina C.",
+   "E": "Riesgo alto de pérdida renal."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-6",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "SHU infantil por DGKE",
+  "caso": "Lactante de 7 meses con MAT, HTA, hematuria y proteinuria nefrótica; padres consanguíneos.",
+  "enunciado": "¿Qué es característico de esta forma?",
+  "perla": "DGKE: ~10% de SHUa en menores de 1 año. Se expresa en endotelio, plaquetas y podocitos.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Herencia autosómica dominante",
+   "B": "Consumo marcado de C3 en todos",
+   "C": "Mal pronóstico del injerto renal",
+   "D": "Suele no responder a eculizumab",
+   "E": "Se trata con hidroxocobalamina"
+  },
+  "explicaciones": {
+   "A": "Es recesiva.",
+   "B": "Solo un subgrupo activa el complemento.",
+   "C": "El injerto corrige el defecto.",
+   "D": "Correcto. DGKE no se vincula directamente con el complemento; responde solo si coexiste anomalía del complemento.",
+   "E": "No es un defecto de cobalamina."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-7",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "SHU por neumococo",
+  "caso": "Niño de 18 meses con neumonía complicada, anemia hemolítica, plaquetopenia, LRA y Coombs directo positivo.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "Suele afectar a menores de 2 años; mortalidad aguda ~25%. Antígeno T detectado con lectina de Arachis hypogaea.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Evitar plasma; eritrocitos lavados",
+   "B": "Plasmaféresis urgente",
+   "C": "El Coombs positivo descarta SHU",
+   "D": "Iniciar eculizumab de primera línea",
+   "E": "Evitar antibióticos"
+  },
+  "explicaciones": {
+   "A": "Correcto. La neuraminidasa expone el antígeno T; el plasma adulto contiene anti-T y puede agravar la hemólisis.",
+   "B": "Teóricamente contraindicada.",
+   "C": "En esta forma suele ser positivo.",
+   "D": "No es lo indicado.",
+   "E": "El pronóstico depende del antibiótico."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-8",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "MAT secundaria",
+  "caso": "Se revisan MAT secundarias.",
+  "enunciado": "¿Qué asociación es correcta?",
+  "perla": "SHU del embarazo: al término o posparto, variantes del complemento en 50–60%, remisión con eculizumab ~90%. HTA maligna con MAT: variantes en 35–65%. Carcinoma gástrico: ~50% de las MAT por cáncer.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Quinina con buen pronóstico renal",
+   "B": "Tacrolimus más que ciclosporina",
+   "C": "Defecto cblC y tratamiento con hidroxocobalamina",
+   "D": "Mitomicina C con mortalidad <10%",
+   "E": "Variantes del complemento frecuentes por fármacos"
+  },
+  "explicaciones": {
+   "A": "Suele requerir HD, con mortalidad y ERC altas.",
+   "B": "Ciclosporina 5–10% frente a tacrolimus ~1%.",
+   "C": "Correcto. Mutaciones de MMACHC: homocisteína alta y aciduria metilmalónica; la terapia metabólica es muy eficaz.",
+   "D": "Mortalidad ~70%.",
+   "E": "No difieren de los controles."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
  }
 ]

@@ -244,7 +244,7 @@
      "id": "t0_1",
      "cast": "gine",
      "specialty": "Ginecología",
-     "serie": "RAS",
+     "serie": "RVJ-1",
      "intro": [
       [
        "Dra. Lucía Bravo",
@@ -258,17 +258,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t0_2",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "CNT",
+     "serie": "RVJ-9",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Enfermedad ateroembólica renal: diferenciación"
+       "Te reto con un caso: Enfermedad ateroembólica: diagnóstico"
       ]
      ],
      "defeat": [
@@ -326,6 +326,41 @@
       "Toxina Shiga y causas secundarias",
       "ADAMTS13 >10 %: bloqueo de C5",
       "Vacunar contra meningococo y dar profilaxis"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "SHUa: ¿el trasplante renal aislado corrige el defecto?",
+     "bins": [
+      "Lo corrige",
+      "No lo corrige"
+     ],
+     "items": [
+      [
+       "MCP (CD46)",
+       "Lo corrige"
+      ],
+      [
+       "DGKE",
+       "Lo corrige"
+      ],
+      [
+       "CFH",
+       "No lo corrige"
+      ],
+      [
+       "CFI",
+       "No lo corrige"
+      ],
+      [
+       "C3",
+       "No lo corrige"
+      ],
+      [
+       "CFB",
+       "No lo corrige"
+      ]
      ],
      "pairs": []
     },
@@ -483,7 +518,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "TVR",
+     "serie": "RVJ-3",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -497,17 +532,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "TTP",
+     "serie": "MTJ-1",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: PTT inmune: inicio inmediato del tratamiento con puntaje PLASMIC al"
+       "Te reto con un caso: SHUa: genética del complemento"
       ]
      ],
      "defeat": [
@@ -517,17 +552,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 1
     },
     {
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "AOV",
+     "serie": "MTJ-2",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Embolia de la arteria renal"
+       "Te reto con un caso: SHUa y trasplante"
       ]
      ],
      "defeat": [
@@ -537,7 +572,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -600,6 +635,20 @@
        "HTA crónica; hialinosis"
       ]
      ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "MAT con LRA: ruta hacia anti-C5",
+     "items": [
+      "Confirmar MAT: esquistocitos, LDH alta, Coombs negativo",
+      "Excluir STEC: toxina Shiga o PCR stx",
+      "ADAMTS13 >10%",
+      "Excluir causas secundarias",
+      "Vacuna meningocócica y antibiótico",
+      "Iniciar eculizumab o ravulizumab",
+      "Genética y anti-CFH en paralelo"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [

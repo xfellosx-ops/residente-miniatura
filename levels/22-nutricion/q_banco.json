@@ -893,5 +893,309 @@
    "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
   ],
   "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-1",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Azoados bajos en hemodiálisis",
+  "caso": "Mujer de 60 años con 6 años en hemodiálisis 4 h tres veces por semana, peso seco estable, ganancia interdialítica 0.9 kg. Prediálisis: urea 27 mg/dL, P 3.2 mg/dL, K 4.5, albúmina 3.5 g/dL, colesterol 100 mg/dL. Refiere disnea.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Indicadores de baja ingesta: descenso gradual de BUN, P y K prediálisis, colesterol <150 mg/dL. El nPCR distingue diálisis adecuada de ingesta pobre.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Reducir el tiempo de diálisis por exceso de depuración",
+   "B": "Aumentar el peso seco",
+   "C": "Evaluar la ingesta y reajustar el peso seco",
+   "D": "Iniciar diurético y restringir líquidos",
+   "E": "Suspender quelantes y repetir en 3 meses"
+  },
+  "explicaciones": {
+   "A": "El problema es la ingesta, no un exceso de diálisis.",
+   "B": "Probablemente debe bajarse si perdió masa magra.",
+   "C": "Correcto. Urea, fósforo y colesterol bajos con poca ganancia sugieren ingesta pobre; pérdida de masa con peso seco fijo puede causar sobrecarga y disnea.",
+   "D": "No aborda la causa.",
+   "E": "Insuficiente."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-2",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Paradoja de la obesidad en hemodiálisis",
+  "caso": "Se discute la relación entre IMC y supervivencia en hemodiálisis.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "ISRNM sugiere IMC <23 kg/m² como umbral de desgaste. Pérdida de peso no intencional 5–10% es señal temprana y >10% clínicamente significativa.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El IMC alto siempre aumenta la mortalidad",
+   "B": "El IMC distingue bien músculo de grasa",
+   "C": "La obesidad nunca limita el acceso al trasplante",
+   "D": "El efecto se explica solo por menor inflamación en obesos",
+   "E": "IMC alto: mejor supervivencia, salvo obesidad mórbida"
+  },
+  "explicaciones": {
+   "A": "No es lo observado.",
+   "B": "No distingue músculo, grasa ni hidratación.",
+   "C": "Puede impedir activarlo en lista.",
+   "D": "Puede reflejar inflamación en los de bajo peso o reserva fisiológica, sin explicación única.",
+   "E": "Correcto. Epidemiología inversa: el IMC alto se asocia a mejor supervivencia en HD; no aplica a la obesidad mórbida, que predice mayor mortalidad."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-3",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Marcadores bioquímicos de desgaste",
+  "caso": "Hombre en hemodiálisis con PCR elevada por neumonía reciente; prealbúmina 18 mg/dL y albúmina 3.3 g/dL.",
+  "enunciado": "¿Qué limitación de la prealbúmina es correcta?",
+  "perla": "PEW: cuatro categorías de tamizaje, bioquímica, masa corporal, masa muscular e ingesta. KDOQI recomienda la SGA de 7 puntos; alternativas: MIS, DMS, GNRI.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cae rápido en inflamación aguda y la ERC la eleva",
+   "B": "Su vida media es de 20 días",
+   "C": "No varía con la TFG",
+   "D": "Es independiente del estado de hierro",
+   "E": "Es el marcador único para diagnosticar desgaste"
+  },
+  "explicaciones": {
+   "A": "Correcto. La ERC eleva la prealbúmina por menor metabolismo renal, pero cae rápido con inflamación aguda. Punto de corte <30 mg/dL solo para diálisis.",
+   "B": "Esa es la vida media de la albúmina.",
+   "C": "Varía con la TFG en G2–G5.",
+   "D": "La transferrina depende del hierro.",
+   "E": "Se requiere un panel."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-4",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Antropometría en diálisis",
+  "caso": "Se mide la circunferencia muscular del brazo en un paciente con fístula en el brazo izquierdo.",
+  "enunciado": "¿Cómo se realiza correctamente?",
+  "perla": "Pliegue tricipital estima grasa y CMB masa magra; gran variabilidad, útil en serie. Bioimpedancia: mejor posdiálisis, cuando los compartimentos están equilibrados.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Brazo de la fístula, antes de la sesión",
+   "B": "Cualquier brazo, antes de la sesión",
+   "C": "Brazo sin acceso, antes de la sesión",
+   "D": "Brazo sin acceso, después de la sesión de HD",
+   "E": "Solo con bioimpedancia en el brazo de la fístula"
+  },
+  "explicaciones": {
+   "A": "No es lo correcto.",
+   "B": "No es lo correcto.",
+   "C": "La medición prediálisis sobreestima por sobrecarga.",
+   "D": "Correcto. Se usa el brazo dominante sin fístula ni injerto, tras la diálisis. CMB = circunferencia del brazo − 3.14 × pliegue tricipital.",
+   "E": "La bioimpedancia también se mide tras la diálisis."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-5",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Metas de proteína según guía",
+  "caso": "Hombre de 55 años no diabético, metabólicamente estable, con ERC G4 y seguimiento estrecho por nutrióloga renal.",
+  "enunciado": "¿Qué meta proteica propone KDOQI 2020?",
+  "perla": "KDIGO 2012 y 2020: 0.8 g/kg/día en G4–G5. PQRAD se beneficia menos de dietas bajas pero debe evitar >1.0. Dieta PLADO: >50% vegetal con 0.6–0.8 g/kg/día. Energía 25–35 kcal/kg y sodio <100 mmol/día.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "1.0–1.2 g/kg/día como en diálisis",
+   "B": "0.55–0.6 g/kg/día o menos con cetoanálogos",
+   "C": "0.8–1.0 g/kg/día sin supervisión estrecha",
+   "D": "Más de 1.3 g/kg/día",
+   "E": "0.6–0.8 g/kg/día por ser diabético"
+  },
+  "explicaciones": {
+   "A": "Es la meta en diálisis.",
+   "B": "Correcto. KDOQI 2020 para ERC no diabética estable con supervisión estrecha.",
+   "C": "Es la moderación general.",
+   "D": "Debe evitarse en ERC con riesgo de progresión.",
+   "E": "0.6–0.8 aplica a diabéticos bajo supervisión."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-6",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Vitaminas en ERC",
+  "caso": "Mujer en hemodiálisis con ingesta pobre pregunta qué suplementos tomar.",
+  "enunciado": "¿Qué recomendación es correcta?",
+  "perla": "La restricción de proteína y potasio reduce piridoxina, B12, folato, vitamina C, hierro y zinc. La mayoría de los dializados tiene déficit subclínico de vitamina K. KDOQI: bicarbonato 24–26 mmol/L en G3–G5D.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Vitamina A rutinaria por pérdidas dialíticas",
+   "B": "Vitamina K aunque tome warfarina",
+   "C": "Folato y B12 para reducir eventos CV",
+   "D": "Hidrosolubles; evitar vitamina C a dosis alta",
+   "E": "Vitamina C en dosis altas como antioxidante"
+  },
+  "explicaciones": {
+   "A": "Las deficiencias son raras, las pérdidas mínimas y se acumula.",
+   "B": "KDOQI: no dar vitamina K con antagonistas de vitamina K.",
+   "C": "Bajar la homocisteína no cambió mortalidad ni eventos CV.",
+   "D": "Correcto. Umbral bajo para un preparado de vitaminas hidrosolubles. La vitamina C en dosis altas favorece depósito tisular de oxalato.",
+   "E": "Riesgo de oxalosis."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-7",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Suplementación en diálisis peritoneal",
+  "caso": "Hombre en DP con desgaste e intolerancia a suplementos orales.",
+  "enunciado": "¿Qué es correcto sobre los aminoácidos intraperitoneales?",
+  "perla": "NPID: 800–1200 kcal y 30–60 g de proteína por sesión; un ECA mostró más prealbúmina que la consejería a 16 semanas; ESPEN tiene criterios de uso. Megestrol, mirtazapina y cannabinoides tienen evidencia insuficiente.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Al 1.1%; se absorbe ~80% en 4 horas",
+   "B": "Sustituyen todas las bolsas del día",
+   "C": "Tienen beneficio probado en mortalidad",
+   "D": "Aumentan la exposición a glucosa",
+   "E": "ASPEN los recomienda como primera línea"
+  },
+  "explicaciones": {
+   "A": "Correcto. Sustituyen glucosa en un recambio; se usan también para reducir exposición a glucosa. KDOQI los sugiere si no tolera suplementos o sonda.",
+   "B": "Habitualmente un recambio al día.",
+   "C": "Sus efectos a largo plazo no se conocen.",
+   "D": "La reducen.",
+   "E": "ASPEN se refiere a la NPID y no la recomienda."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-8",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Dieta vegetal y potasio",
+  "caso": "Hombre con ERC G4, K 5.0 mmol/L, desea una dieta mediterránea rica en vegetales.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Dieta alterada baja en fibra favorece disbiosis y toxinas urémicas; prebióticos y probióticos aún sin recomendación.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Toda dieta vegetal está contraindicada en G4",
+   "B": "Los patrones saludables aumentan la mortalidad en ERC",
+   "C": "La fibra reduce la motilidad intestinal",
+   "D": "El sustituto de sal con potasio es la mejor estrategia",
+   "E": "La fibra vegetal favorece pérdida fecal de K y alcaliniza"
+  },
+  "explicaciones": {
+   "A": "Se individualiza.",
+   "B": "Metaanálisis de 7 estudios: menor mortalidad.",
+   "C": "La aumenta.",
+   "D": "Debe evitarse por riesgo de hiperpotasemia.",
+   "E": "Correcto. La fibra mejora el tránsito y la pérdida GI de potasio, y su efecto alcalinizante puede reducir la hiperpotasemia; individualizar en etapas avanzadas."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
  }
 ]

@@ -325,6 +325,70 @@
      "pairs": []
     },
     {
+     "type": "clasif",
+     "title": "Osteodistrofia renal: alto vs bajo recambio",
+     "bins": [
+      "Osteítis fibrosa",
+      "Ósea adinámica"
+     ],
+     "items": [
+      [
+       "PTH intacta >600 pg/mL",
+       "Osteítis fibrosa"
+      ],
+      [
+       "PTH <100–150 pg/mL",
+       "Ósea adinámica"
+      ],
+      [
+       "Tumor pardo",
+       "Osteítis fibrosa"
+      ],
+      [
+       "Columna en jersey de rugby",
+       "Osteítis fibrosa"
+      ],
+      [
+       "Diálisis peritoneal, diabetes, edad avanzada",
+       "Ósea adinámica"
+      ],
+      [
+       "FA ósea baja",
+       "Ósea adinámica"
+      ],
+      [
+       "Hipercalcemia con quelantes cálcicos",
+       "Ósea adinámica"
+      ],
+      [
+       "Erosiones subperiósticas",
+       "Osteítis fibrosa"
+      ],
+      [
+       "Tras paratiroidectomía total",
+       "Ósea adinámica"
+      ],
+      [
+       "Fibrosis peritrabecular",
+       "Osteítis fibrosa"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Anemia en ERC: secuencia de manejo",
+     "items": [
+      "Confirmar Hb y excluir otras causas: B12, folato, citopenias, sangrado",
+      "Evaluar hierro: ferritina y TSAT",
+      "Hierro si TSAT ≤30% y ferritina ≤500; IV en HD",
+      "Considerar AEE si persiste y Hb <10, sopesando EVC y cáncer",
+      "Titular 25–50% si no hay respuesta al mes",
+      "Hiporrespuesta: hierro, inflamación, subdiálisis, PTH, aplasia pura"
+     ],
+     "pairs": []
+    },
+    {
      "type": "memorama",
      "title": "Memorama del tema",
      "items": [],
@@ -587,6 +651,70 @@
        "Difelikefalina o gabapentinoide"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Sick day rules: ¿suspender o mantener?",
+     "bins": [
+      "Suspender",
+      "Mantener"
+     ],
+     "items": [
+      [
+       "IECA / ARA II",
+       "Suspender"
+      ],
+      [
+       "Metformina",
+       "Suspender"
+      ],
+      [
+       "iSGLT2",
+       "Suspender"
+      ],
+      [
+       "Espironolactona",
+       "Suspender"
+      ],
+      [
+       "Diurético",
+       "Suspender"
+      ],
+      [
+       "Digoxina",
+       "Suspender"
+      ],
+      [
+       "Litio",
+       "Suspender"
+      ],
+      [
+       "Atorvastatina",
+       "Mantener"
+      ],
+      [
+       "Amlodipino si PA lo permite",
+       "Mantener"
+      ],
+      [
+       "Levotiroxina",
+       "Mantener"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "HPT secundario: escalamiento",
+     "items": [
+      "Restringir fósforo de aditivos y dieta",
+      "Corregir 25-OH-D",
+      "Quelante de fósforo si hay hiperfosfatemia",
+      "Vitamina D activa o análogo con P controlado",
+      "Calcimimético en diálisis",
+      "Paratiroidectomía si es refractario"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -775,6 +903,62 @@
       "Decidir juntos y documentar",
       "Planeación anticipada de cuidados",
       "Control de síntomas y apoyo a la familia"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Opioides en ERC terminal",
+     "bins": [
+      "Evitar",
+      "Preferible con ajuste"
+     ],
+     "items": [
+      [
+       "Meperidina",
+       "Evitar"
+      ],
+      [
+       "Codeína",
+       "Evitar"
+      ],
+      [
+       "Morfina",
+       "Evitar"
+      ],
+      [
+       "Hidrocodona",
+       "Evitar"
+      ],
+      [
+       "Fentanilo",
+       "Preferible con ajuste"
+      ],
+      [
+       "Hidromorfona",
+       "Preferible con ajuste"
+      ],
+      [
+       "Metadona",
+       "Preferible con ajuste"
+      ],
+      [
+       "Buprenorfina",
+       "Preferible con ajuste"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Sangrado urémico: escalamiento",
+     "items": [
+      "Corregir anemia y optimizar diálisis",
+      "Desmopresina 0.3 µg/kg IV o SC",
+      "Transfusión según necesidad",
+      "Crioprecipitado si amenaza la vida",
+      "Ácido tranexámico o factor VIIa como último recurso",
+      "Estrógenos para efecto prolongado"
      ],
      "pairs": []
     }

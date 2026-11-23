@@ -2347,5 +2347,1297 @@
   "clave": "A",
   "tema": "Estudios diagnósticos de enfermedad renal",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-1",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Marcadores exógenos de TFG",
+  "caso": "Un centro compara métodos de TFG medida frente a inulina.",
+  "enunciado": "¿Qué sesgo corresponde a cada marcador?",
+  "perla": "Depuración plasmática: modelo bicompartimental con muestras tempranas y ≥120 min; el edema prolonga la distribución y genera error. Las dosis de iohexol e iotalamato para TFG son muy inferiores a las de contraste.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El 99mTc-DTPA se secreta y sobreestima la TFG",
+   "B": "El 51Cr-EDTA depura 10% más que la inulina",
+   "C": "El iotalamato se secreta y sobreestima la TFG",
+   "D": "El iohexol se reabsorbe y subestima la TFG",
+   "E": "La inulina tiene secreción tubular significativa"
+  },
+  "explicaciones": {
+   "A": "La disociación del Tc causa unión a proteínas y subestimación.",
+   "B": "Depura ~10% menos.",
+   "C": "Correcto. Johnson cap. 3: iotalamato se secreta y sobreestima; el iohexol puede tener depuración extrarrenal y sobreestimar.",
+   "D": "Puede sobreestimar por eliminación extrarrenal.",
+   "E": "Es el estándar de oro: ni se secreta ni se reabsorbe."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-2",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Fisiología de la TFG",
+  "caso": "Mujer sana de 30 años con TFG medida de 118 mL/min/1.73 m² en la mañana y 106 a medianoche.",
+  "enunciado": "¿Qué dato fisiológico es correcto?",
+  "perla": "TFG normal: ~130 en hombres y 120 mL/min/1.73 m² en mujeres. Puede haber daño renal sustancial antes de que baje la TFG.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La TFG cae 3 mL/min al año desde los 20 años",
+   "B": "En el embarazo la TFG aumenta 10%",
+   "C": "La TFG indexada es igual en hombres y mujeres",
+   "D": "La TFG baja siempre indica pérdida de nefronas",
+   "E": "La TFG es ~10% menor a medianoche"
+  },
+  "explicaciones": {
+   "A": "Cae ~0.75 mL/min/año después de los 40, con gran variabilidad.",
+   "B": "Aumenta ~50% en el primer trimestre.",
+   "C": "Es ~8% mayor en hombres jóvenes aun indexada.",
+   "D": "Puede deberse a menor TFG por nefrona; la hiperfiltración compensa la pérdida de nefronas.",
+   "E": "Correcto. Variación diurna: ~10% menor a medianoche que en la tarde."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-3",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Creatinina sin cambio de TFG",
+  "caso": "Hombre de 45 años con VIH estable inicia dolutegravir; la creatinina sube de 0.9 a 1.1 mg/dL sin otros cambios.",
+  "enunciado": "¿Cuál es la interpretación más adecuada?",
+  "perla": "Una creatinina de 1.5 mg/dL puede corresponder a TFG de 20 a 90. Confirmar con cistatina C o TFG medida si la decisión lo requiere.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Inhibición de la secreción tubular de creatinina",
+   "B": "Nefritis intersticial aguda por el antirretroviral",
+   "C": "Caída real de TFG de 20%",
+   "D": "Interferencia del fármaco con el método de Jaffé",
+   "E": "Aumento de la generación de creatinina muscular"
+  },
+  "explicaciones": {
+   "A": "Correcto. Dolutegravir, cobicistat, trimetoprima, cimetidina, fenofibrato, inhibidores de PARP y de tirosina cinasa inhiben la secreción sin cambiar la TFG.",
+   "B": "Sin datos que la sugieran.",
+   "C": "La TFG medida no cambia.",
+   "D": "Interfieren cetoácidos y algunas cefalosporinas.",
+   "E": "No es el mecanismo."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-4",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Determinantes no TFG de la cistatina C",
+  "caso": "Hombre de 52 años, IMC 41, fumador, con tiroides hiperfuncionante y prednisona. TFGe por creatinina 88 y por cistatina C 54 mL/min/1.73 m².",
+  "enunciado": "¿Cómo se interpreta la discordancia?",
+  "perla": "La cistatina C rinde más que la creatinina con baja masa muscular, hepatopatía o desnutrición. La combinada es la más precisa; si persiste la duda, medir TFG.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La creatinina está falsamente baja por obesidad",
+   "B": "Ambas reflejan bien la TFG real",
+   "C": "La cistatina C no depende de la grasa corporal",
+   "D": "La cistatina C está elevada por factores no TFG",
+   "E": "Los esteroides reducen la cistatina C"
+  },
+  "explicaciones": {
+   "A": "La obesidad no cambia la creatinina: la grasa no genera creatinina.",
+   "B": "Hay factores que sesgan la cistatina.",
+   "C": "La adiposidad la eleva.",
+   "D": "Correcto. Tabaquismo, inflamación, adiposidad, hipertiroidismo y glucocorticoides elevan la cistatina C independientemente de la TFG.",
+   "E": "La aumentan."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-5",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Depuración de urea y creatinina en TFG baja",
+  "caso": "Paciente en hemodiálisis incremental con diuresis de 900 mL/día. Se desea estimar la función renal residual.",
+  "enunciado": "¿Qué cálculo aproxima mejor la TFG medida?",
+  "perla": "β2-microglobulina y β-traza no se dializan bien con membranas convencionales y pueden estimar la función residual en diálisis; sus ensayos aún no están estandarizados.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Depuración de creatinina aislada",
+   "B": "Promedio de ClCr y Curea",
+   "C": "Depuración de urea aislada",
+   "D": "TFGe por CKD-EPI con creatinina",
+   "E": "Creatinina sérica prediálisis"
+  },
+  "explicaciones": {
+   "A": "Sobreestima por secreción.",
+   "B": "Correcto. Con TFG <20, la sobreestimación por secreción de creatinina se compensa con la subestimación de urea por reabsorción; con varias muestras de sangre en la recolección.",
+   "C": "Subestima por reabsorción.",
+   "D": "No aplica en no estado estable ni en diálisis.",
+   "E": "No refleja la función residual."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-6",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "TFGe en estado no estacionario",
+  "caso": "Hombre de 60 años en choque séptico; creatinina 1.0 → 1.6 mg/dL en 24 h.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Cuanto más rápido cambia la TFGe, mayor el cambio real. KDIGO LRA: creatinina +0.3 mg/dL en 48 h o +50% en 7 días.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La TFGe refleja con exactitud la TFG del momento",
+   "B": "La creatinina sube antes que la cistatina C",
+   "C": "Al recuperarse, la TFGe sube menos que la real",
+   "D": "La caída de TFGe es menor que la caída real",
+   "E": "Basta la TFGe para decidir dosis en el día 1"
+  },
+  "explicaciones": {
+   "A": "En no estado estable no es exacta.",
+   "B": "La cistatina C parece subir más rápido.",
+   "C": "Es lo contrario.",
+   "D": "Correcto. Tras una caída de TFG hay retraso en la acumulación del marcador; la TFGe subestima la caída. Al recuperarse, la TFGe sube más que la real.",
+   "E": "Considerar TFG cinética o medición."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-7",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Exactitud requerida y TFG medida",
+  "caso": "Donante vivo potencial con TFGe de 62 mL/min/1.73 m²; el umbral local para aceptar es 60.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "En EUA se requiere depuración medida para donantes. Si la probabilidad de estar sobre o bajo el umbral es muy alta, la TFGe puede bastar.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Medir TFG con marcador exógeno",
+   "B": "Aceptarlo porque la TFGe supera 60",
+   "C": "Rechazarlo porque está cerca del umbral",
+   "D": "Usar Cockcroft-Gault como confirmación",
+   "E": "Repetir la creatinina sérica en una semana"
+  },
+  "explicaciones": {
+   "A": "Correcto. Un P30 implica que con TFG de 60 la TFGe puede ir de 42 a 78; la TFG medida reduce el intervalo a 51–69 con exactitud de 15%.",
+   "B": "La incertidumbre es demasiado grande.",
+   "C": "Puede estar por arriba o por abajo.",
+   "D": "Es menos exacta.",
+   "E": "No resuelve la incertidumbre."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-8",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Ecuaciones y dosificación de fármacos",
+  "caso": "Mujer de 80 años, 45 kg, superficie corporal 1.4 m², TFGe CKD-EPI 2021 de 48 mL/min/1.73 m². Se ajusta la dosis de un antibiótico de eliminación renal.",
+  "enunciado": "¿Qué recomienda Johnson cap. 3?",
+  "perla": "KDIGO: usar la mejor evaluación de TFG en cada paciente, no una ecuación fija. Vancomicina: CKD-EPI cr o cys más exacta que Cockcroft-Gault.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Usar siempre Cockcroft-Gault",
+   "B": "Usar la TFGe indexada de 48",
+   "C": "Usar MDRD reportando valores >60",
+   "D": "Usar solo la creatinina sérica",
+   "E": "Usar TFGe sin indexar: ~39 mL/min"
+  },
+  "explicaciones": {
+   "A": "Imprecisa, sobreestima en edema y obesidad y usa ensayos no calibrables.",
+   "B": "Sobreestima la función en una paciente pequeña.",
+   "C": "MDRD no debe reportar valores >60.",
+   "D": "No es adecuado.",
+   "E": "Correcto. Para dosificar, des-indexar si la superficie difiere mucho de 1.73: 48 × 1.4/1.73 ≈ 39 mL/min. La FDA ahora recomienda MDRD o CKD-EPI en farmacocinética."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-9",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "facil",
+  "peso": 40,
+  "subtema": "Completitud de la recolección de 24 h",
+  "caso": "Hombre de 30 años, 80 kg. Orina de 24 h con creatinina total de 900 mg.",
+  "enunciado": "¿Cómo se interpreta?",
+  "perla": "Mujeres: 15–20 mg/kg/día. La ingesta de carne cocida y los suplementos de creatina elevan transitoriamente la creatinina.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Recolección completa y adecuada",
+   "B": "Masa muscular aumentada",
+   "C": "Probable recolección incompleta",
+   "D": "Exceso de ingesta de carne",
+   "E": "Secreción tubular aumentada"
+  },
+  "explicaciones": {
+   "A": "Es demasiado baja.",
+   "B": "Daría valores mayores.",
+   "C": "Correcto. Excreción esperada 20–25 mg/kg/día en hombres jóvenes: 1600–2000 mg; 900 mg sugiere recolección incompleta, aunque la variabilidad es amplia.",
+   "D": "Daría valores mayores.",
+   "E": "No explica una excreción baja."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GFJ-10",
+  "tema_id": 5,
+  "sub": "5.a",
+  "obj": "5.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Ecuaciones de TFG por población",
+  "caso": "Se elige la ecuación de reporte para un laboratorio que atiende adultos y adolescentes.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "CKiD 2021 incluye edad, sexo y talla hasta 25 años. Un panel de cuatro metabolitos sin demografía igualó a cr o cys, sin superar a la combinada.",
+  "referencias": [
+   "Inker LA, Levey AS. Assessment of Glomerular Filtration Rate. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 3, pp. 27-36"
+  ],
+  "serie_id": "GFJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "MDRD es más exacta con TFG mayor de 60",
+   "B": "CKD-EPI 2021 omite raza y es suficientemente exacta",
+   "C": "CKiD 2009 sobreestima la TFG alta",
+   "D": "Schwartz original es exacta con creatinina estandarizada",
+   "E": "CKD-EPI y CKiD coinciden siempre en la transición"
+  },
+  "explicaciones": {
+   "A": "La subestima; no reportar valores >60.",
+   "B": "Correcto. Menos exacta que la de 2009, pero suficiente y evita errores de clasificación por raza; recomendada por ASN y NKF.",
+   "C": "La subestima.",
+   "D": "Con creatinina estandarizada sobreestima.",
+   "E": "A menudo difieren en la transición adolescencia–adultez; FAS evita esa discontinuidad."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LBJ-1",
+  "tema_id": 5,
+  "sub": "5.e",
+  "obj": "5.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Tipos de proteinuria",
+  "caso": "Mujer de 66 años con dolor óseo y proteinuria de 3 g/día; ACR 120 mg/g.",
+  "enunciado": "¿Qué tipo de proteinuria predomina?",
+  "perla": "Normal: AER <30 mg/día, ACR ~30 mg/g. La conversión PCR→ACR pierde exactitud en valores bajos.",
+  "referencias": [
+   "Inker LA, Tuttle ML, Levey AS. Laboratory Assessment of Kidney Disease: Glomerular Filtration Rate, Proteinuria, and Urinalysis. En: Brenner & Rector's The Kidney, cap. 23, pp. 678-703"
+  ],
+  "serie_id": "LBJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Glomerular con pérdida de selectividad",
+   "B": "Tubular por síndrome de Fanconi primario",
+   "C": "Ortostática",
+   "D": "De origen en vías urinarias",
+   "E": "Por sobreflujo de cadenas ligeras"
+  },
+  "explicaciones": {
+   "A": "Daría ACR alto con predominio de albúmina.",
+   "B": "Fanconi, Dent e Imerslund-Gräsbeck dan proteinuria tubular de bajo peso, pero sin hiperproducción.",
+   "C": "No supera ~1 g/día y desaparece en decúbito.",
+   "D": "Suele ser leve.",
+   "E": "Correcto. El aumento de proteínas de bajo peso, cadenas ligeras de 25 kDa, satura la reabsorción proximal; también mioglobina o hemoglobina."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LBJ-2",
+  "tema_id": 5,
+  "sub": "5.b",
+  "obj": "5.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Definición de hematuria glomerular",
+  "caso": "Sedimento con 30% de eritrocitos dismórficos y 7% de acantocitos.",
+  "enunciado": "¿Se cumple una definición habitual de hematuria glomerular?",
+  "perla": "Eritrocitos dismórficos con cilindros eritrocitarios en LRA sugieren GN rápidamente progresiva y pueden justificar inmunosupresión empírica antes de la biopsia.",
+  "referencias": [
+   "Inker LA, Tuttle ML, Levey AS. Laboratory Assessment of Kidney Disease: Glomerular Filtration Rate, Proteinuria, and Urinalysis. En: Brenner & Rector's The Kidney, cap. 23, pp. 678-703"
+  ],
+  "serie_id": "LBJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "No, porque requiere ≥80% de dismórficos",
+   "B": "No, porque requiere cilindros eritrocitarios",
+   "C": "Sí, por acantocitos ≥5%",
+   "D": "Sí, por dismórficos ≥20%",
+   "E": "No se puede definir sin biopsia"
+  },
+  "explicaciones": {
+   "A": "No es la definición.",
+   "B": "Los cilindros la confirman, pero no son obligatorios.",
+   "C": "Correcto. Definición común: ≥40% dismórficos o ≥5% acantocitos; el umbral no está estandarizado.",
+   "D": "El umbral de dismórficos es 40%.",
+   "E": "No es necesaria."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LBJ-3",
+  "tema_id": 5,
+  "sub": "5.b",
+  "obj": "5.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Esterasa leucocitaria sin leucocitos",
+  "caso": "Orina que permaneció 6 h sin refrigerar: esterasa leucocitaria positiva, sin leucocitos en el sedimento, pH 5.0, densidad 1.003.",
+  "enunciado": "¿Cuál es la explicación más probable?",
+  "perla": "Sedimento: orina fresca, 5–12 mL centrifugados 5 min, aspirar sobrenadante, microscopía de campo claro y contraste de fases. La lectura por nefrólogo diagnostica mejor la LRA.",
+  "referencias": [
+   "Inker LA, Tuttle ML, Levey AS. Laboratory Assessment of Kidney Disease: Glomerular Filtration Rate, Proteinuria, and Urinalysis. En: Brenner & Rector's The Kidney, cap. 23, pp. 678-703"
+  ],
+  "serie_id": "LBJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Lisis de granulocitos en orina diluida y ácida",
+   "B": "Falso positivo por glucosuria alta",
+   "C": "Infección con leucocitos ocultos por cristales",
+   "D": "Interferencia por ácido ascórbico",
+   "E": "Nitrituria por gramnegativos"
+  },
+  "explicaciones": {
+   "A": "Correcto. Reposo prolongado, pH bajo y baja densidad lisan granulocitos; la esterasa liberada da positiva sin células visibles.",
+   "B": "La glucosa y la albúmina altas pueden dar falsos negativos.",
+   "C": "No es lo descrito.",
+   "D": "No explica la esterasa positiva.",
+   "E": "No explica la ausencia de leucocitos."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LBJ-4",
+  "tema_id": 5,
+  "sub": "5.e",
+  "obj": "5.o5",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "ACR y excreción de creatinina",
+  "caso": "Mujer de 82 años, vegetariana y desnutrida, con ACR 45 mg/g y AER de 24 h de 22 mg/día.",
+  "enunciado": "¿Cómo se explica la discordancia?",
+  "perla": "Por eso los valores poblacionales de ACR y PCR son menores en hombres y aumentan con la edad. La AER confirma cuando el ACR no basta para decidir.",
+  "referencias": [
+   "Inker LA, Tuttle ML, Levey AS. Laboratory Assessment of Kidney Disease: Glomerular Filtration Rate, Proteinuria, and Urinalysis. En: Brenner & Rector's The Kidney, cap. 23, pp. 678-703"
+  ],
+  "serie_id": "LBJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El ACR subestima la albuminuria en mujeres",
+   "B": "La baja excreción de creatinina eleva el ACR",
+   "C": "La AER no es la prueba de referencia",
+   "D": "La orina matutina no es válida",
+   "E": "La desnutrición aumenta la excreción de albúmina"
+  },
+  "explicaciones": {
+   "A": "Lo eleva.",
+   "B": "Correcto. El cociente depende del denominador: menor excreción de creatinina en mujeres, ancianos, desnutridos y vegetarianos eleva el ACR.",
+   "C": "La AER en orina cronometrada es la referencia.",
+   "D": "Es la muestra preferida.",
+   "E": "No es lo descrito."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "BXJ-1",
+  "tema_id": 5,
+  "sub": "5.d",
+  "obj": "5.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Biopsia en diabetes: datos atípicos",
+  "caso": "Hombre de 48 años con DM2 diagnosticada hace 3 años, proteinuria de 4 g/día, sin retinopatía, con hematuria dismórfica.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "La biopsia cambia el diagnóstico clínico en 50–60% y el tratamiento en 20–50%; con proteinuria intensa o LRA, en >80%.",
+  "referencias": [
+   "Topham PS, MacGinley R. Kidney Biopsy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 7, pp. 86-93"
+  ],
+  "serie_id": "BXJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Asumir nefropatía diabética y optimizar SRAA",
+   "B": "Biopsia solo si la proteinuria supera 10 g/día",
+   "C": "Biopsia renal por presentación atípica",
+   "D": "Repetir el ACR en 6 meses",
+   "E": "Iniciar esteroides empíricos"
+  },
+  "explicaciones": {
+   "A": "El cuadro no es típico.",
+   "B": "No es el criterio.",
+   "C": "Correcto. Atípicos: hematuria glomerular, ausencia de retinopatía o neuropatía en DM1, proteinuria <5 años desde el diagnóstico, deterioro rápido o agudo, alteraciones inmunológicas.",
+   "D": "Retrasa el diagnóstico.",
+   "E": "Sin diagnóstico histológico no procede."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "BXJ-2",
+  "tema_id": 5,
+  "sub": "5.d",
+  "obj": "5.o4",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Muestreo glomerular y GEFS",
+  "caso": "Biopsia con 5 glomérulos normales en adulto nefrótico; se sospecha GEFS con 20% de glomérulos afectados.",
+  "enunciado": "¿Cuál es la probabilidad de no detectarla?",
+  "perla": "Muestra típica: 10–15 glomérulos. Con 10 glomérulos y 30% afectados, el IC 95% de la afección real va de 7% a 65%. MCD resistente o dependiente de esteroides puede ser GEFS no detectada: considerar rebiopsia.",
+  "referencias": [
+   "Topham PS, MacGinley R. Kidney Biopsy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 7, pp. 86-93"
+  ],
+  "serie_id": "BXJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "~1% con 5 glomérulos",
+   "B": "~10% con 5 glomérulos",
+   "C": "Nula si la microscopía óptica es normal",
+   "D": "~70% con 5 glomérulos",
+   "E": "~35% con 5 glomérulos"
+  },
+  "explicaciones": {
+   "A": "Corresponde a 20 glomérulos.",
+   "B": "Corresponde a 10 glomérulos.",
+   "C": "Las lesiones focales se pierden por muestreo.",
+   "D": "No es el valor descrito.",
+   "E": "Correcto. Con 20% afectados: 5 glomérulos dan ~35% de falsos negativos; 10 glomérulos ~10%; 20 glomérulos <1%. Requiere cortes en varios niveles."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "BXJ-3",
+  "tema_id": 5,
+  "sub": "5.d",
+  "obj": "5.o4",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Antitrombóticos antes de biopsia",
+  "caso": "Mujer de 62 años con prótesis valvular mecánica mitral con warfarina, y aspirina por angioplastia coronaria reciente. Requiere biopsia renal.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "perla": "Clopidogrel: suspender 7 días; en biopsia urgente, transfusión de plaquetas. Tiempo de sangrado y TEG predicen mal el sangrado posbiopsia.",
+  "referencias": [
+   "Topham PS, MacGinley R. Kidney Biopsy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 7, pp. 86-93"
+  ],
+  "serie_id": "BXJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Warfarina: 5 días con puente; seguir aspirina",
+   "B": "Suspender ambos 7 días sin puente",
+   "C": "Mantener warfarina con INR menor de 3",
+   "D": "Suspender aspirina 7 días y warfarina solo 1 día",
+   "E": "Dar desmopresina y no suspender nada"
+  },
+  "explicaciones": {
+   "A": "Correcto. Warfarina y ACOD se suspenden 5 días antes; puente con heparina en válvula mecánica, antifosfolípidos, trombofilia de alto riesgo o ETV <3 meses. La aspirina se mantiene si hay riesgo CV activo.",
+   "B": "Suspender aspirina eleva 40% el reinfarto y 3–4 veces el EVC; la válvula requiere puente.",
+   "C": "No es aceptable para biopsia.",
+   "D": "No es lo correcto.",
+   "E": "Johnson ya no la recomienda: poco efecto y más efectos adversos."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "BXJ-4",
+  "tema_id": 5,
+  "sub": "5.d",
+  "obj": "5.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Riñón único y riñones pequeños",
+  "caso": "Hombre de 55 años con riñón único funcional, sin trastornos hemorrágicos, y síndrome nefrótico de causa desconocida.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "Riñones <9 cm: más riesgo y menos rendimiento por esclerosis, aunque la IF aún puede mostrar IgA. La diátesis no corregible es la única contraindicación absoluta en urgencia.",
+  "referencias": [
+   "Topham PS, MacGinley R. Kidney Biopsy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 7, pp. 86-93"
+  ],
+  "serie_id": "BXJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Es contraindicación absoluta de biopsia",
+   "B": "Solo debe hacerse biopsia abierta",
+   "C": "Debe hacerse transyugular obligatoriamente",
+   "D": "La biopsia percutánea es justificable",
+   "E": "Basta la serología anti-PLA2R aunque sea negativa"
+  },
+  "explicaciones": {
+   "A": "Es relativa.",
+   "B": "No es obligatoria.",
+   "C": "Es una alternativa, no una obligación.",
+   "D": "Correcto. Nefrectomía posbiopsia 1 en 2000–5000, comparable a la mortalidad anestésica de la cirugía abierta.",
+   "E": "Anti-PLA2R identifica ~70% de la nefropatía membranosa primaria; negativa no excluye."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "BXJ-5",
+  "tema_id": 5,
+  "sub": "5.d",
+  "obj": "5.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Observación posbiopsia de alto riesgo",
+  "caso": "Hombre de 74 años con LRA y PA 150/95 se somete a biopsia renal ambulatoria.",
+  "enunciado": "¿Cuánto tiempo debe vigilarse?",
+  "perla": "Reposo estricto 6–8 h, vigilar PA, hematuria y sitio de punción. Actividad mínima 48 h; evitar deportes de contacto 2 semanas. Hb cae ~1 g/dL en promedio.",
+  "referencias": [
+   "Topham PS, MacGinley R. Kidney Biopsy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 7, pp. 86-93"
+  ],
+  "serie_id": "BXJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "6 horas como cualquier paciente",
+   "B": "12 horas por ser de alto riesgo",
+   "C": "2 horas con ecografía normal",
+   "D": "48 horas hospitalizado obligatoriamente",
+   "E": "No requiere vigilancia si no hay dolor"
+  },
+  "explicaciones": {
+   "A": "6 h aplica a bajo riesgo.",
+   "B": "Correcto. Alto riesgo: insuficiencia renal significativa, LRA, PA elevada, >70 años, coagulación anormal o reinicio temprano de anticoagulación. Hasta 91% de los sangrados ocurre en 12 h y un tercio de los que requieren transfusión, después de 8 h.",
+   "C": "La ecografía a 1 h tiene VPN 95% pero VPP 43%.",
+   "D": "La observación de 24 h tradicional ya no es obligatoria.",
+   "E": "Hay hematomas asintomáticos."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "BXJ-6",
+  "tema_id": 5,
+  "sub": "5.d",
+  "obj": "5.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Complicaciones de la biopsia",
+  "caso": "Paciente con hematuria macroscópica recurrente con coágulos e HTA nueva 3 meses después de una biopsia.",
+  "enunciado": "¿Cuál es el diagnóstico y manejo más probable?",
+  "perla": "Tabla de 118 064 biopsias: hematoma 11%, dolor 4.3%, hematuria visible 3.5%, transfusión 1.6%, intervención 0.3%, muerte 0.06%.",
+  "referencias": [
+   "Topham PS, MacGinley R. Kidney Biopsy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 7, pp. 86-93"
+  ],
+  "serie_id": "BXJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hematoma perirrenal agudo; reposo",
+   "B": "Riñón de Page; nefrectomía",
+   "C": "Pielonefritis; antibiótico",
+   "D": "FAV posbiopsia; embolización selectiva",
+   "E": "FAV asintomática; ecografía Doppler de rutina"
+  },
+  "explicaciones": {
+   "A": "Es tardío y recurrente.",
+   "B": "El riñón de Page es HTA por compresión de un hematoma; no explica hematuria recurrente.",
+   "C": "No es lo más probable.",
+   "D": "Correcto. Las FAV se detectan hasta en 18% si se buscan y >95% cierran en 2 años; las sintomáticas, con hematuria recurrente, HTA o deterioro, se embolizan.",
+   "E": "No deben buscarse de rutina; aquí son sintomáticas."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "BXJ-7",
+  "tema_id": 5,
+  "sub": "5.d",
+  "obj": "5.o4",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Procesamiento de la muestra",
+  "caso": "Se obtienen dos cilindros de una biopsia por síndrome nefrótico intenso, pero la muestra es escasa.",
+  "enunciado": "¿Qué estudio aporta más información en este contexto?",
+  "perla": "Fijadores: formol para MO, salina con congelación para IF y glutaraldehído para ME. Revisar los cilindros con microscopio quirúrgico. Aguja 16 G; más de 4 pases aumenta complicaciones.",
+  "referencias": [
+   "Topham PS, MacGinley R. Kidney Biopsy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 7, pp. 86-93"
+  ],
+  "serie_id": "BXJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Microscopía electrónica",
+   "B": "Solo microscopía óptica en formol",
+   "C": "Inmunofluorescencia sin glomérulos",
+   "D": "Cultivo de tejido",
+   "E": "Tinción de rojo Congo aislada"
+  },
+  "explicaciones": {
+   "A": "Correcto. En proteinuria intensa la ME muestra borramiento podocitario, esclerosis focal, depósitos densos y depósitos organizados como amiloide.",
+   "B": "Es insuficiente.",
+   "C": "Si no hay glomérulos en la IF, puede reprocesarse el tejido en parafina con inmunoperoxidasa.",
+   "D": "No es lo indicado.",
+   "E": "Limitada."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "UAJ-1",
+  "tema_id": 5,
+  "sub": "5.b",
+  "obj": "5.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Color de la orina",
+  "caso": "Mujer de 84 años con sonda vesical permanente y bolsa colectora de color púrpura.",
+  "enunciado": "¿Cuál es la causa más probable?",
+  "perla": "Verde: triamtereno, propofol, colorantes enterales. Azul: azul de metileno. Blanca lechosa: quiluria. Oscurecen al reposar: metronidazol, metildopa, imipenem.",
+  "referencias": [
+   "Navarro D, Fonseca NM, Garigali G, Fogazzi GB. Urinalysis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 4, pp. 37-50"
+  ],
+  "serie_id": "UAJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Porfiria aguda intermitente",
+   "B": "Uso de rifampicina",
+   "C": "Alcaptonuria hereditaria",
+   "D": "Mioglobinuria por rabdomiólisis",
+   "E": "IVU asociada a la sonda"
+  },
+  "explicaciones": {
+   "A": "Orina roja que oscurece.",
+   "B": "Naranja a roja.",
+   "C": "Roja que se vuelve negra.",
+   "D": "Rosa, roja, marrón o negra.",
+   "E": "Correcto. Síndrome de la bolsa púrpura: Klebsiella, Proteus, E. coli, Providencia o Enterococcus con sonda permanente."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "UAJ-2",
+  "tema_id": 5,
+  "sub": "5.b",
+  "obj": "5.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Densidad urinaria",
+  "caso": "Paciente con densidad urinaria por refractómetro de 1.045 tras una TC con contraste.",
+  "enunciado": "¿Qué indica?",
+  "perla": "Tira: subestima con pH >6.5, sobreestima con proteína >7 g/L. La osmolalidad no depende de temperatura ni proteínas y es más fiable.",
+  "referencias": [
+   "Navarro D, Fonseca NM, Garigali G, Fogazzi GB. Urinalysis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 4, pp. 37-50"
+  ],
+  "serie_id": "UAJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Concentración renal máxima normal",
+   "B": "Isostenuria por ERC",
+   "C": "Un soluto osmótico exógeno",
+   "D": "Diabetes insípida central",
+   "E": "Error por pH alcalino de la tira"
+  },
+  "explicaciones": {
+   "A": "La concentración fisiológica no llega tan alto.",
+   "B": "Isostenuria es ~1.010.",
+   "C": "Correcto. Una densidad >1.040 casi siempre indica un agente osmótico extrínseco como contraste.",
+   "D": "Daría 1.000–1.003.",
+   "E": "El pH >6.5 subestima la densidad en la tira, no en el refractómetro."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "UAJ-3",
+  "tema_id": 5,
+  "sub": "5.b",
+  "obj": "5.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Falsos resultados de cetonas y nitritos",
+  "caso": "Paciente con cetoacidosis diabética euglucémica por iSGLT2; la tira muestra cetonas negativas. Nitritos negativos con urocultivo positivo a Enterococcus.",
+  "enunciado": "¿Qué explica ambos hallazgos?",
+  "perla": "Esterasa falsamente negativa: vitamina C, glucosa ≥20 g/L, proteína ≥5 g/L, cefalotina, tetraciclina, cefalexina; falsa positiva: formaldehído, imipenem, meropenem, clavulanato, orina coloreada.",
+  "referencias": [
+   "Navarro D, Fonseca NM, Garigali G, Fogazzi GB. Urinalysis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 4, pp. 37-50"
+  ],
+  "serie_id": "UAJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La tira detecta β-hidroxibutirato pero no acetoacetato",
+   "B": "La tira no detecta β-hidroxibutirato ni Enterococcus",
+   "C": "Enterococcus siempre produce nitritos",
+   "D": "El captopril da falsos negativos de cetonas",
+   "E": "La dieta rica en vegetales anula los nitritos"
+  },
+  "explicaciones": {
+   "A": "Es lo opuesto.",
+   "B": "Correcto. El nitroprusiato detecta acetoacetato y acetona, no β-hidroxibutirato. Pseudomonas, Staphylococcus albus y Enterococcus no reducen nitratos.",
+   "C": "No reduce nitratos.",
+   "D": "Los grupos sulfhidrilo como el captopril dan falsos positivos.",
+   "E": "La dieta pobre en vegetales y la poca incubación vesical dan falsos negativos."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "UAJ-4",
+  "tema_id": 5,
+  "sub": "5.b",
+  "obj": "5.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Técnica del sedimento según Fogazzi",
+  "caso": "Se estandariza el estudio del sedimento en una clínica de nefrología.",
+  "enunciado": "¿Qué procedimiento recomienda Johnson cap. 4?",
+  "perla": "pH ≥7 y densidad ≤1.010 lisan eritrocitos y leucocitos; evitar ejercicio intenso 24 h y la menstruación. Hematuria glomerular: ≥40% dismórficos, ≥5% acantocitos o ≥1 cilindro eritrocitario por 50 campos.",
+  "referencias": [
+   "Navarro D, Fonseca NM, Garigali G, Fogazzi GB. Urinalysis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 4, pp. 37-50"
+  ],
+  "serie_id": "UAJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Primera orina, analizada a las 12 h refrigerada",
+   "B": "Orina sin centrifugar en todos los casos",
+   "C": "Solo microscopía de campo claro",
+   "D": "Revisar 5 campos de bajo aumento",
+   "E": "Segunda orina matutina, analizada en <3 h"
+  },
+  "explicaciones": {
+   "A": "La lisis aumenta; la refrigeración precipita fosfatos y uratos.",
+   "B": "Sin centrifugar se pierden cilindros escasos.",
+   "C": "Se recomienda contraste de fases y luz polarizada para lípidos y cristales.",
+   "D": "Al menos 20 campos; en microhematuria aislada, 50 de bajo aumento para buscar cilindros eritrocitarios.",
+   "E": "Correcto. Evita la lisis nocturna en vejiga. Centrifugar 10 mL a 400 g por 10 min, retirar 9.5 mL, resuspender y examinar 50 µL con contraste de fases y luz polarizada."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "UAJ-5",
+  "tema_id": 5,
+  "sub": "5.b",
+  "obj": "5.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Cristales y perfiles urinarios",
+  "caso": "Hombre con VIH y LRA tras iniciar un antirretroviral; el sedimento muestra grandes cristales en placas.",
+  "enunciado": "¿Qué fármaco es el más probable?",
+  "perla": "Oxalato de calcio monohidratado birrefringente; dihidroxiadenina-2,8 con luz polarizada; Fabry con partículas grasas sin proteinuria. Células señuelo y sus cilindros sugieren nefropatía por BK.",
+  "referencias": [
+   "Navarro D, Fonseca NM, Garigali G, Fogazzi GB. Urinalysis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 4, pp. 37-50"
+  ],
+  "serie_id": "UAJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Tenofovir",
+   "B": "Dolutegravir",
+   "C": "Indinavir",
+   "D": "Abacavir",
+   "E": "Raltegravir"
+  },
+  "explicaciones": {
+   "A": "Da tubulopatía proximal, no cristales.",
+   "B": "Inhibe la secreción de creatinina.",
+   "C": "Correcto. Indinavir, atazanavir, darunavir y aciclovir causan cristaluria; también sulfadiazina, amoxicilina con cristales en escoba, ciprofloxacino en estrella y ceftriaxona.",
+   "D": "No es lo descrito.",
+   "E": "No es lo descrito."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RXJ-1",
+  "tema_id": 5,
+  "sub": "5.c",
+  "obj": "5.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Doppler en estenosis de arteria renal",
+  "caso": "Hombre de 66 años con HTA resistente; el Doppler intrarrenal muestra onda tardus-parvus bilateral. Tiene estenosis aórtica grave.",
+  "enunciado": "¿Cómo se interpreta?",
+  "perla": "Criterios proximales: falla técnica 10–20%; falsos positivos en estados hiperdinámicos o tortuosidad. Distales: falla <5%. Combinados: sensibilidad 97% y especificidad 98%; VPN >90%. IR normal 0.70–0.72.",
+  "referencias": [
+   "Wymer DTG, Wymer DC. Radiologic and Nuclear Imaging in Nephrology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 6, pp. 68-85"
+  ],
+  "serie_id": "RXJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Confirma estenosis renal bilateral mayor de 60%",
+   "B": "Descarta estenosis por el índice de resistencia",
+   "C": "Puede ser falso positivo por la estenosis aórtica",
+   "D": "Indica obstrucción urinaria bilateral",
+   "E": "Es un hallazgo normal en ancianos"
+  },
+  "explicaciones": {
+   "A": "No es confirmatorio con estenosis aórtica.",
+   "B": "Tardus-parvus baja el IR, pero no lo descarta.",
+   "C": "Correcto. Los criterios distales producen falsos positivos con estenosis aórtica, gasto bajo o colaterales por oclusión completa; y falsos negativos con vasos posestenóticos rígidos.",
+   "D": "No es lo descrito.",
+   "E": "No es normal."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RXJ-2",
+  "tema_id": 5,
+  "sub": "5.c",
+  "obj": "5.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Hidronefrosis falsamente ausente",
+  "caso": "Mujer con fibrosis retroperitoneal y creatinina en ascenso; el ultrasonido no muestra hidronefrosis.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Seudomasas benignas: joroba de dromedario y columna de Bertin. Riñón adulto 9–12 cm. Ecogenicidad cortical alta: sensible pero inespecífica.",
+  "referencias": [
+   "Wymer DTG, Wymer DC. Radiologic and Nuclear Imaging in Nephrology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 6, pp. 68-85"
+  ],
+  "serie_id": "RXJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La ausencia de dilatación excluye obstrucción",
+   "B": "El uréter no obstruido siempre se ve dilatado",
+   "C": "Debe hacerse pielografía anterógrada de inicio",
+   "D": "El chorro ureteral presente descarta obstrucción parcial",
+   "E": "Puede haber obstrucción sin dilatación"
+  },
+  "explicaciones": {
+   "A": "No la excluye.",
+   "B": "El uréter normal no se ve más allá de la pelvis.",
+   "C": "Las pielografías son invasivas; usar si otros estudios fallan.",
+   "D": "Su ausencia sugiere obstrucción completa; su presencia no excluye la parcial.",
+   "E": "Correcto. Falsos negativos en obstrucción temprana, fibrosis retroperitoneal y periureteral en trasplante."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RXJ-3",
+  "tema_id": 5,
+  "sub": "5.c",
+  "obj": "5.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Litiasis: TC sin contraste",
+  "caso": "Paciente con VIH en indinavir con cólico renal y radiografía simple normal.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "La TC de doble energía distingue ácido úrico de cálculos cálcicos y genera imágenes virtuales sin contraste. La reconstrucción iterativa reduce la radiación hasta 30%.",
+  "referencias": [
+   "Wymer DTG, Wymer DC. Radiologic and Nuclear Imaging in Nephrology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 6, pp. 68-85"
+  ],
+  "serie_id": "RXJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La TC puede no ver cálculos de indinavir",
+   "B": "Los cálculos de ácido úrico no se ven en la TC",
+   "C": "La radiografía simple detecta 95% de los cálculos",
+   "D": "La TC sin contraste tiene sensibilidad menor de 70%",
+   "E": "La RM es el mejor estudio para cálculos"
+  },
+  "explicaciones": {
+   "A": "Correcto. Ni la TC ni la radiografía pueden detectar cálculos asociados a inhibidores de proteasa.",
+   "B": "Ácido úrico, xantina y estruvita no son opacos en radiografía pero sí se ven en TC.",
+   "C": "Solo ~60% de los cálculos de TC se ven en radiografía.",
+   "D": "Sensibilidad 97–100% y especificidad 94–96%.",
+   "E": "La RM visualiza mal el calcio."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RXJ-4",
+  "tema_id": 5,
+  "sub": "5.c",
+  "obj": "5.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Uro-TC frente a uro-RM",
+  "caso": "Mujer de 40 años con TFG reducida por obstrucción de causa no litiásica y alergia a contraste yodado.",
+  "enunciado": "¿Qué estudio es preferible?",
+  "perla": "Angio-RM con gadolinio para estenosis: sensibilidad 97%, especificidad 93%; mala para arterias accesorias y DFM, y no evalúa estenosis intrastent. Angio-TC: 96% y 99%; DFM 87%.",
+  "referencias": [
+   "Wymer DTG, Wymer DC. Radiologic and Nuclear Imaging in Nephrology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 6, pp. 68-85"
+  ],
+  "serie_id": "RXJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Urografía por TC",
+   "B": "Urografía excretora convencional",
+   "C": "Gammagrafía con DMSA",
+   "D": "Urografía por resonancia",
+   "E": "Radiografía simple"
+  },
+  "explicaciones": {
+   "A": "Mejor para cálculos; aquí hay alergia.",
+   "B": "Casi en desuso.",
+   "C": "Evalúa corteza y cicatrices.",
+   "D": "Correcto. La uro-RM es superior para causas no litiásicas en TFG reducida por obstrucción y en alergia al yodo; la uro-TC es mejor para cálculos, más rápida y barata.",
+   "E": "Poco informativa."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RXJ-5",
+  "tema_id": 5,
+  "sub": "5.c",
+  "obj": "5.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Masas renales incidentales",
+  "caso": "Hombre de 63 años con masa sólida renal de 3 cm hallada en TC por dolor abdominal.",
+  "enunciado": "¿Qué dato epidemiológico es correcto?",
+  "perla": "Quiste complejo por US: septos, nódulos o vascularidad sugieren malignidad; caracterizar con TC o RM con contraste. La DWI ayuda a diferenciar sólidos benignos de malignos.",
+  "referencias": [
+   "Wymer DTG, Wymer DC. Radiologic and Nuclear Imaging in Nephrology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 6, pp. 68-85"
+  ],
+  "serie_id": "RXJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Menos de 10% de los CCR se descubren incidentalmente",
+   "B": "Hasta dos tercios de las masas sólidas son malignas",
+   "C": "Los quistes son raros en mayores de 60 años",
+   "D": "La PET-FDG es ideal para la masa renal primaria",
+   "E": "Las masas sólidas suelen ser seudotumores"
+  },
+  "explicaciones": {
+   "A": "Es ~70%.",
+   "B": "Correcto. Distinguir sólido de quístico es el primer paso; ~70% de los CCR son hallazgos incidentales.",
+   "C": "Casi un tercio de los mayores de 60 tiene quistes.",
+   "D": "El FDG se excreta por orina y oculta la masa; sirve para estadificar metástasis.",
+   "E": "No es lo descrito."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RXJ-6",
+  "tema_id": 5,
+  "sub": "5.c",
+  "obj": "5.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Elección del radiotrazador",
+  "caso": "Receptor de trasplante renal con creatinina de 3.5 mg/dL; se solicita gammagrafía para diferenciar NTA de rechazo y descartar fuga urinaria.",
+  "enunciado": "¿Qué radiotrazador es de primera elección?",
+  "perla": "Pico cortical normal a los 3–5 min. Renograma diurético: furosemida con actividad en la pelvis; si no se vacía, hay obstrucción. Cistografía isotópica: menos radiación en el seguimiento del reflujo.",
+  "referencias": [
+   "Wymer DTG, Wymer DC. Radiologic and Nuclear Imaging in Nephrology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 6, pp. 68-85"
+  ],
+  "serie_id": "RXJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "99mTc-DTPA",
+   "B": "99mTc-DMSA",
+   "C": "18F-FDG",
+   "D": "99mTc-MAG3",
+   "E": "Pertecnetato vesical"
+  },
+  "explicaciones": {
+   "A": "Es glomerular; peor con función baja.",
+   "B": "Es cortical, para cicatrices, pielonefritis y seudotumores.",
+   "C": "Se excreta por orina; papel limitado.",
+   "D": "Correcto. MAG3 se elimina por secreción tubular, mejor conservada que la filtración en falla renal; depuración ~340 mL/min y estima el flujo plasmático renal efectivo.",
+   "E": "Se usa en cistografía isotópica."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RXJ-7",
+  "tema_id": 5,
+  "sub": "5.c",
+  "obj": "5.o3",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Contraste yodado y riesgo de LRA",
+  "caso": "Mujer de 70 años con TFGe 38 mL/min/1.73 m² requiere TC contrastada por sospecha de tromboembolia pulmonar.",
+  "enunciado": "¿Qué recomendación es correcta según Johnson cap. 6?",
+  "perla": "Prevención: hidratación con salina, evitando sobrecarga; no repetir estudios cercanos. Riesgo de reacción en reexposición ~20%; premedicar con antihistamínico y esteroide.",
+  "referencias": [
+   "Wymer DTG, Wymer DC. Radiologic and Nuclear Imaging in Nephrology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 6, pp. 68-85"
+  ],
+  "serie_id": "RXJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hacerlo con contraste de baja osmolaridad",
+   "B": "Evitar el contraste por alto riesgo de diálisis",
+   "C": "Bicarbonato superior a solución salina",
+   "D": "N-acetilcisteína protectora demostrada",
+   "E": "Hemodiálisis profiláctica tras el estudio"
+  },
+  "explicaciones": {
+   "A": "Correcto. La LRA por contraste es rara aun con TFG <45 y su riesgo estaba sobreestimado; no debe impedir un estudio necesario. Usar agentes de baja o isoosmolaridad y menor dosis.",
+   "B": "Hay poca evidencia de diálisis o mortalidad.",
+   "C": "No hay ventaja demostrada.",
+   "D": "No es consistentemente protectora.",
+   "E": "No está indicada."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RXJ-8",
+  "tema_id": 5,
+  "sub": "5.c",
+  "obj": "5.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Gadolinio en ERC avanzada",
+  "caso": "Hombre con ERC G4 requiere RM con contraste para caracterizar una masa hepática.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Reacciones menores al gadolinio en 3–5%. Elegir el agente junto con radiología.",
+  "referencias": [
+   "Wymer DTG, Wymer DC. Radiologic and Nuclear Imaging in Nephrology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 6, pp. 68-85"
+  ],
+  "serie_id": "RXJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Todos los gadolinios están contraindicados",
+   "B": "La gadodiamida es la opción más segura",
+   "C": "Requiere diálisis inmediata tras el estudio",
+   "D": "El depósito cerebral de gadolinio causa demencia",
+   "E": "Los macrocíclicos tienen riesgo muy bajo de FSN"
+  },
+  "explicaciones": {
+   "A": "Solo los de alto riesgo.",
+   "B": "Es lineal no iónica, de mayor riesgo.",
+   "C": "No es necesaria con agentes del grupo II.",
+   "D": "Hay retención, pero sin eventos adversos documentados.",
+   "E": "Correcto. Gadoterato, gadoteridol y gadobutrol, y el lineal gadobenato, no se han asociado a FSN. Los lineales de alto riesgo están contraindicados con TFG <30 o LRA."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "tipo_item": "nueva"
  }
 ]

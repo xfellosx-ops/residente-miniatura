@@ -5184,5 +5184,1031 @@
   "clave": "A",
   "tema": "Daño renal agudo",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "TRP-1",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Leptospirosis: LRA con hipopotasemia",
+  "caso": "Hombre de 29 años, recolector de basura en Veracruz, 7 días tras inundaciones: fiebre, mialgias intensas, ictericia y tos con hemoptisis. Cr 3.8 mg/dL, diuresis 1.8 L/día, K 2.9 mEq/L, plaquetas 45 000/µL.",
+  "enunciado": "¿Qué característica renal es típica de esta enfermedad?",
+  "perla": "Leptospirosis: zoonosis más común; riesgo con inundación, heridas y ganado. THAI LEPTO: hipotensión, ictericia, mialgias, LRA, Hb baja, hipoK con hipoNa, neutrofilia (AUC 0.82). Tratamiento: penicilinas, TRR a dosis alta, líquidos conservadores, ECMO si hace falta; esteroide y desmopresina sin beneficio.",
+  "referencias": [
+   "Burdmann EA, Jha V, Srisawat N. Acute Kidney Injury in the Tropics. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 71, pp. 826-834"
+  ],
+  "serie_id": "TRP-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "LRA oligúrica con hiperpotasemia por rabdomiólisis",
+   "B": "Glomerulonefritis rápidamente progresiva por anti-MBG",
+   "C": "LRA no oligúrica con hipopotasemia por defecto tubular",
+   "D": "Necrosis cortical bilateral con anuria prolongada",
+   "E": "Nefropatía por cilindros de hemoglobina con FENa baja"
+  },
+  "explicaciones": {
+   "A": "La oliguria y la hiperpotasemia predicen gravedad, pero no son lo típico.",
+   "B": "No es el mecanismo de la enfermedad.",
+   "C": "Correcto. Johnson cap. 71: la LRA de leptospirosis suele ser no oligúrica con hipopotasemia; la FENa y FEK altas preceden la caída de TFG (efecto de la glicolipoproteína sobre la Na⁺/K⁺-ATPasa tubular). Enfermedad de Weil: hemorragia alveolar, SDRA, ictericia y LRA.",
+   "D": "Es más propia de mordedura de víbora de Russell.",
+   "E": "Describe hemólisis intravascular."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "TRP-2",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Paludismo por P. falciparum con LRA",
+  "caso": "Hombre de 34 años que regresa de Nigeria con fiebre, ictericia, parasitemia de 12%, Cr 4.6 mg/dL y oliguria.",
+  "enunciado": "¿Cuál es el antipalúdico de elección?",
+  "perla": "Paludismo: LRA hasta en 60% con falciparum (10–19% vivax); oligúrica en 60%; mortalidad 10–50%; 7% evoluciona a ERC. Hiponatremia en 67%, hipocalcemia con QT largo en 45% del grave. Hemoglobinuria con deficiencia de G6PD.",
+  "referencias": [
+   "Burdmann EA, Jha V, Srisawat N. Acute Kidney Injury in the Tropics. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 71, pp. 826-834"
+  ],
+  "serie_id": "TRP-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Quinina IV a dosis completa sin ajuste",
+   "B": "Cloroquina oral a dosis reducida por la TFG",
+   "C": "Primaquina oral para eliminar los hipnozoítos",
+   "D": "Mefloquina oral, segura en la oliguria",
+   "E": "Artesunato IV, sin ajuste por función renal"
+  },
+  "explicaciones": {
+   "A": "La quinina es alternativa, pero no la primera elección.",
+   "B": "No trata el paludismo grave por falciparum.",
+   "C": "No trata la fase eritrocítica grave.",
+   "D": "No es tratamiento del paludismo grave.",
+   "E": "Correcto. Johnson cap. 71: artesunato es primera elección en la LRA palúdica (alta eficacia, sin ajuste renal). La TRR temprana y frecuente salva vidas; hemofiltración continua si hay SDRA o edema pulmonar; exanguinotransfusión como adyuvante en parasitemia alta."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "TRP-3",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Mordedura de serpiente y necrosis cortical",
+  "caso": "Campesino de 48 años mordido por Bothrops; recibió antiveneno a las 10 h. Coagulopatía de consumo y hemólisis. Persiste anúrico a las 3 semanas.",
+  "enunciado": "¿Qué sugiere la anuria prolongada y cómo se confirma?",
+  "perla": "Serpientes: LRA más con víbora de Russell (Asia) y Bothrops y Crotalus (Latinoamérica); más frecuente en niños. Crotalus: neurotoxicidad y rabdomiólisis. Manejo: antiveneno monovalente temprano (polivalente si se desconoce), volumen, inmunoglobulina antitetánica. Asociada a ERC a largo plazo.",
+  "referencias": [
+   "Burdmann EA, Jha V, Srisawat N. Acute Kidney Injury in the Tropics. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 71, pp. 826-834"
+  ],
+  "serie_id": "TRP-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Necrosis cortical aguda; TC contrastada o biopsia",
+   "B": "NTA en recuperación; esperar sin más estudios",
+   "C": "Obstrucción ureteral por coágulos; urografía",
+   "D": "Nefritis intersticial por antiveneno; esteroides",
+   "E": "Glomerulonefritis rápidamente progresiva; ANCA"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 71: la oliguria suele durar 1–2 semanas; su persistencia sugiere necrosis cortical (20–25% tras víbora de Russell y Echis), confirmable por TC contrastada o biopsia. La MAT (19%) se asocia a LRA grave y prolongada; el recambio plasmático no fue eficaz.",
+   "B": "La duración excede lo esperado para NTA.",
+   "C": "No es la causa habitual.",
+   "D": "La NIA es rara.",
+   "E": "Los cuadros glomerulares son raros."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "TRP-4",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Loxoscelismo con hemólisis",
+  "caso": "Mujer de 40 años con lesión necrótica pequeña en el muslo tras picadura de araña violinista; 48 h después ictericia, orina oscura, Hb 7.2 g/dL y Cr 3.1 mg/dL.",
+  "enunciado": "¿Cuál es el principal mecanismo de la LRA y la principal causa de muerte?",
+  "perla": "Abejas: cientos de picaduras → hemólisis, rabdomiólisis y LRA grave. Lonomia (oruga): coagulopatía hemorrágica, LRA prolongada, ERC. Escorpión: LRA rara (descarga autonómica).",
+  "referencias": [
+   "Burdmann EA, Jha V, Srisawat N. Acute Kidney Injury in the Tropics. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 71, pp. 826-834"
+  ],
+  "serie_id": "TRP-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Vasculitis necrosante por depósito de inmunocomplejos",
+   "B": "Toxicidad directa sobre el glomérulo con semilunas",
+   "C": "Obstrucción por cristales de ácido úrico",
+   "D": "Hemólisis intravascular masiva con NTA pigmentaria",
+   "E": "Choque anafiláctico inmediato tras la picadura"
+  },
+  "explicaciones": {
+   "A": "No es el mecanismo principal.",
+   "B": "No es lo descrito.",
+   "C": "No es lo descrito.",
+   "D": "Correcto. Johnson cap. 71: aun con lesión cutánea leve puede haber hemólisis intravascular grave y LRA, la principal causa de muerte; histología: NTA pigmentaria. El antiveneno es lo más eficaz, aunque suele retrasarse porque la picadura pasa inadvertida.",
+   "E": "La anafilaxia aguda no explica el cuadro tardío."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "TRP-5",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Dengue y LRA",
+  "caso": "Mujer de 31 años en Guerrero con dengue grave por reinfección: hematocrito en ascenso, derrame pleural, hipotensión y Cr 2.4 mg/dL.",
+  "enunciado": "¿Qué afirmación sobre la LRA por dengue es correcta?",
+  "perla": "Dengue: FR de LRA: enzimas hepáticas altas, hipoalbuminemia, HCO₃ bajo, coinfección, DM, obesidad, edad, retraso de hospitalización. Fiebre amarilla: LRA tras día 5 en formas graves, con ictericia; ecogenicidad renal aumentada predice mortalidad.",
+  "referencias": [
+   "Burdmann EA, Jha V, Srisawat N. Acute Kidney Injury in the Tropics. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 71, pp. 826-834"
+  ],
+  "serie_id": "TRP-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Solo ocurre en el dengue hemorrágico con rabdomiólisis",
+   "B": "Se asocia a fuga plasmática y choque; evitar AINE",
+   "C": "Responde a antivirales específicos de flavivirus",
+   "D": "La reinfección protege por anticuerpos neutralizantes",
+   "E": "Es siempre por glomerulonefritis con C3 bajo"
+  },
+  "explicaciones": {
+   "A": "Se describe en todas las formas de dengue.",
+   "B": "Correcto. Johnson cap. 71: la LRA (1–30%) suele asociarse a choque por fuga plasmática, hemólisis o rabdomiólisis; la reinfección empeora por amplificación dependiente de anticuerpos. No hay tratamiento específico: soporte, evitar aspirina y AINE.",
+   "C": "No existe tratamiento antiviral específico.",
+   "D": "Al revés: anticuerpos subneutralizantes facilitan la infección.",
+   "E": "La GN es una forma posible, no la regla."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "TRP-6",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "facil",
+  "peso": 40,
+  "subtema": "Epidemiología de la LRA en los trópicos",
+  "caso": "Se comparan las causas de LRA adquirida en la comunidad en zonas rurales de Latinoamérica.",
+  "enunciado": "¿Qué grupo de causas destaca Johnson para Latinoamérica?",
+  "perla": "Sur de Asia: paludismo, leptospirosis, diarrea y serpientes. África: paludismo, diarrea, obstetricia y remedios herbolarios. Trabajadores agrícolas: caídas agudas de TFG por deshidratación (nefropatía mesoamericana).",
+  "referencias": [
+   "Burdmann EA, Jha V, Srisawat N. Acute Kidney Injury in the Tropics. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 71, pp. 826-834"
+  ],
+  "serie_id": "TRP-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Isquemia posoperatoria y nefrotoxicidad hospitalaria",
+   "B": "Remedios herbolarios y accidentes obstétricos solamente",
+   "C": "Mordedura de víbora de Russell y paludismo por vivax",
+   "D": "Paludismo, leptospirosis, dengue y envenenamientos",
+   "E": "Fiebre amarilla urbana y hantavirus exclusivamente"
+  },
+  "explicaciones": {
+   "A": "Es el patrón de hospitales terciarios y países de altos ingresos.",
+   "B": "Es el patrón descrito para África.",
+   "C": "La víbora de Russell es asiática.",
+   "D": "Correcto. Johnson cap. 71: en Latinoamérica destacan paludismo, leptospirosis, dengue, envenenamiento animal y complicaciones obstétricas; afecta a jóvenes previamente sanos, con alta mortalidad temprana.",
+   "E": "No es el patrón descrito."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EPA-1",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC como factor de riesgo de LRA",
+  "caso": "Hombre de 72 años con TFGe basal 12 mL/min/1.73 m², hospitalizado por neumonía.",
+  "enunciado": "¿Cuánto aumenta, aproximadamente, su riesgo de LRA que requiere diálisis frente a una TFGe normal?",
+  "perla": "Factores de riesgo de LRA: edad (80–89 años: 55 veces más que <50), sexo masculino, ERC, proteinuria, DM, IC, sepsis, hipovolemia, hepatopatía crónica, hiperuricemia (contraste: OR 1.68).",
+  "referencias": [
+   "Pannu N, Tonelli M. Epidemiology and Prognostic Impact of Acute Kidney Injury and Acute Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 73, pp. 845-849"
+  ],
+  "serie_id": "EPA-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Alrededor de 2 veces",
+   "B": "No cambia el riesgo",
+   "C": "Más de 40 veces",
+   "D": "Alrededor de 5 veces",
+   "E": "Menos de 1.5 veces"
+  },
+  "explicaciones": {
+   "A": "Es el riesgo con TFGe 45–60.",
+   "B": "La TFGe baja es un factor potente.",
+   "C": "Correcto. Johnson cap. 73: el exceso de riesgo de LRA dialítica es ~2 veces con TFGe 45–60 y más de 40 veces con TFGe <15 mL/min/1.73 m². La albuminuria también es un predictor independiente.",
+   "D": "Subestima el riesgo con TFGe <15.",
+   "E": "Subestima el riesgo."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EPA-2",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Enfermedad renal aguda (ERA)",
+  "caso": "Estudio poblacional de Alberta con más de 900 000 personas.",
+  "enunciado": "¿Qué se encontró sobre la ERA (AKD) frente a la LRA?",
+  "perla": "ERA (KDIGO 2012, ADQI 16): alteración renal subaguda de 7 a 90 días. Trayectorias variables: puede seguir a LRA no recuperada en 7 días o ser subaguda (p. ej., nefrotóxicos crónicos).",
+  "referencias": [
+   "Pannu N, Tonelli M. Epidemiology and Prognostic Impact of Acute Kidney Injury and Acute Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 73, pp. 845-849"
+  ],
+  "serie_id": "EPA-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Menos frecuente que la LRA y solo hospitalaria",
+   "B": "Igual de frecuente, siempre precedida por LRA",
+   "C": "Exclusiva de pacientes con ERC previa",
+   "D": "Solo detectable con biomarcadores urinarios",
+   "E": "2.7 veces más prevalente, sobre todo ambulatoria"
+  },
+  "explicaciones": {
+   "A": "Fue más frecuente y mayormente ambulatoria.",
+   "B": "Puede ser subaguda sin cumplir criterios de LRA.",
+   "C": "No es exclusiva de ERC.",
+   "D": "Se define por creatinina y TFG.",
+   "E": "Correcto. Johnson cap. 73: la ERA afectó a 4.4% de la cohorte, fue 2.7 veces más prevalente que la LRA y 77% se identificó en ambulatorios. La LRA es un subconjunto de la ERA."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EPA-3",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "LRA y riesgo de ERC",
+  "caso": "Mujer de 55 años con TFGe basal 70 que requirió diálisis por LRA séptica y al alta tiene Cr 40% sobre su basal.",
+  "enunciado": "¿Qué factor de Johnson aumenta más su riesgo de ERC?",
+  "perla": "FR de ERC tras LRA: edad, TFGe basal, IC, HTA, LRA recurrente, albúmina hospitalaria, gravedad (diálisis), TFGe al alta. Solo 5% ve a un nefrólogo tras el alta (EUA). LRA: +86% mortalidad CV, +38% MACE, +40% IC.",
+  "referencias": [
+   "Pannu N, Tonelli M. Epidemiology and Prognostic Impact of Acute Kidney Injury and Acute Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 73, pp. 845-849"
+  ],
+  "serie_id": "EPA-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "No recuperar hasta 25% de la basal: riesgo 4 veces mayor",
+   "B": "Haber recibido diálisis intermitente en lugar de continua",
+   "C": "Su edad, porque el riesgo solo aumenta después de 70 años",
+   "D": "La sepsis, que protege frente a la progresión",
+   "E": "La TFGe basal alta, que elimina el riesgo"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 73: no regresar a ≤25% de la basal se asoció a 4 veces más riesgo de ERC/ERCT. Metaanálisis: HR 8.8 para ERC y 3.1 para ERCT; cada LRA adicional duplica el riesgo de ERC G4.",
+   "B": "No es un factor descrito.",
+   "C": "El riesgo existe a cualquier edad, incluso en niños.",
+   "D": "No protege.",
+   "E": "Supervivientes de LRA dialítica con TFGe >45 tuvieron 28 veces más ERC G4."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EPA-4",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o1",
+  "dificultad": "facil",
+  "peso": 45,
+  "subtema": "Mortalidad y LRA leve",
+  "caso": "Paciente hospitalizado cuya creatinina sube 0.3 mg/dL y regresa a la basal.",
+  "enunciado": "¿Qué relación con la mortalidad describe Johnson?",
+  "perla": "La ERC modifica la relación: con TFGe basal <30 el HR de muerte hospitalaria fue ~5. Ascensos de Cr por diuréticos o iSRAA en IC se asocian a menor mortalidad: no toda subida de Cr es daño.",
+  "referencias": [
+   "Pannu N, Tonelli M. Epidemiology and Prognostic Impact of Acute Kidney Injury and Acute Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 73, pp. 845-849"
+  ],
+  "serie_id": "EPA-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Sin efecto si la creatinina se normaliza",
+   "B": "Solo la LRA dialítica aumenta la mortalidad",
+   "C": "Aumento de 10 veces en cualquier paciente",
+   "D": "Aun la LRA leve aumenta 2.3 veces la mortalidad",
+   "E": "La mortalidad depende solo de la causa de base"
+  },
+  "explicaciones": {
+   "A": "Incluso la LRA leve es relevante.",
+   "B": "La relación es graduada desde formas leves.",
+   "C": "Más de 10 veces solo en LRA grave con TFGe basal >60.",
+   "D": "Correcto. Johnson cap. 73: un ↑ de 0.3 mg/dL se asoció a 2.3 veces más riesgo de muerte; ajustado, OR/HR 1.7–1.92. La relación es graduada con la gravedad; la LRA dialítica tiene mortalidad de 15% a 80% en críticos.",
+   "E": "La LRA añade riesgo propio."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EXT-1",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Dosis de HD intermitente en LRA",
+  "caso": "Paciente en UCI con LRA en HD intermitente tres veces por semana; el Kt/V entregado tras la primera sesión fue 1.05.",
+  "enunciado": "¿Cuál es la dosis mínima recomendada por Johnson y qué hacer?",
+  "perla": "Para aumentar la dosis de HD: mayor superficie (2–2.2 m²) y alto flujo, mayor Qb y Qd, catéter de lumen amplio con punta en la unión cavoatrial, yugular derecha si IMC ≥27, HDF posdilucional, más frecuencia o duración. PIKRT: EKRc ≥13 mL/min (Hannover).",
+  "referencias": [
+   "Marshall M, Karakala N, Juncos LA. Extracorporeal Therapies for Acute Kidney Injury and Heart Failure. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 75, pp. 863-880"
+  ],
+  "serie_id": "EXT-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "spKt/V ≥0.8 por sesión, suficiente en LRA",
+   "B": "HD diaria obligatoria, que mejora la supervivencia",
+   "C": "spKt/V ≥1.3 por sesión; medir y ajustar",
+   "D": "Cambiar a TRRC a 40 mL/kg/h para compensar",
+   "E": "No medir: el Kt/V no aplica en la LRA"
+  },
+  "explicaciones": {
+   "A": "Por debajo de 1.0 aumenta la mortalidad.",
+   "B": "ATN no mostró beneficio de la HD diaria.",
+   "C": "Correcto. Johnson cap. 75: bajo 1.0 por sesión empeora la supervivencia; ATN (VA/NIH) no mostró beneficio de 6 vs 3 sesiones con spKt/V ≥1.2; se recomienda ≥1.3 por sesión, 3 veces/semana. El Kt/V entregado suele ser menor (~1.1 en ATN): medir y ajustar.",
+   "D": "Dosis altas de TRRC no mejoran desenlaces (RENAL, ATN).",
+   "E": "Debe medirse el dosis entregada."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EXT-2",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 55,
+  "subtema": "Dosis prescrita de TRRC",
+  "caso": "Paciente de 80 kg en hemodiafiltración continua con interrupciones frecuentes por estudios.",
+  "enunciado": "¿Qué dosis de efluente recomienda prescribir Johnson?",
+  "perla": "La TRRC no trata la acidosis láctica (depuración hepática 10–100 veces mayor). La dosis de fármacos: 70 kg a 25 mL/kg/h ≈ TFG ~30 mL/min. Indicadores de calidad: dosis entregada >80%, filtros >60 h en >60%, tiempo muerto <10%.",
+  "referencias": [
+   "Marshall M, Karakala N, Juncos LA. Extracorporeal Therapies for Acute Kidney Injury and Heart Failure. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 75, pp. 863-880"
+  ],
+  "serie_id": "EXT-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "20 mL/kg/h exactos, sin margen",
+   "B": "35–40 mL/kg/h para eliminar citocinas",
+   "C": "15 mL/kg/h para prolongar el filtro",
+   "D": "Ajustar solo por la urea, sin dosis por peso",
+   "E": "25–30 mL/kg/h para entregar 20–25 mL/kg/h"
+  },
+  "explicaciones": {
+   "A": "Sin margen la dosis entregada cae por debajo del objetivo.",
+   "B": "Dosis altas no mejoran desenlaces y la remoción de citocinas no es meta.",
+   "C": "Es una dosis insuficiente.",
+   "D": "La dosis se expresa por peso premórbido.",
+   "E": "Correcto. ATN y RENAL: por encima de 20–25 mL/kg/h la supervivencia no depende de la dosis; como las interrupciones reducen la dosis entregada, se prescriben 25–30 mL/kg/h."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EXT-3",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Catéter para TRR aguda",
+  "caso": "Hombre de 1.75 m, IMC 31, requiere TRRC; la yugular interna derecha está trombosada.",
+  "enunciado": "¿Cuál es el siguiente sitio recomendado y qué longitud tendría el catéter yugular derecho en un caso típico?",
+  "perla": "Paquete contra bacteriemia: higiene de manos, barreras máximas, clorhexidina alcohólica >0.05%, evitar femoral si IMC ≥27, revisión diaria, scrub-the-hub, baño con clorhexidina 2%, fijación sin suturas.",
+  "referencias": [
+   "Marshall M, Karakala N, Juncos LA. Extracorporeal Therapies for Acute Kidney Injury and Heart Failure. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 75, pp. 863-880"
+  ],
+  "serie_id": "EXT-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Femoral antes que yugular izquierda; talla/10",
+   "B": "Subclavia como segunda opción por menos infección",
+   "C": "Yugular izquierda siempre antes que femoral",
+   "D": "Femoral, con longitud estándar de 12 cm",
+   "E": "Catéter tunelizado en cualquier paciente con TRRC"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 75: las guías recientes colocan la femoral antes de la yugular izquierda (la femoral rinde como la yugular derecha salvo en el tercil de mayor peso). Fórmulas de Peres: yugular derecha = talla/10 cm; izquierda = talla/10 + 4.",
+   "B": "La subclavia no se recomienda por estenosis venosa.",
+   "C": "La evidencia reciente coloca la femoral antes.",
+   "D": "La femoral requiere catéteres más largos y se evita en IMC ≥27 por infección.",
+   "E": "El tunelizado se reserva si se prevé TRR >3 semanas."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EXT-4",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Fosfato y glucosa en las soluciones de TRRC",
+  "caso": "Paciente en TRRC por 4 días con soluciones estándar sin fosfato ni glucosa; P 1.9 mg/dL y cetonas positivas con glucosa normal.",
+  "enunciado": "¿Qué complicaciones explican estos hallazgos?",
+  "perla": "Soluciones de TRRC: bicarbonato 32–35 mmol/L (22–25 con citrato); K 4 mEq/L casi siempre suficiente; K 0 casi nunca justificado; Mg 1.0–1.5 mEq/L con reposición periódica.",
+  "referencias": [
+   "Marshall M, Karakala N, Juncos LA. Extracorporeal Therapies for Acute Kidney Injury and Heart Failure. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 75, pp. 863-880"
+  ],
+  "serie_id": "EXT-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hiperfosfatemia por la lisis tumoral oculta",
+   "B": "Cetoacidosis diabética por la sepsis",
+   "C": "Intoxicación por citrato con alcalosis",
+   "D": "Hipofosfatemia y cetoacidosis euglucémica",
+   "E": "Hipocalcemia por dializado con calcio 3.5"
+  },
+  "explicaciones": {
+   "A": "El fósforo está bajo.",
+   "B": "La glucosa es normal.",
+   "C": "El citrato causaría alcalosis e hipocalcemia, no cetosis.",
+   "D": "Correcto. Johnson cap. 75: la mayoría de soluciones carece de fosfato: suplementar desde que se acerque al límite bajo (infusión ~1–1.5 mmol/h o vía enteral); la hipofosfatemia se asocia a debilidad respiratoria, más VM y mortalidad. Las soluciones sin dextrosa pueden causar cetoacidosis euglucémica.",
+   "E": "No explica los hallazgos."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EXT-5",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Anticoagulación en TRR: heparina e HIT",
+  "caso": "Paciente en TRRC con heparina no fraccionada; plaquetas de 210 000 a 70 000/µL en 6 días, trombosis del circuito y anticuerpos anti-PF4 positivos. Función hepática normal.",
+  "enunciado": "¿Qué anticoagulante es preferido?",
+  "perla": "Heparina: bolo 25–30 U/kg, infusión 5–20 U/kg/h, TTPa 1.5–2×; sangrado 25–30%, HIT 3–5%. Citrato regional: primera línea KDIGO; meta Ca ionizado posfiltro <0.35 mmol/L; citrato → bicarbonato 1:3 en hígado.",
+  "referencias": [
+   "Marshall M, Karakala N, Juncos LA. Extracorporeal Therapies for Acute Kidney Injury and Heart Failure. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 75, pp. 863-880"
+  ],
+  "serie_id": "EXT-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Enoxaparina con anti-Xa de 0.25–0.35",
+   "B": "Argatrobán, monitoreado con TTPa",
+   "C": "Heparina regional con protamina 1 mg/100 U",
+   "D": "Prostaciclina, sin riesgo de hipotensión",
+   "E": "Fondaparinux, el preferido en HIT con LRA"
+  },
+  "explicaciones": {
+   "A": "Las HBPM pueden tener reacción cruzada y se acumulan en LRA.",
+   "B": "Correcto. Johnson cap. 75: argatrobán no tiene reacción cruzada con anticuerpos de HIT, se depura por hígado (vida media ~35 min, sin depuración en TRR) y se monitorea con TTPa. Bivalirudina es alternativa si hay falla hepática y renal combinada.",
+   "C": "Sigue exponiendo a heparina.",
+   "D": "Causa hipotensión marcada y empeora V/Q.",
+   "E": "No es el preferido; se acumula en falla renal."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EXT-6",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Ultrafiltración en IC: CARRESS-HF",
+  "caso": "Paciente con IC descompensada, resistencia a diuréticos y empeoramiento renal.",
+  "enunciado": "¿Qué mostró CARRESS-HF al comparar UF con un algoritmo escalonado de diuréticos?",
+  "perla": "En IC: >90% de los ingresados están sobrecargados; la función renal correlaciona con la PVC más que con la FEVI. DOSE: subir 2.5× la dosis oral; duplicar hasta respuesta. DP en IC: datos observacionales favorables, opción selectiva con ERC avanzada.",
+  "referencias": [
+   "Marshall M, Karakala N, Juncos LA. Extracorporeal Therapies for Acute Kidney Injury and Heart Failure. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 75, pp. 863-880"
+  ],
+  "serie_id": "EXT-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mayor supervivencia a 60 días con UF",
+   "B": "Mejor función renal con UF a 96 h",
+   "C": "Menos rehospitalizaciones con UF",
+   "D": "Sin más pérdida de peso y con más eventos",
+   "E": "Mejor disnea con UF sin efectos adversos"
+  },
+  "explicaciones": {
+   "A": "No hubo diferencia en mortalidad.",
+   "B": "Hubo más falla renal con UF.",
+   "C": "No hubo diferencia en rehospitalizaciones a 60 días.",
+   "D": "Correcto. CARRESS-HF: la UF no fue superior en peso, disnea ni dosis de diurético y tuvo más eventos adversos (falla renal, sangrado, catéter), sin diferencias a 60 días. UNLOAD mostró más pérdida de peso; AVOID-HF se detuvo sin poder. UF aislada: reservar cuando los diuréticos no bastan.",
+   "E": "No mejoró la disnea y hubo más eventos."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EXT-7",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "TRR en pacientes con LVAD",
+  "caso": "Paciente con LVAD de flujo continuo que requiere HD crónica.",
+  "enunciado": "¿Qué acceso recomienda Johnson y cuál es el riesgo principal durante la HD?",
+  "perla": "ECMO: TRRC preferida, por catéter o integrada al circuito. LVAD: TRRC en el posimplante, luego HD intermitente o DP.",
+  "referencias": [
+   "Marshall M, Karakala N, Juncos LA. Extracorporeal Therapies for Acute Kidney Injury and Heart Failure. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 75, pp. 863-880"
+  ],
+  "serie_id": "EXT-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Injerto AV; colapso del VI por caída de precarga",
+   "B": "FAV radiocefálica; hipertensión por exceso de poscarga",
+   "C": "Catéter tunelizado permanente; sin riesgo adicional",
+   "D": "FAV braquiocefálica; embolia aérea del dispositivo",
+   "E": "DP contraindicada; usar solo catéter yugular"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 75: se prefiere injerto AV porque las FAV pueden no madurar en flujo no pulsátil. La caída de precarga durante la HD puede colapsar el VI con caída de flujo, hipotensión y arritmias; se corrige con volumen suave. La PA se mide con Doppler.",
+   "B": "La FAV puede no madurar en flujo no pulsátil.",
+   "C": "El catéter tiene alto riesgo de infección.",
+   "D": "No es el riesgo principal descrito.",
+   "E": "Los LVAD actuales son extraperitoneales: la DP es posible."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "EXT-8",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Fracción de filtración en hemofiltración",
+  "caso": "Paciente en CVVH posdilucional con Qb 150 mL/min y coagulación repetida del filtro.",
+  "enunciado": "¿Qué límite de fracción de filtración señala Johnson y qué medida la reduce?",
+  "perla": "Mecanismos: UF (presión transmembrana), convección (moléculas pequeñas y medianas), difusión (pequeñas, Fick), adsorción (se satura). Predilución: menos coagulación, menos depuración.",
+  "referencias": [
+   "Marshall M, Karakala N, Juncos LA. Extracorporeal Therapies for Acute Kidney Injury and Heart Failure. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 75, pp. 863-880"
+  ],
+  "serie_id": "EXT-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mantenerla sobre 40% para mayor depuración",
+   "B": "No exceder 50% y bajar el Qb",
+   "C": "Es irrelevante si se usa heparina sistémica",
+   "D": "Mantener 30% aumentando la UF neta",
+   "E": "No exceder 30%; subir Qb o usar predilución"
+  },
+  "explicaciones": {
+   "A": "Aumenta la hemoconcentración y la coagulación.",
+   "B": "El límite es menor y bajar el Qb la aumenta.",
+   "C": "La anticoagulación no elimina el problema.",
+   "D": "Aumentar la UF eleva la FF.",
+   "E": "Correcto. Johnson cap. 75: la FF no debe exceder 30% (otras fuentes, como el manual IMIN, proponen 20–25%); se reduce subiendo el Qb o con reposición prefiltro, que diluye la sangre a costa de menor depuración."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-1",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Segmentos vulnerables a la isquemia",
+  "caso": "Se discute por qué la NTA isquémica predomina en la médula externa.",
+  "enunciado": "¿Qué segmentos son más vulnerables y por qué?",
+  "perla": "Furosemida eleva la pO₂ medular de ~15 a 35 mmHg ('acute renal success'), sin evidencia de que acelere la recuperación. Autorregulación entre PAS 80 y 150 mmHg; falla en ancianos y ERC.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Glomérulo y túbulo contorneado distal por alto flujo",
+   "B": "Túbulo colector cortical por su escasa mitocondria",
+   "C": "S3 y rama gruesa medular: poco O₂ y alta demanda",
+   "D": "Asa delgada descendente por su alta reabsorción de sodio",
+   "E": "Papila renal por su elevada glucólisis anaerobia"
+  },
+  "explicaciones": {
+   "A": "No son los segmentos más vulnerables.",
+   "B": "No es lo descrito.",
+   "C": "Correcto. Johnson cap. 70: la médula externa vive al borde de la hipoxia (pO₂ 10–15 mmHg vs 50–100 en corteza) por intercambio contracorriente; S3 y mTAL tienen alta demanda por la Na⁺/K⁺-ATPasa. El proximal casi no tiene glucólisis; la mTAL sí, y resiste mejor.",
+   "D": "El asa delgada no tiene alta demanda energética.",
+   "E": "No es lo descrito."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-2",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Mecanismos tubulares de la NTA",
+  "caso": "En la NTA, la histología muestra lesión en solo 10–15% de los túbulos pese a una caída marcada de TFG.",
+  "enunciado": "¿Qué mecanismo explica la obstrucción tubular por cilindros?",
+  "perla": "Pérdida de polaridad: la Na⁺/K⁺-ATPasa se redistribuye, baja la reabsorción proximal y la mayor carga distal de NaCl activa la retroalimentación tubuloglomerular (protectora: limita gasto de ATP). Reparación: desdiferenciación y proliferación de células sobrevivientes; M1 → M2.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Necrosis masiva de todas las células proximales",
+   "B": "Depósito de inmunocomplejos en la membrana basal tubular",
+   "C": "Precipitación de cristales de oxalato en todos los casos",
+   "D": "Hipertrofia de células intercaladas del colector",
+   "E": "Integrinas apicales que se unen a uromodulina"
+  },
+  "explicaciones": {
+   "A": "La mayoría muere por apoptosis y la necrosis franca es rara.",
+   "B": "No es el mecanismo de la NTA.",
+   "C": "Solo en causas específicas como etilenglicol.",
+   "D": "No es lo descrito.",
+   "E": "Correcto. La disrupción del citoesqueleto (calpaína) desplaza integrinas α3β1 de la membrana basolateral a la apical; las células se desprenden y se unen a secuencias RGD de la uromodulina, formando cilindros. El sodio luminal alto y el pH ácido favorecen la dimerización de uromodulina. La retrofuga reduce la TFG medida ~10% (hasta 50% en injertos)."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-3",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Necrosis cortical aguda",
+  "caso": "Mujer de 31 años con desprendimiento placentario y choque; al día 21 sigue anúrica.",
+  "enunciado": "¿Qué afirmación sobre la necrosis cortical es correcta?",
+  "perla": "Otras causas de necrosis cortical: MAT, mordedura de serpiente, choque hemorrágico traumático. Se preserva parte de la irrigación medular (distinto del infarto).",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La predice el tipo de choque más que su gravedad",
+   "B": "Representa 30% de las NTA isquémicas",
+   "C": "La biopsia siempre es diagnóstica",
+   "D": "La calcificación es un signo temprano y confiable",
+   "E": "Es siempre reversible en 3 a 4 semanas"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 70: <2% de las NTA isquémicas; el tipo de choque (sobre todo desprendimiento placentario) predice el riesgo más que la gravedad. ~20% es reversible. TC contrastada muestra distorsión cortical; la biopsia puede no ser informativa por ser parcheada.",
+   "B": "Es menos de 2%.",
+   "C": "Puede ser no informativa por la distribución en parches.",
+   "D": "La calcificación es tardía y poco confiable.",
+   "E": "Si es extensa suele ser irreversible."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-4",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Vancomicina y nefrotoxicidad",
+  "caso": "Paciente con bacteriemia por SARM en vancomicina con valle de 22 µg/mL y piperacilina-tazobactam; Cr 0.9 → 2.3 mg/dL.",
+  "enunciado": "¿Qué factores de riesgo de nefrotoxicidad describe Johnson?",
+  "perla": "Aminoglucósidos: se unen a megalina, se acumulan 100–1000× en lisosomas proximales; LRA no oligúrica a 5–10 días con pérdida de K y Mg; amikacina y plazomicina menos tóxicas. Anfotericina: 2–3 g acumulados; ATR distal; liposomal reduce ~50%.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Solo la dosis única diaria mayor de 1 g de vancomicina",
+   "B": "La administración oral concomitante",
+   "C": "Únicamente la ERC previa, sin otros factores",
+   "D": "Valle >15 µg/mL, >4 g/día y piperacilina",
+   "E": "La duración menor de 3 días"
+  },
+  "explicaciones": {
+   "A": "No es lo descrito.",
+   "B": "La vía oral no se absorbe.",
+   "C": "Es solo uno de varios factores.",
+   "D": "Correcto. Johnson cap. 70: valles iniciales >15 µg/mL (relación graduada), dosis total >4 g/día, duración larga, nefrotóxicos o diuréticos, enfermedad crítica y combinación con piperacilina-tazobactam. Lesión: NTA y a veces NIA; reversible; HD de alto flujo si niveles muy altos.",
+   "E": "La duración larga aumenta el riesgo."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-5",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Antivirales y creatinina",
+  "caso": "Hombre con VIH que inicia dolutegravir; la Cr sube de 0.9 a 1.05 mg/dL a las 2 semanas, sin otros cambios.",
+  "enunciado": "¿Cuál es la interpretación?",
+  "perla": "Aciclovir IV: cristales birrefringentes en aguja y NIA; LRA oligúrica en días, dolor lumbar; prevenir con flujo urinario alto y sin bolos. Foscarnet y cidofovir: nefrotóxicos reconocidos.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefrotoxicidad tubular que obliga a suspenderlo",
+   "B": "Inhibe la secreción de creatinina, sin daño",
+   "C": "Nefritis intersticial alérgica temprana",
+   "D": "Nefropatía por cristales que requiere hidratación",
+   "E": "Síndrome de Fanconi por toxicidad mitocondrial"
+  },
+  "explicaciones": {
+   "A": "No hay daño renal real.",
+   "B": "Correcto. Johnson cap. 70: cobicistat y dolutegravir inhiben la secreción proximal de creatinina y elevan levemente la Cr en 2 semanas sin daño. El tenofovir disoproxilo, por OAT, daña mitocondrias proximales (glucosuria normoglucémica, Fanconi, NTA, ERC); TAF es menos nefrotóxico. Atazanavir: litiasis, cristales y NIA granulomatosa.",
+   "C": "No hay datos de NIA.",
+   "D": "No es propio de dolutegravir.",
+   "E": "Es el patrón del tenofovir disoproxilo."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-6",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Nefropatía por anticoagulantes",
+  "caso": "Mujer de 74 años con ERC G3b, 5 semanas de warfarina; INR 4.8, hematuria y Cr 1.6 → 3.0 mg/dL.",
+  "enunciado": "¿Cuál es el mecanismo más probable?",
+  "perla": "Otros fármacos: ICN (vasoconstricción aferente, fibrosis en banda, hiperK, MAT), IgIV con sacarosa (nefrosis osmótica), sirolimus (retrasa recuperación de función retardada del injerto), fosfato de sodio oral (nefropatía aguda por fosfato).",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hemorragia retroperitoneal con compresión ureteral",
+   "B": "NIA por hipersensibilidad a la warfarina",
+   "C": "Microangiopatía trombótica por la anticoagulación",
+   "D": "Hematuria glomerular con cilindros eritrocitarios",
+   "E": "Necrosis papilar por isquemia medular"
+  },
+  "explicaciones": {
+   "A": "Es posible pero no es el mecanismo descrito.",
+   "B": "No es el mecanismo.",
+   "C": "No es el mecanismo.",
+   "D": "Correcto. Johnson cap. 70: la nefropatía por anticoagulantes ocurre con INR >3, usualmente en las primeras 8 semanas en pacientes con ERC: hematuria glomerular y obstrucción por cilindros eritrocitarios. Mayor riesgo con warfarina; descrita también con ACOD.",
+   "E": "No es el mecanismo."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-7",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "LRA séptica",
+  "caso": "Paciente con choque séptico temprano y LRA grave; el flujo renal medido por Doppler es normal.",
+  "enunciado": "¿Qué describe Johnson sobre la fisiopatología?",
+  "perla": "Sepsis: hasta 50% de la LRA en UCI; mortalidad 50–60% si requiere TRR. Mediadores: LPS, TLR-4, citocinas, complemento, coagulación; disfunción microcirculatoria con isquemia cortical focal.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Flujo normal o alto con vasodilatación eferente",
+   "B": "Hipoperfusión renal global con NTA extensa en la mayoría",
+   "C": "Vasoconstricción eferente que eleva la fracción de filtración",
+   "D": "Obstrucción tubular por cilindros de mioglobina",
+   "E": "Glomerulonefritis por inmunocomplejos bacterianos"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 70: en sepsis temprana el flujo renal suele ser normal o alto; la caída de TFG es desproporcionada a la histología (solo 22% con NTA en autopsias); probable vasodilatación eferente. La vasopresina, que contrae más la eferente, se asoció a menos progresión. Salina con cloro alto aumenta la LRA frente a balanceados.",
+   "B": "Ese modelo clásico fue cuestionado.",
+   "C": "Es la eferente la que se dilata.",
+   "D": "No es el mecanismo de la LRA séptica.",
+   "E": "No es el mecanismo."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-8",
+  "tema_id": 6,
+  "sub": "6.0",
+  "obj": "6.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Quimioterapia y riñón",
+  "caso": "Paciente con cáncer de páncreas que terminó gemcitabina hace 6 semanas; ahora HTA nueva, esquistocitos, DHL alta y Cr 2.8 mg/dL.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "perla": "Cisplatino: toxicidad mitocondrial, pérdida de Mg, defecto de concentración; prevenir con volumen; carboplatino menos tóxico. Metotrexato: hidratar y alcalinizar (pH >7). Lisis tumoral: suele ser oligoanúrica; DHL alta.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefropatía por cristales de metotrexato",
+   "B": "Síndrome de Fanconi por ifosfamida",
+   "C": "NTA por cisplatino con pérdida de magnesio",
+   "D": "Nefritis intersticial por inhibidor de punto de control",
+   "E": "Microangiopatía trombótica por gemcitabina"
+  },
+  "explicaciones": {
+   "A": "Requiere metotrexato a dosis alta.",
+   "B": "Es propia de ifosfamida (cloroacetaldehído).",
+   "C": "El cisplatino da LRA no oligúrica con pérdida de Mg, no MAT aislada.",
+   "D": "Los ICI causan sobre todo NIA.",
+   "E": "Correcto. Johnson cap. 70: la gemcitabina daña el endotelio y causa MAT 1–2 meses tras terminar, con HTA nueva o peor y hemólisis. También mitomicina C, anti-VEGF e inhibidores de tirosina cinasa."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FPA-9",
+  "tema_id": 6,
+  "sub": "6.a.i",
+  "obj": "6.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Pigmentos: hemoglobina y mioglobina",
+  "caso": "Se compara la LRA por hemoglobinuria con la de mioglobinuria.",
+  "enunciado": "¿Por qué la hemoglobina libre se filtra solo con hemólisis masiva?",
+  "perla": "Hemoglobinuria: transfusión incompatible, AHAI, paludismo (fiebre de aguas negras), G6PD, HPN, de la marcha, dapsona, venenos. Rabdomiólisis recurrente con historia familiar: McArdle o déficit de CPT. Estatinas: mayor riesgo con simvastatina y fibratos, ciclosporina o eritromicina.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70, pp. 809-825"
+  ],
+  "serie_id": "FPA-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Su peso de 17 kDa la hace filtrarse libremente siempre",
+   "B": "Solo se filtra si la orina es alcalina",
+   "C": "Al agotarse la haptoglobina forma dímeros filtrables",
+   "D": "La filtra la membrana tras unirse a uromodulina",
+   "E": "No se filtra; daña al riñón solo por vasoconstricción"
+  },
+  "explicaciones": {
+   "A": "Describe a la mioglobina.",
+   "B": "La orina ácida favorece los cilindros, no la filtración.",
+   "C": "Correcto. Johnson cap. 70: la hemoglobina (69 kDa) se une a la haptoglobina; al agotarse, se disocia en dímeros α-β de 34 kDa filtrables. La mioglobina (17 kDa) se filtra libremente. Daño: hipovolemia (hasta 15–20 L secuestrados en músculo), vasoconstricción (captura de NO), toxicidad del hemo (Fenton) y cilindros con uromodulina en orina ácida.",
+   "D": "No es el mecanismo.",
+   "E": "Sí se filtra en hemólisis masiva."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Daño renal agudo",
+  "tipo_item": "nueva"
  }
 ]

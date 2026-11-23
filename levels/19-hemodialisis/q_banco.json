@@ -3453,5 +3453,119 @@
   "clave": "A",
   "tema": "Hemodiálisis",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "TRA-3",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Candidato a hemodiálisis incremental",
+  "caso": "Hombre de 58 años que inicia HD; diuresis 1.1 L/día, ganancia interdialítica 1.6 kg, K y P controlados.",
+  "enunciado": "¿Qué perfil propone Johnson para considerar HD incremental?",
+  "perla": "HD incremental: <3 sesiones/semana ajustadas a la FRR (frecuencia, duración, Qb, Qd, superficie). En países de bajos ingresos puede ser lo único disponible.",
+  "referencias": [
+   "Rayner HC, Thomas CM. Approach to Kidney Replacement Therapy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 95, pp. 1060-1071"
+  ],
+  "serie_id": "TRA-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Diuresis >500 mL/día y ganancia interdialítica <2.5 kg",
+   "B": "Diuresis >200 mL/día con cualquier ganancia de peso",
+   "C": "Anuria con buena tolerancia hemodinámica",
+   "D": "Ganancia >3 kg con hipertensión controlada",
+   "E": "Edad mayor de 80 años, independientemente de la FRR"
+  },
+  "explicaciones": {
+   "A": "Correcto. Johnson cap. 95: buenos candidatos tienen FRR >500 mL/día, ganancia <2.5 kg y parámetros metabólicos aceptables con menos sesiones; vigilar de cerca FRR, ganancia y bioquímica.",
+   "B": "Es insuficiente y la ganancia debe ser limitada.",
+   "C": "Sin FRR no aplica la estrategia incremental.",
+   "D": "La ganancia alta excluye la estrategia.",
+   "E": "La edad no define elegibilidad; la FRR sí."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "TRA-5",
+  "tema_id": 19,
+  "sub": "19.a",
+  "obj": "19.o3",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Hemodiafiltración: dosis convectiva",
+  "caso": "Se discute si la HDF mejora la supervivencia frente a la HD.",
+  "enunciado": "¿Qué condición señala Johnson para que la HDF dé mejores desenlaces?",
+  "perla": "HDF no disponible en EUA por regulación. CONVINCE (2023): ≥23 L/sesión redujo mortalidad (HR 0.77). HD domiciliaria frecuente: menos recuperación posdiálisis, menos antihipertensivos y mejor calidad de vida.",
+  "referencias": [
+   "Rayner HC, Thomas CM. Approach to Kidney Replacement Therapy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 95, pp. 1060-1071"
+  ],
+  "serie_id": "TRA-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Usar dializadores de bajo flujo en predilución",
+   "B": "Volumen convectivo alto: >30 L/semana/m²",
+   "C": "Reservarla a pacientes con FRR mayor de 1 L",
+   "D": "Aplicarla solo dos veces por semana",
+   "E": "Combinarla siempre con DP nocturna"
+  },
+  "explicaciones": {
+   "A": "No es una condición de beneficio.",
+   "B": "Correcto. Johnson cap. 95: los ensayos son discordantes; el beneficio requiere volumen convectivo alto (>30 L/semana/m²). La HDF reduce la β2-microglobulina y podría beneficiar a quienes tienen poca FRR.",
+   "C": "El potencial beneficio es mayor sin FRR.",
+   "D": "No es la condición descrita.",
+   "E": "No es una estrategia descrita."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "TRA-8",
+  "tema_id": 19,
+  "sub": "19.b",
+  "obj": "19.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Inicio con catéter y llegada tardía",
+  "caso": "Paciente referido al nefrólogo 2 semanas antes de requerir HD, inicia con catéter venoso central.",
+  "enunciado": "¿Qué consecuencia describe Johnson?",
+  "perla": "DOPPS: unidades con alta proporción de catéteres (o injertos) tienen más mortalidad. En EUA solo 31% recibió 12 meses de atención nefrológica previa (2015).",
+  "referencias": [
+   "Rayner HC, Thomas CM. Approach to Kidney Replacement Therapy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 95, pp. 1060-1071"
+  ],
+  "serie_id": "TRA-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mejor supervivencia por inicio urgente",
+   "B": "Menor riesgo de estenosis venosa central",
+   "C": "Mayor probabilidad de usar FAV a largo plazo",
+   "D": "Ninguna diferencia frente al inicio planeado",
+   "E": "Más estancia, complicaciones y mortalidad"
+  },
+  "explicaciones": {
+   "A": "El inicio no planeado empeora los desenlaces.",
+   "B": "El catéter favorece estenosis central.",
+   "C": "La FAV tardía se usa menos.",
+   "D": "Sí hay diferencia.",
+   "E": "Correcto. La llegada tardía se asocia a mayor estancia inicial, complicaciones y muerte; el uso de catéter aumenta la mortalidad (infección, TEP, estenosis central). La FAV creada tras iniciar diálisis tiene menor probabilidad de uso a largo plazo."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Hemodiálisis",
+  "tipo_item": "nueva"
  }
 ]

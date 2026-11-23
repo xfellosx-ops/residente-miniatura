@@ -243,41 +243,41 @@
      "id": "t0_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "EGF",
+     "serie": "BXJ-3",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Estimación de la TFG: cuándo añadir cistatina C"
+       "Te reto con un caso: Antitrombóticos antes de biopsia"
       ]
      ],
      "defeat": [
       [
        "Dra. Sístole Ruiz",
-       "Bien razonado. Sigue tu camino."
-      ]
-     ],
-     "questionTopics": [],
-     "n": 4
-    },
-    {
-     "id": "t0_2",
-     "cast": "cx",
-     "specialty": "Cirugía",
-     "serie": "AZ26-1",
-     "intro": [
-      [
-       "Dr. Rocco Filo",
-       "Te reto con un caso: Nefropatología para el nefrólogo"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dr. Rocco Filo",
        "Bien razonado. Sigue tu camino."
       ]
      ],
      "questionTopics": [],
      "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "EGF",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Te reto con un caso: Estimación de la TFG: cuándo añadir cistatina C"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
     }
    ],
    "wild": [
@@ -375,6 +375,53 @@
       ]
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "CKD-EPI 2021",
+       "Ecuación sin coeficiente racial"
+      ],
+      [
+       "Cistatina C",
+       "Independiente de masa muscular"
+      ],
+      [
+       "Cilindros eritrocitarios",
+       "Glomerulonefritis"
+      ],
+      [
+       "Cilindros granulosos pardos",
+       "Necrosis tubular aguda"
+      ],
+      [
+       "Cilindros leucocitarios",
+       "Pielonefritis / NTI"
+      ],
+      [
+       "Acantocitos",
+       "Hematuria glomerular"
+      ],
+      [
+       "RAC 30–300 mg/g",
+       "Albuminuria A2"
+      ],
+      [
+       "Proteinuria nefrótica",
+       "> 3.5 g/24 h"
+      ],
+      [
+       "Cristales en sobre",
+       "Oxalato de Ca dihidratado"
+      ],
+      [
+       "Contraindicación de biopsia",
+       "Coagulopatía o HTA no controlada"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -490,11 +537,11 @@
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "IM2",
+     "serie": "RXJ-7",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Estenosis de arteria renal: dúplex Doppler"
+       "Te reto con un caso: Contraste yodado y riesgo de LRA"
       ]
      ],
      "defeat": [
@@ -504,17 +551,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
     },
     {
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "TGE",
+     "serie": "IM2",
      "intro": [
       [
        "Dr. Anselmo Frágil",
-       "Te reto con un caso: Ecuaciones de TFG estimada en estado no estacionario (LRA)"
+       "Te reto con un caso: Estenosis de arteria renal: dúplex Doppler"
       ]
      ],
      "defeat": [
@@ -524,7 +571,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 2
     }
    ],
    "wild": [
@@ -594,51 +641,48 @@
      ]
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
+     "type": "clasif",
+     "title": "Radiotrazadores renales",
+     "bins": [
+      "Filtración",
+      "Secreción tubular",
+      "Cortical"
+     ],
+     "items": [
       [
-       "CKD-EPI 2021",
-       "Ecuación sin coeficiente racial"
+       "99mTc-DTPA",
+       "Filtración"
       ],
       [
-       "Cistatina C",
-       "Independiente de masa muscular"
+       "51Cr-EDTA",
+       "Filtración"
       ],
       [
-       "Cilindros eritrocitarios",
-       "Glomerulonefritis"
+       "99mTc-MAG3",
+       "Secreción tubular"
       ],
       [
-       "Cilindros granulosos pardos",
-       "Necrosis tubular aguda"
+       "Estima el flujo plasmático renal efectivo",
+       "Secreción tubular"
       ],
       [
-       "Cilindros leucocitarios",
-       "Pielonefritis / NTI"
+       "99mTc-DMSA",
+       "Cortical"
       ],
       [
-       "Acantocitos",
-       "Hematuria glomerular"
+       "Glucoheptonato",
+       "Cortical"
       ],
       [
-       "RAC 30–300 mg/g",
-       "Albuminuria A2"
+       "Cicatrices por reflujo",
+       "Cortical"
       ],
       [
-       "Proteinuria nefrótica",
-       "> 3.5 g/24 h"
-      ],
-      [
-       "Cristales en sobre",
-       "Oxalato de Ca dihidratado"
-      ],
-      [
-       "Contraindicación de biopsia",
-       "Coagulopatía o HTA no controlada"
+       "Primera elección en trasplante",
+       "Secreción tubular"
       ]
-     ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -726,7 +770,7 @@
      "id": "t2_0",
      "cast": "radio",
      "specialty": "Radiología",
-     "serie": "ECO",
+     "serie": "GFJ-3",
      "intro": [
       [
        "Dr. Hugo Contraste",
@@ -740,47 +784,47 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "AZ26-2",
+     "serie": "ECO",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Nefropatología para el nefrólogo"
+       "Te reto con un caso: Ecografía renal: tamaño y ecogenicidad en ERC"
       ]
      ],
      "defeat": [
       [
        "Dr. Félix Cultivo",
-       "Bien razonado. Sigue tu camino."
-      ]
-     ],
-     "questionTopics": [],
-     "n": 1
-    },
-    {
-     "id": "t2_2",
-     "cast": "hema",
-     "specialty": "Hematología",
-     "serie": "TFM",
-     "intro": [
-      [
-       "Dra. Sara Esquistocito",
-       "Te reto con un caso: TFG estimada en amputación y baja masa muscular"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dra. Sara Esquistocito",
        "Bien razonado. Sigue tu camino."
       ]
      ],
      "questionTopics": [],
      "n": 3
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "AZ26-2",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Te reto con un caso: Nefropatología para el nefrólogo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -823,6 +867,19 @@
       "Suspender antiagregantes y anticoagulantes",
       "Corregir coagulación; desmopresina si uremia",
       "Vigilancia 24 h tras el procedimiento"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Biopsia renal: secuencia segura",
+     "items": [
+      "Indicación y consentimiento",
+      "US: dos riñones de tamaño normal sin obstrucción",
+      "Plaquetas, TP y TTPa; suspender antitrombóticos",
+      "Controlar PA y descartar infección urinaria",
+      "Punción en tiempo real del polo inferior, 16 G, ≤4 pases",
+      "Reposo 6–8 h y vigilancia de 6 a 12 h según riesgo"
      ],
      "pairs": []
     }

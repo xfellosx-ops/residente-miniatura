@@ -342,51 +342,55 @@
      ]
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
+     "type": "clasif",
+     "title": "Ajuste renal: ¿requiere ajuste?",
+     "bins": [
+      "Ajustar o evitar",
+      "Dosis habitual"
+     ],
+     "items": [
       [
-       "Furosemida",
-       "NKCC2 asa ascendente"
+       "Valganciclovir",
+       "Ajustar o evitar"
       ],
       [
-       "Tiazida",
-       "NCC túbulo distal"
+       "Fluconazol",
+       "Ajustar o evitar"
       ],
       [
-       "Amilorida",
-       "Bloquea ENaC (DI por litio)"
+       "Enoxaparina",
+       "Ajustar o evitar"
       ],
       [
-       "Acetazolamida",
-       "Anhidrasa carbónica proximal"
+       "Tetraciclina",
+       "Ajustar o evitar"
       ],
       [
-       "Tacrolimus",
-       "Inhibe calcineurina → ↓IL-2"
+       "Gabapentina",
+       "Ajustar o evitar"
       ],
       [
-       "Micofenolato",
-       "Inhibe IMPDH (purinas)"
+       "Linagliptina",
+       "Dosis habitual"
       ],
       [
-       "Belatacept",
-       "Bloquea coestimulación CD80/86–CD28"
+       "Moxifloxacino",
+       "Dosis habitual"
       ],
       [
-       "Fármaco dializable",
-       "Bajo PM, baja unión proteica, Vd pequeño"
+       "Ceftriaxona",
+       "Dosis habitual"
       ],
       [
-       "iSGLT2",
-       "Natriuresis proximal, restaura RTG"
+       "Argatrobán",
+       "Dosis habitual"
       ],
       [
-       "Finerenona",
-       "ARM no esteroideo"
+       "Paracetamol",
+       "Dosis habitual"
       ]
-     ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -573,6 +577,53 @@
       "Ultrafiltración si falla todo"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Furosemida",
+       "NKCC2 asa ascendente"
+      ],
+      [
+       "Tiazida",
+       "NCC túbulo distal"
+      ],
+      [
+       "Amilorida",
+       "Bloquea ENaC (DI por litio)"
+      ],
+      [
+       "Acetazolamida",
+       "Anhidrasa carbónica proximal"
+      ],
+      [
+       "Tacrolimus",
+       "Inhibe calcineurina → ↓IL-2"
+      ],
+      [
+       "Micofenolato",
+       "Inhibe IMPDH (purinas)"
+      ],
+      [
+       "Belatacept",
+       "Bloquea coestimulación CD80/86–CD28"
+      ],
+      [
+       "Fármaco dializable",
+       "Bajo PM, baja unión proteica, Vd pequeño"
+      ],
+      [
+       "iSGLT2",
+       "Natriuresis proximal, restaura RTG"
+      ],
+      [
+       "Finerenona",
+       "ARM no esteroideo"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -700,11 +751,11 @@
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "AZ3-7",
+     "serie": "FRJ-7",
      "intro": [
       [
        "Dra. Sara Esquistocito",
-       "Te reto con un caso: Descongestión con PA alta y ascitis"
+       "Te reto con un caso: Antibióticos en IVU con ERC avanzada"
       ]
      ],
      "defeat": [

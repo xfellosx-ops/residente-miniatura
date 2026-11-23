@@ -219,7 +219,7 @@
      "id": "t0_0",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "PIE",
+     "serie": "IVJ-5",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -233,17 +233,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "LST",
+     "serie": "IVJ-7",
      "intro": [
       [
        "Dra. Carmen Triaje",
-       "Te reto con un caso: Pielonefritis xantogranulomatosa asociada a litiasis"
+       "Te reto con un caso: Bacteriuria asociada a sonda"
       ]
      ],
      "defeat": [
@@ -259,11 +259,11 @@
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "TBR",
+     "serie": "IVJ-10",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Tuberculosis renal: presentación y diagnóstico"
+       "Te reto con un caso: Tratamiento de la IVU por Candida"
       ]
      ],
      "defeat": [
@@ -273,7 +273,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -334,14 +334,53 @@
      ]
     },
     {
-     "type": "algoritmo",
-     "title": "Pielonefritis complicada",
+     "type": "clasif",
+     "title": "Antimicrobiano en IVU: ¿sirve en pielonefritis?",
+     "bins": [
+      "Solo cistitis",
+      "Cistitis y pielonefritis"
+     ],
      "items": [
-      "Urocultivo y hemocultivos",
-      "Antibiótico empírico IV",
-      "Imagen si no mejora en 48–72 h",
-      "Drenar obstrucción o absceso",
-      "Ajustar y completar el esquema"
+      [
+       "Nitrofurantoína",
+       "Solo cistitis"
+      ],
+      [
+       "Fosfomicina",
+       "Solo cistitis"
+      ],
+      [
+       "Pivmecilinam",
+       "Solo cistitis"
+      ],
+      [
+       "Ciprofloxacino",
+       "Cistitis y pielonefritis"
+      ],
+      [
+       "Levofloxacino",
+       "Cistitis y pielonefritis"
+      ],
+      [
+       "Ceftriaxona",
+       "Cistitis y pielonefritis"
+      ],
+      [
+       "TMP-SMX si sensible",
+       "Cistitis y pielonefritis"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Candiduria con sonda: secuencia",
+     "items": [
+      "Confirmar con cultivo repetido",
+      "Retirar o cambiar la sonda",
+      "Evaluar síntomas y riesgo",
+      "Tratar solo si indicado: fluconazol 14 d",
+      "Si C. glabrata/krusei: anfotericina desoxicolato ± flucitosina"
      ],
      "pairs": []
     }
@@ -431,7 +470,7 @@
      "id": "t1_0",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "UTC",
+     "serie": "IVJ-6",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -445,17 +484,17 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 1
     },
     {
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "ABR",
+     "serie": "IVJ-9",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Absceso renal: diagnóstico y microbiología"
+       "Te reto con un caso: Candiduria: colonización o infección"
       ]
      ],
      "defeat": [
@@ -465,7 +504,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "IVJ-12",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Te reto con un caso: Diagnóstico de TB urinaria"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Bien razonado. Sigue tu camino."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -508,6 +567,18 @@
       "Tomografía: obstrucción, absceso o gas",
       "Drenar o derivar si procede",
       "Ajustar al antibiograma y completar"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Pielonefritis complicada",
+     "items": [
+      "Urocultivo y hemocultivos",
+      "Antibiótico empírico IV",
+      "Imagen si no mejora en 48–72 h",
+      "Drenar obstrucción o absceso",
+      "Ajustar y completar el esquema"
      ],
      "pairs": []
     },
@@ -621,8 +692,7 @@
      "Antibiótico"
     ],
     "questions": [
-     "NPP-3",
-     "EMF-1"
+     "NPP-3"
     ]
    },
    {
@@ -638,8 +708,7 @@
      "Complicaciones"
     ],
     "questions": [
-     "EMF-2",
-     "EMF-3"
+     "IVJ-2"
     ]
    },
    {
@@ -655,7 +724,7 @@
      "Formas especiales"
     ],
     "questions": [
-     "EMF-4"
+     "IVJ-4"
     ]
    }
   ]
@@ -673,36 +742,36 @@
    "text": "Sin mejoría en 72 h: TC. Enfisematosa (diabetes): drenaje. Xantogranulomatosa: coraliforme + riñón excluido. TB: piuria estéril."
   },
   {
-   "title": "💎 Necrosis papilar en la IVU del diabético",
-   "text": "Necrosis papilar: POSTCARD (Pielonefritis, Obstrucción, Sickle, TB, Cirrosis, Analgésicos, Rechazo, Diabetes). Expulsión de papilas + fiebre + hematuria."
+   "title": "💎 Tratamiento de primera línea en cistitis",
+   "text": "Resistencia de E. coli a fluoroquinolonas en EUA: de 3% a 17% en 10 años. Recurrencia en 1–2 semanas: sospechar resistencia y cultivar."
   },
   {
-   "title": "💎 Nitrofurantoína y función renal",
-   "text": "Nitrofurantoína: evitar si ClCr <30 mL/min (ineficaz en orina y tóxica). Fosfomicina y betalactámicos ajustados son alternativas."
+   "title": "💎 Pielonefritis no complicada: duración y ",
+   "text": "Si la tinción de Gram sugiere enterococo, agregar amoxicilina. Hospitalizada: ceftriaxona; con resistencia o BLEE, carbapenémico. Pasar a vía oral a las 24–48 h."
   },
   {
-   "title": "💎 Bacteriuria asintomática: cuándo tratar",
-   "text": "Bacteriuria asintomática: tratar solo en embarazo y antes de procedimientos urológicos con sangrado mucoso. No en DM, ancianos, sonda ni trasplante renal >1 mes."
+   "title": "💎 IVU en el hombre",
+   "text": "IVU complicada: 5–10 días según gravedad. En veteranos, 7 días no tuvo más recurrencia que 14. Moxifloxacino no alcanza concentraciones urinarias suficientes."
   },
   {
-   "title": "💎 Antibiótico empírico en pielonefritis co",
-   "text": "Pielonefritis con sepsis: ceftriaxona/cefepime (o carbapenémico si BLEE), evitar aminoglucósidos con LRA. 7 d (FQ) o 10–14 d (betalactámico)."
+   "title": "💎 IVU en ERC avanzada",
+   "text": "Para curar se necesita concentración urinaria para la cistitis y tisular para la pielonefritis; las concentraciones séricas se correlacionan con las renales."
   },
   {
-   "title": "💎 Falta de respuesta a las 72 horas",
-   "text": "Sin mejoría a las 48–72 h: TC con contraste (absceso, obstrucción, gas). El riesgo de nefropatía por contraste con TFGe >30 es bajo."
+   "title": "💎 Bacteriuria asociada a sonda",
+   "text": "Bacteriuria 3–10% por día de sonda; principal fuente de bacteriemia por gramnegativos hospitalaria. No tamizar ni tratar la bacteriuria asintomática. Suprapúbica o intermitente tiene menos bacteriuria."
   },
   {
-   "title": "💎 Clasificación y criterios de nefrectomía",
-   "text": "EPN: clase 1–2 → antibiótico + drenaje percutáneo; clase 3 con ≥2 factores (plaquetas bajas, LRA, conciencia alterada, choque) o clase 4 bilateral/riñón único → nefrectomía o drenaje bilateral."
+   "title": "💎 Candiduria: colonización o infección",
+   "text": "Tratar candiduria asintomática solo en neutropénicos, recién nacidos de muy bajo peso y antes de procedimientos urológicos. En trasplantados, solo con obstrucción, procedimiento planeado o síntomas."
   },
   {
-   "title": "💎 Pielonefritis enfisematosa clase 2: mane",
-   "text": "EPN sin factores de riesgo: antibiótico IV + drenaje percutáneo + descompresión de la obstrucción; nefrectomía solo si fracasa."
+   "title": "💎 Tratamiento de la IVU por Candida",
+   "text": "Fluconazol de elección para C. albicans: carga 400 mg y 200 mg/día por 14 días. Bolas fúngicas: retiro quirúrgico más fluconazol e irrigación por nefrostomía. C. glabrata tarda 48 h en crecer."
   },
   {
-   "title": "💎 Cistitis enfisematosa",
-   "text": "Cistitis enfisematosa: DM + vejiga neurogénica. Antibiótico IV + sonda ± irrigación; cirugía en ~10%. Descartar fístula entérica."
+   "title": "💎 Diagnóstico de TB urinaria",
+   "text": "Imagen: uréter en sacacorchos o en tallo de pipa, vejiga en dedal y uréter en hoyo de golf. LAM urinario para TB asociada a VIH con CD4 <200."
   }
  ]
 }

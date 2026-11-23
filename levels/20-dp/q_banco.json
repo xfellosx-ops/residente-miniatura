@@ -3432,5 +3432,43 @@
   "clave": "C",
   "tema": "Diálisis peritoneal",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "TRA-4",
+  "tema_id": 20,
+  "sub": "20.a",
+  "obj": "20.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Contraindicaciones de la diálisis peritoneal",
+  "caso": "Se evalúa la modalidad de diálisis en varios pacientes.",
+  "enunciado": "¿Cuál es una contraindicación absoluta de DP según Johnson?",
+  "perla": "HD: única absoluta, sin acceso vascular posible; relativas: acceso difícil, fobia a agujas, IC, coagulopatía. DP: absorción de glucosa ~800 kcal/día; mupirocina nasal reduce infección por S. aureus.",
+  "referencias": [
+   "Rayner HC, Thomas CM. Approach to Kidney Replacement Therapy. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 95, pp. 1060-1071"
+  ],
+  "serie_id": "TRA-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Derivación ventriculoperitoneal funcional",
+   "B": "Injerto aórtico abdominal reciente",
+   "C": "Obesidad extrema con IMC mayor de 35",
+   "D": "Hernia abdominal no corregible",
+   "E": "Enfermedad diverticular del colon"
+  },
+  "explicaciones": {
+   "A": "Es contraindicación relativa.",
+   "B": "Relativa: suele usarse HD ~16 semanas mientras se epiteliza el injerto.",
+   "C": "Relativa: requiere mayores volúmenes o DPA.",
+   "D": "Correcto. Absolutas: falta de vivienda, pérdida de función peritoneal, adherencias que bloquean el flujo, hernia no corregible, estoma, fuga diafragmática e incapacidad de hacer recambios sin asistente.",
+   "E": "Relativa: aumenta el riesgo de peritonitis."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Diálisis peritoneal",
+  "tipo_item": "nueva"
  }
 ]

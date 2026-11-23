@@ -264,7 +264,7 @@
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "AZ6-3",
+     "serie": "AZ6-2",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -325,43 +325,18 @@
      "pairs": []
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
-      [
-       "DAPA-CKD / CREDENCE",
-       "iSGLT2 ↓progresión"
-      ],
-      [
-       "FIDELIO / FIGARO",
-       "Finerenona"
-      ],
-      [
-       "FLOW",
-       "Semaglutida ↓eventos renales"
-      ],
-      [
-       "Kimmelstiel-Wilson",
-       "Glomeruloesclerosis nodular (clase III)"
-      ],
-      [
-       "Clase I RPS",
-       "Engrosamiento aislado de MBG"
-      ],
-      [
-       "Biopsia en DM",
-       "Sin retinopatía, caída rápida, hematuria activa"
-      ],
-      [
-       "Metformina",
-       "Suspender con TFG <30"
-      ],
-      [
-       "Fase temprana",
-       "Hiperfiltración glomerular"
-      ]
-     ]
+     "type": "algoritmo",
+     "title": "DM2 con ERC: pirámide KDIGO 2022",
+     "items": [
+      "Estilo de vida: tabaco, dieta, ejercicio ≥150 min/semana",
+      "Metformina si TFGe ≥30",
+      "iSGLT2 si TFGe ≥20",
+      "IECA o ARA II a dosis máxima si hay HTA o albuminuria",
+      "Estatina",
+      "Finerenona si persiste la albuminuria",
+      "arGLP-1 si no se alcanza la meta glucémica"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -490,11 +465,11 @@
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "AZ6-2",
+     "serie": "NDJ-9",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: Enfermedad renal diabética"
+       "Te reto con un caso: Elevación de creatinina con SRAA"
       ]
      ],
      "defeat": [
@@ -510,11 +485,11 @@
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "DNA",
+     "serie": "AZ6-3",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Enfermedad renal diabética no albuminúrica"
+       "Te reto con un caso: Enfermedad renal diabética"
       ]
      ],
      "defeat": [
@@ -524,7 +499,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     }
    ],
    "wild": [
@@ -585,6 +560,45 @@
       [
        "RENAAL / IDNT",
        "ARA en nefropatía diabética"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "DAPA-CKD / CREDENCE",
+       "iSGLT2 ↓progresión"
+      ],
+      [
+       "FIDELIO / FIGARO",
+       "Finerenona"
+      ],
+      [
+       "FLOW",
+       "Semaglutida ↓eventos renales"
+      ],
+      [
+       "Kimmelstiel-Wilson",
+       "Glomeruloesclerosis nodular (clase III)"
+      ],
+      [
+       "Clase I RPS",
+       "Engrosamiento aislado de MBG"
+      ],
+      [
+       "Biopsia en DM",
+       "Sin retinopatía, caída rápida, hematuria activa"
+      ],
+      [
+       "Metformina",
+       "Suspender con TFG <30"
+      ],
+      [
+       "Fase temprana",
+       "Hiperfiltración glomerular"
       ]
      ]
     }
@@ -740,6 +754,10 @@
    "text": "Biopsia en DM si: sin retinopatía, DM <5 años, proteinuria súbita o nefrótica, hematuria glomerular, caída rápida de TFG, síntomas sistémicos."
   },
   {
+   "title": "💎 Elevación de creatinina con SRAA",
+   "text": "Para sostener el SRAA: diurético y quelantes de potasio. STOP-ACE evaluó retirar el SRAA en ERC avanzada."
+  },
+  {
    "title": "💎 Hiperfiltración glomerular diabética: fi",
    "text": "DM: ↑ SGLT2 proximal → ↓ NaCl en mácula densa → dilatación aferente + constricción eferente (AngII). iSGLT2: vasoconstricción aferente. IECA/ARA-II: dilatan la eferente."
   },
@@ -760,12 +778,8 @@
    "text": "La GEFyS variedad de la punta es una podocitopatía que suele responder a esteroides; con 15% de fibrosis hay poca cronicidad y potencial de reversibilidad. La evolución confirmó la respuesta: la albuminuria cayó de 10.3 a 0.17 g/día en 3 meses con función renal estable."
   },
   {
-   "title": "💎 Nefropatía diabética: clasificación G/A ",
-   "text": "G3a 45–59; G3b 30–44. A1 <30, A2 30–300, A3 >300 mg/g. G3b A3 = riesgo muy alto."
-  },
-  {
-   "title": "💎 Histología de la nefropatía diabética (T",
-   "text": "Tervaert: I GBM engrosada (ME); IIa/IIb mesangio; III nódulos K-W; IV >50% esclerosis global. Hialinosis aferente + eferente."
+   "title": "💎 Histología diabética y función",
+   "text": "MBG normal 270–359 nm; puede triplicarse a los 10 años de diabetes. Lesiones difusas en 90% de DM1 >10 años y 25–50% de DM2. En DM2 la estructura es heterogénea."
   }
  ]
 }

@@ -808,5 +808,537 @@
   "tema": "Infección de vías urinarias y pielonefritis",
   "obj": "13.o3",
   "peso": 17.9
+ },
+ {
+  "id": "IVJ-1",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Contaminantes frente a uropatógenos",
+  "caso": "Mujer sana de 26 años con disuria; urocultivo con 10⁴ UFC/mL de lactobacilos y estreptococo del grupo B mixtos.",
+  "enunciado": "¿Cómo se interpreta?",
+  "perla": "E. coli causa 70–95% y S. saprophyticus 5–20% de las IVU no complicadas; S. saprophyticus casi nunca causa pielonefritis. En cistitis no complicada típica no se requiere urocultivo.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "IVU por lactobacilos que requiere tratamiento",
+   "B": "Bacteriuria asintomática que debe tratarse",
+   "C": "Probable contaminación de la muestra",
+   "D": "Pielonefritis por estreptococo del grupo B",
+   "E": "Necesita urocultivo por punción suprapúbica obligada"
+  },
+  "explicaciones": {
+   "A": "No es un uropatógeno habitual.",
+   "B": "No corresponde.",
+   "C": "Correcto. En mujeres sanas no embarazadas, lactobacilos, enterococos, estreptococo del grupo B y estafilococos coagulasa negativos distintos de S. saprophyticus suelen ser contaminantes, salvo en cuenta alta y cultivo puro con síntomas.",
+   "D": "No es lo descrito.",
+   "E": "No es necesario."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-2",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Tratamiento de primera línea en cistitis no complicada",
+  "caso": "Mujer de 30 años con cistitis no complicada; en su región la resistencia de E. coli a TMP-SMX es 30%.",
+  "enunciado": "¿Cuál es la mejor opción según IDSA y Johnson?",
+  "perla": "Resistencia de E. coli a fluoroquinolonas en EUA: de 3% a 17% en 10 años. Recurrencia en 1–2 semanas: sospechar resistencia y cultivar.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ciprofloxacino por 3 días como primera línea",
+   "B": "TMP-SMX por 3 días",
+   "C": "Amoxicilina-clavulanato por 3 días",
+   "D": "Cefpodoxima por 7 días",
+   "E": "Nitrofurantoína por 5 días"
+  },
+  "explicaciones": {
+   "A": "Muy eficaz pero de segunda línea; la FDA considera que en cistitis no complicada sus riesgos superan los beneficios.",
+   "B": "Evitar empíricamente si la resistencia es alta.",
+   "C": "Menor curación que ciprofloxacino a 3 días.",
+   "D": "Datos escasos y daño ecológico.",
+   "E": "Correcto. Resistencia <5% y poco daño ecológico. Fosfomicina dosis única y pivmecilinam también son de primera línea."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-3",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Profilaxis de cistitis recurrente",
+  "caso": "Mujer de 34 años con 4 cistitis en un año, todas tras el coito.",
+  "enunciado": "¿Qué estrategia es la más adecuada?",
+  "perla": "Medidas conductuales sin evidencia sólida: evitar espermicidas, más líquidos, micción poscoital. D-manosa: datos escasos. Autotratamiento intermitente es otra opción.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Profilaxis poscoital",
+   "B": "Profilaxis continua por 5 años",
+   "C": "Urocultivos de control mensuales",
+   "D": "Tratar cada bacteriuria asintomática",
+   "E": "Cistoscopia y uro-TC en todas"
+  },
+  "explicaciones": {
+   "A": "Correcto. La profilaxis reduce ~95% las recurrencias; considerarla con ≥3 episodios en 12 meses. La poscoital es la mejor si los episodios se relacionan con el coito.",
+   "B": "Es una opción, pero menos dirigida.",
+   "C": "No son útiles en asintomáticas.",
+   "D": "No está indicado.",
+   "E": "No es lo indicado en mujeres sanas."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-4",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Pielonefritis no complicada: duración y fármaco",
+  "caso": "Mujer de 28 años con pielonefritis no complicada, buena tolerancia oral, sin resistencia local alta a quinolonas.",
+  "enunciado": "¿Qué esquema es adecuado?",
+  "perla": "Si la tinción de Gram sugiere enterococo, agregar amoxicilina. Hospitalizada: ceftriaxona; con resistencia o BLEE, carbapenémico. Pasar a vía oral a las 24–48 h.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nitrofurantoína por 7 días",
+   "B": "Fosfomicina dosis única",
+   "C": "β-lactámico oral por 5 días",
+   "D": "Fluoroquinolona oral por 5–7 días",
+   "E": "TMP-SMX empírico sin conocer sensibilidad"
+  },
+  "explicaciones": {
+   "A": "Solo alcanza niveles en vejiga.",
+   "B": "Igual.",
+   "C": "Los β-lactámicos de menos de 14 días tienen fallas inaceptables.",
+   "D": "Correcto. Con respuesta rápida bastan 5–7 días. Ciprofloxacino a 7 días superó a TMP-SMX a 14, por resistencia.",
+   "E": "No si la resistencia local es alta."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-5",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "IVU en el hombre",
+  "caso": "Hombre de 62 años con segunda IVU por E. coli 3 semanas después de tratar la primera, con próstata dolorosa.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "IVU complicada: 5–10 días según gravedad. En veteranos, 7 días no tuvo más recurrencia que 14. Moxifloxacino no alcanza concentraciones urinarias suficientes.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nitrofurantoína por 5 días",
+   "B": "Fluoroquinolona por 4–6 semanas",
+   "C": "Fosfomicina dosis única",
+   "D": "No tratar: es bacteriuria asintomática",
+   "E": "Amoxicilina por 3 días"
+  },
+  "explicaciones": {
+   "A": "No penetra la próstata.",
+   "B": "Correcto. La recurrencia temprana con la misma especie en hombres sugiere origen prostático: 4–6 semanas de fluoroquinolona, preferida, o TMP-SMX.",
+   "C": "No es lo indicado.",
+   "D": "Es sintomática.",
+   "E": "Insuficiente."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-6",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "IVU en ERC avanzada",
+  "caso": "Mujer de 70 años con TFGe 22 mL/min/1.73 m² y cistitis complicada por E. coli sensible.",
+  "enunciado": "¿Qué opción es inadecuada?",
+  "perla": "Para curar se necesita concentración urinaria para la cistitis y tisular para la pielonefritis; las concentraciones séricas se correlacionan con las renales.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ciprofloxacino ajustado a la TFG",
+   "B": "Levofloxacino ajustado a la TFG",
+   "C": "Ceftriaxona parenteral",
+   "D": "Fosfomicina oral",
+   "E": "Trimetoprima sola"
+  },
+  "explicaciones": {
+   "A": "Adecuado con ajuste.",
+   "B": "Adecuado con ajuste.",
+   "C": "Adecuada si es grave.",
+   "D": "Correcto. Con ERC G3 o peor disminuye mucho su excreción; no debe usarse.",
+   "E": "Sus concentraciones parecen adecuadas; nitrofurantoína y sulfametoxazol no se recomiendan."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-7",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Bacteriuria asociada a sonda",
+  "caso": "Paciente con sonda vesical de 10 días, febril, sin otro foco.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Bacteriuria 3–10% por día de sonda; principal fuente de bacteriemia por gramnegativos hospitalaria. No tamizar ni tratar la bacteriuria asintomática. Suprapúbica o intermitente tiene menos bacteriuria.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cambiar la sonda y cultivar de la nueva",
+   "B": "Cultivar de la bolsa colectora",
+   "C": "Tratar 14 días aunque mejore pronto",
+   "D": "Profilaxis antibiótica sistémica rutinaria",
+   "E": "Mantener la sonda sin cambios"
+  },
+  "explicaciones": {
+   "A": "Correcto. La biopelícula da cultivos espurios; obtener la muestra de una sonda recién colocada mejora los resultados. Tratar 7 días con respuesta rápida, 10–14 si es lenta.",
+   "B": "No es una muestra válida.",
+   "C": "Con respuesta rápida bastan 7 días.",
+   "D": "Selecciona resistencia; no se recomienda.",
+   "E": "Debe retirarse o cambiarse."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-8",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Bacteriuria asintomática: epidemiología",
+  "caso": "Se revisan las prevalencias de bacteriuria asintomática.",
+  "enunciado": "¿Qué dato es correcto?",
+  "perla": "En lesión medular tratar la bacteriuria asintomática no tiene beneficio y aumenta la resistencia. IVU complicada: aceptar >10³ UFC/mL con síntomas.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Frecuente en hombres menores de 50 años",
+   "B": "Se define con un solo cultivo de 10³ UFC/mL",
+   "C": "Es más frecuente en mujeres jóvenes que en ancianas",
+   "D": "Siempre precede a urosepsis",
+   "E": "Hasta 50% de las ancianas institucionalizadas"
+  },
+  "explicaciones": {
+   "A": "Rara antes de los 50.",
+   "B": "Dos muestras consecutivas con ≥10⁵ UFC/mL del mismo uropatógeno.",
+   "C": "Aumenta con la edad.",
+   "D": "Suele ser benigna.",
+   "E": "Correcto. 5% de mujeres jóvenes, 16–19% de mayores de 70 ambulatorios y hasta 50% de ancianas y 40% de ancianos institucionalizados."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-9",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Candiduria: colonización o infección",
+  "caso": "Hombre de 74 años en UCI con sonda vesical, asintomático, con 10⁵ UFC/mL de Candida albicans.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Tratar candiduria asintomática solo en neutropénicos, recién nacidos de muy bajo peso y antes de procedimientos urológicos. En trasplantados, solo con obstrucción, procedimiento planeado o síntomas.",
+  "referencias": [
+   "Kauffman CA, Miceli MH. Fungal Infections of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 55, pp. 665-669"
+  ],
+  "serie_id": "IVJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Fluconazol 14 días",
+   "B": "Anfotericina B liposomal intravenosa",
+   "C": "Retirar la sonda y repetir el cultivo",
+   "D": "Equinocandina intravenosa por 14 días",
+   "E": "Irrigación vesical con anfotericina"
+  },
+  "explicaciones": {
+   "A": "No requiere tratamiento si es asintomático y de bajo riesgo.",
+   "B": "Las formulaciones lipídicas no alcanzan niveles urinarios.",
+   "C": "Correcto. La mayoría es colonización; menos de 5% tiene síntomas. Retirar la sonda erradica muchas candidurias.",
+   "D": "La candiduria rara vez lleva a candidemia.",
+   "E": "No está indicada aquí."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-10",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Tratamiento de la IVU por Candida",
+  "caso": "Mujer diabética con pielonefritis por Candida glabrata resistente a fluconazol, TFG normal.",
+  "enunciado": "¿Qué opción es la más adecuada?",
+  "perla": "Fluconazol de elección para C. albicans: carga 400 mg y 200 mg/día por 14 días. Bolas fúngicas: retiro quirúrgico más fluconazol e irrigación por nefrostomía. C. glabrata tarda 48 h en crecer.",
+  "referencias": [
+   "Kauffman CA, Miceli MH. Fungal Infections of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 55, pp. 665-669"
+  ],
+  "serie_id": "IVJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Voriconazol oral por 14 días",
+   "B": "Anfotericina desoxicolato",
+   "C": "Anfotericina B liposomal",
+   "D": "Fluconazol a dosis alta",
+   "E": "Posaconazol oral prolongado"
+  },
+  "explicaciones": {
+   "A": "No se excreta activo en orina.",
+   "B": "Correcto. Reservada para vías altas o falla de fluconazol: 0.3–0.6 mg/kg/día por 1–7 días; la flucitosina alcanza concentraciones urinarias altas.",
+   "C": "No alcanza niveles urinarios.",
+   "D": "C. glabrata y C. krusei suelen ser resistentes.",
+   "E": "No se excreta activo en orina."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-11",
+  "tema_id": 13,
+  "sub": "13.4",
+  "obj": "13.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "TB urogenital: sospecha clínica",
+  "caso": "Hombre de 34 años con frecuencia urinaria, piuria estéril persistente y hematuria indolora recurrente; radiografía de tórax con lesiones apicales antiguas.",
+  "enunciado": "¿Qué dato apoya la tuberculosis urogenital?",
+  "perla": "25% sin anomalías y 25% solo con alteraciones urinarias. Hasta 50% con TB previa en radiografía de tórax. En HD hasta 8.7% y en trasplante 12.3% en áreas endémicas.",
+  "referencias": [
+   "Visweswaran RK, Sreelatha M. Tuberculosis of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 54, pp. 653-664"
+  ],
+  "serie_id": "IVJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La fiebre y la pérdida de peso son la regla",
+   "B": "Suele afectar a niños",
+   "C": "Predomina en mujeres",
+   "D": "Los urocultivos convencionales suelen ser positivos",
+   "E": "La frecuencia urinaria es el síntoma más temprano"
+  },
+  "explicaciones": {
+   "A": "Los síntomas constitucionales se ven en <20%.",
+   "B": "Es rara en niños por la latencia larga; 20–40 años.",
+   "C": "Relación hombre:mujer 2:1.",
+   "D": "Son repetidamente negativos: piuria estéril.",
+   "E": "Correcto. Más de 75% de los sintomáticos tiene síntomas urinarios bajos; la frecuencia es el más temprano y común."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-12",
+  "tema_id": 13,
+  "sub": "13.4",
+  "obj": "13.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Diagnóstico de TB urinaria",
+  "caso": "Paciente con sospecha de TB renal.",
+  "enunciado": "¿Qué afirmación sobre las pruebas es correcta?",
+  "perla": "Imagen: uréter en sacacorchos o en tallo de pipa, vejiga en dedal y uréter en hoyo de golf. LAM urinario para TB asociada a VIH con CD4 <200.",
+  "referencias": [
+   "Visweswaran RK, Sreelatha M. Tuberculosis of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 54, pp. 653-664"
+  ],
+  "serie_id": "IVJ-12",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La baciloscopia urinaria es positiva en más de 80%",
+   "B": "El cultivo convencional tarda 48 h",
+   "C": "GeneXpert detecta MTB y resistencia a rifampicina en orina",
+   "D": "La PET-FDG distingue TB de cáncer",
+   "E": "La RM es la técnica más sensible para lesiones tempranas"
+  },
+  "explicaciones": {
+   "A": "Rendimiento <40%; requiere 5000 bacilos/mL y tres muestras matutinas.",
+   "B": "Tarda 6–12 semanas; MGIT en ~2 semanas. Sensibilidad 65%.",
+   "C": "Correcto. PCR urinaria: sensibilidad ~95% y especificidad ~90%; puede dar falsos positivos en tratados porque el ADN persiste.",
+   "D": "No los distingue.",
+   "E": "Sensibilidad baja; la TC detecta calcificación en >50%."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-13",
+  "tema_id": 13,
+  "sub": "13.4",
+  "obj": "13.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Antituberculosos en ERC",
+  "caso": "Paciente en hemodiálisis con TB renal sensible.",
+  "enunciado": "¿Qué ajuste es correcto?",
+  "perla": "Esquema: 2 meses de RHZE y 4 meses de RH. Rifampicina reduce los anticonceptivos orales e interactúa con inmunosupresores. Estreptomicina contraindicada en el embarazo; pirazinamida en hepatopatía crónica.",
+  "referencias": [
+   "Visweswaran RK, Sreelatha M. Tuberculosis of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 54, pp. 653-664"
+  ],
+  "serie_id": "IVJ-13",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Etambutol c/48 h tras la HD",
+   "B": "Etambutol diario sin ajuste",
+   "C": "Rifampicina a días alternos",
+   "D": "Isoniazida contraindicada en HD",
+   "E": "Estreptomicina sin ajuste"
+  },
+  "explicaciones": {
+   "A": "Correcto. Etambutol: dosis completa c/24–36 h con TFG 10–50 y c/48 h con <10; vigilar la visión cada mes. Dar después de la HD.",
+   "B": "Se acumula y causa neuritis óptica.",
+   "C": "La rifampicina no requiere ajuste.",
+   "D": "Puede usarse.",
+   "E": "Se excreta por riñón y es ototóxica."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-14",
+  "tema_id": 13,
+  "sub": "13.4",
+  "obj": "13.o3",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "Manifestaciones renales de TB",
+  "caso": "Paciente con TB renal de larga evolución y síndrome nefrótico.",
+  "enunciado": "¿Qué causas glomerulares son las más plausibles?",
+  "perla": "Más típico: proteinuria tubular subnefrótica, nefritis intersticial granulomatosa, DI nefrogénica, ATR, hipoaldosteronismo hiporreninémico. La inflamación crónica de la pelvis puede dar metaplasia escamosa o carcinoma.",
+  "referencias": [
+   "Visweswaran RK, Sreelatha M. Tuberculosis of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 54, pp. 653-664"
+  ],
+  "serie_id": "IVJ-14",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefropatía membranosa por PLA2R",
+   "B": "Amiloidosis AA o GN mesangioproliferativa",
+   "C": "Enfermedad por cambios mínimos idiopática",
+   "D": "Glomerulopatía colapsante por APOL1",
+   "E": "Nefropatía por IgA primaria"
+  },
+  "explicaciones": {
+   "A": "No es lo descrito.",
+   "B": "Correcto. La proteinuria nefrótica es rara y se debe a GN mesangioproliferativa o amiloidosis secundaria por proteína amiloide A sérica.",
+   "C": "No es lo descrito.",
+   "D": "No es lo descrito.",
+   "E": "La IgA se confunde clínicamente con TB por la hematuria indolora, pero no es la causa."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
  }
 ]
