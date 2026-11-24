@@ -1704,7 +1704,7 @@ function entrada(id,back){const qs=shuf(lvPool(id).filter(q=>!q.serie_id||q.orde
 /* ---------- jefes de región: opcionales, se abren al superar la región; 15 preguntas recordadas de examen de sus temas ---------- */
 function rbossQs(r){const tem=new Set();r.levels.forEach(([id])=>{const L=LVL(id);if(L)(L.bank||[]).forEach(q=>tem.add(q.tema_id))});const all=Object.values(TB).filter(q=>tem.has(q.tema_id));
  const rec=shuf(all.filter(isRecall)).sort((a,b)=>(GS[a.id]?1:0)-(GS[b.id]?1:0)),rest=shuf(all.filter(q=>!isRecall(q))).sort((a,b)=>(b.peso||0)-(a.peso||0));return rec.concat(rest).slice(0,15)}
-function rboss(r,back){const qs=rbossQs(r),name=r.boss||"Jefe de región";if(qs.length<5)return modal("Faltan preguntas de esta región en este archivo.",back);S.team.forEach(c=>c.hp=c.max);let qi=0;
+function rboss(r,back){const qs=rbossQs(r),name=r.boss||"Jefe de región";if(qs.length<5)return modal("Faltan preguntas de esta región en este archivo.",back);S.team.forEach(c=>c.hp=c.max);if(!S.team.length){S.team.push(mkCrea(STORY.creatures[0].id));save()}let qi=0;
  const end=msg=>{BAT=null;clearAll();duck(0);S.team.forEach(c=>c.hp=c.max);save();hud();music("map");modal(msg,()=>mapa(back))};MODE="dialog";$("#ttl").textContent="👑 "+name.toUpperCase();OVER=null;music("boss");sfx.roar();
  dialog([[name,"Superaste la región "+r.id+". Ahora "+qs.length+" preguntas recordadas del examen."],["Dr. J.","Es opcional. Si ganas: nefronas, ficha de revivir y tu equipo sube."]],()=>
   battle({kind:"rboss",who:name,foes:[{name,type:r.type||"Molecular",hp:100,max:100}],glob:true,xp:25,label:"👑 "+name,qsrc:()=>qi<qs.length?qs[qi++]:null,
