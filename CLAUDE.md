@@ -18,7 +18,7 @@ Videojuego educativo estilo Pokémon Gen III (HTML/JS, canvas 160×96) para que 
 5. **El conocimiento pesa más que la destreza:** un ataque solo ocurre si se acierta la pregunta.
 6. **Prioridad de preguntas:** las recordadas de examen (`origen` terminado en `26` en `data/bank.json`) van a jefes y entrenadores.
 7. **Datos personales:** en el Drive de Alfredo hay expedientes de pacientes reales. No usarlos nunca.
-8. `data/bank.json` es la versión corregida de la app "Banco maestro de nefrología" de Alfredo (15 nov 2026: 1010 preguntas; la correcta es la más larga en el 20 %, antes 99 %). Si Alfredo actualiza la app, vuelve a copiar `bank.json`, `temario.json` y `competencias.json` desde su artefacto y regenera los `q_banco.json` por `id`.
+8. `data/bank.json` es la versión corregida de la app "Banco maestro de nefrología" de Alfredo (24 nov 2026: 1789 preguntas; la correcta es la más larga en ~21 %). Si Alfredo actualiza la app, vuelve a copiar `bank.json`, `temario.json` y `competencias.json` desde su artefacto y regenera los `q_banco.json` por `id` (`python3 tools/nivel.py`). Las correcciones médicas propias del juego van en `data/correcciones.json` (se aplican al construir) y se avisan a Alfredo.
 
 ## Cómo añadir un nivel
 Hay dos clases de nivel:

@@ -55,6 +55,10 @@ Temas con muchas entidades pequeñas (tóxicos, cristales): un súbdito por clas
 | Zonas | Viñeta animada del daño al entrar y salir; decoración histológica por `tiles`; letreros (`SIGNS`) |
 | Vigilia | Alarma adaptada a las palabras en pantalla; ofrece DESPERTADOR (10 V/F con 6 s); Wake Lock |
 | Sonido | Chiptune generado con Web Audio (sin archivos, sirve sin conexión): pistas `title`, `walk` (tonalidad y tempo por región), `wild`, `trainer`, `boss` (más rápida en fases 3–4), `victory`, `lose`, `map`, `torre`, `puzzle`. Efectos: `chal` (te retan), `door`/`locked`, `travel`, `roar` (jefe), `heal`, `faint`, `power(tipo)` (firma por tipo de movimiento o enemigo). Botón 🔊→🔉 (solo efectos)→🔇 guardado en `rm_snd`. La alarma de inactividad suena aunque esté en silencio |
+| Repaso global | `rm_srs` (se sincroniza): todas las preguntas de todos los niveles; cajas 1-2-4-8-15-25 días con tope de 1/3 de lo que falta para el 16-ene-2027; fallo baja 2 cajas (recordadas de examen a 0); no califica tiempo agotado, DESPERTADOR ni el minuto tras una alarma. REPASO: global, intercalado por tema, máx. 20; sin vencidas, errores de hoy |
+| Guardia de hoy | 20 preguntas sin caminar: vencidas → recordadas no vistas → series nuevas de los temas con más `meta` × (1 − dominio). Pantalla HOY: días al examen, meta de 60 al día, racha, recordatorio de respaldo |
+| Dominio / siesta / pausas | 📊 DOMINIO por tema y horas de somnolencia; 💤 SIESTA (repaso de errores de hoy, alarma en pausa 30 min, al despertar chequeo de alerta y las mismas preguntas); pausa de pie cada 20 min activos; chequeo de alerta de 10 estímulos, lapso >355 ms |
+| Arco | `data/arco.json`: gancho "PRÓXIMO CASO" y diario de cierre por nivel; nefronas salvadas (1000 por acierto al jefe) |
 | Inicio | MENÚ → 🏠 INICIO vuelve al título sin cerrar; en combate o minijuego, MENÚ pregunta antes de salir |
 
 ## 5. Esquema de un nivel
