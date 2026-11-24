@@ -38,7 +38,7 @@ def level(lvl):
         c = CORR.get(q.get("id"))
         if c:
             for f in ("opciones", "explicaciones"): q.setdefault(f, {}).update(c.get(f, {}))
-            for f in ("enunciado", "clave", "perla"):
+            for f in ("enunciado", "clave", "perla", "caso", "continuacion", "referencias", "tema_id", "tema", "subtema", "obj"):
                 if f in c: q[f] = c[f]
     return {"story": story, "q1": load(lvl, "q_base.json", {}), "q2": load(lvl, "q_extra.json", {}), "bank": bank}
 

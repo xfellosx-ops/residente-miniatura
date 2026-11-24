@@ -104,6 +104,7 @@ def build(S):
     out = ROOT / "levels" / S["dir"]; out.mkdir(parents=True, exist_ok=True)
     subs = set(S.get("subs", [])); temas = set(S.get("temas", []))
     bank = [q for q in BANK if q["sub"] in subs or q["tema_id"] in temas]
+    own = own_series(S)  # series propias del juego (casos nuevos), declaradas en la spec
     series = {}
     for q in bank: series.setdefault(q["serie_id"], []).append(q)
     for s in series.values(): s.sort(key=lambda q: q["orden"])
@@ -120,10 +121,12 @@ def build(S):
     for zi, Z in enumerate(S["zones"]):
         tiles = Z["tiles"]; trainers = []; cuts = []
         for T in Z.get("trainers", []):
-            if not rest: break
-            s = rest.pop(0); ntr += 1; tid = f"t{zi}_{len(trainers)}"
+            if len(T) > 3: s, n = own[T[3]][0]["serie_id"], len(own[T[3]])  # serie propia (4.º elemento)
+            elif not rest: break
+            else: s = rest.pop(0); n = len(series[s])
+            ntr += 1; tid = f"t{zi}_{len(trainers)}"
             trainers.append({"id": tid, "cast": T[0], "specialty": cast[T[0]]["role"].replace("Residente de ", ""), "serie": s,
-                             "intro": L([(cast[T[0]]["name"].split(" '")[0], T[1])]), "defeat": L([(cast[T[0]]["name"].split(" '")[0], T[2])]), "questionTopics": [], "n": len(series[s])})
+                             "intro": L([(cast[T[0]]["name"].split(" '")[0], T[1])]), "defeat": L([(cast[T[0]]["name"].split(" '")[0], T[2])]), "questionTopics": [], "n": n})
         if Z.get("enter"): cuts.append({"trigger": "enter", "lines": L([Z["enter"]])})
         if Z.get("exit"): cuts.append({"trigger": "exit", "lines": L(Z["exit"] if isinstance(Z["exit"], list) else [Z["exit"]])})
         mg = []
@@ -178,12 +181,37 @@ def build(S):
         elif isinstance(o, dict): [walk(v) for k, v in o.items() if k in ("zones", "intro", "npcs", "lines", "signs", "trainers", "defeat", "gates", "text", "cutscenes", "boss", "phases", "outro")]
     walk(story)
     dump = lambda o, f: (out / f).write_text(json.dumps(o, ensure_ascii=False, indent=1), encoding="utf-8")
-    dump(story, "story.json"); dump({"pasto": pasto, "puertas": [], "entrenadores": [], "jefeC": []}, "q_extra.json"); dump(bank, "q_banco.json")
-    print(f"{S['id']:>4} {S['title'][:34]:34} banco {len(bank):3} | jefe {len(boss_ids):2} | entrenadores {sum(len(z['trainers']) for z in zones):2} | a puertas {sum(len(series[s]) for s in rest):3} | V/F {len(pasto)}")
+    ent = [q for k in own for q in own[k]]
+    # las series propias también van a q_banco.json para que entren a la Torre, la GUARDIA y el repaso global
+    dump(story, "story.json"); dump({"pasto": pasto, "puertas": [], "entrenadores": ent, "jefeC": []}, "q_extra.json"); dump(bank + ent, "q_banco.json")
+    nv = sum(p["clave"] == "V" for p in pasto)
+    print(f"{S['id']:>4} {S['title'][:34]:34} banco {len(bank):3} | jefe {len(boss_ids):2} | entrenadores {sum(len(z['trainers']) for z in zones):2} | a puertas {sum(len(series[s]) for s in rest):3} | V/F {len(pasto)} ({nv} V) | propias {len(ent)}")
+    if pasto and max(nv, len(pasto) - nv) / len(pasto) > 0.6: print(f"   AVISO {S['id']}: el pasto V/F tiene {100*nv//len(pasto)} % de V (máximo 60 % de una letra)")
+    return pasto
+
+def own_series(S):
+    """Series propias del juego: S["series"] = {clave: {"subtema", "caso", "qs": [(continuacion, enunciado, {A..E}, clave, {A..E explicaciones}, perla, [refs])]}}.
+    Se identifican T2-<nivel><clave>-<n>; el entrenador las usa con un 4.º elemento en su tupla."""
+    tema_id = (S.get("temas") or [9])[0]
+    tema = next((q["tema"] for q in BANK if q["tema_id"] == tema_id), S["title"])
+    out = {}
+    for key, D in S.get("series", {}).items():
+        sid = f"T2-{S['id'].replace('-', '')}{key}"; out[key] = []
+        for i, Q in enumerate(D["qs"]):
+            cont, enun, ops, clave, exps, perla, refs = Q
+            out[key].append({"id": f"{sid}-{i+1}", "serie_id": sid, "orden": i + 1, "sub": D.get("sub", str(tema_id)), "subtema": D["subtema"],
+                             "caso": D["caso"] if i == 0 else "", "continuacion": cont if i else "", "enunciado": enun, "opciones": ops, "clave": clave,
+                             "explicaciones": exps, "perla": perla, "referencias": refs, "peso": D.get("peso", 70), "tema_id": tema_id, "tema": tema,
+                             "obj": D.get("obj", ""), "origen": ["El Residente Miniatura (nov 2026)"], "tipo_item": "juego", "dificultad": "moderada"})
+    return out
 
 if __name__ == "__main__":
+    ALLVF = []
     only = set(sys.argv[1:])
     for f in sorted((ROOT / "levels/_specs").glob("*.py")):
         sp = importlib.util.spec_from_file_location(f.stem, f); m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m)
         for S in m.LEVELS:
-            if not only or S["id"] in only: build(S)
+            if not only or S["id"] in only: ALLVF.extend(build(S))
+    if ALLVF:
+        nv = sum(p["clave"] == "V" for p in ALLVF)
+        print(f"pasto V/F global: {nv}/{len(ALLVF)} V ({100*nv/len(ALLVF):.1f} %; meta 45–55 %)")
