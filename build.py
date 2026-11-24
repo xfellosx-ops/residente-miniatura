@@ -16,6 +16,7 @@ except Exception: BUILD = "0"
 BUILD = str(int(BUILD) + 1) + " · " + datetime.date.today().strftime("%d/%m")
 ROSTER = json.loads((root / "data/criaturas.json").read_text(encoding="utf-8"))
 
+CORR = {k: v for k, v in json.loads((root / "data/correcciones.json").read_text(encoding="utf-8")).items() if not k.startswith("_")}
 ARCO = json.loads((root / "data/arco.json").read_text(encoding="utf-8"))
 def load(lvl, name, default):
     f = lvl / name
@@ -32,7 +33,14 @@ def level(lvl):
     have = {c["id"] for c in story["creatures"]}
     story["creatures"] += [c for c in ROSTER["creatures"] if c["id"] not in have]
     story["typeChart"] = {**ROSTER["typeChart"], **story.get("typeChart", {})}
-    return {"story": story, "q1": load(lvl, "q_base.json", {}), "q2": load(lvl, "q_extra.json", {}), "bank": load(lvl, "q_banco.json", [])}
+    bank = load(lvl, "q_banco.json", [])
+    for q in bank:
+        c = CORR.get(q.get("id"))
+        if c:
+            for f in ("opciones", "explicaciones"): q.setdefault(f, {}).update(c.get(f, {}))
+            for f in ("enunciado", "clave", "perla"):
+                if f in c: q[f] = c[f]
+    return {"story": story, "q1": load(lvl, "q_base.json", {}), "q2": load(lvl, "q_extra.json", {}), "bank": bank}
 
 dump = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
 PWA_HEAD = '<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0f380f"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">'

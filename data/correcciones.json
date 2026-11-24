@@ -1,0 +1,9 @@
+{
+ "_doc": "Correcciones médicas que el juego aplica sobre el banco de Alfredo al construir (build.py). Avisar a Alfredo para corregirlas también en su app; cuando su banco ya traiga la corrección, borrar la entrada.",
+ "GFJ-6": {
+  "motivo": "C y D eran verdaderas: al recuperarse de una LRA la creatinina tarda en bajar, así que la TFGe sube MENOS (más lento) que la real.",
+  "opciones": {"C": "Al recuperarse, la TFGe sube antes que la real"},
+  "explicaciones": {"C": "Es al revés: la creatinina tarda en bajar y la TFGe va detrás de la TFG real.",
+                    "D": "Tras una caída de TFG el marcador tarda en acumularse; la TFGe subestima la caída. Al recuperarse, la TFGe tarda en subir y subestima la TFG real."}
+ }
+}
