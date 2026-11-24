@@ -98,6 +98,9 @@ def perlas(bank, n=8):
         out.append({"title": "💎 " + (q.get("subtema") or q.get("tema") or "Perla")[:40], "text": " ".join(words[:60])})
         if len(out) >= n: break
     return out
+# series propias (casos nuevos del juego) por nivel: levels/_specs/series_propias.py
+_sp = importlib.util.spec_from_file_location("series_propias", ROOT / "levels/_specs/series_propias.py"); _m = importlib.util.module_from_spec(_sp); _sp.loader.exec_module(_m)
+SERIES = _m.SERIES
 def rec(q): return any(str(o).endswith("26") for o in q.get("origen", []))
 
 def build(S):
@@ -199,7 +202,7 @@ def own_series(S):
     tema_id = (S.get("temas") or [9])[0]
     tema = next((q["tema"] for q in BANK if q["tema_id"] == tema_id), S["title"])
     out = {}
-    for key, D in S.get("series", {}).items():
+    for key, D in (S.get("series") or SERIES.get(S["id"], {})).items():
         sid = f"T2-{S['id'].replace('-', '')}{key}"; out[key] = []
         for i, Q in enumerate(D["qs"]):
             cont, enun, ops, clave, exps, perla, refs = Q
@@ -214,7 +217,7 @@ if __name__ == "__main__":
     only = set(sys.argv[1:])
     for f in sorted((ROOT / "levels/_specs").glob("*.py")):
         sp = importlib.util.spec_from_file_location(f.stem, f); m = importlib.util.module_from_spec(sp); sp.loader.exec_module(m)
-        for S in m.LEVELS:
+        for S in getattr(m, "LEVELS", []):
             if not only or S["id"] in only: ALLVF.extend(build(S))
     if ALLVF:
         nv = sum(p["clave"] == "V" for p in ALLVF)

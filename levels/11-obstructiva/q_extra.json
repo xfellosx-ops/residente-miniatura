@@ -92,6 +92,351 @@
   }
  ],
  "puertas": [],
- "entrenadores": [],
+ "entrenadores": [
+  {
+   "id": "T2-11OEM-1",
+   "serie_id": "T2-11OEM",
+   "orden": 1,
+   "sub": "11",
+   "subtema": "Obstrucción urinaria en el embarazo",
+   "caso": "Mujer de 28 años con 26 semanas de embarazo, dolor lumbar derecho y fiebre de 38.9 °C. Ultrasonido: hidronefrosis derecha moderada e izquierda leve.",
+   "continuacion": "",
+   "enunciado": "¿Cómo se interpreta la hidronefrosis?",
+   "opciones": {
+    "A": "Siempre indica un lito obstructivo bilateral",
+    "B": "Es rara en el embarazo y obliga a tomografía",
+    "C": "Indica reflujo vesicoureteral de alto grado",
+    "D": "Se debe a malformación ureteral congénita",
+    "E": "Puede ser fisiológica, más a la derecha"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "La dilatación fisiológica no implica lito.",
+    "B": "Es frecuente; la tomografía no es el primer estudio.",
+    "C": "El reflujo no explica la dilatación asimétrica del embarazo.",
+    "D": "Una malformación se habría visto antes; es el patrón fisiológico.",
+    "E": "Correcto. Por compresión uterina y progesterona, la mayoría tiene hidronefrosis, sobre todo derecha; con fiebre hay que descartar obstrucción infectada."
+   },
+   "perla": "Dato: el uréter derecho cruza la iliaca y la vena ovárica; por eso la dilatación es mayor a la derecha.",
+   "referencias": [
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 68,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-11OEM-2",
+   "serie_id": "T2-11OEM",
+   "orden": 2,
+   "sub": "11",
+   "subtema": "Obstrucción urinaria en el embarazo",
+   "caso": "",
+   "continuacion": "Persiste la fiebre y se sospecha un lito ureteral derecho.",
+   "enunciado": "¿Cuál es el estudio de segunda línea más adecuado?",
+   "opciones": {
+    "A": "Tomografía con contraste en fase venosa tardía",
+    "B": "Resonancia sin gadolinio o TC de baja dosis",
+    "C": "Gammagrafía renal con DMSA de urgencia",
+    "D": "Pielografía retrógrada como diagnóstico",
+    "E": "Urografía excretora con placas seriadas"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "El contraste yodado y la dosis no son de elección en el embarazo.",
+    "B": "Correcto. Tras el ultrasonido sigue la resonancia sin gadolinio; la TC de baja dosis queda como última opción.",
+    "C": "La DMSA no diagnostica litos y añade radiación.",
+    "D": "Es invasiva y se reserva para drenar.",
+    "E": "La urografía da más radiación y menos información."
+   },
+   "perla": "Orden en el embarazo: ultrasonido → resonancia sin gadolinio → TC de baja dosis.",
+   "referencias": [
+    "EAU Guidelines on Urolithiasis, 2024",
+    "ACOG Committee Opinion 723: Guidelines for diagnostic imaging during pregnancy and lactation. Obstet Gynecol 2017;130:e210-6"
+   ],
+   "peso": 68,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-11OEM-3",
+   "serie_id": "T2-11OEM",
+   "orden": 3,
+   "sub": "11",
+   "subtema": "Obstrucción urinaria en el embarazo",
+   "caso": "",
+   "continuacion": "La resonancia confirma un lito de 8 mm en el uréter distal con pielonefritis.",
+   "enunciado": "¿Cuál es el manejo inicial más adecuado?",
+   "opciones": {
+    "A": "Tamsulosina sola, sin antibiótico ni drenaje",
+    "B": "Litotricia extracorpórea por ondas de choque",
+    "C": "Antibiótico y esperar el parto sin drenar",
+    "D": "Drenaje con catéter doble J o nefrostomía",
+    "E": "Nefrolitotomía percutánea en el segundo trimestre"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "Con infección no se intenta la expulsión espontánea.",
+    "B": "La litotricia está contraindicada en el embarazo.",
+    "C": "Una obstrucción infectada sin drenaje puede llevar a sepsis.",
+    "D": "Correcto. Obstrucción con infección = drenaje urgente (doble J o nefrostomía) más antibiótico.",
+    "E": "La percutánea no es el manejo inicial de una obstrucción infectada."
+   },
+   "perla": "Trampa: en el embarazo el doble J se incrusta rápido; se cambia cada 4–6 semanas.",
+   "referencias": [
+    "EAU Guidelines on Urolithiasis, 2024"
+   ],
+   "peso": 68,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-11OKT-1",
+   "serie_id": "T2-11OKT",
+   "orden": 1,
+   "sub": "11",
+   "subtema": "Defectos tubulares de la obstrucción crónica",
+   "caso": "Varón de 72 años con crecimiento prostático y vaciamiento incompleto crónico. K 6.2, Cl 112, HCO3 17 mEq/L, brecha aniónica 10, creatinina 2.1. Solo toma tamsulosina.",
+   "continuacion": "",
+   "enunciado": "¿Qué explica la hiperpotasemia y la acidosis?",
+   "opciones": {
+    "A": "ATR hiperpotasémica por daño del colector",
+    "B": "Acidosis láctica por hipoperfusión renal crónica",
+    "C": "ATR proximal por una gran pérdida de bicarbonato",
+    "D": "Hiperaldosteronismo primario ya descompensado",
+    "E": "Ingesta excesiva de potasio en la dieta diaria"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Correcto. La obstrucción daña las células principales e intercaladas: no secretan K ni H+ (defecto de voltaje o resistencia a aldosterona).",
+    "B": "La brecha aniónica es normal: no es acidosis láctica.",
+    "C": "La ATR proximal da hipopotasemia, no hiperpotasemia.",
+    "D": "El hiperaldosteronismo da hipopotasemia y alcalosis.",
+    "E": "La dieta sola no explica la acidosis hiperclorémica."
+   },
+   "perla": "Pista: acidosis hiperclorémica + K alto + creatinina poco elevada = busca obstrucción, nefropatía diabética o fármacos (iSRAA, TMP).",
+   "referencias": [
+    "Batlle DC, Arruda JA, Kurtzman NA. Hyperkalemic distal renal tubular acidosis associated with obstructive uropathy. N Engl J Med 1981;304:373-80"
+   ],
+   "peso": 70,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-11OKT-2",
+   "serie_id": "T2-11OKT",
+   "orden": 2,
+   "sub": "11",
+   "subtema": "Defectos tubulares de la obstrucción crónica",
+   "caso": "",
+   "continuacion": "Se coloca sonda vesical. En 24 horas orina 6 litros.",
+   "enunciado": "¿Qué explica la poliuria tras liberar la obstrucción?",
+   "opciones": {
+    "A": "Sobrecarga iatrogénica con soluciones intravenosas",
+    "B": "Exceso de ADH liberada por el dolor vesical",
+    "C": "Menos acuaporina 2 y salida de la urea retenida",
+    "D": "Diabetes mellitus descompensada por estrés",
+    "E": "Hipercalcemia por inmovilización prolongada"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "Puede perpetuarla, pero la causa es la diuresis posobstructiva.",
+    "B": "La ADH concentraría la orina, no causaría poliuria.",
+    "C": "Correcto. Se excreta lo acumulado (urea, sodio y agua) y la obstrucción bajó la AQP2 y el gradiente medular: defecto de concentración.",
+    "D": "No hay datos de hiperglucemia.",
+    "E": "No hay hipercalcemia que la explique."
+   },
+   "perla": "Cifra: diuresis posobstructiva = >200 mL/h por 2 horas seguidas o >3 L en 24 h; vigila sodio, potasio y volemia.",
+   "referencias": [
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 70,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-11OKT-3",
+   "serie_id": "T2-11OKT",
+   "orden": 3,
+   "sub": "11",
+   "subtema": "Defectos tubulares de la obstrucción crónica",
+   "caso": "",
+   "continuacion": "A los 5 días la diuresis es de 2 L y la creatinina baja a 1.6.",
+   "enunciado": "¿Qué se espera de la recuperación tubular?",
+   "opciones": {
+    "A": "Nunca se recupera ninguna de las funciones tubulares",
+    "B": "Solo se recupera si recibe esteroide en dosis alta",
+    "C": "Depende solo de la edad, no del tiempo obstruido",
+    "D": "Se completa en horas tras liberar la obstrucción",
+    "E": "Puede tardar semanas y quedar un defecto parcial"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "Gran parte se recupera, sobre todo si la obstrucción fue corta.",
+    "B": "El esteroide no tiene papel.",
+    "C": "El tiempo de obstrucción es el principal determinante.",
+    "D": "Los defectos de concentración y acidificación tardan más que la TFG.",
+    "E": "Correcto. Concentración y acidificación se recuperan en semanas; tras una obstrucción prolongada puede quedar daño residual."
+   },
+   "perla": "Regla: a mayor duración de la obstrucción, menos recuperación; tras semanas de obstrucción completa es mínima.",
+   "referencias": [
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 70,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-11NPP-1",
+   "serie_id": "T2-11NPP",
+   "orden": 1,
+   "sub": "11",
+   "subtema": "Necrosis papilar",
+   "caso": "Mujer de 61 años con diabetes de 20 años y uso diario de analgésicos. Tiene pielonefritis, cólico izquierdo y expulsó un fragmento de tejido en la orina.",
+   "continuacion": "",
+   "enunciado": "¿Cuál es el diagnóstico más probable?",
+   "opciones": {
+    "A": "Riñón en esponja medular con infección",
+    "B": "Necrosis papilar con obstrucción ureteral",
+    "C": "Carcinoma urotelial con hematuria y coágulos",
+    "D": "Litiasis de ácido úrico radiolúcida pura",
+    "E": "Pielonefritis xantogranulomatosa difusa"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "La esponja medular causa nefrocalcinosis, no desprendimiento de papila.",
+    "B": "Correcto. Diabetes, analgésicos e infección son causas clásicas; la papila desprendida obstruye el uréter.",
+    "C": "El tejido expulsado y el contexto sugieren papila, no tumor.",
+    "D": "Un lito no explica el tejido expulsado.",
+    "E": "La xantogranulomatosa se asocia a lito coraliforme y masa."
+   },
+   "perla": "Mnemotecnia «POSTCARDS»: Pielonefritis, Obstrucción, drepanocitosis (Sickle), TB, Cirrosis, Analgésicos, trombosis Renal, Diabetes y vasculitis Sistémica.",
+   "referencias": [
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 66,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-11NPP-2",
+   "serie_id": "T2-11NPP",
+   "orden": 2,
+   "sub": "11",
+   "subtema": "Necrosis papilar",
+   "caso": "",
+   "continuacion": "Se pide urotomografía.",
+   "enunciado": "¿Qué hallazgo apoya el diagnóstico?",
+   "opciones": {
+    "A": "Calcificaciones en anillo en la corteza",
+    "B": "Quistes múltiples de tamaño creciente bilaterales",
+    "C": "Uréter desplazado de forma medial bilateral",
+    "D": "Signo del anillo: contraste rodeando la papila",
+    "E": "Riñón aumentado con gas en el parénquima"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "Las calcificaciones corticales sugieren necrosis cortical.",
+    "B": "Los quistes crecientes sugieren poliquistosis.",
+    "C": "La medialización del uréter es de la fibrosis retroperitoneal.",
+    "D": "Correcto. El contraste rodea la papila desprendida (signo del anillo) o llena la cavidad que deja en el cáliz.",
+    "E": "El gas sugiere pielonefritis enfisematosa."
+   },
+   "perla": "Imágenes de la necrosis papilar: signo del anillo y cáliz en «garra de langosta».",
+   "referencias": [
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 66,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-11NPP-3",
+   "serie_id": "T2-11NPP",
+   "orden": 3,
+   "sub": "11",
+   "subtema": "Necrosis papilar",
+   "caso": "",
+   "continuacion": "Tiene fiebre persistente e hidronefrosis izquierda moderada.",
+   "enunciado": "¿Cuál es el manejo prioritario?",
+   "opciones": {
+    "A": "Drenaje urinario urgente más antibiótico IV",
+    "B": "Nefrectomía izquierda en las primeras horas",
+    "C": "Esteroide para reducir la inflamación papilar",
+    "D": "AINE para el cólico y esperar la expulsión",
+    "E": "Antibiótico oral y alta con control en un mes"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Correcto. Obstrucción con infección: doble J o nefrostomía urgente, antibiótico IV y suspender los analgésicos nefrotóxicos.",
+    "B": "La nefrectomía no es la primera línea.",
+    "C": "El esteroide no trata la necrosis ni la infección.",
+    "D": "Los AINE empeoran la isquemia papilar y no drenan.",
+    "E": "Una obstrucción infectada sin drenaje puede progresar a sepsis."
+   },
+   "perla": "Trampa: en la necrosis papilar por analgésicos, el AINE «para el dolor» es parte del problema.",
+   "referencias": [
+    "EAU Guidelines on Urological Infections, 2024",
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 66,
+   "tema_id": 11,
+   "tema": "Enfermedad renal obstructiva",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  }
+ ],
  "jefeC": []
 }

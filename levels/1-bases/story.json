@@ -241,33 +241,9 @@
     },
     {
      "id": "t0_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
-     "serie": "FSJ-1",
-     "intro": [
-      [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
-      ],
-      [
-       "Dra. Sístole Ruiz",
-       "Mi caso: Hemodinámica glomerular y fármacos"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
-      ]
-     ],
-     "questionTopics": [],
-     "n": 1
-    },
-    {
-     "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "FSJ-4",
+     "serie": "FSJ-1",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -275,13 +251,37 @@
       ],
       [
        "Dr. Rocco Filo",
-       "Mi caso: Receptores de vasopresina y acuaporinas"
+       "Mi caso: Hemodinámica glomerular y fármacos"
       ]
      ],
      "defeat": [
       [
        "Dr. Rocco Filo",
        "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "FSJ-3",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Túbulo proximal: transporte"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -468,33 +468,29 @@
     },
     {
      "id": "t1_1",
-     "cast": "endo",
-     "specialty": "Endocrinología",
-     "serie": "FSJ-2",
+     "cast": "radio",
+     "specialty": "Radiología",
+     "serie": "T2-1DEP",
      "intro": [
       [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
-      ],
-      [
-       "Dr. Tiro Glándula",
-       "Mi caso: iSGLT2 y retroalimentación tubuloglomerular"
+       "Dr. Hugo Contraste",
+       "¿Depuración de creatinina? Yo calculo la TFG con la tomografía."
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dr. Hugo Contraste",
+       "U por V entre P… y la secreción la infla. Entendido."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "FIS-5",
+     "serie": "FSJ-2",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -502,7 +498,7 @@
       ],
       [
        "Dr. Anselmo Frágil",
-       "Mi caso: Retroalimentación tubuloglomerular"
+       "Mi caso: iSGLT2 y retroalimentación tubuloglomerular"
       ]
      ],
      "defeat": [
@@ -534,7 +530,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_1",
      "topic": "Retroalimentación tubuloglomerular y autorregulación",
      "text": [
       [
@@ -676,51 +672,43 @@
     },
     {
      "id": "t2_1",
-     "cast": "infecto",
-     "specialty": "Infectología",
-     "serie": "FSJ-3",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "T2-1KTB",
      "intro": [
       [
-       "Dr. Félix Cultivo",
-       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
-      ],
-      [
-       "Dr. Félix Cultivo",
-       "Mi caso: Túbulo proximal: transporte"
+       "Dr. Tiro Glándula",
+       "El potasio lo regula la insulina y punto."
       ]
      ],
      "defeat": [
       [
-       "Dr. Félix Cultivo",
-       "Ajustar la dosis también cura. Lo anoto."
+       "Dr. Tiro Glándula",
+       "El colector decide cuánto se orina. Lo apunto."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t2_2",
-     "cast": "hema",
-     "specialty": "Hematología",
-     "serie": "FIS",
+     "cast": "neumo",
+     "specialty": "Neumología",
+     "serie": "T2-1ACI",
      "intro": [
       [
-       "Dra. Sara Esquistocito",
-       "Esquistocitos: ya sé, pura coagulopatía."
-      ],
-      [
-       "Dra. Sara Esquistocito",
-       "Mi caso: Determinantes de la TFG: presión de ultrafiltración"
+       "Dr. Gonzalo Espiro",
+       "El ácido lo saca el pulmón. El riñón, ¿para qué?"
       ]
      ],
      "defeat": [
       [
-       "Dra. Sara Esquistocito",
-       "MAT: el riñón sí importa. Pasa."
+       "Dr. Gonzalo Espiro",
+       "Amonio y bicarbonato nuevo… el riñón también respira."
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 3
     }
    ],
    "wild": [
@@ -742,7 +730,7 @@
    ],
    "gates": [
     {
-     "after": "t2_0",
+     "after": "t2_2",
      "topic": "Transportadores por segmento y sitio de acción de diuréticos",
      "text": [
       [

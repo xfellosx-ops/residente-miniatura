@@ -241,23 +241,43 @@
     },
     {
      "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
+     "cast": "pato",
+     "specialty": "Patología",
+     "serie": "T2-97PGM",
+     "intro": [
+      [
+       "Dra. Iris Hematoxilina",
+       "IgG monoclonal en el glomérulo sin mieloma: no lo toco."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Iris Hematoxilina",
+       "Clon chico, riñón grande: MGRS. Lo mando a tratar."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
      "serie": "AMY",
      "intro": [
       [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
       ],
       [
-       "Dra. Carmen Triaje",
+       "Dr. Félix Cultivo",
        "Mi caso: Amiloidosis AL: presentación renal"
       ]
      ],
      "defeat": [
       [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
       ]
      ],
      "questionTopics": [],
@@ -283,7 +303,7 @@
    ],
    "gates": [
     {
-     "after": "t0_0",
+     "after": "t0_1",
      "topic": "Nefropatía por cilindros: diagnóstico y tratamiento",
      "text": [
       [
@@ -422,6 +442,46 @@
      ],
      "questionTopics": [],
      "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "T2-97FLC",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Glucosuria con glucosa normal: diabetes escondida."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Fanconi por cadenas kappa… ni lo sospechaba."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "T2-97VTX",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Mi paciente con VIH está indetectable; su riñón no es asunto mío."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Tenofovir, dolutegravir y trasplante… sí es asunto tuyo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
     }
    ],
    "wild": [
@@ -448,7 +508,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_2",
      "topic": "Amiloidosis AL y nefropatía asociada a VIH",
      "text": [
       [

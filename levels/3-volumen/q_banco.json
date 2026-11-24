@@ -898,5 +898,349 @@
   "tema": "Alteraciones del equilibrio hidroelectrolítico",
   "obj": "24.o2",
   "peso": 32.5
+ },
+ {
+  "id": "T2-3VRS-1",
+  "serie_id": "T2-3VRS",
+  "orden": 1,
+  "sub": "3",
+  "subtema": "Respuesta a volumen y congestión venosa",
+  "caso": "Varón de 64 años, posoperado de colectomía, con TA 92/58, FC 104 y orina de 15 mL/h durante 4 horas. Lleva +2.5 L de balance.",
+  "continuacion": "",
+  "enunciado": "¿Qué prueba predice mejor si responderá a más volumen?",
+  "opciones": {
+   "A": "La diuresis horaria de las próximas dos horas",
+   "B": "El sodio urinario aislado en una sola muestra",
+   "C": "La radiografía de tórax en decúbito supino",
+   "D": "La presión venosa central medida en un solo momento",
+   "E": "Elevación pasiva de piernas con medida del gasto"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La diuresis es lenta e inespecífica para predecir respuesta.",
+   "B": "El sodio urinario refleja avidez tubular, no respuesta del gasto.",
+   "C": "La radiografía no predice la respuesta a volumen.",
+   "D": "Una PVC estática predice mal la respuesta a volumen.",
+   "E": "Correcto. Si el gasto o el VTI suben >10 % al elevar las piernas, responderá; y no se le da líquido para probarlo."
+  },
+  "perla": "Cifra: la elevación pasiva de piernas equivale a un bolo autólogo de ~300 mL; respuesta = gasto o VTI +10 %.",
+  "referencias": [
+   "Monnet X, Marik P, Teboul JL. Passive leg raising for predicting fluid responsiveness: a systematic review and meta-analysis. Intensive Care Med 2016;42:1935-47"
+  ],
+  "peso": 72,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-3VRS-2",
+  "serie_id": "T2-3VRS",
+  "orden": 2,
+  "sub": "3",
+  "subtema": "Respuesta a volumen y congestión venosa",
+  "caso": "",
+  "continuacion": "No responde a la elevación de piernas. Ultrasonido: VCI de 2.4 cm sin colapso, vena porta con pulsatilidad >50 % y flujo intrarrenal monofásico discontinuo.",
+  "enunciado": "¿Qué indica el patrón y qué se hace?",
+  "opciones": {
+   "A": "Hipovolemia oculta; dar otro bolo de 1 litro",
+   "B": "Congestión: parar líquidos y descongestionar",
+   "C": "Patrón normal; seguir con el mismo plan de líquidos",
+   "D": "Obstrucción urinaria baja; colocar sonda vesical",
+   "E": "Embolia pulmonar masiva; iniciar anticoagulación"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No responde a volumen y está congestivo; más líquido daña más al riñón.",
+   "B": "Correcto. VCI >2 cm con porta y flujo renal gravemente alterados = VExUS 3: parar líquidos y dar diurético o ultrafiltración.",
+   "C": "Una pulsatilidad portal >50 % y el flujo monofásico son patológicos.",
+   "D": "La sonda no explica una VCI plétora con porta pulsátil.",
+   "E": "Nada en el cuadro apunta a embolia; es congestión venosa."
+  },
+  "perla": "Mnemotecnia VExUS: VCI >2 cm y luego «PHR»: porta, hepática y renal; dos o más gravemente alteradas = grado 3.",
+  "referencias": [
+   "Beaubien-Souligny W et al. Quantifying systemic congestion with point-of-care ultrasound: the VExUS grading system. Ultrasound J 2020;12:16"
+  ],
+  "peso": 72,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-3VRS-3",
+  "serie_id": "T2-3VRS",
+  "orden": 3,
+  "sub": "3",
+  "subtema": "Respuesta a volumen y congestión venosa",
+  "caso": "",
+  "continuacion": "Recibió 6 L de salina al 0.9 % en 24 h. Ahora: Na 141, Cl 118, HCO3 16 mEq/L y brecha aniónica 7.",
+  "enunciado": "¿Cuál es el mecanismo del trastorno ácido-base?",
+  "opciones": {
+   "A": "Alcalosis por contracción de volumen extracelular",
+   "B": "ATR distal tipo 1 por daño tubular de la cirugía",
+   "C": "Acidosis láctica por hipoperfusión persistente",
+   "D": "Acidosis hiperclorémica por dilución con cloro",
+   "E": "Cetoacidosis por ayuno posoperatorio prolongado"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Hay acidosis, no alcalosis, y el volumen está expandido.",
+   "B": "Una ATR no aparece en 24 horas por cirugía; la causa es la salina.",
+   "C": "La brecha aniónica es normal (7): no hay ácido no medido.",
+   "D": "Correcto. La salina trae 154 mEq/L de cloro: baja la diferencia de iones fuertes y da acidosis hiperclorémica con BA normal.",
+   "E": "La cetoacidosis eleva la brecha aniónica."
+  },
+  "perla": "Cifras: salina 0.9 % = 154 de Na y 154 de Cl; Hartmann, ~109 de Cl. En SMART, las balanceadas dieron menos eventos renales.",
+  "referencias": [
+   "Semler MW et al. Balanced crystalloids versus saline in critically ill adults (SMART). N Engl J Med 2018;378:829-39"
+  ],
+  "peso": 72,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-3UCL-1",
+  "serie_id": "T2-3UCL",
+  "orden": 1,
+  "sub": "3",
+  "subtema": "Electrolitos urinarios en la hipovolemia",
+  "caso": "Mujer de 30 años con vómito de 4 días. TA 96/60 con ortostatismo. Na 136, K 2.9, Cl 88 y HCO3 34 mEq/L. Orina: Na 45 y Cl 8 mEq/L.",
+  "continuacion": "",
+  "enunciado": "¿Cómo se interpreta el sodio urinario de 45 mEq/L?",
+  "opciones": {
+   "A": "Bicarbonaturia arrastra sodio; vale el cloro",
+   "B": "Indica SIADH por una natriuresis inapropiada alta",
+   "C": "Sugiere insuficiencia suprarrenal primaria aguda",
+   "D": "Señala necrosis tubular aguda ya establecida",
+   "E": "Descarta hipovolemia porque es mayor de 20 mEq/L"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Correcto. El exceso de bicarbonato filtrado se excreta con sodio; el cloro urinario <20 revela la hipovolemia.",
+   "B": "Está hipovolémica y alcalótica: no es SIADH.",
+   "C": "La insuficiencia suprarrenal da hiperpotasemia y acidosis, no alcalosis hipopotasémica.",
+   "D": "No hay datos de NTA; el patrón es por bicarbonaturia.",
+   "E": "En la alcalosis por vómito el sodio urinario puede ser alto pese a la hipovolemia."
+  },
+  "perla": "Regla: en alcalosis metabólica manda el cloro urinario: <20 responde a salina; >40 sugiere diurético actual o exceso mineralocorticoide.",
+  "referencias": [
+   "Rose BD, Post TW. Clinical Physiology of Acid-Base and Electrolyte Disorders, 5.ª ed. McGraw-Hill",
+   "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+  ],
+  "peso": 70,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-3UCL-2",
+  "serie_id": "T2-3UCL",
+  "orden": 2,
+  "sub": "3",
+  "subtema": "Electrolitos urinarios en la hipovolemia",
+  "caso": "",
+  "continuacion": "",
+  "enunciado": "¿Cuál es el tratamiento más adecuado?",
+  "opciones": {
+   "A": "Acetazolamida para eliminar el bicarbonato",
+   "B": "Espironolactona oral por la hipopotasemia",
+   "C": "Salina al 0.9 % con cloruro de potasio",
+   "D": "Solución glucosada al 5 % sin electrolitos",
+   "E": "Bicarbonato de sodio para el potasio bajo"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La acetazolamida sirve en la alcalosis con sobrecarga, no con hipovolemia.",
+   "B": "No hay exceso primario de mineralocorticoide: faltan cloro y volumen.",
+   "C": "Correcto. Reponer cloro y volumen con salina, más potasio, corrige la alcalosis que responde a cloro.",
+   "D": "El agua libre no repone cloro ni volumen extracelular.",
+   "E": "Agravaría la alcalosis."
+  },
+  "perla": "Mecanismo: sin cloro en la luz distal, la pendrina no puede secretar bicarbonato; la alcalosis persiste hasta dar cloro.",
+  "referencias": [
+   "Rose BD, Post TW. Clinical Physiology of Acid-Base and Electrolyte Disorders, 5.ª ed. McGraw-Hill"
+  ],
+  "peso": 70,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-3UCL-3",
+  "serie_id": "T2-3UCL",
+  "orden": 3,
+  "sub": "3",
+  "subtema": "Electrolitos urinarios en la hipovolemia",
+  "caso": "",
+  "continuacion": "Otra paciente con el mismo cuadro tomó furosemida hace 3 horas.",
+  "enunciado": "¿Qué índice urinario es más útil para valorar su volemia?",
+  "opciones": {
+   "A": "La fracción excretada de sodio (FENa)",
+   "B": "La osmolalidad urinaria de la muestra",
+   "C": "El potasio urinario de una muestra",
+   "D": "El sodio urinario en muestra aislada",
+   "E": "La fracción excretada de urea (FEUrea)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La FENa sube con el diurético y pierde valor.",
+   "B": "La osmolalidad urinaria no distingue bien la volemia con diurético.",
+   "C": "El potasio urinario no informa la volemia.",
+   "D": "El diurético eleva el sodio urinario y lo invalida.",
+   "E": "Correcto. La urea se maneja en el proximal y casi no la afectan los diuréticos: FEUrea <35 % sugiere hipovolemia."
+  },
+  "perla": "Cifra: FEUrea <35 % = prerrenal aun con diurético; >50 % sugiere causa intrínseca.",
+  "referencias": [
+   "Carvounis CP, Nisar S, Guro-Razuman S. Significance of the fractional excretion of urea in the differential diagnosis of acute renal failure. Kidney Int 2002;62:2223-9"
+  ],
+  "peso": 70,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-3ASC-1",
+  "serie_id": "T2-3ASC",
+  "orden": 1,
+  "sub": "3",
+  "subtema": "Cirrosis: paracentesis, sodio urinario e hiponatremia",
+  "caso": "Varón de 55 años con cirrosis Child B, ascitis tensa y disnea. Na 131 mEq/L, creatinina 1.0 mg/dL. Se planea paracentesis de 8 litros.",
+  "continuacion": "",
+  "enunciado": "¿Qué reposición se indica tras la paracentesis?",
+  "opciones": {
+   "A": "Ninguna, si la creatinina es normal",
+   "B": "Albúmina 6–8 g por litro extraído",
+   "C": "Salina 0.9 %, un litro por litro extraído",
+   "D": "Plasma fresco congelado, 2 unidades",
+   "E": "Almidón al 6 % como expansor barato"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Con >5 L, sin albúmina aumenta la disfunción circulatoria posparacentesis.",
+   "B": "Correcto. AASLD y EASL: con >5 L se dan 6–8 g de albúmina por litro extraído.",
+   "C": "La salina es menos eficaz que la albúmina para prevenir la disfunción circulatoria.",
+   "D": "El plasma no se usa como expansor de volumen.",
+   "E": "Los almidones dañan el riñón; no se usan."
+  },
+  "perla": "Cuenta rápida: 8 L × 8 g = 64 g de albúmina; con ≤5 L puede omitirse.",
+  "referencias": [
+   "Biggins SW et al. Diagnosis, evaluation, and management of ascites, SBP and hepatorenal syndrome: AASLD practice guidance. Hepatology 2021;74:1014-48",
+   "EASL Clinical Practice Guidelines for the management of patients with decompensated cirrhosis. J Hepatol 2018;69:406-60"
+  ],
+  "peso": 70,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-3ASC-2",
+  "serie_id": "T2-3ASC",
+  "orden": 2,
+  "sub": "3",
+  "subtema": "Cirrosis: paracentesis, sodio urinario e hiponatremia",
+  "caso": "",
+  "continuacion": "Se inicia espironolactona 100 mg y furosemida 40 mg con dieta de 2 g de sodio. A las 2 semanas no baja de peso. Orina: Na 80 y K 40 mEq/L.",
+  "enunciado": "¿Qué indica este resultado?",
+  "opciones": {
+   "A": "Hiperaldosteronismo resistente; añadir amilorida",
+   "B": "Sobredosis de diurético; suspender ambos",
+   "C": "Resistencia a diuréticos; duplicar las dosis",
+   "D": "Natriuresis buena; probable exceso de sal",
+   "E": "Síndrome hepatorrenal; iniciar terlipresina"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La respuesta natriurética muestra que el bloqueo funciona.",
+   "B": "No hay datos de toxicidad; el problema es la ingesta.",
+   "C": "Un Na/K urinario >1 indica respuesta natriurética: no es resistencia.",
+   "D": "Correcto. Na/K urinario >1 predice excretar >78 mEq/día; si no baja de peso, come más sal de la indicada.",
+   "E": "Creatinina normal y buena natriuresis: no es hepatorrenal."
+  },
+  "perla": "Cuenta de la dieta: 2 g de sodio = 88 mEq/día; ~10 se pierden por heces y sudor, así que la meta urinaria es >78.",
+  "referencias": [
+   "Biggins SW et al. Hepatology 2021;74:1014-48"
+  ],
+  "peso": 70,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-3ASC-3",
+  "serie_id": "T2-3ASC",
+  "orden": 3,
+  "sub": "3",
+  "subtema": "Cirrosis: paracentesis, sodio urinario e hiponatremia",
+  "caso": "",
+  "continuacion": "Corrige la dieta y responde. Meses después tiene Na sérico de 124 mEq/L, asintomático, con la misma diuresis.",
+  "enunciado": "¿Cuál es la conducta más adecuada para la hiponatremia?",
+  "opciones": {
+   "A": "Restricción de agua y revisar diuréticos",
+   "B": "Salina al 3 % en bolo para subir 10 mEq/L",
+   "C": "Tolvaptán a largo plazo como primera línea",
+   "D": "Tabletas de sal con 4 g extra de sodio diario",
+   "E": "Ninguna: el sodio de 124 es normal en cirrosis"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Correcto. En la hiponatremia hipervolémica moderada se restringe el agua (~1–1.5 L/día) y se ajustan los diuréticos.",
+   "B": "El bolo al 3 % se reserva para síntomas graves.",
+   "C": "El tolvaptán no se recomienda a largo plazo en cirrosis por hepatotoxicidad.",
+   "D": "Más sal empeora la ascitis.",
+   "E": "La hiponatremia predice mortalidad en cirrosis; se maneja."
+  },
+  "perla": "Trampa: en la cirrosis la hiponatremia es dilucional (sobra agua); dar sal empeora la ascitis.",
+  "referencias": [
+   "Biggins SW et al. Hepatology 2021;74:1014-48"
+  ],
+  "peso": 70,
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
  }
 ]

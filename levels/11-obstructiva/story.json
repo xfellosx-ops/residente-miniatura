@@ -241,51 +241,43 @@
     },
     {
      "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
-     "serie": "OBMA-1",
+     "cast": "gine",
+     "specialty": "Ginecología",
+     "serie": "T2-11OEM",
      "intro": [
       [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
-      ],
-      [
-       "Dra. Carmen Triaje",
-       "Mi caso: Obstrucción ureteral maligna: cómo drenar"
+       "Dra. Lucía Bravo",
+       "Hidronefrosis en el embarazo: siempre es un lito."
       ]
      ],
      "defeat": [
       [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
+       "Dra. Lucía Bravo",
+       "Fisiológica a la derecha… pero con fiebre, drenar."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "OBS-7",
+     "serie": "T2-11NPP",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
-      ],
-      [
-       "Dr. Tiro Glándula",
-       "Mi caso: Fibrosis retroperitoneal por IgG4"
+       "Diabética con cólico: será otra piedra."
       ]
      ],
      "defeat": [
       [
        "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Necrosis papilar: diabetes, analgésicos e infección."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     }
    ],
    "wild": [
@@ -307,7 +299,7 @@
    ],
    "gates": [
     {
-     "after": "t0_0",
+     "after": "t0_2",
      "topic": "Diagnóstico por imagen de la uropatía obstructiva",
      "text": [
       [
@@ -473,33 +465,29 @@
     },
     {
      "id": "t1_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
-     "serie": "RVU-5",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "T2-11OKT",
      "intro": [
       [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
-      ],
-      [
-       "Dra. Sístole Ruiz",
-       "Mi caso: Cuándo pedir cistouretrografía tras una IVU febril"
+       "Dr. Anselmo Frágil",
+       "Potasio alto en un viejito: le quito el plátano y ya."
       ]
      ],
      "defeat": [
       [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
+       "Dr. Anselmo Frágil",
+       "ATR por obstrucción… primero la sonda."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "RCAP-1",
+     "serie": "OBMA-1",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -507,7 +495,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Retención crónica de alta presión"
+       "Mi caso: Obstrucción ureteral maligna: cómo drenar"
       ]
      ],
      "defeat": [
@@ -539,7 +527,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_1",
      "topic": "Diuresis posobstructiva: reconocimiento y manejo",
      "text": [
       [

@@ -238,6 +238,26 @@
      ],
      "questionTopics": [],
      "n": 4
+    },
+    {
+     "id": "t0_1",
+     "cast": "pato",
+     "specialty": "Patología",
+     "serie": "T2-93MNS",
+     "intro": [
+      [
+       "Dra. Iris Hematoxilina",
+       "Sin anti-PLA2R no es membranosa. Ni la tiño."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Iris Hematoxilina",
+       "¿NELL1? Ya lo tiño. Y pregunto por suplementos."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
     }
    ],
    "wild": [
@@ -259,7 +279,7 @@
    ],
    "gates": [
     {
-     "after": "t0_0",
+     "after": "t0_1",
      "topic": "Diagnóstico serológico de la nefropatía membranosa",
      "text": [
       [
@@ -398,6 +418,46 @@
      ],
      "questionTopics": [],
      "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "T2-93MNR",
+     "intro": [
+      [
+       "Dr. Ernesto Holístico",
+       "Rituximab y listo: el título ni lo vuelvo a medir."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Ernesto Holístico",
+       "Si el anti-PLA2R no baja, el tratamiento falló. Anotado."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "T2-93MNT",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "¿Membranosa en el injerto? Eso ya no vuelve nunca."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Uno de cada tres recurre… mediré el anti-PLA2R."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
     }
    ],
    "wild": [
@@ -419,7 +479,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_2",
      "topic": "Estratificación de riesgo e inmunosupresión en membranosa",
      "text": [
       [

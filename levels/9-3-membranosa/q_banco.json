@@ -472,5 +472,353 @@
   "tema": "Enfermedades vasculares del riñón",
   "obj": "15.o1",
   "peso": 19.6
+ },
+ {
+  "id": "T2-93MNS-1",
+  "serie_id": "T2-93MNS",
+  "orden": 1,
+  "sub": "9.c.1",
+  "subtema": "Membranosa secundaria: antígenos y búsqueda de causa",
+  "caso": "Varón de 68 años, exfumador, con edema de 2 meses, proteinuria de 7 g/día, albúmina 2.4 g/dL y TFGe 70. El anti-PLA2R sérico es negativo.",
+  "continuacion": "",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Iniciar rituximab sin biopsia por nefrótico típico",
+   "B": "Repetir el anti-PLA2R en 6 meses sin más estudios",
+   "C": "Ciclofosfamida y esteroide por ser de riesgo alto",
+   "D": "Solo iSRAA y diurético, sin estudiar la causa",
+   "E": "Biopsia renal con tinción de antígenos y de IgG"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Omitir la biopsia solo se acepta con anti-PLA2R positivo, clínica típica y TFG normal.",
+   "B": "Un anti-PLA2R negativo no se «espera»: hay que confirmar el diagnóstico y buscar la causa.",
+   "C": "Antes de inmunosuprimir hay que confirmar el diagnóstico y descartar una causa secundaria.",
+   "D": "El soporte se da, pero sin diagnóstico ni causa puede pasarse por alto un cáncer.",
+   "E": "Correcto. Sin anti-PLA2R la biopsia es obligada: confirma la membranosa, tiñe PLA2R, THSD7A y NELL1, y las subclases de IgG orientan a causa secundaria."
+  },
+  "perla": "Regla KDIGO 2021: anti-PLA2R positivo + clínica típica + TFG normal = puede omitirse la biopsia. Si es negativo, se biopsia siempre.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276"
+  ],
+  "peso": 72,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNS-2",
+  "serie_id": "T2-93MNS",
+  "orden": 2,
+  "sub": "9.c.1",
+  "subtema": "Membranosa secundaria: antígenos y búsqueda de causa",
+  "caso": "",
+  "continuacion": "La biopsia muestra membranosa con IgG1 dominante, PLA2R negativo en tejido y tinción positiva para NELL1.",
+  "enunciado": "¿Qué conducta corresponde a este hallazgo?",
+  "opciones": {
+   "A": "Tratarla como primaria de riesgo alto con rituximab",
+   "B": "Buscar cáncer acorde a la edad y revisar fármacos",
+   "C": "Pedir anti-MBG y ANCA por probable vasculitis",
+   "D": "Diagnosticar lupus clase V y dar micofenolato",
+   "E": "Repetir la biopsia porque NELL1 es un artefacto"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "NELL1 obliga primero a buscar una causa: si la hay, retirarla o tratarla puede bastar.",
+   "B": "Correcto. NELL1 se asocia con neoplasia, ácido lipoico y cremas con mercurio: tamizaje de cáncer según la edad y revisión de fármacos y suplementos.",
+   "C": "Anti-MBG y ANCA no explican depósitos subepiteliales con NELL1.",
+   "D": "La clase V lúpica suele dar IgG1–3, C1q y EXT1/EXT2, no NELL1 aislado.",
+   "E": "NELL1 es un antígeno real: explica cerca de 1 de cada 6 membranosas PLA2R negativas."
+  },
+  "perla": "Mnemotecnia de antígenos: PLA2R, primaria; THSD7A y NELL1, «busca el tumor»; EXT1/EXT2, lupus.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "Sethi S et al. NELL-1-associated membranous nephropathy. Kidney Int 2020;97:163-74"
+  ],
+  "peso": 72,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNS-3",
+  "serie_id": "T2-93MNS",
+  "orden": 3,
+  "sub": "9.c.1",
+  "subtema": "Membranosa secundaria: antígenos y búsqueda de causa",
+  "caso": "",
+  "continuacion": "El tamizaje de cáncer sale negativo. Toma ácido alfa-lipoico desde hace 8 meses para una neuropatía.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Mantenerlo y repetir el tamizaje de cáncer al mes",
+   "B": "Rituximab y suspender el iSRAA por la proteinuria",
+   "C": "Indicar trasplante anticipado por riesgo de ERC",
+   "D": "Suspender el ácido lipoico y vigilar la proteinuria",
+   "E": "Mantenerlo e iniciar ciclosporina de inmediato"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El tamizaje ya fue negativo; el desencadenante probable es el suplemento.",
+   "B": "El iSRAA es la base del soporte; no se suspende por la proteinuria.",
+   "C": "Con TFGe de 70 no hay indicación de preparar un trasplante.",
+   "D": "Correcto. La membranosa NELL1 asociada a ácido lipoico suele remitir al suspenderlo; se da soporte y se vigila.",
+   "E": "Sin retirar el desencadenante, la inmunosupresión es innecesaria y tóxica."
+  },
+  "perla": "Trampa de examen: antes de inmunosuprimir una membranosa, pregunta por suplementos, AINE y cremas aclaradoras con mercurio.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+  ],
+  "peso": 72,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNR-1",
+  "serie_id": "T2-93MNR",
+  "orden": 1,
+  "sub": "9.c.1",
+  "subtema": "Membranosa: riesgo, rituximab y recaída",
+  "caso": "Mujer de 45 años con membranosa anti-PLA2R positiva. Tras 6 meses de iSRAA: proteinuria 7 g/día, albúmina 2.3 g/dL, anti-PLA2R 160 UR/mL y TFGe 90.",
+  "continuacion": "",
+  "enunciado": "¿Cómo se clasifica su riesgo y qué se indica?",
+  "opciones": {
+   "A": "Riesgo alto: rituximab o ciclofosfamida y esteroide",
+   "B": "Riesgo moderado: esteroide solo, en dosis altas",
+   "C": "Muy alto: recambio plasmático y una biopsia de urgencia",
+   "D": "Sin riesgo: el anti-PLA2R alto no tiene valor",
+   "E": "Riesgo bajo: solo soporte por otros 6 meses"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Correcto. KDIGO 2021: proteinuria >3.5 g sin caída >50 % a 6 meses más albúmina <2.5 g/dL o anti-PLA2R >50 UR/mL = riesgo alto.",
+   "B": "El esteroide en monoterapia no sirve en la membranosa.",
+   "C": "El recambio plasmático no tiene papel en la membranosa.",
+   "D": "Un título alto de anti-PLA2R predice menos remisión espontánea.",
+   "E": "Tras 6 meses de soporte sigue nefrótica, con albúmina <2.5 g/dL y anti-PLA2R >50 UR/mL: no es riesgo bajo."
+  },
+  "perla": "Cifras de riesgo alto (KDIGO 2021): anti-PLA2R >50 UR/mL o albúmina <2.5 g/dL pese a 6 meses de soporte.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276"
+  ],
+  "peso": 75,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNR-2",
+  "serie_id": "T2-93MNR",
+  "orden": 2,
+  "sub": "9.c.1",
+  "subtema": "Membranosa: riesgo, rituximab y recaída",
+  "caso": "",
+  "continuacion": "Recibe rituximab 1 g × 2. A los 6 meses el anti-PLA2R sigue en 140 UR/mL, la proteinuria en 6 g y los CD19 ya regresaron.",
+  "enunciado": "¿Cuál es la interpretación y la conducta?",
+  "opciones": {
+   "A": "Respuesta en curso; esperar 12 meses más sin cambios",
+   "B": "Recaída tardía; suspender todo y dejar solo iSRAA",
+   "C": "Sin remisión inmunológica: redosificar o cambiar",
+   "D": "Resistencia: cambiar a esteroide solo en dosis altas",
+   "E": "Error de laboratorio; repetir el anti-PLA2R en 1 año"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Con anti-PLA2R persistente a 6 meses la remisión clínica es poco probable; no se espera sin actuar.",
+   "B": "No es recaída: nunca hubo remisión inmunológica.",
+   "C": "Correcto. Anti-PLA2R persistente a 6 meses = falla inmunológica: otra dosis de rituximab o cambio a ciclofosfamida con esteroide.",
+   "D": "El esteroide en monoterapia no es eficaz en la membranosa.",
+   "E": "Un título persistente con proteinuria es coherente con falta de respuesta."
+  },
+  "perla": "Trampa: la proteinuria tarda meses en bajar, pero el anti-PLA2R debe caer antes; si a 6 meses no cae, el tratamiento falló.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "Fervenza FC et al. Rituximab or cyclosporine in the treatment of membranous nephropathy (MENTOR). N Engl J Med 2019;381:36-46"
+  ],
+  "peso": 75,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNR-3",
+  "serie_id": "T2-93MNR",
+  "orden": 3,
+  "sub": "9.c.1",
+  "subtema": "Membranosa: riesgo, rituximab y recaída",
+  "caso": "",
+  "continuacion": "Con ciclofosfamida logra remisión completa. Dos años después reaparece proteinuria de 5 g con anti-PLA2R positivo.",
+  "enunciado": "¿Qué indica y cómo se trata?",
+  "opciones": {
+   "A": "Lesión crónica; solo soporte porque no responde",
+   "B": "Nueva enfermedad; buscar otra glomerulopatía",
+   "C": "Ciclofosfamida de nuevo, sin vigilar la dosis total",
+   "D": "Efecto tardío de la ciclofosfamida; solo observar",
+   "E": "Recaída inmune; tratar de nuevo, p. ej., rituximab"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Con anti-PLA2R positivo hay actividad inmune tratable.",
+   "B": "El anticuerpo positivo indica recaída de la misma enfermedad.",
+   "C": "La dosis acumulada de ciclofosfamida eleva el riesgo de cáncer: se cuenta y se limita.",
+   "D": "La ciclofosfamida no causa proteinuria tardía con anti-PLA2R positivo.",
+   "E": "Correcto. Anti-PLA2R que reaparece con proteinuria = recaída; el rituximab es una opción segura y evita sumar alquilante."
+  },
+  "perla": "Cifra: una dosis acumulada de ciclofosfamida >36 g aumenta el riesgo de cáncer; más de ~10 g compromete la fertilidad.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276"
+  ],
+  "peso": 75,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNT-1",
+  "serie_id": "T2-93MNT",
+  "orden": 1,
+  "sub": "9.c.1",
+  "subtema": "Membranosa y trasplante renal",
+  "caso": "Varón de 50 años con ERC terminal por membranosa anti-PLA2R positiva. Está en protocolo para trasplante de donante vivo; su anti-PLA2R actual es de 45 UR/mL.",
+  "continuacion": "",
+  "enunciado": "¿Qué debe saber sobre la recurrencia en el injerto?",
+  "opciones": {
+   "A": "Nunca recurre, porque el podocito del injerto es nuevo",
+   "B": "Recurre en ~30–40 %, más con anti-PLA2R positivo",
+   "C": "Recurre siempre y por eso contraindica el donante vivo",
+   "D": "Recurre solo si el donante es familiar directo",
+   "E": "Recurre en 5 %, sin relación con el anticuerpo"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El podocito del injerto expresa PLA2R; el anticuerpo circulante puede atacarlo.",
+   "B": "Correcto. Recurre en ~30–40 %, más con anti-PLA2R positivo al trasplante; no lo contraindica, pero obliga a vigilar.",
+   "C": "No contraindica el trasplante ni el donante vivo; se vigila.",
+   "D": "La recurrencia depende del anticuerpo del receptor, no del parentesco.",
+   "E": "El riesgo es mayor y sí se relaciona con el título del anticuerpo."
+  },
+  "perla": "Regla: mide el anti-PLA2R antes y después del trasplante; su persistencia anticipa la recurrencia.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "KDIGO Clinical Practice Guideline on the Evaluation and Management of Candidates for Kidney Transplantation. Transplantation 2020;104(4S1):S11-S103"
+  ],
+  "peso": 68,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNT-2",
+  "serie_id": "T2-93MNT",
+  "orden": 2,
+  "sub": "9.c.1",
+  "subtema": "Membranosa y trasplante renal",
+  "caso": "",
+  "continuacion": "Se trasplanta. A los 8 meses: proteinuria 2.5 g/día, anti-PLA2R 120 UR/mL y biopsia con membranosa recurrente.",
+  "enunciado": "¿Cuál es el tratamiento más adecuado?",
+  "opciones": {
+   "A": "Observar: la recurrencia nunca daña al injerto",
+   "B": "Subir el tacrolimus a valles de 15 ng/mL o más",
+   "C": "Pulsos de esteroide como en el rechazo celular",
+   "D": "Rituximab, además del iSRAA y la inmunosupresión",
+   "E": "Retirar el micofenolato para reducir infecciones"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Sin tratamiento puede causar pérdida del injerto.",
+   "B": "Valles altos aumentan nefrotoxicidad e infecciones sin beneficio probado.",
+   "C": "No es rechazo celular; los pulsos no tratan la membranosa.",
+   "D": "Correcto. La membranosa recurrente con proteinuria significativa se trata con rituximab; responde en la mayoría.",
+   "E": "Bajar la inmunosupresión favorecería la recurrencia y el rechazo."
+  },
+  "perla": "Dato: la recurrencia puede verse en biopsias de protocolo antes de la proteinuria; el anti-PLA2R ayuda a detectarla temprano.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "KDIGO Clinical Practice Guideline on the Evaluation and Management of Candidates for Kidney Transplantation. Transplantation 2020;104(4S1):S11-S103"
+  ],
+  "peso": 68,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNT-3",
+  "serie_id": "T2-93MNT",
+  "orden": 3,
+  "sub": "9.c.1",
+  "subtema": "Membranosa y trasplante renal",
+  "caso": "",
+  "continuacion": "Otro receptor, trasplantado por nefropatía diabética, desarrolla membranosa en el injerto con PLA2R negativo y DSA anti-DQ.",
+  "enunciado": "¿Qué sugiere esta combinación?",
+  "opciones": {
+   "A": "Membranosa de novo, asociada a daño por anticuerpos",
+   "B": "Recurrencia típica de una membranosa anti-PLA2R",
+   "C": "Nefropatía diabética recurrente en el injerto",
+   "D": "Toxicidad aguda por tacrolimus en el glomérulo renal",
+   "E": "Infección por BK con depósitos subepiteliales"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Correcto. La membranosa de novo suele ser PLA2R negativa y se asocia con DSA y rechazo humoral (también con hepatitis C).",
+   "B": "La causa original fue diabetes y el PLA2R es negativo: no es recurrencia.",
+   "C": "La nefropatía diabética no produce depósitos subepiteliales.",
+   "D": "El tacrolimus causa arteriolopatía y fibrosis, no membranosa.",
+   "E": "El BK causa nefritis tubulointersticial, no depósitos subepiteliales."
+  },
+  "perla": "Mnemotecnia: membranosa en el injerto PLA2R+ = recurrencia; PLA2R− con DSA = de novo («de novo, de anticuerpos»).",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+  ],
+  "peso": 68,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
  }
 ]
