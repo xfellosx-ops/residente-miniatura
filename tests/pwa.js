@@ -13,6 +13,6 @@ const srv=http.createServer((q,r)=>{let u=decodeURIComponent(q.url.split('?')[0]
  await p.reload();if(!(await p.$('#t1')))fail('no recarga sin conexión');
  await p.click('#t1');await p.waitForTimeout(300);await p.evaluate(()=>{window.__G.S.potions=7;save()});
  await p.click('#bMenu').catch(()=>{});await p.reload();if((await p.evaluate(()=>window.__G.S.potions))!==7)fail('no conservó la partida sin conexión');
- await p.click('#t4');await Promise.all([p.waitForNavigation(),p.click('[data-lv="9-6"]')]);await p.waitForLoadState('load');await p.waitForTimeout(300);
- if((await p.evaluate(()=>window.__G.STORY.meta.id))!=='9-6')fail('no cambió de nivel sin conexión');
+ await p.click('#t4');await Promise.all([p.waitForNavigation(),p.click('[data-lv="9-1"]')]);await p.waitForLoadState('load');await p.waitForTimeout(300);
+ if((await p.evaluate(()=>window.__G.STORY.meta.id))!=='9-1')fail('no cambió de nivel sin conexión');
  if(errs.length)fail(errs.join(' | '));console.log(bad?'PWA FALLA':'PWA PASA');await b.close();srv.close();process.exit(bad?1:0)})();
