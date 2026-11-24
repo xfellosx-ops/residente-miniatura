@@ -389,6 +389,19 @@
       ]
      ],
      "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Hipercalciuria: escalonamiento",
+     "items": [
+      "Líquidos >2–2.5 L y sodio ≤2 g",
+      "Calcio dietético normal",
+      "Tiazida de acción larga",
+      "Citrato de potasio si hipopotasemia",
+      "Revisar sodio urinario y subir tiazida",
+      "Amilorida si persiste la hipopotasemia"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -516,11 +529,11 @@
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "LUR",
+     "serie": "LTJ-1",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Litiasis de ácido úrico"
+       "Te reto con un caso: Quién requiere evaluación metabólica completa"
       ]
      ],
      "defeat": [
@@ -530,7 +543,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
     }
    ],
    "wild": [
@@ -594,6 +607,37 @@
        "ATR distal, hiperparatiroidismo"
       ]
      ]
+    },
+    {
+     "type": "clasif",
+     "title": "Meta de pH urinario según el cálculo",
+     "bins": [
+      "Alcalinizar",
+      "No alcalinizar"
+     ],
+     "items": [
+      [
+       "Ácido úrico",
+       "Alcalinizar"
+      ],
+      [
+       "Cistina",
+       "Alcalinizar"
+      ],
+      [
+       "Hipocitraturia con oxalato de calcio",
+       "Alcalinizar"
+      ],
+      [
+       "Estruvita",
+       "No alcalinizar"
+      ],
+      [
+       "Fosfato de calcio con pH alto",
+       "No alcalinizar"
+      ]
+     ],
+     "pairs": []
     },
     {
      "type": "memorama",

@@ -54,6 +54,8 @@ Temas con muchas entidades pequeñas (tóxicos, cristales): un súbdito por clas
 | Derrota | Ganglio: repaso de 3 fallos y curación |
 | Zonas | Viñeta animada del daño al entrar y salir; decoración histológica por `tiles`; letreros (`SIGNS`) |
 | Vigilia | Alarma adaptada a las palabras en pantalla; ofrece DESPERTADOR (10 V/F con 6 s); Wake Lock |
+| Sonido | Chiptune generado con Web Audio (sin archivos, sirve sin conexión): pistas `title`, `walk` (tonalidad y tempo por región), `wild`, `trainer`, `boss` (más rápida en fases 3–4), `victory`, `lose`, `map`, `torre`, `puzzle`. Efectos: `chal` (te retan), `door`/`locked`, `travel`, `roar` (jefe), `heal`, `faint`, `power(tipo)` (firma por tipo de movimiento o enemigo). Botón 🔊→🔉 (solo efectos)→🔇 guardado en `rm_snd`. La alarma de inactividad suena aunque esté en silencio |
+| Inicio | MENÚ → 🏠 INICIO vuelve al título sin cerrar; en combate o minijuego, MENÚ pregunta antes de salir |
 
 ## 5. Esquema de un nivel
 - `story.json`: `meta`, `cast`, `zones[]`, `boss`, `creatures`, `typeChart`, `shields`, `nefrodex` y, opcionales, `themes`, `enemyTypes`. Validado por `tools/validate_story.py`. Todo lo propio del nivel vive aquí; el motor no conoce ningún nivel.

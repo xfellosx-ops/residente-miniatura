@@ -325,14 +325,53 @@
      "pairs": []
     },
     {
-     "type": "algoritmo",
-     "title": "ADPKD y tolvaptán",
+     "type": "clasif",
+     "title": "¿ERPAD o Von Hippel-Lindau?",
+     "bins": [
+      "ERPAD",
+      "VHL"
+     ],
      "items": [
-      "Diagnóstico por imagen (criterios de Pei/Ravine)",
-      "Volumen renal total por RM o TC",
-      "Clasificación de Mayo",
-      "Clases 1C–1E: rápida progresión",
-      "Tolvaptán con vigilancia de PFH"
+      [
+       "Quistes hepáticos frecuentes",
+       "ERPAD"
+      ],
+      [
+       "Aneurismas intracraneales",
+       "ERPAD"
+      ],
+      [
+       "Riñones muy grandes con HTA",
+       "ERPAD"
+      ],
+      [
+       "Quistes pancreáticos numerosos",
+       "VHL"
+      ],
+      [
+       "Hemangioblastomas",
+       "VHL"
+      ],
+      [
+       "CCR multifocal de células claras",
+       "VHL"
+      ],
+      [
+       "Feocromocitoma",
+       "VHL"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Aneurisma intracraneal en ERPAD: de menor a mayor intervención",
+     "items": [
+      "Sin indicación de tamizaje: no estudiar",
+      "Aneurisma <5 mm: angio-RM a 6 meses",
+      "Estable: angio-RM anual y luego más espaciada",
+      "Crecimiento o 6–9 mm: decisión individual",
+      "≥10 mm o sintomático: clipaje o espirales"
      ],
      "pairs": []
     }
@@ -553,6 +592,18 @@
        "Diálisis prolongada; cáncer renal"
       ]
      ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "ADPKD y tolvaptán",
+     "items": [
+      "Diagnóstico por imagen (criterios de Pei/Ravine)",
+      "Volumen renal total por RM o TC",
+      "Clasificación de Mayo",
+      "Clases 1C–1E: rápida progresión",
+      "Tolvaptán con vigilancia de PFH"
+     ],
+     "pairs": []
     },
     {
      "type": "memorama",

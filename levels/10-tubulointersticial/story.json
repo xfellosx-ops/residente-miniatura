@@ -243,11 +243,11 @@
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "NTC-1",
+     "serie": "TIJ-7",
      "intro": [
       [
        "Dra. Carmen Triaje",
-       "Te reto con un caso: Nefropatía crónica por litio"
+       "Te reto con un caso: Manejo de la nefrotoxicidad por litio"
       ]
      ],
      "defeat": [
@@ -263,11 +263,11 @@
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "MEN-1",
+     "serie": "TIJ-2",
      "intro": [
       [
        "Dr. Tiro Glándula",
-       "Te reto con un caso: Nefropatía mesoamericana"
+       "Te reto con un caso: Nefritis por alopurinol"
       ]
      ],
      "defeat": [
@@ -320,6 +320,45 @@
       "Biopsia si no mejora o hay duda",
       "Glucocorticoide temprano si se confirma",
       "Reducción en 4–6 semanas"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Nefritis intersticial: IF de la membrana basal tubular",
+     "bins": [
+      "Granular",
+      "Lineal o negativa"
+     ],
+     "items": [
+      [
+       "Lupus con NTI aislada",
+       "Granular"
+      ],
+      [
+       "Sjögren",
+       "Granular"
+      ],
+      [
+       "IgG4",
+       "Granular"
+      ],
+      [
+       "NIA por IBP o antibiótico",
+       "Lineal o negativa"
+      ],
+      [
+       "NIA por AINE, fenitoína o alopurinol",
+       "Lineal o negativa"
+      ],
+      [
+       "TINU",
+       "Lineal o negativa"
+      ],
+      [
+       "Sarcoidosis",
+       "Lineal o negativa"
+      ]
      ],
      "pairs": []
     },
@@ -468,11 +507,11 @@
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "AINS-1",
+     "serie": "TIJ-1",
      "intro": [
       [
        "Dra. Sístole Ruiz",
-       "Te reto con un caso: NTI por AINE con síndrome nefrótico"
+       "Te reto con un caso: Nefritis por rifampicina"
       ]
      ],
      "defeat": [
@@ -488,11 +527,11 @@
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "LEP-1",
+     "serie": "TIJ-3",
      "intro": [
       [
        "Dr. Félix Cultivo",
-       "Te reto con un caso: Leptospirosis: LRA no oligúrica con hipopotasemia"
+       "Te reto con un caso: Imagen y pruebas en NIA"
       ]
      ],
      "defeat": [
@@ -565,6 +604,20 @@
        "Cáncer urotelial"
       ]
      ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "NIA por fármacos: secuencia de manejo",
+     "items": [
+      "Sospechar ante LRA inexplicada",
+      "Suspender el fármaco sospechoso",
+      "Confirmar con biopsia renal",
+      "Esperar 1 semana de evolución",
+      "Si no mejora: prednisona 1 mg/kg, máx. 60 mg",
+      "Reducir para completar 3–6 semanas",
+      "Evitar reexposición"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -695,6 +748,10 @@
    "text": "ADTKD-UMOD: gota precoz + FEUA baja + ERC lenta + sedimento bland + herencia AD. Gen UMOD (uromodulina)."
   },
   {
+   "title": "💎 Manejo de la nefrotoxicidad por litio",
+   "text": "15% con TFG reducida; latencia media a ERCT ~20 años; microquistes distales visibles en RM T2 sin gadolinio. Vigilar creatinina y volumen urinario anualmente."
+  },
+  {
    "title": "💎 Otros genes de ADTKD",
    "text": "ADTKD: UMOD (gota), MUC1 (ERC lenta, difícil de secuenciar), REN (anemia infantil, hiperK, TA baja), HNF1B (quistes, diabetes, hipoMg), SEC61A1."
   },
@@ -703,20 +760,16 @@
    "text": "ADTKD-UMOD: gota juvenil + ERC lenta + sedimento bland, familiar. Sin tratamiento específico; sin recurrencia en trasplante."
   },
   {
-   "title": "💎 Nefritis por inhibidores de puntos de co",
-   "text": "ICI-AIN: suspender ICI y IBP; biopsia si posible (infiltrado T ± granulomas); tratamiento guiado por grado."
+   "title": "💎 Nefritis por rifampicina",
+   "text": "Pocos casos ocurren con tratamiento continuo de 1–10 semanas, sin síntomas extrarrenales ni anticuerpos, con infiltrado intenso y poca lesión tubular."
   },
   {
-   "title": "💎 Nefropatía crónica por litio",
-   "text": "Litio: DI nefrogénica (defecto de concentración 50%, poliuria 20%), NTI crónica con microquistes, latencia a ERCT ~20 años. Tto: bajar dosis, una toma diaria, amilorida, evitar tiazidas e hipovolemia; niveles 0.6–1.25; toxicidad grave >2.5."
+   "title": "💎 Nefritis por alopurinol",
+   "text": "La NIA por alopurinol es más frecuente en ERC y se asocia a exantema, disfunción hepática y a veces Stevens-Johnson."
   },
   {
-   "title": "💎 NTI por AINE con síndrome nefrótico",
-   "text": "NTI por AINE: nefrótico 75% (cambios mínimos), >50 años, ~6 meses de uso, mitad con fenoprofeno, extrarrenales ~10%. Diferenciar de LRA hemodinámica, necrosis papilar y NM por AINE."
-  },
-  {
-   "title": "💎 Nefropatía mesoamericana",
-   "text": "Johnson cap. 66: hombres 20–60 años, campo, calor; proteinuria <1 g/d, hipoK, hipoNa, pérdida de Mg y P, urato ~2 mg/dL más alto que lo esperado. Tto: hidratación sin bebidas azucaradas, evitar AINE, IECA a dosis baja, alopurinol + bicarbonato. En México: Tierra Blanca, Veracruz."
+   "title": "💎 Imagen y pruebas en NIA",
+   "text": "Diagnóstico firme: biopsia o respuesta al retiro del fármaco. Hasta 30% sin fármaco causal identificable."
   }
  ]
 }

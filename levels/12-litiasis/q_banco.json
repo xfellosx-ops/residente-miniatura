@@ -864,5 +864,462 @@
   ],
   "tipo_item": "nueva",
   "peso": 60.0
+ },
+ {
+  "id": "LTJ-1",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Quién requiere evaluación metabólica completa",
+  "caso": "Hombre de 35 años con un primer cálculo de oxalato de calcio expulsado, sin antecedentes.",
+  "enunciado": "¿En cuál de estos pacientes sí está indicada la orina de 24 horas desde el primer episodio?",
+  "perla": "Evaluación básica: electrolitos, creatinina, calcio, fósforo, ácido úrico, EGO con cultivo y análisis del cálculo. PTH si el calcio está alto o en el límite superior, sobre todo con fósforo bajo.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El paciente descrito, por ser hombre",
+   "B": "Mujer con un cálculo de 3 mm expulsado",
+   "C": "Niño de 9 años con su primer cálculo",
+   "D": "Adulto con cólico único y cálculo cálcico",
+   "E": "Paciente con un cálculo estable en 3 años"
+  },
+  "explicaciones": {
+   "A": "Basta la evaluación básica.",
+   "B": "Basta la evaluación básica.",
+   "C": "Correcto. Evaluación completa: todos los niños, cálculos metabólicamente activos (crecen en tamaño o número en 1 año), no cálcicos y grupos demográficos poco propensos.",
+   "D": "Basta la evaluación básica.",
+   "E": "No es metabólicamente activo."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-2",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Calidad de la orina de 24 horas",
+  "caso": "Mujer de 60 kg cuya orina de 24 h contiene 380 mg de creatinina; toma 1 g/día de vitamina C.",
+  "enunciado": "¿Qué se concluye?",
+  "perla": "La supersaturación calculada (oxalato de calcio, brushita, ácido úrico) es más informativa que los constituyentes aislados y se correlaciona con la composición del cálculo.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Recolección adecuada",
+   "B": "Sobrerrecolección",
+   "C": "La vitamina C no afecta el estudio",
+   "D": "Debe hacerse con dieta baja en calcio",
+   "E": "Incompleta; repetir sin vitamina C"
+  },
+  "explicaciones": {
+   "A": "La creatinina es baja para su peso.",
+   "B": "Sería lo contrario.",
+   "C": "Interfiere con el ensayo.",
+   "D": "No se recomiendan recolecciones con dietas especiales: usar la dieta habitual.",
+   "E": "Correcto. Las mujeres deben excretar >10 mg/kg/día (aquí ≥600 mg) y los hombres >15 mg/kg. Suspender vitamina C >100 mg al menos 5 días antes."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-3",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Urocultivo en sospecha de estruvita",
+  "caso": "Mujer con cálculo coraliforme, pH urinario 7.8 y urocultivos repetidamente negativos.",
+  "enunciado": "¿Qué estudio adicional es el más útil?",
+  "perla": "Pedir tipificación del germen aun con <10⁵ UFC/mL. Proteus es el productor de ureasa más frecuente. pH ≥7.0 con bacteriuria sugiere estruvita.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cultivo específico para Ureaplasma urealyticum",
+   "B": "Urocultivo para E. coli productora de ureasa",
+   "C": "Orina de 24 h con dieta baja en calcio",
+   "D": "Gammagrafía con galio",
+   "E": "Cistina urinaria cualitativa"
+  },
+  "explicaciones": {
+   "A": "Correcto. Produce ureasa y no crece en medios habituales.",
+   "B": "E. coli no produce ureasa.",
+   "C": "No es útil.",
+   "D": "No es útil.",
+   "E": "No explica el pH alcalino con infección."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-4",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Imagen en cólico renal",
+  "caso": "Se discuten opciones de imagen en urgencias para sospecha de litiasis.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "La TC sin contraste es más sensible y específica, con ~3 veces la radiación de la urografía. Ultrasonido + placa simple supera a cada uno solo.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La TC de baja dosis es ideal con IMC >30",
+   "B": "La placa simple detecta cálculos de ácido úrico",
+   "C": "La TC es de primera línea en embarazadas",
+   "D": "Ultrasonido inicial sin peores desenlaces",
+   "E": "Se recomienda TC de control rutinaria"
+  },
+  "explicaciones": {
+   "A": "No se recomienda con IMC >30.",
+   "B": "El ácido úrico y la xantina son radiolúcidos.",
+   "C": "El ultrasonido es de primera línea en embarazo y menores de 14 años.",
+   "D": "Correcto. En un ensayo de 2759 pacientes, el ultrasonido dio menos radiación sin diferencias en diagnósticos graves, eventos adversos, dolor ni hospitalizaciones.",
+   "E": "Solo si cambia el manejo; preferir ultrasonido."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-5",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Dieta en litiasis cálcica",
+  "caso": "Hombre con litiasis cálcica recurrente e hipercalciuria; le indicaron eliminar lácteos.",
+  "enunciado": "¿Qué recomendación es correcta?",
+  "perla": "Volumen urinario >2–2.5 L/día, con líquido nocturno. Sodio ≤2 g/día. Café, té, cerveza, vino y jugo de naranja se asocian a menor riesgo.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Dieta baja en calcio estricta",
+   "B": "Calcio normal con poco sodio",
+   "C": "Suplemento de calcio en ayunas",
+   "D": "Suspender la vitamina D con deficiencia",
+   "E": "Bebidas azucaradas para aumentar volumen"
+  },
+  "explicaciones": {
+   "A": "Se considera obsoleta.",
+   "B": "Correcto. En un ECA, la dieta baja en calcio duplicó la recurrencia a 5 años frente a calcio normal con poco sodio y poca proteína animal, por mayor oxaluria.",
+   "C": "Aumenta la absorción sin unir oxalato; preferir lácteos.",
+   "D": "No debe negarse si 25-OH-D <20 ng/mL; preferir colecalciferol.",
+   "E": "Se asocian a más cálculos."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-6",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Ajuste de tiazidas en hipercalciuria",
+  "caso": "Paciente con hipercalciuria tratado con clortalidona 25 mg; a las 8 semanas el calcio urinario sigue alto, el sodio urinario es de 190 mEq/día y el potasio sérico 3.3 mEq/L.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Medir potasio 7–10 días tras iniciar. Indapamida 1.25–2.5 mg altera menos los lípidos. Vigilar pH: el citrato puede favorecer fosfato de calcio. NOSTONE (2023) no mostró beneficio de hidroclorotiazida en recurrencia.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721",
+   "Dhayat NA, et al. Hydrochlorothiazide and prevention of kidney-stone recurrence (NOSTONE). N Engl J Med 2023;388:781-791. doi:10.1056/NEJMoa2209275"
+  ],
+  "serie_id": "LTJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Agregar triamtereno al esquema",
+   "B": "Suspender la tiazida",
+   "C": "Cambiar a furosemida",
+   "D": "Menos sodio y citrato de K",
+   "E": "Dieta baja en calcio"
+  },
+  "explicaciones": {
+   "A": "Puede precipitar como cálculo.",
+   "B": "Debe ajustarse, no suspenderse.",
+   "C": "Es calciúrica.",
+   "D": "Correcto. Con sodio urinario >100 mEq/día la tiazida no funciona bien. Citrato de potasio para la hipopotasemia; si persiste, amilorida 5 mg/día.",
+   "E": "Obsoleta."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-7",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Hiperoxaluria entérica: tratamiento",
+  "caso": "Mujer con bypass gástrico, diarrea crónica, oxalato urinario de 95 mg/24 h y citrato bajo.",
+  "enunciado": "¿Qué combinación es la más adecuada?",
+  "perla": "Oxaluria dietética rara vez >60 mg/24 h; entérica >60, a veces >100; primaria 80–300. Magnesio: gluconato 0.5–1 g una o dos veces al día u óxido 400 mg c/12 h.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Calcio con comidas y citrato líquido",
+   "B": "Restricción estricta de calcio",
+   "C": "Citrato de potasio en tabletas de matriz",
+   "D": "Vitamina C en dosis altas",
+   "E": "Piridoxina a dosis altas"
+  },
+  "explicaciones": {
+   "A": "Correcto. El calcio une oxalato intestinal; la dieta baja en grasa reduce su absorción colónica. En diarrea, el citrato líquido se absorbe mejor; agregar magnesio y líquidos.",
+   "B": "Aumenta la oxaluria.",
+   "C": "Se absorben peor con diarrea.",
+   "D": "Aumenta el oxalato.",
+   "E": "Es para hiperoxaluria primaria tipo 1."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-8",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Litiasis de ácido úrico: alcalinización",
+  "caso": "Hombre obeso con diabetes tipo 2, litiasis de ácido úrico y pH urinario de 5.1.",
+  "enunciado": "¿Cuál es la meta del tratamiento?",
+  "perla": "A pH 6.5 la solubilidad es 6 veces mayor que a 5.3. Resistencia a la insulina: menor amoniogénesis y orina muy ácida. Radiolúcidos.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "pH >7.5 con bicarbonato de sodio",
+   "B": "pH 5.5 con alopurinol como única medida",
+   "C": "Acidificar la orina",
+   "D": "pH 8.0 con acetazolamida",
+   "E": "pH 6.5–7.0 con citrato de potasio"
+  },
+  "explicaciones": {
+   "A": "El sodio favorece urato de sodio, nido de oxalato de calcio.",
+   "B": "El alopurinol se añade si la uricosuria sigue alta, con meta <750 mg/24 h.",
+   "C": "Empeora la litiasis.",
+   "D": "Excesivo; la acetazolamida solo se agrega si el pH sigue bajo con >100 mmol/día de citrato.",
+   "E": "Correcto. Citrato de potasio 40–50 mmol/día ajustado con tira reactiva; no superar 7.0 por riesgo de fosfato de calcio. El pH bajo es la alteración principal."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-9",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Estruvita: antibióticos tras la cirugía",
+  "caso": "Paciente tras nefrolitotomía percutánea por coraliforme de estruvita con Proteus.",
+  "enunciado": "¿Cómo debe manejarse el antibiótico?",
+  "perla": "Cultivar los fragmentos. Cálculos <2 cm: LEOC; mayores: nefrolitotomía percutánea, a menudo combinada. Llamados cáncer de cálculo por su morbilidad.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Suspender al egreso",
+   "B": "Una dosis única perioperatoria",
+   "C": "Reducir a la mitad al esterilizar la orina",
+   "D": "Profilaxis indefinida aunque los cultivos sean negativos",
+   "E": "Solo tratar si hay fiebre"
+  },
+  "explicaciones": {
+   "A": "Persisten bacterias en los fragmentos.",
+   "B": "Insuficiente.",
+   "C": "Correcto. Al esterilizarse (~2 semanas), reducir la dosis a la mitad; suspender tras 3 urocultivos mensuales negativos y vigilar cada mes por 1 año.",
+   "D": "No es necesaria si se erradica.",
+   "E": "No es lo indicado."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-10",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Cistinuria: tratamiento",
+  "caso": "Mujer de 22 años con cistinuria y excreción de 700 mg/día de cistina.",
+  "enunciado": "¿Qué medida es la más adecuada?",
+  "perla": "Defecto de transporte de aminoácidos dibásicos (cistina, ornitina, lisina, arginina). Radiopacos por el azufre; inicio en la 2.ª–3.ª década.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Restricción estricta de metionina",
+   "B": "Volumen urinario de hasta 4 L y tiopronina",
+   "C": "Acidificación urinaria",
+   "D": "Litotricia extracorpórea como primera opción",
+   "E": "Dieta alta en sodio"
+  },
+  "explicaciones": {
+   "A": "Aminoácido esencial: poco práctica.",
+   "B": "Correcto. Solubilidad ~300 mg/L a pH neutro; pH >7.5 la aumenta. Tiopronina 800 mg/día o D-penicilamina forman disulfuros solubles; captopril es otra opción.",
+   "C": "Disminuye la solubilidad.",
+   "D": "Los cálculos de cistina se fragmentan mal.",
+   "E": "El bajo sodio puede reducir la cistinuria."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-11",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Nefrocalcinosis medular frente a cortical",
+  "caso": "Se revisan causas de nefrocalcinosis.",
+  "enunciado": "¿Qué causa produce nefrocalcinosis cortical?",
+  "perla": "Medular en adultos: hiperparatiroidismo, ATR distal, riñón en esponja, acetazolamida, anfotericina, triamtereno. Oxalosis primaria puede ser medular y cortical.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hiperparatiroidismo primario",
+   "B": "Acidosis tubular renal distal",
+   "C": "Riñón en esponja medular",
+   "D": "Furosemida en prematuros",
+   "E": "Necrosis cortical tras choque"
+  },
+  "explicaciones": {
+   "A": "Causa frecuente de medular.",
+   "B": "Causa frecuente de medular.",
+   "C": "Causa frecuente de medular.",
+   "D": "Medular; suele resolver al suspender.",
+   "E": "Correcto. La cortical es distrófica, asimétrica: rechazo, necrosis cortical, TB, etilenglicol, GN crónica."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LTJ-12",
+  "tema_id": 12,
+  "sub": "12",
+  "obj": "12.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Hipomagnesemia familiar con hipercalciuria",
+  "caso": "Niña de 6 años con IVU, poliuria, tetania, nefrocalcinosis, hipomagnesemia e hipercalciuria; TFG reducida.",
+  "enunciado": "¿Cuál es el defecto?",
+  "perla": "GWAS: variantes de claudina 14 asociadas a hipercalciuria. Dent: CLCN5, ligada al X.",
+  "referencias": [
+   "Chen W, Bushinsky DA. Nephrolithiasis and Nephrocalcinosis. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 60, pp. 708-721"
+  ],
+  "serie_id": "LTJ-12",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "CLC-5 en el túbulo proximal",
+   "B": "Alanina-glioxilato aminotransferasa",
+   "C": "Paracelina-1 del asa ascendente",
+   "D": "Transportador de aminoácidos dibásicos",
+   "E": "Exceso de FGF23"
+  },
+  "explicaciones": {
+   "A": "Enfermedad de Dent: varones, proteinuria de bajo peso molecular.",
+   "B": "Hiperoxaluria primaria tipo 1.",
+   "C": "Correcto. Defecto de reabsorción paracelular de calcio y magnesio; puede requerir TRR en la 3.ª década; a veces sordera y afección ocular.",
+   "D": "Cistinuria.",
+   "E": "Raquitismo hipofosfatémico ligado al X; burosumab."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Litiasis renal",
+  "tipo_item": "nueva"
  }
 ]

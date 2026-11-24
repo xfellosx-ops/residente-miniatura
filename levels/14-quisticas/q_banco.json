@@ -1311,5 +1311,616 @@
   "clave": "C",
   "tema": "Enfermedades quísticas del riñón",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-1",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERPAD: meta de presión arterial",
+  "caso": "Mujer de 32 años con ERPAD, TFGe 95 mL/min/1.73 m² y PA domiciliaria de 136/86 mmHg.",
+  "enunciado": "¿Qué meta y fármaco recomienda KDIGO 2025?",
+  "perla": "HALT-PKD A (95–110/60–75): menor crecimiento del VRT y de la masa ventricular izquierda. Fuente más nueva: KDIGO 2025 formaliza la meta; Johnson ya la apoyaba.",
+  "referencias": [
+   "Torres VE, Harris PC. Autosomal Dominant Polycystic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 46, pp. 548-560",
+   "KDIGO 2025 Clinical Practice Guideline for ADPKD. Kidney Int 2025;107(2S):S1-S239. doi:10.1016/j.kint.2024.07.009"
+  ],
+  "serie_id": "CQJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "<140/90 con diurético tiazídico",
+   "B": "<130/80 con calcioantagonista",
+   "C": "≤110/75 en domicilio con IECA o ARA II",
+   "D": "PAS <120 con doble bloqueo del SRAA",
+   "E": "No tratar mientras la TFG sea normal"
+  },
+  "explicaciones": {
+   "A": "Meta demasiado laxa.",
+   "B": "No es la meta para jóvenes de alto riesgo.",
+   "C": "Correcto. Para 18–49 años con ERC G1–G2 y PA >130/85: meta ≤110/75 por medición domiciliaria si se tolera; IECA o ARA II de primera línea.",
+   "D": "PAS <120 es la sugerencia para ≥50 años; el doble bloqueo no aportó beneficio en HALT-PKD.",
+   "E": "Hay daño de órgano blanco temprano."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-2",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "ERPAD: exclusión en donante en riesgo",
+  "caso": "Hermano de 27 años de un paciente con ERPAD de genotipo desconocido; ultrasonido renal sin quistes; desea donar.",
+  "enunciado": "¿Qué conducta es correcta?",
+  "perla": "Diagnóstico en riesgo: ≥3 quistes uni o bilaterales a los 15–39 años. Pruebas genéticas por paneles NGS: informativas en ≥90%; PKD1 tiene seudogenes.",
+  "referencias": [
+   "Torres VE, Harris PC. Autosomal Dominant Polycystic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 46, pp. 548-560"
+  ],
+  "serie_id": "CQJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Aceptarlo: el ultrasonido normal excluye la enfermedad",
+   "B": "Rechazarlo de forma definitiva",
+   "C": "Repetir ultrasonido en 6 meses y aceptar",
+   "D": "Solicitar renografía con captopril",
+   "E": "Completar con RM o estudio genético"
+  },
+  "explicaciones": {
+   "A": "Solo con ≥40 años (0–1 quiste) el VPN es 100%; 30–39 años sin quistes: VPN 98.7%.",
+   "B": "Puede no estar afectado.",
+   "C": "No resuelve la incertidumbre.",
+   "D": "No es útil.",
+   "E": "Correcto. Antes de 30 años un ultrasonido normal no excluye ERPAD, sobre todo PKD2. Menos de 5 quistes en RM o prueba genética negativa apoya la exclusión."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-3",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "ERPAD: hemorragia de quiste",
+  "caso": "Hombre de 56 años con ERPAD y primer episodio de hematuria macroscópica que persiste 10 días.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Hematuria macroscópica en hasta 40% de los pacientes. Litiasis ~20%, con más ácido úrico; citrato de potasio como tratamiento de elección.",
+  "referencias": [
+   "Torres VE, Harris PC. Autosomal Dominant Polycystic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 46, pp. 548-560"
+  ],
+  "serie_id": "CQJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Descartar neoplasia",
+   "B": "Solo reposo e hidratación",
+   "C": "Iniciar ácido tranexámico y esperar",
+   "D": "Embolización arterial inmediata",
+   "E": "Nefrectomía bilateral"
+  },
+  "explicaciones": {
+   "A": "Correcto. Si la hematuria o el dolor duran más de 1 semana, o el primer episodio aparece después de los 50 años, hay que excluir neoplasia.",
+   "B": "Es lo habitual en episodios autolimitados de 2–7 días.",
+   "C": "Uso anecdótico; ajustar a la TFGe.",
+   "D": "Solo si la hemorragia es grave o persistente.",
+   "E": "No está indicada."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-4",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "ERPAD: infección de quiste",
+  "caso": "Mujer con ERPAD, fiebre y dolor en flanco; PET-FDG con captación en un quiste; tras 2 semanas de fluoroquinolona persiste la fiebre.",
+  "enunciado": "¿Cuál es el siguiente paso?",
+  "perla": "Elegir antibióticos lipofílicos (TMP-SMX, fluoroquinolonas). Con hemocultivo y urocultivo negativos e imagen sugestiva: aspirar el quiste. Si recurre: descartar obstrucción, absceso o litiasis y prolongar meses.",
+  "referencias": [
+   "Torres VE, Harris PC. Autosomal Dominant Polycystic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 46, pp. 548-560"
+  ],
+  "serie_id": "CQJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cambiar a nitrofurantoína",
+   "B": "Suspender el antibiótico",
+   "C": "Agregar tolvaptán",
+   "D": "Drenar el quiste infectado",
+   "E": "Nefrectomía bilateral de inmediato"
+  },
+  "explicaciones": {
+   "A": "No penetra los quistes.",
+   "B": "La infección persiste.",
+   "C": "No tiene papel.",
+   "D": "Correcto. Si la fiebre persiste tras 1–2 semanas de tratamiento adecuado, drenar; considerar nefrectomía solo en riñones terminales.",
+   "E": "No es el primer paso."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-5",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Enfermedad hepática poliquística",
+  "caso": "Mujer de 48 años con ERPAD y hepatomegalia masiva sintomática por quistes difusos.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Prevalencia por RM: 58% a 15–24 años, 94% a 35–46 años. ≥4 quistes sugiere poliquistosis. Infección hepática: drenaje más TMP-SMX o fluoroquinolona.",
+  "referencias": [
+   "Torres VE, Harris PC. Autosomal Dominant Polycystic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 46, pp. 548-560"
+  ],
+  "serie_id": "CQJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El genotipo PKD1 predice su gravedad",
+   "B": "La somatostatina reduce el volumen hepático",
+   "C": "La función hepática suele estar muy alterada",
+   "D": "Es más grave en hombres",
+   "E": "Los estrógenos no influyen"
+  },
+  "explicaciones": {
+   "A": "A diferencia del riñón, el genotipo no predice la gravedad hepática.",
+   "B": "Correcto. Reducen 4–6% el volumen el primer año; otras opciones: aspiración y escleroterapia, fenestración, hepatectomía parcial y trasplante.",
+   "C": "Suele conservarse.",
+   "D": "Más quistes y más temprano en mujeres.",
+   "E": "Embarazos múltiples, anticonceptivos y TRH empeoran."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-6",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "ERPAD: manejo del aneurisma intracraneal",
+  "caso": "Paciente de 40 años con ERPAD y aneurisma intracraneal asintomático de 4 mm hallado en tamizaje.",
+  "enunciado": "¿Qué conducta es adecuada?",
+  "perla": "Ruptura a edad media 39 años, con función renal normal y hasta 29% normotensos. KDIGO 2025: tamizaje dirigido (antecedente familiar, ruptura previa, trasplante, cirugía mayor, profesión de riesgo) y acceso si lo desea tras informarse.",
+  "referencias": [
+   "Torres VE, Harris PC. Autosomal Dominant Polycystic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 46, pp. 548-560",
+   "KDIGO 2025 Clinical Practice Guideline for ADPKD. Kidney Int 2025;107(2S):S1-S239. doi:10.1016/j.kint.2024.07.009"
+  ],
+  "serie_id": "CQJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Clipaje quirúrgico inmediato",
+   "B": "Embolización endovascular con espirales",
+   "C": "No volver a estudiarlo",
+   "D": "Angio-RM a 6 meses y luego anual",
+   "E": "Iniciar tolvaptán"
+  },
+  "explicaciones": {
+   "A": "Riesgo de ruptura <0.5%/año.",
+   "B": "Para lesiones con indicación y alto riesgo quirúrgico.",
+   "C": "Requiere vigilancia.",
+   "D": "Correcto. Los menores de 5 mm se vigilan; tratar si crecen. Los ≥10 mm suelen tratarse; 6–9 mm es controvertido.",
+   "E": "No tiene papel."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-7",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "ERPAD: ensayos de terapias no aprobadas",
+  "caso": "Se revisan fármacos probados en ERPAD además de tolvaptán.",
+  "enunciado": "¿Qué resultado es correcto?",
+  "perla": "ALADIN-2 (octreotida): menos progresión a ERCT en enfermedad avanzada. Solo tolvaptán está aprobado. TEMPO 3:4: crecimiento renal de 5.5% a 2.8%/año.",
+  "referencias": [
+   "Torres VE, Harris PC. Autosomal Dominant Polycystic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 46, pp. 548-560"
+  ],
+  "serie_id": "CQJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Lanreotida no frenó la TFGe en DIPAK-1",
+   "B": "Sirolimus y everolimus preservaron la TFG",
+   "C": "El doble bloqueo del SRAA fue superior",
+   "D": "Bosutinib mejoró la TFG",
+   "E": "Pasireotida no redujo el volumen hepático"
+  },
+  "explicaciones": {
+   "A": "Correcto. Redujo el crecimiento de quistes renales y hepáticos, sin efecto en la TFGe.",
+   "B": "Dos ECA grandes sin beneficio.",
+   "C": "Sin beneficio en HALT-PKD.",
+   "D": "Redujo el crecimiento renal con tendencia a peor TFG.",
+   "E": "Lo redujo, con alta incidencia de hiperglucemia."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-8",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "ERPAD y trasplante",
+  "caso": "Hombre con ERPAD en diálisis, riñones moderadamente grandes y asintomáticos, en protocolo de trasplante.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "El trasplante es el tratamiento de elección de la ERCT por ERPAD.",
+  "referencias": [
+   "Torres VE, Harris PC. Autosomal Dominant Polycystic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 46, pp. 548-560"
+  ],
+  "serie_id": "CQJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La supervivencia del injerto es menor",
+   "B": "Los riñones nativos crecen tras el trasplante",
+   "C": "La donación de vivo está contraindicada",
+   "D": "El hígado poliquístico disminuye tras el trasplante",
+   "E": "La nefrectomía pretrasplante ya no es rutinaria"
+  },
+  "explicaciones": {
+   "A": "No difiere de otras causas.",
+   "B": "Disminuyen 38% al año y 41% a 3 años.",
+   "C": "Es posible tras excluir ERPAD en el donante.",
+   "D": "Aumenta 9% al año y 21% a 3 años.",
+   "E": "Correcto. Reservarla para síntomas, infección o falta de espacio."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-9",
+  "tema_id": 14,
+  "sub": "14.a",
+  "obj": "14.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Complejo esclerosis tuberosa: angiomiolipoma",
+  "caso": "Mujer de 25 años con esclerosis tuberosa y angiomiolipoma renal asintomático de 4.5 cm que creció en el último año.",
+  "enunciado": "¿Cuál es el tratamiento de primera línea?",
+  "perla": "TSC renal: AML 85%, quistes 30–47%, CCR 2–3%. Imagen abdominal (TC o RM) cada 1–3 años de por vida. Las complicaciones renales son la principal causa de muerte.",
+  "referencias": [
+   "Guay-Woodford LM. Other Cystic Kidney Diseases. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 47, pp. 561-575"
+  ],
+  "serie_id": "CQJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefrectomía radical",
+   "B": "Solo vigilancia",
+   "C": "Inhibidor de mTOR",
+   "D": "Tolvaptán",
+   "E": "Radiofrecuencia bilateral"
+  },
+  "explicaciones": {
+   "A": "Si no se puede excluir carcinoma, preferir cirugía conservadora de nefronas.",
+   "B": "Riesgo de hemorragia en AML >3 cm en crecimiento.",
+   "C": "Correcto. Las guías internacionales recomiendan everolimus o sirolimus para AML asintomáticos en crecimiento >3 cm.",
+   "D": "No tiene papel.",
+   "E": "No es la primera línea."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-10",
+  "tema_id": 14,
+  "sub": "14.a",
+  "obj": "14.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Síndrome de genes contiguos PKD1/TSC2",
+  "caso": "Lactante con riñones poliquísticos masivos, HTA grave y máculas hipomelanóticas.",
+  "enunciado": "¿Cuál es el mecanismo más probable?",
+  "perla": "TSC2 ~70% y TSC1 ~20%; TSC2 más grave. 70% son casos esporádicos. Policistina-1 y tuberina inhiben mTORC1.",
+  "referencias": [
+   "Guay-Woodford LM. Other Cystic Kidney Diseases. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 47, pp. 561-575"
+  ],
+  "serie_id": "CQJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mutación bialélica de PKHD1",
+   "B": "Deleción de PKD1 y TSC2",
+   "C": "Mutación de HNF1B",
+   "D": "Deleción homocigota de NPHP1",
+   "E": "Mutación de VHL"
+  },
+  "explicaciones": {
+   "A": "Causa ERPAR, sin datos cutáneos de TSC.",
+   "B": "Correcto. TSC2 está en 16p13, junto a PKD1; la deleción grande da poliquistosis infantil grave con datos de TSC y ERCT en la 2.ª–3.ª década.",
+   "C": "Da hipoplasia glomeruloquística y MODY5.",
+   "D": "Causa nefronoptisis.",
+   "E": "No da este cuadro."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-11",
+  "tema_id": 14,
+  "sub": "14.a",
+  "obj": "14.o1",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Von Hippel-Lindau: carcinoma renal",
+  "caso": "Hombre de 34 años con VHL tipo 1, hemangioblastoma cerebeloso y tres carcinomas renales de células claras de 1.5 a 2.5 cm sin indicación de cirugía inmediata.",
+  "enunciado": "¿Qué opción es la más adecuada según la evidencia más reciente?",
+  "perla": "VHL: CCR de células claras multifocal y bilateral, causa de ~50% de las muertes. Tumores <3 cm: vigilancia, ablación o cirugía conservadora. RM abdominal anual desde los 16 años. Fuente más nueva: LITESPARK-004 (NEJM 2021) y aprobación FDA.",
+  "referencias": [
+   "Guay-Woodford LM. Other Cystic Kidney Diseases. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 47, pp. 561-575",
+   "Jonasch E, et al. Belzutifan for renal cell carcinoma in von Hippel-Lindau disease. N Engl J Med 2021;385:2036-2046. doi:10.1056/NEJMoa2103425"
+  ],
+  "serie_id": "CQJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefrectomía radical bilateral",
+   "B": "Sunitinib adyuvante",
+   "C": "Radioterapia renal",
+   "D": "Inhibidor de mTOR",
+   "E": "Inhibidor de HIF-2α: belzutifán"
+  },
+  "explicaciones": {
+   "A": "Se prefiere preservar nefronas.",
+   "B": "El papel de los TKI es controvertido.",
+   "C": "No es el tratamiento.",
+   "D": "Es para TSC.",
+   "E": "Correcto. Aprobado por la FDA en 2021 para CCR, hemangioblastomas y tumores pancreáticos asociados a VHL que no requieren cirugía inmediata."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-12",
+  "tema_id": 14,
+  "sub": "14.a",
+  "obj": "14.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "VHL frente a ERPAD",
+  "caso": "Paciente con pocos quistes renales bilaterales, riñones de tamaño normal, PA normal y quistes pancreáticos numerosos.",
+  "enunciado": "¿Qué diagnóstico sugiere el patrón?",
+  "perla": "Tipo 2: riesgo de feocromocitoma (missense); desde los 2 años medir PA y metanefrinas anualmente. 20% de novo.",
+  "referencias": [
+   "Guay-Woodford LM. Other Cystic Kidney Diseases. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 47, pp. 561-575"
+  ],
+  "serie_id": "CQJ-12",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "ERPAD",
+   "B": "Enfermedad quística adquirida",
+   "C": "Von Hippel-Lindau",
+   "D": "Riñón en esponja medular",
+   "E": "Nefronoptisis"
+  },
+  "explicaciones": {
+   "A": "Riñones grandes, HTA, quistes hepáticos y aneurismas.",
+   "B": "Requiere ERC avanzada y se limita al riñón.",
+   "C": "Correcto. En VHL los quistes pancreáticos son frecuentes y los hepáticos raros; hemangioblastomas en SNC.",
+   "D": "Afecta conductos papilares, con litiasis.",
+   "E": "Riñones pequeños sin quistes pancreáticos."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-13",
+  "tema_id": 14,
+  "sub": "14.b",
+  "obj": "14.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "ERPAR: trasplante",
+  "caso": "Adolescente con ERPAR, ERCT y colangitis recurrente con várices esofágicas.",
+  "enunciado": "¿Qué opción es la más adecuada?",
+  "perla": "No hay correlación entre la gravedad renal y la hepática. PKHD1: detección 80–87%. Supervivencia a 5 años 85–90% tras el primer mes.",
+  "referencias": [
+   "Guay-Woodford LM. Other Cystic Kidney Diseases. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 47, pp. 561-575"
+  ],
+  "serie_id": "CQJ-13",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Trasplante combinado hígado-riñón",
+   "B": "Trasplante renal aislado de cualquier donante",
+   "C": "Diálisis sin trasplante",
+   "D": "Nefrectomía bilateral sola",
+   "E": "Solo derivación portosistémica"
+  },
+  "explicaciones": {
+   "A": "Correcto. Indicado con falla renal más colangitis recurrente o complicaciones graves de hipertensión portal.",
+   "B": "Sin complicaciones hepáticas, el renal aislado es de elección; cualquiera de los padres puede donar, con seguimiento por anomalías sutiles.",
+   "C": "No es lo indicado.",
+   "D": "Solo para dar espacio al injerto.",
+   "E": "No resuelve la colangitis."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-14",
+  "tema_id": 14,
+  "sub": "14.f",
+  "obj": "14.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Nefronoptisis: clínica",
+  "caso": "Niño de 9 años con poliuria, enuresis secundaria, anemia desproporcionada, PA normal y riñones de tamaño normal sin quistes visibles.",
+  "enunciado": "¿Qué dato apoya nefronoptisis?",
+  "perla": "NPHP1: 20% de los casos, deleción homocigota grande. Hasta 25% sin quistes visibles. Senior-Løken: distrofia retiniana. 0.5% de ERCT adulta en un registro neerlandés.",
+  "referencias": [
+   "Guay-Woodford LM. Other Cystic Kidney Diseases. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 47, pp. 561-575"
+  ],
+  "serie_id": "CQJ-14",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "HTA grave temprana",
+   "B": "Defecto de concentración temprano",
+   "C": "Litiasis cálcica recurrente",
+   "D": "Recurrencia en el injerto",
+   "E": "Quistes hepáticos múltiples bilaterales"
+  },
+  "explicaciones": {
+   "A": "La HTA es rara, salvo en la forma infantil.",
+   "B": "Correcto. Inicia a los 4–6 años; pérdida de sal frecuente y ERCT a mediana de 13 años.",
+   "C": "Rara, a diferencia de ERPAD y riñón en esponja.",
+   "D": "No recurre.",
+   "E": "No es característico."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-15",
+  "tema_id": 14,
+  "sub": "14.c",
+  "obj": "14.o3",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Enfermedad quística adquirida y trasplante",
+  "caso": "Candidato a trasplante, 8 años en HD, con enfermedad quística adquirida y un carcinoma renal de 2.2 cm en el riñón izquierdo.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Prevalencia de 5–20% al inicio de diálisis, 80–100% a 10 años; riesgo de CCR 40–100 veces; hombre:mujer 7:1. Subtipo más frecuente: CCR asociado a ERQA (~36%). En trasplantados: ultrasonido anual.",
+  "referencias": [
+   "Mühlfeld AS, Boor P. Acquired Cystic Kidney Disease and Malignant Neoplasms. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 92, pp. 1040-1045"
+  ],
+  "serie_id": "CQJ-15",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefrectomía bilateral profiláctica",
+   "B": "Observación sin más estudios",
+   "C": "Retrasar 5 años el trasplante",
+   "D": "Nefrectomía del riñón afectado",
+   "E": "Iniciar inhibidor de mTOR"
+  },
+  "explicaciones": {
+   "A": "La contralateral profiláctica no se recomienda: morbilidad, anemia y pérdida de función residual.",
+   "B": "Opción en tumores <3 cm de pacientes no candidatos.",
+   "C": "No suele requerirse si el tumor fue asintomático.",
+   "D": "Correcto. Con buena esperanza de vida o en lista de trasplante, considerar nefrectomía aun con tumores <3 cm.",
+   "E": "No es lo indicado."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CQJ-16",
+  "tema_id": 14,
+  "sub": "14.e",
+  "obj": "14.o3",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Riñón en esponja medular: infección",
+  "caso": "Mujer de 30 años con riñón en esponja, litiasis recurrente y urocultivo con estafilococo coagulasa negativo en cuenta baja.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Hipercalciuria e hipocitraturia: dieta, líquidos, citrato de potasio; tiazida si persiste la hipercalciuria. TC sin contraste ha reemplazado a la urografía (imagen en ramo de flores).",
+  "referencias": [
+   "Guay-Woodford LM. Other Cystic Kidney Diseases. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 47, pp. 561-575"
+  ],
+  "serie_id": "CQJ-16",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Tratarlo como patógeno",
+   "B": "Considerarlo contaminante",
+   "C": "Iniciar fosfatos orales",
+   "D": "Suspender el citrato de potasio",
+   "E": "Indicar nefrectomía"
+  },
+  "explicaciones": {
+   "A": "Correcto. Los productores de ureasa, como el SCN, son problemáticos en esta entidad; perseguir cultivos positivos aun con cuentas bajas.",
+   "B": "No en este contexto.",
+   "C": "Contraindicados si hubo IVU por productores de ureasa: riesgo de estruvita.",
+   "D": "Es pilar del tratamiento.",
+   "E": "No está indicada."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades quísticas del riñón",
+  "tipo_item": "nueva"
  }
 ]

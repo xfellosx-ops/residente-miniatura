@@ -9,6 +9,6 @@ const run=(file,mode)=>new Promise(res=>{const p=spawn('node',[path.join(__dirna
  const worker=async()=>{while(todo.length){const [l,m,f]=todo.shift();jobs.push({l,m,...await run(f,m)})}};await Promise.all(Array.from({length:6},worker));
  const rs=await Promise.all(jobs);let bad=0;
  execFileSync("python3",["build.py"],{cwd:root,stdio:"inherit"});execFileSync("python3",["build.py","--pwa"],{cwd:root,stdio:"inherit"});
- for(const f of ["map.js","torre.js","sync.js","pwa.js"])try{execFileSync("node",[path.join(__dirname,f)],{cwd:root,stdio:"inherit"})}catch(e){bad++}
+ for(const f of ["map.js","torre.js","sync.js","pwa.js","audio.js"])try{execFileSync("node",[path.join(__dirname,f)],{cwd:root,stdio:"inherit"})}catch(e){bad++}
  for(const r of rs){const ok=r.code===0&&/DONE/.test(r.out)&&/errors \[\]/.test(r.out);if(!ok)bad++;console.log((ok?'PASA ':'FALLA')+' '+r.l+' '+r.m)}
  process.exit(bad?1:0)})();
