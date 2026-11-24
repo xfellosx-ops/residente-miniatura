@@ -237,51 +237,51 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
-    },
-    {
-     "id": "t0_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
-     "serie": "SNG",
-     "intro": [
-      [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
-      ],
-      [
-       "Dra. Sístole Ruiz",
-       "Mi caso: Caso encadenado: alcalosis por succión gástrica y compensación"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
-      ]
-     ],
-     "questionTopics": [],
      "n": 3
     },
     {
-     "id": "t0_2",
-     "cast": "cx",
-     "specialty": "Cirugía",
-     "serie": "ALB-1",
+     "id": "t0_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "CAD",
      "intro": [
       [
-       "Dr. Rocco Filo",
-       "Si duele, se opera. Si no, también."
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
       ],
       [
-       "Dr. Rocco Filo",
-       "Mi caso: Brecha aniónica corregida por albúmina"
+       "Dr. Tiro Glándula",
+       "Mi caso: Caso encadenado CAD: trastorno primario y compensación"
       ]
      ],
      "defeat": [
       [
-       "Dr. Rocco Filo",
-       "No todo se resuelve con bisturí. Pasa."
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "ALK-1",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: Alcalosis con hipertensión: perfil de renina y aldosterona"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
       ]
      ],
      "questionTopics": [],
@@ -491,51 +491,47 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
-    },
-    {
-     "id": "t1_1",
-     "cast": "endo",
-     "specialty": "Endocrinología",
-     "serie": "CAD",
-     "intro": [
-      [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
-      ],
-      [
-       "Dr. Tiro Glándula",
-       "Mi caso: Caso encadenado CAD: trastorno primario y compensación"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
-      ]
-     ],
-     "questionTopics": [],
      "n": 4
     },
     {
-     "id": "t1_2",
-     "cast": "geria",
-     "specialty": "Geriatría",
-     "serie": "ALK-1",
+     "id": "t1_1",
+     "cast": "valeria",
+     "specialty": "Rival",
+     "serie": "ETG",
      "intro": [
       [
-       "Dr. Anselmo Frágil",
-       "A esta edad la creatinina miente. Mejor no medir."
-      ],
-      [
-       "Dr. Anselmo Frágil",
-       "Mi caso: Alcalosis con hipertensión: perfil de renina y aldosterona"
+       "Dra. Valeria Montes",
+       "Brecha aniónica alta: MUDPILES y listo."
       ]
      ],
      "defeat": [
       [
-       "Dr. Anselmo Frágil",
-       "Cistatina C… debí pedirla."
+       "Dra. Valeria Montes",
+       "¿Brecha osmolar? Mi mnemotecnia no la tenía."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 2
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "UAG-1",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Brecha aniónica urinaria: diarrea frente a ATR distal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
       ]
      ],
      "questionTopics": [],
@@ -561,7 +557,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_1",
      "topic": "Alcoholes tóxicos: brechas, antídoto y hemodiálisis",
      "text": [
       [
@@ -784,7 +780,7 @@
      "id": "t2_0",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "ETG",
+     "serie": "SNG",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -798,27 +794,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 3
     },
     {
      "id": "t2_1",
-     "cast": "infecto",
-     "specialty": "Infectología",
-     "serie": "UAG-1",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "ALB-1",
      "intro": [
       [
-       "Dr. Félix Cultivo",
-       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
       ],
       [
-       "Dr. Félix Cultivo",
-       "Mi caso: Brecha aniónica urinaria: diarrea frente a ATR distal"
+       "Dr. Rocco Filo",
+       "Mi caso: Brecha aniónica corregida por albúmina"
       ]
      ],
      "defeat": [
       [
-       "Dr. Félix Cultivo",
-       "Ajustar la dosis también cura. Lo anoto."
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -975,9 +971,9 @@
      "Gasometría"
     ],
     "questions": [
-     "EKD-1",
-     "EKD-2",
-     "EKD-3"
+     "ACB-1",
+     "ACB-2",
+     "ACB-3"
     ]
    },
    {
@@ -993,8 +989,8 @@
      "Brecha alta"
     ],
     "questions": [
-     "ACB-1",
-     "ACB-2"
+     "ACB-4",
+     "EKD-1"
     ]
    },
    {
@@ -1010,7 +1006,8 @@
      "Brecha normal y alcalosis"
     ],
     "questions": [
-     "ACB-3",
+     "EKD-2",
+     "EKD-3",
      "RESP-1"
     ]
    },

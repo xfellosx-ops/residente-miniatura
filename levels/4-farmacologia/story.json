@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "aine",
      "specialty": "Nefrotóxico",
-     "serie": "AHD",
+     "serie": "ADM",
      "intro": [
       [
        "AINE",
@@ -237,13 +237,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 5
     },
     {
      "id": "t0_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "VAN",
+     "serie": "RAA",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -251,7 +251,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: Vancomicina en hemodiálisis: dosis y niveles"
+       "Mi caso: SRAA: efecto hemodinámico de los IECA sobre la TFG"
       ]
      ],
      "defeat": [
@@ -261,13 +261,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 4
     },
     {
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "AZ3-4",
+     "serie": "TAC",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -275,7 +275,7 @@
       ],
       [
        "Dr. Rocco Filo",
-       "Mi caso: Frecuencia y dosis de furosemida"
+       "Mi caso: Tacrolimus: farmacogenética CYP3A5 y dosificación inicial"
       ]
      ],
      "defeat": [
@@ -285,7 +285,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     }
    ],
    "wild": [
@@ -486,7 +486,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "IMS",
+     "serie": "AHD",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -500,13 +500,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 3
     },
     {
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "TOX",
+     "serie": "VAN",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -514,7 +514,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: Intoxicación por alcoholes tóxicos: brecha osmolal"
+       "Mi caso: Vancomicina en hemodiálisis: dosis y niveles"
       ]
      ],
      "defeat": [
@@ -524,13 +524,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 5
+     "n": 4
     },
     {
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "AZ3-5",
+     "serie": "AZ3-4",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -538,7 +538,7 @@
       ],
       [
        "Dr. Anselmo Frágil",
-       "Mi caso: Dosis inicial de furosemida según TFGe"
+       "Mi caso: Frecuencia y dosis de furosemida"
       ]
      ],
      "defeat": [
@@ -727,7 +727,7 @@
      "id": "t2_0",
      "cast": "uti",
      "specialty": "Terapia Intensiva",
-     "serie": "ANT",
+     "serie": "IMS",
      "intro": [
       [
        "Dr. Max Presor",
@@ -741,13 +741,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 4
     },
     {
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "TAC",
+     "serie": "TOX",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -755,7 +755,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Tacrolimus: farmacogenética CYP3A5 y dosificación inicial"
+       "Mi caso: Intoxicación por alcoholes tóxicos: brecha osmolal"
       ]
      ],
      "defeat": [
@@ -765,13 +765,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 5
     },
     {
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "FRJ-7",
+     "serie": "AZ3-5",
      "intro": [
       [
        "Dra. Sara Esquistocito",
@@ -779,7 +779,7 @@
       ],
       [
        "Dra. Sara Esquistocito",
-       "Mi caso: Antibióticos en IVU con ERC avanzada"
+       "Mi caso: Dosis inicial de furosemida según TFGe"
       ]
      ],
      "defeat": [
@@ -905,9 +905,9 @@
      "Farmacocinética"
     ],
     "questions": [
-     "DIU-1",
-     "DIU-2",
-     "DIU-3"
+     "ANT-1",
+     "ANT-2",
+     "ANT-3"
     ]
    },
    {
@@ -923,8 +923,8 @@
      "Diuréticos y antihipertensivos"
     ],
     "questions": [
-     "DIU-4",
-     "ADM-1"
+     "ANT-4",
+     "ANT-5"
     ]
    },
    {
@@ -940,8 +940,9 @@
      "Ajuste y diálisis"
     ],
     "questions": [
-     "ADM-2",
-     "ADM-3"
+     "ANT-6",
+     "DIU-1",
+     "DIU-2"
     ]
    },
    {
@@ -957,8 +958,8 @@
      "Extracorpóreo"
     ],
     "questions": [
-     "ADM-4",
-     "ADM-5"
+     "DIU-3",
+     "DIU-4"
     ]
    }
   ]

@@ -238,13 +238,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 6
     },
     {
      "id": "t0_1",
      "cast": "gine",
      "specialty": "Ginecología",
-     "serie": "RVJ-1",
+     "serie": "TVR",
      "intro": [
       [
        "Dra. Lucía Bravo",
@@ -258,13 +258,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     },
     {
      "id": "t0_2",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "RVJ-9",
+     "serie": "RVJ-3",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -272,7 +272,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: Enfermedad ateroembólica: diagnóstico"
+       "Mi caso: Bloqueo del SRAA en estenosis renal"
       ]
      ],
      "defeat": [
@@ -522,7 +522,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "RVJ-3",
+     "serie": "RVJ-1",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -542,7 +542,7 @@
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "MTJ-1",
+     "serie": "RVJ-9",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -550,7 +550,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: SHUa: genética del complemento"
+       "Mi caso: Enfermedad ateroembólica: diagnóstico"
       ]
      ],
      "defeat": [
@@ -566,7 +566,7 @@
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "MTJ-2",
+     "serie": "MTJ-1",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -574,7 +574,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: SHUa y trasplante"
+       "Mi caso: SHUa: genética del complemento"
       ]
      ],
      "defeat": [
@@ -796,6 +796,10 @@
    "text": "Estenosis ateroesclerótica: tratamiento médico (ASTRAL, CORAL). Ateroembolia: poscateterismo, eosinofilia. Crisis esclerodérmica: IECA."
   },
   {
+   "title": "💎 Tratamiento de la causa: nefropatía memb",
+   "text": "MN riesgo alto (TFGe <60 o proteinuria >8 g/d 6 meses): rituximab o ciclofosfamida cíclica + esteroides. Remisión → retirar anticoagulación (alb >3)."
+  },
+  {
    "title": "💎 Microangiopatía trombótica: diagnóstico ",
    "text": "MAT = anemia hemolítica con esquistocitos + plaquetopenia + daño orgánico, con Coombs negativo y coagulación normal (distingue de CID)."
   },
@@ -812,20 +816,16 @@
    "text": "MAT por gemcitabina: no reexponer; seguimiento de ERC residual y bloqueo del SRAA."
   },
   {
+   "title": "💎 Fibrilación auricular en hemodiálisis: a",
+   "text": "AF en HD: warfarina (INR 2–3) o apixabán dosis ajustada (ACC/AHA 2023, 2b); decisión compartida; considerar LAAO. Evitar dabigatrán/rivaroxabán."
+  },
+  {
+   "title": "💎 Eliminación renal de los anticoagulantes",
+   "text": "Eliminación renal de DOAC: dabigatrán ~80% > edoxabán ~50% > rivaroxabán ~35% > apixabán ~27%. Apixabán preferido en ERC avanzada."
+  },
+  {
    "title": "💎 MAT: manejo inicial mientras se completa",
    "text": "MAT con plaquetopenia grave: recambio plasmático + esteroides de inmediato (tras tomar ADAMTS13); no esperar el resultado."
-  },
-  {
-   "title": "💎 SHU atípico: tratamiento anti-C5",
-   "text": "ADAMTS13 >10% + sin Shiga = SHUa: eculizumab/ravulizumab (anti-C5) con vacunación antimeningocócica y profilaxis antibiótica. C3 normal no lo excluye."
-  },
-  {
-   "title": "💎 Fisiopatología del SHU atípico",
-   "text": "SHUa: desregulación de la vía alterna (CFH, CFI, MCP, C3, CFB) → C5b-9 en endotelio. C3G: factor nefrítico. PTT: anti-ADAMTS13. SHU típico: toxina Shiga."
-  },
-  {
-   "title": "💎 SHU atípico y trasplante renal",
-   "text": "SHUa y trasplante: riesgo alto de recurrencia (CFH, C3, CFB) → profilaxis anti-C5 desde el trasplante; riesgo bajo (MCP aislada) → sin profilaxis."
   }
  ]
 }

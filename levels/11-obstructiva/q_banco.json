@@ -843,5 +843,44 @@
    "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
   ],
   "tipo_item": "nueva"
+ },
+ {
+  "id": "LMA-4",
+  "serie_id": "LMA",
+  "orden": 4,
+  "sub": "12",
+  "subtema": "Manejo definitivo según tamaño y localización",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Resuelta la sepsis, la tomografía muestra un cálculo de 12 mm en el uréter proximal izquierdo y otro de 25 mm en la pelvis renal derecha, sin infección.",
+  "enunciado": "¿Cuál es el tratamiento definitivo adecuado para cada cálculo?",
+  "opciones": {
+   "A": "Nefrectomía bilateral, porque los cálculos de gran tamaño destruyen el parénquima y causan infecciones recurrentes",
+   "B": "Cirugía abierta de ambos cálculos, porque es el método de elección para los cálculos mayores de 10 mm de diámetro en el riñón y el uréter",
+   "C": "Observación de ambos cálculos, porque son asintomáticos y la expulsión espontánea es esperable en pocas semanas",
+   "D": "Litotricia extracorpórea para el de 25 mm como primera opción, porque es el método menos invasivo y de mayor tasa de éxito en este caso",
+   "E": "Ureteroscopia con láser (o litotricia extracorpórea) para el ureteral de 12 mm; nefrolitotomía percutánea para el renal >20 mm"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No hay indicación de nefrectomía.",
+   "B": "La cirugía abierta es excepcional hoy.",
+   "C": "Un cálculo de 25 mm o uno de 12 mm ureteral difícilmente se expulsa.",
+   "D": "La litotricia extracorpórea es menos eficaz en cálculos de más de 20 mm.",
+   "E": "Para los cálculos renales mayores de 20 mm, la nefrolitotomía percutánea es el tratamiento de elección porque la litotricia extracorpórea tiene menor tasa de libre de cálculo y requiere múltiples sesiones. Para los cálculos ureterales proximales de más de 10 mm se ofrece ureteroscopia con litotricia láser o litotricia extracorpórea, con mayores tasas de libre de cálculo con ureteroscopia. Los cálculos renales menores de 20 mm pueden tratarse con litotricia extracorpórea o ureteroscopia, según la localización (los cálculos del polo inferior de más de 10 mm responden menos a la litotricia)."
+  },
+  "perla": "Renal >20 mm: NLP. Renal <20 mm: ESWL/URS. Ureter >10 mm: URS o ESWL. Polo inferior >10 mm: URS/NLP.",
+  "referencias": [
+   "Assimos D et al. J Urol 2016;196:1153 (AUA)",
+   "Türk C et al. Eur Urol 2016;69:468 (EAU)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 50.9
  }
 ]

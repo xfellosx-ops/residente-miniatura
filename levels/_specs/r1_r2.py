@@ -90,7 +90,7 @@ LEVELS = [
  "boss": {"name": "El Eje", "form": "glandula", "short": "Eje", "color": "#D4A017", "dark": "#6b4f00",
   "intro": [("El Eje", "Soy todos los ejes a la vez. Mueve uno y los demás responden."), (J, "Piensa en asas de retroalimentación, no en listas.")],
   "phases": [("Fisiología", ("El Eje", "¿Quién me enciende?")), ("Relación aldosterona/renina", ("El Eje", "Mídeme bien o me confundes.")), ("Hueso y mineral", ("El Eje", "Ahora el fósforo.")), ("Bloqueo farmacológico", ("El Eje", "Intenta apagarme."))],
-  "outro": [("El Eje", "Equilibrio restaurado."), (B, "Una hormona nunca viene sola. Recuérdalo en la ERC.")]},
+  "outro": [("El Eje", "Equilibrio restaurado."), (B, "Una hormona nunca viene sola. Recuérdalo en la ERC."), ("Donador", "¿Todos mis ejes están en orden? Entonces sí puedo donar.")]},
  "vf": [("La renina se libera cuando disminuye el cloro que llega a la mácula densa.", "V", "También por baja presión en la aferente y estímulo β1."),
         ("La ECA convierte angiotensina I en II y además produce bradicinina.", "F", "La degrada; por eso los IECA causan tos y angioedema."),
         ("La aldosterona actúa en la célula principal aumentando ENaC.", "V", "Retiene sodio y secreta potasio por ROMK."),

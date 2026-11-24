@@ -104,6 +104,9 @@ def build(S):
     out = ROOT / "levels" / S["dir"]; out.mkdir(parents=True, exist_ok=True)
     subs = set(S.get("subs", [])); temas = set(S.get("temas", []))
     bank = [q for q in BANK if q["sub"] in subs or q["tema_id"] in temas]
+    # una serie que cruza temas se trae completa: sin la pregunta 1 se pierde el caso clínico
+    sids = {q["serie_id"] for q in bank}; have = {q["id"] for q in bank}
+    bank += [q for q in BANK if q["serie_id"] in sids and q["id"] not in have]
     own = own_series(S)  # series propias del juego (casos nuevos), declaradas en la spec
     series = {}
     for q in bank: series.setdefault(q["serie_id"], []).append(q)
@@ -121,13 +124,14 @@ def build(S):
     for zi, Z in enumerate(S["zones"]):
         tiles = Z["tiles"]; trainers = []; cuts = []
         for T in Z.get("trainers", []):
-            if len(T) > 3: s, n = own[T[3]][0]["serie_id"], len(own[T[3]])  # serie propia (4.º elemento)
+            if len(T) > 3 and T[3] in own: s, n = own[T[3]][0]["serie_id"], len(own[T[3]])  # serie propia (4.º elemento)
+            elif len(T) > 3 and T[3] in rest: rest.remove(T[3]); s = T[3]; n = len(series[s])  # serie del banco elegida por tema
             elif not rest: break
             else: s = rest.pop(0); n = len(series[s])
             ntr += 1; tid = f"t{zi}_{len(trainers)}"
             trainers.append({"id": tid, "cast": T[0], "specialty": cast[T[0]]["role"].replace("Residente de ", ""), "serie": s,
                              "intro": L([(cast[T[0]]["name"].split(" '")[0], T[1])]), "defeat": L([(cast[T[0]]["name"].split(" '")[0], T[2])]), "questionTopics": [], "n": n})
-        if Z.get("enter"): cuts.append({"trigger": "enter", "lines": L([Z["enter"]])})
+        if Z.get("enter"): cuts.append({"trigger": "enter", "lines": L(Z["enter"] if isinstance(Z["enter"], list) else [Z["enter"]])})
         if Z.get("exit"): cuts.append({"trigger": "exit", "lines": L(Z["exit"] if isinstance(Z["exit"], list) else [Z["exit"]])})
         mg = []
         for M in Z.get("minis", []):

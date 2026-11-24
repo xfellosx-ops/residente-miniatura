@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "gen",
      "specialty": "Genética",
-     "serie": "FAB",
+     "serie": "ACB",
      "intro": [
       [
        "Dra. Alelo Vargas",
@@ -237,13 +237,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 5
+     "n": 4
     },
     {
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "ATB",
+     "serie": "HMG",
      "intro": [
       [
        "Dra. Carmen Triaje",
@@ -251,7 +251,7 @@
       ],
       [
        "Dra. Carmen Triaje",
-       "Mi caso: ATR proximal (tipo 2) aislada"
+       "Mi caso: Hematuria glomerular aislada familiar"
       ]
      ],
      "defeat": [
@@ -261,13 +261,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 3
     },
     {
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "RAA",
+     "serie": "ATB",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -275,7 +275,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: Hipoaldosteronismo hiporreninémico (ATR tipo 4)"
+       "Mi caso: ATR proximal (tipo 2) aislada"
       ]
      ],
      "defeat": [
@@ -285,7 +285,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     }
    ],
    "wild": [
@@ -594,7 +594,7 @@
      "id": "t1_0",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "HMG",
+     "serie": "FAB",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -608,13 +608,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 5
     },
     {
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "NDI",
+     "serie": "RAA",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -622,7 +622,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: Diabetes insípida nefrogénica hereditaria"
+       "Mi caso: SRAA: efecto hemodinámico de los IECA sobre la TFG"
       ]
      ],
      "defeat": [
@@ -638,7 +638,7 @@
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "ACB",
+     "serie": "NDI",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -646,7 +646,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Tubulopatías: Gitelman y Bartter"
+       "Mi caso: Diabetes insípida nefrogénica hereditaria"
       ]
      ],
      "defeat": [
@@ -656,7 +656,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     }
    ],
    "wild": [
@@ -852,6 +852,10 @@
    [
     "Sabio Brenn",
     "No se cura el gen. Se le ganan años a la nefrona."
+   ],
+   [
+    "Paciente",
+    "¿Mi mamá también debe estudiarse? Hoy mismo le marco."
    ]
   ],
   "phases": [
@@ -952,6 +956,10 @@
    "text": "Alport: laminación de la membrana basal (cesta tejida) + ausencia de α3/α4/α5 de colágeno IV (varones XL); mosaico en mujeres."
   },
   {
+   "title": "💎 SRAA: efecto hemodinámico de los IECA so",
+   "text": "IECA/ARA II: ↑Cr hasta 30% en 2–4 semanas es aceptable (vasodilatación eferente). >30%: buscar hipovolemia, AINE, estenosis renal bilateral."
+  },
+  {
    "title": "💎 Síndrome de Alport: genética",
    "text": "Alport: COL4A5 ligado al X (80–85%); AR COL4A3/A4 (15%); AD (COL4A3/A4 heterocigoto) más frecuente de lo creído con NGS (20–30% de cohortes). El antecedente de varones afectados con sordera y ERC orienta a la forma ligada al X."
   },
@@ -960,16 +968,12 @@
    "text": "Alport: hipoacusia neurosensorial + lenticono anterior + retinopatía perimacular. Fabry: córnea verticilata y angioqueratomas."
   },
   {
-   "title": "💎 Tratamiento de la enfermedad de Fabry",
-   "text": "Fabry: ERT (agalsidasa alfa/beta, pegunigalsidasa) o migalastat si variante susceptible y TFGe ≥30; IECA/ARA-II; tratar temprano."
+   "title": "💎 Alcalosis metabólica",
+   "text": "Alcalosis metabólica: Cl urinario <20 (sensible a Cl): vómito, aspiración nasogástrica, diuréticos remotos, poshipercapnia, diarrea clorurada congénita. Cl >20: hiperaldosteronismo, Bartter/Gitelman, diuréticos activos, hipoMg/hipoK graves."
   },
   {
-   "title": "💎 Enfermedad de Fabry: diagnóstico clínico",
-   "text": "Fabry: acroparestesias + angioqueratomas + córnea verticilata + proteinuria; GLA (Xq22), α-Gal A baja; podocitos espumosos y cuerpos de cebra."
-  },
-  {
-   "title": "💎 ATR tipo 4: hipoaldosteronismo hiporreni",
-   "text": "ATR 4: hiperK + acidosis hiperclorémica + BAU positiva; retirar IECA/ARA-II, AINE, TMP-SMX; diurético de asa/tiazida; quelantes de K."
+   "title": "💎 Acidosis metabólica hiperclorémica: brec",
+   "text": "AGU = Na + K − Cl en orina. Negativa (<0) → ↑NH₄⁺ (diarrea, extrarrenal). Positiva → ↓NH₄⁺ (ATR, IR). Winter: PaCO₂ = 1.5×HCO₃ + 8 ± 2."
   }
  ]
 }

@@ -768,5 +768,43 @@
   ],
   "tema": "Bases estructurales y funcionales del riñón",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "BAR-3",
+  "serie_id": "BAR",
+  "orden": 3,
+  "sub": "16.c.v",
+  "subtema": "Podocinopatía: implicaciones terapéuticas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia muestra glomeruloesclerosis focal y segmentaria. Tras 8 semanas de prednisona a dosis plena persiste la proteinuria. El estudio genético identifica una mutación homocigota patogénica en NPHS2 (podocina).",
+  "enunciado": "¿Qué implica el hallazgo para el tratamiento y el pronóstico?",
+  "opciones": {
+   "A": "Es una forma autosómica dominante, con 50% de riesgo de transmisión para la descendencia de la paciente y respuesta variable a esteroides",
+   "B": "El trasplante recurre siempre en las primeras semanas, por lo que está contraindicado en esta forma genética",
+   "C": "La mutación explica un síndrome de Alport, por lo que se debe buscar hematuria, sordera y alteraciones oculares",
+   "D": "Intensificar la inmunosupresión con rituximab y ciclofosfamida, porque la mutación predice respuesta a ellos",
+   "E": "Forma genética resistente a la inmunosupresión: se usa manejo antiproteinúrico y de soporte, y la recurrencia en el injerto es baja"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "NPHS2 es de herencia autosómica recesiva, no dominante.",
+   "B": "La recurrencia en el injerto es infrecuente en las formas genéticas.",
+   "C": "El síndrome de Alport depende de los genes COL4A3-5, no de NPHS2.",
+   "D": "La resistencia por mutación estructural del podocito no mejora con inmunosupresión intensiva, y esta solo agrega toxicidad.",
+   "E": "Las mutaciones de los genes del diafragma de hendidura y del citoesqueleto del podocito (NPHS1 nefrina, NPHS2 podocina, WT1, TRPC6, ACTN4, INF2, CD2AP) causan síndrome nefrótico resistente a esteroides y GEFS. La forma por NPHS2 homocigota es la causa genética más frecuente de síndrome nefrótico resistente en niños, es de herencia autosómica recesiva, no responde a la inmunosupresión (por lo que no se debe exponer al paciente a tratamientos tóxicos de eficacia nula) y se maneja con IECA/ARA II, control de la TA, diuréticos y tratamiento de las complicaciones, con progresión a ERC terminal en la mayoría de los casos. Como el defecto no es de un factor circulante, el riesgo de recurrencia de la GEFS en el injerto es bajo (menor de 10%), a diferencia de la GEFS primaria idiopática."
+  },
+  "perla": "SRNS genético (NPHS2/podocina, AR): sin respuesta a inmunosupresión; antiproteinúricos; recurrencia post-TR baja (<10%). Genes: NPHS1, NPHS2, WT1, TRPC6, ACTN4, INF2.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades hereditarias del riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 25.8
  }
 ]

@@ -3567,5 +3567,235 @@
   ],
   "tema": "Hemodiálisis",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "ANT-1",
+  "serie_id": "ANT",
+  "orden": 1,
+  "sub": "4.i",
+  "subtema": "Fibrilación auricular en hemodiálisis: anticoagulación",
+  "dificultad": "dificil",
+  "caso": "Hombre de 66 años en hemodiálisis tres veces por semana por fístula arteriovenosa, con diabetes tipo 2, hipertensión y enfermedad arterial periférica. Se documenta fibrilación auricular persistente. CHA₂DS₂-VASc de 4 y HAS-BLED de 3. No tiene hemorragia activa.",
+  "enunciado": "¿Qué enfoque tiene mayor sustento actual?",
+  "opciones": {
+   "A": "Decisión compartida: warfarina (INR 2-3) o apixabán ajustado es razonable con evidencia limitada; cierre de orejuela si hay contraindicación",
+   "B": "No anticoagular nunca a un paciente en hemodiálisis por el riesgo de sangrado, sin importar el riesgo embólico",
+   "C": "Dabigatrán 150 mg cada 12 horas por su comodidad, aunque se elimina por vía renal y se dializa de forma parcial",
+   "D": "Ácido acetilsalicílico como alternativa equivalente a los anticoagulantes, con menor riesgo de sangrado y misma protección embólica",
+   "E": "Rivaroxabán 20 mg al día con los alimentos, que no requiere ajuste de dosis por la función renal en hemodiálisis"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En los pacientes en diálisis con fibrilación auricular el riesgo trombótico y el hemorrágico están aumentados, y la evidencia es limitada: los ensayos aleatorizados RENAL-AF (apixabán frente a warfarina) y AXADIA (apixabán 2.5 mg c/12 h frente a fenprocumón) fueron pequeños y sin diferencias claras. Las guías ACC/AHA 2023 consideran razonable usar warfarina (INR 2 a 3) o apixabán a dosis basada en la evidencia en ERC terminal o diálisis (clase 2b), con decisión compartida, y plantean el cierre de la orejuela izquierda en pacientes con contraindicación. El dabigatrán (80% de eliminación renal) y el rivaroxabán (aproximadamente 35%) se evitan por acumulación. Se evalúa el riesgo de sangrado y el acceso vascular.",
+   "B": "No existe contraindicación absoluta en diálisis, y el riesgo de embolia cerebral justifica considerar la anticoagulación.",
+   "C": "El dabigatrán se elimina en 80% por el riñón, se acumula en diálisis y se evita.",
+   "D": "La aspirina no es una alternativa equivalente y aumenta el sangrado sin la misma eficacia.",
+   "E": "El rivaroxabán tiene eliminación renal parcial y escasa evidencia en diálisis."
+  },
+  "perla": "AF en HD: warfarina (INR 2–3) o apixabán dosis ajustada (ACC/AHA 2023, 2b); decisión compartida; considerar LAAO. Evitar dabigatrán/rivaroxabán.",
+  "referencias": [
+   "Joglar JA et al. Circulation 2024;149:e1 (ACC/AHA AF 2023)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "continuacion": "",
+  "obj": "4.o9",
+  "peso": 72.0
+ },
+ {
+  "id": "ANT-2",
+  "serie_id": "ANT",
+  "orden": 2,
+  "sub": "15.h",
+  "subtema": "Calcifilaxis asociada a warfarina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente y el cardiólogo eligen warfarina. Ocho meses después presenta placas violáceas dolorosas, de aspecto reticulado, en los muslos y el abdomen, con ulceración y escara necrótica. INR de 3.2, fósforo de 6.8 mg/dL, calcio de 9.4 mg/dL, PTH de 520 pg/mL, albúmina de 3.1 g/dL.",
+  "enunciado": "¿Cuál es el diagnóstico y el factor farmacológico implicado?",
+  "opciones": {
+   "A": "Celulitis necrosante; el factor es la hiperglucemia, que favorece la infección bacteriana de los tejidos blandos",
+   "B": "Livedo reticularis benigno; no requiere cambios en el tratamiento, porque las placas violáceas son un hallazgo frecuente y leve",
+   "C": "Calcifilaxis; la warfarina favorece la calcificación vascular al inhibir la carboxilación de la proteína Gla",
+   "D": "Necrosis cutánea por heparina; el factor es el fondaparinux, que produce trombocitopenia con trombosis cutánea",
+   "E": "Vasculitis ANCA; el factor es la azatioprina, que desencadena la inflamación necrosante de los vasos cutáneos"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La celulitis necrosante es una infección aguda con fiebre y toxicidad sistémica, no esta presentación subaguda.",
+   "B": "Las lesiones son necróticas y dolorosas, y requieren manejo urgente.",
+   "C": "Las lesiones cutáneas dolorosas, reticuladas, que evolucionan a úlceras con escara necrótica en un paciente en diálisis con hiperfosfatemia, hiperparatiroidismo, hipoalbuminemia, diabetes y obesidad son típicas de calcifilaxis (arteriolopatía urémica calcificante), con calcificación de la media arteriolar, hiperplasia de la íntima y trombosis. La warfarina es el principal factor de riesgo farmacológico (riesgo aumentado de 3 a 13 veces): bloquea la gamma-carboxilación dependiente de vitamina K de la proteína Gla de la matriz (MGP), el principal inhibidor de la calcificación vascular. Otros factores son los análogos de vitamina D, los quelantes cálcicos, el sexo femenino y las alteraciones del calcio-fósforo.",
+   "D": "La necrosis por heparina es una complicación de la trombocitopenia inducida por heparina, sin hiperfosfatemia ni dolor tan intenso en esta distribución.",
+   "E": "La vasculitis ANCA produce púrpura palpable, no placas reticuladas con escara en un paciente en diálisis con este perfil."
+  },
+  "perla": "Calcifilaxis: placas dolorosas retiformes → úlceras con escara; HD, DM, obesidad, ↑P, ↑PTH, albúmina baja. Warfarina ↑ riesgo 3–13× (inhibe MGP).",
+  "referencias": [
+   "Nigwekar SU et al. N Engl J Med 2018;378:1704",
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 49.9
+ },
+ {
+  "id": "ANT-3",
+  "serie_id": "ANT",
+  "orden": 3,
+  "sub": "15.h",
+  "subtema": "Manejo de la calcifilaxis y qué anticoagulante usar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma la sospecha clínica de calcifilaxis. El paciente aún requiere anticoagulación por su fibrilación auricular.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Solo observar la evolución, porque la calcifilaxis suele resolverse sola al controlar el fósforo y el calcio séricos",
+   "B": "Suspender warfarina (apixabán si persiste la indicación); heridas, analgesia, tiosulfato de sodio y control de calcio y fósforo",
+   "C": "Iniciar calcitriol y quelantes cálcicos para corregir el calcio, porque la hipocalcemia es la causa de las lesiones",
+   "D": "Continuar la warfarina y aumentar su dosis, para prevenir la trombosis de los vasos pequeños de la dermis y del tejido graso subcutáneo",
+   "E": "Biopsia cutánea obligatoria antes de cualquier intervención, porque el diagnóstico clínico no permite iniciar tratamiento empírico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Sin intervención la mortalidad es alta.",
+   "B": "La calcifilaxis tiene alta mortalidad (cercana a 50% al año con ulceración) y se maneja con un enfoque multidisciplinario: suspender la warfarina (y sustituirla por un anticoagulante alternativo si aún se necesita, como apixabán a dosis ajustada, o suspenderla si no), cuidado de las heridas con desbridamiento selectivo, control del dolor (opioides), tiosulfato de sodio intravenoso tras la diálisis (evidencia limitada), y control de los factores mineral-óseos con quelantes no cálcicos, cinacalcet o paratiroidectomía en hiperparatiroidismo refractario; se evitan el calcitriol y sus análogos y la sobrecarga de calcio. La nutrición y la optimización de la diálisis también se consideran. La oxigenoterapia hiperbárica es adyuvante.",
+   "C": "El calcitriol y los quelantes cálcicos promueven la calcificación y están contraindicados.",
+   "D": "Aumentar la warfarina agrava la calcificación vascular.",
+   "E": "La biopsia puede producir heridas que no cicatrizan y no es obligatoria si la clínica es típica."
+  },
+  "perla": "Calcifilaxis: suspender warfarina, heridas + dolor, tiosulfato de sodio, quelantes NO cálcicos, evitar calcitriol/Ca; apixabán si aún requiere anticoagular.",
+  "referencias": [
+   "Nigwekar SU et al. N Engl J Med 2018;378:1704",
+   "KDIGO CKD-MBD 2017 Update. Kidney Int Suppl 2017;7:1"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 37.8
+ },
+ {
+  "id": "ANT-4",
+  "serie_id": "ANT",
+  "orden": 4,
+  "sub": "4.f",
+  "subtema": "Eliminación renal de los anticoagulantes orales directos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la discusión, el cardiólogo compara los anticoagulantes orales directos según su depuración renal.",
+  "enunciado": "¿Cuál es el orden correcto de eliminación renal y cuál se prefiere en ERC avanzada?",
+  "opciones": {
+   "A": "Apixabán (80%) > rivaroxabán > edoxabán > dabigatrán (27%); se prefiere dabigatrán por su mayor eliminación renal",
+   "B": "Dabigatrán (≈80%) > edoxabán (≈50%) > rivaroxabán (≈35%) > apixabán (≈27%); el apixabán es el de menor eliminación renal y el preferido",
+   "C": "Todos se eliminan por vía renal en 90%, por lo que ninguno debe usarse en la enfermedad renal avanzada",
+   "D": "El orden es indistinto y no influye en la dosis ni en la elección del anticoagulante en la ERC avanzada",
+   "E": "Todos se eliminan al 100% por vía hepática, por lo que no requieren ajuste alguno en la ERC avanzada"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Invierte las proporciones: el dabigatrán es el de mayor eliminación renal.",
+   "B": "La proporción de eliminación renal de los anticoagulantes orales directos es de cerca de 80% para el dabigatrán, 50% para el edoxabán, 35% para el rivaroxabán y 27% para el apixabán. Por esto el dabigatrán se evita con depuración de creatinina menor de 30 mL/min y el apixabán es el de elección en ERC avanzada y diálisis. Para el apixabán, la reducción a 2.5 mg c/12 h se hace con al menos dos de tres criterios (edad de 80 años o más, peso de 60 kg o menos, creatinina de 1.5 mg/dL o más) en pacientes sin diálisis; en hemodiálisis, la ficha indica 5 mg c/12 h con reducción si la edad es de 80 años o más o el peso es de 60 kg o menos. Los pacientes con prótesis valvular mecánica o síndrome antifosfolípido no deben recibir anticoagulantes orales directos.",
+   "C": "Ninguno se elimina 90% por vía renal.",
+   "D": "El grado de eliminación renal determina la acumulación y la dosis.",
+   "E": "Todos tienen al menos algo de eliminación renal, que va de 27% a 80%."
+  },
+  "perla": "Eliminación renal de DOAC: dabigatrán ~80% > edoxabán ~50% > rivaroxabán ~35% > apixabán ~27%. Apixabán preferido en ERC avanzada.",
+  "referencias": [
+   "Joglar JA et al. Circulation 2024;149:e1 (ACC/AHA AF 2023)",
+   "Comprehensive Clinical Nephrology (farmacología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o6",
+  "peso": 65.4
+ },
+ {
+  "id": "UCV-1",
+  "serie_id": "UCV",
+  "orden": 1,
+  "sub": "7.0",
+  "subtema": "Hipertrofia ventricular izquierda en la ERC: mecanismos y manejo",
+  "dificultad": "moderada",
+  "caso": "Hombre de 55 años con ERC G4 y presión de 148/88 mmHg, hemoglobina de 9.9 g/dL, fósforo de 5.6 mg/dL, FGF23 elevado. El ecocardiograma muestra hipertrofia ventricular izquierda concéntrica con masa de 142 g/m², fracción de eyección de 58% y disfunción diastólica. Es asintomático. Su médico pregunta qué factores contribuyen y qué hacer.",
+  "enunciado": "¿Cuál es la afirmación correcta?",
+  "opciones": {
+   "A": "Es un hallazgo benigno sin valor pronóstico, porque la hipertrofia concéntrica es una adaptación fisiológica al esfuerzo del corazón",
+   "B": "No mejora con ninguna intervención ni con el trasplante renal, porque la fibrosis del miocardio es siempre irreversible",
+   "C": "Se debe solo a la hipertensión, sin otros factores, por lo que basta con controlar la presión arterial para revertirla",
+   "D": "HVI por sobrecarga de presión y volumen, con FGF23, uremia e inflamación; mejora al controlar TA, volumen y anemia",
+   "E": "Se previene únicamente con digoxina, que reduce la masa ventricular y mejora la función diastólica en la ERC avanzada"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La hipertrofia ventricular predice insuficiencia cardiaca y mortalidad cardiovascular.",
+   "B": "Mejora con el control de presión y volumen, la intensificación de diálisis y el trasplante.",
+   "C": "La hipertensión no es el único factor; participan el volumen, la anemia y los factores urémicos.",
+   "D": "La hipertrofia ventricular izquierda aparece en cerca de 75% de los pacientes al iniciar diálisis y es un factor independiente de insuficiencia cardiaca y mortalidad. Sus mecanismos son la sobrecarga de presión (hipertensión, rigidez aórtica por calcificación, estenosis aórtica) y de volumen (retención de sodio y agua, anemia, fístula arteriovenosa), junto con factores no hemodinámicos propios de la uremia: el FGF23 elevado (efecto directo sobre los cardiomiocitos), la activación del SRAA y del simpático, la inflamación, la resistencia a la insulina y las toxinas urémicas (como el p-cresol). La regresión se logra con el control de la presión y del volumen (peso seco), la corrección parcial de la anemia, el control del fósforo y del hiperparatiroidismo, la intensificación de la diálisis (mayor frecuencia o duración) y, sobre todo, con el trasplante renal. La disfunción diastólica es la expresión funcional habitual.",
+   "E": "La digoxina no previene la hipertrofia ventricular."
+  },
+  "perla": "HVI: ~75% al inicio de diálisis; sobrecarga de presión + volumen + factores urémicos (FGF23, SRAA, inflamación). Tratar PA, peso seco, anemia, PTH/fósforo; trasplante regresa. Pronóstico adverso.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedad cardiovascular en la ERC)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 7,
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "continuacion": "",
+  "obj": "7.o6",
+  "peso": 49.7
+ },
+ {
+  "id": "UCV-3",
+  "serie_id": "UCV",
+  "orden": 3,
+  "sub": "7.a",
+  "subtema": "Estatinas en la ERC: no diálisis y al iniciar diálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Retrocediendo en el tiempo: cuando el paciente tenía ERC G4 (60 años, no diabético, sin enfermedad coronaria, LDL de 135 mg/dL) no recibía estatina. Ahora, ya en hemodiálisis desde hace 6 meses, su LDL es de 128 mg/dL y se discute si iniciarla.",
+  "enunciado": "¿Qué recomendación corresponde a cada etapa?",
+  "opciones": {
+   "A": "Estaba contraindicada en la ERC G4 y ahora está indicada en diálisis, por el mayor riesgo cardiovascular global de la etapa",
+   "B": "Debió indicarse en la etapa no dialítica, y ahora debe iniciarse siempre al comenzar la diálisis, sin importar la edad ni el LDL",
+   "C": "Con ≥50 años y ERC no dialítica estaba indicada estatina (SHARP); en diálisis no se inicia (4D, AURORA) pero se continúa",
+   "D": "No hubo indicación en ninguna etapa, porque en la ERC los lípidos no se relacionan con el riesgo cardiovascular",
+   "E": "Estaban indicados los fibratos en lugar de la estatina en ambas etapas de la ERC, por su efecto sobre los triglicéridos y el HDL"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La ERC no contraindica la estatina; en la etapa no dialítica estaba indicada, y en diálisis no se inicia de rutina.",
+   "B": "Iniciar siempre al comenzar la diálisis no tiene respaldo, porque 4D y AURORA fueron neutros.",
+   "C": "Las guías KDIGO de lípidos recomiendan tratar con estatina (o estatina más ezetimiba) a los adultos de 50 años o más con ERC no dependiente de diálisis (TFGe menor de 60), según el ensayo SHARP (simvastatina más ezetimiba redujo cerca de 17% los eventos ateroscleróticos mayores); en los menores de 50 con ERC, se indica si hay enfermedad coronaria, diabetes, antecedente de ictus o riesgo cardiovascular a 10 años mayor de 10%. En los pacientes que ya están en diálisis, los ensayos 4D (atorvastatina en diabéticos) y AURORA (rosuvastatina) no mostraron reducción de los desenlaces cardiovasculares, por lo que no se recomienda iniciar una estatina de rutina, pero, si el paciente ya la tomaba antes de la diálisis, se continúa. En trasplantados se recomienda estatina según el riesgo. La rosuvastatina y la simvastatina requieren ajuste de dosis con TFGe baja.",
+   "D": "La ERC no es una contraindicación; el beneficio demostrado en SHARP obliga a considerarla en la etapa no dialítica.",
+   "E": "Los fibratos no han demostrado reducir eventos de forma consistente y aumentan la creatinina sérica."
+  },
+  "perla": "Estatina ± ezetimiba en ERC no dialítica ≥50 años (SHARP). No iniciar de rutina en diálisis (4D, AURORA neutros), pero continuar si ya la usaba. Ajustar dosis de rosuvastatina/simvastatina.",
+  "referencias": [
+   "SHARP Collaborative Group. Lancet 2011;377:2181",
+   "KDIGO 2013 Lipid Management in CKD. Kidney Int Suppl 2013;3:259"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 7,
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "obj": "7.o10",
+  "peso": 30.4
  }
 ]

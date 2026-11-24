@@ -4846,5 +4846,394 @@
   ],
   "tema": "Trasplante renal",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "FSGS-1",
+  "serie_id": "FSGS",
+  "orden": 1,
+  "sub": "9.c.3",
+  "subtema": "GEFS: primaria vs secundaria",
+  "dificultad": "dificil",
+  "caso": "Hombre de 31 años con edema de inicio rápido en 3 semanas, IMC 24 kg/m². Creatinina 1.1 mg/dL, albúmina 1.9 g/dL, colesterol 410 mg/dL, proteinuria 9.2 g/24 h, hematuria microscópica mínima. VIH, VHB, VHC, anti-PLA2R y serología lúpica negativos. La biopsia muestra esclerosis segmentaria en 6 de 20 glomérulos (variante NOS) con borramiento difuso (>80%) de los pedicelos en microscopía electrónica y sin glomerulomegalia.",
+  "enunciado": "¿Cuál es la interpretación y qué debe completarse antes de tratar?",
+  "opciones": {
+   "A": "GEFS adaptativa por hiperfiltración: se trata solo con pérdida de peso y bloqueo del SRAA, sin estudios adicionales ni inmunosupresión",
+   "B": "GEFS con patrón de podocitopatía primaria; falta descartar causas secundarias y genéticas (fármacos, infecciones, APOL1)",
+   "C": "Nefropatía membranosa: el diagnóstico se confirma con anti-PLA2R, aunque ya resultó negativo en este paciente con proteinuria",
+   "D": "Enfermedad de cambios mínimos con lesión muestreada: se trata igual con esteroides y no se requiere más estudio diagnóstico",
+   "E": "Nefropatía diabética nodular, por la proteinuria nefrótica en un paciente joven con hematuria mínima"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El perfil adaptativo (obesidad, proteinuria lentamente progresiva, albúmina conservada, glomerulomegalia, borramiento segmentario) no corresponde a este caso.",
+   "B": "La GEFS «primaria» se sospecha por síndrome nefrótico de inicio abrupto con hipoalbuminemia grave y borramiento podocitario difuso (>80%); la secundaria o adaptativa cursa con proteinuria subnefrótica gradual, albúmina casi normal, glomerulomegalia, variante perihiliar y borramiento segmentario. Antes de iniciar esteroides se deben excluir causas secundarias (VIH, parvovirus B19, interferón, pamidronato, litio, heroína, reflujo vesicoureteral, drepanocitosis, obesidad, masa renal reducida) y causas genéticas (APOL1 G1/G2 en ancestría africana, NPHS1/2, WT1, INF2, ACTN4, TRPC6, COL4A3-5), cuyo hallazgo evita inmunosupresión inútil.",
+   "C": "La nefropatía membranosa requiere engrosamiento de la MBG y depósitos subepiteliales; el anti-PLA2R negativo y la biopsia no lo sugieren.",
+   "D": "El hallazgo de esclerosis segmentaria define GEFS; los cambios mínimos con lesión no muestreada se consideran, pero el borramiento difuso y el tratamiento no cambian el requerimiento de evaluar causas secundarias.",
+   "E": "No hay antecedente de diabetes ni nódulos de Kimmelstiel-Wilson."
+  },
+  "perla": "GEFS primaria: SN abrupto, alb <2.5–3, FPE difuso. Adaptativa: gradual, alb normal, glomerulomegalia/perihiliar, FPE parcial. Siempre excluir secundaria/genética (APOL1, NPHS2, INF2, TRPC6, COL4).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "De Vriese AS et al. J Am Soc Nephrol 2018;29:759 (clasificación de GEFS)"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "FSGS-2",
+  "serie_id": "FSGS",
+  "orden": 2,
+  "sub": "9.c.3",
+  "subtema": "GEFS primaria: tratamiento inicial",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se descartan causas secundarias y las variantes genéticas del panel son negativas. Pesa 80 kg, sin diabetes ni infección activa.",
+  "enunciado": "¿Cuál es el tratamiento inicial?",
+  "opciones": {
+   "A": "Prednisona 1 mg/kg/día (máx. 80 mg) o 2 mg/kg a días alternos, 4 semanas mínimo y hasta 16 si la respuesta es lenta, con soporte",
+   "B": "Solo IECA/ARA-II y observar durante 12 meses, sin inmunosupresión, porque la proteinuria nefrótica suele remitir sola",
+   "C": "Rituximab como primera línea en la GEFS primaria del adulto, por su perfil de seguridad y su eficacia",
+   "D": "Ciclofosfamida oral 2 mg/kg/día durante 12 semanas como inicio, sin glucocorticoides previos y con vigilancia",
+   "E": "Tacrolimus en monoterapia sin esteroides como primera línea, con valles de 5 a 8 ng/mL durante un año"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La GEFS primaria con síndrome nefrótico es tratada con glucocorticoides en dosis altas (prednisona 1 mg/kg/día, máx. 80 mg) durante al menos 4 semanas y hasta 16 semanas si hay respuesta parcial, antes de declarar resistencia; después, reducción gradual. Se añaden IECA/ARA-II, iSGLT2 cuando la TFG lo permite, estatinas, restricción de sodio y diuréticos. Los pacientes con intolerancia a esteroides o con contraindicaciones reciben inhibidores de calcineurina.",
+   "B": "Con síndrome nefrótico franco, la espera sin tratamiento inmunosupresor expone a complicaciones y progresión.",
+   "C": "El rituximab no es de primera línea en GEFS del adulto y se reserva a casos seleccionados.",
+   "D": "La ciclofosfamida no mostró beneficio en GEFS resistente a esteroides.",
+   "E": "Los inhibidores de calcineurina son segunda línea o alternativa si hay contraindicación a esteroides."
+  },
+  "perla": "GEFS primaria: prednisona 1 mg/kg (máx 80 mg) 4–16 sem antes de definir resistencia. Resistencia → CNI ≥6 m. Remisión completa predice supervivencia renal.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 69.0
+ },
+ {
+  "id": "FSGS-3",
+  "serie_id": "FSGS",
+  "orden": 3,
+  "sub": "9.c.3",
+  "subtema": "GEFS resistente a esteroides",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras 16 semanas de prednisona 80 mg/día con reducción, la proteinuria sigue en 8.4 g/24 h (disminución <50%), albúmina 2.1 g/dL y creatinina 1.4 mg/dL (TFGe 68).",
+  "enunciado": "¿Cuál es la conducta apropiada?",
+  "opciones": {
+   "A": "Iniciar micofenolato como monoterapia, que es el tratamiento de elección en la GEFS resistente a esteroides",
+   "B": "Repetir la biopsia y suspender cualquier inmunosupresión hasta tener el nuevo resultado histológico y genético",
+   "C": "Mantener los esteroides en dosis altas por 6 meses más, hasta lograr la remisión completa, con vigilancia de la glucemia y del peso",
+   "D": "Resistencia a esteroides: iniciar un inhibidor de calcineurina con prednisona baja ≥6 meses, vigilando niveles y nefrotoxicidad",
+   "E": "Agregar ciclofosfamida oral a la prednisona, que es el esquema de segunda línea con mejor respuesta en la GEFS resistente a esteroides"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El micofenolato en monoterapia es ineficaz en GEFS resistente; solo se emplea con otras estrategias como ahorrador.",
+   "B": "Suspender la inmunosupresión en SN con proteinuria de 8 g/día expone a progresión y complicaciones.",
+   "C": "Prolongar los esteroides altos más de 16 semanas incrementa efectos adversos sin beneficio demostrado.",
+   "D": "La GEFS con proteinuria que no cede tras 16 semanas de esteroides se considera resistente. KDIGO sugiere un inhibidor de calcineurina (ciclosporina 3–5 mg/kg/día con niveles pico/valle objetivo, o tacrolimus 0.05–0.1 mg/kg/día con nivel 5–10 ng/mL) con prednisona en dosis baja por al menos 6 meses; si hay respuesta, se continúa 12 meses o más con reducción lenta. Se monitoriza función renal, magnesio, potasio, TA y se evita en TFG <30–40 mL/min por nefrotoxicidad. Persistir con esteroides altos solo suma toxicidad.",
+   "E": "La ciclofosfamida no es eficaz en GEFS resistente a esteroides."
+  },
+  "perla": "GEFS SR: CNI (CsA 3–5 mg/kg o Tac 0.05–0.1 mg/kg, nivel 5–10) + pred baja ≥6 m. Si respuesta, continuar 12 m. Evitar CNI con TFG <30–40.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Cattran DC et al. Kidney Int 1999;56:2220"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "PHX-1",
+  "serie_id": "PHX",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Hiperoxaluria primaria tipo 1: diagnóstico",
+  "dificultad": "dificil",
+  "caso": "Varón de 19 años con litiasis recurrente desde los 6 años, nefrocalcinosis bilateral en la ecografía y TFGe de 38 mL/min/1.73 m². No tiene enfermedad intestinal ni antecedentes de ingesta de vitamina C. Oxalato en orina de 24 horas de 1.4 mmol/1.73 m² (normal menor de 0.45) con glicolato urinario elevado. Una hermana falleció por insuficiencia renal a los 25 años.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y el defecto de base?",
+  "opciones": {
+   "A": "Acidosis tubular renal distal hereditaria, con nefrocalcinosis, hipocitraturia y acidosis metabólica hiperclorémica",
+   "B": "Hiperoxaluria primaria tipo 1: déficit hepático de alanina-glioxilato aminotransferasa (AGXT), autosómico recesivo",
+   "C": "Hiperparatiroidismo primario, con hipercalcemia, hipercalciuria y litiasis cálcica recurrente en el adulto joven",
+   "D": "Hiperoxaluria entérica por malabsorción de grasas, con litiasis de oxalato de calcio y enfermedad intestinal previa",
+   "E": "Cistinuria tipo A, con cálculos de cistina radiolúcidos y cristales hexagonales en el sedimento urinario"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La ATR distal produce hipocitraturia y acidosis, no oxaluria elevada.",
+   "B": "Litiasis desde la infancia, nefrocalcinosis, ERC temprana con historia familiar y oxaluria muy elevada (mayor de 0.7 mmol/1.73 m²/día) con glicolato elevado sugieren hiperoxaluria primaria tipo 1, causada por mutaciones en AGXT, que codifica la alanina-glioxilato aminotransferasa peroxisomal hepática (requiere piridoxal fosfato). Su déficit desvía el glioxilato hacia oxalato, que no se metaboliza y se excreta por el riñón. Los tipos 2 (GRHPR, con L-glicerato elevado) y 3 (HOGA1) son menos graves. El diagnóstico se confirma con estudio genético.",
+   "C": "El hiperparatiroidismo primario cursa con hipercalcemia.",
+   "D": "La hiperoxaluria entérica requiere enfermedad intestinal y no se presenta en la infancia con glicolato elevado.",
+   "E": "La cistinuria produce cálculos de cistina sin nefrocalcinosis ni oxaluria elevada."
+  },
+  "perla": "PH1 (AGXT): litiasis en la infancia, nefrocalcinosis, ERC temprana, oxaluria >0.7 mmol/1.73 m²/d + glicolato ↑. Tipo 2: L-glicerato. Confirmar con genética.",
+  "referencias": [
+   "Cochat P, Rumsby G. N Engl J Med 2013;369:649",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 40.8
+ },
+ {
+  "id": "PHX-2",
+  "serie_id": "PHX",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Hiperoxaluria primaria: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente aún no tiene síntomas de oxalosis sistémica y su TFGe es de 38 mL/min/1.73 m².",
+  "enunciado": "¿Cuál es el tratamiento médico adecuado?",
+  "opciones": {
+   "A": "Restricción de calcio y vitamina C en dosis altas, para reducir la absorción intestinal y la producción de oxalato",
+   "B": "Observación hasta que llegue a diálisis, porque no existe tratamiento médico que modifique la historia natural",
+   "C": "Solo tiazidas, porque reducen la calciuria y con ello la formación de cálculos de oxalato en la hiperoxaluria",
+   "D": "Prednisona y ciclofosfamida, porque la nefrocalcinosis y la ERC se deben a una enfermedad inmunomediada",
+   "E": "Hidratación alta, citrato de potasio, prueba con piridoxina y lumasiran (ARNi contra la glicolato oxidasa)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La restricción de calcio aumenta el oxalato absorbido, y la vitamina C produce oxalato.",
+   "B": "Esperar acelera la pérdida de función renal y la oxalosis sistémica.",
+   "C": "Las tiazidas reducen la calciuria, pero no corrigen la sobreproducción de oxalato.",
+   "D": "No es una enfermedad inmunológica.",
+   "E": "El tratamiento conservador de la hiperoxaluria primaria tipo 1 incluye hidratación abundante (más de 3 L/día por 1.73 m² de superficie), inhibidores de cristalización como el citrato de potasio, y una prueba de piridoxina (vitamina B6 en dosis altas), que reduce la oxaluria en una parte de los pacientes con ciertos genotipos. El lumasiran es un ARN de interferencia dirigido al ARNm de la glicolato oxidasa (HAO1) hepática que reduce el sustrato para la síntesis de oxalato y disminuye la oxaluria en alrededor de la mitad o más; se aplica por vía subcutánea. El nedosiran, que inhibe la lactato deshidrogenasa hepática, también se emplea. Se evita la vitamina C."
+  },
+  "perla": "PH1: agua >3 L/1.73 m², citrato de K, prueba de piridoxina, lumasiran (siRNA HAO1) o nedosiran (LDHA). Evitar vitamina C.",
+  "referencias": [
+   "Garrelfs SF et al. N Engl J Med 2021;384:1216 (ILLUMINATE-A)",
+   "Cochat P, Rumsby G. N Engl J Med 2013;369:649"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 40.8
+ },
+ {
+  "id": "EPO-1",
+  "serie_id": "EPO",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Producción renal de eritropoyetina",
+  "dificultad": "moderada",
+  "caso": "Mujer de 49 años con ERC G4 por nefropatía diabética. Hemoglobina de 9.1 g/dL, VCM de 91 fL, reticulocitos bajos, eritropoyetina sérica de 8 mUI/mL (inapropiadamente baja para la anemia), TSAT de 14% y ferritina de 160 ng/mL, PCR de 2.1 mg/dL.",
+  "enunciado": "¿Dónde y cómo se produce normalmente la eritropoyetina?",
+  "opciones": {
+   "A": "En la médula ósea, regulada por el calcio sérico y por la concentración de hierro de los precursores eritroides en desarrollo",
+   "B": "En las células tubulares proximales, en respuesta a la hemoglobina baja detectada por el túbulo del riñón y por el flujo sanguíneo",
+   "C": "En el hígado adulto, regulada por el hierro y por la concentración de hepcidina circulante en la sangre",
+   "D": "En fibroblastos peritubulares de la corteza y médula externa, regulada por la tensión tisular de oxígeno vía HIF-2α",
+   "E": "En el aparato yuxtaglomerular, regulada por la angiotensina II y por la concentración de sodio tubular"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La médula ósea responde a la eritropoyetina, pero no la produce.",
+   "B": "Las células tubulares proximales no son la fuente principal, y no responden a la concentración de hemoglobina.",
+   "C": "El hígado produce eritropoyetina en el feto, y en el adulto es una fuente menor.",
+   "D": "La eritropoyetina del adulto es producida principalmente por fibroblastos peritubulares de la corteza y la médula externa del riñón, que detectan la presión parcial de oxígeno del tejido, no la hemoglobina como tal. En hipoxia, el factor HIF-2α se estabiliza (se inhibe su degradación por las prolil-hidroxilasas), entra al núcleo y activa el gen de EPO. En la ERC, la pérdida de estas células y la transformación en miofibroblastos fibrosos reducen la producción, y las citocinas inflamatorias la inhiben, por lo que la EPO es baja para el grado de anemia (anemia normocítica normocrómica hipoproliferativa).",
+   "E": "El aparato yuxtaglomerular produce renina."
+  },
+  "perla": "EPO: fibroblastos peritubulares (corteza/médula externa), regulada por pO₂ tisular vía HIF-2α. ERC: ↓EPO, anemia normocítica hipoproliferativa.",
+  "referencias": [
+   "Haase VH. Kidney Int Suppl 2021;11:8",
+   "Comprehensive Clinical Nephrology (anemia de la ERC)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "EPO-2",
+  "serie_id": "EPO",
+  "orden": 2,
+  "sub": "7.0",
+  "subtema": "Hepcidina y deficiencia funcional de hierro",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente recibe hierro oral con respuesta pobre. La TSAT sigue en 14%, la ferritina asciende a 420 ng/mL y la PCR persiste elevada. La hepcidina sérica está elevada.",
+  "enunciado": "¿Cuál es el mecanismo del bloqueo del hierro?",
+  "opciones": {
+   "A": "La hepcidina aumenta la absorción duodenal de hierro, pero el hierro oral no alcanza a corregir la anemia",
+   "B": "Sobrecarga de hierro por hemocromatosis hereditaria, con depósito hepático y cardíaco de hierro",
+   "C": "La eritropoyetina elevada aumenta la hepcidina y con ello bloquea el uso del hierro por la médula",
+   "D": "La IL-6 y la menor depuración renal elevan la hepcidina, que degrada la ferroportina y bloquea el hierro",
+   "E": "Pérdida crónica de hierro por sangrado digestivo oculto, que explica por sí sola la saturación baja de transferrina"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La hepcidina disminuye la absorción de hierro al degradar la ferroportina.",
+   "B": "La ferritina de 420 refleja inflamación, y la TSAT baja descarta sobrecarga de hierro.",
+   "C": "La eritropoyetina y la eritropoyesis activa disminuyen la hepcidina.",
+   "D": "La hepcidina, sintetizada por el hígado, regula el hierro sistémico: se une a la ferroportina de los enterocitos, macrófagos y hepatocitos y la degrada, lo que impide la absorción de hierro y su liberación desde los depósitos. En la ERC sus concentraciones están elevadas por la inflamación (IL-6) y por la menor depuración renal, y esto explica la deficiencia funcional de hierro: la ferritina es normal o alta, y la TSAT es baja, con mala respuesta al hierro oral. Se prefiere hierro intravenoso, y el control de la inflamación mejora la respuesta a los agentes estimulantes de la eritropoyesis.",
+   "E": "El sangrado puede contribuir, pero no explica la ferritina alta con TSAT baja y hepcidina elevada."
+  },
+  "perla": "ERC: ↑hepcidina (IL-6, ↓depuración) → ferroportina degradada → ferritina alta/TSAT baja, mala respuesta a hierro oral. Preferir hierro IV.",
+  "referencias": [
+   "Haase VH. Kidney Int Suppl 2021;11:8",
+   "KDIGO 2012 Anemia in CKD"
+  ],
+  "origen": [
+   "David26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 7,
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "obj": "7.o6",
+  "peso": 92.0
+ },
+ {
+  "id": "DGF-1",
+  "serie_id": "DGF",
+  "orden": 1,
+  "sub": "6.a.ii.tx",
+  "subtema": "Función retardada del injerto: definición y factores",
+  "dificultad": "moderada",
+  "caso": "Hombre de 52 años con ERC terminal por nefropatía diabética, en hemodiálisis desde hace 5 años, que recibe un trasplante renal de donante fallecido (muerte circulatoria controlada, 58 años, hipertenso, creatinina terminal de 1.4 mg/dL). El tiempo de isquemia fría fue de 22 horas y la anastomosis vascular se completó sin incidentes. A las 72 horas, la diuresis es de 150 mL/24 h, la creatinina es de 6.8 mg/dL y el potasio de 6.1 mEq/L, por lo que requirió una sesión de hemodiálisis.",
+  "enunciado": "¿Cuál es el diagnóstico clínico y su causa más frecuente?",
+  "opciones": {
+   "A": "Función retardada del injerto (diálisis en la 1.ª semana), por necrosis tubular aguda isquemia-reperfusión",
+   "B": "Estenosis de la arteria renal del injerto, por la hipertensión y la hipoperfusión en el posoperatorio inmediato",
+   "C": "Nefropatía por BK, por el tiempo de evolución en diálisis y la inmunosupresión de inducción con timoglobulina",
+   "D": "Rechazo hiperagudo, por la ausencia de diuresis inmediata y los anticuerpos preformados contra el donador",
+   "E": "Recurrencia de la nefropatía diabética en el injerto, por la hiperglucemia previa y la oliguria posoperatoria inmediata del receptor del injerto"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La función retardada del injerto se define, en su versión más usada, como la necesidad de diálisis durante la primera semana posterior al trasplante (también se describe como diuresis insuficiente o falta de recuperación de la función renal en ese periodo). Afecta hasta 20 a 30% de los trasplantes de donante fallecido y cerca de 5% de los de donante vivo. Su causa más frecuente es la necrosis tubular aguda por lesión de isquemia-reperfusión, favorecida por factores del donante (edad avanzada, hipertensión, donación tras muerte circulatoria, creatinina terminal elevada), de la preservación (isquemia fría prolongada, ausencia de perfusión en máquina) y del receptor (obesidad, diabetes, sensibilización alta, hipotensión). Obliga a descartar otras causas tratables como el rechazo, la trombosis vascular y la obstrucción.",
+   "B": "La estenosis de la arteria renal del injerto se presenta con hipertensión y deterioro semanas o meses después.",
+   "C": "La nefropatía por BK aparece meses después del trasplante, no en los primeros días.",
+   "D": "El rechazo hiperagudo ocurre en minutos a horas por anticuerpos preformados y es muy infrecuente con pruebas cruzadas actuales.",
+   "E": "La nefropatía diabética recurrente en el injerto aparece años después."
+  },
+  "perla": "DGF: diálisis en la primera semana. 20–30% donante fallecido (5% vivo). Causa: NTA isquemia-reperfusión. Factores: donante añoso/DCD, isquemia fría larga, receptor obeso/diabético.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trasplante renal)",
+   "Siedlecki A et al. Am J Transplant 2011;11:2279"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "continuacion": "",
+  "obj": "6.o7",
+  "peso": 28.2
+ },
+ {
+  "id": "DGF-2",
+  "serie_id": "DGF",
+  "orden": 2,
+  "sub": "6.a.ii.tx",
+  "subtema": "Estudio de la disfunción temprana del injerto",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al quinto día persiste la oliguria con requerimiento de diálisis. El nivel de tacrolimus es de 9 ng/mL. No hay fiebre ni dolor sobre el injerto.",
+  "enunciado": "¿Cuál es el estudio inicial recomendado y cuándo se indica la biopsia?",
+  "opciones": {
+   "A": "Biopsia a las 2 horas de cada diálisis, para vigilar de forma seriada la recuperación de la función del injerto",
+   "B": "Angiografía renal del injerto como primer estudio de rutina, antes de cualquier ecografía Doppler o biopsia renal",
+   "C": "Observación sin estudios durante un mes, porque la función retardada del injerto siempre se resuelve sola",
+   "D": "Gammagrafía renal únicamente, sin imagen Doppler, porque basta para descartar causas vasculares y obstructivas",
+   "E": "Eco-Doppler para descartar trombosis, obstrucción, colecciones y fuga; biopsia si no recupera a los 5–7 días"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No hay indicación de biopsiar de rutina después de cada diálisis.",
+   "B": "La angiografía no es el primer estudio por su invasividad y riesgo del contraste.",
+   "C": "Esperar un mes expone a rechazo no tratado y a complicaciones quirúrgicas no diagnosticadas.",
+   "D": "La gammagrafía sola no reemplaza la ecografía Doppler, que descarta complicaciones quirúrgicas y obstrucción.",
+   "E": "La ecografía Doppler es el estudio inicial y de seguimiento de la disfunción temprana del injerto: es rápida, no nefrotóxica y permite descartar trombosis arterial o venosa (ausencia de flujo), estenosis, obstrucción (hidronefrosis), colecciones (linfocele, hematoma, urinoma) y estimar los índices de resistencia. Si el Doppler no revela una causa quirúrgica, y la disfunción persiste más allá de 5 a 7 días, o ante sensibilización alta, retrasplante o discrepancias, se realiza una biopsia del injerto para diferenciar necrosis tubular aguda de rechazo agudo (celular o mediado por anticuerpos), toxicidad por inhibidores de calcineurina o microangiopatía trombótica. La gammagrafía con MAG3 puede complementar la evaluación de la perfusión y de las fugas, y la angiografía se reserva para sospecha de estenosis o trombosis con intención terapéutica."
+  },
+  "perla": "DGF: Doppler primero (trombosis, obstrucción, colecciones). Biopsia si no recupera a los 5–7 días o alto riesgo inmunológico. Nivel de CNI y MAG3 como complementos.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trasplante renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "obj": "6.o7",
+  "peso": 48.3
+ },
+ {
+  "id": "DGF-3",
+  "serie_id": "DGF",
+  "orden": 3,
+  "sub": "6.a.ii.tx",
+  "subtema": "Manejo de la función retardada: protección del injerto",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La ecografía Doppler es normal. La biopsia al séptimo día muestra necrosis tubular aguda con pérdida del borde en cepillo y células epiteliales aplanadas, sin tubulitis, endarteritis ni depósito de C4d, y con vacuolización isométrica leve.",
+  "enunciado": "¿Cuál es el manejo apropiado?",
+  "opciones": {
+   "A": "Mantener la inmunosupresión con ICN en nivel bajo, evitar hipovolemia y nefrotóxicos, dializar según indicaciones y rebiopsiar",
+   "B": "Trasplantectomía inmediata, porque la necrosis tubular aguda del día 7 indica pérdida irreversible del injerto",
+   "C": "Suspender toda la inmunosupresión hasta que el injerto recupere la función, para evitar la nefrotoxicidad directa del tacrolimus",
+   "D": "Administrar pulsos diarios de metilprednisolona y plasmaféresis, por el rechazo mediado por anticuerpos y la necrosis tubular aguda",
+   "E": "Aumentar el tacrolimus al nivel más alto posible para proteger el injerto del rechazo, aunque aumente la nefrotoxicidad tubular"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El tratamiento de la necrosis tubular aguda del injerto es de soporte, porque no existe una terapia específica generalizada: se mantiene un volumen intravascular adecuado y la presión de perfusión, se evitan nefrotóxicos (AINE, contraste, aminoglucósidos), se corrigen la hiperpotasemia y la sobrecarga con diálisis cuando es necesario (evitando hipotensión intradiálisis), y se ajusta la inmunosupresión. Para reducir la nefrotoxicidad vasoconstrictora sobre un injerto isquémico se emplea inducción con timoglobulina con inicio retrasado o niveles bajos del inhibidor de calcineurina, y se mantienen el antimetabolito y los esteroides. Se repite la biopsia si no hay recuperación en 1 a 2 semanas, porque un rechazo puede sobreponerse a la necrosis tubular aguda.",
+   "B": "No hay indicación de trasplantectomía en una necrosis tubular con posibilidad de recuperación.",
+   "C": "Suspender toda la inmunosupresión en un injerto con riesgo inmunológico favorece el rechazo.",
+   "D": "No hay rechazo en la biopsia, por lo que los pulsos y la plasmaféresis no están indicados.",
+   "E": "Los niveles altos de inhibidor de calcineurina empeoran la vasoconstricción en la necrosis tubular y retrasan la recuperación."
+  },
+  "perla": "NTA del injerto: soporte; evitar hipovolemia/nefrotóxicos; CNI diferido o a nivel bajo (con timoglobulina); diálisis si se requiere; rebiopsia si no recupera en 1–2 semanas.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trasplante renal)",
+   "KDIGO Clinical Practice Guideline on the Care of Kidney Transplant Recipients. Am J Transplant 2009;9(Suppl 3):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "obj": "6.o7",
+  "peso": 30.2
  }
 ]

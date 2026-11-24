@@ -4933,5 +4933,686 @@
   "clave": "B",
   "tema": "Alteraciones del equilibrio hidroelectrolítico",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "HMM-3",
+  "serie_id": "HMM",
+  "orden": 3,
+  "sub": "6.a.ii.neo",
+  "subtema": "Hipercalcemia y lesión renal: elección del antirresortivo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras la hidratación, la creatinina de la paciente se estabiliza en 2.5 mg/dL (TFGe de 21 mL/min/1.73 m²) y el calcio sigue en 13.2 mg/dL. Se decide iniciar un antirresortivo.",
+  "enunciado": "¿Qué fármaco es el más apropiado?",
+  "opciones": {
+   "A": "Denosumab, que no requiere ajuste renal, vigilando la hipocalcemia grave; se evita el bisfosfonato por nefrotoxicidad",
+   "B": "Vitamina D, que aumenta la absorción intestinal de calcio y puede agravar la hipercalcemia del paciente con TFGe baja crónica",
+   "C": "Tiazida, que reduce la excreción urinaria de calcio y por ello empeora la hipercalcemia de origen tumoral en el paciente",
+   "D": "Ácido zoledrónico a dosis plena en infusión rápida, sin ajuste de dosis por la TFGe de 21 mL/min/1.73 m² ni vigilancia de la creatinina",
+   "E": "Calcio por vía oral, para evitar la hipocalcemia posterior al tratamiento antirresortivo con el fármaco elegido"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En pacientes con lesión renal o ERC avanzada, los bisfosfonatos aumentan el riesgo de toxicidad renal (necrosis tubular y glomeruloesclerosis colapsante), requieren ajuste de dosis o infusión más lenta, y el ácido zoledrónico no se recomienda con depuración de creatinina menor de 30 mL/min. El denosumab, un anticuerpo monoclonal anti-RANKL, no se elimina por vía renal y es eficaz en hipercalcemia refractaria a los bisfosfonatos, aunque puede causar hipocalcemia grave en ERC avanzada, por lo que requiere vigilancia estrecha del calcio, y suplementación. Si hay hipercalcemia grave con insuficiencia renal refractaria, la hemodiálisis con dializado bajo en calcio es una opción.",
+   "B": "La vitamina D aumenta el calcio.",
+   "C": "Las tiazidas empeoran la hipercalcemia.",
+   "D": "El zoledronato a dosis plena y rápida se asocia a nefrotoxicidad.",
+   "E": "El calcio oral agrava la hipercalcemia."
+  },
+  "perla": "Hipercalcemia + TFG <30: denosumab (sin ajuste renal; vigilar hipoCa). Zoledronato: evitar si CrCl <30. HD si refractaria.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio)",
+   "Perazella MA. Clin J Am Soc Nephrol 2012;7:1713"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "obj": "6.o7",
+  "peso": 59.7
+ },
+ {
+  "id": "FGF-1",
+  "serie_id": "FGF",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "FGF23 como primer marcador alterado en ERC",
+  "dificultad": "moderada",
+  "caso": "Varón de 58 años con diabetes y ERC G3a (TFGe de 52 mL/min/1.73 m²). Calcio de 9.4 mg/dL, fósforo de 3.6 mg/dL, PTH intacta de 58 pg/mL, 25-OH vitamina D de 28 ng/mL. Se envía una muestra de FGF23 y de klotho solubles.",
+  "enunciado": "¿Cuál alteración es la más temprana del metabolismo mineral en la ERC y cuál esperaría encontrar en este paciente?",
+  "opciones": {
+   "A": "Hiperfosfatemia franca, que aparece como primera alteración desde la TFGe de 60 mL/min en todos los pacientes con ERC",
+   "B": "FGF23 elevado, que sube antes que la PTH y la hiperfosfatemia y mantiene el fósforo normal mediante fosfaturia",
+   "C": "Hipercalcemia por exceso de absorción intestinal de calcio, que antecede al aumento de la PTH en la ERC",
+   "D": "PTH mayor de 300 pg/mL desde las etapas tempranas, con hiperplasia paratiroidea nodular y fósforo sérico muy elevado",
+   "E": "Aumento marcado del calcitriol sérico, por mayor actividad de la 1α-hidroxilasa renal en la ERC temprana"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La hiperfosfatemia aparece más tarde, cuando la TFGe desciende por debajo de 30 mL/min/1.73 m² y se agota la compensación por FGF23.",
+   "B": "El FGF23, secretado por osteocitos y osteoblastos, es la primera alteración detectable del metabolismo mineral en la ERC, desde etapas G2 a G3, cuando el fósforo, el calcio y la PTH todavía son normales. Se eleva para compensar la retención de fosfato: actúa en el túbulo proximal con su correceptor klotho y FGFR1, disminuye la expresión de los cotransportadores NaPi-IIa y NaPi-IIc, y aumenta la fosfaturia, con lo que el fósforo sérico permanece normal. El costo es la supresión de la 1α-hidroxilasa (CYP27B1) y la estimulación de la 24-hidroxilasa, con descenso del calcitriol.",
+   "C": "La ERC produce más bien hipocalcemia por el calcitriol bajo, no hipercalcemia.",
+   "D": "Una PTH tan alta se observa en etapas avanzadas, y en este paciente la PTH es normal.",
+   "E": "El calcitriol disminuye porque el FGF23 y la pérdida de masa renal reducen la actividad de la 1α-hidroxilasa."
+  },
+  "perla": "Primer cambio de la ERC-TMO: ↑FGF23 (antes que ↑PTH y ↑P). Mantiene P normal con fosfaturia vía NaPi-IIa/c, a costa de ↓calcitriol.",
+  "referencias": [
+   "Isakova T et al. Kidney Int 2011;79:1370",
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "FGF-2",
+  "serie_id": "FGF",
+  "orden": 2,
+  "sub": "2",
+  "subtema": "FGF23 y metabolismo de la vitamina D",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Cinco años después el paciente tiene TFGe de 24 mL/min/1.73 m², fósforo de 4.9 mg/dL, calcio de 8.6 mg/dL, PTH de 210 pg/mL y calcitriol sérico bajo. El FGF23 está muy elevado.",
+  "enunciado": "¿Cuál es la secuencia fisiopatológica que explica el aumento de la PTH?",
+  "opciones": {
+   "A": "Menos 1α-hidroxilasa por FGF23 y pérdida de nefronas: baja el calcitriol, cae la absorción de calcio y la hipocalcemia estimula la PTH",
+   "B": "La hipercalcemia estimula la secreción de PTH, a través del receptor sensor de calcio de las paratiroides",
+   "C": "El FGF23 aumenta el calcitriol, lo que eleva el calcio y la fosfatemia y por eso aumenta la secreción de PTH",
+   "D": "El aumento del klotho renal incrementa la sensibilidad a FGF23 y por ello eleva la secreción de PTH",
+   "E": "El FGF23 inhibe directamente la liberación de PTH en la ERC avanzada, por lo que la PTH debería disminuir"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la ERC, la caída de la masa de túbulo proximal reduce la actividad de la 1α-hidroxilasa, y el FGF23 la suprime aún más, de modo que disminuye la síntesis de calcitriol. Con menos calcitriol se absorbe menos calcio en el intestino y se pierde la inhibición del gen de la PTH por el receptor de vitamina D; la hipocalcemia, la retención de fosfato y el propio aumento del FGF23 (que reduce el calcitriol) estimulan la hiperplasia de las paratiroides y la secreción de PTH. Así se establece el hiperparatiroidismo secundario.",
+   "B": "La hipocalcemia, no la hipercalcemia, estimula la PTH a través del receptor sensor de calcio.",
+   "C": "El FGF23 disminuye el calcitriol, no lo aumenta.",
+   "D": "El klotho disminuye en la ERC, y su déficit favorece la resistencia al FGF23.",
+   "E": "En la ERC avanzada la paratiroides se vuelve resistente al FGF23 por la baja expresión de klotho y FGFR1, por lo que no frena la PTH."
+  },
+  "perla": "ERC: ↓masa tubular + ↑FGF23 → ↓calcitriol → ↓absorción de Ca → ↑PTH. Hiperfosfatemia y ↓klotho aceleran el hiperparatiroidismo secundario.",
+  "referencias": [
+   "Isakova T et al. Kidney Int 2011;79:1370",
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "FGF-3",
+  "serie_id": "FGF",
+  "orden": 3,
+  "sub": "2",
+  "subtema": "Resistencia de la paratiroides al FGF23",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un nefrólogo comenta que, a pesar del FGF23 muy elevado, el paciente continúa con PTH alta, y que en modelos de ERC el FGF23 normalmente reduce la secreción de PTH.",
+  "enunciado": "¿Cuál es la explicación de esta paradoja?",
+  "opciones": {
+   "A": "La PTH se produce en el riñón y no depende del FGF23, que actúa solo sobre el túbulo proximal y el hueso de forma exclusiva",
+   "B": "El calcitriol bajo aumenta el FGF23, pero a la vez aumenta la sensibilidad de las paratiroides a su efecto supresor",
+   "C": "El FGF23 estimula directamente la secreción de PTH en todas las etapas de la enfermedad renal crónica",
+   "D": "Disminución de la expresión de klotho y de FGFR1 en las paratiroides, con resistencia al efecto supresor del FGF23",
+   "E": "La paratiroides no expresa receptores de calcio, por lo que la regulación de la PTH depende solo del FGF23 circulante"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La PTH se sintetiza en las células principales de las glándulas paratiroides.",
+   "B": "El calcitriol bajo reduce la inhibición de la PTH, no aumenta la sensibilidad.",
+   "C": "El efecto del FGF23 sobre la PTH es supresor, y la resistencia es la que explica la elevación simultánea.",
+   "D": "En condiciones normales el FGF23 suprime la transcripción y la secreción de PTH en las paratiroides mediante FGFR1 y klotho. En la ERC avanzada, la expresión de klotho y de FGFR1 disminuye en el tejido paratiroideo hiperplásico, de modo que la glándula se vuelve resistente al FGF23, y la PTH sigue alta a pesar de concentraciones muy elevadas de FGF23. Esta resistencia, junto con la baja expresión del receptor de vitamina D y del sensor de calcio, explica la progresión del hiperparatiroidismo secundario y su refractariedad al tratamiento médico.",
+   "E": "La paratiroides expresa el receptor sensor de calcio, y su densidad disminuye en la hiperplasia."
+  },
+  "perla": "ERC avanzada: paratiroides resistente al FGF23 (↓klotho/FGFR1), además de ↓VDR y ↓CaSR → HPT secundario refractario.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 69.2
+ },
+ {
+  "id": "RAA-1",
+  "serie_id": "RAA",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "SRAA: efecto hemodinámico de los IECA sobre la TFG",
+  "dificultad": "moderada",
+  "caso": "Mujer de 66 años con diabetes tipo 2, hipertensión y ERC G3b (creatinina basal de 1.7 mg/dL; TFGe de 32 mL/min/1.73 m²), albuminuria de 900 mg/g. Se inicia lisinopril 10 mg. A las dos semanas: creatinina de 2.0 mg/dL, potasio de 5.4 mEq/L, TA de 138/82 mmHg.",
+  "enunciado": "¿Cuál es la interpretación y la conducta adecuada?",
+  "opciones": {
+   "A": "Suspender el IECA y diagnosticar estenosis bilateral de arteria renal sin más estudios, por el aumento de la creatinina",
+   "B": "Aumento hemodinámico esperado (<30%) por dilatación de la arteriola eferente: se continúa el IECA y se repiten creatinina y potasio en 1-2 semanas",
+   "C": "Suspender definitivamente el IECA por nefrotoxicidad, y sustituirlo por un antagonista del calcio para el control de la TA",
+   "D": "Duplicar la dosis de inmediato para compensar la elevación de la creatinina y lograr mayor reducción de la albuminuria",
+   "E": "Añadir un AINE para controlar la TA y reducir la retención de sodio inducida por el IECA en esta paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El aumento es menor de 30% y no justifica suspender ni diagnosticar estenosis sin otros datos.",
+   "B": "La angiotensina II constriñe la arteriola eferente y mantiene la presión intraglomerular; los IECA y ARA II vasodilatan la arteriola eferente, reducen la presión de filtración y producen un descenso inicial de la TFG, con aumento de la creatinina de hasta 30% en las primeras semanas, que es un efecto hemodinámico esperado y no indica daño estructural. La conducta es continuar el fármaco y vigilar creatinina y potasio en 1 a 2 semanas. Si la creatinina sube más de 30% o continúa aumentando, se investiga hipovolemia, uso de AINE o estenosis bilateral de arteria renal, y se reduce o suspende el fármaco.",
+   "C": "Una elevación menor de 30% no justifica suspender un fármaco que protege contra la progresión de la ERC diabética.",
+   "D": "Duplicar la dosis con potasio de 5.4 y creatinina en ascenso es riesgoso sin vigilancia.",
+   "E": "Los AINE aumentan el riesgo de lesión renal aguda hemodinámica y de hiperpotasemia con los IECA."
+  },
+  "perla": "IECA/ARA II: ↑Cr hasta 30% en 2–4 semanas es aceptable (vasodilatación eferente). >30%: buscar hipovolemia, AINE, estenosis renal bilateral.",
+  "referencias": [
+   "Bakris GL, Weir MR. Arch Intern Med 2000;160:685",
+   "KDIGO 2021 Blood Pressure in CKD"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "RAA-2",
+  "serie_id": "RAA",
+  "orden": 2,
+  "sub": "16.d.iii",
+  "subtema": "Hipoaldosteronismo hiporreninémico (ATR tipo 4)",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis semanas después, la paciente tiene potasio de 5.9 mEq/L, bicarbonato de 18 mEq/L, cloro de 108 mEq/L, brecha aniónica de 11, creatinina de 2.1 mg/dL, pH urinario de 5.1 y brecha aniónica urinaria positiva. La renina plasmática y la aldosterona están bajas.",
+  "enunciado": "¿Cuál es el mecanismo de este trastorno?",
+  "opciones": {
+   "A": "ATR proximal tipo 2 con bicarbonaturia, por defecto de la reabsorción de bicarbonato en el túbulo proximal",
+   "B": "ATR distal tipo 1 con defecto de la H⁺-ATPasa, pH urinario mayor de 5.5 e hipopotasemia con nefrocalcinosis",
+   "C": "Pérdida gastrointestinal de bicarbonato por diarrea, con brecha aniónica urinaria negativa y pH urinario ácido, sin hiperpotasemia",
+   "D": "Acidosis láctica por metformina, con brecha aniónica elevada, lactato mayor de 5 mmol/L e hiperpotasemia",
+   "E": "Hipoaldosteronismo hiporreninémico de la nefropatía diabética, agravado por el IECA: menor secreción distal de K⁺ y H⁺ (ATR tipo 4)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La ATR tipo 2 es proximal con pérdida de bicarbonato, hipopotasemia y pH urinario variable, y no se asocia a renina y aldosterona bajas.",
+   "B": "La ATR tipo 1 produce pH urinario mayor de 5.5 e hipopotasemia, mientras que aquí el potasio está alto y el pH urinario es ácido.",
+   "C": "La diarrea cursa con hipopotasemia y brecha aniónica urinaria negativa.",
+   "D": "La brecha aniónica es normal, por lo que no hay un anión no medido como el lactato.",
+   "E": "La diabetes con nefropatía puede disminuir la secreción de renina por daño del aparato yuxtaglomerular (hipoaldosteronismo hiporreninémico), y los IECA, los ARA II, los AINE y los diuréticos ahorradores de potasio reducen aún más la aldosterona o su efecto. La aldosterona estimula el canal ENaC y el ROMK en las células principales y la H⁺-ATPasa de las células intercaladas α; su déficit reduce la secreción de potasio y de protones y produce hiperpotasemia con acidosis metabólica hiperclorémica, brecha aniónica sérica normal, pH urinario menor de 5.5 y brecha aniónica urinaria positiva por menor excreción de amonio. Es la ATR tipo 4."
+  },
+  "perla": "ATR tipo 4: ↑K, acidosis hiperclorémica, pH urinario <5.5, brecha aniónica urinaria positiva. Renina y aldosterona bajas = hiporreninémico (diabetes, AINE, IECA).",
+  "referencias": [
+   "Palmer BF. N Engl J Med 2004;351:585",
+   "Comprehensive Clinical Nephrology (trastornos ácido-base)"
+  ],
+  "origen": [
+   "David26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 74.8
+ },
+ {
+  "id": "RAA-4",
+  "serie_id": "RAA",
+  "orden": 4,
+  "sub": "4.c",
+  "subtema": "Angioedema por IECA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Meses después, con la TA controlada, la paciente acude por edema súbito de labios y lengua sin urticaria ni prurito, sin vía aérea comprometida. Tomaba lisinopril desde hace 4 meses, y el edema comenzó hace 6 horas.",
+  "enunciado": "¿Cuál es el mecanismo y la conducta?",
+  "opciones": {
+   "A": "Reacción alérgica mediada por IgE; continuar el IECA con antihistamínicos para controlar el edema de labios",
+   "B": "Hipersensibilidad tardía; se trata con corticoides y se continúa el IECA a la misma dosis con vigilancia",
+   "C": "Déficit congénito de C1 inhibidor; reiniciar el IECA a la mitad de la dosis tras controlar el edema agudo",
+   "D": "Acumulación de bradicinina por inhibición de la cininasa II; suspender el IECA, vigilar la vía aérea y evitar sacubitrilo/valsartán",
+   "E": "Efecto directo de la angiotensina II sobre el endotelio vascular; se aumenta la dosis del IECA para bloquearlo"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El angioedema por IECA no es mediado por IgE; los antihistamínicos no lo revierten y continuar el fármaco expone a recurrencias con compromiso de la vía aérea.",
+   "B": "No es una hipersensibilidad tardía, y continuar el IECA expone al paciente a riesgo vital.",
+   "C": "El déficit de C1 inhibidor es una causa distinta, y los IECA están contraindicados en estos pacientes.",
+   "D": "La enzima convertidora de angiotensina (cininasa II) degrada también la bradicinina; los IECA aumentan su concentración, lo que produce angioedema sin urticaria, que puede aparecer incluso años después de iniciar el tratamiento, y que no responde bien a antihistamínicos ni a corticoides. Se suspende el IECA definitivamente y se vigila la vía aérea. El sacubitrilo/valsartán, que inhibe la neprilisina (otra enzima que degrada bradicinina), está contraindicado en el antecedente de angioedema por IECA. Los ARA II pueden usarse con cautela, por un riesgo bajo de recurrencia, tras resolver el cuadro.",
+   "E": "La angiotensina II no causa angioedema, y aumentar el IECA agravaría el cuadro."
+  },
+  "perla": "Angioedema por IECA: ↑bradicinina, sin urticaria, puede ser tardío; suspender definitivamente. Contraindicado sacubitrilo/valsartán. ARA II con cautela.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (farmacología antihipertensiva)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o3",
+  "peso": 47.9
+ },
+ {
+  "id": "SHK-3",
+  "serie_id": "SHK",
+  "orden": 3,
+  "sub": "6.0",
+  "subtema": "Elección del cristaloide: balanceado frente a solución salina",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se decide administrar un bolo adicional de líquidos y se discute qué solución usar, considerando el riesgo de lesión renal.",
+  "enunciado": "¿Qué solución se prefiere en el paciente crítico con riesgo de LRA?",
+  "opciones": {
+   "A": "Dextrosa al 5% como líquido de reanimación, por aportar agua libre y energía al paciente crítico",
+   "B": "Hidroxietilalmidón, por su mayor expansión del volumen intravascular y menor cantidad requerida",
+   "C": "Cristaloide balanceado (Ringer lactato o Plasma-Lyte), que redujo los eventos renales mayores a 30 días frente a salina en SMART",
+   "D": "Solución salina al 0.9% en todos los casos, por ser fisiológica, isotónica, de bajo costo y no alterar el equilibrio ácido-base ni la cloremia",
+   "E": "Agua destilada intravenosa, por ser el líquido hipotónico que mejor repone el déficit de agua libre"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La dextrosa al 5% distribuye 2/3 en el espacio intracelular y expande poco el intravascular.",
+   "B": "Los hidroxietilalmidones aumentan la LRA y la necesidad de terapia de reemplazo renal, por lo que se evitan.",
+   "C": "En el estudio SMART (Semler, 2018), en pacientes críticos, los cristaloides balanceados redujeron el desenlace compuesto de eventos renales adversos mayores a 30 días (muerte, nueva terapia de reemplazo renal o disfunción renal persistente) en comparación con la solución salina al 0.9% (14.3% frente a 15.4%), con un beneficio mayor en sepsis. La solución salina, con 154 mEq/L de cloro, causa acidosis metabólica hiperclorémica y vasoconstricción renal. El Ringer lactato contiene 4 mEq/L de potasio y puede usarse en hiperpotasemia sin empeorarla. Los almidones se asocian a LRA y mayor uso de terapia de reemplazo renal.",
+   "D": "La solución salina al 0.9% produce hipercloremia y acidosis, y su desventaja renal fue mostrada en SMART.",
+   "E": "El agua destilada intravenosa causa hemólisis."
+  },
+  "perla": "Crítico con riesgo de LRA: cristaloide balanceado (SMART, MAKE30 14.3% vs 15.4%). Evitar almidones. Salina → acidosis hiperclorémica.",
+  "referencias": [
+   "Semler MW et al. N Engl J Med 2018;378:829 (SMART)",
+   "KDIGO AKI 2012. Kidney Int Suppl 2012;2:1",
+   "Bouchard J, Macedo E. Prevention and Nondialytic Management of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 74, pp. 850-862"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "obj": "6.o3",
+  "peso": 77.9
+ },
+ {
+  "id": "SHK-4",
+  "serie_id": "SHK",
+  "orden": 4,
+  "sub": "6.0",
+  "subtema": "Prueba de estrés con furosemida",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Dos días después el paciente ha acumulado +9 L, peso +10 kg, PEEP de 12 cmH₂O, PaO₂/FiO₂ de 150, diuresis de 0.3 mL/kg/h, creatinina de 1.9 mg/dL, PAM estable de 72 mmHg con norepinefrina a 0.05 µg/kg/min. El VEXUS es grado 3. No ha recibido diuréticos.",
+  "enunciado": "¿Cuál es el siguiente paso para predecir la progresión de la LRA y guiar la descongestión?",
+  "opciones": {
+   "A": "Solicitar una gammagrafía renal con DTPA para estimar la función de cada riñón y la perfusión",
+   "B": "Suspender los vasopresores para mejorar la perfusión renal y observar la diuresis en 6 horas",
+   "C": "Prueba de estrés con furosemida (1 a 1.5 mg/kg IV): diuresis <200 mL en 2 horas predice progresión a LRA grado 3",
+   "D": "Dar 1 L adicional de cristaloide balanceado para mejorar la diuresis y la perfusión renal, y reevaluar la respuesta con ecografía",
+   "E": "Iniciar diálisis de inmediato sin más pruebas, por la sobrecarga de +9 L y la oliguria"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La gammagrafía no evalúa la respuesta tubular ni guía el manejo.",
+   "B": "Suspender el vasopresor con PAM límite empeora la perfusión.",
+   "C": "La prueba de estrés con furosemida evalúa la integridad funcional tubular: se administra furosemida 1 mg/kg IV (1.5 mg/kg si el paciente ya recibía diuréticos) y se mide la diuresis durante 2 horas. Una diuresis menor de 200 mL en 2 horas predice progresión a LRA KDIGO 3 o necesidad de terapia de reemplazo renal con sensibilidad de 87% y especificidad de 84%. Es útil para identificar pacientes con lesión renal aguda KDIGO 1 o 2 y sobrecarga en quienes la descongestión farmacológica puede funcionar, y para planear terapia de reemplazo si falla. Requiere euvolemia o sobrecarga, no hipovolemia.",
+   "D": "Más líquido empeora la congestión venosa renal y la oxigenación.",
+   "E": "No hay indicación urgente de diálisis; la prueba orienta la decisión."
+  },
+  "perla": "FST: furosemida 1 mg/kg (1.5 si exposición previa); diuresis <200 mL/2 h predice LRA grado 3/TRR (S 87%, E 84%).",
+  "referencias": [
+   "Chawla LS et al. Crit Care 2013;17:R207",
+   "Judd E, Sanders PW, Agarwal A. Diagnosis and Clinical Evaluation of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 72, pp. 835-844"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "obj": "6.o1",
+  "peso": 79.9
+ },
+ {
+  "id": "SHK-5",
+  "serie_id": "SHK",
+  "orden": 5,
+  "sub": "6.0",
+  "subtema": "Resistencia a diuréticos y sobrecarga refractaria",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La diuresis tras la prueba es de 120 mL en 2 horas. Se inicia furosemida en infusión continua, llegando a 600 mg/día, con diuresis menor de 200 mL por turno y PaO₂/FiO₂ de 130.",
+  "enunciado": "¿Cuál es el manejo más apropiado?",
+  "opciones": {
+   "A": "Retirar la ventilación mecánica para disminuir la presión intratorácica y mejorar la perfusión renal",
+   "B": "Reiniciar bolos de cristaloides de 500 mL para restablecer la perfusión renal y mejorar la diuresis",
+   "C": "Continuar aumentando la furosemida hasta 1,200 mg/día sin cambiar el resto del tratamiento actual",
+   "D": "Administrar albúmina al 25% y esperar 5 días antes de reevaluar la diuresis, la oxigenación y el balance hídrico del paciente",
+   "E": "Añadir bloqueo secuencial de la nefrona (tiazida o acetazolamida) y, si persiste, TRRC con UF neta"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La hipoxemia depende de la congestión; retirar la ventilación sin descongestión es inseguro.",
+   "B": "Más líquido agrava la sobrecarga.",
+   "C": "Duplicar la dosis sin cambiar la estrategia incrementa ototoxicidad y no supera el techo del efecto.",
+   "D": "Esperar sin acción deja al paciente con hipoxemia progresiva.",
+   "E": "Con dosis altas de diurético de asa sin respuesta, y con una prueba de estrés con furosemida anormal, se plantea resistencia diurética. Se añade bloqueo secuencial de la nefrona con un diurético que actúe en el túbulo distal (tiazida o metolazona) para contrarrestar la hipertrofia compensadora y la reabsorción distal de sodio, o acetazolamida en el túbulo proximal; también corrige la hipoalbuminemia o la acidosis si cabe. Si persiste una sobrecarga hídrica refractaria que compromete la oxigenación, hay indicación de terapia de reemplazo renal con ultrafiltración neta (la sobrecarga mayor de 10% del peso se asocia con mayor mortalidad). En el paciente con tres vasopresores se prefiere terapia continua."
+  },
+  "perla": "Resistencia a diuréticos: infusión + bloqueo secuencial (tiazida/metolazona, acetazolamida). Sobrecarga refractaria con hipoxemia → TRR con UF neta (CRRT si inestable).",
+  "referencias": [
+   "Chawla LS et al. Crit Care 2013;17:R207",
+   "KDIGO AKI 2012. Kidney Int Suppl 2012;2:1"
+  ],
+  "origen": [
+   "David26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "obj": "6.o2",
+  "peso": 92.0
+ },
+ {
+  "id": "VOL-3",
+  "serie_id": "VOL",
+  "orden": 3,
+  "sub": "25.b",
+  "subtema": "Cloro urinario en alcalosis por vómito",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una mujer de 24 años con vómito autoinducido recurrente tiene pH de 7.52, bicarbonato de 38 mEq/L, potasio de 2.9 mEq/L y cloro sérico de 82 mEq/L. En orina: sodio de 48 mEq/L, cloro de 6 mEq/L, pH urinario de 7.5.",
+  "enunciado": "¿Por qué el sodio urinario es alto a pesar de la depleción de volumen y qué parámetro es más fiable?",
+  "opciones": {
+   "A": "Hay hiperaldosteronismo primario, por lo que el cloro urinario es alto y el sodio urinario refleja el exceso mineralocorticoide",
+   "B": "El sodio urinario alto confirma sobrecarga de volumen, porque el riñón excreta sodio cuando el volumen está expandido",
+   "C": "El cloro urinario bajo indica síndrome de Bartter, porque el defecto tubular reduce la excreción de cloro y sodio",
+   "D": "El pH urinario alcalino indica acidosis tubular distal, porque el túbulo no logra acidificar la orina en la paciente",
+   "E": "La bicarbonaturia arrastra Na; el Cl urinario <15-20 mEq/L indica depleción de volumen y alcalosis sensible a cloro"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En el hiperaldosteronismo primario hay hipertensión y cloro urinario alto, no depleción de volumen.",
+   "B": "La paciente está hipovolémica y el sodio alto se debe a la bicarbonaturia.",
+   "C": "El Bartter cursa con cloro urinario alto.",
+   "D": "El pH urinario alcalino es esperable por la bicarbonaturia de la alcalosis.",
+   "E": "En la alcalosis metabólica por vómito, el bicarbonato filtrado supera la capacidad de reabsorción tubular y se excreta como bicarbonato de sodio y de potasio (pH urinario alcalino), de modo que el sodio y el potasio urinarios son altos aunque haya depleción de volumen. El cloro urinario, en cambio, es bajo (menor de 15 a 20 mEq/L) porque el riñón retiene cloro avidamente; por eso es el marcador fiable de depleción de volumen en la alcalosis sensible al cloro. El tratamiento es la reposición de cloruro de sodio al 0.9% y de potasio, no solo de bicarbonato; con cloro urinario alto se piensa en hiperaldosteronismo, Bartter/Gitelman o diuréticos."
+  },
+  "perla": "Vómito: UNa alto (bicarbonaturia) pero UCl <15–20 = sensible al cloro. Tratar con NaCl 0.9% + KCl. UCl alto: aldosterona, Bartter/Gitelman, diuréticos.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos ácido-base)"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 25,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "obj": "25.o2",
+  "peso": 51.2
+ },
+ {
+  "id": "BAL-1",
+  "serie_id": "BAL",
+  "orden": 1,
+  "sub": "3",
+  "subtema": "Hiponatremia con orina diluida: ingesta baja de solutos",
+  "dificultad": "moderada",
+  "caso": "Hombre de 52 años con consumo crónico de alcohol, que ingiere cerca de 5 litros de cerveza al día y casi no come. Llega confuso y con náusea. Euvolémico en la exploración. Na⁺ de 112 mEq/L, K⁺ de 2.8 mEq/L, glucosa de 90 mg/dL, BUN de 3 mg/dL, osmolalidad sérica de 232 mOsm/kg, osmolalidad urinaria de 84 mOsm/kg y Na⁺ urinario de 8 mEq/L. TSH y cortisol normales.",
+  "enunciado": "¿Cuál es el mecanismo de la hiponatremia?",
+  "opciones": {
+   "A": "Polidipsia primaria con ingesta normal de solutos, porque el consumo de 5 litros de cerveza excede la capacidad renal de dilución",
+   "B": "Hipotiroidismo grave, que reduce la TFG y la capacidad de dilución renal con una excreción de solutos normal",
+   "C": "Muy poca ingesta de solutos (potomanía de cerveza): la excreción de agua libre depende de la carga osmolar y se ve rebasada",
+   "D": "Síndrome de secreción inadecuada de ADH, con orina concentrada y producción ectópica de vasopresina en el paciente alcohólico",
+   "E": "Insuficiencia suprarrenal primaria, con hiperpotasemia y pérdida de sodio, además de la hipotensión arterial"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "En la polidipsia primaria con dieta normal se requieren ingestas mayores de 12 litros para causar hiponatremia, porque la carga de solutos es grande.",
+   "B": "La TSH es normal; el hipotiroidismo solo causa hiponatremia en casos extremos.",
+   "C": "La orina diluida (osmolalidad de 84 mOsm/kg, menor de 100) indica que la ADH está suprimida y que el riñón diluye de forma apropiada; entonces el problema no es la secreción de ADH, sino el límite de la capacidad de excretar agua libre. El volumen máximo de orina es igual a la carga osmolar diaria dividida entre la osmolalidad urinaria mínima. Con una dieta normal (600 a 900 mOsm al día) y osmolalidad mínima de 50 mOsm/kg, pueden excretarse 12 a 18 litros; en un paciente que casi no ingiere proteínas ni sal (la cerveza aporta muy pocos solutos), la carga diaria puede ser de 200 a 250 mOsm, y la capacidad máxima de excretar agua cae a 3 a 5 litros. El Na⁺ urinario bajo y el BUN bajo reflejan la ingesta escasa de sodio y proteínas. Es el mismo mecanismo de la dieta de “té y tostadas”. La hipopotasemia agrava la hiponatremia.",
+   "D": "En el SIADH la osmolalidad urinaria es mayor de 100 mOsm/kg y el Na⁺ urinario mayor de 30 mEq/L; aquí la orina está diluida y el Na⁺ urinario es bajo.",
+   "E": "No hay hiperpotasemia ni hipotensión, y el cortisol es normal."
+  },
+  "perla": "Volumen urinario máx = carga osmolar diaria / Uosm mínima. Dieta normal 600–900 mOsm → 12–18 L; potomanía de cerveza o 'té y tostadas' 150–250 mOsm → 3–5 L. Uosm <100 = ADH suprimida.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)",
+   "Sterns RH. N Engl J Med 2015;372:55"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "continuacion": "",
+  "obj": "3.o1",
+  "peso": 19.3
+ },
+ {
+  "id": "BAL-2",
+  "serie_id": "BAL",
+  "orden": 2,
+  "sub": "3",
+  "subtema": "Cálculo del volumen urinario máximo según la carga de solutos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El residente quiere cuantificar el problema. El paciente tiene una excreción diaria de solutos de cerca de 240 mOsm y una osmolalidad urinaria mínima de 80 mOsm/kg. Su ingesta diaria de agua (cerveza y agua) es de 5 litros.",
+  "enunciado": "¿Cuál es el volumen máximo de orina y qué ocurre con el balance de agua?",
+  "opciones": {
+   "A": "Máximo de 1.9 litros al día; solo se retiene 1 litro de agua, por lo que el sodio sérico se mantiene estable",
+   "B": "12 litros al día; no hay retención de agua, porque la capacidad de dilución renal es prácticamente ilimitada",
+   "C": "5 litros al día; el balance de agua es neutro, porque la orina diluida elimina todo el volumen que ingiere",
+   "D": "0.33 litros al día; el paciente está oligúrico y retiene casi toda el agua ingerida, por lo que baja el sodio sérico de forma progresiva",
+   "E": "Máximo de 3 litros al día (240/80 mOsm/kg); los 2 litros restantes se retienen y diluyen el sodio sérico"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El cálculo correcto es 3 litros, y la retención de 2 litros al día.",
+   "B": "12 litros corresponde a una carga de solutos de una dieta normal con osmolalidad mínima de 50 mOsm/kg.",
+   "C": "Con 3 litros de capacidad máxima de excreción, el balance de 5 litros ingeridos no es neutro.",
+   "D": "Se invirtió el cálculo (80 ÷ 240); la fórmula divide los solutos entre la osmolalidad urinaria.",
+   "E": "El volumen urinario máximo se calcula dividiendo la carga osmolar diaria entre la osmolalidad urinaria mínima: 240 mOsm ÷ 80 mOsm/kg = 3 L al día. Como el paciente ingiere 5 litros, la diferencia de 2 litros (más el agua generada por el metabolismo, menos las pérdidas insensibles) se retiene cada día, y con ello se diluye el sodio sérico: es la razón por la que la hiponatremia puede ser grave con ingestas de agua que, en una persona con dieta normal, serían bien toleradas. La reducción del agua libre y el aumento del aporte de solutos son la base del tratamiento, y por eso el mismo mecanismo explica el riesgo de sobrecorrección cuando se reanuda la alimentación."
+  },
+  "perla": "240 mOsm ÷ 80 mOsm/kg = 3 L/día. Ingesta de agua > capacidad de excreción = retención y hiponatremia. Más solutos (comida, sal) = más aquaresis.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 21.3
+ },
+ {
+  "id": "TUR-3",
+  "serie_id": "TUR",
+  "orden": 3,
+  "sub": "3",
+  "subtema": "Osmolalidad medida, calculada y brecha osmolal en la hiponatremia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un estudiante pregunta cómo diferenciar este cuadro de una hiponatremia hipotónica clásica y de otras causas con osmolalidad medida normal.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "La brecha osmolal solo se eleva en el síndrome nefrótico, por la hiperlipidemia y la hipoalbuminemia concomitantes",
+   "B": "La brecha osmolal es siempre cero, porque la osmolalidad calculada coincide con la medida en todos los casos",
+   "C": "El manitol disminuye la osmolalidad medida, porque diluye los solutos del plasma y baja la brecha osmolal",
+   "D": "La seudohiponatremia cursa con osmolalidad medida baja y con síntomas neurológicos, como la hiponatremia hipotónica verdadera del paciente",
+   "E": "Brecha osmolal alta = solutos no medidos (glicina, manitol, etanol, tóxicos); la seudohiponatremia tiene osmolalidad medida normal"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El síndrome nefrótico no eleva la brecha osmolal; esta aumenta por solutos como los alcoholes tóxicos o el manitol.",
+   "B": "En personas sanas la brecha es pequeña (menor de 10), pero no es cero, y se eleva con solutos no medidos.",
+   "C": "El manitol aumenta la osmolalidad medida y puede causar hiponatremia translocacional.",
+   "D": "La seudohiponatremia no es hipotónica: la osmolalidad medida es normal y no hay síntomas de edema cerebral.",
+   "E": "La osmolalidad plasmática calculada es 2 × Na⁺ (mEq/L) + glucosa (mg/dL)/18 + BUN (mg/dL)/2.8; la brecha osmolal es la diferencia entre la osmolalidad medida (por descenso del punto de congelación) y la calculada, y es normal hasta cerca de 10 mOsm/kg. Aumenta cuando hay solutos no medidos: etanol, metanol, etilenglicol, propilenglicol, isopropanol, manitol, glicina, sorbitol, o contraste. En la hiponatremia, medir la osmolalidad permite separar la hipotónica (baja), la hipertónica (por glucosa o manitol, que arrastran agua) y la isotónica o seudohiponatremia, en la que la fase sólida (lípidos o proteínas) desplaza el agua y los electrodos indirectos subestiman el sodio, con osmolalidad medida normal y brecha normal; el sodio por electrodo directo (gasómetro) es normal. En el post-RTU, la glicina eleva la brecha."
+  },
+  "perla": "Osm calc = 2Na + glucosa/18 + BUN/2.8. Brecha osmolal >10: etanol, metanol, etilenglicol, manitol, glicina, sorbitol. Seudohiponatremia: Osm medida y brecha normales; Na directo normal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del sodio)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 3,
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "obj": "3.o1",
+  "peso": 21.3
+ },
+ {
+  "id": "AVP-1",
+  "serie_id": "AVP",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Regulación de la liberación de ADH: estímulos osmóticos y no osmóticos",
+  "dificultad": "dificil",
+  "caso": "Residente de nefrología repasa cómo se regula la liberación de ADH en tres pacientes: una persona sana deshidratada tras un ejercicio prolongado, un paciente con hemorragia digestiva activa y una paciente con náusea intensa tras quimioterapia.",
+  "continuacion": "",
+  "enunciado": "¿Qué afirmación sobre la regulación de la ADH es correcta?",
+  "opciones": {
+   "A": "Umbral osmótico ≈280–285 mOsm/kg; una caída de 8–10% del volumen efectivo puede imponerse; la náusea es estímulo potente",
+   "B": "Se necesita un aumento de 10% de la osmolalidad plasmática para que se libere la hormona antidiurética",
+   "C": "La ADH solo responde a la osmolalidad plasmática, y nunca a los cambios del volumen circulante efectivo",
+   "D": "El umbral de la sed es menor que el de la liberación de ADH, por lo que la sed precede a la secreción hormonal",
+   "E": "La náusea inhibe la liberación de ADH, por lo que se asocia con poliuria y con hipernatremia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Los osmorreceptores del hipotálamo anterior responden a cambios de 1 a 2% en la osmolalidad plasmática: por debajo del umbral de 280 a 285 mOsm/kg, la ADH es indetectable, y por encima aumenta de forma lineal, con concentración máxima de la orina cerca de 295 mOsm/kg. Los barorreceptores del seno carotídeo y de la aurícula y las arteriolas aferentes inducen la liberación de ADH cuando el volumen o la presión efectiva descienden 8 a 10%, con una curva exponencial que puede imponerse a la inhibición osmótica (mantiene la retención de agua en la hipovolemia aun con hiponatremia). Los estímulos no osmóticos incluyen la náusea (el más potente), el dolor, el estrés, la hipoglucemia, la hipoxia y fármacos como los opioides, los ISRS, la carbamazepina, la vincristina y la ciclofosfamida. El umbral de la sed (cerca de 290 a 295 mOsm/kg) es mayor que el de la ADH, de modo que la ADH actúa antes que la sed.",
+   "B": "Bastan cambios de 1 a 2% de la osmolalidad para modificar la liberación de ADH.",
+   "C": "La ADH responde también a los barorreceptores, lo que explica la hiponatremia en la hipovolemia, la insuficiencia cardiaca y la cirrosis.",
+   "D": "El umbral de la sed es mayor, no menor, que el de la ADH.",
+   "E": "La náusea estimula la liberación de ADH."
+  },
+  "perla": "ADH: umbral osmótico 280–285 mOsm/kg (sensible a 1–2%); sed 290–295. Hipovolemia/hipotensión 8–10% → liberación exponencial que supera la inhibición osmótica. No osmóticos: náusea (el más potente), dolor, opioides, ISRS, carbamazepina, vincristina, ciclofosfamida.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hormonas y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "obj": "2.o1",
+  "peso": 41.0
+ },
+ {
+  "id": "ALC-1",
+  "serie_id": "ALC",
+  "orden": 1,
+  "sub": "25.b",
+  "subtema": "Síndrome de leche y álcali: diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Mujer de 68 años con osteoporosis, hipertensión tratada con hidroclorotiazida y dispepsia crónica, que toma carbonato de calcio 4 g al día más tabletas antiácidas de calcio (unas 10 al día) y vitamina D 4,000 UI. Consulta por náusea, poliuria, estreñimiento y confusión leve. Presión de 100/60 mmHg. Calcio de 13.2 mg/dL, fósforo de 4.2 mg/dL, creatinina de 2.1 mg/dL (basal de 0.9), PTH intacta de 12 pg/mL, 25-OH vitamina D de 48 ng/mL. Gasometría: pH 7.50, HCO₃ de 35 mEq/L; K de 3.3 mEq/L, Cl de 90 mEq/L.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Hiperparatiroidismo primario, con PTH elevada e hipercalcemia, explicado por el tiazídico y el calcio ingerido",
+   "B": "Enfermedad de Addison, con hiperpotasemia, acidosis e hipercalcemia por la depleción de volumen y la insuficiencia suprarrenal crónica",
+   "C": "Hipercalcemia por PTHrP de un tumor, que cursa con acidosis metabólica, pérdida de peso y PTH suprimida",
+   "D": "Intoxicación por vitamina D, con 25-OH vitamina D muy elevada, fosfato sérico alto y alcalosis metabólica",
+   "E": "Síndrome de leche y álcali: hipercalcemia, alcalosis y LRA por exceso de calcio y álcali, favorecido por tiazida; PTH suprimida"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En el hiperparatiroidismo primario la PTH está elevada o inapropiadamente normal, no suprimida, y no cursa con alcalosis intensa.",
+   "B": "En la enfermedad de Addison hay hipercalemia, hiponatremia y acidosis, y aquí hay hipopotasemia y alcalosis.",
+   "C": "La hipercalcemia por PTHrP también suprime la PTH, pero no hay un tumor conocido, y la ingesta de grandes dosis de calcio y de álcali con alcalosis apunta al síndrome de leche y álcali.",
+   "D": "La 25-OH vitamina D de 48 ng/mL es normal, y la intoxicación se acompañaría de valores mucho más altos (más de 150 ng/mL).",
+   "E": "El síndrome de leche y álcali es la tríada de hipercalcemia, alcalosis metabólica y lesión renal aguda por la ingesta de grandes cantidades de calcio absorbible (carbonato de calcio) y de álcali, que hoy se ve sobre todo por el uso de suplementos de calcio para la osteoporosis y de antiácidos. Se favorece por el diurético tiazídico (reduce la calciuresis), la depleción de volumen (náusea, poliuria), la enfermedad renal y la vitamina D. La PTH está suprimida por la hipercalcemia (12 pg/mL), la 25-OH vitamina D es normal, y la alcalosis (pH 7.50, HCO₃ 35 mEq/L) con hipopotasemia e hipocloremia completa el cuadro. Es hoy una causa frecuente de hipercalcemia en pacientes hospitalizados, junto con el hiperparatiroidismo primario y las neoplasias."
+  },
+  "perla": "Leche-álcali: hipercalcemia + alcalosis metabólica + LRA; CaCO₃ + tiazida + depleción de volumen ± vitamina D; PTH suprimida; 25-OH-D normal. Causa frecuente de hipercalcemia hospitalaria.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio y ácido-base)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 25,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "continuacion": "",
+  "obj": "25.o2",
+  "peso": 21.0
+ },
+ {
+  "id": "ALC-2",
+  "serie_id": "ALC",
+  "orden": 2,
+  "sub": "25.b",
+  "subtema": "Síndrome de leche y álcali: fisiopatología",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente pregunta por qué la hipercalcemia y la alcalosis se mantienen entre sí y por qué se deterioró el riñón.",
+  "enunciado": "¿Cuál es el mecanismo que perpetúa el cuadro?",
+  "opciones": {
+   "A": "La PTH elevada estimula la reabsorción de calcio y la pérdida de bicarbonato en el túbulo proximal, y por eso perpetúa todo el cuadro clínico",
+   "B": "La hipercalcemia causa poliuria y depleción de volumen, que aumenta la reabsorción de HCO₃⁻ y Ca²⁺; la alcalosis retiene más calcio",
+   "C": "La alcalosis reduce la reabsorción tubular de calcio y por tanto corrige la hipercalcemia con el paso de los días",
+   "D": "La hipercalcemia aumenta la TFG y la excreción de bicarbonato, lo que corrige la alcalosis y el deterioro renal",
+   "E": "El tiazídico aumenta la calciuresis y protege contra la hipercalcemia, por lo que no participa en el círculo vicioso"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La PTH está suprimida, no elevada.",
+   "B": "La hipercalcemia activa el receptor sensor de calcio en el asa ascendente gruesa y en el túbulo colector, lo que reduce la reabsorción de sodio y de agua y causa poliuria con depleción de volumen, y produce vasoconstricción de la arteriola aferente y caída de la TFG. La contracción de volumen estimula la reabsorción proximal de sodio y de bicarbonato, y la menor TFG reduce la capacidad de excretar el bicarbonato ingerido, con lo que la alcalosis se mantiene. A su vez, la alcalosis y la depleción de volumen aumentan la reabsorción tubular de calcio (el tiazídico también la aumenta), con lo que la hipercalcemia empeora. La supresión de la PTH reduce el estímulo de excreción de fosfato, lo que contribuye al fósforo normal-alto. Es un círculo vicioso que se rompe con la reposición de volumen y la suspensión del calcio, el álcali y el tiazídico.",
+   "C": "La alcalosis aumenta la reabsorción de calcio y agrava la hipercalcemia.",
+   "D": "La hipercalcemia reduce la TFG y no la aumenta, y la alcalosis se perpetúa por la depleción de volumen.",
+   "E": "Los tiazídicos reducen la calciuresis, y por ello favorecen la hipercalcemia."
+  },
+  "perla": "Leche-álcali: hipercalcemia → poliuria + ↓TFG → depleción de volumen → ↑ reabsorción de HCO₃⁻ y Ca²⁺; ↓TFG limita excreción de HCO₃⁻; alcalosis y tiazida ↑ reabsorción de Ca²⁺: círculo vicioso.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio y ácido-base)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 25,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "obj": "25.o2",
+  "peso": 23.0
+ },
+ {
+  "id": "KHD-2",
+  "serie_id": "KHD",
+  "orden": 2,
+  "sub": "4.i",
+  "subtema": "Ciclosilicato de sodio y zirconio en hemodiálisis: pauta de días sin diálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se decide agregar ciclosilicato de sodio y zirconio. El paciente tiene ganancias interdialíticas de peso de 3.2 kg y presión arterial de 148/86 mmHg antes de la sesión. Pregunta cuándo debe tomar el fármaco y qué debe vigilar el equipo.",
+  "enunciado": "¿Cuál es la indicación más adecuada?",
+  "opciones": {
+   "A": "Iniciar con 30 g por día, para lograr un efecto rápido en la primera semana de tratamiento",
+   "B": "Tomar el fármaco solo durante la sesión de hemodiálisis, para potenciar la depuración del potasio",
+   "C": "Tomar 10 g todos los días, incluidos los de diálisis, para mantener el potasio bajo de forma constante en el intervalo",
+   "D": "Iniciar 5 g/día solo en días sin diálisis, titular hasta 15 g según el potasio predialítico (DIALIZE) y vigilar edema y peso",
+   "E": "No se necesita vigilar el sodio ni el peso, porque el ciclosilicato no contiene sodio en su composición"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La dosis de 30 g por día supera la dosis máxima de 15 g, y aumenta el riesgo de edema e hipopotasemia.",
+   "B": "Un captor intestinal no actúa sobre la sangre del circuito, y su acción es en el tubo digestivo.",
+   "C": "En los días de diálisis el potasio se elimina en la sesión, y el esquema validado se limita a los días sin diálisis.",
+   "D": "En el ensayo DIALIZE (pacientes en hemodiálisis con hiperpotasemia predialítica tras el intervalo largo), el ciclosilicato de sodio y zirconio se administró una vez al día solo en los días sin diálisis, con 5 g de inicio y titulación semanal de 5 g hasta un máximo de 15 g, según el potasio predialítico. Una proporción mucho mayor de pacientes (cerca de 41% frente a 1% con placebo) mantuvo un potasio predialítico de 4.0 a 5.0 mEq/L durante el intervalo largo sin terapia de rescate. Como contiene unos 400 mg de sodio por cada 5 g, se vigilan el peso interdialítico, el edema y la presión arterial, y se ajusta el peso seco. Se verifica el potasio para evitar la hipopotasemia, sobre todo con dializado bajo en potasio, y se separan 2 horas de fármacos cuya absorción depende del pH.",
+   "E": "El ciclosilicato aporta unos 400 mg de sodio por cada 5 g, y por eso se vigilan el peso y el edema."
+  },
+  "perla": "SZC en HD (DIALIZE): 5 g/día solo en días SIN diálisis, titular +5 g/semana (máx. 15 g) a K predialítico 4–5; ~41% vs 1% respondieron; vigilar peso/edema (~400 mg Na/5 g) e hipoK.",
+  "referencias": [
+   "Fishbane S et al. J Am Soc Nephrol 2019;30:1723 (DIALIZE)",
+   "Comprehensive Clinical Nephrology (hiperpotasemia en diálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o9",
+  "peso": 43.7
  }
 ]

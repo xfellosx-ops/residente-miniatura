@@ -224,7 +224,7 @@
      "id": "t0_0",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "DMH",
+     "serie": "PRG",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -238,13 +238,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     },
     {
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "NEW-8-1",
+     "serie": "NDJ-9",
      "intro": [
       [
        "Dra. Carmen Triaje",
@@ -252,7 +252,7 @@
       ],
       [
        "Dra. Carmen Triaje",
-       "Mi caso: Indicaciones de biopsia en el paciente diabético"
+       "Mi caso: Elevación de creatinina con SRAA"
       ]
      ],
      "defeat": [
@@ -268,7 +268,7 @@
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "AZ6-2",
+     "serie": "AZ6-3",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -453,7 +453,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "PRG",
+     "serie": "NEW-8-1",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -467,13 +467,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
     },
     {
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "NDJ-9",
+     "serie": "AZ6-2",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -481,7 +481,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: Elevación de creatinina con SRAA"
+       "Mi caso: Enfermedad renal diabética"
       ]
      ],
      "defeat": [
@@ -497,7 +497,7 @@
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "AZ6-3",
+     "serie": "NDJ-2",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -505,7 +505,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Enfermedad renal diabética"
+       "Mi caso: Histología diabética y función"
       ]
      ],
      "defeat": [
@@ -658,6 +658,10 @@
    [
     "Sabio Brenn",
     "Cada pilar compra años. Juntos compran décadas."
+   ],
+   [
+    "Paciente",
+    "¿Cuatro pastillas en vez de la clínica de enfrente? Me quedo."
    ]
   ],
   "phases": [
@@ -675,7 +679,8 @@
     ],
     "questions": [
      "DMN-1",
-     "DMN-2"
+     "DMN-2",
+     "DMN-3"
     ]
    },
    {
@@ -691,8 +696,9 @@
      "Pilares"
     ],
     "questions": [
-     "DMN-3",
-     "DMN-4"
+     "DMN-4",
+     "DMH-1",
+     "DMH-2"
     ]
    },
    {
@@ -708,6 +714,7 @@
      "Antidiabéticos por TFG"
     ],
     "questions": [
+     "DMH-3",
      "DMS-1",
      "DMS-2"
     ]
@@ -768,6 +775,14 @@
    "text": "Con iSGLT2 e iSRAA es hemodinámica; hasta 30 % se tolera."
   },
   {
+   "title": "💎 Enfermedad por depósito de cadenas liger",
+   "text": "LCDD: IF lineal monotípica (κ) en GBM y TBM + depósitos 'polvosos' en ME + nódulos PAS(+). Buscar clona (CLL, IFE, médula)."
+  },
+  {
+   "title": "💎 Amiloidosis AL vs glomerulonefritis fibr",
+   "text": "Fibrilar: 12–24 nm, Congo (–), DNAJB9 (+). Amiloide: 8–12 nm, Congo (+), verde manzana. Inmunotactoide: >30 nm."
+  },
+  {
    "title": "💎 Indicaciones de biopsia en el paciente d",
    "text": "Biopsia en DM si: sin retinopatía, DM <5 años, proteinuria súbita o nefrótica, hematuria glomerular, caída rápida de TFG, síntomas sistémicos."
   },
@@ -790,14 +805,6 @@
   {
    "title": "💎 Enfermedad renal diabética",
    "text": "La proteinuria en aumento rápido o el síndrome nefrótico es un criterio que sugiere otra causa de daño renal y justifica la biopsia (Am Fam Physician 2019)."
-  },
-  {
-   "title": "💎 Enfermedad renal diabética",
-   "text": "La GEFyS variedad de la punta es una podocitopatía que suele responder a esteroides; con 15% de fibrosis hay poca cronicidad y potencial de reversibilidad. La evolución confirmó la respuesta: la albuminuria cayó de 10.3 a 0.17 g/día en 3 meses con función renal estable."
-  },
-  {
-   "title": "💎 Histología diabética y función",
-   "text": "MBG normal 270–359 nm; puede triplicarse a los 10 años de diabetes. Lesiones difusas en 90% de DM1 >10 años y 25–50% de DM2. En DM2 la estructura es heterogénea."
   }
  ]
 }

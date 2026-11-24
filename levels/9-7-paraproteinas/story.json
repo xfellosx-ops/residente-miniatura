@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "DMH",
+     "serie": "PRT",
      "intro": [
       [
        "Dra. Sara Esquistocito",
@@ -237,13 +237,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 3
     },
     {
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "PRT",
+     "serie": "AMY",
      "intro": [
       [
        "Dra. Carmen Triaje",
@@ -251,7 +251,7 @@
       ],
       [
        "Dra. Carmen Triaje",
-       "Mi caso: Nefropatía por cilindros: biopsia y tratamiento"
+       "Mi caso: Amiloidosis AL: presentación renal"
       ]
      ],
      "defeat": [
@@ -261,7 +261,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 5
     }
    ],
    "wild": [
@@ -407,7 +407,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "AMY",
+     "serie": "DMH",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -421,7 +421,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 5
+     "n": 3
     }
    ],
    "wild": [
@@ -474,6 +474,15 @@
     }
    ],
    "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Dr. J.",
+       "Encontré el gafete de Valeria. Atrás escribió: «aprender el porqué»."
+      ]
+     ]
+    },
     {
      "trigger": "exit",
      "lines": [
@@ -610,6 +619,14 @@
    "text": "Tira reactiva negativa + proteinuria de 24 h alta (no albúmina) → paraproteína. Riñón de mieloma: FLC >1,500 mg/L (diagnóstico presuntivo); biopsia si FLC <500 mg/L. CRAB: Ca, Renal, Anemia, Bone."
   },
   {
+   "title": "💎 Proteinuria no albuminúrica: discordanci",
+   "text": "Tira (-) + RAC baja + PCR alta + SSA (+) = proteinuria no albuminúrica: cadenas ligeras (mieloma)."
+  },
+  {
+   "title": "💎 Estudio inicial de gammapatía monoclonal",
+   "text": "Sospecha de mieloma: CLL séricas (κ/λ) + inmunofijación sérica y urinaria + médula ósea + imagen ósea. EPS sola no basta."
+  },
+  {
    "title": "💎 Mieloma: depuración extracorpórea",
    "text": "HCO-HD y PLEX no son rutina en cast nephropathy. Recuperación renal depende de respuesta hematológica rápida y profunda (FLC)."
   },
@@ -620,14 +637,6 @@
   {
    "title": "💎 Enfermedad por depósito de cadenas liger",
    "text": "LCDD: IF lineal monotípica (κ) en GBM y TBM + depósitos 'polvosos' en ME + nódulos PAS(+). Buscar clona (CLL, IFE, médula)."
-  },
-  {
-   "title": "💎 Amiloidosis AL vs glomerulonefritis fibr",
-   "text": "Fibrilar: 12–24 nm, Congo (–), DNAJB9 (+). Amiloide: 8–12 nm, Congo (+), verde manzana. Inmunotactoide: >30 nm."
-  },
-  {
-   "title": "💎 HIVAN: hallazgos histológicos y de micro",
-   "text": "HIVAN: GEFS colapsante + microquistes tubulares + inclusiones tubuloreticulares endoteliales (también vistas en lupus)."
   }
  ]
 }

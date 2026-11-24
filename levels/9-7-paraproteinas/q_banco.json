@@ -628,5 +628,122 @@
   "tema": "Enfermedades glomerulares",
   "obj": "9.o12",
   "peso": 67.6
+ },
+ {
+  "id": "PRT-1",
+  "serie_id": "PRT",
+  "orden": 1,
+  "sub": "5.e",
+  "subtema": "Proteinuria no albuminúrica: discordancia entre tira y relación proteína/creatinina",
+  "dificultad": "dificil",
+  "caso": "Hombre de 65 años con dolor lumbar de 3 meses, anemia normocítica de 8.9 g/dL, creatinina de 2.8 mg/dL y calcio de 10.8 mg/dL. La tira reactiva es negativa para proteínas; la relación albúmina/creatinina es de 40 mg/g, pero la relación proteína/creatinina en orina es de 3.5 g/g. El ácido sulfosalicílico en orina es positivo.",
+  "enunciado": "¿Cómo se explica esta discordancia?",
+  "opciones": {
+   "A": "Proteinuria no albuminúrica (cadenas ligeras de Bence Jones): la tira y la albuminuria no la detectan, pero sí el ácido sulfosalicílico",
+   "B": "Proteinuria ortostática, por la edad y la posición del paciente durante la recolección de la muestra",
+   "C": "Proteinuria glomerular por enfermedad de cambios mínimos, que debería elevar la relación albúmina/creatinina",
+   "D": "Contaminación de la muestra con detergentes o desinfectantes que alteran la lectura de la tira reactiva",
+   "E": "Error de laboratorio: el resultado de la tira reactiva es el correcto y se descarta proteinuria clínicamente significativa en el paciente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La tira reactiva detecta sobre todo albúmina, mientras que la relación albúmina/creatinina mide solo albúmina. Una proteinuria total elevada con albuminuria baja y tira negativa indica proteínas no albuminúricas: cadenas ligeras de inmunoglobulinas (proteinuria de Bence Jones), proteínas tubulares de bajo peso molecular o, rara vez, otras. El ácido sulfosalicílico precipita todas las proteínas, incluidas las cadenas ligeras, y es positivo. En un adulto mayor con anemia, hipercalcemia, dolor óseo y deterioro renal el diagnóstico más probable es mieloma múltiple con nefropatía por cilindros.",
+   "B": "La proteinuria ortostática es albuminúrica y se da en jóvenes, sin anemia ni hipercalcemia.",
+   "C": "En la enfermedad de cambios mínimos predomina la albuminuria y la tira es fuertemente positiva.",
+   "D": "Los detergentes pueden dar falsos positivos en la tira, no falsos negativos.",
+   "E": "La discrepancia es real y tiene explicación fisiopatológica; no es un error."
+  },
+  "perla": "Tira (-) + RAC baja + PCR alta + SSA (+) = proteinuria no albuminúrica: cadenas ligeras (mieloma).",
+  "referencias": [
+   "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117",
+   "Comprehensive Clinical Nephrology (proteinuria)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 5,
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "continuacion": "",
+  "obj": "5.o5",
+  "peso": 77.4
+ },
+ {
+  "id": "PRT-2",
+  "serie_id": "PRT",
+  "orden": 2,
+  "sub": "5.e",
+  "subtema": "Estudio inicial de gammapatía monoclonal",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El nefrólogo sospecha mieloma múltiple con daño renal por cadenas ligeras.",
+  "enunciado": "¿Qué estudios inmediatos se requieren?",
+  "opciones": {
+   "A": "Solo una tira reactiva repetida en dos semanas, ya que la proteinuria suele ser albuminúrica",
+   "B": "Biopsia de piel con inmunofluorescencia directa para buscar depósitos de cadenas ligeras",
+   "C": "Solo electroforesis de proteínas séricas, que por sí sola excluye la presencia de paraproteína en todos los casos",
+   "D": "Ecografía renal exclusivamente, para evaluar el tamaño y la ecogenicidad de los riñones",
+   "E": "Cadenas ligeras libres séricas (κ/λ), electroforesis e inmunofijación en suero y orina, y estudio de médula ósea y hueso"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La tira reactiva no detecta cadenas ligeras.",
+   "B": "La biopsia de piel no tiene papel en este contexto.",
+   "C": "La electroforesis sérica puede ser normal en mieloma de cadenas ligeras.",
+   "D": "La ecografía renal no establece el diagnóstico hematológico.",
+   "E": "El estudio de monoclonalidad debe incluir cadenas ligeras libres séricas con el cociente κ/λ (más sensible que la electroforesis para enfermedad de cadenas ligeras), electroforesis e inmunofijación de proteínas en suero y orina de 24 horas, además de la valoración de médula ósea (aspirado y biopsia con citogenética), estudios de imagen del esqueleto (TC de baja dosis, PET/TC o RM) y calcio, hemograma y β2-microglobulina para estadificación. La electroforesis sérica por sí sola puede ser normal en enfermedad de cadenas ligeras y no basta."
+  },
+  "perla": "Sospecha de mieloma: CLL séricas (κ/λ) + inmunofijación sérica y urinaria + médula ósea + imagen ósea. EPS sola no basta.",
+  "referencias": [
+   "Rajkumar SV et al. Lancet Oncol 2014;15:e538 (IMWG)",
+   "Comprehensive Clinical Nephrology (discrasias de células plasmáticas)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 5,
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "obj": "5.o5",
+  "peso": 75.4
+ },
+ {
+  "id": "DMH-1",
+  "serie_id": "DMH",
+  "orden": 1,
+  "sub": "8.0",
+  "subtema": "Esclerosis nodular sin diabetes",
+  "dificultad": "dificil",
+  "caso": "Hombre de 63 años, fumador de 40 paquetes-año, hipertenso y con obesidad, sin diabetes (HbA1c de 5.2%, glucosa en ayuno normal). Proteinuria de 4 g/24 h, creatinina de 2.0 mg/dL. La biopsia muestra esclerosis mesangial nodular con nódulos PAS positivos, hialinosis arteriolar y engrosamiento de la membrana basal; la inmunofluorescencia es negativa para inmunoglobulinas y cadenas ligeras, el rojo Congo es negativo y la microscopía electrónica no muestra depósitos organizados.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Nefropatía diabética clase III en paciente sin diabetes, porque los nódulos de Kimmelstiel-Wilson son específicos de ella",
+   "B": "Amiloidosis AL, con depósitos mesangiales nodulares que se identifican por tinción de rojo Congo en la biopsia",
+   "C": "Glomeruloesclerosis nodular idiopática (tabaquismo, hipertensión, obesidad), tras excluir amiloidosis y cadenas ligeras",
+   "D": "Nefropatía membranosa, que cursa con proteinuria nefrótica y depósitos subepiteliales con engrosamiento de la MBG",
+   "E": "Enfermedad por depósito de cadenas ligeras, con depósitos lineales en las membranas basales tubular y glomerular, y paraproteína"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El paciente no tiene diabetes; antes hay que excluir otras causas y considerar antecedentes de hiperglucemia previa.",
+   "B": "En la amiloidosis AL el rojo Congo es positivo.",
+   "C": "La glomeruloesclerosis nodular idiopática es un diagnóstico de exclusión: la morfología es indistinguible de la nefropatía diabética (nódulos PAS positivos, hialinosis arteriolar), pero ocurre sin diabetes y se asocia a tabaquismo, hipertensión y obesidad. Para establecerla hay que descartar causas de glomeruloesclerosis nodular: amiloidosis (Congo positivo), depósito de cadenas ligeras (inmunofluorescencia monotípica con depósitos granulares en ME), glomerulonefritis fibrilar (fibrillas de 12 a 24 nm y DNAJB9), glomerulonefritis membranoproliferativa y la propia diabetes (incluida la prediabetes o la diabetes antigua con buen control actual).",
+   "D": "La nefropatía membranosa se caracteriza por depósitos subepiteliales con espículas, no por nódulos mesangiales.",
+   "E": "En el depósito de cadenas ligeras la inmunofluorescencia muestra una cadena ligera monotípica."
+  },
+  "perla": "Esclerosis nodular sin DM: idiopática (tabaco, HTA, obesidad). Excluir amiloide, LCDD, fibrilar, MPGN.",
+  "referencias": [
+   "Markowitz GS et al. Hum Pathol 2002;33:826",
+   "Comprehensive Clinical Nephrology (nefropatía diabética)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o1",
+  "peso": 51.0
  }
 ]

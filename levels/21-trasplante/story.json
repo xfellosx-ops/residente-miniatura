@@ -224,7 +224,7 @@
      "id": "t0_0",
      "cast": "valeria",
      "specialty": "Rival",
-     "serie": "EMT",
+     "serie": "DAT",
      "intro": [
       [
        "Dra. Valeria Montes",
@@ -244,7 +244,7 @@
      "id": "t0_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "NTX",
+     "serie": "HLA",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -252,7 +252,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: Neoplasia en receptora: ajuste de inmunosupresión"
+       "Mi caso: Sensibilización y cPRA"
       ]
      ],
      "defeat": [
@@ -262,13 +262,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 3
     },
     {
      "id": "t0_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "TCMR",
+     "serie": "EPO",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -276,7 +276,7 @@
       ],
       [
        "Dr. Anselmo Frágil",
-       "Mi caso: Rechazo celular agudo: clasificación de Banff"
+       "Mi caso: Producción renal de eritropoyetina"
       ]
      ],
      "defeat": [
@@ -459,7 +459,7 @@
      "lines": [
       [
        "Valeria",
-       "Perdí contra el C-ANCA por memorizar. Aquí entendí. Vengo como aliada."
+       "Perdí contra el C-ANCA por memorizar. ¿Guardaste mi gafete? Ahora sí lo cumplo."
       ]
      ]
     },
@@ -547,7 +547,7 @@
      "id": "t1_0",
      "cast": "pato",
      "specialty": "Patología",
-     "serie": "VHT",
+     "serie": "EMT",
      "intro": [
       [
        "Dra. Iris Hematoxilina",
@@ -567,7 +567,7 @@
      "id": "t1_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "INM",
+     "serie": "NTX",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -575,7 +575,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Inducción: elección según riesgo"
+       "Mi caso: Neoplasia en receptora: ajuste de inmunosupresión"
       ]
      ],
      "defeat": [
@@ -591,7 +591,7 @@
      "id": "t1_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "SEG",
+     "serie": "AMR",
      "intro": [
       [
        "Dra. Sara Esquistocito",
@@ -599,7 +599,7 @@
       ],
       [
        "Dra. Sara Esquistocito",
-       "Mi caso: Hiperglucemia temprana postrasplante"
+       "Mi caso: Rechazo humoral agudo: diagnóstico"
       ]
      ],
      "defeat": [
@@ -609,7 +609,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 3
     }
    ],
    "wild": [
@@ -819,7 +819,7 @@
      "id": "t2_0",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "DVV",
+     "serie": "VHT",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -833,13 +833,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 5
+     "n": 4
     },
     {
      "id": "t2_1",
      "cast": "hemo",
      "specialty": "Villano corporativo",
-     "serie": "HLA",
+     "serie": "DVV",
      "intro": [
       [
        "Director de Hemo-Eterna",
@@ -853,13 +853,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 5
     },
     {
      "id": "t2_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "AMR",
+     "serie": "INM",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -867,7 +867,7 @@
       ],
       [
        "Dr. Rocco Filo",
-       "Mi caso: Rechazo humoral agudo: diagnóstico"
+       "Mi caso: Inducción: elección según riesgo"
       ]
      ],
      "defeat": [
@@ -877,7 +877,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     }
    ],
    "wild": [
@@ -1024,8 +1024,8 @@
     ],
     "questions": [
      "TX-DON-4",
-     "TX-CMV-1",
-     "TX-CMV-2"
+     "FSGS-1",
+     "FSGS-2"
     ]
    },
    {
@@ -1041,9 +1041,9 @@
      "Biopsia (Banff)"
     ],
     "questions": [
-     "TX-CMV-3",
-     "TX-CMV-4",
-     "DAT-1"
+     "FSGS-3",
+     "FSGS-4",
+     "TX-CMV-1"
     ]
    },
    {
@@ -1059,9 +1059,9 @@
      "Tratamiento y largo plazo"
     ],
     "questions": [
-     "DAT-2",
-     "DAT-3",
-     "DAT-4"
+     "TX-CMV-2",
+     "TX-CMV-3",
+     "TX-CMV-4"
     ]
    }
   ]
@@ -1094,6 +1094,10 @@
    "text": "BK: reducir inmunosupresión. CMV D+/R−: valganciclovir 6 meses. PJP: TMP-SMX. Recurren: GEFS, SHUa, C3G, IgA. Estambul: contra tráfico y comercio."
   },
   {
+   "title": "💎 Hepcidina y deficiencia funcional de hie",
+   "text": "ERC: ↑hepcidina (IL-6, ↓depuración) → ferroportina degradada → ferritina alta/TSAT baja, mala respuesta a hierro oral. Preferir hierro IV."
+  },
+  {
    "title": "💎 Inhibidores de calcineurina: interaccion",
    "text": "Interacciones TAC/CsA/sirolimus: ↑nivel con macrólidos (excepto azitro), azoles, diltiazem, verapamilo, ritonavir, toronja; ↓nivel con rifampicina, antiepilépticos inductores, hipérico. Toxicidad: ↓TFG, hiperK, hipoMg, temblor, TMA."
   },
@@ -1110,20 +1114,16 @@
    "text": "Inducción: basiliximab (riesgo bajo/moderado) vs rATG (alto: retrasplante, cPRA↑, DGF esperado, DSA). Mantenimiento: TAC + MPA + GC. CMV D+/R−: profilaxis."
   },
   {
+   "title": "💎 GEFS: primaria vs secundaria",
+   "text": "GEFS primaria: SN abrupto, alb <2.5–3, FPE difuso. Adaptativa: gradual, alb normal, glomerulomegalia/perihiliar, FPE parcial. Siempre excluir secundaria/genética (APOL1, NPHS2, INF2, TRPC6, COL4)."
+  },
+  {
+   "title": "💎 GEFS resistente a esteroides",
+   "text": "GEFS SR: CNI (CsA 3–5 mg/kg o Tac 0.05–0.1 mg/kg, nivel 5–10) + pred baja ≥6 m. Si respuesta, continuar 12 m. Evitar CNI con TFG <30–40."
+  },
+  {
    "title": "💎 Cambios histológicos en el donante vivo",
    "text": "Donante vivo: hiperfiltración → glomerulomegalia → GEFS adaptativa (perihiliar). Tratar con nefroprotección, no con inmunosupresión."
-  },
-  {
-   "title": "💎 Interacciones entre ART e inhibidores de",
-   "text": "ART–ICN: IP potenciados inhiben CYP3A4 (↑↑ tacrolimus). Preferir inhibidores de integrasa; dolutegravir ↑ creatinina sin cambiar la TFG real."
-  },
-  {
-   "title": "💎 Tuberculosis latente en el candidato al ",
-   "text": "LTBI y oferta de riñón fallecido: no retrasar; tratar después con isoniazida + piridoxina 9 meses; evitar rifampicina (induce CYP3A4)."
-  },
-  {
-   "title": "💎 Índice de perfil de donante (KDPI): comp",
-   "text": "KDRI/KDPI (10 variables): edad, talla, peso, etnia, HTA, DM, causa de muerte (ACV), creatinina, VHC, DCD. NO sexo ni región. Perfusión en máquina ↓ DGF (Moers 2009)."
   }
  ]
 }

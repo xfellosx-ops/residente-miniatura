@@ -1326,5 +1326,319 @@
   ],
   "tema": "Enfermedades túbulo-intersticiales",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "SEA-1",
+  "serie_id": "SEA",
+  "orden": 1,
+  "sub": "6.0",
+  "subtema": "Sedimento en LRA: necrosis tubular aguda",
+  "dificultad": "moderada",
+  "caso": "Hombre de 70 años, tercer día posoperatorio de laparotomía por peritonitis, con hipotensión sostenida y oliguria. Recibe vancomicina y piperacilina-tazobactam, y dos dosis de furosemida. Creatinina de 1.0 a 3.4 mg/dL en 72 horas. Sodio urinario de 48 mEq/L, FeNa de 2.6%. El sedimento muestra cilindros granulosos pardos (de aspecto 'barro') y células epiteliales tubulares renales.",
+  "enunciado": "¿Cuál es el diagnóstico más probable según el sedimento?",
+  "opciones": {
+   "A": "Glomerulonefritis rápidamente progresiva, con cilindros eritrocitarios y eritrocitos dismórficos en el sedimento urinario",
+   "B": "NTA isquémica/séptica: cilindros granulosos pardos y células tubulares reflejan daño tubular, no los cilindros hialinos prerrenales",
+   "C": "Nefritis intersticial aguda inmunoalérgica, con cilindros leucocitarios y eosinofiluria por los antibióticos",
+   "D": "Obstrucción posrenal, con sedimento benigno y dilatación de la vía urinaria demostrada por ecografía",
+   "E": "Lesión renal aguda prerrenal pura, con cilindros hialinos y sedimento sin células tubulares ni cilindros granulosos"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La glomerulonefritis cursa con eritrocitos dismórficos y cilindros eritrocitarios.",
+   "B": "Tras hipotensión sostenida y sepsis, la LRA con oliguria, FeNa elevada y cilindros granulosos pardos con células epiteliales tubulares indica necrosis tubular aguda. En la LRA prerrenal el sedimento es bland o con cilindros hialinos, con orina concentrada. El sedimento ayuda a distinguir la causa: cilindros eritrocitarios en glomerulonefritis, cilindros leucocitarios en nefritis intersticial o pielonefritis, y cilindros granulosos en NTA.",
+   "C": "La nefritis intersticial se caracteriza por leucocituria y cilindros leucocitarios, no granulosos pardos.",
+   "D": "La obstrucción suele dar sedimento inocuo o hematuria isomórfica y requiere imagen.",
+   "E": "La lesión prerrenal pura cursa con sedimento inocuo y FeNa baja, y sin cilindros granulosos pardos."
+  },
+  "perla": "NTA: cilindros granulosos pardos + células epiteliales tubulares. Prerrenal: hialinos. GN: eritrocitarios. NIA: leucocitarios.",
+  "referencias": [
+   "KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl 2012;2:1",
+   "Comprehensive Clinical Nephrology (LRA)",
+   "Judd E, Sanders PW, Agarwal A. Diagnosis and Clinical Evaluation of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 72, pp. 835-844"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "continuacion": "",
+  "obj": "6.o2",
+  "peso": 59.8
+ },
+ {
+  "id": "SEA-2",
+  "serie_id": "SEA",
+  "orden": 2,
+  "sub": "6.0",
+  "subtema": "Excreción fraccional de urea con diuréticos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El residente cuestiona si la FeNa de 2.6% es válida, dado que el paciente recibió furosemida 2 horas antes. La excreción fraccional de urea (FeUrea) es de 62%.",
+  "enunciado": "¿Cómo se interpretan estos valores?",
+  "opciones": {
+   "A": "La FeNa no es confiable tras furosemida; la FeUrea de 62% (>50% sugiere daño tubular, <35% prerrenal) respalda NTA",
+   "B": "Ningún índice urinario es útil en la LRA, por lo que el diagnóstico diferencial debe basarse solo en la clínica del paciente",
+   "C": "La FeNa es siempre confiable, incluso con diuréticos de asa, porque el cálculo corrige la excreción urinaria de sodio",
+   "D": "La FeUrea de 62% indica prerrenal, porque valores mayores de 35% se asocian con hipoperfusión renal",
+   "E": "La FeUrea solo se utiliza en pacientes anúricos, porque requiere un volumen urinario muy bajo para calcularse correctamente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Los diuréticos de asa aumentan la excreción de sodio y elevan la FeNa aun en hipovolemia, por lo que pierde valor. La urea se reabsorbe en el túbulo proximal de forma pasiva y su excreción fraccional depende menos del diurético: una FeUrea menor de 35% sugiere estado prerrenal y mayor de 50% sugiere daño tubular. Con 62% y sedimento con cilindros granulosos el diagnóstico de NTA queda respaldado. Siempre se interpreta junto con la clínica y el sedimento.",
+   "B": "Los índices son útiles si se interpretan en contexto, aunque ninguno es perfecto.",
+   "C": "La FeNa pierde validez con diuréticos, con enfermedad renal crónica y con sepsis o contraste.",
+   "D": "Un valor de 62% está por encima del límite que sugiere prerrenal.",
+   "E": "La FeUrea requiere diuresis para medirse; no es una prueba para anuria."
+  },
+  "perla": "Con diuréticos: FeUrea (<35% prerrenal, >50% NTA) mejor que FeNa. Johnson 7.ª ed. cap. 72: FENa <1% prerrenal y >3% típica de NTA; FEurea <35% prerrenal y >35% NTA (otras fuentes usan >50%).",
+  "referencias": [
+   "Carvounis CP et al. Kidney Int 2002;62:2223",
+   "Comprehensive Clinical Nephrology (LRA)",
+   "Judd E, Sanders PW, Agarwal A. Diagnosis and Clinical Evaluation of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 72, pp. 835-844"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "obj": "6.o2",
+  "peso": 61.8
+ },
+ {
+  "id": "SEA-3",
+  "serie_id": "SEA",
+  "orden": 3,
+  "sub": "6.0",
+  "subtema": "Microscopía urinaria como pronóstico en LRA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El nefrólogo calcula un puntaje de microscopía urinaria que combina el número de cilindros granulosos por campo de bajo aumento y de células epiteliales tubulares por campo de alto aumento. El puntaje es alto.",
+  "enunciado": "¿Qué predice un puntaje alto de microscopía urinaria en la LRA?",
+  "opciones": {
+   "A": "Mayor probabilidad de NTA y de LRA progresiva (estadios 2 o 3) o necesidad de terapia de reemplazo renal",
+   "B": "Ausencia de riesgo de diálisis, porque indica un cuadro prerrenal que se corrige con volumen en pocas horas",
+   "C": "Resolución espontánea en 24 horas del cuadro, sin necesidad de seguimiento especial del paciente",
+   "D": "Diagnóstico de glomerulonefritis, porque predominan los cilindros celulares y los eritrocitos dismórficos",
+   "E": "Diagnóstico de nefritis intersticial, porque predominan los cilindros leucocitarios y la piuria estéril persistente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Estudios observacionales muestran que un puntaje alto, derivado del número de cilindros granulosos y de células tubulares en el sedimento, se asocia con mayor probabilidad de NTA establecida, con peor evolución (progresión a estadios 2-3 de KDIGO y mayor necesidad de diálisis) que la LRA con sedimento bland. El análisis del sedimento por el nefrólogo es una herramienta de bajo costo que complementa a los biomarcadores como NGAL, KIM-1 o TIMP-2·IGFBP7.",
+   "B": "Un puntaje alto aumenta, no disminuye, el riesgo de requerir diálisis.",
+   "C": "Un puntaje alto predice daño tubular que no se resuelve en 24 horas.",
+   "D": "Para glomerulonefritis se buscan eritrocitos dismórficos y cilindros eritrocitarios.",
+   "E": "La nefritis intersticial se identifica por leucocitos y cilindros leucocitarios."
+  },
+  "perla": "Puntaje de microscopía urinaria alto (cilindros granulosos + células tubulares) = NTA y peor pronóstico en LRA.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (LRA)",
+   "KDIGO 2012 Clinical Practice Guideline for Acute Kidney Injury. Kidney Int Suppl 2012;2:1",
+   "Judd E, Sanders PW, Agarwal A. Diagnosis and Clinical Evaluation of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 72, pp. 835-844"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "obj": "6.o2",
+  "peso": 61.8
+ },
+ {
+  "id": "ICI-1",
+  "serie_id": "ICI",
+  "orden": 1,
+  "sub": "26.d",
+  "subtema": "Inhibidores de puntos de control: nefritis intersticial aguda",
+  "dificultad": "moderada",
+  "caso": "Hombre de 67 años con melanoma metastásico tratado con pembrolizumab desde hace 4 meses, con omeprazol por reflujo. Creatinina de 1.0 a 2.8 mg/dL en 3 semanas. EGO con leucocituria estéril, cilindros leucocitarios, sin hematuria; proteinuria de 0.8 g/g. Sin fiebre, exantema ni eosinofilia.",
+  "enunciado": "¿Cuál es la lesión renal más probable asociada a los inhibidores de puntos de control?",
+  "opciones": {
+   "A": "Glomeruloesclerosis focal y segmentaria únicamente, que se presenta con proteinuria nefrótica y creatinina estable",
+   "B": "Nefropatía membranosa primaria, con anti-PLA2R positivo y proteinuria nefrótica, sin leucocituria ni cilindros leucocitarios",
+   "C": "Necrosis tubular aguda por cristales de pembrolizumab, que se acompaña de cristaluria y de acidosis tubular",
+   "D": "Enfermedad por anticuerpos anti-membrana basal glomerular, con hemoptisis y hematuria con cilindros eritrocitarios",
+   "E": "Nefritis tubulointersticial aguda (la más frecuente), con inhibidores de bomba de protones como factor de riesgo"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La GEFS puede ocurrir, pero con menor frecuencia que la nefritis intersticial.",
+   "B": "La nefropatía membranosa primaria no es la presentación típica.",
+   "C": "La NTA por cristales no es la lesión típica de los inhibidores de punto de control.",
+   "D": "La enfermedad anti-MBG no se asocia de forma típica a estos fármacos.",
+   "E": "Los anticuerpos contra PD-1, PD-L1 y CTLA-4 liberan la tolerancia de linfocitos T y pueden causar eventos adversos inmunes. La manifestación renal más frecuente es la nefritis tubulointersticial aguda (cerca de 2 a 5% de los pacientes), con inicio variable y a menudo tardío (meses). Se manifiesta con deterioro de la función renal, leucocituria estéril, cilindros leucocitarios y proteinuria subnefrótica; con frecuencia no hay exantema, fiebre ni eosinofilia. El uso concomitante de inhibidores de bomba de protones (y de AINE o antibióticos) predispone porque rompe la tolerancia a fármacos y aumenta el riesgo. Las glomerulopatías (podocitopatías, vasculitis pauci-inmune, nefropatía por IgA) son menos frecuentes."
+  },
+  "perla": "ICI → nefritis intersticial aguda (más frecuente). Riesgo: IBP, AINE, antibióticos. Sin tríada clásica; inicio tardío.",
+  "referencias": [
+   "Cortazar FB et al. J Am Soc Nephrol 2020;31:435",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "continuacion": "",
+  "obj": "26.o4",
+  "peso": 34.1
+ },
+ {
+  "id": "ICI-3",
+  "serie_id": "ICI",
+  "orden": 3,
+  "sub": "26.d",
+  "subtema": "Tratamiento de la nefritis por ICI",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia confirma nefritis tubulointersticial aguda con infiltrado de linfocitos T. La creatinina es de 3.2 mg/dL (más de 3 veces la basal).",
+  "enunciado": "¿Cuál es el tratamiento adecuado?",
+  "opciones": {
+   "A": "Suspender el inhibidor y dar prednisona 1–2 mg/kg/día con reducción en 4–6 semanas; si no responde, añadir micofenolato",
+   "B": "Solo hidratación y observación, porque la nefritis por inhibidores de punto de control se resuelve al suspender el fármaco",
+   "C": "Ciclofosfamida como primera línea, junto con plasmaféresis, por la gravedad de la lesión y la elevación de la creatinina",
+   "D": "Rituximab como primera línea, porque el infiltrado de linfocitos T indica un mecanismo mediado por linfocitos B",
+   "E": "Continuar el inhibidor a dosis menor, porque la nefritis es dependiente de la dosis y se resuelve al reducirla"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Para la nefritis por inhibidores de punto de control de grado alto (creatinina más de 3 veces la basal), las guías recomiendan suspender el inhibidor de forma definitiva o temporal según el grado e iniciar glucocorticoides a dosis altas (prednisona 1 a 2 mg/kg/día; 0.5 a 1 mg/kg en grado 2), con reducción lenta en 4 a 6 semanas. Si no hay mejoría en 3 a 7 días se añade micofenolato (o infliximab en eventos extrarrenales concurrentes). Más de 70% de los pacientes recupera la función renal, y la rapidez del tratamiento influye en el desenlace.",
+   "B": "Sin inmunosupresión la recuperación es incompleta con frecuencia.",
+   "C": "La ciclofosfamida no es el tratamiento de primera línea de esta nefritis.",
+   "D": "El rituximab no es la primera línea.",
+   "E": "Continuar el fármaco, incluso a menor dosis, perpetúa la inflamación."
+  },
+  "perla": "ICI-AIN grado alto: suspender ICI + prednisona 1–2 mg/kg, taper 4–6 sem; sin respuesta → micofenolato. Recuperación ~70%.",
+  "referencias": [
+   "Cortazar FB et al. J Am Soc Nephrol 2020;31:435",
+   "Comprehensive Clinical Nephrology (onconefrología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 36.1
+ },
+ {
+  "id": "ICI-4",
+  "serie_id": "ICI",
+  "orden": 4,
+  "sub": "26.d",
+  "subtema": "Glomerulopatías asociadas a ICI y reinicio del fármaco",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente con cáncer pulmonar en tratamiento con nivolumab desarrolla síndrome nefrótico agudo (proteinuria de 9 g/24 h, albúmina de 1.8 g/dL) sin hematuria ni caída significativa de TFG.",
+  "enunciado": "¿Qué lesión glomerular es la más probable y cuál es la conducta?",
+  "opciones": {
+   "A": "Glomerulonefritis posestreptocócica, que se trata con antibióticos y diuréticos por el síndrome nefrótico agudo del paciente",
+   "B": "Nefropatía membranosa con anti-PLA2R positivo, que solo requiere observación por la ausencia de caída de la TFG",
+   "C": "Necrosis papilar, que se trata con hidratación y suspensión de los AINE ante la proteinuria masiva del paciente",
+   "D": "Podocitopatía (cambios mínimos o GEFS colapsante); suspender el inhibidor y dar glucocorticoides",
+   "E": "Amiloidosis AL, que se trata con bortezomib y dexametasona por la proteinuria de 9 g y la hipoalbuminemia grave"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay infección estreptocócica previa.",
+   "B": "La nefropatía membranosa primaria no es típica y requiere confirmación serológica e histológica.",
+   "C": "La necrosis papilar no produce síndrome nefrótico.",
+   "D": "Aunque la nefritis intersticial predomina, los inhibidores de punto de control pueden causar glomerulopatías, sobre todo podocitopatías con síndrome nefrótico agudo (enfermedad de cambios mínimos o GEFS), además de vasculitis pauci-inmune, nefropatía por IgA, nefritis lúpica-símil, microangiopatía trombótica y amiloidosis AA. El síndrome nefrótico agudo con TFG relativamente conservada sugiere podocitopatía, que responde a suspensión del inhibidor y glucocorticoides. La biopsia define el diagnóstico, y el reinicio del inhibidor se valora con el oncólogo.",
+   "E": "La amiloidosis AL no explicaría el síndrome nefrótico agudo en este contexto."
+  },
+  "perla": "ICI + nefrótico agudo = podocitopatía (MCD/GEFS). También pauci-inmune, IgA, TMA, amiloide AA (raros).",
+  "referencias": [
+   "Cortazar FB et al. J Am Soc Nephrol 2020;31:435",
+   "Perazella MA, Shirali AC. J Am Soc Nephrol 2018;29:2039"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o4",
+  "peso": 36.1
+ },
+ {
+  "id": "LUR-1",
+  "serie_id": "LUR",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Litiasis de ácido úrico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 57 años con diabetes tipo 2, obesidad, gota y litiasis recurrente. La radiografía simple de abdomen es normal pero la tomografía muestra un cálculo renal de 9 mm con densidad de 420 UH. Ácido úrico sérico de 8.4 mg/dL. Orina de 24 horas: volumen de 1.4 L, pH constante de 5.2 en varias muestras, ácido úrico de 850 mg, calcio y citrato normales.",
+  "enunciado": "¿Cuál es el tipo de cálculo más probable y el mecanismo principal?",
+  "opciones": {
+   "A": "Cistina, por defecto del transporte tubular de aminoácidos dibásicos, con cristales hexagonales característicos en el sedimento",
+   "B": "Fosfato de calcio por hipercalcemia, que se forma en orinas alcalinas y es radiopaco en la radiografía simple de abdomen",
+   "C": "Oxalato de calcio por hiperoxaluria entérica, asociada a malabsorción de grasas y a cirugía bariátrica previa del paciente",
+   "D": "Ácido úrico (radiolúcido), por orina persistentemente ácida (pH <5.5), típica del síndrome metabólico y la diabetes",
+   "E": "Estruvita, por infección crónica con bacterias productoras de ureasa y orina alcalina persistente en la vía urinaria"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La cistina se asocia a cistinuria.",
+   "B": "El fosfato de calcio se forma con orina alcalina.",
+   "C": "La hiperoxaluria entérica produce oxalato de calcio.",
+   "D": "Los cálculos de ácido úrico son radiolúcidos en la radiografía simple (aunque visibles en la tomografía, con densidad de 200 a 450 UH) y se forman cuando la orina es persistentemente ácida (pH menor de 5.5): el ácido úrico no ionizado es poco soluble. El factor más importante es el pH urinario bajo, causado por la resistencia a la insulina (disminución de la excreción de amonio) en la diabetes tipo 2, la obesidad y el síndrome metabólico; la hiperuricosuria (más de 800 mg/día en varones) y el volumen urinario bajo contribuyen. La gota y la diarrea crónica son otras asociaciones.",
+   "E": "La estruvita requiere infección por bacterias con ureasa y pH alcalino."
+  },
+  "perla": "Ácido úrico: radiolúcido, TC 200–450 UH, pH <5.5 (resistencia a la insulina), ± hiperuricosuria, volumen bajo.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 48.9
+ },
+ {
+  "id": "LUR-2",
+  "serie_id": "LUR",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Disolución y prevención de la litiasis de ácido úrico",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El cálculo de ácido úrico es pequeño, no obstructivo, y el paciente no tiene infección ni hiperpotasemia.",
+  "enunciado": "¿Cuál es el tratamiento adecuado?",
+  "opciones": {
+   "A": "Tiazidas únicamente, porque reducen la calciuria y previenen la formación de cálculos de ácido úrico y de calcio en general",
+   "B": "Restricción de líquidos, porque reduce el volumen urinario y evita así la precipitación de los cristales de urato en el riñón",
+   "C": "Acidificar la orina con cloruro de amonio, porque el ácido úrico se disuelve mejor en una orina de pH muy bajo y acidificada",
+   "D": "Aumentar la ingesta de purinas, porque la carga de purinas incrementa la disolución del cálculo en la orina",
+   "E": "Alcalinizar con citrato de potasio (pH 6.0-6.5), aumentar la diuresis y reducir proteína animal; alopurinol si hay gota"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Las tiazidas no son el tratamiento de elección del ácido úrico.",
+   "B": "La restricción de líquidos favorece la precipitación.",
+   "C": "La acidificación aumenta la precipitación del ácido úrico.",
+   "D": "Las purinas elevan el ácido úrico urinario.",
+   "E": "La litiasis de ácido úrico es la única que puede disolverse con tratamiento médico: se alcaliniza la orina con citrato de potasio a un pH de 6.0 a 6.5 (valores mayores favorecen fosfato de calcio), se aumenta la diuresis y se reduce el consumo de proteína animal y de purinas. Se agrega alopurinol o febuxostat cuando hay hiperuricosuria o gota. La alcalinización no se emplea en pacientes con infección por bacterias con ureasa ni con hiperpotasemia."
+  },
+  "perla": "Ácido úrico: alcalinizar (pH 6–6.5) con citrato de potasio + agua; alopurinol si hiperuricosuria/gota. Se disuelve.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 48.9
  }
 ]

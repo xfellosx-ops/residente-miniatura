@@ -277,5 +277,200 @@
   "tema": "Enfermedades glomerulares",
   "obj": "9.o3",
   "peso": 80.8
+ },
+ {
+  "id": "MNB-3",
+  "serie_id": "MNB",
+  "orden": 3,
+  "sub": "9.d.2",
+  "subtema": "Nefritis lúpica clase V con proteinuria nefrótica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia confirma nefritis lúpica clase V pura (sin lesiones proliferativas), con índice de actividad 1 y de cronicidad 1. Proteinuria 5.6 g/24 h, TFGe 110 mL/min/1.73 m², sin hipertensión.",
+  "enunciado": "¿Cuál es el tratamiento inicial más adecuado?",
+  "opciones": {
+   "A": "Belimumab como único agente, sin glucocorticoides ni inmunosupresor de base, por su perfil de seguridad",
+   "B": "Plasmaféresis diaria por 5 días para retirar los inmunocomplejos subepiteliales y reducir la proteinuria",
+   "C": "Solo hidroxicloroquina y bloqueo del SRAA, sin inmunosupresión, porque la actividad histológica es baja y el filtrado es normal",
+   "D": "Hidroxicloroquina, bloqueo del SRAA, glucocorticoides y un inmunosupresor (micofenolato de elección) por la proteinuria nefrótica",
+   "E": "Prednisona en monoterapia a dosis alta durante 6 meses, con descenso gradual según la proteinuria"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El belimumab es complemento de tratamiento en nefritis proliferativa, no monoterapia.",
+   "B": "La plasmaféresis no tiene indicación en nefritis lúpica clase V.",
+   "C": "La estrategia sin inmunosupresión se reserva para proteinuria subnefrótica.",
+   "D": "En la clase V pura, el tratamiento depende de la proteinuria: con proteinuria subnefrótica y función renal normal bastan hidroxicloroquina, IECA/ARA-II y control de la TA. Con proteinuria nefrótica (como aquí) se agrega inmunosupresión: glucocorticoides con micofenolato (opción preferida por tolerancia), o inhibidor de calcineurina, ciclofosfamida o rituximab como alternativas. La respuesta tarda; se evalúa a 6 a 12 meses y se evitan los AINE.",
+   "E": "Los glucocorticoides solos son menos eficaces y exponen a más efectos adversos."
+  },
+  "perla": "LN clase V con proteinuria nefrótica: HCQ + RAASi + glucocorticoide + MMF (o CNI/CYC/rituximab). Subnefrótica: soporte.",
+  "referencias": [
+   "KDIGO 2024 Lupus Nephritis. Kidney Int 2024;105(1S):S1",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1 (capítulo 10)"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o9",
+  "peso": 75.0
+ },
+ {
+  "id": "MNB-4",
+  "serie_id": "MNB",
+  "orden": 4,
+  "sub": "9.d.2",
+  "subtema": "Lupus, mantenimiento y planeación del embarazo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Ocho meses después, remisión completa (proteinuria 0.2 g/día) con micofenolato, prednisona 5 mg/día e hidroxicloroquina. La paciente desea embarazarse en un año.",
+  "enunciado": "¿Cuál es el plan más adecuado?",
+  "opciones": {
+   "A": "Continuar el micofenolato durante todo el embarazo porque protege contra la recaída de la nefritis lúpica",
+   "B": "Cambiar a ciclofosfamida de mantenimiento antes de la concepción, por considerarse el fármaco más seguro para el feto",
+   "C": "Suspender toda la inmunosupresión y la hidroxicloroquina antes de la concepción para evitar riesgos fetales",
+   "D": "Esperar el embarazo con IECA a dosis máxima por la proteinuria residual, y suspenderlo solo en el segundo trimestre del embarazo",
+   "E": "Esperar ≥6 meses de quiescencia; cambiar a azatioprina antes de concebir, mantener hidroxicloroquina, retirar el IECA y dar AAS en dosis baja"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El micofenolato está contraindicado en el embarazo por teratogenicidad.",
+   "B": "La ciclofosfamida es teratogénica y gonadotóxica; no se usa como mantenimiento.",
+   "C": "Suspender toda la terapia favorece la recaída durante la gestación y se asocia a malos desenlaces maternos y fetales.",
+   "D": "Los IECA y ARA-II están contraindicados cuando se busca embarazo.",
+   "E": "El micofenolato es teratogénico (embriopatía) y debe suspenderse al menos 6 semanas antes de la concepción, con cambio a azatioprina (compatible con el embarazo; también se acepta tacrolimus). La hidroxicloroquina se continúa porque reduce las recaídas y las complicaciones; los IECA/ARA-II se suspenden al intentar el embarazo. El lupus debe estar inactivo al menos 6 meses antes de concebir; se recomienda ácido acetilsalicílico en dosis bajas desde la semana 12 para reducir preeclampsia y vigilar anticuerpos antifosfolípidos y anti-Ro/La."
+  },
+  "perla": "Lupus y embarazo: enfermedad quiescente ≥6 meses; cambiar MMF por azatioprina; mantener HCQ; suspender IECA/ARA-II; aspirina baja desde la semana 12.",
+  "referencias": [
+   "Sammaritano LR et al. Arthritis Rheumatol 2020;72:529 (guía ACR de salud reproductiva)",
+   "KDIGO 2024 Lupus Nephritis. Kidney Int 2024;105(1S):S1"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o9",
+  "peso": 75.0
+ },
+ {
+  "id": "TVR-1",
+  "serie_id": "TVR",
+  "orden": 1,
+  "sub": "15.b",
+  "subtema": "Trombosis de la vena renal en nefropatía membranosa",
+  "dificultad": "moderada",
+  "caso": "Hombre de 35 años con síndrome nefrótico por nefropatía membranosa (anti-PLA2R positivo), proteinuria de 9 g/día y albúmina de 1.8 g/dL. Presenta dolor lumbar izquierdo, hematuria macroscópica y aumento de creatinina de 1.0 a 1.6 mg/dL, con el riñón izquierdo aumentado de tamaño en la ecografía.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y el estudio confirmatorio?",
+  "opciones": {
+   "A": "Pielonefritis; urocultivo únicamente, porque el dolor lumbar con hematuria y aumento de creatinina indica infección de las vías urinarias",
+   "B": "Trombosis de la vena renal (hipercoagulabilidad del síndrome nefrótico); ecografía Doppler y angiotomografía o venografía por TC",
+   "C": "Necrosis papilar; urografía, porque el dolor lumbar con hematuria macroscópica indica desprendimiento papilar",
+   "D": "Cólico renal; radiografía simple, porque el dolor lumbar con hematuria indica una litiasis ureteral",
+   "E": "Embolia de la arteria renal; electrocardiograma, porque la hematuria con dolor lumbar indica una fuente cardioembólica"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La pielonefritis cursa con piuria y fiebre; el contexto es de hipercoagulabilidad.",
+   "B": "El síndrome nefrótico produce un estado de hipercoagulabilidad por pérdida urinaria de antitrombina III, proteínas C y S, aumento de fibrinógeno y de factores V y VIII, y hemoconcentración. La nefropatía membranosa tiene el mayor riesgo trombótico entre las causas de síndrome nefrótico, sobre todo con albúmina menor de 2.5 g/dL (por verde de bromocresol). La trombosis de la vena renal aguda se manifiesta con dolor lumbar, hematuria, aumento del tamaño renal y deterioro de la función renal; la crónica puede ser asintomática y presentarse como tromboembolia pulmonar. Se confirma con ecografía Doppler, angiotomografía o resonancia con venografía.",
+   "C": "La necrosis papilar tiene otros factores predisponentes y urografía con defectos papilares.",
+   "D": "El cólico renal no explica el aumento del tamaño renal ni el contexto nefrótico.",
+   "E": "La embolia arterial se presenta con fibrilación auricular y corte arterial, no con riñón aumentado en nefrótico."
+  },
+  "perla": "Nefrótico (sobre todo membranosa, albúmina <2.5) → trombosis venosa renal: dolor lumbar, hematuria, riñón grande, ↑Cr. Dx: Doppler/angio-TC.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (enfermedades vasculares del riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o1",
+  "peso": 17.6
+ },
+ {
+  "id": "TVR-2",
+  "serie_id": "TVR",
+  "orden": 2,
+  "sub": "15.b",
+  "subtema": "Anticoagulación en trombosis de la vena renal y profilaxis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma trombosis de la vena renal izquierda sin embolia pulmonar, y el paciente no tiene riesgo hemorrágico importante.",
+  "enunciado": "¿Cuál es el manejo de la trombosis y la estrategia de profilaxis en esta enfermedad?",
+  "opciones": {
+   "A": "Anticoagulación por 1 semana y suspender, porque la trombosis venosa renal es de resolución espontánea y no recurre nunca en el nefrótico",
+   "B": "Anticoagulación ≥6 meses mientras persista el nefrótico; profilaxis si hay membranosa con albúmina <2.5 g/dL y bajo riesgo de sangrado",
+   "C": "Filtro de vena cava en todos los casos, porque la anticoagulación está contraindicada en el síndrome nefrótico",
+   "D": "Trombólisis sistémica en todos los casos, porque restaura la perfusión renal y evita la pérdida del riñón",
+   "E": "Solo antiagregante plaquetario, porque es suficiente para tratar y prevenir la trombosis de la vena renal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Una semana es insuficiente y el estado procoagulante persiste.",
+   "B": "El tratamiento de la trombosis venosa renal es la anticoagulación inicial con heparina (la de bajo peso molecular se ajusta a la función renal) y luego warfarina (INR de 2 a 3) o un anticoagulante oral directo, durante al menos 6 meses y mientras dure el síndrome nefrótico con albúmina baja. La trombólisis se reserva para trombosis bilateral con lesión renal aguda o con compromiso vital. La guía KDIGO 2021 sugiere considerar la anticoagulación profiláctica en pacientes con nefropatía membranosa y albúmina menor de 2.5 g/dL (por verde de bromocresol) o menor de 2.0 g/dL (por púrpura de bromocresol) si hay factores de riesgo adicionales (inmovilidad, insuficiencia cardiaca, obesidad, trombofilia o cirugía reciente) y bajo riesgo hemorrágico. La remisión de la proteinuria reduce el riesgo.",
+   "C": "El filtro se reserva para contraindicación de anticoagulación con embolia pulmonar.",
+   "D": "La trombólisis sistémica aumenta el riesgo hemorrágico sin indicación rutinaria.",
+   "E": "El antiagregante no trata una trombosis venosa establecida."
+  },
+  "perla": "TVR: anticoagulación ≥6 meses y mientras haya nefrótico. MN con albúmina <2.5 (BCG) + factores de riesgo: considerar profilaxis. Trombólisis solo si bilateral/LRA/compromiso vital.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o1",
+  "peso": 19.6
+ },
+ {
+  "id": "TVR-3",
+  "serie_id": "TVR",
+  "orden": 3,
+  "sub": "15.b",
+  "subtema": "Resistencia a la heparina en síndrome nefrótico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia heparina no fraccionada en infusión con ajuste por TTPa, pero tras 48 horas el TTPa permanece subterapéutico a pesar de dosis crecientes. La antitrombina III plasmática es de 48% (normal de 80 a 120%).",
+  "enunciado": "¿Cuál es la explicación y la alternativa?",
+  "opciones": {
+   "A": "Exceso de antitrombina III; administrar protamina, porque el TTPa subterapéutico indica sobredosis de heparina no fraccionada",
+   "B": "Hipersensibilidad a la heparina; suspender toda anticoagulación, porque el TTPa no responde a la dosis",
+   "C": "Trombocitopenia inducida por heparina; administrar plaquetas, porque el TTPa no sube con dosis crecientes",
+   "D": "Error de laboratorio, que obliga a duplicar la dosis sin otras medidas, por lo que no se cambia el anticoagulante ni se mide anti-Xa",
+   "E": "Resistencia a la heparina por pérdida urinaria de antitrombina III; se monitoriza con anti-Xa o se cambia a un ACOD"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La antitrombina está disminuida, no aumentada, y la protamina revierte heparina.",
+   "B": "El cuadro no es de hipersensibilidad ni obliga a suspender la anticoagulación.",
+   "C": "La trombocitopenia inducida por heparina cursa con caída de plaquetas y trombosis paradójica, no con TTPa subterapéutico aislado.",
+   "D": "El valor bajo de antitrombina explica la falta de respuesta, y duplicar la dosis sin vigilancia anti-Xa es ineficaz y riesgoso.",
+   "E": "La heparina actúa potenciando la antitrombina III, que se pierde por la orina en el síndrome nefrótico junto con otras proteínas de bajo peso molecular, por lo que puede haber resistencia a la heparina con TTPa subterapéutico. El TTPa es poco confiable en este contexto, y se prefiere la actividad anti-Xa para ajustar la dosis. Los anticoagulantes orales directos (inhibidores del factor Xa o de la trombina) no dependen de la antitrombina y son una alternativa razonable, con ajuste a la TFG y vigilancia de la albúmina (la unión a proteínas puede cambiar la fracción libre); la warfarina también es independiente de la antitrombina y se introduce con puente. Es una pérdida de antitrombina, no un exceso."
+  },
+  "perla": "Nefrótico: pérdida de antitrombina III → resistencia a heparina (TTPa subterapéutico). Vigilar anti-Xa; alternativa: ACOD o warfarina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (síndrome nefrótico)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o1",
+  "peso": 19.6
  }
 ]

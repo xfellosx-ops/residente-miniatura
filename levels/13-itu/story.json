@@ -219,7 +219,7 @@
      "id": "t0_0",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "IVJ-5",
+     "serie": "IVJ-2",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -239,7 +239,7 @@
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "IVJ-7",
+     "serie": "IVJ-5",
      "intro": [
       [
        "Dra. Carmen Triaje",
@@ -247,7 +247,7 @@
       ],
       [
        "Dra. Carmen Triaje",
-       "Mi caso: Bacteriuria asociada a sonda"
+       "Mi caso: IVU en el hombre"
       ]
      ],
      "defeat": [
@@ -263,7 +263,7 @@
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "IVJ-10",
+     "serie": "IVJ-7",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -271,7 +271,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: Tratamiento de la IVU por Candida"
+       "Mi caso: Bacteriuria asociada a sonda"
       ]
      ],
      "defeat": [
@@ -478,7 +478,7 @@
      "id": "t1_0",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "IVJ-6",
+     "serie": "IVJ-4",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -498,7 +498,7 @@
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "IVJ-9",
+     "serie": "IVJ-6",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -506,7 +506,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: Candiduria: colonización o infección"
+       "Mi caso: IVU en ERC avanzada"
       ]
      ],
      "defeat": [
@@ -522,7 +522,7 @@
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "IVJ-12",
+     "serie": "IVJ-9",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -530,7 +530,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Diagnóstico de TB urinaria"
+       "Mi caso: Candiduria: colonización o infección"
       ]
      ],
      "defeat": [
@@ -677,6 +677,10 @@
    [
     "Sabio Brenn",
     "Tratar menos bacteriurias es tratar mejor."
+   ],
+   [
+    "Paciente",
+    "Me drenaron el absceso. Y ya sé cuándo no tomar antibiótico."
    ]
   ],
   "phases": [
@@ -693,8 +697,8 @@
      "Clasificación"
     ],
     "questions": [
-     "NPP-1",
-     "NPP-2"
+     "LST-1",
+     "LST-2"
     ]
    },
    {
@@ -710,7 +714,7 @@
      "Antibiótico"
     ],
     "questions": [
-     "NPP-3"
+     "LST-3"
     ]
    },
    {
@@ -726,7 +730,8 @@
      "Complicaciones"
     ],
     "questions": [
-     "IVJ-2"
+     "NPP-1",
+     "NPP-2"
     ]
    },
    {
@@ -742,7 +747,7 @@
      "Formas especiales"
     ],
     "questions": [
-     "IVJ-4"
+     "NPP-3"
     ]
    }
   ]
@@ -758,6 +763,14 @@
   {
    "title": "Parénquima en Llamas",
    "text": "Sin mejoría en 72 h: TC. Enfisematosa (diabetes): drenaje. Xantogranulomatosa: coraliforme + riñón excluido. TB: piuria estéril."
+  },
+  {
+   "title": "💎 Tratamiento de la litiasis coraliforme",
+   "text": "Coraliforme/estruvita: remoción completa (NLP) + antibiótico dirigido; ESWL sola no. Ácido acetohidroxámico si no hay cirugía."
+  },
+  {
+   "title": "💎 Litiasis coraliforme por estruvita",
+   "text": "Estruvita: Proteus mirabilis (ureasa), pH >7.2, coraliforme, radiopaco. Vejiga neurogénica e IVU recurrente."
   },
   {
    "title": "💎 Tratamiento de primera línea en cistitis",
@@ -782,14 +795,6 @@
   {
    "title": "💎 Candiduria: colonización o infección",
    "text": "Tratar candiduria asintomática solo en neutropénicos, recién nacidos de muy bajo peso y antes de procedimientos urológicos. En trasplantados, solo con obstrucción, procedimiento planeado o síntomas."
-  },
-  {
-   "title": "💎 Tratamiento de la IVU por Candida",
-   "text": "Fluconazol de elección para C. albicans: carga 400 mg y 200 mg/día por 14 días. Bolas fúngicas: retiro quirúrgico más fluconazol e irrigación por nefrostomía. C. glabrata tarda 48 h en crecer."
-  },
-  {
-   "title": "💎 Diagnóstico de TB urinaria",
-   "text": "Imagen: uréter en sacacorchos o en tallo de pipa, vejiga en dedal y uréter en hoyo de golf. LAM urinario para TB asociada a VIH con CD4 <200."
   }
  ]
 }

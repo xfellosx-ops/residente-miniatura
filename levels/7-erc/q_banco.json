@@ -7974,5 +7974,195 @@
   ],
   "tema": "Enfermedad renal crónica y síndrome urémico",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "PRG-1",
+  "serie_id": "PRG",
+  "orden": 1,
+  "sub": "8.a",
+  "subtema": "Progresión de ERC diabética: pilares terapéuticos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 63 años con DM2 e hipertensión. TFGe 52 mL/min/1.73 m², ACR 180 mg/g, potasio 4.5 mEq/L, HbA1c 7.6%. Recibe losartán 100 mg y amlodipino 5 mg; TA 128/76 mmHg.",
+  "enunciado": "¿Cuál es el siguiente fármaco con mayor impacto sobre la progresión renal?",
+  "opciones": {
+   "A": "Espironolactona 25 mg, por su efecto antiproteinúrico, sin considerar la hiperpotasemia ni la TFGe de la paciente",
+   "B": "iSGLT2 (dapagliflozina o empagliflozina), por su efecto nefroprotector independiente de la glucemia",
+   "C": "Un IECA sumado al losartán, para lograr un doble bloqueo del sistema renina-angiotensina y reducir la ACR",
+   "D": "Pioglitazona, por su efecto sobre la sensibilidad a la insulina y la reducción de la progresión renal",
+   "E": "Aliskirén, por el bloqueo directo de la renina, sumado al losartán para la reducción de la albuminuria"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La espironolactona no tiene evidencia sólida de renoprotección en DM y aumenta la hiperpotasemia.",
+   "B": "En DM2 con ERC, el losartán a dosis máxima es la base. El siguiente pilar con mayor evidencia es el iSGLT2: reduce progresión de ERC, falla renal, hospitalización por insuficiencia cardiaca y mortalidad cardiovascular (CREDENCE, DAPA-CKD, EMPA-KIDNEY), con TFGe ≥20. Después se agrega finerenona si persiste albuminuria con K ≤4.8 mEq/L y TFGe ≥25, y un aGLP-1 con beneficio demostrado si falta control glucémico.",
+   "C": "La combinación IECA + ARA-II no mejora desenlaces renales y aumenta eventos adversos.",
+   "D": "La pioglitazona no tiene indicación para renoprotección y causa retención de líquidos.",
+   "E": "El aliskirén combinado con ARA-II aumenta hiperpotasemia y eventos renales (ALTITUDE)."
+  },
+  "perla": "DM2 + ERC: cuatro pilares = IECA/ARA-II máximos + iSGLT2 + finerenona (si ACR persistente y K ≤4.8) + aGLP-1 con beneficio.",
+  "referencias": [
+   "KDIGO 2022 Diabetes in CKD Guideline. Kidney Int 2022;102(5S):S1",
+   "Heerspink HJL et al. N Engl J Med 2020;383:1436 (DAPA-CKD)"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "continuacion": "",
+  "obj": "8.o3",
+  "peso": 39.9
+ },
+ {
+  "id": "PRG-3",
+  "serie_id": "PRG",
+  "orden": 3,
+  "sub": "8.a",
+  "subtema": "Finerenona en DM2 con ERC",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A los 4 meses la ACR sigue en 150 mg/g, K 4.6 mEq/L y TFGe 46 mL/min/1.73 m². Recibe losartán 100 mg y dapagliflozina 10 mg.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Agregar espironolactona 25 mg al día, porque bloquea el receptor mineralocorticoide con mayor evidencia renal que la finerenona",
+   "B": "Agregar finerenona 10 mg al día (TFGe 25–59), con potasio a las 4 semanas y aumento a 20 mg si el K es ≤4.8 mEq/L",
+   "C": "Duplicar el losartán a 200 mg, porque la dosis máxima aprobada es mayor y la albuminuria persistente lo justifica de forma clara",
+   "D": "Agregar un inhibidor de la enzima convertidora de angiotensina al ARA-II para un bloqueo dual más completo del SRAA",
+   "E": "Suspender el iSGLT2 por persistencia de albuminuria, porque el fármaco ya no ofrece beneficio renal adicional"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La espironolactona no tiene ensayos de desenlaces renales en DM y produce más hiperpotasemia.",
+   "B": "La finerenona, un antagonista no esteroideo selectivo del receptor mineralocorticoide, reduce progresión de ERC y eventos cardiovasculares en DM2 con albuminuria persistente a pesar de IECA/ARA-II máximos (FIDELIO-DKD, FIGARO-DKD; FIDELITY). Criterios: K ≤4.8 mEq/L y TFGe ≥25. Se inicia con 10 mg si TFGe 25 a 59 (20 mg si ≥60); se mide potasio y TFGe a las 4 semanas y se ajusta; el riesgo de hiperpotasemia es mayor que con placebo. La combinación con iSGLT2 reduce el riesgo de hiperpotasemia en análisis post hoc.",
+   "C": "El losartán ya está a la dosis máxima aprobada (100 mg).",
+   "D": "La asociación IECA/ARA-II está contraindicada por daño sin beneficio.",
+   "E": "El iSGLT2 no se suspende; es base del tratamiento aunque quede albuminuria residual."
+  },
+  "perla": "Finerenona: DM2 + ERC con albuminuria persistente, K ≤4.8 y TFGe ≥25; 10 mg si TFGe 25–59, 20 mg si ≥60; K a las 4 semanas.",
+  "referencias": [
+   "Bakris GL et al. N Engl J Med 2020;383:2219 (FIDELIO-DKD)",
+   "Agarwal R et al. Eur Heart J 2022;43:474 (FIDELITY)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 8,
+  "tema": "Nefropatía diabética",
+  "obj": "8.o3",
+  "peso": 23.8
+ },
+ {
+  "id": "EPO-1",
+  "serie_id": "EPO",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "Producción renal de eritropoyetina",
+  "dificultad": "moderada",
+  "caso": "Mujer de 49 años con ERC G4 por nefropatía diabética. Hemoglobina de 9.1 g/dL, VCM de 91 fL, reticulocitos bajos, eritropoyetina sérica de 8 mUI/mL (inapropiadamente baja para la anemia), TSAT de 14% y ferritina de 160 ng/mL, PCR de 2.1 mg/dL.",
+  "enunciado": "¿Dónde y cómo se produce normalmente la eritropoyetina?",
+  "opciones": {
+   "A": "En la médula ósea, regulada por el calcio sérico y por la concentración de hierro de los precursores eritroides en desarrollo",
+   "B": "En las células tubulares proximales, en respuesta a la hemoglobina baja detectada por el túbulo del riñón y por el flujo sanguíneo",
+   "C": "En el hígado adulto, regulada por el hierro y por la concentración de hepcidina circulante en la sangre",
+   "D": "En fibroblastos peritubulares de la corteza y médula externa, regulada por la tensión tisular de oxígeno vía HIF-2α",
+   "E": "En el aparato yuxtaglomerular, regulada por la angiotensina II y por la concentración de sodio tubular"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La médula ósea responde a la eritropoyetina, pero no la produce.",
+   "B": "Las células tubulares proximales no son la fuente principal, y no responden a la concentración de hemoglobina.",
+   "C": "El hígado produce eritropoyetina en el feto, y en el adulto es una fuente menor.",
+   "D": "La eritropoyetina del adulto es producida principalmente por fibroblastos peritubulares de la corteza y la médula externa del riñón, que detectan la presión parcial de oxígeno del tejido, no la hemoglobina como tal. En hipoxia, el factor HIF-2α se estabiliza (se inhibe su degradación por las prolil-hidroxilasas), entra al núcleo y activa el gen de EPO. En la ERC, la pérdida de estas células y la transformación en miofibroblastos fibrosos reducen la producción, y las citocinas inflamatorias la inhiben, por lo que la EPO es baja para el grado de anemia (anemia normocítica normocrómica hipoproliferativa).",
+   "E": "El aparato yuxtaglomerular produce renina."
+  },
+  "perla": "EPO: fibroblastos peritubulares (corteza/médula externa), regulada por pO₂ tisular vía HIF-2α. ERC: ↓EPO, anemia normocítica hipoproliferativa.",
+  "referencias": [
+   "Haase VH. Kidney Int Suppl 2021;11:8",
+   "Comprehensive Clinical Nephrology (anemia de la ERC)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "EPO-3",
+  "serie_id": "EPO",
+  "orden": 3,
+  "sub": "21.f",
+  "subtema": "Eritrocitosis postrasplante",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Años después la paciente recibe un trasplante renal. A los 8 meses tiene hemoglobina de 17.9 g/dL y hematocrito de 54%, con creatinina estable de 1.3 mg/dL, sin hipertensión grave, sin quistes ni tumores en la ecografía y una arteria del injerto sin estenosis.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento de primera línea?",
+  "opciones": {
+   "A": "Policitemia vera; hidroxiurea, por la hemoglobina elevada y la persistencia de la eritrocitosis sin causa aparente",
+   "B": "Deficiencia de hierro; hierro intravenoso, porque el hematocrito elevado indica un trastorno de la eritropoyesis por falta de hierro",
+   "C": "Rechazo agudo; pulsos de metilprednisolona, porque la eritrocitosis indica actividad inmunológica en el injerto",
+   "D": "Eritrocitosis postrasplante; iniciar un IECA o ARA II, con flebotomías si hay síntomas o hematocrito muy alto",
+   "E": "Eritrocitosis por EPO exógena; suspender la EPO que recibía en diálisis, aunque ya no la usa desde el trasplante"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La policitemia vera tiene mutación JAK2 y EPO baja, y la eritrocitosis aquí tiene EPO normal o alta.",
+   "B": "La hemoglobina es alta, no hay deficiencia de hierro.",
+   "C": "No hay deterioro de la función del injerto ni datos de rechazo.",
+   "D": "La eritrocitosis postrasplante (hemoglobina mayor de 17 g/dL o hematocrito mayor de 51%) aparece en 10 a 15% de los receptores entre los 8 y 24 meses, con función estable del injerto. Se atribuye a una mayor sensibilidad de los progenitores eritroides a la angiotensina II y al IGF-1, con producción de EPO por el riñón nativo y el injerto. Se descartan estenosis de la arteria del injerto, tumores o quistes productores de EPO, tabaquismo y otras causas. El tratamiento de primera línea son los inhibidores de la enzima convertidora o los ARA II, que normalizan el hematocrito en la mayoría, con flebotomías para el hematocrito muy elevado o los síntomas por hiperviscosidad.",
+   "E": "La paciente no recibe eritropoyetina exógena."
+  },
+  "perla": "Eritrocitosis postrasplante (Hb >17/Hct >51%, 8–24 m): sensibilización por angiotensina II; tratar con iECA/ARA II ± flebotomía.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trasplante renal)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 21,
+  "tema": "Trasplante renal",
+  "obj": "21.o7",
+  "peso": 24.5
+ },
+ {
+  "id": "UCV-2",
+  "serie_id": "UCV",
+  "orden": 2,
+  "sub": "19.b",
+  "subtema": "Muerte súbita cardiaca en hemodiálisis: factores de riesgo y prevención",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al año, el paciente inicia hemodiálisis con baño de potasio de 1 mEq/L y calcio de 2.0 mEq/L, tres veces por semana, con sesiones de 3 horas y ganancias interdiálisis de 4 kg. Se presenta un episodio de paro cardiaco por fibrilación ventricular al final del intervalo largo de fin de semana, previo a la sesión del lunes. Se recupera con reanimación.",
+  "enunciado": "¿Qué factores favorecen el evento y cuál es la medida preventiva?",
+  "opciones": {
+   "A": "Es un evento aleatorio sin relación con la diálisis, por lo que no existen medidas preventivas específicas",
+   "B": "Se previene con un baño de potasio muy bajo y una alta velocidad de ultrafiltración para evitar la sobrecarga",
+   "C": "Más frecuente al final del intervalo largo y tras la sesión; se previene con baños de K⁺ y Ca²⁺ mayores y menor UF por hora",
+   "D": "Se debe solo a la hiperpotasemia, que se previene con un baño de potasio de 0 mEq/L en todas las sesiones",
+   "E": "Se previene con diuréticos tiazídicos en todos los pacientes, para reducir la ganancia de peso interdiálisis"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los eventos se asocian de forma clara con los intervalos y los cambios de la diálisis.",
+   "B": "El potasio bajo y la ultrafiltración rápida aumentan el riesgo de arritmias.",
+   "C": "La muerte súbita de origen cardiaco explica cerca de 25 a 30% de la mortalidad en hemodiálisis, con un riesgo más alto en el intervalo largo interdiálisis (sobre todo la última parte antes de la sesión del lunes, con sobrecarga de volumen, hiperpotasemia e hipocalcemia) y en las horas posteriores a la sesión, por los cambios rápidos de potasio, calcio y volumen, que prolongan el QT y favorecen las arritmias en un corazón con hipertrofia y fibrosis. Los factores de riesgo incluyen la cardiopatía isquémica, la hipertrofia ventricular, la insuficiencia cardiaca, la hiperpotasemia, la hipocalcemia, los baños con potasio bajo (menos de 2 mEq/L), las ultrafiltraciones altas y las ganancias interdiálisis altas. La prevención incluye baños con potasio de 2 a 3 mEq/L y calcio de 2.5 mEq/L, la ultrafiltración lenta, sesiones más largas o más frecuentes (o un tratamiento adicional antes del intervalo largo), control estricto del peso seco y del sodio, y tratamiento de la cardiopatía; el desfibrilador implantable no ha demostrado beneficio en prevención primaria en hemodiálisis (ensayo ICD2).",
+   "D": "Un baño de potasio de 0 mEq/L aumenta el riesgo de arritmias por la disminución rápida del potasio.",
+   "E": "Los diuréticos tiazídicos no previenen la muerte súbita en hemodiálisis."
+  },
+  "perla": "Muerte súbita en HD: pico al final del intervalo largo y tras la sesión (K⁺, Ca²⁺, volumen). Prevención: baños K 2–3 y Ca 2.5 mEq/L, UF lenta, más tiempo/frecuencia, peso seco. DAI primario sin beneficio (ICD2).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedad cardiovascular en la ERC)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o6",
+  "peso": 44.4
  }
 ]

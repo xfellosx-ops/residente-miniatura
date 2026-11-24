@@ -1922,5 +1922,42 @@
   ],
   "tema": "Enfermedades quísticas del riñón",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "MSK-2",
+  "serie_id": "MSK",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Alteraciones metabólicas en riñón en esponja",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se solicita el estudio metabólico urinario y sérico por la litiasis recurrente.",
+  "enunciado": "¿Qué alteraciones se esperan con mayor frecuencia?",
+  "opciones": {
+   "A": "Estudio metabólico siempre normal, porque la litiasis recurrente casi nunca tiene una alteración metabólica identificable",
+   "B": "Hipercalciuria e hipocitraturia, con defecto de acidificación (ATR distal incompleta) y a veces hiperparatiroidismo",
+   "C": "Hiperoxaluria primaria, con glicolato elevado en orina y déficit hepático de la enzima peroxisomal AGXT en el paciente",
+   "D": "Cistinuria, con aumento de la excreción urinaria de cistina y de aminoácidos dibásicos por defecto del transportador tubular",
+   "E": "Hipercalcemia con hipocalciuria, propia de la hipercalcemia hipocalciúrica familiar y de la litiasis cálcica recurrente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Las alteraciones metabólicas son frecuentes y deben buscarse.",
+   "B": "Hasta la mitad de los pacientes con riñón en esponja medular tiene hipercalciuria, y son frecuentes la hipocitraturia, la acidosis tubular distal incompleta (pH urinario alto con bicarbonato sérico normal) y el hiperparatiroidismo primario, que deben buscarse porque son tratables y determinan la recurrencia de los cálculos (oxalato de calcio y fosfato de calcio). Por eso se realizan calcio, PTH, bicarbonato y potasio séricos, y orina de 24 horas con calcio, citrato y pH. Los cálculos suelen formarse en los túbulos dilatados por estasis y alteraciones metabólicas.",
+   "C": "La hiperoxaluria primaria es una enfermedad genética que se presenta con ERC y no se asocia a este patrón anatómico.",
+   "D": "La cistinuria no es parte de este cuadro.",
+   "E": "La hipocalciuria con hipercalcemia es la hipercalcemia hipocalciúrica familiar, un diagnóstico distinto."
+  },
+  "perla": "Riñón en esponja: buscar hipercalciuria, hipocitraturia, ATR distal incompleta y PHPT.",
+  "referencias": [
+   "Gambaro G et al. Kidney Int 2006;69:1545",
+   "Comprehensive Clinical Nephrology (enfermedades quísticas)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 38.8
  }
 ]

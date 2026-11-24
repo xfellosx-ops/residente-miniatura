@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "hemo",
      "specialty": "Villano corporativo",
-     "serie": "HIP",
+     "serie": "BAC",
      "intro": [
       [
        "Director de Hemo-Eterna",
@@ -243,7 +243,7 @@
      "id": "t0_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "HEP",
+     "serie": "ACC",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -251,7 +251,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: Vacunación contra hepatitis B en hemodiálisis"
+       "Mi caso: Maduración de la fístula arteriovenosa: regla de los 6"
       ]
      ],
      "defeat": [
@@ -261,13 +261,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "AZ14-2",
+     "serie": "CMP",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -275,7 +275,7 @@
       ],
       [
        "Dr. Rocco Filo",
-       "Mi caso: HDi, HDx y hemodiafiltración"
+       "Mi caso: Síndrome de desequilibrio de la diálisis"
       ]
      ],
      "defeat": [
@@ -285,7 +285,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     }
    ],
    "wild": [
@@ -476,7 +476,7 @@
      "id": "t1_0",
      "cast": "uti",
      "specialty": "Terapia Intensiva",
-     "serie": "ACC",
+     "serie": "HTH",
      "intro": [
       [
        "Dr. Max Presor",
@@ -490,13 +490,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 3
     },
     {
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "CMP",
+     "serie": "ADQ",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -504,7 +504,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: Síndrome de desequilibrio de la diálisis"
+       "Mi caso: Cálculo de Kt/V con la fórmula de Daugirdas"
       ]
      ],
      "defeat": [
@@ -514,13 +514,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 3
     },
     {
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "AZ14-3",
+     "serie": "AZ2-10",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -528,7 +528,7 @@
       ],
       [
        "Dr. Anselmo Frágil",
-       "Mi caso: HDi, HDx y hemodiafiltración"
+       "Mi caso: Hipotensión intradiálisis y peso seco"
       ]
      ],
      "defeat": [
@@ -736,7 +736,7 @@
      "id": "t2_0",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "ADQ",
+     "serie": "HIP",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -750,13 +750,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "AZ2-10",
+     "serie": "HEP",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -764,7 +764,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Hipotensión intradiálisis y peso seco"
+       "Mi caso: Vacunación contra hepatitis B en hemodiálisis"
       ]
      ],
      "defeat": [
@@ -774,13 +774,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "AZ14-4",
+     "serie": "AZ14-2",
      "intro": [
       [
        "Dra. Sara Esquistocito",
@@ -965,9 +965,9 @@
      "Prescripción"
     ],
     "questions": [
-     "CNV-1",
-     "CNV-2",
-     "CNV-3"
+     "ANT-1",
+     "ANT-2",
+     "ANT-3"
     ]
    },
    {
@@ -983,9 +983,8 @@
      "Complicaciones agudas"
     ],
     "questions": [
-     "CNV-4",
-     "BAC-1",
-     "BAC-2"
+     "ANT-4",
+     "ANT-5"
     ]
    },
    {
@@ -1001,9 +1000,9 @@
      "Adecuación"
     ],
     "questions": [
-     "BAC-3",
-     "BAC-4",
-     "HTH-1"
+     "ANT-6",
+     "CNV-1",
+     "CNV-2"
     ]
    },
    {
@@ -1019,8 +1018,8 @@
      "Acceso"
     ],
     "questions": [
-     "HTH-2",
-     "HTH-3"
+     "CNV-3",
+     "CNV-4"
     ]
    }
   ]

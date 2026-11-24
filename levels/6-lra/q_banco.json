@@ -6210,5 +6210,393 @@
   ],
   "tema": "Daño renal agudo",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "SEA-4",
+  "serie_id": "SEA",
+  "orden": 4,
+  "sub": "10.a",
+  "subtema": "Nefritis intersticial aguda por fármacos: sedimento y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al octavo día, el paciente mejora la diuresis, pero la creatinina vuelve a subir de 2.1 a 3.3 mg/dL, con fiebre, exantema maculopapular y eosinófilos de 8%. El sedimento ya no muestra cilindros granulosos: hay leucocituria estéril con cilindros leucocitarios.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y su manejo?",
+  "opciones": {
+   "A": "Pielonefritis bacteriana; continuar el mismo antibiótico, porque la fiebre indica infección activa y no una reacción al fármaco administrado",
+   "B": "Nefritis intersticial alérgica (probable piperacilina-tazobactam): suspender el fármaco, valorar biopsia y prednisona si no mejora",
+   "C": "Recaída de necrosis tubular aguda; aumentar la dosis del antibiótico, porque la creatinina vuelve a subir tras la mejoría inicial de la diuresis",
+   "D": "Obstrucción posrenal; sondeo vesical solamente, porque la diuresis mejoró y la creatinina subió por retención",
+   "E": "Glomerulonefritis por IgA; iniciar inmunosupresión, porque la fiebre y el exantema indican un brote inflamatorio glomerular"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La pielonefritis cursa con urocultivo positivo; aquí la leucocituria es estéril.",
+   "B": "La combinación de nuevo deterioro de la creatinina, fiebre, exantema, eosinofilia y leucocituria estéril con cilindros leucocitarios sugiere nefritis intersticial aguda por fármacos, sobre todo betalactámicos como piperacilina-tazobactam. La tríada completa solo aparece en una minoría de los casos y la eosinofiluria (Hansel) tiene baja sensibilidad y especificidad. El tratamiento es suspender el fármaco causal y, si no hay mejoría en 3 a 7 días o la lesión es grave, confirmar con biopsia e iniciar prednisona (0.5 a 1 mg/kg) durante 2 a 4 semanas con reducción gradual.",
+   "C": "Continuar o aumentar el antibiótico causal agrava la nefritis.",
+   "D": "La obstrucción no explicaría fiebre, exantema ni eosinofilia.",
+   "E": "No hay datos de hematuria glomerular ni cilindros eritrocitarios."
+  },
+  "perla": "NIA: fiebre/exantema/eosinofilia (tríada <15%), leucocituria estéril + cilindros leucocitarios. Suspender fármaco; esteroides si no mejora.",
+  "referencias": [
+   "Perazella MA, Markowitz GS. Nat Rev Nephrol 2010;6:461",
+   "Comprehensive Clinical Nephrology (nefritis intersticial)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 26.5
+ },
+ {
+  "id": "AEM-2",
+  "serie_id": "AEM",
+  "orden": 2,
+  "sub": "18.b",
+  "subtema": "TTP, SHUa y HELLP: diferenciación",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Dos semanas después del parto, otra paciente presenta anemia hemolítica microangiopática, plaquetas de 41,000/µL, creatinina de 4.8 mg/dL con anuria, hipertensión grave y transaminasas normales. Actividad de ADAMTS13 de 62%. Las manifestaciones no mejoran tras el parto.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Hígado graso agudo del embarazo, con transaminasas elevadas, hipoglucemia y coagulopatía, que mejora tras el parto",
+   "B": "SHU atípico posparto (mediado por complemento): lesión renal grave persistente, con ADAMTS13 normal",
+   "C": "Púrpura trombocitopénica trombótica con ADAMTS13 menor de 10%, con afección neurológica y renal leve",
+   "D": "Síndrome nefrótico por podocitopatía asociada al embarazo, con edema e hipoalbuminemia sin hemólisis",
+   "E": "HELLP residual que se resolverá en 72 horas, por lo que solo se requiere vigilancia y manejo de soporte"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El hígado graso agudo es un cuadro hepático del tercer trimestre.",
+   "B": "El SHUa asociado al embarazo ocurre sobre todo en el posparto, con una desregulación del complemento (variantes de CFH, CFI, MCP, C3, CFB o anticuerpos anti-CFH) desencadenada por el embarazo. Se manifiesta con anemia hemolítica microangiopática, trombocitopenia y lesión renal grave (a menudo oligoanuria), sin elevación llamativa de transaminasas, y persiste o empeora después del parto, a diferencia del HELLP, que mejora en 48 a 72 horas. La ADAMTS13 es normal (la PTT tiene menos de 10%). El tratamiento es el bloqueo del complemento con eculizumab o ravulizumab y se pide estudio genético del complemento.",
+   "C": "La ADAMTS13 es de 62%; la PTT la presenta menor de 10%.",
+   "D": "No hay síndrome nefrótico ni hemólisis en esa entidad.",
+   "E": "El HELLP mejora en 48 a 72 horas después del parto; este cuadro persiste."
+  },
+  "perla": "SHUa posparto: AHMA + trombocitopenia + LRA grave que persiste tras el parto; ADAMTS13 normal; eculizumab/ravulizumab.",
+  "referencias": [
+   "Fakhouri F et al. Blood 2020;136:2103",
+   "Comprehensive Clinical Nephrology (microangiopatía trombótica)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o2",
+  "peso": 42.2
+ },
+ {
+  "id": "AEM-3",
+  "serie_id": "AEM",
+  "orden": 3,
+  "sub": "18.b",
+  "subtema": "PTT en el embarazo: diagnóstico y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una gestante de 24 semanas presenta fiebre, alteración neurológica transitoria, anemia hemolítica con esquistocitos, plaquetas de 12,000/µL, creatinina de 1.2 mg/dL y transaminasas normales. La actividad de ADAMTS13 es de 4%.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "opciones": {
+   "A": "SHUa; solo eculizumab sin recambio plasmático, porque la creatinina de 1.2 mg/dL indica afectación renal grave",
+   "B": "Preeclampsia; interrupción del embarazo inmediata como tratamiento único, por la trombocitopenia grave",
+   "C": "Hígado graso agudo del embarazo; interrupción del embarazo, por la hemólisis y la trombocitopenia",
+   "D": "Transfusión de plaquetas como medida inicial, para prevenir el sangrado por la trombocitopenia de 12,000/µL",
+   "E": "PTT: recambio plasmático urgente con glucocorticoides, más rituximab o caplacizumab según el caso; el parto no la cura"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El SHUa se diagnostica con ADAMTS13 normal.",
+   "B": "La interrupción del embarazo no corrige la PTT.",
+   "C": "El hígado graso agudo cursa con hipoglucemia y coagulopatía.",
+   "D": "Las plaquetas pueden aumentar los trombos y están contraindicadas.",
+   "E": "La PTT se caracteriza por actividad de ADAMTS13 menor de 10%, anemia hemolítica microangiopática, trombocitopenia grave y, con frecuencia, manifestaciones neurológicas y fiebre, con afectación renal moderada. En el embarazo puede ser congénita (déficit de ADAMTS13) o adquirida, aparece en el segundo o tercer trimestre y recurre en embarazos futuros en la forma congénita. El tratamiento urgente es el recambio plasmático (o infusión de plasma en la forma congénita), con glucocorticoides, y rituximab o caplacizumab en la forma adquirida; el parto no cura la enfermedad. Las transfusiones de plaquetas están contraindicadas salvo hemorragia que ponga en riesgo la vida."
+  },
+  "perla": "PTT: ADAMTS13 <10%; recambio plasmático urgente + esteroides ± rituximab/caplacizumab. No transfundir plaquetas.",
+  "referencias": [
+   "Fakhouri F et al. Blood 2020;136:2103",
+   "Comprehensive Clinical Nephrology (microangiopatía trombótica)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o2",
+  "peso": 42.2
+ },
+ {
+  "id": "AEM-4",
+  "serie_id": "AEM",
+  "orden": 4,
+  "sub": "18.e",
+  "subtema": "Hidronefrosis fisiológica y pielonefritis en el embarazo",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Una gestante de 30 semanas, con fiebre de 39 °C, dolor en el flanco derecho y leucocituria, tiene creatinina de 1.4 mg/dL y la ecografía muestra dilatación moderada del sistema colector derecho.",
+  "enunciado": "¿Qué interpretación y manejo son los adecuados?",
+  "opciones": {
+   "A": "Cólico por litiasis; analgésicos solamente, porque la dilatación del sistema colector indica un cálculo ureteral obstructivo",
+   "B": "Interrumpir el embarazo, porque la fiebre alta materna con sepsis urinaria compromete la viabilidad fetal",
+   "C": "Pielonefritis gestacional: ingreso, ceftriaxona IV y cultivo; derivar la vía si hay obstrucción persistente o sepsis",
+   "D": "Hidronefrosis fisiológica del embarazo que no requiere tratamiento, porque la dilatación derecha moderada es habitual en la gestación",
+   "E": "Tratamiento ambulatorio con nitrofurantoína, porque la pielonefritis leve se maneja por vía oral en la gestante estable"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La litiasis no explicaría por sí sola la fiebre, y requiere considerar infección.",
+   "B": "No está indicado interrumpir el embarazo.",
+   "C": "Durante el embarazo, la compresión del uréter por el útero y el efecto de la progesterona producen dilatación fisiológica del sistema colector (más del lado derecho), pero la fiebre, el dolor y la leucocituria indican pielonefritis, que requiere hospitalización, cultivo y antibióticos parenterales por riesgo de sepsis, parto pretérmino y lesión renal. Si la lesión renal es significativa o hay sepsis con obstrucción, se deriva la vía urinaria mediante catéter doble J o nefrostomía percutánea, porque la litiasis obstructiva infectada se trata como urgencia. Se evitan fármacos nefrotóxicos y teratogénicos, y se mantiene supresión antibiótica hasta el parto.",
+   "D": "La fiebre y la leucocituria no se explican por hidronefrosis fisiológica.",
+   "E": "La nitrofurantoína no alcanza concentraciones en tejido renal y no sirve en pielonefritis."
+  },
+  "perla": "Embarazo: hidronefrosis fisiológica (derecha). Fiebre + leucocituria = pielonefritis: hospitalizar, IV, derivar si obstrucción.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (embarazo y riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o5",
+  "peso": 16.2
+ },
+ {
+  "id": "HMM-1",
+  "serie_id": "HMM",
+  "orden": 1,
+  "sub": "24.d",
+  "subtema": "Hipercalcemia de la malignidad: mecanismos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 64 años con carcinoma epidermoide de pulmón, con confusión, poliuria, estreñimiento y deshidratación. Calcio sérico corregido de 14.8 mg/dL, creatinina de 2.4 mg/dL (basal 0.9), PTH intacta suprimida de 4 pg/mL, PTHrP elevado y calcitriol bajo.",
+  "enunciado": "¿Cuál es el mecanismo de la hipercalcemia?",
+  "opciones": {
+   "A": "Intoxicación por vitamina D, con 25-hidroxivitamina D elevada y PTH suprimida, por el uso de suplementos en la paciente",
+   "B": "Hipercalcemia humoral por péptido relacionado con PTH (PTHrP), frecuente en tumores epidermoides, renales y de mama",
+   "C": "Inmovilización únicamente, porque el reposo prolongado aumenta la resorción ósea y la calcemia sin otros factores",
+   "D": "Producción ectópica de calcitriol por un linfoma, con 1,25-dihidroxivitamina D elevada y PTH suprimida en esta paciente",
+   "E": "Hiperparatiroidismo primario por adenoma, con PTH intacta elevada y fósforo bajo, sin relación con el tumor pulmonar"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La intoxicación por vitamina D cursa con calcidiol elevado y PTH suprimida, sin PTHrP.",
+   "B": "La hipercalcemia de la malignidad ocurre por tres mecanismos principales: humoral por PTHrP (cerca de 80%; tumores epidermoides de pulmón, cabeza y cuello, renales, de mama y ováricos), osteólisis local (mieloma múltiple, cáncer de mama con metástasis óseas) y producción excesiva de calcitriol por linfomas. Aquí la PTH está suprimida, el PTHrP elevado y el calcitriol bajo, lo que indica mecanismo humoral. La hipercalcemia causa diabetes insípida nefrogénica con poliuria, depleción de volumen, vasoconstricción renal y lesión renal aguda prerrenal.",
+   "C": "La inmovilización no explica una hipercalcemia tan intensa con PTHrP elevado.",
+   "D": "El calcitriol está bajo, lo que descarta el mecanismo de los linfomas.",
+   "E": "En el hiperparatiroidismo primario la PTH está elevada o inapropiadamente normal."
+  },
+  "perla": "Hipercalcemia maligna: PTHrP (80%), osteólisis (mieloma, mama), calcitriol (linfoma). PTH suprimida.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o4",
+  "peso": 51.2
+ },
+ {
+  "id": "HMM-2",
+  "serie_id": "HMM",
+  "orden": 2,
+  "sub": "24.d",
+  "subtema": "Tratamiento inicial de la hipercalcemia grave",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente está deshidratada y confusa. Se desea reducir el calcio de forma segura.",
+  "enunciado": "¿Cuál es el tratamiento inicial?",
+  "opciones": {
+   "A": "Tiazidas, porque aumentan la excreción urinaria de calcio y reducen la calcemia con rapidez en la paciente deshidratada y hospitalizada",
+   "B": "Suplementos de calcio y vitamina D, para evitar la hipocalcemia posterior al uso de antirresortivos en la paciente",
+   "C": "Restricción de líquidos, para reducir la poliuria y evitar mayor pérdida de volumen en la paciente confusa y deshidratada",
+   "D": "Salina isotónica abundante, calcitonina para efecto rápido y bisfosfonato o denosumab sostenido; asa solo tras euvolemia",
+   "E": "Furosemida en altas dosis antes de hidratar, para forzar la calciuresis y reducir la calcemia con la mayor rapidez posible en ella"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Las tiazidas reducen la excreción de calcio y empeoran la hipercalcemia.",
+   "B": "Suplementar calcio y vitamina D empeora la hipercalcemia.",
+   "C": "La restricción de líquidos agrava la lesión renal.",
+   "D": "El primer paso es la expansión de volumen con solución salina isotónica (200 a 300 mL/h inicialmente, ajustada a diuresis y función cardiaca), porque la hipercalcemia causa pérdida de volumen y vasoconstricción renal; esto aumenta la excreción urinaria de calcio. La calcitonina (4 a 8 UI/kg cada 6 a 12 horas) reduce el calcio en horas, con taquifilaxia a las 48 horas. El efecto sostenido lo dan los bisfosfonatos (ácido zoledrónico 4 mg o pamidronato) o el denosumab, que inician su acción en 2 a 4 días. Los diuréticos de asa se reservan para sobrecarga después de la rehidratación, y se evitan las tiazidas, los suplementos de calcio y vitamina D.",
+   "E": "La furosemida antes de la hidratación agrava la depleción de volumen."
+  },
+  "perla": "Hipercalcemia grave: salina isotónica → calcitonina (rápida) → bisfosfonato/denosumab (sostenido). Asa después de euvolemia; evitar tiazidas.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o4",
+  "peso": 51.2
+ },
+ {
+  "id": "SHK-1",
+  "serie_id": "SHK",
+  "orden": 1,
+  "sub": "24.a",
+  "subtema": "Respuesta a líquidos en ventilación mecánica",
+  "dificultad": "dificil",
+  "caso": "Hombre de 68 años, 80 kg, con choque séptico de origen pulmonar. Está intubado, en ventilación controlada por volumen (8 mL/kg de peso ideal), sedado y sin esfuerzos inspiratorios, en ritmo sinusal, con norepinefrina a 0.2 µg/kg/min, lactato de 4.1 mmol/L y PAM de 58 mmHg. Ya recibió 30 mL/kg de cristaloides.",
+  "enunciado": "¿Qué parámetro es un predictor validado de respuesta a líquidos en esta situación?",
+  "opciones": {
+   "A": "Frecuencia cardiaca mayor de 100 lpm, que indica hipovolemia y respuesta a líquidos en el paciente séptico",
+   "B": "Colapsabilidad de la vena cava mayor de 50% con inspiración espontánea, válida en cualquier modo de ventilación y con cualquier esfuerzo",
+   "C": "Diámetro absoluto de la vena cava inferior de 1.5 cm medido al final de la espiración",
+   "D": "Variación de la presión de pulso >12 a 13% o distensibilidad de la VCI >18% con ventilación controlada sin esfuerzos",
+   "E": "Presión venosa central menor de 8 mmHg, que indica respuesta a líquidos con alta certeza"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La taquicardia es inespecífica.",
+   "B": "La colapsabilidad aplica en respiración espontánea; con presión positiva la cava se distiende en inspiración.",
+   "C": "El diámetro absoluto aislado no predice la respuesta a volumen.",
+   "D": "En ventilación mecánica con presión positiva, controlada, sin esfuerzos espontáneos, con ritmo sinusal y volumen corriente de al menos 8 mL/kg, la variación respiratoria del volumen sistólico o de la presión de pulso (mayor de 12 a 13%) y la distensibilidad de la vena cava inferior (mayor de 18%, que se dilata en inspiración) predicen que el gasto cardiaco aumentará con un bolo de líquidos. Estos índices dinámicos valoran la posición en la curva de Frank-Starling y son superiores a los parámetros estáticos. Pierden fiabilidad con arritmias, volumen corriente bajo, esfuerzos respiratorios, hipertensión abdominal o corazón derecho disfuncional.",
+   "E": "La presión venosa central es un parámetro estático que no predice la respuesta a líquidos."
+  },
+  "perla": "Ventilado, sin esfuerzos, sinusal, Vt ≥8: VPP >12–13% o dIVC >18% predicen respuesta a líquidos. Los parámetros estáticos (PVC, diámetro de VCI) no.",
+  "referencias": [
+   "Feissel M et al. Intensive Care Med 2004;30:1834",
+   "Barbier C et al. Intensive Care Med 2004;30:1740"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o1",
+  "peso": 79.3
+ },
+ {
+  "id": "SHK-2",
+  "serie_id": "SHK",
+  "orden": 2,
+  "sub": "24.a",
+  "subtema": "Elevación pasiva de las piernas en fibrilación auricular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las pocas horas el paciente desarrolla fibrilación auricular con respuesta ventricular de 140 lpm, y persiste hipotenso. Se desea volver a evaluar la respuesta a líquidos.",
+  "enunciado": "¿Qué prueba es adecuada?",
+  "opciones": {
+   "A": "Evaluar solo la presión arterial tras elevar las piernas, porque la presión refleja bien el gasto cardiaco",
+   "B": "Elevación pasiva de las piernas con medición en tiempo real del gasto cardiaco o del VTI; un aumento de 10% o más predice respuesta",
+   "C": "Variación de la presión de pulso, porque es válida también durante la fibrilación auricular con respuesta ventricular rápida",
+   "D": "Medición de la presión venosa central después del bolo, porque un aumento predice la respuesta a líquidos",
+   "E": "Administrar 2 litros de cristaloide sin evaluación previa, porque la hipotensión persistente indica hipovolemia"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La presión arterial puede no cambiar aun si el gasto cardiaco responde, por lo que no basta.",
+   "B": "La elevación pasiva de las piernas (desde la posición semisentada a 45°, con las piernas elevadas) moviliza cerca de 300 mL de sangre venosa hacia el corazón, simulando un bolo reversible. Es válida en arritmias y en respiración espontánea, y por eso es útil cuando la variación de la presión de pulso pierde fiabilidad (fibrilación auricular, esfuerzos respiratorios, volumen corriente bajo). La respuesta se valora con una medición en tiempo real del gasto cardiaco (integral velocidad-tiempo del tracto de salida del ventrículo izquierdo o ecocardiografía): un aumento de 10% o más indica que el paciente responde. La presión arterial sola es poco sensible.",
+   "C": "La variación de la presión de pulso no es confiable en arritmias.",
+   "D": "La presión venosa central no predice la respuesta a líquidos.",
+   "E": "Los líquidos sin evaluar aumentan el riesgo de sobrecarga."
+  },
+  "perla": "PLR: ~300 mL de autotransfusión reversible. Válida en arritmia y respiración espontánea; medir gasto cardiaco/VTI (↑ ≥10% = respondedor).",
+  "referencias": [
+   "Monnet X, Teboul JL. Crit Care 2015;19:18"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "DGF-4",
+  "serie_id": "DGF",
+  "orden": 4,
+  "sub": "21.d",
+  "subtema": "Índice de perfil de donante (KDPI): componentes",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El equipo revisa el riesgo del donante, que tuvo un KDPI de 78%, y discute qué factores lo determinan, y qué se puede hacer para disminuir la función retardada del injerto en este tipo de órganos.",
+  "enunciado": "¿Qué variables componen el KDPI y qué intervención de preservación reduce la función retardada?",
+  "opciones": {
+   "A": "Grupo sanguíneo y número de incompatibilidades HLA del receptor; la perfusión en máquina empeora la función",
+   "B": "Solo la edad y la TFG del donante; el almacenamiento estático en frío es superior a la perfusión en máquina",
+   "C": "Edad, talla, peso, etnia, HTA, diabetes, causa de muerte, creatinina, VHC y muerte circulatoria; la perfusión en máquina reduce la DGF",
+   "D": "Edad, sexo, región geográfica y tiempo de isquemia fría del donante; la perfusión en máquina no tiene ningún efecto sobre la DGF",
+   "E": "Peso del receptor y panel de reactividad (PRA); la perfusión disminuye el rechazo agudo, no la función retardada"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El grupo sanguíneo y las incompatibilidades HLA no forman parte del KDPI, y la perfusión no empeora la función.",
+   "B": "El KDPI tiene diez variables y no solo dos; el almacenamiento estático tiene mayor riesgo de función retardada.",
+   "C": "El índice de riesgo de donante renal (KDRI), que se convierte en percentil (KDPI), incluye diez variables del donante: edad, talla, peso, etnia (afroamericana), antecedente de hipertensión, antecedente de diabetes, causa de muerte (evento cerebrovascular), creatinina sérica terminal, serología positiva para hepatitis C y donación tras muerte circulatoria. No incluye el sexo, la región ni la isquemia fría. Un KDPI de 85% o más corresponde a órganos de mayor riesgo con menor supervivencia esperada del injerto. En donantes fallecidos, la perfusión hipotérmica en máquina reduce la incidencia de función retardada frente al almacenamiento estático en frío (Moers et al., N Engl J Med 2009) y mejora la supervivencia del injerto al año. Se emparejan órganos de KDPI alto con receptores de edad avanzada y menor expectativa de vida.",
+   "D": "El KDPI no incluye sexo, región ni isquemia fría, y la perfusión en máquina reduce la función retardada.",
+   "E": "El peso del receptor y el PRA son variables del receptor y no del donante."
+  },
+  "perla": "KDRI/KDPI (10 variables): edad, talla, peso, etnia, HTA, DM, causa de muerte (ACV), creatinina, VHC, DCD. NO sexo ni región. Perfusión en máquina ↓ DGF (Moers 2009).",
+  "referencias": [
+   "Rao PS et al. Transplantation 2009;88:231 (KDRI)",
+   "Moers C et al. N Engl J Med 2009;360:7"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 21,
+  "tema": "Trasplante renal",
+  "obj": "21.o1",
+  "peso": 70.2
+ },
+ {
+  "id": "DGF-5",
+  "serie_id": "DGF",
+  "orden": 5,
+  "sub": "21.f",
+  "subtema": "Consecuencias a largo plazo de la función retardada",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El injerto recupera la diuresis al día 18 y la creatinina se estabiliza en 2.1 mg/dL al mes. El paciente pregunta si la función retardada afectará la duración del trasplante.",
+  "enunciado": "¿Qué se le explica sobre el pronóstico?",
+  "opciones": {
+   "A": "Solo afecta a los receptores de donante vivo, porque en ellos la isquemia fría es más frecuente y prolongada",
+   "B": "Se asocia con más rechazo agudo y menor supervivencia del injerto; exige seguimiento y control de la PA",
+   "C": "Siempre indica pérdida del injerto en el primer año, por lo que se debe planear desde ahora un nuevo trasplante",
+   "D": "No tiene ninguna repercusión en la supervivencia del injerto a largo plazo, porque la creatinina ya se estabilizó",
+   "E": "Aumenta la supervivencia del injerto porque la isquemia previa induce tolerancia inmunológica y protege contra el rechazo"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Es más frecuente en el trasplante de donante fallecido que en el de donante vivo.",
+   "B": "La función retardada del injerto es un factor de riesgo independiente para rechazo agudo (la lesión de isquemia-reperfusión aumenta la inmunogenicidad por expresión de moléculas HLA, de adhesión y señales de peligro), para menor función del injerto al año y para menor supervivencia del injerto a largo plazo, con un efecto mayor cuando coexiste con rechazo agudo. Muchos injertos con función retardada se recuperan por completo, pero el riesgo justifica un seguimiento estrecho, vigilancia con niveles de inmunosupresión y biopsias por indicación, control de la presión y de factores de progresión, y evitar nefrotóxicos. La prevención está en la reducción de la isquemia fría, el uso de perfusión en máquina y la selección adecuada de donante-receptor.",
+   "C": "No implica pérdida inevitable del injerto; muchos se recuperan.",
+   "D": "La función retardada sí empeora el pronóstico del injerto.",
+   "E": "Aumenta el riesgo de rechazo, no lo disminuye."
+  },
+  "perla": "DGF → ↑rechazo agudo, ↓función y supervivencia del injerto (peor con rechazo). Mitigar: isquemia fría corta, perfusión en máquina, selección donante-receptor.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trasplante renal)",
+   "Yarlagadda SG et al. Nephrol Dial Transplant 2009;24:1039"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 21,
+  "tema": "Trasplante renal",
+  "obj": "21.o7",
+  "peso": 34.6
  }
 ]

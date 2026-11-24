@@ -1125,5 +1125,227 @@
   "clave": "A",
   "tema": "Hipertensión arterial",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "IM2-1",
+  "serie_id": "IM2",
+  "orden": 1,
+  "sub": "5.c",
+  "subtema": "Estenosis de arteria renal: dúplex Doppler",
+  "dificultad": "moderada",
+  "caso": "Mujer de 29 años con hipertensión de reciente aparición, refractaria a tres antihipertensivos, TA 182/112 mmHg, potasio de 3.1 mEq/L y soplo abdominal. Creatinina de 0.9 mg/dL. Se sospecha hipertensión renovascular.",
+  "enunciado": "¿Qué estudio inicial es adecuado para el tamizaje, sin contraste ni radiación?",
+  "opciones": {
+   "A": "Urografía excretora, que identifica la estenosis arterial por la asimetría en la eliminación del medio de contraste",
+   "B": "Ultrasonido dúplex de arterias renales (velocidad pico sistólica >180-200 cm/s y relación renal-aórtica >3.5)",
+   "C": "Gammagrafía con captopril como estudio de primera línea, por su alta sensibilidad y especificidad en la paciente joven",
+   "D": "Actividad de renina plasmática aislada para confirmar el diagnóstico de estenosis de la arteria renal y decidir tratamiento",
+   "E": "Angiografía convencional como primer estudio de tamizaje, por ser el patrón de referencia para confirmar la estenosis"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La urografía excretora es una técnica obsoleta para este diagnóstico.",
+   "B": "El dúplex Doppler es un estudio inicial seguro, sin nefrotoxicidad ni radiación, que detecta estenosis hemodinámicamente significativa (60% o más) con velocidad pico sistólica mayor de 180 a 200 cm/s y relación renal-aórtica mayor de 3.5. Es operador-dependiente y puede mostrar el patrón de onda 'tardus-parvus' intrarrenal. Los estudios de confirmación y de planeación son la angiotomografía y la angiorresonancia, y la angiografía convencional (referencia) se reserva para cuando se va a intervenir.",
+   "C": "La gammagrafía con captopril y la actividad de renina plasmática no se recomiendan como pruebas de primera línea por su baja sensibilidad y especificidad.",
+   "D": "La renina por sí sola no confirma estenosis arterial renal.",
+   "E": "La angiografía convencional es invasiva y se reserva para la intervención terapéutica."
+  },
+  "perla": "Hipertensión renovascular: dúplex (PSV >180-200 cm/s, RAR >3.5) → CTA/ARM → angiografía si se interviene. Captopril y renina: no primera línea.",
+  "referencias": [
+   "Hirsch AT et al. Circulation 2006;113:e463 (ACC/AHA)",
+   "Comprehensive Clinical Nephrology (hipertensión renovascular)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 5,
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "continuacion": "",
+  "obj": "5.o3",
+  "peso": 51.2
+ },
+ {
+  "id": "IM2-3",
+  "serie_id": "IM2",
+  "orden": 3,
+  "sub": "5.c",
+  "subtema": "Gammagrafía renal: DMSA, MAG3 y DTPA",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tras la angioplastia, el nefrólogo decide cuantificar la función de cada riñón y valorar cicatrices corticales y obstrucción en otros pacientes de la consulta.",
+  "enunciado": "¿Qué radiofármaco corresponde correctamente a cada objetivo?",
+  "opciones": {
+   "A": "MAG3 se utiliza únicamente para detectar litiasis, porque se concentra en los cálculos y no mide la función tubular",
+   "B": "DMSA para cicatrices y función relativa; MAG3 (secreción tubular) para obstrucción; DTPA para TFG y renograma",
+   "C": "DTPA para cicatrices corticales y DMSA para TFG, porque el primero se fija en la corteza y el segundo se filtra libre",
+   "D": "DMSA para obstrucción y MAG3 para cicatrices corticales, porque la excreción tubular de MAG3 demuestra la cicatriz de la corteza",
+   "E": "Los tres sirven exactamente para lo mismo, y la elección depende solo de la disponibilidad del radiofármaco en la sala"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "MAG3 no se usa para litiasis; evalúa tránsito y secreción tubular.",
+   "B": "El 99mTc-DMSA se fija a las células tubulares proximales y es el estudio de elección para cicatrices corticales (nefropatía por reflujo, pielonefritis) y para la función relativa. El 99mTc-MAG3 se elimina por secreción tubular y se usa en renograma diurético para valorar obstrucción y la función por separado, también en trasplante. El 99mTc-DTPA se filtra por el glomérulo, permite estimar la TFG y se utiliza en renograma con captopril, aunque este estudio ya no es de primera línea para la estenosis arterial renal.",
+   "C": "DTPA estima la filtración, no las cicatrices corticales.",
+   "D": "La asignación está invertida: MAG3 estudia obstrucción y DMSA estudia cicatrices.",
+   "E": "Cada radiofármaco tiene un mecanismo de captación distinto."
+  },
+  "perla": "DMSA = cicatrices/función relativa. MAG3 = obstrucción (secreción tubular). DTPA = filtración/TFG.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (imagen renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 5,
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "obj": "5.o3",
+  "peso": 51.2
+ },
+ {
+  "id": "CLC-2",
+  "serie_id": "CLC",
+  "orden": 2,
+  "sub": "4.c",
+  "subtema": "Clortalidona en ERC avanzada: ensayo CLICK",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se suspende el AINE y se reduce el sodio. El MAPA de 24 horas confirma una presión media diurna de 156/88 mmHg con patrón sin descenso nocturno, a pesar de la adherencia verificada. K⁺ de 4.6 mEq/L.",
+  "enunciado": "¿Qué fármaco se agrega y qué evidencia lo respalda?",
+  "opciones": {
+   "A": "Ninguna tiazida, porque son ineficaces con TFGe menor de 30 y están contraindicadas en la ERC avanzada",
+   "B": "Clortalidona: en CLICK (ERC G4) redujo la presión sistólica ambulatoria ≈10.5 mmHg y la albuminuria, con más hipopotasemia",
+   "C": "Doxazosina como cuarto fármaco, por ser el único antihipertensivo eficaz en la ERC avanzada con TFGe baja",
+   "D": "Hidroclorotiazida, porque las tiazidas son más eficaces con TFGe menor de 30 que las de acción prolongada",
+   "E": "Espironolactona 100 mg diarios de entrada, sin vigilar el potasio, por tratarse de hipertensión resistente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El ensayo CLICK demostró eficacia de la clortalidona en ERC G4; no está contraindicada.",
+   "B": "El ensayo CLICK (Agarwal, N Engl J Med 2021) incluyó 160 pacientes con ERC G4 (TFGe de 15 a menos de 30) e hipertensión no controlada con tratamiento antihipertensivo máximo; la clortalidona, titulada de 12.5 a 50 mg, redujo la presión sistólica ambulatoria de 24 horas cerca de 10.5 mmHg más que el placebo a las 12 semanas y disminuyó el cociente albúmina/creatinina cerca de 50%. Contradice la enseñanza clásica de que las tiazidas pierden eficacia con TFGe menor de 30. Los efectos adversos fueron más hipopotasemia, hiperglucemia, hiperuricemia, aumento de la creatinina (con efecto hemodinámico y de depleción de volumen) y mareo, por lo que requiere vigilancia a las 1 a 2 semanas. La clortalidona tiene una vida media larga y se puede combinar con un diurético de asa en pacientes con sobrecarga.",
+   "C": "La doxazosina no es el único fármaco eficaz ni es de primera elección; los diuréticos son más relevantes en la hipertensión resistente con volumen expandido.",
+   "D": "La hidroclorotiazida tiene menor duración de acción y no demostró mayor eficacia con TFGe baja.",
+   "E": "La espironolactona no se inicia a esa dosis con TFGe baja por el riesgo de hiperpotasemia y requiere vigilancia estrecha del potasio."
+  },
+  "perla": "CLICK: clortalidona 12.5–50 mg en ERC G4 → ↓PAS ambulatoria ~10.5 mmHg y ↓albuminuria ~50%; hipoK, ↑glucosa, ↑urato y ↑creatinina. Las tiazidas sí funcionan con TFGe <30.",
+  "referencias": [
+   "Agarwal R et al. N Engl J Med 2021;385:2507 (CLICK)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o3",
+  "peso": 47.9
+ },
+ {
+  "id": "CLC-3",
+  "serie_id": "CLC",
+  "orden": 3,
+  "sub": "4.c",
+  "subtema": "Efectos de la clortalidona y adición de antagonista mineralocorticoide",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 4 semanas con clortalidona 25 mg: presión ambulatoria de 148/84 mmHg, K⁺ de 3.3 mEq/L (previo 4.6), Na⁺ de 133 mEq/L, creatinina de 2.4 mg/dL (previa 2.0; aumento de 20%) y ácido úrico de 9.8 mg/dL. Sin síntomas ortostáticos.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Duplicar la clortalidona a 50 mg y no hacer más cambios, pese a la hipopotasemia y la hiponatremia",
+   "B": "Aceptar el aumento de creatinina <30%, corregir K y agregar espironolactona a dosis baja con vigilancia",
+   "C": "Agregar un segundo diurético tiazídico para controlar la presión, ajustando después el potasio y el sodio",
+   "D": "Suspender la clortalidona y el losartán por el aumento de la creatinina, hasta que se normalice la función",
+   "E": "Iniciar suplementos de potasio de forma crónica sin cambiar el esquema antihipertensivo ni vigilar la creatinina"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Duplicar la dosis sin corregir hipopotasemia ni plantear otra clase puede agravar las alteraciones electrolíticas.",
+   "B": "Un aumento de la creatinina menor de 30% tras iniciar un diurético o un bloqueante del SRAA es un efecto hemodinámico esperado (contracción de volumen y menor presión de filtración) y no obliga a suspender el fármaco si hay estabilidad posterior. La hipopotasemia por tiazida (con alcalosis metabólica y hiponatremia leve) debe corregirse. Como la presión sigue por arriba de la meta, el cuarto fármaco con más evidencia en hipertensión resistente es un antagonista del receptor de mineralocorticoides (espironolactona, estudio PATHWAY-2 en población general), cuyo efecto ahorrador de potasio compensa la pérdida kaliurética de la tiazida; se inicia con 12.5 a 25 mg y se vigilan potasio y creatinina a las 1 a 2 y 4 semanas, ya que en la ERC avanzada el riesgo de hiperpotasemia aumenta. La hiperuricemia se vigila y se trata si hay gota.",
+   "C": "Agregar otra tiazida no está respaldado y aumentaría la hipopotasemia y la hiponatremia.",
+   "D": "El aumento de creatinina menor de 30% no justifica suspender los fármacos que protegen el riñón.",
+   "E": "El suplemento crónico de potasio es menos útil y menos seguro que un ARM, que además tiene efecto antihipertensivo."
+  },
+  "perla": "Aumento de Cr <30% con diurético/iSRAA = efecto hemodinámico, no suspender. Tiazida → hipoK, hipoNa, alcalosis, ↑urato. ARM (espironolactona) como 4.º fármaco, con vigilancia de K y Cr.",
+  "referencias": [
+   "Agarwal R et al. N Engl J Med 2021;385:2507",
+   "KDIGO 2021 Blood Pressure in CKD. Kidney Int 2021;99(3S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o3",
+  "peso": 47.9
+ },
+ {
+  "id": "CLC-4",
+  "serie_id": "CLC",
+  "orden": 4,
+  "sub": "4.c",
+  "subtema": "Hiperpotasemia con espironolactona: uso de quelantes de potasio (AMBER)",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Dos semanas después de iniciar espironolactona 25 mg, el paciente tiene K⁺ de 5.7 mEq/L sin hemólisis, creatinina de 2.5 mg/dL, ECG sin cambios y presión ambulatoria de 134/78 mmHg. Continúa con clortalidona y losartán.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Aumentar la espironolactona a 100 mg para compensar la hiperpotasemia con mayor efecto sobre la presión arterial sistólica",
+   "B": "Indicar hemodiálisis urgente por el potasio de 5.7 mEq/L, pese a un ECG sin cambios y sin hemólisis",
+   "C": "Revisar dieta y fármacos y mantener la espironolactona con patiromer, como en AMBER, que permitió continuar el ARM",
+   "D": "Suspender de por vida todo el bloqueo del SRAA y los diuréticos, por el riesgo de nuevas hiperpotasemias",
+   "E": "Agregar un suplemento de potasio en el agua de consumo, para compensar el efecto de la clortalidona sobre el potasio"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Aumentar la espironolactona agravaría la hiperpotasemia.",
+   "B": "No hay indicación de diálisis con K⁺ de 5.7 sin cambios en el ECG y con función renal estable.",
+   "C": "Con K⁺ de 5.7 mEq/L sin cambios electrocardiográficos y con efecto antihipertensivo satisfactorio, el objetivo es mantener los fármacos con beneficio, reduciendo el riesgo de hiperpotasemia: confirmar que no hay hemólisis ni acidosis, revisar la dieta (sustitutos de sal con KCl, frutas y verduras muy ricas en potasio, suplementos), suspender AINE y otros fármacos hiperpotasemiantes, mantener el efecto kaliurético de la tiazida y reducir la dosis del ARM si es necesario. El ensayo AMBER (Agarwal, Lancet 2019) en pacientes con ERC (TFGe de 25 a 45 mL/min) e hipertensión resistente mostró que el patiromer permitió que una proporción mayor continuara espironolactona a las 12 semanas (86% frente a 66% con placebo). Los quelantes (patiromer, ciclosilicato de sodio y zirconio) son una herramienta para mantener el bloqueo del SRAA.",
+   "D": "Suspender de forma definitiva todo el tratamiento descuida el beneficio cardiorrenal; la hiperpotasemia moderada se maneja con medidas dirigidas.",
+   "E": "Un suplemento de potasio es contrario al objetivo de reducir el potasio sérico."
+  },
+  "perla": "AMBER: patiromer + espironolactona en ERC (TFGe 25–45) con HTA resistente → más pacientes continúan el ARM (86% vs 66%). Corregir dieta/AINE/hemólisis antes de suspender.",
+  "referencias": [
+   "Agarwal R et al. Lancet 2019;394:1540 (AMBER)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o3",
+  "peso": 47.9
+ },
+ {
+  "id": "HTE-4",
+  "serie_id": "HTE",
+  "orden": 4,
+  "sub": "4.c",
+  "subtema": "Edema por amlodipino: mecanismo y manejo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 6 semanas con olmesartán 40 mg más amlodipino 10 mg, la presión es de 126/76 mmHg, pero la paciente refiere edema maleolar bilateral con fóvea leve, vespertino, sin disnea ni ortopnea. Albúmina sérica de 4.1 g/dL, creatinina de 0.8 mg/dL, sin proteinuria y BNP normal.",
+  "enunciado": "¿Cuál es la explicación y el manejo más adecuados?",
+  "opciones": {
+   "A": "Edema por vasodilatación precapilar de la dihidropiridina, no por retención de sodio; bajar amlodipino y conservar el ARA-II",
+   "B": "Síndrome nefrótico, por lo que se indica biopsia renal para definir la causa de la hipoalbuminemia",
+   "C": "Hiperaldosteronismo primario, por lo que se agrega espironolactona para controlar el edema y la presión arterial",
+   "D": "Insuficiencia cardiaca congestiva, por lo que se inicia furosemida de inmediato para tratar el edema maleolar",
+   "E": "Efecto del ARA-II sobre la permeabilidad capilar, por lo que se suspende el olmesartán y se deja solo amlodipino a dosis máxima"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El edema periférico es el efecto adverso más frecuente de los bloqueadores de canales de calcio dihidropiridínicos y depende de la dosis (más con 10 mg, y en mujeres). Se debe a una dilatación arteriolar precapilar no compensada por la venular, lo que aumenta la presión hidrostática capilar y causa extravasación de líquido, sin retención neta de sodio, sin hipoalbuminemia y sin falla cardiaca (aquí, albúmina de 4.1, sin proteinuria y BNP normal). Por eso los diuréticos son poco eficaces. Las opciones son reducir la dosis de amlodipino (por ejemplo, 5 mg), cambiar a una tiazida o clortalidona como segundo fármaco, mantener el ARA-II o IECA (que dilatan la vénula y reducen el edema) y recomendar elevar las piernas. No obliga a suspender el control de la presión.",
+   "B": "No hay proteinuria ni hipoalbuminemia que sugieran síndrome nefrótico.",
+   "C": "El edema de las dihidropiridinas no es por exceso de aldosterona.",
+   "D": "No hay disnea ni datos de insuficiencia cardiaca, y el BNP es normal.",
+   "E": "Los ARA-II no causan edema periférico y atenúan el de las dihidropiridinas."
+  },
+  "perla": "Edema por DHP: dosis-dependiente, vasodilatación precapilar, sin retención de sodio; no responde a asa. Reducir dosis, cambiar a tiazida; IECA/ARA-II lo atenúan.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (antihipertensivos)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o3",
+  "peso": 47.9
  }
 ]

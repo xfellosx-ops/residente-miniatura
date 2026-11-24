@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "uro",
      "specialty": "Urología",
-     "serie": "PAR",
+     "serie": "VEG",
      "intro": [
       [
        "Dr. Bruno Salas",
@@ -243,7 +243,7 @@
      "id": "t0_1",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "AZ28-1",
+     "serie": "MIF",
      "intro": [
       [
        "Dra. Carmen Triaje",
@@ -251,7 +251,7 @@
       ],
       [
        "Dra. Carmen Triaje",
-       "Mi caso: Protección renal en cáncer"
+       "Mi caso: Metotrexato en dosis altas: nefropatía por cristales"
       ]
      ],
      "defeat": [
@@ -261,13 +261,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t0_2",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "AZ28-5",
+     "serie": "AZ28-1",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -494,7 +494,7 @@
      "id": "t1_0",
      "cast": "onco",
      "specialty": "Oncología",
-     "serie": "MIF",
+     "serie": "PAR",
      "intro": [
       [
        "Dra. Mitosis Lara",
@@ -514,7 +514,7 @@
      "id": "t1_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "AZ28-2",
+     "serie": "IMG",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -522,7 +522,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: Protección renal en cáncer"
+       "Mi caso: Lesión quística compleja con ERC avanzada: ecografía con contraste"
       ]
      ],
      "defeat": [
@@ -532,13 +532,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     },
     {
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "AZ28-7",
+     "serie": "AZ28-2",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -632,6 +632,15 @@
    ],
    "cutscenes": [
     {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Dr. J.",
+       "El folleto del cisplatino dice: «Patrocinio: Hemo-Eterna». Qué raro."
+      ]
+     ]
+    },
+    {
      "trigger": "exit",
      "lines": [
       [
@@ -685,9 +694,8 @@
      "Neoplasias renales"
     ],
     "questions": [
-     "CSP-1",
-     "CSP-2",
-     "CSP-3"
+     "ICI-1",
+     "ICI-2"
     ]
    },
    {
@@ -703,8 +711,8 @@
      "Daño por tumor extrarrenal"
     ],
     "questions": [
-     "CSP-4",
-     "ICI-1"
+     "ICI-3",
+     "ICI-4"
     ]
    },
    {
@@ -720,9 +728,8 @@
      "Antineoplásicos"
     ],
     "questions": [
-     "ICI-3",
-     "ICI-4",
-     "VEG-1"
+     "CSP-1",
+     "CSP-2"
     ]
    },
    {
@@ -738,8 +745,8 @@
      "Inmunoterapia"
     ],
     "questions": [
-     "VEG-2",
-     "VEG-3"
+     "CSP-3",
+     "CSP-4"
     ]
    }
   ]
@@ -755,6 +762,14 @@
   {
    "title": "Túbulo Bajo Quimioterapia",
    "text": "Cisplatino: proximal + ↓Mg. Ifosfamida: Fanconi. MTX: cristales (alcalinizar, leucovorina). Anti-VEGF: HTA/proteinuria/MAT. ICI: NTI."
+  },
+  {
+   "title": "💎 Resonancia magnética y gadolinio en ERC",
+   "text": "Gadolinio: NSF si TFG <30, sobre todo grupo I lineal. Grupo II macrocíclico: riesgo muy bajo, usar si es necesario. RM ≠ siempre preferible a TC."
+  },
+  {
+   "title": "💎 Lesión quística compleja con ERC avanzad",
+   "text": "Quiste complejo + contraste yodado contraindicado: ecografía con contraste (S 95%, E 79%). TC con contraste = referencia (S 90%, E 85%)."
   },
   {
    "title": "💎 Protección renal en cáncer",
@@ -779,14 +794,6 @@
   {
    "title": "💎 Protección renal en cáncer",
    "text": "Estudios observacionales y un estudio multicéntrico reciente mostraron que el magnesio IV profiláctico antes del cisplatino reduce el riesgo de lesión renal aguda (Gupta, JAMA Oncol 2025)."
-  },
-  {
-   "title": "💎 Protección renal en cáncer",
-   "text": "En medio ácido el metotrexato precipita en microcristales que obstruyen los túbulos; al elevar el pH urinario de 5.0 a 7.0 aumenta su solubilidad y se evita la formación de cristales (Hamed, Cureus 2022)."
-  },
-  {
-   "title": "💎 Protección renal en cáncer",
-   "text": "A diferencia de la creatinina, la cistatina C aumenta en el hipertiroidismo y disminuye en el hipotiroidismo, alteraciones frecuentes con los inhibidores de checkpoint."
   }
  ]
 }
