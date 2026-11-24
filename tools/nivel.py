@@ -152,6 +152,9 @@ def build(S):
         pr = J1.get(str(tid), {}).get("pares", [])
         if len(pr) >= 6: extra.append({"type": "memorama", "title": "Memorama del tema", "items": [], "pairs": [list(x) for x in pr]})
     for i, m in enumerate(extra):
+        # si la especificación ya tiene un minijuego con ese título, gana la versión más nueva de la app
+        same = [(z, k) for z in zones for k, x in enumerate(z["minigames"]) if x.get("title", "").strip().lower() == m["title"].strip().lower()]
+        if same: z, k = same[0]; z["minigames"][k] = m; continue
         z = min(zones, key=lambda z: (len(z["minigames"]), zones.index(z)))
         z["minigames"].append(m)
     B = S["boss"]; nph = len(B["phases"]); per = [[] for _ in range(nph)]
