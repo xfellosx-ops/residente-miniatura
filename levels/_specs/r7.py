@@ -62,7 +62,7 @@ LEVELS = [
    "intro": [(B, "Aldosterona/renina alta: confirma y localiza con TC y muestreo venoso suprarrenal."), (B, "Unilateral: cirugía. Bilateral: antagonista mineralocorticoide.")],
    "npcs": [("Adenoma Productor", ["Fabrico aldosterona sin pedir permiso. La renina está por el suelo.", "Solo un tercio de mis pacientes tiene hipopotasemia."], "pocion", "hiperaldosteronismo"),
             ("Feocromocitoma", ["Cefalea, sudor y palpitaciones. Mídeme metanefrinas.", "Bloqueo alfa antes que beta. Siempre."], "xp", "feocromocitoma")],
-   "signs": [("Letrero · Emergencia", "Daño agudo a órgano blanco: bajar la PAM ≤25 % en la primera hora, vía IV."), ("Letrero · Excepciones", "Disección aórtica: PAS <120 en minutos. Ictus isquémico: no bajar salvo >220/120.")],
+   "signs": [("Letrero · Emergencia", "Daño agudo a órgano blanco: bajar la PAM ≤25 % en la primera hora, vía IV."), ("Letrero · Excepciones", "Disección aórtica: PAS <120 en minutos. Ictus: >220/120, o <185/110 si habrá trombólisis.")],
    "wild": [("Renina Suprimida", "Molecular"), ("Catecolamina", "Molecular"), ("Apnea del Sueño", "Molecular"), ("Papiledema", "Molecular")],
    "trainers": [("urg", "220/120 sin síntomas: nifedipino sublingual y baja en 10 minutos.", "Sin daño a órgano es urgencia: oral y despacio. Entendido.")],
    "gate": ("Hipertensión secundaria y emergencias hipertensivas", [(B, "Urgencia: sin daño agudo. Emergencia: con daño. La cifra sola no decide.")]),

@@ -53,7 +53,7 @@ LEVELS = [
    "trainers": [("radio", "Tres quistes a los 60 años: poliquistosis. Le aviso a la familia.", "A los 60 hacen falta 4 o más por riñón… eran quistes simples.")],
    "gate": ("ERPAD: genética y criterios diagnósticos por imagen", [(B, "El número de quistes que hace diagnóstico depende de la edad.")]),
    "minis": [("stones", "Del gen al quiste", ["Variante en PKD1 o PKD2", "Policistina defectuosa en el cilio", "Baja el calcio intracelular", "Sube el AMPc (vasopresina, V2)", "Proliferación y secreción de cloro", "El quiste crece y comprime nefronas"])],
-   "enter": ("Glifo", "Soy Glifo. Bajo la presión del glomérulo. Me vas a usar en lo crónico."),
+   "enter": ("Glifo", "Soy Glifo. Bajo la presión glomerular. En ERPAD aún no hay evidencia para mí."),
    "exit": (B, "Ya sabes qué lo alimenta. Ahora, cómo frenarlo."),
    "card": "ERPAD: PKD1 (más grave) y PKD2. Cilio → ↓Ca → ↑AMPc → quiste. Diagnóstico por imagen según edad. Aneurismas: tamizar si hay antecedente familiar."},
   {"name": "Valle de Mayo", "tiles": "valle", "nurse": True,

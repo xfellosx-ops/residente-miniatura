@@ -131,7 +131,7 @@ LEVELS = [
  "boss": {"name": "La Marea de Starling", "short": "Marea", "color": "#3a8ad8", "dark": "#123a66",
   "intro": [("La Marea", "Subo y bajo entre compartimentos. ¿Sabes dónde estoy ahora?"), (J, "Compartimento, sensor y causa. En ese orden.")],
   "phases": [("Compartimentos", ("La Marea", "¿Adentro o afuera?")), ("Sensores", ("La Marea", "¿Quién me detecta?")), ("Edema", ("La Marea", "Ahora inundo los tobillos.")), ("Conducta", ("La Marea", "Sácame si puedes."))],
-  "outro": [("La Marea", "Bajo. Por ahora."), (J, "Fin del prólogo. El próximo riñón no será una simulación.")]},
+  "outro": [("La Marea", "Bajo. Por ahora."), (J, "Fin de la simulación. Lo que sigue ya son pacientes reales.")]},
  "vf": [("Dos tercios del agua corporal total son intracelulares.", "V", "El tercio restante es extracelular."),
         ("El plasma representa tres cuartas partes del líquido extracelular.", "F", "Es una cuarta parte; el intersticio, tres cuartas."),
         ("La urea contribuye a la tonicidad del plasma.", "F", "Es un osmol ineficaz: cruza membranas libremente."),
