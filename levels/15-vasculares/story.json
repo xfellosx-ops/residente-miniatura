@@ -155,7 +155,7 @@
     "#3A0418"
    ],
    "tiles": "delta",
-   "vignette": "delta_endocapilar",
+   "vignette": "mat",
    "join": [
     "sonda",
     "eculi"
@@ -448,7 +448,7 @@
     "#380808"
    ],
    "tiles": "rio",
-   "vignette": "rio_sangre",
+   "vignette": "estenosis",
    "join": [],
    "nurse": true,
    "intro": [
@@ -682,6 +682,8 @@
   "color": "#c0392b",
   "dark": "#4a0f0a",
   "heads": 1,
+  "form": "vaso",
+  "crescent": false,
   "intro": [
    [
     "El Microangiopático",

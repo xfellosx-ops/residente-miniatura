@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Urotelio Sitiado",
    "palette": [
-    "#E8D8F0",
-    "#A080C0",
-    "#583878",
-    "#201030"
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
    ],
-   "tiles": "pantano",
-   "vignette": "pantano_restos",
+   "tiles": "tubulo",
+   "vignette": "itu",
    "join": [
     "sonda"
    ],
@@ -410,13 +410,13 @@
    "id": "z2",
    "name": "Parénquima en Llamas",
    "palette": [
-    "#F8E0F0",
-    "#D088C0",
-    "#703878",
-    "#200820"
+    "#F0E2C8",
+    "#C8A87A",
+    "#8A6A4A",
+    "#3A2A1A"
    ],
-   "tiles": "ruinas",
-   "vignette": "ruinas_asas",
+   "tiles": "intersticio",
+   "vignette": "pielonefritis",
    "join": [],
    "nurse": true,
    "intro": [
@@ -657,6 +657,8 @@
   "color": "#6B8E23",
   "dark": "#2a3a0a",
   "heads": 1,
+  "form": "microbio",
+  "crescent": false,
   "intro": [
    [
     "El Ascendente",

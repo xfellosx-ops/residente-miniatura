@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Músculo que se Consume",
    "palette": [
-    "#E8D8F0",
-    "#A080C0",
-    "#583878",
-    "#201030"
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
    ],
-   "tiles": "pantano",
-   "vignette": "pantano_restos",
+   "tiles": "valle",
+   "vignette": "desgaste",
    "join": [
     "sonda"
    ],
@@ -402,13 +402,13 @@
    "id": "z2",
    "name": "Cocina del Hospital",
    "palette": [
-    "#F4ECD0",
-    "#C8B070",
-    "#806828",
-    "#282008"
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
    ],
-   "tiles": "valle",
-   "vignette": "valle_tubulovascular",
+   "tiles": "hospital",
+   "vignette": "cocina",
    "join": [],
    "nurse": true,
    "intro": [
@@ -594,6 +594,8 @@
   "color": "#a0522d",
   "dark": "#3a1a08",
   "heads": 1,
+  "form": "masa",
+  "crescent": false,
   "intro": [
    [
     "El Desgaste",

@@ -155,7 +155,7 @@
     "#102820"
    ],
    "tiles": "hospital",
-   "vignette": "urgencias",
+   "vignette": "nefrona",
    "join": [
     "sonda"
    ],
@@ -388,7 +388,7 @@
     "#3A0418"
    ],
    "tiles": "delta",
-   "vignette": "delta_endocapilar",
+   "vignette": "glomerulo_sano",
    "join": [],
    "nurse": false,
    "intro": [
@@ -590,13 +590,13 @@
    "id": "z3",
    "name": "Río Tubular",
    "palette": [
-    "#F8D8D8",
-    "#E07070",
-    "#982828",
-    "#380808"
+    "#E8F6FF",
+    "#8AB8E0",
+    "#2A5A8A",
+    "#0F2A4A"
    ],
-   "tiles": "rio",
-   "vignette": "rio_sangre",
+   "tiles": "henle",
+   "vignette": "henle",
    "join": [],
    "nurse": true,
    "intro": [
@@ -804,6 +804,8 @@
   "color": "#5b8fd6",
   "dark": "#223a66",
   "heads": 1,
+  "form": "maquina",
+  "crescent": false,
   "intro": [
    [
     "El Arquitecto",

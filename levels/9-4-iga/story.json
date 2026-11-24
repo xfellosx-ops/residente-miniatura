@@ -155,7 +155,7 @@
     "#4A2508"
    ],
    "tiles": "playa",
-   "vignette": "uv_piel",
+   "vignette": "iga_mucosa",
    "join": [
     "sonda"
    ],
@@ -345,13 +345,13 @@
    "id": "z2",
    "name": "Mesangio de Oxford",
    "palette": [
-    "#E0F8D0",
-    "#88C070",
-    "#346856",
-    "#081820"
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
    ],
-   "tiles": "bosque",
-   "vignette": "ganglio",
+   "tiles": "delta",
+   "vignette": "iga_mesangio",
    "join": [],
    "nurse": true,
    "intro": [
@@ -564,6 +564,8 @@
   "color": "#f2c94c",
   "dark": "#7a5a00",
   "heads": 1,
+  "form": "iga",
+  "crescent": false,
   "intro": [
    [
     "El Galactodeficiente",

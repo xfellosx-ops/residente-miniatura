@@ -155,7 +155,7 @@
     "#102820"
    ],
    "tiles": "hospital",
-   "vignette": "urgencias",
+   "vignette": "sindromes",
    "join": [
     "sonda",
     "treg"
@@ -522,13 +522,13 @@
    "id": "z2",
    "name": "Laboratorio del Complemento",
    "palette": [
-    "#E8D8F0",
-    "#A080C0",
-    "#583878",
-    "#201030"
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
    ],
-   "tiles": "pantano",
-   "vignette": "pantano_restos",
+   "tiles": "delta",
+   "vignette": "complemento",
    "join": [],
    "nurse": true,
    "intro": [
@@ -805,6 +805,8 @@
   "color": "#8e44ad",
   "dark": "#3a1255",
   "heads": 1,
+  "form": "defensor",
+  "crescent": false,
   "intro": [
    [
     "El Guardián",

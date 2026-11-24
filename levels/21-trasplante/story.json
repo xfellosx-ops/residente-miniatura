@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Laboratorio de Histocompatibilidad",
    "palette": [
-    "#E0F8D0",
-    "#88C070",
-    "#346856",
-    "#081820"
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
    ],
-   "tiles": "bosque",
-   "vignette": "ganglio",
+   "tiles": "hospital",
+   "vignette": "hla",
    "join": [
     "sonda",
     "mmf"
@@ -479,13 +479,13 @@
    "id": "z2",
    "name": "Capilares Peritubulares",
    "palette": [
-    "#FCE4EC",
-    "#F48FB1",
-    "#AD1457",
-    "#3A0418"
+    "#E8F8F0",
+    "#6AC0A0",
+    "#1F6B4A",
+    "#0E2A24"
    ],
-   "tiles": "delta",
-   "vignette": "delta_endocapilar",
+   "tiles": "injerto",
+   "vignette": "banff",
    "join": [],
    "nurse": true,
    "intro": [
@@ -739,13 +739,13 @@
    "id": "z3",
    "name": "Valle de los Oportunistas",
    "palette": [
-    "#F4ECD0",
-    "#C8B070",
-    "#806828",
-    "#282008"
+    "#E8F8F0",
+    "#6AC0A0",
+    "#1F6B4A",
+    "#0E2A24"
    ],
-   "tiles": "valle",
-   "vignette": "valle_tubulovascular",
+   "tiles": "injerto",
+   "vignette": "bk",
    "join": [],
    "nurse": false,
    "intro": [
@@ -961,6 +961,8 @@
   "color": "#e05a8a",
   "dark": "#4a0f25",
   "heads": 1,
+  "form": "anticuerpo",
+  "crescent": false,
   "intro": [
    [
     "El Rechazo",

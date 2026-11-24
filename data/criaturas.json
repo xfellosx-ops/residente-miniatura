@@ -96,14 +96,14 @@
      "type": "Glucocorticoide",
      "drug_or_mechanism": "0.5–1 g/día IV por 1–3 días al inicio",
      "power": 45,
-     "fx": "Supresor"
+     "fx": "Glucocorticoide"
     },
     {
      "name": "Esquema reducido",
      "type": "Glucocorticoide",
      "drug_or_mechanism": "Reducción rápida de prednisona (PEXIVAS): menos infecciones",
      "power": 35,
-     "fx": "Regulador"
+     "fx": "Glucocorticoide"
     }
    ],
    "evolvesAt": 8,
@@ -142,14 +142,14 @@
      "type": "Anti-C5aR",
      "drug_or_mechanism": "Avacopan 30 mg c/12 h: corta el asa C5a–neutrófilo",
      "power": 45,
-     "fx": "Anti-citocina"
+     "fx": "Anti-C5aR"
     },
     {
      "name": "Ahorro de esteroide",
      "type": "Anti-C5aR",
      "drug_or_mechanism": "Sustituye la prednisona en dosis altas (ADVOCATE)",
      "power": 35,
-     "fx": "Regulador"
+     "fx": "Anti-C5aR"
     }
    ],
    "evolvesAt": 10,
@@ -188,14 +188,14 @@
      "type": "Recambio",
      "drug_or_mechanism": "Retira el anti-MBG: diario ~14 sesiones hasta indetectable",
      "power": 50,
-     "fx": "Depurador"
+     "fx": "Recambio"
     },
     {
      "name": "Plasma fresco",
      "type": "Recambio",
      "drug_or_mechanism": "Reposición con plasma si hay hemorragia o biopsia reciente",
      "power": 35,
-     "fx": "Depurador"
+     "fx": "Recambio"
     }
    ],
    "evolvesAt": 9,
@@ -234,14 +234,14 @@
      "type": "Sonda",
      "drug_or_mechanism": "Mide flujo, presión y concentración en el punto exacto",
      "power": 40,
-     "fx": "Depurador"
+     "fx": "Sonda"
     },
     {
      "name": "Pulso de calibración",
      "type": "Sonda",
      "drug_or_mechanism": "Compara lo enfermo con el riñón sano de referencia",
      "power": 35,
-     "fx": "Regulador"
+     "fx": "Sonda"
     }
    ],
    "evolvesAt": 8,
@@ -258,14 +258,14 @@
      "type": "Nefroprotector",
      "drug_or_mechanism": "iSGLT2: devuelve sodio a la mácula densa y baja la presión glomerular",
      "power": 45,
-     "fx": "Podoprotector"
+     "fx": "Nefroprotector"
     },
     {
      "name": "Freno eferente",
      "type": "Nefroprotector",
      "drug_or_mechanism": "iSRAA: dilata la eferente y reduce la albuminuria",
      "power": 40,
-     "fx": "Podoprotector"
+     "fx": "Nefroprotector"
     }
    ],
    "evolvesAt": 9,
@@ -282,14 +282,14 @@
      "type": "Diurético",
      "drug_or_mechanism": "Furosemida en la rama ascendente gruesa",
      "power": 45,
-     "fx": "Endosomal"
+     "fx": "Diurético"
     },
     {
      "name": "Bloqueo secuencial",
      "type": "Diurético",
      "drug_or_mechanism": "Tiazida en el túbulo distal contra la resistencia",
      "power": 40,
-     "fx": "Endosomal"
+     "fx": "Diurético"
     }
    ],
    "evolvesAt": 9,
@@ -306,14 +306,14 @@
      "type": "Anti-complemento",
      "drug_or_mechanism": "Eculizumab/ravulizumab: sin C5b-9 no hay complejo de ataque",
      "power": 50,
-     "fx": "Anti-citocina"
+     "fx": "Anti-complemento"
     },
     {
      "name": "Freno del factor B",
      "type": "Anti-complemento",
      "drug_or_mechanism": "Iptacopán: inhibe la vía alterna proximal",
      "power": 40,
-     "fx": "Anti-citocina"
+     "fx": "Anti-complemento"
     }
    ],
    "evolvesAt": 10,

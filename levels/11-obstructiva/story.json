@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Vejiga Distendida",
    "palette": [
-    "#FFF4D6",
-    "#F2C27A",
-    "#B5651D",
-    "#4A2508"
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
    ],
-   "tiles": "playa",
-   "vignette": "uv_piel",
+   "tiles": "tubulo",
+   "vignette": "vejiga",
    "join": [
     "sonda"
    ],
@@ -387,13 +387,13 @@
    "id": "z2",
    "name": "La Presa Rota",
    "palette": [
-    "#F8D8D8",
-    "#E07070",
-    "#982828",
-    "#380808"
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
    ],
-   "tiles": "rio",
-   "vignette": "rio_sangre",
+   "tiles": "tubulo",
+   "vignette": "hidronefrosis",
    "join": [],
    "nurse": true,
    "intro": [
@@ -597,6 +597,8 @@
   "color": "#4a90a4",
   "dark": "#123a44",
   "heads": 1,
+  "form": "muro",
+  "crescent": false,
   "intro": [
    [
     "La Presa",

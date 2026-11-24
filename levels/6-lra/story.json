@@ -416,13 +416,13 @@
    "id": "z2",
    "name": "Túbulo en Tormenta",
    "palette": [
-    "#E8D8F0",
-    "#A080C0",
-    "#583878",
-    "#201030"
+    "#FBD8E2",
+    "#E48AA8",
+    "#A8436A",
+    "#4A1A2A"
    ],
-   "tiles": "pantano",
-   "vignette": "pantano_restos",
+   "tiles": "proximal",
+   "vignette": "nta",
    "join": [],
    "nurse": true,
    "intro": [
@@ -741,13 +741,13 @@
    "id": "z3",
    "name": "Máquina de Reemplazo",
    "palette": [
-    "#E8F4FC",
-    "#90C8E8",
-    "#386890",
-    "#0C2030"
+    "#F0FCFF",
+    "#8AE0E8",
+    "#2A8A9A",
+    "#0A2A33"
    ],
-   "tiles": "acantilado",
-   "vignette": "acantilado_podocito",
+   "tiles": "dializador",
+   "vignette": "hemodialisis",
    "join": [],
    "nurse": false,
    "intro": [
@@ -999,6 +999,8 @@
   "color": "#5a6b8a",
   "dark": "#1a2238",
   "heads": 1,
+  "form": "ola",
+  "crescent": false,
   "intro": [
    [
     "La Tormenta",

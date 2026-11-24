@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Membrana de Tres Poros",
    "palette": [
-    "#FFF0E0",
-    "#F0B080",
-    "#A05830",
-    "#301808"
+    "#FDE2D4",
+    "#E8957A",
+    "#A0503A",
+    "#3A1A10"
    ],
-   "tiles": "capsula",
-   "vignette": "capsula_semiluna",
+   "tiles": "peritoneo",
+   "vignette": "dp_poros",
    "join": [
     "sonda"
    ],
@@ -413,13 +413,13 @@
    "id": "z2",
    "name": "Cavidad Infectada",
    "palette": [
-    "#E8D8F0",
-    "#A080C0",
-    "#583878",
-    "#201030"
+    "#FDE2D4",
+    "#E8957A",
+    "#A0503A",
+    "#3A1A10"
    ],
-   "tiles": "pantano",
-   "vignette": "pantano_restos",
+   "tiles": "peritoneo",
+   "vignette": "peritonitis",
    "join": [],
    "nurse": true,
    "intro": [
@@ -681,6 +681,8 @@
   "color": "#b56a3a",
   "dark": "#3a1a08",
   "heads": 1,
+  "form": "hialino",
+  "crescent": false,
   "intro": [
    [
     "La Esclerosante",

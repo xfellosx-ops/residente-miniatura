@@ -155,7 +155,7 @@
     "#4A2508"
    ],
    "tiles": "playa",
-   "vignette": "uv_piel",
+   "vignette": "embarazo",
    "join": [
     "sonda"
    ],
@@ -410,13 +410,13 @@
    "id": "z2",
    "name": "Placenta Sombría",
    "palette": [
-    "#F8E0F0",
-    "#D088C0",
-    "#703878",
-    "#200820"
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
    ],
-   "tiles": "ruinas",
-   "vignette": "ruinas_asas",
+   "tiles": "rio",
+   "vignette": "preeclampsia",
    "join": [],
    "nurse": true,
    "intro": [
@@ -607,6 +607,8 @@
   "color": "#703878",
   "dark": "#200820",
   "heads": 1,
+  "form": "masa",
+  "crescent": false,
   "intro": [
    [
     "La Placenta",

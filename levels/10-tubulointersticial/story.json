@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Intersticio Invadido",
    "palette": [
-    "#E0F8D0",
-    "#88C070",
-    "#346856",
-    "#081820"
+    "#F0E2C8",
+    "#C8A87A",
+    "#8A6A4A",
+    "#3A2A1A"
    ],
-   "tiles": "bosque",
-   "vignette": "ganglio",
+   "tiles": "intersticio",
+   "vignette": "nti",
    "join": [
     "sonda"
    ],
@@ -435,13 +435,13 @@
    "id": "z2",
    "name": "Túbulo Cicatrizado",
    "palette": [
-    "#F4ECD0",
-    "#C8B070",
-    "#806828",
-    "#282008"
+    "#F0E2C8",
+    "#C8A87A",
+    "#8A6A4A",
+    "#3A2A1A"
    ],
-   "tiles": "valle",
-   "vignette": "valle_tubulovascular",
+   "tiles": "intersticio",
+   "vignette": "fibrosis",
    "join": [],
    "nurse": false,
    "intro": [
@@ -655,6 +655,8 @@
   "color": "#6fae4f",
   "dark": "#1f4a2a",
   "heads": 1,
+  "form": "masa",
+  "crescent": false,
   "intro": [
    [
     "El Infiltrado",

@@ -155,7 +155,7 @@
     "#201030"
    ],
    "tiles": "pantano",
-   "vignette": "pantano_restos",
+   "vignette": "brecha",
    "join": [
     "sonda"
    ],
@@ -419,7 +419,7 @@
     "#081820"
    ],
    "tiles": "bosque",
-   "vignette": "ganglio",
+   "vignette": "metanol",
    "join": [],
    "nurse": true,
    "intro": [
@@ -716,13 +716,13 @@
    "id": "z3",
    "name": "Túbulo del Bicarbonato",
    "palette": [
-    "#FFF0E0",
-    "#F0B080",
-    "#A05830",
-    "#301808"
+    "#D0F0FF",
+    "#5AB4E8",
+    "#1F6AA8",
+    "#0A2A4A"
    ],
-   "tiles": "capsula",
-   "vignette": "capsula_semiluna",
+   "tiles": "colector",
+   "vignette": "intercalada",
    "join": [],
    "nurse": false,
    "intro": [
@@ -939,6 +939,8 @@
   "color": "#7a4fd0",
   "dark": "#2a1255",
   "heads": 1,
+  "form": "maquina",
+  "crescent": false,
   "intro": [
    [
     "La Brecha",

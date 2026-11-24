@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Laboratorio de Solubilidad",
    "palette": [
-    "#FFF4D6",
-    "#F2C27A",
-    "#B5651D",
-    "#4A2508"
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
    ],
-   "tiles": "playa",
-   "vignette": "uv_piel",
+   "tiles": "hospital",
+   "vignette": "sedimento",
    "join": [
     "sonda"
    ],
@@ -429,13 +429,13 @@
    "id": "z2",
    "name": "Corriente de Cristales",
    "palette": [
-    "#F8D8D8",
-    "#E07070",
-    "#982828",
-    "#380808"
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
    ],
-   "tiles": "rio",
-   "vignette": "rio_sangre",
+   "tiles": "tubulo",
+   "vignette": "cristales",
    "join": [],
    "nurse": true,
    "intro": [
@@ -722,6 +722,8 @@
   "color": "#6ad1e3",
   "dark": "#0f4a55",
   "heads": 1,
+  "form": "cristal",
+  "crescent": false,
   "intro": [
    [
     "El Cristal",

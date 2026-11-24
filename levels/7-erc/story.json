@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Riñón Cicatrizado",
    "palette": [
-    "#F8E0F0",
-    "#D088C0",
-    "#703878",
-    "#200820"
+    "#F0E2C8",
+    "#C8A87A",
+    "#8A6A4A",
+    "#3A2A1A"
    ],
-   "tiles": "ruinas",
-   "vignette": "ruinas_asas",
+   "tiles": "intersticio",
+   "vignette": "fibrosis",
    "join": [
     "sonda",
     "glifo"
@@ -467,7 +467,7 @@
     "#380808"
    ],
    "tiles": "rio",
-   "vignette": "rio_sangre",
+   "vignette": "anemia_epo",
    "join": [],
    "nurse": true,
    "intro": [
@@ -756,7 +756,7 @@
     "#102820"
    ],
    "tiles": "hospital",
-   "vignette": "urgencias",
+   "vignette": "tfg_declive",
    "join": [],
    "nurse": false,
    "intro": [
@@ -1006,6 +1006,8 @@
   "color": "#8a7a52",
   "dark": "#2a2208",
   "heads": 1,
+  "form": "masa",
+  "crescent": false,
   "intro": [
    [
     "El Urémico",

@@ -155,7 +155,7 @@
     "#282008"
    ],
    "tiles": "valle",
-   "vignette": "valle_tubulovascular",
+   "vignette": "tumor",
    "join": [
     "sonda"
    ],
@@ -414,13 +414,13 @@
    "id": "z2",
    "name": "Túbulo Bajo Quimioterapia",
    "palette": [
-    "#E8D8F0",
-    "#A080C0",
-    "#583878",
-    "#201030"
+    "#FBD8E2",
+    "#E48AA8",
+    "#A8436A",
+    "#4A1A2A"
    ],
-   "tiles": "pantano",
-   "vignette": "pantano_restos",
+   "tiles": "proximal",
+   "vignette": "proximal_quimio",
    "join": [],
    "nurse": true,
    "intro": [
@@ -649,6 +649,8 @@
   "color": "#B565A7",
   "dark": "#3a1a38",
   "heads": 1,
+  "form": "masa",
+  "crescent": false,
   "intro": [
    [
     "El Tumor",

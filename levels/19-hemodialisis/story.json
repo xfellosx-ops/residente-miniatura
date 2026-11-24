@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Planta de Agua",
    "palette": [
-    "#E8F4FC",
-    "#90C8E8",
-    "#386890",
-    "#0C2030"
+    "#F0FCFF",
+    "#8AE0E8",
+    "#2A8A9A",
+    "#0A2A33"
    ],
-   "tiles": "acantilado",
-   "vignette": "acantilado_podocito",
+   "tiles": "dializador",
+   "vignette": "osmosis",
    "join": [
     "sonda"
    ],
@@ -398,7 +398,7 @@
     "#102820"
    ],
    "tiles": "hospital",
-   "vignette": "urgencias",
+   "vignette": "hemodialisis",
    "join": [],
    "nurse": true,
    "intro": [
@@ -674,7 +674,7 @@
     "#380808"
    ],
    "tiles": "rio",
-   "vignette": "rio_sangre",
+   "vignette": "fistula",
    "join": [],
    "nurse": false,
    "intro": [
@@ -929,6 +929,8 @@
   "color": "#3aa0a0",
   "dark": "#0a3a3a",
   "heads": 1,
+  "form": "ola",
+  "crescent": false,
   "intro": [
    [
     "El Desequilibrio",

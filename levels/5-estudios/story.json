@@ -155,7 +155,7 @@
     "#102820"
    ],
    "tiles": "hospital",
-   "vignette": "urgencias",
+   "vignette": "tfg_ecuacion",
    "join": [
     "sonda"
    ],
@@ -449,13 +449,13 @@
    "id": "z2",
    "name": "Pantano del Sedimento",
    "palette": [
-    "#E8D8F0",
-    "#A080C0",
-    "#583878",
-    "#201030"
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
    ],
-   "tiles": "pantano",
-   "vignette": "pantano_restos",
+   "tiles": "tubulo",
+   "vignette": "sedimento",
    "join": [],
    "nurse": true,
    "intro": [
@@ -718,13 +718,13 @@
    "id": "z3",
    "name": "Sala de Imagen y Biopsia",
    "palette": [
-    "#F8E0F0",
-    "#D088C0",
-    "#703878",
-    "#200820"
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
    ],
-   "tiles": "ruinas",
-   "vignette": "ruinas_asas",
+   "tiles": "hospital",
+   "vignette": "biopsia",
    "join": [],
    "nurse": false,
    "intro": [
@@ -927,6 +927,8 @@
   "color": "#b8860b",
   "dark": "#4a3200",
   "heads": 1,
+  "form": "cristal",
+  "crescent": false,
   "intro": [
    [
     "El Sedimento",

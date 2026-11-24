@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Viaje en Cápsula",
    "palette": [
-    "#FFF0E0",
-    "#F0B080",
-    "#A05830",
-    "#301808"
+    "#FBD8E2",
+    "#E48AA8",
+    "#A8436A",
+    "#4A1A2A"
    ],
-   "tiles": "capsula",
-   "vignette": "capsula_semiluna",
+   "tiles": "proximal",
+   "vignette": "proximal_farmaco",
    "join": [
     "sonda"
    ],
@@ -418,13 +418,13 @@
    "id": "z2",
    "name": "Río de los Diuréticos",
    "palette": [
-    "#F8D8D8",
-    "#E07070",
-    "#982828",
-    "#380808"
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
    ],
-   "tiles": "rio",
-   "vignette": "rio_sangre",
+   "tiles": "tubulo",
+   "vignette": "diureticos",
    "join": [],
    "nurse": true,
    "intro": [
@@ -659,13 +659,13 @@
    "id": "z3",
    "name": "Circuito Extracorpóreo",
    "palette": [
-    "#E8F4FC",
-    "#90C8E8",
-    "#386890",
-    "#0C2030"
+    "#F0FCFF",
+    "#8AE0E8",
+    "#2A8A9A",
+    "#0A2A33"
    ],
-   "tiles": "acantilado",
-   "vignette": "acantilado_podocito",
+   "tiles": "dializador",
+   "vignette": "hemodialisis",
    "join": [],
    "nurse": false,
    "intro": [
@@ -869,6 +869,8 @@
   "color": "#9b59b6",
   "dark": "#3a1a4e",
   "heads": 1,
+  "form": "masa",
+  "crescent": false,
   "intro": [
    [
     "El Intoxicado",

@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Cilio Primario",
    "palette": [
-    "#E8F4FC",
-    "#90C8E8",
-    "#386890",
-    "#0C2030"
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
    ],
-   "tiles": "acantilado",
-   "vignette": "acantilado_podocito",
+   "tiles": "tubulo",
+   "vignette": "erpad_cilio",
    "join": [
     "sonda",
     "glifo"
@@ -416,7 +416,7 @@
     "#282008"
    ],
    "tiles": "valle",
-   "vignette": "valle_tubulovascular",
+   "vignette": "erpad_rinon",
    "join": [],
    "nurse": true,
    "intro": [
@@ -688,6 +688,8 @@
   "color": "#b9a6ff",
   "dark": "#2a1a55",
   "heads": 1,
+  "form": "quistes",
+  "crescent": false,
   "intro": [
    [
     "El Poliquístico",

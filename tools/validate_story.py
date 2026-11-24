@@ -1,9 +1,13 @@
 import json
 import sys; d = json.load(open(sys.argv[1] if len(sys.argv)>1 else "levels/9-5-lupus/story.json", encoding="utf-8"))
-TILES = set("hospital playa pantano bosque rio delta acantilado ruinas capsula valle arena".split())
+import re as _re, pathlib as _pl
+_ENG = (_pl.Path(__file__).parent.parent / "engine/template.html").read_text(encoding="utf-8")
+# viñetas, escenarios y formas de jefe: se leen del motor para no duplicar listas
+TILES = set(_re.findall(r"^ (\w+):\{o:", _ENG, _re.M)) | {"arena"}
+BOSS_FORMS = set(_re.search(r"const BOSS_FORMS=\[([^\]]*)\]", _ENG).group(1).replace('"', "").split(","))
 MG = set("stones river memorama algoritmo indices clasif".split())
 WT = set("Innato Humoral Celular Complemento Inmunocomplejo Molecular".split()) | set(d.get("enemyTypes") or {})
-VIG = set("urgencias uv_piel pantano_restos ganglio rio_sangre delta_endocapilar acantilado_podocito ruinas_asas capsula_semiluna valle_tubulovascular".split())
+VIG = set(_re.findall(r"^VIG\.(\w+)=", _ENG, _re.M)) | set(_re.findall(r"VIG\.(\w+)=t=>", _ENG))
 LAYERS = set("rect circ ring stripes cells drift orbit pulse grow person".split())
 err = []; warn = []; frames = 0
 meta = d.get("meta") or {}
@@ -58,6 +62,7 @@ for z in d["zones"]:
         chk(c["lines"], z["id"] + "." + c["trigger"])
         if c["trigger"].startswith("after_trainer:") and c["trigger"].split(":")[1] not in [t["id"] for t in z["trainers"]]:
             err.append((c["trigger"], "trigger"))
+if d["boss"].get("form") and d["boss"]["form"] not in BOSS_FORMS: err.append(("boss", "forma desconocida", d["boss"]["form"]))
 chk(d["boss"]["intro"], "boss"); chk(d["boss"]["outro"], "boss")
 if len(d["boss"]["intro"]) + 1 + len(d["boss"]["phases"][0]["lines"]) > 4: warn.append(("boss", "intro + fase 1 > 4 cuadros"))
 for p in d["boss"]["phases"]:

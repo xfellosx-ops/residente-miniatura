@@ -10,8 +10,12 @@ PAL = {"hospital": ["#E0F8F0", "#88C8B0", "#3A7868", "#102820"], "playa": ["#FFF
        "rio": ["#F8D8D8", "#E07070", "#982828", "#380808"], "delta": ["#FCE4EC", "#F48FB1", "#AD1457", "#3A0418"],
        "acantilado": ["#E8F4FC", "#90C8E8", "#386890", "#0C2030"], "ruinas": ["#F8E0F0", "#D088C0", "#703878", "#200820"],
        "capsula": ["#FFF0E0", "#F0B080", "#A05830", "#301808"], "valle": ["#F4ECD0", "#C8B070", "#806828", "#282008"]}
-VIG = {"hospital": "urgencias", "playa": "uv_piel", "pantano": "pantano_restos", "bosque": "ganglio", "rio": "rio_sangre",
-       "delta": "delta_endocapilar", "acantilado": "acantilado_podocito", "ruinas": "ruinas_asas", "capsula": "capsula_semiluna", "valle": "valle_tubulovascular"}
+PAL.update({"tubulo": ["#FFF4C0", "#E8C84A", "#9A7A1A", "#3A2A08"], "proximal": ["#FBD8E2", "#E48AA8", "#A8436A", "#4A1A2A"], "henle": ["#E8F6FF", "#8AB8E0", "#2A5A8A", "#0F2A4A"],
+            "colector": ["#D0F0FF", "#5AB4E8", "#1F6AA8", "#0A2A4A"], "intersticio": ["#F0E2C8", "#C8A87A", "#8A6A4A", "#3A2A1A"], "peritoneo": ["#FDE2D4", "#E8957A", "#A0503A", "#3A1A10"],
+            "dializador": ["#F0FCFF", "#8AE0E8", "#2A8A9A", "#0A2A33"], "injerto": ["#E8F8F0", "#6AC0A0", "#1F6B4A", "#0E2A24"]})
+# viñeta por CONTENIDO: cada zona del spec declara "vignette"; si falta, una viñeta de su región (nunca las de lupus fuera de la región 5)
+REG = {lv[0]: r["id"] for r in json.loads((ROOT / "data/regiones.json").read_text(encoding="utf-8")) for lv in r["levels"]}
+VIG_REG = {1: "nefrona", 2: "biopsia", 3: "nta", 4: "compartimentos", 5: "sindromes", 6: "erpad_rinon", 7: "hta", 8: "fibrosis", 9: "hemodialisis"}
 CAST = {
  "player": ("Residente", "Protagonista miniaturizado", "#F8F8F8"), "dr_j": ("Dr. J.", "Mentor clínico por radio", "#3B6FB6"),
  "brenn": ("Sabio Brenn", "Mentor de fisiología profunda", "#7FB8E0"), "valeria": ("Dra. Valeria Montes 'Flashcard'", "Rival", "#E05A8A"),
@@ -125,7 +129,7 @@ def build(S):
         mg = []
         for M in Z.get("minis", []):
             mg.append({"type": M[0], "title": M[1], "items": M[2] if M[0] in ("stones", "algoritmo") else [], "pairs": [list(x) for x in M[2]] if M[0] in ("memorama", "river") else []})
-        zones.append({"id": f"z{zi+1}", "name": Z["name"], "palette": PAL[tiles], "tiles": tiles, "vignette": Z.get("vignette", VIG[tiles]),
+        zones.append({"id": f"z{zi+1}", "name": Z["name"], "palette": PAL[tiles], "tiles": tiles, "vignette": Z.get("vignette") or VIG_REG.get(REG.get(S["id"]), "nefrona"),
                       "join": (["sonda"] if zi == 0 else []) + Z.get("join", []), "nurse": bool(Z.get("nurse")),
                       "intro": L(Z["intro"]),
                       "npcs": [{"id": f"npc{i+1}", "name": n[0], "lines": L([(n[0], x) for x in n[1]]), "gift": n[2] if len(n) > 2 else None, "recall": n[3] if len(n) > 3 else None} for i, n in enumerate(Z.get("npcs", []))],
@@ -162,7 +166,7 @@ def build(S):
     types = ["Molecular", "Celular", "Humoral", "Complemento"]
     story = {"meta": {"id": S["id"], "title": S["title"], "key": "rm_v3_" + S["id"].replace("-", ""), "arena": B.get("arena", "ARENA DEL JEFE"), "bossShort": B["short"], "bossChange": B.get("change", "cambia de forma")},
              "cast": cast, "zones": zones,
-             "boss": {"name": B["name"], "color": B.get("color", "#c23a7a"), "dark": B.get("dark", "#6a1f5e"), "heads": B.get("heads", 1),
+             "boss": {"name": B["name"], "color": B.get("color", "#c23a7a"), "dark": B.get("dark", "#6a1f5e"), "heads": B.get("heads", 1), "form": B.get("form", "defensor"), "crescent": bool(B.get("crescent")),
                       "intro": L(B["intro"]), "outro": L(B["outro"]),
                       "phases": [{"name": P[0], "type": types[i % 4], "lines": L([P[1]]), "topics": [P[0]], "questions": per[i]} for i, P in enumerate(B["phases"])]},
              "creatures": [], "typeChart": {}, "shields": [{"trial": s[0], "mnemonic": s[1], "result": s[2]} for s in S.get("shields", [])],

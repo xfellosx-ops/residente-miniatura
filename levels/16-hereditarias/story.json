@@ -149,13 +149,13 @@
    "id": "z1",
    "name": "Núcleo del Colágeno",
    "palette": [
-    "#FFF0E0",
-    "#F0B080",
-    "#A05830",
-    "#301808"
+    "#E8F4FC",
+    "#90C8E8",
+    "#386890",
+    "#0C2030"
    ],
-   "tiles": "capsula",
-   "vignette": "capsula_semiluna",
+   "tiles": "acantilado",
+   "vignette": "alport",
    "join": [
     "sonda"
    ],
@@ -510,13 +510,13 @@
    "id": "z2",
    "name": "Túbulos Heredados",
    "palette": [
-    "#F8D8D8",
-    "#E07070",
-    "#982828",
-    "#380808"
+    "#E8F6FF",
+    "#8AB8E0",
+    "#2A5A8A",
+    "#0F2A4A"
    ],
-   "tiles": "rio",
-   "vignette": "rio_sangre",
+   "tiles": "henle",
+   "vignette": "tubulopatias",
    "join": [],
    "nurse": true,
    "intro": [
@@ -832,6 +832,8 @@
   "color": "#16A085",
   "dark": "#0a3a30",
   "heads": 1,
+  "form": "gen",
+  "crescent": false,
   "intro": [
    [
     "El Mutante",
