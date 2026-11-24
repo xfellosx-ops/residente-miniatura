@@ -28,6 +28,58 @@ CAST = {
  "genta": ("Aminoglucósido", "Nefrotóxico", "#9B59B6"), "tacro": ("Calcineurínico", "Nefrotóxico", "#8D6E63"),
  "hemo": ("Director de Hemo-Eterna", "Villano corporativo", "#1A1A2E"),
 }
+
+# frases de los entrenadores automáticos: cada especialidad cree saber más nefrología que tú (y lo admite al perder)
+RETO = {
+ "mi": [("El riñón es un órgano más. Yo veo al paciente completo.", "Bueno… el riñón es EL órgano. Pasa."),
+        ("Creatinina alta, pido interconsulta y me olvido.", "Debí razonarlo antes de llamarte."),
+        ("Con un buen interrogatorio no necesito sedimento.", "Ese sedimento decía todo. Lo anoto.")],
+ "uti": [("Mi protocolo: volumen, presor y que el riñón aguante.", "Balance positivo también mata. Lo anoto."),
+         ("Si orina poco, más furosemida. Siempre funciona.", "La prueba de estrés no es tratamiento. Entendido."),
+         ("Diálisis temprana a todos, por si acaso.", "STARRT y AKIKI… esperar también es decisión.")],
+ "urg": [("Tres camas, un minuto. Yo resuelvo sin pensar.", "Pensar un minuto salvó la cama tres."),
+         ("Potasio alto: insulina y a la casa.", "Sin calcio ni ECG no era seguro. Me ganaste."),
+         ("Triaje rápido: todo riñón es prerrenal.", "No todo era volumen. Bien visto.")],
+ "cardio": [("Primero el corazón. El riñón que espere.", "Cardiorrenal: van juntos. Aprendí."),
+            ("Creatinina sube con IECA: lo suspendo.", "Subir 30 % es esperable. No lo quito."),
+            ("Diurético a dosis bajas, para no lastimar.", "Congestión también daña al riñón. Pasa.")],
+ "endo": [("Hormona que veo, hormona que repongo.", "Primero el riñón, luego el frasco. Sigue."),
+          ("Glucosa bien, riñón bien. Simple.", "Albuminuria pese a la glucosa… tienes razón."),
+          ("La aldosterona explica todo.", "No siempre era ella. Buen razonamiento.")],
+ "infecto": [("Ningún cultivo me falta. Riñón, ¿qué es eso?", "Ajustar la dosis también cura. Lo anoto."),
+             ("Antibiótico a dosis plena, sin importar la TFG.", "Dosis por función renal. Me cachaste."),
+             ("Si hay fiebre, todo es infección.", "Era inmune, no bacteria. Bien.")],
+ "cx": [("Si duele, se opera. Si no, también.", "No todo se resuelve con bisturí. Pasa."),
+        ("El riñón se cuida solo después de cirugía.", "Hipotensión y AINE… sí lo cuido."),
+        ("Contraste y quirófano el mismo día, sin problema.", "Planear ayuda al riñón. Tienes razón.")],
+ "geria": [("A esta edad la creatinina miente. Mejor no medir.", "Cistatina C… debí pedirla."),
+           ("En el anciano todo es por la edad.", "No todo es edad. Bien buscado."),
+           ("Diálisis para todos, sin preguntar.", "Preguntar qué quiere el paciente. Sigue.")],
+ "hema": [("Esquistocitos: ya sé, pura coagulopatía.", "MAT: el riñón sí importa. Pasa."),
+          ("Las cadenas ligeras no son asunto renal.", "El riñón de mieloma… ahora lo veo."),
+          ("Anemia en ERC: transfundo y listo.", "AEE y hierro primero. Lo anoto.")],
+ "pato": [("Sin biopsia no hablo. Y casi nunca hablo.", "La clínica también diagnostica. Sigue."),
+          ("La inmunofluorescencia es un adorno.", "El patrón de IF lo dijo todo. Bien."),
+          ("Un glomérulo basta para opinar.", "Necesitaba más muestra. Tienes razón.")],
+ "radio": [("Hugo Contraste. No, no soy pariente del villano.", "Bueno, primos lejanos. Sigue."),
+           ("Todo se ve en la tomografía.", "El ultrasonido bastaba. Me ganaste."),
+           ("Gadolinio sin pensar en la TFG.", "Fibrosis nefrogénica… cuidado. Pasa.")],
+ "onco": [("Quimio primero; el riñón se acomoda.", "Ajustar dosis salva al paciente. Pasa."),
+          ("Inmunoterapia sin efectos renales.", "Nefritis intersticial por ICI… sí existe."),
+          ("Lisis tumoral: eso pasa solo en leucemias.", "Prevenirla en tumores sólidos también. Bien.")],
+ "gine": [("En el embarazo todo es normal.", "La TFG sube; creatinina de 1 ya es alta."),
+          ("Presión alta en el embarazo: esperar.", "Preeclampsia no espera. Sigue."),
+          ("Proteinuria leve, nada importante.", "Medirla bien cambia todo. Pasa.")],
+ "uro": [("Piedra que veo, piedra que rompo.", "Prevenirla con citrato y agua. Lo anoto."),
+         ("Si hay sonda, no hay obstrucción.", "Hidronefrosis con sonda… me cachaste."),
+         ("Hematuria siempre es urológica.", "Dismórfica: glomerular. Bien visto.")],
+ "pedia": [("Los niños son adultos pequeños.", "Dosis y valores por edad. Pasa."),
+           ("Nefrótico en niño: esteroide y adiós.", "Si recae, hay que pensar más. Bien."),
+           ("Reflujo leve: cirugía ya.", "Observación primero. Tienes razón.")],
+ "neumo": [("Respiro por ellos. El riñón, otro día.", "Ácido-base: pulmón y riñón juntos. Sigue."),
+           ("Hemoptisis: puro pulmón.", "Pulmón-riñón: buscar ANCA y anti-MBG. Bien."),
+           ("Hipercapnia crónica sin compensación renal.", "El riñón sí compensa. Me ganaste.")],
+}
 EXTRA_CAST = ["mi", "uti", "urg", "cardio", "endo", "infecto", "cx", "geria", "hema", "pato", "radio", "onco", "gine", "uro", "pedia", "neumo"]
 def L(pairs): return [list(p) for p in pairs]
 J1 = json.loads((ROOT / "data/juegos.json").read_text(encoding="utf-8"))
@@ -88,7 +140,7 @@ def build(S):
         if len(z["trainers"]) >= S.get("max_tr", 3): continue
         s = rest.pop(0); ck = EXTRA_CAST[ntr % len(EXTRA_CAST)]; ntr += 1; nm = cast[ck]["name"]; sub = series[s][0]["subtema"]
         z["trainers"].append({"id": f"t{zones.index(z)}_{len(z['trainers'])}", "cast": ck, "specialty": cast[ck]["role"].replace("Residente de ", ""), "serie": s,
-                              "intro": L([(nm, ("Te reto con un caso: " + sub)[:88])]), "defeat": L([(nm, "Bien razonado. Sigue tu camino.")]), "questionTopics": [], "n": len(series[s])})
+                              "intro": L([(nm, RETO[ck][(ntr // len(EXTRA_CAST)) % 3][0]), (nm, ("Mi caso: " + sub)[:88])]), "defeat": L([(nm, RETO[ck][(ntr // len(EXTRA_CAST)) % 3][1])]), "questionTopics": [], "n": len(series[s])})
     # minijuegos de la app NefroQuest (data/juegos.json y juegos2.json): clasificación, algoritmos y memorama del tema
     tids = set(S.get("temas", [])) | ({9} if S["id"] == "9-1" else set())
     extra = []

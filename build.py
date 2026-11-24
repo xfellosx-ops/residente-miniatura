@@ -16,6 +16,7 @@ except Exception: BUILD = "0"
 BUILD = str(int(BUILD) + 1) + " · " + datetime.date.today().strftime("%d/%m")
 ROSTER = json.loads((root / "data/criaturas.json").read_text(encoding="utf-8"))
 
+ARCO = json.loads((root / "data/arco.json").read_text(encoding="utf-8"))
 def load(lvl, name, default):
     f = lvl / name
     return json.loads(f.read_text(encoding="utf-8")) if f.exists() else default
@@ -26,6 +27,8 @@ def level(lvl):
     meta = story.get("meta") or {}
     if not meta.get("key") or not meta.get("id"): sys.exit(f"{lvl}: story.meta.id y story.meta.key son obligatorios")
     # catálogo común de criaturas: cualquier nivel puede unir una criatura del catálogo
+    arco = ARCO.get(meta["id"]) or {}
+    if arco: meta.update({"gancho": arco["gancho"], "diario": arco["diario"]})
     have = {c["id"] for c in story["creatures"]}
     story["creatures"] += [c for c in ROSTER["creatures"] if c["id"] not in have]
     story["typeChart"] = {**ROSTER["typeChart"], **story.get("typeChart", {})}

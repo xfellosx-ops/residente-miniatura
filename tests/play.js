@@ -23,7 +23,10 @@ function step(){ticks++;
  if(q&&opts.length&&opts[0].dataset.l){const Q=(q.dataset.id&&g.ALL[q.dataset.id])||Object.values(g.ALL).find(x=>x.enunciado===q.textContent);if(!Q){console.log('unknown',q.textContent.slice(0,50));process.exit(1)}
    stats.q++;let pick=Q.clave;if(MODEARG==='errors'&&Math.random()<.35){pick=opts.map(o=>o.dataset.l).find(l=>l!==Q.clave);stats.wrong++}
    opts.find(o=>o.dataset.l===pick).click();return}
+ // diario de cierre
+ const dj=[...d.querySelectorAll('[data-dj]')];if(dj.length){const D=G().STORY.meta.diario;(dj.find(b=>+b.dataset.dj===D[2])||dj[0]).click();return}
  // battle menus
+ if($('#bq')){$('#bq').click();return}
  if($('#bf')){$('#bf').click();return}
  const mv=d.querySelector('.opt[data-i]');if(mv&&g.MODE==='battle'){mv.click();return}
  // clasificación

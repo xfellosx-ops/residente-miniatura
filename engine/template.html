@@ -56,6 +56,7 @@ canvas{display:block;width:100%;image-rendering:pixelated;image-rendering:crisp-
 #tgt{position:absolute;width:88px;height:88px;border-radius:50%;border:4px solid #fff;background:#f2c94c;font-family:inherit;font-size:12px}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:50}
 .modal .box{max-width:470px;width:92%;font-size:21px;background:var(--x);max-height:80vh;overflow:auto}
+.btn.big{width:100%;font-size:11px;padding:12px 8px;margin-bottom:4px}.bad2{background:#f6dede}.hoy{background:#fff7d6}.hoy .bar{margin:4px 0}.dom td{padding:2px 4px;font-size:10px}.dom{border-collapse:collapse;width:100%}
 .toast{position:fixed;left:50%;top:12px;transform:translateX(-50%);background:#2b2a33;color:#fff;font:10px "Press Start 2P",monospace;padding:8px 12px;border-radius:6px;z-index:80;pointer-events:none}
 @media (prefers-reduced-motion:reduce){#alert.on{animation:none}}
 </style>
@@ -119,6 +120,19 @@ function save(){try{localStorage.setItem(KEY,JSON.stringify(S));touch(KEY)}catch
 function mkCrea(id){const c=CREA[id];return{id,lvl:3,xp:0,max:30,hp:30,evo:false}}
 function cName(c){return c.evo?CREA[c.id].evoName:CREA[c.id].name}
 function active(){return S.team.find(c=>c.hp>0)}
+/* ================= repaso espaciado GLOBAL (rm_srs): todas las preguntas de todos los niveles ================= */
+/* intervalos que "aterrizan" en el examen: nunca más de 1/3 de los días que faltan (Cepeda 2008) */
+const EXAM=new Date(2027,0,16,8).getTime(),DAY=864e5;const daysLeft=()=>{const t=new Date();t.setHours(0,0,0,0);return Math.max(0,Math.round((new Date(2027,0,16)-t)/DAY))};
+const TB={};LEVELS.forEach(l=>(l.bank||[]).forEach(q=>{if(q&&q.id&&q.opciones&&!TB[q.id])TB[q.id]=q}));
+let GS=(()=>{try{return JSON.parse(localStorage.getItem("rm_srs"))||{}}catch(e){return {}}})();
+function gssave(){try{localStorage.setItem("rm_srs",JSON.stringify(GS));touch("rm_srs")}catch(e){}}
+/* la primera vez, junta el repaso que cada nivel guardaba por separado */
+(()=>{let ch=0;GS._m=GS._m||{};LEVELS.forEach(l=>{const k=l.story.meta.key;if(GS._m[k])return;try{const o=JSON.parse(localStorage.getItem(k));Object.entries((o&&o.srs)||{}).forEach(([id,r])=>{const g=GS[id];if(!g||(r.due||0)>(g.due||0))GS[id]=Object.assign({t:0},r)})}catch(e){}GS._m[k]=1;ch++});if(ch)gssave()})();
+const gsIds=()=>Object.keys(GS).filter(id=>id!=="_m");
+const hoyF=(t=Date.now())=>{const d=new Date(t);return d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate()};
+const META_DIA=60;
+function racha(){return G.rachaF===hoyF()||G.rachaF===hoyF(Date.now()-DAY)?(G.racha||0):0}
+function toast(t){const d=document.createElement("div");d.className="toast";d.textContent=t;document.body.appendChild(d);setTimeout(()=>d.remove(),1800)}
 /* ================= preguntas ================= */
 const ALL={};
 function reg(q,src){if(!q||!q.id)return;q._src=src;ALL[q.id]=q}
@@ -133,7 +147,7 @@ const toks=s=>new Set(String(s||"").toLowerCase().normalize("NFD").replace(/[̀-
 /* reservadas: series de entrenadores y preguntas del jefe; el resto del banco del nivel entra a las puertas */
 const RESV=new Set(),RESS=new Set();STORY.zones.forEach(z=>z.trainers.forEach(t=>{if(t.serie)RESS.add(t.serie)}));STORY.boss.phases.forEach(P=>{(P.questions||[]).forEach(id=>{RESV.add(id);if(ALL[id]&&ALL[id].serie_id)RESS.add(ALL[id].serie_id)});(P.series||[]).forEach(s=>RESS.add(s))});
 const MCQX=MCQPOOL.concat(Object.values(ALL).filter(q=>(q._src==="pasto"&&!q.vf)||(q._src==="banco"&&!RESV.has(q.id)&&!RESS.has(q.serie_id))));
-function topicPick(topics,n,used){const T0=toks(topics.join(" "));const sc=MCQX.map(q=>{const t=toks(q.enunciado+" "+(q.tema||"")+" "+(q.subtema||"")+" "+(q.perla||""));let s=0;t.forEach(w=>{if(T0.has(w))s++});return{q,s:s+Math.random()*.5-(used.has(q.id)?3:0)}}).sort((a,b)=>b.s-a.s);return sc.slice(0,n).map(x=>x.q)}
+function topicPick(topics,n,used){const T0=toks(topics.join(" "));const sc=MCQX.map(q=>{const t=toks(q.enunciado+" "+(q.tema||"")+" "+(q.subtema||"")+" "+(q.perla||""));let s=0;t.forEach(w=>{if(T0.has(w))s++});return{q,s:s+Math.random()*.5-(used.has(q.id)?3:0)-(GS[q.id]?1.5:0)}}).sort((a,b)=>b.s-a.s);return sc.slice(0,n).map(x=>x.q)}
 /* asignación de entrenadores y puertas */
 /* serie de cada entrenador: trainers[].serie (si falta, preguntas por tema) */
 const SERIE_OF={};STORY.zones.forEach(z=>z.trainers.forEach(t=>{if(t.serie)SERIE_OF[t.id]=t.serie}));
@@ -144,16 +158,35 @@ const PLAN={};(()=>{const used=new Set();
  PLAN.boss=STORY.boss.phases.map(P=>{const ids=(P.questions||[]).filter(id=>ALL[id]);(P.series||[]).forEach(s=>series(s).forEach(q=>ids.push(q.id)));
   if(P.pick){const ex=topicPick(P.pick.topics||P.topics||[],P.pick.n||2,used);ex.forEach(q=>used.add(q.id));ids.push(...ex.map(q=>q.id))}
   if(!ids.length)ids.push(...topicPick(P.topics||[P.name],3,used).map(q=>q.id));return ids})})();
-/* repetición espaciada corregida */
-const BOXD=[1,3,7,14,21];let sessQ=[],sessN=0;
-function grade(q,ok){const now=Date.now(),r=S.srs[q.id]||{b:-1,due:0};const wasDue=r.b<0||r.due<=now;
- if(ok){if(wasDue){r.b=Math.min(r.b+1,BOXD.length-1);r.due=now+BOXD[r.b]*864e5}}
- else{r.b=0;r.due=now+864e5;sessQ.push({id:q.id,at:sessN+3+(Math.random()*3|0)})}
- r.last=ok?1:0;S.srs[q.id]=r;S.stats.n++;if(ok)S.stats.ok++;sessN++;save();hud()}
-function nextPasto(){const now=Date.now();const i=sessQ.findIndex(s=>s.at<=sessN);if(i>=0){const id=sessQ.splice(i,1)[0].id;return ALL[id]}
- const due=PASTO.filter(q=>S.srs[q.id]&&S.srs[q.id].due<=now);if(due.length)return due[Math.random()*due.length|0];
- const fresh=PASTO.filter(q=>!S.srs[q.id]);if(fresh.length)return fresh[Math.random()*fresh.length|0];return PASTO[Math.random()*PASTO.length|0]}
-function dueCount(){const now=Date.now();return Object.entries(S.srs).filter(([id,r])=>r.due<=now&&ALL[id]).length}
+/* repetición espaciada: cajas 1-2-4-8-15-25 días, con tope de 1/3 de lo que falta para el examen.
+   Fallo: baja 2 cajas (las recordadas de examen vuelven a 0). soft = no calificar (somnolencia, tiempo agotado, despertador). */
+const BOXD=[1,2,4,8,15,25];let sessQ=[],sessN=0,lastAlert=0;
+const isRecall=q=>(q.origen||[]).some(o=>/26$/.test(o));
+const ivl=b=>Math.max(1,Math.min(BOXD[b],Math.floor((EXAM-Date.now())/DAY/3)));
+function grade(q,ok,o={}){const now=Date.now();
+ if(o.soft||now-lastAlert<60000){if(!ok)sessQ.push({id:q.id,at:sessN+3+(Math.random()*3|0)});sessN++;return}
+ (o.glob?[GS]:[S.srs,GS]).forEach(st=>{const r=st[q.id]||{b:-1,due:0};const wasDue=r.b<0||r.due<=now;
+  if(ok){if(wasDue){r.b=Math.min(r.b+1,BOXD.length-1);r.due=now+ivl(r.b)*DAY}}
+  else{r.b=r.b<0||isRecall(q)?0:Math.max(0,r.b-2);r.due=now+DAY}
+  r.last=ok?1:0;r.t=now;st[q.id]=r});
+ if(!ok)sessQ.push({id:q.id,at:sessN+3+(Math.random()*3|0)});
+ if(!o.glob){S.stats.n++;if(ok)S.stats.ok++}sessN++;
+ const h=hoyF();if(!G.dia||G.dia.f!==h)G.dia={f:h,n:0,ok:0};G.dia.n++;if(ok)G.dia.ok++;
+ if(G.dia.n===META_DIA&&G.rachaF!==h){G.racha=racha()+1;G.rachaF=h;sfx.lvl();toast("🔥 ¡Meta del día! Racha de "+G.racha+" día"+(G.racha>1?"s":""))}
+ save();gssave();hud()}
+const pick=a=>a[Math.random()*a.length|0];
+const QG=id=>ALL[id]||TB[id];
+function nextPasto(){const now=Date.now();const i=sessQ.findIndex(s=>s.at<=sessN);if(i>=0){const id=sessQ.splice(i,1)[0].id;if(ALL[id])return ALL[id]}
+ /* 1) vencidas del nivel (también opción múltiple) · 2) V/F nuevas · 3) opción múltiple nunca vista del banco del nivel */
+ const due=Object.values(ALL).filter(q=>GS[q.id]&&GS[q.id].due<=now);if(due.length&&Math.random()<.7)return pick(due);
+ const fv=PASTO.filter(q=>!GS[q.id]),fm=MCQX.filter(q=>!GS[q.id]&&!q.vf&&(!q.serie_id||q.orden===1));
+ if(fv.length&&(!fm.length||Math.random()<.4))return pick(fv);if(fm.length)return pick(fm);if(due.length)return pick(due);return pick(PASTO)}
+/* vencidas en TODO el juego (las que existen en este archivo) */
+function dueList(){const now=Date.now();return gsIds().filter(id=>GS[id].due<=now&&QG(id)).sort((a,b)=>GS[a].due-GS[b].due)}
+function dueCount(){return dueList().length}
+/* intercala: nunca dos seguidas del mismo tema (Rohrer 2007) */
+function interleave(qs){const by={};qs.forEach(q=>(by[q.tema||"?"]=by[q.tema||"?"]||[]).push(q));const out=[];let last=null;
+ while(out.length<qs.length){const ks=Object.keys(by).filter(k=>by[k].length).sort((a,b)=>by[b].length-by[a].length);const k=ks.find(k=>k!==last)||ks[0];out.push(by[k].shift());last=k}return out}
 /* ================= audio: música chiptune y efectos (Web Audio, sin archivos: funciona sin conexión) ================= */
 /* SND: 2 = música y efectos · 1 = solo efectos · 0 = silencio. La alarma de inactividad suena siempre (regla 4). */
 let AC=null,MG=null,FG=null,NZ=null,SND=2;try{const v=localStorage.getItem("rm_snd");if(v!=null)SND=+v}catch(e){}
@@ -238,6 +271,8 @@ function playN(c,n,dur,w){try{const bus={t:w,g:MG};
   else if(n==="s")noise(.1,.1*c.v,0,1500,"highpass",0,bus);else noise(.03,.05*c.v,0,7000,"highpass",0,bus);return}
  const o=AC.createOscillator(),g=AC.createGain();o.type=c.w;o.frequency.setValueAtTime(440*Math.pow(2,(midi(n)+MUS.tp-69)/12),w);
  g.gain.setValueAtTime(0,w);g.gain.linearRampToValueAtTime(c.v,w+.006);g.gain.linearRampToValueAtTime(c.v*.6,w+Math.min(.12,dur*.5));g.gain.linearRampToValueAtTime(0,w+dur*.92);o.connect(g);g.connect(MG);o.start(w);o.stop(w+dur)}catch(e){}}
+/* mientras hay una pregunta en pantalla la música baja (el ruido de fondo estorba la lectura) */
+function duck(on){try{if(MG&&SND>=2)MG.gain.setTargetAtTime(on?.15:.5,AC.currentTime,.25)}catch(e){}}
 /* cada región del mapa camina en otra tonalidad y tempo */
 function walkMusic(){const r=(typeof regionOf==="function"&&regionOf(META.id).id)||0;const k=(+r||0)%10;music("walk",{tp:[0,2,-3,5,-2,3,-5,1,4,-1][k],bpm:[118,112,124,108,120,116,126,110,122,114][k]})}
 /* ================= voz, vibración, alerta ================= */
@@ -248,11 +283,11 @@ let idleT=null,alertOn=false,tgtHits=0,alertIv=[];
 function idleLimit(){return (S.idle+Math.min(40,words(pn.innerText).length*.25))*1000}
 function poke(){unlockAudio();if(alertOn)return;clearTimeout(idleT);idleT=setTimeout(fireAlert,idleLimit())}
 ["pointerdown","keydown"].forEach(e=>addEventListener(e,poke,{passive:true}));
-function fireAlert(){alertOn=true;S.alerts++;save();tgtHits=0;$("#alert").classList.add("on");const t=$("#tgt");
+function fireAlert(){if(G.siesta&&!G.siesta.ok&&Date.now()<G.siesta.hasta)return poke();alertOn=true;lastAlert=Date.now();S.alerts++;G.alh=(G.alh||[]).concat(Date.now()).slice(-60);save();tgtHits=0;$("#alert").classList.add("on");const t=$("#tgt");
  const mv=()=>{t.style.left=(10+Math.random()*(innerWidth-110))+"px";t.style.top=(38+Math.random()*45)+"vh"};mv();
  alertIv=[setInterval(mv,900),setInterval(()=>{beep(1200,.15,"square",.14,"A");setTimeout(()=>beep(900,.15,"square",.14,"A"),180);vib([200,100,200])},700)]}
 $("#tgt").onpointerdown=e=>{e.stopPropagation();unlockAudio();tgtHits++;beep(1500,.05,"square",.08,"A");$("#tgt").textContent=(3-tgtHits)||"OK";
- if(tgtHits>=3){alertOn=false;alertIv.forEach(clearInterval);$("#alert").classList.remove("on");$("#tgt").textContent="AQUÍ";poke();if(MODE!=="battle"&&MODE!=="river"&&MODE!=="wake"){const d=document.createElement("div");d.className="modal";d.innerHTML='<div class="box"><div class="who">¿TIENES SUEÑO?</div>'+(S.alerts%3===0?"Llevas "+S.alerts+" alertas. Considera una pausa activa de pie. ":"")+'Un minijuego rápido de 1 minuto puede despertarte.<div class="row"><button class="btn" id="wk">😴 DESPERTADOR</button><button class="btn alt" id="nw">SEGUIR</button></div></div>';document.body.appendChild(d);d.querySelector("#wk").onclick=()=>{d.remove();wake()};d.querySelector("#nw").onclick=()=>d.remove()}}};
+ if(tgtHits>=3){alertOn=false;alertIv.forEach(clearInterval);$("#alert").classList.remove("on");$("#tgt").textContent="AQUÍ";poke();if(MODE!=="battle"&&MODE!=="river"&&MODE!=="wake"){const d=document.createElement("div");d.className="modal";d.innerHTML='<div class="box"><div class="who">¿TIENES SUEÑO?</div>'+(S.alerts%3===0?"Llevas "+S.alerts+" alertas. Considera una pausa activa de pie. ":"")+(sleepy()?'<b>Dos alertas en 10 minutos: tu cuerpo pide siesta.</b> ':'')+'Un minijuego rápido de 1 minuto puede despertarte.<div class="row">'+(sleepy()?'<button class="btn" id="zz">💤 SIESTA</button>':'')+'<button class="btn'+(sleepy()?' alt':'')+'" id="wk">😴 DESPERTADOR</button><button class="btn alt" id="nw">SEGUIR</button></div></div>';document.body.appendChild(d);if(d.querySelector("#zz"))d.querySelector("#zz").onclick=()=>{d.remove();siesta()};d.querySelector("#wk").onclick=()=>{d.remove();wake()};d.querySelector("#nw").onclick=()=>d.remove()}}};
 poke();
 /* ================= HUD / modales ================= */
 function need(l){return Math.round(20*Math.pow(l,1.5))}
@@ -588,7 +623,7 @@ function wake(after){if(MODE==="battle"||MODE==="river")return modal("Termina el
   const q=items[i];const sw=Math.random()<.5;let left=6;
   const draw=()=>{const pos=()=>Math.floor(Math.random()*3);pn.innerHTML='<div class="who">😴 DESPERTADOR · '+(i+1)+'/'+items.length+' · racha '+streak+'</div><div class="bar"><i id="wt" style="width:'+(100*left/6)+'%"></i></div><div class="q">'+esc(q.enunciado)+'</div><div class="row" style="justify-content:'+["flex-start","center","flex-end"][pos()]+'"><button class="btn" data-l="'+(sw?"F":"V")+'">'+(sw?"FALSO":"VERDADERO")+'</button><button class="btn red" data-l="'+(sw?"V":"F")+'">'+(sw?"VERDADERO":"FALSO")+'</button></div>';
    pn.querySelectorAll("[data-l]").forEach(b=>b.onclick=()=>fin(b.dataset.l===q.clave))};
-  const fin=r=>{clearAll();grade(q,r);if(r){ok++;streak++;sfx.ok();vib(30)}else{streak=0;sfx.bad();vib([120,60,120])}i++;pn.insertAdjacentHTML("beforeend",'<div class="box small"><b>'+(r?"¡Bien!":"No.")+'</b> '+esc(clip(q.exp,25))+'</div>');later(step,r?900:1800)};
+  const fin=r=>{clearAll();grade(q,r,{soft:1});if(r){ok++;streak++;sfx.ok();vib(30)}else{streak=0;sfx.bad();vib([120,60,120])}i++;pn.insertAdjacentHTML("beforeend",'<div class="box small"><b>'+(r?"¡Bien!":"No.")+'</b> '+esc(clip(q.exp,25))+'</div>');later(step,r?900:1800)};
   draw();every(()=>{left--;const b=$("#wt");if(b)b.style.width=(100*left/6)+"%";if(left%2===0&&left>0)draw();beep(700+left*60,.04);if(left<=0)fin(false)},1000)};
  cx.fillStyle="#0f380f";cx.fillRect(0,0,160,96);step()}
 function drawWake(){const t=frame;cx.fillStyle=(t>>4)%2?"#0f380f":"#306230";cx.fillRect(0,0,160,96);for(let i=0;i<6;i++){const x=80+Math.cos(t/15+i)*50,y=48+Math.sin(t/11+i*2)*30;circ(x,y,5,"#f2c94c")}}
@@ -644,8 +679,8 @@ function talkNPC(o){const z=STORY.zones[MAP.zi],n=z.npcs[o.i];const key="npc_"+M
   if(!S.flags[key]&&n.gift&&n.gift!=="null"){S.flags[key]=1;if(n.gift==="pocion")S.potions++;else addXP(active(),15);save();modal(n.gift==="pocion"?"Recibiste una POCIÓN. Tienes "+S.potions+".":"Ganaste XP.",after)}else after()})}
 function nurse(){dialog([["Enfermera del Ganglio","Bienvenido al centro de recuperación. Curaré a tu equipo."]],()=>{S.team.forEach(c=>c.hp=c.max);save();hud();sfx.heal();modal("Tu equipo está como nuevo.",toWorld)})}
 /* ================= pregunta genérica ================= */
-function ctxOf(q){if(!q.serie_id)return[q.caso,q.continuacion].filter(Boolean);return series(q.serie_id).filter(x=>x.orden<=q.orden).flatMap(x=>[x.caso,x.continuacion]).filter(Boolean)}
-function renderQ(q,label,timer,onDone){const vf=!!q.vf,opts=vf?{V:"Verdadero",F:"Falso"}:q.opciones,L=Object.keys(opts);const ctx=ctxOf(q);
+function ctxOf(q){if(!q.serie_id)return[q.caso,q.continuacion].filter(Boolean);return (ALL[q.id]?series(q.serie_id):tSeries(q.serie_id)).filter(x=>x.orden<=q.orden).flatMap(x=>[x.caso,x.continuacion]).filter(Boolean)}
+function renderQ(q,label,timer,onDone,o2={}){duck(1);const vf=!!q.vf,opts=vf?{V:"Verdadero",F:"Falso"}:q.opciones,L=Object.keys(opts);const ctx=ctxOf(q);
  let h=(label?'<div class="who">'+esc(label)+'</div>':'');if((q.origen||[]).some(o=>/26$/.test(o)))h+='<span class="tag">RECORDADA EXAMEN</span>';if((q.peso||0)>=70)h+='<span class="tag">ALTO PESO</span>';
  if(ctx.length){const last=ctx[ctx.length-1],prev=ctx.slice(0,-1);h+='<div class="box case">'+(prev.length?'<details><summary class="small">▸ Caso previo</summary><span class="small">'+prev.map(esc).join("<br>")+'</span></details>':'')+esc(last)+'</div>'}
  if(timer)h+='<div class="bar" style="margin:3px 0"><i id="tm" style="width:100%"></i></div>';
@@ -653,13 +688,15 @@ function renderQ(q,label,timer,onDone){const vf=!!q.vf,opts=vf?{V:"Verdadero",F:
  pn.innerHTML=h;pn.scrollTop=0;say(q.enunciado);let over=false,left=timer||0;let sel=-1;
  if(timer)every(()=>{if(alertOn||document.querySelector(".modal"))return;left--;const b=$("#tm");if(b)b.style.width=(100*left/timer)+"%";if(left<=0)answer(null)},1000);
  const btns=[...pn.querySelectorAll(".opt")];KEYA=()=>{if(sel>=0)btns[sel].click()};KEYNAV=d=>{if(over)return;sel=(sel+(d==="down"||d==="right"?1:-1)+btns.length)%btns.length;btns.forEach((b,i)=>b.classList.toggle("sel",i===sel));btns[sel].scrollIntoView&&btns[sel].scrollIntoView({block:"nearest"})};
- const answer=l=>{if(over)return;over=true;clearAll();KEYNAV=null;const ok=l===q.clave;grade(q,ok);ok?sfx.ok():(sfx.bad(),vib(120));
+ const answer=l=>{if(over)return;over=true;clearAll();KEYNAV=null;const ok=l===q.clave;grade(q,ok,{soft:l===null||!!o2.soft,glob:!!o2.glob});ok?sfx.ok():(sfx.bad(),vib(120));
   btns.forEach(b=>{b.disabled=true;if(b.dataset.l===q.clave)b.classList.add("ok");else if(b.dataset.l===l)b.classList.add("bad")});
   const ex=q.explicaciones||{};const main=vf?q.exp:(ex[q.clave]||q.exp||"");
-  let e='<div class="box"><b>'+(l===null?"¡Tiempo!":ok?"¡Correcto!":"Incorrecto.")+'</b> '+esc(clip(main,q.perla?26:40))+'</div>'+(q.perla?'<div class="box pearl small">💎 <b>Perla:</b> '+esc(clip(q.perla,22))+'</div>':'');
-  const more=[];if(words(main).length>40)more.push(esc(main));if(!ok&&l&&ex[l])more.push('<b>Tu opción ('+l+'):</b> '+esc(ex[l]));if(q.perla&&words(q.perla).length>22)more.push('<b>Perla completa:</b> '+esc(q.perla));if(!vf)L.filter(k=>k!==q.clave&&k!==l&&ex[k]).forEach(k=>more.push(k+') '+esc(ex[k])));if(q.referencias)more.push('<span class="small">Ref.: '+esc(q.referencias.join(" · "))+'</span>');
+  /* si falla: lo correcto (22 palabras) + por qué su opción no (15); la perla pasa a "Ver más" (Butler 2013) */
+  const mine=!ok&&l&&ex[l];const nMain=mine?22:(q.perla?26:40);
+  let e='<div class="box"><b>'+(l===null?"¡Tiempo! (no cuenta como error)":ok?"¡Correcto!":"Incorrecto. La correcta es "+(vf?opts[q.clave]:q.clave)+".")+'</b> '+esc(clip(main,nMain))+'</div>'+(mine?'<div class="box small bad2"><b>Tu opción ('+l+'):</b> '+esc(clip(ex[l],15))+'</div>':q.perla?'<div class="box pearl small">💎 <b>Perla:</b> '+esc(clip(q.perla,22))+'</div>':'');
+  const more=[];if(words(main).length>nMain)more.push(esc(main));if(mine&&words(ex[l]).length>15)more.push('<b>Tu opción ('+l+'):</b> '+esc(ex[l]));if(q.perla&&(mine||words(q.perla).length>22))more.push('<b>Perla'+(mine?'':' completa')+':</b> '+esc(q.perla));if(!vf)L.filter(k=>k!==q.clave&&k!==l&&ex[k]).forEach(k=>more.push(k+') '+esc(ex[k])));if(q.referencias)more.push('<span class="small">Ref.: '+esc(q.referencias.join(" · "))+'</span>');
   if(more.length)e+='<details class="box small"><summary>▸ Ver más ('+(q.perla?"perla y ":"")+'explicación completa)</summary>'+more.join("<br>")+'</details>';
-  e+='<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button></div>';pn.insertAdjacentHTML("beforeend",e);const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>{KEYA=null;onDone(ok)}};
+  e+='<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button></div>';pn.insertAdjacentHTML("beforeend",e);const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>{KEYA=null;duck(0);onDone(ok)};const okb=pn.querySelector(".opt.ok");okb&&okb.scrollIntoView&&okb.scrollIntoView({block:"nearest"})};
  btns.forEach(b=>b.onclick=()=>answer(b.dataset.l))}
 let KEYNAV=null;
 function quick(q,label,cb){MODE=MODE==="world"?"dialog":MODE;renderQ(q,label,0,cb)}
@@ -689,15 +726,16 @@ function drawBattle(){const b=BAT;const p=STORY.zones[Math.min(S.zone,STORY.zone
   uiBox(83,65,74,24);cx.fillStyle="#22202c";cx.font="6px monospace";cx.fillText(cName(a).slice(0,16)+" Nv"+a.lvl,87,73);hpbar(87,76,64,a.hp/a.max);cx.fillStyle="#5a6070";cx.fillText("PS "+a.hp+"/"+a.max,87,86)}
  if(b.fx)drawFx(b);if(b.flash>0){b.flash--;cx.globalAlpha=.5;px(0,0,160,96,"#fff");cx.globalAlpha=1}}
 function menuBattle(msg){const a=active();if(!a)return lose();KEYA=null;
- pn.innerHTML=(msg?'<div class="box">'+esc(msg)+'</div>':'')+'<div class="grid2"><button class="btn" id="bf">LUCHAR</button><button class="btn alt" id="bt">EQUIPO</button><button class="btn alt" id="bm">MOCHILA ('+S.potions+')</button><button class="btn alt" id="br">'+(BAT.kind==="wild"?"HUIR":"—")+'</button></div>';
- $("#bf").onclick=moves;KEYA=moves;$("#bt").onclick=()=>teamMenu(menuBattle);$("#bm").onclick=()=>{if(S.potions<1||a.hp>=a.max)return menuBattle(S.potions<1?"No tienes pociones.":"Ya tiene PS completos.");S.potions--;a.hp=Math.min(a.max,a.hp+Math.round(a.max*.5));save();hud();sfx.heal();foeTurnNoQ("Usaste una poción.")};
+ pn.innerHTML=(msg?'<div class="box">'+esc(msg)+'</div>':'')+(()=>{const m=bestMove();return '<button class="btn big" id="bq">⚡ ATACAR · '+esc(m.name)+'</button>'})()+'<div class="grid2"><button class="btn alt" id="bf">ELEGIR ATAQUE</button><button class="btn alt" id="bt">EQUIPO</button><button class="btn alt" id="bm">MOCHILA ('+S.potions+')</button><button class="btn alt" id="br">'+(BAT.kind==="wild"?"HUIR":"—")+'</button></div>';
+ $("#bf").onclick=moves;$("#bq").onclick=()=>useMove(bestMove());KEYA=()=>useMove(bestMove());$("#bt").onclick=()=>teamMenu(menuBattle);$("#bm").onclick=()=>{if(S.potions<1||a.hp>=a.max)return menuBattle(S.potions<1?"No tienes pociones.":"Ya tiene PS completos.");S.potions--;a.hp=Math.min(a.max,a.hp+Math.round(a.max*.5));save();hud();sfx.heal();foeTurnNoQ("Usaste una poción.")};
  $("#br").onclick=()=>{if(BAT.kind!=="wild")return;if(Math.random()<.85){BAT=null;modal("Escapaste sin problema.",toWorld)}else foeTurnNoQ("¡No pudiste huir!")}}
+function bestMove(){const cr=CREA[active().id],f=foe();return cr.moves.slice().sort((a,b)=>mult(b.type,f.type)*b.power-mult(a.type,f.type)*a.power)[0]}
 function moves(){const a=active(),cr=CREA[a.id];pn.innerHTML='<div class="who">'+esc(cName(a))+' · elige movimiento</div>'+cr.moves.map((m,i)=>'<button class="opt" data-i="'+i+'"><b>'+esc(m.type.slice(0,6).toUpperCase())+'</b>'+esc(m.name)+' <span class="small">· '+esc(m.drug_or_mechanism)+'</span></button>').join("")+'<div class="row"><button class="btn alt" id="bk">B · ATRÁS</button></div>';
  pn.querySelectorAll(".opt").forEach(b=>b.onclick=()=>useMove(cr.moves[+b.dataset.i]));$("#bk").onclick=()=>menuBattle("");KEYA=()=>pn.querySelector(".opt").click()}
-function useMove(m){const q=BAT.qsrc();const ph=BAT.kind==="boss"?bossPhase():0;const timer=BAT.kind==="boss"?[0,120,105,90,80][ph]:0;
+function useMove(m){const q=BAT.qsrc();const ph=BAT.kind==="boss"?bossPhase():0;const timer=BAT.kind==="boss"?Math.min(240,[0,120,105,90,80][ph]+Math.round(.6*words(ctxOf(q).slice(-1).join(" ")+" "+q.enunciado+" "+Object.values(q.opciones||{}).join(" ")).length)):0;
  renderQ(q,(BAT.label||"")+" · "+m.name,timer,ok0=>{pn.innerHTML='<div class="box">'+(ok0?esc(cName(active()))+" usa "+esc(m.name)+"…":"¡Fallaste! "+esc(foe().name)+" contraataca…")+'</div>';playFx(ok0?"player":"foe",ok0?(m.fx||m.type):foe().type,()=>resolve(ok0))});
  function resolve(ok){const a=active(),f=foe();
-  if(ok){const mm=mult(m.type,f.type);const pow=m.power+(a.evo?10:0);const d=Math.round((BAT.kind==="boss"?11:46)*(pow/40)*mm*(0.9+a.lvl*0.02));f.hp=Math.max(0,f.hp-d);sfx.hit();addXP(a,BAT.xp);S.team.filter(c=>c!==a&&c.hp>0).forEach(c=>addXP(c,BAT.xp>>1));
+  if(ok){if(BAT.kind==="boss"){G.nef=(G.nef||0)+1000;gsave()}const mm=mult(m.type,f.type);const pow=m.power+(a.evo?10:0);const d=Math.round((BAT.kind==="boss"?11:46)*(pow/40)*mm*(0.9+a.lvl*0.02));f.hp=Math.max(0,f.hp-d);sfx.hit();addXP(a,BAT.xp);S.team.filter(c=>c!==a&&c.hp>0).forEach(c=>addXP(c,BAT.xp>>1));
    const eff=mm>1?" ¡Es súper eficaz!":mm<1?" No es muy eficaz…":"";
    if(f.hp<=0){if(BAT.kind==="boss")return bossCheck(m.name+": "+d+" de daño."+eff);BAT.fi++;if(BAT.fi>=BAT.foes.length)return winBattle(m.name+" acabó con "+f.name+"."+eff);return menuBattle(f.name+" cayó."+eff+" Siguiente: "+foe().name+".")}
    if(BAT.kind==="boss")return bossCheck(m.name+": "+d+" de daño."+eff);menuBattle(m.name+" causó "+d+" de daño."+eff)}
@@ -764,26 +802,35 @@ function startBoss(){const ph=bossPhase();S.boss.phase=ph;const pq=()=>{const li
   battle({kind:"boss",foes:[{name:META.bossShort+" · F"+ph,type:(P&&P.type)||"Molecular",get hp(){return S.boss.hp},set hp(v){S.boss.hp=v;save()},max:100}],qsrc:pq,xp:30,label:"👑 "+META.bossShort.toUpperCase()+" F"+ph})})}
 function bossCheck(msg){const ph=bossPhase();if(S.boss.hp<=0)return bossWin();if(ph!==S.boss.phase){S.boss.phase=ph;sfx.roar();return modal(msg+"<br><b>¡"+esc(META.bossShort)+" "+esc(META.bossChange)+"!</b>",()=>{BAT=null;startBoss()})}menuBattle(msg)}
 function bossWin(){BAT=null;S.done=true;G.done[META.id]=1;gsave();save();sfx.lvl();music("victory");vib([100,50,100,50,300]);dialog(STORY.boss.outro,ending)}
-function ending(){MODE="dialog";const st=S.stats;pn.innerHTML='<div class="who">¡SUBNIVEL '+esc(META.id)+' SUPERADO!</div><div class="box">Aciertos: '+st.ok+'/'+st.n+' ('+Math.round(100*st.ok/Math.max(1,st.n))+' %)<br>Nefrodex: '+S.nefro.length+' páginas<br>En repaso espaciado: '+Object.keys(S.srs).length+' preguntas</div><div class="row"><button class="btn" id="e1">NEFRODEX</button><button class="btn alt" id="e2">REPASO</button><button class="btn alt" id="e3">JUGAR DE NUEVO</button>'+(LEVELS.length>1?'<button class="btn" id="e4">🗺 MAPA</button>':'')+'</div>';if($("#e4"))$("#e4").onclick=()=>mapa(ending);
+/* cierre del nivel: diario con recuerdo activo → resultados, días al examen, nefronas y PRÓXIMO CASO */
+function nextLevel(){const ord=REGIONS.flatMap(r=>r.levels.map(l=>l[0]));const k=ord.indexOf(META.id);return k>=0&&k+1<ord.length?ord[k+1]:null}
+function ending(){MODE="dialog";music("victory");const D=META.diario;
+ if(D&&!S.flags.diario){const opts=shuf(D[1].map((t,i)=>[t,i]));pn.innerHTML='<div class="who">📓 DIARIO DEL RESIDENTE</div><div class="box">'+esc(D[0])+'</div>'+opts.map(([t,i])=>'<button class="opt" data-dj="'+i+'"><b>✎</b>'+esc(t)+'</button>').join("");
+  pn.querySelectorAll("[data-dj]").forEach(b=>b.onclick=()=>{const ok=+b.dataset.dj===D[2];S.flags.diario=1;save();ok?sfx.ok():sfx.bad();if(ok)addXP(active(),25);modal((ok?"<b>¡Exacto!</b> ":"<b>Era: "+esc(D[1][D[2]])+".</b> ")+esc(D[0].replace("___",D[1][D[2]])),ending)});return}
+ const st=S.stats,nx=nextLevel(),nxL=nx&&LEVELS.find(l=>l.story.meta.id===nx);
+ pn.innerHTML='<div class="who">¡SUBNIVEL '+esc(META.id)+' SUPERADO!</div><div class="box">Aciertos: '+st.ok+'/'+st.n+' ('+Math.round(100*st.ok/Math.max(1,st.n))+' %)<br>Nefronas salvadas en total: <b>'+((G.nef||0)).toLocaleString("es-MX")+'</b><br>Nefrodex: '+S.nefro.length+' páginas · en repaso: '+gsIds().length+' preguntas</div><div class="box small"><b>El Consejo:</b> «Faltan '+daysLeft()+' días, residente. La Torre registra su avance.»</div>'+(nx?'<div class="row"><button class="btn big" id="e5">▶ PRÓXIMO CASO</button></div>':'<div class="row"><button class="btn big" id="e6">🏛 A LA TORRE DEL CONSEJO</button></div>')+'<div class="row"><button class="btn" id="e1">NEFRODEX</button><button class="btn alt" id="e2">REPASO</button><button class="btn alt" id="e3">JUGAR DE NUEVO</button>'+(LEVELS.length>1?'<button class="btn" id="e4">🗺 MAPA</button>':'')+'</div>';if($("#e4"))$("#e4").onclick=()=>mapa(ending);
+ if($("#e6"))$("#e6").onclick=()=>torre(ending);
+ if($("#e5"))$("#e5").onclick=()=>{const gm=nxL&&nxL.story.meta.gancho;modal('<div class="who">📻 DR. J. · PRÓXIMO CASO</div>'+esc(gm||"Te espera el siguiente riñón.")+(nxL?'':'<br><span class="small">(Ese nivel está en otra versión del archivo.)</span>'),()=>{if(!nxL)return ending();sfx.travel();try{localStorage.setItem("rm_cur",nx);touch("rm_cur")}catch(e){}Promise.all([syncPush(),new Promise(r=>setTimeout(r,800))]).then(()=>location.reload())},nxL?"▶ VAMOS":"OK")};
  $("#e1").onclick=()=>nefrodex(ending);$("#e2").onclick=()=>review(ending);$("#e3").onclick=()=>{const keep={srs:S.srs,stats:S.stats,idle:S.idle,voice:S.voice};S=Object.assign(fresh(),keep);save();title()}}
 /* ================= menú ================= */
 function nefrodex(back){const un=STORY.nefrodex.filter(n=>S.nefro.includes(n.title));pn.innerHTML='<div class="who">NEFRODEX ('+un.length+'/'+STORY.nefrodex.length+')</div>'+(un.length?un.map(n=>'<details class="box small"><summary><b>'+esc(n.title)+'</b></summary>'+esc(n.text)+'</details>').join(""):'<div class="small">Se desbloquea al salir de cada zona.</div>')+'<div class="box small"><b>Escudos de ensayo</b><br>'+STORY.shields.map(s=>'<b>'+esc(s.trial)+':</b> '+esc(s.mnemonic)+' — '+esc(s.result)).join("<br>")+'</div><div class="row"><button class="btn" id="bk">ATRÁS</button></div>';$("#bk").onclick=back}
-function review(back){const now=Date.now();const due=Object.entries(S.srs).filter(([id,r])=>r.due<=now&&ALL[id]).sort((a,b)=>a[1].due-b[1].due).map(([id])=>ALL[id]);
- if(!due.length)return modal("No hay preguntas vencidas. Las falladas vuelven en la hierba en esta misma sesión.",back);let i=0;const step=()=>{if(i>=due.length)return modal("Repaso terminado.",back);renderQ(due[i],"📚 REPASO "+(i+1)+"/"+due.length+" (sin daño)",0,()=>{i++;step()})};MODE="dialog";step()}
+function review(back){const ids=dueList();if(!ids.length)return modal("No hay preguntas vencidas en todo el juego. Las falladas vuelven aquí mañana.",back);
+ const due=interleave(ids.slice(0,40).map(QG)).slice(0,20);let i=0,ok=0;MODE="dialog";music("puzzle");
+ const step=()=>{if(i>=due.length){duck(0);return modal("Repaso terminado: "+ok+"/"+due.length+". Quedan "+dueCount()+" vencidas.",back)}renderQ(due[i],"📚 REPASO "+(i+1)+"/"+due.length+" (sin daño)",0,r=>{if(r)ok++;i++;step()},{glob:!ALL[due[i].id]})};step()}
 function menu(){if(MODE==="title")return;const prev=MODE;held=null;if(MODE==="battle"||MODE==="river")return askHome("Puedes salir al inicio sin perder avance. Este combate se repite después.");MODE="dialog";clearAll();
- pn.innerHTML='<div class="who">MENÚ</div><div class="grid2"><button class="btn" id="m1">▶ VOLVER</button><button class="btn alt" id="m2">EQUIPO</button><button class="btn alt" id="m3">NEFRODEX</button><button class="btn alt" id="m4">REPASO ('+dueCount()+')</button><button class="btn alt" id="m5">CHEQUEO ALERTA</button><button class="btn alt" id="m8">😴 DESPERTADOR</button><button class="btn alt" id="m6">ALARMA '+S.idle+' s</button><button class="btn" id="m9">🏠 INICIO</button><button class="btn red" id="m7">REINICIAR</button></div>';
- const back=()=>{if(S.boss&&!S.done)return bossArena();toWorld()};$("#m1").onclick=back;KEYA=back;$("#m2").onclick=()=>teamMenu(()=>menu());$("#m3").onclick=()=>nefrodex(menu);$("#m4").onclick=()=>review(menu);$("#m5").onclick=()=>pvt(menu);$("#m9").onclick=goHome;$("#m8").onclick=()=>wake();
+ pn.innerHTML='<div class="who">MENÚ</div><div class="grid2"><button class="btn" id="m1">▶ VOLVER</button><button class="btn alt" id="m2">EQUIPO</button><button class="btn alt" id="m3">NEFRODEX</button><button class="btn alt" id="m4">REPASO ('+dueCount()+')</button><button class="btn alt" id="m5">CHEQUEO ALERTA</button><button class="btn alt" id="m8">😴 DESPERTADOR</button><button class="btn alt" id="m6">ALARMA '+S.idle+' s</button><button class="btn alt" id="m10">⚔ GUARDIA</button><button class="btn alt" id="m11">📊 DOMINIO</button><button class="btn alt" id="m12">💤 SIESTA</button><button class="btn" id="m9">🏠 INICIO</button><button class="btn red" id="m7">REINICIAR</button></div>';
+ const back=()=>{if(S.boss&&!S.done)return bossArena();toWorld()};$("#m1").onclick=back;KEYA=back;$("#m2").onclick=()=>teamMenu(()=>menu());$("#m3").onclick=()=>nefrodex(menu);$("#m4").onclick=()=>review(menu);$("#m5").onclick=()=>pvt(menu);$("#m9").onclick=goHome;$("#m10").onclick=()=>guardia(menu);$("#m11").onclick=()=>dominio(menu);$("#m12").onclick=()=>siesta(menu);$("#m8").onclick=()=>wake();
  $("#m6").onclick=()=>{const v=[30,45,60,90];S.idle=v[(v.indexOf(S.idle)+1)%v.length];save();poke();menu()};
  $("#m7").onclick=()=>modal("¿Borrar todo el progreso? Toca fuera para cancelar recargando.",()=>{S=fresh();save();title()},"SÍ, BORRAR")}
 function goHome(){held=null;KEYNAV=null;KEYA=null;BAT=null;RIV=null;document.querySelectorAll(".modal").forEach(m=>m.remove());save();sfx.tick();title()}
 function askHome(msg){const d=document.createElement("div");d.className="modal";d.innerHTML='<div class="box"><div class="who">¿SALIR AL INICIO?</div>'+msg+'<div class="row"><button class="btn" id="hY">🏠 IR AL INICIO</button><button class="btn alt" id="hN">SEGUIR AQUÍ</button></div></div>';document.body.appendChild(d);
  const prevA=KEYA;d.querySelector("#hY").onclick=()=>{d.remove();goHome()};d.querySelector("#hN").onclick=()=>{d.remove();KEYA=prevA};KEYA=()=>d.querySelector("#hN").click()}
 $("#bMenu").onclick=menu;$("#bSue").onclick=()=>{unlockAudio();if(MODE==="title")return wake(title);wake()};$("#bB").onclick=()=>{if(MODE==="world"||MODE==="dialog")menu()};
-function pvt(after){let n=0,rts=[],t0=0,ready=false;const N=5;MODE="dialog";clearAll();
+function pvt(after){let n=0,rts=[],t0=0,ready=false;const N=10;MODE="dialog";clearAll();
  const draw=(msg,go)=>{pn.innerHTML='<div class="who">CHEQUEO DE ALERTA '+(n+1)+'/'+N+'</div><div class="box" id="pv" style="height:130px;display:flex;align-items:center;justify-content:center;background:'+(go?"#f2c94c":"#c5d98a")+'">'+msg+'</div><div class="small">Toca el recuadro en cuanto se ponga amarillo.</div>';$("#pv").onpointerdown=tap};
  const arm=()=>{ready=false;draw("ESPERA…",false);later(()=>{ready=true;t0=performance.now();draw("¡TOCA!",true)},1500+Math.random()*2500)};
- const tap=()=>{if(!ready){clearAll();draw("DEMASIADO PRONTO",false);later(arm,900);return}rts.push(performance.now()-t0);n++;if(n<N)arm();else{const m=Math.round(rts.reduce((a,b)=>a+b,0)/N),lp=rts.filter(r=>r>500).length,low=m>400||lp>=2;
-  pn.innerHTML='<div class="who">RESULTADO</div><div class="box">Media '+m+' ms · lapsos '+lp+'<br>'+(low?"Alerta baja: haz el DESPERTADOR o camina por la hierba (combates cortos).":"Buena alerta: sigue la historia.")+'</div><div class="row"><button class="btn" id="pc">CONTINUAR</button>'+(low?'<button class="btn alt" id="pw">😴 DESPERTADOR</button>':'')+'</div>';$("#pc").onclick=after;const pw=$("#pw");if(pw)pw.onclick=()=>wake(after)}};arm()}
+ const tap=()=>{if(!ready){clearAll();draw("DEMASIADO PRONTO",false);later(arm,900);return}rts.push(performance.now()-t0);n++;if(n<N)arm();else{const m=Math.round(rts.reduce((a,b)=>a+b,0)/N),lp=rts.filter(r=>r>355).length,low=m>380||lp>=3;G.pvt=(G.pvt||[]).concat({t:Date.now(),m,lp}).slice(-40);gsave();
+  pn.innerHTML='<div class="who">RESULTADO</div><div class="box">Media '+m+' ms · lapsos '+lp+'<br>'+(low?"Alerta baja. Con narcolepsia, lo que funciona es una siesta corta de 15–20 min.":"Buena alerta: sigue con lo difícil (jefe, Torre, nivel nuevo).")+'</div><div class="row"><button class="btn" id="pc">CONTINUAR</button>'+(low?'<button class="btn" id="pz">💤 SIESTA</button><button class="btn alt" id="pw">😴 DESPERTADOR</button>':'')+'</div>';$("#pc").onclick=after;if($("#pz"))$("#pz").onclick=()=>siesta(after);const pw=$("#pw");if(pw)pw.onclick=()=>wake(after)}};arm()}
 /* ================= controles ================= */
 const KM={ArrowUp:"up",ArrowDown:"down",ArrowLeft:"left",ArrowRight:"right",w:"up",s:"down",a:"left",d:"right",W:"up",S:"down",A:"left",D:"right"};
 addEventListener("keydown",e=>{const d=KM[e.key];if(d){e.preventDefault();if(KEYNAV&&MODE!=="world"){KEYNAV(d);return}if(MODE==="world")held=d;return}
@@ -795,15 +842,62 @@ $("#bA").onpointerdown=e=>{e.preventDefault();unlockAudio();pressA()};
 document.querySelectorAll(".dpad button").forEach(b=>{const d=b.dataset.d;b.onpointerdown=e=>{e.preventDefault();unlockAudio();if(KEYNAV&&MODE!=="world")return KEYNAV(d);if(MODE==="world")held=d};["pointerup","pointerleave","pointercancel"].forEach(ev=>b.addEventListener(ev,()=>{if(held===d)held=null}))});
 /* ================= título ================= */
 function title(){MODE="title";clearAll();music("title");cx.fillStyle="#0f380f";cx.fillRect(0,0,160,96);cx.fillStyle="#9bbc0f";cx.font="8px monospace";cx.fillText("EL RESIDENTE",42,30);cx.fillText("MINIATURA",50,42);person(72,52,"#ffffff","down",0);cx.font="6px monospace";{const s=(META.id+" · "+META.title).toUpperCase().slice(0,30);cx.fillText(s,Math.max(2,80-s.length*1.8),82)}hud();
- pn.innerHTML='<div class="who">EL RESIDENTE MINIATURA · versión __BUILD__</div><div class="box small">'+esc(META.id+" · "+META.title)+': '+STORY.zones.length+' zonas, '+STORY.zones.reduce((a,z)=>a+z.trainers.length,0)+' entrenadores, '+STORY.zones.reduce((a,z)=>a+z.minigames.length,0)+' minijuegos y el jefe '+esc(META.bossShort)+' en '+STORY.boss.phases.length+' fases. 😴 = despertador. Muévete con las flechas (o WASD). <b>A</b>/Z = acción, <b>B</b>/X = menú. Tu avance se guarda en este navegador.</div><div class="row"><button class="btn" id="t1">'+(S.flags.in_0?"▶ CONTINUAR "+esc(META.id):"▶ JUGAR "+esc(META.id))+'</button><button class="btn alt" id="t2">CHEQUEO DE ALERTA</button><button class="btn alt" id="t3">REPASO ('+dueCount()+')</button></div>';
- const go=()=>{unlockAudio();if(!S.flags.in_0){MODE="dialog";return enterZone(0)}if(S.boss&&!S.done)return bossArena();enterZone(S.zone,true)};$("#t1").onclick=go;KEYA=go;if(LEVELS.length>1){$("#t1").insertAdjacentHTML("afterend",'<button class="btn" id="t4">🗺 MAPA</button>');$("#t4").onclick=()=>mapa(title)}$("#t3").insertAdjacentHTML("afterend",'<button class="btn alt" id="t5">💾 PARTIDA</button>');$("#t5").onclick=()=>partida(title);$("#t2").onclick=()=>pvt(title);$("#t3").onclick=()=>review(title)}
+ pn.innerHTML='<div class="who">EL RESIDENTE MINIATURA · versión __BUILD__</div>'+hoyBox()+(G.siesta&&!G.siesta.ok&&Date.now()-G.siesta.t<3*36e5?'<div class="row"><button class="btn big" id="tz">☀ YA DESPERTÉ</button></div>':'')+'<div class="row"><button class="btn big" id="tg">⚔ GUARDIA DE HOY (20 preguntas)</button></div><div class="box small">'+esc(META.id+" · "+META.title)+': '+STORY.zones.length+' zonas, '+STORY.zones.reduce((a,z)=>a+z.trainers.length,0)+' entrenadores, '+STORY.zones.reduce((a,z)=>a+z.minigames.length,0)+' minijuegos y el jefe '+esc(META.bossShort)+' en '+STORY.boss.phases.length+' fases. 😴 = despertador. Muévete con las flechas (o WASD). <b>A</b>/Z = acción, <b>B</b>/X = menú. Tu avance se guarda en este navegador.</div><div class="row"><button class="btn" id="t1">'+(S.flags.in_0?"▶ CONTINUAR "+esc(META.id):"▶ JUGAR "+esc(META.id))+'</button><button class="btn alt" id="t2">CHEQUEO DE ALERTA</button><button class="btn alt" id="t3">REPASO ('+dueCount()+')</button></div>';
+ const go=()=>{unlockAudio();if(!S.flags.in_0){MODE="dialog";return enterZone(0)}if(S.boss&&!S.done)return bossArena();enterZone(S.zone,true)};$("#t1").onclick=go;KEYA=go;if(LEVELS.length>1){$("#t1").insertAdjacentHTML("afterend",'<button class="btn" id="t4">🗺 MAPA</button>');$("#t4").onclick=()=>mapa(title)}$("#t3").insertAdjacentHTML("afterend",'<button class="btn alt" id="t5">💾 PARTIDA</button>');$("#t5").onclick=()=>partida(title);$("#t2").onclick=()=>pvt(title);$("#t3").onclick=()=>review(title);$("#tg").onclick=()=>{unlockAudio();guardia(title)};if($("#tz"))$("#tz").onclick=()=>despertar(title);
+ $("#t3").insertAdjacentHTML("afterend",'<button class="btn alt" id="t6">📊 DOMINIO</button><button class="btn alt" id="t7">💤 SIESTA</button>');$("#t6").onclick=()=>dominio(title);$("#t7").onclick=()=>siesta(title)}
+
+/* ================= GUARDIA DE HOY: 20 preguntas del banco completo, sin caminar ================= */
+/* orden: vencidas (intercaladas) → recordadas de examen no vistas → series nuevas de los temas con más peso y menos dominio */
+function temaStats(){const T={};Object.values(TB).forEach(q=>{const k=q.tema_id;const t=T[k]=T[k]||{id:k,name:q.tema,meta:TEMARIO[k]||10,tot:0,seen:0,ok:0,box:0};t.tot++;const r=GS[q.id];if(r&&r.t!==undefined){t.seen++;t.ok+=r.last?1:0;t.box+=Math.max(0,r.b)}});
+ Object.values(T).forEach(t=>{t.acc=t.seen?t.ok/t.seen:0;t.dom=t.seen?(t.acc*.6+Math.min(1,t.box/t.seen/3)*.4)*Math.min(1,t.seen/Math.max(8,t.tot*.3)):0;t.pri=t.meta*(1-t.dom)});return T}
+function guardiaList(n=20,temas){const out=[],have=new Set();const add=q=>{if(q&&!have.has(q.id)&&out.length<n){have.add(q.id);out.push(q)}};
+ if(!temas){const d=dueList().map(QG).filter(q=>q&&!q.vf);interleave(d.slice(0,30)).slice(0,12).forEach(add);
+  shuf(Object.values(TB).filter(q=>isRecall(q)&&!GS[q.id]&&(!q.serie_id||q.orden===1))).slice(0,3).forEach(q=>(q.serie_id?tSeries(q.serie_id):[q]).forEach(add))}
+ const T=temaStats();const ks=temas||Object.values(T).sort((a,b)=>b.pri-a.pri).slice(0,6).map(t=>t.id);let guard=0;
+ while(out.length<n&&guard++<200){const k=ks[guard%ks.length];const c=shuf(Object.values(TB).filter(q=>q.tema_id==k&&!GS[q.id]&&!have.has(q.id)&&(!q.serie_id||q.orden===1)));
+  if(c.length)(c[0].serie_id?tSeries(c[0].serie_id):[c[0]]).forEach(add);else{const any=shuf(Object.values(TB).filter(q=>q.tema_id==k&&!have.has(q.id)&&(!q.serie_id||q.orden===1)));if(any.length)(any[0].serie_id?tSeries(any[0].serie_id):[any[0]]).forEach(add)}}
+ return out}
+function guardia(back,temas,label){held=null;MODE="dialog";clearAll();music("puzzle",{bpm:120});const qs=guardiaList(20,temas);if(!qs.length)return modal("No encontré preguntas para esta guardia.",back);
+ let i=0,ok=0;const t0=Date.now();const step=()=>{if(i>=qs.length){duck(0);const min=Math.max(1,(Date.now()-t0)/6e4);sfx.lvl();
+   pn.innerHTML='<div class="who">'+esc(label||"⚔ GUARDIA DE HOY")+' · TERMINADA</div><div class="box"><b>'+ok+'/'+qs.length+'</b> ('+Math.round(100*ok/qs.length)+' %) · '+(qs.length/min).toFixed(1)+' preguntas/min<br>Hoy llevas '+((G.dia&&G.dia.f===hoyF())?G.dia.n:0)+'/'+META_DIA+'. Vencidas que quedan: '+dueCount()+'.</div><div class="row"><button class="btn" id="g1">⚔ OTRA GUARDIA</button><button class="btn alt" id="g2">ATRÁS</button></div>';
+   $("#g1").onclick=()=>guardia(back,temas,label);$("#g2").onclick=back;KEYA=back;return}
+  const q=qs[i];renderQ(q,(label||"⚔ GUARDIA")+" "+(i+1)+"/"+qs.length+" · "+(q.tema||"").slice(0,28),0,r=>{if(r)ok++;i++;step()},{glob:!ALL[q.id]})};step()}
+/* ================= DOMINIO: qué temas sé y cuáles pesan más ================= */
+function dominio(back){held=null;MODE="dialog";clearAll();const T=Object.values(temaStats()).sort((a,b)=>b.pri-a.pri);
+ const col=t=>t.dom>=.7?"🟢":t.dom>=.4?"🟡":"🔴";const al=(G.alh||[]).filter(t=>Date.now()-t<7*DAY);const hrs=Array(24).fill(0);al.forEach(t=>hrs[new Date(t).getHours()]++);const top=hrs.map((n,h)=>[n,h]).filter(x=>x[0]).sort((a,b)=>b[0]-a[0]).slice(0,3);
+ const pv=(G.pvt||[]).slice(-5);
+ pn.innerHTML='<div class="who">📊 DOMINIO · faltan '+daysLeft()+' días</div><div class="small">Prioridad = peso en el examen × lo que te falta. Empieza por arriba.</div><table class="dom">'+T.map(t=>'<tr><td>'+col(t)+'</td><td>'+esc(t.name.slice(0,34))+'</td><td>'+t.seen+'/'+t.tot+'</td><td>'+(t.seen?Math.round(100*t.acc)+'%':'—')+'</td></tr>').join("")+'</table>'+
+  '<div class="row"><button class="btn big" id="d1">🎯 ESTUDIAR LO MÁS DÉBIL ('+T.slice(0,3).map(t=>t.name.split(" ")[0]).join(", ")+')</button></div>'+
+  '<div class="box small"><b>Somnolencia (7 días):</b> '+al.length+' alertas'+(top.length?' · más a las '+top.map(x=>x[1]+' h').join(", "):'')+(pv.length?'<br><b>Chequeos de alerta:</b> '+pv.map(p=>p.m+' ms/'+p.lp+' lapsos').join(" · "):'')+'<br><span class="small">Muéstraselo a tu médico del sueño para ajustar siestas y horarios.</span></div><div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
+ $("#d1").onclick=()=>guardia(()=>dominio(back),T.slice(0,3).map(t=>t.id),"🎯 LO MÁS DÉBIL");$("#bk").onclick=back;KEYA=back}
+/* ================= SIESTA: repaso antes, pausa de alarma, recuperación al despertar ================= */
+function sleepy(){const a=(G.alh||[]).filter(t=>Date.now()-t<10*6e4);return a.length>=2}
+function siesta(back){back=back||title;held=null;MODE="dialog";clearAll();music(null);const h0=new Date();h0.setHours(0,0,0,0);
+ const fails=gsIds().filter(id=>GS[id].last===0&&(GS[id].t||0)>=h0.getTime()&&QG(id)&&!QG(id).vf).sort((a,b)=>GS[b].t-GS[a].t).slice(0,8);
+ const dormir=()=>{G.siesta={ids:fails,t:Date.now(),hasta:Date.now()+30*6e4,ok:0};gsave();
+  pn.innerHTML='<div class="who">💤 SIESTA</div><div class="box">Pon la alarma del teléfono a <b>20 minutos</b> y duerme. La alarma del juego se pausa 30 min.</div><div class="row"><button class="btn big" id="zw">☀ YA DESPERTÉ</button></div>';$("#zw").onclick=()=>despertar(back)};
+ if(!fails.length)return dormir();let i=0;
+ pn.innerHTML='<div class="who">💤 ANTES DE DORMIR</div><div class="box">Repasa '+fails.length+' errores de hoy. Dormir justo después ayuda a fijarlos.</div><div class="row"><button class="btn" id="z1">EMPEZAR</button><button class="btn alt" id="z2">DORMIR YA</button></div>';
+ const step=()=>{if(i>=fails.length){duck(0);return dormir()}renderQ(QG(fails[i]),"💤 ANTES DE DORMIR "+(i+1)+"/"+fails.length,0,()=>{i++;step()},{glob:!ALL[fails[i]]})};$("#z1").onclick=step;$("#z2").onclick=dormir}
+function despertar(back){back=back||title;const Z=G.siesta||{ids:[]};Z.ok=1;gsave();
+ modal('<div class="who">☀ BUENOS DÍAS</div>Antes de estudiar: luz, agua y un minuto de pie. Luego un chequeo de alerta. La inercia del sueño dura 15–30 min: deja el jefe y la Torre para después.',()=>pvt(()=>{const ids=(Z.ids||[]).filter(QG);if(!ids.length){G.siesta=null;gsave();return back()}let i=0,ok=0;
+  const step=()=>{if(i>=ids.length){duck(0);G.siesta=null;gsave();return modal("Recuperaste "+ok+"/"+ids.length+" de lo que repasaste antes de dormir.",back)}renderQ(QG(ids[i]),"☀ AL DESPERTAR "+(i+1)+"/"+ids.length,0,r=>{if(r)ok++;i++;step()},{glob:!ALL[ids[i]]})};step()}),"LISTO")}
+/* ================= pausas cada 20 min activos (la vigilancia cae a los 15–20 min) ================= */
+const BOT=navigator.webdriver||/jsdom/i.test(navigator.userAgent);let lastPoke=Date.now(),actMin=0,blocks=0,qAt0=0;
+addEventListener("pointerdown",()=>lastPoke=Date.now(),{passive:true});addEventListener("keydown",()=>lastPoke=Date.now(),{passive:true});
+if(!BOT)setInterval(()=>{if(document.hidden||alertOn||Date.now()-lastPoke>90000)return;actMin++;if(actMin<20||document.querySelector(".modal"))return;
+ const n=sessN-qAt0,rate=(n/20).toFixed(1);actMin=0;blocks++;qAt0=sessN;const d=document.createElement("div");d.className="modal";
+ d.innerHTML='<div class="box"><div class="who">⏸ PAUSA DE PIE · 3 MIN</div>Llevas 20 min: '+n+' preguntas ('+rate+'/min).'+(rate<1.5?' Rinde más la ⚔ GUARDIA que caminar.':'')+(blocks>=3?' Ya van '+blocks+' bloques: toca siesta.':'')+'<div class="row"><button class="btn" id="pa">LISTO, SIGO</button>'+(blocks>=3?'<button class="btn alt" id="pz">💤 SIESTA</button>':'')+'</div></div>';
+ document.body.appendChild(d);const prevA=KEYA;d.querySelector("#pa").onclick=()=>{d.remove();KEYA=prevA};const z=d.querySelector("#pz");if(z)z.onclick=()=>{d.remove();blocks=0;siesta()};KEYA=()=>d.querySelector("#pa").click()},60000);
+/* ================= panel HOY en la pantalla de inicio ================= */
+function hoyBox(){const d=(G.dia&&G.dia.f===hoyF())?G.dia:{n:0,ok:0};const due=dueCount();const pct=Math.min(100,Math.round(100*d.n/META_DIA));const bk=G.bk?Math.floor((Date.now()-G.bk)/DAY):null;
+ return '<div class="box small hoy">📅 Faltan <b>'+daysLeft()+' días</b> para el Consejo (16 ene) · 🔥 racha '+racha()+'<div class="bar"><i style="width:'+pct+'%"></i></div>Hoy: <b>'+d.n+'/'+META_DIA+'</b> preguntas'+(d.n?' ('+Math.round(100*d.ok/d.n)+' %)':'')+' · vencidas: '+due+(bk===null||bk>=7?'<br>💾 '+(bk===null?'Aún no respaldas tu partida':'Último respaldo hace '+bk+' días')+': PARTIDA → COPIAR CÓDIGO.':'')+'</div>'}
 /* mapa de regiones: elegir nivel recarga la página con ese nivel */
 function mapa(back){MODE="dialog";clearAll();music("map");const built=new Set(LEVELS.map(l=>l.story.meta.id));
- pn.innerHTML='<div class="who">🗺 MAPA · '+Object.keys(G.done).length+' superados</div>'+REGIONS.map(r=>'<div class="box small"><b>Región '+r.id+' · '+esc(r.name)+'</b> <span class="tag">ACTO '+esc(r.acto)+'</span><br>'+r.levels.map(([id,name])=>built.has(id)?'<button class="opt" data-lv="'+esc(id)+'"><b>'+(G.done[id]?'✓':'▶')+'</b>'+esc(id+' · '+name)+(id===META.id?' · AQUÍ':'')+'</button>':'<div class="small" style="opacity:.55;margin:3px 0">🔒 '+esc(id+' · '+name)+' (en construcción)</div>').join("")+'</div>').join("")+'<div class="row"><button class="btn" id="tw">🏛 TORRE DEL CONSEJO</button><button class="btn alt" id="bk">ATRÁS</button></div>';$("#tw").onclick=()=>torre(()=>mapa(back));
+ pn.innerHTML='<div class="who">🗺 MAPA · '+Object.keys(G.done).length+' superados · '+(G.nef||0).toLocaleString("es-MX")+' nefronas salvadas</div>'+REGIONS.map(r=>'<div class="box small"><b>Región '+r.id+' · '+esc(r.name)+'</b> <span class="tag">ACTO '+esc(r.acto)+'</span><br>'+r.levels.map(([id,name])=>built.has(id)?'<button class="opt" data-lv="'+esc(id)+'"><b>'+(G.done[id]?'✓':'▶')+'</b>'+esc(id+' · '+name)+(id===META.id?' · AQUÍ':'')+'</button>':'<div class="small" style="opacity:.55;margin:3px 0">🔒 '+esc(id+' · '+name)+' (en construcción)</div>').join("")+'</div>').join("")+'<div class="row"><button class="btn" id="tw">🏛 TORRE DEL CONSEJO</button><button class="btn alt" id="bk">ATRÁS</button></div>';$("#tw").onclick=()=>torre(()=>mapa(back));
  pn.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>{const id=b.dataset.lv;if(id===META.id)return back();try{localStorage.setItem("rm_cur",id);touch("rm_cur")}catch(e){}sfx.travel();Promise.all([syncPush(),new Promise(r=>setTimeout(r,800))]).then(()=>location.reload())});
  $("#bk").onclick=back;KEYA=back}
 /* ================= Torre del Consejo: 300 preguntas mezcladas de todos los niveles ================= */
-const TB={};LEVELS.forEach(l=>(l.bank||[]).forEach(q=>{if(q&&q.id&&q.opciones&&!TB[q.id])TB[q.id]=q}));
 const TKEY="rm_torre";
 function tSeries(id){return Object.values(TB).filter(q=>q.serie_id===id).sort((a,b)=>a.orden-b.orden)}
 function tLoad(){try{return JSON.parse(localStorage.getItem(TKEY))||{}}catch(e){return {}}}
@@ -845,28 +939,31 @@ function torreRun(back){const T0=tLoad(),R=T0.run;if(!R)return torre(back);MODE=
   h+='<div class="q" data-id="'+esc(q.id)+'" data-torre="1">'+esc(q.enunciado)+'</div>'+L.map(k=>'<button class="opt" data-l="'+k+'"><b>'+k+'</b>'+esc(q.opciones[k])+'</button>').join("")+'<div class="row"><button class="btn alt" id="tq">GUARDAR Y SALIR</button></div>';
   pn.innerHTML=h;pn.scrollTop=0;const btns=[...pn.querySelectorAll(".opt")];let sel=-1;KEYA=()=>{if(sel>=0)btns[sel].click()};KEYNAV=d=>{sel=(sel+(d==="down"||d==="right"?1:-1)+btns.length)%btns.length;btns.forEach((b,i)=>b.classList.toggle("sel",i===sel))};
   $("#tq").onclick=()=>{KEYNAV=null;sv();clearAll();torre(back)};
-  btns.forEach(b=>b.onclick=()=>{const l=b.dataset.l;R.ans[q.id]=l;R.i++;KEYNAV=null;sv();if(!R.fb)return show();const ok=l===q.clave;ok?sfx.ok():sfx.bad();
+  btns.forEach(b=>b.onclick=()=>{const l=b.dataset.l;R.ans[q.id]=l;R.i++;KEYNAV=null;sv();grade(q,l===q.clave,{glob:1});if(!R.fb)return show();const ok=l===q.clave;ok?sfx.ok():sfx.bad();
    btns.forEach(x=>{x.disabled=true;if(x.dataset.l===q.clave)x.classList.add("ok");else if(x.dataset.l===l)x.classList.add("bad")});const ex=q.explicaciones||{};
-   pn.insertAdjacentHTML("beforeend",'<div class="box"><b>'+(ok?"¡Correcto!":"Incorrecto.")+'</b> '+esc(clip(ex[q.clave]||"",40))+'</div>'+(q.perla?'<details class="box small"><summary>▸ Ver más</summary><b>Perla:</b> '+esc(q.perla)+(ok||!ex[l]?'':'<br><b>Tu opción:</b> '+esc(ex[l]))+'</details>':'')+'<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button></div>');
+   pn.insertAdjacentHTML("beforeend",'<div class="box"><b>'+(ok?"¡Correcto!":"Incorrecto. Es la "+q.clave+".")+'</b> '+esc(clip(ex[q.clave]||"",ok?40:22))+'</div>'+(!ok&&ex[l]?'<div class="box small bad2"><b>Tu opción ('+l+'):</b> '+esc(clip(ex[l],15))+'</div>':'')+(q.perla?'<details class="box small"><summary>▸ Ver más</summary><b>Perla:</b> '+esc(q.perla)+(ok||!ex[l]?'':'<br><b>Tu opción:</b> '+esc(ex[l]))+'</details>':'')+'<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button></div>');
    const c=$("#cont");KEYA=()=>c.click();c.onclick=show;c.scrollIntoView&&c.scrollIntoView({block:"nearest"})})};
  show()}
 function fmtClock(s){s=Math.max(0,s|0);const h=(s/3600)|0,m=((s%3600)/60)|0,x=s%60;return (h?h+":":"")+String(m).padStart(h?2:1,"0")+":"+String(x).padStart(2,"0")}
 /* ================= Partida: exportar, importar, sincronizar entre dispositivos y descargar ================= */
-const SKEYS=["rm_global","rm_torre","rm_cur",...LEVELS.map(l=>l.story.meta.key)];
+const SKEYS=["rm_global","rm_torre","rm_cur","rm_srs",...LEVELS.map(l=>l.story.meta.key)];
 function exportar(){const d={},ts=tsGet();SKEYS.forEach(k=>{const v=localStorage.getItem(k);if(v!=null)d[k]={v,t:ts[k]||1}});return JSON.stringify({juego:"residente-miniatura",v:1,fecha:new Date().toISOString(),d})}
 /* importa solo lo que sea más nuevo que lo local (o todo, si forzar); devuelve cuántas claves cambió */
 /* ¿Qué copia tiene más avance? Se compara el avance real (no solo la hora): preguntas respondidas, zona, jefe y nivel superado.
    Así abrir el juego en otro dispositivo no hace que su copia casi vacía "gane" por ser más reciente. */
 function avance(k,v){try{const o=JSON.parse(v);if(k==="rm_global")return Object.keys(o.done||{}).length*1e6+(o.team||[]).reduce((a,c)=>a+(c.lvl||0)*100+(c.xp||0)/100,0);
   if(k==="rm_torre")return Object.keys(o.floors||{}).length*1e5+(o.best||0)*100+Object.keys((o.run&&o.run.ans)||{}).length;
-  if(k==="rm_cur")return 0;const st=o.stats||{};return (o.done?1e9:0)+(o.boss?1e8-((o.boss.hp||100)*1e5):0)+(o.zone||0)*1e6+(st.n||0)*10+Object.keys(o.flags||{}).length}catch(e){return 0}}
+  if(k==="rm_cur")return 0;if(k==="rm_srs")return Object.keys(o).length;const st=o.stats||{};return (o.done?1e9:0)+(o.boss?1e8-((o.boss.hp||100)*1e5):0)+(o.zone||0)*1e6+(st.n||0)*10+Object.keys(o.flags||{}).length}catch(e){return 0}}
 /* une la partida global: niveles superados de ambas copias y el equipo más avanzado */
 function unirGlobal(a,b){try{const A=JSON.parse(a),B=JSON.parse(b);const best=avance("rm_global",a)>=avance("rm_global",b)?A:B;best.done=Object.assign({},B.done||{},A.done||{});return JSON.stringify(best)}catch(e){return b}}
+/* une el repaso global: por pregunta gana la respuesta más reciente */
+function unirSrs(a,b){try{const A=JSON.parse(a),B=JSON.parse(b);Object.entries(B).forEach(([id,r])=>{if(id==="_m"){A._m=Object.assign({},r,A._m);return}if(!A[id]||(r.t||0)>(A[id].t||0))A[id]=r});return JSON.stringify(A)}catch(e){return b}}
 /* devuelve cuántas partes cambió; forzar = reemplazar todo con lo importado */
 function importar(txt,forzar){const o=JSON.parse(txt);if(!o||o.juego!=="residente-miniatura"||!o.d)throw new Error("formato");const ts=tsGet();let n=0;
  Object.entries(o.d).forEach(([k,x])=>{if(!SKEYS.includes(k)||!x||typeof x.v!=="string")return;const loc=localStorage.getItem(k);let nv=null;
   if(forzar||loc==null)nv=x.v;
   else if(k==="rm_global"){const u=unirGlobal(loc,x.v);if(u!==loc)nv=u}
+  else if(k==="rm_srs"){const u=unirSrs(loc,x.v);if(u!==loc)nv=u}
   else if(k==="rm_cur"){if((x.t||0)>(ts[k]||0))nv=x.v}
   else{const a=avance(k,x.v),b=avance(k,loc);if(a>b||(a===b&&(x.t||0)>(ts[k]||0)))nv=x.v}
   if(nv!=null&&nv!==loc){localStorage.setItem(k,nv);ts[k]=Date.now();n++}});localStorage.setItem("rm_ts",JSON.stringify(ts));return n}
@@ -879,7 +976,7 @@ async function syncPush(){if(!SYNC.col||SYNC.busy)return;SYNC.busy=true;try{cons
   cloud("ok","Sincronizado "+new Date().toLocaleTimeString().slice(0,5))}catch(e){cloud("off","Sin conexión: se guarda aquí y se sube al reconectar")}SYNC.busy=false}
 /* baja lo que otro dispositivo guardó después; en la pantalla de inicio se aplica solo, a media partida pregunta */
 async function syncPull(){const snap=await withT(SYNC.col.get(),10000);const ts=tsGet(),up=tsGet("rm_pushed"),nuevos={};
- snap.docs.forEach(d=>{const x=d.data()||{},k=d.id;if(!SKEYS.includes(k)||typeof x.v!=="string"||(x.t||0)<=(ts[k]||0))return;const loc=localStorage.getItem(k);if(loc!=null&&k!=="rm_cur"&&k!=="rm_global"&&avance(k,x.v)<avance(k,loc))return;if(k==="rm_global"&&loc!=null)x.v=unirGlobal(loc,x.v);nuevos[k]=x});const ks=Object.keys(nuevos);if(!ks.length)return 0;
+ snap.docs.forEach(d=>{const x=d.data()||{},k=d.id;if(!SKEYS.includes(k)||typeof x.v!=="string"||(x.t||0)<=(ts[k]||0))return;const loc=localStorage.getItem(k);if(loc!=null&&k!=="rm_cur"&&k!=="rm_global"&&k!=="rm_srs"&&avance(k,x.v)<avance(k,loc))return;if(k==="rm_global"&&loc!=null)x.v=unirGlobal(loc,x.v);if(k==="rm_srs"&&loc!=null)x.v=unirSrs(loc,x.v);nuevos[k]=x});const ks=Object.keys(nuevos);if(!ks.length)return 0;
  const aplicar=()=>{ks.forEach(k=>{localStorage.setItem(k,nuevos[k].v);ts[k]=nuevos[k].t;up[k]=nuevos[k].t});localStorage.setItem("rm_ts",JSON.stringify(ts));localStorage.setItem("rm_pushed",JSON.stringify(up));location.reload()};
  if(MODE==="title")aplicar();else modal("Hay avance más reciente guardado desde otro dispositivo ("+ks.length+" partes). ¿Cargarlo ahora? Si sigues jugando aquí sin cargarlo, este dispositivo lo reemplazará.",aplicar,"CARGAR");return ks.length}
 async function syncInit(){try{if(!window.claude||!claude.use)return;const [db,user]=await Promise.all([claude.use("db"),claude.use("user")]);if(!db||!user)return;const uid=await user.id();if(!uid)return;
@@ -896,8 +993,8 @@ function partida(back){MODE="title";clearAll();const nlv=Object.keys(G.done).len
   '<div class="who" style="margin-top:6px">JUGAR SIN CONEXIÓN</div><div class="small">Descarga el juego en un archivo y ábrelo con tu navegador. Ahí no hay nube: usa el código para traer y llevar tu avance.</div><div class="row"><button class="btn alt" id="p4">⬇ DESCARGAR JUEGO</button><button class="btn" id="bk">ATRÁS</button></div><div class="small" id="pmsg"></div>';
  const msg=m=>{$("#pmsg").textContent=m},io=$("#pio");
  if($("#p0"))$("#p0").onclick=async()=>{try{await syncPull()}catch(e){}await syncPush()};
- $("#p1").onclick=()=>{io.value=exportar();try{navigator.clipboard.writeText(io.value).then(()=>msg("Código copiado. Pégalo en PARTIDA del otro dispositivo."),()=>{io.select();msg("Selecciona y copia el texto.")})}catch(e){io.select();msg("Selecciona y copia el texto.")}};
- $("#p2").onclick=async()=>{msg(await bajar("residente-partida.json",exportar(),"application/json")?"Archivo de partida listo.":"No se guardó.")};
+ $("#p1").onclick=()=>{G.bk=Date.now();gsave();io.value=exportar();try{navigator.clipboard.writeText(io.value).then(()=>msg("Código copiado. Pégalo en PARTIDA del otro dispositivo."),()=>{io.select();msg("Selecciona y copia el texto.")})}catch(e){io.select();msg("Selecciona y copia el texto.")}};
+ $("#p2").onclick=async()=>{G.bk=Date.now();gsave();msg(await bajar("residente-partida.json",exportar(),"application/json")?"Archivo de partida listo.":"No se guardó.")};
  $("#p3").onclick=()=>{let n;try{n=importar(io.value.trim())}catch(e){return msg("El texto no es un código de partida válido. Revisa que lo pegaste completo.")}
   if(n){msg("Importado. Recargando…");return later(()=>location.reload(),600)}
   msg("Este dispositivo ya tiene igual o más avance que el código.");if(!$("#p5"))$("#p3").insertAdjacentHTML("afterend",'<button class="btn red" id="p5">REEMPLAZAR TODO CON EL CÓDIGO</button>');
