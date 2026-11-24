@@ -522,7 +522,9 @@ const TYPECOL={Innato:"#d6d6d6",Humoral:"#7fa8ff",Celular:"#9be07a",Complemento:
 function typeColor(t){return Object.assign({},TYPECOL,STORY.enemyTypes||{})[t]||"#cccccc"}
 function shapeOfAlly(id,cr){return {mac:"macro",neutra:"neutro",treg:"treg",bento:"macro",sonda:"robot",plex:"frasco",furo:"frasco"}[id]||(/Depurador|Fagocito/.test(cr.type)?"macro":/Regulador/.test(cr.type)?"treg":"capsula")}
 function drawCreature(x,y,shape,t,opt){opt=opt||{};/* sin tcol/ally/color = lámina de viñeta: sin cara */const face=opt.face!=null?!!opt.face:!!(opt.tcol||opt.ally||opt.color);const S0=CSH[shape]||CSH.molec,base=opt.color||(!S0.fix&&opt.tcol)||S0.c,nuc=opt.dark||(!S0.fix&&opt.tcol?tint(opt.tcol,-.5):S0.n),fr=(t>>4)%2,ally=!!opt.ally;
- const c=sprite("c|"+shape+"|"+base+"|"+nuc+"|"+fr+"|"+(ally?1:0)+"|"+(opt.evo?1:0)+"|"+(face?1:0),32,32,()=>{const X=16,Y=16,lt=tint(base,.35),dk=tint(base,-.25),P=(a,b,w,h,cc)=>px(X+a,Y+b,w,h,cc),C=(a,b,r,cc)=>circ(X+a,Y+b,r,cc),L=(a,b,a2,b2,cc,w)=>line(X+a,Y+b,X+a2,Y+b2,cc,w);
+ const k=opt.k||1,SZ=Math.round(32*k);
+ const c=sprite("c|"+shape+"|"+base+"|"+nuc+"|"+fr+"|"+(ally?1:0)+"|"+(opt.evo?1:0)+"|"+(face?1:0)+"|"+k,SZ,SZ,()=>{const X=SZ/2,Y=SZ/2,lt=tint(base,.35),dk=tint(base,-.25),R=v=>Math.round(v),
+   P=(a,b,w,h,cc)=>{const x0=R(X+a*k),y0=R(Y+b*k);px(x0,y0,Math.max(1,R(X+(a+w)*k)-x0),Math.max(1,R(Y+(b+h)*k)-y0),cc)},C=(a,b,r,cc)=>circ(X+a*k,Y+b*k,Math.max(1,R(r*k)),cc),L=(a,b,a2,b2,cc,w)=>line(X+a*k,Y+b*k,X+a2*k,Y+b2*k,cc,Math.max(1,R((w||1)*k)));
   const ball=(r)=>{C(0,0,r,dk);C(-1,-1,r-1,base);C(-r*.35,-r*.4,Math.max(2,r*.3|0),lt)};
   const eyes=(ey,ex)=>{if(!face)return;ex=ex||0;P(ex-5,ey,3,3,"#fff");P(ex+2,ey,3,3,"#fff");P(ex-4,ey+1,2,2,"#1b1b2a");P(ex+3,ey+1,2,2,"#1b1b2a");if(!ally){P(ex-6,ey-2,4,1,"#1b1b2a");P(ex+2,ey-2,4,1,"#1b1b2a")}else P(ex-2,ey+4,4,1,tint(nuc,-.3))};
   const cyl=(w,h,mat,edge)=>{for(let i=0;i<h;i++){const k=Math.abs(i-h/2)/(h/2);P(-w/2+1-(k>.8?0:1),-h/2+i,w-(k>.8?2:0),1,mat)}P(-w/2,-h/2,w,1,edge);P(-w/2,h/2-1,w,1,edge);C(-w/2,0,h/2-1,mat);C(w/2-1,0,h/2-1,mat)};
@@ -550,7 +552,7 @@ function drawCreature(x,y,shape,t,opt){opt=opt||{};/* sin tcol/ally/color = lám
    case"lito":{C(0,2,10,dk);C(-1,1,9,base);C(-8,-6,4,base);C(8,-7,4,base);C(10,4,3,base);C(-10,6,3,base);for(let i=0;i<9;i++)P(-7+(i*5)%14,-5+((i*7)%12),2,1,nuc);P(-4,-5,3,2,lt);eyes(-3)}break;
    /* cilindros urinarios: matriz de Tamm-Horsfall con contenido */
    case"cilHial":case"cilRojo":case"cilLeuco":case"cilFrac":case"cilGran":{cyl(26,13,base,dk);
-    if(shape==="cilRojo")for(let i=0;i<5;i++){circ(X-9+i*4,Y-1+(i%2)*3,2,"#b8302e");px(X-9+i*4,Y-1+(i%2)*3,1,1,"#f0a08c")}
+    if(shape==="cilRojo")for(let i=0;i<5;i++){C(-9+i*4,-1+(i%2)*3,2,"#b8302e");P(-9+i*4,-1+(i%2)*3,1,1,"#f0a08c")}
     if(shape==="cilLeuco")for(let i=0;i<4;i++){C(-8+i*5,1+(i%2)*2,2,nuc);P(-7+i*5,2,2,1,nuc)}
     if(shape==="cilFrac"){L(-3,-6,0,6,nuc);L(6,-6,4,6,nuc);P(-14,-4,2,8,"#201c2c")}
     if(shape==="cilGran")for(let i=0;i<14;i++)P(-10+(i*3)%20,-4+((i*5)%9),1,1,nuc);
@@ -559,16 +561,16 @@ function drawCreature(x,y,shape,t,opt){opt=opt||{};/* sin tcol/ally/color = lám
    /* acantocito (hematuria glomerular): eritrocito en anillo con 1–3 vesículas redondeadas que sobresalen («orejas de Mickey»); no espiculado */
    case"acanto":{for(const a of[-2.2,-.95,1.9]){C(Math.cos(a)*10,Math.sin(a)*10,4,"#9a2420");C(Math.cos(a)*10,Math.sin(a)*10,3,base)}C(0,0,10,"#9a2420");C(-1,-1,9,base);C(0,0,5,nuc);C(-4,-4,2,tint(base,.3));eyes(-3)}break;
    /* esquistocito: fragmento en casco, con borde recto y puntas */
-   case"esquisto":{C(0,2,11,"#9a2420");C(-1,1,10,base);cx.clearRect(X-14,Y-12,28,9);P(-11,-3,22,1,"#9a2420");P(-12,-4,3,2,base);P(9,-4,3,2,base);C(0,4,3,nuc);eyes(-1)}break;
+   case"esquisto":{C(0,2,11,"#9a2420");C(-1,1,10,base);cx.clearRect(X-14*k,Y-12*k,28*k,9*k);P(-11,-3,22,1,"#9a2420");P(-12,-4,3,2,base);P(9,-4,3,2,base);C(0,4,3,nuc);eyes(-1)}break;
    /* quiste: líquido claro con epitelio de revestimiento */
    case"quiste":{C(0,1,12,nuc);C(0,1,10,base);for(let i=0;i<12;i++){const a=i*Math.PI/6;P(Math.cos(a)*11,1+Math.sin(a)*11,1,1,"#4a2a7a")}C(-4,-4,3,"#ffffff");eyes(0)}break;
-   case"ionNa":case"ionK":case"ionCa":case"ionMg":case"ionP":case"ionCl":case"ionH":case"ionHCO3":{ball(10);const el=S0.el,w=el.length*4-1;txt3(el,X-(w>>1),Y+1,tint(nuc,-.3));const q=S0.q;C(10,-9,4,"#201c2c");C(10,-9,3,"#ffffff");P(8,-9,5,1,"#201c2c");if(q>0)P(10,-11,1,5,"#201c2c");if(q>1)txt3("2",X+4,Y-15,"#201c2c");eyes(-6)}break;
+   case"ionNa":case"ionK":case"ionCa":case"ionMg":case"ionP":case"ionCl":case"ionH":case"ionHCO3":{ball(10);const el=S0.el,w=el.length*4-1;txt3(el,R(X-(w>>1)),R(Y+k),tint(nuc,-.3));const q=S0.q;C(10,-9,4,"#201c2c");C(10,-9,3,"#ffffff");P(8,-9,5,1,"#201c2c");if(q>0)P(10,-11,1,5,"#201c2c");if(q>1)txt3("2",X+4,Y-15,"#201c2c");eyes(-6)}break;
    /* señal (hormona, citocina, anafilatoxina): sobre con sello */
    case"senal":{P(-12,-7,24,17,tint(base,-.3));P(-11,-6,22,15,base);L(-11,-6,0,3,tint(base,-.35));L(11,-6,0,3,tint(base,-.35));C(0,4,3,nuc);C(0,4,2,tint(nuc,.25));P(-14+fr,-3,2,1,lt);P(12-fr,0,2,1,lt);eyes(-2)}break;
    /* toxina: gota */
    case"gota":{C(0,4,9,dk);C(-1,3,8,base);for(let k=0;k<9;k++)P(-k/1.6,-12+k*1.4|0,(k/0.8)|0,2,base);P(-4,-1,2,4,lt);P(4,8,2,2,nuc);eyes(1)}break;
    /* fármaco: tableta con ranura */
-   case"pastilla":{C(0,1,11,tint(base,-.3));C(-1,0,10,base);ring2(X-1,Y,10,2,nuc);P(-9,0,17,1,tint(base,-.35));P(-6,-6,4,2,"#fff");eyes(-6)}break;
+   case"pastilla":{C(0,1,11,tint(base,-.3));C(-1,0,10,base);ring2(X-k,Y,10*k,2*k,nuc);P(-9,0,17,1,tint(base,-.35));P(-6,-6,4,2,"#fff");eyes(-6)}break;
    /* molécula pequeña: anillo de átomos y enlaces */
    case"molecula":{for(let i=0;i<6;i++){const a=i*Math.PI/3,b=(i+1)*Math.PI/3;L(Math.cos(a)*9,Math.sin(a)*9,Math.cos(b)*9,Math.sin(b)*9,dk,2)}for(let i=0;i<6;i++){const a=i*Math.PI/3;C(Math.cos(a)*9,Math.sin(a)*9,3,i%2?base:nuc)}C(0,0,5,lt);eyes(-3)}break;
    /* proteína: cadena plegada de aminoácidos */
@@ -593,7 +595,7 @@ function drawCreature(x,y,shape,t,opt){opt=opt||{};/* sin tcol/ally/color = lám
    /* podocito: cuerpo con pedicelos interdigitados sobre la membrana basal */
    case"podocito":{P(-14,10,28,2,"#f2e6a0");for(let i=0;i<7;i++)P(-13+i*4,6,2,4,i%2?dk:base);P(-9,3,18,4,base);C(0,-3,9,dk);C(-1,-4,8,base);C(1,-1,4,nuc);eyes(-8)}break;
    /* semiluna: capas de células en el espacio de Bowman */
-   case"semiluna":{C(0,0,13,dk);C(0,0,12,base);circ(X+6,Y-1,9,"#f8eaf0");ring2(X+6,Y-1,9,1,"#c06a8a");for(let i=0;i<5;i++){const a=1.6+i*.55;nucleus(X+Math.cos(a)*9,Y+Math.sin(a)*9,1)}eyes(-5,-5)}break;
+   case"semiluna":{C(0,0,13,dk);C(0,0,12,base);C(6,-1,9,"#f8eaf0");ring2(X+6*k,Y-k,9*k,k,"#c06a8a");for(let i=0;i<5;i++){const a=1.6+i*.55;nucleus(X+Math.cos(a)*9*k,Y+Math.sin(a)*9*k,R(k))}eyes(-5,-5)}break;
    /* fibrosis: maraña de colágeno (azul en tricrómico) con fibroblasto fusiforme */
    case"fibrosis":{for(let i=0;i<8;i++){const y0=-10+i*3;L(-13,y0+((i*5)%4),13,y0-((i*3)%4),i%2?base:dk,2)}P(-6,2,12,3,"#e8a0b8");P(-3,3,6,1,"#4a2a7a");eyes(-8)}break;
    /* vaso en corte: pared de músculo liso, íntima engrosada, luz estrecha */
@@ -601,8 +603,18 @@ function drawCreature(x,y,shape,t,opt){opt=opt||{};/* sin tcol/ally/color = lám
    case"capsula":{const top=opt.color?base:"#f8f8f8",bot=nuc;C(0,-5,8,tint(top,-.2));C(0,5,8,tint(bot,-.25));P(-8,-5,17,10,tint(top,-.2));P(-8,0,17,6,tint(bot,-.25));C(-1,-6,7,top);P(-8,-6,15,6,top);C(-1,5,7,bot);P(-8,0,15,5,bot);P(-8,0,17,1,"#22202c");P(-5,-10,3,5,"#fff");eyes(-5);if(opt.evo){P(-6,-15,2,3,"#f2c94c");P(-1,-16,2,4,"#f2c94c");P(4,-15,2,3,"#f2c94c")}}break;
    case"frasco":{P(-3,-13,7,4,"#c8ccd8");P(-4,-14,9,2,"#8a8fa0");C(0,2,10,tint(base,-.3));C(-1,1,9,"#e8f6ff");P(-9,2,18,8,base);C(-1,4,8,base);P(-9,2,18,1,lt);P(-6,-5,2,6,"#fff");eyes(0)}break;
    case"robot":{P(-9,-7,19,15,tint(base,-.3));P(-9,-8,18,15,base);P(-9,-8,18,2,lt);P(-6,-4,12,7,"#1b2a3a");P(-5,-3,4,4,nuc);P(1,-3,4,4,nuc);P(-4,-2,1,1,"#fff");P(2,-2,1,1,"#fff");P(-1,-13,2,5,"#8a8fa0");C(0,-13,2,"#e0555a");P(-7,7,4,4,"#5a5f70");P(3,7,4,4,"#5a5f70")}break;
-   default:ball(9);C(-5,-4,4,lt);C(6,4,5,dk);C(5,3,4,base);C(-6,6,3,nuc);C(2,-7,3,nuc);C(1,1,3,tint(nuc,-.2));eyes(-3)}});
- stamp(c,x-16,y-16)}
+   default:ball(9);C(-5,-4,4,lt);C(6,4,5,dk);C(5,3,4,base);C(-6,6,3,nuc);C(2,-7,3,nuc);C(1,1,3,tint(nuc,-.2));eyes(-3)}
+  if(k>1)autoShade(SZ,SZ)});
+ if(opt.ret)return c;stamp(c,x-SZ/2,y-SZ/2)}
+/* volumen automático para sprites grandes: luz superior (labio claro), sombra inferior tramada y lado derecho oscuro (3–4 tonos) */
+function autoShade(w,h,str){str=str||1;try{const im=cx.getImageData(0,0,w,h),d=im.data,A=(x,y)=>x>=0&&y>=0&&x<w&&y<h&&d[(y*w+x)*4+3]>40;let y0=h,y1=0;
+ for(let y=0;y<h;y++)for(let x=0;x<w;x++)if(A(x,y)){if(y<y0)y0=y;if(y>y1)y1=y}const o=new Uint8ClampedArray(d),mid=y0+(y1-y0)*.55;
+ for(let y=0;y<h;y++)for(let x=0;x<w;x++){if(!A(x,y))continue;const i=(y*w+x)*4;let q=0;
+  if(!A(x,y-1))q=.32;else if(!A(x,y-2))q=.15;
+  if(!A(x,y+1))q=-.32;else if(!A(x,y+2))q=-.2;else if(!A(x,y+3)&&((x+y)&1))q=-.12;
+  if(q>=0&&!A(x+1,y))q=-.18;else if(q>=0&&!A(x-1,y))q=Math.max(q,.14);
+  if(q===0&&y>mid&&((x+y)&1))q=-.09;q*=str;if(q)for(let c=0;c<3;c++){const v=d[i+c];o[i+c]=q>0?v+(255-v)*q:v*(1+q)}}
+ d.set(o);cx.putImageData(im,0,0)}catch(e){}}
 function creatureSprite(x,y,r,type,fill,dark,eye,variant,t){drawCreature(x,y,shapeOfFoe({type}),t||0,{tcol:typeColor(type)})}
 
 /* ---------- casillas del mapa (vista cenital): suelo con borde, hierba alta y objetos con contorno ---------- */
@@ -663,24 +675,97 @@ const TILESET={
  injerto:{o:[["tubX",["#e07a90","#fff0c0"]],["linfo",["#a8e0c8"]],["capilar",["#d84a40"]],["tubX",["#d06a80","#fff4c8"]]]}};
 /* hash sin patrón diagonal */
 function hsh(x,y){let h=Math.imul(x|0,374761393)^Math.imul(y|0,668265263);h=Math.imul(h^(h>>>13),1274126177);return (h^(h>>>16))>>>0}
-/* muro: textura lisa (40–50 %) y objetos en grupos de 2×2 casillas */
-function wallTile(sx,sy,x,y,th){px(sx,sy,16,16,th.w);const h=hsh(x,y),d=tint(th.w,-.14),l=tint(th.w,.12);
- px(sx+(h%11)+2,sy+((h>>>4)%11)+2,2,1,d);px(sx+((h>>>8)%12)+1,sy+((h>>>12)%12)+1,1,1,l);if(h%3===0)px(sx+((h>>>16)%10)+3,sy+((h>>>20)%10)+3,3,1,d)}
-function deco(tl,sx,sy,x,y,th){const T=TILESET[tl]||TILESET.hospital;wallTile(sx,sy,x,y,th);
- const grp=hsh(x>>1,y>>1)%100,h=hsh(x,y);if(grp<42||h%100<22)return;
- const v=(hsh(x>>1,y>>1)>>>8)%T.o.length,v2=(h>>>9)%4===0?(v+1)%T.o.length:v,o=T.o[v2],anim=o[0]==="monitor"?(frame>>3)%6:0;
- stamp(sprite("t|"+tl+"|"+v2+"|"+anim+"|"+(o[1]?"":th.w),16,16,()=>{const P=(a,b,w,h,c)=>px(a,b,w,h,c),C=(a,b,r,c)=>circ(a,b,r,c);OBJ[o[0]](P,C,o[1]||[th.w],anim)},o[0]==="pared"),sx,sy)}
+/* ---------- fondo del mapa: se pinta UNA vez por zona en un lienzo del tamaño del mapa (MAP._bg) y cada cuadro solo se copia la parte visible ----------
+   Textura por píxel (3–4 tonos con tramado ordenado Bayer 4×4) según la estructura; luego autotile de 4 vecinos entre muro y camino,
+   sombra del muro sobre el camino, objetos con sombra de contacto y 1–2 piezas grandes (32×32) de referencia por tramo. */
+const BAY=[0,8,2,10,12,4,14,6,3,11,1,9,15,7,13,5];
+function vn(x,y,s){const X=Math.floor(x),Y=Math.floor(y),fx=x-X,fy=y-Y,u=fx*fx*(3-2*fx),v=fy*fy*(3-2*fy),h=(a,b)=>(hsh(a+s*131,b+s*71)&1023)/1023;
+ return h(X,Y)*(1-u)*(1-v)+h(X+1,Y)*u*(1-v)+h(X,Y+1)*(1-u)*v+h(X+1,Y+1)*u*v}
+/* patrón del muro y del camino por estructura (los escenarios genéricos usan «noise» y «earth») */
+const WPAT={hospital:"brick",ruinas:"brick",tubulo:"cells",proximal:"cells",colector:"cells",injerto:"cells",peritoneo:"cells",playa:"cells",henle:"stripes",dializador:"stripes",intersticio:"fibers",rio:"vessel",delta:"lobes",capsula:"lobes",valle:"lobes"};
+const FPAT={hospital:"tiles",tubulo:"lumen",proximal:"lumen",colector:"lumen",henle:"lumen",injerto:"lumen",rio:"plasma",peritoneo:"meso",dializador:"pores",intersticio:"fibril"};
+function rgb(c){const n=parseInt(tint(c,0).slice(1),16);return[n>>16,(n>>8)&255,n&255]}
+/* tono del muro en el píxel (x,y) del mundo: 0 oscuro · 1 base · 2 claro · 3 profundo (bordes, núcleos) */
+function wallTone(p,x,y,S){const t=BAY[(x&3)+((y&3)<<2)]/16-.5;let v;
+ switch(p){
+  case"cells":case"lobes":{const G=p==="lobes"?10:8,gx=Math.floor(x/G),gy=Math.floor(y/G);let d1=99,d2=99,sx=0,sy=0;
+   for(let j=-1;j<=1;j++)for(let i=-1;i<=1;i++){const h=S(gx+i,gy+j),qx=(gx+i)*G+2+(h%(G-3)),qy=(gy+j)*G+2+((h>>>8)%(G-3)),d=Math.hypot(x-qx,y-qy);if(d<d1){d2=d1;d1=d;sx=qx;sy=qy}else if(d<d2)d2=d}
+   if(d2-d1<1.15)return 0;if(p==="cells"&&Math.hypot(x-sx,y-sy-1)<1.6)return 3;v=.55-(y-sy)/9-(x-sx)/18+vn(x/3,y/3,4)*.2;if(p==="lobes"&&d1>G*.55)v-=.3;break}
+  case"stripes":{const u=((x+Math.round(Math.sin(y/9)*1.5))%7+7)%7;if(u===0)return 3;v=1-u/6.5+vn(x/4,y/4,5)*.15;break}
+  case"fibers":{const s=Math.sin(y*1.05+2.4*Math.sin(x*.11+y*.06));if(s>.9)return 0;v=.5+.45*s*-.6+vn(x/5,y/5,6)*.3;break}
+  case"brick":{const r=Math.floor(y/5),yy=y%5,jx=((x+(r%2)*6)%12+12)%12;if(yy===4||jx===0)return 0;if(yy===0)return 2;v=.45+vn(x/3,y/2,7)*.4;break}
+  case"vessel":{const gx=Math.floor(x/12),gy=Math.floor(y/5),h=S(gx,gy),qx=gx*12+3+(h%6),qy=gy*5+2;if(h%3!==0&&((x-qx)*(x-qx))/12+(y-qy)*(y-qy)<1)return 3;v=.5+Math.sin(y*.7+Math.sin(x*.05)*2)*.25+vn(x/6,y/6,8)*.25;break}
+  default:v=.65*vn(x/7,y/7,1)+.35*vn(x/3,y/3,2)}
+ v+=t*.32;return v<.3?0:v>.74?2:1}
+/* tono del camino: 0 más oscuro · 1 base · 2 claro (sutil: el camino debe leerse de un vistazo) */
+function floorTone(p,x,y){const t=BAY[(x&3)+((y&3)<<2)]/16-.5;let v;
+ switch(p){
+  case"tiles":if((x&7)===0||(y&7)===0)return 0;if((y&7)===1&&(x&7)>1)return 2;return hsh(x,y)%61===0?0:1;
+  case"lumen":v=vn(x/13,y/3.2,3)*.8+vn(x/4,y/2,9)*.2;break;
+  case"plasma":v=vn(x/6,y/5,3);if(hsh(x>>2,y>>2)%53===0&&(x&3)<2&&(y&3)<2)return 0;break;
+  case"meso":{const G=10,gx=Math.floor(x/G),gy=Math.floor(y/G);let d1=99,d2=99;for(let j=-1;j<=1;j++)for(let i=-1;i<=1;i++){const h=hsh(gx+i+77,gy+j),qx=(gx+i)*G+2+(h%(G-3)),qy=(gy+j)*G+2+((h>>>8)%(G-3)),d=Math.hypot(x-qx,y-qy);if(d<d1){d2=d1;d1=d}else if(d<d2)d2=d}
+   if(d2-d1<1)return 0;v=.6-d1/14;break}
+  case"pores":if((x%4)===1&&(y%4)===1)return 0;v=vn(x/8,y/8,3);break;
+  case"fibril":{const s=Math.sin(y*.55+2*Math.sin(x*.07));if(s>.96)return 0;v=vn(x/7,y/7,3);break}
+  default:{const h=hsh(x>>2,y>>2);if(h%23===0){const ox=(h>>>5)&3,oy=(h>>>7)&3;if(x%4===ox&&y%4===oy)return 2;if(x%4===ox&&y%4===((oy+1)&3))return 0}v=vn(x/8,y/8,3)}}
+ v+=t*.35;return v<.24?0:v>.8?2:1}
+/* objeto pequeño escalado (variación de tamaño sin reescalar píxeles) */
+function objDraw(o,s,anim,th){const k=o[1]||[th.w],o0=(16-16*s)/2,oy=16-16*s-(s<1?1:0);const P=(a,b,w,h,c)=>px(o0+a*s,oy+b*s,Math.max(1,w*s),Math.max(1,h*s),c),C=(a,b,r,c)=>circ(o0+a*s,oy+b*s,Math.max(1,Math.round(r*s)),c);OBJ[o[0]](P,C,k,anim)}
+/* piezas de referencia grandes (32×32) por estructura: glomérulo, arteriola, túbulo en corte, máquina de hemodiálisis */
+const BIG={
+ glom:()=>{glom(16,15,14,{});px(2,26,4,2,"#c06a8a");px(26,4,4,2,"#c06a8a")},
+ arteria:()=>{circ(16,16,14,"#e8c8b8");circ(16,16,13,"#c86a7a");for(let i=0;i<16;i++){const a=i*Math.PI/8;px(16+Math.cos(a)*10.5-1,16+Math.sin(a)*10.5,2,1,"#4a2a7a")}circ(16,16,8,"#f4dce0");ring2(16,16,8,1,"#f8f0c8");circ(16,16,6,"#f6e4e8");rbc(14,15,3);rbc(19,18,2)},
+ tub:(o)=>{tubX(16,16,14,o||{});for(let i=0;i<3;i++)circ(9+i*7,29,1,"#d84a40")},
+ dial:()=>{px(5,1,22,28,"#c8ccd8");px(5,1,22,2,"#eef0f6");px(8,4,16,9,"#0b2a1a");for(let x=0;x<16;x++)px(8+x,9-Math.round(Math.abs(Math.sin(x*.8))*3),1,1,"#5cff8a");px(8,16,6,10,"#e8f6ff");px(9,17,4,8,"#d84a40");px(17,16,6,10,"#e8f6ff");px(18,19,4,6,"#5ab4e8");px(13,14,6,2,"#5a5f70");px(4,28,24,3,"#5a5f70");px(6,30,3,2,"#2a2430");px(23,30,3,2,"#2a2430")},
+ cama:()=>{px(1,8,30,18,"#8a94a8");px(2,9,28,15,"#f4f6fa");px(2,9,9,15,"#ffffff");px(11,12,19,12,"#6fb4d8");px(11,12,19,2,"#4f94b8");px(3,11,6,5,"#e8ecf2");px(1,26,3,5,"#5a6070");px(28,26,3,5,"#5a6070");px(24,1,2,8,"#8a8fa0");px(22,1,8,4,"#e8f6ff");px(24,2,4,2,"#f2e6a0")}};
+const BIGSET={hospital:["cama","dial"],dializador:["dial","tub"],tubulo:["tub","arteria"],proximal:["tub","glom"],henle:["tub","arteria"],colector:["tub","arteria"],intersticio:["arteria","tub"],peritoneo:["arteria","arteria"],injerto:["glom","arteria"],rio:["arteria","arteria"]};
+const BIGTUB={tubulo:{},proximal:{brush:1,cell:"#e48aa8"},henle:{flat:1,cell:"#9ac0e0",lum:"#eef8ff"},colector:{cell:"#bfe4f6",lum:"#eef8ff"},intersticio:{},dializador:{cell:"#8ae0e8",lum:"#f0fcff",flat:1},injerto:{}};
+/* autotile del muro: borde según los 4 vecinos (cara frontal con labio claro si abajo hay camino, esquinas redondeadas) */
+function wallTile(sx,sy,x,y,th){const op=(dx,dy)=>!isWall(x+dx,y+dy),N=op(0,-1),S=op(0,1),W=op(-1,0),E=op(1,0),w=th.w,rim=tint(w,.24),face=tint(w,-.3),deep=tint(w,-.44);
+ const fc=(dx,dy)=>MAP.g[y+dy]&&MAP.g[y+dy][x+dx]===","?th.g:th.f;
+ if(S){px(sx,sy+11,16,1,rim);px(sx,sy+12,16,4,face);for(let i=0;i<16;i++){const h=hsh(x*16+i,y);if(h%4===0)px(sx+i,sy+12+(h>>>4)%2,1,2,deep);if((i+y)%2===0)px(sx+i,sy+15,1,1,deep)}}
+ if(N){px(sx,sy,16,1,rim);for(let i=0;i<16;i+=2)px(sx+i+(y&1),sy+1,1,1,tint(w,.12))}
+ if(W)px(sx,sy+(N?1:0),1,16-(N?1:0)-(S?4:0),tint(w,.14));if(E)px(sx+15,sy,1,16-(S?4:0),tint(w,-.22));if(E&&S)px(sx+15,sy+12,1,4,deep);
+ if(N&&W){px(sx,sy,2,1,fc(-1,-1));px(sx,sy+1,1,1,fc(-1,-1))}if(N&&E){px(sx+14,sy,2,1,fc(1,-1));px(sx+15,sy+1,1,1,fc(1,-1))}
+ if(S&&W){px(sx,sy+15,2,1,fc(-1,1));px(sx,sy+14,1,1,fc(-1,1))}if(S&&E){px(sx+14,sy+15,2,1,fc(1,1));px(sx+15,sy+14,1,1,fc(1,1))}
+ /* esquinas internas */
+ if(!N&&!W&&op(-1,-1))px(sx,sy,1,1,rim);if(!N&&!E&&op(1,-1))px(sx+15,sy,1,1,rim);if(!S&&!W&&op(-1,1)){px(sx,sy+12,1,4,face)}if(!S&&!E&&op(1,1)){px(sx+15,sy+12,1,4,deep)}}
+/* objeto de la casilla de muro: sombra de contacto, tamaño variable y pequeño desplazamiento (ya no bloques idénticos) */
+function deco(tl,sx,sy,x,y,th,mon){const T=TILESET[tl]||TILESET.hospital,grp=hsh(x>>1,y>>1)%100,h=hsh(x,y);if(grp<40||h%100<24)return;
+ const face=!isWall(x,y+1);if(face&&h%3)return;
+ const v=(hsh(x>>1,y>>1)>>>8)%T.o.length,v2=(h>>>9)%3===0?(v+1+((h>>>11)&1))%T.o.length:v,o=T.o[v2],s=(h>>>13)%3===0?.68:(h>>>15)%4===0?.84:1,jx=((h>>>17)%5)-2,jy=(face?-4:0)+((h>>>20)%3)-1;
+ cx.globalAlpha=.24;oval(sx+8+jx,sy+14+jy-(s<1?1:0),Math.round(6*s),2,"#000");cx.globalAlpha=1;
+ if(o[0]==="monitor"){mon&&mon.push([sx+jx,sy+jy,s]);return}
+ stamp(sprite("t|"+tl+"|"+v2+"|"+s+"|"+(o[1]?"":th.w),16,16,()=>objDraw(o,s,0,th),o[0]==="pared"),sx+jx,sy+jy)}
 function isWall(x,y){if(!MAP||y<0||x<0||y>=MAP.H||x>=MAP.W)return true;return MAP.g[y][x]==="#"&&!MAP.objs.some(o=>o.x===x&&o.y===y&&(o.k==="gate"||o.k==="mini"||o.k==="trainer"))}
-function floorTile(tl,sx,sy,x,y,th){px(sx,sy,16,16,th.f);const h=hsh(x,y),v=h%9,d=tint(th.f,-.08),l=tint(th.f,.25);
- if(tl==="hospital"){px(sx,sy,16,1,d);px(sx,sy,1,16,d)}else{if(v<3)px(sx+3+v*3,sy+4+v*2,2,1,d);if(v===4)px(sx+10,sy+11,1,1,d);if(v===6)px(sx+5,sy+12,2,1,l);if(v===1)px(sx+12,sy+3,1,1,l)}
- /* borde del camino donde toca un muro: da relieve y separa el camino del muro */
- const e=tint(th.w,-.2);if(isWall(x,y-1)){px(sx,sy,16,2,tint(th.f,-.22));px(sx,sy,16,1,e)}if(isWall(x,y+1)){px(sx,sy+15,16,1,l);px(sx,sy+14,16,1,tint(th.f,.12))}if(isWall(x-1,y))px(sx,sy,1,16,e);if(isWall(x+1,y))px(sx+15,sy,1,16,e)}
+/* borde del camino: sombra de 2 px bajo el muro, 1 px a su lado y ribete en cepillo del proximal */
+function floorTile(tl,sx,sy,x,y,th){const f=th.f,sh=tint(f,-.2),sh2=tint(f,-.1);
+ if(isWall(x,y-1)){px(sx,sy,16,2,sh);for(let i=(x+y)&1;i<16;i+=2)px(sx+i,sy+2,1,1,sh2);if(tl==="proximal")for(let i=0;i<16;i+=2)px(sx+i,sy+2,1,2,mix(f,"#e48aa8",.45))}
+ if(isWall(x-1,y))px(sx,sy,1,16,sh2);if(isWall(x+1,y))px(sx+15,sy,1,16,tint(f,.12));
+ if(tl==="proximal"&&isWall(x,y+1))for(let i=1;i<16;i+=2)px(sx+i,sy+13,1,3,mix(f,"#e48aa8",.4))}
+/* construye el fondo estático de la zona */
+function worldBG(){if(MAP._bg)return MAP._bg;const th=MAP.theme,tl=MAP.tiles,W=MAP.W*16,H=MAP.H*16;const c=document.createElement("canvas");c.width=W;c.height=H;const g=c.getContext("2d");
+ const wp=WPAT[tl]||"noise",fp=FPAT[tl]||"earth",WC=[tint(th.w,-.15),th.w,tint(th.w,.12),tint(th.w,-.34)].map(rgb),FC=[tint(th.f,-.07),th.f,tint(th.f,.35)].map(rgb),GC=rgb(th.g);
+ const seeds=new Map(),S=(a,b)=>{const k=a*4099+b;let v=seeds.get(k);if(v===undefined){v=hsh(a+911,b+313);seeds.set(k,v)}return v};
+ const kind=[];for(let y=0;y<MAP.H;y++){kind.push([]);for(let x=0;x<MAP.W;x++){const t=MAP.g[y][x];kind[y].push(t==="#"?(isWall(x,y)?0:1):t===","?2:1)}}
+ try{const im=g.createImageData(W,H),d=im.data;for(let y=0;y<H;y++){const ky=kind[y>>4];for(let x=0;x<W;x++){const k=ky[x>>4],i=(y*W+x)*4;const c3=k===0?WC[wallTone(wp,x,y,S)]:k===2?GC:FC[floorTone(fp,x,y)];d[i]=c3[0];d[i+1]=c3[1];d[i+2]=c3[2];d[i+3]=255}}g.putImageData(im,0,0)}catch(e){g.fillStyle=th.w;g.fillRect(0,0,W,H)}
+ const old=cx;cx=g;const mon=[];try{
+  for(let y=0;y<MAP.H;y++)for(let x=0;x<MAP.W;x++){const sx=x*16,sy=y*16;if(kind[y][x]===0)wallTile(sx,sy,x,y,th);else if(kind[y][x]===1){floorTile(tl,sx,sy,x,y,th);if(MAP.g[y][x]==="E")stamp(exitSprite(),sx,sy)}}
+  /* piezas grandes: bloques de 2×2 casillas de muro, separadas al menos 12 casillas */
+  const used=new Set(),bs=BIGSET[tl]||["glom","glom"];let last=-99,n=0;
+  for(let gx=1;gx*2+1<MAP.W-1;gx++)for(let gy=0;gy*2+1<MAP.H;gy++){const x=gx*2,y=gy*2;if(x-last<12)continue;let ok=true;for(let j=0;j<2;j++)for(let i=0;i<2;i++)if(kind[y+j][x+i]!==0)ok=false;if(!ok||hsh(gx,gy+99)%3)continue;
+   last=x;const b=bs[n++%bs.length];g.globalAlpha=.28;oval(x*16+16,y*16+29,13,3,"#000");g.globalAlpha=1;stamp(sprite("big|"+tl+"|"+b,32,32,()=>BIG[b](BIGTUB[tl])),x*16,y*16);for(let j=0;j<2;j++)for(let i=0;i<2;i++)used.add((x+i)+","+(y+j))}
+  for(let y=0;y<MAP.H;y++)for(let x=0;x<MAP.W;x++)if(kind[y][x]===0&&!used.has(x+","+y))deco(tl,x*16,y*16,x,y,th,mon)}finally{cx=old}
+ MAP._mon=mon;return MAP._bg=c}
 function grassTile(tl,sx,sy,x,y,th){const g=th.g,dk=tint(g,-.32),lt=tint(g,.3),k=(frame>>4)%2;
  /* hospital: moqueta de losetas 8×8 con motas y alguna mancha (no pasto de campo) */
  if(tl==="hospital"){const h=hsh(x,y),c2=tint(g,-.08);px(sx,sy,16,16,g);px(sx,sy,8,8,c2);px(sx+8,sy+8,8,8,c2);
-  for(let i=0;i<5;i++)px(sx+((h>>>(i*3))%15),sy+((h>>>(i*3+11))%15),1,1,i%2?tint(g,.2):tint(g,-.22));if(h%7===0)oval(sx+4+(h>>>5)%8,sy+4+(h>>>9)%8,3,2,tint(g,-.15));px(sx,sy+15,16,1,tint(g,-.18));return}px(sx,sy,16,16,g);px(sx,sy+15,16,1,tint(g,-.15));
- for(let i=0;i<4;i++){const bx=sx+1+i*4,by=sy+2+((i+x)%2)*7,s=(i+k)%2;px(bx+1,by+2,2,4,dk);px(bx+s,by,1,3,dk);px(bx+3-s,by+1,1,2,dk);px(bx+1,by+1,1,3,lt)}
- for(let i=0;i<3;i++){const bx=sx+3+i*4,by=sy+9-((i+x)%2)*7+7;if(by<sy+13){px(bx,by,2,3,dk);px(bx,by,1,2,lt)}}}
+  for(let i=0;i<5;i++)px(sx+((h>>>(i*3))%15),sy+((h>>>(i*3+11))%15),1,1,i%2?tint(g,.2):tint(g,-.22));if(h%7===0)oval(sx+4+(h>>>5)%8,sy+4+(h>>>9)%8,3,2,tint(g,-.15));px(sx,sy+15,16,1,tint(g,-.18))}
+ else{px(sx,sy,16,16,g);px(sx,sy+15,16,1,tint(g,-.15));
+  for(let i=0;i<4;i++){const bx=sx+1+i*4,by=sy+2+((i+x)%2)*7,s=(i+k)%2;px(bx+1,by+2,2,4,dk);px(bx+s,by,1,3,dk);px(bx+3-s,by+1,1,2,dk);px(bx+1,by+1,1,3,lt)}
+  for(let i=0;i<3;i++){const bx=sx+3+i*4,by=sy+9-((i+x)%2)*7+7;if(by<sy+13){px(bx,by,2,3,dk);px(bx,by,1,2,lt)}}}
+ /* sombra del muro también sobre la hierba */
+ if(isWall(x,y-1)){cx.globalAlpha=.25;px(sx,sy,16,2,"#000");cx.globalAlpha=1}}
 /* objetos del mapa con contorno */
 function gateSprite(){return sprite("gate",16,16,()=>{px(1,2,14,13,"#7a5a2a");px(2,3,12,11,"#a87838");px(2,3,12,1,"#c89848");for(let k=4;k<13;k+=4)px(k,3,1,11,"#6a4a20");px(6,7,4,4,"#f2c531");px(7,8,2,2,"#7a5a10");px(7,10,2,2,"#3a2a10")})}
 function signSprite(){return sprite("sign",16,16,()=>{px(7,9,2,6,"#7a5a2a");px(2,2,12,8,"#a87838");px(3,3,10,6,"#f0deb0");px(4,5,8,1,"#7a5a2a");px(4,7,6,1,"#7a5a2a")})}
@@ -1318,12 +1403,11 @@ let MODE="title",mv={on:false,fx:0,fy:0,t:0},held=null,stepsGrass=0,since=0,fram
 const FLOWT={tubulo:["#e0b83a",.35],proximal:["#e0a820",.3],henle:["#7aa8d8",.3],colector:["#5ab4e8",.35],rio:["#f0a08c",.5,1],peritoneo:["#e8957a",.2],dializador:["#e86a6a",.4],injerto:["#6ac0a0",.25]};
 function drawWorld(){const th=MAP.theme,z=STORY.zones[MAP.zi],tl=MAP.tiles;let rx=S.x,ry=S.y;if(mv.on){const k=mv.t/8;rx=mv.fx+(S.x-mv.fx)*k;ry=mv.fy+(S.y-mv.fy)*k}
  const camX=Math.max(0,Math.min(MAP.W*TILE-160,rx*TILE-72)),camY=Math.max(0,Math.min(MAP.H*TILE-96,ry*TILE-40));
- cx.fillStyle=th.w;cx.fillRect(0,0,160,96);const x0=Math.floor(camX/TILE),y0=Math.floor(camY/TILE);
- for(let y=y0;y<=y0+7&&y<MAP.H;y++)for(let x=x0;x<=x0+10&&x<MAP.W;x++){const t=MAP.g[y][x],sx=x*TILE-camX,sy=y*TILE-camY;
-  if(t===",")grassTile(tl,sx,sy,x,y,th);
-  else if(t==="#"){const o=MAP.objs.find(o=>o.x===x&&o.y===y&&(o.k==="gate"||o.k==="mini"||o.k==="trainer"));if(o)floorTile(tl,sx,sy,x,y,th);else deco(tl,sx,sy,x,y,th)}
-  else if(t==="E"){floorTile(tl,sx,sy,x,y,th);stamp(exitSprite(),sx,sy)}
-  else floorTile(tl,sx,sy,x,y,th)}
+ cx.fillStyle=th.w;cx.fillRect(0,0,160,96);const x0=Math.floor(camX/TILE),y0=Math.floor(camY/TILE),cX=Math.round(camX),cY=Math.round(camY);
+ /* fondo estático en caché (textura, autotile, sombras, objetos y piezas grandes); encima solo lo animado */
+ cx.drawImage(worldBG(),cX,cY,160,96,0,0,160,96);
+ for(let y=y0;y<=y0+7&&y<MAP.H;y++)for(let x=x0;x<=x0+10&&x<MAP.W;x++)if(MAP.g[y][x]===",")grassTile(tl,x*TILE-cX,y*TILE-cY,x,y,th);
+ const ma=(frame>>3)%6;for(const [mx,my,s] of MAP._mon){const sx=mx-cX,sy=my-cY;if(sx>-16&&sx<160&&sy>-16&&sy<96)stamp(sprite("t|mon|"+ma+"|"+s,16,16,()=>objDraw(["monitor"],s,ma,th)),sx,sy)}
  /* ambiente: partículas que fluyen hacia la salida en túbulos y vasos (pocas, lentas) */
  const FL=FLOWT[tl];if(FL){for(let i=0;i<16;i++){const h=hsh(i,MAP.zi+7),wx=Math.floor(camX/192)*192+(((h%192)+frame*FL[1]*(1+(i%3)*.3))%192)+(i&1?192:0)-96,wy=camY+((h>>>10)%96)+Math.sin((frame+i*40)/30)*2,gx=wx>>4,gy=wy>>4;
   if(MAP.g[gy]&&MAP.g[gy][gx]&&MAP.g[gy][gx]!=="#"){const sx=wx-camX,sy=wy-camY;if(sx>=0&&sx<160&&sy>=0&&sy<96){if(FL[2])rbc(sx,sy,1);else px(sx,sy,1+(i%2),1,FL[0])}}}}
