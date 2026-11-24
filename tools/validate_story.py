@@ -74,6 +74,14 @@ print("zonas", nz, [z["id"] for z in d["zones"]])
 print("entrenadores", nt, "| residentes:", sum(1 for z in d["zones"] for t in z["trainers"] if not t["specialty"].startswith("Nefrotóxico")),
       "| nefrotóxicos:", sum(1 for z in d["zones"] for t in z["trainers"] if t["specialty"].startswith("Nefrotóxico")))
 print("npc", nn, "| salvajes", nw, "| minijuegos", nm, "| cuadros", frames)
+# cast[k].look: rasgos del personaje en el mapa (los lee personSpr); claves conocidas
+LOOKK = {"hair", "coat", "scrub", "robe", "apron", "shirt", "pony", "glasses", "beard", "cap", "nurse", "hardhat", "hat", "acc", "sc", "skin"}
+for k, c in d["cast"].items():
+    lk = c.get("look")
+    if lk is None: continue
+    if not isinstance(lk, dict): err.append((k, "look debe ser objeto")); continue
+    for x in lk:
+        if x not in LOOKK: err.append((k, "look." + x))
 print("jefe fases", len(d["boss"]["phases"]), "| criaturas", len(d["creatures"]), "| escudos", len(d["shields"]), "| nefrodex", len(d["nefrodex"]), "| cast", len(d["cast"]))
 print("max len", max(len(l[1]) for z in d["zones"] for n in z["npcs"] for l in n["lines"]))
 print("AVISOS (regla 4):", warn if warn else "ninguno")

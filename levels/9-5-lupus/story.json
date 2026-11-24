@@ -31,12 +31,22 @@
   "sofia": {
    "name": "Sofía R.",
    "role": "Paciente, 24 años",
-   "color": "#F4A6C0"
+   "color": "#F4A6C0",
+   "look": {
+    "hair": "#5a2a1e",
+    "pony": 1,
+    "shirt": 1
+   }
   },
   "lupita": {
    "name": "Enfermera Lupita",
    "role": "NPC de urgencias",
-   "color": "#FFFFFF"
+   "color": "#FFFFFF",
+   "look": {
+    "hair": "#3a2a1e",
+    "scrub": "#f4f4f8",
+    "nurse": 1
+   }
   },
   "uro": {
    "name": "Dr. Bruno Salas",
@@ -46,12 +56,24 @@
   "derma": {
    "name": "Dra. Pía Lumen",
    "role": "Residente de Dermatología",
-   "color": "#F2C14E"
+   "color": "#F2C14E",
+   "look": {
+    "hair": "#c89020",
+    "coat": 1,
+    "pony": 1,
+    "acc": "lupa"
+   }
   },
   "reuma": {
    "name": "Dr. Rafael Criterio",
    "role": "Residente de Reumatología",
-   "color": "#8E5BB5"
+   "color": "#8E5BB5",
+   "look": {
+    "hair": "#5a3a22",
+    "coat": 1,
+    "glasses": 1,
+    "acc": "martillo"
+   }
   },
   "uti": {
    "name": "Dr. Maximiliano 'Max' Presor",
@@ -111,12 +133,22 @@
   "elisa": {
    "name": "Elisa",
    "role": "Paciente perdida del Dr. J. (fantasma)",
-   "color": "#CFE8F3"
+   "color": "#CFE8F3",
+   "look": {
+    "hair": "#8a5a3a",
+    "pony": 1,
+    "shirt": 1
+   }
   },
   "perpetuo": {
    "name": "Ing. Perpetuo Diálisis",
    "role": "Director de Hemo-Eterna, poseído",
-   "color": "#6E6E6E"
+   "color": "#6E6E6E",
+   "look": {
+    "hair": "#5a5a5a",
+    "shirt": 1,
+    "hardhat": "#f2c531"
+   }
   },
   "esclerosis": {
    "name": "La Esclerosis",
@@ -3057,7 +3089,8 @@
      "name": "NETosis (prohibida)",
      "type": "Fagocito",
      "drug_or_mechanism": "Libera NET: daña al enemigo pero genera IFN-I que lo cura",
-     "power": 70
+     "power": 70,
+     "fx": "NET"
     }
    ],
    "evolvesAt": 10,
@@ -3152,7 +3185,8 @@
      "name": "Silencio NFAT",
      "type": "Podoprotector",
      "drug_or_mechanism": "Inhibe calcineurina en T: sin NFAT no hay IL-2 ni ayuda a B",
-     "power": 55
+     "power": 55,
+     "fx": "NFAT"
     },
     {
      "name": "Cuerda de sinaptopodina",
@@ -3222,7 +3256,8 @@
      "name": "Cerrar IFNAR",
      "type": "Anti-citocina",
      "drug_or_mechanism": "Anifrolumab bloquea IFNAR1; aprobado en LES, no en NL (verificar fase 3)",
-     "power": 60
+     "power": 60,
+     "fx": "IFNAR"
     }
    ],
    "evolvesAt": 99,

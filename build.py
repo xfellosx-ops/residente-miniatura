@@ -43,7 +43,7 @@ def level(lvl):
     return {"story": story, "q1": load(lvl, "q_base.json", {}), "q2": load(lvl, "q_extra.json", {}), "bank": bank}
 
 dump = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
-PWA_HEAD = '<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#0f380f"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">'
+PWA_HEAD = '<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#2b1420"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">'
 def write(levels, title, names, pwa=False):
     out = t.replace("<!--PWA-->", PWA_HEAD if pwa else "").replace("__TITLE__", html.escape(title)).replace("__BUILD__", BUILD).replace("__LEVELS__", dump(levels)).replace("__REGIONS__", dump(regions)).replace("__TEMARIO__", dump(TEMARIO))
     (root / "dist").mkdir(exist_ok=True)
@@ -52,12 +52,12 @@ def write(levels, title, names, pwa=False):
     print("dist/" + " y dist/".join(names), len(out), "bytes,", len(levels), "nivel(es)")
 
 def png(size):
-    """Icono de la app: residente pixelado sobre verde, sin dependencias."""
+    """Icono de la app: riñón con pelvis y uréter sobre la paleta del título, sin dependencias."""
     import zlib, struct
-    G, Lc, W, K, S, B = (15, 56, 15), (155, 188, 15), (248, 248, 248), (58, 42, 26), (242, 199, 155), (91, 143, 214)
-    art = ["................", "................", ".....KKKKKK.....", ".....KKKKKK.....", ".....SSSSSS.....", ".....SkSSkS.....", ".....SSSSSS.....", ".....SSSSSS.....",
-           "....WWWWWWWW....", "...SWWWBBWWWS...", "...SWWWBBWWWS...", "...SWWWBBWWWS...", "....WWWWWWWW....", "....WWWWWWWW....", ".....kk..kk.....", "................"]
-    pal = {".": Lc, "K": K, "S": S, "W": W, "B": B, "k": (20, 20, 20)}
+    G = (43, 20, 32)
+    art = ["................", "....DDDDDD......", "...DRRRRRRD.....", "..DRRLLRRRRD....", "..DRLRRRRRRD....", ".DRRRRRRRRD.....", ".DRRRRRRRD......", ".DRRRRRRDLL.....",
+           ".DRRRRRRDLY.....", ".DRRRRRRRDY.....", "..DRRRRRRRDY....", "..DRRRRRRRRDY...", "...DRRRRRRD.Y...", "....DDDDDD..Y...", "............Y...", "................"]
+    pal = {".": G, "D": (138, 58, 78), "R": (224, 138, 138), "L": (251, 228, 220), "Y": (242, 197, 49)}
     m = size // 8; cell = (size - 2 * m) / 16; rows = b""
     for y in range(size):
         row = b"\x00"
@@ -77,7 +77,7 @@ def pwa_site(out):
     (site / ".nojekyll").write_text("")
     for s in (192, 512): (site / f"icon-{s}.png").write_bytes(png(s))
     (site / "manifest.webmanifest").write_text(json.dumps({"name": "El Residente Miniatura", "short_name": "Residente", "lang": "es-MX", "start_url": "./", "scope": "./", "display": "standalone", "orientation": "portrait",
-        "background_color": "#2b2a33", "theme_color": "#0f380f", "icons": [{"src": f"icon-{s}.png", "sizes": f"{s}x{s}", "type": "image/png", "purpose": "any maskable"} for s in (192, 512)]}, ensure_ascii=False, indent=1), encoding="utf-8")
+        "background_color": "#2b2a33", "theme_color": "#2b1420", "icons": [{"src": f"icon-{s}.png", "sizes": f"{s}x{s}", "type": "image/png", "purpose": "any maskable"} for s in (192, 512)]}, ensure_ascii=False, indent=1), encoding="utf-8")
     ver = hashlib.sha1(out.encode()).hexdigest()[:10]
     (site / "sw.js").write_text((root / "engine/sw.js").read_text(encoding="utf-8").replace("__VER__", ver), encoding="utf-8")
     print("docs/ listo para GitHub Pages:", len(out), "bytes, versión", ver)
