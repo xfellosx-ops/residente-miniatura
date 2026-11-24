@@ -483,7 +483,7 @@ const CSH={
  ionNa:{c:"#f2c531",n:"#8a6a0a",fix:1,el:"Na",q:1},ionK:{c:"#a77ae8",n:"#4a2a8a",fix:1,el:"K",q:1},ionCa:{c:"#ece6d4",n:"#8a8270",fix:1,el:"Ca",q:2},ionMg:{c:"#7fd35f",n:"#2a6a2a",fix:1,el:"Mg",q:2},
  ionP:{c:"#f08a3c",n:"#8a3a0a",fix:1,el:"P",q:-1},ionCl:{c:"#7fd6ea",n:"#1f6a8a",fix:1,el:"Cl",q:-1},ionH:{c:"#ff6a5a",n:"#8a1a1a",fix:1,el:"H",q:1},ionHCO3:{c:"#5ab4e8",n:"#1a4a8a",fix:1,el:"HCO",q:-1},
  senal:{c:"#f4ecd8",n:"#c23a3a"},gota:{c:"#8ccf4a",n:"#3a6a1a",fix:1},pastilla:{c:"#f4f0e6",n:"#e07a3a"},molecula:{c:"#e8e8f0",n:"#5a5f70"},proteina:{c:"#f2d27a",n:"#a87a1a"},gen:{c:"#6ab0e0",n:"#e0555a",fix:1},sintoma:{c:"#b8c0d8",n:"#5a6080"},
- bacilo:{c:"#ec8aa8",n:"#8a2a4a",fix:1},coco:{c:"#8a6ae0",n:"#3a1a8a",fix:1},virus:{c:"#9ad070",n:"#3a6a2a",fix:1},hongo:{c:"#e0d8ec",n:"#6a4a9a",fix:1},
+ bacilo:{c:"#ec8aa8",n:"#8a2a4a",fix:1},coco:{c:"#8a6ae0",n:"#3a1a8a",fix:1},estrepto:{c:"#8a6ae0",n:"#3a1a8a",fix:1},virus:{c:"#9ad070",n:"#3a6a2a",fix:1},hongo:{c:"#e0d8ec",n:"#6a4a9a",fix:1},
  eritro:{c:"#d84a40",n:"#f0a08c",fix:1},acanto:{c:"#d84a40",n:"#f0a08c",fix:1},esquisto:{c:"#d84a40",n:"#f0a08c",fix:1},
  quiste:{c:"#fff2c8",n:"#e89ab4",fix:1},oxalato:{c:"#e8f0f6",n:"#8aa0b8",fix:1},urico:{c:"#f0b840",n:"#9a6a10",fix:1},estruvita:{c:"#eef6f2",n:"#7a9a90",fix:1},cistina:{c:"#e6ecf6",n:"#7a88a8",fix:1},lito:{c:"#c8a060",n:"#6a4a20",fix:1},
  cilHial:{c:"#e8f0f8",n:"#9ab0c8",fix:1},cilRojo:{c:"#f0b0a0",n:"#c83a30",fix:1},cilLeuco:{c:"#ece4f0",n:"#5a2a9a",fix:1},cilFrac:{c:"#dcd8ec",n:"#7a6aa8",fix:1},cilGran:{c:"#b8905a",n:"#5a3a1a",fix:1},
@@ -498,7 +498,7 @@ const FOE_RULES=[
  [/\bquiste|bosniak|ri[ñn][oó]n de 2|hematuria qu[ií]stica/i,"quiste"],
  [/\bc5a\b/i,"senal"],[/\bc\d+[a-z]?(-\d+)?\b|convertasa|\bmac\b|lectina mbl/i,"compl"],
  [/\banti-(?!vegf)|\banca\b|\bigg\d?\b|\biga\d?\b|gd-iga1|anticuerpo|\bdsa\b|\bpra\b|anticoagulante l[uú]pico/i,"anticuerpo"],
- [/estafilococo|estreptococo|\bcocos?\b/i,"coco"],[/\be\. ?coli\b|klebsiella|pseudomonas|proteus|bacteri|biopel[ií]cula|ureasa|nitrito|gas parenquim|t[uú]nel infectado/i,"bacilo"],
+ [/estreptococo/i,"estrepto"],[/estafilococo|\bcocos?\b/i,"coco"],[/\be\. ?coli\b|klebsiella|pseudomonas|proteus|bacteri|biopel[ií]cula|ureasa|nitrito|gas parenquim|t[uú]nel infectado/i,"bacilo"],
  [/folleto|\bmito\b|\btira\b|coeficiente|bata blanca|manguito|culpa|\bdieta\b|artefacto/i,"sintoma"],
  [/pneumocystis|\bhongos?\b|c[aá]ndida|aspergil/i,"hongo"],[/\bvirus\b|\bbk\b/i,"virus"],
  [/macr[oó]fago|hemosider[oó]fago|\bpdc\b/i,"macro"],[/eosin[oó]filo/i,"eosino"],[/neutr[oó]filo|granulocito|leucocito|piuria/i,"neutro"],
@@ -579,6 +579,8 @@ function drawCreature(x,y,shape,t,opt){opt=opt||{};/* sin tcol/ally/color = lám
    /* bacilo gramnegativo con fimbrias y flagelo */
    case"bacilo":{for(let i=0;i<10;i++){const a=i*Math.PI/5;L(Math.cos(a)*13,Math.sin(a)*8,Math.cos(a)*15,Math.sin(a)*10,dk)}C(-8,0,7,dk);C(8,0,7,dk);P(-8,-7,16,15,dk);C(-8,-1,6,base);C(8,-1,6,base);P(-8,-7,16,13,base);P(-8,-6,14,2,lt);L(14,2,18,6+fr*2,nuc);L(18,6+fr*2,15,10,nuc);eyes(-3)}break;
    /* cocos grampositivos en racimo */
+   /* estreptococo: cocos en cadena */
+   case"estrepto":{[-12,-6,0,6,12].forEach((a,i)=>{const b=Math.round(Math.sin(i*1.2)*4);C(a,b,4,dk);C(a-1,b-1,3,base);P(a-2,b-2,1,1,lt)});eyes(-2,-1)}break;
    case"coco":{[[-6,4],[4,5],[-1,-4],[9,-3],[-10,-4],[0,11]].forEach(([a,b],i)=>{C(a,b,5,dk);C(a-1,b-1,4,base);P(a-2,b-3,2,1,lt)});eyes(-5,-1)}break;
    /* Pneumocystis: hongo; quiste redondo con pared arrugada y cuerpos intraquísticos */
    case"hongo":{C(0,1,11,dk);C(-1,0,10,base);for(let i=0;i<8;i++){const a=i*Math.PI/4;P(Math.cos(a)*5-1,1+Math.sin(a)*5-1,2,2,nuc)}L(-9,-4,-6,-7,dk);L(6,-8,9,-4,dk);L(-8,7,-4,9,dk);C(-4,-5,2,lt);eyes(-3)}break;
@@ -1057,7 +1059,7 @@ VIG.hemodialisis=t=>{px(0,0,160,96,"#e6f6f8");vlayer("hd",()=>{orc(20,24,120,48,
 VIG.fistula=t=>{px(0,0,160,96,"#f0d8c8");vlayer("fav",()=>{oov(80,48,78,28,"#f2c79b");line(8,62,90,56,"#c83a3a",4);line(90,56,154,30,"#a03a6a",8);line(8,34,90,52,"#3a6ad8",3);lbl("ARTERIA RADIAL",8,70,"#fff");lbl("VENA CEFÁLICA",96,14,"#fff");lbl("ANASTOMOSIS",56,80,"#fff")});
  for(let i=0;i<6;i++){const s=(t*.01+i/6)%1;const [x,y]=s<.5?along([[8,62],[90,56]],s*2):along([[90,56],[154,30]],(s-.5)*2);rbc(x,y,2)}hl(90,56,6,t)};
 /* planta de agua: ósmosis inversa */
-VIG.osmosis=t=>{px(0,0,160,96,"#e6f6f8");vlayer("oi",()=>{orc(8,20,60,56,"#c8dce4");orc(92,20,60,56,"#e8fbff");px(76,16,6,64,"#5a6a7a");for(let y=18;y<78;y+=4)px(78,y,2,1,"#c8dce4");lbl("OI",72,6,"#fff");lbl("CLORAMINA",8,82,"#fff");lbl("AGUA PURA",96,82,"#fff")});
+VIG.osmosis=t=>{px(0,0,160,96,"#e6f6f8");vlayer("oi",()=>{orc(8,20,60,56,"#c8dce4");orc(92,20,60,56,"#e8fbff");px(76,16,6,64,"#5a6a7a");for(let y=18;y<78;y+=4)px(78,y,2,1,"#c8dce4");lbl("CARBÓN → OI",58,6,"#fff");lbl("CLORAMINA: CARBÓN",4,82,"#fff");lbl("AGUA PURA",96,82,"#fff")});
  const k=(t%60)/60;arrow(30,10,60,10,"#e0303a");lbl("P",22,6,"#fff");for(let i=0;i<10;i++){const x=12+((i*17+t*.5)%60);px(x,26+(i*11)%46,2,2,["#8a6a4a","#57a02a","#7a4ad0"][i%3])}
  for(let i=0;i<6;i++){const x=70+((t*.6+i*12)%80);if(x>82)px(x,24+i*9,2,2,"#3a7ae0");else px(x,24+i*9,2,2,"#3a7ae0")}};
 /* H. diálisis peritoneal: modelo de tres poros */
@@ -1065,7 +1067,7 @@ VIG.dp_poros=t=>{px(0,0,160,96,"#fde2d4");vlayer("dp",()=>{px(0,0,44,96,"#c84a50
   lbl("CAPILAR",2,2,"#fff");lbl("INTERST.",46,2,"#fff");lbl("CAVIDAD",104,2,"#fff");lbl("AQP1",46,12,"#3a7ae0","#fff");lbl("4-6nm",46,24,"#7a5a1a","#fff");lbl("20-30nm",46,34,"#a0503a","#fff");lbl("GLUCOSA",104,84,"#7a5a1a","#fff")});
  for(let i=0;i<6;i++){const s=(t*.012+i/6)%1;px(10+s*130,12+i*14,2,2,"#3a7ae0")}for(let i=0;i<3;i++){const s=(t*.007+i/3)%1;lbl("U",14+s*120,26+i*24,"#fff","#c8a020")}
  if((t>>7)%2){const s=(t*.004)%1;oc(20+s*110,80,2,"#f2d27a")}};
-VIG.peritonitis=t=>{px(0,0,160,96,"#fde2d4");vlayer("perit",()=>{orc(56,10,48,64,"#f4f0d8");line(80,74,80,94,"#c8ccd8",3);lbl(">100 LEUCOS/µL",44,80,"#fff");lbl("50 % PMN",56,88,"#fff");lbl("TURBIO",62,2,"#fff")});
+VIG.peritonitis=t=>{px(0,0,160,96,"#fde2d4");vlayer("perit",()=>{orc(56,10,48,64,"#f4f0d8");line(80,74,80,94,"#c8ccd8",3);lbl(">100 LEUCOS/µL",44,80,"#fff");lbl(">50 % PMN",56,88,"#fff");lbl("TURBIO",62,2,"#fff")});
  for(let i=0;i<14;i++){const x=60+((i*13+t*.3)%40),y=14+((i*19+t*.2)%56);oc(x,y,2,"#ece0f0");px(x-1,y,3,1,"#5a2a9a")}if((t>>4)%2)drawCreature(130,40,"bacilo",t,{})};
 /* glomérulo: nefrítico vs nefrótico */
 VIG.sindromes=t=>{px(0,0,160,96,"#fcd8e8");vlayer("sind",()=>{panel(4,10,74,80,"#fbeef2","NEFRÍTICO",OLC);panel(82,10,74,80,"#fbeef2","NEFRÓTICO",OLC);glom(40,48,22,{wall:"#d03a5a"});glom(118,48,22)});
@@ -1148,7 +1150,7 @@ VIG.alport=t=>{px(0,0,160,96,"#e0fbff");vlayer("alp",()=>{px(0,40,160,18,"#d8d0b
  for(let i=0;i<4;i++){const s=(t*.006+i/4)%1;acanto(20+i*36,60-s*50,2)}};
 VIG.tubulopatias=t=>{px(0,0,160,96,"#e0fbff");const k=cyc(t,90,3);vlayer("tubp",()=>{["#2a6aa8","#b890e0","#5ab4e8"].forEach((c,i)=>{orc(6+i*52,20,44,48,c);nucleus(28+i*52,50,4)});lbl("BARTTER",8,72,"#fff");lbl("GITELMAN",58,72,"#fff");lbl("LIDDLE",112,72,"#fff");lbl("NKCC2",14,10,"#fff");lbl("NCC",70,10,"#fff");lbl("ENaC",118,10,"#fff")});
  const X=[28,80,132][k];if(k<2){line(X-6,20,X+6,32,"#e0303a",2);line(X+6,20,X-6,32,"#e0303a",2)}else for(let i=0;i<5;i++){const y=20+((t*1.2+i*9)%40);px(X-6+i*3,y,2,2,"#f2c531")}
- lbl(["Ca ORINA ↑","Ca ORINA ↓, Mg ↓","HTA, RENINA ↓"][k],30,86,"#ffea33")};
+ lbl(["Ca ORINA ↑","Ca ORINA ↓ · Mg SÉRICO ↓","HTA, RENINA ↓"][k],30,86,"#ffea33")};
 /* quistes: cilio primario y riñones grandes */
 VIG.erpad_cilio=t=>{px(0,0,160,96,"#e0fbff");const mut=cyc(t,160,2);vlayer("cil",()=>{px(0,30,160,66,"#f0a8c0");for(let x=10;x<160;x+=30){px(x,30,1,66,"#c87a90");nucleus(x+15,62,4)}px(0,88,160,8,"#f4d0d8");lbl("LUZ",4,4,"#fff");lbl("PC1/PC2",82,18,"#fff");lbl("V2",104,82,"#fff")});
  const b=mut?0:Math.sin(t*.1)*4;line(72,30,72+b,8,"#1f7f8a",2);oc(72+b,7,2,"#6ad8e0");for(let i=0;i<5;i++){const x=((t*1.4+i*30)%160);px(x,14+i*3,3,1,"#9ad8f0")}
@@ -1189,7 +1191,7 @@ VIG.desgaste=t=>{const g=(Math.sin(t*.02)+1)/2;px(0,0,160,96,"#e8e4d0");vlayer("
 VIG.cocina=t=>{px(0,0,160,96,"#e8e4d0");vlayer("coc",()=>{oov(80,60,50,24,"#f4f6fa");oov(80,60,40,18,"#e8ecf2");oov(56,56,12,5,"#f2d531");orc(96,30,10,26,"#5a2a1a");oov(104,62,8,6,"#c8a060");orc(28,30,8,14,"#f4f4f4");lbl("K",52,46,"#fff","#a77ae8");lbl("P",98,22,"#fff","#e07a3a");lbl("Na",24,22,"#fff","#c8a020");lbl("PROTEÍNA SEGÚN ETAPA",28,88,"#fff")});
  lbl("ADITIVO: 100 %",96,4,"#ffea33")};
 /* medio interno */
-VIG.edema_cerebral=t=>{const g=(Math.sin(t*.03)+1)/2;px(0,0,160,96,"#e0f2fc");vlayer("cere",()=>{lbl("Na 118",4,4,"#fff","#c8a020");lbl("H2O",130,4,"#fff","#3a7ae0");lbl("CRÁNEO",4,88,"#fff")});ring2(80,52,40,4,"#e8dcc0");
+VIG.edema_cerebral=t=>{const g=(Math.sin(t*.03)+1)/2;px(0,0,160,96,"#e0f2fc");vlayer("cere",()=>{lbl("Na 108",4,4,"#fff","#c8a020");lbl("H2O ENTRA",112,4,"#fff","#3a7ae0");lbl("CRÁNEO",4,88,"#fff")});ring2(80,52,40,4,"#e8dcc0");
  oc(80,52,18+g*14,"#f4c8d8");nucleus(80,52,4);for(let i=0;i<8;i++){const a=i*.8;line(80+Math.cos(a)*(18+g*14),52+Math.sin(a)*(18+g*14),80+Math.cos(a)*(26+g*10),52+Math.sin(a)*(26+g*10),"#c890b0")}for(let i=0;i<6;i++){const s=(t*.02+i/6)%1;px(30+i*20,10+s*30,2,2,"#3a7ae0")}};
 VIG.potasio=t=>{px(0,0,160,96,"#0c2340");vlayer("ecg",()=>{for(let x=0;x<160;x+=8)px(x,10,1,60,"#14305a");for(let y=10;y<70;y+=8)px(0,y,160,1,"#14305a");lbl("K+ 7.1",4,76,"#fff","#7a4ad0");lbl("T PICUDA",96,76,"#fff");lbl("CALCIO: ESTABILIZA",4,88,"#fff")});
  for(let x=0;x<160;x++){const ph=(x+t)%60;let y=44;if(ph>8&&ph<12)y=44-(ph-8)*2;else if(ph>=12&&ph<14)y=40+(ph-12)*10;else if(ph>=14&&ph<16)y=60-(ph-14)*10;else if(ph>30&&ph<42)y=44-Math.max(0,6-Math.abs(ph-36))*4;px(x,y,1,2,"#5cff8a")}};
@@ -1197,7 +1199,7 @@ VIG.minerales=t=>{px(0,0,160,96,"#e0f2fc");vlayer("min",()=>{orc(4,50,50,40,"#e8
  for(let i=0;i<6;i++){const s=(t*.008+i/6)%1;const [x,y]=along([[30,60],[90,22],[130,62]],s);lbl(["Ca","P","Mg"][i%3],x,y,"#fff",["#8a8270","#e07a3a","#57a02a"][i%3])}};
 VIG.brecha=t=>{const g=(Math.sin(t*.03)+1)/2;px(0,0,160,96,"#e0f2fc");vlayer("bre",()=>{orc(30,10,36,76,"#c8a020");lbl("Na 140",34,44,"#fff");lbl("BRECHA = Na - (Cl + HCO3)",8,88,"#fff")});
  const hc=24-g*14;orc(90,10,36,44,"#5ab4e8");lbl("Cl 104",94,28,"#fff");orc(90,56,36,hc,"#3a6ad0");lbl("HCO3",96,58,"#fff");orc(90,56+hc+1,36,30-hc-1,"#e0555a");lbl("BA",128,Math.min(76,60+hc),"#fff","#e0555a")};
-VIG.metanol=t=>{px(0,0,160,96,"#e0f2fc");vlayer("met",()=>{oov(40,56,34,26,"#a0503a");oov(40,56,28,20,"#c8704a");oc(124,40,20,"#f4f6fa");oc(124,40,10,"#5a8ad8");circ(124,40,4,"#1a1a2a");oc(118,46,3,"#f2e6a0");lbl("HÍGADO",22,86,"#fff");lbl("RETINA",108,66,"#fff");lbl("ADH",30,22,"#fff");lbl("FOMEPIZOL",4,4,"#fff","#3a7ae0")});
+VIG.metanol=t=>{px(0,0,160,96,"#e0f2fc");vlayer("met",()=>{oov(40,56,34,26,"#a0503a");oov(40,56,28,20,"#c8704a");oc(124,40,20,"#f4f6fa");oc(124,40,10,"#5a8ad8");circ(124,40,4,"#1a1a2a");oc(118,46,3,"#f2e6a0");lbl("HÍGADO",22,86,"#fff");lbl("RETINA",108,66,"#fff");lbl("ALCOHOL DH",30,22,"#fff");lbl("FOMEPIZOL",4,4,"#fff","#3a7ae0")});
  const ch=["METANOL","FORMALDEHIDO","ÁC. FÓRMICO"],k=cyc(t,60,3);lbl(ch[k],20,48,"#fff","#7a1a1a");for(let i=0;i<4;i++){const s=(t*.01+i/4)%1;px(74+s*30,50-s*8,2,2,"#e0303a")}};
 VIG.intercalada=t=>{px(0,0,160,96,"#d8f0ff");px(0,78,160,18,"#f4d8d8");vlayer("intc",()=>{orc(40,18,80,58,"#f0b8c8");nucleus(80,52,6);oov(64,18,5,3,"#e0555a");oov(100,76,6,3,"#3a7ae0");lbl("H+-ATPasa",4,4,"#fff");lbl("HCO3/Cl",120,70,"#fff");lbl("α INTERCALADA",4,40,"#fff")});
  for(let i=0;i<2;i++){const s=(t*.006+i/2)%1;lbl("H+",62,16-s*16,"#fff","#e0555a")}{const s=(t*.006)%1;lbl("HCO3",94,79+s*10,"#fff","#3a7ae0")}flow([[56,24],[56,6]],t,"#e0555a",2,.006);flow([[112,80],[112,94]],t,"#3a7ae0",2,.006)};
@@ -1326,7 +1328,7 @@ function toWorld(){clearAll();MODE="world";duck(0);walkMusic();const z=STORY.zon
 function dialog(lines,done){lines=(lines||[]).filter(l=>l&&l[1]);let i=0;MODE=MODE==="world"?"dialog":MODE;const show=()=>{if(i>=lines.length){KEYA=null;done&&done();return}const [w,t]=lines[i];say(t);
  pn.innerHTML='<div class="box"><div class="who">'+esc(w)+'</div>'+esc(t)+'</div><div class="row"><button class="btn" id="nx">A ▶</button><span class="small">'+(i+1)+'/'+lines.length+'</span></div>';const b=$("#nx");KEYA=()=>b.click();b.onclick=()=>{i++;show()}};show()}
 /* ================= zonas ================= */
-function enterZone(zi,keep){S.zone=zi;walkMusic();if(!keep&&zi>0&&S.team.some(c=>c.hp<c.max)){S.team.forEach(c=>c.hp=c.max);setTimeout(()=>toast("💚 Tu equipo descansó al cruzar de zona"),400)}if(!keep){S.x=2;S.y=5;S.dir="right"}buildMap(zi);if(keep&&(!MAP.g[S.y]||MAP.g[S.y][S.x]==="#"||solid(S.x,S.y))){S.x=2;S.y=5}save();const z=STORY.zones[zi];$("#ttl").textContent=META.id+" · "+z.name.toUpperCase();SCENEZ=zi;MODE=S.flags["in_"+zi]?"dialog":"scene";
+function enterZone(zi,keep){OVER=null;S.zone=zi;walkMusic();if(!keep&&zi>0&&S.team.some(c=>c.hp<c.max)){S.team.forEach(c=>c.hp=c.max);setTimeout(()=>toast("💚 Tu equipo descansó al cruzar de zona"),400)}if(!keep){S.x=2;S.y=5;S.dir="right"}buildMap(zi);if(keep&&(!MAP.g[S.y]||MAP.g[S.y][S.x]==="#"||solid(S.x,S.y))){S.x=2;S.y=5}save();const z=STORY.zones[zi];$("#ttl").textContent=META.id+" · "+z.name.toUpperCase();SCENEZ=zi;MODE=S.flags["in_"+zi]?"dialog":"scene";
  const steps=[];if(!S.flags["in_"+zi]){S.flags["in_"+zi]=1;steps.push(cb=>dialog(z.intro,cb));const cs=z.cutscenes.find(c=>c.trigger==="enter");if(cs)steps.push(cb=>dialog(cs.lines,cb));
   (JOIN[zi]||[]).forEach(id=>{if(!S.team.find(c=>c.id===id)&&!S.box.find(c=>c.id===id))steps.push(cb=>{const c=mkCrea(id);if(S.team.length<6)S.team.push(c);else S.box.push(c);save();sfx.lvl();modal('<div class="who">¡NUEVA CRIATURA!</div><b>'+esc(CREA[id].name)+'</b> ('+esc(CREA[id].type)+') se unió a tu equipo.<br><span class="small">'+CREA[id].moves.map(m=>esc(m.name)+": "+esc(m.drug_or_mechanism)).join("<br>")+'</span>',cb)})})}
  const run=()=>{if(!steps.length)return toWorld();steps.shift()(run)};run()}
@@ -1517,7 +1519,7 @@ const shortT=n=>n.replace(/^(Enfermedad(es)?|Alteraciones del?) /,"").replace(/^
 function dominio(back){duck(0);held=null;MODE="dialog";clearAll();const T=Object.values(temaStats()).sort((a,b)=>b.pri-a.pri);
  const col=t=>t.dom>=.7?"🟢":t.dom>=.4?"🟡":"🔴";const al=(G.alh||[]).filter(t=>Date.now()-t<7*DAY);const hrs=Array(24).fill(0);al.forEach(t=>hrs[new Date(t).getHours()]++);const top=hrs.map((n,h)=>[n,h]).filter(x=>x[0]).sort((a,b)=>b[0]-a[0]).slice(0,3);
  const pv=(G.pvt||[]).slice(-5);
- pn.innerHTML='<div class="who">📊 DOMINIO · faltan '+daysLeft()+' días</div><div class="small">Prioridad = peso en el examen × lo que te falta. Empieza por arriba.</div><table class="dom">'+T.map(t=>'<tr><td>'+col(t)+'</td><td>'+esc(t.name.slice(0,34))+'</td><td>'+t.seen+'/'+t.tot+'</td><td>'+(t.seen?Math.round(100*t.acc)+'%':'—')+'</td></tr>').join("")+'</table>'+
+ pn.innerHTML='<div class="who">📊 DOMINIO · faltan '+daysLeft()+' días</div><div class="small">Prioridad = peso en el examen × lo que te falta. Empieza por arriba.</div><table class="dom">'+T.map(t=>'<tr><td>'+col(t)+'</td><td>'+esc(t.name.slice(0,34))+'</td><td>'+t.seen+'/'+t.tot+'</td><td>'+(t.seen>=5?Math.round(100*t.acc)+'%':t.seen?'('+t.seen+')':'—')+'</td></tr>').join("")+'</table>'+
   '<div class="row"><button class="btn big" id="d1">🎯 ESTUDIAR LO MÁS DÉBIL ('+T.slice(0,3).map(t=>shortT(t.name)).join(", ")+')</button></div>'+
   '<div class="box small"><b>Somnolencia (7 días):</b> '+al.length+' alertas'+(top.length?' · más a las '+top.map(x=>x[1]+' h').join(", "):'')+(pv.length?'<br><b>Chequeos de alerta:</b> '+pv.map(p=>p.m+' ms/'+p.lp+' lapsos').join(" · "):'')+'<br><span class="small">Muéstraselo a tu médico del sueño para ajustar siestas y horarios.</span></div><div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
  $("#d1").onclick=()=>guardia(()=>dominio(back),T.slice(0,3).map(t=>t.id),"🎯 LO MÁS DÉBIL");$("#bk").onclick=back;KEYA=back}

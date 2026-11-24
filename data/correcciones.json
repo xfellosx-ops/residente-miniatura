@@ -2,8 +2,34 @@
  "_doc": "Correcciones médicas que el juego aplica sobre el banco de Alfredo al construir (build.py). Avisar a Alfredo para corregirlas también en su app; cuando su banco ya traiga la corrección, borrar la entrada.",
  "GFJ-6": {
   "motivo": "C y D eran verdaderas: al recuperarse de una LRA la creatinina tarda en bajar, así que la TFGe sube MENOS (más lento) que la real.",
-  "opciones": {"C": "Al recuperarse, la TFGe sube antes que la real"},
-  "explicaciones": {"C": "Es al revés: la creatinina tarda en bajar y la TFGe va detrás de la TFG real.",
-                    "D": "Tras una caída de TFG el marcador tarda en acumularse; la TFGe subestima la caída. Al recuperarse, la TFGe tarda en subir y subestima la TFG real."}
+  "opciones": {
+   "C": "Al recuperarse, la TFGe sube antes que la real"
+  },
+  "explicaciones": {
+   "C": "Es al revés: la creatinina tarda en bajar y la TFGe va detrás de la TFG real.",
+   "D": "Tras una caída de TFG el marcador tarda en acumularse; la TFGe subestima la caída. Al recuperarse, la TFGe tarda en subir y subestima la TFG real."
+  }
+ },
+ "AZ25-8": {
+  "motivo": "KDIGO 2013 (ratificado en KDIGO 2024 ERC): ≥50 años con ERC → estatina sin importar el c-LDL; de 18–49 años solo con coronariopatía, diabetes, ictus o riesgo a 10 años >10 %. El «40–75 años con G3–G4» no es criterio KDIGO.",
+  "clave": "C",
+  "explicaciones": {
+   "A": "Entre 18 y 49 años solo hay indicación con coronariopatía, diabetes, ictus o riesgo >10 %.",
+   "B": "A los 30 años la albuminuria sola no basta; se necesita otro factor de riesgo mayor.",
+   "C": "Correcto. KDIGO: todo adulto ≥50 años con ERC (TFGe ≥60, como G2) recibe estatina, sin importar el c-LDL.",
+   "D": "Menor de 50 años sin factores de riesgo: no hay indicación automática.",
+   "E": "Tiene 45 años: sin coronariopatía, diabetes, ictus ni riesgo >10 % no hay indicación automática."
+  },
+  "perla": "KDIGO lípidos: ≥50 años con ERC → estatina (con TFGe <60, estatina ± ezetimiba); 18–49 años solo si hay coronariopatía, DM, ictus o riesgo >10 %. No se persigue meta de c-LDL ni se inicia en diálisis."
+ },
+ "AZ2-10": {
+  "motivo": "Tras la sesión ya estaba descongestionado (LUS 4, VExUS 0) y la UF ya era ≤13 mL/kg/h: bajar el peso seco no tiene sentido; la conducta es mantenerlo y alargar o añadir sesión.",
+  "opciones": {
+   "B": "Mantener el peso seco y alargar la sesión o añadir una"
+  },
+  "explicaciones": {
+   "B": "Correcto. Se descongestionó (LUS 4, VExUS 0): está cerca del peso seco. Alargar o añadir sesión reparte la UF; dializado fresco ayuda.",
+   "A": "La congestión prediálisis indica que no estaba hipovolémico al inicio; subir el peso seco lo dejaría congestionado."
+  }
  }
 }
