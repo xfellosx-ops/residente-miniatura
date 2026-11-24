@@ -56,7 +56,8 @@ canvas{display:block;width:100%;image-rendering:pixelated;image-rendering:crisp-
 #tgt{position:absolute;width:88px;height:88px;border-radius:50%;border:4px solid #fff;background:#f2c94c;font-family:inherit;font-size:12px}
 .modal{position:fixed;inset:0;background:rgba(0,0,0,.55);display:flex;align-items:center;justify-content:center;z-index:50}
 .modal .box{max-width:470px;width:92%;font-size:21px;background:var(--x);max-height:80vh;overflow:auto}
-.btn.big{width:100%;font-size:11px;padding:12px 8px;margin-bottom:4px}.bad2{background:#f6dede}.hoy{background:#fff7d6}.hoy .bar{margin:4px 0}.dom td{padding:2px 4px;font-size:10px}.dom{border-collapse:collapse;width:100%}
+body.quiz canvas{width:58%;margin:0 auto}body.quiz .ctrl{display:none}
+.btn.big{width:100%;font-size:11px;padding:12px 8px;margin-bottom:4px}.bad2{background:#f6dede}.hoy{background:#fff7d6;font-size:13px!important;line-height:1.35}.hoy .bar{margin:4px 0}.dom td{padding:2px 4px;font-size:10px}.dom{border-collapse:collapse;width:100%}
 .toast{position:fixed;left:50%;top:12px;transform:translateX(-50%);background:#2b2a33;color:#fff;font:10px "Press Start 2P",monospace;padding:8px 12px;border-radius:6px;z-index:80;pointer-events:none}
 @media (prefers-reduced-motion:reduce){#alert.on{animation:none}}
 </style>
@@ -272,7 +273,7 @@ function playN(c,n,dur,w){try{const bus={t:w,g:MG};
  const o=AC.createOscillator(),g=AC.createGain();o.type=c.w;o.frequency.setValueAtTime(440*Math.pow(2,(midi(n)+MUS.tp-69)/12),w);
  g.gain.setValueAtTime(0,w);g.gain.linearRampToValueAtTime(c.v,w+.006);g.gain.linearRampToValueAtTime(c.v*.6,w+Math.min(.12,dur*.5));g.gain.linearRampToValueAtTime(0,w+dur*.92);o.connect(g);g.connect(MG);o.start(w);o.stop(w+dur)}catch(e){}}
 /* mientras hay una pregunta en pantalla la música baja (el ruido de fondo estorba la lectura) */
-function duck(on){try{if(MG&&SND>=2)MG.gain.setTargetAtTime(on?.15:.5,AC.currentTime,.25)}catch(e){}}
+function duck(on){document.body.classList.toggle("quiz",!!on);try{if(MG&&SND>=2)MG.gain.setTargetAtTime(on?.15:.5,AC.currentTime,.25)}catch(e){}}
 /* cada región del mapa camina en otra tonalidad y tempo */
 function walkMusic(){const r=(typeof regionOf==="function"&&regionOf(META.id).id)||0;const k=(+r||0)%10;music("walk",{tp:[0,2,-3,5,-2,3,-5,1,4,-1][k],bpm:[118,112,124,108,120,116,126,110,122,114][k]})}
 /* ================= voz, vibración, alerta ================= */
@@ -662,7 +663,7 @@ function interact(){const [dx,dy]=DIRS[S.dir];const x=S.x+dx,y=S.y+dy;
  const o=MAP.objs.find(o=>{const p=o.k==="trainer"?trainerPos(o):o;return p.x===x&&p.y===y&&!objGone(o)});if(!o)return;held=null;
  if(o.k==="sign"){MODE="dialog";return dialog([SIGNS[MAP.zi][o.i]],toWorld)}if(o.k==="npc")return talkNPC(o);if(o.k==="nurse")return nurse();if(o.k==="trainer")return S.flags[o.id]?dialog(STORY.zones[MAP.zi].trainers[o.ti].defeat,toWorld):startTrainer(o);
  if(o.k==="gate")return gate(o);if(o.k==="mini")return startMini(o)}
-function toWorld(){clearAll();MODE="world";walkMusic();const z=STORY.zones[MAP.zi];pn.innerHTML='<div class="who">'+esc(z.name.toUpperCase())+'</div><div class="small">Muévete con las flechas. <b>A</b> = hablar/interactuar. La hierba esconde enemigos. Lo que bloquea el camino (puerta, entrenador, cristal) se resuelve con <b>A</b>.</div>';KEYA=interact;hud()}
+function toWorld(){clearAll();MODE="world";duck(0);walkMusic();const z=STORY.zones[MAP.zi];pn.innerHTML='<div class="who">'+esc(z.name.toUpperCase())+'</div><div class="small">Muévete con las flechas. <b>A</b> = hablar/interactuar. La hierba esconde enemigos. Lo que bloquea el camino (puerta, entrenador, cristal) se resuelve con <b>A</b>.</div>';KEYA=interact;hud()}
 /* ================= diálogo ================= */
 function dialog(lines,done){lines=(lines||[]).filter(l=>l&&l[1]);let i=0;MODE=MODE==="world"?"dialog":MODE;const show=()=>{if(i>=lines.length){KEYA=null;done&&done();return}const [w,t]=lines[i];say(t);
  pn.innerHTML='<div class="box"><div class="who">'+esc(w)+'</div>'+esc(t)+'</div><div class="row"><button class="btn" id="nx">A ▶</button><span class="small">'+(i+1)+'/'+lines.length+'</span></div>';const b=$("#nx");KEYA=()=>b.click();b.onclick=()=>{i++;show()}};show()}
@@ -696,7 +697,7 @@ function renderQ(q,label,timer,onDone,o2={}){duck(1);const vf=!!q.vf,opts=vf?{V:
   let e='<div class="box"><b>'+(l===null?"¡Tiempo! (no cuenta como error)":ok?"¡Correcto!":"Incorrecto. La correcta es "+(vf?opts[q.clave]:q.clave)+".")+'</b> '+esc(clip(main,nMain))+'</div>'+(mine?'<div class="box small bad2"><b>Tu opción ('+l+'):</b> '+esc(clip(ex[l],15))+'</div>':q.perla?'<div class="box pearl small">💎 <b>Perla:</b> '+esc(clip(q.perla,22))+'</div>':'');
   const more=[];if(words(main).length>nMain)more.push(esc(main));if(mine&&words(ex[l]).length>15)more.push('<b>Tu opción ('+l+'):</b> '+esc(ex[l]));if(q.perla&&(mine||words(q.perla).length>22))more.push('<b>Perla'+(mine?'':' completa')+':</b> '+esc(q.perla));if(!vf)L.filter(k=>k!==q.clave&&k!==l&&ex[k]).forEach(k=>more.push(k+') '+esc(ex[k])));if(q.referencias)more.push('<span class="small">Ref.: '+esc(q.referencias.join(" · "))+'</span>');
   if(more.length)e+='<details class="box small"><summary>▸ Ver más ('+(q.perla?"perla y ":"")+'explicación completa)</summary>'+more.join("<br>")+'</details>';
-  e+='<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button></div>';pn.insertAdjacentHTML("beforeend",e);const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>{KEYA=null;duck(0);onDone(ok)};const okb=pn.querySelector(".opt.ok");okb&&okb.scrollIntoView&&okb.scrollIntoView({block:"nearest"})};
+  e+='<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button></div>';pn.insertAdjacentHTML("beforeend",e);const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>{KEYA=null;duck(0);onDone(ok)};const fb=pn.querySelector(".row:last-child")&&[...pn.children].find(x=>x.classList&&x.classList.contains("box")&&!x.classList.contains("case")&&x.previousElementSibling&&x.previousElementSibling.classList.contains("opt")||x.previousElementSibling&&x.previousElementSibling.classList&&x.previousElementSibling.classList.contains("grid2"));fb&&fb.scrollIntoView&&fb.scrollIntoView({block:"start"})};
  btns.forEach(b=>b.onclick=()=>answer(b.dataset.l))}
 let KEYNAV=null;
 function quick(q,label,cb){MODE=MODE==="world"?"dialog":MODE;renderQ(q,label,0,cb)}
@@ -804,7 +805,7 @@ function bossCheck(msg){const ph=bossPhase();if(S.boss.hp<=0)return bossWin();if
 function bossWin(){BAT=null;S.done=true;G.done[META.id]=1;gsave();save();sfx.lvl();music("victory");vib([100,50,100,50,300]);dialog(STORY.boss.outro,ending)}
 /* cierre del nivel: diario con recuerdo activo → resultados, días al examen, nefronas y PRÓXIMO CASO */
 function nextLevel(){const ord=REGIONS.flatMap(r=>r.levels.map(l=>l[0]));const k=ord.indexOf(META.id);return k>=0&&k+1<ord.length?ord[k+1]:null}
-function ending(){MODE="dialog";music("victory");const D=META.diario;
+function ending(){duck(0);MODE="dialog";music("victory");const D=META.diario;
  if(D&&!S.flags.diario){const opts=shuf(D[1].map((t,i)=>[t,i]));pn.innerHTML='<div class="who">📓 DIARIO DEL RESIDENTE</div><div class="box">'+esc(D[0])+'</div>'+opts.map(([t,i])=>'<button class="opt" data-dj="'+i+'"><b>✎</b>'+esc(t)+'</button>').join("");
   pn.querySelectorAll("[data-dj]").forEach(b=>b.onclick=()=>{const ok=+b.dataset.dj===D[2];S.flags.diario=1;save();ok?sfx.ok():sfx.bad();if(ok)addXP(active(),25);modal((ok?"<b>¡Exacto!</b> ":"<b>Era: "+esc(D[1][D[2]])+".</b> ")+esc(D[0].replace("___",D[1][D[2]])),ending)});return}
  const st=S.stats,nx=nextLevel(),nxL=nx&&LEVELS.find(l=>l.story.meta.id===nx);
@@ -817,7 +818,7 @@ function nefrodex(back){const un=STORY.nefrodex.filter(n=>S.nefro.includes(n.tit
 function review(back){const ids=dueList();if(!ids.length)return modal("No hay preguntas vencidas en todo el juego. Las falladas vuelven aquí mañana.",back);
  const due=interleave(ids.slice(0,40).map(QG)).slice(0,20);let i=0,ok=0;MODE="dialog";music("puzzle");
  const step=()=>{if(i>=due.length){duck(0);return modal("Repaso terminado: "+ok+"/"+due.length+". Quedan "+dueCount()+" vencidas.",back)}renderQ(due[i],"📚 REPASO "+(i+1)+"/"+due.length+" (sin daño)",0,r=>{if(r)ok++;i++;step()},{glob:!ALL[due[i].id]})};step()}
-function menu(){if(MODE==="title")return;const prev=MODE;held=null;if(MODE==="battle"||MODE==="river")return askHome("Puedes salir al inicio sin perder avance. Este combate se repite después.");MODE="dialog";clearAll();
+function menu(){duck(0);if(MODE==="title")return;const prev=MODE;held=null;if(MODE==="battle"||MODE==="river")return askHome("Puedes salir al inicio sin perder avance. Este combate se repite después.");MODE="dialog";clearAll();
  pn.innerHTML='<div class="who">MENÚ</div><div class="grid2"><button class="btn" id="m1">▶ VOLVER</button><button class="btn alt" id="m2">EQUIPO</button><button class="btn alt" id="m3">NEFRODEX</button><button class="btn alt" id="m4">REPASO ('+dueCount()+')</button><button class="btn alt" id="m5">CHEQUEO ALERTA</button><button class="btn alt" id="m8">😴 DESPERTADOR</button><button class="btn alt" id="m6">ALARMA '+S.idle+' s</button><button class="btn alt" id="m10">⚔ GUARDIA</button><button class="btn alt" id="m11">📊 DOMINIO</button><button class="btn alt" id="m12">💤 SIESTA</button><button class="btn" id="m9">🏠 INICIO</button><button class="btn red" id="m7">REINICIAR</button></div>';
  const back=()=>{if(S.boss&&!S.done)return bossArena();toWorld()};$("#m1").onclick=back;KEYA=back;$("#m2").onclick=()=>teamMenu(()=>menu());$("#m3").onclick=()=>nefrodex(menu);$("#m4").onclick=()=>review(menu);$("#m5").onclick=()=>pvt(menu);$("#m9").onclick=goHome;$("#m10").onclick=()=>guardia(menu);$("#m11").onclick=()=>dominio(menu);$("#m12").onclick=()=>siesta(menu);$("#m8").onclick=()=>wake();
  $("#m6").onclick=()=>{const v=[30,45,60,90];S.idle=v[(v.indexOf(S.idle)+1)%v.length];save();poke();menu()};
@@ -841,7 +842,7 @@ function pressA(){const m=document.querySelector(".modal button");if(m)return m.
 $("#bA").onpointerdown=e=>{e.preventDefault();unlockAudio();pressA()};
 document.querySelectorAll(".dpad button").forEach(b=>{const d=b.dataset.d;b.onpointerdown=e=>{e.preventDefault();unlockAudio();if(KEYNAV&&MODE!=="world")return KEYNAV(d);if(MODE==="world")held=d};["pointerup","pointerleave","pointercancel"].forEach(ev=>b.addEventListener(ev,()=>{if(held===d)held=null}))});
 /* ================= título ================= */
-function title(){MODE="title";clearAll();music("title");cx.fillStyle="#0f380f";cx.fillRect(0,0,160,96);cx.fillStyle="#9bbc0f";cx.font="8px monospace";cx.fillText("EL RESIDENTE",42,30);cx.fillText("MINIATURA",50,42);person(72,52,"#ffffff","down",0);cx.font="6px monospace";{const s=(META.id+" · "+META.title).toUpperCase().slice(0,30);cx.fillText(s,Math.max(2,80-s.length*1.8),82)}hud();
+function title(){MODE="title";clearAll();duck(0);music("title");cx.fillStyle="#0f380f";cx.fillRect(0,0,160,96);cx.fillStyle="#9bbc0f";cx.font="8px monospace";cx.fillText("EL RESIDENTE",42,30);cx.fillText("MINIATURA",50,42);person(72,52,"#ffffff","down",0);cx.font="6px monospace";{const s=(META.id+" · "+META.title).toUpperCase().slice(0,30);cx.fillText(s,Math.max(2,80-s.length*1.8),82)}hud();
  pn.innerHTML='<div class="who">EL RESIDENTE MINIATURA · versión __BUILD__</div>'+hoyBox()+(G.siesta&&!G.siesta.ok&&Date.now()-G.siesta.t<3*36e5?'<div class="row"><button class="btn big" id="tz">☀ YA DESPERTÉ</button></div>':'')+'<div class="row"><button class="btn big" id="tg">⚔ GUARDIA DE HOY (20 preguntas)</button></div><div class="box small">'+esc(META.id+" · "+META.title)+': '+STORY.zones.length+' zonas, '+STORY.zones.reduce((a,z)=>a+z.trainers.length,0)+' entrenadores, '+STORY.zones.reduce((a,z)=>a+z.minigames.length,0)+' minijuegos y el jefe '+esc(META.bossShort)+' en '+STORY.boss.phases.length+' fases. 😴 = despertador. Muévete con las flechas (o WASD). <b>A</b>/Z = acción, <b>B</b>/X = menú. Tu avance se guarda en este navegador.</div><div class="row"><button class="btn" id="t1">'+(S.flags.in_0?"▶ CONTINUAR "+esc(META.id):"▶ JUGAR "+esc(META.id))+'</button><button class="btn alt" id="t2">CHEQUEO DE ALERTA</button><button class="btn alt" id="t3">REPASO ('+dueCount()+')</button></div>';
  const go=()=>{unlockAudio();if(!S.flags.in_0){MODE="dialog";return enterZone(0)}if(S.boss&&!S.done)return bossArena();enterZone(S.zone,true)};$("#t1").onclick=go;KEYA=go;if(LEVELS.length>1){$("#t1").insertAdjacentHTML("afterend",'<button class="btn" id="t4">🗺 MAPA</button>');$("#t4").onclick=()=>mapa(title)}$("#t3").insertAdjacentHTML("afterend",'<button class="btn alt" id="t5">💾 PARTIDA</button>');$("#t5").onclick=()=>partida(title);$("#t2").onclick=()=>pvt(title);$("#t3").onclick=()=>review(title);$("#tg").onclick=()=>{unlockAudio();guardia(title)};if($("#tz"))$("#tz").onclick=()=>despertar(title);
  $("#t3").insertAdjacentHTML("afterend",'<button class="btn alt" id="t6">📊 DOMINIO</button><button class="btn alt" id="t7">💤 SIESTA</button>');$("#t6").onclick=()=>dominio(title);$("#t7").onclick=()=>siesta(title)}
@@ -863,11 +864,12 @@ function guardia(back,temas,label){held=null;MODE="dialog";clearAll();music("puz
    $("#g1").onclick=()=>guardia(back,temas,label);$("#g2").onclick=back;KEYA=back;return}
   const q=qs[i];renderQ(q,(label||"⚔ GUARDIA")+" "+(i+1)+"/"+qs.length+" · "+(q.tema||"").slice(0,28),0,r=>{if(r)ok++;i++;step()},{glob:!ALL[q.id]})};step()}
 /* ================= DOMINIO: qué temas sé y cuáles pesan más ================= */
-function dominio(back){held=null;MODE="dialog";clearAll();const T=Object.values(temaStats()).sort((a,b)=>b.pri-a.pri);
+const shortT=n=>n.replace(/^(Enfermedad(es)?|Alteraciones del?) /,"").replace(/^(equilibrio|riñón|renal) /,"").split(" ").slice(0,3).join(" ");
+function dominio(back){duck(0);held=null;MODE="dialog";clearAll();const T=Object.values(temaStats()).sort((a,b)=>b.pri-a.pri);
  const col=t=>t.dom>=.7?"🟢":t.dom>=.4?"🟡":"🔴";const al=(G.alh||[]).filter(t=>Date.now()-t<7*DAY);const hrs=Array(24).fill(0);al.forEach(t=>hrs[new Date(t).getHours()]++);const top=hrs.map((n,h)=>[n,h]).filter(x=>x[0]).sort((a,b)=>b[0]-a[0]).slice(0,3);
  const pv=(G.pvt||[]).slice(-5);
  pn.innerHTML='<div class="who">📊 DOMINIO · faltan '+daysLeft()+' días</div><div class="small">Prioridad = peso en el examen × lo que te falta. Empieza por arriba.</div><table class="dom">'+T.map(t=>'<tr><td>'+col(t)+'</td><td>'+esc(t.name.slice(0,34))+'</td><td>'+t.seen+'/'+t.tot+'</td><td>'+(t.seen?Math.round(100*t.acc)+'%':'—')+'</td></tr>').join("")+'</table>'+
-  '<div class="row"><button class="btn big" id="d1">🎯 ESTUDIAR LO MÁS DÉBIL ('+T.slice(0,3).map(t=>t.name.split(" ")[0]).join(", ")+')</button></div>'+
+  '<div class="row"><button class="btn big" id="d1">🎯 ESTUDIAR LO MÁS DÉBIL ('+T.slice(0,3).map(t=>shortT(t.name)).join(", ")+')</button></div>'+
   '<div class="box small"><b>Somnolencia (7 días):</b> '+al.length+' alertas'+(top.length?' · más a las '+top.map(x=>x[1]+' h').join(", "):'')+(pv.length?'<br><b>Chequeos de alerta:</b> '+pv.map(p=>p.m+' ms/'+p.lp+' lapsos').join(" · "):'')+'<br><span class="small">Muéstraselo a tu médico del sueño para ajustar siestas y horarios.</span></div><div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
  $("#d1").onclick=()=>guardia(()=>dominio(back),T.slice(0,3).map(t=>t.id),"🎯 LO MÁS DÉBIL");$("#bk").onclick=back;KEYA=back}
 /* ================= SIESTA: repaso antes, pausa de alarma, recuperación al despertar ================= */
@@ -893,7 +895,7 @@ if(!BOT)setInterval(()=>{if(document.hidden||alertOn||Date.now()-lastPoke>90000)
 function hoyBox(){const d=(G.dia&&G.dia.f===hoyF())?G.dia:{n:0,ok:0};const due=dueCount();const pct=Math.min(100,Math.round(100*d.n/META_DIA));const bk=G.bk?Math.floor((Date.now()-G.bk)/DAY):null;
  return '<div class="box small hoy">📅 Faltan <b>'+daysLeft()+' días</b> para el Consejo (16 ene) · 🔥 racha '+racha()+'<div class="bar"><i style="width:'+pct+'%"></i></div>Hoy: <b>'+d.n+'/'+META_DIA+'</b> preguntas'+(d.n?' ('+Math.round(100*d.ok/d.n)+' %)':'')+' · vencidas: '+due+(bk===null||bk>=7?'<br>💾 '+(bk===null?'Aún no respaldas tu partida':'Último respaldo hace '+bk+' días')+': PARTIDA → COPIAR CÓDIGO.':'')+'</div>'}
 /* mapa de regiones: elegir nivel recarga la página con ese nivel */
-function mapa(back){MODE="dialog";clearAll();music("map");const built=new Set(LEVELS.map(l=>l.story.meta.id));
+function mapa(back){duck(0);MODE="dialog";clearAll();music("map");const built=new Set(LEVELS.map(l=>l.story.meta.id));
  pn.innerHTML='<div class="who">🗺 MAPA · '+Object.keys(G.done).length+' superados · '+(G.nef||0).toLocaleString("es-MX")+' nefronas salvadas</div>'+REGIONS.map(r=>'<div class="box small"><b>Región '+r.id+' · '+esc(r.name)+'</b> <span class="tag">ACTO '+esc(r.acto)+'</span><br>'+r.levels.map(([id,name])=>built.has(id)?'<button class="opt" data-lv="'+esc(id)+'"><b>'+(G.done[id]?'✓':'▶')+'</b>'+esc(id+' · '+name)+(id===META.id?' · AQUÍ':'')+'</button>':'<div class="small" style="opacity:.55;margin:3px 0">🔒 '+esc(id+' · '+name)+' (en construcción)</div>').join("")+'</div>').join("")+'<div class="row"><button class="btn" id="tw">🏛 TORRE DEL CONSEJO</button><button class="btn alt" id="bk">ATRÁS</button></div>';$("#tw").onclick=()=>torre(()=>mapa(back));
  pn.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>{const id=b.dataset.lv;if(id===META.id)return back();try{localStorage.setItem("rm_cur",id);touch("rm_cur")}catch(e){}sfx.travel();Promise.all([syncPush(),new Promise(r=>setTimeout(r,800))]).then(()=>location.reload())});
  $("#bk").onclick=back;KEYA=back}
@@ -911,7 +913,7 @@ function torreBuild(n){const by={},seen=new Set();Object.values(TB).sort((a,b)=>
  flat=shuf(flat);const ids=[];for(const s of flat){for(const q of s){if(ids.length<n)ids.push(q.id)}}return ids}
 function torreFails(){const ids=new Set();LEVELS.forEach(l=>{try{const s=JSON.parse(localStorage.getItem(l.story.meta.key));Object.entries((s&&s.srs)||{}).forEach(([id,r])=>{if(r.last===0&&TB[id])ids.add(id)})}catch(e){}});
  Object.entries(tLoad().fails||{}).forEach(([id,v])=>{if(v&&TB[id])ids.add(id)});return [...ids]}
-function torre(back){MODE="dialog";clearAll();held=null;music("torre");const T0=tLoad(),done=Object.keys(G.done).length,fl=T0.floors||{},fails=torreFails();
+function torre(back){duck(0);MODE="dialog";clearAll();held=null;music("torre");const T0=tLoad(),done=Object.keys(G.done).length,fl=T0.floors||{},fails=torreFails();
  $("#ttl").textContent="TORRE DEL CONSEJO";OVER=drawTorre;
  pn.innerHTML='<div class="who">🏛 TORRE DEL CONSEJO</div><div class="box small">La Esclerosis tomó la torre. 6 pisos de 50 preguntas de todos los temas, ponderadas por el temario. Niveles superados: '+done+'/'+LEVELS.length+'.'+(T0.best?' Mejor examen: '+T0.best+' %.':'')+'</div>'+
   (T0.run&&T0.run.ids&&T0.run.i<T0.run.ids.length?'<button class="opt" id="tr"><b>▶</b>Continuar '+esc(T0.run.label)+' ('+T0.run.i+'/'+T0.run.ids.length+')</button>':'')+

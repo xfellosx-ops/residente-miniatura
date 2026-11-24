@@ -153,7 +153,7 @@ LEVELS = [
  "boss": {"name": "El Tumor", "short": "Tumor", "color": "#B565A7", "dark": "#3a1a38",
   "intro": [("El Tumor", "Crezco en tu riñón, o lejos de él. Y lo que usas contra mí también lo daña."), (J, "Neoplasia renal, daño por tumor lejano y toxicidad del tratamiento.")],
   "phases": [("Neoplasias renales", ("El Tumor", "¿Qué soy y cómo me presento?")), ("Daño por tumor extrarrenal", ("El Tumor", "Te daño desde lejos.")), ("Antineoplásicos", ("El Tumor", "Tu arma te hiere.")), ("Inmunoterapia", ("El Tumor", "Solté a tus linfocitos."))],
-  "outro": [("El Tumor", "Retrocedo."), (B, "Fin del Acto II. Lo que sigue no se cura: se acompaña.")]},
+  "outro": [("El Tumor", "Retrocedo… pero cada ciclo de cisplatino me deja un recuerdo."), (B, "Fin del Acto II. Lo que sigue no se cura: se acompaña.")]},
  "vf": [("El carcinoma renal de células claras se asocia con pérdida de VHL.", "V", "Con acumulación de HIF y sobreproducción de VEGF."),
         ("El carcinoma renal puede producir eritrocitosis.", "V", "Por producción de eritropoyetina."),
         ("El cisplatino causa hipomagnesemia.", "V", "Por daño tubular; puede persistir."),

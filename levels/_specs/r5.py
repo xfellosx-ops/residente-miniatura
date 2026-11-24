@@ -192,7 +192,7 @@ LEVELS = [
  "boss": {"name": "El Clon", "short": "Clon", "color": "#D4A017", "dark": "#5a3a00",
   "intro": [("El Clon", "Soy pequeño. Cinco por ciento de la médula. Y aun así te apago los riñones."), (J, "Lesión, diagnóstico y tratar al clon, no al riñón.")],
   "phases": [("Espectro de lesiones", ("El Clon", "¿Cilindro, amiloide o depósito?")), ("Diagnóstico", ("El Clon", "La tira no me ve.")), ("Tratamiento del clon", ("El Clon", "¿Me filtras o me matas?")), ("VIH", ("El Clon", "Cambio de máscara: colapso."))],
-  "outro": [("El Clon", "Me apago."), (B, "Salió de diálisis. Tratar rápido al clon fue tratar al riñón.")]},
+  "outro": [("El Clon", "Me apago… si no tratas la clona, vuelvo en el corazón."), (B, "Salió de diálisis. Tratar rápido al clon fue tratar al riñón.")]},
  "vf": [("La tira reactiva de orina detecta bien las cadenas ligeras.", "F", "Detecta albúmina; la discrepancia con la proteinuria total da la pista."),
         ("Los cilindros del mieloma se forman con uromodulina.", "V", "En la rama ascendente gruesa y el túbulo distal."),
         ("El bortezomib requiere ajuste de dosis por función renal.", "F", "No lo requiere; es la base del tratamiento."),
