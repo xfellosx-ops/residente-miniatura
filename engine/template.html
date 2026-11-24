@@ -717,7 +717,7 @@ function floorTone(p,x,y){const t=BAY[(x&3)+((y&3)<<2)]/16-.5;let v;
   case"pores":if((x%4)===1&&(y%4)===1)return 0;v=vn(x/8,y/8,3);break;
   case"fibril":{const s=Math.sin(y*.55+2*Math.sin(x*.07));if(s>.96)return 0;v=vn(x/7,y/7,3);break}
   default:{const h=hsh(x>>2,y>>2);if(h%23===0){const ox=(h>>>5)&3,oy=(h>>>7)&3;if(x%4===ox&&y%4===oy)return 2;if(x%4===ox&&y%4===((oy+1)&3))return 0}v=vn(x/8,y/8,3)}}
- v+=t*.35;return v<.24?0:v>.8?2:1}
+ v+=t*.35;return v<.28?0:v>.74?2:1}
 /* objeto pequeño escalado (variación de tamaño sin reescalar píxeles) */
 function objDraw(o,s,anim,th){const k=o[1]||[th.w],o0=(16-16*s)/2,oy=16-16*s-(s<1?1:0);const P=(a,b,w,h,c)=>px(o0+a*s,oy+b*s,Math.max(1,w*s),Math.max(1,h*s),c),C=(a,b,r,c)=>circ(o0+a*s,oy+b*s,Math.max(1,Math.round(r*s)),c);OBJ[o[0]](P,C,k,anim)}
 /* piezas de referencia grandes (32×32) por estructura: glomérulo, arteriola, túbulo en corte, máquina de hemodiálisis */
@@ -754,7 +754,7 @@ function floorTile(tl,sx,sy,x,y,th){const f=th.f,sh=tint(f,-.2),sh2=tint(f,-.1);
  if(tl==="proximal"&&isWall(x,y+1))for(let i=1;i<16;i+=2)px(sx+i,sy+13,1,3,mix(f,"#e48aa8",.4))}
 /* construye el fondo estático de la zona */
 function worldBG(){if(MAP._bg)return MAP._bg;const th=MAP.theme,tl=MAP.tiles,W=MAP.W*16,H=MAP.H*16;const c=document.createElement("canvas");c.width=W;c.height=H;const g=c.getContext("2d");
- const wp=WPAT[tl]||"noise",fp=FPAT[tl]||"earth",WC=[tint(th.w,-.15),th.w,tint(th.w,.12),tint(th.w,-.34)].map(rgb),FC=[tint(th.f,-.07),th.f,tint(th.f,.35)].map(rgb),GC=rgb(th.g);
+ const wp=WPAT[tl]||"noise",fp=FPAT[tl]||"earth",WC=[tint(th.w,-.15),th.w,tint(th.w,.12),tint(th.w,-.34)].map(rgb),FC=[tint(th.f,lum(th.f)>215?-.1:-.07),th.f,lum(th.f)>215?tint(th.f,-.035):tint(th.f,.3)].map(rgb),GC=rgb(th.g);
  const seeds=new Map(),S=(a,b)=>{const k=a*4099+b;let v=seeds.get(k);if(v===undefined){v=hsh(a+911,b+313);seeds.set(k,v)}return v};
  const kind=[];for(let y=0;y<MAP.H;y++){kind.push([]);for(let x=0;x<MAP.W;x++){const t=MAP.g[y][x];kind[y].push(t==="#"?(isWall(x,y)?0:1):t===","?2:1)}}
  try{const im=g.createImageData(W,H),d=im.data;for(let y=0;y<H;y++){const ky=kind[y>>4];for(let x=0;x<W;x++){const k=ky[x>>4],i=(y*W+x)*4;const c3=k===0?WC[wallTone(wp,x,y,S)]:k===2?GC:FC[floorTone(fp,x,y)];d[i]=c3[0];d[i+1]=c3[1];d[i+2]=c3[2];d[i+3]=255}}g.putImageData(im,0,0)}catch(e){g.fillStyle=th.w;g.fillRect(0,0,W,H)}
