@@ -428,7 +428,9 @@ function personSpr(col,dir,frame,skin,look){const L=(typeof look==="string"?look
   /* piernas y zapatos */
   if(robe){P(3,15,10,3,robe);P(3,17,10,1,dk);P(4,18,3,1,shoe);P(9,18,3,1,shoe);if(f){P(f===1?4:9,17,3,1,shoe)}}
   else if(d==="down"||d==="up"){const l1=f===1?2:3,l2=f===2?2:3;P(4,15,3,l1,pants);P(9,15,3,l2,pants);P(4,15+l1,3,1,shoe);P(9,15+l2,3,1,shoe)}
-  else{const a=f===1?1:f===2?-1:0;P(5-a,15,3,3,tint(pants,-.15));P(7+a,15,3,3,pants);P(5-a,18,3,1,shoe);P(7+a,18,4,1,shoe)}
+  else{const a=f===1?2:f===2?-2:0;P(6-a,15,3,3,tint(pants,-.15));P(7+a,15,3,3,pants);P(6-a,18,3,1,tint(shoe,.15));P(7+a,18,4,1,shoe)}
+  /* brazo de atrás (de lado), detrás del torso: zancada de 2 px con brazos opuestos */
+  if(d!=="down"&&d!=="up"){const a=-sL*2;P(7+a,10,2,4,tint(top,-.3));P(7+a,14,2,1,tint(skin,-.2))}
   /* torso */
   P(3,9,10,6,top);P(3,14,10,1,dk);P(4,9,2,1,lt);
   if(robe){P(3,9,10,1,lt);P(7,10,2,5,dk)}
@@ -441,12 +443,14 @@ function personSpr(col,dir,frame,skin,look){const L=(typeof look==="string"?look
   else{if(coat){P(9,9,3,6,L?col:"#5b9be0");P(8,9,1,4,"#cfd8e4")}else if(scrub)P(10,9,2,2,skin);else if(!robe)P(9,10,2,3,dk)}
   /* brazos con balanceo y manos */
   const sleeve=top;if(d==="down"||d==="up"){const a1=d==="down"?sL:-sL;P(2,10,1,4+a1,sleeve);P(13,10,1,4-a1,sleeve);P(2,14+a1,1,1,skin);P(13,14-a1,1,1,skin)}
-  else{const a=sL;P(7+a,10,2,4,tint(sleeve,-.08));P(7+a*2,14,2,1,skin)}
+  else{const a=sL*2;P(7+(a>>1),10,2,2,tint(sleeve,-.08));P(7+a,12,2,2,tint(sleeve,-.08));P(7+a,14,2,1,skin)}
   /* cabeza: pelo fijo por personaje */
   P(2,1,12,8,hair);P(4,0,8,1,hair);
   if(d==="down"){P(3,4,10,5,skin);P(3,4,10,1,hair);P(3,5,2,1,hair);P(11,5,2,1,hair);P(5,6,2,2,ink);P(9,6,2,2,ink);P(5,6,1,1,"#fff");P(9,6,1,1,"#fff");P(4,8,1,1,"#e89a8a");P(11,8,1,1,"#e89a8a");P(7,8,2,1,"#b8655a")}
-  else if(d==="up"){P(3,7,10,2,tint(hair,-.2));P(5,2,5,1,tint(hair,.25))}
-  else{P(6,4,7,5,skin);P(6,4,7,1,hair);P(10,6,2,2,ink);P(10,6,1,1,"#fff");P(12,8,1,1,"#e89a8a");P(4,2,4,1,tint(hair,.25))}
+  /* espalda: mechones con 3 tonos, coronilla con brillo, nuca y orejas */
+  else if(d==="up"){for(let i=0;i<5;i++)P(3+i*2,3+(i%2),1,5-(i%2),tint(hair,-.18));P(5,2,6,1,tint(hair,.3));P(4,3,2,1,tint(hair,.18));P(9,3,2,1,tint(hair,.12));P(4,8,8,1,tint(hair,-.32));P(2,5,1,2,tint(skin,-.12));P(13,5,1,2,tint(skin,-.12))}
+  /* perfil lateral: nariz que sobresale, un ojo, oreja, nuca con pelo */
+  else{P(7,3,6,6,skin);P(13,5,1,2,skin);P(7,3,6,1,hair);P(7,4,2,1,hair);P(7,5,1,2,tint(skin,-.18));P(10,4,2,1,tint(hair,-.15));P(11,5,1,2,ink);P(10,7,1,1,"#e89a8a");P(11,8,2,1,"#b8655a");P(3,7,4,2,tint(hair,-.22));P(4,2,4,1,tint(hair,.25))}
   if(d!=="up")P(4,1,5,1,tint(hair,.25));
   if(O.pony){if(d==="down"){P(13,3,2,5,hair);P(14,8,1,2,hair)}else if(d==="up"){P(7,8,2,4,hair);P(7,8,2,1,"#e05a8a")}else{P(2,3,2,6,hair);P(1,8,2,2,hair);P(3,4,1,1,"#e05a8a")}}
   if(O.beard){if(d==="down"){P(4,7,8,2,O.beard);P(5,9,6,2,O.beard);P(6,11,4,1,O.beard);P(7,8,2,1,"#b8655a")}else if(d!=="up"){P(8,7,5,3,O.beard);P(9,10,3,1,O.beard)}}
