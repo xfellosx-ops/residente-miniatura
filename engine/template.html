@@ -930,8 +930,7 @@ function battleBG(tl,p,boss){const A=BOSSARENA(),key="bg|"+(boss?"boss|"+A.sky+A
    case"fib":for(let k=0;k<4;k++){const y0=34+k*5,col=mix(far,near,k/4);for(let x=0;x<160;x++){const y=y0+Math.sin(x*.06+k*1.7)*3;px(x,y,1,3,col);if(k===0)px(x,y,1,1,rimF)}}for(const x of[30,88,132])oval(x,40+(x%7),7,1,tint(near,-.25));hill(x=>53+Math.sin(x*.07)*2,near,rimN);break;
    case"peri":hill(x=>36+Math.abs(Math.sin(x*.07))*-6+8,far,rimF);hill(x=>46-Math.abs(Math.sin(x*.05+.6))*7+6,near,rimN);for(let x=4;x<160;x+=9)px(x,44-Math.abs(Math.sin(x*.05+.6))*7+6,2,1,tint(near,-.2));break;
    case"dial":for(let i=0;i<12;i++){const x=i*14+(i%2)*4,h=18+(i*7)%10;px(x,50-h,9,h,far);px(x+2,50-h,5,h,mix(far,sk[3],.5));px(x,50-h,9,1,rimF)}hill(()=>52,near,rimN);break;
-   case"hosp":px(0,14,160,36,mix(sk[2],far,.4));for(let i=0;i<5;i++){const x=6+i*32;px(x,18,22,18,far);px(x+1,19,20,16,sk[0]);px(x+11,19,1,16,far);px(x+1,27,20,1,far);px(x+2,20,6,2,"#ffffff")}px(0,12,160,2,tint(far,-.2));px(0,40,160,10,near);px(0,40,160,1,rimN);
-    for(const x of[40,118]){px(x,30,12,10,tint(near,-.3));px(x+1,31,10,7,"#0b2a1a");for(let k=0;k<10;k++)px(x+1+k,34-((k*3)%4),1,1,"#5cff8a")}break;
+   case"hosp":px(0,14,160,36,mix(sk[2],far,.4));for(let i=0;i<5;i++){const x=6+i*32;px(x,18,22,18,far);px(x+1,19,20,16,sk[0]);px(x+11,19,1,16,far);px(x+1,27,20,1,far);px(x+2,20,6,2,"#ffffff")}px(0,12,160,2,tint(far,-.2));px(0,40,160,10,near);px(0,40,160,1,rimN);break;
    default:/* glomerular: ovillos lobulados (asas capilares) con la cápsula de Bowman al fondo */
     for(const [x,r] of[[24,26],[96,30],[150,22]]){ring2(x,50,r,2,mix(far,sk[2],.4))}
     blobs([[6,44,7],[16,40,8],[28,42,7],[40,45,6],[78,43,8],[90,38,9],[104,41,8],[116,45,6],[138,44,7],[150,40,8]],far,rimF,.35);blobs([[30,54,10],[46,56,8],[120,55,11],[140,56,8]],near,rimN,.3)}
@@ -980,7 +979,7 @@ function drawBattle(){const b=BAT;const p=STORY.zones[Math.min(S.zone,STORY.zone
  else if(f){const sh=b.shake>0?(b.shake--%2?2:-2):0,rc=fxRecoil(b,"foe"),sq=fxSquash(b,"foe"),bob=Math.round(Math.sin(frame/12)),dead=f.hp<=0&&!boss;if(dead)b.fa=(b.fa||0)+1;
   const fa=dead?Math.min(22,b.fa):0,fin=b.ff?E((b.fin=(b.fin||0)+1)/14):1,x=118+sh+rc[0]+fOff+Math.round((1-fin)*-90);
   if(boss){const s=bossSprite(S.boss?bossPhase():1,STORY.boss.color||"#c23a7a",STORY.boss.dark||"#6a1f5e",STORY.boss.heads||1,fr);drawBoss(x,57+Math.round(bob/2)+rc[1],S.boss?bossPhase():1,s,sq)}
-  else if(pop>0){const s=drawCreature(0,0,shapeOfFoe(f),frame,{tcol:typeColor(f.type),k:1.6,ret:1}),bb=sprBB(s);drawSq(s,x,Math.max(oy+3-(s.height-1-bb[1]),s.height-bb[0]+1)+bob+rc[1]+Math.round(fa*1.6),sq[0]*pop,sq[1]*pop,dead?1-fa/22:(b.blink>0?.7:1),dead?oy+1:null)}
+  else if(pop>0){const s=drawCreature(0,0,shapeOfFoe(f),frame,{tcol:typeColor(f.type),k:1.6,ret:1}),bb=sprBB(s);drawSq(s,x,Math.max(oy+3+(s.height-1-bb[1]),s.height-bb[0]+1)+bob+rc[1]+Math.round(fa*1.6),sq[0]*pop,sq[1]*pop,dead?1-fa/22:(b.blink>0?.7:1),dead?oy+1:null)}
   if(b.blink>0)b.blink--}
  /* aliado (de espaldas) */
  if(b.af&&b.af.t<22){const o=b.af;o.t++;drawSq(allySpr(o.o.id,CREA[o.o.id],o.o.evo,0),40,90+Math.round(o.t*1.4),1,1,1-o.t/22,86)}
