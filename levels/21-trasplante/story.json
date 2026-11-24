@@ -402,55 +402,17 @@
      "pairs": []
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
-      [
-       "Rechazo celular (TCMR)",
-       "Tubulitis + inflamación intersticial"
-      ],
-      [
-       "Rechazo humoral (AMR)",
-       "DSA + C4d + capilaritis"
-      ],
-      [
-       "Prueba cruzada virtual",
-       "DSA por antígeno único (Luminex)"
-      ],
-      [
-       "Nefropatía por BK",
-       "Reducir inmunosupresión"
-      ],
-      [
-       "CMV D+/R−",
-       "Valganciclovir 6 meses"
-      ],
-      [
-       "Función retardada",
-       "Diálisis en 1.ª semana"
-      ],
-      [
-       "KDPI",
-       "Calidad del donante fallecido"
-      ],
-      [
-       "Inhibidor mTOR",
-       "Linfocele, proteinuria, mala cicatrización"
-      ],
-      [
-       "Desensibilización",
-       "IVIG + plasmaféresis ± rituximab"
-      ],
-      [
-       "Imlifidasa",
-       "Escinde IgG"
-      ],
-      [
-       "PTLD",
-       "Asociado a VEB"
-      ]
-     ]
+     "type": "algoritmo",
+     "title": "Viremia BK en el trasplante",
+     "items": [
+      "Tamizaje PCR mensual hasta el mes 9",
+      "Carga baja aislada: repetir en ~2 semanas",
+      "Persistente o > 10 000 copias/mL: reducir IS",
+      "Reducir MMF y luego ICN de forma escalonada",
+      "PCR-BK cada 2–4 semanas",
+      "Reintroducir IS al resolver la viremia"
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -679,17 +641,98 @@
      ]
     },
     {
-     "type": "algoritmo",
-     "title": "Disfunción del injerto",
+     "type": "clasif",
+     "title": "Inmunosupresor: diana molecular",
+     "bins": [
+      "Calcineurina o mTOR",
+      "Otra diana"
+     ],
      "items": [
-      "Ascenso de creatinina confirmado",
-      "Volumen, fármacos y niveles de tacrolimus",
-      "Ecografía Doppler del injerto",
-      "DSA y PCR de BK",
-      "Biopsia del injerto",
-      "Tratamiento según Banff"
+      [
+       "Tacrolimus",
+       "Calcineurina o mTOR"
+      ],
+      [
+       "Ciclosporina",
+       "Calcineurina o mTOR"
+      ],
+      [
+       "Sirolimus",
+       "Calcineurina o mTOR"
+      ],
+      [
+       "Everolimus",
+       "Calcineurina o mTOR"
+      ],
+      [
+       "Micofenolato: IMPDH",
+       "Otra diana"
+      ],
+      [
+       "Belatacept: CD80/CD86",
+       "Otra diana"
+      ],
+      [
+       "Basiliximab: CD25",
+       "Otra diana"
+      ],
+      [
+       "Bortezomib: proteasoma",
+       "Otra diana"
+      ]
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Rechazo celular (TCMR)",
+       "Tubulitis + inflamación intersticial"
+      ],
+      [
+       "Rechazo humoral (AMR)",
+       "DSA + C4d + capilaritis"
+      ],
+      [
+       "Prueba cruzada virtual",
+       "DSA por antígeno único (Luminex)"
+      ],
+      [
+       "Nefropatía por BK",
+       "Reducir inmunosupresión"
+      ],
+      [
+       "CMV D+/R−",
+       "Valganciclovir 6 meses"
+      ],
+      [
+       "Función retardada",
+       "Diálisis en 1.ª semana"
+      ],
+      [
+       "KDPI",
+       "Calidad del donante fallecido"
+      ],
+      [
+       "Inhibidor mTOR",
+       "Linfocele, proteinuria, mala cicatrización"
+      ],
+      [
+       "Desensibilización",
+       "IVIG + plasmaféresis ± rituximab"
+      ],
+      [
+       "Imlifidasa",
+       "Escinde IgG"
+      ],
+      [
+       "PTLD",
+       "Asociado a VEB"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -900,14 +943,14 @@
     },
     {
      "type": "algoritmo",
-     "title": "Viremia BK en el trasplante",
+     "title": "Disfunción del injerto",
      "items": [
-      "Tamizaje PCR mensual hasta el mes 9",
-      "Carga baja aislada: repetir en ~2 semanas",
-      "Persistente o > 10 000 copias/mL: reducir IS",
-      "Reducir MMF y luego ICN de forma escalonada",
-      "PCR-BK cada 2–4 semanas",
-      "Reintroducir IS al resolver la viremia"
+      "Ascenso de creatinina confirmado",
+      "Volumen, fármacos y niveles de tacrolimus",
+      "Ecografía Doppler del injerto",
+      "DSA y PCR de BK",
+      "Biopsia del injerto",
+      "Tratamiento según Banff"
      ],
      "pairs": []
     }

@@ -615,5 +615,158 @@
    "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
   ],
   "tipo_item": "nueva"
+ },
+ {
+  "id": "FSJ-1",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Hemodinámica glomerular y fármacos",
+  "caso": "Se revisan efectos sobre las arteriolas glomerulares.",
+  "enunciado": "¿Qué efecto produce vasoconstricción aferente y caída de la TFG?",
+  "perla": "La angiotensina II contrae más la eferente que la aferente y reduce Kf: TFG estable. RBF ~1200 mL/min (20% del GC), FF 20–25%.",
+  "referencias": [
+   "Bailey MA, Unwin RJ. Renal Physiology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 2"
+  ],
+  "serie_id": "FSJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "IECA y ARA II",
+   "B": "Dieta hiperproteica",
+   "C": "Óxido nítrico y PGE2",
+   "D": "Péptido natriurético auricular",
+   "E": "Ciclosporina y AINE"
+  },
+  "explicaciones": {
+   "A": "Dilatan la eferente: menor presión glomerular.",
+   "B": "Dilata la aferente y aumenta la TFG.",
+   "C": "Vasodilatadores.",
+   "D": "Dilata la aferente y aumenta la TFG.",
+   "E": "Correcto. También simpático, epinefrina y adenosina."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Bases estructurales y funcionales del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FSJ-2",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "iSGLT2 y retroalimentación tubuloglomerular",
+  "caso": "Paciente con nefropatía diabética que inicia un iSGLT2 y su TFGe baja 4 mL/min a las 2 semanas.",
+  "enunciado": "¿Cuál es el mecanismo?",
+  "perla": "Autorregulación con PAM 80–180: miogénica y retroalimentación tubuloglomerular. COX-2 de mácula densa estimula la renina; AINE: estado hiporreninémico.",
+  "referencias": [
+   "Bailey MA, Unwin RJ. Renal Physiology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 2",
+   "Ellison DH. Disorders of Extracellular Volume. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 8"
+  ],
+  "serie_id": "FSJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Vasodilatación eferente directa marcada",
+   "B": "Necrosis tubular por glucosuria",
+   "C": "Retroalimentación tubuloglomerular",
+   "D": "Depleción grave de volumen",
+   "E": "Bloqueo de la aldosterona"
+  },
+  "explicaciones": {
+   "A": "El efecto principal es aferente.",
+   "B": "No hay daño estructural.",
+   "C": "Correcto. Menos reabsorción proximal de Na: más NaCl distal, ATP y adenosina A1 contraen la aferente y baja la presión glomerular.",
+   "D": "Es un efecto hemodinámico esperado.",
+   "E": "No es su mecanismo."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Bases estructurales y funcionales del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FSJ-3",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Túbulo proximal: transporte",
+  "caso": "Se revisan funciones del túbulo proximal.",
+  "enunciado": "¿Qué dato es correcto?",
+  "perla": "NHE3 es el principal intercambiador; los iSGLT2 también lo inhiben. Proximal depende de fosforilación oxidativa: vulnerable a isquemia.",
+  "referencias": [
+   "Bailey MA, Unwin RJ. Renal Physiology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 2"
+  ],
+  "serie_id": "FSJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "SGLT1 reabsorbe la mayor parte de la glucosa",
+   "B": "SGLT2 reabsorbe casi toda la glucosa",
+   "C": "Reabsorbe 20% del fosfato filtrado",
+   "D": "La reabsorción es hipertónica",
+   "E": "No secreta aniones orgánicos"
+  },
+  "explicaciones": {
+   "A": "Es minoritario.",
+   "B": "Correcto. SGLT1 en S3 aporta ~10%.",
+   "C": "Reabsorbe ~80%, además de ~60% del calcio y 50% de la urea.",
+   "D": "Es isoosmótica, con AQP1.",
+   "E": "Secreta diuréticos, PAH, AINE y antirretrovirales por SLC22."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Bases estructurales y funcionales del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FSJ-4",
+  "tema_id": 1,
+  "sub": "1",
+  "obj": "1.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Receptores de vasopresina y acuaporinas",
+  "caso": "Niño varón con poliuria desde el nacimiento, sin respuesta a desmopresina.",
+  "enunciado": "¿Cuál es la causa hereditaria más frecuente?",
+  "perla": "V2 basolateral → AMPc → inserción de AQP2. Hipopotasemia reduce AQP2; hipercalcemia actúa por CaSR apical en colector y basolateral en el asa.",
+  "referencias": [
+   "Bailey MA, Unwin RJ. Renal Physiology. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 2"
+  ],
+  "serie_id": "FSJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mutación autosómica de AQP3",
+   "B": "Defecto del receptor V1a",
+   "C": "Mutación de AQP1",
+   "D": "Defecto del receptor V1b",
+   "E": "Receptor V2 ligado al X"
+  },
+  "explicaciones": {
+   "A": "AQP3 y AQP4 basolaterales son constitutivas.",
+   "B": "V1a es vascular.",
+   "C": "No es causa de DI nefrogénica.",
+   "D": "V1b es hipofisaria (ACTH).",
+   "E": "Correcto. Las formas autosómicas recesivas o dominantes afectan AQP2."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Bases estructurales y funcionales del riñón",
+  "tipo_item": "nueva"
  }
 ]

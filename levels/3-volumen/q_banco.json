@@ -599,5 +599,157 @@
    "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
   ],
   "tipo_item": "nueva"
+ },
+ {
+  "id": "FSJ-5",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Elección de cristaloide",
+  "caso": "Paciente séptico que requiere expansión de volumen.",
+  "enunciado": "¿Qué opción está respaldada por la evidencia?",
+  "perla": "Choque: 1–2 L de cristaloide. Johnson: de la salina, 1/3 queda intravascular. Solución oral de rehidratación: 50–90 mmol/L de Na frente a 7–20 de bebidas deportivas.",
+  "referencias": [
+   "Ellison DH. Disorders of Extracellular Volume. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 8"
+  ],
+  "serie_id": "FSJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hidroxietilalmidón al 6%",
+   "B": "Albúmina al 4% por superioridad",
+   "C": "Cristaloide balanceado",
+   "D": "Bicarbonato si pH 7.25",
+   "E": "Manitol para expandir"
+  },
+  "explicaciones": {
+   "A": "Aumenta mortalidad y TRR en sepsis: evitar.",
+   "B": "En SAFE fue equivalente a salina.",
+   "C": "Correcto. En SMART los cristaloides balanceados redujeron eventos renales mayores frente a salina.",
+   "D": "Solo con pH <7.1.",
+   "E": "No es un expansor apropiado."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FSJ-6",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Evaluación de la volemia efectiva",
+  "caso": "Mujer con vómito persistente, alcalosis metabólica, Na urinario 45 mEq/L y Cl urinario 8 mEq/L.",
+  "enunciado": "¿Cómo se interpreta?",
+  "perla": "FC >100 o aumento postural >30, caída de PAS >20 de pie; BUN/Cr >20 en hipovolemia, sangrado alto o esteroides. FENa <1% en hipovolemia.",
+  "referencias": [
+   "Ellison DH. Disorders of Extracellular Volume. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 8"
+  ],
+  "serie_id": "FSJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hipovolemia con bicarbonaturia",
+   "B": "Volumen normal por Na urinario >20",
+   "C": "Uso subrepticio de diuréticos de asa",
+   "D": "Síndrome de Bartter",
+   "E": "Secreción inapropiada de ADH"
+  },
+  "explicaciones": {
+   "A": "Correcto. En alcalosis la bicarbonaturia arrastra Na; el cloro urinario bajo refleja mejor la depleción.",
+   "B": "El Na urinario engaña en alcalosis.",
+   "C": "Cl urinario alto mientras actúa el diurético.",
+   "D": "Cl urinario alto.",
+   "E": "No hay hipovolemia en el SIADH."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FSJ-7",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Retención de sodio en el nefrótico",
+  "caso": "Adolescente con síndrome nefrótico, edema masivo y respuesta pobre a furosemida.",
+  "enunciado": "¿Qué mecanismo explica la retención de sodio y qué fármaco lo aprovecha?",
+  "perla": "Subllenado: cambios mínimos en niños, albúmina <2 g/dL, riesgo de LRA. La natriuresis en remisión precede a la subida de albúmina.",
+  "referencias": [
+   "Ellison DH. Disorders of Extracellular Volume. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 8"
+  ],
+  "serie_id": "FSJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hiperaldosteronismo primario; eplerenona",
+   "B": "Activación de ENaC por plasmina; amilorida",
+   "C": "Exceso de AVP; tolvaptán",
+   "D": "Activación de NCC; tiazida sola",
+   "E": "Más NHE3 proximal; acetazolamida"
+  },
+  "explicaciones": {
+   "A": "No es la causa.",
+   "B": "Correcto. Proteasas urinarias como la plasmina activan ENaC; es retención primaria tipo sobrellenado.",
+   "C": "Los vaptanes no sirven para edema.",
+   "D": "La tiazida ayuda solo en combinación.",
+   "E": "Diurético débil."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FSJ-8",
+  "tema_id": 3,
+  "sub": "3",
+  "obj": "3.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Cirrosis y volemia efectiva",
+  "caso": "Paciente cirrótico con ascitis.",
+  "enunciado": "¿Cuál es el mecanismo y el esquema diurético inicial?",
+  "perla": "Paracentesis con albúmina. En IC: angiotensina II y estímulo α proximal reducen el Na distal y no hay escape de aldosterona.",
+  "referencias": [
+   "Ellison DH. Disorders of Extracellular Volume. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 8"
+  ],
+  "serie_id": "FSJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hipervolemia primaria; furosemida",
+   "B": "Hipoalbuminemia aislada; albúmina diaria",
+   "C": "Exceso de AVP; tolvaptán",
+   "D": "Vasodilatación esplácnica; 100:40",
+   "E": "Insuficiencia suprarrenal; esteroides"
+  },
+  "explicaciones": {
+   "A": "No es primaria.",
+   "B": "No es el mecanismo central.",
+   "C": "No trata el edema.",
+   "D": "Correcto. NO y CO generan subllenado arterial; la aldosterona alta justifica el antagonista mineralocorticoide.",
+   "E": "No es lo descrito."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Control del volumen y la composición de los líquidos corporales",
+  "tipo_item": "nueva"
  }
 ]

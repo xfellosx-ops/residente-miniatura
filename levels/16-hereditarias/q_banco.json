@@ -2176,5 +2176,728 @@
   "tema": "Enfermedades hereditarias del riñón",
   "obj": "16.o2",
   "peso": 14.6
+ },
+ {
+  "id": "HRJ-1",
+  "tema_id": 16,
+  "sub": "16.a.i",
+  "obj": "16.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Bartter tipo 2 neonatal",
+  "caso": "Recién nacido prematuro con antecedente de polihidramnios, hiponatremia e hiperpotasemia al tercer día; a las 3 semanas presenta hipopotasemia con alcalosis.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "perla": "Bartter 1 y 2: hipercalciuria y nefrocalcinosis por pérdida del voltaje luminal positivo. El polihidramnios con proteína alta en líquido amniótico sugiere Bartter prenatal.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Seudohipoaldosteronismo tipo 1",
+   "B": "Hiperplasia suprarrenal congénita",
+   "C": "Bartter tipo 2 por KCNJ1",
+   "D": "Síndrome de Gitelman",
+   "E": "Bartter tipo 3"
+  },
+  "explicaciones": {
+   "A": "Aldosterona muy alta, pero no evoluciona a hipopotasemia.",
+   "B": "No evoluciona así.",
+   "C": "Correcto. ROMK también secreta K en el colector: al inicio da hiperpotasemia que imita PHA1; luego otros canales compensan.",
+   "D": "Inicio tardío, sin polihidramnios.",
+   "E": "Forma clásica de inicio más tardío."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-2",
+  "tema_id": 16,
+  "sub": "16.a.i",
+  "obj": "16.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Bartter tipo 4",
+  "caso": "Lactante con Bartter grave, sordera neurosensorial y TFG en descenso.",
+  "enunciado": "¿Qué gen está afectado?",
+  "perla": "Bartter 3 (CLCNKB): forma clásica en la primera década, hipomagnesemia frecuente y fenotipo que puede imitar Gitelman.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "SLC12A1, que codifica NKCC2",
+   "B": "CLCNKB aislado",
+   "C": "CASR con ganancia de función",
+   "D": "SLC12A3, que codifica NCC",
+   "E": "BSND, que codifica barttina"
+  },
+  "explicaciones": {
+   "A": "Tipo 1: sin sordera.",
+   "B": "Tipo 3: CLC-Ka compensa en el oído.",
+   "C": "Tipo 5 o hipocalcemia autosómica dominante.",
+   "D": "Gitelman.",
+   "E": "Correcto. Barttina es subunidad de CLC-Ka y CLC-Kb en riñón y oído interno; su pérdida equivale a perder ambos canales. ERC progresiva común."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-3",
+  "tema_id": 16,
+  "sub": "16.a.i",
+  "obj": "16.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Tratamiento del Bartter prenatal",
+  "caso": "Lactante con Bartter prenatal, poliuria, retraso del crecimiento y renina muy alta.",
+  "enunciado": "¿Cuál es un componente clave del tratamiento?",
+  "perla": "Puede haber DI nefrogénica secundaria: mucho soluto puede causar hipernatremia. Suplementos pequeños y frecuentes son más seguros que dosis altas.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Indometacina",
+   "B": "Espironolactona",
+   "C": "Tiazidas",
+   "D": "Restricción salina",
+   "E": "Desmopresina"
+  },
+  "explicaciones": {
+   "A": "Correcto. Corrige la retroalimentación tubuloglomerular patológica mediada por PGE2: menos poliuria, mejor crecimiento y electrolitos.",
+   "B": "Empeora la pérdida salina: solo con suplemento suficiente.",
+   "C": "No es lo indicado.",
+   "D": "Es un síndrome perdedor de sal.",
+   "E": "No responde."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-4",
+  "tema_id": 16,
+  "sub": "16.a.ii",
+  "obj": "16.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Seudo-Bartter por diarrea clorurada congénita",
+  "caso": "Lactante con alcalosis hipopotasémica hipoclorémica, pañales muy húmedos y cloro urinario muy bajo.",
+  "enunciado": "¿Qué diagnóstico debe considerarse?",
+  "perla": "Demostrar pérdida renal de sal; luego Mg y calcio urinario orientan entre Bartter y Gitelman. Confirmar con genética.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Bartter tipo 1",
+   "B": "Síndrome de Gitelman",
+   "C": "Diuréticos de asa",
+   "D": "Diarrea clorurada",
+   "E": "Síndrome de Liddle"
+  },
+  "explicaciones": {
+   "A": "Cloro urinario alto.",
+   "B": "Cloro urinario alto.",
+   "C": "Cloro urinario alto mientras actúa.",
+   "D": "Correcto. Bioquímica sérica idéntica; las heces líquidas se confunden con orina. FECl <0.5% indica pérdida extrarrenal.",
+   "E": "Hipertensión con renina baja."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-5",
+  "tema_id": 16,
+  "sub": "16.a.ii",
+  "obj": "16.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Gitelman: evolución y manejo",
+  "caso": "Mujer de 28 años con Gitelman, fatiga y calambres pese a suplementos.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Prevalencia ~1:40,000: la tubulopatía hereditaria más frecuente. Sal liberal, K y Mg orales (limitados por diarrea). Diferencial: Bartter 3, HNF1B, EAST, tiazidas, Sjögren.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Los AINE son muy eficaces",
+   "B": "Puede desarrollar condrocalcinosis",
+   "C": "El pronóstico renal es malo",
+   "D": "La gravedad bioquímica predice los síntomas",
+   "E": "Es autosómica dominante"
+  },
+  "explicaciones": {
+   "A": "Suelen no ayudar.",
+   "B": "Correcto. También calcificaciones escleracoroideas en etapas tardías.",
+   "C": "Buen pronóstico cardiaco y renal.",
+   "D": "No hay correlación clara.",
+   "E": "Autosómica recesiva."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-6",
+  "tema_id": 16,
+  "sub": "16.b.iii",
+  "obj": "16.o2",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Exceso aparente de mineralocorticoides",
+  "caso": "Niño de 4 años con bajo peso al nacer, HTA grave, hipopotasemia, alcalosis, renina y aldosterona suprimidas.",
+  "enunciado": "¿Qué estudio confirma la sospecha y cuál es el mejor tratamiento?",
+  "perla": "Déficit de 11β-HSD2 renal y placentaria: restricción del crecimiento intrauterino. Regaliz y carbenoxolona dan la forma adquirida.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "18-oxocortisol; dexametasona",
+   "B": "Supresión salina; adrenalectomía",
+   "C": "Renina posicional; IECA",
+   "D": "Perfil de esteroides; amilorida",
+   "E": "Genética de WNK4; tiazida"
+  },
+  "explicaciones": {
+   "A": "Corresponde a hiperaldosteronismo remediable con glucocorticoides.",
+   "B": "Aldosterona suprimida.",
+   "C": "No es útil.",
+   "D": "Correcto. Metabolitos de cortisol altos frente a cortisona. Los antagonistas de MR compiten con cortisol 1000 veces más concentrado: amilorida o combinación es más eficaz.",
+   "E": "Corresponde a Gordon."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-7",
+  "tema_id": 16,
+  "sub": "16.b.ii",
+  "obj": "16.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Síndrome de Gordon: genética",
+  "caso": "Niño sin antecedentes familiares con HTA, potasio 6.8 mEq/L y acidosis hiperclorémica marcada.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Genes: WNK4 (pérdida de función), WNK1 (sobreexpresión), KLHL3 y CUL3. Tacrolimus causa una forma adquirida.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "CUL3 suele ser de novo y más grave",
+   "B": "Requiere historia familiar positiva",
+   "C": "No responde a tiazidas",
+   "D": "Se debe a pérdida de función de NCC",
+   "E": "La renina suele estar alta"
+  },
+  "explicaciones": {
+   "A": "Correcto. El fenotipo CUL3 tiene más K, más acidosis e HTA, con diagnóstico más temprano.",
+   "B": "CUL3 es frecuentemente de novo.",
+   "C": "Las tiazidas corrigen el cuadro.",
+   "D": "Hay hiperactividad de NCC.",
+   "E": "Suele estar suprimida."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-8",
+  "tema_id": 16,
+  "sub": "16.b.i",
+  "obj": "16.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Síndrome de Liddle: mecanismo",
+  "caso": "Adolescente con HTA, hipopotasemia, renina y aldosterona bajas, sin respuesta a espironolactona.",
+  "enunciado": "¿Cuál es el mecanismo molecular?",
+  "perla": "Amilorida o triamtereno de por vida. Tras trasplante no recurre.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Déficit de 11β-HSD2",
+   "B": "Gen quimérico CYP11B1/CYP11B2",
+   "C": "Ganancia de función del MR",
+   "D": "Pérdida de función de WNK4",
+   "E": "ENaC no reconocido por NEDD4"
+  },
+  "explicaciones": {
+   "A": "Exceso aparente de mineralocorticoides.",
+   "B": "Hiperaldosteronismo remediable con glucocorticoides.",
+   "C": "Forma con HTA agravada en el embarazo.",
+   "D": "Gordon.",
+   "E": "Correcto. Truncamiento C-terminal de β o γ: el canal no se ubiquitina y permanece en la membrana."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-9",
+  "tema_id": 16,
+  "sub": "16.d.ii",
+  "obj": "16.o5",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Prueba con DDAVP intravenosa",
+  "caso": "Lactante con DI nefrogénica confirmada; se aplica DDAVP 0.3 µg/kg IV.",
+  "enunciado": "¿Qué hallazgo sugiere forma autosómica por AQP2?",
+  "perla": "Sin respuesta: Uosm <200. Respuesta intermedia: DI parcial o lavado medular; repetir dosis. En lactantes la concentración madura en el primer año.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Osmolalidad urinaria >800 mOsm/kg",
+   "B": "Ausencia de cualquier efecto vascular",
+   "C": "Aumento del factor von Willebrand",
+   "D": "Hiponatremia aguda grave",
+   "E": "Polihidramnios previo"
+  },
+  "explicaciones": {
+   "A": "Respuesta renal normal.",
+   "B": "Sugiere mutación de AVPR2.",
+   "C": "Correcto. En AQP2 el receptor V2 está íntegro y conserva los efectos vasculares; en las formas ligadas al X (>90%) no.",
+   "D": "Riesgo si responde y sigue bebiendo.",
+   "E": "La DI nefrogénica no lo causa: la placenta depura la carga osmótica."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-10",
+  "tema_id": 16,
+  "sub": "16.d.ii",
+  "obj": "16.o5",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Tratamiento de la DI nefrogénica congénita",
+  "caso": "Lactante con DI nefrogénica, osmolalidad urinaria media de 100 mOsm/kg y carga osmótica de 15 mOsm/kg/día.",
+  "enunciado": "¿Qué volumen urinario se espera y qué combinación reduce la poliuria?",
+  "perla": "Indometacina es la más eficaz en lactantes, con riesgo GI y renal. Dietista para reducir carga osmótica sin comprometer proteína y calorías.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "50 mL/kg/día; desmopresina",
+   "B": "150 mL/kg/día; tiazida con amilorida",
+   "C": "300 mL/kg/día; furosemida",
+   "D": "100 mL/kg/día; restricción de agua",
+   "E": "150 mL/kg/día; tolvaptán"
+  },
+  "explicaciones": {
+   "A": "No responde a desmopresina.",
+   "B": "Correcto. Carga ÷ osmolalidad. La tiazida con poca sal induce contracción leve y más reabsorción proximal; amilorida evita hipopotasemia.",
+   "C": "No es lo indicado.",
+   "D": "Riesgo de deshidratación hipernatrémica.",
+   "E": "No tiene sentido en DI."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-11",
+  "tema_id": 16,
+  "sub": "16.d.ii",
+  "obj": "16.o5",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Síndrome nefrogénico de antidiuresis inapropiada",
+  "caso": "Lactante varón con hiponatremia recurrente, orina concentrada y vasopresina indetectable.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "perla": "Variantes de GNAS también lo causan. Varones más afectados.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "SIADH; tolvaptán",
+   "B": "DI nefrogénica; tiazida",
+   "C": "Insuficiencia suprarrenal; hidrocortisona",
+   "D": "Polidipsia primaria; restricción",
+   "E": "Ganancia de función de AVPR2; urea oral"
+  },
+  "explicaciones": {
+   "A": "En el SIADH la AVP no está suprimida.",
+   "B": "Es la imagen opuesta.",
+   "C": "No es lo descrito.",
+   "D": "La orina estaría diluida.",
+   "E": "Correcto. Ligado al X dominante; la restricción hídrica es difícil en lactantes; los acuaréticos no sirven."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-1",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Alport autosómico dominante",
+  "caso": "Hombre de 45 años con microhematuria, proteinuria de 1.2 g/día, GEFS en la biopsia y variante heterocigota patogénica de COL4A3.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Antes: ligado al X 80%, AR 15%, AD 5%. Prevalencia ~1:50,000; segunda enfermedad renal monogénica tras la poliquistosis.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Es nefropatía de membrana delgada benigna",
+   "B": "La variante es incidental y sin relación",
+   "C": "Se clasifica como Alport autosómico dominante",
+   "D": "Progresa más rápido que la forma ligada al X",
+   "E": "Las lesiones oculares son frecuentes"
+  },
+  "explicaciones": {
+   "A": "Los autores prefieren clasificar todos los heterocigotos COL4A3/4 como Alport AD.",
+   "B": "Explica la GEFS.",
+   "C": "Correcto. Con NGS representa 20–30% de las familias; espectro desde hematuria aislada hasta ERCT, incluida GEFS.",
+   "D": "Su evolución es más lenta.",
+   "E": "Casi nunca hay lesiones oculares."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-2",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Mujer portadora de COL4A5 como donante",
+  "caso": "Madre de 42 años, portadora de variante de COL4A5, con microhematuria, PA y proteinuria normales, desea donar a su hijo con Alport.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "No deben donar las portadoras con proteinuria, HTA, TFG reducida o hipoacusia. Más de 90% tiene microhematuria; ≥75% desarrolla proteinuria.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Su riesgo de ERCT es nulo",
+   "B": "Puede donar aunque tenga hipoacusia",
+   "C": "La donación no altera la PA en portadoras",
+   "D": "La hematuria aislada contraindica la evaluación",
+   "E": "Su riesgo de ERCT supera al de otro donante"
+  },
+  "explicaciones": {
+   "A": "No es nulo.",
+   "B": "La hipoacusia contraindica.",
+   "C": "Se observó HTA de novo.",
+   "D": "No contraindica la evaluación; decidir con la familia.",
+   "E": "Correcto. 12% de las portadoras llega a ERCT antes de los 40, 30% a los 60 y 40% a los 80; en una serie, la mayoría de donantes portadoras desarrolló HTA, proteinuria o caída de TFG."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-3",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefroprotección temprana en Alport",
+  "caso": "Niño de 6 años con Alport ligado al X por variante truncante, microalbuminuria y TFG normal.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "El beneficio se observa con variantes truncantes y no truncantes. Fuente más reciente: EARLY PRO-TECT, ensayo aleatorizado con ramipril en niños.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588",
+   "Gross O, et al. Safety and efficacy of the ACE-inhibitor ramipril in Alport syndrome: the EARLY PRO-TECT Alport trial. Kidney Int 2020;97:1275-1286. doi:10.1016/j.kint.2019.12.015"
+  ],
+  "serie_id": "GHJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Iniciar IECA ya",
+   "B": "Esperar a proteinuria nefrótica",
+   "C": "Esperar a que baje la TFG",
+   "D": "Ciclosporina",
+   "E": "Prednisona"
+  },
+  "explicaciones": {
+   "A": "Correcto. Iniciado con TFG normal, el IECA retrasa la ERCT años: en hermanos discordantes, mediana de 13 años. EARLY PRO-TECT (2020) confirmó su seguridad pediátrica.",
+   "B": "Tarde.",
+   "C": "Tarde.",
+   "D": "No recomendada.",
+   "E": "Sin papel."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-4",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Anti-MBG en el injerto en Alport",
+  "caso": "Varón con Alport ligado al X por deleción grande que, 6 meses tras el trasplante, presenta GN rápidamente progresiva del injerto.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "perla": "Supervivencia del injerto equivalente a otras causas.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Recurrencia del Alport",
+   "B": "Nefropatía por IgA recurrente",
+   "C": "Toxicidad por tacrolimus",
+   "D": "Nefritis anti-MBG de novo",
+   "E": "Nefropatía por BK"
+  },
+  "explicaciones": {
+   "A": "El Alport no recurre.",
+   "B": "No es lo descrito.",
+   "C": "No causa GN rápidamente progresiva.",
+   "D": "Correcto. El injerto expresa la red α3–α4–α5(IV) que el receptor nunca tuvo; ocurre en 2–3% de los varones, casi siempre el primer año.",
+   "E": "No es lo descrito."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-5",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Inmunofluorescencia de colágeno IV",
+  "caso": "Mujer de 20 años sin antecedentes familiares con Alport grave; IF: ausencia de α3, α4 y α5(IV) en MBG, pero α5(IV) presente en la cápsula de Bowman y la membrana basal epidérmica.",
+  "enunciado": "¿Qué forma sugiere?",
+  "perla": "Una IF normal no excluye Alport. Lenticono anterior: casi patognomónico, ~15% de varones con XLAS, asociado a ERCT antes de los 30 y sordera.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ligada al X en varón",
+   "B": "Autosómica recesiva",
+   "C": "Portadora ligada al X con mosaicismo",
+   "D": "Autosómica dominante",
+   "E": "Membrana basal normal"
+  },
+  "explicaciones": {
+   "A": "Ausente también en piel.",
+   "B": "Correcto. En la AR se conserva α5(IV) asociado a α6 en Bowman, MBT distal y piel; ERCT y sordera antes de los 30 en ambos sexos.",
+   "C": "Patrón en mosaico.",
+   "D": "La expresión suele ser normal.",
+   "E": "No corresponde."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-6",
+  "tema_id": 16,
+  "sub": "16.c.v",
+  "obj": "16.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Rendimiento genético en SRNS",
+  "caso": "Lactante de 2 meses con síndrome nefrótico corticorresistente.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "SRNS: segunda causa de ERC pediátrica (15% antes de los 25). Genes principales en WES: NPHS1, PLCE1, NPHS2, SMARCAL1.",
+  "referencias": [
+   "Schneider R, Hildebrandt F. Inherited Causes of Nephrotic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 20, pp. 237-244"
+  ],
+  "serie_id": "GHJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El rendimiento genético aumenta con la edad",
+   "B": "Los genes dominantes predominan en lactantes",
+   "C": "WT1 solo se presenta en adultos",
+   "D": "El rendimiento genético es ~69% a esta edad",
+   "E": "Debe darse prednisona 12 semanas primero"
+  },
+  "explicaciones": {
+   "A": "Disminuye.",
+   "B": "Los recesivos (NPHS1, LAMB2, PLCE1) inician temprano; los dominantes (INF2, TRPC6) en adultos.",
+   "C": "WT1 es bifásico: 4–12 meses y >18 años.",
+   "D": "Correcto. En 1783 familias, 29.5% global, con el máximo en 0–3 meses y descenso con la edad.",
+   "E": "Hacer genética temprano."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-7",
+  "tema_id": 16,
+  "sub": "16.c.v",
+  "obj": "16.o4",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "SRNS tratable: coenzima Q10",
+  "caso": "Niño de 3 años con SRNS, sordera neurosensorial y variante bialélica de COQ6.",
+  "enunciado": "¿Qué tratamiento específico debe considerarse?",
+  "perla": "Saber la causa genética evita inmunosupresión innecesaria e informa el riesgo de recurrencia tras el trasplante, que es bajo en formas monogénicas.",
+  "referencias": [
+   "Schneider R, Hildebrandt F. Inherited Causes of Nephrotic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 20, pp. 237-244"
+  ],
+  "serie_id": "GHJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Suplemento de coenzima Q10",
+   "B": "Ciclosporina en dosis altas",
+   "C": "Rituximab",
+   "D": "Pulsos de metilprednisolona",
+   "E": "Eculizumab"
+  },
+  "explicaciones": {
+   "A": "Correcto. Los defectos de síntesis de CoQ10 (COQ2, COQ6, ADCK4/COQ8B, PDSS2) son de las pocas formas monogénicas que pueden responder a la suplementación.",
+   "B": "Las formas monogénicas suelen no responder a inmunosupresión.",
+   "C": "Sin papel.",
+   "D": "Sin papel.",
+   "E": "Es para DGKE con complemento."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-8",
+  "tema_id": 16,
+  "sub": "16.c.v",
+  "obj": "16.o4",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Trastornos relacionados con MYH9",
+  "caso": "Joven con nefritis hereditaria, sordera, macrotrombocitopenia e inclusiones leucocitarias.",
+  "enunciado": "¿Qué gen está afectado?",
+  "perla": "Uña-rótula: LMX1B por haploinsuficiencia; afección renal en 30–60%.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "COL4A5",
+   "B": "LMX1B",
+   "C": "GLA",
+   "D": "WT1",
+   "E": "MYH9"
+  },
+  "explicaciones": {
+   "A": "Alport ligado al X sin macrotrombocitopenia.",
+   "B": "Uña-rótula.",
+   "C": "Fabry.",
+   "D": "Denys-Drash o Frasier.",
+   "E": "Correcto. Síndromes de Epstein y Fechtner (con anomalía de May-Hegglin), autosómicos dominantes."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
  }
 ]

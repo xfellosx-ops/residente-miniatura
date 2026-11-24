@@ -219,7 +219,7 @@
      "id": "t0_0",
      "cast": "genta",
      "specialty": "Nefrotóxico",
-     "serie": "ICN",
+     "serie": "NTJ-1",
      "intro": [
       [
        "Aminoglucósido",
@@ -233,13 +233,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 1
     },
     {
      "id": "t0_1",
      "cast": "contraste",
      "specialty": "Nefrotóxico",
-     "serie": "MET",
+     "serie": "NTJ-4",
      "intro": [
       [
        "Contraste",
@@ -253,13 +253,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t0_2",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "IAR",
+     "serie": "NTJ-2",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -267,7 +267,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: IECA/ARA II: aumento esperado de creatinina"
+       "Mi caso: Anfotericina B"
       ]
      ],
      "defeat": [
@@ -277,7 +277,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 1
     }
    ],
    "wild": [
@@ -342,51 +342,43 @@
      ]
     },
     {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
+     "type": "clasif",
+     "title": "Nefrotóxico: mecanismo principal",
+     "bins": [
+      "Tubular directo",
+      "Cristales intratubulares"
+     ],
+     "items": [
       [
-       "Cisplatino",
-       "Hipomagnesemia, NTA"
+       "Aminoglucósidos",
+       "Tubular directo"
       ],
       [
-       "Aminoglucósido",
-       "NTA no oligúrica tardía"
-      ],
-      [
-       "Vancomicina + piperacilina",
-       "Mayor riesgo de LRA"
+       "Tenofovir disoproxil",
+       "Tubular directo"
       ],
       [
        "Anfotericina B",
-       "ATR distal, hipoK"
+       "Tubular directo"
       ],
       [
-       "Tenofovir (TDF)",
-       "Síndrome de Fanconi"
+       "Aciclovir IV",
+       "Cristales intratubulares"
       ],
       [
-       "Contraste yodado",
-       "Hidratación isotónica"
+       "Metotrexato",
+       "Cristales intratubulares"
       ],
       [
-       "Etilenglicol",
-       "Fomepizol; oxalato"
+       "Indinavir",
+       "Cristales intratubulares"
       ],
       [
-       "Metanol",
-       "Fomepizol; ceguera"
-      ],
-      [
-       "Litio grave",
-       "Hemodiálisis"
-      ],
-      [
-       "Inhibidor de checkpoint",
-       "NTI → esteroide"
+       "Sulfadiazina",
+       "Cristales intratubulares"
       ]
-     ]
+     ],
+     "pairs": []
     }
    ],
    "cutscenes": [
@@ -470,7 +462,7 @@
      "id": "t1_0",
      "cast": "onco",
      "specialty": "Oncología",
-     "serie": "OAU",
+     "serie": "NTJ-5",
      "intro": [
       [
        "Dra. Mitosis Lara",
@@ -484,13 +476,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
     },
     {
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "CNT",
+     "serie": "NTJ-3",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -498,7 +490,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: Lesión renal aguda por contraste: factores de riesgo"
+       "Mi caso: Aciclovir intravenoso"
       ]
      ],
      "defeat": [
@@ -508,7 +500,31 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "NTJ-6",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Fisiopatología de la nefropatía por contraste"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
     }
    ],
    "wild": [
@@ -558,6 +574,53 @@
       "Valorar reintroducción tras la recuperación"
      ],
      "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Cisplatino",
+       "Hipomagnesemia, NTA"
+      ],
+      [
+       "Aminoglucósido",
+       "NTA no oligúrica tardía"
+      ],
+      [
+       "Vancomicina + piperacilina",
+       "Mayor riesgo de LRA"
+      ],
+      [
+       "Anfotericina B",
+       "ATR distal, hipoK"
+      ],
+      [
+       "Tenofovir (TDF)",
+       "Síndrome de Fanconi"
+      ],
+      [
+       "Contraste yodado",
+       "Hidratación isotónica"
+      ],
+      [
+       "Etilenglicol",
+       "Fomepizol; oxalato"
+      ],
+      [
+       "Metanol",
+       "Fomepizol; ceguera"
+      ],
+      [
+       "Litio grave",
+       "Hemodiálisis"
+      ],
+      [
+       "Inhibidor de checkpoint",
+       "NTI → esteroide"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -693,24 +756,24 @@
    "text": "Aminoglucósidos: megalina-cubilina → lisosoma/mitocondria; NTA no oligúrica a los 5–7 días con hipoMg e hipoK. Dosis única diaria."
   },
   {
+   "title": "💎 Vancomicina: vigilancia y riesgo",
+   "text": "Fuente más nueva: consenso 2020; Johnson aún describe la meta de valle. Lesión: NTA, a veces NTI o DRESS. HD de alto flujo si los niveles son muy altos."
+  },
+  {
+   "title": "💎 Tenofovir",
+   "text": "TDF entra al túbulo proximal por OAT y daña el ADN mitocondrial: mitocondrias dismórficas. Riesgo: ERC previa, edad, CD4 bajos, dosis y duración. Biopsia si no mejora."
+  },
+  {
+   "title": "💎 Contraste intravenoso y TFG",
+   "text": "Johnson coincide: estudios pareados recientes muestran riesgo similar con TC sin contraste. El contraste intraarterial conlleva más riesgo."
+  },
+  {
    "title": "💎 AINE: síndrome nefrótico con nefritis in",
    "text": "AINE y nefrótico: cambios mínimos + NTI (linfocitos, pocos eosinófilos). Suspender AINE; esteroides si no remite."
   },
   {
    "title": "💎 AINE: LRA hemodinámica y 'triple whammy'",
    "text": "Triple whammy: AINE + IECA/ARA-II + diurético → LRA prerrenal; AINE vasoconstriñen la aferente por ↓prostaglandinas."
-  },
-  {
-   "title": "💎 Intoxicación por AINE y uso en ERC",
-   "text": "Intoxicación por AINE: soporte, la HD no sirve (unión a proteínas 95–99%). Evitar AINE si TFGe <30."
-  },
-  {
-   "title": "💎 Cadmio: tubulopatía proximal y proteinur",
-   "text": "Cadmio: baterías Ni-Cd, soldadura, tabaco; metalotioneína, vida media renal 10–30 a; Fanconi + β₂-microglobulina + litiasis + osteomalacia. Sin quelación eficaz."
-  },
-  {
-   "title": "💎 Interacciones farmacológicas con ciclosp",
-   "text": "CNI: ↑nivel con verapamilo, diltiazem, azoles, macrólidos (claritro/eritro), pomelo; ↓nivel con rifampicina, fenitoína, carbamazepina, hipérico. HTA: dihidropiridina."
   }
  ]
 }

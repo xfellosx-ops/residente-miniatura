@@ -890,5 +890,273 @@
   "tema": "Enfermedades tóxicas del riñón",
   "obj": "17.o4",
   "peso": 18.3
+ },
+ {
+  "id": "NTJ-1",
+  "tema_id": 17,
+  "sub": "17.a",
+  "obj": "17.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Vancomicina: vigilancia y riesgo",
+  "caso": "Paciente con bacteriemia por SARM que recibe vancomicina y piperacilina-tazobactam; la creatinina sube al día 4.",
+  "enunciado": "¿Qué afirmación refleja la recomendación más reciente?",
+  "perla": "Fuente más nueva: consenso 2020; Johnson aún describe la meta de valle. Lesión: NTA, a veces NTI o DRESS. HD de alto flujo si los niveles son muy altos.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70",
+   "Rybak MJ, et al. Therapeutic monitoring of vancomycin for serious MRSA infections: revised consensus guideline (ASHP/IDSA/PIDS/SIDP). Am J Health Syst Pharm 2020;77:835-864. doi:10.1093/ajhp/zxaa036"
+  ],
+  "serie_id": "NTJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mantener valle de 15–20 µg/mL en todos",
+   "B": "La combinación con piperacilina no añade riesgo",
+   "C": "Dosificar por AUC/CMI de 400–600",
+   "D": "La lesión suele ser irreversible",
+   "E": "Dosis >4 g/día son seguras"
+  },
+  "explicaciones": {
+   "A": "Valles >15 se asocian a LRA de forma graduada.",
+   "B": "Aumenta el riesgo de LRA.",
+   "C": "Correcto. El consenso ASHP/IDSA 2020 reemplazó la meta de valle por AUC/CMI 400–600, con menos nefrotoxicidad.",
+   "D": "Suele ser reversible.",
+   "E": ">4 g/día es factor de riesgo."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades tóxicas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NTJ-2",
+  "tema_id": 17,
+  "sub": "17.a",
+  "obj": "17.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Anfotericina B",
+  "caso": "Paciente con mucormicosis que requiere anfotericina B prolongada.",
+  "enunciado": "¿Qué medida reduce mejor la nefrotoxicidad?",
+  "perla": "Reversible al suspender, aunque la pérdida de magnesio puede persistir. Vasoconstricción y daño distal: hipopotasemia y ATR distal.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70"
+  ],
+  "serie_id": "NTJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Desoxicolato en bolo rápido IV",
+   "B": "Restricción de sodio",
+   "C": "Furosemida diaria",
+   "D": "Dosis acumulada >5 g",
+   "E": "Liposomal con carga salina"
+  },
+  "explicaciones": {
+   "A": "El desoxicolato tiene efecto detergente.",
+   "B": "Aumenta el riesgo.",
+   "C": "La depleción empeora.",
+   "D": "La toxicidad aparece tras 2–3 g acumulados.",
+   "E": "Correcto. La liposomal reduce la LRA ~50% al unirse menos al colesterol tubular y no contener desoxicolato; mantener flujo urinario alto con salina."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades tóxicas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NTJ-3",
+  "tema_id": 17,
+  "sub": "17.a",
+  "obj": "17.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Aciclovir intravenoso",
+  "caso": "Paciente con encefalitis herpética y LRA oligúrica con dolor lumbar a los 2 días de aciclovir IV.",
+  "enunciado": "¿Qué es característico?",
+  "perla": "Niveles altos por menor depuración dan neurotoxicidad. También cristalizan sulfadiazina, indinavir, triamtereno y metotrexato.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70"
+  ],
+  "serie_id": "NTJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cristales birrefringentes en aguja",
+   "B": "Inicio tras semanas de tratamiento",
+   "C": "Lesión glomerular por inmunocomplejos",
+   "D": "Se previene con administración en bolo",
+   "E": "Lesión casi siempre irreversible"
+  },
+  "explicaciones": {
+   "A": "Correcto. Toxicidad tubular y cristales; la biopsia sugiere que la NTI puede ser el mecanismo predominante.",
+   "B": "Aparece en pocos días.",
+   "C": "No es lo descrito.",
+   "D": "Evitar bolos y mantener flujo urinario alto.",
+   "E": "Suele ser leve y reversible."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades tóxicas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NTJ-4",
+  "tema_id": 17,
+  "sub": "17.a",
+  "obj": "17.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Tenofovir",
+  "caso": "Paciente con VIH en TDF con glucosuria normoglucémica, hipofosfatemia, proteinuria tubular y TFGe descendente.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "TDF entra al túbulo proximal por OAT y daña el ADN mitocondrial: mitocondrias dismórficas. Riesgo: ERC previa, edad, CD4 bajos, dosis y duración. Biopsia si no mejora.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70"
+  ],
+  "serie_id": "NTJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mantener TDF y agregar fosfato",
+   "B": "Iniciar esteroide",
+   "C": "Suspender todo el antirretroviral",
+   "D": "Cambiar a tenofovir alafenamida",
+   "E": "Agregar IECA a dosis alta"
+  },
+  "explicaciones": {
+   "A": "El daño puede progresar.",
+   "B": "No es inflamatorio.",
+   "C": "Solo cambiar el fármaco causal.",
+   "D": "Correcto. TAF se concentra en células mononucleares y llega menos al riñón; es menos nefrotóxico, aunque hay casos de LRA.",
+   "E": "No trata la causa."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades tóxicas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NTJ-5",
+  "tema_id": 17,
+  "sub": "17.b",
+  "obj": "17.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Contraste intravenoso y TFG",
+  "caso": "Hombre de 62 años con TFGe 45 mL/min/1.73 m², sin otros factores, que requiere TC con contraste IV.",
+  "enunciado": "¿Cuál es la recomendación vigente?",
+  "perla": "Johnson coincide: estudios pareados recientes muestran riesgo similar con TC sin contraste. El contraste intraarterial conlleva más riesgo.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70",
+   "Davenport MS, et al. Use of intravenous iodinated contrast media in patients with kidney disease: consensus statements from the ACR and NKF. Radiology 2020;294:660-668. doi:10.1148/radiol.2019192094"
+  ],
+  "serie_id": "NTJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hidratación IV obligatoria siempre",
+   "B": "No requiere profilaxis",
+   "C": "N-acetilcisteína oral",
+   "D": "Hemodiálisis tras el estudio",
+   "E": "Evitar el contraste"
+  },
+  "explicaciones": {
+   "A": "Indicada con TFGe <30 o LRA.",
+   "B": "Correcto. ACR-NKF 2020: riesgo mínimo con contraste IV de baja osmolalidad o isoosmolar si TFGe ≥30; profilaxis con salina si <30 sin diálisis o LRA.",
+   "C": "Sin beneficio en PRESERVE.",
+   "D": "No es necesaria, ni en pacientes ya en diálisis.",
+   "E": "No debe negarse un estudio necesario."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades tóxicas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NTJ-6",
+  "tema_id": 17,
+  "sub": "17.b",
+  "obj": "17.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Fisiopatología de la nefropatía por contraste",
+  "caso": "Se discute por qué el contraste daña el riñón.",
+  "enunciado": "¿Qué mecanismo es correcto?",
+  "perla": "También toxicidad tubular directa por ERO: proteinuria de bajo peso molecular. Riesgo: nefropatía diabética, >75 años, IC, depleción, dosis altas o repetidas, AINE.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70"
+  ],
+  "serie_id": "NTJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Vasodilatación sostenida de la aferente",
+   "B": "Depósito de inmunocomplejos",
+   "C": "Obstrucción por cristales de contraste",
+   "D": "Vasoconstricción e hipoxia medular",
+   "E": "Activación del complemento alterno"
+  },
+  "explicaciones": {
+   "A": "Es transitoria.",
+   "B": "No es el mecanismo.",
+   "C": "No es el mecanismo.",
+   "D": "Correcto. Respuesta bifásica: vasodilatación breve y luego vasoconstricción; más viscosidad y diuresis osmótica que aumenta el consumo de O₂ del asa gruesa.",
+   "E": "No es el mecanismo."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades tóxicas del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NTJ-7",
+  "tema_id": 17,
+  "sub": "17.d",
+  "obj": "17.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Metotrexato a dosis altas",
+  "caso": "Paciente con osteosarcoma que recibirá metotrexato a dosis altas.",
+  "enunciado": "¿Qué medida reduce la nefrotoxicidad?",
+  "perla": "Si hay LRA con niveles tóxicos: glucarpidasa, rescate con leucovorina y considerar HD de alto flujo.",
+  "referencias": [
+   "Paine CH, Jefferson JA, Velez JCQ. Pathophysiology and Etiology of Acute Kidney Injury. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 70"
+  ],
+  "serie_id": "NTJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Hidratar y alcalinizar",
+   "B": "Acidificar la orina",
+   "C": "Restringir los líquidos IV",
+   "D": "Agregar AINE",
+   "E": "Diurético tiazídico"
+  },
+  "explicaciones": {
+   "A": "Correcto. Precipita en el túbulo con orina ácida, depleción de volumen o TFG baja.",
+   "B": "Favorece la cristalización.",
+   "C": "Empeora el riesgo.",
+   "D": "Nefrotóxicos concomitantes aumentan el riesgo.",
+   "E": "Contrae el volumen."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades tóxicas del riñón",
+  "tipo_item": "nueva"
  }
 ]

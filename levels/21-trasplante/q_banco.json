@@ -4390,5 +4390,461 @@
   "clave": "E",
   "tema": "Trasplante renal",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-1",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Retiro temprano de esteroides",
+  "caso": "Receptor de primer trasplante de donante fallecido, PRA 0%, función inmediata del injerto.",
+  "enunciado": "¿Qué afirmación sobre el retiro rápido de esteroides es correcta?",
+  "perla": "Mantenimiento con prednisona 5–10 mg/día mejora la tolerancia. Pulsos de metilprednisolona 250–500 mg para rechazo agudo. Los esteroides no se asocian a más cáncer.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Requiere timoglobulina obligatoriamente",
+   "B": "Es preferible en hipersensibilizados",
+   "C": "Es viable en bajo riesgo inmunológico",
+   "D": "Mejora la supervivencia con función retardada",
+   "E": "Aumenta la diabetes postrasplante"
+  },
+  "explicaciones": {
+   "A": "Basiliximab fue no inferior.",
+   "B": "Se prefiere mantener dosis bajas.",
+   "C": "Correcto. Con riesgo inmunológico bajo se logra sin perder eficacia y con menos diabetes postrasplante; la timoglobulina no fue superior a basiliximab.",
+   "D": "El retiro temprano con función retardada se asocia a más pérdida del injerto.",
+   "E": "La reduce."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-2",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o5",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Inhibidores de mTOR en el esquema",
+  "caso": "Se valora un inhibidor de mTOR en un receptor estable con tacrolimus y MMF.",
+  "enunciado": "¿Qué resultado es correcto?",
+  "perla": "Toxicidad mTOR: hipertrigliceridemia, citopenias, mala cicatrización, linfoceles, úlceras orales, neumonitis, proteinuria, GEFS, MAT. Menos cáncer de piel escamoso.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Sustituir el ICN reduce el rechazo",
+   "B": "Everolimus fue no inferior en TFGe al año",
+   "C": "No interactúa con la ciclosporina",
+   "D": "Acelera la recuperación de la NTA",
+   "E": "Sustituir el MMF reduce el CMV"
+  },
+  "explicaciones": {
+   "A": "Aumenta el rechazo y la mejoría renal es variable.",
+   "B": "No demostró no inferioridad frente a MPA.",
+   "C": "Con ciclosporina aumentan la Cmax y el AUC de ambos.",
+   "D": "La retrasa.",
+   "E": "Correcto. Los ensayos que reemplazaron MMF por mTOR sugieren menos infecciones virales oportunistas."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-3",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Belatacept: resultados de BENEFIT",
+  "caso": "Se compara belatacept con ciclosporina en receptores de novo seropositivos para VEB.",
+  "enunciado": "¿Qué resultado es correcto?",
+  "perla": "Bloquea CD80/CD86 y la vía CD28. Contraindicado en seronegativos para VEB por PTLD del SNC. BENEFIT-EXT con donantes expandidos: rechazo y TFG similares.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mejor TFG con más rechazo agudo temprano",
+   "B": "Menos rechazo agudo temprano",
+   "C": "Peor control de PA y lípidos",
+   "D": "Más PTLD tardía en seropositivos",
+   "E": "Peor supervivencia del injerto a 7 años"
+  },
+  "explicaciones": {
+   "A": "Correcto. A 7 años mejor desenlace compuesto de injerto y paciente y mejor función.",
+   "B": "Más rechazo temprano.",
+   "C": "Mejor control.",
+   "D": "Sin aumento en seropositivos.",
+   "E": "Sin diferencias por separado."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-4",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o5",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Conversión a belatacept",
+  "caso": "Receptora diabética con nefrotoxicidad por tacrolimus y lesiones vasculares crónicas en la biopsia.",
+  "enunciado": "¿Qué es correcto sobre la conversión a belatacept?",
+  "perla": "Efectos adversos: anemia, leucopenia; raros LMP y PTLD. Registro SRTR: mejor función y menos diabetes que tacrolimus, con más rechazo.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Es más segura en hipersensibilizados en el año 1",
+   "B": "Elimina la necesidad de vigilar VEB",
+   "C": "Aumenta la diabetes postrasplante",
+   "D": "Puede mejorar la glucemia y la función",
+   "E": "Está aprobada para conversión en VEB negativos"
+  },
+  "explicaciones": {
+   "A": "En sensibilizados en el primer año aumenta el rechazo, sin diferencia en supervivencia a 5 años.",
+   "B": "El riesgo de PTLD persiste.",
+   "C": "La reduce frente a tacrolimus.",
+   "D": "Correcto. Mejora parámetros glucémicos y la función con lesiones vasculares crónicas.",
+   "E": "Uso fuera de indicación; contraindicado en seronegativos."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-5",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o6",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Interacción ciclosporina–micofenolato",
+  "caso": "Paciente con ciclosporina y MMF 1 g c/12 h que se convierte a tacrolimus sin cambiar el MMF; desarrolla diarrea y leucopenia.",
+  "enunciado": "¿Cuál es el mecanismo?",
+  "perla": "Circulación enterohepática: 37% del AUC, pico secundario a 6–12 h. IBP, calcio y colestiramina reducen 20–40% la absorción.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Inhibición de CYP3A4 por tacrolimus",
+   "B": "Más recirculación enterohepática",
+   "C": "Menor glucuronidación hepática",
+   "D": "Mayor absorción gástrica de MMF",
+   "E": "Déficit de TPMT"
+  },
+  "explicaciones": {
+   "A": "El MPA no se metaboliza por CYP3A4.",
+   "B": "Correcto. La ciclosporina bloquea MRP2 y reduce la excreción biliar de MPAG; sin ella se recupera la circulación enterohepática y sube la exposición a MPA.",
+   "C": "No es el mecanismo.",
+   "D": "No es el mecanismo.",
+   "E": "Es relevante para azatioprina."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-6",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o6",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Toxicidad digestiva del micofenolato",
+  "caso": "Receptor con diarrea por MMF sin infección demostrada.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "MPA inhibe IMPDH-2 y la síntesis de novo de purinas; linfocitos y enterocitos dependen de esa vía. Mielosupresión e infecciones virales.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La toxicidad se debe al profármaco en el estómago",
+   "B": "La vigilancia del AUC reduce el rechazo",
+   "C": "Reducir la dosis nunca precipita rechazo",
+   "D": "La cubierta entérica no la reduce",
+   "E": "Se recomienda continuar en el embarazo"
+  },
+  "explicaciones": {
+   "A": "Lo mismo aplica: el problema son los metabolitos.",
+   "B": "No se ha demostrado.",
+   "C": "Puede precipitarlo.",
+   "D": "Correcto. Los metabolitos, posiblemente AcMPAG, median la toxicidad; fraccionar en cuatro tomas a veces ayuda.",
+   "E": "Teratógeno: doble anticoncepción y suspender ≥6 semanas antes de concebir."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-7",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o6",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Tacrolimus: hipomagnesemia",
+  "caso": "Receptor con tacrolimus y Mg sérico de 1.2 mg/dL.",
+  "enunciado": "¿Cuál es el mecanismo?",
+  "perla": "ICN: hiperpotasemia, ATR tipo 4, hiperuricemia, hipofosfatemia, HTA. Ciclosporina: hiperplasia gingival, hirsutismo, más lípidos; tacrolimus: temblor y diabetes. Liberación prolongada reduce el pico y el temblor.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Menor TRPM6 y más claudina-14",
+   "B": "Mayor reabsorción proximal de Mg",
+   "C": "Pérdida digestiva exclusiva",
+   "D": "Hiperaldosteronismo secundario",
+   "E": "Inhibición de NKCC2"
+  },
+  "explicaciones": {
+   "A": "Correcto. Reduce la reabsorción transcelular distal y la paracelular en el asa.",
+   "B": "No es lo descrito.",
+   "C": "No es lo descrito.",
+   "D": "No es lo descrito.",
+   "E": "No es el mecanismo principal."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-8",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o6",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Sirolimus: farmacocinética",
+  "caso": "Se inicia sirolimus en un receptor estable.",
+  "enunciado": "¿Cuándo debe medirse el primer nivel?",
+  "perla": "Biodisponibilidad 10–16%; comida grasa aumenta sirolimus y reduce everolimus. Metabolismo por CYP3A4 y glicoproteína P.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "A las 24 horas",
+   "B": "A las 6 horas de la dosis",
+   "C": "Solo si hay rechazo",
+   "D": "A los 3 meses",
+   "E": "Después de 1 semana"
+  },
+  "explicaciones": {
+   "A": "Sin estado estable.",
+   "B": "No es útil.",
+   "C": "Requiere vigilancia.",
+   "D": "Demasiado tarde.",
+   "E": "Correcto. Vida media ~62 h: el estado estable se alcanza en unas tres vidas medias."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-9",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o6",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Basiliximab",
+  "caso": "Receptor de bajo riesgo que recibirá inducción con basiliximab.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "Timoglobulina de conejo: 3–4 días como inducción o rechazo corticorresistente; anticuerpos contra múltiples dianas, linfopenia rápida.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Produce depleción marcada de linfocitos T",
+   "B": "Causa síndrome de liberación de citocinas grave",
+   "C": "No sirve para tratar rechazo establecido",
+   "D": "Su efecto dura 3 días",
+   "E": "Es un anticuerpo anti-CD52"
+  },
+  "explicaciones": {
+   "A": "No es depletor.",
+   "B": "Sin efectos adversos mayores frente a no inducción.",
+   "C": "Correcto. Anti-CD25 (IL-2Rα), inmunosupresión leve sin depleción importante.",
+   "D": "La saturación del receptor dura 25–35 días.",
+   "E": "Ese es alemtuzumab."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-10",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o6",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "IgIV: efectos adversos",
+  "caso": "Paciente hipersensibilizado en desensibilización con IgIV que desarrolla LRA.",
+  "enunciado": "¿Qué mecanismo es el más probable?",
+  "perla": "Otros: cefalea, meningitis aséptica, trombosis, anafilaxia rara. Con plasmaféresis: desensibilización ABO incompatible o prueba cruzada positiva y rechazo humoral.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefritis intersticial; esteroides",
+   "B": "Nefrosis osmótica por sacarosa",
+   "C": "MAT por complemento; eculizumab",
+   "D": "Glomerulonefritis por inmunocomplejos",
+   "E": "Cristaluria; alcalinizar"
+  },
+  "explicaciones": {
+   "A": "No es lo habitual.",
+   "B": "Correcto. Lesión proximal autolimitada; se previene con formulaciones sin sacarosa e infusión lenta.",
+   "C": "No es lo descrito.",
+   "D": "No es lo descrito.",
+   "E": "No es lo descrito."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-11",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o6",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Bortezomib y eculizumab en rechazo humoral",
+  "caso": "Se discuten terapias de rescate en rechazo mediado por anticuerpos.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Eculizumab: rescate costoso en rechazo humoral grave; vacuna meningocócica y profilaxis. Útil para prevenir recurrencia de SHUa.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Eculizumab previene la glomerulopatía del trasplante",
+   "B": "Eculizumab redujo el rechazo en desensibilización",
+   "C": "Bortezomib actúa sobre CD20",
+   "D": "Bortezomib no causa neuropatía",
+   "E": "Bortezomib requiere profilaxis contra herpes zóster"
+  },
+  "explicaciones": {
+   "A": "No la previno a largo plazo.",
+   "B": "Un ECA fase II no mostró reducción.",
+   "C": "Es inhibidor del proteasoma.",
+   "D": "La neuropatía es un efecto clave.",
+   "E": "Correcto. Inhibe el proteasoma 26S de células plasmáticas; produce trombocitopenia y neuropatía periférica."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IMJ-12",
+  "tema_id": 21,
+  "sub": "21.b",
+  "obj": "21.o6",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Rituximab en trasplante",
+  "caso": "Receptor que recibe rituximab en desensibilización ABO incompatible.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "Usos: rechazo humoral, desensibilización con IgIV, ABO incompatible, PTLD. Obinutuzumab: depleción eficaz, sin reducción relevante de anti-HLA.",
+  "referencias": [
+   "Nissaisorakarn P, Womer KL, Riella LV. Immunosuppressive Medications in Kidney Transplantation. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 106, pp. 1169-1177"
+  ],
+  "serie_id": "IMJ-12",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Depleta directamente las células plasmáticas",
+   "B": "No reactiva hepatitis B",
+   "C": "Los linfocitos B se recuperan a ~6 meses",
+   "D": "Es un anticuerpo humanizado anti-CD25",
+   "E": "Sus reacciones aumentan con cada infusión"
+  },
+  "explicaciones": {
+   "A": "Las plasmáticas suelen ser CD20 negativas; actúa sobre sus precursores.",
+   "B": "Puede reactivar VHB y virus JC.",
+   "C": "Correcto. Depleción rápida y sostenida de linfocitos B circulantes y tisulares.",
+   "D": "Es quimérico anti-CD20.",
+   "E": "Disminuyen con infusiones sucesivas."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Trasplante renal",
+  "tipo_item": "nueva"
  }
 ]
