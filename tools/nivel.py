@@ -124,11 +124,14 @@ def build(S):
     cast = {k: {"name": v[0], "role": v[1], "color": v[2]} for k, v in CAST.items()}
     for k, v in S.get("cast", {}).items(): cast[k] = {"name": v[0], "role": v[1], "color": v[2]}
     zones = []; ntr = 0
+    # series del banco pedidas por nombre (4.º elemento del entrenador): se apartan antes de repartir
+    wanted = {T[3] for Z in S["zones"] for T in Z.get("trainers", []) if len(T) > 3 and T[3] in rest}
+    rest = [x for x in rest if x not in wanted]
     for zi, Z in enumerate(S["zones"]):
         tiles = Z["tiles"]; trainers = []; cuts = []
         for T in Z.get("trainers", []):
             if len(T) > 3 and T[3] in own: s, n = own[T[3]][0]["serie_id"], len(own[T[3]])  # serie propia (4.º elemento)
-            elif len(T) > 3 and T[3] in rest: rest.remove(T[3]); s = T[3]; n = len(series[s])  # serie del banco elegida por tema
+            elif len(T) > 3 and T[3] in wanted: s = T[3]; n = len(series[s])  # serie del banco elegida por tema
             elif not rest: break
             else: s = rest.pop(0); n = len(series[s])
             ntr += 1; tid = f"t{zi}_{len(trainers)}"
