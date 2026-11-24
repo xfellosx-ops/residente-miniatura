@@ -2,7 +2,7 @@ J, B, H = "Dr. J.", "Sabio Brenn", "Director"
 LEVELS = [
 {"id": "8", "dir": "8-diabetica", "title": "Nefropatía diabética", "temas": [8], "boss_n": 8,
  "zones": [
-  {"name": "Glomérulo Hiperfiltrante", "tiles": "delta", "vignette": "diabetes_kw", "join": ["glifo"],
+  {"name": "Glomérulo Hiperfiltrante", "tiles": "delta", "vignette": "hiperfiltracion", "join": ["glifo"],
    "intro": [(J, "Acto III. Mujer de 58 años, diabetes tipo 2 de 14 años, albuminuria de 80 a 900 mg/g."), (J, "En la sala de espera hay folletos de «Hemo-Eterna: tu diálisis de por vida». Qué raro."), (B, "Mira el proximal: SGLT2 reabsorbe de más glucosa y sodio. La mácula densa recibe poco.")],
    "npcs": [("SGLT2", ["Reabsorbo glucosa con sodio. En la diabetes trabajo de más.", "Si me bloquean, llega sodio a la mácula densa y la aferente se cierra."], "pocion", "iSGLT2"),
             ("Nódulo de Kimmelstiel-Wilson", ["Soy matriz mesangial acumulada. Primero se engrosa la membrana basal.", "Si no hay retinopatía o hay sedimento activo, duda de mí: biopsia."], "xp", "biopsia en diabetes")],
