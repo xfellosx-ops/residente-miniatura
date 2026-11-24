@@ -18,7 +18,7 @@ body{font-family:VT323,ui-monospace,monospace;color:var(--ink);display:flex;just
 .top button{font:inherit;font-size:8px;background:#a9a597;border:0;border-radius:4px;padding:6px 6px;color:#2b2a33}
 .screen{background:var(--x);border:6px solid #545169;border-radius:8px 8px 20px 8px;box-shadow:inset 0 0 0 3px #3d3b52;overflow:hidden}
 canvas{display:block;width:100%;image-rendering:pixelated;image-rendering:crisp-edges;aspect-ratio:160/96;background:#000}
-.hud{display:flex;justify-content:space-between;gap:6px;font-family:"Press Start 2P",monospace;font-size:8px;padding:5px 7px;background:var(--m);color:#f8f6ea;border-top:3px solid var(--d)}
+.hud{display:flex;justify-content:space-between;gap:6px;font-family:"Press Start 2P",monospace;font-size:7px;white-space:nowrap;overflow:hidden;padding:5px 7px;background:var(--m);color:#f8f6ea;border-top:3px solid var(--d)}
 .panel{background:var(--x);padding:8px 9px 10px;font-size:22px;line-height:1.05;min-height:150px;max-height:46vh;overflow:auto;border-top:3px solid var(--d)}
 .who{font-family:"Press Start 2P",monospace;font-size:9px;margin-bottom:6px;background:var(--m);color:#f8f6ea;padding:5px 7px;border-radius:5px;line-height:1.3}
 .box{border:3px solid #3b4a8a;border-radius:8px;padding:7px 9px;background:#fbfaf2;margin-bottom:7px;box-shadow:inset 0 0 0 2px #b8c4ee}
@@ -294,7 +294,11 @@ $("#tgt").onpointerdown=e=>{e.stopPropagation();unlockAudio();tgtHits++;beep(150
 poke();
 /* ================= HUD / modales ================= */
 function need(l){return Math.round(20*Math.pow(l,1.5))}
-function hud(){const a=active();$("#h1").textContent=a?(cName(a).slice(0,12)+" Nv"+a.lvl):"—";$("#h2").textContent=a?("PS "+a.hp+"/"+a.max):"";const d=dueCount();$("#h3").textContent=(d?"REP "+d+" · ":"")+"✓"+S.stats.ok+"/"+S.stats.n}
+/* HUD: zona y avance de la zona (franja verde que se llena), criatura activa y aciertos */
+function hud(){const a=active(),zs=STORY.zones||[],zi=Math.min(S.zone||0,Math.max(0,zs.length-1)),z=zs[zi];let pr=0;
+ if(z){const tot=(z.trainers||[]).length+(z.gates||[]).length+(z.minigames||[]).length;let ok=0;(z.trainers||[]).forEach(t=>{if(S.flags[t.id])ok++});(z.gates||[]).forEach((g,i)=>{if(S.flags["g_"+zi+"_"+i])ok++});(z.minigames||[]).forEach((m,i)=>{if(S.flags["m_"+zi+"_"+i])ok++});pr=tot?ok/tot:0}
+ $("#h1").textContent=z?("Z"+(zi+1)+"/"+zs.length+" "+String(z.name||"").slice(0,13)):"—";$("#h2").textContent=a?(cName(a).slice(0,10)+" Nv"+a.lvl+" · PS "+a.hp+"/"+a.max):"";const d=dueCount();$("#h3").textContent=(d?"REP "+d+" · ":"")+"✓"+S.stats.ok+"/"+S.stats.n;
+ const hd=document.querySelector(".hud");if(hd)hd.style.background="linear-gradient(90deg,#3f8f4c "+Math.round(pr*100)+"%,var(--m) "+Math.round(pr*100)+"%)"}
 const MQ=[];function modal(html,cb,btn="OK"){if(document.querySelector(".modal.mq")){MQ.push([html,cb,btn]);return}const d=document.createElement("div");d.classList.add("mq");d.className="modal";d.innerHTML='<div class="box">'+html+'<div class="row"><button class="btn">'+btn+'</button></div></div>';document.body.appendChild(d);const b=d.querySelector("button");KEYA=()=>b.click();b.onclick=()=>{d.remove();KEYA=null;cb&&cb();if(MQ.length&&!document.querySelector(".modal.mq"))modal(...MQ.shift())}}
 let KEYA=null;
 /* ================= canvas ================= */
