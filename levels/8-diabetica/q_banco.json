@@ -1558,5 +1558,161 @@
   ],
   "tema": "Nefropatía diabética",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "PRG-2",
+  "serie_id": "PRG",
+  "orden": 2,
+  "sub": "7.a",
+  "subtema": "iSGLT2: caída inicial de TFG",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Dos semanas después de iniciar dapagliflozina 10 mg, la creatinina pasó de 1.1 a 1.3 mg/dL (TFGe 52 → 46), TA 124/74, sin vómito ni diarrea, K 4.6 mEq/L.",
+  "enunciado": "¿Cuál es la conducta?",
+  "opciones": {
+   "A": "Cambiar el iSGLT2 por un agonista de GLP-1, por el aumento de creatinina y por la menor tolerancia renal esperada a largo plazo",
+   "B": "Hospitalizar por lesión renal aguda y suspender de inmediato el iSGLT2, el losartán y el amlodipino hasta nuevo aviso",
+   "C": "Reducir el losartán a la mitad para compensar el efecto hemodinámico del iSGLT2 sobre la TFGe de la paciente",
+   "D": "Suspender definitivamente el iSGLT2, por el aumento de 18% de la creatinina que indica toxicidad tubular directa del fármaco",
+   "E": "Continuar el iSGLT2: la caída inicial hemodinámica (<30%) es esperada; repetir creatinina y potasio en 2–4 semanas"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El cambio a aGLP-1 no sustituye el beneficio renal del iSGLT2.",
+   "B": "El descenso es de 12% y esperado; no es LRA (≥0.3 mg/dL en 48 horas o 1.5 veces).",
+   "C": "Reducir el bloqueo del SRAA no es necesario y pierde efecto antiproteinúrico.",
+   "D": "Suspender definitivamente prive al paciente del beneficio y no está indicado por esta caída.",
+   "E": "Los iSGLT2 producen una caída hemodinámica inicial de la TFG (vasoconstricción de la arteriola aferente por retroalimentación tubuloglomerular), típicamente 3 a 5 mL/min/1.73 m², no progresiva, que se acompaña de protección renal a largo plazo. Un descenso <30% de la TFG basal con TA estable y sin depleción de volumen se tolera y no obliga a suspender. Se evalúan volemia, uso de diuréticos y AINE; se suspende solo ante enfermedad con deshidratación, cirugía con ayuno o descenso >30% sin explicación."
+  },
+  "perla": "iSGLT2: la caída inicial de TFGe (≈3–5 mL/min) es hemodinámica y esperada; solo suspender si >30%, depleción de volumen o enfermedad aguda (días de enfermedad).",
+  "referencias": [
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117",
+   "Heerspink HJL et al. Kidney Int 2020;98:1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 7,
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "obj": "7.o7",
+  "peso": 38.4
+ },
+ {
+  "id": "PRG-4",
+  "serie_id": "PRG",
+  "orden": 4,
+  "sub": "7.a",
+  "subtema": "Metas de TA, proteína y sodio en ERC",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En la consulta se discuten metas: TA 136/80 mmHg medida en forma estandarizada, ingesta de proteína 1.3 g/kg/día y sodio estimado de 4 g/día.",
+  "enunciado": "¿Cuál de las siguientes metas es correcta para esta paciente?",
+  "opciones": {
+   "A": "TA sistólica <120 mmHg estandarizada si se tolera, proteína 0.8 g/kg/día, sodio <2 g/día y actividad física ≥150 min/semana",
+   "B": "TA <140/90, proteína de 1.5 g/kg/día y sodio sin límite, ya que la dieta no cambia la progresión de la ERC diabética ni la albuminuria",
+   "C": "TA <150/90 mmHg en todas las pacientes con ERC, por el riesgo de hipotensión, lesión renal aguda y caídas",
+   "D": "TA <130/80 sin cambios en la dieta, porque la proteína y el sodio carecen de efecto sobre la presión arterial",
+   "E": "Proteína de 0.3 g/kg/día en todos los pacientes con ERC G3, para retrasar al máximo la progresión sin cetoanálogos ni vigilancia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "KDIGO 2021 y 2024 sugieren TA sistólica <120 mmHg con medición estandarizada cuando se tolere (con medidas menos estrictas en fragilidad, hipotensión ortostática o expectativa de vida limitada); proteína 0.8 g/kg/día en G3 a G5 evitando >1.3 g/kg/día; sodio <2 g/día (<90 mmol); actividad moderada de al menos 150 minutos por semana, dejar de fumar y mantener IMC saludable. Dietas muy bajas en proteína (0.3 a 0.4 g/kg/día con cetoanálogos) se reservan a pacientes seleccionados y supervisados en G4 a G5.",
+   "B": "Estas metas son excesivas en proteína y sodio y poco estrictas en TA.",
+   "C": "Una meta de <150/90 no basta en ERC con riesgo alto.",
+   "D": "La dieta tiene efecto sobre TA, acidosis y progresión.",
+   "E": "La restricción proteica tan severa no se recomienda de forma general y causa desnutrición."
+  },
+  "perla": "ERC: TAS <120 estandarizada (si se tolera), proteína 0.8 g/kg/d, Na <2 g/d, ejercicio ≥150 min/sem. Muy baja proteína (0.3–0.4 + cetoanálogos) solo supervisada en G4–5.",
+  "referencias": [
+   "KDIGO 2021 Blood Pressure in CKD Guideline. Kidney Int 2021;99(3S):S1",
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 7,
+  "tema": "Enfermedad renal crónica y síndrome urémico",
+  "obj": "7.o7",
+  "peso": 38.4
+ },
+ {
+  "id": "DMH-2",
+  "serie_id": "DMH",
+  "orden": 2,
+  "sub": "9.d.6",
+  "subtema": "Enfermedad por depósito de cadenas ligeras",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Para el diagnóstico diferencial, el patólogo comenta qué hallazgos habrían cambiado el diagnóstico: tinción lineal monotípica para cadenas ligeras κ a lo largo de las membranas basales glomerular y tubular en la inmunofluorescencia, con depósitos granulares densos 'polvosos' en la microscopía electrónica.",
+  "enunciado": "¿Qué diagnóstico indicaría ese patrón y qué estudio sistémico se solicitaría?",
+  "opciones": {
+   "A": "Enfermedad por depósito de cadenas ligeras (GMSR o mieloma): cadenas ligeras libres séricas, inmunofijación y médula ósea",
+   "B": "Nefropatía por IgA con depósitos mesangiales de IgA dominante; se solicita la IgA sérica y su glicosilación",
+   "C": "Glomerulonefritis posestreptocócica con depósitos granulares de C3; se solicitan ASLO y el complemento sérico",
+   "D": "Nefropatía diabética con nódulos de Kimmelstiel-Wilson; solo control de la glucosa y de la presión arterial, sin estudio sistémico adicional",
+   "E": "Enfermedad de Fabry con inclusiones lamelares en los podocitos; actividad de α-galactosidasa A en plasma"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La enfermedad por depósito de cadenas ligeras (la forma más frecuente de enfermedad por depósito de inmunoglobulinas monoclonales) produce nódulos mesangiales PAS positivos y se reconoce por inmunofluorescencia con tinción lineal monotípica (más a menudo κ) de membranas basales glomerulares y tubulares, y por depósitos electrondensos granulares, finos y 'polvosos' en el lado interno de las membranas basales en microscopía electrónica. Se asocia a una discrasia de células plasmáticas, por lo que se solicitan cadenas ligeras libres séricas, inmunofijación en suero y orina y valoración de médula ósea. El tratamiento va dirigido a la clona de células plasmáticas (por ejemplo, bortezomib), no a la glucemia.",
+   "B": "La nefropatía por IgA tiene depósitos mesangiales de IgA policlonal, sin patrón nodular monotípico.",
+   "C": "La GN posestreptocócica muestra depósitos subepiteliales en 'jorobas', con C3.",
+   "D": "La nefropatía diabética no tiene tinción monotípica en inmunofluorescencia.",
+   "E": "Fabry produce inclusiones laminadas ('cebra') en podocitos."
+  },
+  "perla": "LCDD: IF lineal monotípica (κ) en GBM y TBM + depósitos 'polvosos' en ME + nódulos PAS(+). Buscar clona (CLL, IFE, médula).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (discrasias de células plasmáticas)",
+   "Leung N et al. Nat Rev Nephrol 2019;15:45"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 67.6
+ },
+ {
+  "id": "DMH-3",
+  "serie_id": "DMH",
+  "orden": 3,
+  "sub": "9.d.6",
+  "subtema": "Amiloidosis AL vs glomerulonefritis fibrilar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En otro caso de diagnóstico diferencial con glomeruloesclerosis nodular, el rojo Congo es negativo pero la microscopía electrónica muestra fibrillas de 14 a 20 nm de diámetro, y la inmunohistoquímica es positiva para DNAJB9.",
+  "enunciado": "¿Cuál es el diagnóstico y cómo se distingue de la amiloidosis?",
+  "opciones": {
+   "A": "Amiloidosis AL, porque las fibrillas siempre miden 8 a 12 nm y el rojo Congo es negativo en este caso",
+   "B": "Glomerulopatía inmunotactoide, porque las fibrillas son microtúbulos huecos de más de 30 nm organizados en paralelo",
+   "C": "Nefropatía diabética porque hay fibrillas en la matriz mesangial, además de la glomeruloesclerosis nodular",
+   "D": "Nefropatía membranosa con depósitos subepiteliales, que en la ME muestran fibrillas dispersas en el mesangio",
+   "E": "GN fibrilar (DNAJB9 positivo); la amiloidosis tiene rojo Congo positivo con birrefringencia verde manzana y fibrillas de 8 a 12 nm"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En la amiloidosis el rojo Congo es positivo; en este caso es negativo.",
+   "B": "La glomerulopatía inmunotactoide tiene microtúbulos de diámetro mayor (más de 30 nm).",
+   "C": "La nefropatía diabética no tiene fibrillas organizadas en ME.",
+   "D": "La nefropatía membranosa muestra depósitos subepiteliales, no fibrillas.",
+   "E": "La glomerulonefritis fibrilar se caracteriza por fibrillas aleatoriamente orientadas de unos 12 a 24 nm de diámetro, rojo Congo negativo y positividad para DNAJB9, un marcador muy sensible y específico (más del 95%). La amiloidosis (AL o AA) tiene fibrillas de 8 a 12 nm, rojo Congo positivo con birrefringencia verde manzana bajo luz polarizada y se confirma tipificando la proteína por espectrometría de masas. La glomerulopatía inmunotactoide tiene microtúbulos más gruesos (más de 30 nm) con disposición paralela y suele asociarse a gammapatía monoclonal. La fibrilar se asocia a autoinmunidad, hepatitis C y neoplasias, y la amiloidosis AL a discrasias de células plasmáticas."
+  },
+  "perla": "Fibrilar: 12–24 nm, Congo (–), DNAJB9 (+). Amiloide: 8–12 nm, Congo (+), verde manzana. Inmunotactoide: >30 nm.",
+  "referencias": [
+   "Nasr SH et al. Kidney Int Rep 2018;3:56",
+   "Comprehensive Clinical Nephrology (glomerulopatías fibrilares)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 67.6
  }
 ]

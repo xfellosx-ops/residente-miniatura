@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "gen",
      "specialty": "Genética",
-     "serie": "FAB",
+     "serie": "ACB",
      "intro": [
       [
        "Dra. Alelo Vargas",
@@ -237,37 +237,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 5
-    },
-    {
-     "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
-     "serie": "ATB",
-     "intro": [
-      [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
-      ],
-      [
-       "Dra. Carmen Triaje",
-       "Mi caso: ATR proximal (tipo 2) aislada"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
-      ]
-     ],
-     "questionTopics": [],
      "n": 4
     },
     {
-     "id": "t0_2",
+     "id": "t0_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "RAA",
+     "serie": "HMG",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -275,7 +251,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: Hipoaldosteronismo hiporreninémico (ATR tipo 4)"
+       "Mi caso: Hematuria glomerular aislada familiar"
       ]
      ],
      "defeat": [
@@ -285,7 +261,31 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "NDI",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: Diabetes insípida nefrogénica hereditaria"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
     }
    ],
    "wild": [
@@ -403,94 +403,38 @@
     },
     {
      "type": "clasif",
-     "title": "Tubulopatía: PA y potasio",
+     "title": "SRNS monogénico: edad típica de inicio",
      "bins": [
-      "HTA con hipopotasemia",
-      "PA normal o baja con hipopotasemia",
-      "HTA con hiperpotasemia"
+      "Lactancia o infancia temprana",
+      "Adolescencia o adultez"
      ],
      "items": [
       [
-       "Liddle",
-       "HTA con hipopotasemia"
+       "NPHS1 (nefrina)",
+       "Lactancia o infancia temprana"
       ],
       [
-       "Exceso aparente de mineralocorticoides",
-       "HTA con hipopotasemia"
+       "LAMB2",
+       "Lactancia o infancia temprana"
       ],
       [
-       "Hiperaldosteronismo remediable con glucocorticoides",
-       "HTA con hipopotasemia"
+       "PLCE1",
+       "Lactancia o infancia temprana"
       ],
       [
-       "Bartter",
-       "PA normal o baja con hipopotasemia"
+       "INF2",
+       "Adolescencia o adultez"
       ],
       [
-       "Gitelman",
-       "PA normal o baja con hipopotasemia"
+       "TRPC6",
+       "Adolescencia o adultez"
       ],
       [
-       "Gordon (PHA2)",
-       "HTA con hiperpotasemia"
+       "ACTN4",
+       "Adolescencia o adultez"
       ]
      ],
      "pairs": []
-    },
-    {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
-      [
-       "Alport ligado al X",
-       "COL4A5"
-      ],
-      [
-       "Hematuria + sordera + lenticono",
-       "Síndrome de Alport"
-      ],
-      [
-       "Fabry",
-       "α-galactosidasa A; cuerpos de cebra"
-      ],
-      [
-       "Gitelman",
-       "NCC: hipoK, hipoMg, hipocalciuria"
-      ],
-      [
-       "Bartter",
-       "Asa: hipoK, hipercalciuria"
-      ],
-      [
-       "Liddle",
-       "ENaC ↑: HTA + hipoK → amilorida"
-      ],
-      [
-       "ATR distal (1)",
-       "pH urinario >5.5, nefrocalcinosis"
-      ],
-      [
-       "ATR proximal (2)",
-       "Fanconi; pérdida de HCO₃"
-      ],
-      [
-       "ATR tipo 4",
-       "Hipoaldosteronismo + hiperK"
-      ],
-      [
-       "Cistinosis",
-       "Cisteamina"
-      ],
-      [
-       "Hiperoxaluria primaria",
-       "Lumasirán (RNAi)"
-      ],
-      [
-       "APOL1",
-       "Riesgo en ascendencia africana"
-      ]
-     ]
     }
    ],
    "cutscenes": [
@@ -594,7 +538,7 @@
      "id": "t1_0",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "HMG",
+     "serie": "FAB",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -608,37 +552,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 5
     },
     {
      "id": "t1_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
-     "serie": "NDI",
-     "intro": [
-      [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
-      ],
-      [
-       "Dra. Sístole Ruiz",
-       "Mi caso: Diabetes insípida nefrogénica hereditaria"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
-      ]
-     ],
-     "questionTopics": [],
-     "n": 4
-    },
-    {
-     "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "ACB",
+     "serie": "RAA",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -646,7 +566,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Tubulopatías: Gitelman y Bartter"
+       "Mi caso: SRAA: efecto hemodinámico de los IECA sobre la TFG"
       ]
      ],
      "defeat": [
@@ -656,7 +576,31 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "ATR",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Acidosis metabólica hiperclorémica: brecha urinaria"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
     }
    ],
    "wild": [
@@ -778,36 +722,296 @@
      "pairs": []
     },
     {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Alport ligado al X",
+       "COL4A5"
+      ],
+      [
+       "Hematuria + sordera + lenticono",
+       "Síndrome de Alport"
+      ],
+      [
+       "Fabry",
+       "α-galactosidasa A; cuerpos de cebra"
+      ],
+      [
+       "Gitelman",
+       "NCC: hipoK, hipoMg, hipocalciuria"
+      ],
+      [
+       "Bartter",
+       "Asa: hipoK, hipercalciuria"
+      ],
+      [
+       "Liddle",
+       "ENaC ↑: HTA + hipoK → amilorida"
+      ],
+      [
+       "ATR distal (1)",
+       "pH urinario >5.5, nefrocalcinosis"
+      ],
+      [
+       "ATR proximal (2)",
+       "Fanconi; pérdida de HCO₃"
+      ],
+      [
+       "ATR tipo 4",
+       "Hipoaldosteronismo + hiperK"
+      ],
+      [
+       "Cistinosis",
+       "Cisteamina"
+      ],
+      [
+       "Hiperoxaluria primaria",
+       "Lumasirán (RNAi)"
+      ],
+      [
+       "APOL1",
+       "Riesgo en ascendencia africana"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Proteinuria en ascenso pese a IECA. Y su madre quiere ayudar."
+      ]
+     ]
+    }
+   ],
+   "card": "Bartter = asa (↑Ca urinario). Gitelman = tiazida (↓Ca urinario, ↓Mg). Liddle = ENaC (amilorida). Fabry: GLA, cuerpos de cebra, reemplazo enzimático o migalastat."
+  },
+  {
+   "id": "z3",
+   "name": "Quirófano del Donante",
+   "palette": [
+    "#E8F8F0",
+    "#6AC0A0",
+    "#1F6B4A",
+    "#0E2A24"
+   ],
+   "tiles": "injerto",
+   "vignette": "alport",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Giro: su mamá quiere donarle un riñón. «Yo solo tengo sangre en la orina»."
+    ],
+    [
+     "Sabio Brenn",
+     "Heterocigota de COL4A5. No es solo portadora: también puede enfermar."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Madre Heterocigota",
+     "lines": [
+      [
+       "Madre Heterocigota",
+       "Tengo microhematuria desde joven. Nadie me dijo que eso contaba."
+      ],
+      [
+       "Madre Heterocigota",
+       "Si dono, me quedo con un solo riñón que también puede fallar."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "heterocigotas"
+    },
+    {
+     "id": "npc2",
+     "name": "Colágeno α5 del Injerto",
+     "lines": [
+      [
+       "Colágeno α5 del Injerto",
+       "El injerto trae una cadena que el receptor nunca vio."
+      ],
+      [
+       "Colágeno α5 del Injerto",
+       "Por eso, rara vez, aparece anti-MBG de novo tras el trasplante."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "anti-MBG de novo"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Donación",
+     "Heterocigota de Alport ligado al X con hematuria: en general no debe donar."
+    ],
+    [
+     "Letrero · Injerto",
+     "El Alport no recurre; rara vez aparece anti-MBG de novo en el injerto."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "GHJ-2",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Mamá sana, riñón sano: la opero mañana."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "¿Heterocigota con hematuria? Busco otro donante."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "pato",
+     "specialty": "Patología",
+     "serie": "GHJ-4",
+     "intro": [
+      [
+       "Dra. Iris Hematoxilina",
+       "¿Anti-MBG en un trasplantado con Alport? Imposible."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Iris Hematoxilina",
+       "El injerto trae colágeno que nunca vio… era de novo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "ATB",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: ATR proximal (tipo 2) aislada"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Microhematuria Materna",
+     "type": "Celular",
+     "topic": "Microhematuria Materna"
+    },
+    {
+     "name": "Anti-MBG de Novo",
+     "type": "Humoral",
+     "topic": "Anti-MBG de Novo"
+    },
+    {
+     "name": "Membrana Laminada",
+     "type": "Molecular",
+     "topic": "Membrana Laminada"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_1",
+     "topic": "Donación y trasplante en el síndrome de Alport",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: el donante «sano» de la familia puede portar la misma variante."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Herencia y riesgo en Alport",
+     "items": [],
+     "pairs": [
+      [
+       "Varón con COL4A5",
+       "Falla renal casi segura"
+      ],
+      [
+       "Mujer heterocigota COL4A5",
+       "Riesgo de ERC; no donar"
+      ],
+      [
+       "Recesivo COL4A3/COL4A4",
+       "Grave en ambos sexos"
+      ],
+      [
+       "Heterocigoto COL4A3/COL4A4",
+       "Hematuria; a veces ERC"
+      ],
+      [
+       "Injerto en Alport",
+       "Anti-MBG de novo, raro"
+      ]
+     ]
+    },
+    {
      "type": "clasif",
-     "title": "SRNS monogénico: edad típica de inicio",
+     "title": "Tubulopatía: PA y potasio",
      "bins": [
-      "Lactancia o infancia temprana",
-      "Adolescencia o adultez"
+      "HTA con hipopotasemia",
+      "PA normal o baja con hipopotasemia",
+      "HTA con hiperpotasemia"
      ],
      "items": [
       [
-       "NPHS1 (nefrina)",
-       "Lactancia o infancia temprana"
+       "Liddle",
+       "HTA con hipopotasemia"
       ],
       [
-       "LAMB2",
-       "Lactancia o infancia temprana"
+       "Exceso aparente de mineralocorticoides",
+       "HTA con hipopotasemia"
       ],
       [
-       "PLCE1",
-       "Lactancia o infancia temprana"
+       "Hiperaldosteronismo remediable con glucocorticoides",
+       "HTA con hipopotasemia"
       ],
       [
-       "INF2",
-       "Adolescencia o adultez"
+       "Bartter",
+       "PA normal o baja con hipopotasemia"
       ],
       [
-       "TRPC6",
-       "Adolescencia o adultez"
+       "Gitelman",
+       "PA normal o baja con hipopotasemia"
       ],
       [
-       "ACTN4",
-       "Adolescencia o adultez"
+       "Gordon (PHA2)",
+       "HTA con hiperpotasemia"
       ]
      ],
      "pairs": []
@@ -819,12 +1023,12 @@
      "lines": [
       [
        "Dr. J.",
-       "Proteinuria en ascenso pese a IECA. El mutante se muestra."
+       "Donará un primo sin la variante. El Mutante se muestra."
       ]
      ]
     }
    ],
-   "card": "Bartter = asa (↑Ca urinario). Gitelman = tiazida (↓Ca urinario, ↓Mg). Liddle = ENaC (amilorida). Fabry: GLA, cuerpos de cebra, reemplazo enzimático o migalastat."
+   "card": "Alport X: los varones progresan; las heterocigotas pueden tener ERC y no deben donar. Tras el trasplante no recurre, pero puede aparecer anti-MBG de novo."
   }
  ],
  "boss": {
@@ -852,6 +1056,10 @@
    [
     "Sabio Brenn",
     "No se cura el gen. Se le ganan años a la nefrona."
+   ],
+   [
+    "Paciente",
+    "¿Mi mamá también debe estudiarse? Hoy mismo le marco."
    ]
   ],
   "phases": [
@@ -940,6 +1148,10 @@
    "text": "Bartter = asa (↑Ca urinario). Gitelman = tiazida (↓Ca urinario, ↓Mg). Liddle = ENaC (amilorida). Fabry: GLA, cuerpos de cebra, reemplazo enzimático o migalastat."
   },
   {
+   "title": "Quirófano del Donante",
+   "text": "Alport X: los varones progresan; las heterocigotas pueden tener ERC y no deben donar. Tras el trasplante no recurre, pero puede aparecer anti-MBG de novo."
+  },
+  {
    "title": "💎 Diferenciación entre ATR 1, 2 y 4",
    "text": "Tipo 1: ↓K, pH urinario >5.5, BAU +. Tipo 2: ↓K, pH <5.5, BAU −, FEHCO₃ alta. Tipo 4: ↑K, pH <5.5, BAU +."
   },
@@ -952,6 +1164,10 @@
    "text": "Alport: laminación de la membrana basal (cesta tejida) + ausencia de α3/α4/α5 de colágeno IV (varones XL); mosaico en mujeres."
   },
   {
+   "title": "💎 SRAA: efecto hemodinámico de los IECA so",
+   "text": "IECA/ARA II: ↑Cr hasta 30% en 2–4 semanas es aceptable (vasodilatación eferente). >30%: buscar hipovolemia, AINE, estenosis renal bilateral."
+  },
+  {
    "title": "💎 Síndrome de Alport: genética",
    "text": "Alport: COL4A5 ligado al X (80–85%); AR COL4A3/A4 (15%); AD (COL4A3/A4 heterocigoto) más frecuente de lo creído con NGS (20–30% de cohortes). El antecedente de varones afectados con sordera y ERC orienta a la forma ligada al X."
   },
@@ -960,16 +1176,12 @@
    "text": "Alport: hipoacusia neurosensorial + lenticono anterior + retinopatía perimacular. Fabry: córnea verticilata y angioqueratomas."
   },
   {
-   "title": "💎 Tratamiento de la enfermedad de Fabry",
-   "text": "Fabry: ERT (agalsidasa alfa/beta, pegunigalsidasa) o migalastat si variante susceptible y TFGe ≥30; IECA/ARA-II; tratar temprano."
+   "title": "💎 Alcalosis metabólica",
+   "text": "Alcalosis metabólica: Cl urinario <20 (sensible a Cl): vómito, aspiración nasogástrica, diuréticos remotos, poshipercapnia, diarrea clorurada congénita. Cl >20: hiperaldosteronismo, Bartter/Gitelman, diuréticos activos, hipoMg/hipoK graves."
   },
   {
-   "title": "💎 Enfermedad de Fabry: diagnóstico clínico",
-   "text": "Fabry: acroparestesias + angioqueratomas + córnea verticilata + proteinuria; GLA (Xq22), α-Gal A baja; podocitos espumosos y cuerpos de cebra."
-  },
-  {
-   "title": "💎 ATR tipo 4: hipoaldosteronismo hiporreni",
-   "text": "ATR 4: hiperK + acidosis hiperclorémica + BAU positiva; retirar IECA/ARA-II, AINE, TMP-SMX; diurético de asa/tiazida; quelantes de K."
+   "title": "💎 Acidosis metabólica hiperclorémica: brec",
+   "text": "AGU = Na + K − Cl en orina. Negativa (<0) → ↑NH₄⁺ (diarrea, extrarrenal). Positiva → ↓NH₄⁺ (ATR, IR). Winter: PaCO₂ = 1.5×HCO₃ + 8 ± 2."
   }
  ]
 }

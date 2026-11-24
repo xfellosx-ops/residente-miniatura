@@ -2523,5 +2523,313 @@
    "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
   ],
   "tipo_item": "nueva"
+ },
+ {
+  "id": "ACB-4",
+  "serie_id": "ACB",
+  "orden": 4,
+  "tema": "Enfermedades hereditarias del riñón",
+  "subtema": "Tubulopatías: Gitelman y Bartter",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente de 28 años, normotensa (TA 96/60 mmHg), tiene calambres, tetania ocasional y debilidad desde la adolescencia. Niega vómito y uso de laxantes o diuréticos, con tamizaje urinario de diuréticos negativo. Na 136, K 2.8, Mg 1.2 mg/dL, HCO3 31 mEq/L. Cl urinario 70 mEq/L; calcio urinario/creatinina 0.03 mg/mg; ultrasonido renal sin nefrocalcinosis.",
+  "enunciado": "¿Cuál es el diagnóstico y el fundamento del tratamiento?",
+  "opciones": {
+   "A": "Acidosis tubular distal: bicarbonato de sodio, porque causa pérdida urinaria de potasio con acidosis hiperclorémica",
+   "B": "Síndrome de Bartter clásico (NKCC2): dieta restringida en sodio y diurético tiazídico, que corrige la hipocalemia de forma sostenida",
+   "C": "Síndrome de Liddle (ENaC): amilorida y restricción de sodio, por la hipertensión con renina y aldosterona bajas",
+   "D": "Hiperaldosteronismo primario: espironolactona y adrenalectomía, por hipertensión con hipocalemia y renina suprimida",
+   "E": "Gitelman (SLC12A3, cotransportador Na-Cl): dieta libre en sal, reposición de KCl y magnesio, y espironolactona o amilorida si persiste"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La ATD cursa con acidosis metabólica hiperclorémica de brecha normal, no con alcalosis.",
+   "B": "El Bartter se asocia con hipercalciuria (y nefrocalcinosis), no con hipocalciuria; las tiazidas no se usan porque empeoran la depleción.",
+   "C": "Liddle cursa con HTA grave, renina y aldosterona suprimidas; esta paciente es normotensa.",
+   "D": "Hiperaldosteronismo primario cursa con HTA y renina suprimida; aquí no hay HTA.",
+   "E": "Normotensión o hipotensión con hipocalemia, alcalosis metabólica, hipomagnesemia, Cl urinario elevado e hipocalciuria (Ca/Cr <0.07 mg/mg) es el patrón de Gitelman, que remeda el uso crónico de tiazidas (pérdida del cotransportador Na-Cl del túbulo contorneado distal por mutaciones de SLC12A3). La hipomagnesemia por pérdida renal y la hipocalciuria lo distinguen del Bartter. Tratamiento: dieta libre en sal, reposición de KCl y Mg (Mg oral en dosis fraccionadas, que causa diarrea), y bloqueo de la reabsorción de Na en el túbulo colector (espironolactona, eplerenona o amilorida) en caso de hipocalemia persistente; los AINE son menos eficaces que en Bartter."
+  },
+  "perla": "Gitelman (SLC12A3): hipoK, alcalosis, hipoMg, hipoCa urinario, edad adolescente/adulto. Bartter (NKCC2, ROMK, ClC-Kb): hipercalciuria, poliuria, inicio temprano; AINE útiles. Mimetismo: furosemida (Bartter), tiazidas (Gitelman).",
+  "referencias": [
+   "Blanchard A et al. Kidney Int 2017;91:24 (KDIGO Controversies: Gitelman)",
+   "Comprehensive Clinical Nephrology (cap. Tubulopatías hereditarias)"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "16.a.ii",
+  "tema_id": 16,
+  "obj": "16.o1",
+  "peso": 59.3
+ },
+ {
+  "id": "ATR-2",
+  "serie_id": "ATR",
+  "orden": 2,
+  "sub": "16.d.iii",
+  "subtema": "ATR distal: etiología y complicaciones",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la exploración: xeroftalmia y xerostomía; tras la prueba de Schirmer positiva, anti-Ro/SSA positivo, ANA 1:640. Calcio urinario 310 mg/24 h, citrato urinario 40 mg/24 h. Ultrasonido renal con hiperecogenicidad medular difusa y calcificaciones.",
+  "enunciado": "¿Cuál es el diagnóstico y qué complicación renal explica los hallazgos de imagen?",
+  "opciones": {
+   "A": "ATR distal (tipo 1) por síndrome de Sjögren, con nefrocalcinosis por hipercalciuria, hipocitraturia y orina alcalina",
+   "B": "Hipercalcemia hipocalciúrica familiar, con hipercalcemia leve y calcio urinario bajo, sin acidosis metabólica asociada",
+   "C": "ATR proximal (tipo 2) con síndrome de Fanconi, con pérdida de bicarbonato, glucosa, fosfato y aminoácidos",
+   "D": "ATR tipo 4 por hipoaldosteronismo, con hiperpotasemia y acidosis hiperclorémica sin nefrocalcinosis ni litiasis renal",
+   "E": "Enfermedad de Dent con nefrolitiasis, con proteinuria de bajo peso molecular, hipercalciuria y pérdida renal de fosfato"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La ATR distal (tipo 1) se debe a incapacidad de la célula intercalada α para secretar H⁺ (bomba H⁺-ATPasa o intercambiador Cl⁻/HCO₃⁻), con pH urinario >5.5 en acidosis, hipopotasemia, hipercalciuria y, por la hipocitraturia, nefrolitiasis y nefrocalcinosis medular de fosfato de calcio (orina alcalina favorece su precipitación). El síndrome de Sjögren (anti-Ro/La, sialoadenitis) es la causa adquirida más común en mujeres; otras: lupus, anfotericina B, litio, hipercalciuria idiopática, y formas hereditarias (SLC4A1, ATP6V1B1, ATP6V0A4). Se requiere vigilar la función renal por nefritis intersticial asociada.",
+   "B": "En la hipercalcemia hipocalciúrica familiar la calciuria es baja.",
+   "C": "La ATR proximal cursa con bicarbonaturia y pH urinario <5.5 cuando el bicarbonato sérico es bajo, y suele haber glucosuria, aminoaciduria y fosfaturia (Fanconi).",
+   "D": "La ATR tipo 4 cursa con hiperpotasemia, no hipopotasemia.",
+   "E": "La enfermedad de Dent es proteinuria de bajo peso molecular con hipercalciuria y nefrocalcinosis, pero sin xeroftalmia ni anti-Ro."
+  },
+  "perla": "dRTA: pH urinario >5.5, hipoK, hipercalciuria, hipocitraturia, nefrocalcinosis. Causas: Sjögren, LES, litio, anfotericina, SLC4A1/ATP6V0A4. Proximal: Fanconi, FEHCO₃ >15%. Tipo 4: hiperK.",
+  "referencias": [
+   "Palmer BF et al. Adv Ther 2021;38:949 (ATR)",
+   "Comprehensive Clinical Nephrology (cap. Acidosis tubular renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 44.6
+ },
+ {
+  "id": "ATR-3",
+  "serie_id": "ATR",
+  "orden": 3,
+  "sub": "16.d.iii",
+  "subtema": "ATR distal: tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Pesa 55 kg. Se decide iniciar tratamiento alcalinizante. El potasio sérico es de 2.8 mEq/L.",
+  "enunciado": "¿Cuál es la estrategia más adecuada?",
+  "opciones": {
+   "A": "Solo bicarbonato de sodio sin potasio, porque basta con corregir la acidosis para normalizar el potasio sérico",
+   "B": "Restricción de sodio y diuréticos tiazídicos para la hipercalciuria, sin alcalinizar la orina de la paciente",
+   "C": "Dosis de 10–15 mEq/kg/día de bicarbonato con un tiazídico para la depleción de volumen en la paciente",
+   "D": "Acetazolamida para estimular la excreción de bicarbonato, con reposición de potasio en dosis fraccionadas",
+   "E": "Citrato de potasio (≈1–2 mEq/kg/día fraccionado) para corregir acidosis, hipopotasemia e hipocitraturia; evitar tiazídicos"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El bicarbonato de sodio sin potasio puede agravar la hipopotasemia.",
+   "B": "Sin alcalinización la acidosis crónica agrava la hipercalciuria y la nefrocalcinosis; los tiazídicos agravarían la hipopotasemia.",
+   "C": "Las dosis de 10–15 mEq/kg/día se usan en ATR proximal, donde el bicarbonato se pierde; el tiazídico se usa en proximal para contraer volumen.",
+   "D": "La acetazolamida inhibe la anhidrasa carbónica y empeora la acidosis y la hipopotasemia.",
+   "E": "El tratamiento de la ATR distal es alcalinización con 1–2 mEq/kg/día de bicarbonato o citrato (hasta 3–4 mEq/kg/día en niños), dividida en varias dosis; el citrato de potasio es preferible cuando hay hipopotasemia e hipocitraturia, porque corrige la acidosis, repone potasio y aumenta el citrato urinario (inhibidor de cristalización), previniendo nefrolitiasis y progresión de la nefrocalcinosis. Se controlan potasio y bicarbonato, y se evita sobrecorrección. La hipopotasemia grave debe corregirse al mismo tiempo, porque el solo bicarbonato de sodio puede empeorarla al ingresar el K a la célula y aumentar la entrega distal de sodio."
+  },
+  "perla": "dRTA: 1–2 mEq/kg/d alcali; citrato de K si hipoK/hipocitraturia. pRTA: 10–15 mEq/kg/d + tiazida. Evitar acetazolamida. Controlar K, Ca urinario, citrato y nefrocalcinosis.",
+  "referencias": [
+   "Palmer BF et al. Adv Ther 2021;38:949 (ATR)",
+   "Comprehensive Clinical Nephrology (cap. Acidosis tubular renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 42.6
+ },
+ {
+  "id": "VOL-1",
+  "serie_id": "VOL",
+  "orden": 1,
+  "sub": "24.a",
+  "subtema": "Hipovolemia: índices urinarios en LRA prerrenal",
+  "dificultad": "moderada",
+  "caso": "Hombre de 64 años con 4 días de diarrea y vómito. TA de 88/52 mmHg en decúbito, FC de 118 lpm, mucosas secas, pliegue cutáneo lento. Creatinina de 2.4 mg/dL (basal de 0.9), BUN de 68 mg/dL, sodio urinario de 8 mEq/L, FENa de 0.4%, osmolalidad urinaria de 640 mOsm/kg, sedimento sin cilindros.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "opciones": {
+   "A": "LRA prerrenal por hipovolemia; cristaloide isotónico balanceado con vigilancia de diuresis, recuperación en 24–72 h",
+   "B": "Necrosis tubular aguda establecida, tratada con furosemida para forzar la diuresis y evitar la oliguria posterior prolongada",
+   "C": "Glomerulonefritis rápidamente progresiva, tratada con pulsos de metilprednisolona por la elevación de creatinina sérica",
+   "D": "Nefritis intersticial aguda, que se trata suspendiendo el fármaco sospechoso y con prednisona por la diarrea",
+   "E": "Obstrucción posrenal, tratada con sonda vesical y restricción de líquidos mientras se resuelve la oliguria"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La combinación de hipovolemia clínica, BUN/creatinina elevado (más de 20), sodio urinario menor de 20 mEq/L, FENa menor de 1%, osmolalidad urinaria alta (más de 500 mOsm/kg) y sedimento sin cilindros granulosos indica LRA prerrenal: la hipoperfusión activa la retención renal de sodio y agua (sistema renina-angiotensina-aldosterona y vasopresina). El tratamiento es la reposición del volumen con cristaloides isotónicos, con corrección de la causa, y la creatinina se normaliza en 24 a 72 horas. Si persiste la hipoperfusión, la prerrenal puede evolucionar a necrosis tubular aguda, con FENa mayor de 2% y cilindros granulosos.",
+   "B": "En la necrosis tubular aguda el FENa es mayor de 2% y la orina es isostenúrica, con cilindros granulosos.",
+   "C": "No hay hematuria, proteinuria ni cilindros eritrocitarios que sugieran glomerulonefritis.",
+   "D": "La nefritis intersticial aguda presenta piuria estéril, eosinofiluria y FENa elevado, sin hipovolemia.",
+   "E": "No hay datos obstructivos, y la hipovolemia exige líquidos."
+  },
+  "perla": "Prerrenal: BUN/Cr >20, UNa <20, FENa <1%, Uosm >500, sedimento bland. NTA: FENa >2%, cilindros granulosos, orina isostenúrica.",
+  "referencias": [
+   "KDIGO AKI 2012. Kidney Int Suppl 2012;2:1",
+   "Comprehensive Clinical Nephrology (lesión renal aguda)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o1",
+  "peso": 47.1
+ },
+ {
+  "id": "VOL-2",
+  "serie_id": "VOL",
+  "orden": 2,
+  "sub": "24.a",
+  "subtema": "Fracción excretada de urea con diuréticos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente, con insuficiencia cardiaca, recibió furosemida 80 mg dos días antes de desarrollar LRA por hipovolemia. Presenta sodio urinario de 56 mEq/L y FENa de 2.3%. La fracción excretada de urea es de 22%.",
+  "enunciado": "¿Cómo se interpretan estos índices?",
+  "opciones": {
+   "A": "Ambos índices son inútiles y se descartan, porque la diuresis tras la furosemida invalida toda evaluación urinaria",
+   "B": "El FENa es poco confiable por la furosemida; una FEurea menor de 28-35% sugiere LRA de origen prerrenal en este paciente",
+   "C": "La FEurea de 22% descarta hipovolemia, porque indica que el túbulo reabsorbe poca urea en este paciente con diuréticos de asa",
+   "D": "El FENa de 2.3% confirma necrosis tubular aguda, porque supera el límite de 2% aun con el uso reciente de diuréticos de asa",
+   "E": "El FENa se interpreta igual con diuréticos, porque la furosemida no modifica la excreción fraccionada de sodio"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La FEurea es útil cuando el FENa no es confiable.",
+   "B": "Los diuréticos de asa y las tiazidas aumentan la excreción de sodio y elevan el FENa de forma artificial (más de 1%, incluso en prerrenal). La urea se reabsorbe en el túbulo proximal junto con el sodio y el agua por la depleción de volumen, pero su reabsorción es menos influida por los diuréticos, por lo que la fracción excretada de urea (FEurea) es más confiable: un valor menor de 35% (algunos usan menor de 28%) sugiere LRA prerrenal. Aquí 22% coincide con hipoperfusión. Otros datos como el cociente BUN/creatinina, la respuesta a volumen y el sedimento complementan.",
+   "C": "Una FEurea baja sugiere hipoperfusión renal, no la descarta.",
+   "D": "El FENa elevado por la furosemida no confirma necrosis tubular aguda.",
+   "E": "Con diuréticos el FENa pierde validez."
+  },
+  "perla": "Con diuréticos: FENa no sirve; FEurea <35% (≈<28–35%) = prerrenal. FEurea = (Uurea×Pcr)/(Purea×Ucr).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (lesión renal aguda)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o1",
+  "peso": 49.1
+ },
+ {
+  "id": "VOL-4",
+  "serie_id": "VOL",
+  "orden": 4,
+  "sub": "24.a",
+  "subtema": "Volumen arterial efectivo en insuficiencia cardiaca y cirrosis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un tercer paciente, con cirrosis y ascitis a tensión, tiene edema de miembros inferiores y sodio urinario de 6 mEq/L en una muestra aislada, con creatinina de 1.0 mg/dL.",
+  "enunciado": "¿Qué explica la retención de sodio y cuál es el tratamiento diurético inicial?",
+  "opciones": {
+   "A": "Bajo volumen efectivo por vasodilatación esplácnica; espironolactona 100 mg con furosemida 40 mg y dieta sin sal",
+   "B": "Insuficiencia suprarrenal asociada a la cirrosis, que se trata con hidrocortisona y explica la retención de sodio",
+   "C": "Hipervolemia efectiva con inhibición del sistema renina-angiotensina-aldosterona; se trata solo con restricción de líquidos",
+   "D": "Hipotiroidismo, que se trata con levotiroxina, porque explica el edema y la retención de sodio en el cirrótico",
+   "E": "Pérdida renal de sodio, que se trata con solución salina para reponer el volumen circulante efectivo del cirrótico"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la cirrosis, la vasodilatación esplácnica reduce el volumen arterial efectivo y activa los mecanismos neurohumorales (renina-angiotensina-aldosterona, sistema simpático y vasopresina), que provocan retención renal avida de sodio y agua con sodio urinario bajo (menor de 10 mEq/L) pese a la expansión del volumen total. El tratamiento inicial de la ascitis es restricción de sodio (menos de 2 g/día) y espironolactona 100 mg con furosemida 40 mg (relación 100:40 para mantener la normopotasemia), con ajuste cada 3 a 5 días. La meta de pérdida de peso es de 0.5 kg/día sin edema periférico y 1 kg/día con edema. Una relación sodio/potasio urinaria mayor de 1 indica excreción adecuada de sodio.",
+   "B": "No hay datos de insuficiencia suprarrenal.",
+   "C": "La retención de sodio se debe a activación, no inhibición, del sistema renina-angiotensina.",
+   "D": "El hipotiroidismo no explica el cuadro.",
+   "E": "El riñón retiene sodio de manera avida, no lo pierde."
+  },
+  "perla": "Cirrosis/IC: ↓volumen arterial efectivo → RAAS/SNS/ADH → UNa <10. Diurético: espironolactona 100 + furosemida 40; pérdida ≤0.5 kg/d (sin edema) o ≤1 kg/d (con edema).",
+  "referencias": [
+   "Runyon BA. Hepatology 2013;57:1651 (AASLD)",
+   "Comprehensive Clinical Nephrology (cardiorrenal y hepatorrenal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o1",
+  "peso": 49.1
+ },
+ {
+  "id": "LAC-3",
+  "serie_id": "LAC",
+  "orden": 3,
+  "sub": "4.h",
+  "subtema": "Metformina: indicaciones de depuración extracorpórea (EXTRIP)",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia reposición de volumen, se suspende la metformina y se solicita nefrología. Persisten pH de 7.02, lactato de 22 mmol/L, hipotensión leve y somnolencia.",
+  "enunciado": "¿Cuál es el tratamiento extracorpóreo recomendado?",
+  "opciones": {
+   "A": "Hemoperfusión con carbón activado como primera elección, porque adsorbe la metformina con alta afinidad y rapidez",
+   "B": "Diálisis peritoneal aguda en bolsa de 1.5%, porque es una técnica continua y no requiere anticoagulación ni acceso vascular",
+   "C": "Hemodiálisis intermitente (la terapia continua es alternativa), por lactato >20 mmol/L y pH ≤7.0 o fracaso del sostén",
+   "D": "Solo bicarbonato intravenoso en dosis altas, porque corrige el pH sin necesidad de depurar la metformina ni el lactato",
+   "E": "Plasmaféresis con reposición de albúmina, porque la metformina se une a las proteínas plasmáticas y se elimina con ellas"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hemoperfusión no es efectiva en la intoxicación por metformina, y la hemodiálisis sí lo es.",
+   "B": "La diálisis peritoneal es menos eficiente que la hemodiálisis para depurar metformina y lactato.",
+   "C": "El grupo EXTRIP recomienda la depuración extracorpórea en la intoxicación por metformina (acidosis láctica asociada a metformina) cuando el lactato supera 20 mmol/L, el pH es de 7.0 o menos, hay fracaso del tratamiento de sostén (incluido el bicarbonato) o la función renal está gravemente alterada, y la sugiere con lactato de 15 a 20 mmol/L o pH de 7.0 a 7.1. La hemodiálisis intermitente es la modalidad de elección porque la metformina tiene bajo peso molecular (129 Da), volumen de distribución grande pero accesible y escasa unión a proteínas; corrige además la acidosis y la sobrecarga con el baño de bicarbonato; la terapia de reemplazo continua es alternativa si no se tolera. La hemoperfusión, la plasmaféresis y la diálisis peritoneal no son de elección. La paciente cumple ambos criterios (lactato de 22 y pH de 7.02).",
+   "D": "El bicarbonato solo no resuelve la acumulación del fármaco ni la acidosis cuando el lactato es tan alto.",
+   "E": "La plasmaféresis no depura de manera eficaz la metformina."
+  },
+  "perla": "EXTRIP-metformina: HD si lactato >20, pH ≤7.0, fallo del soporte o IR grave (sugerida lactato 15–20 / pH 7.0–7.1). HDI de elección; TRRC alternativa.",
+  "referencias": [
+   "Calello DP et al. Crit Care Med 2015;43:1716 (EXTRIP metformina)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o8",
+  "peso": 37.5
+ },
+ {
+  "id": "ALC-3",
+  "serie_id": "ALC",
+  "orden": 3,
+  "sub": "24.d",
+  "subtema": "Síndrome de leche y álcali: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En el servicio de urgencias, con calcio de 13.2 mg/dL, creatinina de 2.1 mg/dL, volumen urinario conservado y ECG con intervalo QT corto, se decide el tratamiento.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Suspender calcio, álcali, vitamina D y tiazídico; salina isotónica y asa solo si hay euvolemia; calcitonina o diálisis si es grave",
+   "B": "Continuar el carbonato de calcio y añadir un bisfosfonato oral, para frenar la resorción ósea y la hipercalcemia",
+   "C": "Indicar paratiroidectomía urgente, porque la hipercalcemia con creatinina elevada indica hiperparatiroidismo primario",
+   "D": "Administrar un diurético de asa a dosis altas desde el inicio, sin líquidos, para forzar la calciuresis de entrada",
+   "E": "Administrar solución de dextrosa al 5% para diluir el calcio sérico y reponer el volumen intravascular del paciente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El tratamiento consiste en suspender las fuentes de calcio y álcali, la vitamina D y el tiazídico, y en reponer volumen con solución salina isotónica, que corrige la depleción y la alcalosis (el aporte de cloro favorece la excreción de bicarbonato) y aumenta la calciuresis; el diurético de asa se añade solo cuando el paciente está euvolémico, para acentuar la calciuresis sin reducir más el volumen. Se corrige la hipopotasemia, que mantiene la alcalosis. La calcitonina o los bisfosfonatos rara vez son necesarios, porque la PTH está suprimida y la hipercalcemia cede con la reposición de volumen y la suspensión de las fuentes (los bisfosfonatos tardan días en actuar); la diálisis con dializado bajo en calcio se reserva para la hipercalcemia grave con lesión renal que no responde. La función renal suele recuperarse, aunque puede quedar daño tubulointersticial.",
+   "B": "Continuar el calcio perpetúa la causa del cuadro.",
+   "C": "La PTH está suprimida, y la paratiroidectomía no tiene indicación.",
+   "D": "Sin reposición previa de volumen, el diurético de asa agravaría la depleción y la lesión renal.",
+   "E": "La dextrosa al 5% aporta agua libre, no corrige la depleción del líquido extracelular y puede causar hiponatremia."
+  },
+  "perla": "Leche-álcali: suspender Ca/álcali/vit D/tiazida; salina isotónica (corrige volumen, alcalosis y calciuresis); asa solo si euvolemia; K⁺; calcitonina/bisfosfonato/diálisis solo graves. Recuperación renal habitual.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del calcio y ácido-base)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o4",
+  "peso": 43.2
  }
 ]

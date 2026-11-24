@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "MNB",
+     "serie": "MN",
      "intro": [
       [
        "Dra. Sara Esquistocito",
@@ -237,7 +237,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 4
+    },
+    {
+     "id": "t0_1",
+     "cast": "pato",
+     "specialty": "Patología",
+     "serie": "T2-93MNS",
+     "intro": [
+      [
+       "Dra. Iris Hematoxilina",
+       "Sin anti-PLA2R no es membranosa. Ni la tiño."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Iris Hematoxilina",
+       "¿NELL1? Ya lo tiño. Y pregunto por suplementos."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
     }
    ],
    "wild": [
@@ -259,7 +279,7 @@
    ],
    "gates": [
     {
-     "after": "t0_0",
+     "after": "t0_1",
      "topic": "Diagnóstico serológico de la nefropatía membranosa",
      "text": [
       [
@@ -397,7 +417,47 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "T2-93MNR",
+     "intro": [
+      [
+       "Dr. Ernesto Holístico",
+       "Rituximab y listo: el título ni lo vuelvo a medir."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Ernesto Holístico",
+       "Si el anti-PLA2R no baja, el tratamiento falló. Anotado."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "T2-93MNT",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "¿Membranosa en el injerto? Eso ya no vuelve nunca."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Uno de cada tres recurre… mediré el anti-PLA2R."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
     }
    ],
    "wild": [
@@ -419,7 +479,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_2",
      "topic": "Estratificación de riesgo e inmunosupresión en membranosa",
      "text": [
       [
@@ -483,6 +543,10 @@
    [
     "Sabio Brenn",
     "Primero remite el anticuerpo, meses después la orina. Paciencia."
+   ],
+   [
+    "Paciente",
+    "¿Meses para que baje la espuma? Le creo. Esperaré."
    ]
   ],
   "phases": [
@@ -499,7 +563,7 @@
      "Serología"
     ],
     "questions": [
-     "MN-1"
+     "MNB-1"
     ]
    },
    {
@@ -515,7 +579,7 @@
      "Riesgo"
     ],
     "questions": [
-     "MN-2"
+     "MNB-2"
     ]
    },
    {
@@ -531,7 +595,7 @@
      "Inmunosupresión"
     ],
     "questions": [
-     "MN-3"
+     "MNB-3"
     ]
    },
    {
@@ -547,7 +611,7 @@
      "Respuesta"
     ],
     "questions": [
-     "MN-4"
+     "MNB-4"
     ]
    }
   ]
@@ -595,8 +659,12 @@
    "text": "MN: PLA2R+ (70–80%) → diagnóstico sin biopsia si TFGe normal + NS. NELL1: neoplasia/lipoico/fármacos; THSD7A: neoplasia; EXT1/2: lupus; SEMA3B: pediátrica. Tamizaje de cáncer por edad."
   },
   {
-   "title": "💎 Síndrome nefrótico: tromboprofilaxis",
-   "text": "MN: profilaxis anticoagulante si alb <2.5 (BCG) o <2.0 (BCP) + ≥1 factor (proteinuria >10 g/d, IMC >35, trombofilia, ICC III–IV, cirugía/inmovilización) y bajo riesgo de sangrado. Retirar con alb >3.0."
+   "title": "💎 Nefritis lúpica clase V con proteinuria ",
+   "text": "LN clase V con proteinuria nefrótica: HCQ + RAASi + glucocorticoide + MMF (o CNI/CYC/rituximab). Subnefrótica: soporte."
+  },
+  {
+   "title": "💎 Lupus, mantenimiento y planeación del em",
+   "text": "Lupus y embarazo: enfermedad quiescente ≥6 meses; cambiar MMF por azatioprina; mantener HCQ; suspender IECA/ARA-II; aspirina baja desde la semana 12."
   }
  ]
 }

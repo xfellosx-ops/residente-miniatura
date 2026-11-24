@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "DMH",
+     "serie": "PRT",
      "intro": [
       [
        "Dra. Sara Esquistocito",
@@ -237,31 +237,51 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 3
     },
     {
      "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
-     "serie": "PRT",
+     "cast": "pato",
+     "specialty": "Patología",
+     "serie": "T2-97PGM",
      "intro": [
       [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
-      ],
-      [
-       "Dra. Carmen Triaje",
-       "Mi caso: Nefropatía por cilindros: biopsia y tratamiento"
+       "Dra. Iris Hematoxilina",
+       "IgG monoclonal en el glomérulo sin mieloma: no lo toco."
       ]
      ],
      "defeat": [
       [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
+       "Dra. Iris Hematoxilina",
+       "Clon chico, riñón grande: MGRS. Lo mando a tratar."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "AMY",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Amiloidosis AL: presentación renal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
     }
    ],
    "wild": [
@@ -283,7 +303,7 @@
    ],
    "gates": [
     {
-     "after": "t0_0",
+     "after": "t0_1",
      "topic": "Nefropatía por cilindros: diagnóstico y tratamiento",
      "text": [
       [
@@ -407,7 +427,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "AMY",
+     "serie": "DMH",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -421,7 +441,47 @@
       ]
      ],
      "questionTopics": [],
-     "n": 5
+     "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "T2-97FLC",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Glucosuria con glucosa normal: diabetes escondida."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Fanconi por cadenas kappa… ni lo sospechaba."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "T2-97VTX",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Mi paciente con VIH está indetectable; su riñón no es asunto mío."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Tenofovir, dolutegravir y trasplante… sí es asunto tuyo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
     }
    ],
    "wild": [
@@ -448,7 +508,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_2",
      "topic": "Amiloidosis AL y nefropatía asociada a VIH",
      "text": [
       [
@@ -474,6 +534,15 @@
     }
    ],
    "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Dr. J.",
+       "Encontré el gafete de Valeria. Atrás escribió: «aprender el porqué»."
+      ]
+     ]
+    },
     {
      "trigger": "exit",
      "lines": [
@@ -610,6 +679,14 @@
    "text": "Tira reactiva negativa + proteinuria de 24 h alta (no albúmina) → paraproteína. Riñón de mieloma: FLC >1,500 mg/L (diagnóstico presuntivo); biopsia si FLC <500 mg/L. CRAB: Ca, Renal, Anemia, Bone."
   },
   {
+   "title": "💎 Proteinuria no albuminúrica: discordanci",
+   "text": "Tira (-) + RAC baja + PCR alta + SSA (+) = proteinuria no albuminúrica: cadenas ligeras (mieloma)."
+  },
+  {
+   "title": "💎 Estudio inicial de gammapatía monoclonal",
+   "text": "Sospecha de mieloma: CLL séricas (κ/λ) + inmunofijación sérica y urinaria + médula ósea + imagen ósea. EPS sola no basta."
+  },
+  {
    "title": "💎 Mieloma: depuración extracorpórea",
    "text": "HCO-HD y PLEX no son rutina en cast nephropathy. Recuperación renal depende de respuesta hematológica rápida y profunda (FLC)."
   },
@@ -620,14 +697,6 @@
   {
    "title": "💎 Enfermedad por depósito de cadenas liger",
    "text": "LCDD: IF lineal monotípica (κ) en GBM y TBM + depósitos 'polvosos' en ME + nódulos PAS(+). Buscar clona (CLL, IFE, médula)."
-  },
-  {
-   "title": "💎 Amiloidosis AL vs glomerulonefritis fibr",
-   "text": "Fibrilar: 12–24 nm, Congo (–), DNAJB9 (+). Amiloide: 8–12 nm, Congo (+), verde manzana. Inmunotactoide: >30 nm."
-  },
-  {
-   "title": "💎 HIVAN: hallazgos histológicos y de micro",
-   "text": "HIVAN: GEFS colapsante + microquistes tubulares + inclusiones tubuloreticulares endoteliales (también vistas en lupus)."
   }
  ]
 }

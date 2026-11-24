@@ -1340,5 +1340,85 @@
   ],
   "tema": "Infección de vías urinarias y pielonefritis",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "LST-1",
+  "serie_id": "LST",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Litiasis coraliforme por estruvita",
+  "dificultad": "moderada",
+  "caso": "Mujer de 52 años con infecciones urinarias de repetición, paraplejia por mielomeningocele y sondeo intermitente. Presenta dolor lumbar crónico y fiebre intermitente. La radiografía muestra una litiasis radiopaca en forma de asta de ciervo en el riñón derecho. pH urinario de 8.0 y urocultivo con Proteus mirabilis.",
+  "enunciado": "¿Cuál es el tipo de cálculo y el mecanismo de formación?",
+  "opciones": {
+   "A": "Oxalato de calcio por hiperoxaluria entérica, con cristales en sobre de carta en el sedimento y orina ácida persistente",
+   "B": "Xantina por déficit hereditario de xantina oxidasa, una causa rara de litiasis con cálculos radiolúcidos en la radiografía",
+   "C": "Estruvita (fosfato amónico magnésico), por ureasa de Proteus mirabilis que hidroliza la urea y alcaliniza la orina",
+   "D": "Cistina por defecto hereditario del transportador de aminoácidos dibásicos en el túbulo proximal, con cristales hexagonales en la orina",
+   "E": "Ácido úrico por orina persistentemente ácida e hiperuricosuria en paciente con vejiga neurógena"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El oxalato de calcio no explica la ureasa ni el pH alcalino.",
+   "B": "La xantina es una causa rara.",
+   "C": "Los cálculos de estruvita (fosfato amónico magnésico hexahidratado, con carbonato apatita) se forman únicamente en presencia de bacterias que producen ureasa (Proteus mirabilis, la más frecuente; también Klebsiella, Providencia, Pseudomonas, Ureaplasma urealyticum, Corynebacterium urealyticum). La ureasa hidroliza la urea en amoníaco y CO₂, lo que alcaliniza la orina (pH mayor de 7.2) y provoca precipitación de estruvita. Son frecuentes en mujeres con infecciones recurrentes, vejiga neurogénica y sondajes, y crecen rápido hasta formar cálculos coraliformes. Son radiopacos.",
+   "D": "La cistina no se forma por infección.",
+   "E": "Los cálculos de ácido úrico se forman con pH ácido y son radiolúcidos."
+  },
+  "perla": "Estruvita: Proteus mirabilis (ureasa), pH >7.2, coraliforme, radiopaco. Vejiga neurogénica e IVU recurrente.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 79.1
+ },
+ {
+  "id": "LST-2",
+  "serie_id": "LST",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Tratamiento de la litiasis coraliforme",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente tiene función renal de 55 mL/min/1.73 m² y la tomografía confirma una litiasis coraliforme completa con hidronefrosis leve.",
+  "enunciado": "¿Cuál es el manejo recomendado?",
+  "opciones": {
+   "A": "Alcalinizar la orina con citrato de potasio para disolver el cálculo y evitar la cirugía",
+   "B": "Litotricia extracorpórea por ondas de choque como monoterapia, repetida hasta fragmentar por completo el cálculo coraliforme",
+   "C": "Remoción quirúrgica completa, con nefrolitotomía percutánea como primera opción, y antibiótico dirigido por cultivo",
+   "D": "Solo antibióticos orales durante 6 semanas, sin retirar el cálculo ni intervenir la vía urinaria",
+   "E": "Acidificar la orina con vitamina C a dosis altas y observar, con imagen cada 6 meses"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La alcalinización favorece la estruvita.",
+   "B": "La monoterapia con litotricia deja fragmentos y recurrencia.",
+   "C": "La estruvita actúa como reservorio de bacterias, de modo que la erradicación de la infección exige retirar todo el cálculo. La nefrolitotomía percutánea es la primera línea para cálculos coraliformes (guías AUA/EAU), con antibiótico dirigido por cultivo antes y después, y tratamiento de la causa (sondajes, vejiga neurogénica). La litotricia extracorpórea como monoterapia deja fragmentos infectados y no se recomienda. El ácido acetohidroxámico, un inhibidor de ureasa, se reserva para pacientes que no son candidatos a cirugía por sus efectos adversos (anemia hemolítica, trombosis, teratogenicidad, síntomas neurológicos).",
+   "D": "Sin retirar el cálculo la infección persiste y progresa a destrucción renal.",
+   "E": "La acidificación con vitamina C no disuelve la estruvita y aumenta el oxalato."
+  },
+  "perla": "Coraliforme/estruvita: remoción completa (NLP) + antibiótico dirigido; ESWL sola no. Ácido acetohidroxámico si no hay cirugía.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)",
+   "Assimos D et al. J Urol 2016;196:1153"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 81.1
  }
 ]

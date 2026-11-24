@@ -241,23 +241,23 @@
     },
     {
      "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
+     "cast": "cardio",
+     "specialty": "Cardiología",
      "serie": "EPS",
      "intro": [
       [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
       ],
       [
-       "Dra. Carmen Triaje",
+       "Dra. Sístole Ruiz",
        "Mi caso: Peritonitis esclerosante encapsulante: cuadro clínico"
       ]
      ],
      "defeat": [
       [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
       ]
      ],
      "questionTopics": [],
@@ -265,23 +265,23 @@
     },
     {
      "id": "t0_2",
-     "cast": "endo",
-     "specialty": "Endocrinología",
-     "serie": "BJT",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "PTR",
      "intro": [
       [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
       ],
       [
-       "Dr. Tiro Glándula",
-       "Mi caso: Transportador bajo en DPA con infradiálisis: clasificación y causa"
+       "Dr. Rocco Filo",
+       "Mi caso: PET: cálculo del D/P de creatinina y D/D0 de glucosa a partir de datos crudos"
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -383,17 +383,51 @@
      "pairs": []
     },
     {
-     "type": "algoritmo",
-     "title": "Peritonitis en DPA con día seco",
-     "items": [
-      "Infundir 1 L y dejar 1–2 h",
-      "Muestra: citológico y 5–10 mL en frascos de hemocultivo",
-      "Iniciar antibiótico IP empírico sin esperar resultados",
-      "Ajustar por cultivo al día 2–3",
-      "Reevaluar al día 5: refractaria → retiro",
-      "Completar 14 o 21 días según germen"
-     ],
-     "pairs": []
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "PET",
+       "Clasifica transporte (D/P creatinina)"
+      ],
+      [
+       "Alto transportador",
+       "DPA con estancias cortas + icodextrina"
+      ],
+      [
+       "Kt/V semanal DP",
+       "Meta ≥1.7"
+      ],
+      [
+       "Peritonitis",
+       "> 100 leucocitos/µL, > 50% PMN"
+      ],
+      [
+       "Antibiótico empírico",
+       "Gram+ y Gram− intraperitoneal"
+      ],
+      [
+       "Peritonitis fúngica",
+       "Retirar catéter"
+      ],
+      [
+       "Esclerosis peritoneal encapsulante",
+       "Obstrucción intestinal tras años"
+      ],
+      [
+       "Icodextrina",
+       "UF sostenida en estancia larga"
+      ],
+      [
+       "Hidrotórax",
+       "Comunicación pleuroperitoneal derecha"
+      ],
+      [
+       "Fuga pericatéter",
+       "Inicio temprano tras colocación"
+      ]
+     ]
     }
    ],
    "cutscenes": [
@@ -507,23 +541,23 @@
     },
     {
      "id": "t1_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
+     "cast": "endo",
+     "specialty": "Endocrinología",
      "serie": "APD",
      "intro": [
       [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
       ],
       [
-       "Dra. Sístole Ruiz",
+       "Dr. Tiro Glándula",
        "Mi caso: Diálisis peritoneal en LRA: selección y contraindicaciones"
       ]
      ],
      "defeat": [
       [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
       ]
      ],
      "questionTopics": [],
@@ -531,23 +565,23 @@
     },
     {
      "id": "t1_2",
-     "cast": "infecto",
-     "specialty": "Infectología",
-     "serie": "PTR",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "ADP",
      "intro": [
       [
-       "Dr. Félix Cultivo",
-       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
       ],
       [
-       "Dr. Félix Cultivo",
-       "Mi caso: PET: cálculo del D/P de creatinina y D/D0 de glucosa a partir de datos crudos"
+       "Dr. Anselmo Frágil",
+       "Mi caso: Estimación de la función renal residual en diálisis peritoneal"
       ]
      ],
      "defeat": [
       [
-       "Dr. Félix Cultivo",
-       "Ajustar la dosis también cura. Lo anoto."
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
       ]
      ],
      "questionTopics": [],
@@ -613,53 +647,6 @@
       "Sin respuesta a 5 días → retirar catéter"
      ],
      "pairs": []
-    },
-    {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
-      [
-       "PET",
-       "Clasifica transporte (D/P creatinina)"
-      ],
-      [
-       "Alto transportador",
-       "DPA con estancias cortas + icodextrina"
-      ],
-      [
-       "Kt/V semanal DP",
-       "Meta ≥1.7"
-      ],
-      [
-       "Peritonitis",
-       "> 100 leucocitos/µL, > 50% PMN"
-      ],
-      [
-       "Antibiótico empírico",
-       "Gram+ y Gram− intraperitoneal"
-      ],
-      [
-       "Peritonitis fúngica",
-       "Retirar catéter"
-      ],
-      [
-       "Esclerosis peritoneal encapsulante",
-       "Obstrucción intestinal tras años"
-      ],
-      [
-       "Icodextrina",
-       "UF sostenida en estancia larga"
-      ],
-      [
-       "Hidrotórax",
-       "Comunicación pleuroperitoneal derecha"
-      ],
-      [
-       "Fuga pericatéter",
-       "Inicio temprano tras colocación"
-      ]
-     ]
     }
    ],
    "cutscenes": [
@@ -674,6 +661,213 @@
     }
    ],
    "card": "Peritonitis: 2 de 3 (clínica, >100 leucocitos con >50 % PMN, cultivo). IP empírico G+ y G−. Fúngica o refractaria (5 días): retirar catéter."
+  },
+  {
+   "id": "z3",
+   "name": "Laboratorio del Equilibrio",
+   "palette": [
+    "#FDE2D4",
+    "#E8957A",
+    "#A0503A",
+    "#3A1A10"
+   ],
+   "tiles": "peritoneo",
+   "vignette": "dp_poros",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Giro: la peritonitis cedió, pero ahora ultrafiltra 100 mL con glucosa al 3.86 %."
+    ],
+    [
+     "Sabio Brenn",
+     "Mide el sodio del efluente en la primera hora. Si no baja, fallan las acuaporinas."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Acuaporina 1 Cansada",
+     "lines": [
+      [
+       "Acuaporina 1 Cansada",
+       "Soy el poro ultrapequeño: muevo agua libre en la primera hora."
+      ],
+      [
+       "Acuaporina 1 Cansada",
+       "Si el sodio del efluente no baja al inicio, yo ya no trabajo bien."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "cribado de sodio"
+    },
+    {
+     "id": "npc2",
+     "name": "Prueba de Equilibrio",
+     "lines": [
+      [
+       "Prueba de Equilibrio",
+       "D/P de creatinina a 4 h: alto ≥0.81; bajo <0.50."
+      ],
+      [
+       "Prueba de Equilibrio",
+       "Falla de UF: menos de 400 mL tras 4 h con glucosa al 3.86 %."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "PET"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Falla de UF",
+     "Transporte alto: permanencias cortas e icodextrina. Sin cribado de sodio: acuaporinas."
+    ],
+    [
+     "Letrero · Cuidar la membrana",
+     "Menos glucosa hipertónica y proteger la función renal residual."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "PDS",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Si no ultrafiltra, glucosa al 3.86 % en todos los recambios."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "La glucosa daña la membrana… icodextrina y permanencias cortas."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "BJT",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Transportador bajo en DPA con infradiálisis: clasificación y causa"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "MEM",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Factores que determinan la difusión de solutos en diálisis peritoneal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Glucosa Hipertónica",
+     "type": "Molecular",
+     "topic": "Glucosa Hipertónica"
+    },
+    {
+     "name": "Producto de Degradación",
+     "type": "Molecular",
+     "topic": "Producto de Degradación"
+    },
+    {
+     "name": "Fibroblasto Peritoneal",
+     "type": "Celular",
+     "topic": "Fibroblasto Peritoneal"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Falla de ultrafiltración y transporte peritoneal",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: no toda falla de UF es transporte alto; a veces fallan los poros de agua."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Falla de ultrafiltración",
+     "items": [
+      "Descartar fuga, catéter y adherencias",
+      "PET con glucosa al 3.86 %",
+      "UF <400 mL a 4 h: hay falla",
+      "Revisar el D/P de creatinina",
+      "Revisar el cribado de sodio",
+      "Ajustar la prescripción o cambiar de técnica"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Peritonitis en DPA con día seco",
+     "items": [
+      "Infundir 1 L y dejar 1–2 h",
+      "Muestra: citológico y 5–10 mL en frascos de hemocultivo",
+      "Iniciar antibiótico IP empírico sin esperar resultados",
+      "Ajustar por cultivo al día 2–3",
+      "Reevaluar al día 5: refractaria → retiro",
+      "Completar 14 o 21 días según germen"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Membrana gruesa y acuaporinas calladas. La Esclerosante te espera."
+      ]
+     ]
+    }
+   ],
+   "card": "Falla de UF: <400 mL a 4 h con 3.86 %. Transporte alto (D/P ≥0.81): permanencias cortas e icodextrina. Sin cribado de sodio: falla de acuaporinas; pensar en esclerosis."
   }
  ],
  "boss": {
@@ -792,6 +986,10 @@
   {
    "title": "Cavidad Infectada",
    "text": "Peritonitis: 2 de 3 (clínica, >100 leucocitos con >50 % PMN, cultivo). IP empírico G+ y G−. Fúngica o refractaria (5 días): retirar catéter."
+  },
+  {
+   "title": "Laboratorio del Equilibrio",
+   "text": "Falla de UF: <400 mL a 4 h con 3.86 %. Transporte alto (D/P ≥0.81): permanencias cortas e icodextrina. Sin cribado de sodio: falla de acuaporinas; pensar en esclerosis."
   },
   {
    "title": "💎 Falla de ultrafiltración",

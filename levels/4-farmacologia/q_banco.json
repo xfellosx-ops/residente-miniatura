@@ -3523,5 +3523,692 @@
   ],
   "tema": "Farmacología y riñón",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "VAN-3",
+  "serie_id": "VAN",
+  "orden": 3,
+  "sub": "17.a",
+  "subtema": "Nefrotoxicidad por aminoglucósidos",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Una paciente de 66 años recibe gentamicina por bacteriemia por gramnegativos durante 7 días junto con furosemida. Al sexto día presenta aumento de creatinina de 1.0 a 2.1 mg/dL, diuresis conservada, hipomagnesemia, hipopotasemia y cilindros granulosos en la orina.",
+  "enunciado": "¿Cuál es el mecanismo de lesión y la medida preventiva más eficaz?",
+  "opciones": {
+   "A": "Nefritis intersticial alérgica, con tratamiento con esteroides, porque la exposición al antibiótico explica el cuadro",
+   "B": "Captación por megalina-cubilina en el túbulo proximal; se previene con dosis única diaria, ajuste a TFGe y evitando nefrotóxicos",
+   "C": "Depósito de cristales en el túbulo colector; hidratación abundante y alcalinización de la orina para evitar la precipitación tubular",
+   "D": "Vasoconstricción de la arteriola eferente por el fármaco; se previene suspendiendo los IECA y los diuréticos de asa",
+   "E": "Obstrucción por mioglobina; alcalinización urinaria y diuresis forzada, porque la rabdomiólisis explica el aumento de la creatinina"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La nefritis alérgica cursa con piuria estéril y eosinofilia, no con cilindros granulosos y pérdida de magnesio.",
+   "B": "Los aminoglucósidos policatiónicos se filtran, se unen a los fosfolípidos aniónicos del borde en cepillo y se endocitan por megalina-cubilina en el túbulo proximal; en las células se translocan al lisosoma y provocan ruptura lisosomal y daño mitocondrial, con necrosis tubular típicamente 5 a 7 días después del inicio, de curso no oligúrico y con pérdida de magnesio, potasio y calcio. La saturación del sistema de captación con dosis única diaria reduce la acumulación, y se combina con ajuste por TFGe, niveles valle bajos, duración corta y evitar diuréticos de asa, vancomicina, contraste y anfotericina.",
+   "C": "La obstrucción por cristales corresponde a fármacos como aciclovir o sulfadiazina.",
+   "D": "La vasoconstricción eferente por IECA no describe la toxicidad de aminoglucósidos.",
+   "E": "La mioglobina corresponde a rabdomiólisis."
+  },
+  "perla": "Aminoglucósidos: megalina-cubilina → lisosoma/mitocondria; NTA no oligúrica a los 5–7 días con hipoMg e hipoK. Dosis única diaria.",
+  "referencias": [
+   "Nagai J, Takano M. Drug Metab Pharmacokinet 2004;19:159",
+   "Comprehensive Clinical Nephrology (nefrotoxicidad)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o1",
+  "peso": 50.9
+ },
+ {
+  "id": "VAN-4",
+  "serie_id": "VAN",
+  "orden": 4,
+  "sub": "17.a",
+  "subtema": "Prevención de la nefrotoxicidad antibiótica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente mejora, pero necesita completar 7 días más de tratamiento por infección con gramnegativos sensible a ceftriaxona, y tiene TFGe de 35 mL/min/1.73 m².",
+  "enunciado": "¿Cuál es la estrategia más adecuada?",
+  "opciones": {
+   "A": "Continuar gentamicina con el mismo esquema, porque la TFGe de 35 mL/min/1.73 m² no obliga a ajustar ni a cambiar de fármaco",
+   "B": "Añadir vancomicina para cubrir mayor espectro, aunque el germen sea sensible a ceftriaxona y se eleve el riesgo de nefrotoxicidad",
+   "C": "Suspender el antibiótico para proteger el riñón, aunque falten 7 días de tratamiento de una infección documentada y activa",
+   "D": "Pasar a ceftriaxona (betalactámico no nefrotóxico), suspender el aminoglucósido, hidratar y evitar otros nefrotóxicos",
+   "E": "Aumentar la dosis de furosemida para promover la diuresis y así eliminar con mayor rapidez el aminoglucósido, sin cambiar de fármaco"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Continuar gentamicina prolonga el daño tubular en una paciente con TFGe de 35.",
+   "B": "Añadir vancomicina sin indicación aumenta la nefrotoxicidad.",
+   "C": "Suspender el tratamiento deja sin cubrir una infección grave.",
+   "D": "Si hay alternativa eficaz y segura según el antibiograma, lo más razonable es cambiar a un betalactámico que no requiere ajuste importante (ceftriaxona se elimina por vía biliar y renal), suspender el aminoglucósido, mantener euvolemia y vigilar la recuperación de la necrosis tubular. Se evitan combinaciones nefrotóxicas como la vancomicina con aminoglucósidos o piperacilina-tazobactam, así como los diuréticos de asa en dosis altas sin indicación.",
+   "E": "Los diuréticos de asa no previenen la nefrotoxicidad y pueden empeorarla."
+  },
+  "perla": "NTA por aminoglucósidos: cambiar a alternativa no nefrotóxica sensible; evitar sumar nefrotóxicos (vancomicina, asa, contraste).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefrotoxicidad)",
+   "Nagai J, Takano M. Drug Metab Pharmacokinet 2004;19:159"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o1",
+  "peso": 52.9
+ },
+ {
+  "id": "RAA-1",
+  "serie_id": "RAA",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "SRAA: efecto hemodinámico de los IECA sobre la TFG",
+  "dificultad": "moderada",
+  "caso": "Mujer de 66 años con diabetes tipo 2, hipertensión y ERC G3b (creatinina basal de 1.7 mg/dL; TFGe de 32 mL/min/1.73 m²), albuminuria de 900 mg/g. Se inicia lisinopril 10 mg. A las dos semanas: creatinina de 2.0 mg/dL, potasio de 5.4 mEq/L, TA de 138/82 mmHg.",
+  "enunciado": "¿Cuál es la interpretación y la conducta adecuada?",
+  "opciones": {
+   "A": "Suspender el IECA y diagnosticar estenosis bilateral de arteria renal sin más estudios, por el aumento de la creatinina",
+   "B": "Aumento hemodinámico esperado (<30%) por dilatación de la arteriola eferente: se continúa el IECA y se repiten creatinina y potasio en 1-2 semanas",
+   "C": "Suspender definitivamente el IECA por nefrotoxicidad, y sustituirlo por un antagonista del calcio para el control de la TA",
+   "D": "Duplicar la dosis de inmediato para compensar la elevación de la creatinina y lograr mayor reducción de la albuminuria",
+   "E": "Añadir un AINE para controlar la TA y reducir la retención de sodio inducida por el IECA en esta paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El aumento es menor de 30% y no justifica suspender ni diagnosticar estenosis sin otros datos.",
+   "B": "La angiotensina II constriñe la arteriola eferente y mantiene la presión intraglomerular; los IECA y ARA II vasodilatan la arteriola eferente, reducen la presión de filtración y producen un descenso inicial de la TFG, con aumento de la creatinina de hasta 30% en las primeras semanas, que es un efecto hemodinámico esperado y no indica daño estructural. La conducta es continuar el fármaco y vigilar creatinina y potasio en 1 a 2 semanas. Si la creatinina sube más de 30% o continúa aumentando, se investiga hipovolemia, uso de AINE o estenosis bilateral de arteria renal, y se reduce o suspende el fármaco.",
+   "C": "Una elevación menor de 30% no justifica suspender un fármaco que protege contra la progresión de la ERC diabética.",
+   "D": "Duplicar la dosis con potasio de 5.4 y creatinina en ascenso es riesgoso sin vigilancia.",
+   "E": "Los AINE aumentan el riesgo de lesión renal aguda hemodinámica y de hiperpotasemia con los IECA."
+  },
+  "perla": "IECA/ARA II: ↑Cr hasta 30% en 2–4 semanas es aceptable (vasodilatación eferente). >30%: buscar hipovolemia, AINE, estenosis renal bilateral.",
+  "referencias": [
+   "Bakris GL, Weir MR. Arch Intern Med 2000;160:685",
+   "KDIGO 2021 Blood Pressure in CKD"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "RAA-2",
+  "serie_id": "RAA",
+  "orden": 2,
+  "sub": "16.d.iii",
+  "subtema": "Hipoaldosteronismo hiporreninémico (ATR tipo 4)",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis semanas después, la paciente tiene potasio de 5.9 mEq/L, bicarbonato de 18 mEq/L, cloro de 108 mEq/L, brecha aniónica de 11, creatinina de 2.1 mg/dL, pH urinario de 5.1 y brecha aniónica urinaria positiva. La renina plasmática y la aldosterona están bajas.",
+  "enunciado": "¿Cuál es el mecanismo de este trastorno?",
+  "opciones": {
+   "A": "ATR proximal tipo 2 con bicarbonaturia, por defecto de la reabsorción de bicarbonato en el túbulo proximal",
+   "B": "ATR distal tipo 1 con defecto de la H⁺-ATPasa, pH urinario mayor de 5.5 e hipopotasemia con nefrocalcinosis",
+   "C": "Pérdida gastrointestinal de bicarbonato por diarrea, con brecha aniónica urinaria negativa y pH urinario ácido, sin hiperpotasemia",
+   "D": "Acidosis láctica por metformina, con brecha aniónica elevada, lactato mayor de 5 mmol/L e hiperpotasemia",
+   "E": "Hipoaldosteronismo hiporreninémico de la nefropatía diabética, agravado por el IECA: menor secreción distal de K⁺ y H⁺ (ATR tipo 4)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La ATR tipo 2 es proximal con pérdida de bicarbonato, hipopotasemia y pH urinario variable, y no se asocia a renina y aldosterona bajas.",
+   "B": "La ATR tipo 1 produce pH urinario mayor de 5.5 e hipopotasemia, mientras que aquí el potasio está alto y el pH urinario es ácido.",
+   "C": "La diarrea cursa con hipopotasemia y brecha aniónica urinaria negativa.",
+   "D": "La brecha aniónica es normal, por lo que no hay un anión no medido como el lactato.",
+   "E": "La diabetes con nefropatía puede disminuir la secreción de renina por daño del aparato yuxtaglomerular (hipoaldosteronismo hiporreninémico), y los IECA, los ARA II, los AINE y los diuréticos ahorradores de potasio reducen aún más la aldosterona o su efecto. La aldosterona estimula el canal ENaC y el ROMK en las células principales y la H⁺-ATPasa de las células intercaladas α; su déficit reduce la secreción de potasio y de protones y produce hiperpotasemia con acidosis metabólica hiperclorémica, brecha aniónica sérica normal, pH urinario menor de 5.5 y brecha aniónica urinaria positiva por menor excreción de amonio. Es la ATR tipo 4."
+  },
+  "perla": "ATR tipo 4: ↑K, acidosis hiperclorémica, pH urinario <5.5, brecha aniónica urinaria positiva. Renina y aldosterona bajas = hiporreninémico (diabetes, AINE, IECA).",
+  "referencias": [
+   "Palmer BF. N Engl J Med 2004;351:585",
+   "Comprehensive Clinical Nephrology (trastornos ácido-base)"
+  ],
+  "origen": [
+   "David26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 74.8
+ },
+ {
+  "id": "RAA-3",
+  "serie_id": "RAA",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia por bloqueo del SRAA: cómo mantener el tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente está euvolémica, sin disnea, con TA de 150/88 mmHg, y no desea suspender un tratamiento que protege su riñón. Tiene ECG sin cambios por hiperpotasemia.",
+  "enunciado": "¿Cuál estrategia permite mantener el bloqueo del SRAA?",
+  "opciones": {
+   "A": "Retirar el IECA de forma permanente y no volver a prescribirlo, por el riesgo de nuevas hiperpotasemias",
+   "B": "Indicar trimetoprim-sulfametoxazol para la infección, que no modifica el potasio en pacientes con ERC",
+   "C": "Administrar sustitutos de sal con cloruro de potasio, para mejorar la adherencia a la dieta hiposódica",
+   "D": "Añadir espironolactona para tratar la hiperpotasemia, por su efecto sobre la excreción renal de potasio",
+   "E": "Dieta baja en potasio, suspender AINE y suplementos, añadir diurético, corregir acidosis y usar un quelante (patiromer o SZC)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Suspender de por vida priva de protección renal y cardiovascular y es innecesario si se puede controlar el potasio.",
+   "B": "El trimetoprim bloquea el ENaC y favorece la hiperpotasemia.",
+   "C": "Los sustitutos de sal con cloruro de potasio aportan potasio y empeoran la hiperpotasemia.",
+   "D": "La espironolactona es un antagonista de la aldosterona y aumenta la hiperpotasemia.",
+   "E": "La hiperpotasemia por bloqueo del SRAA se maneja primero eliminando factores agravantes (AINE, suplementos de potasio, sustitutos de sal con KCl, trimetoprim, heparina), reduciendo el potasio de la dieta, y aumentando la excreción urinaria de potasio con un diurético tiazídico o de asa si no hay hipovolemia. La corrección de la acidosis con bicarbonato de sodio favorece la entrada de potasio a las células y su excreción. Si persiste la hiperpotasemia, los quelantes de potasio (patiromer, ciclosilicato de sodio y zirconio) permiten mantener los IECA o ARA II. La fludrocortisona se reserva para pacientes con hipoaldosteronismo verdadero sin hipertensión ni sobrecarga de volumen."
+  },
+  "perla": "Hiperpotasemia por iSRAA: quitar AINE/K/TMP, dieta, diurético, bicarbonato y quelante (patiromer, SZC) para mantener iSRAA.",
+  "referencias": [
+   "Palmer BF. N Engl J Med 2004;351:585",
+   "KDIGO 2024 CKD Guideline",
+   "Palmer BF, Clegg DJ. Core Curriculum 2019 de potasio. Am J Kidney Dis 2019;74:682"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 46.3
+ },
+ {
+  "id": "ANT-2",
+  "serie_id": "ANT",
+  "orden": 2,
+  "sub": "15.h",
+  "subtema": "Calcifilaxis asociada a warfarina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente y el cardiólogo eligen warfarina. Ocho meses después presenta placas violáceas dolorosas, de aspecto reticulado, en los muslos y el abdomen, con ulceración y escara necrótica. INR de 3.2, fósforo de 6.8 mg/dL, calcio de 9.4 mg/dL, PTH de 520 pg/mL, albúmina de 3.1 g/dL.",
+  "enunciado": "¿Cuál es el diagnóstico y el factor farmacológico implicado?",
+  "opciones": {
+   "A": "Celulitis necrosante; el factor es la hiperglucemia, que favorece la infección bacteriana de los tejidos blandos",
+   "B": "Livedo reticularis benigno; no requiere cambios en el tratamiento, porque las placas violáceas son un hallazgo frecuente y leve",
+   "C": "Calcifilaxis; la warfarina favorece la calcificación vascular al inhibir la carboxilación de la proteína Gla",
+   "D": "Necrosis cutánea por heparina; el factor es el fondaparinux, que produce trombocitopenia con trombosis cutánea",
+   "E": "Vasculitis ANCA; el factor es la azatioprina, que desencadena la inflamación necrosante de los vasos cutáneos"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La celulitis necrosante es una infección aguda con fiebre y toxicidad sistémica, no esta presentación subaguda.",
+   "B": "Las lesiones son necróticas y dolorosas, y requieren manejo urgente.",
+   "C": "Las lesiones cutáneas dolorosas, reticuladas, que evolucionan a úlceras con escara necrótica en un paciente en diálisis con hiperfosfatemia, hiperparatiroidismo, hipoalbuminemia, diabetes y obesidad son típicas de calcifilaxis (arteriolopatía urémica calcificante), con calcificación de la media arteriolar, hiperplasia de la íntima y trombosis. La warfarina es el principal factor de riesgo farmacológico (riesgo aumentado de 3 a 13 veces): bloquea la gamma-carboxilación dependiente de vitamina K de la proteína Gla de la matriz (MGP), el principal inhibidor de la calcificación vascular. Otros factores son los análogos de vitamina D, los quelantes cálcicos, el sexo femenino y las alteraciones del calcio-fósforo.",
+   "D": "La necrosis por heparina es una complicación de la trombocitopenia inducida por heparina, sin hiperfosfatemia ni dolor tan intenso en esta distribución.",
+   "E": "La vasculitis ANCA produce púrpura palpable, no placas reticuladas con escara en un paciente en diálisis con este perfil."
+  },
+  "perla": "Calcifilaxis: placas dolorosas retiformes → úlceras con escara; HD, DM, obesidad, ↑P, ↑PTH, albúmina baja. Warfarina ↑ riesgo 3–13× (inhibe MGP).",
+  "referencias": [
+   "Nigwekar SU et al. N Engl J Med 2018;378:1704",
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 49.9
+ },
+ {
+  "id": "ANT-3",
+  "serie_id": "ANT",
+  "orden": 3,
+  "sub": "15.h",
+  "subtema": "Manejo de la calcifilaxis y qué anticoagulante usar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma la sospecha clínica de calcifilaxis. El paciente aún requiere anticoagulación por su fibrilación auricular.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Solo observar la evolución, porque la calcifilaxis suele resolverse sola al controlar el fósforo y el calcio séricos",
+   "B": "Suspender warfarina (apixabán si persiste la indicación); heridas, analgesia, tiosulfato de sodio y control de calcio y fósforo",
+   "C": "Iniciar calcitriol y quelantes cálcicos para corregir el calcio, porque la hipocalcemia es la causa de las lesiones",
+   "D": "Continuar la warfarina y aumentar su dosis, para prevenir la trombosis de los vasos pequeños de la dermis y del tejido graso subcutáneo",
+   "E": "Biopsia cutánea obligatoria antes de cualquier intervención, porque el diagnóstico clínico no permite iniciar tratamiento empírico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Sin intervención la mortalidad es alta.",
+   "B": "La calcifilaxis tiene alta mortalidad (cercana a 50% al año con ulceración) y se maneja con un enfoque multidisciplinario: suspender la warfarina (y sustituirla por un anticoagulante alternativo si aún se necesita, como apixabán a dosis ajustada, o suspenderla si no), cuidado de las heridas con desbridamiento selectivo, control del dolor (opioides), tiosulfato de sodio intravenoso tras la diálisis (evidencia limitada), y control de los factores mineral-óseos con quelantes no cálcicos, cinacalcet o paratiroidectomía en hiperparatiroidismo refractario; se evitan el calcitriol y sus análogos y la sobrecarga de calcio. La nutrición y la optimización de la diálisis también se consideran. La oxigenoterapia hiperbárica es adyuvante.",
+   "C": "El calcitriol y los quelantes cálcicos promueven la calcificación y están contraindicados.",
+   "D": "Aumentar la warfarina agrava la calcificación vascular.",
+   "E": "La biopsia puede producir heridas que no cicatrizan y no es obligatoria si la clínica es típica."
+  },
+  "perla": "Calcifilaxis: suspender warfarina, heridas + dolor, tiosulfato de sodio, quelantes NO cálcicos, evitar calcitriol/Ca; apixabán si aún requiere anticoagular.",
+  "referencias": [
+   "Nigwekar SU et al. N Engl J Med 2018;378:1704",
+   "KDIGO CKD-MBD 2017 Update. Kidney Int Suppl 2017;7:1"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 37.8
+ },
+ {
+  "id": "ANT-5",
+  "serie_id": "ANT",
+  "orden": 5,
+  "sub": "19.b",
+  "subtema": "Hemodiálisis sin heparina en paciente con sangrado",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres semanas después, el paciente ingresa por hemorragia digestiva alta con hemoglobina de 6.4 g/dL, hemodinámicamente estable tras transfusión. Le toca hemodiálisis.",
+  "enunciado": "¿Cómo se realiza la sesión de diálisis?",
+  "opciones": {
+   "A": "Administrar protamina en toda sesión, para neutralizar la heparina del circuito y reducir el riesgo hemorrágico del paciente",
+   "B": "Dar warfarina durante la sesión, para evitar la coagulación del circuito extracorpóreo sin usar heparina",
+   "C": "Hemodiálisis sin heparina (lavados salinos, flujo alto, predilución) o con citrato regional, en lugar de heparina",
+   "D": "Heparina a dosis completa para evitar coagulación del circuito, porque la hemorragia ya se controló con transfusión",
+   "E": "Suspender la diálisis hasta que cese el sangrado, sin importar el estado clínico ni los datos de uremia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La protamina neutraliza la heparina y no es una práctica de rutina.",
+   "B": "La warfarina es un anticoagulante oral y no se usa en la sesión; el sangrado la contraindica.",
+   "C": "En pacientes con sangrado activo o alto riesgo hemorrágico, la hemodiálisis se realiza sin anticoagulación sistémica: se utiliza un flujo sanguíneo alto (más de 250 mL/min), lavados periódicos del circuito con solución salina (cada 15 a 30 minutos), predilución, o se usa citrato regional (con infusión de calcio posdializador o dializado sin calcio), que da anticoagulación solo dentro del circuito. La heparina no fraccionada convencional (bolo de 25 a 50 U/kg o dosis fija, más infusión) se reserva para pacientes sin riesgo. Se vigila el coagulo en el circuito y los requerimientos, y se corrigen la causa del sangrado y la anemia.",
+   "D": "La heparina a dosis completa empeora la hemorragia activa.",
+   "E": "La indicación de diálisis (volumen, potasio, acidosis, uremia) persiste, y puede realizarse de forma segura sin heparina."
+  },
+  "perla": "HD con sangrado: sin heparina (lavados salinos, QB alto, predilución) o citrato regional. UFH solo si no hay riesgo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)",
+   "KDOQI Hemodialysis Adequacy 2015. Am J Kidney Dis 2015;66:884"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 44.4
+ },
+ {
+  "id": "ANT-6",
+  "serie_id": "ANT",
+  "orden": 6,
+  "sub": "19.b",
+  "subtema": "Trombocitopenia inducida por heparina en hemodiálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras reanudar heparina en las sesiones en la semana siguiente, las plaquetas bajan de 210,000 a 65,000/µL al día 7 y la fístula arteriovenosa se trombosa en la sesión siguiente. Sospecha clínica alta de trombocitopenia inducida por heparina.",
+  "enunciado": "¿Cuál es el manejo?",
+  "opciones": {
+   "A": "Continuar la heparina de bajo peso molecular, porque es menos inmunogénica y no desencadena trombocitopenia",
+   "B": "Suspender heparina, confirmar anti-PF4/heparina y usar argatrobán o bivalirudina para la diálisis",
+   "C": "Cambiar a warfarina inmediatamente sin otro anticoagulante, para evitar nuevas trombosis de la fístula",
+   "D": "Esperar a que la cifra de plaquetas se normalice con heparina, porque la trombocitopenia es transitoria",
+   "E": "Administrar transfusión de plaquetas profiláctica, para prevenir el sangrado por la trombocitopenia grave"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La heparina de bajo peso molecular tiene reacción cruzada con los anticuerpos de la TIH.",
+   "B": "La trombocitopenia inducida por heparina (TIH) es una reacción inmune mediada por anticuerpos contra el complejo PF4-heparina que activa las plaquetas y produce trombocitopenia (caída de más de 50% entre los días 5 y 10) con riesgo trombótico paradójico (trombosis del acceso vascular en este caso). Se sospecha con la puntuación 4T, se suspende toda exposición a heparina (incluyendo heparina de bajo peso molecular, lavados, catéteres impregnados) y se emplea un anticoagulante no heparínico: argatrobán (eliminación hepática, adecuado en insuficiencia renal) o bivalirudina. La warfarina no se inicia hasta que las plaquetas se recuperen y se mantenga la cobertura, porque puede inducir necrosis cutánea.",
+   "C": "Iniciar warfarina sola en la fase aguda se asocia a gangrena venosa y necrosis cutánea.",
+   "D": "Continuar la heparina perpetúa la activación plaquetaria y la trombosis.",
+   "E": "Las transfusiones de plaquetas pueden aumentar la trombosis y no se hacen de rutina."
+  },
+  "perla": "TIH en HD: plaquetas ↓>50% día 5–10 + trombosis; suspender TODA heparina (incl. HBPM); argatrobán/bivalirudina; warfarina solo con plaquetas recuperadas.",
+  "referencias": [
+   "Cuker A et al. Blood Adv 2018;2:3360 (ASH TIH)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 44.4
+ },
+ {
+  "id": "LAC-1",
+  "serie_id": "LAC",
+  "orden": 1,
+  "sub": "25.a",
+  "subtema": "Acidosis láctica asociada a metformina: brecha aniónica y delta",
+  "dificultad": "moderada",
+  "caso": "Mujer de 68 años con diabetes tipo 2 y ERC estadio G4 (TFGe de 28 mL/min/1.73 m²) que continúa metformina 1,000 mg cada 12 horas. Tras 3 días de vómito y diarrea, llega somnolienta, con FC de 118 lpm, TA de 92/58 mmHg y respiración profunda. Gasometría arterial: pH de 7.02, pCO₂ de 28 mmHg, HCO₃⁻ de 7 mEq/L. Electrolitos: Na⁺ de 136, Cl⁻ de 94, K⁺ de 5.9 mEq/L, creatinina de 4.8 mg/dL, glucosa de 160 mg/dL, lactato de 22 mmol/L.",
+  "enunciado": "¿Cuál es el trastorno ácido-base y su relación delta?",
+  "opciones": {
+   "A": "Acidosis respiratoria primaria, por hipoventilación secundaria a la somnolencia y a la hipoxemia",
+   "B": "Alcalosis metabólica con acidosis respiratoria, por los vómitos y la hipoventilación asociada a la sedación profunda",
+   "C": "Acidosis metabólica hiperclorémica con brecha aniónica normal, por la diarrea y la insuficiencia renal",
+   "D": "Acidosis metabólica con brecha aniónica elevada de 35 y relación delta ≈1.35: acidosis láctica pura de brecha alta",
+   "E": "Acidosis metabólica con brecha de 35 y relación delta <0.4, que indica acidosis hiperclorémica añadida por la diarrea"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El bicarbonato bajo indica componente metabólico primario, y el pCO₂ es bajo, no alto.",
+   "B": "El pH es bajo y el bicarbonato también, por lo que no hay alcalosis metabólica.",
+   "C": "La brecha aniónica elevada descarta una acidosis con brecha normal.",
+   "D": "La brecha aniónica es Na⁺ − (Cl⁻ + HCO₃⁻) = 136 − (94 + 7) = 35 mEq/L (normal de 8 a 12), por lo que hay una acidosis metabólica con brecha aniónica elevada. La relación delta compara el aumento de la brecha con la caída del bicarbonato: (35 − 12)/(24 − 7) = 23/17 = 1.35. Una relación de 1 a 2 indica una acidosis de brecha elevada pura (en el caso de la acidosis láctica, cerca de 1.6); menos de 1 sugiere una acidosis hiperclorémica agregada y más de 2, una alcalosis metabólica concomitante. El lactato de 22 mmol/L explica la brecha. En este caso hay hipoperfusión por hipovolemia y acumulación de metformina por la ERC, que inhibe la gluconeogénesis hepática y la cadena respiratoria mitocondrial, con producción de lactato.",
+   "E": "La relación delta calculada es de 1.35 y no hay evidencia de acidosis hiperclorémica agregada."
+  },
+  "perla": "AG = Na − (Cl + HCO₃) = 35. Delta = (AG − 12)/(24 − HCO₃) = 1.35 → AGMA pura (1–2). <1: hiperclorémica agregada; >2: alcalosis metabólica agregada.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (equilibrio ácido-base)",
+   "Kraut JA, Madias NE. N Engl J Med 2014;371:2309"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 25,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "continuacion": "",
+  "obj": "25.o1",
+  "peso": 45.2
+ },
+ {
+  "id": "LAC-2",
+  "serie_id": "LAC",
+  "orden": 2,
+  "sub": "25.a",
+  "subtema": "Evaluación de la compensación respiratoria: fórmula de Winter",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El residente nota que la paciente respira con esfuerzo y está somnolienta. Debe decidir si la respuesta respiratoria es adecuada para la acidosis metabólica.",
+  "enunciado": "¿Cómo se interpreta el pCO₂ de 28 mmHg?",
+  "opciones": {
+   "A": "El pCO₂ de 28 es el esperado por la fórmula de Winter y confirma una compensación respiratoria adecuada",
+   "B": "El pCO₂ de 28 indica una alcalosis respiratoria sobreañadida, por la hiperventilación de la paciente",
+   "C": "La compensación no se puede evaluar sin medir antes el lactato sérico y repetir la gasometría arterial",
+   "D": "Winter predice pCO₂ ≈18 mmHg; el de 28 indica compensación insuficiente con acidosis respiratoria",
+   "E": "El pCO₂ esperado para esta acidosis metabólica es de 40 mmHg, de modo que la respuesta ventilatoria es normal"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Con bicarbonato de 7, el pCO₂ esperado es cercano a 18, no 28.",
+   "B": "Un pCO₂ mayor que el esperado indica acidosis respiratoria agregada, no alcalosis.",
+   "C": "La compensación se evalúa con el bicarbonato y la fórmula de Winter, sin necesidad del lactato.",
+   "D": "En la acidosis metabólica, la compensación respiratoria esperada se calcula con la fórmula de Winter: pCO₂ = 1.5 × HCO₃⁻ + 8 ± 2; con un bicarbonato de 7 mEq/L, el pCO₂ esperado es de 18.5 ± 2 mmHg (16.5 a 20.5). Un pCO₂ de 28 mmHg es mayor que el esperado, lo que indica una compensación insuficiente por fatiga de los músculos respiratorios, depresión del sensorio u otra causa de hipoventilación, y es la razón por la cual el pH es de 7.02 (con pCO₂ de 18, el pH sería cercano a 7.21). Es una señal de alarma: la paciente puede descompensarse rápidamente, por lo que se necesita vigilancia en terapia intensiva y soporte ventilatorio, teniendo cuidado de que la ventilación mecánica mantenga la hiperventilación compensatoria (volumen minuto alto), y se acelera la corrección metabólica con diálisis.",
+   "E": "Un pCO₂ de 40 es el valor normal sin trastorno, no el esperado ante acidosis metabólica."
+  },
+  "perla": "Winter: pCO₂ esperado = 1.5 × HCO₃ + 8 ± 2 (aquí 18.5). pCO₂ mayor = acidosis respiratoria agregada/fatiga; menor = alcalosis respiratoria agregada.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (equilibrio ácido-base)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 25,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "obj": "25.o1",
+  "peso": 47.2
+ },
+ {
+  "id": "LAC-4",
+  "serie_id": "LAC",
+  "orden": 4,
+  "sub": "25.a",
+  "subtema": "Bicarbonato en la acidemia grave y prevención",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Antes de la diálisis, el equipo discute si administrar bicarbonato mientras se logra el acceso. Tras la recuperación, el médico de primer contacto pregunta cuándo se puede usar metformina en esta paciente.",
+  "enunciado": "¿Qué evidencia respalda el uso de bicarbonato y qué recomendación hay para la metformina?",
+  "opciones": {
+   "A": "BICAR-ICU: pH ≤7.20, menor mortalidad en LRA 2–3; metformina se suspende con TFGe <30 y no se inicia con 30–44",
+   "B": "La metformina debe aumentarse en la ERC para compensar su menor eficacia clínica, con control de la glucemia capilar",
+   "C": "El bicarbonato solo se usa cuando el pH es mayor de 7.4, nunca en la acidemia grave con lesión renal aguda KDIGO 3",
+   "D": "El bicarbonato está contraindicado en toda acidosis, y la metformina se usa con TFGe mayor de 10 mL/min",
+   "E": "El bicarbonato siempre mejora la supervivencia en cualquier acidosis láctica, y la metformina sirve con cualquier TFGe"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En el ensayo BICAR-ICU (Jaber et al., Lancet 2018), en pacientes críticos con acidemia grave (pH menor o igual a 7.20), la infusión de bicarbonato de sodio al 4.2% hasta pH mayor de 7.30 no mejoró el desenlace combinado de mortalidad a 28 días y disfunción orgánica a 7 días en la población general, pero en el estrato preespecificado con lesión renal aguda KDIGO 2 o 3 redujo la mortalidad a 28 días y la necesidad de terapia de reemplazo renal. Se emplea, por lo tanto, como puente a la diálisis en pacientes con pH menor o igual a 7.20 y lesión renal. En cuanto a la metformina, la guía KDIGO para diabetes y ERC recomienda continuar la dosis completa con TFGe de 45 o más, reducir la dosis (máximo de 1,000 mg al día) con 30 a 44, no iniciar con TFGe menor de 45 y suspender con menos de 30, además de aplicar reglas de día enfermo durante deshidratación, sepsis o contraste.",
+   "B": "La metformina se acumula en la ERC, y aumentar la dosis es peligroso.",
+   "C": "El bicarbonato se considera en acidemia grave, no con pH alto.",
+   "D": "El bicarbonato no está contraindicado en la acidemia grave con lesión renal, y la metformina se suspende con TFGe menor de 30.",
+   "E": "El bicarbonato no mejora la supervivencia en todos los pacientes, y la metformina requiere ajuste por TFGe."
+  },
+  "perla": "BICAR-ICU: pH ≤7.20 + LRA KDIGO 2–3 → bicarbonato ↓mortalidad y TRR. Metformina: TFGe ≥45 dosis completa; 30–44 máx 1,000 mg/d; <30 suspender. Reglas de día enfermo.",
+  "referencias": [
+   "Jaber S et al. Lancet 2018;392:31 (BICAR-ICU)",
+   "KDIGO 2022 Diabetes in CKD. Kidney Int 2022;102(5S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 25,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "obj": "25.o1",
+  "peso": 47.2
+ },
+ {
+  "id": "CLC-1",
+  "serie_id": "CLC",
+  "orden": 1,
+  "sub": "23.c",
+  "subtema": "Hipertensión resistente en ERC: confirmación y causas",
+  "dificultad": "moderada",
+  "caso": "Hombre de 64 años con diabetes tipo 2 y ERC G4 A3 (TFGe de 28 mL/min/1.73 m², cociente albúmina/creatinina de 1,200 mg/g). Recibe losartán 100 mg, amlodipino 10 mg y furosemida 40 mg cada 12 horas. La presión en consulta es de 168/92 mmHg en tres visitas, con edema leve en tobillos. Refiere tomar ibuprofeno por dolor lumbar y consume alimentos procesados con frecuencia.",
+  "enunciado": "¿Cuál es el primer paso adecuado antes de intensificar el tratamiento?",
+  "opciones": {
+   "A": "Reducir la furosemida porque el edema es leve, y esperar a que la presión arterial se normalice por sí sola con el paso del tiempo",
+   "B": "Agregar de inmediato un cuarto fármaco sin más estudios, porque ya se cumplen los criterios de resistencia",
+   "C": "Confirmar con MAPA o toma domiciliaria y descartar pseudorresistencia (adherencia, sodio, AINE, volumen) y causas secundarias",
+   "D": "Suspender el losartán por la TFGe de 28, porque el bloqueo del SRAA está contraindicado con TFGe menor de 30",
+   "E": "Indicar diálisis para controlar la presión, porque la hipertensión resistente con ERC G4 A3 es una indicación de inicio de reemplazo"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Reducir el diurético empeoraría la sobrecarga de volumen, que probablemente contribuye a la hipertensión.",
+   "B": "Agregar fármacos sin confirmar la resistencia ni corregir el AINE y el sodio conduce a sobretratamiento.",
+   "C": "La hipertensión resistente se define como presión por arriba de la meta a pesar de tres fármacos de clases distintas (incluido un diurético) a dosis máximas toleradas, o controlada solo con cuatro o más. Antes de intensificar se debe excluir la pseudorresistencia: efecto de bata blanca (el MAPA o la medición domiciliaria lo identifican), mala adherencia, técnica inadecuada de medición, inercia terapéutica, ingesta alta de sodio, uso de AINE (que retienen sodio y antagonizan los antihipertensivos), sobrecarga de volumen, y la presencia de causas secundarias como apnea del sueño, estenosis de la arteria renal y aldosteronismo primario. En este paciente, el AINE y la dieta con sodio explican en parte la presión elevada y deben corregirse. La guía KDIGO 2021 sugiere una meta sistólica menor de 120 mmHg con medición estandarizada, cuando se tolera.",
+   "D": "El bloqueo del SRAA es de primera línea en la ERC con albuminuria alta y no se suspende solo por la TFGe.",
+   "E": "No hay indicación de diálisis por la presión arterial en este contexto."
+  },
+  "perla": "HTA resistente: ≥3 fármacos (con diurético) o ≥4 controlados. Excluir pseudorresistencia: MAPA, adherencia, sodio, AINE, volumen, apnea, aldosteronismo. KDIGO 2021: meta sistólica <120 estandarizada.",
+  "referencias": [
+   "Carey RM et al. Hypertension 2018;72:e53 (hipertensión resistente)",
+   "KDIGO 2021 Blood Pressure in CKD. Kidney Int 2021;99(3S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 23,
+  "tema": "Hipertensión arterial",
+  "continuacion": "",
+  "obj": "23.o3",
+  "peso": 22.5
+ },
+ {
+  "id": "HTE-1",
+  "serie_id": "HTE",
+  "orden": 1,
+  "sub": "23.a",
+  "subtema": "Hipertensión de bata blanca: diagnóstico con medición fuera del consultorio",
+  "dificultad": "moderada",
+  "caso": "Mujer de 46 años, asintomática, con IMC de 26 kg/m². La presión arterial en consultorio fue de 152/94, 148/92 y 154/96 mmHg en tres visitas separadas por 3 semanas, medida con técnica correcta. Creatinina de 0.8 mg/dL, examen de orina normal, cociente albúmina/creatinina de 8 mg/g, electrocardiograma y ecocardiograma sin hipertrofia ventricular. El automonitoreo domiciliario con aparato validado durante 7 días da un promedio de 126/78 mmHg. El MAPA de 24 horas muestra promedio de 24 horas de 121/73, diurno de 125/77 y nocturno de 106/62 mmHg.",
+  "enunciado": "¿Cuál es el diagnóstico y la conducta más adecuada?",
+  "opciones": {
+   "A": "Hipertensión resistente, que obliga a descartar causas secundarias y a iniciar un tercer fármaco, de preferencia un diurético",
+   "B": "Bata blanca (consultorio elevado, MAPA o toma domiciliaria normal, sin daño de órgano): estilo de vida sin fármacos y reevaluación periódica",
+   "C": "Normotensión, sin necesidad de seguimiento, porque la presión en consultorio no refleja la presión real de la paciente",
+   "D": "Hipertensión enmascarada, que obliga a iniciar tratamiento combinado, porque la presión ambulatoria está elevada y la de consultorio es normal",
+   "E": "Hipertensión estadio 2 confirmada: iniciar de inmediato dos fármacos en una sola tableta, sin otras mediciones"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La resistencia requiere presión no controlada con tres fármacos y no hay tratamiento previo.",
+   "B": "La hipertensión de bata blanca se define por presión elevada en consultorio (aquí, promedio de 151/94 mmHg) con valores normales fuera del consultorio: el promedio domiciliario de 126/78 y el MAPA con medias de 24 horas de 121/73, diurna de 125/77 y nocturna de 106/62 quedan por debajo de los umbrales diagnósticos (24 horas ≥130/80, diurna ≥135/85, nocturna ≥120/70 y domiciliaria ≥130/80 a 135/85, según la guía). Esto muestra la utilidad de confirmar el diagnóstico antes de tratar, para evitar fármacos innecesarios. Sin daño a órgano blanco (aquí, sin albuminuria ni hipertrofia), no se inicia tratamiento farmacológico de rutina: se indican cambios del estilo de vida y se repite la medición fuera del consultorio cada 6 a 12 meses, pues una proporción significativa evoluciona a hipertensión sostenida y tiene un riesgo cardiovascular algo mayor que el de los normotensos verdaderos.",
+   "C": "Hay un riesgo de evolución a hipertensión sostenida que obliga a reevaluar de forma periódica.",
+   "D": "La hipertensión enmascarada es lo contrario: presión normal en consultorio y elevada fuera de él.",
+   "E": "El diagnóstico de hipertensión sostenida no se confirma con las mediciones fuera del consultorio normales."
+  },
+  "perla": "Bata blanca: consultorio alto + domicilio/MAPA normales (24 h <130/80, día <135/85, noche <120/70). Sin daño a órgano blanco: sin fármacos; reevaluar cada 6–12 meses. Enmascarada = lo opuesto.",
+  "referencias": [
+   "2025 AHA/ACC Guideline for High Blood Pressure in Adults. Hypertension 2025",
+   "Comprehensive Clinical Nephrology (hipertensión)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 23,
+  "tema": "Hipertensión arterial",
+  "continuacion": "",
+  "obj": "23.o1",
+  "peso": 13.4
+ },
+ {
+  "id": "HTE-2",
+  "serie_id": "HTE",
+  "orden": 2,
+  "sub": "23.a",
+  "subtema": "MAPA con patrón sin descenso nocturno (non-dipper)",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres años después, la paciente ha subido 8 kg. La presión en consultorio es de 146/90 mmHg en tres visitas. El MAPA de 24 horas muestra un promedio de 132/82 mmHg, diurno de 136/85 y nocturno de 128/79 mmHg. Creatinina de 0.8 mg/dL, cociente albúmina/creatinina de 22 mg/g; refiere ronquido y cansancio diurno.",
+  "enunciado": "¿Cuál es la interpretación correcta y la conducta?",
+  "opciones": {
+   "A": "Hipertensión sostenida sin descenso nocturno (≈6%): buscar apnea y daño renal; la hora de la dosis no cambia desenlaces (TIME)",
+   "B": "Hipertensión enmascarada, porque la presión de consultorio es normal y la de 24 horas está elevada",
+   "C": "El patrón sin descenso indica hipertensión renovascular, y debe hacerse una arteriografía renal de inmediato",
+   "D": "Se debe pasar todo el tratamiento a la noche, porque se ha demostrado de forma concluyente que reduce los eventos cardiovasculares mayores",
+   "E": "Sigue siendo bata blanca y no requiere tratamiento, porque el promedio de 24 horas es menor de 135/85"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Con presión de consultorio de 146/90, un promedio de 24 horas de 132/82 (umbral de 130/80), una media diurna de 136/85 (≥135/85) y una nocturna de 128/79 (≥120/70), se confirma hipertensión sostenida, y deja de ser bata blanca. El descenso normal de la presión durante el sueño es de 10 a 20%; aquí la sistólica baja de 136 a 128 (cerca de 6%) y la diastólica de 85 a 79 (cerca de 7%), lo que define un patrón sin descenso (non-dipper), asociado con apnea obstructiva del sueño (la paciente roncó y tuvo cansancio diurno), enfermedad renal crónica, diabetes con neuropatía autonómica, obesidad, ingesta alta de sodio y mayor riesgo cardiovascular. Debe buscarse la causa, tratarse la hipertensión hasta la meta (menor de 130/80) y confirmarla con monitoreo. El ensayo TIME, de gran tamaño, no mostró diferencia en eventos vasculares entre la toma matutina y la vespertina, de modo que la cronoterapia no es una estrategia validada.",
+   "B": "La presión de consultorio es de 146/90, por lo que no es enmascarada.",
+   "C": "El patrón sin descenso es inespecífico y no obliga a una arteriografía renal; se evalúa primero la apnea del sueño y las causas comunes.",
+   "D": "Los ensayos más grandes (como TIME) no demostraron ventajas de la dosificación nocturna.",
+   "E": "El MAPA y la presión en consultorio ya están elevados, de modo que no es bata blanca."
+  },
+  "perla": "MAPA: 24 h ≥130/80, día ≥135/85, noche ≥120/70. Non-dipper: caída nocturna <10% (OSA, ERC, DM, sodio, neuropatía autonómica). La hora de dosificación no cambia eventos (TIME).",
+  "referencias": [
+   "Mackenzie IS et al. Lancet 2022;400:1417 (TIME)",
+   "2025 AHA/ACC Guideline for High Blood Pressure in Adults. Hypertension 2025"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 23,
+  "tema": "Hipertensión arterial",
+  "obj": "23.o1",
+  "peso": 15.4
+ },
+ {
+  "id": "HTE-3",
+  "serie_id": "HTE",
+  "orden": 3,
+  "sub": "23.a",
+  "subtema": "Inicio del tratamiento farmacológico en hipertensión estadio 2",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La polisomnografía muestra un índice de apnea-hipopnea de 9 eventos/hora (leve) y se indica pérdida de peso. Se confirma hipertensión estadio 2 con presión de consultorio de 146/90 mmHg. Tiene TFGe de 92 mL/min/1.73 m², K⁺ de 4.2 mEq/L, glucosa normal y no está embarazada ni planea embarazo.",
+  "enunciado": "¿Cuál es el esquema inicial más adecuado?",
+  "opciones": {
+   "A": "Un IECA más un ARA-II para maximizar el bloqueo del SRAA, porque la doble inhibición protege mejor al riñón",
+   "B": "Dos fármacos de clases distintas en una tableta (ARA-II o IECA con amlodipino o tiazida) y estilo de vida; meta <130/80 mmHg",
+   "C": "Monoterapia con atenolol, por ser el estándar para iniciar el tratamiento en pacientes con apnea del sueño leve",
+   "D": "Espironolactona en monoterapia como primera opción, porque la apnea del sueño se asocia con hiperaldosteronismo en la mayoría de los casos",
+   "E": "Solo cambios del estilo de vida durante 6 meses completos, porque el estadio 2 se trata primero sin fármacos y luego se reevalúa"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La combinación de IECA y ARA-II no mejora desenlaces y aumenta la hiperpotasemia y la lesión renal aguda (ONTARGET, VA NEPHRON-D).",
+   "B": "En la hipertensión estadio 2 (≥140/90 mmHg), la guía ACC/AHA 2025 recomienda iniciar tratamiento farmacológico junto con cambios del estilo de vida y empezar con dos fármacos de primera línea de clases diferentes, de preferencia en una sola tableta, porque se logra un control más rápido y mayor adherencia. Las clases de primera línea son los IECA/ARA-II, los bloqueadores de canales de calcio dihidropiridínicos y los diuréticos tipo tiazida (clortalidona, indapamida). Una combinación habitual es un ARA-II o IECA con amlodipino o con una tiazida, y la meta es menor de 130/80 mmHg, con sistólica menor de 120 si se tolera. Esta combinación tiene sustento en ensayos de morbimortalidad y el perfil de seguridad adecuado para esta paciente joven sin comorbilidades.",
+   "C": "Los β-bloqueadores no son de primera línea para la hipertensión sin otra indicación (cardiopatía isquémica, insuficiencia cardiaca, arritmias).",
+   "D": "La espironolactona se reserva para la hipertensión resistente o el hiperaldosteronismo.",
+   "E": "En el estadio 2 se inicia el tratamiento farmacológico de entrada, junto con las medidas no farmacológicas."
+  },
+  "perla": "Estadio 2 (≥140/90): iniciar dos fármacos de primera línea de clases distintas, de preferencia en una tableta; meta <130/80 (sistólica <120 si se tolera). Nunca IECA + ARA-II.",
+  "referencias": [
+   "2025 AHA/ACC Guideline for High Blood Pressure in Adults. Hypertension 2025",
+   "ONTARGET Investigators. N Engl J Med 2008;358:1547"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 23,
+  "tema": "Hipertensión arterial",
+  "obj": "23.o1",
+  "peso": 13.4
+ },
+ {
+  "id": "KHD-1",
+  "serie_id": "KHD",
+  "orden": 1,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia en hemodiálisis: intervalo interdialítico largo y medidas iniciales",
+  "dificultad": "moderada",
+  "caso": "Hombre de 62 años en hemodiálisis tres veces por semana (lunes, miércoles y viernes) con dializado de potasio de 2 mEq/L, sin función renal residual. El potasio predialítico es de 6.4 mEq/L los lunes (después del intervalo largo) y de 5.4 mEq/L los miércoles y viernes. Recibe lisinopril por cardiopatía, y su dieta incluye jugos y sustitutos de sal. El ECG de los lunes muestra ondas T altas. No hay estreñimiento ni hemólisis de la muestra.",
+  "enunciado": "¿Cuál es la interpretación y la conducta inicial más adecuadas?",
+  "opciones": {
+   "A": "El potasio de 6.4 mEq/L es normal para el intervalo largo, y no requiere intervención adicional alguna",
+   "B": "Suspender la hemodiálisis de los lunes para evitar la hipopotasemia posdiálisis y las arritmias",
+   "C": "Bajar el dializado de potasio a 0 mEq/L en todas las sesiones, para eliminar más potasio y evitar por completo la hiperpotasemia",
+   "D": "Riesgo arrítmico por el intervalo largo: dieta, fármacos, corrección de acidosis y estreñimiento, y captor en días sin diálisis",
+   "E": "Indicar solo resina de poliestireno sulfonato de sodio de forma crónica sin otras medidas dietéticas ni de diálisis"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El potasio mayor de 6.0 mEq/L con cambios electrocardiográficos no es normal, y se asocia con riesgo de arritmia.",
+   "B": "Suspender la diálisis agravaría la hiperpotasemia y la sobrecarga de volumen.",
+   "C": "Los dializados con potasio muy bajo producen un gradiente alto que favorece las arritmias, por lo que se evitan.",
+   "D": "El potasio se acumula durante el intervalo interdialítico, y el más largo (cerca de 68 a 72 horas) se asocia con mayor mortalidad, muerte cardiovascular y hospitalizaciones en el día posterior, según un estudio observacional publicado en 2011 (Foley). El abordaje integral incluye la asesoría dietética (evitar sustitutos de sal con cloruro de potasio, jugos, frutas con alto contenido y aditivos con potasio, y preferir la cocción con descarte del agua), el repaso de fármacos que elevan el potasio (IECA, ARA-II, antagonistas mineralocorticoides, betabloqueadores no selectivos, trimetoprim), el tratamiento del estreñimiento y de la acidosis, y la valoración de más tiempo o frecuencia de diálisis. Si persiste, se agrega un captor de potasio en los días sin diálisis. Los dializados con potasio de 0 a 1 mEq/L se evitan por el riesgo de arritmia.",
+   "E": "La resina como único tratamiento tiene inicio lento y riesgo de necrosis colónica, y no sustituye las medidas dietéticas y de fármacos."
+  },
+  "perla": "HD: el intervalo largo (68–72 h) ↑ hiperK, arritmia y muerte súbita (Foley 2011). Manejo: dieta (aditivos, sustitutos de sal), fármacos, estreñimiento/acidosis, dializado K 2–3 (evitar 0–1), más tiempo/frecuencia, captor en días sin diálisis.",
+  "referencias": [
+   "Foley RN et al. N Engl J Med 2011;365:1099",
+   "Comprehensive Clinical Nephrology (hiperpotasemia en diálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "continuacion": "",
+  "obj": "24.o3",
+  "peso": 16.1
+ },
+ {
+  "id": "KHD-3",
+  "serie_id": "KHD",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Hipopotasemia posdialítica por sobrecorrección: ajuste del captor y del dializado",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras 6 semanas con 15 g los días sin diálisis, el potasio predialítico es de 3.4 mEq/L, y al final de la sesión de 2.7 mEq/L, con dializado de 2 mEq/L. El paciente refiere calambres y palpitaciones, y el ECG muestra ondas U y extrasístoles ventriculares aisladas. Toma además digoxina por fibrilación auricular.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Aumentar el captor a la dosis máxima, para mantener el potasio bajo y evitar cualquier riesgo de hiperpotasemia entre las sesiones de diálisis",
+   "B": "No intervenir, porque el potasio bajo en diálisis es siempre benéfico y protege contra las arritmias",
+   "C": "Reducir o suspender el captor, subir el dializado a 3 mEq/L, corregir K y Mg y revisar la digoxina por el riesgo de arritmias",
+   "D": "Bajar el dializado a 1 mEq/L, para mantener el potasio bajo y evitar calambres y palpitaciones",
+   "E": "Indicar suplementos de potasio de 80 mEq por día sin vigilancia, para corregir la hipopotasemia de forma rápida"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Aumentar el captor agravaría la hipopotasemia y el riesgo arrítmico.",
+   "B": "Tanto la hiperpotasemia como la hipopotasemia se asocian con mayor mortalidad en diálisis.",
+   "C": "El potasio sérico muy bajo, y sobre todo la caída rápida durante la sesión con un gradiente alto entre el suero y el dializado, se asocia con arritmias ventriculares y muerte súbita; la hipopotasemia también potencia la toxicidad de la digoxina. El paciente se sobrecorrigió con el captor a dosis altas, de modo que se reduce o suspende, se aumenta el dializado de potasio a 3 mEq/L para disminuir el gradiente, se controlan el potasio y el magnesio (la hipomagnesemia agrava el riesgo arrítmico y dificulta corregir el potasio), y se revisa la dosis y el nivel de digoxina. Se busca un potasio predialítico de 4 a 5 mEq/L, evitando tanto los valores altos como los muy bajos (curva en U de la mortalidad).",
+   "D": "Un dializado de 1 mEq/L aumenta el gradiente y el riesgo de arritmia.",
+   "E": "Suplementar sin vigilancia en un paciente anúrico expone a una hiperpotasemia grave."
+  },
+  "perla": "HD: curva en U de mortalidad con el potasio; evitar K predialítico <4 y caídas bruscas (dializado 1–2 con gradiente alto), sobre todo con digoxina o hipoMg; sobrecorrección por captor → reducir captor, ↑ K del dializado a 3, corregir Mg.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (trastornos del potasio en diálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 18.1
  }
 ]

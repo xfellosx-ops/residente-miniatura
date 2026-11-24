@@ -237,51 +237,43 @@
     },
     {
      "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
-     "serie": "OSM-4",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "serie": "T2-3VRS",
      "intro": [
       [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
-      ],
-      [
-       "Dra. Carmen Triaje",
-       "Mi caso: Tonicidad: urea frente a glucosa"
+       "Dr. Max Presor",
+       "Hipotenso y oligúrico: otro litro, y otro, y otro."
       ]
      ],
      "defeat": [
       [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
+       "Dr. Max Presor",
+       "Elevar piernas y VExUS… ya no ahogo al riñón."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t0_2",
-     "cast": "endo",
-     "specialty": "Endocrinología",
-     "serie": "NEU-1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "T2-3UCL",
      "intro": [
       [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
-      ],
-      [
-       "Dr. Tiro Glándula",
-       "Mi caso: Edema nefrótico: subllenado frente a sobrellenado"
+       "Dra. Carmen Triaje",
+       "Sodio urinario de 45: no está seca. Siguiente."
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dra. Carmen Triaje",
+       "El cloro urinario la delató. Salina y potasio."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     }
    ],
    "wild": [
@@ -298,7 +290,7 @@
    ],
    "gates": [
     {
-     "after": "t0_0",
+     "after": "t0_2",
      "topic": "Compartimentos y distribución de soluciones",
      "text": [
       [
@@ -475,33 +467,29 @@
     },
     {
      "id": "t1_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
-     "serie": "ESC-1",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "T2-3ASC",
      "intro": [
       [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
-      ],
-      [
-       "Dra. Sístole Ruiz",
-       "Mi caso: Escape mineralocorticoide: HTA sin edema"
+       "Dr. Ernesto Holístico",
+       "Cirrótico con ascitis: restricción de sal y nada más."
       ]
      ],
      "defeat": [
       [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
+       "Dr. Ernesto Holístico",
+       "Albúmina por litro y el cociente Na/K. Me lo llevo."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t1_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "STA-1",
+     "serie": "OSM-4",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -509,7 +497,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Distribución de líquidos infundidos"
+       "Mi caso: Tonicidad: urea frente a glucosa"
       ]
      ],
      "defeat": [
@@ -541,7 +529,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_1",
      "topic": "Volumen arterial efectivo y retención de sodio",
      "text": [
       [

@@ -243,23 +243,23 @@
     },
     {
      "id": "t0_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
+     "cast": "endo",
+     "specialty": "Endocrinología",
      "serie": "BMK",
      "intro": [
       [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
       ],
       [
-       "Dra. Sístole Ruiz",
+       "Dr. Tiro Glándula",
        "Mi caso: Biomarcadores de detención del ciclo celular: TIMP-2 por IGFBP-7"
       ]
      ],
      "defeat": [
       [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
       ]
      ],
      "questionTopics": [],
@@ -267,23 +267,23 @@
     },
     {
      "id": "t0_2",
-     "cast": "cx",
-     "specialty": "Cirugía",
-     "serie": "AKS-1",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "AZ1-1",
      "intro": [
       [
-       "Dr. Rocco Filo",
-       "Si duele, se opera. Si no, también."
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
       ],
       [
-       "Dr. Rocco Filo",
-       "Mi caso: FENa baja con necrosis tubular"
+       "Dr. Anselmo Frágil",
+       "Mi caso: KDIGO 2026: LRA estructural (B1)"
       ]
      ],
      "defeat": [
       [
-       "Dr. Rocco Filo",
-       "No todo se resuelve con bisturí. Pasa."
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
       ]
      ],
      "questionTopics": [],
@@ -514,47 +514,47 @@
     },
     {
      "id": "t1_1",
-     "cast": "endo",
-     "specialty": "Endocrinología",
-     "serie": "SEA",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "AKI",
      "intro": [
       [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
       ],
       [
-       "Dr. Tiro Glándula",
-       "Mi caso: Sedimento en LRA: necrosis tubular aguda"
+       "Dr. Félix Cultivo",
+       "Mi caso: LRA: prerrenal vs necrosis tubular con diurético"
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t1_2",
-     "cast": "geria",
-     "specialty": "Geriatría",
-     "serie": "AZ1-1",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "AKS-2",
      "intro": [
       [
-       "Dr. Anselmo Frágil",
-       "A esta edad la creatinina miente. Mejor no medir."
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
       ],
       [
-       "Dr. Anselmo Frágil",
-       "Mi caso: KDIGO 2026: LRA estructural (B1)"
+       "Dra. Sara Esquistocito",
+       "Mi caso: Anuria: diagnóstico diferencial"
       ]
      ],
      "defeat": [
       [
-       "Dr. Anselmo Frágil",
-       "Cistatina C… debí pedirla."
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -823,51 +823,47 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 5
     },
     {
      "id": "t2_1",
-     "cast": "infecto",
-     "specialty": "Infectología",
-     "serie": "AKI",
-     "intro": [
-      [
-       "Dr. Félix Cultivo",
-       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
-      ],
-      [
-       "Dr. Félix Cultivo",
-       "Mi caso: LRA: prerrenal vs necrosis tubular con diurético"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dr. Félix Cultivo",
-       "Ajustar la dosis también cura. Lo anoto."
-      ]
-     ],
-     "questionTopics": [],
-     "n": 4
-    },
-    {
-     "id": "t2_2",
-     "cast": "hema",
-     "specialty": "Hematología",
+     "cast": "valeria",
+     "specialty": "Rival",
      "serie": "AZ1-6",
      "intro": [
       [
-       "Dra. Sara Esquistocito",
-       "Esquistocitos: ya sé, pura coagulopatía."
-      ],
-      [
-       "Dra. Sara Esquistocito",
-       "Mi caso: Momento de inicio de la TRR"
+       "Dra. Valeria Montes",
+       "Estadio 3 de KDIGO: diálisis ya. Lo tengo en tarjeta."
       ]
      ],
      "defeat": [
       [
-       "Dra. Sara Esquistocito",
-       "MAT: el riñón sí importa. Pasa."
+       "Dra. Valeria Montes",
+       "¿Indicación, no estadio? …Eso no venía en mi tarjeta."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "AKS-1",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: FENa baja con necrosis tubular"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -893,7 +889,7 @@
    ],
    "gates": [
     {
-     "after": "t2_0",
+     "after": "t2_1",
      "topic": "Momento de inicio de la terapia de reemplazo renal",
      "text": [
       [
@@ -1041,7 +1037,8 @@
     "questions": [
      "LRA-1",
      "LRA-2",
-     "LRA-3"
+     "LRA-3",
+     "LRA-4"
     ]
    },
    {
@@ -1057,9 +1054,9 @@
      "Líquidos y diuréticos"
     ],
     "questions": [
-     "LRA-4",
      "CRT-1",
-     "CRT-2"
+     "CRT-2",
+     "CRT-3"
     ]
    },
    {
@@ -1075,9 +1072,9 @@
      "Situaciones especiales"
     ],
     "questions": [
-     "CRT-3",
      "CRT-4",
-     "SHK-3"
+     "SHK-1",
+     "SHK-2"
     ]
    },
    {
@@ -1093,6 +1090,7 @@
      "Terapia de reemplazo"
     ],
     "questions": [
+     "SHK-3",
      "SHK-4",
      "SHK-5"
     ]

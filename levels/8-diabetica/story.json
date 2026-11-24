@@ -224,7 +224,7 @@
      "id": "t0_0",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "DMH",
+     "serie": "PRG",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -238,27 +238,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     },
     {
      "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
-     "serie": "NEW-8-1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "AZ6-2",
      "intro": [
       [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
       ],
       [
-       "Dra. Carmen Triaje",
-       "Mi caso: Indicaciones de biopsia en el paciente diabético"
+       "Dra. Sístole Ruiz",
+       "Mi caso: Enfermedad renal diabética"
       ]
      ],
      "defeat": [
       [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
       ]
      ],
      "questionTopics": [],
@@ -266,23 +266,23 @@
     },
     {
      "id": "t0_2",
-     "cast": "endo",
-     "specialty": "Endocrinología",
-     "serie": "AZ6-2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "NDJ-6",
      "intro": [
       [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
       ],
       [
-       "Dr. Tiro Glándula",
-       "Mi caso: Enfermedad renal diabética"
+       "Dr. Rocco Filo",
+       "Mi caso: Ensayos de control glucémico"
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -453,7 +453,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "PRG",
+     "serie": "NDJ-9",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -467,27 +467,27 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 1
     },
     {
      "id": "t1_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
-     "serie": "NDJ-9",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "AZ6-3",
      "intro": [
       [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
       ],
       [
-       "Dra. Sístole Ruiz",
-       "Mi caso: Elevación de creatinina con SRAA"
+       "Dr. Tiro Glándula",
+       "Mi caso: Enfermedad renal diabética"
       ]
      ],
      "defeat": [
       [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
       ]
      ],
      "questionTopics": [],
@@ -495,23 +495,23 @@
     },
     {
      "id": "t1_2",
-     "cast": "infecto",
-     "specialty": "Infectología",
-     "serie": "AZ6-3",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "NDJ-7",
      "intro": [
       [
-       "Dr. Félix Cultivo",
-       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
       ],
       [
-       "Dr. Félix Cultivo",
-       "Mi caso: Enfermedad renal diabética"
+       "Dr. Anselmo Frágil",
+       "Mi caso: SRAA en normoalbuminuria"
       ]
      ],
      "defeat": [
       [
-       "Dr. Félix Cultivo",
-       "Ajustar la dosis también cura. Lo anoto."
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
       ]
      ],
      "questionTopics": [],
@@ -625,12 +625,206 @@
      "lines": [
       [
        "Dr. J.",
-       "ACR en 300 con tres pilares. Falta enfrentar al Glucotóxico."
+       "ACR en 300 con tres pilares. Pero la clínica de enfrente la llamó."
       ]
      ]
     }
    ],
    "card": "Pilares: iSRAA + iSGLT2 (TFGe ≥20) + finerenona (albuminuria, K normal) + GLP-1 (FLOW). Metformina: suspender con TFGe <30."
+  },
+  {
+   "id": "z3",
+   "name": "Clínica de Enfrente",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "diabetes_kw",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Giro: la clínica de Hemo-Eterna le suspendió la gliflozina «por la creatinina»."
+    ],
+    [
+     "Sabio Brenn",
+     "Y trae hematuria dismórfica sin retinopatía. ¿Todo es diabetes?"
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Folleto de Hemo-Eterna",
+     "lines": [
+      [
+       "Folleto de Hemo-Eterna",
+       "«Diálisis preventiva: antes de que la necesite». Eso no existe."
+      ],
+      [
+       "Folleto de Hemo-Eterna",
+       "La gliflozina se mantiene hasta la diálisis o el trasplante."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "iSGLT2 hasta diálisis"
+    },
+    {
+     "id": "npc2",
+     "name": "Retina Limpia",
+     "lines": [
+      [
+       "Retina Limpia",
+       "DM2 con proteinuria y sin retinopatía: piensa en otra causa."
+      ],
+      [
+       "Retina Limpia",
+       "También si hay hematuria activa, caída rápida de TFG o nefrótico súbito."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "biopsia en diabetes"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Antidiabéticos por TFG",
+     "iSGLT2 desde TFGe 20; metformina no con TFGe <30; GLP-1 sin ajuste renal."
+    ],
+    [
+     "Letrero · Biopsia",
+     "Sin retinopatía, hematuria activa o caída rápida: biopsia renal."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "hemo",
+     "specialty": "Villano corporativo",
+     "serie": "NEW-8-1",
+     "intro": [
+      [
+       "Director de Hemo-Eterna",
+       "Gliflozina fuera: subió la creatinina. ¡Firme aquí su diálisis!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Director de Hemo-Eterna",
+       "Caída inicial esperada… y nada de diálisis preventiva. Rayos."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "NDJ-2",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Histología diabética y función"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "NDJ-8",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Ensayos con ARA II en DM2"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Folleto Engañoso",
+     "type": "Molecular",
+     "topic": "Folleto Engañoso"
+    },
+    {
+     "name": "Hematuria Dismórfica",
+     "type": "Celular",
+     "topic": "Hematuria Dismórfica"
+    },
+    {
+     "name": "Hipoglucemia",
+     "type": "Molecular",
+     "topic": "Hipoglucemia"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Indicaciones de biopsia en diabetes y antidiabéticos por TFG",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: no toda proteinuria en un diabético es diabética."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "¿Biopsiar al diabético?",
+     "items": [
+      "Proteinuria o caída de TFG en un diabético",
+      "¿Tiene retinopatía?",
+      "¿Hay sedimento activo o hematuria?",
+      "¿Caída rápida o nefrótico súbito?",
+      "Con datos de alarma: biopsia renal",
+      "Sin alarma: sumar los pilares"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Biopsia: diabética con IgA encima. Reinicia la gliflozina y ve por él."
+      ]
+     ]
+    }
+   ],
+   "card": "Biopsia en diabetes si no hay retinopatía, hay hematuria activa, caída rápida o nefrótico súbito. iSGLT2 desde TFGe 20 hasta diálisis; metformina se suspende con TFGe <30."
   }
  ],
  "boss": {
@@ -658,6 +852,10 @@
    [
     "Sabio Brenn",
     "Cada pilar compra años. Juntos compran décadas."
+   ],
+   [
+    "Paciente",
+    "¿Cuatro pastillas en vez de la clínica de enfrente? Me quedo."
    ]
   ],
   "phases": [
@@ -675,7 +873,8 @@
     ],
     "questions": [
      "DMN-1",
-     "DMN-2"
+     "DMN-2",
+     "DMN-3"
     ]
    },
    {
@@ -691,8 +890,9 @@
      "Pilares"
     ],
     "questions": [
-     "DMN-3",
-     "DMN-4"
+     "DMN-4",
+     "DMH-1",
+     "DMH-2"
     ]
    },
    {
@@ -708,6 +908,7 @@
      "Antidiabéticos por TFG"
     ],
     "questions": [
+     "DMH-3",
      "DMS-1",
      "DMS-2"
     ]
@@ -768,6 +969,14 @@
    "text": "Con iSGLT2 e iSRAA es hemodinámica; hasta 30 % se tolera."
   },
   {
+   "title": "💎 Enfermedad por depósito de cadenas liger",
+   "text": "LCDD: IF lineal monotípica (κ) en GBM y TBM + depósitos 'polvosos' en ME + nódulos PAS(+). Buscar clona (CLL, IFE, médula)."
+  },
+  {
+   "title": "💎 Amiloidosis AL vs glomerulonefritis fibr",
+   "text": "Fibrilar: 12–24 nm, Congo (–), DNAJB9 (+). Amiloide: 8–12 nm, Congo (+), verde manzana. Inmunotactoide: >30 nm."
+  },
+  {
    "title": "💎 Indicaciones de biopsia en el paciente d",
    "text": "Biopsia en DM si: sin retinopatía, DM <5 años, proteinuria súbita o nefrótica, hematuria glomerular, caída rápida de TFG, síntomas sistémicos."
   },
@@ -790,14 +999,6 @@
   {
    "title": "💎 Enfermedad renal diabética",
    "text": "La proteinuria en aumento rápido o el síndrome nefrótico es un criterio que sugiere otra causa de daño renal y justifica la biopsia (Am Fam Physician 2019)."
-  },
-  {
-   "title": "💎 Enfermedad renal diabética",
-   "text": "La GEFyS variedad de la punta es una podocitopatía que suele responder a esteroides; con 15% de fibrosis hay poca cronicidad y potencial de reversibilidad. La evolución confirmó la respuesta: la albuminuria cayó de 10.3 a 0.17 g/día en 3 meses con función renal estable."
-  },
-  {
-   "title": "💎 Histología diabética y función",
-   "text": "MBG normal 270–359 nm; puede triplicarse a los 10 años de diabetes. Lesiones difusas en 90% de DM1 >10 años y 25–50% de DM2. En DM2 la estructura es heterogénea."
   }
  ]
 }

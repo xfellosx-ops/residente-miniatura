@@ -1158,5 +1158,123 @@
   ],
   "tema": "Enfermedades tóxicas del riñón",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "VAN-1",
+  "serie_id": "VAN",
+  "orden": 1,
+  "sub": "4.g",
+  "subtema": "Vancomicina en hemodiálisis: dosis y niveles",
+  "dificultad": "moderada",
+  "caso": "Mujer de 61 años en hemodiálisis crónica con catéter tunelizado, con fiebre de 39 °C y escalofríos durante la sesión. Hemocultivos de catéter y periférico positivos para Staphylococcus aureus resistente a meticilina. Pesa 70 kg y se usa dializador de alto flujo.",
+  "enunciado": "¿Cuál es el esquema de vancomicina más apropiado?",
+  "opciones": {
+   "A": "Dosis única de 1 g semanal con valle menor de 5 mg/L, que es suficiente para tratar la bacteriemia por SARM",
+   "B": "500 mg cada 12 horas sin relación con la diálisis, ajustando según la diuresis residual del paciente",
+   "C": "No se necesita dosis de carga en pacientes en diálisis, porque el volumen de distribución está reducido",
+   "D": "Dosis de carga de 20-25 mg/kg y mantenimiento de 500 mg a 1 g tras cada sesión, con valle prediálisis de 15 a 20 mg/L",
+   "E": "Vancomicina en dosis fija diaria de 2 g, sin medir niveles séricos y sin relación con la hemodiálisis"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El valle de 5 mg/L es insuficiente para bacteriemia por SARM.",
+   "B": "Una pauta cada 12 horas acumula el fármaco en ausencia de función renal.",
+   "C": "La carga es necesaria para alcanzar con rapidez concentraciones terapéuticas.",
+   "D": "En hemodiálisis con membranas de alto flujo, la vancomicina se elimina parcialmente en la sesión, por lo que se da una carga de 20 a 25 mg/kg y se repone después de cada sesión (500 mg a 1 g, o 5 a 10 mg/kg), guiando la dosis por el valle prediálisis (15 a 20 mg/L para infecciones invasivas por SARM). En el caso de bacteriemia por catéter, además se retira el catéter si es posible; la duración y el control dependen de las complicaciones (endocarditis, discitis).",
+   "E": "2 g diarios producen concentraciones tóxicas en un paciente anúrico."
+  },
+  "perla": "Vancomicina en HD: carga 20–25 mg/kg, mantenimiento 500 mg–1 g post-HD, valle prediálisis 15–20 mg/L.",
+  "referencias": [
+   "Liu C et al. Clin Infect Dis 2011;52:e18",
+   "Mermel LA et al. Clin Infect Dis 2009;49:1"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "corregida",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "continuacion": "",
+  "obj": "4.o7",
+  "peso": 60.1
+ },
+ {
+  "id": "VAN-2",
+  "serie_id": "VAN",
+  "orden": 2,
+  "sub": "4.g",
+  "subtema": "Vancomicina fuera de diálisis: AUC y nefrotoxicidad",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un paciente sin ERC previa, de 58 años, con neumonía por SARM en la UCI, recibe vancomicina guiada por valle (objetivo 15 a 20 mg/L) y cursa con creatinina que sube de 0.9 a 1.8 mg/dL al tercer día, con valle de 24 mg/L.",
+  "enunciado": "¿Qué estrategia de monitorización recomienda el consenso actual para reducir la nefrotoxicidad?",
+  "opciones": {
+   "A": "Evitar toda monitorización de niveles del fármaco, porque el riesgo de nefrotoxicidad no depende de la exposición a la vancomicina",
+   "B": "Dosificar guiándose por el cociente AUC/CIM de 400-600 mg·h/L (modelos bayesianos), en lugar de valles de 15-20 mg/L",
+   "C": "Mantener valles de 25 a 30 mg/L para lograr mayor eficacia, aunque aumente el riesgo de lesión renal aguda en el paciente",
+   "D": "Añadir piperacilina-tazobactam para proteger el riñón, porque reduce la toxicidad tubular de la vancomicina en la UCI",
+   "E": "Dar vancomicina en infusión rápida en bolo, porque mejora la penetración tisular y reduce la nefrotoxicidad del fármaco"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Prescindir de los niveles ignora el riesgo de toxicidad y de infradosificación.",
+   "B": "El consenso de ASHP, IDSA, PIDS y SIDP (2020) recomienda abandonar los valles de 15 a 20 mg/L en infecciones graves por SARM y orientar la dosis por el AUC24/CIM de 400 a 600 mg·h/L (con CIM de 1 mg/L), idealmente con estimación bayesiana. Esta estrategia logra eficacia similar con menos nefrotoxicidad, porque los valles altos se asocian a lesión renal sin mayor eficacia. En diálisis intermitente, los valles prediálisis de 15 a 20 mg/L siguen siendo la práctica común.",
+   "C": "Valles elevados aumentan la nefrotoxicidad sin ventajas de eficacia.",
+   "D": "La combinación con piperacilina-tazobactam se asocia a más lesión renal aguda que con otros betalactámicos.",
+   "E": "La infusión rápida causa reacciones infusionales y no mejora la eficacia."
+  },
+  "perla": "Vancomicina SARM grave: guiar por AUC/CIM 400–600 (bayesiano) en vez de valle 15–20. En HD se usa el valle prediálisis.",
+  "referencias": [
+   "Rybak MJ et al. Am J Health Syst Pharm 2020;77:835",
+   "Luther MK et al. Crit Care Med 2018;46:12"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o7",
+  "peso": 50.0
+ },
+ {
+  "id": "CNT-4",
+  "serie_id": "CNT",
+  "orden": 4,
+  "sub": "15.d",
+  "subtema": "Enfermedad ateroembólica renal: diferenciación",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis semanas después de la coronariografía, el paciente regresa con creatinina de 4.1 mg/dL (tras mejorar), livedo reticularis en piernas, dedos de los pies violáceos con pulsos presentes, eosinofilia de 9%, C3 bajo y proteinuria de 0.8 g/g.",
+  "enunciado": "¿Cuál es el diagnóstico y el manejo?",
+  "opciones": {
+   "A": "Ateroembolia de colesterol tras cateterismo: estatina, control de TA, evitar anticoagulación y nuevos procedimientos",
+   "B": "Vasculitis ANCA; ciclofosfamida de inmediato, porque la eosinofilia y el livedo reticularis indican vasculitis sistémica de vasos pequeños",
+   "C": "Pielonefritis aguda; antibiótico intravenoso, porque la elevación de la creatinina tras el cateterismo indica infección",
+   "D": "Trombosis de la arteria renal; trombólisis, porque el livedo y los dedos violáceos indican oclusión arterial aguda",
+   "E": "Nefropatía por contraste tardía; solución salina, porque la creatinina sube seis semanas después del medio de contraste"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La enfermedad ateroembólica renal ocurre por microémbolos de colesterol tras manipulación arterial (cateterismo, cirugía vascular) o anticoagulación, en pacientes con aterosclerosis grave. A diferencia de la lesión por contraste (pico en 3 a 5 días), se presenta de forma subaguda en semanas, con livedo reticularis, 'dedos azules' con pulsos conservados, eosinofilia, eosinofiluria, hipocomplementemia, elevación de VSG y proteinuria leve. El diagnóstico es clínico o por biopsia (hendiduras biconvexas en arteriolas). No hay tratamiento específico: se retiran fuentes de embolia, se evita la anticoagulación, se inicia estatina, se controla la TA y se da soporte renal; el pronóstico es reservado.",
+   "B": "La ANCA mostraría hematuria glomerular y títulos positivos; la inmunosupresión no está indicada.",
+   "C": "No hay fiebre ni leucocituria.",
+   "D": "La trombosis de la arteria renal causa dolor, LDH alta y oliguria agudos.",
+   "E": "La nefropatía por contraste alcanza su pico a los 3 a 5 días y no cursa con livedo ni eosinofilia."
+  },
+  "perla": "Ateroembolia: semanas tras cateterismo, livedo, dedos azules, eosinofilia, C3↓. Sin tratamiento específico (estatina, evitar anticoagulación).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedad ateroembólica)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o2",
+  "peso": 18.6
  }
 ]

@@ -223,7 +223,7 @@
      "id": "t0_0",
      "cast": "pedia",
      "specialty": "Pediatría",
-     "serie": "FSGS",
+     "serie": "FSA",
      "intro": [
       [
        "Dra. Pilar Percentil",
@@ -237,51 +237,51 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
-     "serie": "MCD",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "AZ11-1",
      "intro": [
       [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
       ],
       [
-       "Dra. Carmen Triaje",
-       "Mi caso: Enfermedad de cambios mínimos del adulto"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
-      ]
-     ],
-     "questionTopics": [],
-     "n": 3
-    },
-    {
-     "id": "t0_2",
-     "cast": "endo",
-     "specialty": "Endocrinología",
-     "serie": "AZ11-3",
-     "intro": [
-      [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
-      ],
-      [
-       "Dr. Tiro Glándula",
+       "Dra. Sístole Ruiz",
        "Mi caso: Podocitopatías"
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "AZ11-4",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Podocitopatías"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
       ]
      ],
      "questionTopics": [],
@@ -431,7 +431,7 @@
      "id": "t1_0",
      "cast": "mi",
      "specialty": "Medicina Interna",
-     "serie": "NEE",
+     "serie": "COL",
      "intro": [
       [
        "Dr. Ernesto Holístico",
@@ -445,51 +445,47 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t1_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
-     "serie": "AZ11-1",
+     "cast": "tacro",
+     "specialty": "Nefrotóxico",
+     "serie": "MCD",
      "intro": [
       [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
-      ],
-      [
-       "Dra. Sístole Ruiz",
-       "Mi caso: Podocitopatías"
+       "Calcineurínico",
+       "Soy Calcineurínico. Remito tu GEFS… y te cierro la aferente."
       ]
      ],
      "defeat": [
       [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
+       "Calcineurínico",
+       "Niveles valle y creatinina. Me tienes vigilado."
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t1_2",
-     "cast": "infecto",
-     "specialty": "Infectología",
-     "serie": "AZ11-4",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "AZ11-3",
      "intro": [
       [
-       "Dr. Félix Cultivo",
-       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
       ],
       [
-       "Dr. Félix Cultivo",
+       "Dr. Tiro Glándula",
        "Mi caso: Podocitopatías"
       ]
      ],
      "defeat": [
       [
-       "Dr. Félix Cultivo",
-       "Ajustar la dosis también cura. Lo anoto."
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
       ]
      ],
      "questionTopics": [],
@@ -520,7 +516,7 @@
    ],
    "gates": [
     {
-     "after": "t1_0",
+     "after": "t1_1",
      "topic": "GEFS: distinguir primaria, secundaria y genética",
      "text": [
       [
@@ -584,6 +580,10 @@
    [
     "Sabio Brenn",
     "No toda proteinuria quiere inmunosupresión. Algunas quieren menos presión."
+   ],
+   [
+    "Paciente",
+    "Se me bajó la hinchazón. Si recae, ya sé a quién buscar."
    ]
   ],
   "phases": [
@@ -600,8 +600,8 @@
      "ECM vs. GEFS"
     ],
     "questions": [
-     "FSA-1",
-     "FSA-2"
+     "NEE-1",
+     "NEE-2"
     ]
    },
    {
@@ -617,8 +617,8 @@
      "Esteroide"
     ],
     "questions": [
-     "FSA-3",
-     "FSA-4"
+     "NEE-3",
+     "NEE-4"
     ]
    },
    {
@@ -634,8 +634,8 @@
      "Ahorradores"
     ],
     "questions": [
-     "COL-1",
-     "COL-2"
+     "FSGS-1",
+     "FSGS-2"
     ]
    },
    {
@@ -651,8 +651,8 @@
      "Secundaria y genética"
     ],
     "questions": [
-     "COL-3",
-     "COL-4"
+     "FSGS-3",
+     "FSGS-4"
     ]
    }
   ]
@@ -668,6 +668,10 @@
   {
    "title": "Ruinas Segmentarias",
    "text": "GEFS primaria: nefrótico + borramiento difuso → esteroide; resistencia → anticalcineurínico. Secundaria: iSRAA/iSGLT2. Genética: no inmunosuprimir."
+  },
+  {
+   "title": "💎 Preeclampsia sobreañadida vs brote de en",
+   "text": "sFlt-1/PlGF ≤38 excluye preeclampsia a corto plazo; ≥85 (<34 SDG) la apoya. Útil para distinguirla de un brote glomerular."
   },
   {
    "title": "💎 GEFS: primaria vs secundaria",
@@ -696,10 +700,6 @@
   {
    "title": "💎 GEFS en el embarazo: tratamiento",
    "text": "GEFS en embarazo: prednisona + labetalol/nifedipino + ASA baja; no IECA/ARA-II, MMF ni ciclofosfamida; tromboprofilaxis si albúmina <2.5 g/dL."
-  },
-  {
-   "title": "💎 Enfermedad de cambios mínimos del adulto",
-   "text": "MCD: causa >80% del SN pediátrico y 10–25% del adulto. Adulto: biopsia siempre. Asociaciones: AINE, litio, Hodgkin, atopia. ME: borramiento podocitario difuso, IF neg."
   }
  ]
 }

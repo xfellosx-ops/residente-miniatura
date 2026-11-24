@@ -1385,5 +1385,122 @@
   "clave": "D",
   "tema": "Cáncer y riñón (onconefrología)",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "IMG-1",
+  "serie_id": "IMG",
+  "orden": 1,
+  "sub": "5.c",
+  "subtema": "Lesión quística compleja con ERC avanzada: ecografía con contraste",
+  "dificultad": "moderada",
+  "caso": "Hombre de 71 años con ERC G4 (TFGe 22 mL/min/1.73 m²), hipertensión y antecedente de anafilaxia con contraste yodado. Una ecografía de abdomen muestra una lesión quística compleja de 4 cm en el riñón derecho, con septos gruesos de aspecto irregular. Nunca ha tenido hematuria ni dolor.",
+  "enunciado": "¿Qué estudio de imagen es el más adecuado para caracterizar la lesión sin riesgo nefrotóxico ni alérgico?",
+  "opciones": {
+   "A": "Repetir la ecografía sin contraste, con sensibilidad de 56% y especificidad de 71% para lesiones complejas",
+   "B": "Tomografía con contraste yodado a pesar del antecedente alérgico, por ser la referencia diagnóstica en lesiones quísticas",
+   "C": "Urografía excretora, que evalúa la vía urinaria pero no permite caracterizar bien las lesiones quísticas complejas del riñón",
+   "D": "Gammagrafía renal con DMSA, que valora la función cortical diferencial y las cicatrices, no la naturaleza de la lesión",
+   "E": "Ecografía con contraste (microburbujas), con sensibilidad cercana a 95% y especificidad de 79%, sin nefrotoxicidad"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La ecografía sin contraste tiene rendimiento diagnóstico limitado para lesiones complejas.",
+   "B": "El antecedente de anafilaxia y la TFG de 22 contraindican el contraste yodado.",
+   "C": "La urografía excretora usa contraste yodado y no caracteriza lesiones quísticas.",
+   "D": "La DMSA estudia función cortical y cicatrices, no la naturaleza de una lesión quística.",
+   "E": "La ecografía con contraste usa microburbujas que no son nefrotóxicas ni se eliminan por el riñón, y es la alternativa cuando el contraste yodado está contraindicado, por el antecedente alérgico y la TFG baja. Tiene una sensibilidad aproximada de 95% y especificidad de 79% para caracterizar lesiones quísticas complejas, muy superior a la ecografía convencional (56% y 71%). La tomografía con contraste es la técnica de referencia, con sensibilidad cercana a 90% y especificidad de 85%, pero aquí está contraindicada."
+  },
+  "perla": "Quiste complejo + contraste yodado contraindicado: ecografía con contraste (S 95%, E 79%). TC con contraste = referencia (S 90%, E 85%).",
+  "referencias": [
+   "Silverman SG et al. Radiology 2019;292:475",
+   "Comprehensive Clinical Nephrology (imagen renal)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 5,
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "continuacion": "",
+  "obj": "5.o3",
+  "peso": 69.3
+ },
+ {
+  "id": "IMG-2",
+  "serie_id": "IMG",
+  "orden": 2,
+  "sub": "5.c",
+  "subtema": "Resonancia magnética y gadolinio en ERC",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La ecografía con contraste muestra realce de septos gruesos y un nódulo mural. El radiólogo propone una resonancia magnética para completar el estudio y el residente afirma que, 'en caso de contraindicación al contraste, la resonancia siempre es preferible a la tomografía'.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "Falsa: la resonancia con contraste no puede usarse en ERC bajo ninguna circunstancia por el riesgo de fibrosis sistémica",
+   "B": "Verdadera: la resonancia es siempre superior a la tomografía en las lesiones quísticas complejas de riñón",
+   "C": "Verdadera: el gadolinio no tiene riesgo alguno en la ERC, por lo que se usa sin restricciones",
+   "D": "Verdadera: los agentes lineales del grupo I son los preferidos en ERC avanzada por su estabilidad química y menor liberación",
+   "E": "Falsa: con TFG <30 hay riesgo de fibrosis sistémica nefrogénica, aunque los agentes del grupo II tienen riesgo muy bajo"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La resonancia con agentes del grupo II puede usarse cuando es necesaria.",
+   "B": "La tomografía con contraste sigue siendo la técnica de referencia para lesiones quísticas.",
+   "C": "El gadolinio no es inocuo en ERC avanzada por el riesgo de NSF.",
+   "D": "Los agentes lineales del grupo I tienen el mayor riesgo de NSF y no se recomiendan.",
+   "E": "El gadolinio puede causar fibrosis sistémica nefrogénica (NSF) en pacientes con TFG menor de 30 mL/min/1.73 m², sobre todo con agentes lineales del grupo I (que están contraindicados). Los agentes macrocíclicos del grupo II tienen un riesgo tan bajo que el Colegio Americano de Radiología permite usarlos en TFG menor de 30 si el estudio es necesario, tras valorar el beneficio. Por ello es falso que la resonancia sea siempre preferible: cada técnica se escoge según riesgo, disponibilidad y rendimiento (resonancia con sensibilidad de 87.5% y especificidad de 89% en lesiones quísticas, inferior a la tomografía con contraste como referencia)."
+  },
+  "perla": "Gadolinio: NSF si TFG <30, sobre todo grupo I lineal. Grupo II macrocíclico: riesgo muy bajo, usar si es necesario. RM ≠ siempre preferible a TC.",
+  "referencias": [
+   "ACR Manual on Contrast Media 2023",
+   "Silverman SG et al. Radiology 2019;292:475"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 5,
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "obj": "5.o3",
+  "peso": 71.3
+ },
+ {
+  "id": "ICI-2",
+  "serie_id": "ICI",
+  "orden": 2,
+  "sub": "10.a",
+  "subtema": "Nefritis por inhibidores de puntos de control: confirmación diagnóstica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se descartan obstrucción, hipovolemia, infección y otros fármacos. El oncólogo desea reiniciar el fármaco lo antes posible y pregunta si es necesaria la biopsia.",
+  "enunciado": "¿Cuál es la conducta recomendada?",
+  "opciones": {
+   "A": "Iniciar diálisis crónica de inmediato, porque la lesión renal por inhibidores de punto de control es irreversible",
+   "B": "Suspender el inhibidor y el IBP, y confirmar con biopsia si es posible, pues define tratamiento y reinicio",
+   "C": "Continuar el inhibidor sin cambios, porque la nefritis por inhibidores de punto de control remite de forma espontánea",
+   "D": "Esperar seis meses sin intervención alguna, porque la función renal suele recuperarse sin tratamiento específico",
+   "E": "Administrar antibióticos de amplio espectro, por la sospecha de una infección urinaria oculta en el paciente oncológico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay indicación de diálisis crónica en una lesión potencialmente reversible.",
+   "B": "Ante sospecha de nefritis inmune por inhibidores de punto de control, se suspende el fármaco y se retiran los coadyuvantes que facilitan la nefritis (IBP, AINE, antibióticos). La biopsia renal permite confirmar el infiltrado intersticial de linfocitos T (a veces con granulomas), distinguir otras lesiones (necrosis tubular, microangiopatía, glomerulopatía) y orientar la inmunosupresión. En algunos pacientes con alta probabilidad y riesgo de la biopsia se trata de forma empírica. La decisión de reiniciar el inhibidor depende de la gravedad, la respuesta al tratamiento y el beneficio oncológico.",
+   "C": "Continuar el fármaco expone a daño renal progresivo.",
+   "D": "Esperar sin intervención retrasa el tratamiento.",
+   "E": "No hay infección: los antibióticos no resuelven una nefritis inmune."
+  },
+  "perla": "ICI-AIN: suspender ICI y IBP; biopsia si posible (infiltrado T ± granulomas); tratamiento guiado por grado.",
+  "referencias": [
+   "Cortazar FB et al. J Am Soc Nephrol 2020;31:435",
+   "Perazella MA, Shirali AC. J Am Soc Nephrol 2018;29:2039"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 10,
+  "tema": "Enfermedades túbulo-intersticiales",
+  "obj": "10.o1",
+  "peso": 44.7
  }
 ]

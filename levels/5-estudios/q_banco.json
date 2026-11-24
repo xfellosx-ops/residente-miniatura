@@ -3639,5 +3639,238 @@
   ],
   "tema": "Estudios diagnósticos de enfermedad renal",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "IMG-3",
+  "serie_id": "IMG",
+  "orden": 3,
+  "sub": "26.a",
+  "subtema": "Clasificación de Bosniak: riesgo de malignidad",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Los hallazgos (septos gruesos con realce) corresponden a una lesión quística Bosniak III.",
+  "enunciado": "¿Cuál es el riesgo aproximado de malignidad y la conducta?",
+  "opciones": {
+   "A": "Entre 10 y 20%; control anual solamente, porque el riesgo de progresión a carcinoma es bajo en este tipo de lesión quística",
+   "B": "Menos de 1%; no requiere seguimiento, porque las lesiones con septos engrosados y realce son siempre benignas",
+   "C": "Alrededor de 50%; evaluación urológica con cirugía o ablación, o vigilancia activa si el riesgo quirúrgico es alto",
+   "D": "0%; es benigna, y solo se interviene si crece de forma documentada en estudios de imagen subsecuentes a lo largo de años",
+   "E": "Casi 100%; nefrectomía radical obligatoria sin otros estudios, porque los septos engrosados con realce son diagnósticos de cáncer"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Una cifra de 10 a 20% no corresponde a ninguna categoría, y no se recomienda solo el control anual.",
+   "B": "Menos de 1% corresponde a Bosniak I.",
+   "C": "En la clasificación de Bosniak, las lesiones I y II son benignas (riesgo menor de 1 a 5%) y no requieren seguimiento; la IIF requiere vigilancia; la III (septos gruesos o irregulares con realce, o paredes engrosadas) tiene un riesgo de cáncer de aproximadamente 50%, y la IV (nódulo mural con realce) cercano a 90 a 100%. Para Bosniak III se recomienda tratamiento (nefrectomía parcial o ablación) o vigilancia activa en pacientes con comorbilidad que eleven el riesgo quirúrgico, como este paciente con ERC G4.",
+   "D": "Ninguna lesión Bosniak III tiene 0% de riesgo.",
+   "E": "Bosniak IV se acerca al 90% a 100%, pero no justifica omitir estudios y decisiones individualizadas."
+  },
+  "perla": "Bosniak I/II benignas; IIF vigilancia; III ≈50% malignidad; IV ≈90% (nódulo mural con realce).",
+  "referencias": [
+   "Silverman SG et al. Radiology 2019;292:475",
+   "Comprehensive Clinical Nephrology (neoplasias renales)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o1",
+  "peso": 36.1
+ },
+ {
+  "id": "IMG-4",
+  "serie_id": "IMG",
+  "orden": 4,
+  "sub": "26.a",
+  "subtema": "Carcinoma renal de células claras: diseminación y factores de riesgo",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La nefrectomía parcial confirma carcinoma de células renales de células claras pT1b. El paciente pregunta por el riesgo de metástasis y por qué tuvo el tumor.",
+  "enunciado": "¿Qué afirmación es correcta sobre la diseminación y los factores de riesgo?",
+  "opciones": {
+   "A": "Es el subtipo más frecuente, invade vena renal y cava, y metastatiza a pulmón y hueso; la ERC con TRR es factor de riesgo",
+   "B": "Se disemina únicamente por contigüidad, sin metástasis a distancia, por lo que la nefrectomía parcial siempre es curativa en estos casos",
+   "C": "La ERC protege contra el cáncer renal, porque la atrofia renal impide la proliferación del epitelio tubular",
+   "D": "Es raro, se disemina solo por vía linfática y afecta sobre todo a mujeres jóvenes sin enfermedad renal previa ni tabaquismo",
+   "E": "Es el subtipo papilar, que no invade venas y casi nunca produce metástasis, por lo que no requiere vigilancia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El carcinoma de células renales de células claras es el subtipo más frecuente, predomina en hombres (relación de 1.5:1) y alcanza su máximo entre los 60 y 70 años. Se disemina por vía hematógena y linfática, con tendencia a invadir el sistema venoso (vena renal y cava inferior), y las metástasis son más comunes en pulmón y hueso. Los factores de riesgo incluyen tabaquismo, obesidad, hipertensión, enfermedad renal quística adquirida y la ERC terminal con terapia de reemplazo renal. En personas jóvenes se debe pensar en síndromes hereditarios (von Hippel-Lindau) y solicitar estudio genético.",
+   "B": "El carcinoma renal produce metástasis a distancia.",
+   "C": "La ERC con diálisis aumenta el riesgo de cáncer renal.",
+   "D": "La diseminación no es solo linfática ni afecta predominantemente a mujeres jóvenes.",
+   "E": "El subtipo papilar es menos frecuente, y el de células claras invade venas."
+  },
+  "perla": "CCR de células claras: más frecuente, invade vena renal/cava, metástasis a pulmón y hueso. Factor de riesgo: ERC con TRR. Joven → test genético.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (neoplasias renales)",
+   "Silverman SG et al. Radiology 2019;292:475"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 26,
+  "tema": "Cáncer y riñón (onconefrología)",
+  "obj": "26.o1",
+  "peso": 34.1
+ },
+ {
+  "id": "IM2-2",
+  "serie_id": "IM2",
+  "orden": 2,
+  "sub": "23.b",
+  "subtema": "Displasia fibromuscular: hallazgo angiográfico y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El dúplex mostró velocidad pico sistólica de 290 cm/s en la arteria renal derecha. La angiografía revela estenosis múltiples con aspecto de 'collar de cuentas' en el segmento medio y distal de la arteria.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento de elección?",
+  "opciones": {
+   "A": "Poliarteritis nodosa; el tratamiento de elección es únicamente ciclofosfamida, por la afectación segmentaria",
+   "B": "Arteritis de Takayasu; trasplante renal, porque la estenosis de la arteria renal es bilateral y progresiva",
+   "C": "Displasia fibromuscular (fibroplasia de la media); angioplastia con balón sin stent y antihipertensivos con IECA o ARA-II",
+   "D": "Aterosclerosis de la arteria renal; stent obligatorio en todos los casos, por la hipertensión resistente y la estenosis múltiple",
+   "E": "Trombosis de la arteria renal; trombólisis, por la elevación de la velocidad pico sistólica y la hipertensión"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La poliarteritis nodosa se manifiesta con microaneurismas en arterias de mediano calibre.",
+   "B": "Takayasu afecta la aorta y sus ramas con inflamación, y no produce esta imagen en una paciente con ese patrón.",
+   "C": "La displasia fibromuscular, más frecuente en mujeres jóvenes, afecta típicamente los segmentos medio y distal de la arteria renal y produce en la angiografía el patrón de 'collar de cuentas' (fibroplasia de la media). Es una causa curable de hipertensión renovascular: la angioplastia con balón sin stent logra curación o mejoría de la TA en la mayoría, y el stent se reserva para disecciones o resultados subóptimos. El tratamiento médico utiliza IECA/ARA-II con vigilancia de la función renal. En contraste, la aterosclerosis afecta el ostium de la arteria y en el estudio CORAL el stent no mejoró los desenlaces sobre el tratamiento médico.",
+   "D": "La aterosclerosis afecta el segmento proximal y ostial, y el stent no mejora desenlaces sobre el tratamiento médico (CORAL).",
+   "E": "No hay datos de oclusión aguda."
+  },
+  "perla": "DFM: 'collar de cuentas' medio-distal en mujer joven → angioplastia sin stent. Aterosclerosis ostial: tratamiento médico (CORAL).",
+  "referencias": [
+   "Gornik HL et al. Vasc Med 2019;24:164",
+   "Cooper CJ et al. N Engl J Med 2014;370:13"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 23,
+  "tema": "Hipertensión arterial",
+  "obj": "23.o2",
+  "peso": 36.4
+ },
+ {
+  "id": "PRT-3",
+  "serie_id": "PRT",
+  "orden": 3,
+  "sub": "9.d.6",
+  "subtema": "Nefropatía por cilindros: biopsia y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Resultados: cadenas ligeras libres séricas κ de 3,400 mg/L, cociente κ/λ mayor de 100, inmunofijación con proteína monoclonal κ y plasmocitos de 45% en médula ósea. Sin proteinuria albuminúrica.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Tratar como glomerulonefritis membranoproliferativa, con inmunosupresión dirigida a los depósitos de complemento",
+   "B": "Nefropatía por cilindros: iniciar bortezomib y dexametasona de inmediato, con hidratación y sin nefrotóxicos, sin esperar la biopsia",
+   "C": "Iniciar corticoides en monoterapia y esperar el resultado de la biopsia renal durante 4 semanas antes de decidir si se agrega quimioterapia",
+   "D": "Diálisis crónica sin tratamiento antimieloma, porque el daño renal por cilindros ya es irreversible",
+   "E": "Solo suspender nefrotóxicos y observar la evolución de la creatinina durante varias semanas, sin quimioterapia"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay patrón de glomerulonefritis; el daño es tubular por cilindros.",
+   "B": "La nefropatía por cilindros es una urgencia hematológica y nefrológica: la recuperación renal depende de la rapidez con que se reduzcan las cadenas ligeras (idealmente más de 60% en los primeros 21 días). Se inicia sin demora un esquema con bortezomib (de elección por su eficacia y por no requerir ajuste renal) más dexametasona, con hidratación vigorosa, corrección de hipercalcemia, hiperuricemia y acidosis, y se evitan AINE, contrastes y otros nefrotóxicos. Cuando el contexto es típico y las cadenas ligeras séricas son mayores de 500 mg/L, no se requiere biopsia para iniciar tratamiento; se hace si hay dudas sobre otras lesiones (amiloidosis AL, enfermedad por depósito de cadenas ligeras).",
+   "C": "Los corticoides en monoterapia y la espera prolongada retrasan la reducción de cadenas ligeras.",
+   "D": "La diálisis no es la única medida; la recuperación depende del tratamiento antimieloma.",
+   "E": "La observación sin tratamiento específico condiciona pérdida renal irreversible."
+  },
+  "perla": "Cilindros de mieloma: bortezomib + dexametasona ya; CLL >500 mg/L permite omitir biopsia; evitar AINE/contraste; reducción rápida de CLL = recuperación renal.",
+  "referencias": [
+   "Hutchison CA et al. J Am Soc Nephrol 2011;22:1129",
+   "Comprehensive Clinical Nephrology (nefropatía por cilindros)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o12",
+  "peso": 67.6
+ },
+ {
+  "id": "HMG-2",
+  "serie_id": "HMG",
+  "orden": 2,
+  "sub": "16.c.i",
+  "subtema": "Microscopía electrónica: membrana basal delgada vs Alport",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Años después el paciente desarrolla proteinuria de 0.9 g/g e hipertensión leve, y se realiza una biopsia renal con microscopía electrónica.",
+  "enunciado": "¿Qué hallazgo ultraestructural distingue la enfermedad de membrana basal delgada del síndrome de Alport?",
+  "opciones": {
+   "A": "Depósitos densos intramembranosos en cinta, propios de la enfermedad de depósito denso en ambas entidades",
+   "B": "Depósitos subepiteliales con «espículas» en la membrana basal, presentes por igual en ambas enfermedades y en la membranosa",
+   "C": "Microtúbulos organizados dentro de los depósitos, propios de la glomerulopatía inmunotactoide en ambos casos por igual",
+   "D": "Adelgazamiento difuso y uniforme de la MBG (<200-250 nm), frente a la lamelación en «tejido de cesta» del Alport",
+   "E": "Borramiento difuso de procesos podocitarios sin otros cambios, que se observa en ambas enfermedades por igual de forma típica"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Los depósitos intramembranosos en cinta corresponden a la enfermedad por depósitos densos.",
+   "B": "Las espículas son típicas de la nefropatía membranosa.",
+   "C": "Los depósitos organizados en microtúbulos se observan en crioglobulinemia y glomerulonefritis fibrilar/inmunotactoide.",
+   "D": "En la enfermedad de membrana basal delgada, la microscopía electrónica muestra un adelgazamiento difuso y uniforme de la membrana basal (menos de 200 a 250 nm en adultos), sin otras alteraciones. En el síndrome de Alport, la membrana muestra alternancia de zonas adelgazadas y engrosadas con laminación y división de la lámina densa ('tejido de cesta' o 'basket-weave'). La inmunofluorescencia para la cadena α5(IV) de colágeno IV es útil: ausente en el Alport ligado al X. Los depósitos subepiteliales con espículas son de la nefropatía membranosa y los depósitos densos intramembranosos de la enfermedad por depósitos densos.",
+   "E": "El borramiento podocitario es inespecífico y no distingue ambos cuadros."
+  },
+  "perla": "MBD: GBM uniformemente delgada (<200–250 nm). Alport: lamelación 'basket-weave', α5(IV) ausente (XLAS).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades de la membrana basal)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 56.5
+ },
+ {
+  "id": "HMG-3",
+  "serie_id": "HMG",
+  "orden": 3,
+  "sub": "16.c.i",
+  "subtema": "Seguimiento y riesgo de progresión en variantes heterocigotas de COL4A",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Con proteinuria de 0.9 g/g e hipertensión, la biopsia confirma membrana basal delgada con glomeruloesclerosis focal secundaria. La prueba genética muestra variante heterocigota patogénica en COL4A3.",
+  "enunciado": "¿Cuál es la conducta y la interpretación?",
+  "opciones": {
+   "A": "Las variantes heterocigotas de COL4A3/4 no siempre son benignas: se inicia nefroprotección (IECA/ARA-II ± iSGLT2), seguimiento y consejo genético",
+   "B": "Requiere trasplante renal inmediato, porque la enfermedad progresa con rapidez a ERC terminal en todos los casos",
+   "C": "Se trata con ciclofosfamida y esteroides, porque la proteinuria con glomeruloesclerosis indica enfermedad inmunológica activa",
+   "D": "Se indica rituximab para depletar linfocitos B y reducir la proteinuria de la glomeruloesclerosis focal secundaria",
+   "E": "Es siempre benigna: sin tratamiento ni seguimiento, porque la hematuria familiar no produce daño renal progresivo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Las variantes heterocigotas de COL4A3/COL4A4 (espectro autosómico dominante de Alport) explican la enfermedad de membrana basal delgada, que suele ser benigna, pero una proporción de los pacientes desarrolla proteinuria, hipertensión, glomeruloesclerosis focal secundaria y ERC en la edad adulta. Cuando aparece proteinuria, se trata como proteinuria glomerular crónica con bloqueo del SRAA, control de la TA y, según la guía, iSGLT2; se vigila anualmente la creatinina, la proteinuria y la TA, y se ofrece asesoría genética familiar, sobre todo ante posible donante vivo emparentado.",
+   "B": "No hay indicación de trasplante inmediato.",
+   "C": "La ciclofosfamida no tiene papel en las nefropatías por colágeno IV.",
+   "D": "El rituximab no está indicado en glomeruloesclerosis secundaria a variantes de colágeno IV.",
+   "E": "Considerarla siempre benigna omite a los pacientes que progresan."
+  },
+  "perla": "COL4A3/A4 heterocigoto: usualmente benigno, pero algunos progresan (proteinuria, ERC). Tratar con bloqueo SRAA; evitar donante emparentado afectado.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades de la membrana basal)",
+   "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 56.5
  }
 ]

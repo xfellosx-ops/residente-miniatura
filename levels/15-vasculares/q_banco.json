@@ -2052,5 +2052,313 @@
   ],
   "tema": "Enfermedades vasculares del riñón",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "CNT-1",
+  "serie_id": "CNT",
+  "orden": 1,
+  "sub": "17.b",
+  "subtema": "Lesión renal aguda por contraste: factores de riesgo",
+  "dificultad": "moderada",
+  "caso": "Hombre de 72 años con diabetes, ERC G3b (TFGe de 36 mL/min/1.73 m²), insuficiencia cardiaca con fracción de eyección de 35% y síndrome coronario agudo. Se propone coronariografía de urgencia con contraste yodado intraarterial. Toma furosemida, enalapril y metformina.",
+  "enunciado": "¿Cómo se define la lesión por contraste y cuáles son los principales factores de riesgo?",
+  "opciones": {
+   "A": "Aumento de creatinina ≥0.3 mg/dL en 48 h o 1.5 veces en 7 días; riesgo con TFGe baja, diabetes, falla cardiaca y mucho contraste",
+   "B": "Se define solo por proteinuria, y el principal factor de riesgo es la hipertensión arterial sistémica",
+   "C": "No tiene factores de riesgo conocidos, porque aparece en cualquier paciente con la misma probabilidad",
+   "D": "Aumento de creatinina de 0.1 mg/dL a los 10 minutos del contraste, con diabetes y falla cardiaca como únicos factores de riesgo conocidos",
+   "E": "Solo ocurre en personas con TFG normal, porque la lesión depende de la hiperfiltración glomerular"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La lesión renal aguda asociada a contraste se define por aumento de la creatinina de 0.3 mg/dL o más dentro de 48 horas, o de 1.5 veces el valor basal dentro de 7 días, tras la administración de contraste yodado. Sus factores de riesgo son TFG baja (el umbral es de 45 mL/min/1.73 m² para la vía intraarterial con exposición renal de primer paso, como la coronariografía, y de 30 mL/min/1.73 m² para la vía intravenosa), diabetes, insuficiencia cardiaca, hipovolemia, anemia, edad avanzada, volumen alto de contraste, contraste hiperosmolar y uso concurrente de fármacos nefrotóxicos (AINE, aminoglucósidos).",
+   "B": "La definición es por creatinina o diuresis, no por proteinuria.",
+   "C": "Los factores de riesgo están bien descritos.",
+   "D": "La creatinina no cambia a los 10 minutos; el aumento ocurre en 24 a 48 horas.",
+   "E": "El riesgo es mayor con TFG baja, no en personas con TFG normal."
+  },
+  "perla": "CA-AKI: ↑Cr ≥0.3 en 48 h o ≥1.5× en 7 d. Riesgo: TFGe <45 (IA) o <30 (IV), DM, IC, hipovolemia, volumen de contraste.",
+  "referencias": [
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)",
+   "Comprehensive Clinical Nephrology (nefropatía por contraste)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "continuacion": "",
+  "obj": "17.o2",
+  "peso": 16.5
+ },
+ {
+  "id": "CNT-2",
+  "serie_id": "CNT",
+  "orden": 2,
+  "sub": "17.b",
+  "subtema": "Prevención: expansión de volumen y evidencia de NAC y bicarbonato",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se discute la profilaxis antes de la coronariografía en este paciente con insuficiencia cardiaca.",
+  "enunciado": "¿Cuál es la medida preventiva con mayor sustento?",
+  "opciones": {
+   "A": "Furosemida profiláctica para forzar la diuresis, porque reduce el tiempo de contacto del contraste con el túbulo",
+   "B": "No se requiere ninguna medida preventiva, porque la lesión por contraste es siempre leve y se autolimita en el paciente",
+   "C": "N-acetilcisteína sola, por su eficacia comprobada para prevenir la lesión renal por contraste en cardiopatía",
+   "D": "Bicarbonato de sodio como único método, por ser superior a la solución salina isotónica en la prevención según los ensayos recientes",
+   "E": "Salina isotónica ajustada a la función cardiaca, menor dosis de contraste y retiro de nefrotóxicos; NAC y bicarbonato no la superan"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La diuresis forzada con furosemida sola no previene y puede empeorar la hipovolemia.",
+   "B": "Con TFGe de 36 y vía intraarterial se indica profilaxis.",
+   "C": "La N-acetilcisteína no tuvo beneficio en PRESERVE.",
+   "D": "El bicarbonato no fue superior a la solución salina.",
+   "E": "La única medida preventiva con respaldo es la expansión de volumen con solución salina isotónica (por ejemplo, 1 a 1.5 mL/kg/h durante 6 a 12 horas antes y después, ajustada en insuficiencia cardiaca, a veces guiada por la presión telediastólica del ventrículo izquierdo), junto con minimizar el volumen de contraste, elegir agentes iso o de baja osmolaridad y suspender nefrotóxicos. En el estudio PRESERVE no hubo diferencias entre bicarbonato y solución salina ni entre N-acetilcisteína y placebo. Los diuréticos de asa no previenen el daño (la furosemida profiláctica se asoció a más lesión), y la hemofiltración profiláctica no está recomendada."
+  },
+  "perla": "CA-AKI: solución salina isotónica (ajustar en IC), ↓ volumen de contraste, suspender nefrotóxicos. NAC y bicarbonato no ganan a salina (PRESERVE).",
+  "referencias": [
+   "Weisbord SD et al. N Engl J Med 2018;378:603 (PRESERVE)",
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o2",
+  "peso": 18.5
+ },
+ {
+  "id": "CNT-3",
+  "serie_id": "CNT",
+  "orden": 3,
+  "sub": "17.b",
+  "subtema": "Evolución típica y metformina",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tras la coronariografía, la creatinina sube de 1.9 a 2.6 mg/dL a las 48 horas, alcanza su pico a los 4 días y baja después. La FeNa es menor de 1% y el sedimento muestra pocos cilindros. El paciente sigue tomando metformina.",
+  "enunciado": "¿Cuál es el curso esperado y qué se hace con la metformina?",
+  "opciones": {
+   "A": "La creatinina sube a los 14 días y nunca regresa, porque la lesión por contraste es siempre irreversible",
+   "B": "Continuar metformina sin cambios, porque el contraste no interfiere con su eliminación renal",
+   "C": "La FeNa es siempre mayor de 3%, porque la lesión por contraste es una necrosis tubular establecida",
+   "D": "Pico a los 3–5 días y regreso al basal en 7–10 días, con FeNa baja; se suspende la metformina por el riesgo de acidosis láctica",
+   "E": "Iniciar corticoides, porque la lesión renal por contraste es de tipo inflamatorio y responde a la inmunosupresión en pocos días de tratamiento"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El aumento no ocurre a los 14 días y suele revertir.",
+   "B": "Con lesión renal aguda la metformina debe suspenderse.",
+   "C": "La FeNa suele ser baja al inicio, no mayor de 3%.",
+   "D": "El curso clásico de la lesión por contraste es un aumento de la creatinina entre 24 y 48 horas, con pico entre 3 y 5 días y recuperación en 7 a 10 días. La fisiopatología incluye vasoconstricción medular y toxicidad tubular directa, y puede acompañarse de FeNa baja, orina concentrada y pocos cilindros granulosos. Aunque la mayoría se recupera, algunos pacientes quedan con daño permanente. La metformina se suspende ante lesión renal aguda o TFGe menor de 30 por el riesgo de acidosis láctica, y se reinicia cuando la función se estabiliza. No hay tratamiento específico (los corticoides no tienen papel).",
+   "E": "Los corticoides no tienen beneficio."
+  },
+  "perla": "CA-AKI: Cr ↑24–48 h, pico 3–5 d, normaliza 7–10 d; FeNa baja. Suspender metformina si LRA o TFG <30.",
+  "referencias": [
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)",
+   "Comprehensive Clinical Nephrology (nefropatía por contraste)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o2",
+  "peso": 16.5
+ },
+ {
+  "id": "ANT-1",
+  "serie_id": "ANT",
+  "orden": 1,
+  "sub": "4.i",
+  "subtema": "Fibrilación auricular en hemodiálisis: anticoagulación",
+  "dificultad": "dificil",
+  "caso": "Hombre de 66 años en hemodiálisis tres veces por semana por fístula arteriovenosa, con diabetes tipo 2, hipertensión y enfermedad arterial periférica. Se documenta fibrilación auricular persistente. CHA₂DS₂-VASc de 4 y HAS-BLED de 3. No tiene hemorragia activa.",
+  "enunciado": "¿Qué enfoque tiene mayor sustento actual?",
+  "opciones": {
+   "A": "Decisión compartida: warfarina (INR 2-3) o apixabán ajustado es razonable con evidencia limitada; cierre de orejuela si hay contraindicación",
+   "B": "No anticoagular nunca a un paciente en hemodiálisis por el riesgo de sangrado, sin importar el riesgo embólico",
+   "C": "Dabigatrán 150 mg cada 12 horas por su comodidad, aunque se elimina por vía renal y se dializa de forma parcial",
+   "D": "Ácido acetilsalicílico como alternativa equivalente a los anticoagulantes, con menor riesgo de sangrado y misma protección embólica",
+   "E": "Rivaroxabán 20 mg al día con los alimentos, que no requiere ajuste de dosis por la función renal en hemodiálisis"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En los pacientes en diálisis con fibrilación auricular el riesgo trombótico y el hemorrágico están aumentados, y la evidencia es limitada: los ensayos aleatorizados RENAL-AF (apixabán frente a warfarina) y AXADIA (apixabán 2.5 mg c/12 h frente a fenprocumón) fueron pequeños y sin diferencias claras. Las guías ACC/AHA 2023 consideran razonable usar warfarina (INR 2 a 3) o apixabán a dosis basada en la evidencia en ERC terminal o diálisis (clase 2b), con decisión compartida, y plantean el cierre de la orejuela izquierda en pacientes con contraindicación. El dabigatrán (80% de eliminación renal) y el rivaroxabán (aproximadamente 35%) se evitan por acumulación. Se evalúa el riesgo de sangrado y el acceso vascular.",
+   "B": "No existe contraindicación absoluta en diálisis, y el riesgo de embolia cerebral justifica considerar la anticoagulación.",
+   "C": "El dabigatrán se elimina en 80% por el riñón, se acumula en diálisis y se evita.",
+   "D": "La aspirina no es una alternativa equivalente y aumenta el sangrado sin la misma eficacia.",
+   "E": "El rivaroxabán tiene eliminación renal parcial y escasa evidencia en diálisis."
+  },
+  "perla": "AF en HD: warfarina (INR 2–3) o apixabán dosis ajustada (ACC/AHA 2023, 2b); decisión compartida; considerar LAAO. Evitar dabigatrán/rivaroxabán.",
+  "referencias": [
+   "Joglar JA et al. Circulation 2024;149:e1 (ACC/AHA AF 2023)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "continuacion": "",
+  "obj": "4.o9",
+  "peso": 72.0
+ },
+ {
+  "id": "ANT-4",
+  "serie_id": "ANT",
+  "orden": 4,
+  "sub": "4.f",
+  "subtema": "Eliminación renal de los anticoagulantes orales directos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la discusión, el cardiólogo compara los anticoagulantes orales directos según su depuración renal.",
+  "enunciado": "¿Cuál es el orden correcto de eliminación renal y cuál se prefiere en ERC avanzada?",
+  "opciones": {
+   "A": "Apixabán (80%) > rivaroxabán > edoxabán > dabigatrán (27%); se prefiere dabigatrán por su mayor eliminación renal",
+   "B": "Dabigatrán (≈80%) > edoxabán (≈50%) > rivaroxabán (≈35%) > apixabán (≈27%); el apixabán es el de menor eliminación renal y el preferido",
+   "C": "Todos se eliminan por vía renal en 90%, por lo que ninguno debe usarse en la enfermedad renal avanzada",
+   "D": "El orden es indistinto y no influye en la dosis ni en la elección del anticoagulante en la ERC avanzada",
+   "E": "Todos se eliminan al 100% por vía hepática, por lo que no requieren ajuste alguno en la ERC avanzada"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Invierte las proporciones: el dabigatrán es el de mayor eliminación renal.",
+   "B": "La proporción de eliminación renal de los anticoagulantes orales directos es de cerca de 80% para el dabigatrán, 50% para el edoxabán, 35% para el rivaroxabán y 27% para el apixabán. Por esto el dabigatrán se evita con depuración de creatinina menor de 30 mL/min y el apixabán es el de elección en ERC avanzada y diálisis. Para el apixabán, la reducción a 2.5 mg c/12 h se hace con al menos dos de tres criterios (edad de 80 años o más, peso de 60 kg o menos, creatinina de 1.5 mg/dL o más) en pacientes sin diálisis; en hemodiálisis, la ficha indica 5 mg c/12 h con reducción si la edad es de 80 años o más o el peso es de 60 kg o menos. Los pacientes con prótesis valvular mecánica o síndrome antifosfolípido no deben recibir anticoagulantes orales directos.",
+   "C": "Ninguno se elimina 90% por vía renal.",
+   "D": "El grado de eliminación renal determina la acumulación y la dosis.",
+   "E": "Todos tienen al menos algo de eliminación renal, que va de 27% a 80%."
+  },
+  "perla": "Eliminación renal de DOAC: dabigatrán ~80% > edoxabán ~50% > rivaroxabán ~35% > apixabán ~27%. Apixabán preferido en ERC avanzada.",
+  "referencias": [
+   "Joglar JA et al. Circulation 2024;149:e1 (ACC/AHA AF 2023)",
+   "Comprehensive Clinical Nephrology (farmacología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o6",
+  "peso": 65.4
+ },
+ {
+  "id": "ANT-5",
+  "serie_id": "ANT",
+  "orden": 5,
+  "sub": "19.b",
+  "subtema": "Hemodiálisis sin heparina en paciente con sangrado",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres semanas después, el paciente ingresa por hemorragia digestiva alta con hemoglobina de 6.4 g/dL, hemodinámicamente estable tras transfusión. Le toca hemodiálisis.",
+  "enunciado": "¿Cómo se realiza la sesión de diálisis?",
+  "opciones": {
+   "A": "Administrar protamina en toda sesión, para neutralizar la heparina del circuito y reducir el riesgo hemorrágico del paciente",
+   "B": "Dar warfarina durante la sesión, para evitar la coagulación del circuito extracorpóreo sin usar heparina",
+   "C": "Hemodiálisis sin heparina (lavados salinos, flujo alto, predilución) o con citrato regional, en lugar de heparina",
+   "D": "Heparina a dosis completa para evitar coagulación del circuito, porque la hemorragia ya se controló con transfusión",
+   "E": "Suspender la diálisis hasta que cese el sangrado, sin importar el estado clínico ni los datos de uremia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La protamina neutraliza la heparina y no es una práctica de rutina.",
+   "B": "La warfarina es un anticoagulante oral y no se usa en la sesión; el sangrado la contraindica.",
+   "C": "En pacientes con sangrado activo o alto riesgo hemorrágico, la hemodiálisis se realiza sin anticoagulación sistémica: se utiliza un flujo sanguíneo alto (más de 250 mL/min), lavados periódicos del circuito con solución salina (cada 15 a 30 minutos), predilución, o se usa citrato regional (con infusión de calcio posdializador o dializado sin calcio), que da anticoagulación solo dentro del circuito. La heparina no fraccionada convencional (bolo de 25 a 50 U/kg o dosis fija, más infusión) se reserva para pacientes sin riesgo. Se vigila el coagulo en el circuito y los requerimientos, y se corrigen la causa del sangrado y la anemia.",
+   "D": "La heparina a dosis completa empeora la hemorragia activa.",
+   "E": "La indicación de diálisis (volumen, potasio, acidosis, uremia) persiste, y puede realizarse de forma segura sin heparina."
+  },
+  "perla": "HD con sangrado: sin heparina (lavados salinos, QB alto, predilución) o citrato regional. UFH solo si no hay riesgo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)",
+   "KDOQI Hemodialysis Adequacy 2015. Am J Kidney Dis 2015;66:884"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 44.4
+ },
+ {
+  "id": "ANT-6",
+  "serie_id": "ANT",
+  "orden": 6,
+  "sub": "19.b",
+  "subtema": "Trombocitopenia inducida por heparina en hemodiálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras reanudar heparina en las sesiones en la semana siguiente, las plaquetas bajan de 210,000 a 65,000/µL al día 7 y la fístula arteriovenosa se trombosa en la sesión siguiente. Sospecha clínica alta de trombocitopenia inducida por heparina.",
+  "enunciado": "¿Cuál es el manejo?",
+  "opciones": {
+   "A": "Continuar la heparina de bajo peso molecular, porque es menos inmunogénica y no desencadena trombocitopenia",
+   "B": "Suspender heparina, confirmar anti-PF4/heparina y usar argatrobán o bivalirudina para la diálisis",
+   "C": "Cambiar a warfarina inmediatamente sin otro anticoagulante, para evitar nuevas trombosis de la fístula",
+   "D": "Esperar a que la cifra de plaquetas se normalice con heparina, porque la trombocitopenia es transitoria",
+   "E": "Administrar transfusión de plaquetas profiláctica, para prevenir el sangrado por la trombocitopenia grave"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La heparina de bajo peso molecular tiene reacción cruzada con los anticuerpos de la TIH.",
+   "B": "La trombocitopenia inducida por heparina (TIH) es una reacción inmune mediada por anticuerpos contra el complejo PF4-heparina que activa las plaquetas y produce trombocitopenia (caída de más de 50% entre los días 5 y 10) con riesgo trombótico paradójico (trombosis del acceso vascular en este caso). Se sospecha con la puntuación 4T, se suspende toda exposición a heparina (incluyendo heparina de bajo peso molecular, lavados, catéteres impregnados) y se emplea un anticoagulante no heparínico: argatrobán (eliminación hepática, adecuado en insuficiencia renal) o bivalirudina. La warfarina no se inicia hasta que las plaquetas se recuperen y se mantenga la cobertura, porque puede inducir necrosis cutánea.",
+   "C": "Iniciar warfarina sola en la fase aguda se asocia a gangrena venosa y necrosis cutánea.",
+   "D": "Continuar la heparina perpetúa la activación plaquetaria y la trombosis.",
+   "E": "Las transfusiones de plaquetas pueden aumentar la trombosis y no se hacen de rutina."
+  },
+  "perla": "TIH en HD: plaquetas ↓>50% día 5–10 + trombosis; suspender TODA heparina (incl. HBPM); argatrobán/bivalirudina; warfarina solo con plaquetas recuperadas.",
+  "referencias": [
+   "Cuker A et al. Blood Adv 2018;2:3360 (ASH TIH)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 44.4
+ },
+ {
+  "id": "TVR-4",
+  "serie_id": "TVR",
+  "orden": 4,
+  "sub": "9.c.1",
+  "subtema": "Tratamiento de la causa: nefropatía membranosa de riesgo alto",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Con anticoagulación estable, se plantea el tratamiento de la enfermedad de base. El paciente tiene TFGe de 55 mL/min/1.73 m², proteinuria de 9 g/día, albúmina de 1.8 g/dL y anti-PLA2R de 180 RU/mL, sin respuesta a 3 meses de bloqueo del SRAA y medidas de soporte.",
+  "enunciado": "¿Cuál es el tratamiento de la nefropatía membranosa según KDIGO 2021?",
+  "opciones": {
+   "A": "Observación con tratamiento de soporte (IECA, diuréticos y estatina) durante 6 meses más, sin inmunosupresión alguna",
+   "B": "Rituximab o ciclofosfamida cíclica con glucocorticoides (riesgo alto); la remisión reduce el riesgo trombótico",
+   "C": "Micofenolato de mofetilo en monoterapia, como esquema de primera línea para el riesgo alto de progresión",
+   "D": "Plasmaféresis de rutina para eliminar el anticuerpo anti-PLA2R, seguida de prednisona en dosis bajas",
+   "E": "Prednisona sola a dosis alta durante 6 meses, ya que la monoterapia con glucocorticoide logra remisión sostenida"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Con riesgo alto, la observación expone a progresión y complicaciones.",
+   "B": "La guía KDIGO 2021 estratifica el riesgo de progresión en la nefropatía membranosa primaria: el riesgo alto incluye TFGe menor de 60 mL/min/1.73 m² y/o proteinuria mayor de 8 g/día durante 6 meses, y se trata con rituximab o con el esquema cíclico de ciclofosfamida y glucocorticoides (los inhibidores de calcineurina son opción en riesgo moderado, con peor durabilidad de la remisión). El anticuerpo anti-PLA2R con título alto apoya la actividad inmunológica y se usa para seguir la respuesta. La remisión de la proteinuria y la normalización de la albúmina reducen el estado procoagulante, lo que permite suspender la anticoagulación cuando la albúmina supera 3 g/dL y no hay otra indicación.",
+   "C": "El micofenolato en monoterapia tiene evidencia limitada como esquema de primera línea.",
+   "D": "La plasmaféresis no es tratamiento de rutina y se reserva para situaciones raras.",
+   "E": "Los glucocorticoides solos no mejoran los desenlaces de la nefropatía membranosa."
+  },
+  "perla": "MN riesgo alto (TFGe <60 o proteinuria >8 g/d 6 meses): rituximab o ciclofosfamida cíclica + esteroides. Remisión → retirar anticoagulación (alb >3).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o3",
+  "peso": 80.8
  }
 ]

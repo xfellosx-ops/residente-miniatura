@@ -1260,5 +1260,126 @@
   "tema": "Enfermedades glomerulares",
   "obj": "9.o10",
   "peso": 39.3
+ },
+ {
+  "id": "NEE-1",
+  "serie_id": "NEE",
+  "orden": 1,
+  "sub": "9.c.3",
+  "subtema": "Síndrome nefrótico en el embarazo: abordaje",
+  "dificultad": "dificil",
+  "caso": "Mujer de 29 años, 16 semanas de gestación, con edema progresivo. TA 118/76 mmHg, Cr 0.8 mg/dL, albúmina 2.4 g/dL, proteinuria 6 g/24 h, sedimento sin hematuria. C3, C4, ANA, anti-dsDNA, HBsAg, anti-VHC y VIH negativos.",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Iniciar IECA a dosis máxima, para reducir la proteinuria y proteger la función renal de la paciente",
+   "B": "Esperar al posparto para investigar la causa de la proteinuria, porque la biopsia renal está contraindicada durante el embarazo de la paciente",
+   "C": "Biopsia renal ahora, porque la proteinuria nefrótica antes de las 20 semanas no es preeclampsia y el resultado cambiará el manejo",
+   "D": "Iniciar ciclofosfamida empírica por la proteinuria nefrótica, sin confirmar el diagnóstico histológico",
+   "E": "Diagnosticar preeclampsia temprana e interrumpir el embarazo, por la proteinuria nefrótica y el edema progresivo de la paciente gestante"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los IECA están contraindicados en el embarazo por fetotoxicidad.",
+   "B": "Posponer el estudio impide tratar una enfermedad con potencial de progresión y complicaciones fetales.",
+   "C": "La proteinuria nefrótica antes de las 20 semanas, sin hipertensión ni disfunción orgánica, orienta a enfermedad renal primaria y no a preeclampsia. La biopsia renal puede realizarse con seguridad en el embarazo cuando se espera que modifique la conducta (por ejemplo, para decidir inmunosupresión) y se prefiere antes de las 24 a 28 semanas, ya que después aumentan las complicaciones hemorrágicas y la sensibilidad para distinguir el cuadro disminuye. Se deben controlar la TA, la albúmina y el crecimiento fetal.",
+   "D": "La ciclofosfamida es teratogénica y no debe usarse empíricamente.",
+   "E": "El diagnóstico de preeclampsia requiere hipertensión de nueva aparición después de las 20 semanas."
+  },
+  "perla": "Nefrótico <20 SDG sin HTA: no es preeclampsia → biopsia renal (idealmente antes de 24–28 SDG) si cambia el manejo.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "NEE-2",
+  "serie_id": "NEE",
+  "orden": 2,
+  "sub": "9.c.3",
+  "subtema": "GEFS en el embarazo: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia muestra glomeruloesclerosis focal y segmentaria (variante NOS) con borramiento difuso de pedicelos. Se descartan causas secundarias.",
+  "enunciado": "¿Qué tratamiento es el más apropiado?",
+  "opciones": {
+   "A": "Observación sin tratamiento inmunosupresor ni anticoagulación, hasta el término del embarazo y la lactancia",
+   "B": "Micofenolato de mofetilo con IECA, como esquema de primera línea en la GEFS durante la gestación",
+   "C": "Prednisona, TA con labetalol o nifedipino, AAS en dosis baja y vigilancia; evitar IECA/ARA-II, micofenolato y ciclofosfamida",
+   "D": "Rituximab en dosis completas semanales durante todo el embarazo, por su seguridad fetal demostrada",
+   "E": "Ciclofosfamida con prednisona, por la proteinuria nefrótica y la variante histológica NOS de la glomeruloesclerosis focal"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Observar sin tratamiento expone a progresión y a complicaciones trombóticas y fetales.",
+   "B": "El micofenolato y los IECA están contraindicados en el embarazo.",
+   "C": "Los glucocorticoides orales (prednisona, que la 11β-HSD2 placentaria inactiva en gran parte) son la terapia de elección en GEFS primaria durante el embarazo. Los antihipertensivos compatibles son labetalol, nifedipino y metildopa. El ácido acetilsalicílico en dosis baja desde las 12 semanas reduce el riesgo de preeclampsia. Se evitan IECA/ARA-II (fetotoxicidad), micofenolato y ciclofosfamida (teratogénicos). Si la albúmina es <2.5 g/dL se valora tromboprofilaxis con heparina de bajo peso molecular, y en formas resistentes se puede considerar tacrolimus bajo vigilancia.",
+   "D": "El rituximab atraviesa la placenta en el tercer trimestre y no es de primera línea en el embarazo.",
+   "E": "La ciclofosfamida es teratogénica."
+  },
+  "perla": "GEFS en embarazo: prednisona + labetalol/nifedipino + ASA baja; no IECA/ARA-II, MMF ni ciclofosfamida; tromboprofilaxis si albúmina <2.5 g/dL.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "NEE-4",
+  "serie_id": "NEE",
+  "orden": 4,
+  "sub": "9.c.3",
+  "subtema": "Desenlaces maternos y fetales",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente es sometida a cesárea a las 34 semanas por empeoramiento clínico. El recién nacido pesa 1,900 g. A los 6 meses la proteinuria es 4 g/día con Cr 1.2 mg/dL.",
+  "enunciado": "¿Cuál de las siguientes opciones describe mejor los riesgos asociados?",
+  "opciones": {
+   "A": "Hipertrofia cardiaca neonatal como complicación principal, secundaria a la hipoalbuminemia y la hipertensión maternas",
+   "B": "Riesgo fetal nulo si la creatinina previa era normal, porque la proteinuria materna no afecta la placenta",
+   "C": "Mayor riesgo de parto prematuro, restricción del crecimiento y bajo peso; en la madre, hipertensión, preeclampsia y progresión renal",
+   "D": "Riesgo de macrosomía fetal por el síndrome nefrótico materno, con mayor frecuencia de cesárea electiva",
+   "E": "Mayor riesgo de malformaciones congénitas mayores por la proteinuria nefrótica durante el primer trimestre"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hipertrofia cardiaca neonatal es complicación de la diabetes materna.",
+   "B": "La proteinuria nefrótica y la hipertensión aumentan el riesgo fetal aun con creatinina normal.",
+   "C": "En glomerulopatías con proteinuria nefrótica y especialmente con hipertensión o disminución de la TFGe, el embarazo se asocia a prematuridad, restricción del crecimiento intrauterino, bajo peso al nacer y pérdida fetal. En la madre aumenta el riesgo de preeclampsia, hipertensión y, en la GEFS, de pérdida de función renal, que puede no recuperarse totalmente. Por ello se recomienda planear el embarazo con la enfermedad controlada y seguimiento conjunto entre nefrología y obstetricia de alto riesgo.",
+   "D": "La macrosomía es característica de la diabetes materna.",
+   "E": "La proteinuria materna no es teratogénica."
+  },
+  "perla": "Glomerulopatía nefrótica en embarazo: prematuridad, RCIU y bajo peso al nacer; materno: preeclampsia, HAS y progresión renal.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "Piccoli GB et al. Risk of adverse pregnancy outcomes in women with CKD. J Am Soc Nephrol 2015;26:2011"
+  ],
+  "origen": [
+   "David26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 69.0
  }
 ]

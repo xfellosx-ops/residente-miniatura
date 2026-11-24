@@ -1159,5 +1159,83 @@
   "clave": "B",
   "tema": "Enfermedades glomerulares",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "FSGS-4",
+  "serie_id": "FSGS",
+  "orden": 4,
+  "sub": "21.g",
+  "subtema": "GEFS: recurrencia postrasplante",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis años después evoluciona a enfermedad renal terminal y recibe un trasplante de donante vivo. A las 48 horas desarrolla proteinuria de 6 g/24 h con función estable y sin datos de rechazo.",
+  "enunciado": "¿Cuál es el diagnóstico probable y su manejo?",
+  "opciones": {
+   "A": "Rechazo agudo mediado por anticuerpos: pulsos de esteroides y aumento de los niveles meta de tacrolimus en el injerto renal",
+   "B": "Recurrencia temprana de GEFS (~30%): recambio plasmático con o sin rituximab, y optimizar los inhibidores de calcineurina",
+   "C": "Toxicidad por tacrolimus: suspender el inhibidor de calcineurina y cambiar a un esquema sin esa familia de fármacos inmunosupresores",
+   "D": "GEFS de novo del injerto: observación y control de la proteinuria, sin tratamiento específico porque la función renal está estable",
+   "E": "Nefropatía por BK: reducir la inmunosupresión y vigilar la carga viral, porque la proteinuria nefrótica es típica del cuadro"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El rechazo mediado por anticuerpos se acompaña de deterioro de función, DSA y lesión microvascular; no se explica por proteinuria nefrótica aislada.",
+   "B": "La proteinuria nefrótica de inicio inmediato en receptor con GEFS primaria previa, función estable y sin evidencia de rechazo corresponde a recurrencia, que ocurre en ~30% (mayor con edad joven, progresión rápida a enfermedad terminal, recurrencia en injertos previos y donante vivo emparentado). Se atribuye a un factor circulante (suPAR y otros candidatos). El tratamiento incluye recambio plasmático (o inmunoadsorción) con o sin rituximab, optimización de inhibidores de calcineurina e IECA/ARA-II. La biopsia confirma borramiento podocitario y descarta rechazo.",
+   "C": "La toxicidad por inhibidores de calcineurina no causa proteinuria nefrótica masiva a las 48 horas.",
+   "D": "La GEFS de novo se desarrolla meses a años después y no el segundo día.",
+   "E": "La nefropatía por BK aparece semanas a meses después y cursa con disfunción del injerto, no con proteinuria masiva inmediata."
+  },
+  "perla": "Recurrencia de GEFS: ~30%; horas–días; factor circulante (suPAR). Tratar con PLEX ± RTX, CNI óptimo. Riesgo ↑: joven, progresión rápida, recurrencia previa.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Cravedi P et al. Am J Transplant 2013;13:266 (recurrencia de GEFS)"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 21,
+  "tema": "Trasplante renal",
+  "obj": "21.o9",
+  "peso": 52.7
+ },
+ {
+  "id": "NEE-3",
+  "serie_id": "NEE",
+  "orden": 3,
+  "sub": "9.b",
+  "subtema": "Preeclampsia sobreañadida vs brote de enfermedad glomerular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 30 semanas la paciente tiene TA 152/98 mmHg, proteinuria 10 g/24 h, Cr 1.0 mg/dL, plaquetas 140,000/µL y transaminasas normales. Se plantea si es preeclampsia sobreañadida o actividad de la GEFS.",
+  "enunciado": "¿Qué estudio ayuda más a distinguirlas?",
+  "opciones": {
+   "A": "Velocidad de sedimentación globular, por ser el marcador inflamatorio que distingue la actividad glomerular",
+   "B": "Relación sFlt-1/PlGF: ≤38 hace improbable la preeclampsia a corto plazo; valores altos (≥85 antes de las 34 semanas) la apoyan",
+   "C": "C3 y C4, porque descienden de forma característica en la preeclampsia y permanecen normales en la GEFS activa",
+   "D": "ANCA, porque la preeclampsia sobreañadida se asocia con una vasculitis de pequeños vasos subyacente",
+   "E": "Anti-PLA2R sérico, porque su positividad distingue la preeclampsia sobreañadida de la actividad de la glomeruloesclerosis focal y segmentaria de la paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La VSG es inespecífica y aumenta en el embarazo.",
+   "B": "La preeclampsia sobreañadida y el brote de una glomerulopatía se parecen: ambos cursan con hipertensión y aumento de proteinuria. La relación sFlt-1/PlGF (PROGNOSIS: ≤38 descarta preeclampsia en la siguiente semana con alto valor predictivo negativo; ≥85 antes de 34 semanas apoya el diagnóstico) ayuda a diferenciar, junto con el resto del cuadro (plaquetopenia, elevación de transaminasas y LDH, hiperuricemia, deterioro de creatinina, afectación fetal). El inicio de hipertensión de novo y el empeoramiento súbito después de las 20 semanas favorecen preeclampsia.",
+   "C": "Los niveles de C3 y C4 caen en lupus y otras causas, no en GEFS ni preeclampsia.",
+   "D": "Los ANCA no distinguen entre estos diagnósticos.",
+   "E": "El anti-PLA2R apoya membranosa, no diferencia preeclampsia de GEFS."
+  },
+  "perla": "sFlt-1/PlGF ≤38 excluye preeclampsia a corto plazo; ≥85 (<34 SDG) la apoya. Útil para distinguirla de un brote glomerular.",
+  "referencias": [
+   "Zeisler H et al. N Engl J Med 2016;374:13",
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 75.1
  }
 ]

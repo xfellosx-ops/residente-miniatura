@@ -2899,5 +2899,394 @@
   ],
   "tema": "Enfermedades hereditarias del riñón",
   "tipo_item": "nueva"
+ },
+ {
+  "id": "ACB-1",
+  "serie_id": "ACB",
+  "orden": 1,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "subtema": "Alcalosis metabólica",
+  "dificultad": "moderada",
+  "caso": "Mujer de 24 años con debilidad, calambres y palpitaciones. TA 98/62 mmHg en decúbito; 82/50 mmHg de pie. Gasometría arterial: pH 7.52, PaCO2 48 mmHg, HCO3 38 mEq/L. Na 137, K 2.3, Cl 88 mEq/L, creatinina 0.7 mg/dL, albúmina 4.0 g/dL.",
+  "continuacion": "",
+  "enunciado": "¿Cuál es la interpretación ácido-base?",
+  "opciones": {
+   "A": "Acidosis metabólica de anión gap elevado con alcalosis metabólica, por pérdida de ácidos y bicarbonato",
+   "B": "Alcalosis metabólica con compensación respiratoria adecuada: la PaCO2 esperada es de ≈50 ± 5 mmHg y la medida es de 48",
+   "C": "Alcalosis metabólica con acidosis respiratoria sobreagregada, porque la PaCO2 medida es mayor de la esperada en el paciente",
+   "D": "Alcalosis metabólica con alcalosis respiratoria sobreagregada, porque la PaCO2 medida es menor de la esperada según la fórmula",
+   "E": "Alcalosis respiratoria crónica compensada, con pérdida renal de bicarbonato y una PaCO2 baja en sangre"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El anión gap de 11 es normal, por lo que no hay acidosis de anión gap elevado.",
+   "B": "El pH de 7.52 con HCO3 de 38 indica alcalosis metabólica primaria. En la alcalosis metabólica la PaCO2 esperada es 40 + 0.7 × (HCO3 − 24) = 40 + 0.7 × 14 ≈ 50 ± 5 mmHg (45-55). La PaCO2 medida de 48 cae en ese rango, por lo que la compensación es adecuada y no hay un segundo trastorno. El anión gap = 137 − 88 − 38 = 11 mEq/L es normal.",
+   "C": "La acidosis respiratoria sobreagregada se diagnosticaría con una PaCO2 mayor que la esperada (>55 mmHg).",
+   "D": "La alcalosis respiratoria sobreagregada se diagnosticaría con una PaCO2 menor que la esperada (<45 mmHg).",
+   "E": "En una alcalosis respiratoria el pH es alto con PaCO2 baja y HCO3 bajo; aquí HCO3 y PaCO2 están elevados."
+  },
+  "perla": "Compensación: acidosis metabólica (Winter) PaCO2 = 1.5 × HCO3 + 8 ± 2; alcalosis metabólica PaCO2 = 40 + 0.7 × ΔHCO3 (± 5). Calcular siempre AG corregido por albúmina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (cap. Trastornos ácido-base)",
+   "Berend K et al. N Engl J Med 2014;371:1434"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "25.b",
+  "tema_id": 25,
+  "obj": "25.o2",
+  "peso": 61.3
+ },
+ {
+  "id": "ACB-2",
+  "serie_id": "ACB",
+  "orden": 2,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "subtema": "Alcalosis metabólica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente niega uso de fármacos. En la exploración se observa aumento de volumen parotídeo bilateral, erosión del esmalte dental y callosidades en el dorso de la mano. Na urinario 12 mEq/L, Cl urinario 5 mEq/L, K urinario 14 mEq/L, pH urinario 7.0. Los niveles de renina y aldosterona están elevados.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y qué dato lo apoya?",
+  "opciones": {
+   "A": "Hiperaldosteronismo primario: Cl urinario elevado, renina suprimida e hipertensión arterial sostenida",
+   "B": "Síndrome de Gitelman: Cl urinario elevado e hipocalciuria, con hipomagnesemia y presión arterial normal",
+   "C": "Vómito autoinducido: alcalosis metabólica sensible a cloro con Cl urinario bajo (<20 mEq/L)",
+   "D": "Síndrome de Bartter: Cl urinario elevado con hipercalciuria, retraso del crecimiento y presión normal",
+   "E": "Síndrome de Liddle: HTA con renina y aldosterona suprimidas, por activación del canal epitelial de sodio (ENaC) en el colector"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "En el hiperaldosteronismo primario hay HTA, renina suprimida y Cl urinario normal o alto; aquí hay hipotensión ortostática y renina elevada.",
+   "B": "Gitelman cursa con Cl urinario alto, hipomagnesemia e hipocalciuria; la paciente tiene Cl urinario 5 mEq/L.",
+   "C": "El vómito autoinducido (parotidomegalia, erosión dental, signo de Russell) causa pérdida de HCl gástrico, contracción de volumen, hiperaldosteronismo secundario y alcalosis metabólica. Mientras persiste la alcalosis hay bicarbonaturia (pH urinario 7.0), que arrastra Na y K y hace que el Na urinario sea poco confiable; por eso se utiliza el Cl urinario: <20 mEq/L indica depleción de cloruro (sensible a cloro), a diferencia de los estados con Cl urinario alto (hiperaldosteronismo, Bartter, Gitelman, diuréticos activos).",
+   "D": "Bartter cursa con Cl urinario alto, hipercalciuria y renina elevada, pero no explica los signos de bulimia ni el Cl urinario bajo.",
+   "E": "Liddle cursa con HTA, hipocalemia y renina/aldosterona suprimidas; no es el caso."
+  },
+  "perla": "Alcalosis metabólica: Cl urinario <20 (sensible a Cl): vómito, aspiración nasogástrica, diuréticos remotos, poshipercapnia, diarrea clorurada congénita. Cl >20: hiperaldosteronismo, Bartter/Gitelman, diuréticos activos, hipoMg/hipoK graves.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (cap. Alcalosis metabólica)",
+   "Palmer BF, Clegg DJ. N Engl J Med 2015;373:548"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "25.b",
+  "tema_id": 25,
+  "obj": "25.o2",
+  "peso": 63.3
+ },
+ {
+  "id": "ACB-3",
+  "serie_id": "ACB",
+  "orden": 3,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "subtema": "Alcalosis metabólica: tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente reconoce los episodios de vómito. Presenta ECG con ondas U y extrasístoles ventriculares ocasionales. Mg 1.9 mg/dL. Está sin vía oral tolerada.",
+  "enunciado": "¿Cuál es el manejo inicial más apropiado?",
+  "opciones": {
+   "A": "Citrato de potasio por vía oral para reponer el potasio y corregir la alcalosis crónica, aunque no tolere la vía oral",
+   "B": "Acetazolamida como tratamiento de primera línea, para eliminar el exceso de bicarbonato y corregir la alcalosis metabólica",
+   "C": "Salina isotónica con KCl y monitoreo ECG, más atención psiquiátrica y nutricional por el trastorno alimentario",
+   "D": "Indometacina para disminuir la pérdida renal de potasio, porque inhibe las prostaglandinas y la secreción de renina",
+   "E": "Espironolactona para corregir el hiperaldosteronismo primario, porque el bloqueo mineralocorticoide corrige la hipopotasemia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El citrato se convierte en bicarbonato y mantiene la alcalosis; no es una sal adecuada para reponer K en este caso.",
+   "B": "La acetazolamida puede considerarse en alcalosis con sobrecarga de volumen, pero aquí hay depleción de volumen y empeoraría la pérdida de potasio.",
+   "C": "La alcalosis sensible a cloro se corrige reponiendo volumen y cloruro: NaCl al 0.9% restablece el volumen, suprime el hiperaldosteronismo secundario y permite eliminar el exceso de bicarbonato por la orina. La hipocalemia (2.3 mEq/L con ondas U y extrasístoles) se repone con KCl (no citrato ni bicarbonato, que perpetúan la alcalosis) con monitoreo ECG, y se mantiene la reposición de magnesio si hay deficiencia. Es esencial el tratamiento del trastorno de conducta alimentaria y se vigila el riesgo de síndrome de realimentación.",
+   "D": "La indometacina se emplea en el síndrome de Bartter, no en la pérdida de H+ gástrica por vómito.",
+   "E": "La espironolactona no corrige la causa y empeora la hipovolemia; es útil en el hiperaldosteronismo primario y como complemento en síndromes tubulares."
+  },
+  "perla": "Tratamiento: volumen (NaCl) + KCl; no administrar sales de K con anión alcalinizante (citrato/bicarbonato/acetato). Corregir Mg para reponer K.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (cap. Hipopotasemia)",
+   "Palmer BF, Clegg DJ. N Engl J Med 2015;373:548"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "sub": "25.b",
+  "tema_id": 25,
+  "obj": "25.o2",
+  "peso": 49.2
+ },
+ {
+  "id": "ATR-1",
+  "serie_id": "ATR",
+  "orden": 1,
+  "sub": "25.a",
+  "subtema": "Acidosis metabólica hiperclorémica: brecha urinaria",
+  "dificultad": "moderada",
+  "caso": "Mujer de 38 años con sequedad ocular y bucal, fatiga y debilidad muscular periódica. Gasometría arterial: pH 7.28, PaCO₂ 30 mmHg, HCO₃ 14 mEq/L. Na 138, K 2.8, Cl 113 mEq/L, albúmina 4.1 g/dL, creatinina 0.8 mg/dL. Orina: pH 6.8; Na 50, K 28, Cl 25 mEq/L.",
+  "enunciado": "¿Cuál es la interpretación del trastorno y de la brecha aniónica urinaria?",
+  "opciones": {
+   "A": "Alcalosis metabólica con acidosis respiratoria sobreagregada, por hipoventilación y retención de bicarbonato",
+   "B": "Acidosis metabólica de brecha aniónica elevada por tóxicos, con brecha osmolar aumentada y lactato elevado en sangre",
+   "C": "Brecha urinaria positiva que orienta a diarrea como causa, por pérdida intestinal de bicarbonato y potasio",
+   "D": "Acidosis metabólica de brecha normal compensada; la brecha urinaria positiva (+53) indica baja excreción de NH₄⁺ por defecto distal",
+   "E": "Acidosis respiratoria crónica compensada, con retención de CO₂ y aumento compensatorio del bicarbonato"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay alcalosis; el pH es 7.28.",
+   "B": "La AG sérica es normal; los tóxicos y cetoacidosis elevan la brecha.",
+   "C": "En la diarrea la brecha urinaria es negativa por alta excreción de NH₄⁺.",
+   "D": "La AG sérica = 138 − 113 − 14 = 11 mEq/L es normal (acidosis hiperclorémica); la PaCO₂ esperada por Winter es 1.5 × 14 + 8 = 29 ± 2 mmHg y la medida es 30: compensación adecuada. La brecha aniónica urinaria (Na + K − Cl) = 50 + 28 − 25 = +53 mEq/L: una brecha positiva en el contexto de acidosis significa que el riñón no está excretando NH₄⁺ (que aparece como Cl⁻ en la orina), indicando defecto renal de acidificación; una brecha negativa señala pérdida extrarrenal (diarrea) con adecuada excreción de NH₄⁺. El pH urinario >5.5 durante la acidosis y la hipopotasemia apoyan acidosis tubular renal distal (tipo 1).",
+   "E": "El pH está bajo con HCO₃ bajo y PaCO₂ también baja: es una acidosis metabólica, no respiratoria."
+  },
+  "perla": "AGU = Na + K − Cl en orina. Negativa (<0) → ↑NH₄⁺ (diarrea, extrarrenal). Positiva → ↓NH₄⁺ (ATR, IR). Winter: PaCO₂ = 1.5×HCO₃ + 8 ± 2.",
+  "referencias": [
+   "Berend K et al. N Engl J Med 2014;371:1434",
+   "Comprehensive Clinical Nephrology (cap. Acidosis tubular renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 25,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "continuacion": "",
+  "obj": "25.o1",
+  "peso": 63.3
+ },
+ {
+  "id": "HMG-1",
+  "serie_id": "HMG",
+  "orden": 1,
+  "sub": "5.f",
+  "subtema": "Hematuria glomerular aislada familiar",
+  "dificultad": "moderada",
+  "caso": "Niño de 9 años con hematuria microscópica detectada en un examen escolar. Asintomático, TA de 100/60 mmHg, creatinina de 0.5 mg/dL, sin proteinuria. El sedimento muestra eritrocitos dismórficos (80%) sin cilindros. La madre tiene hematuria microscópica desde la juventud, sin hipertensión, sordera ni insuficiencia renal. Complemento (C3, C4) normal.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Síndrome de Alport ligado al X con progresión a ERC terminal, hipoacusia y alteraciones oculares desde la adolescencia",
+   "B": "Enfermedad de membrana basal delgada (hematuria familiar benigna), por variantes heterocigotas COL4A3/4",
+   "C": "Hipercalciuria idiopática con litiasis, que explicaría la hematuria con eritrocitos isomórficos y no dismórficos",
+   "D": "Glomerulonefritis posestreptocócica, con hematuria, hipocomplementemia e infección previa de vías respiratorias",
+   "E": "Nefropatía por IgA recurrente, con episodios de hematuria macroscópica tras infecciones de vías respiratorias"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El Alport ligado al X en varones cursa con sordera neurosensorial, lesiones oculares y progresión a ERC; la madre portadora puede tener solo hematuria, pero aquí no hay datos de progresión ni otros hallazgos.",
+   "B": "La hematuria glomerular aislada, persistente, con función renal, TA y proteinuria normales y antecedente familiar de hematuria benigna sugiere enfermedad de membrana basal delgada, la causa más frecuente de hematuria familiar benigna (hasta 1% de la población). Se debe a variantes heterocigotas en COL4A3 o COL4A4, con herencia autosómica dominante. No requiere biopsia si el cuadro es típico, aunque ante proteinuria, hipertensión, sordera o deterioro de la función se sospecha una enfermedad de Alport o una nefropatía por IgA.",
+   "C": "La hipercalciuria causa hematuria isomórfica, a veces con litiasis.",
+   "D": "La GN posestreptocócica es aguda, con C3 bajo.",
+   "E": "La nefropatía por IgA suele presentar episodios de hematuria macroscópica tras infecciones y complemento normal, con proteinuria progresiva, no hematuria aislada familiar."
+  },
+  "perla": "Hematuria glomerular aislada familiar con función normal: MBD (COL4A3/A4 heterocigoto). Benigna, sin biopsia si es típica.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades de la membrana basal)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 5,
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "continuacion": "",
+  "obj": "5.o6",
+  "peso": 58.5
+ },
+ {
+  "id": "RAA-1",
+  "serie_id": "RAA",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "SRAA: efecto hemodinámico de los IECA sobre la TFG",
+  "dificultad": "moderada",
+  "caso": "Mujer de 66 años con diabetes tipo 2, hipertensión y ERC G3b (creatinina basal de 1.7 mg/dL; TFGe de 32 mL/min/1.73 m²), albuminuria de 900 mg/g. Se inicia lisinopril 10 mg. A las dos semanas: creatinina de 2.0 mg/dL, potasio de 5.4 mEq/L, TA de 138/82 mmHg.",
+  "enunciado": "¿Cuál es la interpretación y la conducta adecuada?",
+  "opciones": {
+   "A": "Suspender el IECA y diagnosticar estenosis bilateral de arteria renal sin más estudios, por el aumento de la creatinina",
+   "B": "Aumento hemodinámico esperado (<30%) por dilatación de la arteriola eferente: se continúa el IECA y se repiten creatinina y potasio en 1-2 semanas",
+   "C": "Suspender definitivamente el IECA por nefrotoxicidad, y sustituirlo por un antagonista del calcio para el control de la TA",
+   "D": "Duplicar la dosis de inmediato para compensar la elevación de la creatinina y lograr mayor reducción de la albuminuria",
+   "E": "Añadir un AINE para controlar la TA y reducir la retención de sodio inducida por el IECA en esta paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El aumento es menor de 30% y no justifica suspender ni diagnosticar estenosis sin otros datos.",
+   "B": "La angiotensina II constriñe la arteriola eferente y mantiene la presión intraglomerular; los IECA y ARA II vasodilatan la arteriola eferente, reducen la presión de filtración y producen un descenso inicial de la TFG, con aumento de la creatinina de hasta 30% en las primeras semanas, que es un efecto hemodinámico esperado y no indica daño estructural. La conducta es continuar el fármaco y vigilar creatinina y potasio en 1 a 2 semanas. Si la creatinina sube más de 30% o continúa aumentando, se investiga hipovolemia, uso de AINE o estenosis bilateral de arteria renal, y se reduce o suspende el fármaco.",
+   "C": "Una elevación menor de 30% no justifica suspender un fármaco que protege contra la progresión de la ERC diabética.",
+   "D": "Duplicar la dosis con potasio de 5.4 y creatinina en ascenso es riesgoso sin vigilancia.",
+   "E": "Los AINE aumentan el riesgo de lesión renal aguda hemodinámica y de hiperpotasemia con los IECA."
+  },
+  "perla": "IECA/ARA II: ↑Cr hasta 30% en 2–4 semanas es aceptable (vasodilatación eferente). >30%: buscar hipovolemia, AINE, estenosis renal bilateral.",
+  "referencias": [
+   "Bakris GL, Weir MR. Arch Intern Med 2000;160:685",
+   "KDIGO 2021 Blood Pressure in CKD"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "RAA-3",
+  "serie_id": "RAA",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia por bloqueo del SRAA: cómo mantener el tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente está euvolémica, sin disnea, con TA de 150/88 mmHg, y no desea suspender un tratamiento que protege su riñón. Tiene ECG sin cambios por hiperpotasemia.",
+  "enunciado": "¿Cuál estrategia permite mantener el bloqueo del SRAA?",
+  "opciones": {
+   "A": "Retirar el IECA de forma permanente y no volver a prescribirlo, por el riesgo de nuevas hiperpotasemias",
+   "B": "Indicar trimetoprim-sulfametoxazol para la infección, que no modifica el potasio en pacientes con ERC",
+   "C": "Administrar sustitutos de sal con cloruro de potasio, para mejorar la adherencia a la dieta hiposódica",
+   "D": "Añadir espironolactona para tratar la hiperpotasemia, por su efecto sobre la excreción renal de potasio",
+   "E": "Dieta baja en potasio, suspender AINE y suplementos, añadir diurético, corregir acidosis y usar un quelante (patiromer o SZC)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Suspender de por vida priva de protección renal y cardiovascular y es innecesario si se puede controlar el potasio.",
+   "B": "El trimetoprim bloquea el ENaC y favorece la hiperpotasemia.",
+   "C": "Los sustitutos de sal con cloruro de potasio aportan potasio y empeoran la hiperpotasemia.",
+   "D": "La espironolactona es un antagonista de la aldosterona y aumenta la hiperpotasemia.",
+   "E": "La hiperpotasemia por bloqueo del SRAA se maneja primero eliminando factores agravantes (AINE, suplementos de potasio, sustitutos de sal con KCl, trimetoprim, heparina), reduciendo el potasio de la dieta, y aumentando la excreción urinaria de potasio con un diurético tiazídico o de asa si no hay hipovolemia. La corrección de la acidosis con bicarbonato de sodio favorece la entrada de potasio a las células y su excreción. Si persiste la hiperpotasemia, los quelantes de potasio (patiromer, ciclosilicato de sodio y zirconio) permiten mantener los IECA o ARA II. La fludrocortisona se reserva para pacientes con hipoaldosteronismo verdadero sin hipertensión ni sobrecarga de volumen."
+  },
+  "perla": "Hiperpotasemia por iSRAA: quitar AINE/K/TMP, dieta, diurético, bicarbonato y quelante (patiromer, SZC) para mantener iSRAA.",
+  "referencias": [
+   "Palmer BF. N Engl J Med 2004;351:585",
+   "KDIGO 2024 CKD Guideline",
+   "Palmer BF, Clegg DJ. Core Curriculum 2019 de potasio. Am J Kidney Dis 2019;74:682"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 46.3
+ },
+ {
+  "id": "RAA-4",
+  "serie_id": "RAA",
+  "orden": 4,
+  "sub": "4.c",
+  "subtema": "Angioedema por IECA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Meses después, con la TA controlada, la paciente acude por edema súbito de labios y lengua sin urticaria ni prurito, sin vía aérea comprometida. Tomaba lisinopril desde hace 4 meses, y el edema comenzó hace 6 horas.",
+  "enunciado": "¿Cuál es el mecanismo y la conducta?",
+  "opciones": {
+   "A": "Reacción alérgica mediada por IgE; continuar el IECA con antihistamínicos para controlar el edema de labios",
+   "B": "Hipersensibilidad tardía; se trata con corticoides y se continúa el IECA a la misma dosis con vigilancia",
+   "C": "Déficit congénito de C1 inhibidor; reiniciar el IECA a la mitad de la dosis tras controlar el edema agudo",
+   "D": "Acumulación de bradicinina por inhibición de la cininasa II; suspender el IECA, vigilar la vía aérea y evitar sacubitrilo/valsartán",
+   "E": "Efecto directo de la angiotensina II sobre el endotelio vascular; se aumenta la dosis del IECA para bloquearlo"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El angioedema por IECA no es mediado por IgE; los antihistamínicos no lo revierten y continuar el fármaco expone a recurrencias con compromiso de la vía aérea.",
+   "B": "No es una hipersensibilidad tardía, y continuar el IECA expone al paciente a riesgo vital.",
+   "C": "El déficit de C1 inhibidor es una causa distinta, y los IECA están contraindicados en estos pacientes.",
+   "D": "La enzima convertidora de angiotensina (cininasa II) degrada también la bradicinina; los IECA aumentan su concentración, lo que produce angioedema sin urticaria, que puede aparecer incluso años después de iniciar el tratamiento, y que no responde bien a antihistamínicos ni a corticoides. Se suspende el IECA definitivamente y se vigila la vía aérea. El sacubitrilo/valsartán, que inhibe la neprilisina (otra enzima que degrada bradicinina), está contraindicado en el antecedente de angioedema por IECA. Los ARA II pueden usarse con cautela, por un riesgo bajo de recurrencia, tras resolver el cuadro.",
+   "E": "La angiotensina II no causa angioedema, y aumentar el IECA agravaría el cuadro."
+  },
+  "perla": "Angioedema por IECA: ↑bradicinina, sin urticaria, puede ser tardío; suspender definitivamente. Contraindicado sacubitrilo/valsartán. ARA II con cautela.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (farmacología antihipertensiva)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o3",
+  "peso": 47.9
+ },
+ {
+  "id": "BAR-1",
+  "serie_id": "BAR",
+  "orden": 1,
+  "sub": "1",
+  "subtema": "Barrera de filtración: selectividad de carga y tamaño",
+  "dificultad": "moderada",
+  "caso": "Niño de 5 años con edema palpebral y de miembros inferiores de 10 días de evolución, TA normal, creatinina de 0.4 mg/dL, proteinuria de 4.2 g/día, albúmina sérica de 1.6 g/dL y sedimento sin hematuria. La electroforesis de proteínas urinarias muestra casi exclusivamente albúmina.",
+  "enunciado": "¿Qué defecto de la barrera explica la proteinuria selectiva?",
+  "opciones": {
+   "A": "Aumento de la reabsorción tubular de albúmina, que eleva su concentración en la orina por saturación del túbulo proximal",
+   "B": "Rotura de la membrana basal que permite el paso de proteínas de alto peso molecular, como las inmunoglobulinas y el fibrinógeno",
+   "C": "Pérdida del endotelio fenestrado, con paso de eritrocitos y de proteínas de todos los tamaños hacia el espacio urinario",
+   "D": "Pérdida de carga aniónica y borramiento de pedicelos con filtro de tamaño conservado: pasa albúmina, no globulinas",
+   "E": "Obstrucción de los poros de hendidura por depósitos subepiteliales de inmunocomplejos, con reducción de la filtración"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La reabsorción tubular de albúmina no está aumentada; el problema es de la filtración.",
+   "B": "La rotura de la membrana basal causa proteinuria no selectiva con hematuria, como en el síndrome de Alport.",
+   "C": "La pérdida del endotelio no explica una proteinuria selectiva y se asocia a lesiones endoteliales como las de la preeclampsia.",
+   "D": "La barrera de filtración glomerular selecciona las proteínas por tamaño y por carga. La albúmina (aproximadamente 66 kDa, radio efectivo de 3.6 nm, carga negativa) está normalmente restringida sobre todo por la carga aniónica del glucocálix endotelial y de los proteoglucanos con heparán sulfato de la membrana basal, y por el diafragma de hendidura podocitario. En la enfermedad de cambios mínimos, la lesión podocitaria mediada por factores circulantes y los cambios en la carga y en la estructura de los pedicelos (borramiento difuso en la microscopía electrónica) aumentan el paso de albúmina, con filtro de tamaño conservado; la proteinuria es selectiva (albúmina casi exclusiva) y no hay hematuria. Esto explica la rápida respuesta a los glucocorticoides.",
+   "E": "Los depósitos subepiteliales corresponden a la nefropatía membranosa, con proteinuria no selectiva."
+  },
+  "perla": "Cambios mínimos: pérdida de carga + borramiento podocitario → albuminuria selectiva; sin hematuria. Barrera = glucocálix/endotelio + MBG + diafragma de hendidura.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "continuacion": "",
+  "obj": "1.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "BAR-2",
+  "serie_id": "BAR",
+  "orden": 2,
+  "sub": "1",
+  "subtema": "Componentes de la barrera glomerular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El niño se biopsia por falta de respuesta clínica a los glucocorticoides y se describe la estructura normal observada por microscopía electrónica en un fragmento sano.",
+  "enunciado": "¿Cuál es la descripción correcta de la barrera de filtración normal?",
+  "opciones": {
+   "A": "Endotelio fenestrado (70–100 nm), membrana basal de tres capas (320–370 nm) y podocitos con diafragma de hendidura (25–60 nm)",
+   "B": "Endotelio fenestrado con poros de 2 a 25 nm y podocitos sin hendiduras de filtración, sobre una membrana basal homogénea y delgada",
+   "C": "Membrana basal con colágeno tipo I y fibronectina únicamente, sin laminina ni proteoglucanos cargados negativamente",
+   "D": "Endotelio continuo sin fenestraciones, membrana basal de una sola capa y células epiteliales parietales con poros amplios y regulares",
+   "E": "Endotelio con fenestraciones de 1,000 a 1,500 nm, membrana basal delgada y podocitos con poros de 250 a 600 nm"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La barrera de filtración glomerular tiene tres capas: el endotelio fenestrado (poros de 70 a 100 nm, con glucocálix de carga negativa), la membrana basal glomerular (de cerca de 320 a 370 nm de grosor, con tres láminas: lámina rara interna, lámina densa central y lámina rara externa, formada por colágeno IV α3α4α5, laminina 521, nidógeno y heparán sulfato) y el epitelio visceral, es decir, los podocitos, cuyos pedicelos se interdigitan y dejan entre sí hendiduras cerradas por el diafragma de hendidura (nefrina, podocina, NEPH1, CD2AP) de 25 a 60 nm. El agua y los solutos pequeños pasan libremente, mientras que las proteínas mayores de 40 a 60 kDa o con carga negativa quedan restringidas. Las células epiteliales parietales revisten la cápsula de Bowman y no forman parte de la barrera.",
+   "B": "Las dimensiones de poros planteadas no corresponden a las fenestraciones endoteliales, y los podocitos sí tienen hendiduras.",
+   "C": "La membrana basal glomerular contiene colágeno IV, no tipo I.",
+   "D": "El endotelio glomerular es fenestrado, la membrana basal tiene tres láminas, y los podocitos son viscerales.",
+   "E": "Los valores de 1,000 a 1,500 nm y 250 a 600 nm exceden las dimensiones reales."
+  },
+  "perla": "Barrera: endotelio fenestrado (70–100 nm) + MBG trilaminar (320–370 nm; col IV α3α4α5, heparán sulfato) + podocitos (diafragma de hendidura 25–60 nm: nefrina/podocina).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 32.9
  }
 ]

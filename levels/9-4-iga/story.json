@@ -237,23 +237,19 @@
     },
     {
      "id": "t0_1",
-     "cast": "urg",
-     "specialty": "Urgencias",
-     "serie": "AZ9-2",
+     "cast": "aine",
+     "specialty": "Nefrotóxico",
+     "serie": "AZ9-5",
      "intro": [
       [
-       "Dra. Carmen Triaje",
-       "Tres camas, un minuto. Yo resuelvo sin pensar."
-      ],
-      [
-       "Dra. Carmen Triaje",
-       "Mi caso: Nefropatía por IgA"
+       "AINE",
+       "¿Hematuria? Te traigo ibuprofeno para la faringitis."
       ]
      ],
      "defeat": [
       [
-       "Dra. Carmen Triaje",
-       "Pensar un minuto salvó la cama tres."
+       "AINE",
+       "IgA y AINE no se llevan. Aviso al Capo."
       ]
      ],
      "questionTopics": [],
@@ -261,23 +257,23 @@
     },
     {
      "id": "t0_2",
-     "cast": "endo",
-     "specialty": "Endocrinología",
-     "serie": "AZ9-5",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "AZ9-2",
      "intro": [
       [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
       ],
       [
-       "Dr. Tiro Glándula",
+       "Dra. Sístole Ruiz",
        "Mi caso: Nefropatía por IgA"
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
       ]
      ],
      "questionTopics": [],
@@ -303,7 +299,7 @@
    ],
    "gates": [
     {
-     "after": "t0_0",
+     "after": "t0_1",
      "topic": "Patogenia de la nefropatía por IgA: múltiples golpes",
      "text": [
       [
@@ -431,23 +427,23 @@
     },
     {
      "id": "t1_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
+     "cast": "endo",
+     "specialty": "Endocrinología",
      "serie": "AZ9-3",
      "intro": [
       [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
       ],
       [
-       "Dra. Sístole Ruiz",
+       "Dr. Tiro Glándula",
        "Mi caso: Nefropatía por IgA"
       ]
      ],
      "defeat": [
       [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
       ]
      ],
      "questionTopics": [],
@@ -584,6 +580,10 @@
    [
     "Sabio Brenn",
     "En IgA se gana despacio: gramo a gramo de proteinuria."
+   ],
+   [
+    "Paciente",
+    "¿Una pastilla para el intestino me cuida el riñón? Qué cosas."
    ]
   ],
   "phases": [

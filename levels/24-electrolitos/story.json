@@ -224,7 +224,7 @@
      "id": "t0_0",
      "cast": "urg",
      "specialty": "Urgencias",
-     "serie": "HK",
+     "serie": "CDI",
      "intro": [
       [
        "Dra. Carmen Triaje",
@@ -238,13 +238,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t0_1",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "RAA",
+     "serie": "HK",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -252,7 +252,7 @@
       ],
       [
        "Dra. Sístole Ruiz",
-       "Mi caso: Hiperpotasemia por bloqueo del SRAA: cómo mantener el tratamiento"
+       "Mi caso: Hiperpotasemia grave: estabilización de membrana"
       ]
      ],
      "defeat": [
@@ -262,13 +262,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     },
     {
      "id": "t0_2",
      "cast": "cx",
      "specialty": "Cirugía",
-     "serie": "WDT-1",
+     "serie": "VOL",
      "intro": [
       [
        "Dr. Rocco Filo",
@@ -276,7 +276,7 @@
       ],
       [
        "Dr. Rocco Filo",
-       "Mi caso: Prueba de privación de agua: interpretación"
+       "Mi caso: Hipovolemia: índices urinarios en LRA prerrenal"
       ]
      ],
      "defeat": [
@@ -286,7 +286,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     }
    ],
    "wild": [
@@ -553,7 +553,7 @@
      "id": "t1_0",
      "cast": "cardio",
      "specialty": "Cardiología",
-     "serie": "HNH",
+     "serie": "VXS",
      "intro": [
       [
        "Dra. Sístole Ruiz",
@@ -573,7 +573,7 @@
      "id": "t1_1",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "HPK",
+     "serie": "RAA",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -581,7 +581,7 @@
       ],
       [
        "Dr. Tiro Glándula",
-       "Mi caso: Hipopotasemia refractaria"
+       "Mi caso: SRAA: efecto hemodinámico de los IECA sobre la TFG"
       ]
      ],
      "defeat": [
@@ -591,13 +591,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 3
+     "n": 4
     },
     {
      "id": "t1_2",
      "cast": "geria",
      "specialty": "Geriatría",
-     "serie": "HNS-1",
+     "serie": "HPK",
      "intro": [
       [
        "Dr. Anselmo Frágil",
@@ -605,7 +605,7 @@
       ],
       [
        "Dr. Anselmo Frágil",
-       "Mi caso: Hipernatremia por diuresis de solutos en nutrición enteral"
+       "Mi caso: Hipopotasemia refractaria"
       ]
      ],
      "defeat": [
@@ -615,7 +615,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 3
     }
    ],
    "wild": [
@@ -894,7 +894,7 @@
      "id": "t2_0",
      "cast": "endo",
      "specialty": "Endocrinología",
-     "serie": "SHK",
+     "serie": "FGF",
      "intro": [
       [
        "Dr. Tiro Glándula",
@@ -908,13 +908,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 2
+     "n": 4
     },
     {
      "id": "t2_1",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "TZD",
+     "serie": "HNH",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -922,7 +922,7 @@
       ],
       [
        "Dr. Félix Cultivo",
-       "Mi caso: Caso encadenado: hiponatremia por tiazida, mecanismo"
+       "Mi caso: Hipernatremia por diabetes insípida nefrogénica"
       ]
      ],
      "defeat": [
@@ -932,13 +932,13 @@
       ]
      ],
      "questionTopics": [],
-     "n": 4
+     "n": 3
     },
     {
      "id": "t2_2",
      "cast": "hema",
      "specialty": "Hematología",
-     "serie": "FUR-1",
+     "serie": "TZD",
      "intro": [
       [
        "Dra. Sara Esquistocito",
@@ -946,7 +946,7 @@
       ],
       [
        "Dra. Sara Esquistocito",
-       "Mi caso: Predicción de respuesta a la restricción hídrica"
+       "Mi caso: Caso encadenado: hiponatremia por tiazida, mecanismo"
       ]
      ],
      "defeat": [
@@ -956,7 +956,7 @@
       ]
      ],
      "questionTopics": [],
-     "n": 1
+     "n": 4
     }
    ],
    "wild": [
@@ -1147,9 +1147,9 @@
      "Clasificación"
     ],
     "questions": [
-     "HNA-1",
-     "HNA-2",
-     "HNA-3"
+     "SHK-1",
+     "SHK-2",
+     "SHK-3"
     ]
    },
    {
@@ -1165,9 +1165,8 @@
      "Tratamiento agudo"
     ],
     "questions": [
-     "HNA-4",
-     "CDI-1",
-     "CDI-2"
+     "SHK-4",
+     "SHK-5"
     ]
    },
    {
@@ -1183,9 +1182,8 @@
      "Potasio y minerales"
     ],
     "questions": [
-     "CDI-3",
-     "CDI-4",
-     "VXS-1"
+     "HNA-1",
+     "HNA-2"
     ]
    },
    {
@@ -1201,8 +1199,8 @@
      "Sobrecorrección"
     ],
     "questions": [
-     "VXS-2",
-     "VXS-3"
+     "HNA-3",
+     "HNA-4"
     ]
    }
   ]
@@ -1224,6 +1222,14 @@
    "text": "Hipercalcemia: PTH suprimida (PTHrP, vitamina D, osteólisis) o no (HPT primario, FHH). Realimentación: hipofosfatemia. HipoMg perpetúa hipoK e hipoCa."
   },
   {
+   "title": "💎 Resistencia a diuréticos y sobrecarga re",
+   "text": "Resistencia a diuréticos: infusión + bloqueo secuencial (tiazida/metolazona, acetazolamida). Sobrecarga refractaria con hipoxemia → TRR con UF neta (CRRT si inestable)."
+  },
+  {
+   "title": "💎 Prueba de estrés con furosemida",
+   "text": "FST: furosemida 1 mg/kg (1.5 si exposición previa); diuresis <200 mL/2 h predice LRA grado 3/TRR (S 87%, E 84%)."
+  },
+  {
    "title": "💎 Respuesta a líquidos en ventilación mecá",
    "text": "Ventilado, sin esfuerzos, sinusal, Vt ≥8: VPP >12–13% o dIVC >18% predicen respuesta a líquidos. Los parámetros estáticos (PVC, diámetro de VCI) no."
   },
@@ -1240,20 +1246,12 @@
    "text": "VExUS: mide congestión venosa (no respuesta a volumen). Grado 3 ↑ riesgo de LRA; guía diuréticos/UF."
   },
   {
-   "title": "💎 Hiponatremia grave sintomática",
-   "text": "Hipona grave: NaCl 3% 100–150 mL en bolo (10–20 min) ×1–3; ↑Na 4–6 mEq/L en 6 h; máx 8–10 mEq/L/24 h (8 si alto riesgo de ODS). Medir Na c/1–2 h."
+   "title": "💎 Elección del cristaloide: balanceado fre",
+   "text": "Crítico con riesgo de LRA: cristaloide balanceado (SMART, MAKE30 14.3% vs 15.4%). Evitar almidones. Salina → acidosis hiperclorémica."
   },
   {
-   "title": "💎 Hiponatremia: sobrecorrección y prevenci",
-   "text": "Sobrecorrección: DDAVP 2–4 µg c/6–8 h + D5W 3 mL/kg/h ('relowering'). ODS 2–6 días después. Alto riesgo: Na ≤105, hipoK, alcoholismo, desnutrición, hepatopatía."
-  },
-  {
-   "title": "💎 Caso encadenado: acuaresis y riesgo de s",
-   "text": "Diuresis >100 mL/h con orina diluida durante la corrección = acuaresis → riesgo de sobrecorrección → DDAVP ± D5W."
-  },
-  {
-   "title": "💎 Hiponatremia: diagnóstico de SIADH",
-   "text": "SIADH: Posm <275, Uosm >100, UNa >30, euvolemia, ↓ácido úrico/urea, excluir hipotiroidismo/cortisol/diuréticos. Causas: CPCP, fármacos, SNC, pulmón, dolor/náusea."
+   "title": "💎 Hipoaldosteronismo hiporreninémico (ATR ",
+   "text": "ATR tipo 4: ↑K, acidosis hiperclorémica, pH urinario <5.5, brecha aniónica urinaria positiva. Renina y aldosterona bajas = hiporreninémico (diabetes, AINE, IECA)."
   }
  ]
 }
