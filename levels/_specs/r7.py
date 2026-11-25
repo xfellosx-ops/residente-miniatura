@@ -30,7 +30,7 @@ LEVELS = [
  "boss": {"name": "El Microangiopático", "form": "vaso", "short": "Microangiopático", "color": "#c0392b", "dark": "#4a0f0a",
   "intro": [("El Microangiopático", "Rompo eritrocitos y tapo capilares. ¿Sabes quién me soltó?"), (J, "Diferencial, tratamiento dirigido, duración y genética.")],
   "phases": [("Diferencial urgente", ("El Microangiopático", "¿PTT, Shiga o complemento?")), ("Tratamiento", ("El Microangiopático", "¿Plasma o anti-C5?")), ("Causas secundarias", ("El Microangiopático", "Vengo con un fármaco.")), ("Grandes vasos", ("El Microangiopático", "Ahora tapo la arteria entera."))],
-  "outro": [("El Microangiopático", "El complemento se calla."), (B, "Recuperó plaquetas en días. El riñón tardará semanas.")]},
+  "outro": [("El Microangiopático", "El complemento se calla."), (B, "Recuperó plaquetas en días. El riñón tardará semanas."), ("Paciente", "Me dieron de alta con mi bebé. El riñón sigue mejorando.")]},
  "shields": [("ASTRAL / CORAL", "El astro del stent se apagó en el coral.", "Stent en estenosis ateroesclerótica: sin beneficio renal ni cardiovascular sobre el tratamiento médico.")],
  "vf": [("Una actividad de ADAMTS13 menor de 10 % confirma púrpura trombocitopénica trombótica.", "V", "Debe tomarse antes de dar plasma."),
         ("El SHU atípico se debe a desregulación de la vía alterna del complemento.", "V", "Variantes en factor H, I, MCP, C3 o anticuerpos anti-factor H."),
