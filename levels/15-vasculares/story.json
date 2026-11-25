@@ -262,23 +262,23 @@
     },
     {
      "id": "t0_2",
-     "cast": "cardio",
-     "specialty": "Cardiología",
+     "cast": "infecto",
+     "specialty": "Infectología",
      "serie": "RVJ-3",
      "intro": [
       [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
       ],
       [
-       "Dra. Sístole Ruiz",
+       "Dr. Félix Cultivo",
        "Mi caso: Bloqueo del SRAA en estenosis renal"
       ]
      ],
      "defeat": [
       [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
       ]
      ],
      "questionTopics": [],
@@ -367,53 +367,6 @@
       ]
      ],
      "pairs": []
-    },
-    {
-     "type": "memorama",
-     "title": "Memorama del tema",
-     "items": [],
-     "pairs": [
-      [
-       "Displasia fibromuscular",
-       "Mujer joven, angioplastia sin stent"
-      ],
-      [
-       "Estenosis aterosclerótica",
-       "Manejo médico (CORAL, ASTRAL)"
-      ],
-      [
-       "Ateroembolia",
-       "Livedo, eosinofilia, ↓C3 tras cateterismo"
-      ],
-      [
-       "SHU atípico",
-       "Complemento → eculizumab"
-      ],
-      [
-       "PTT",
-       "ADAMTS13 <10%"
-      ],
-      [
-       "SHU típico",
-       "E. coli productora de Shiga"
-      ],
-      [
-       "Crisis renal esclerodérmica",
-       "IECA (captopril)"
-      ],
-      [
-       "Trombosis de vena renal",
-       "Membranosa, albúmina <2.5"
-      ],
-      [
-       "Nefroesclerosis",
-       "Hialinosis arteriolar"
-      ],
-      [
-       "SAF",
-       "MAT → anticoagulación"
-      ]
-     ]
     }
    ],
    "cutscenes": [
@@ -540,23 +493,23 @@
     },
     {
      "id": "t1_1",
-     "cast": "endo",
-     "specialty": "Endocrinología",
+     "cast": "cx",
+     "specialty": "Cirugía",
      "serie": "RVJ-9",
      "intro": [
       [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
       ],
       [
-       "Dr. Tiro Glándula",
+       "Dr. Rocco Filo",
        "Mi caso: Enfermedad ateroembólica: diagnóstico"
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -564,23 +517,23 @@
     },
     {
      "id": "t1_2",
-     "cast": "infecto",
-     "specialty": "Infectología",
-     "serie": "MTJ-1",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "RVJ-2",
      "intro": [
       [
-       "Dr. Félix Cultivo",
-       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
       ],
       [
-       "Dr. Félix Cultivo",
-       "Mi caso: SHUa: genética del complemento"
+       "Dra. Sara Esquistocito",
+       "Mi caso: Displasia fibromuscular: evaluación sistémica"
       ]
      ],
      "defeat": [
       [
-       "Dr. Félix Cultivo",
-       "Ajustar la dosis también cura. Lo anoto."
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -669,12 +622,263 @@
      "lines": [
       [
        "Dr. J.",
-       "ADAMTS13 de 62 %. Ya sabes qué es. Ve."
+       "ADAMTS13 de 62 %. Es SHU atípico. Falta leer sus genes."
       ]
      ]
     }
    ],
    "card": "Estenosis ateroesclerótica: tratamiento médico (ASTRAL, CORAL). Ateroembolia: poscateterismo, eosinofilia. Crisis esclerodérmica: IECA."
+  },
+  {
+   "id": "z3",
+   "name": "Laboratorio del Complemento Heredado",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "vignette": "complemento",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Giro: variante en CFH. Y su hermana de 30 quiere donarle un riñón algún día."
+    ],
+    [
+     "Sabio Brenn",
+     "Antes de suspender el anti-C5 o aceptar donante, mira la genética."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Variante CFH",
+     "lines": [
+      [
+       "Variante CFH",
+       "Soy la variante de más riesgo: recaigo si me quitan el freno."
+      ],
+      [
+       "Variante CFH",
+       "Con CFH, suspender el anti-C5 se hace con cautela y vigilancia estrecha."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "genética del SHUa"
+    },
+    {
+     "id": "npc2",
+     "name": "Hermana Donante",
+     "lines": [
+      [
+       "Hermana Donante",
+       "Si porto la misma variante, donar me puede dar SHUa a mí."
+      ],
+      [
+       "Hermana Donante",
+       "Primero el estudio genético; después decidimos."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "donante emparentado"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Duración",
+     "Anti-C5 al menos 6–12 meses; suspender solo con vigilancia y según la variante."
+    ],
+    [
+     "Letrero · Trasplante",
+     "SHUa con CFH recurre sin profilaxis: el injerto lleva anti-C5."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "gen",
+     "specialty": "Genética",
+     "serie": "MTJ-2",
+     "intro": [
+      [
+       "Dra. Alelo Vargas",
+       "Ya está bien: suspendo el eculizumab y no pido genética."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Alelo Vargas",
+       "CFH tiene alto riesgo de recaída… primero la variante."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "MTJ-4",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "¿Vacuna antes del anti-C5? Eso es burocracia."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Meningococo, y profilaxis si no hay tiempo. Entendido."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "MTJ-1",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: SHUa: genética del complemento"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "C3b Recurrente",
+     "type": "Complemento",
+     "topic": "C3b Recurrente"
+    },
+    {
+     "name": "Anti-Factor H",
+     "type": "Humoral",
+     "topic": "Anti-Factor H"
+    },
+    {
+     "name": "Recaída Silenciosa",
+     "type": "Molecular",
+     "topic": "Recaída Silenciosa"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_1",
+     "topic": "SHU atípico: genética, duración del bloqueo y trasplante",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: la misma variante puede estar en el donante de la familia."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Gen y riesgo en el SHUa",
+     "items": [],
+     "pairs": [
+      [
+       "CFH",
+       "Alto riesgo de recaída y recurrencia"
+      ],
+      [
+       "MCP (CD46)",
+       "Poca recurrencia en el injerto"
+      ],
+      [
+       "Anti-factor H",
+       "Inmunosupresión además del anti-C5"
+      ],
+      [
+       "C3 o CFB activadores",
+       "Alto riesgo de recurrencia"
+      ],
+      [
+       "Sin variante hallada",
+       "Riesgo menor, no nulo"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Displasia fibromuscular",
+       "Mujer joven, angioplastia sin stent"
+      ],
+      [
+       "Estenosis aterosclerótica",
+       "Manejo médico (CORAL, ASTRAL)"
+      ],
+      [
+       "Ateroembolia",
+       "Livedo, eosinofilia, ↓C3 tras cateterismo"
+      ],
+      [
+       "SHU atípico",
+       "Complemento → eculizumab"
+      ],
+      [
+       "PTT",
+       "ADAMTS13 <10%"
+      ],
+      [
+       "SHU típico",
+       "E. coli productora de Shiga"
+      ],
+      [
+       "Crisis renal esclerodérmica",
+       "IECA (captopril)"
+      ],
+      [
+       "Trombosis de vena renal",
+       "Membranosa, albúmina <2.5"
+      ],
+      [
+       "Nefroesclerosis",
+       "Hialinosis arteriolar"
+      ],
+      [
+       "SAF",
+       "MAT → anticoagulación"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "La variante lo explica todo. El Microangiopático vuelve por ella."
+      ]
+     ]
+    }
+   ],
+   "card": "SHUa: anti-C5 al menos 6–12 meses; suspender según la variante (CFH, alto riesgo). Donante emparentado: genotipar antes. Injerto con anti-C5 profiláctico."
   }
  ],
  "boss": {
@@ -798,6 +1002,10 @@
   {
    "title": "Arterias Renales",
    "text": "Estenosis ateroesclerótica: tratamiento médico (ASTRAL, CORAL). Ateroembolia: poscateterismo, eosinofilia. Crisis esclerodérmica: IECA."
+  },
+  {
+   "title": "Laboratorio del Complemento Heredado",
+   "text": "SHUa: anti-C5 al menos 6–12 meses; suspender según la variante (CFH, alto riesgo). Donante emparentado: genotipar antes. Injerto con anti-C5 profiláctico."
   },
   {
    "title": "💎 Tratamiento de la causa: nefropatía memb",

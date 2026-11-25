@@ -241,33 +241,9 @@
     },
     {
      "id": "t0_1",
-     "cast": "cardio",
-     "specialty": "Cardiología",
-     "serie": "AZ11-1",
-     "intro": [
-      [
-       "Dra. Sístole Ruiz",
-       "Primero el corazón. El riñón que espere."
-      ],
-      [
-       "Dra. Sístole Ruiz",
-       "Mi caso: Podocitopatías"
-      ]
-     ],
-     "defeat": [
-      [
-       "Dra. Sístole Ruiz",
-       "Cardiorrenal: van juntos. Aprendí."
-      ]
-     ],
-     "questionTopics": [],
-     "n": 1
-    },
-    {
-     "id": "t0_2",
      "cast": "infecto",
      "specialty": "Infectología",
-     "serie": "AZ11-4",
+     "serie": "AZ11-1",
      "intro": [
       [
        "Dr. Félix Cultivo",
@@ -282,6 +258,30 @@
       [
        "Dr. Félix Cultivo",
        "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "AZ11-5",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Podocitopatías"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -469,23 +469,23 @@
     },
     {
      "id": "t1_2",
-     "cast": "endo",
-     "specialty": "Endocrinología",
+     "cast": "cx",
+     "specialty": "Cirugía",
      "serie": "AZ11-3",
      "intro": [
       [
-       "Dr. Tiro Glándula",
-       "Hormona que veo, hormona que repongo."
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
       ],
       [
-       "Dr. Tiro Glándula",
+       "Dr. Rocco Filo",
        "Mi caso: Podocitopatías"
       ]
      ],
      "defeat": [
       [
-       "Dr. Tiro Glándula",
-       "Primero el riñón, luego el frasco. Sigue."
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
       ]
      ],
      "questionTopics": [],
@@ -547,12 +547,216 @@
      "lines": [
       [
        "Dr. J.",
-       "Biopsia nueva: sí era GEFS. El borrador ya te espera."
+       "Biopsia nueva: sí era GEFS. Pero su hermana menor tiene cambios mínimos."
       ]
      ]
     }
    ],
    "card": "GEFS primaria: nefrótico + borramiento difuso → esteroide; resistencia → anticalcineurínico. Secundaria: iSRAA/iSGLT2. Genética: no inmunosuprimir."
+  },
+  {
+   "id": "z3",
+   "name": "Ganglio de la Memoria",
+   "palette": [
+    "#E8D8F0",
+    "#A080C0",
+    "#583878",
+    "#201030"
+   ],
+   "tiles": "pantano",
+   "vignette": "rituximab_cd20",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Giro: remitió con rituximab y a los 9 meses recae. Los CD19 ya regresaron."
+    ],
+    [
+     "Sabio Brenn",
+     "El anti-nefrina volvió antes que la proteinuria. El ganglio guarda memoria."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Linfocito B de Memoria",
+     "lines": [
+      [
+       "Linfocito B de Memoria",
+       "Sobreviví al rituximab escondido en el ganglio."
+      ],
+      [
+       "Linfocito B de Memoria",
+       "Cuando regreso a la sangre, el anti-nefrina sube otra vez."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "repoblación B"
+    },
+    {
+     "id": "npc2",
+     "name": "Obinutuzumab",
+     "lines": [
+      [
+       "Obinutuzumab",
+       "Soy anti-CD20 tipo II: depleto más hondo en los tejidos."
+      ],
+      [
+       "Obinutuzumab",
+       "Me estudian para sostener la remisión en las recaídas frecuentes."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "anti-CD20 tipo II"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Recaídas",
+     "≥2 recaídas en 6 meses o dependencia: rituximab, anticalcineurínico o ciclofosfamida."
+    ],
+    [
+     "Letrero · Vigilar",
+     "Mide CD19 y, si se puede, anti-nefrina antes de redosificar."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "AZ11-8",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Si recae tras rituximab, ya no sirve. Ciclofosfamida y listo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "Redosificar guiado por CD19 suele funcionar. Lo intento."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "AZ11-10",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Rituximab una vez en la vida, y nunca más."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Repoblación y recaída… redosificar no es pecado."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "AZ11-4",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: Podocitopatías"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Linfocito B de Memoria",
+     "type": "Humoral",
+     "topic": "Linfocito B de Memoria"
+    },
+    {
+     "name": "Anti-Nefrina Resurgente",
+     "type": "Humoral",
+     "topic": "Anti-Nefrina Resurgente"
+    },
+    {
+     "name": "Recaída Silenciosa",
+     "type": "Molecular",
+     "topic": "Recaída Silenciosa"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_1",
+     "topic": "Recaídas y ahorradores de esteroide en podocitopatías",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: si hay anticuerpo, hay blanco. Y el linfocito B vuelve."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Ahorradores de esteroide",
+     "items": [],
+     "pairs": [
+      [
+       "Rituximab",
+       "Anti-CD20; redosificar por CD19"
+      ],
+      [
+       "Tacrolimus",
+       "Anticalcineurínico; vigilar valles"
+      ],
+      [
+       "Ciclofosfamida",
+       "Alquilante; contar la dosis total"
+      ],
+      [
+       "Micofenolato",
+       "Antimetabolito; menos eficaz"
+      ],
+      [
+       "Obinutuzumab",
+       "Anti-CD20 tipo II"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Otra dosis de rituximab y anti-nefrina negativo. El Borrador sale a pelear."
+      ]
+     ]
+    }
+   ],
+   "card": "Podocitopatía con recaídas: ahorrador de esteroide; el rituximab se redosifica cuando vuelven los CD19. El anti-nefrina marca actividad y explica el anti-CD20."
   }
  ],
  "boss": {
@@ -668,6 +872,10 @@
   {
    "title": "Ruinas Segmentarias",
    "text": "GEFS primaria: nefrótico + borramiento difuso → esteroide; resistencia → anticalcineurínico. Secundaria: iSRAA/iSGLT2. Genética: no inmunosuprimir."
+  },
+  {
+   "title": "Ganglio de la Memoria",
+   "text": "Podocitopatía con recaídas: ahorrador de esteroide; el rituximab se redosifica cuando vuelven los CD19. El anti-nefrina marca actividad y explica el anti-CD20."
   },
   {
    "title": "💎 Preeclampsia sobreañadida vs brote de en",
