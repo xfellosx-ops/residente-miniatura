@@ -1,0 +1,3292 @@
+[
+ {
+  "id": "ACB-4",
+  "serie_id": "ACB",
+  "orden": 4,
+  "tema": "Enfermedades hereditarias del riñón",
+  "subtema": "Tubulopatías: Gitelman y Bartter",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente de 28 años, normotensa (TA 96/60 mmHg), tiene calambres, tetania ocasional y debilidad desde la adolescencia. Niega vómito y uso de laxantes o diuréticos, con tamizaje urinario de diuréticos negativo. Na 136, K 2.8, Mg 1.2 mg/dL, HCO3 31 mEq/L. Cl urinario 70 mEq/L; calcio urinario/creatinina 0.03 mg/mg; ultrasonido renal sin nefrocalcinosis.",
+  "enunciado": "¿Cuál es el diagnóstico y el fundamento del tratamiento?",
+  "opciones": {
+   "A": "Acidosis tubular distal: bicarbonato de sodio, porque causa pérdida urinaria de potasio con acidosis hiperclorémica",
+   "B": "Síndrome de Bartter clásico (NKCC2): dieta restringida en sodio y diurético tiazídico, que corrige la hipocalemia de forma sostenida",
+   "C": "Síndrome de Liddle (ENaC): amilorida y restricción de sodio, por la hipertensión con renina y aldosterona bajas",
+   "D": "Hiperaldosteronismo primario: espironolactona y adrenalectomía, por hipertensión con hipocalemia y renina suprimida",
+   "E": "Gitelman (SLC12A3, cotransportador Na-Cl): dieta libre en sal, reposición de KCl y magnesio, y espironolactona o amilorida si persiste"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La ATD cursa con acidosis metabólica hiperclorémica de brecha normal, no con alcalosis.",
+   "B": "El Bartter se asocia con hipercalciuria (y nefrocalcinosis), no con hipocalciuria; las tiazidas no se usan porque empeoran la depleción.",
+   "C": "Liddle cursa con HTA grave, renina y aldosterona suprimidas; esta paciente es normotensa.",
+   "D": "Hiperaldosteronismo primario cursa con HTA y renina suprimida; aquí no hay HTA.",
+   "E": "Normotensión o hipotensión con hipocalemia, alcalosis metabólica, hipomagnesemia, Cl urinario elevado e hipocalciuria (Ca/Cr <0.07 mg/mg) es el patrón de Gitelman, que remeda el uso crónico de tiazidas (pérdida del cotransportador Na-Cl del túbulo contorneado distal por mutaciones de SLC12A3). La hipomagnesemia por pérdida renal y la hipocalciuria lo distinguen del Bartter. Tratamiento: dieta libre en sal, reposición de KCl y Mg (Mg oral en dosis fraccionadas, que causa diarrea), y bloqueo de la reabsorción de Na en el túbulo colector (espironolactona, eplerenona o amilorida) en caso de hipocalemia persistente; los AINE son menos eficaces que en Bartter."
+  },
+  "perla": "Gitelman (SLC12A3): hipoK, alcalosis, hipoMg, hipoCa urinario, edad adolescente/adulto. Bartter (NKCC2, ROMK, ClC-Kb): hipercalciuria, poliuria, inicio temprano; AINE útiles. Mimetismo: furosemida (Bartter), tiazidas (Gitelman).",
+  "referencias": [
+   "Blanchard A et al. Kidney Int 2017;91:24 (KDIGO Controversies: Gitelman)",
+   "Comprehensive Clinical Nephrology (cap. Tubulopatías hereditarias)"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "16.a.ii",
+  "tema_id": 16,
+  "obj": "16.o1",
+  "peso": 59.3
+ },
+ {
+  "id": "ATR-2",
+  "serie_id": "ATR",
+  "orden": 2,
+  "sub": "16.d.iii",
+  "subtema": "ATR distal: etiología y complicaciones",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la exploración: xeroftalmia y xerostomía; tras la prueba de Schirmer positiva, anti-Ro/SSA positivo, ANA 1:640. Calcio urinario 310 mg/24 h, citrato urinario 40 mg/24 h. Ultrasonido renal con hiperecogenicidad medular difusa y calcificaciones.",
+  "enunciado": "¿Cuál es el diagnóstico y qué complicación renal explica los hallazgos de imagen?",
+  "opciones": {
+   "A": "ATR distal (tipo 1) por síndrome de Sjögren, con nefrocalcinosis por hipercalciuria, hipocitraturia y orina alcalina",
+   "B": "Hipercalcemia hipocalciúrica familiar, con hipercalcemia leve y calcio urinario bajo, sin acidosis metabólica asociada",
+   "C": "ATR proximal (tipo 2) con síndrome de Fanconi, con pérdida de bicarbonato, glucosa, fosfato y aminoácidos",
+   "D": "ATR tipo 4 por hipoaldosteronismo, con hiperpotasemia y acidosis hiperclorémica sin nefrocalcinosis ni litiasis renal",
+   "E": "Enfermedad de Dent con nefrolitiasis, con proteinuria de bajo peso molecular, hipercalciuria y pérdida renal de fosfato"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La ATR distal (tipo 1) se debe a incapacidad de la célula intercalada α para secretar H⁺ (bomba H⁺-ATPasa o intercambiador Cl⁻/HCO₃⁻), con pH urinario >5.5 en acidosis, hipopotasemia, hipercalciuria y, por la hipocitraturia, nefrolitiasis y nefrocalcinosis medular de fosfato de calcio (orina alcalina favorece su precipitación). El síndrome de Sjögren (anti-Ro/La, sialoadenitis) es la causa adquirida más común en mujeres; otras: lupus, anfotericina B, litio, hipercalciuria idiopática, y formas hereditarias (SLC4A1, ATP6V1B1, ATP6V0A4). Se requiere vigilar la función renal por nefritis intersticial asociada.",
+   "B": "En la hipercalcemia hipocalciúrica familiar la calciuria es baja.",
+   "C": "La ATR proximal cursa con bicarbonaturia y pH urinario <5.5 cuando el bicarbonato sérico es bajo, y suele haber glucosuria, aminoaciduria y fosfaturia (Fanconi).",
+   "D": "La ATR tipo 4 cursa con hiperpotasemia, no hipopotasemia.",
+   "E": "La enfermedad de Dent es proteinuria de bajo peso molecular con hipercalciuria y nefrocalcinosis, pero sin xeroftalmia ni anti-Ro."
+  },
+  "perla": "dRTA: pH urinario >5.5, hipoK, hipercalciuria, hipocitraturia, nefrocalcinosis. Causas: Sjögren, LES, litio, anfotericina, SLC4A1/ATP6V0A4. Proximal: Fanconi, FEHCO₃ >15%. Tipo 4: hiperK.",
+  "referencias": [
+   "Palmer BF et al. Adv Ther 2021;38:949 (ATR)",
+   "Comprehensive Clinical Nephrology (cap. Acidosis tubular renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 44.6
+ },
+ {
+  "id": "ATR-3",
+  "serie_id": "ATR",
+  "orden": 3,
+  "sub": "16.d.iii",
+  "subtema": "ATR distal: tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Pesa 55 kg. Se decide iniciar tratamiento alcalinizante. El potasio sérico es de 2.8 mEq/L.",
+  "enunciado": "¿Cuál es la estrategia más adecuada?",
+  "opciones": {
+   "A": "Solo bicarbonato de sodio sin potasio, porque basta con corregir la acidosis para normalizar el potasio sérico",
+   "B": "Restricción de sodio y diuréticos tiazídicos para la hipercalciuria, sin alcalinizar la orina de la paciente",
+   "C": "Dosis de 10–15 mEq/kg/día de bicarbonato con un tiazídico para la depleción de volumen en la paciente",
+   "D": "Acetazolamida para estimular la excreción de bicarbonato, con reposición de potasio en dosis fraccionadas",
+   "E": "Citrato de potasio (≈1–2 mEq/kg/día fraccionado) para corregir acidosis, hipopotasemia e hipocitraturia; evitar tiazídicos"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El bicarbonato de sodio sin potasio puede agravar la hipopotasemia.",
+   "B": "Sin alcalinización la acidosis crónica agrava la hipercalciuria y la nefrocalcinosis; los tiazídicos agravarían la hipopotasemia.",
+   "C": "Las dosis de 10–15 mEq/kg/día se usan en ATR proximal, donde el bicarbonato se pierde; el tiazídico se usa en proximal para contraer volumen.",
+   "D": "La acetazolamida inhibe la anhidrasa carbónica y empeora la acidosis y la hipopotasemia.",
+   "E": "El tratamiento de la ATR distal es alcalinización con 1–2 mEq/kg/día de bicarbonato o citrato (hasta 3–4 mEq/kg/día en niños), dividida en varias dosis; el citrato de potasio es preferible cuando hay hipopotasemia e hipocitraturia, porque corrige la acidosis, repone potasio y aumenta el citrato urinario (inhibidor de cristalización), previniendo nefrolitiasis y progresión de la nefrocalcinosis. Se controlan potasio y bicarbonato, y se evita sobrecorrección. La hipopotasemia grave debe corregirse al mismo tiempo, porque el solo bicarbonato de sodio puede empeorarla al ingresar el K a la célula y aumentar la entrega distal de sodio."
+  },
+  "perla": "dRTA: 1–2 mEq/kg/d alcali; citrato de K si hipoK/hipocitraturia. pRTA: 10–15 mEq/kg/d + tiazida. Evitar acetazolamida. Controlar K, Ca urinario, citrato y nefrocalcinosis.",
+  "referencias": [
+   "Palmer BF et al. Adv Ther 2021;38:949 (ATR)",
+   "Comprehensive Clinical Nephrology (cap. Acidosis tubular renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 42.6
+ },
+ {
+  "id": "PDO-1",
+  "serie_id": "PDO",
+  "orden": 1,
+  "sub": "16.c.v",
+  "subtema": "GEFS familiar y podocitopatías genéticas",
+  "dificultad": "dificil",
+  "caso": "Mujer de 19 años con síndrome nefrótico corticorresistente tras 16 semanas de prednisona (proteinuria 5 g/24 h, albúmina 2.6 g/dL, Cr 0.9 mg/dL). Su hermano tuvo síndrome nefrótico con ERC terminal en la adolescencia; los padres son consanguíneos. La biopsia muestra GEFS.",
+  "enunciado": "¿Cuál es el siguiente paso más apropiado?",
+  "opciones": {
+   "A": "Estudio genético de podocitopatías (NPHS1, NPHS2, WT1, TRPC6, ACTN4, INF2) antes de intensificar la inmunosupresión",
+   "B": "Ciclofosfamida y rituximab de inmediato, porque la corticorresistencia indica un trastorno inmunológico que debe tratarse sin demora",
+   "C": "Repetir los esteroides 16 semanas más a dosis plena, porque la respuesta puede aparecer de forma tardía en adultos jóvenes",
+   "D": "Trasplante renal preventivo antes de que aparezca la ERC terminal, para evitar la progresión de la enfermedad",
+   "E": "Plasmaféresis diaria durante dos semanas, porque la proteinuria depende de un factor circulante removible"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El síndrome nefrótico corticorresistente con GEFS y antecedente familiar, consanguinidad o inicio temprano sugiere una forma monogénica (hasta 30% de los casos en cohortes pediátricas). El panel genético incluye NPHS1 (nefrina), NPHS2 (podocina), WT1, TRPC6, ACTN4 e INF2 (dominantes, de inicio en el adulto), CD2AP, LAMB2, COQ2 y otros. Identificar una variante evita inmunosupresión inútil y tóxica, orienta el pronóstico y el riesgo de recurrencia postrasplante (bajo en formas monogénicas) y permite asesoría familiar.",
+   "B": "La inmunosupresión intensiva es ineficaz en formas monogénicas.",
+   "C": "Insistir con esteroides en corticorresistencia no es útil.",
+   "D": "No se plantea trasplante preventivo con función renal conservada.",
+   "E": "La plasmaféresis no se indica sin sospecha de forma circulante."
+  },
+  "perla": "SN corticorresistente familiar o consanguíneo: panel genético (NPHS2, NPHS1, WT1, TRPC6, ACTN4, INF2) antes de inmunosuprimir.",
+  "referencias": [
+   "Sadowski CE et al. J Am Soc Nephrol 2015;26:1279",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o4",
+  "peso": 25.8
+ },
+ {
+  "id": "PDO-2",
+  "serie_id": "PDO",
+  "orden": 2,
+  "sub": "16.c.v",
+  "subtema": "Proteínas del diafragma de hendidura",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El panel genético detecta variantes patogénicas homocigotas en NPHS2.",
+  "enunciado": "¿Qué proteína está afectada y cuál es la herencia?",
+  "opciones": {
+   "A": "Nefrina; herencia ligada al X, con síndrome nefrótico congénito y proteinuria desde el período neonatal",
+   "B": "Podocina, proteína del diafragma de hendidura; herencia autosómica recesiva, con síndrome nefrótico corticorresistente",
+   "C": "Colágeno IV α5; herencia ligada al X, con hematuria, sordera neurosensorial y lesiones oculares características en varones",
+   "D": "TRPC6; herencia autosómica recesiva, con síndrome nefrótico de inicio en la infancia y respuesta a esteroides sostenida",
+   "E": "Uromodulina; herencia autosómica dominante, con hiperuricemia, gota de inicio temprano y enfermedad tubulointersticial progresiva"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La nefrina (NPHS1) es autosómica recesiva, no ligada al X.",
+   "B": "NPHS2 codifica podocina, que ancla la nefrina al citoesqueleto del diafragma de hendidura. Las variantes bialélicas producen síndrome nefrótico corticorresistente de inicio en la infancia o juventud, con GEFS o esclerosis mesangial difusa. NPHS1 (nefrina) causa el síndrome nefrótico congénito de tipo finlandés, autosómico recesivo. TRPC6, ACTN4 e INF2 son autosómicos dominantes con GEFS de inicio en la edad adulta. WT1 se asocia a síndromes de Denys-Drash y Frasier. La variante p.R229Q es un alelo hipomórfico, patogénico en trans con otra variante.",
+   "C": "COL4A5 causa Alport ligado al X.",
+   "D": "TRPC6 es autosómica dominante.",
+   "E": "La uromodulina se asocia a enfermedad tubulointersticial autosómica dominante."
+  },
+  "perla": "NPHS2 (podocina): SRNS autosómico recesivo; NPHS1: finlandés; WT1: Denys-Drash/Frasier; TRPC6, ACTN4, INF2: GEFS dominante del adulto.",
+  "referencias": [
+   "Sadowski CE et al. J Am Soc Nephrol 2015;26:1279",
+   "Comprehensive Clinical Nephrology (enfermedades podocitarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 25.8
+ },
+ {
+  "id": "PDO-3",
+  "serie_id": "PDO",
+  "orden": 3,
+  "sub": "16.c.v",
+  "subtema": "Manejo de las podocitopatías monogénicas",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Una vez confirmada la variante en NPHS2, la paciente pregunta si debe continuar la inmunosupresión.",
+  "enunciado": "¿Cuál es la conducta apropiada?",
+  "opciones": {
+   "A": "Suspender la inmunosupresión sin beneficio y dar antiproteinúricos (IECA/ARA-II, iSGLT2) con seguimiento y consejo genético",
+   "B": "Dosis altas de esteroides de forma crónica, porque la función de la podocina se regula por vía de los glucocorticoides",
+   "C": "Retirar el IECA por el riesgo de hiperpotasemia, porque el bloqueo del SRAA no reduce la proteinuria genética",
+   "D": "Continuar ciclofosfamida por 12 meses, porque la mayoría de las variantes de NPHS2 responde a los alquilantes y a los esteroides",
+   "E": "Iniciar rituximab mensual indefinido, porque la depleción de linfocitos B corrige el defecto genético del podocito de la paciente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Las formas monogénicas de síndrome nefrótico corticorresistente no responden a inmunosupresores y se exponen a toxicidad innecesaria. El manejo es sintomático: bloqueo del SRAA, control de TA, tratamiento del edema y las complicaciones, y nefroprotección con iSGLT2 según la indicación, además de consejo genético y detección en familiares. Algunas formas (COQ2, COQ6 y otras coenzima Q10) responden a suplementación. La ERC terminal se maneja con diálisis y trasplante, con bajo riesgo de recurrencia en formas monogénicas.",
+   "B": "Los esteroides crónicos solo agregan toxicidad.",
+   "C": "Los IECA/ARA-II son la base del tratamiento antiproteinúrico.",
+   "D": "La ciclofosfamida no es eficaz en formas monogénicas.",
+   "E": "El rituximab no tiene beneficio documentado en formas monogénicas."
+  },
+  "perla": "SRNS monogénico: sin inmunosupresión; IECA/ARA-II + nefroprotección; excepciones: formas de CoQ10 responden a suplementación.",
+  "referencias": [
+   "Sadowski CE et al. J Am Soc Nephrol 2015;26:1279",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 23.8
+ },
+ {
+  "id": "PDO-4",
+  "serie_id": "PDO",
+  "orden": 4,
+  "sub": "16.c.v",
+  "subtema": "Recurrencia de GEFS tras el trasplante según el tipo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente progresa a ERC terminal y se trasplanta con un riñón de donador fallecido. Se pregunta por la recurrencia de GEFS en el injerto.",
+  "enunciado": "¿Cuál es el riesgo esperado y la razón?",
+  "opciones": {
+   "A": "Alto, porque la variante genética de la receptora se expresa en los podocitos del injerto y reproduce la enfermedad original",
+   "B": "Nulo en todos los tipos de GEFS, porque el trasplante corrige de forma definitiva cualquier causa de la enfermedad",
+   "C": "Siempre alto por tratarse de GEFS, porque la lesión podocitaria se transmite al nuevo riñón en cualquier variante",
+   "D": "Bajo, pues la causa es genética podocitaria y no un factor circulante; en la GEFS primaria es de 30–50%",
+   "E": "Igual en formas monogénicas y primarias, porque ambas se deben a lesión podocitaria con el mismo riesgo de recurrencia"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El injerto de un donador no portador no hereda la variante del receptor.",
+   "B": "En formas primarias la recurrencia es relevante.",
+   "C": "La recurrencia depende del tipo de GEFS; no es siempre alta.",
+   "D": "En la GEFS primaria idiopática, probablemente mediada por factores circulantes (por ejemplo, suPAR y otros), la recurrencia postrasplante ocurre en 30 a 50% de los casos, con mayor riesgo si hay inicio temprano, progresión rápida a ERC terminal y recurrencia previa. En las formas monogénicas (NPHS2, NPHS1 y otras), el injerto no porta la variante y la recurrencia es rara, aunque puede presentarse una forma de nefrosis de novo por anticuerpos anti-nefrina en el síndrome finlandés con mutaciones nulas. La plasmaféresis y el rituximab se usan en la recurrencia de la forma primaria.",
+   "E": "El riesgo difiere de manera sustancial entre ambos tipos."
+  },
+  "perla": "Recurrencia postrasplante: GEFS primaria 30–50%; formas monogénicas, rara. Excepción: anti-nefrina de novo en finlandés.",
+  "referencias": [
+   "Uffing A et al. Clin J Am Soc Nephrol 2020;15:247",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 25.8
+ },
+ {
+  "id": "ALP-1",
+  "serie_id": "ALP",
+  "orden": 1,
+  "sub": "16.c.i",
+  "subtema": "Síndrome de Alport: genética",
+  "dificultad": "moderada",
+  "caso": "Mujer de 19 años con episodios recurrentes de hematuria macroscópica sin coágulos desde la infancia, Cr 1.5 mg/dL y relación albúmina/creatinina de 0.9 g/g. Su abuelo materno y un tío materno tuvieron hematuria, sordera y enfermedad renal terminal en la juventud. La microscopía electrónica de la biopsia muestra engrosamiento irregular de la membrana basal con laminación.",
+  "enunciado": "¿Cuál es la alteración genética más probable?",
+  "opciones": {
+   "A": "Mutaciones de genes del complemento (CFH o C3), que causan glomerulopatía C3 con hematuria macroscópica recurrente",
+   "B": "Variante patogénica en COL4A5, con herencia ligada al X, que es la forma más frecuente del síndrome de Alport",
+   "C": "Mutación de LAMB2, que causa el síndrome de Pierson con esclerosis mesangial difusa y alteraciones oculares",
+   "D": "Variantes bialélicas en COL4A3 como causa más frecuente, con herencia autosómica recesiva y afectación de ambos padres",
+   "E": "Mutación de PKD1, que causa riñones poliquísticos agrandados con múltiples quistes bilaterales desde la juventud"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Las mutaciones del complemento causan SHUa y C3G.",
+   "B": "Alrededor de 80 a 85% de los casos de síndrome de Alport son ligados al X por variantes en COL4A5 (cadena α5 del colágeno IV). Las mujeres heterocigotas pueden tener hematuria desde la infancia y una evolución variable según la inactivación del X; el patrón familiar (abuelo y tío maternos afectados) apoya la herencia ligada al X. Las formas autosómicas recesivas (COL4A3/COL4A4 en dos copias) son 15% de los casos y las autosómicas dominantes (variantes heterocigotas en COL4A3/COL4A4), antes consideradas raras, se reconocen con mayor frecuencia por secuenciación (hasta 20 a 30% de las cohortes con NGS). Se confirma con panel genético.",
+   "C": "LAMB2 causa el síndrome de Pierson.",
+   "D": "Las formas por COL4A3 bialélico son recesivas y mucho menos frecuentes que la forma ligada al X.",
+   "E": "PKD1 causa la poliquistosis renal autosómica dominante."
+  },
+  "perla": "Alport: COL4A5 ligado al X (80–85%); AR COL4A3/A4 (15%); AD (COL4A3/A4 heterocigoto) más frecuente de lo creído con NGS (20–30% de cohortes). El antecedente de varones afectados con sordera y ERC orienta a la forma ligada al X.",
+  "referencias": [
+   "Kashtan CE et al. Pediatr Nephrol 2013;28:5",
+   "Savige J et al. J Am Soc Nephrol 2013;24:364"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o3",
+  "peso": 66.5
+ },
+ {
+  "id": "ALP-2",
+  "serie_id": "ALP",
+  "orden": 2,
+  "sub": "16.c.i",
+  "subtema": "Alport: microscopía electrónica e inmunofluorescencia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El patólogo debe describir los hallazgos característicos de la microscopía electrónica y las tinciones de colágeno IV.",
+  "enunciado": "¿Cuál es el patrón esperado?",
+  "opciones": {
+   "A": "Adelgazamiento difuso aislado de la membrana basal sin laminación ni desdoblamiento, con colágeno IV conservado",
+   "B": "Lámina densa engrosada, desdoblada y laminada con ausencia de las cadenas α3-α5 del colágeno IV en la MBG",
+   "C": "Inclusiones tubuloreticulares endoteliales con depósitos mesangiales y subendoteliales de tipo «huella digital» en la ME",
+   "D": "Fibrillas de 10 nm sin ramificar en el mesangio y la pared capilar, con rojo Congo positivo y birrefringencia",
+   "E": "Depósitos subepiteliales con espigas en la plata metenamina y con engrosamiento uniforme de la membrana basal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El adelgazamiento difuso aislado es de la membrana basal delgada, sin laminación.",
+   "B": "La microscopía electrónica del Alport muestra una membrana basal glomerular alternadamente adelgazada y engrosada, con laminación de la lámina densa ('basket-weave') y gránulos electrodensos en las capas separadas. En varones con forma ligada al X, la IF para las cadenas α3, α4 y α5 de colágeno IV está ausente en la membrana basal glomerular y la α5 también en la cápsula de Bowman y la membrana basal tubular distal; en mujeres heterocigotas la tinción es en mosaico. La biopsia de piel con tinción de α5 puede ser útil en varones.",
+   "C": "Las inclusiones tubuloreticulares se ven en lupus y VIH.",
+   "D": "Las fibrillas de 10 nm son de amiloide.",
+   "E": "Los depósitos subepiteliales con espigas son propios de la membranosa."
+  },
+  "perla": "Alport: laminación de la membrana basal (cesta tejida) + ausencia de α3/α4/α5 de colágeno IV (varones XL); mosaico en mujeres.",
+  "referencias": [
+   "Savige J et al. J Am Soc Nephrol 2013;24:364",
+   "Comprehensive Clinical Nephrology (Alport)"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 68.5
+ },
+ {
+  "id": "ALP-3",
+  "serie_id": "ALP",
+  "orden": 3,
+  "sub": "16.c.i",
+  "subtema": "Manifestaciones extrarrenales",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El hermano de la paciente, de 17 años, tiene hematuria y proteinuria. Se solicita evaluación audiológica y oftalmológica.",
+  "enunciado": "¿Qué hallazgos extrarrenales se esperan en un varón con Alport ligado al X?",
+  "opciones": {
+   "A": "Sordera conductiva por otoesclerosis, con hipoacusia de predominio en frecuencias graves y sin lesión ocular ni renal",
+   "B": "Quistes hepáticos, con riñones poliquísticos agrandados y aneurismas intracraneales en la historia familiar del paciente",
+   "C": "Hipoacusia neurosensorial de altas frecuencias y lenticono anterior con retinopatía perimacular de puntos y manchas",
+   "D": "Angioqueratomas y córnea verticilata, con dolor neuropático en manos y pies y proteinuria progresiva",
+   "E": "Cataratas congénitas y glaucoma de ángulo cerrado únicamente, sin hipoacusia neurosensorial ni lenticono en ningún paciente"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La sordera del Alport es neurosensorial, no conductiva.",
+   "B": "Los quistes hepáticos se asocian a poliquistosis.",
+   "C": "En el Alport hay hipoacusia neurosensorial bilateral de altas frecuencias (inicio en la infancia tardía o adolescencia), y lesiones oculares como lenticono anterior (casi patognomónico), retinopatía perimacular con puntos y manchas y erosiones corneales recurrentes. La leiomiomatosis difusa esofágica se asocia a deleciones de COL4A5/COL4A6. Los hallazgos extrarrenales dependen del tipo de variante y son menos frecuentes en mujeres.",
+   "D": "Los angioqueratomas y la córnea verticilata caracterizan a la enfermedad de Fabry.",
+   "E": "Las cataratas congénitas y el glaucoma no son el patrón del Alport."
+  },
+  "perla": "Alport: hipoacusia neurosensorial + lenticono anterior + retinopatía perimacular. Fabry: córnea verticilata y angioqueratomas.",
+  "referencias": [
+   "Kashtan CE et al. Pediatr Nephrol 2013;28:5"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 66.5
+ },
+ {
+  "id": "ALP-4",
+  "serie_id": "ALP",
+  "orden": 4,
+  "sub": "16.c.i",
+  "subtema": "Alport en mujeres: pronóstico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La madre de la paciente, de 45 años, es portadora heterocigota de COL4A5 con hematuria microscópica. Pregunta por su pronóstico y el de su hija.",
+  "enunciado": "¿Cuál de las siguientes afirmaciones es correcta?",
+  "opciones": {
+   "A": "Las mujeres portadoras son siempre asintomáticas y sin riesgo renal, porque el cromosoma X sano compensa el defecto",
+   "B": "Solo se afectan los varones; las mujeres no necesitan seguimiento renal ni audiológico a lo largo de la vida",
+   "C": "Las portadoras tienen la misma evolución que los varones, con ERC terminal casi universal antes de los 30 años y sordera constante",
+   "D": "El riesgo en mujeres es mayor en la infancia que en la edad adulta, y después se estabiliza sin progresión",
+   "E": "Casi todas las portadoras tienen hematuria; cerca de 12% llega a ERC terminal a los 40 años y 15-30% a los 60 años"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Las portadoras pueden progresar a ERC; no son siempre asintomáticas.",
+   "B": "Se afectan ambos sexos en la forma ligada al X.",
+   "C": "La evolución es más lenta y variable que en varones.",
+   "D": "El riesgo aumenta con la edad.",
+   "E": "En el Alport ligado al X, las mujeres heterocigotas presentan hematuria en cerca de 95% y su riesgo de ERC terminal, aunque menor que en los varones, es significativo (aproximadamente 12% a los 40 años, 15 a 30% a los 60 y hasta 25 a 40% a los 80 en grandes series). El pronóstico empeora con proteinuria, hipoacusia, hipertensión, variantes de mayor gravedad e inactivación sesgada del X. La biopsia muestra afectación parcheada: áreas con membrana normal alternan con zonas con laminación, y la tinción de α5 es en mosaico. Requieren seguimiento de por vida y consejo genético."
+  },
+  "perla": "Alport XL en mujeres: hematuria ~95%; ERC terminal ~12% a 40 años y 15–30% a 60 (25–40% a 80); biopsia y α5 en mosaico; seguimiento y consejo genético.",
+  "referencias": [
+   "Jais JP et al. J Am Soc Nephrol 2003;14:2603",
+   "Savige J et al. J Am Soc Nephrol 2013;24:364"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 56.5
+ },
+ {
+  "id": "ALP-5",
+  "serie_id": "ALP",
+  "orden": 5,
+  "sub": "16.c.i",
+  "subtema": "Tratamiento y trasplante en Alport",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El hermano progresa a ERC terminal a los 22 años y recibe un trasplante renal. Un tío materno, portador de COL4A5, se ofrece como donador, y la madre pregunta sobre el riesgo en el injerto.",
+  "enunciado": "¿Cuál es la afirmación correcta?",
+  "opciones": {
+   "A": "Evitar al portador como donador; riesgo de nefritis anti-MBG de novo (≈2–5%) con deleciones grandes de COL4A5",
+   "B": "El síndrome de Alport recurre siempre en el injerto, igual que otras glomerulopatías hereditarias del paciente",
+   "C": "No se recomienda el uso de IECA en Alport, porque aceleran la progresión de la enfermedad renal y de la sordera",
+   "D": "No hay riesgo de enfermedad inmune postrasplante en el Alport, porque el injerto sano expresa el colágeno IV normal",
+   "E": "El familiar portador es el mejor donador porque comparte el genotipo del receptor y no implica riesgo renal alguno para él a futuro"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Los familiares con variantes patogénicas de COL4 (o con hematuria no explicada) no deben donar, porque pueden tener enfermedad renal progresiva y el procedimiento aumenta el riesgo. Tras el trasplante, el Alport no recurre porque el injerto tiene colágeno IV normal, pero 2 a 5% de los varones con variantes nulas (en especial grandes deleciones) pueden desarrollar anticuerpos anti-MBG contra el colágeno IV del injerto, que se presentan como GN con semilunas y a menudo pérdida del injerto, con tratamiento con plasmaféresis, ciclofosfamida y rituximab. En general, el bloqueo del SRAA (IECA/ARA-II) debe iniciarse temprano para retrasar la progresión, según recomendaciones del grupo de Alport.",
+   "B": "El injerto no recurre porque no porta la variante del receptor.",
+   "C": "El bloqueo del SRAA está recomendado y retrasa la progresión.",
+   "D": "Existe el riesgo de enfermedad anti-MBG de novo postrasplante.",
+   "E": "Los familiares portadores no son donadores adecuados."
+  },
+  "perla": "Alport y trasplante: no donadores portadores; anti-MBG de novo en 2–5% de varones con deleciones grandes de COL4A5; IECA/ARA-II tempranos.",
+  "referencias": [
+   "Kashtan CE et al. Pediatr Nephrol 2013;28:5",
+   "Savige J et al. J Am Soc Nephrol 2013;24:364"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 38.3
+ },
+ {
+  "id": "FAB-1",
+  "serie_id": "FAB",
+  "orden": 1,
+  "sub": "16.c.ii",
+  "subtema": "Enfermedad de Fabry: diagnóstico clínico-patológico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 28 años con dolor ardoroso en manos y pies desde la niñez (acroparestesias), hipohidrosis, lesiones puntiformes rojo-oscuras en el área del 'traje de baño', proteinuria de 1.5 g/24 h y Cr 1.3 mg/dL. La exploración oftalmológica revela opacidad corneal en remolino bilateral. En la biopsia renal, los podocitos están vacuolados con aspecto espumoso.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y la alteración metabólica?",
+  "opciones": {
+   "A": "Enfermedad de Gaucher; deficiencia de glucocerebrosidasa con acumulación de glucocerebrósido en macrófagos",
+   "B": "Cistinosis; acumulación lisosomal de cistina por defecto del transportador cistinosina, con síndrome de Fanconi y fotofobia",
+   "C": "Enfermedad de Fabry; deficiencia de α-galactosidasa A con acumulación lisosomal de globotriaosilceramida (Gb3) y lyso-Gb3",
+   "D": "Síndrome de Alport; defecto de colágeno IV con hematuria, hipoacusia neurosensorial y lenticono anterior",
+   "E": "Amiloidosis AL; depósito de cadenas ligeras con proteinuria nefrótica y neuropatía autonómica en la edad adulta"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El Gaucher produce hepatoesplenomegalia y afectación ósea.",
+   "B": "La cistinosis causa síndrome de Fanconi y cristales corneales en la infancia.",
+   "C": "La enfermedad de Fabry es una esfingolipidosis ligada al X por mutaciones del gen GLA, con deficiencia de α-galactosidasa A y acumulación lisosomal de Gb3 y lyso-Gb3 en podocitos, endotelio, células tubulares, miocardio y neuronas. Los varones con forma clásica presentan acroparestesias en la infancia, hipohidrosis, angioqueratomas, córnea verticilata, hipoacusia, dolor abdominal, proteinuria y ERC progresiva, además de hipertrofia ventricular izquierda y eventos cerebrovasculares. La biopsia renal muestra podocitos vacuolados (células espumosas) y, por ME, cuerpos de mielina concéntricos ('cuerpos de cebra').",
+   "D": "El Alport no causa acroparestesias ni angioqueratomas.",
+   "E": "La amiloidosis AL no explica este cuadro de inicio juvenil."
+  },
+  "perla": "Fabry: acroparestesias + angioqueratomas + córnea verticilata + proteinuria; GLA (Xq22), α-Gal A baja; podocitos espumosos y cuerpos de cebra.",
+  "referencias": [
+   "Germain DP. Orphanet J Rare Dis 2010;5:30",
+   "Comprehensive Clinical Nephrology (Fabry)"
+  ],
+  "origen": [
+   "Alan26",
+   "David26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o3",
+  "peso": 60.8
+ },
+ {
+  "id": "FAB-2",
+  "serie_id": "FAB",
+  "orden": 2,
+  "sub": "16.c.ii",
+  "subtema": "Herencia de la enfermedad de Fabry",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se confirma el diagnóstico. El paciente tiene una hermana de 25 años y una hija de 3 años, y pregunta por el riesgo familiar.",
+  "enunciado": "¿Cuál es el patrón de herencia y el riesgo?",
+  "opciones": {
+   "A": "Autosómica recesiva: la hija tiene 25% de riesgo, y la hermana el mismo riesgo por ser hermana del paciente afectado",
+   "B": "Mitocondrial: solo se hereda por línea materna, por lo que la hija del varón afectado no tiene ningún riesgo de heredarla",
+   "C": "Ligada al X: sus hijas son portadoras, sin transmisión de varón a varón; la hermana tiene 50% si la madre es portadora",
+   "D": "Autosómica dominante: los hijos varones del paciente tienen 50% de riesgo, y las hijas no heredan la enfermedad del padre",
+   "E": "No hereditaria, porque el depósito de glicoesfingolípidos se debe a un defecto adquirido del metabolismo lisosomal celular"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No es autosómica recesiva.",
+   "B": "No es mitocondrial.",
+   "C": "La enfermedad de Fabry se hereda de forma ligada al X (GLA, Xq22.1). Un varón afectado transmite la variante a todas sus hijas y a ninguno de sus hijos. Las mujeres heterocigotas pueden ser asintomáticas o desarrollar enfermedad clásica por lyonización y niveles enzimáticos a veces normales, por lo que el diagnóstico en mujeres requiere análisis genético. Se estudia a todos los familiares en riesgo (tamizaje en cascada).",
+   "D": "No es autosómica dominante, y no hay transmisión de varón a varón.",
+   "E": "Es una enfermedad hereditaria."
+  },
+  "perla": "Fabry (X): padre afectado → todas las hijas portadoras, ningún hijo; mujeres pueden ser sintomáticas; tamizaje familiar en cascada.",
+  "referencias": [
+   "Germain DP. Orphanet J Rare Dis 2010;5:30"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 48.7
+ },
+ {
+  "id": "FAB-3",
+  "serie_id": "FAB",
+  "orden": 3,
+  "sub": "16.c.ii",
+  "subtema": "Confirmación diagnóstica en varones y mujeres",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se estudia a la hermana de 25 años, que tiene proteinuria leve y acroparestesias ocasionales. La actividad de α-galactosidasa A en leucocitos es casi normal.",
+  "enunciado": "¿Cómo se confirma el diagnóstico en ella?",
+  "opciones": {
+   "A": "Una actividad enzimática normal descarta la enfermedad, porque la α-galactosidasa A es el marcador diagnóstico en ambos sexos",
+   "B": "Resonancia magnética cerebral únicamente, porque las lesiones de sustancia blanca confirman el diagnóstico de Fabry",
+   "C": "Biopsia de piel con tinción de colágeno IV, que confirma la deficiencia de la cadena α5 en la membrana basal epidérmica",
+   "D": "Prueba de sudor con cuantificación de cloruro, que confirma la acroparestesia como manifestación neuropática de la enfermedad",
+   "E": "Secuenciación del gen GLA (la actividad enzimática puede ser normal en mujeres) y medición de lyso-Gb3 plasmático"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En mujeres, una actividad normal no descarta Fabry.",
+   "B": "La RM cerebral solo evalúa afectación neurológica, no confirma el diagnóstico.",
+   "C": "La tinción de colágeno IV es útil en Alport.",
+   "D": "La prueba de sudor es de fibrosis quística.",
+   "E": "En varones basta una actividad baja de α-Gal A (leucocitos o plasma) y se confirma con el genotipo. En mujeres heterocigotas, la actividad puede ser normal por inactivación aleatoria del X; el diagnóstico se establece con secuenciación del gen GLA. El lyso-Gb3 plasmático es un biomarcador de actividad de la enfermedad (más sensible en mujeres que el Gb3). Se evalúa la afectación renal, cardiaca y neurológica."
+  },
+  "perla": "Fabry: varones → actividad α-Gal A; mujeres → secuenciación de GLA (actividad puede ser normal); lyso-Gb3 como biomarcador.",
+  "referencias": [
+   "Germain DP. Orphanet J Rare Dis 2010;5:30",
+   "Comprehensive Clinical Nephrology (Fabry)"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 48.7
+ },
+ {
+  "id": "FAB-4",
+  "serie_id": "FAB",
+  "orden": 4,
+  "sub": "16.c.ii",
+  "subtema": "Tratamiento de la enfermedad de Fabry",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente tiene la variante missense p.N215S (susceptible a chaperona) y TFGe 70 mL/min/1.73 m². Se discute el tratamiento específico.",
+  "enunciado": "¿Qué opción es la correcta?",
+  "opciones": {
+   "A": "Ciclofosfamida en pulsos mensuales, porque la enfermedad de Fabry es de origen inmunológico y responde a inmunosupresión",
+   "B": "Solo prednisona a dosis baja, para controlar la inflamación y el dolor neuropático de la enfermedad",
+   "C": "Colchicina diaria, para reducir los depósitos de gangliósidos y el dolor de manos y pies en la enfermedad",
+   "D": "TRE (agalsidasa alfa o beta, pegunigalsidasa) o migalastat oral en variantes susceptibles con TFGe ≥30, más IECA/ARA-II para la proteinuria",
+   "E": "Trasplante hepático, para corregir de manera definitiva el déficit enzimático y evitar la progresión de la enfermedad renal"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La ciclofosfamida no tiene papel.",
+   "B": "Los esteroides no tratan el defecto enzimático.",
+   "C": "La colchicina no tiene papel.",
+   "D": "El tratamiento incluye terapia de reemplazo enzimático (agalsidasa beta 1 mg/kg o agalsidasa alfa 0.2 mg/kg cada 2 semanas; pegunigalsidasa alfa) y, en pacientes con variantes susceptibles, el migalastat (chaperona oral, 123 mg en días alternos, no recomendado con TFGe <30). Se añade tratamiento de soporte: IECA/ARA-II para la proteinuria, control de dolor neuropático (carbamazepina, gabapentina), manejo cardiaco y prevención de ictus. El inicio temprano preserva órgano; la evidencia de eficacia es mayor en prevención que en revertir daño establecido.",
+   "E": "El trasplante hepático no se emplea en Fabry."
+  },
+  "perla": "Fabry: ERT (agalsidasa alfa/beta, pegunigalsidasa) o migalastat si variante susceptible y TFGe ≥30; IECA/ARA-II; tratar temprano.",
+  "referencias": [
+   "Germain DP et al. N Engl J Med 2016;375:545 (migalastat)",
+   "Germain DP. Orphanet J Rare Dis 2010;5:30"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 62.8
+ },
+ {
+  "id": "FAB-5",
+  "serie_id": "FAB",
+  "orden": 5,
+  "sub": "16.c.ii",
+  "subtema": "Complicaciones cardiovasculares y cerebrales",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "A los 40 años presenta palpitaciones y un episodio transitorio de afasia. El ecocardiograma muestra hipertrofia ventricular izquierda de 18 mm con fracción de eyección conservada; ECG con PR corto.",
+  "enunciado": "¿Cuál es la interpretación y el estudio complementario más útil?",
+  "opciones": {
+   "A": "Hipertensión arterial esencial, con hipertrofia concéntrica, que se estudia solo con MAPA y control de la presión",
+   "B": "Sarcoidosis cardiaca con neurosarcoidosis, con arritmias y afasia transitoria, que se confirma con biopsia pulmonar",
+   "C": "Cardiomiopatía de Fabry y AIT; RM cardiaca (T1 nativo bajo, realce inferolateral), Holter y prevención de ictus",
+   "D": "Cardiopatía chagásica, con arritmias, aneurisma apical y embolias, que se confirma con serología específica",
+   "E": "Miocarditis viral aguda, con palpitaciones y elevación de troponina, que se confirma solo con la troponina sérica y el ECG"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay datos que sugieran hipertensión esencial como explicación unificadora.",
+   "B": "No hay datos de sarcoidosis.",
+   "C": "La causa principal de muerte en Fabry es cardiovascular: la hipertrofia ventricular por depósito de Gb3, el acortamiento del PR, las arritmias y la fibrosis inferolateral basal (realce tardío) y T1 nativo bajo en resonancia son característicos. Los eventos cerebrovasculares (AIT, ictus) afectan a pacientes jóvenes. El manejo incluye tratamiento específico, control de arritmias (Holter, valorar desfibrilador) y prevención cerebrovascular con antiagregantes o anticoagulación según el riesgo.",
+   "D": "No hay antecedentes epidemiológicos de Chagas que lo expliquen mejor.",
+   "E": "No hay datos de miocarditis aguda."
+  },
+  "perla": "Fabry cardiaco: HVI con PR corto, T1 nativo bajo y realce tardío inferolateral; arritmias e ictus tempranos.",
+  "referencias": [
+   "Germain DP. Orphanet J Rare Dis 2010;5:30",
+   "Comprehensive Clinical Nephrology (Fabry)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 30.6
+ },
+ {
+  "id": "BGT-1",
+  "serie_id": "BGT",
+  "orden": 1,
+  "sub": "16.a.ii",
+  "subtema": "Síndrome de Gitelman: diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Mujer de 26 años con calambres, debilidad y fatiga desde la adolescencia, con antojo de sal. TA 98/60 mmHg. K 2.8 mEq/L, Mg 1.2 mg/dL, HCO₃ 31 mEq/L, Cl 94 mEq/L; excreción urinaria de Cl 60 mEq/L y de K 50 mEq/día, calcio urinario bajo. Renina y aldosterona elevadas. Niega vómitos y uso de fármacos.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Hiperaldosteronismo primario, con hipertensión, renina suprimida e hipocalemia por exceso de mineralocorticoide en la paciente",
+   "B": "Síndrome de Liddle, con hipertensión grave, renina y aldosterona suprimidas por activación del ENaC del túbulo colector",
+   "C": "Síndrome de Bartter tipo I, por mutación de NKCC2, con hipercalciuria y presentación neonatal",
+   "D": "Vómito autoinducido, con cloro urinario bajo y alcalosis metabólica sensible a cloro en la paciente con hipopotasemia",
+   "E": "Síndrome de Gitelman: variantes bialélicas en SLC12A3, que codifica el cotransportador NaCl sensible a tiazidas"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En el hiperaldosteronismo primario hay hipertensión y renina baja.",
+   "B": "El Liddle cursa con hipertensión y renina y aldosterona bajas.",
+   "C": "El Bartter se presenta antes, con hipercalciuria y sin hipomagnesemia marcada en el tipo I.",
+   "D": "El vómito autoinducido cursa con cloro urinario bajo (<20 mEq/L).",
+   "E": "El Gitelman es una tubulopatía autosómica recesiva por pérdida de función del cotransportador NaCl (NCC) del túbulo contorneado distal, que reproduce el efecto de una tiazida: hipopotasemia, alcalosis metabólica, hipomagnesemia, hipocalciuria, presión normal o baja, renina y aldosterona elevadas, con cloro urinario elevado (>20 mEq/L). Suele presentarse en la adolescencia o la edad adulta con calambres, fatiga, tetania y condrocalcinosis. El estudio confirma con secuenciación de SLC12A3."
+  },
+  "perla": "Gitelman: ↓K, ↓Mg, alcalosis, hipocalciuria, TA normal/baja, renina alta, Cl urinario alto. Mimetiza tiazidas (SLC12A3).",
+  "referencias": [
+   "Blanchard A et al. Kidney Int 2017;91:24 (consenso KDIGO sobre Gitelman)",
+   "Comprehensive Clinical Nephrology (tubulopatías)"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o1",
+  "peso": 57.3
+ },
+ {
+  "id": "BGT-2",
+  "serie_id": "BGT",
+  "orden": 2,
+  "sub": "16.a.ii",
+  "subtema": "Gitelman: diferenciales y tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El estudio genético confirma Gitelman. La paciente pregunta por el tratamiento y si necesita restringir sodio.",
+  "enunciado": "¿Cuál es el manejo recomendado?",
+  "opciones": {
+   "A": "Solo ejercicio y medidas generales, sin suplementos de potasio ni de magnesio, porque la hipopotasemia es leve",
+   "B": "Hidroclorotiazida para controlar la hipopotasemia, por su efecto sobre la reabsorción distal de sodio y potasio",
+   "C": "Restricción estricta de sodio, para reducir la pérdida urinaria de potasio y de magnesio en el túbulo distal",
+   "D": "Furosemida diaria, para aumentar la reabsorción de potasio y magnesio en el asa ascendente gruesa de Henle",
+   "E": "Dieta libre o alta en sal, KCl y Mg siempre y, si no basta, ahorrador de potasio; evitar tiazidas y asa"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El ejercicio no corrige el defecto tubular.",
+   "B": "La hidroclorotiazida empeora el cuadro porque reproduce el defecto.",
+   "C": "La restricción de sodio agrava la hipopotasemia y los síntomas.",
+   "D": "La furosemida aumenta la pérdida de potasio y magnesio.",
+   "E": "La base del tratamiento es una dieta liberal en sal (la restricción empeora la pérdida de potasio y la depleción de volumen), suplementación oral de potasio (como cloruro) y de magnesio (sales de liberación lenta y bien toleradas) y, si persiste la hipopotasemia sintomática, un bloqueador del canal de sodio epitelial (amilorida) o antagonista de aldosterona (espironolactona, eplerenona). También pueden requerirse AINE (indometacina) en casos graves, con vigilancia de la función renal. Los diuréticos tiazídicos y de asa agravan la pérdida de potasio."
+  },
+  "perla": "Gitelman: sal liberal + KCl + Mg de por vida; si no basta, amilorida/espironolactona. No tiazidas ni asa.",
+  "referencias": [
+   "Blanchard A et al. Kidney Int 2017;91:24"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o1",
+  "peso": 45.2
+ },
+ {
+  "id": "BGT-3",
+  "serie_id": "BGT",
+  "orden": 3,
+  "sub": "16.a.i",
+  "subtema": "Síndrome de Bartter: formas y diferencias",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la misma institución nace un prematuro de 33 semanas tras embarazo con polihidramnios. Desde las primeras semanas presenta poliuria, falla de medro y deshidratación. K 2.6 mEq/L, HCO₃ 32 mEq/L, hipercalciuria y nefrocalcinosis en la ecografía.",
+  "enunciado": "¿Cuál es el diagnóstico y el defecto en el túbulo?",
+  "opciones": {
+   "A": "Síndrome de Gitelman por defecto del túbulo contorneado distal, de presentación habitual en la edad escolar",
+   "B": "Síndrome de Liddle por ganancia de función del ENaC, con hipertensión y renina suprimida en el recién nacido",
+   "C": "Acidosis tubular distal con acidosis hiperclorémica, nefrocalcinosis y retraso del crecimiento en el lactante",
+   "D": "Diabetes insípida nefrogénica por mutación del receptor V2 de vasopresina, con hipernatremia y orina diluida",
+   "E": "Bartter antenatal (tipo I, NKCC2, o tipo II, ROMK) por defecto de la reabsorción de NaCl en el asa gruesa"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El Gitelman es más tardío, con hipocalciuria e hipomagnesemia.",
+   "B": "El Liddle cursa con hipertensión.",
+   "C": "La ATR distal cursa con acidosis metabólica, no alcalosis.",
+   "D": "La DIN no produce alcalosis ni nefrocalcinosis.",
+   "E": "El Bartter antenatal es una tubulopatía de la rama ascendente gruesa: el tipo I (SLC12A1, NKCC2) y el tipo II (KCNJ1, ROMK; con hiperpotasemia transitoria neonatal) se presentan con polihidramnios, prematuridad, poliuria, hipercalciuria y nefrocalcinosis, e hipopotasemia con alcalosis. El tipo III (CLCNKB) es más tardío y variable, y el tipo IV (BSND o CLCNKA/CLCNKB) cursa con sordera neurosensorial; el tipo V (CASR) es una forma dominante con hipocalcemia. La pérdida de NaCl activa el sistema renina-angiotensina-aldosterona y la síntesis de prostaglandinas (el tratamiento incluye AINE como indometacina)."
+  },
+  "perla": "Bartter: asa gruesa; polihidramnios, prematuridad, hipercalciuria, nefrocalcinosis; I NKCC2, II ROMK, III ClC-Kb, IV barttin (sordera), V CaSR.",
+  "referencias": [
+   "Fulchiero R, Seo-Mayer P. Pediatr Clin North Am 2019;66:121",
+   "Comprehensive Clinical Nephrology (tubulopatías)"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o1",
+  "peso": 42.9
+ },
+ {
+  "id": "BGT-4",
+  "serie_id": "BGT",
+  "orden": 4,
+  "sub": "16.a.i",
+  "subtema": "Bartter vs Gitelman: calcio urinario",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Un residente intenta diferenciar entre síndrome de Bartter y de Gitelman con los resultados de laboratorio.",
+  "enunciado": "¿Qué dato distingue mejor ambos síndromes?",
+  "opciones": {
+   "A": "Presión arterial: alta en Bartter y baja en Gitelman, por la distinta actividad del sistema renina-angiotensina-aldosterona",
+   "B": "Renina: baja en Bartter y alta en Gitelman, según el grado de contracción de volumen de cada síndrome",
+   "C": "Potasio sérico: normal en Bartter y bajo en Gitelman, porque solo el segundo cursa con pérdida renal de potasio y magnesio",
+   "D": "Calcio urinario: alto en Bartter (defecto del asa de Henle) y bajo en Gitelman (defecto distal, como con tiazidas)",
+   "E": "pH sanguíneo: ácido en Bartter y alcalino en Gitelman, por la distinta pérdida urinaria de cloruro y de potasio en cada síndrome"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Ambos se acompañan de TA normal o baja.",
+   "B": "Ambos tienen renina elevada.",
+   "C": "Ambos tienen hipopotasemia.",
+   "D": "Los diuréticos de asa aumentan la calciuria y las tiazidas la disminuyen; igualmente, el Bartter (defecto de la rama ascendente gruesa) cursa con hipercalciuria y nefrocalcinosis, mientras el Gitelman (defecto del TCD) causa hipocalciuria e hipomagnesemia. Ambos tienen hipopotasemia, alcalosis metabólica, renina y aldosterona elevadas y TA normal o baja. La excreción de calcio y magnesio, la edad de inicio y las manifestaciones asociadas distinguen ambos cuadros.",
+   "E": "Ambos cursan con alcalosis metabólica."
+  },
+  "perla": "Bartter = como furosemida (Ca urinario alto). Gitelman = como tiazida (Ca urinario bajo, hipomagnesemia).",
+  "referencias": [
+   "Blanchard A et al. Kidney Int 2017;91:24",
+   "Comprehensive Clinical Nephrology (tubulopatías)"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o1",
+  "peso": 40.9
+ },
+ {
+  "id": "BGT-5",
+  "serie_id": "BGT",
+  "orden": 5,
+  "sub": "16.a.ii",
+  "subtema": "Diagnóstico diferencial con vómito y diuréticos",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Una joven de 22 años consulta por debilidad. Tiene erosión del esmalte dental, callosidades en el dorso de los dedos, K 2.7 mEq/L, HCO₃ 34 mEq/L y Cl urinario 8 mEq/L.",
+  "enunciado": "¿Qué diagnóstico sugiere el cloro urinario bajo?",
+  "opciones": {
+   "A": "Síndrome de Gitelman, con cloro urinario elevado, hipocalciuria e hipomagnesemia desde la adolescencia de la paciente",
+   "B": "Vómito autoinducido: el Cl urinario <20 mEq/L indica depleción de cloro extrarrenal, no renal como en Gitelman",
+   "C": "Hiperaldosteronismo primario, con hipertensión, renina suprimida y cloro urinario elevado en la paciente con hipocalemia",
+   "D": "Síndrome de Bartter, con cloro urinario elevado, hipercalciuria y retraso del crecimiento en la infancia de la paciente",
+   "E": "Uso actual de furosemida, que produciría cloro urinario elevado y no bajo como en esta paciente con alcalosis"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El Gitelman cursa con cloro urinario elevado.",
+   "B": "En la alcalosis metabólica hipopotasémica, el cloro urinario clasifica el origen: bajo (<20 mEq/L) en pérdidas gástricas (vómito) o uso remoto de diuréticos y alto (>20 mEq/L) en uso actual de diuréticos, Gitelman, Bartter y exceso de mineralocorticoides. Los signos dentales y el signo de Russell (callosidades en los nudillos) orientan a bulimia con vómito autoinducido. El tratamiento incluye reposición de potasio y cloruro, y manejo psicológico y psiquiátrico especializado.",
+   "C": "El hiperaldosteronismo primario cursa con hipertensión y cloro urinario alto.",
+   "D": "El Bartter cursa con cloro urinario elevado.",
+   "E": "El uso actual de furosemida cursa con cloro urinario elevado."
+  },
+  "perla": "Alcalosis hipopotasémica: Cl urinario <20 = vómito/ diuréticos remotos; >20 = Gitelman, Bartter, diurético actual o exceso mineralocorticoide.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (alcalosis metabólica)",
+   "Blanchard A et al. Kidney Int 2017;91:24"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o1",
+  "peso": 57.3
+ },
+ {
+  "id": "HTM-1",
+  "serie_id": "HTM",
+  "orden": 1,
+  "sub": "16.b.i",
+  "subtema": "Síndrome de Liddle: presentación",
+  "dificultad": "dificil",
+  "caso": "Mujer de 19 años con hipertensión de 170/105 mmHg desde los 12 años, cefalea y calambres. K 2.9 mEq/L, HCO₃ 31 mEq/L, renina plasmática baja y aldosterona baja. Pulsos periféricos simétricos, sin soplos abdominales. Su padre y su abuelo tuvieron hipertensión grave e ictus precoz.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Hiperaldosteronismo primario, que cursa con aldosterona elevada y renina suprimida, y no con aldosterona baja",
+   "B": "Síndrome de Gitelman, con hipotensión o presión normal, hipopotasemia, hipomagnesemia e hipocalciuria",
+   "C": "Estenosis de arteria renal por displasia fibromuscular, con renina y aldosterona elevadas y soplo abdominal audible",
+   "D": "Síndrome de Liddle: ganancia de función del canal epitelial de sodio (ENaC) por variantes en SCNN1B o SCNN1G",
+   "E": "Feocromocitoma, con hipertensión paroxística, cefalea, sudoración, palpitaciones y catecolaminas urinarias elevadas"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "En el hiperaldosteronismo primario la aldosterona está elevada y la renina suprimida.",
+   "B": "El Gitelman cursa con TA baja o normal y renina alta.",
+   "C": "La estenosis de la arteria renal cursa con renina elevada y datos vasculares.",
+   "D": "El síndrome de Liddle es una forma autosómica dominante de hipertensión con hipopotasemia y alcalosis metabólica por ganancia de función del ENaC (variantes de las subunidades β o γ que impiden su internalización y degradación), con retención de sodio y volumen, y supresión de renina y aldosterona ('pseudohiperaldosteronismo'). Es característica la hipertensión de inicio temprano con antecedentes familiares de ictus y mortalidad cardiovascular precoz.",
+   "E": "El feocromocitoma cursa con crisis adrenérgicas y K generalmente normal."
+  },
+  "perla": "Liddle: HTA precoz + ↓K + alcalosis + renina y aldosterona bajas; ENaC (SCNN1B/G); herencia dominante.",
+  "referencias": [
+   "Shimkets RA et al. Cell 1994;79:407 (síndrome de Liddle)",
+   "Comprehensive Clinical Nephrology (hipertensión monogénica)"
+  ],
+  "origen": [
+   "Belen26",
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o2",
+  "peso": 42.9
+ },
+ {
+  "id": "HTM-2",
+  "serie_id": "HTM",
+  "orden": 2,
+  "sub": "16.b.iii",
+  "subtema": "Exceso aparente de mineralocorticoides y causas de pseudohiperaldosteronismo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se discute el diagnóstico diferencial con otras causas de hipertensión con renina y aldosterona bajas: el exceso aparente de mineralocorticoides (AME) y la ingestión crónica de regaliz.",
+  "enunciado": "¿Qué distingue al AME del síndrome de Liddle?",
+  "opciones": {
+   "A": "AME: déficit de 11β-HSD2 con cortisol/cortisona elevada; responde a espironolactona, a diferencia de Liddle",
+   "B": "En el AME la aldosterona está elevada y la renina suprimida, mientras que en Liddle ambas están suprimidas desde el nacimiento",
+   "C": "Ambos cursan con renina elevada y aldosterona elevada, porque en los dos hay pérdida renal de sodio y volumen",
+   "D": "El síndrome de Liddle cursa con relación cortisol/cortisona elevada, por déficit de la enzima 11β-HSD2 renal",
+   "E": "El AME responde únicamente a amilorida y no a espironolactona, porque el receptor mineralocorticoide no participa"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El AME resulta de la deficiencia de 11β-hidroxiesteroide deshidrogenasa tipo 2 (HSD11B2), que normalmente convierte el cortisol en cortisona; el cortisol en exceso activa el receptor mineralocorticoide y causa hipertensión, hipopotasemia y alcalosis con renina y aldosterona bajas. El regaliz (ácido glicirretínico) y el carbenoxolona inhiben la misma enzima. En AME aumenta la relación cortisol/cortisona (urinaria y plasmática) y responden a espironolactona o a dexametasona. En Liddle, el defecto es distal al receptor y la espironolactona es ineficaz; responde a amilorida o triamtereno.",
+   "B": "En el AME la aldosterona es baja.",
+   "C": "Ambos cursan con renina baja.",
+   "D": "El Liddle tiene relación cortisol/cortisona normal.",
+   "E": "En el AME la espironolactona sí es eficaz; es el Liddle el que no responde a ella."
+  },
+  "perla": "AME y regaliz: 11β-HSD2 ↓ → cortisol/cortisona ↑; responde a espironolactona. Liddle: ENaC; responde a amilorida/triamtereno, no espironolactona.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hipertensión monogénica)",
+   "Funder JW et al. J Clin Endocrinol Metab 2016;101:1889 (aldosteronismo primario)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o2",
+  "peso": 24.6
+ },
+ {
+  "id": "HTM-3",
+  "serie_id": "HTM",
+  "orden": 3,
+  "sub": "16.b.i",
+  "subtema": "Tratamiento del síndrome de Liddle",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se confirma una variante en SCNN1B. La paciente tiene TA de 170/105 mmHg bajo tratamiento con losartán y espironolactona sin respuesta, con K 3.0 mEq/L.",
+  "enunciado": "¿Cuál es el tratamiento específico?",
+  "opciones": {
+   "A": "Suplementos de potasio como única medida, porque la hipopotasemia explica la hipertensión y se corrige con ellos de forma completa",
+   "B": "Hidroclorotiazida a dosis altas, porque inhibe el cotransportador NCC y reduce la reabsorción de sodio distal",
+   "C": "Amilorida o triamtereno (bloqueadores directos del ENaC) con restricción de sodio, porque la variante activa el canal",
+   "D": "Adrenalectomía, porque el exceso de mineralocorticoides proviene de una hiperplasia suprarrenal bilateral",
+   "E": "Aumentar la espironolactona a dosis máximas, porque el receptor mineralocorticoide es el responsable de la retención de sodio"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El potasio solo no corrige la hipertensión.",
+   "B": "Las tiazidas empeoran la pérdida de potasio.",
+   "C": "En el síndrome de Liddle el defecto está en el canal ENaC, por lo que los antagonistas de aldosterona (espironolactona, eplerenona) no funcionan: se emplean bloqueadores directos del canal (amilorida, triamtereno) junto con restricción de sodio. La hipopotasemia y la hipertensión mejoran con rapidez. Se detecta y trata de forma familiar y se previene el daño de órgano blanco.",
+   "D": "La adrenalectomía no tiene papel porque la aldosterona no está elevada.",
+   "E": "La espironolactona es ineficaz porque la aldosterona ya está suprimida."
+  },
+  "perla": "Liddle: amilorida/triamtereno + dieta baja en sodio; espironolactona NO funciona.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hipertensión monogénica)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o2",
+  "peso": 22.8
+ },
+ {
+  "id": "HTM-4",
+  "serie_id": "HTM",
+  "orden": 4,
+  "sub": "16.b.ii",
+  "subtema": "Síndrome de Gordon (PHA tipo II)",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un primo de la paciente, de 24 años, tiene hipertensión, hiperpotasemia (K 5.9 mEq/L), acidosis metabólica hiperclorémica con brecha aniónica normal, TFGe normal y renina baja.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento más eficaz?",
+  "opciones": {
+   "A": "Hipoaldosteronismo hiporreninémico: fludrocortisona, porque la hiperpotasemia con acidosis hiperclorémica sugiere déficit de aldosterona",
+   "B": "Síndrome de Liddle: amilorida, porque cursa con hipertensión, renina baja y retención de sodio por un canal ENaC hiperactivo",
+   "C": "Síndrome de Bartter: indometacina, porque la hiperpotasemia y la acidosis son típicas de las tubulopatías con pérdida de sal",
+   "D": "Hiperaldosteronismo primario: espironolactona, porque cursa con hipertensión y renina suprimida, aunque con potasio elevado",
+   "E": "Síndrome de Gordon (WNK1/WNK4/KLHL3/CUL3, hiperactividad del NCC): excelente respuesta a tiazidas con restricción de sodio"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El hipoaldosteronismo hiporreninémico cursa con hiperpotasemia pero no con hipertensión monogénica de inicio juvenil.",
+   "B": "El Liddle cursa con hipopotasemia, no hiperpotasemia.",
+   "C": "El Bartter cursa con TA baja e hipopotasemia.",
+   "D": "El hiperaldosteronismo primario cursa con hipopotasemia.",
+   "E": "El síndrome de Gordon (seudohipoaldosteronismo tipo II) es el 'espejo' del Gitelman: variantes en WNK1, WNK4, KLHL3 o CUL3 producen activación del cotransportador NaCl (NCC) y reducción de la excreción de potasio y de protones, con hipertensión, hiperpotasemia, acidosis metabólica hiperclorémica y renina baja con TFGe normal. Las tiazidas corrigen el cuadro y la restricción de sodio ayuda. La acidosis se debe en parte a menor excreción de amonio por la hiperpotasemia."
+  },
+  "perla": "Gordon: HTA + hiperpotasemia + acidosis hiperclorémica + renina baja (WNK1/4, KLHL3, CUL3 → NCC ↑); tratamiento: tiazidas y baja sal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hipertensión monogénica)",
+   "Wilson FH et al. Science 2001;293:1107"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o2",
+  "peso": 26.6
+ },
+ {
+  "id": "CNF-1",
+  "serie_id": "CNF",
+  "orden": 1,
+  "sub": "16.c.iii",
+  "subtema": "Síndrome nefrótico congénito tipo finlandés",
+  "dificultad": "moderada",
+  "caso": "Recién nacido a término con edema generalizado desde el nacimiento, placenta grande (>25% del peso del recién nacido) y alfafetoproteína elevada en líquido amniótico y suero materno. Proteinuria de 10 g/día, albúmina 0.8 g/dL, Cr normal. Sin respuesta a esteroides. Padres de origen finlandés.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y el gen afectado?",
+  "opciones": {
+   "A": "Poliquistosis renal autosómica recesiva; PKHD1, con riñones grandes ecogénicos y fibrosis hepática congénita",
+   "B": "Síndrome nefrótico congénito finlandés; variantes bialélicas de NPHS1, herencia autosómica recesiva",
+   "C": "Síndrome de Alport; COL4A5, con hematuria, sordera neurosensorial y edema generalizado desde el nacimiento",
+   "D": "Síndrome de Gitelman; SLC12A3, con hipopotasemia, hipomagnesemia y edema generalizado desde el nacimiento",
+   "E": "Esclerosis mesangial difusa por NPHS2, con síndrome nefrótico desde el nacimiento y progresión rápida a ERC terminal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La poliquistosis recesiva cursa con riñones aumentados y oligohidramnios.",
+   "B": "El síndrome nefrótico congénito de tipo finlandés se debe a variantes bialélicas en NPHS1 (nefrina, proteína central del diafragma de hendidura), con herencia autosómica recesiva. Se manifiesta desde el nacimiento o los primeros 3 meses con proteinuria masiva, edema, placenta voluminosa y elevación de la alfafetoproteína. La biopsia muestra dilatación quística de túbulos proximales y proliferación mesangial; la ME, ausencia del diafragma de hendidura. Es resistente a esteroides e inmunosupresores.",
+   "C": "El Alport se manifiesta con hematuria, sordera y ERC, no con edema neonatal.",
+   "D": "El Gitelman cursa con hipopotasemia, no con síndrome nefrótico.",
+   "E": "NPHS2 causa síndrome nefrótico corticorresistente de inicio algo posterior."
+  },
+  "perla": "Finlandés: NPHS1 (nefrina), AR; edema neonatal, placenta grande, AFP elevada; resistente a esteroides.",
+  "referencias": [
+   "Sadowski CE et al. J Am Soc Nephrol 2015;26:1279",
+   "Comprehensive Clinical Nephrology (síndromes nefróticos congénitos)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o4",
+  "peso": 27.1
+ },
+ {
+  "id": "CNF-2",
+  "serie_id": "CNF",
+  "orden": 2,
+  "sub": "16.c.iii",
+  "subtema": "Manejo del síndrome nefrótico congénito",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El lactante presenta edema masivo, infecciones y falla de crecimiento.",
+  "enunciado": "¿Cuál es el abordaje más adecuado?",
+  "opciones": {
+   "A": "Plasmaféresis crónica semanal, para eliminar el factor circulante que produce la proteinuria masiva del lactante",
+   "B": "Rituximab como tratamiento de inicio, porque la lesión se debe a un autoanticuerpo contra la nefrina del podocito",
+   "C": "Soporte intensivo (nutrición, albúmina con diurético, IECA, tiroxina), nefrectomía, diálisis y trasplante; sin inmunosupresión",
+   "D": "Observación hasta los 10 años, porque la proteinuria congénita suele resolverse sin tratamiento en la infancia",
+   "E": "Prednisona 2 mg/kg por 16 semanas, porque la mayoría de los lactantes con proteinuria masiva y edema responde a esteroides en dosis altas"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La plasmaféresis crónica no se usa.",
+   "B": "El rituximab no es eficaz en formas monogénicas.",
+   "C": "La enfermedad es resistente a esteroides e inmunosupresores. El tratamiento consiste en reponer albúmina y furosemida, nutrición hipercalórica e hiperproteica, levotiroxina por pérdida de proteínas ligadoras, inmunoglobulinas si hay infecciones graves, anticoagulantes si hay trombosis, IECA e indometacina para reducir la proteinuria, y nefrectomía unilateral (luego bilateral) para disminuir la pérdida proteica, seguida de diálisis peritoneal y trasplante renal cuando el niño alcance un peso adecuado (aproximadamente 9 a 10 kg).",
+   "D": "Esperar sin tratamiento implica morbilidad y mortalidad por infecciones y trombosis.",
+   "E": "Los esteroides no son eficaces en las formas genéticas."
+  },
+  "perla": "Finlandés: sin inmunosupresión; soporte (albúmina, nutrición, levotiroxina, IECA/indometacina), nefrectomía, diálisis y trasplante.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (síndromes nefróticos congénitos)",
+   "Sadowski CE et al. J Am Soc Nephrol 2015;26:1279"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 27.1
+ },
+ {
+  "id": "CNF-3",
+  "serie_id": "CNF",
+  "orden": 3,
+  "sub": "16.c.iii",
+  "subtema": "Recurrencia postrasplante en el síndrome finlandés",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El niño recibe un trasplante renal. A las 3 semanas presenta proteinuria nefrótica en el injerto. El paciente portaba variantes nulas bialélicas de NPHS1 y no tenía nefrina.",
+  "enunciado": "¿Cuál es la explicación más probable?",
+  "opciones": {
+   "A": "Recurrencia por la misma mutación genética del receptor en el injerto, porque la variante se expresa en el nuevo riñón del donador",
+   "B": "Glomerulonefritis posinfecciosa, por una infección bacteriana reciente en el período posoperatorio inmediato",
+   "C": "Toxicidad por inhibidor de calcineurina únicamente, por los niveles altos de tacrolimus en el posoperatorio",
+   "D": "Rechazo hiperagudo mediado por anticuerpos preformados contra el HLA del donador, con trombosis del injerto",
+   "E": "Anticuerpos anti-nefrina de novo contra el injerto (nunca expuesto); se trata con plasmaféresis, rituximab y/o ciclofosfamida"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El injerto no porta la variante del receptor.",
+   "B": "La glomerulonefritis posinfecciosa no se presenta así.",
+   "C": "La toxicidad por inhibidor de calcineurina no explica una proteinuria nefrótica aislada tan temprana.",
+   "D": "El rechazo hiperagudo ocurre en minutos a horas, con anticuerpos preformados.",
+   "E": "Hasta 25% de los pacientes con variantes nulas de NPHS1 (sobre todo la variante Fin-major) desarrollan síndrome nefrótico recurrente tras el trasplante por anticuerpos anti-nefrina dirigidos contra una proteína a la que nunca estuvieron expuestos (aloinmunización). El injerto no porta la variante del receptor, de modo que no es una recurrencia genética. Se trata con plasmaféresis, rituximab y ciclofosfamida, con respuesta variable. Se vigilan los títulos de anticuerpos y la proteinuria."
+  },
+  "perla": "NPHS1 nulo + trasplante: nefrótico por anticuerpos anti-nefrina de novo (aloinmune); plasmaféresis + rituximab ± ciclofosfamida.",
+  "referencias": [
+   "Patrakka J et al. Lancet 2002;359:1364",
+   "Sadowski CE et al. J Am Soc Nephrol 2015;26:1279"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 29.1
+ },
+ {
+  "id": "CIS-1",
+  "serie_id": "CIS",
+  "orden": 1,
+  "sub": "16.d.i",
+  "subtema": "Cistinuria: diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 22 años con cólicos renales desde los 14 años, litos bilaterales múltiples y un cálculo coraliforme derecho. Los cálculos son poco radiopacos ('vidrio esmerilado') y el sedimento urinario muestra cristales hexagonales planos. Calcio, ácido úrico y oxalato urinarios normales. Su hermana tuvo cálculos similares.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y la prueba confirmatoria?",
+  "opciones": {
+   "A": "Cistinuria; prueba de cianuro-nitroprusiato positiva y cistina urinaria >400 mg/día en homocigotos, con cristales hexagonales",
+   "B": "Hiperparatiroidismo primario; PTH elevada y calcio sérico alto, con cálculos de fosfato o de oxalato de calcio y episodios previos de hipercalcemia",
+   "C": "Cálculos de estruvita; infección crónica por Proteus, con cristales en 'tapa de ataúd' y pH urinario alcalino",
+   "D": "Hiperoxaluria primaria; oxalato urinario elevado, con cálculos de oxalato de calcio monohidrato radiopacos",
+   "E": "Gota; ácido úrico urinario elevado, con cálculos de ácido úrico radiolúcidos y pH urinario ácido persistente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La cistinuria es una tubulopatía autosómica recesiva (SLC3A1, tipo A) o con herencia dominante incompleta (SLC7A9, tipo B) que altera el transporte tubular proximal de cistina, ornitina, lisina y arginina (COLA). La cistina es poco soluble en orina ácida y forma cálculos recurrentes desde la infancia o adolescencia, frecuentemente coraliformes, con cristales hexagonales planos y radiopacidad tenue. Se confirma con la prueba de cianuro-nitroprusiato (cualitativa) y la medición de cistina en orina de 24 horas.",
+   "B": "El hiperparatiroidismo produce cálculos de fosfato o de oxalato de calcio con hipercalcemia.",
+   "C": "Los cálculos de estruvita se asocian a infecciones por bacterias que desdoblan la urea y tienen cristales en 'tapa de ataúd'.",
+   "D": "La hiperoxaluria produce cálculos de oxalato de calcio, con cristales de morfología distinta.",
+   "E": "La gota produce cálculos de ácido úrico, radiolúcidos y con cristales romboidales."
+  },
+  "perla": "Cistinuria: cristales hexagonales, nitroprusiato +, COLA; SLC3A1 (AR) y SLC7A9. Cistina >400 mg/día en homocigotos.",
+  "referencias": [
+   "Eggermann T et al. Orphanet J Rare Dis 2012;7:19 (Cystinuria: an inborn cause of urolithiasis)",
+   "Comprehensive Clinical Nephrology (litiasis)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o5",
+  "peso": 23.3
+ },
+ {
+  "id": "CIS-2",
+  "serie_id": "CIS",
+  "orden": 2,
+  "sub": "16.d.i",
+  "subtema": "Prevención de recurrencia en cistinuria",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se confirma cistinuria homocigota (cistina urinaria 650 mg/día). El paciente pregunta cómo prevenir nuevos cálculos.",
+  "enunciado": "¿Cuál es la medida inicial de mayor impacto?",
+  "opciones": {
+   "A": "Acidificación urinaria con cloruro de amonio, porque la cistina es más soluble en orina ácida y se disuelve de forma eficaz",
+   "B": "Tiazidas únicamente, porque reducen la excreción urinaria de cistina al disminuir la calciuria y la excreción de sodio",
+   "C": "Dieta alta en proteína animal, porque aporta metionina que disminuye la cistina urinaria al formar complejos",
+   "D": "Ingesta hídrica para diuresis >3 L/día (y de noche), poco sodio y proteína animal, y citrato de potasio (pH 7–7.5)",
+   "E": "Restricción de líquidos para reducir el volumen urinario y disminuir la formación de cálculos, en especial por la noche"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La acidificación disminuye la solubilidad de la cistina.",
+   "B": "Las tiazidas no resuelven el problema de solubilidad de la cistina.",
+   "C": "La proteína animal aporta metionina y aumenta la cistina.",
+   "D": "La solubilidad de la cistina aumenta cuando el pH urinario supera 7, y se reduce la saturación al aumentar el volumen urinario. Se recomienda ingerir líquidos para una diuresis de 3 L/día o más (con una toma nocturna), limitar el sodio (<2 g/día, porque el sodio aumenta la excreción de cistina) y la proteína animal (metionina, precursora de cistina), y alcalinizar con citrato de potasio (3 a 10 mEq/día fraccionados). Si no basta, se agregan agentes quelantes (tiopronina).",
+   "E": "La restricción de líquidos aumenta la concentración de cistina."
+  },
+  "perla": "Cistinuria: diuresis >3 L, Na <2 g, ↓proteína animal, pH 7–7.5 (citrato de potasio); luego tiopronina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (litiasis)",
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 23.3
+ },
+ {
+  "id": "CIS-3",
+  "serie_id": "CIS",
+  "orden": 3,
+  "sub": "16.d.i",
+  "subtema": "Fármacos quelantes en cistinuria",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A pesar de las medidas, forma nuevos cálculos y la cistina urinaria persiste en 600 mg/día con pH urinario de 7.0.",
+  "enunciado": "¿Qué fármaco se añade y qué vigilancia requiere?",
+  "opciones": {
+   "A": "Colchicina, vigilando CK y recuento de leucocitos, porque reduce la agregación de los cristales de cistina",
+   "B": "Furosemida, vigilando potasio y calcio, porque la diuresis forzada acidifica la orina y disuelve los cálculos de cistina por completo",
+   "C": "Tiopronina (o D-penicilamina), que forma un disulfuro mixto más soluble; vigilar proteinuria (membranosa), citopenias y erupción",
+   "D": "Alopurinol, vigilando uricemia y función hepática, porque reduce la cistina urinaria al inhibir la xantina oxidasa",
+   "E": "Amilorida, vigilando potasio y la función renal, porque bloquea la reabsorción tubular de cistina en el túbulo proximal y reduce su excreción"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La colchicina no tiene papel.",
+   "B": "La furosemida aumenta la calciuria y la natriuresis (que agrava la cistinuria).",
+   "C": "Los agentes con grupo tiol (tiopronina, D-penicilamina) reducen la cistina libre al formar disulfuros mixtos mucho más solubles. La tiopronina se prefiere por menor toxicidad. Sus efectos adversos incluyen proteinuria con nefropatía membranosa, exantema, alteraciones del gusto, citopenias y hepatotoxicidad, por lo que se vigilan proteinuria, hemograma y función hepática. El captopril tiene un efecto tiol modesto. La cistinuria no responde a medicación hipouricemiante.",
+   "D": "El alopurinol reduce el ácido úrico, no la cistina.",
+   "E": "La amilorida no reduce la cistina."
+  },
+  "perla": "Cistinuria refractaria: tiopronina/D-penicilamina (disulfuro mixto soluble); vigilar proteinuria (membranosa).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (litiasis)",
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 25.3
+ },
+ {
+  "id": "CIS-4",
+  "serie_id": "CIS",
+  "orden": 4,
+  "sub": "16.d.i",
+  "subtema": "Manejo quirúrgico de cálculos de cistina",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El paciente tiene un cálculo de 2.5 cm en la pelvis renal derecha con obstrucción parcial.",
+  "enunciado": "¿Cuál es el procedimiento más apropiado?",
+  "opciones": {
+   "A": "Solo observación y control con imagen, porque los cálculos de cistina de 2.5 cm no suelen requerir ningún procedimiento invasivo",
+   "B": "Litotricia extracorpórea por ondas de choque como primera opción, porque fragmenta bien los cálculos de cistina de este tamaño",
+   "C": "Nefrolitotomía percutánea (la cistina es dura y responde mal a la litotricia extracorpórea), con medidas médicas posteriores",
+   "D": "Nefrectomía simple, porque el cálculo de 2.5 cm con obstrucción parcial indica pérdida funcional irreversible",
+   "E": "Disolución con cloruro de amonio por nefrostomía, porque la cistina es soluble en medio ácido y se evita la cirugía abierta o endoscópica"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Un cálculo grande con obstrucción debe tratarse.",
+   "B": "La litotricia extracorpórea tiene baja eficacia en cálculos de cistina grandes.",
+   "C": "Los cálculos de cistina son duros y fragmentan mal con ondas de choque, sobre todo si son mayores de 1.5 a 2 cm; para cálculos grandes se prefiere la nefrolitotomía percutánea, y para pequeños o ureterales, la ureteroscopia con láser de holmio. Tras la extracción se mantiene la prevención médica para evitar recurrencias, y se evita en lo posible el daño renal acumulativo de múltiples procedimientos.",
+   "D": "La nefrectomía no está indicada de entrada.",
+   "E": "La acidificación empeora la solubilidad de la cistina."
+  },
+  "perla": "Cistina: cálculos duros; PCNL o ureteroscopia con láser mejor que litotricia extracorpórea (si >1.5–2 cm).",
+  "referencias": [
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)",
+   "Comprehensive Clinical Nephrology (litiasis)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 23.3
+ },
+ {
+  "id": "NDI-1",
+  "serie_id": "NDI",
+  "orden": 1,
+  "sub": "16.d.ii",
+  "subtema": "Diabetes insípida nefrogénica hereditaria",
+  "dificultad": "moderada",
+  "caso": "Lactante varón de 8 meses con poliuria, irritabilidad, sed marcada, vómitos, estreñimiento y falla de medro. Na 158 mEq/L, osmolalidad urinaria 90 mOsm/kg tras prueba de privación breve y sin respuesta a desmopressina. Dos tíos maternos tuvieron cuadros similares en la infancia.",
+  "enunciado": "¿Cuál es el diagnóstico y el gen más frecuentemente afectado?",
+  "opciones": {
+   "A": "Acidosis tubular renal distal, con hipopotasemia y acidosis hiperclorémica; el gen afectado con más frecuencia es ATP6V1B1",
+   "B": "Polidipsia primaria, con osmolalidad urinaria que sube con la privación de agua y sin mutaciones identificables en AVPR2",
+   "C": "Diabetes insípida nefrogénica hereditaria; AVPR2 (receptor V2 de vasopresina, ligado al X) en ≈90% de los casos",
+   "D": "Diabetes insípida central; mutaciones de AVP, con respuesta completa a desmopresina y osmolalidad urinaria normal",
+   "E": "Síndrome de Bartter, con hipopotasemia, alcalosis metabólica y poliuria; el gen más frecuente es SLC12A1 (NKCC2)"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La ATR distal cursa con acidosis hiperclorémica.",
+   "B": "En la polidipsia primaria hay hiponatremia o sodio normal y la orina se concentra con restricción hídrica.",
+   "C": "La DIN congénita es principalmente ligada al X (AVPR2, aproximadamente 90%) y con menor frecuencia autosómica (AQP2, recesiva o dominante). Los varones se presentan en los primeros meses con poliuria, polidipsia, deshidratación, hipernatremia, estreñimiento y retraso del crecimiento, con orina diluida que no concentra tras desmopresina. El antecedente de varones afectados por línea materna apoya la herencia ligada al X.",
+   "D": "En la DI central, la desmopresina corrige la osmolalidad urinaria.",
+   "E": "El Bartter cursa con alcalosis hipopotasémica."
+  },
+  "perla": "DIN congénita: AVPR2 (X, ~90%) o AQP2; orina diluida que no responde a desmopresina; hipernatremia y falla de medro.",
+  "referencias": [
+   "Bockenhauer D, Bichet DG. Nat Rev Nephrol 2015;11:576",
+   "Comprehensive Clinical Nephrology (poliuria)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o5",
+  "peso": 25.1
+ },
+ {
+  "id": "NDI-2",
+  "serie_id": "NDI",
+  "orden": 2,
+  "sub": "16.d.ii",
+  "subtema": "Prueba de privación de agua y desmopresina",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En una consulta de adultos se compara este cuadro con un hombre de 35 años con traumatismo craneoencefálico grave hace 2 meses y poliuria de 8 L/día.",
+  "enunciado": "¿Cómo se diferencia la DI central de la nefrogénica tras la privación hídrica?",
+  "opciones": {
+   "A": "No hay diferencia en la osmolalidad urinaria tras la privación hídrica entre la DI central y la nefrogénica",
+   "B": "Tras desmopresina, la osmolalidad aumenta más de 50% en la DI central y menos de 10% en la nefrogénica",
+   "C": "La DI central cursa con orina hiperosmolar tras la privación hídrica, a diferencia de la forma nefrogénica",
+   "D": "Ambas formas se corrigen por completo con desmopresina, por lo que la prueba no permite diferenciarlas entre sí",
+   "E": "La osmolalidad urinaria aumenta en la nefrogénica pero no en la central tras la privación hídrica y la desmopresina"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La respuesta a desmopresina es la clave diagnóstica.",
+   "B": "En ambas formas la orina permanece hipotónica durante la privación de agua. Al administrar desmopresina, en la DI central (déficit de AVP, por ejemplo tras traumatismo craneoencefálico) la osmolalidad urinaria aumenta más de 50% (a menudo >100%) porque los riñones responden; en la nefrogénica hay una respuesta menor de 10% (de 10 a 50% en formas parciales). La copeptina estimulada con solución salina hipertónica o arginina es una alternativa diagnóstica. En polidipsia primaria, la osmolalidad urinaria asciende durante la privación.",
+   "C": "La DI cursa con orina hipoosmolar.",
+   "D": "Solo la DI central responde de forma clara.",
+   "E": "Es lo contrario: en la central responde a la desmopresina."
+  },
+  "perla": "Privación + desmopresina: central → osmolalidad urinaria ↑ >50%; nefrogénica → <10%; polidipsia primaria → concentra con privación.",
+  "referencias": [
+   "Bockenhauer D, Bichet DG. Nat Rev Nephrol 2015;11:576",
+   "Fenske W et al. N Engl J Med 2018;379:428 (copeptina)"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 43.2
+ },
+ {
+  "id": "NDI-3",
+  "serie_id": "NDI",
+  "orden": 3,
+  "sub": "16.d.ii",
+  "subtema": "Tratamiento de la DIN",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El lactante con DIN ligada al X requiere tratamiento crónico.",
+  "enunciado": "¿Cuál es la estrategia farmacológica y dietética?",
+  "opciones": {
+   "A": "Desmopresina intranasal en dosis altas, porque el defecto se corrige al saturar el receptor V2 en el colector",
+   "B": "Agua libre, dieta baja en sodio y proteína, y tiazida con amilorida o AINE; la tiazida reduce la poliuria al contraer el volumen",
+   "C": "Furosemida como diurético de elección, porque reduce la poliuria al aumentar la reabsorción de agua libre en la rama ascendente gruesa del asa de Henle",
+   "D": "Restricción de líquidos para reducir la poliuria, aun con el riesgo de hipernatremia y deshidratación grave",
+   "E": "Dieta alta en sodio y en proteína, porque aumenta la osmolalidad urinaria y reduce la diuresis acuosa del lactante"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La desmopresina es ineficaz en el defecto del receptor V2.",
+   "B": "En la DIN no hay respuesta a la desmopresina y el tratamiento busca reducir la diuresis: agua libre de forma permanente, dieta baja en sodio (<1 a 2 mEq/kg) y en proteína para disminuir la carga osmolar, y diuréticos tiazídicos que, por contracción de volumen, aumentan la reabsorción proximal de agua y sodio y reducen el volumen urinario hasta 50%. La amilorida se añade para limitar la pérdida de potasio. Los AINE (indometacina) reducen la tasa de filtración y la poliuria, pero con riesgo renal y gástrico.",
+   "C": "La furosemida aumenta la pérdida de agua.",
+   "D": "Restringir líquidos causaría deshidratación e hipernatremia graves.",
+   "E": "El sodio aumenta la carga osmolar y la poliuria."
+  },
+  "perla": "DIN: agua libre, baja carga osmolar (Na, proteína), tiazida + amilorida ± AINE. La desmopresina no funciona.",
+  "referencias": [
+   "Bockenhauer D, Bichet DG. Nat Rev Nephrol 2015;11:576"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 27.1
+ },
+ {
+  "id": "NDI-4",
+  "serie_id": "NDI",
+  "orden": 4,
+  "sub": "16.d.ii",
+  "subtema": "DIN adquirida por litio",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un adulto de 48 años con trastorno bipolar, en tratamiento con litio por 15 años, tiene poliuria de 5 L/día, Na 148 mEq/L, osmolalidad urinaria 180 mOsm/kg que no responde a desmopresina y TFGe 52 mL/min/1.73 m².",
+  "enunciado": "¿Cuál es el mecanismo y el tratamiento más apropiado?",
+  "opciones": {
+   "A": "El litio entra por ENaC y activa GSK3β (↓AQP2); se trata con amilorida y valorar cambiar el estabilizador",
+   "B": "El litio inhibe el cotransportador NKCC2 del asa de Henle; se trata con furosemida para concentrar la orina",
+   "C": "El litio causa acidosis tubular distal por defecto de secreción de protones; se trata con bicarbonato de sodio",
+   "D": "El litio inhibe directamente la liberación hipotalámica de vasopresina; se trata con desmopresina intranasal",
+   "E": "El litio causa hipercalcemia con poliuria por hipercalciuria secundaria; se trata con calcitonina y líquidos"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El litio es la causa más frecuente de DIN adquirida: ingresa a las células principales del túbulo colector a través del ENaC, activa la glucógeno sintasa cinasa 3β y reduce la expresión y la inserción de la acuaporina 2. El bloqueo del ENaC con amilorida reduce la entrada de litio y es el tratamiento de elección (también se usan tiazidas, aunque aumentan los niveles de litio). Si es posible, se evalúa suspender el litio por la nefropatía crónica asociada (nefritis tubulointersticial crónica con microquistes).",
+   "B": "No es el mecanismo principal y la furosemida empeoraría la deshidratación.",
+   "C": "La ATR distal se puede observar con litio, pero no explica la poliuria.",
+   "D": "La desmopresina no funciona porque el defecto es renal.",
+   "E": "La hipercalcemia por litio puede contribuir, pero no es el mecanismo central."
+  },
+  "perla": "Litio → DIN: entra por ENaC, ↓AQP2 (GSK3β); amilorida es el tratamiento. Nefropatía crónica por litio: NTI crónica con microquistes.",
+  "referencias": [
+   "Bockenhauer D, Bichet DG. Nat Rev Nephrol 2015;11:576",
+   "Comprehensive Clinical Nephrology (nefrotoxicidad por litio)"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 45.2
+ },
+ {
+  "id": "FAN-1",
+  "serie_id": "FAN",
+  "orden": 1,
+  "sub": "16.d.iv",
+  "subtema": "Síndrome de Fanconi: cistinosis",
+  "dificultad": "moderada",
+  "caso": "Niña de 18 meses con falla de medro, poliuria, polidipsia, fotofobia y raquitismo. K 2.8 mEq/L, fosfato 2.1 mg/dL, HCO₃ 14 mEq/L con brecha aniónica normal, glucosa sérica normal con glucosuria 3+, aminoaciduria generalizada y proteinuria de bajo peso molecular. La lámpara de hendidura muestra cristales corneales.",
+  "enunciado": "¿Cuál es el diagnóstico etiológico más probable?",
+  "opciones": {
+   "A": "Síndrome de Bartter, con hipopotasemia, poliuria y retraso del crecimiento, pero con alcalosis metabólica e hipercalciuria",
+   "B": "Síndrome de Alport, con hematuria, sordera neurosensorial y lesiones oculares, sin tubulopatía proximal ni raquitismo",
+   "C": "Enfermedad de Fabry, con angioqueratomas, acroparestesias y córnea verticilada, sin síndrome de Fanconi en la infancia",
+   "D": "Diabetes mellitus tipo 1, con poliuria y polidipsia por hiperglucemia, y acidosis por cetoacidosis y no por tubulopatía",
+   "E": "Cistinosis nefropática (CTNS, autosómica recesiva) con síndrome de Fanconi renal y depósito de cistina en la córnea"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El Bartter cursa con alcalosis hipopotasémica.",
+   "B": "El Alport se presenta con hematuria, no con Fanconi.",
+   "C": "El Fabry no produce este cuadro.",
+   "D": "La glucosuria con glucemia normal descarta diabetes mellitus.",
+   "E": "La cistinosis nefropática infantil (variantes bialélicas de CTNS, que codifica cistinosina, el transportador lisosomal de cistina) es la causa más frecuente de síndrome de Fanconi hereditario en niños: pérdida urinaria de glucosa, aminoácidos, fosfato, bicarbonato (ATR proximal), potasio y proteínas de bajo peso molecular, con raquitismo, falla de medro, fotofobia por cristales de cistina en la córnea y evolución a ERC terminal en la primera década sin tratamiento. El diagnóstico se confirma con cistina leucocitaria elevada o secuenciación de CTNS."
+  },
+  "perla": "Fanconi = ATR proximal + glucosuria normoglucémica + aminoaciduria + fosfaturia. En niños: cistinosis (CTNS; cristales corneales).",
+  "referencias": [
+   "Nesterova G, Gahl W. Pediatr Nephrol 2008;23:863",
+   "Comprehensive Clinical Nephrology (síndrome de Fanconi)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o5",
+  "peso": 23.9
+ },
+ {
+  "id": "FAN-2",
+  "serie_id": "FAN",
+  "orden": 2,
+  "sub": "16.d.iv",
+  "subtema": "Tratamiento de la cistinosis",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se confirma cistinosis nefropática con cistina leucocitaria elevada.",
+  "enunciado": "¿Cuál es el tratamiento específico y el pronóstico del trasplante?",
+  "opciones": {
+   "A": "Restricción de cistina de la dieta, porque limita el aporte del aminoácido y reduce su acumulación lisosomal en los tejidos",
+   "B": "Cisteamina oral (y colirio) temprana, con reposición de electrolitos, bicarbonato, fosfato y vitamina D; el trasplante no recurre",
+   "C": "Prednisona a dosis altas durante meses, porque la cistinosis es una enfermedad inflamatoria del túbulo proximal",
+   "D": "Quimioterapia con ciclofosfamida, porque la acumulación de cistina se debe a una proliferación celular anormal",
+   "E": "Trasplante hepático, porque el defecto enzimático de la cistinosis se localiza en el hígado y se corrige con él"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La dieta no regula la cistina lisosomal endógena.",
+   "B": "La cisteamina reacciona con la cistina intralisosomal y forma un complejo cisteína-cisteamina que sale del lisosoma, reduciendo el depósito y retrasando el deterioro renal y las complicaciones extrarrenales (hipotiroidismo, diabetes, miopatía, afección del sistema nervioso central). Se acompaña de reposición de agua, potasio, bicarbonato, fosfato y vitamina D, y gotas oftálmicas de cisteamina para los cristales corneales. Tras el trasplante renal, el injerto no recurre porque expresa cistinosina normal, aunque persisten las manifestaciones extrarrenales y se continúa la cisteamina.",
+   "C": "Los esteroides no tratan la causa.",
+   "D": "No hay indicación de quimioterapia.",
+   "E": "El trasplante hepático no es la terapia."
+  },
+  "perla": "Cistinosis: cisteamina temprana; reposición hidroelectrolítica; no recurre en el injerto renal.",
+  "referencias": [
+   "Nesterova G, Gahl W. Pediatr Nephrol 2008;23:863"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 23.9
+ },
+ {
+  "id": "FAN-3",
+  "serie_id": "FAN",
+  "orden": 3,
+  "sub": "16.d.iv",
+  "subtema": "Síndrome de Fanconi adquirido por fármacos",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En la consulta de adultos, un varón de 41 años con VIH, en tratamiento con tenofovir disoproxilo por 5 años, presenta TFGe 55, fosfato 1.9 mg/dL, K 3.0, HCO₃ 19, glucosuria con glucemia 90 mg/dL y proteinuria de bajo peso molecular.",
+  "enunciado": "¿Cuál es el diagnóstico y la conducta?",
+  "opciones": {
+   "A": "Fanconi por tenofovir disoproxilo; cambiar a tenofovir alafenamida u otro esquema, vigilar y corregir los electrolitos",
+   "B": "Síndrome de Gitelman, con hipopotasemia, hipomagnesemia e hipocalciuria, que se maneja con suplementos de potasio",
+   "C": "HIVAN; iniciar esteroides, porque la proteinuria con glucosuria euglucémica indica una glomerulopatía colapsante",
+   "D": "Cetoacidosis diabética, con glucosuria y acidosis metabólica que requieren insulina y líquidos intravenosos de inmediato",
+   "E": "Nefritis lúpica; ciclofosfamida, porque la proteinuria con TFGe reducida en el paciente con VIH indica actividad inmunológica"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El tenofovir disoproxilo se acumula en las células tubulares proximales por los transportadores OAT1 y OAT3 y daña las mitocondrias, produciendo Fanconi (glucosuria normoglucémica, fosfaturia, hipopotasemia, acidosis tubular proximal, proteinuria tubular), con o sin disminución de TFGe. Se suspende o se cambia a tenofovir alafenamida (menor exposición plasmática) u otro esquema, y se corrigen los trastornos. Otras causas adquiridas: ifosfamida, cisplatino, aminoglucósidos, valproato, cadmio, plomo y paraproteínas (cadenas ligeras en mieloma).",
+   "B": "El Gitelman es hereditario y cursa con hipomagnesemia e hipocalciuria.",
+   "C": "La HIVAN produce proteinuria glomerular y no Fanconi.",
+   "D": "La glucemia es normal; no hay cetoacidosis.",
+   "E": "No hay datos de lupus."
+  },
+  "perla": "Fanconi adquirido: tenofovir disoproxilo, ifosfamida, cisplatino, aminoglucósidos, valproato, cadmio/plomo, cadenas ligeras.",
+  "referencias": [
+   "Hall AM et al. Am J Kidney Dis 2011;57:773 (toxicidad renal por tenofovir)",
+   "Comprehensive Clinical Nephrology (síndrome de Fanconi)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 23.9
+ },
+ {
+  "id": "FAN-4",
+  "serie_id": "FAN",
+  "orden": 4,
+  "sub": "16.d.iv",
+  "subtema": "Enfermedad de Dent",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un niño de 9 años presenta proteinuria de bajo peso molecular (β2-microglobulina urinaria muy elevada), hipercalciuria, nefrocalcinosis, un cálculo renal y TFGe 80. Hay antecedente de varones afectados por línea materna.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Hiperoxaluria primaria, con litiasis recurrente de oxalato de calcio, nefrocalcinosis y oxalato urinario muy elevado en el niño",
+   "B": "Poliquistosis renal recesiva, con riñones grandes ecogénicos, fibrosis hepática e hipertensión desde la infancia",
+   "C": "Cistinuria, con cálculos hexagonales de cistina y aminoaciduria dibásica, sin proteinuria de bajo peso molecular",
+   "D": "Síndrome de Alport, con hematuria, sordera neurosensorial y proteinuria glomerular, sin hipercalciuria ni nefrocalcinosis renal",
+   "E": "Enfermedad de Dent (CLCN5 u OCRL1, ligada al X): tubulopatía proximal con proteinuria de bajo peso molecular y nefrocalcinosis"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La hiperoxaluria produce litiasis por oxalato sin proteinuria tubular.",
+   "B": "La poliquistosis recesiva cursa con riñones grandes e hipertensión.",
+   "C": "La cistinuria produce cálculos de cistina sin proteinuria de bajo peso molecular.",
+   "D": "El Alport cursa con hematuria y ERC progresiva.",
+   "E": "La enfermedad de Dent es una tubulopatía proximal ligada al X (CLCN5 en Dent 1 y OCRL en Dent 2/síndrome de Lowe) caracterizada por proteinuria de bajo peso molecular (con albuminuria leve), hipercalciuria, nefrocalcinosis, litiasis y progresión lenta a ERC, a veces con raquitismo y fosfaturia. El defecto del canal de cloruro/protón ClC-5 altera la endocitosis proximal. El diagnóstico se confirma con estudio genético. Se trata con hidratación, tiazidas para la hipercalciuria (con vigilancia) y citrato."
+  },
+  "perla": "Dent: CLCN5/OCRL (X); proteinuria de bajo PM + hipercalciuria + nefrocalcinosis ± raquitismo.",
+  "referencias": [
+   "Devuyst O, Thakker RV. Orphanet J Rare Dis 2010;5:28",
+   "Comprehensive Clinical Nephrology (síndrome de Fanconi)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 25.9
+ },
+ {
+  "id": "NPS-1",
+  "serie_id": "NPS",
+  "orden": 1,
+  "sub": "16.c.iv",
+  "subtema": "Síndrome uña-rótula",
+  "dificultad": "moderada",
+  "caso": "Mujer de 24 años con uñas displásicas con lúnulas triangulares, rótulas hipoplásicas con subluxaciones frecuentes, limitación de la extensión del codo y proteinuria de 1.2 g/24 h con hematuria microscópica. Su madre y su hermano tuvieron manifestaciones similares. La radiografía pélvica muestra 'cuernos' ilíacos.",
+  "enunciado": "¿Cuál es el diagnóstico y el gen afectado?",
+  "opciones": {
+   "A": "Síndrome uña-rótula (osteo-onicodisplasia hereditaria); variantes en LMX1B, de herencia autosómica dominante",
+   "B": "Enfermedad de Fabry; GLA, con angioqueratomas, acroparestesias y córnea verticilada, sin alteraciones ungueales ni óseas",
+   "C": "Síndrome de Pierson; LAMB2, con síndrome nefrótico congénito, microcoria y alteraciones neuromusculares graves",
+   "D": "Síndrome de Alport; COL4A5, con hematuria, sordera neurosensorial y lenticono anterior, sin displasia ungueal",
+   "E": "Síndrome de Denys-Drash; WT1, con esclerosis mesangial difusa, pseudohermafroditismo y riesgo alto de tumor de Wilms en la infancia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El síndrome uña-rótula se debe a variantes de pérdida de función en LMX1B, un factor de transcripción LIM-homeodominio esencial para el desarrollo de podocitos, extremidades y ojo. Se hereda de forma autosómica dominante. Combina displasia ungueal (lúnula triangular), hipoplasia o ausencia de rótulas, displasia de codos, cuernos ilíacos (patognomónicos) y afectación renal (proteinuria y hematuria en 30 a 50%) y ocular (glaucoma, hipertensión ocular).",
+   "B": "El Fabry cursa con acroparestesias y angioqueratomas.",
+   "C": "LAMB2 causa el síndrome de Pierson con microcoria.",
+   "D": "El Alport tiene hipoacusia y lesiones oculares distintas, sin alteraciones óseas.",
+   "E": "WT1 causa Denys-Drash y Frasier, con anomalías genitourinarias."
+  },
+  "perla": "Uña-rótula: LMX1B (AD); uñas con lúnula triangular, rótulas hipoplásicas, cuernos ilíacos, nefropatía y glaucoma.",
+  "referencias": [
+   "Sweeney E et al. J Med Genet 2003;40:153",
+   "Comprehensive Clinical Nephrology (enfermedades hereditarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o4",
+  "peso": 22.5
+ },
+ {
+  "id": "NPS-2",
+  "serie_id": "NPS",
+  "orden": 2,
+  "sub": "16.c.iv",
+  "subtema": "Histopatología del síndrome uña-rótula",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se realiza biopsia renal por proteinuria creciente.",
+  "enunciado": "¿Cuál es el hallazgo ultraestructural característico?",
+  "opciones": {
+   "A": "Engrosamiento irregular de la membrana basal con zonas lúcidas ('apolillado') y fibrillas de colágeno III con bandas",
+   "B": "Doble contorno de la membrana basal con depósitos intramembranosos densos, típico de la glomerulopatía C3 (DDD)",
+   "C": "Cuerpos de mielina concéntricos en los podocitos, con inclusiones en 'cebra' propias de la enfermedad de Fabry",
+   "D": "Depósitos subepiteliales con espigas de la membrana basal y borramiento podocitario, característicos de la nefropatía membranosa",
+   "E": "Lamelación 'en cesta tejida' de la lámina densa, con adelgazamiento y engrosamiento alternantes, típica del síndrome de Alport"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La biopsia renal en el síndrome uña-rótula muestra engrosamiento irregular de la membrana basal, con zonas de rarefacción 'en apolillado' y fibrillas de colágeno (tipo III) con bandas dentro de la membrana, además de lesiones inespecíficas por microscopía óptica (esclerosis segmentaria). La IF puede mostrar IgM y C3 inespecíficos. El hallazgo ultraestructural orienta el diagnóstico en un paciente con alteraciones óseas y ungueales.",
+   "B": "El doble contorno con depósitos densos es de la enfermedad por depósitos densos.",
+   "C": "Los cuerpos de mielina concéntricos caracterizan al Fabry.",
+   "D": "Las espigas son de la membranosa.",
+   "E": "La laminación 'en cesta tejida' es de Alport."
+  },
+  "perla": "NPS: membrana basal 'apolillada' con fibrillas de colágeno III dentro de la lámina densa.",
+  "referencias": [
+   "Sweeney E et al. J Med Genet 2003;40:153"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 24.5
+ },
+ {
+  "id": "NPS-3",
+  "serie_id": "NPS",
+  "orden": 3,
+  "sub": "16.c.iv",
+  "subtema": "Seguimiento y trasplante",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente tiene proteinuria de 1.2 g/día, TA 135/85 mmHg y presión intraocular de 26 mmHg.",
+  "enunciado": "¿Cuál es el seguimiento y el manejo adecuados?",
+  "opciones": {
+   "A": "IECA/ARA-II y control de TA, vigilancia anual de proteinuria y TFGe, tamizaje oftalmológico y consejo genético; no recurre",
+   "B": "Nefrectomía bilateral preventiva, porque la nefropatía del síndrome uña-rótula evoluciona siempre a ERC terminal",
+   "C": "Esteroides en dosis altas durante 16 semanas, porque la proteinuria con hematuria indica una glomerulopatía inmunomediada activa",
+   "D": "Ciclofosfamida con esteroides, porque la proteinuria con hematuria microscópica indica una glomerulonefritis proliferativa activa",
+   "E": "Solo observación sin estudios oculares ni seguimiento anual de la función renal, porque el síndrome uña-rótula es benigno en general"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La nefropatía del síndrome uña-rótula se maneja con nefroprotección (IECA/ARA-II, control de TA) y vigilancia de proteinuria y función renal; la progresión a ERC terminal ocurre en 5 a 10% de los casos. Se recomienda tamizaje oftalmológico para glaucoma de ángulo abierto e hipertensión ocular, y consejo genético por herencia dominante (50% de riesgo para los hijos). Tras el trasplante, no recurre, porque el injerto no porta la variante.",
+   "B": "No hay indicación de nefrectomía.",
+   "C": "No hay indicación de inmunosupresión.",
+   "D": "No hay indicación de ciclofosfamida.",
+   "E": "El glaucoma requiere vigilancia oftalmológica."
+  },
+  "perla": "Uña-rótula: nefroprotección + vigilancia de glaucoma + consejo genético (AD 50%); no recurre en el injerto.",
+  "referencias": [
+   "Sweeney E et al. J Med Genet 2003;40:153"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 22.5
+ },
+ {
+  "id": "ATB-1",
+  "serie_id": "ATB",
+  "orden": 1,
+  "sub": "16.d.iii",
+  "subtema": "ATR proximal (tipo 2) aislada",
+  "dificultad": "moderada",
+  "caso": "Niño de 8 años con talla baja, vómitos recurrentes y polidipsia. Gasometría: pH 7.22, HCO₃ 12 mEq/L. Na 137, K 2.7, Cl 114 mEq/L, brecha aniónica 11. Glucosa, fosfato, ácido úrico y aminoácidos séricos y urinarios normales, sin glucosuria. pH urinario 5.0 mientras el bicarbonato sérico es de 12 mEq/L. Tras una infusión de bicarbonato que lleva el sérico a 24 mEq/L, la fracción de excreción de bicarbonato es de 18%. Hay opacidades corneales en banda.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Acidosis por diarrea crónica, con brecha aniónica normal, pérdida fecal de bicarbonato y heces líquidas",
+   "B": "Acidosis tubular renal tipo 4, con hiperpotasemia por hipoaldosteronismo o resistencia a la aldosterona",
+   "C": "Acidosis tubular renal distal (tipo 1), con orina alcalina, nefrocalcinosis e hipopotasemia asociada",
+   "D": "Síndrome de Fanconi completo, con glucosuria, fosfaturia, aminoaciduria y uricosuria asociadas a la acidosis",
+   "E": "ATR proximal (tipo 2) aislada por defecto de reabsorción de HCO₃; SLC4A4 (NBCe1) si hay lesión ocular"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La diarrea crónica también produce acidosis hiperclorémica con hipopotasemia, pero no explica la fracción de excreción alta tras carga de bicarbonato ni la afección ocular.",
+   "B": "La tipo 4 cursa con hiperpotasemia, y aquí el potasio es 2.7.",
+   "C": "En la ATR distal el pH urinario es mayor de 5.5 pese a la acidemia y la fracción de excreción de bicarbonato es baja.",
+   "D": "El Fanconi completo incluye glucosuria normoglucémica, fosfaturia, aminoaciduria y proteinuria tubular, que aquí están ausentes.",
+   "E": "En la ATR proximal el túbulo proximal no reabsorbe de forma normal el bicarbonato filtrado: el umbral renal baja (bicarbonato sérico de 14 a 18 mEq/L o menos) y, al llevar el bicarbonato a valores normales con una infusión, la fracción de excreción supera 15%. Mientras el bicarbonato sérico es bajo, la acidificación distal está conservada y el pH urinario es menor de 5.5. Si no hay glucosuria, hipofosfatemia ni aminoaciduria, la forma es aislada, y la combinación con talla baja y afección ocular (queratopatía en banda, glaucoma, cataratas) orienta a variantes recesivas de SLC4A4, que codifica el cotransportador basolateral Na⁺-HCO₃⁻ NBCe1."
+  },
+  "perla": "ATR proximal: umbral de HCO₃ bajo, FEHCO₃ >15% tras normalizar el bicarbonato, pH urinario <5.5 con acidemia. Aislada: SLC4A4 (ojo, talla baja).",
+  "referencias": [
+   "Palmer BF et al. Clin J Am Soc Nephrol 2020;15:1052",
+   "Comprehensive Clinical Nephrology (acidosis tubular renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o5",
+  "peso": 42.6
+ },
+ {
+  "id": "ATB-2",
+  "serie_id": "ATB",
+  "orden": 2,
+  "sub": "16.d.iii",
+  "subtema": "Tratamiento de la ATR proximal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma ATR proximal aislada en el niño. Se inicia bicarbonato de sodio a 2 mEq/kg/día y, a los 10 días, el bicarbonato sérico sigue en 14 mEq/L y el potasio baja a 2.4 mEq/L.",
+  "enunciado": "¿Qué conducta es la más apropiada?",
+  "opciones": {
+   "A": "Cloruro de amonio, para acidificar la orina y mejorar la excreción de ácido titulable en el túbulo proximal",
+   "B": "Aumentar el álcali a dosis altas (10–15 mEq/kg/día), añadir sales de potasio y valorar tiazida",
+   "C": "Furosemida para eliminar el exceso de sodio, que es la causa de la pérdida de bicarbonato en el túbulo proximal",
+   "D": "Mantener la dosis porque la dosis baja de bicarbonato es suficiente en la acidosis tubular proximal aislada",
+   "E": "Suspender el álcali porque empeora la hipopotasemia, y tratar solo con suplementos de potasio por vía oral"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El cloruro de amonio acidifica y empeora la acidosis.",
+   "B": "En la ATR proximal, el bicarbonato administrado se pierde en la orina apenas supera el umbral bajo de reabsorción, por lo que se requieren dosis mucho mayores que en la distal (10 a 15 mEq/kg/día en niños). La carga de álcali con sodio aumenta la entrega distal de sodio y el flujo, y agrava la kaliuresis, así que se usan sales de potasio (citrato o bicarbonato de potasio) y se vigila el potasio. Las tiazidas inducen contracción de volumen, que aumenta la reabsorción proximal de bicarbonato y reduce la necesidad de álcali, con vigilancia de potasio.",
+   "C": "La furosemida aumenta la pérdida de potasio y empeora la acidosis por contracción de volumen no controlada.",
+   "D": "La dosis de 2 mEq/kg/día, útil en la ATR distal, es insuficiente en la proximal.",
+   "E": "El álcali es el tratamiento; la hipopotasemia se corrige añadiendo potasio, no suspendiendo el álcali."
+  },
+  "perla": "ATR proximal: álcali 10–15 mEq/kg/día + potasio ± tiazida. El bicarbonato se pierde en la orina y aumenta la kaliuresis.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (acidosis tubular renal)",
+   "Palmer BF et al. Clin J Am Soc Nephrol 2020;15:1052"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 44.6
+ },
+ {
+  "id": "ATB-3",
+  "serie_id": "ATB",
+  "orden": 3,
+  "sub": "16.d.iii",
+  "subtema": "Diferenciación entre ATR 1, 2 y 4",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la clínica se comparan tres pacientes con acidosis hiperclorémica. El paciente I tiene K 2.8, pH urinario 6.8 con acidemia y brecha aniónica urinaria positiva. El paciente II es el niño ya descrito (K 2.7, pH urinario 5.0 con bicarbonato sérico bajo, brecha aniónica urinaria negativa). El paciente III es un diabético con K 5.9, pH urinario 5.2 y brecha aniónica urinaria positiva.",
+  "enunciado": "¿Qué asignación corresponde a los tres pacientes?",
+  "opciones": {
+   "A": "I: ATR proximal (tipo 2); II: ATR tipo 4; III: ATR distal (tipo 1)",
+   "B": "I: ATR distal (tipo 1); II: ATR tipo 4; III: ATR proximal (tipo 2)",
+   "C": "I: ATR tipo 4; II: ATR distal (tipo 1); III: ATR proximal (tipo 2)",
+   "D": "I: ATR distal (tipo 1); II: ATR proximal (tipo 2); III: ATR tipo 4",
+   "E": "I: ATR proximal (tipo 2); II: ATR distal (tipo 1); III: ATR tipo 4"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Asigna la proximal a un paciente con orina alcalina y brecha positiva, que es el patrón distal.",
+   "B": "Asigna la tipo 4 a un paciente con brecha negativa y hipopotasemia, que no corresponde a ese patrón.",
+   "C": "Asigna la tipo 4 a un paciente hipopotasémico, cuando la tipo 4 se define por hiperpotasemia.",
+   "D": "El paciente I tiene hipopotasemia con orina alcalina inapropiada y brecha urinaria positiva (menor excreción de NH₄⁺): defecto de secreción distal de H⁺, ATR tipo 1. El paciente II conserva la acidificación distal (pH urinario menor de 5.5 con bicarbonato bajo y brecha urinaria negativa, es decir, abundante amonio) y pierde bicarbonato en el túbulo proximal: tipo 2. El paciente III tiene hiperpotasemia, que inhibe la amoniogénesis (brecha positiva) con capacidad de acidificar la orina (pH menor de 5.5): tipo 4 por hipoaldosteronismo hiporreninémico de la nefropatía diabética.",
+   "E": "Invierte los tipos 1 y 2: la orina alcalina con acidemia y brecha positiva es del defecto distal, no del proximal."
+  },
+  "perla": "Tipo 1: ↓K, pH urinario >5.5, BAU +. Tipo 2: ↓K, pH <5.5, BAU −, FEHCO₃ alta. Tipo 4: ↑K, pH <5.5, BAU +.",
+  "referencias": [
+   "Palmer BF et al. Clin J Am Soc Nephrol 2020;15:1052",
+   "Batlle DC et al. N Engl J Med 1988;318:594"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 74.8
+ },
+ {
+  "id": "ATB-4",
+  "serie_id": "ATB",
+  "orden": 4,
+  "sub": "16.d.iii",
+  "subtema": "ATR tipo 4: hipoaldosteronismo hiporreninémico",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El paciente III (diabético de 66 años, TFGe 40, K 5.9, HCO₃ 19, pH urinario 5.2 y brecha aniónica urinaria positiva) tiene renina y aldosterona bajas y toma losartán, ibuprofeno y trimetoprima-sulfametoxazol.",
+  "enunciado": "¿Cuál es el manejo más apropiado?",
+  "opciones": {
+   "A": "Cloruro de amonio, para acidificar la sangre y favorecer la secreción tubular de potasio en la acidosis",
+   "B": "Aumentar la dosis de losartán, para mejorar la nefroprotección del paciente diabético con albuminuria y reducir el potasio",
+   "C": "Citrato de potasio, para corregir la acidosis metabólica y alcalinizar la orina con el aporte alcalino",
+   "D": "Suplementos de potasio por vía oral, para corregir la acidosis tubular y compensar la pérdida urinaria",
+   "E": "Suspender AINE y TMP-SMX (y el ARA-II si hace falta), dieta baja en K, diurético de asa, quelantes y fludrocortisona si procede"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El cloruro de amonio agrava la acidosis.",
+   "B": "Aumentar el ARA-II agrava la hiperpotasemia.",
+   "C": "El citrato de potasio aumentaría el potasio.",
+   "D": "Los suplementos de potasio están contraindicados.",
+   "E": "La ATR tipo 4 (hiperpotasémica) se debe a hipoaldosteronismo o resistencia a aldosterona, con menor secreción de K⁺ y menor excreción de amonio (la hiperpotasemia inhibe la amoniogénesis). Es frecuente en nefropatía diabética (hipoaldosteronismo hiporreninémico). El tratamiento incluye retirar fármacos precipitantes (IECA/ARA-II, AINE, trimetoprima, heparina, antagonistas de aldosterona), dieta baja en potasio, diuréticos kaliuréticos (asa o tiazida) que además corrigen la acidosis, quelantes de potasio (patiromer, ciclosilicato) y fludrocortisona en casos seleccionados si no hay hipertensión ni sobrecarga."
+  },
+  "perla": "ATR 4: hiperK + acidosis hiperclorémica + BAU positiva; retirar IECA/ARA-II, AINE, TMP-SMX; diurético de asa/tiazida; quelantes de K.",
+  "referencias": [
+   "Palmer BF et al. Clin J Am Soc Nephrol 2020;15:1052",
+   "Comprehensive Clinical Nephrology (acidosis tubular renal)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 60.7
+ },
+ {
+  "id": "HMG-2",
+  "serie_id": "HMG",
+  "orden": 2,
+  "sub": "16.c.i",
+  "subtema": "Microscopía electrónica: membrana basal delgada vs Alport",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Años después el paciente desarrolla proteinuria de 0.9 g/g e hipertensión leve, y se realiza una biopsia renal con microscopía electrónica.",
+  "enunciado": "¿Qué hallazgo ultraestructural distingue la enfermedad de membrana basal delgada del síndrome de Alport?",
+  "opciones": {
+   "A": "Depósitos densos intramembranosos en cinta, propios de la enfermedad de depósito denso en ambas entidades",
+   "B": "Depósitos subepiteliales con «espículas» en la membrana basal, presentes por igual en ambas enfermedades y en la membranosa",
+   "C": "Microtúbulos organizados dentro de los depósitos, propios de la glomerulopatía inmunotactoide en ambos casos por igual",
+   "D": "Adelgazamiento difuso y uniforme de la MBG (<200-250 nm), frente a la lamelación en «tejido de cesta» del Alport",
+   "E": "Borramiento difuso de procesos podocitarios sin otros cambios, que se observa en ambas enfermedades por igual de forma típica"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Los depósitos intramembranosos en cinta corresponden a la enfermedad por depósitos densos.",
+   "B": "Las espículas son típicas de la nefropatía membranosa.",
+   "C": "Los depósitos organizados en microtúbulos se observan en crioglobulinemia y glomerulonefritis fibrilar/inmunotactoide.",
+   "D": "En la enfermedad de membrana basal delgada, la microscopía electrónica muestra un adelgazamiento difuso y uniforme de la membrana basal (menos de 200 a 250 nm en adultos), sin otras alteraciones. En el síndrome de Alport, la membrana muestra alternancia de zonas adelgazadas y engrosadas con laminación y división de la lámina densa ('tejido de cesta' o 'basket-weave'). La inmunofluorescencia para la cadena α5(IV) de colágeno IV es útil: ausente en el Alport ligado al X. Los depósitos subepiteliales con espículas son de la nefropatía membranosa y los depósitos densos intramembranosos de la enfermedad por depósitos densos.",
+   "E": "El borramiento podocitario es inespecífico y no distingue ambos cuadros."
+  },
+  "perla": "MBD: GBM uniformemente delgada (<200–250 nm). Alport: lamelación 'basket-weave', α5(IV) ausente (XLAS).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades de la membrana basal)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 56.5
+ },
+ {
+  "id": "HMG-3",
+  "serie_id": "HMG",
+  "orden": 3,
+  "sub": "16.c.i",
+  "subtema": "Seguimiento y riesgo de progresión en variantes heterocigotas de COL4A",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Con proteinuria de 0.9 g/g e hipertensión, la biopsia confirma membrana basal delgada con glomeruloesclerosis focal secundaria. La prueba genética muestra variante heterocigota patogénica en COL4A3.",
+  "enunciado": "¿Cuál es la conducta y la interpretación?",
+  "opciones": {
+   "A": "Las variantes heterocigotas de COL4A3/4 no siempre son benignas: se inicia nefroprotección (IECA/ARA-II ± iSGLT2), seguimiento y consejo genético",
+   "B": "Requiere trasplante renal inmediato, porque la enfermedad progresa con rapidez a ERC terminal en todos los casos",
+   "C": "Se trata con ciclofosfamida y esteroides, porque la proteinuria con glomeruloesclerosis indica enfermedad inmunológica activa",
+   "D": "Se indica rituximab para depletar linfocitos B y reducir la proteinuria de la glomeruloesclerosis focal secundaria",
+   "E": "Es siempre benigna: sin tratamiento ni seguimiento, porque la hematuria familiar no produce daño renal progresivo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Las variantes heterocigotas de COL4A3/COL4A4 (espectro autosómico dominante de Alport) explican la enfermedad de membrana basal delgada, que suele ser benigna, pero una proporción de los pacientes desarrolla proteinuria, hipertensión, glomeruloesclerosis focal secundaria y ERC en la edad adulta. Cuando aparece proteinuria, se trata como proteinuria glomerular crónica con bloqueo del SRAA, control de la TA y, según la guía, iSGLT2; se vigila anualmente la creatinina, la proteinuria y la TA, y se ofrece asesoría genética familiar, sobre todo ante posible donante vivo emparentado.",
+   "B": "No hay indicación de trasplante inmediato.",
+   "C": "La ciclofosfamida no tiene papel en las nefropatías por colágeno IV.",
+   "D": "El rituximab no está indicado en glomeruloesclerosis secundaria a variantes de colágeno IV.",
+   "E": "Considerarla siempre benigna omite a los pacientes que progresan."
+  },
+  "perla": "COL4A3/A4 heterocigoto: usualmente benigno, pero algunos progresan (proteinuria, ERC). Tratar con bloqueo SRAA; evitar donante emparentado afectado.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades de la membrana basal)",
+   "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o3",
+  "peso": 56.5
+ },
+ {
+  "id": "RAA-2",
+  "serie_id": "RAA",
+  "orden": 2,
+  "sub": "16.d.iii",
+  "subtema": "Hipoaldosteronismo hiporreninémico (ATR tipo 4)",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis semanas después, la paciente tiene potasio de 5.9 mEq/L, bicarbonato de 18 mEq/L, cloro de 108 mEq/L, brecha aniónica de 11, creatinina de 2.1 mg/dL, pH urinario de 5.1 y brecha aniónica urinaria positiva. La renina plasmática y la aldosterona están bajas.",
+  "enunciado": "¿Cuál es el mecanismo de este trastorno?",
+  "opciones": {
+   "A": "ATR proximal tipo 2 con bicarbonaturia, por defecto de la reabsorción de bicarbonato en el túbulo proximal",
+   "B": "ATR distal tipo 1 con defecto de la H⁺-ATPasa, pH urinario mayor de 5.5 e hipopotasemia con nefrocalcinosis",
+   "C": "Pérdida gastrointestinal de bicarbonato por diarrea, con brecha aniónica urinaria negativa y pH urinario ácido, sin hiperpotasemia",
+   "D": "Acidosis láctica por metformina, con brecha aniónica elevada, lactato mayor de 5 mmol/L e hiperpotasemia",
+   "E": "Hipoaldosteronismo hiporreninémico de la nefropatía diabética, agravado por el IECA: menor secreción distal de K⁺ y H⁺ (ATR tipo 4)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La ATR tipo 2 es proximal con pérdida de bicarbonato, hipopotasemia y pH urinario variable, y no se asocia a renina y aldosterona bajas.",
+   "B": "La ATR tipo 1 produce pH urinario mayor de 5.5 e hipopotasemia, mientras que aquí el potasio está alto y el pH urinario es ácido.",
+   "C": "La diarrea cursa con hipopotasemia y brecha aniónica urinaria negativa.",
+   "D": "La brecha aniónica es normal, por lo que no hay un anión no medido como el lactato.",
+   "E": "La diabetes con nefropatía puede disminuir la secreción de renina por daño del aparato yuxtaglomerular (hipoaldosteronismo hiporreninémico), y los IECA, los ARA II, los AINE y los diuréticos ahorradores de potasio reducen aún más la aldosterona o su efecto. La aldosterona estimula el canal ENaC y el ROMK en las células principales y la H⁺-ATPasa de las células intercaladas α; su déficit reduce la secreción de potasio y de protones y produce hiperpotasemia con acidosis metabólica hiperclorémica, brecha aniónica sérica normal, pH urinario menor de 5.5 y brecha aniónica urinaria positiva por menor excreción de amonio. Es la ATR tipo 4."
+  },
+  "perla": "ATR tipo 4: ↑K, acidosis hiperclorémica, pH urinario <5.5, brecha aniónica urinaria positiva. Renina y aldosterona bajas = hiporreninémico (diabetes, AINE, IECA).",
+  "referencias": [
+   "Palmer BF. N Engl J Med 2004;351:585",
+   "Comprehensive Clinical Nephrology (trastornos ácido-base)"
+  ],
+  "origen": [
+   "David26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o5",
+  "peso": 74.8
+ },
+ {
+  "id": "BAR-3",
+  "serie_id": "BAR",
+  "orden": 3,
+  "sub": "16.c.v",
+  "subtema": "Podocinopatía: implicaciones terapéuticas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia muestra glomeruloesclerosis focal y segmentaria. Tras 8 semanas de prednisona a dosis plena persiste la proteinuria. El estudio genético identifica una mutación homocigota patogénica en NPHS2 (podocina).",
+  "enunciado": "¿Qué implica el hallazgo para el tratamiento y el pronóstico?",
+  "opciones": {
+   "A": "Es una forma autosómica dominante, con 50% de riesgo de transmisión para la descendencia de la paciente y respuesta variable a esteroides",
+   "B": "El trasplante recurre siempre en las primeras semanas, por lo que está contraindicado en esta forma genética",
+   "C": "La mutación explica un síndrome de Alport, por lo que se debe buscar hematuria, sordera y alteraciones oculares",
+   "D": "Intensificar la inmunosupresión con rituximab y ciclofosfamida, porque la mutación predice respuesta a ellos",
+   "E": "Forma genética resistente a la inmunosupresión: se usa manejo antiproteinúrico y de soporte, y la recurrencia en el injerto es baja"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "NPHS2 es de herencia autosómica recesiva, no dominante.",
+   "B": "La recurrencia en el injerto es infrecuente en las formas genéticas.",
+   "C": "El síndrome de Alport depende de los genes COL4A3-5, no de NPHS2.",
+   "D": "La resistencia por mutación estructural del podocito no mejora con inmunosupresión intensiva, y esta solo agrega toxicidad.",
+   "E": "Las mutaciones de los genes del diafragma de hendidura y del citoesqueleto del podocito (NPHS1 nefrina, NPHS2 podocina, WT1, TRPC6, ACTN4, INF2, CD2AP) causan síndrome nefrótico resistente a esteroides y GEFS. La forma por NPHS2 homocigota es la causa genética más frecuente de síndrome nefrótico resistente en niños, es de herencia autosómica recesiva, no responde a la inmunosupresión (por lo que no se debe exponer al paciente a tratamientos tóxicos de eficacia nula) y se maneja con IECA/ARA II, control de la TA, diuréticos y tratamiento de las complicaciones, con progresión a ERC terminal en la mayoría de los casos. Como el defecto no es de un factor circulante, el riesgo de recurrencia de la GEFS en el injerto es bajo (menor de 10%), a diferencia de la GEFS primaria idiopática."
+  },
+  "perla": "SRNS genético (NPHS2/podocina, AR): sin respuesta a inmunosupresión; antiproteinúricos; recurrencia post-TR baja (<10%). Genes: NPHS1, NPHS2, WT1, TRPC6, ACTN4, INF2.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades hereditarias del riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o4",
+  "peso": 25.8
+ },
+ {
+  "id": "GRA-1",
+  "serie_id": "GRA",
+  "orden": 1,
+  "sub": "16.b.iv",
+  "subtema": "Hiperaldosteronismo familiar tipo I (remediable con glucocorticoides): diagnóstico",
+  "dificultad": "dificil",
+  "caso": "Varón de 19 años con hipertensión desde los 14, resistente a dos fármacos. Su padre murió a los 38 años por una hemorragia cerebral y una tía tuvo un accidente cerebrovascular a los 35. Presión de 164/104 mmHg; potasio de 3.6 mEq/L, creatinina normal, renina plasmática suprimida y aldosterona elevada (relación aldosterona/renina alta). La TC suprarrenal es normal.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y cómo se confirma?",
+  "opciones": {
+   "A": "Hiperaldosteronismo familiar tipo I: gen quimérico CYP11B1/CYP11B2 (ACTH-dependiente); confirmar con PCR del gen o esteroides híbridos",
+   "B": "Síndrome de Gordon, con hiperpotasemia y acidosis metabólica, que se confirma con variantes de WNK1 o WNK4",
+   "C": "Adenoma productor de aldosterona (Conn), que debe resecarse tras cateterismo de venas suprarrenales, por la hipertensión de inicio temprano",
+   "D": "Síndrome de Liddle, con aldosterona suprimida y respuesta a amilorida, confirmado con variantes de SCNN1B",
+   "E": "Feocromocitoma, con catecolaminas elevadas, que se confirma con metanefrinas plasmáticas y estudio de imagen"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El hiperaldosteronismo familiar tipo I (FH-I o GRA) es una causa autosómica dominante de aldosteronismo primario por un gen quimérico entre CYP11B1 (regulado por ACTH, de la zona fascicular) y CYP11B2 (aldosterona sintasa), de modo que la aldosterona se produce de forma ectópica bajo el control de la ACTH: renina suprimida, aldosterona alta, potasio normal o discretamente bajo, y exceso de esteroides híbridos (18-hidroxicortisol y 18-oxocortisol). Se sospecha por hipertensión desde la juventud con antecedentes familiares de ictus precoz (hemorragia cerebral por aneurismas). La guía de la Endocrine Society (2016) recomienda el estudio genético en aldosteronismo primario con inicio antes de los 20 años o con antecedente familiar de aldosteronismo primario o de ictus antes de los 40 años. El PCR de largo alcance detecta el gen quimérico.",
+   "B": "El síndrome de Gordon cursa con hiperpotasemia y acidosis, con renina suprimida pero aldosterona baja o normal.",
+   "C": "El adenoma de Conn suele presentarse en adultos, sin herencia, y no explica el antecedente familiar de ictus precoz.",
+   "D": "En el síndrome de Liddle la aldosterona está suprimida, y aquí está elevada.",
+   "E": "El feocromocitoma cursa con hipertensión paroxística y catecolaminas altas, sin renina suprimida con aldosterona alta."
+  },
+  "perla": "FH-I (GRA): gen quimérico CYP11B1/CYP11B2 → aldosterona bajo ACTH; HTA <20 años, ictus precoz familiar, renina ↓ aldosterona ↑, K normal/bajo; dx por PCR larga o 18-oxo/18-OH-cortisol; genética si <20 años o ictus <40 años en familia.",
+  "referencias": [
+   "Funder JW et al. J Clin Endocrinol Metab 2016;101:1889",
+   "Comprehensive Clinical Nephrology (hipertensión monogénica)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "continuacion": "",
+  "obj": "16.o2",
+  "peso": 14.6
+ },
+ {
+  "id": "GRA-2",
+  "serie_id": "GRA",
+  "orden": 2,
+  "sub": "16.b.iv",
+  "subtema": "FH-I: mecanismo de la supresión y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma el gen quimérico CYP11B1/CYP11B2. El residente pregunta por qué los glucocorticoides controlan la presión y cuál es el tratamiento más adecuado.",
+  "enunciado": "¿Cuál es la respuesta correcta?",
+  "opciones": {
+   "A": "Los glucocorticoides en dosis altas elevan la aldosterona, y por eso se evitan en esta enfermedad",
+   "B": "Glucocorticoide en dosis baja suprime la ACTH y el gen quimérico; se titula a presión y K⁺, con espironolactona de apoyo",
+   "C": "No hay tratamiento eficaz, y solo se vigila la presión y el potasio de forma periódica en la clínica",
+   "D": "La adrenalectomía unilateral es el tratamiento de elección y curativo, porque la hiperplasia es unilateral",
+   "E": "Los antagonistas del SRAA (IECA y ARA II) son el tratamiento de elección, porque la renina está suprimida y la presión depende de angiotensina"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Los glucocorticoides suprimen la ACTH y reducen la aldosterona, lo contrario de lo propuesto.",
+   "B": "En el FH-I, la aldosterona sintasa quimérica se expresa en la zona fascicular y responde a la ACTH, de modo que la supresión de la ACTH con glucocorticoides en dosis bajas (dexametasona 0.125 a 0.5 mg/día o prednisona 2.5 a 5 mg/día) corrige el exceso de aldosterona, y se titula según la presión arterial y el potasio, evitando el sobretratamiento. En niños, para evitar la supresión del crecimiento, se prefieren los antagonistas del receptor mineralocorticoide (espironolactona o eplerenona) o la amilorida, que también se usan en adultos cuando los glucocorticoides no bastan o no se toleran. La adrenalectomía no está indicada, porque la hiperplasia es bilateral y el defecto genético; los IECA o ARA II son poco eficaces con renina suprimida.",
+   "C": "La enfermedad responde a glucocorticoides y a antagonistas del receptor mineralocorticoide.",
+   "D": "La adrenalectomía unilateral no cura una hiperplasia bilateral con defecto genético, y no está indicada.",
+   "E": "Con renina suprimida, los IECA y ARA II son poco eficaces como tratamiento principal."
+  },
+  "perla": "FH-I: glucocorticoide en dosis bajas (dexa 0.125–0.5 mg/d o prednisona 2.5–5 mg/d) suprime ACTH → ↓ aldosterona; titular a PA/K; MRA o amilorida (preferidos en niños); no adrenalectomía.",
+  "referencias": [
+   "Funder JW et al. J Clin Endocrinol Metab 2016;101:1889",
+   "Comprehensive Clinical Nephrology (hipertensión monogénica)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o2",
+  "peso": 14.6
+ },
+ {
+  "id": "GRA-3",
+  "serie_id": "GRA",
+  "orden": 3,
+  "sub": "16.b.iv",
+  "subtema": "FH-I: complicación cerebrovascular y tamizaje familiar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente recibe espironolactona y su presión mejora a 128/80 mmHg. Tiene un hermano de 12 años y una hermana de 16 años, ambos con presión en el percentil 95. El padre, ya fallecido, fue el caso índice de hemorragia cerebral.",
+  "enunciado": "¿Qué conducta es la más adecuada respecto de las complicaciones y de la familia?",
+  "opciones": {
+   "A": "Genética del gen quimérico en familiares de primer grado y angio-RM cerebral periódica en portadores (riesgo de aneurismas)",
+   "B": "Tamizar solo con potasio sérico, porque la hipopotasemia es constante en todos los portadores de la variante",
+   "C": "Realizar adrenalectomía bilateral profiláctica a los portadores, para evitar los aneurismas cerebrales",
+   "D": "No es necesario tamizar a los familiares, porque la enfermedad no es hereditaria y se debe a un adenoma",
+   "E": "Hacer un cateterismo de venas suprarrenales a todos los familiares, para localizar el origen de la aldosterona y planear la cirugía"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El FH-I se hereda de forma autosómica dominante, por lo que se ofrece estudio genético (PCR de largo alcance del gen quimérico) a los familiares de primer grado, incluidos los niños con hipertensión, porque el diagnóstico temprano permite tratar y prevenir las complicaciones. La complicación principal es la enfermedad cerebrovascular: hemorragia intracerebral y subaracnoidea por aneurismas intracraneales a edad joven, con frecuencia mayor que en la población general, por lo que se recomienda tamizar a los portadores con angiorresonancia o angiotomografía cerebral desde la adolescencia o la juventud y repetirlo de forma periódica, junto con el control estricto de la presión. El potasio es normal o discretamente bajo, y no sirve como tamizaje.",
+   "B": "La hipopotasemia no es constante, y muchos pacientes con FH-I tienen potasio normal.",
+   "C": "La adrenalectomía bilateral no está indicada y se evita, porque la enfermedad se controla con fármacos.",
+   "D": "El FH-I es hereditario, de transmisión autosómica dominante, y requiere tamizaje familiar.",
+   "E": "El cateterismo de venas suprarrenales sirve para lateralizar adenomas, no para el diagnóstico de FH-I."
+  },
+  "perla": "FH-I: AD → tamizar genética a familiares de 1.er grado; riesgo de aneurismas intracraneales/hemorragia cerebral precoz → imagen cerebral (angioRM/angioTC) en adolescencia/juventud y repetir; K normal en muchos.",
+  "referencias": [
+   "Funder JW et al. J Clin Endocrinol Metab 2016;101:1889",
+   "Comprehensive Clinical Nephrology (hipertensión monogénica)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o2",
+  "peso": 14.6
+ },
+ {
+  "id": "GRA-4",
+  "serie_id": "GRA",
+  "orden": 4,
+  "sub": "16.b.iv",
+  "subtema": "Diferencial de hiperaldosteronismo familiar: FH-I frente a FH-III",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la misma clínica se evalúa a una niña de 7 años con hipertensión grave (178/112 mmHg), hipopotasemia profunda (2.3 mEq/L), alcalosis metabólica, renina suprimida y aldosterona muy alta. El estudio del gen quimérico CYP11B1/CYP11B2 es negativo y la presión no responde a dexametasona. La TC muestra hiperplasia suprarrenal bilateral masiva.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y su implicación terapéutica?",
+  "opciones": {
+   "A": "Deficiencia de 21-hidroxilasa con pérdida salina, que cursa con hipotensión, hiperpotasemia y virilización",
+   "B": "Síndrome de Gitelman, con hipertensión grave, hipopotasemia y renina elevada por pérdida urinaria de sal",
+   "C": "HF tipo III (KCNJ5), con hiperplasia bilateral: no responde a glucocorticoides; requiere antialdosterónicos altos o cirugía",
+   "D": "Hiperaldosteronismo familiar tipo I, que debe responder a los glucocorticoides en dosis bajas y no requiere cirugía ni antagonistas",
+   "E": "Síndrome de Liddle, con aldosterona suprimida y respuesta a amilorida, por hiperactividad del canal ENaC distal"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La deficiencia de 21-hidroxilasa con pérdida salina cursa con hipotensión e hiperpotasemia.",
+   "B": "El síndrome de Gitelman cursa con presión normal o baja, sin renina suprimida.",
+   "C": "El FH-III se debe a variantes de ganancia de función en KCNJ5 (que codifica un canal de potasio rectificador de la membrana de las células de la glomerulosa), con despolarización, entrada de calcio y producción autónoma de aldosterona. Se presenta en la infancia con hipertensión grave, hipopotasemia profunda e hiperplasia suprarrenal bilateral masiva, sin el gen quimérico y sin respuesta a glucocorticoides, a diferencia del FH-I. El tratamiento médico con espironolactona o eplerenona en dosis altas, con potasio y amilorida, puede ser insuficiente, y los casos refractarios se llevan a adrenalectomía bilateral con sustitución de glucocorticoides y mineralocorticoides. Los demás FH (II, con CLCN2 en algunos casos, y IV) son de presentación más variable.",
+   "D": "El FH-I responde a glucocorticoides y tiene un gen quimérico, que aquí es negativo.",
+   "E": "En el síndrome de Liddle la aldosterona es baja, y aquí es muy alta."
+  },
+  "perla": "FH-III (KCNJ5): niño con HTA grave, K muy bajo, hiperplasia suprarrenal bilateral masiva, sin gen quimérico y sin respuesta a dexametasona; MRA en dosis altas ± adrenalectomía bilateral.",
+  "referencias": [
+   "Choi M et al. Science 2011;331:768 (KCNJ5)",
+   "Funder JW et al. J Clin Endocrinol Metab 2016;101:1889"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 16,
+  "tema": "Enfermedades hereditarias del riñón",
+  "obj": "16.o2",
+  "peso": 14.6
+ },
+ {
+  "id": "HRJ-1",
+  "tema_id": 16,
+  "sub": "16.a.i",
+  "obj": "16.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Bartter tipo 2 neonatal",
+  "caso": "Recién nacido prematuro con antecedente de polihidramnios, hiponatremia e hiperpotasemia al tercer día; a las 3 semanas presenta hipopotasemia con alcalosis.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "perla": "Bartter 1 y 2: hipercalciuria y nefrocalcinosis por pérdida del voltaje luminal positivo. El polihidramnios con proteína alta en líquido amniótico sugiere Bartter prenatal.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Seudohipoaldosteronismo tipo 1",
+   "B": "Hiperplasia suprarrenal congénita",
+   "C": "Bartter tipo 2 por KCNJ1",
+   "D": "Síndrome de Gitelman",
+   "E": "Bartter tipo 3"
+  },
+  "explicaciones": {
+   "A": "Aldosterona muy alta, pero no evoluciona a hipopotasemia.",
+   "B": "No evoluciona así.",
+   "C": "Correcto. ROMK también secreta K en el colector: al inicio da hiperpotasemia que imita PHA1; luego otros canales compensan.",
+   "D": "Inicio tardío, sin polihidramnios.",
+   "E": "Forma clásica de inicio más tardío."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-2",
+  "tema_id": 16,
+  "sub": "16.a.i",
+  "obj": "16.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Bartter tipo 4",
+  "caso": "Lactante con Bartter grave, sordera neurosensorial y TFG en descenso.",
+  "enunciado": "¿Qué gen está afectado?",
+  "perla": "Bartter 3 (CLCNKB): forma clásica en la primera década, hipomagnesemia frecuente y fenotipo que puede imitar Gitelman.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "SLC12A1, que codifica NKCC2",
+   "B": "CLCNKB aislado",
+   "C": "CASR con ganancia de función",
+   "D": "SLC12A3, que codifica NCC",
+   "E": "BSND, que codifica barttina"
+  },
+  "explicaciones": {
+   "A": "Tipo 1: sin sordera.",
+   "B": "Tipo 3: CLC-Ka compensa en el oído.",
+   "C": "Tipo 5 o hipocalcemia autosómica dominante.",
+   "D": "Gitelman.",
+   "E": "Correcto. Barttina es subunidad de CLC-Ka y CLC-Kb en riñón y oído interno; su pérdida equivale a perder ambos canales. ERC progresiva común."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-3",
+  "tema_id": 16,
+  "sub": "16.a.i",
+  "obj": "16.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Tratamiento del Bartter prenatal",
+  "caso": "Lactante con Bartter prenatal, poliuria, retraso del crecimiento y renina muy alta.",
+  "enunciado": "¿Cuál es un componente clave del tratamiento?",
+  "perla": "Puede haber DI nefrogénica secundaria: mucho soluto puede causar hipernatremia. Suplementos pequeños y frecuentes son más seguros que dosis altas.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Indometacina",
+   "B": "Espironolactona",
+   "C": "Tiazidas",
+   "D": "Restricción salina",
+   "E": "Desmopresina"
+  },
+  "explicaciones": {
+   "A": "Correcto. Corrige la retroalimentación tubuloglomerular patológica mediada por PGE2: menos poliuria, mejor crecimiento y electrolitos.",
+   "B": "Empeora la pérdida salina: solo con suplemento suficiente.",
+   "C": "No es lo indicado.",
+   "D": "Es un síndrome perdedor de sal.",
+   "E": "No responde."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-4",
+  "tema_id": 16,
+  "sub": "16.a.ii",
+  "obj": "16.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Seudo-Bartter por diarrea clorurada congénita",
+  "caso": "Lactante con alcalosis hipopotasémica hipoclorémica, pañales muy húmedos y cloro urinario muy bajo.",
+  "enunciado": "¿Qué diagnóstico debe considerarse?",
+  "perla": "Demostrar pérdida renal de sal; luego Mg y calcio urinario orientan entre Bartter y Gitelman. Confirmar con genética.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Bartter tipo 1",
+   "B": "Síndrome de Gitelman",
+   "C": "Diuréticos de asa",
+   "D": "Diarrea clorurada",
+   "E": "Síndrome de Liddle"
+  },
+  "explicaciones": {
+   "A": "Cloro urinario alto.",
+   "B": "Cloro urinario alto.",
+   "C": "Cloro urinario alto mientras actúa.",
+   "D": "Correcto. Bioquímica sérica idéntica; las heces líquidas se confunden con orina. FECl <0.5% indica pérdida extrarrenal.",
+   "E": "Hipertensión con renina baja."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-5",
+  "tema_id": 16,
+  "sub": "16.a.ii",
+  "obj": "16.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Gitelman: evolución y manejo",
+  "caso": "Mujer de 28 años con Gitelman, fatiga y calambres pese a suplementos.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Prevalencia ~1:40,000: la tubulopatía hereditaria más frecuente. Sal liberal, K y Mg orales (limitados por diarrea). Diferencial: Bartter 3, HNF1B, EAST, tiazidas, Sjögren.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Los AINE son muy eficaces",
+   "B": "Puede desarrollar condrocalcinosis",
+   "C": "El pronóstico renal es malo",
+   "D": "La gravedad bioquímica predice los síntomas",
+   "E": "Es autosómica dominante"
+  },
+  "explicaciones": {
+   "A": "Suelen no ayudar.",
+   "B": "Correcto. También calcificaciones escleracoroideas en etapas tardías.",
+   "C": "Buen pronóstico cardiaco y renal.",
+   "D": "No hay correlación clara.",
+   "E": "Autosómica recesiva."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-6",
+  "tema_id": 16,
+  "sub": "16.b.iii",
+  "obj": "16.o2",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Exceso aparente de mineralocorticoides",
+  "caso": "Niño de 4 años con bajo peso al nacer, HTA grave, hipopotasemia, alcalosis, renina y aldosterona suprimidas.",
+  "enunciado": "¿Qué estudio confirma la sospecha y cuál es el mejor tratamiento?",
+  "perla": "Déficit de 11β-HSD2 renal y placentaria: restricción del crecimiento intrauterino. Regaliz y carbenoxolona dan la forma adquirida.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "18-oxocortisol; dexametasona",
+   "B": "Supresión salina; adrenalectomía",
+   "C": "Renina posicional; IECA",
+   "D": "Perfil de esteroides; amilorida",
+   "E": "Genética de WNK4; tiazida"
+  },
+  "explicaciones": {
+   "A": "Corresponde a hiperaldosteronismo remediable con glucocorticoides.",
+   "B": "Aldosterona suprimida.",
+   "C": "No es útil.",
+   "D": "Correcto. Metabolitos de cortisol altos frente a cortisona. Los antagonistas de MR compiten con cortisol 1000 veces más concentrado: amilorida o combinación es más eficaz.",
+   "E": "Corresponde a Gordon."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-7",
+  "tema_id": 16,
+  "sub": "16.b.ii",
+  "obj": "16.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Síndrome de Gordon: genética",
+  "caso": "Niño sin antecedentes familiares con HTA, potasio 6.8 mEq/L y acidosis hiperclorémica marcada.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Genes: WNK4 (pérdida de función), WNK1 (sobreexpresión), KLHL3 y CUL3. Tacrolimus causa una forma adquirida.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "CUL3 suele ser de novo y más grave",
+   "B": "Requiere historia familiar positiva",
+   "C": "No responde a tiazidas",
+   "D": "Se debe a pérdida de función de NCC",
+   "E": "La renina suele estar alta"
+  },
+  "explicaciones": {
+   "A": "Correcto. El fenotipo CUL3 tiene más K, más acidosis e HTA, con diagnóstico más temprano.",
+   "B": "CUL3 es frecuentemente de novo.",
+   "C": "Las tiazidas corrigen el cuadro.",
+   "D": "Hay hiperactividad de NCC.",
+   "E": "Suele estar suprimida."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-8",
+  "tema_id": 16,
+  "sub": "16.b.i",
+  "obj": "16.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Síndrome de Liddle: mecanismo",
+  "caso": "Adolescente con HTA, hipopotasemia, renina y aldosterona bajas, sin respuesta a espironolactona.",
+  "enunciado": "¿Cuál es el mecanismo molecular?",
+  "perla": "Amilorida o triamtereno de por vida. Tras trasplante no recurre.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Déficit de 11β-HSD2",
+   "B": "Gen quimérico CYP11B1/CYP11B2",
+   "C": "Ganancia de función del MR",
+   "D": "Pérdida de función de WNK4",
+   "E": "ENaC no reconocido por NEDD4"
+  },
+  "explicaciones": {
+   "A": "Exceso aparente de mineralocorticoides.",
+   "B": "Hiperaldosteronismo remediable con glucocorticoides.",
+   "C": "Forma con HTA agravada en el embarazo.",
+   "D": "Gordon.",
+   "E": "Correcto. Truncamiento C-terminal de β o γ: el canal no se ubiquitina y permanece en la membrana."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-9",
+  "tema_id": 16,
+  "sub": "16.d.ii",
+  "obj": "16.o5",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Prueba con DDAVP intravenosa",
+  "caso": "Lactante con DI nefrogénica confirmada; se aplica DDAVP 0.3 µg/kg IV.",
+  "enunciado": "¿Qué hallazgo sugiere forma autosómica por AQP2?",
+  "perla": "Sin respuesta: Uosm <200. Respuesta intermedia: DI parcial o lavado medular; repetir dosis. En lactantes la concentración madura en el primer año.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Osmolalidad urinaria >800 mOsm/kg",
+   "B": "Ausencia de cualquier efecto vascular",
+   "C": "Aumento del factor von Willebrand",
+   "D": "Hiponatremia aguda grave",
+   "E": "Polihidramnios previo"
+  },
+  "explicaciones": {
+   "A": "Respuesta renal normal.",
+   "B": "Sugiere mutación de AVPR2.",
+   "C": "Correcto. En AQP2 el receptor V2 está íntegro y conserva los efectos vasculares; en las formas ligadas al X (>90%) no.",
+   "D": "Riesgo si responde y sigue bebiendo.",
+   "E": "La DI nefrogénica no lo causa: la placenta depura la carga osmótica."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-10",
+  "tema_id": 16,
+  "sub": "16.d.ii",
+  "obj": "16.o5",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Tratamiento de la DI nefrogénica congénita",
+  "caso": "Lactante con DI nefrogénica, osmolalidad urinaria media de 100 mOsm/kg y carga osmótica de 15 mOsm/kg/día.",
+  "enunciado": "¿Qué volumen urinario se espera y qué combinación reduce la poliuria?",
+  "perla": "Indometacina es la más eficaz en lactantes, con riesgo GI y renal. Dietista para reducir carga osmótica sin comprometer proteína y calorías.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "50 mL/kg/día; desmopresina",
+   "B": "150 mL/kg/día; tiazida con amilorida",
+   "C": "300 mL/kg/día; furosemida",
+   "D": "100 mL/kg/día; restricción de agua",
+   "E": "150 mL/kg/día; tolvaptán"
+  },
+  "explicaciones": {
+   "A": "No responde a desmopresina.",
+   "B": "Correcto. Carga ÷ osmolalidad. La tiazida con poca sal induce contracción leve y más reabsorción proximal; amilorida evita hipopotasemia.",
+   "C": "No es lo indicado.",
+   "D": "Riesgo de deshidratación hipernatrémica.",
+   "E": "No tiene sentido en DI."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "HRJ-11",
+  "tema_id": 16,
+  "sub": "16.d.ii",
+  "obj": "16.o5",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Síndrome nefrogénico de antidiuresis inapropiada",
+  "caso": "Lactante varón con hiponatremia recurrente, orina concentrada y vasopresina indetectable.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "perla": "Variantes de GNAS también lo causan. Varones más afectados.",
+  "referencias": [
+   "Bockenhauer D. Inherited Disorders of Sodium and Water Handling. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 49, pp. 589-599"
+  ],
+  "serie_id": "HRJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "SIADH; tolvaptán",
+   "B": "DI nefrogénica; tiazida",
+   "C": "Insuficiencia suprarrenal; hidrocortisona",
+   "D": "Polidipsia primaria; restricción",
+   "E": "Ganancia de función de AVPR2; urea oral"
+  },
+  "explicaciones": {
+   "A": "En el SIADH la AVP no está suprimida.",
+   "B": "Es la imagen opuesta.",
+   "C": "No es lo descrito.",
+   "D": "La orina estaría diluida.",
+   "E": "Correcto. Ligado al X dominante; la restricción hídrica es difícil en lactantes; los acuaréticos no sirven."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-1",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Alport autosómico dominante",
+  "caso": "Hombre de 45 años con microhematuria, proteinuria de 1.2 g/día, GEFS en la biopsia y variante heterocigota patogénica de COL4A3.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Antes: ligado al X 80%, AR 15%, AD 5%. Prevalencia ~1:50,000; segunda enfermedad renal monogénica tras la poliquistosis.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Es nefropatía de membrana delgada benigna",
+   "B": "La variante es incidental y sin relación",
+   "C": "Se clasifica como Alport autosómico dominante",
+   "D": "Progresa más rápido que la forma ligada al X",
+   "E": "Las lesiones oculares son frecuentes"
+  },
+  "explicaciones": {
+   "A": "Los autores prefieren clasificar todos los heterocigotos COL4A3/4 como Alport AD.",
+   "B": "Explica la GEFS.",
+   "C": "Correcto. Con NGS representa 20–30% de las familias; espectro desde hematuria aislada hasta ERCT, incluida GEFS.",
+   "D": "Su evolución es más lenta.",
+   "E": "Casi nunca hay lesiones oculares."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-2",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Mujer portadora de COL4A5 como donante",
+  "caso": "Madre de 42 años, portadora de variante de COL4A5, con microhematuria, PA y proteinuria normales, desea donar a su hijo con Alport.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "No deben donar las portadoras con proteinuria, HTA, TFG reducida o hipoacusia. Más de 90% tiene microhematuria; ≥75% desarrolla proteinuria.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Su riesgo de ERCT es nulo",
+   "B": "Puede donar aunque tenga hipoacusia",
+   "C": "La donación no altera la PA en portadoras",
+   "D": "La hematuria aislada contraindica la evaluación",
+   "E": "Su riesgo de ERCT supera al de otro donante"
+  },
+  "explicaciones": {
+   "A": "No es nulo.",
+   "B": "La hipoacusia contraindica.",
+   "C": "Se observó HTA de novo.",
+   "D": "No contraindica la evaluación; decidir con la familia.",
+   "E": "Correcto. 12% de las portadoras llega a ERCT antes de los 40, 30% a los 60 y 40% a los 80; en una serie, la mayoría de donantes portadoras desarrolló HTA, proteinuria o caída de TFG."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-3",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Nefroprotección temprana en Alport",
+  "caso": "Niño de 6 años con Alport ligado al X por variante truncante, microalbuminuria y TFG normal.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "El beneficio se observa con variantes truncantes y no truncantes. Fuente más reciente: EARLY PRO-TECT, ensayo aleatorizado con ramipril en niños.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588",
+   "Gross O, et al. Safety and efficacy of the ACE-inhibitor ramipril in Alport syndrome: the EARLY PRO-TECT Alport trial. Kidney Int 2020;97:1275-1286. doi:10.1016/j.kint.2019.12.015"
+  ],
+  "serie_id": "GHJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Iniciar IECA ya",
+   "B": "Esperar a proteinuria nefrótica",
+   "C": "Esperar a que baje la TFG",
+   "D": "Ciclosporina",
+   "E": "Prednisona"
+  },
+  "explicaciones": {
+   "A": "Correcto. Iniciado con TFG normal, el IECA retrasa la ERCT años: en hermanos discordantes, mediana de 13 años. EARLY PRO-TECT (2020) confirmó su seguridad pediátrica.",
+   "B": "Tarde.",
+   "C": "Tarde.",
+   "D": "No recomendada.",
+   "E": "Sin papel."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-4",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Anti-MBG en el injerto en Alport",
+  "caso": "Varón con Alport ligado al X por deleción grande que, 6 meses tras el trasplante, presenta GN rápidamente progresiva del injerto.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "perla": "Supervivencia del injerto equivalente a otras causas.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Recurrencia del Alport",
+   "B": "Nefropatía por IgA recurrente",
+   "C": "Toxicidad por tacrolimus",
+   "D": "Nefritis anti-MBG de novo",
+   "E": "Nefropatía por BK"
+  },
+  "explicaciones": {
+   "A": "El Alport no recurre.",
+   "B": "No es lo descrito.",
+   "C": "No causa GN rápidamente progresiva.",
+   "D": "Correcto. El injerto expresa la red α3–α4–α5(IV) que el receptor nunca tuvo; ocurre en 2–3% de los varones, casi siempre el primer año.",
+   "E": "No es lo descrito."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-5",
+  "tema_id": 16,
+  "sub": "16.c.i",
+  "obj": "16.o3",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Inmunofluorescencia de colágeno IV",
+  "caso": "Mujer de 20 años sin antecedentes familiares con Alport grave; IF: ausencia de α3, α4 y α5(IV) en MBG, pero α5(IV) presente en la cápsula de Bowman y la membrana basal epidérmica.",
+  "enunciado": "¿Qué forma sugiere?",
+  "perla": "Una IF normal no excluye Alport. Lenticono anterior: casi patognomónico, ~15% de varones con XLAS, asociado a ERCT antes de los 30 y sordera.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ligada al X en varón",
+   "B": "Autosómica recesiva",
+   "C": "Portadora ligada al X con mosaicismo",
+   "D": "Autosómica dominante",
+   "E": "Membrana basal normal"
+  },
+  "explicaciones": {
+   "A": "Ausente también en piel.",
+   "B": "Correcto. En la AR se conserva α5(IV) asociado a α6 en Bowman, MBT distal y piel; ERCT y sordera antes de los 30 en ambos sexos.",
+   "C": "Patrón en mosaico.",
+   "D": "La expresión suele ser normal.",
+   "E": "No corresponde."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-6",
+  "tema_id": 16,
+  "sub": "16.c.v",
+  "obj": "16.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Rendimiento genético en SRNS",
+  "caso": "Lactante de 2 meses con síndrome nefrótico corticorresistente.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "SRNS: segunda causa de ERC pediátrica (15% antes de los 25). Genes principales en WES: NPHS1, PLCE1, NPHS2, SMARCAL1.",
+  "referencias": [
+   "Schneider R, Hildebrandt F. Inherited Causes of Nephrotic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 20, pp. 237-244"
+  ],
+  "serie_id": "GHJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El rendimiento genético aumenta con la edad",
+   "B": "Los genes dominantes predominan en lactantes",
+   "C": "WT1 solo se presenta en adultos",
+   "D": "El rendimiento genético es ~69% a esta edad",
+   "E": "Debe darse prednisona 12 semanas primero"
+  },
+  "explicaciones": {
+   "A": "Disminuye.",
+   "B": "Los recesivos (NPHS1, LAMB2, PLCE1) inician temprano; los dominantes (INF2, TRPC6) en adultos.",
+   "C": "WT1 es bifásico: 4–12 meses y >18 años.",
+   "D": "Correcto. En 1783 familias, 29.5% global, con el máximo en 0–3 meses y descenso con la edad.",
+   "E": "Hacer genética temprano."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-7",
+  "tema_id": 16,
+  "sub": "16.c.v",
+  "obj": "16.o4",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "SRNS tratable: coenzima Q10",
+  "caso": "Niño de 3 años con SRNS, sordera neurosensorial y variante bialélica de COQ6.",
+  "enunciado": "¿Qué tratamiento específico debe considerarse?",
+  "perla": "Saber la causa genética evita inmunosupresión innecesaria e informa el riesgo de recurrencia tras el trasplante, que es bajo en formas monogénicas.",
+  "referencias": [
+   "Schneider R, Hildebrandt F. Inherited Causes of Nephrotic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 20, pp. 237-244"
+  ],
+  "serie_id": "GHJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Suplemento de coenzima Q10",
+   "B": "Ciclosporina en dosis altas",
+   "C": "Rituximab",
+   "D": "Pulsos de metilprednisolona",
+   "E": "Eculizumab"
+  },
+  "explicaciones": {
+   "A": "Correcto. Los defectos de síntesis de CoQ10 (COQ2, COQ6, ADCK4/COQ8B, PDSS2) son de las pocas formas monogénicas que pueden responder a la suplementación.",
+   "B": "Las formas monogénicas suelen no responder a inmunosupresión.",
+   "C": "Sin papel.",
+   "D": "Sin papel.",
+   "E": "Es para DGKE con complemento."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "GHJ-8",
+  "tema_id": 16,
+  "sub": "16.c.v",
+  "obj": "16.o4",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Trastornos relacionados con MYH9",
+  "caso": "Joven con nefritis hereditaria, sordera, macrotrombocitopenia e inclusiones leucocitarias.",
+  "enunciado": "¿Qué gen está afectado?",
+  "perla": "Uña-rótula: LMX1B por haploinsuficiencia; afección renal en 30–60%.",
+  "referencias": [
+   "Rheault MN, Kashtan CE. Alport Syndrome and Other Familial Glomerular Syndromes. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 48, pp. 576-588"
+  ],
+  "serie_id": "GHJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "COL4A5",
+   "B": "LMX1B",
+   "C": "GLA",
+   "D": "WT1",
+   "E": "MYH9"
+  },
+  "explicaciones": {
+   "A": "Alport ligado al X sin macrotrombocitopenia.",
+   "B": "Uña-rótula.",
+   "C": "Fabry.",
+   "D": "Denys-Drash o Frasier.",
+   "E": "Correcto. Síndromes de Epstein y Fechtner (con anomalía de May-Hegglin), autosómicos dominantes."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades hereditarias del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "ACB-1",
+  "serie_id": "ACB",
+  "orden": 1,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "subtema": "Alcalosis metabólica",
+  "dificultad": "moderada",
+  "caso": "Mujer de 24 años con debilidad, calambres y palpitaciones. TA 98/62 mmHg en decúbito; 82/50 mmHg de pie. Gasometría arterial: pH 7.52, PaCO2 48 mmHg, HCO3 38 mEq/L. Na 137, K 2.3, Cl 88 mEq/L, creatinina 0.7 mg/dL, albúmina 4.0 g/dL.",
+  "continuacion": "",
+  "enunciado": "¿Cuál es la interpretación ácido-base?",
+  "opciones": {
+   "A": "Acidosis metabólica de anión gap elevado con alcalosis metabólica, por pérdida de ácidos y bicarbonato",
+   "B": "Alcalosis metabólica con compensación respiratoria adecuada: la PaCO2 esperada es de ≈50 ± 5 mmHg y la medida es de 48",
+   "C": "Alcalosis metabólica con acidosis respiratoria sobreagregada, porque la PaCO2 medida es mayor de la esperada en el paciente",
+   "D": "Alcalosis metabólica con alcalosis respiratoria sobreagregada, porque la PaCO2 medida es menor de la esperada según la fórmula",
+   "E": "Alcalosis respiratoria crónica compensada, con pérdida renal de bicarbonato y una PaCO2 baja en sangre"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El anión gap de 11 es normal, por lo que no hay acidosis de anión gap elevado.",
+   "B": "El pH de 7.52 con HCO3 de 38 indica alcalosis metabólica primaria. En la alcalosis metabólica la PaCO2 esperada es 40 + 0.7 × (HCO3 − 24) = 40 + 0.7 × 14 ≈ 50 ± 5 mmHg (45-55). La PaCO2 medida de 48 cae en ese rango, por lo que la compensación es adecuada y no hay un segundo trastorno. El anión gap = 137 − 88 − 38 = 11 mEq/L es normal.",
+   "C": "La acidosis respiratoria sobreagregada se diagnosticaría con una PaCO2 mayor que la esperada (>55 mmHg).",
+   "D": "La alcalosis respiratoria sobreagregada se diagnosticaría con una PaCO2 menor que la esperada (<45 mmHg).",
+   "E": "En una alcalosis respiratoria el pH es alto con PaCO2 baja y HCO3 bajo; aquí HCO3 y PaCO2 están elevados."
+  },
+  "perla": "Compensación: acidosis metabólica (Winter) PaCO2 = 1.5 × HCO3 + 8 ± 2; alcalosis metabólica PaCO2 = 40 + 0.7 × ΔHCO3 (± 5). Calcular siempre AG corregido por albúmina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (cap. Trastornos ácido-base)",
+   "Berend K et al. N Engl J Med 2014;371:1434"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "25.b",
+  "tema_id": 25,
+  "obj": "25.o2",
+  "peso": 61.3
+ },
+ {
+  "id": "ACB-2",
+  "serie_id": "ACB",
+  "orden": 2,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "subtema": "Alcalosis metabólica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente niega uso de fármacos. En la exploración se observa aumento de volumen parotídeo bilateral, erosión del esmalte dental y callosidades en el dorso de la mano. Na urinario 12 mEq/L, Cl urinario 5 mEq/L, K urinario 14 mEq/L, pH urinario 7.0. Los niveles de renina y aldosterona están elevados.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y qué dato lo apoya?",
+  "opciones": {
+   "A": "Hiperaldosteronismo primario: Cl urinario elevado, renina suprimida e hipertensión arterial sostenida",
+   "B": "Síndrome de Gitelman: Cl urinario elevado e hipocalciuria, con hipomagnesemia y presión arterial normal",
+   "C": "Vómito autoinducido: alcalosis metabólica sensible a cloro con Cl urinario bajo (<20 mEq/L)",
+   "D": "Síndrome de Bartter: Cl urinario elevado con hipercalciuria, retraso del crecimiento y presión normal",
+   "E": "Síndrome de Liddle: HTA con renina y aldosterona suprimidas, por activación del canal epitelial de sodio (ENaC) en el colector"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "En el hiperaldosteronismo primario hay HTA, renina suprimida y Cl urinario normal o alto; aquí hay hipotensión ortostática y renina elevada.",
+   "B": "Gitelman cursa con Cl urinario alto, hipomagnesemia e hipocalciuria; la paciente tiene Cl urinario 5 mEq/L.",
+   "C": "El vómito autoinducido (parotidomegalia, erosión dental, signo de Russell) causa pérdida de HCl gástrico, contracción de volumen, hiperaldosteronismo secundario y alcalosis metabólica. Mientras persiste la alcalosis hay bicarbonaturia (pH urinario 7.0), que arrastra Na y K y hace que el Na urinario sea poco confiable; por eso se utiliza el Cl urinario: <20 mEq/L indica depleción de cloruro (sensible a cloro), a diferencia de los estados con Cl urinario alto (hiperaldosteronismo, Bartter, Gitelman, diuréticos activos).",
+   "D": "Bartter cursa con Cl urinario alto, hipercalciuria y renina elevada, pero no explica los signos de bulimia ni el Cl urinario bajo.",
+   "E": "Liddle cursa con HTA, hipocalemia y renina/aldosterona suprimidas; no es el caso."
+  },
+  "perla": "Alcalosis metabólica: Cl urinario <20 (sensible a Cl): vómito, aspiración nasogástrica, diuréticos remotos, poshipercapnia, diarrea clorurada congénita. Cl >20: hiperaldosteronismo, Bartter/Gitelman, diuréticos activos, hipoMg/hipoK graves.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (cap. Alcalosis metabólica)",
+   "Palmer BF, Clegg DJ. N Engl J Med 2015;373:548"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "25.b",
+  "tema_id": 25,
+  "obj": "25.o2",
+  "peso": 63.3
+ },
+ {
+  "id": "ACB-3",
+  "serie_id": "ACB",
+  "orden": 3,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "subtema": "Alcalosis metabólica: tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente reconoce los episodios de vómito. Presenta ECG con ondas U y extrasístoles ventriculares ocasionales. Mg 1.9 mg/dL. Está sin vía oral tolerada.",
+  "enunciado": "¿Cuál es el manejo inicial más apropiado?",
+  "opciones": {
+   "A": "Citrato de potasio por vía oral para reponer el potasio y corregir la alcalosis crónica, aunque no tolere la vía oral",
+   "B": "Acetazolamida como tratamiento de primera línea, para eliminar el exceso de bicarbonato y corregir la alcalosis metabólica",
+   "C": "Salina isotónica con KCl y monitoreo ECG, más atención psiquiátrica y nutricional por el trastorno alimentario",
+   "D": "Indometacina para disminuir la pérdida renal de potasio, porque inhibe las prostaglandinas y la secreción de renina",
+   "E": "Espironolactona para corregir el hiperaldosteronismo primario, porque el bloqueo mineralocorticoide corrige la hipopotasemia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El citrato se convierte en bicarbonato y mantiene la alcalosis; no es una sal adecuada para reponer K en este caso.",
+   "B": "La acetazolamida puede considerarse en alcalosis con sobrecarga de volumen, pero aquí hay depleción de volumen y empeoraría la pérdida de potasio.",
+   "C": "La alcalosis sensible a cloro se corrige reponiendo volumen y cloruro: NaCl al 0.9% restablece el volumen, suprime el hiperaldosteronismo secundario y permite eliminar el exceso de bicarbonato por la orina. La hipocalemia (2.3 mEq/L con ondas U y extrasístoles) se repone con KCl (no citrato ni bicarbonato, que perpetúan la alcalosis) con monitoreo ECG, y se mantiene la reposición de magnesio si hay deficiencia. Es esencial el tratamiento del trastorno de conducta alimentaria y se vigila el riesgo de síndrome de realimentación.",
+   "D": "La indometacina se emplea en el síndrome de Bartter, no en la pérdida de H+ gástrica por vómito.",
+   "E": "La espironolactona no corrige la causa y empeora la hipovolemia; es útil en el hiperaldosteronismo primario y como complemento en síndromes tubulares."
+  },
+  "perla": "Tratamiento: volumen (NaCl) + KCl; no administrar sales de K con anión alcalinizante (citrato/bicarbonato/acetato). Corregir Mg para reponer K.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (cap. Hipopotasemia)",
+   "Palmer BF, Clegg DJ. N Engl J Med 2015;373:548"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "sub": "25.b",
+  "tema_id": 25,
+  "obj": "25.o2",
+  "peso": 49.2
+ },
+ {
+  "id": "ATR-1",
+  "serie_id": "ATR",
+  "orden": 1,
+  "sub": "25.a",
+  "subtema": "Acidosis metabólica hiperclorémica: brecha urinaria",
+  "dificultad": "moderada",
+  "caso": "Mujer de 38 años con sequedad ocular y bucal, fatiga y debilidad muscular periódica. Gasometría arterial: pH 7.28, PaCO₂ 30 mmHg, HCO₃ 14 mEq/L. Na 138, K 2.8, Cl 113 mEq/L, albúmina 4.1 g/dL, creatinina 0.8 mg/dL. Orina: pH 6.8; Na 50, K 28, Cl 25 mEq/L.",
+  "enunciado": "¿Cuál es la interpretación del trastorno y de la brecha aniónica urinaria?",
+  "opciones": {
+   "A": "Alcalosis metabólica con acidosis respiratoria sobreagregada, por hipoventilación y retención de bicarbonato",
+   "B": "Acidosis metabólica de brecha aniónica elevada por tóxicos, con brecha osmolar aumentada y lactato elevado en sangre",
+   "C": "Brecha urinaria positiva que orienta a diarrea como causa, por pérdida intestinal de bicarbonato y potasio",
+   "D": "Acidosis metabólica de brecha normal compensada; la brecha urinaria positiva (+53) indica baja excreción de NH₄⁺ por defecto distal",
+   "E": "Acidosis respiratoria crónica compensada, con retención de CO₂ y aumento compensatorio del bicarbonato"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay alcalosis; el pH es 7.28.",
+   "B": "La AG sérica es normal; los tóxicos y cetoacidosis elevan la brecha.",
+   "C": "En la diarrea la brecha urinaria es negativa por alta excreción de NH₄⁺.",
+   "D": "La AG sérica = 138 − 113 − 14 = 11 mEq/L es normal (acidosis hiperclorémica); la PaCO₂ esperada por Winter es 1.5 × 14 + 8 = 29 ± 2 mmHg y la medida es 30: compensación adecuada. La brecha aniónica urinaria (Na + K − Cl) = 50 + 28 − 25 = +53 mEq/L: una brecha positiva en el contexto de acidosis significa que el riñón no está excretando NH₄⁺ (que aparece como Cl⁻ en la orina), indicando defecto renal de acidificación; una brecha negativa señala pérdida extrarrenal (diarrea) con adecuada excreción de NH₄⁺. El pH urinario >5.5 durante la acidosis y la hipopotasemia apoyan acidosis tubular renal distal (tipo 1).",
+   "E": "El pH está bajo con HCO₃ bajo y PaCO₂ también baja: es una acidosis metabólica, no respiratoria."
+  },
+  "perla": "AGU = Na + K − Cl en orina. Negativa (<0) → ↑NH₄⁺ (diarrea, extrarrenal). Positiva → ↓NH₄⁺ (ATR, IR). Winter: PaCO₂ = 1.5×HCO₃ + 8 ± 2.",
+  "referencias": [
+   "Berend K et al. N Engl J Med 2014;371:1434",
+   "Comprehensive Clinical Nephrology (cap. Acidosis tubular renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 25,
+  "tema": "Alteraciones del equilibrio ácido-base",
+  "continuacion": "",
+  "obj": "25.o1",
+  "peso": 63.3
+ },
+ {
+  "id": "HMG-1",
+  "serie_id": "HMG",
+  "orden": 1,
+  "sub": "5.f",
+  "subtema": "Hematuria glomerular aislada familiar",
+  "dificultad": "moderada",
+  "caso": "Niño de 9 años con hematuria microscópica detectada en un examen escolar. Asintomático, TA de 100/60 mmHg, creatinina de 0.5 mg/dL, sin proteinuria. El sedimento muestra eritrocitos dismórficos (80%) sin cilindros. La madre tiene hematuria microscópica desde la juventud, sin hipertensión, sordera ni insuficiencia renal. Complemento (C3, C4) normal.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Síndrome de Alport ligado al X con progresión a ERC terminal, hipoacusia y alteraciones oculares desde la adolescencia",
+   "B": "Enfermedad de membrana basal delgada (hematuria familiar benigna), por variantes heterocigotas COL4A3/4",
+   "C": "Hipercalciuria idiopática con litiasis, que explicaría la hematuria con eritrocitos isomórficos y no dismórficos",
+   "D": "Glomerulonefritis posestreptocócica, con hematuria, hipocomplementemia e infección previa de vías respiratorias",
+   "E": "Nefropatía por IgA recurrente, con episodios de hematuria macroscópica tras infecciones de vías respiratorias"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El Alport ligado al X en varones cursa con sordera neurosensorial, lesiones oculares y progresión a ERC; la madre portadora puede tener solo hematuria, pero aquí no hay datos de progresión ni otros hallazgos.",
+   "B": "La hematuria glomerular aislada, persistente, con función renal, TA y proteinuria normales y antecedente familiar de hematuria benigna sugiere enfermedad de membrana basal delgada, la causa más frecuente de hematuria familiar benigna (hasta 1% de la población). Se debe a variantes heterocigotas en COL4A3 o COL4A4, con herencia autosómica dominante. No requiere biopsia si el cuadro es típico, aunque ante proteinuria, hipertensión, sordera o deterioro de la función se sospecha una enfermedad de Alport o una nefropatía por IgA.",
+   "C": "La hipercalciuria causa hematuria isomórfica, a veces con litiasis.",
+   "D": "La GN posestreptocócica es aguda, con C3 bajo.",
+   "E": "La nefropatía por IgA suele presentar episodios de hematuria macroscópica tras infecciones y complemento normal, con proteinuria progresiva, no hematuria aislada familiar."
+  },
+  "perla": "Hematuria glomerular aislada familiar con función normal: MBD (COL4A3/A4 heterocigoto). Benigna, sin biopsia si es típica.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades de la membrana basal)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 5,
+  "tema": "Estudios diagnósticos de enfermedad renal",
+  "continuacion": "",
+  "obj": "5.o6",
+  "peso": 58.5
+ },
+ {
+  "id": "RAA-1",
+  "serie_id": "RAA",
+  "orden": 1,
+  "sub": "2",
+  "subtema": "SRAA: efecto hemodinámico de los IECA sobre la TFG",
+  "dificultad": "moderada",
+  "caso": "Mujer de 66 años con diabetes tipo 2, hipertensión y ERC G3b (creatinina basal de 1.7 mg/dL; TFGe de 32 mL/min/1.73 m²), albuminuria de 900 mg/g. Se inicia lisinopril 10 mg. A las dos semanas: creatinina de 2.0 mg/dL, potasio de 5.4 mEq/L, TA de 138/82 mmHg.",
+  "enunciado": "¿Cuál es la interpretación y la conducta adecuada?",
+  "opciones": {
+   "A": "Suspender el IECA y diagnosticar estenosis bilateral de arteria renal sin más estudios, por el aumento de la creatinina",
+   "B": "Aumento hemodinámico esperado (<30%) por dilatación de la arteriola eferente: se continúa el IECA y se repiten creatinina y potasio en 1-2 semanas",
+   "C": "Suspender definitivamente el IECA por nefrotoxicidad, y sustituirlo por un antagonista del calcio para el control de la TA",
+   "D": "Duplicar la dosis de inmediato para compensar la elevación de la creatinina y lograr mayor reducción de la albuminuria",
+   "E": "Añadir un AINE para controlar la TA y reducir la retención de sodio inducida por el IECA en esta paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El aumento es menor de 30% y no justifica suspender ni diagnosticar estenosis sin otros datos.",
+   "B": "La angiotensina II constriñe la arteriola eferente y mantiene la presión intraglomerular; los IECA y ARA II vasodilatan la arteriola eferente, reducen la presión de filtración y producen un descenso inicial de la TFG, con aumento de la creatinina de hasta 30% en las primeras semanas, que es un efecto hemodinámico esperado y no indica daño estructural. La conducta es continuar el fármaco y vigilar creatinina y potasio en 1 a 2 semanas. Si la creatinina sube más de 30% o continúa aumentando, se investiga hipovolemia, uso de AINE o estenosis bilateral de arteria renal, y se reduce o suspende el fármaco.",
+   "C": "Una elevación menor de 30% no justifica suspender un fármaco que protege contra la progresión de la ERC diabética.",
+   "D": "Duplicar la dosis con potasio de 5.4 y creatinina en ascenso es riesgoso sin vigilancia.",
+   "E": "Los AINE aumentan el riesgo de lesión renal aguda hemodinámica y de hiperpotasemia con los IECA."
+  },
+  "perla": "IECA/ARA II: ↑Cr hasta 30% en 2–4 semanas es aceptable (vasodilatación eferente). >30%: buscar hipovolemia, AINE, estenosis renal bilateral.",
+  "referencias": [
+   "Bakris GL, Weir MR. Arch Intern Med 2000;160:685",
+   "KDIGO 2021 Blood Pressure in CKD"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 2,
+  "tema": "Hormonas y riñón",
+  "continuacion": "",
+  "obj": "2.o1",
+  "peso": 67.2
+ },
+ {
+  "id": "RAA-3",
+  "serie_id": "RAA",
+  "orden": 3,
+  "sub": "24.c",
+  "subtema": "Hiperpotasemia por bloqueo del SRAA: cómo mantener el tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente está euvolémica, sin disnea, con TA de 150/88 mmHg, y no desea suspender un tratamiento que protege su riñón. Tiene ECG sin cambios por hiperpotasemia.",
+  "enunciado": "¿Cuál estrategia permite mantener el bloqueo del SRAA?",
+  "opciones": {
+   "A": "Retirar el IECA de forma permanente y no volver a prescribirlo, por el riesgo de nuevas hiperpotasemias",
+   "B": "Indicar trimetoprim-sulfametoxazol para la infección, que no modifica el potasio en pacientes con ERC",
+   "C": "Administrar sustitutos de sal con cloruro de potasio, para mejorar la adherencia a la dieta hiposódica",
+   "D": "Añadir espironolactona para tratar la hiperpotasemia, por su efecto sobre la excreción renal de potasio",
+   "E": "Dieta baja en potasio, suspender AINE y suplementos, añadir diurético, corregir acidosis y usar un quelante (patiromer o SZC)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Suspender de por vida priva de protección renal y cardiovascular y es innecesario si se puede controlar el potasio.",
+   "B": "El trimetoprim bloquea el ENaC y favorece la hiperpotasemia.",
+   "C": "Los sustitutos de sal con cloruro de potasio aportan potasio y empeoran la hiperpotasemia.",
+   "D": "La espironolactona es un antagonista de la aldosterona y aumenta la hiperpotasemia.",
+   "E": "La hiperpotasemia por bloqueo del SRAA se maneja primero eliminando factores agravantes (AINE, suplementos de potasio, sustitutos de sal con KCl, trimetoprim, heparina), reduciendo el potasio de la dieta, y aumentando la excreción urinaria de potasio con un diurético tiazídico o de asa si no hay hipovolemia. La corrección de la acidosis con bicarbonato de sodio favorece la entrada de potasio a las células y su excreción. Si persiste la hiperpotasemia, los quelantes de potasio (patiromer, ciclosilicato de sodio y zirconio) permiten mantener los IECA o ARA II. La fludrocortisona se reserva para pacientes con hipoaldosteronismo verdadero sin hipertensión ni sobrecarga de volumen."
+  },
+  "perla": "Hiperpotasemia por iSRAA: quitar AINE/K/TMP, dieta, diurético, bicarbonato y quelante (patiromer, SZC) para mantener iSRAA.",
+  "referencias": [
+   "Palmer BF. N Engl J Med 2004;351:585",
+   "KDIGO 2024 CKD Guideline",
+   "Palmer BF, Clegg DJ. Core Curriculum 2019 de potasio. Am J Kidney Dis 2019;74:682"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 24,
+  "tema": "Alteraciones del equilibrio hidroelectrolítico",
+  "obj": "24.o3",
+  "peso": 46.3
+ },
+ {
+  "id": "RAA-4",
+  "serie_id": "RAA",
+  "orden": 4,
+  "sub": "4.c",
+  "subtema": "Angioedema por IECA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Meses después, con la TA controlada, la paciente acude por edema súbito de labios y lengua sin urticaria ni prurito, sin vía aérea comprometida. Tomaba lisinopril desde hace 4 meses, y el edema comenzó hace 6 horas.",
+  "enunciado": "¿Cuál es el mecanismo y la conducta?",
+  "opciones": {
+   "A": "Reacción alérgica mediada por IgE; continuar el IECA con antihistamínicos para controlar el edema de labios",
+   "B": "Hipersensibilidad tardía; se trata con corticoides y se continúa el IECA a la misma dosis con vigilancia",
+   "C": "Déficit congénito de C1 inhibidor; reiniciar el IECA a la mitad de la dosis tras controlar el edema agudo",
+   "D": "Acumulación de bradicinina por inhibición de la cininasa II; suspender el IECA, vigilar la vía aérea y evitar sacubitrilo/valsartán",
+   "E": "Efecto directo de la angiotensina II sobre el endotelio vascular; se aumenta la dosis del IECA para bloquearlo"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El angioedema por IECA no es mediado por IgE; los antihistamínicos no lo revierten y continuar el fármaco expone a recurrencias con compromiso de la vía aérea.",
+   "B": "No es una hipersensibilidad tardía, y continuar el IECA expone al paciente a riesgo vital.",
+   "C": "El déficit de C1 inhibidor es una causa distinta, y los IECA están contraindicados en estos pacientes.",
+   "D": "La enzima convertidora de angiotensina (cininasa II) degrada también la bradicinina; los IECA aumentan su concentración, lo que produce angioedema sin urticaria, que puede aparecer incluso años después de iniciar el tratamiento, y que no responde bien a antihistamínicos ni a corticoides. Se suspende el IECA definitivamente y se vigila la vía aérea. El sacubitrilo/valsartán, que inhibe la neprilisina (otra enzima que degrada bradicinina), está contraindicado en el antecedente de angioedema por IECA. Los ARA II pueden usarse con cautela, por un riesgo bajo de recurrencia, tras resolver el cuadro.",
+   "E": "La angiotensina II no causa angioedema, y aumentar el IECA agravaría el cuadro."
+  },
+  "perla": "Angioedema por IECA: ↑bradicinina, sin urticaria, puede ser tardío; suspender definitivamente. Contraindicado sacubitrilo/valsartán. ARA II con cautela.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (farmacología antihipertensiva)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o3",
+  "peso": 47.9
+ },
+ {
+  "id": "BAR-1",
+  "serie_id": "BAR",
+  "orden": 1,
+  "sub": "1",
+  "subtema": "Barrera de filtración: selectividad de carga y tamaño",
+  "dificultad": "moderada",
+  "caso": "Niño de 5 años con edema palpebral y de miembros inferiores de 10 días de evolución, TA normal, creatinina de 0.4 mg/dL, proteinuria de 4.2 g/día, albúmina sérica de 1.6 g/dL y sedimento sin hematuria. La electroforesis de proteínas urinarias muestra casi exclusivamente albúmina.",
+  "enunciado": "¿Qué defecto de la barrera explica la proteinuria selectiva?",
+  "opciones": {
+   "A": "Aumento de la reabsorción tubular de albúmina, que eleva su concentración en la orina por saturación del túbulo proximal",
+   "B": "Rotura de la membrana basal que permite el paso de proteínas de alto peso molecular, como las inmunoglobulinas y el fibrinógeno",
+   "C": "Pérdida del endotelio fenestrado, con paso de eritrocitos y de proteínas de todos los tamaños hacia el espacio urinario",
+   "D": "Pérdida de carga aniónica y borramiento de pedicelos con filtro de tamaño conservado: pasa albúmina, no globulinas",
+   "E": "Obstrucción de los poros de hendidura por depósitos subepiteliales de inmunocomplejos, con reducción de la filtración"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La reabsorción tubular de albúmina no está aumentada; el problema es de la filtración.",
+   "B": "La rotura de la membrana basal causa proteinuria no selectiva con hematuria, como en el síndrome de Alport.",
+   "C": "La pérdida del endotelio no explica una proteinuria selectiva y se asocia a lesiones endoteliales como las de la preeclampsia.",
+   "D": "La barrera de filtración glomerular selecciona las proteínas por tamaño y por carga. La albúmina (aproximadamente 66 kDa, radio efectivo de 3.6 nm, carga negativa) está normalmente restringida sobre todo por la carga aniónica del glucocálix endotelial y de los proteoglucanos con heparán sulfato de la membrana basal, y por el diafragma de hendidura podocitario. En la enfermedad de cambios mínimos, la lesión podocitaria mediada por factores circulantes y los cambios en la carga y en la estructura de los pedicelos (borramiento difuso en la microscopía electrónica) aumentan el paso de albúmina, con filtro de tamaño conservado; la proteinuria es selectiva (albúmina casi exclusiva) y no hay hematuria. Esto explica la rápida respuesta a los glucocorticoides.",
+   "E": "Los depósitos subepiteliales corresponden a la nefropatía membranosa, con proteinuria no selectiva."
+  },
+  "perla": "Cambios mínimos: pérdida de carga + borramiento podocitario → albuminuria selectiva; sin hematuria. Barrera = glucocálix/endotelio + MBG + diafragma de hendidura.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "continuacion": "",
+  "obj": "1.o1",
+  "peso": 49.0
+ },
+ {
+  "id": "BAR-2",
+  "serie_id": "BAR",
+  "orden": 2,
+  "sub": "1",
+  "subtema": "Componentes de la barrera glomerular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El niño se biopsia por falta de respuesta clínica a los glucocorticoides y se describe la estructura normal observada por microscopía electrónica en un fragmento sano.",
+  "enunciado": "¿Cuál es la descripción correcta de la barrera de filtración normal?",
+  "opciones": {
+   "A": "Endotelio fenestrado (70–100 nm), membrana basal de tres capas (320–370 nm) y podocitos con diafragma de hendidura (25–60 nm)",
+   "B": "Endotelio fenestrado con poros de 2 a 25 nm y podocitos sin hendiduras de filtración, sobre una membrana basal homogénea y delgada",
+   "C": "Membrana basal con colágeno tipo I y fibronectina únicamente, sin laminina ni proteoglucanos cargados negativamente",
+   "D": "Endotelio continuo sin fenestraciones, membrana basal de una sola capa y células epiteliales parietales con poros amplios y regulares",
+   "E": "Endotelio con fenestraciones de 1,000 a 1,500 nm, membrana basal delgada y podocitos con poros de 250 a 600 nm"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La barrera de filtración glomerular tiene tres capas: el endotelio fenestrado (poros de 70 a 100 nm, con glucocálix de carga negativa), la membrana basal glomerular (de cerca de 320 a 370 nm de grosor, con tres láminas: lámina rara interna, lámina densa central y lámina rara externa, formada por colágeno IV α3α4α5, laminina 521, nidógeno y heparán sulfato) y el epitelio visceral, es decir, los podocitos, cuyos pedicelos se interdigitan y dejan entre sí hendiduras cerradas por el diafragma de hendidura (nefrina, podocina, NEPH1, CD2AP) de 25 a 60 nm. El agua y los solutos pequeños pasan libremente, mientras que las proteínas mayores de 40 a 60 kDa o con carga negativa quedan restringidas. Las células epiteliales parietales revisten la cápsula de Bowman y no forman parte de la barrera.",
+   "B": "Las dimensiones de poros planteadas no corresponden a las fenestraciones endoteliales, y los podocitos sí tienen hendiduras.",
+   "C": "La membrana basal glomerular contiene colágeno IV, no tipo I.",
+   "D": "El endotelio glomerular es fenestrado, la membrana basal tiene tres láminas, y los podocitos son viscerales.",
+   "E": "Los valores de 1,000 a 1,500 nm y 250 a 600 nm exceden las dimensiones reales."
+  },
+  "perla": "Barrera: endotelio fenestrado (70–100 nm) + MBG trilaminar (320–370 nm; col IV α3α4α5, heparán sulfato) + podocitos (diafragma de hendidura 25–60 nm: nefrina/podocina).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (estructura y función renal)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 1,
+  "tema": "Bases estructurales y funcionales del riñón",
+  "obj": "1.o1",
+  "peso": 32.9
+ }
+]

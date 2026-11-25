@@ -1,0 +1,908 @@
+{
+ "_doc": "Correcciones médicas que el juego aplica sobre el banco de Alfredo al construir (build.py). Avisar a Alfredo para corregirlas también en su app; cuando su banco ya traiga la corrección, borrar la entrada.",
+ "GFJ-6": {
+  "motivo": "C y D eran verdaderas: al recuperarse de una LRA la creatinina tarda en bajar, así que la TFGe sube MENOS (más lento) que la real.",
+  "opciones": {
+   "C": "Al recuperarse, la TFGe sube antes que la real"
+  },
+  "explicaciones": {
+   "C": "Es al revés: la creatinina tarda en bajar y la TFGe va detrás de la TFG real.",
+   "D": "Tras una caída de TFG el marcador tarda en acumularse; la TFGe subestima la caída. Al recuperarse, la TFGe tarda en subir y subestima la TFG real."
+  }
+ },
+ "AZ25-8": {
+  "motivo": "KDIGO 2013 (ratificado en KDIGO 2024 ERC): ≥50 años con ERC → estatina sin importar el c-LDL; de 18–49 años solo con coronariopatía, diabetes, ictus o riesgo a 10 años >10 %. El «40–75 años con G3–G4» no es criterio KDIGO. ACC/AHA 2026 (JACC 2026;87:2624) sí trata a 40–75 años con ERC ≥G3: con ambas guías había dos respuestas; se fija «según KDIGO».",
+  "clave": "C",
+  "explicaciones": {
+   "A": "Entre 18 y 49 años solo hay indicación con coronariopatía, diabetes, ictus o riesgo >10 %.",
+   "B": "A los 30 años la albuminuria sola no basta; se necesita otro factor de riesgo mayor.",
+   "C": "Correcto. KDIGO: todo adulto ≥50 años con ERC (TFGe ≥60, como G2) recibe estatina, sin importar el c-LDL.",
+   "D": "Menor de 50 años sin factores de riesgo: no hay indicación automática.",
+   "E": "Por KDIGO no: tiene 45 años y ningún factor mayor. Ojo: ACC/AHA 2026 sí la incluiría (40–75 años con ERC ≥G3)."
+  },
+  "perla": "KDIGO lípidos: ≥50 años con ERC → estatina (con TFGe <60, estatina ± ezetimiba); 18–49 años solo si hay coronariopatía, DM, ictus o riesgo >10 %. No se persigue meta de c-LDL ni se inicia en diálisis.",
+  "enunciado": "Según KDIGO, ¿cuál de estos pacientes con ERC tiene indicación de hipolipemiante independientemente de su c-LDL?"
+ },
+ "AZ2-10": {
+  "motivo": "Tras la sesión ya estaba descongestionado (LUS 4, VExUS 0) y la UF ya era ≤13 mL/kg/h: bajar el peso seco no tiene sentido; la conducta es mantenerlo y alargar o añadir sesión.",
+  "opciones": {
+   "B": "Mantener el peso seco y alargar la sesión o añadir una"
+  },
+  "explicaciones": {
+   "B": "Correcto. Se descongestionó (LUS 4, VExUS 0): está cerca del peso seco. Alargar o añadir sesión reparte la UF; dializado fresco ayuda.",
+   "A": "La congestión prediálisis indica que no estaba hipovolémico al inicio; subir el peso seco lo dejaría congestionado."
+  }
+ },
+ "AZ22-6": {
+  "motivo": "Había dos INCORRECTAS: la aspirina «antes de la semana 12» también es falsa (se inicia de la 12 a la 16, no antes). Se corrige C y se redacta B como absoluto claramente falso.",
+  "opciones": {
+   "B": "Toda paciente con albúmina <2.5 g/dL recibe anticoagulación fija",
+   "C": "La aspirina se inicia entre la semana 12 y la 16 y sigue hasta la 36",
+   "E": "Vigilar la presión arterial y el peso en cada visita"
+  },
+  "explicaciones": {
+   "B": "Es la INCORRECTA: no hay umbral estandarizado de albúmina o proteinuria; la tromboprofilaxis se individualiza según riesgo de trombosis y de sangrado.",
+   "E": "Es cierto: la presión y el peso se vigilan en cada visita.",
+   "C": "Es cierto: aspirina en dosis baja desde la semana 12 (idealmente antes de la 16) y hasta la 36 (NICE NG133, ACOG/USPSTF 2021, ISSHP)."
+  },
+  "perla": "Trampa: «antes de la semana 12» no es la ventana; la aspirina empieza a las 12–16 semanas y se suspende hacia la 36. Ningún corte de albúmina obliga a anticoagular.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN, cap. 22: ERC y embarazo",
+   "NICE NG133. Hypertension in pregnancy, 2019 (act. 2023)",
+   "USPSTF. Aspirin use to prevent preeclampsia. JAMA 2021;326:1186"
+  ]
+ },
+ "AZ8-9": {
+  "motivo": "La explicación citaba AURORA (voclosporina, no anti-células B) y la clave decía «al menos 24 meses»; REGENCY midió su desenlace a 76 semanas y KDIGO pide ≥36 meses de inmunosupresión total.",
+  "opciones": {
+   "E": "18–24 meses o más, como en los ensayos"
+  },
+  "explicaciones": {
+   "D": "Los ensayos usaron duraciones fijas (76–104 semanas), no metas serológicas.",
+   "E": "Correcto. BLISS-LN: belimumab 104 semanas; NOBILITY y REGENCY: obinutuzumab con desenlace a 76–104 semanas. KDIGO 2024: inmunosupresión total ≥36 meses."
+  },
+  "perla": "Regla «3 y 2»: inmunosupresión total ≥3 años; belimumab u obinutuzumab ~2 años (BLISS-LN 104 sem; REGENCY, respuesta completa a 76 sem: 46 % vs 33 %).",
+  "referencias": [
+   "KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis. Kidney Int 2024;105(1S):S1-S69",
+   "Furie R et al. Two-year, randomized, controlled trial of belimumab in lupus nephritis. N Engl J Med 2020;383:1117-28",
+   "Furie RA et al. Efficacy and safety of obinutuzumab in active lupus nephritis. N Engl J Med 2025;392:1471-83"
+  ]
+ },
+ "AZ30-6": {
+  "motivo": "Tipo «todas las anteriores»: B, C y D también eran verdaderas. Se reescribe como EXCEPTO con un solo distractor falso.",
+  "enunciado": "Todas son ventajas de la prueba cruzada virtual en donante fallecido, EXCEPTO:",
+  "clave": "E",
+  "opciones": {
+   "A": "Reduce el tiempo de isquemia fría del injerto",
+   "B": "Permite cruzar más receptores para un donante",
+   "C": "Varios centros la hacen a la vez con un donante",
+   "D": "Anticipa un cruce positivo antes de la procuración",
+   "E": "Elimina la necesidad de tipificar al donante"
+  },
+  "explicaciones": {
+   "A": "Es ventaja: no se espera la prueba física para asignar, y baja la isquemia fría.",
+   "B": "Es ventaja: con la tipificación del donante se evalúa a muchos receptores a la vez.",
+   "C": "Es ventaja: varios centros cruzan a sus receptores simultáneamente con el mismo HLA.",
+   "D": "Es ventaja: los DSA contra el HLA del donante predicen un cruce positivo antes de procurar.",
+   "E": "Es la falsa: sin la tipificación HLA del donante no hay cruce virtual posible."
+  },
+  "perla": "Cruce virtual = HLA del donante × anticuerpos single antigen recientes del receptor. Sin tipificar al donante, no hay cruce; sin single antigen reciente, tampoco.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN, cap. 30: Evaluación del riesgo inmunológico",
+   "Tambur AR et al. Sensitization in transplantation: assessment of risk (STAR). Am J Transplant 2018;18:1604"
+  ]
+ },
+ "AZ8-1": {
+  "motivo": "Tipo «todas las anteriores»: A, B y D también eran verdaderas. Se reescribe como EXCEPTO con un solo distractor falso.",
+  "enunciado": "Todos son objetivos del manejo de la nefritis lúpica, EXCEPTO:",
+  "clave": "E",
+  "opciones": {
+   "A": "Llegar a la mínima proteinuria posible",
+   "B": "Reducir la toxicidad por fármacos",
+   "C": "Preservar la TFGe a largo plazo",
+   "D": "Evitar recaídas renales del lupus",
+   "E": "Normalizar anti-dsDNA y C3 en todos"
+  },
+  "explicaciones": {
+   "A": "Es objetivo: la proteinuria residual es el mejor marcador de respuesta y pronóstico.",
+   "B": "Es objetivo: menos esteroide y el esquema más seguro posible.",
+   "C": "Es objetivo: preservar la función renal es la meta final del tratamiento.",
+   "D": "Es objetivo: cada recaída renal suma daño crónico.",
+   "E": "Es la falsa: la serología puede seguir alterada en remisión; se trata la clínica y la proteinuria, no el título."
+  },
+  "perla": "Trampa: el anti-dsDNA y el C3 orientan, pero no son meta. La meta es UPCR <0.5 g/g a los 12 meses (puede tardar 24) con el menor esteroide posible.",
+  "referencias": [
+   "KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis. Kidney Int 2024;105(1S):S1-S69",
+   "Manual Actualízame 2026, IMIN, cap. 8: Nefritis lúpica"
+  ]
+ },
+ "AZ28-1": {
+  "motivo": "Tipo «todas las anteriores»: absorción, distribución y eliminación, por separado, también eran correctas. Se reescribe con una única respuesta y distractores falsos.",
+  "enunciado": "Con disfunción renal, ¿qué le pasa a la farmacocinética de un antineoplásico?",
+  "clave": "B",
+  "opciones": {
+   "A": "Solo cambia la eliminación; la absorción y unión no",
+   "B": "Sube la fracción libre y se retrasa la eliminación",
+   "C": "Baja la fracción libre porque sube la albúmina",
+   "D": "La eliminación se acelera por hiperfiltración",
+   "E": "Solo cambia la absorción intestinal del fármaco"
+  },
+  "explicaciones": {
+   "A": "También cambian la absorción y la unión a proteínas, no solo la eliminación.",
+   "B": "Correcto. Menos albúmina y toxinas urémicas que compiten suben la fracción libre; la eliminación renal se retrasa y la absorción puede bajar.",
+   "C": "En la uremia la albúmina suele bajar y la fracción libre sube, no baja.",
+   "D": "La disfunción renal retrasa la eliminación; la hiperfiltración no la acelera.",
+   "E": "Cambian absorción, distribución y eliminación, no solo la absorción."
+  },
+  "perla": "Ajuste por TFG: el carboplatino se dosifica con Calvert, dosis (mg) = AUC × (TFG + 25). Con fracción libre alta, un nivel total «normal» puede ser tóxico.",
+  "referencias": [
+   "McMahon BA, Rosner MH. Kidney360 2020;1:1131",
+   "Calvert AH et al. J Clin Oncol 1989;7:1748",
+   "Manual Actualízame 2026, IMIN, cap. 28"
+  ]
+ },
+ "DIT-2": {
+  "motivo": "Trata de diarrea por micofenolato en el trasplantado: se re-etiqueta a Trasplante renal (tema 21) para que DOMINIO no la cuente como LRA. Sigue en su serie del nivel 6.",
+  "tema_id": 21,
+  "tema": "Trasplante renal"
+ },
+ "TUB-1": {
+  "motivo": "Jefe Arquitecto F1: el caso de privación de agua no se conectaba con la pregunta del gradiente medular. Se ata el enunciado al caso.",
+  "enunciado": "Para concentrar su orina a 850 mOsm/kg, ¿qué proceso genera principalmente el gradiente osmótico medular?"
+ },
+ "LN-2": {
+  "motivo": "ISN/RPS 2018 eliminó las subclases IV-S/IV-G y los sufijos (A), (A/C), (C); se usan los índices NIH modificados de actividad y cronicidad.",
+  "continuacion": "La biopsia muestra 24 glomérulos: 18 con proliferación endocapilar y extracapilar, 6 con semilunas celulares (25 %), asas de alambre y trombos hialinos, necrosis fibrinoide en 3. IF «full-house» (IgG, IgA, IgM, C3, C1q). Fibrosis intersticial y atrofia tubular 10 %. Clase IV (ISN/RPS 2018): índice de actividad NIH modificado 14/24, cronicidad 2/12. La paciente desea embarazarse en 2–3 años.",
+  "referencias": [
+   "KDIGO 2024 Clinical Practice Guideline for the Management of Lupus Nephritis. Kidney Int 2024;105(1S):S1-S69",
+   "Bajema IM et al. Revision of the ISN/RPS classification for lupus nephritis. Kidney Int 2018;93:789-96",
+   "Houssiau FA et al. Arthritis Rheum 2002;46:2121",
+   "Furie R et al. N Engl J Med 2020;383:1117 (BLISS-LN)",
+   "Rovin BH et al. Lancet 2021;397:2070 (AURORA 1)"
+  ]
+ },
+ "LNB-2": {
+  "motivo": "ISN/RPS 2018 eliminó las subclases IV-S/IV-G y los sufijos (A), (A/C), (C); se usan los índices NIH modificados.",
+  "continuacion": "Se descarta infección y la fiebre cede. Por proteinuria persistente de 1 g/día a los 3 meses se realiza biopsia: nefritis lúpica clase IV (ISN/RPS 2018) con índice de actividad NIH modificado 1/24 y de cronicidad 6/12 (atrofia tubular y fibrosis intersticial moderadas)."
+ },
+ "AZ8-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: la respuesta completa se busca a los 12 meses, pero puede tardar hasta 24; sostenerla años es lo que protege al riñón."
+ },
+ "AZ8-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifras de KDIGO 2024: pulsos de metilprednisolona 250–500 mg/día por 1–3 días; la meta es prednisona ≤7.5 mg/día en los primeros 6 meses."
+ },
+ "AZ8-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: la hidroxicloroquina no «cuenta» contra LLDAS ni DORIS; se permite y se indica en todos, salvo contraindicación."
+ },
+ "AZ8-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra de BLISS-LN: respuesta renal primaria a 104 semanas 43 % con belimumab añadido vs 32 % con placebo."
+ },
+ "AZ8-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: en BLISS-LN el belimumab se sumó a micofenolato o a ciclofosfamida Euro-Lupus; el beneficio fue más claro con micofenolato."
+ },
+ "AZ8-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia 25-50-<0.5: −25 % de proteinuria a los 3 meses, −50 % a los 6 y UPCR <0.5 g/g a los 12."
+ },
+ "AZ8-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa de examen: un anti-dsDNA alto aislado, sin clínica ni proteinuria nueva, no obliga a escalar la inmunosupresión."
+ },
+ "AZ8-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla de KDIGO 2024: al menos 36 meses de inmunosupresión total antes de intentar retirarla, y retiro gradual, nunca brusco."
+ },
+ "AZ9-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia MEST-C: Mesangial, Endocapilar, eSclerosis, Túbulo (T0 ≤25 %, T1 26–50 %, T2 >50 %) y Crescents (semilunas)."
+ },
+ "AZ9-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: E y C son las lesiones activas del MEST-C; S y T son cicatriz y no mejoran con inmunosupresión."
+ },
+ "AZ9-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: el IIgAN-PT se calcula con datos de la biopsia (hasta 2 años después) y estima riesgo; no decide por sí solo el tratamiento."
+ },
+ "AZ9-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "KDIGO 2025 en dos números: tratar si la proteinuria es ≥0.5 g/día pese al soporte; meta <0.5 e idealmente <0.3 g/día."
+ },
+ "AZ9-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: la microhematuria persistente en IgAN no es «benigna»; se cuantifica en cada visita junto con la proteinuria."
+ },
+ "AZ9-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Pista: T2 con sedimento inactivo = cicatriz. Se suma nefroprotección (p. ej., sparsentán), no esteroide."
+ },
+ "AZ9-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: la meta vieja era <1 g/día (KDIGO 2021); KDIGO 2025 la bajó a <0.5 g/día, idealmente <0.3."
+ },
+ "AZ9-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Referencia útil: desde los 40 años la TFG cae ~1 mL/min/año por edad; perder más de eso es enfermedad activa."
+ },
+ "AZ9-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra de NefIgArd: a 2 años la TFGe quedó ~5 mL/min/1.73 m² mejor con Nefecon que con placebo."
+ },
+ "AZ9-11": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia). KDIGO 2025 IgAN «recomienda» (no «obliga») la profilaxis contra Pneumocystis con glucocorticoides sistémicos.",
+  "perla": "Cifra de TESTING: la dosis se bajó de 0.6–0.8 a 0.4 mg/kg/día por infecciones graves y el beneficio renal se mantuvo (HR 0.53).",
+  "enunciado": "¿qué profilaxis recomienda KDIGO?",
+  "explicaciones": {
+   "C": "Correcto. Por el riesgo de infecciones graves observado en los ensayos (TESTING), todo esquema con glucocorticoides sistémicos debe acompañarse de profilaxis contra Pneumocystis jirovecii con TMP-SMX, además de protección gastrointestinal y ósea."
+  }
+ },
+ "AZ9-12": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: todo inhibidor de complemento (iptacopán incluido) exige vacunar contra meningococo y neumococo antes de iniciarlo."
+ },
+ "AZ10-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Conversión de examen: 3.4 mg/dL = 300 µmol/L. Recuerda que PEXIVAS no redujo muerte ni ERCT en el global."
+ },
+ "AZ10-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra de PEXIVAS: el esquema reducido dio la mitad de esteroide a 6 meses y ~30 % menos infecciones graves al año."
+ },
+ "AZ10-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "RITUXVAS: rituximab 375 mg/m² × 4 más 2 pulsos de ciclofosfamida IV; remisión similar a ciclofosfamida sola."
+ },
+ "AZ10-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifras de Berden: focal ≥50 % glomérulos normales; crescéntica ≥50 % con semilunas celulares; esclerosante ≥50 % esclerosados."
+ },
+ "AZ10-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia «Fo-Cre-Mi-Es»: focal, crescéntica, mixta, esclerosante, de mejor a peor pronóstico renal."
+ },
+ "AZ10-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: PR3 recae más pero responde igual a la inducción; un PR3 aún positivo al pasar a mantenimiento también predice recaída."
+ },
+ "AZ10-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra de MAINRITSAN: recaída mayor a 28 meses 5 % con rituximab vs 29 % con azatioprina."
+ },
+ "AZ10-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra de RAVE: en enfermedad recurrente, remisión a 6 meses 67 % con rituximab vs 42 % con ciclofosfamida."
+ },
+ "AZ10-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: «pauciinmune» = ≤2+ de inmunoglobulinas en la IF. IgG lineal en la membrana basal = anti-MBG."
+ },
+ "AZ10-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa KDIGO: anti-MBG en diálisis con 100 % de semilunas y sin hemorragia pulmonar casi no recupera; puede no tratarse."
+ },
+ "AZ11-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra KDIGO 2021: dosis inicial pediátrica de prednisona 60 mg/m²/día (máximo 60 mg) por 4–6 semanas."
+ },
+ "AZ11-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: PROTECT respaldó al sparsentán en IgAN; en GEFS, DUPLEX bajó la proteinuria pero no cambió la pendiente de TFGe."
+ },
+ "AZ11-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia: CD20 en el linfocito B, CD38 en la plasmática; el rituximab no toca la fábrica de anticuerpos de larga vida."
+ },
+ "AZ11-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: el obinutuzumab es anti-CD20 tipo II, glicoingenierizado; depleta mejor los linfocitos B en tejido que el rituximab."
+ },
+ "AZ11-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: antes de dar rituximab a un corticorresistente, pide panel genético; en niños hasta ~30 % es monogénico."
+ },
+ "AZ11-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Pista para el panel genético: inicio antes del año, familiares afectados, resistencia a esteroides o albúmina normal con proteinuria masiva."
+ },
+ "AZ11-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla práctica: CD19 <5 células/µL = depleción; su recuperación anticipa la recaída y guía cuándo redosificar."
+ },
+ "AZ11-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: la GEFS que «no responde» al rituximab suele ser adaptativa o genética, no inmune; revisa la biopsia y la albúmina."
+ },
+ "AZ11-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: tras rituximab, una recaída temprana suele seguir a la repoblación de linfocitos B; vigila CD19 para redosificar a tiempo."
+ },
+ "AZ5-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifras: en AKIKI ~49 % y en STARRT-AKI ~38 % del grupo de espera nunca necesitó TRR."
+ },
+ "AZ5-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia de urgencia «AEIOU»: Acidosis, Electrolitos (K), Intoxicación, sobrecarga (Overload) y Uremia."
+ },
+ "AZ5-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: la hemodiálisis intermitente baja el potasio ~1 mEq/L en la primera hora; la TRRC es mucho más lenta."
+ },
+ "AZ5-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla KDIGO: prescribe ~25–30 mL/kg/h para entregar de verdad 20–25 mL/kg/h."
+ },
+ "AZ5-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cuenta rápida: cada hora de circuito detenido resta ~4 % (1/24) de la dosis diaria."
+ },
+ "AZ5-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Rango práctico: Qb de 150–250 mL/min en TRRC; más flujo no compensa un catéter mal colocado."
+ },
+ "AZ5-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: la posdilución sube la FF; la predilución la baja, pero también diluye y reduce la depuración."
+ },
+ "AZ5-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mecanismo: el citrato quela el calcio ionizado del circuito; meta de Ca ionizado posfiltro 0.25–0.35 mmol/L."
+ },
+ "AZ5-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Truco: en la FF, la reposición prefiltro suma al numerador y al denominador; la posfiltro solo al numerador."
+ },
+ "AZ5-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Signo de acumulación de citrato: calcio total / calcio ionizado >2.5, con brecha aniónica que sube."
+ },
+ "AZ12-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla de lectura: «sin diferencia» no es «equivalente»; solo un ensayo de no inferioridad prueba equivalencia."
+ },
+ "AZ12-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia «PURE» para elegir TRR: Paciente, Urgencia, Recursos y Experiencia del centro."
+ },
+ "AZ12-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: con hiperpotasemia y arritmia, primero calcio IV y medidas puente; la diálisis viene después, no en su lugar."
+ },
+ "AZ12-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: recambios muy cortos causan cribado de sodio: sacan agua pero poco sodio."
+ },
+ "AZ12-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: «más dosis» no es mejor ni en DP ni en TRRC; ATN, RENAL y los ensayos de DP aguda lo muestran."
+ },
+ "AZ12-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: más concentración de glucosa o icodextrina aumenta la UF, a costa de más glucosa absorbida."
+ },
+ "AZ12-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: el catéter de DP colocado al pie de la cama por nefrólogos tiene resultados comparables a los quirúrgicos."
+ },
+ "AZ12-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa de cálculo: la glucosa hidratada del dializado aporta ~3.4 kcal/g; 4 kcal/g es una aproximación por exceso."
+ },
+ "AZ12-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato de desastres: la DP manual no necesita electricidad ni agua tratada; por eso sirve cuando falla la red."
+ },
+ "AZ12-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia: DP aguda = disponible y barata, pero lenta; útil donde faltan máquinas, no donde urge el potasio."
+ },
+ "AZ32-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Criterios ICA de SHR-LRA: Cr ↑≥0.3 en 48 h o ≥50 %, sin respuesta a 2 días de albúmina 1 g/kg, sin choque ni nefrotóxicos."
+ },
+ "AZ32-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifras WSACS: hipertensión intraabdominal ≥12 mmHg; síndrome compartimental >20 mmHg con falla orgánica nueva."
+ },
+ "AZ32-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: la terlipresina se evita con SpO₂ <90 % o sobrecarga de volumen (falla respiratoria en CONFIRM)."
+ },
+ "AZ32-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: antes de más albúmina, mira el pulmón (líneas B); en cirrosis la congestión es silenciosa."
+ },
+ "AZ32-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia «puerta, vaso, riñón»: hipertensión portal → vasodilatación esplácnica → vasoconstricción renal."
+ },
+ "AZ32-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra de CONFIRM: reversión del SHR 32 % con terlipresina vs 17 % con placebo."
+ },
+ "AZ32-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: casi todos recuperan tras el trasplante hepático; ≥6 semanas en diálisis previa orientan a trasplante hígado-riñón."
+ },
+ "AZ32-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la miocardiopatía cirrótica se enmascara en reposo; aparece con estrés, TIPS o vasopresores."
+ },
+ "AZ32-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: con ascitis tensa la VCI engaña por la presión abdominal; la yugular interna es más confiable."
+ },
+ "AZ32-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Fórmula: gasto cardiaco = ITV × área del TSVI × frecuencia cardiaca. ITV normal 18–22 cm."
+ },
+ "AZ19-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato práctico: para tamizar acidosis en ERC basta el CO₂ total venoso de la química; no hace falta gasometría."
+ },
+ "AZ19-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: la acidosis de la ERC empieza hiperclorémica (G3–G4) y la brecha aniónica sube hasta G4–G5."
+ },
+ "AZ19-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Pista con BA >15 en ERC: busca lactato, cetonas, metanol, etilenglicol o 5-oxoprolina por paracetamol."
+ },
+ "AZ19-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la acidosis metabólica es rara con TFG >45 y frecuente con TFG <30."
+ },
+ "AZ19-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: KDIGO 2024 dice «considerar» con HCO₃ <18; no hay que normalizar el bicarbonato a toda costa."
+ },
+ "AZ19-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla de KDIGO: el álcali no debe llevar el bicarbonato por encima del límite normal."
+ },
+ "AZ19-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia: BA urinaria = Na + K − Cl; negativa = «neGUTive»: pérdida intestinal con amonio alto."
+ },
+ "AZ19-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: con cetonuria o hipurato (tolueno) la BA urinaria sale positiva aunque el amonio esté alto."
+ },
+ "AZ19-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Alternativa: la brecha osmolar urinaria; <150 mOsm/kg sugiere poca excreción de amonio (NH₄ ≈ brecha / 2)."
+ },
+ "AZ19-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: VALOR-CKD fue negativo y el veverímero no se aprobó; el bicarbonato oral sigue siendo la base."
+ },
+ "AZ16-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Banff en una línea: MVI = g + ptc ≥2. Con DSA o C4d es RMA; sin ninguno, es la categoría «MVI DSA−/C4d−»."
+ },
+ "AZ16-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: «sin DSA ni C4d» no es «sin rechazo»; Banff 2022 lo nombra como categoría aparte."
+ },
+ "AZ16-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla de lectura: bajar DSA o PCR no basta; un tratamiento de RMA se prueba con TFGe o sobrevida del injerto."
+ },
+ "AZ16-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato Banff: la glomerulopatía del trasplante (cg >0) con DSA marca el RMA crónico activo."
+ },
+ "AZ16-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia: «lo activo se trata, lo crónico se protege»: g y ptc responden; cg, ci y ct no."
+ },
+ "AZ16-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia: CD20 en el linfocito B, CD38 en la plasmática. Por eso el anti-CD38 es el blanco nuevo en RMA."
+ },
+ "AZ16-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: el felzartamab (anti-CD38) es de fase 2; prometedor en RMA, pero aún no es estándar."
+ },
+ "AZ16-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Para leer un ensayo de RMA pregunta: ¿activo o crónico?, ¿qué DSA?, ¿qué desenlace se midió?"
+ },
+ "AZ16-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: con glomerulopatía del trasplante avanzada, más inmunosupresión suma infecciones, no TFG."
+ },
+ "AZ16-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: los DSA pueden seguir positivos con histología inactiva, y al revés; por eso se biopsia."
+ },
+ "AZ17-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: pasado el primer mes del trasplante, la bacteriuria asintomática no se trata (IDSA 2019)."
+ },
+ "AZ17-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Pista: la pielonefritis recurrente del injerto suele venir de reflujo al uréter reimplantado o de residuo vesical."
+ },
+ "AZ17-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato práctico: el catéter doble J del trasplante suele retirarse entre las 2 y 6 semanas."
+ },
+ "AZ17-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Riesgo de CMV, de mayor a menor: D+/R− > D+/R+ ≈ D−/R+ > D−/R−."
+ },
+ "AZ17-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: el letermovir no cubre herpes simple; si se usa como profilaxis, añade aciclovir."
+ },
+ "AZ17-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia «200/100»: D+/R−, 200 días de valganciclovir (IMPACT); R+, 100 días."
+ },
+ "AZ17-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: ajusta el valganciclovir a la TFG; la sobredosis da leucopenia y la subdosis favorece resistencia."
+ },
+ "AZ17-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la resistencia de CMV se debe a mutaciones UL97 o UL54; el maribavir es opción en refractarios."
+ },
+ "AZ17-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: viremia BK >10 000 copias/mL por más de 3 semanas = nefropatía presuntiva."
+ },
+ "AZ17-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Estrategia AST: baja el MMF un 50 % o el tacrolimus a valle <6 ng/mL, y vigila la PCR-BK."
+ },
+ "AZ30-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia del riesgo inmunológico: ABO, HLA no compartido, prueba cruzada, DSA y exposiciones previas."
+ },
+ "AZ30-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: una cirugía sin transfusión no sensibiliza; embarazo, transfusión y trasplante previo sí."
+ },
+ "AZ30-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: repetir un antígeno HLA del injerto previo es riesgo alto aunque el anticuerpo ya no se detecte."
+ },
+ "AZ30-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Error que no se perdona: un ABO incompatible no detectado causa rechazo hiperagudo; el grupo se verifica dos veces."
+ },
+ "AZ30-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Escala de sensibilidad: CDC < citometría de flujo < single antigen (Luminex)."
+ },
+ "AZ30-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: una CDC positiva por autoanticuerpos IgM (se negativiza con DTT) no contraindica el trasplante."
+ },
+ "AZ30-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: el rechazo es más frecuente en jóvenes y en retrasplantes; en los mayores pesa más la infección."
+ },
+ "AZ30-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: un hermano tiene 1 de 4 probabilidades de compartir los 2 haplotipos; es el injerto que mejor dura."
+ },
+ "AZ30-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la alta resolución permite analizar eplets y estimar el riesgo de DSA de novo."
+ },
+ "AZ31-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "KDIGO 2009: después del primer año, la creatinina se mide cada 2–3 meses."
+ },
+ "AZ31-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla KDIGO 2009: proteinuria al mes, cada 3 meses el primer año y luego cada año."
+ },
+ "AZ31-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: belatacept en receptor EBV negativo = riesgo de linfoproliferativo del sistema nervioso central."
+ },
+ "AZ31-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: el micofenolato se suspende al menos 6 semanas antes de concebir; azatioprina y tacrolimus son compatibles."
+ },
+ "AZ31-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: un dd-cfDNA <0.5 % tiene alto valor predictivo negativo para rechazo humoral."
+ },
+ "AZ31-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: si las células señuelo o la viruria salen positivas, confirma con PCR-BK en plasma."
+ },
+ "AZ31-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: el CXCL10 urinario también sube con BK e infección urinaria; no es específico de rechazo."
+ },
+ "AZ31-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: el cáncer de piel no melanoma es el más frecuente del trasplantado; revisión dermatológica anual."
+ },
+ "AZ31-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: el mTOR empeora la proteinuria y retrasa la cicatrización; evítalo temprano o con proteinuria alta."
+ },
+ "AZ31-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: el PTLD predomina en D+/R− de EBV y en el primer año; si sube la carga, reduce la inmunosupresión."
+ },
+ "AZ4-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Fórmula de Bernoulli: PSAP ≈ 4 × TRVmax² + presión de la aurícula derecha."
+ },
+ "AZ4-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifras ASE: e′ septal <7 cm/s o lateral <10 cm/s = relajación alterada."
+ },
+ "AZ4-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla E/e′: <8, presiones de llenado normales; >14 (promedio), elevadas."
+ },
+ "AZ4-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Pista de tamponade: colapso diastólico del VD con VCI pletórica sin colapso."
+ },
+ "AZ4-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia: TA = GC × RVP; con corazón sano, el volumen extra se ve como hipertensión, no como edema."
+ },
+ "AZ27-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: la elevación de piernas pierde valor con hipertensión intraabdominal; el bolo autólogo no llega."
+ },
+ "AZ27-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: «responde a volumen» no obliga a darlo; antes pregunta si lo tolera."
+ },
+ "AZ27-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: en personas delgadas y sanas la porta puede ser pulsátil; interprétala junto con la VCI."
+ },
+ "AZ27-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato técnico: el Doppler venoso intrarrenal se toma en las venas interlobares, junto a la arteria."
+ },
+ "AZ27-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia VExUS: 0 = VCI <2 cm; 1 = VCI ≥2 sin graves; 2 = una grave; 3 = dos o más graves."
+ },
+ "AZ27-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: con ventilación mecánica la VCI se distiende en la inspiración; su colapso no se lee igual."
+ },
+ "AZ27-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Truco: ITV × área del TSVI = volumen sistólico en mL; × frecuencia = gasto cardiaco."
+ },
+ "AZ27-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: ≥3 líneas B en al menos 2 zonas por lado (de 8 zonas) = síndrome intersticial."
+ },
+ "AZ27-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia de las tres ventanas: VCI, venas (VExUS) y pulmón (líneas B)."
+ },
+ "AZ27-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: hipotensión con VExUS 3 pide vasopresor o inotrópico, no otro bolo."
+ },
+ "AZ33-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: la hiponatremia casi nunca es «falta de sodio»; es exceso relativo de agua."
+ },
+ "AZ33-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: corrige ≤10 mEq/L en las primeras 24 h y ≤8 en las siguientes; ≤8 en alto riesgo."
+ },
+ "AZ33-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla europea: 150 mL de salina al 3 % en 20 min, hasta 2 veces más, para subir 5 mEq/L."
+ },
+ "AZ33-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: cada mEq de potasio repuesto sube el sodio casi como uno de sodio; cuéntalo al corregir."
+ },
+ "AZ33-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: no diagnostiques SIAD sin descartar hipotiroidismo e insuficiencia suprarrenal."
+ },
+ "AZ33-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la urea oral se da a 15–30 g/día; el tolvaptán corrige más rápido y exige vigilar el sodio."
+ },
+ "AZ34-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Rango práctico en ERC: potasio de 4.0 a 5.0 mEq/L, donde la mortalidad es menor."
+ },
+ "AZ34-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: el estreñimiento sube el potasio en la ERC, porque el colon excreta parte del K."
+ },
+ "AZ34-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la hipopotasemia en la ERC se asocia con más mortalidad; no es «protectora»."
+ },
+ "AZ34-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: tras una hiperpotasemia revisa dieta, AINE, TMP, iSRAA y acidosis antes de soltar el iSRAA."
+ },
+ "AZ34-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia de riesgo: ERC G4, diabetes, insuficiencia cardiaca y bloqueo del SRAA o ARM."
+ },
+ "AZ34-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla KDIGO 2024: con K 5.5–6.0 ajusta y usa captores; reduce o suspende el iSRAA si sigue >6.0."
+ },
+ "AZ34-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifras: el patirómero actúa en ~7 h; el ciclosilicato de sodio y zirconio, en ~1 h. Ninguno sustituye al calcio IV."
+ },
+ "AZ34-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: el potasio de los aditivos se absorbe casi todo; el de frutas y verduras viene con fibra y álcali."
+ },
+ "AZ34-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: insulina regular 10 U IV con 25 g de glucosa baja el potasio ~0.6–1 mEq/L en 30–60 min."
+ },
+ "AZ34-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: corregir la acidosis metabólica con bicarbonato también ayuda a bajar el potasio crónico."
+ },
+ "AZ13-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato ISPD: el cultivo se siembra con 5–10 mL de efluente en frascos de hemocultivo."
+ },
+ "AZ13-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Riesgo de peritonitis entérica: hipopotasemia, estreñimiento, colitis y procedimientos endoscópicos."
+ },
+ "AZ13-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Diagnóstico ISPD 2022 (2 de 3): dolor o efluente turbio, >100 leucocitos/µL con >50 % PMN, cultivo positivo."
+ },
+ "AZ13-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la vancomicina IP intermitente se redosifica cuando su nivel sérico baja de 15 mg/L."
+ },
+ "AZ13-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: peritonitis recurrente por el mismo germen sugiere biofilm en el catéter: valora retirarlo."
+ },
+ "AZ13-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato ISPD: también se da profilaxis antes de procedimientos ginecológicos invasivos, con cavidad vacía."
+ },
+ "AZ13-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: evita cursos de aminoglucósido IP de más de 2 semanas; dañan el oído y la función residual."
+ },
+ "AZ13-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla de tiempo: tras retirar el catéter por peritonitis, espera al menos 2–3 semanas para reinsertarlo."
+ },
+ "AZ20-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "ISPD 2020: no persigas solo un Kt/V; la meta es controlar síntomas, volumen, potasio, fósforo y anemia."
+ },
+ "AZ20-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: si la UF cae, revisa en orden adherencia, drenaje del catéter y, al final, la membrana."
+ },
+ "AZ20-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla práctica: las alarmas de drenaje repetidas suelen ser mecánicas o por estreñimiento, no de membrana."
+ },
+ "AZ20-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Primero lo simple: trata el estreñimiento y mira la posición del catéter (radiografía) antes de operar."
+ },
+ "AZ20-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: con presión intraabdominal alta no subas el volumen de cada recambio; mejor agrega permanencias."
+ },
+ "AZ20-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Glucosa: 1.36 % < 2.27 % < 3.86 %; más tonicidad da más UF, pero también más daño a la membrana."
+ },
+ "AZ20-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Mnemotecnia: el monitoreo remoto deja de «apagar incendios» y empieza a «ver el humo»."
+ },
+ "AZ20-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: revisa el tiempo efectivo de terapia frente al prescrito; cada alarma lo recorta."
+ },
+ "AZ20-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: decide por la tendencia de varios días, no por un dato aislado de una noche."
+ },
+ "AZ20-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la telemetría muestra la adherencia real; los recambios omitidos explican muchos «fracasos»."
+ },
+ "AZ21-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: con técnica percutánea el catéter puede usarse en horas, con volúmenes bajos y en decúbito."
+ },
+ "AZ21-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Truco del inicio urgente: ≤1 L por recambio, en decúbito y DPA nocturna, para no forzar la herida."
+ },
+ "AZ21-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Contraindicaciones relativas de la DP: hernias sin reparar, obesidad mórbida, ostomías y poco apoyo en casa."
+ },
+ "AZ21-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: cuando el nefrólogo coloca el catéter, más pacientes inician DP en vez de HD con catéter venoso."
+ },
+ "AZ21-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Ventaja oculta: el inicio urgente en DP evita el catéter venoso central y sus bacteriemias."
+ },
+ "AZ21-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Regla: para evitar la fuga pericatéter, volúmenes bajos en decúbito durante las primeras 2 semanas."
+ },
+ "AZ21-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: el preesternal también sirve con incontinencia, para alejar el orificio de la contaminación."
+ },
+ "AZ21-8": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la omentopexia laparoscópica reduce la migración y el atrapamiento del catéter por el epiplón."
+ },
+ "AZ25-1": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Choque de guías: ACC/AHA 2026 trata a toda ERC ≥G3 de 40–75 años; KDIGO, a toda ERC con ≥50 años."
+ },
+ "AZ25-2": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: el trasplante no borra la ERC; cuida la interacción de la estatina con ciclosporina (rabdomiólisis)."
+ },
+ "AZ25-3": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: cada partícula aterogénica lleva una apoB; por eso la apoB las cuenta todas."
+ },
+ "AZ25-4": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la Lp(a) es genética y casi no cambia con estatina ni dieta; basta medirla una vez."
+ },
+ "AZ25-5": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Trampa: en hemodiálisis no se inicia estatina de rutina (4D, AURORA), pero si ya la toma puede seguir."
+ },
+ "AZ25-6": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Cifra: los anti-PCSK9 bajan el c-LDL ~60 % adicional y no requieren ajuste por TFG."
+ },
+ "AZ25-7": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: la ezetimiba no se ajusta por TFG; SHARP usó simvastatina más ezetimiba en ERC."
+ },
+ "AZ25-9": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Metas ACC/AHA 2026: c-LDL <70 en ASCVD y <55 en muy alto riesgo; c-no-HDL <100 y <85."
+ },
+ "AZ25-10": {
+  "motivo": "La perla repetía la explicación; se sustituye por un dato distinto (cifra, trampa o mnemotecnia).",
+  "perla": "Dato: el inclisirán (siRNA contra PCSK9) se aplica al inicio, a los 3 meses y luego cada 6 meses."
+ },
+ "IMJ-9": {
+  "motivo": "La perla hablaba de timoglobulina y la pregunta es de basiliximab.",
+  "perla": "Basiliximab: anti-CD25 (IL-2Rα), sin depleción, dura 4–6 semanas; es inducción, no trata rechazo."
+ }
+}

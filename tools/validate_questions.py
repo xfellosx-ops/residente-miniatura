@@ -1,6 +1,7 @@
 import json, statistics, collections, sys
 import sys; d=json.load(open(sys.argv[1] if len(sys.argv)>1 else 'levels/9-5-lupus/q_extra.json'))
 ids=[]; mc=[]; vf=0; errs=[]
+for k in ('pasto','puertas','entrenadores','jefeC'): d.setdefault(k,[])
 for sec,qs in d.items():
     for q in qs:
         ids.append(q['id'])
@@ -51,6 +52,10 @@ for sec,q in mc:
     rows.append((sec,q['id'],q['clave'],L[q['clave']]==mx,cv,maxdev,L[q['clave']]==min(L.values()),
                  (min(others)-L[q['clave']])/mean>0.05))
 tot=len(rows); longest=sum(r[3] for r in rows)
+if not tot:
+    print("sin opción múltiple propia (solo V/F)"); c_=collections.Counter(q["clave"] for q in d["pasto"] if q.get("vf")); print("V/F:", dict(c_))
+    if c_ and max(c_.values())/sum(c_.values())>0.6: print(f"AVISO: una letra del V/F supera el 60 % ({dict(c_)})")
+    sys.exit(1 if errs else 0)
 print(f"preguntas de opción múltiple: {tot}")
 print(f"correcta = opción más larga: {longest}/{tot} = {100*longest/tot:.1f}%  (límite 25%)  -> {'PASA' if longest/tot<=0.25 else 'FALLA'}")
 for s in ('pasto','puertas','entrenadores','jefeC'):
@@ -58,6 +63,7 @@ for s in ('pasto','puertas','entrenadores','jefeC'):
     if sub: print(f"   {s}: {sum(r[3] for r in sub)}/{len(sub)} ({100*sum(r[3] for r in sub)/len(sub):.0f}%)")
 short=sum(r[6] for r in rows)
 print(f"correcta = opción más corta (incluye empates): {short}/{tot} = {100*short/tot:.1f}%")
+if short/tot>0.25: print(f"AVISO: sesgo inverso, la correcta es la más corta en {100*short/tot:.0f} % (máximo 25 %)")
 print(f"correcta más corta con margen >5% de la media: {sum(r[7] for r in rows)}/{tot} = {100*sum(r[7] for r in rows)/tot:.1f}%  (control de sobrecorrección)")
 cvs=[r[4] for r in rows]
 print(f"CV de longitudes por pregunta: media {100*statistics.mean(cvs):.1f}%, máx {100*max(cvs):.1f}%")
@@ -73,4 +79,8 @@ for s in ('pasto','puertas','entrenadores','jefeC','TOTAL'):
 c=collections.Counter(q['clave'] for sec,q in mc if q.get('vf') is None)
 vfc=collections.Counter(q['clave'] for qs in d.values() for q in qs if q.get('vf'))
 print("V/F:", dict(vfc))
+if vfc and max(vfc.values())/sum(vfc.values())>0.6: print(f"AVISO: una letra del V/F supera el 60 % ({dict(vfc)})")
+for s_ in ('puertas','entrenadores','jefeC'):
+    c_=collections.Counter(q['clave'] for q in d[s_] if not q.get('vf'))
+    if sum(c_.values())>=5 and max(c_.values())/sum(c_.values())>0.6: print(f"AVISO: en {s_} la letra {c_.most_common(1)[0][0]} supera el 60 %")
 sys.exit(1 if (errs or bad or longest/tot>0.25) else 0)

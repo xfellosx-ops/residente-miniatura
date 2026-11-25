@@ -1,0 +1,1261 @@
+{
+ "meta": {
+  "id": "24",
+  "title": "Equilibrio hidroelectrolítico",
+  "key": "rm_v3_24",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Osmótico",
+  "bossChange": "muestra su segunda forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Cerebro Hinchado",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "vignette": "edema_cerebral",
+   "join": [
+    "sonda",
+    "furo"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer de 72 años con tiazida. Sodio 108, una convulsión en urgencias."
+    ],
+    [
+     "Dr. J.",
+     "Tienes minutos. Pero si corriges de más, la dañas peor."
+    ],
+    [
+     "Sabio Brenn",
+     "Las neuronas ya tiraron sus osmolitos para no hincharse. Esa defensa es la trampa."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Neurona Adaptada",
+     "lines": [
+      [
+       "Neurona Adaptada",
+       "Saqué potasio primero y osmolitos orgánicos después para no hincharme."
+      ],
+      [
+       "Neurona Adaptada",
+       "Si me suben el sodio de golpe, me encojo y pierdo mi mielina."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "desmielinización osmótica"
+    },
+    {
+     "id": "npc2",
+     "name": "Salina al 3 %",
+     "lines": [
+      [
+       "Salina al 3 %",
+       "Bolo de 100–150 mL en 10 minutos, hasta 3 veces, si hay síntomas graves."
+      ],
+      [
+       "Salina al 3 %",
+       "Mi meta inicial: subir 4 a 6 mEq/L y parar la convulsión."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "solución hipertónica"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Límite",
+     "≤10 mEq/L en 24 h; ≤8 si alto riesgo (Na <105, alcohol, desnutrición, hipopotasemia)."
+    ],
+    [
+     "Letrero · Rescate",
+     "Si te pasaste: desmopresina y agua libre para volver a bajar."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "CDI",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Sodio 108: salina normal a chorro hasta 135. ¡Rápido!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "¿Desmielinización? Bolo de 3 % y límite. Entendido."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "HK",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: Hiperpotasemia grave: estabilización de membrana"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "VOL",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: Hipovolemia: índices urinarios en LRA prerrenal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Edema Cerebral",
+     "type": "Molecular",
+     "topic": "Edema Cerebral"
+    },
+    {
+     "name": "ADH Inapropiada",
+     "type": "Molecular",
+     "topic": "ADH Inapropiada"
+    },
+    {
+     "name": "Tiazida Traicionera",
+     "type": "Molecular",
+     "topic": "Tiazida Traicionera"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Hiponatremia grave: tratamiento agudo y límite de corrección",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Sube 4–6 para salvar el cerebro. No pases de 8–10 en 24 horas."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Abordaje de la hiponatremia",
+     "items": [
+      "Confirmar que es hipotónica (osmolalidad sérica)",
+      "¿Síntomas graves? Bolo de salina 3 %",
+      "Osmolalidad urinaria (<100: polidipsia o baja ingesta de solutos)",
+      "Sodio urinario y volumen",
+      "Tratar la causa",
+      "Vigilar el ritmo de corrección"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Hiponatremia hipotónica",
+     "bins": [
+      "SIADH",
+      "Pérdida cerebral de sal",
+      "Polidipsia/potomanía"
+     ],
+     "items": [
+      [
+       "Euvolemia, ácido úrico bajo que persiste al corregir Na",
+       "Pérdida cerebral de sal"
+      ],
+      [
+       "Uosm < 100 mOsm/kg",
+       "Polidipsia/potomanía"
+      ],
+      [
+       "Euvolemia, Uosm > 100, UNa > 30",
+       "SIADH"
+      ],
+      [
+       "Hipovolemia con UNa alto tras HSA",
+       "Pérdida cerebral de sal"
+      ],
+      [
+       "Cerveza y poca proteína",
+       "Polidipsia/potomanía"
+      ],
+      [
+       "Se trata con restricción hídrica, urea, vaptanes",
+       "SIADH"
+      ],
+      [
+       "Se trata con reposición de volumen y sodio",
+       "Pérdida cerebral de sal"
+      ],
+      [
+       "Carcinoma pulmonar de células pequeñas",
+       "SIADH"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Patrones del VExUS",
+     "bins": [
+      "Normal",
+      "Leve",
+      "Severo"
+     ],
+     "items": [
+      [
+       "Suprahepática S > D",
+       "Normal"
+      ],
+      [
+       "Suprahepática S < D",
+       "Leve"
+      ],
+      [
+       "Suprahepática con S invertida",
+       "Severo"
+      ],
+      [
+       "Porta con pulsatilidad < 30%",
+       "Normal"
+      ],
+      [
+       "Porta con pulsatilidad 30–50%",
+       "Leve"
+      ],
+      [
+       "Porta con pulsatilidad > 50%",
+       "Severo"
+      ],
+      [
+       "Intrarrenal continuo",
+       "Normal"
+      ],
+      [
+       "Intrarrenal bifásico",
+       "Leve"
+      ],
+      [
+       "Intrarrenal monofásico",
+       "Severo"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Corrección segura de hiponatremia crónica",
+     "items": [
+      "Definir síntomas y cronicidad",
+      "Bolo de NaCl 3% si hay síntomas moderados o graves",
+      "Fijar límite: ≤12 en 24 h y ≤18 en 48 h (8 si alto riesgo)",
+      "Medir sodio cada 2 a 4 h y la diuresis",
+      "Si hay acuaresis: desmopresina ± D5W",
+      "Si se rebasa el límite: re-bajar con D5W y desmopresina"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Hiponatremia sintomática grave",
+     "items": [
+      "Bolo de NaCl 3% 100–150 mL en 10–20 min",
+      "Repetir el bolo si persisten síntomas",
+      "Meta inicial: +4–6 mmol/L",
+      "Respetar el límite de 24 h (8–10; menor si alto riesgo)",
+      "Vigilar diuresis acuosa y K⁺ aportado",
+      "Sobrecorrección: desmopresina + glucosa al 5%"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Furo",
+       "¡Soy Furo! Con tabletas de sal saco agua libre en SIADH. La urea es otra opción."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Ahora el potasio. Mata más rápido que el sodio."
+      ]
+     ]
+    }
+   ],
+   "card": "Hiponatremia grave: bolo 3 % (100–150 mL), subir 4–6 mEq/L; límite 10/24 h (8 si alto riesgo). Sobrecorrección: desmopresina + agua libre."
+  },
+  {
+   "id": "z2",
+   "name": "Río de Potasio",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "potasio",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "El 98 % del potasio vive dentro de la célula. Insulina y β2 lo meten."
+    ],
+    [
+     "Sabio Brenn",
+     "El riñón lo excreta si llegan sodio y flujo al colector, y hay aldosterona."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Gluconato de Calcio",
+     "lines": [
+      [
+       "Gluconato de Calcio",
+       "No bajo el potasio: estabilizo la membrana del miocardio en minutos."
+      ],
+      [
+       "Gluconato de Calcio",
+       "Úsame si hay cambios en el electrocardiograma."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "hiperpotasemia"
+    },
+    {
+     "id": "npc2",
+     "name": "ROMK y BK",
+     "lines": [
+      [
+       "ROMK y BK",
+       "Somos las salidas de potasio del colector. BK se abre con el flujo alto."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc3",
+     "name": "Magnesio",
+     "lines": [
+      [
+       "Magnesio",
+       "Sin mí, ROMK queda abierto y el potasio se fuga. Corrígeme primero."
+      ]
+     ],
+     "gift": null,
+     "recall": "hipomagnesemia"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Hiperpotasemia",
+     "1 Calcio · 2 Insulina + glucosa, salbutamol · 3 Eliminar: diurético, quelante, diálisis."
+    ],
+    [
+     "Letrero · Hipopotasemia",
+     "K urinario >20 mEq/día o K/Cr >13 mEq/g: pérdida renal."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "VXS",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Potasio 6.5: le doy bicarbonato y me voy."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Calcio, insulina, eliminar. En ese orden."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "RAA",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: SRAA: efecto hemodinámico de los IECA sobre la TFG"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "HPK",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: Hipopotasemia refractaria"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Onda T Picuda",
+     "type": "Molecular",
+     "topic": "Onda T Picuda"
+    },
+    {
+     "name": "Seudohiperpotasemia",
+     "type": "Molecular",
+     "topic": "Seudohiperpotasemia"
+    },
+    {
+     "name": "Aldosterona Ausente",
+     "type": "Molecular",
+     "topic": "Aldosterona Ausente"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Hiperpotasemia: tratamiento escalonado",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Estabiliza, redistribuye, elimina. Tres piedras, siempre en ese orden."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Hipopotasemia: pista y causa",
+     "items": [],
+     "pairs": [
+      [
+       "HTA + renina baja + aldosterona alta",
+       "Hiperaldosteronismo primario"
+      ],
+      [
+       "Normotenso + alcalosis + Ca urinario bajo",
+       "Gitelman"
+      ],
+      [
+       "Normotenso + alcalosis + Ca urinario alto",
+       "Bartter o diurético de asa"
+      ],
+      [
+       "Acidosis + K bajo",
+       "Diarrea o ATR"
+      ],
+      [
+       "HTA + renina y aldosterona bajas",
+       "Liddle o regaliz"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Hiponatremia hipotónica por volemia",
+     "bins": [
+      "Hipovolémica",
+      "Euvolémica",
+      "Hipervolémica"
+     ],
+     "items": [
+      [
+       "Vómito con Na urinario bajo",
+       "Hipovolémica"
+      ],
+      [
+       "Tiazida",
+       "Hipovolémica"
+      ],
+      [
+       "Insuficiencia suprarrenal primaria",
+       "Hipovolémica"
+      ],
+      [
+       "Pérdida cerebral de sal",
+       "Hipovolémica"
+      ],
+      [
+       "SIADH por carcinoma pulmonar",
+       "Euvolémica"
+      ],
+      [
+       "Hipotiroidismo grave",
+       "Euvolémica"
+      ],
+      [
+       "Insuficiencia suprarrenal secundaria",
+       "Euvolémica"
+      ],
+      [
+       "Potomanía de cerveza",
+       "Euvolémica"
+      ],
+      [
+       "Insuficiencia cardiaca",
+       "Hipervolémica"
+      ],
+      [
+       "Cirrosis con ascitis",
+       "Hipervolémica"
+      ],
+      [
+       "ERC avanzada con exceso de agua",
+       "Hipervolémica"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Hiperkalemia con cambios en ECG",
+     "items": [
+      "ECG y monitorización",
+      "Gluconato de calcio IV (estabilizar membrana)",
+      "Insulina + glucosa IV (redistribuir)",
+      "β2-agonista nebulizado",
+      "Eliminar K⁺: diurético, quelante o hemodiálisis",
+      "Buscar y retirar la causa (fármacos, dieta)"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Abordaje de la hipernatremia",
+     "items": [
+      "Evaluar el volumen extracelular",
+      "Si hay hipovolemia: salina isotónica primero",
+      "Calcular el déficit de agua libre",
+      "Sumar pérdidas continuas con agua libre de electrolitos",
+      "Reponer con D5W o agua enteral en unas 48 h",
+      "Tratar la causa: desmopresina, retirar diurético o soluto"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Hiponatremia: corrección máxima",
+       "8–10 mEq/L en 24 h"
+      ],
+      [
+       "SIADH",
+       "Uosm >100, UNa >30, euvolemia"
+      ],
+      [
+       "Hipernatremia",
+       "Déficit de agua libre"
+      ],
+      [
+       "DI central",
+       "Desmopresina"
+      ],
+      [
+       "HiperK con cambios ECG",
+       "Gluconato de calcio IV"
+      ],
+      [
+       "Patirómero / ZS-9",
+       "Quelantes de K⁺"
+      ],
+      [
+       "HipoK + HTA + renina ↓",
+       "Hiperaldosteronismo primario"
+      ],
+      [
+       "Hipercalcemia maligna",
+       "PTHrP → hidratación + bisfosfonato"
+      ],
+      [
+       "Hipomagnesemia",
+       "Impide corregir hipoK"
+      ],
+      [
+       "Realimentación",
+       "Hipofosfatemia"
+      ],
+      [
+       "Desmielinización osmótica",
+       "Corrección rápida de hipoNa crónica"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Quedan los tres olvidados: calcio, fósforo y magnesio."
+      ]
+     ]
+    }
+   ],
+   "card": "HiperK: calcio → insulina/β2 → eliminar. HipoK: K urinario separa renal de extrarrenal; corregir magnesio."
+  },
+  {
+   "id": "z3",
+   "name": "Valle de los Minerales",
+   "palette": [
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
+   ],
+   "tiles": "valle",
+   "vignette": "minerales",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Calcio alto con PTH suprimida: busca cáncer, vitamina D o granulomas."
+    ],
+    [
+     "Sabio Brenn",
+     "Con PTH alta o normal: hiperparatiroidismo primario… o hipocalciuria familiar."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "CaSR",
+     "lines": [
+      [
+       "CaSR",
+       "Soy el sensor de calcio de la paratiroides y del asa."
+      ],
+      [
+       "CaSR",
+       "Si muto y me inactivo: hipercalcemia hipocalciúrica familiar. No operes."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "hipocalciuria familiar"
+    },
+    {
+     "id": "npc2",
+     "name": "Fosfato",
+     "lines": [
+      [
+       "Fosfato",
+       "Tras alimentar a un desnutrido, la insulina me mete a la célula y desaparezco."
+      ],
+      [
+       "Fosfato",
+       "Síndrome de realimentación: debilidad, hemólisis, falla respiratoria."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "realimentación"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Hipercalcemia grave",
+     "Salina, calcitonina y bisfosfonato (o denosumab si TFG baja)."
+    ],
+    [
+     "Letrero · Magnesio",
+     "IBP, diuréticos, alcohol, cisplatino y anti-EGFR lo bajan."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "FGF",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Calcio alto y PTH alta: a cirugía sin pensarlo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Calcio/creatinina urinario <0.01… era familiar. Qué susto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "HNH",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Hipernatremia por diabetes insípida nefrogénica"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "TZD",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Caso encadenado: hiponatremia por tiazida, mecanismo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "PTHrP Tumoral",
+     "type": "Molecular",
+     "topic": "PTHrP Tumoral"
+    },
+    {
+     "name": "Calcitriol Granulomatoso",
+     "type": "Molecular",
+     "topic": "Calcitriol Granulomatoso"
+    },
+    {
+     "name": "Hipomagnesemia Oculta",
+     "type": "Molecular",
+     "topic": "Hipomagnesemia Oculta"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Hipercalcemia: abordaje por PTH",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Primera pregunta siempre: ¿la PTH está suprimida o no?"
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Hipercalcemia y mecanismo",
+     "items": [],
+     "pairs": [
+      [
+       "Cáncer escamoso",
+       "PTHrP"
+      ],
+      [
+       "Sarcoidosis / linfoma",
+       "Calcitriol extrarrenal"
+      ],
+      [
+       "Mieloma",
+       "Osteólisis"
+      ],
+      [
+       "Tiazida",
+       "Menos calciuria"
+      ],
+      [
+       "Leche-álcali",
+       "Calcio + álcali absorbible"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Poliuria hipotónica: prueba de privación",
+     "bins": [
+      "DI central completa",
+      "DI central parcial",
+      "DI nefrogénica",
+      "Polidipsia primaria"
+     ],
+     "items": [
+      [
+       "Uosm 250 tras privación; 600 con DDAVP",
+       "DI central completa"
+      ],
+      [
+       "Uosm 420 tras privación; 480 con DDAVP",
+       "DI central parcial"
+      ],
+      [
+       "Uosm 200 tras privación; 210 con DDAVP",
+       "DI nefrogénica"
+      ],
+      [
+       "Uosm 650 tras privación; 670 con DDAVP",
+       "Polidipsia primaria"
+      ],
+      [
+       "Copeptina basal 30 pmol/L",
+       "DI nefrogénica"
+      ],
+      [
+       "Copeptina estimulada con 3% de 8 pmol/L",
+       "Polidipsia primaria"
+      ],
+      [
+       "Litio crónico",
+       "DI nefrogénica"
+      ],
+      [
+       "Posoperatorio de hipófisis",
+       "DI central completa"
+      ],
+      [
+       "Paciente con esquizofrenia y Na 131",
+       "Polidipsia primaria"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Abordaje de hiponatremia",
+     "items": [
+      "Confirmar hipotonicidad (Osm plasmática)",
+      "Valorar síntomas graves → salina hipertónica",
+      "Osmolalidad urinaria",
+      "Estado de volumen",
+      "Na urinario",
+      "Causa específica y tratamiento dirigido"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "VExUS paso a paso",
+     "items": [
+      "Medir la VCI en eje largo (2 cm de la aurícula)",
+      "Si VCI < 2 cm: grado 0 y terminar",
+      "Doppler de vena suprahepática con ECG",
+      "Pulsatilidad de la vena porta",
+      "Doppler de vena intrarrenal (interlobar)",
+      "Contar patrones severos: 0 → 1, uno → 2, ≥2 → 3"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "El sodio va en 116 a las 12 horas. Va rápido… algo viene."
+      ]
+     ]
+    }
+   ],
+   "card": "Hipercalcemia: PTH suprimida (PTHrP, vitamina D, osteólisis) o no (HPT primario, FHH). Realimentación: hipofosfatemia. HipoMg perpetúa hipoK e hipoCa."
+  }
+ ],
+ "boss": {
+  "name": "El Osmótico",
+  "color": "#3aa0d8",
+  "dark": "#0f3a5a",
+  "heads": 1,
+  "form": "ola",
+  "crescent": false,
+  "intro": [
+   [
+    "El Osmótico",
+    "Hincho neuronas. Y si me corriges con prisa, las desnudo de mielina."
+   ],
+   [
+    "Dr. J.",
+    "Dos formas: edema y desmielinización. Vence a las dos."
+   ]
+  ],
+  "outro": [
+   [
+    "El Osmótico",
+    "Me equilibro… si corriges de más, mi primo Mielinólisis te espera."
+   ],
+   [
+    "Sabio Brenn",
+    "Tratar es fácil. Tratar despacio es el arte."
+   ],
+   [
+    "Paciente",
+    "¿Ya no tomo tiazida? Gracias por corregirme despacio."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Clasificación",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Osmótico",
+      "¿Hipotónica? ¿Con qué volumen?"
+     ]
+    ],
+    "topics": [
+     "Clasificación"
+    ],
+    "questions": [
+     "SHK-1",
+     "SHK-2",
+     "SHK-3"
+    ]
+   },
+   {
+    "name": "Tratamiento agudo",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Osmótico",
+      "Convulsiona. Decide."
+     ]
+    ],
+    "topics": [
+     "Tratamiento agudo"
+    ],
+    "questions": [
+     "SHK-4",
+     "SHK-5"
+    ]
+   },
+   {
+    "name": "Potasio y minerales",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Osmótico",
+      "Cambio de ion."
+     ]
+    ],
+    "topics": [
+     "Potasio y minerales"
+    ],
+    "questions": [
+     "HNA-1",
+     "HNA-2"
+    ]
+   },
+   {
+    "name": "Sobrecorrección",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Osmótico",
+      "Subiste 14 en un día. Ahora soy otro."
+     ]
+    ],
+    "topics": [
+     "Sobrecorrección"
+    ],
+    "questions": [
+     "HNA-3",
+     "HNA-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Cerebro Hinchado",
+   "text": "Hiponatremia grave: bolo 3 % (100–150 mL), subir 4–6 mEq/L; límite 10/24 h (8 si alto riesgo). Sobrecorrección: desmopresina + agua libre."
+  },
+  {
+   "title": "Río de Potasio",
+   "text": "HiperK: calcio → insulina/β2 → eliminar. HipoK: K urinario separa renal de extrarrenal; corregir magnesio."
+  },
+  {
+   "title": "Valle de los Minerales",
+   "text": "Hipercalcemia: PTH suprimida (PTHrP, vitamina D, osteólisis) o no (HPT primario, FHH). Realimentación: hipofosfatemia. HipoMg perpetúa hipoK e hipoCa."
+  },
+  {
+   "title": "💎 Resistencia a diuréticos y sobrecarga re",
+   "text": "Resistencia a diuréticos: infusión + bloqueo secuencial (tiazida/metolazona, acetazolamida). Sobrecarga refractaria con hipoxemia → TRR con UF neta (CRRT si inestable)."
+  },
+  {
+   "title": "💎 Prueba de estrés con furosemida",
+   "text": "FST: furosemida 1 mg/kg (1.5 si exposición previa); diuresis <200 mL/2 h predice LRA grado 3/TRR (S 87%, E 84%)."
+  },
+  {
+   "title": "💎 Respuesta a líquidos en ventilación mecá",
+   "text": "Ventilado, sin esfuerzos, sinusal, Vt ≥8: VPP >12–13% o dIVC >18% predicen respuesta a líquidos. Los parámetros estáticos (PVC, diámetro de VCI) no."
+  },
+  {
+   "title": "💎 Puntuación VExUS: gradación",
+   "text": "VExUS: VCI <2 cm = 0; VCI ≥2 cm con patrones normales/leves = 1; 1 patrón grave = 2; ≥2 patrones graves = 3."
+  },
+  {
+   "title": "💎 Patrones Doppler normales y graves",
+   "text": "Normal → grave: hepática S>D → S invertida; porta PF <30% → ≥50%; renal continuo → solo onda D. PF = (Vmáx − Vmín)/Vmáx."
+  },
+  {
+   "title": "💎 Utilidad clínica de la congestión venosa",
+   "text": "VExUS: mide congestión venosa (no respuesta a volumen). Grado 3 ↑ riesgo de LRA; guía diuréticos/UF."
+  },
+  {
+   "title": "💎 Elección del cristaloide: balanceado fre",
+   "text": "Crítico con riesgo de LRA: cristaloide balanceado (SMART, MAKE30 14.3% vs 15.4%). Evitar almidones. Salina → acidosis hiperclorémica."
+  },
+  {
+   "title": "💎 Hipoaldosteronismo hiporreninémico (ATR ",
+   "text": "ATR tipo 4: ↑K, acidosis hiperclorémica, pH urinario <5.5, brecha aniónica urinaria positiva. Renina y aldosterona bajas = hiporreninémico (diabetes, AINE, IECA)."
+  }
+ ]
+}

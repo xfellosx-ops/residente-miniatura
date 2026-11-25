@@ -1,0 +1,726 @@
+{
+ "meta": {
+  "id": "11",
+  "title": "Enfermedad renal obstructiva",
+  "key": "rm_v3_11",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Presa",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Vejiga Distendida",
+   "palette": [
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
+   ],
+   "tiles": "tubulo",
+   "vignette": "vejiga",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 68 años, próstata grande, no orina bien desde hace meses."
+    ],
+    [
+     "Dr. J.",
+     "Creatinina 5.2, potasio 6.1 y un globo vesical hasta el ombligo."
+    ],
+    [
+     "Sabio Brenn",
+     "La presión sube contracorriente: uréter, pelvis, papila."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Próstata Crecida",
+     "lines": [
+      [
+       "Próstata Crecida",
+       "Aprieto la uretra. El detrusor se hipertrofia y luego se rinde."
+      ],
+      [
+       "Próstata Crecida",
+       "Orinar por rebosamiento no es orinar bien."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Sonda Foley",
+     "lines": [
+      [
+       "Sonda Foley",
+       "Soy el tratamiento inicial en obstrucción baja."
+      ],
+      [
+       "Sonda Foley",
+       "Si la obstrucción es alta y hay infección: nefrostomía o catéter doble J urgente."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "derivación urinaria"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Ultrasonido",
+     "Puede faltar la dilatación: fase temprana, hipovolemia o fibrosis retroperitoneal."
+    ],
+    [
+     "Letrero · ATR tipo 4",
+     "La obstrucción crónica da hiperpotasemia con acidosis hiperclorémica."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "uro",
+     "specialty": "Urología",
+     "serie": "OBS-5",
+     "intro": [
+      [
+       "Dr. Bruno Salas",
+       "Sin hidronefrosis en el ultrasonido no hay obstrucción."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Bruno Salas",
+       "Fibrosis retroperitoneal sin dilatación… touché."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "gine",
+     "specialty": "Ginecología",
+     "serie": "T2-11OEM",
+     "intro": [
+      [
+       "Dra. Lucía Bravo",
+       "Hidronefrosis en el embarazo: siempre es un lito."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Lucía Bravo",
+       "Fisiológica a la derecha… pero con fiebre, drenar."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "T2-11NPP",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Diabética con cólico: será otra piedra."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Necrosis papilar: diabetes, analgésicos e infección."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Presión Retrógrada",
+     "type": "Molecular",
+     "topic": "Presión Retrógrada"
+    },
+    {
+     "name": "Lito Enclavado",
+     "type": "Molecular",
+     "topic": "Lito Enclavado"
+    },
+    {
+     "name": "Bacteria Estancada",
+     "type": "Innato",
+     "topic": "Bacteria Estancada"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_2",
+     "topic": "Diagnóstico por imagen de la uropatía obstructiva",
+     "text": [
+      [
+       "Sabio Brenn",
+       "La dilatación puede faltar al inicio. Si la sospecha es alta, insiste."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Obstrucción con fiebre",
+     "items": [
+      "Reconocer obstrucción + infección como urgencia",
+      "Cultivos y antibiótico",
+      "Derivación urgente (nefrostomía o doble J)",
+      "Corregir potasio y acidosis",
+      "Resolver la causa cuando esté estable"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Hidronefrosis",
+       "Ecografía como primer estudio"
+      ],
+      [
+       "Diuresis posobstructiva",
+       "Riesgo de hipovolemia e hipoK"
+      ],
+      [
+       "Fibrosis retroperitoneal",
+       "IgG4; responde a esteroide"
+      ],
+      [
+       "Obstrucción bilateral",
+       "LRA anúrica"
+      ],
+      [
+       "Renograma MAG3 + diurético",
+       "Distingue obstrucción funcional"
+      ],
+      [
+       "Válvulas uretrales posteriores",
+       "Varones pediátricos"
+      ],
+      [
+       "Obstrucción crónica",
+       "ATR tipo 4, DI nefrogénica"
+      ],
+      [
+       "Urosepsis obstructiva",
+       "Descompresión urgente"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Colocaron la sonda. Ahora mira lo que pasa cuando la presa se rompe."
+      ]
+     ]
+    }
+   ],
+   "card": "Obstrucción: ultrasonido primero (puede ser falso negativo). Obstrucción + infección = derivación urgente. Crónica: ATR 4."
+  },
+  {
+   "id": "z2",
+   "name": "La Presa Rota",
+   "palette": [
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
+   ],
+   "tiles": "tubulo",
+   "vignette": "hidronefrosis",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Orina 400 mL por hora. Diuresis posobstructiva."
+    ],
+    [
+     "Sabio Brenn",
+     "Urea acumulada, sodio retenido y un túbulo que aún no concentra."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Túbulo Aturdido",
+     "lines": [
+      [
+       "Túbulo Aturdido",
+       "Perdí mis acuaporinas y mis transportadores con la presión."
+      ],
+      [
+       "Túbulo Aturdido",
+       "Tardo días en recuperarme. Mientras, pierdo agua, sodio y potasio."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "diuresis posobstructiva"
+    },
+    {
+     "id": "npc2",
+     "name": "Reflujo Vesicoureteral",
+     "lines": [
+      [
+       "Reflujo Vesicoureteral",
+       "Subo orina al riñón en cada micción. En niños dejo cicatrices."
+      ],
+      [
+       "Reflujo Vesicoureteral",
+       "Me gradúan del I al V con cistouretrograma miccional."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "reflujo"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Reposición",
+     "Patológica (>200 mL/h sostenida): reponer solo la mitad, con salina al 0.45 %."
+    ],
+    [
+     "Letrero · Nefropatía por reflujo",
+     "Cicatrices polares, HTA y proteinuria por GEFS secundaria."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "OBS-6",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Orina 5 litros: le repongo 5 litros. Mililitro por mililitro."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Así perpetúo la poliuria… repongo la mitad."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "T2-11OKT",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Potasio alto en un viejito: le quito el plátano y ya."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "ATR por obstrucción… primero la sonda."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "OBMA-1",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Obstrucción ureteral maligna: cómo drenar"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Poliuria Posobstructiva",
+     "type": "Molecular",
+     "topic": "Poliuria Posobstructiva"
+    },
+    {
+     "name": "Hipopotasemia Súbita",
+     "type": "Molecular",
+     "topic": "Hipopotasemia Súbita"
+    },
+    {
+     "name": "Cicatriz Polar",
+     "type": "Celular",
+     "topic": "Cicatriz Polar"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_1",
+     "topic": "Diuresis posobstructiva: reconocimiento y manejo",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Si repones todo lo que orina, nunca dejará de orinar."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Causa por nivel",
+     "items": [],
+     "pairs": [
+      [
+       "Uretra",
+       "Hiperplasia prostática, estenosis"
+      ],
+      [
+       "Vejiga",
+       "Neurogénica, tumor"
+      ],
+      [
+       "Uréter intrínseco",
+       "Lito, coágulo, tumor urotelial"
+      ],
+      [
+       "Uréter extrínseco",
+       "Fibrosis retroperitoneal, cáncer cervicouterino"
+      ],
+      [
+       "Unión ureteropiélica",
+       "Estenosis congénita"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Falta la presa misma."
+      ]
+     ]
+    }
+   ],
+   "card": "Diuresis posobstructiva: vigilar peso, electrolitos; reponer parcialmente con 0.45 %. Reflujo: grados I–V, cicatrices, GEFS secundaria."
+  }
+ ],
+ "boss": {
+  "name": "La Presa",
+  "color": "#4a90a4",
+  "dark": "#123a44",
+  "heads": 1,
+  "form": "muro",
+  "crescent": false,
+  "intro": [
+   [
+    "La Presa",
+    "Retengo todo. Y cuando me rompen, lo suelto todo."
+   ],
+   [
+    "Dr. J.",
+    "Imagen, derivación y luego la poliuria."
+   ]
+  ],
+  "outro": [
+   [
+    "La Presa",
+    "Fluyo… y ahora orina un litro por hora. ¿Vigilaste el potasio?"
+   ],
+   [
+    "Sabio Brenn",
+    "El tiempo de obstrucción define cuánto riñón regresa."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Imagen",
+    "type": "Molecular",
+    "lines": [
+     [
+      "La Presa",
+      "¿Me ves dilatada?"
+     ]
+    ],
+    "topics": [
+     "Imagen"
+    ],
+    "questions": [
+     "RVU-1",
+     "RVU-2"
+    ]
+   },
+   {
+    "name": "Derivación",
+    "type": "Celular",
+    "lines": [
+     [
+      "La Presa",
+      "Hay pus detrás de mí."
+     ]
+    ],
+    "topics": [
+     "Derivación"
+    ],
+    "questions": [
+     "RVU-3",
+     "RVU-4"
+    ]
+   },
+   {
+    "name": "Diuresis",
+    "type": "Humoral",
+    "lines": [
+     [
+      "La Presa",
+      "¡Me rompí!"
+     ]
+    ],
+    "topics": [
+     "Diuresis"
+    ],
+    "questions": [
+     "OBS-1",
+     "OBS-2"
+    ]
+   },
+   {
+    "name": "Reflujo",
+    "type": "Complemento",
+    "lines": [
+     [
+      "La Presa",
+      "Y ahora regreso."
+     ]
+    ],
+    "topics": [
+     "Reflujo"
+    ],
+    "questions": [
+     "OBS-3",
+     "OBS-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Vejiga Distendida",
+   "text": "Obstrucción: ultrasonido primero (puede ser falso negativo). Obstrucción + infección = derivación urgente. Crónica: ATR 4."
+  },
+  {
+   "title": "La Presa Rota",
+   "text": "Diuresis posobstructiva: vigilar peso, electrolitos; reponer parcialmente con 0.45 %. Reflujo: grados I–V, cicatrices, GEFS secundaria."
+  },
+  {
+   "title": "💎 Manejo definitivo según tamaño y localiz",
+   "text": "Renal >20 mm: NLP. Renal <20 mm: ESWL/URS. Ureter >10 mm: URS o ESWL. Polo inferior >10 mm: URS/NLP."
+  },
+  {
+   "title": "💎 Diuresis posobstructiva",
+   "text": "Poliuria posobstructiva (>200 mL/h × 2 h): observar, VO libre, vigilar Na/K/Mg; reponer IV (hipotónico, 50–75%) solo si hipovolemia."
+  },
+  {
+   "title": "💎 Uropatía obstructiva: fisiopatología y p",
+   "text": "Obstrucción: ↑presión intratubular + vasoconstricción aferente (TXA₂, Ang II) → ↓TFG. Tx inicial: sonda vesical. Alivio en <1–2 sem → recuperación casi completa."
+  },
+  {
+   "title": "💎 Obstrucción sin dilatación en la ecograf",
+   "text": "Obstrucción sin hidronefrosis: muy temprana, hipovolemia, fibrosis retroperitoneal, infiltración tumoral. Anuria = descartar obstrucción siempre."
+  },
+  {
+   "title": "💎 Renograma con diurético",
+   "text": "MAG3 + furosemida: t½ >20 min obstructivo; <10 min no obstructivo; 10–20 indeterminado."
+  },
+  {
+   "title": "💎 Obstrucción ureteral maligna: cómo drena",
+   "text": "Obstrucción maligna (70% GU): PCN si sepsis; drenar el mejor riñón; stents fallan 40–50% en compresión extrínseca; cambiar c/3–6 meses; reobstrucción stent 11% vs PCN 1%. Urotelial alto: stent, no PCN (siembra)."
+  },
+  {
+   "title": "💎 Cuándo pedir cistouretrografía tras una ",
+   "text": "RVU: CUMS es el estudio diagnóstico (se hace al terminar el antibiótico); DMSA para pielonefritis y cicatriz (cicatriz a los 6 meses); cistografía nuclear para seguimiento; eco no diagnostica reflujo."
+  },
+  {
+   "title": "💎 Fibrosis retroperitoneal por IgG4",
+   "text": "Fibrosis retroperitoneal: periaórtica, uréteres medializados; IgG4 en parte de los casos; tratamiento: glucocorticoides ± rituximab + derivación."
+  }
+ ]
+}

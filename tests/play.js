@@ -1,16 +1,16 @@
 const {JSDOM}=require('jsdom');const fs=require('fs');
-const html=fs.readFileSync(''+__dirname+'/../dist/index.html','utf8');
 const MODEARG=process.argv[2]||'correct';
+const html=fs.readFileSync(process.argv[3]||(__dirname+'/../dist/index.html'),'utf8');
 const dom=new JSDOM(html,{url:'https://x.test/',runScripts:'dangerously',pretendToBeVisual:true,beforeParse(w){
  w.HTMLCanvasElement.prototype.getContext=()=>new Proxy({},{get:(t,k)=>()=>{},set:()=>true});w.speechSynthesis={cancel(){},speak(){}};
  w.requestAnimationFrame=cb=>setTimeout(()=>cb(Date.now()),0);}});
 const w=dom.window,d=w.document;const errs=[];w.addEventListener('error',e=>errs.push(e.message+' '+(e.error&&e.error.stack||'').split('\n')[1]));
 const $=s=>d.querySelector(s);const G=()=>w.__G;
 let ticks=0,lastZone=-1,stuck=0,lastPos='',stats={wild:0,trainer:0,gate:0,mini:0,q:0,wrong:0,lose:0};
-const STORY=JSON.parse(fs.readFileSync(''+__dirname+'/../levels/9-5-lupus/story.json','utf8'));
+let STORY=null;
 function key(k,type='keydown'){w.dispatchEvent(new w.KeyboardEvent(type,{key:k,bubbles:true}))}
 function step(){ticks++;
- const g=G();if(!g)return;
+ const g=G();if(!g)return;STORY=g.STORY;
  const m=$('.modal button');if(m){if(/REPASO DE RECUPERACI/.test(d.body.textContent))stats.lose++;m.click();return}
  if(g.MODE==='title'){$('#t1').click();return}
  if($('#rb')){stats.rb=(stats.rb||0)+1;$('#rb').click();return}
@@ -20,12 +20,18 @@ function step(){ticks++;
  if(g.MODE==='river'&&g.RIV){const R=g.RIV,r=R.rounds[R.i];if(r){const want=r.opts.indexOf(r.ans);const sel=[...d.querySelectorAll('.opt')];if(sel[want])sel[want].click()}return}
  // question
  const q=$('.q');const opts=[...d.querySelectorAll('.opt:not([disabled])')];
- if(q&&opts.length&&opts[0].dataset.l){const Q=Object.values(g.ALL).find(x=>x.enunciado===q.textContent);if(!Q){console.log('unknown',q.textContent.slice(0,50));process.exit(1)}
+ if(q&&opts.length&&opts[0].dataset.l){const Q=(q.dataset.id&&g.ALL[q.dataset.id])||Object.values(g.ALL).find(x=>x.enunciado===q.textContent);if(!Q){console.log('unknown',q.textContent.slice(0,50));process.exit(1)}
    stats.q++;let pick=Q.clave;if(MODEARG==='errors'&&Math.random()<.35){pick=opts.map(o=>o.dataset.l).find(l=>l!==Q.clave);stats.wrong++}
    opts.find(o=>o.dataset.l===pick).click();return}
+ // diario de cierre
+ const dj=[...d.querySelectorAll('[data-dj]')];if(dj.length){const D=G().STORY.meta.diario;(dj.find(b=>+b.dataset.dj===D[2])||dj[0]).click();return}
  // battle menus
+ if($('#bq')){$('#bq').click();return}
  if($('#bf')){$('#bf').click();return}
  const mv=d.querySelector('.opt[data-i]');if(mv&&g.MODE==='battle'){mv.click();return}
+ // clasificación
+ const ci=$('#citem.clasif');if(ci&&d.querySelector('[data-bin]:not([disabled])')){const z=STORY.zones[g.S.zone];let ans=null;z.minigames.forEach(m=>{if(m.type==='clasif')m.items.forEach(([it,b])=>{if(it===ci.textContent)ans=m.bins.indexOf(b)})});
+   const bt=[...d.querySelectorAll('[data-bin]')];(bt[ans]||bt[0]).click();return}
  // stones
  const st=[...d.querySelectorAll('.stone')];if(st.length){const z=STORY.zones[g.S.zone];const done=d.querySelector('.box.small').textContent;const mg=z.minigames.find(m=>m.items.some(it=>st.some(s=>s.dataset.t===it)));const nxt=mg.items.find(it=>st.some(s=>s.dataset.t===it)&&!done.includes(it));st.find(s=>s.dataset.t===nxt).click();return}
  // memorama con memoria

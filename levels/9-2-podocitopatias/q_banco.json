@@ -1,0 +1,1241 @@
+[
+ {
+  "id": "MCD-1",
+  "serie_id": "MCD",
+  "orden": 1,
+  "sub": "9.c.2",
+  "subtema": "Enfermedad de cambios mínimos del adulto",
+  "dificultad": "moderada",
+  "caso": "Hombre de 34 años con edema generalizado de inicio súbito hace 2 semanas, sin infección previa; usó ibuprofeno por lumbalgia. TA 112/70 mmHg, creatinina 0.9 mg/dL, albúmina 1.8 g/dL, proteinuria 9.5 g/24 h, sin hematuria; sedimento sin cilindros eritrocitarios. C3 y C4 normales; anti-PLA2R negativo; VHB, VHC y VIH negativos.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y qué esperaría en la biopsia?",
+  "opciones": {
+   "A": "Glomeruloesclerosis focal y segmentaria: esclerosis segmentaria con adherencias capsulares y colapso del penacho glomerular",
+   "B": "Nefropatía por IgA: depósitos mesangiales de IgA dominante en la IF con proliferación mesangial segmentaria",
+   "C": "Enfermedad de cambios mínimos: microscopía de luz normal, IF negativa y borramiento difuso de pedicelos en la ME",
+   "D": "Nefropatía membranosa primaria: engrosamiento difuso de la membrana basal con espículas y depósitos subepiteliales de IgG",
+   "E": "Nefritis intersticial aguda por AINE con infiltrado eosinofílico intersticial y sin afección glomerular significativa"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La GEFS cursa con hipertensión, hematuria o deterioro de función con más frecuencia; la esclerosis segmentaria es lo distintivo.",
+   "B": "La IgAN se manifiesta con hematuria; la proteinuria nefrótica es menos frecuente.",
+   "C": "El síndrome nefrótico abrupto con sedimento bland, TA normal y función conservada en un adulto joven sugiere enfermedad de cambios mínimos (podocitopatía). La biopsia (que en el adulto es obligatoria, a diferencia de la edad pediátrica) muestra glomérulos normales a la microscopía de luz, IF negativa y borramiento difuso de los procesos podocitarios en microscopía electrónica. Se asocia con AINE (que pueden causar también nefritis intersticial concomitante), litio, linfoma de Hodgkin, atopia y vacunas; hay evidencia reciente de autoanticuerpos antinefrina.",
+   "D": "La nefropatía membranosa tiene anti-PLA2R positivo en la mayoría y engrosamiento de la MBG; no es el escenario más probable con serología negativa y edad joven.",
+   "E": "La NIA por AINE provoca disminución de TFG, piuria estéril y eosinofiluria, no síndrome nefrótico aislado (aunque ambos pueden coexistir con AINE)."
+  },
+  "perla": "MCD: causa >80% del SN pediátrico y 10–25% del adulto. Adulto: biopsia siempre. Asociaciones: AINE, litio, Hodgkin, atopia. ME: borramiento podocitario difuso, IF neg.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Watts AJB et al. J Am Soc Nephrol 2022;33:238 (anti-nefrina)"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o4",
+  "peso": 70.1
+ },
+ {
+  "id": "MCD-2",
+  "serie_id": "MCD",
+  "orden": 2,
+  "sub": "9.c.2",
+  "subtema": "Cambios mínimos: tratamiento inicial",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La biopsia confirma enfermedad de cambios mínimos. Pesa 78 kg. Sin diabetes, sin infección activa, con serologías virales negativas.",
+  "enunciado": "¿Cuál es el tratamiento inicial recomendado?",
+  "opciones": {
+   "A": "Rituximab como primera línea en todos los casos de enfermedad de cambios mínimos del adulto sin contraindicación",
+   "B": "Prednisona 1 mg/kg/día (máx. 80 mg) hasta la remisión (hasta 16 semanas), con reducción lenta hasta unas 24 semanas y soporte",
+   "C": "Ciclofosfamida y esteroides a dosis altas desde el inicio del tratamiento, para evitar las recaídas posteriores durante seis meses",
+   "D": "Micofenolato en monoterapia como inducción, sin glucocorticoides, para evitar la toxicidad de los esteroides",
+   "E": "Solo tratamiento de soporte durante 6 meses y esperar la remisión espontánea antes de usar inmunosupresión"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El rituximab no es la primera línea en adultos naive a esteroides; se usa en recaídas y dependencia.",
+   "B": "El tratamiento inicial es prednisona 1 mg/kg/día (máximo 80 mg) diaria (o 2 mg/kg a días alternos, máximo 120 mg) hasta alcanzar remisión completa, que en adultos puede tardar hasta 16 semanas, y después se reduce de forma gradual hasta completar unas 24 semanas. Hasta 80% de los adultos responde, pero la respuesta es más lenta que en niños. Se complementa con restricción de sodio, diuréticos para el edema (con cuidado de no inducir hipovolemia, que puede precipitar lesión renal aguda), IECA/ARA-II y profilaxis de tromboembolia en hipoalbuminemia grave.",
+   "C": "Los fármacos citotóxicos o el rituximab se reservan a recaídas frecuentes, dependencia de esteroides o contraindicación a ellos.",
+   "D": "El micofenolato no es tratamiento inicial en la MCD del adulto.",
+   "E": "No tratar expone a complicaciones graves (infección, trombosis, LRA); la remisión espontánea es rara en adultos y no debe esperarse."
+  },
+  "perla": "MCD adulto: prednisona 1 mg/kg/d (máx 80) o 2 mg/kg a días alternos (máx 120) hasta RC (≤16 sem) → reducción hasta ~24 sem. Respuesta más lenta que en niños.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o4",
+  "peso": 70.1
+ },
+ {
+  "id": "MCD-3",
+  "serie_id": "MCD",
+  "orden": 3,
+  "sub": "9.c.2",
+  "subtema": "Cambios mínimos: recaídas frecuentes",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Logra remisión completa a la semana 10 y comienza la reducción. Recae al bajar a 10 mg/día, remite de nuevo con dosis altas y presenta tercera recaída en 12 meses al llegar a 15 mg/día. Ya tiene obesidad, hipertensión y glucemia de ayuno alterada atribuibles a esteroides.",
+  "enunciado": "¿Qué estrategia es la más apropiada?",
+  "opciones": {
+   "A": "Prednisona en dosis altas continuas indefinidas, para evitar nuevas recaídas, aunque ya tenga obesidad y otros efectos adversos",
+   "B": "Ahorrador de esteroides: ciclofosfamida oral 2 mg/kg/día por 8-12 semanas o rituximab (alternativas: ICN o micofenolato)",
+   "C": "Suspender definitivamente cualquier tratamiento y observar, porque las recaídas se resuelven solas",
+   "D": "Recambio plasmático semanal, para eliminar el factor circulante y lograr una remisión sostenida",
+   "E": "Azatioprina como fármaco de primera elección, por su eficacia comprobada en las recaídas frecuentes"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Mantener esteroides altos prolonga la toxicidad cardiometabólica ya presente.",
+   "B": "Las recaídas frecuentes (≥2 en 6 meses o ≥3 en 12 meses) o la dependencia de esteroides en la MCD del adulto se tratan con un ahorrador de esteroides. La ciclofosfamida oral (2–2.5 mg/kg/día por 8–12 semanas, con dosis acumulada limitada para reducir gonadotoxicidad) induce remisiones prolongadas; el rituximab es otra opción con buena eficacia y menos toxicidad gonadal; los inhibidores de calcineurina (1–2 años) y el micofenolato (con esteroides en dosis baja) son alternativas, estas últimas con alto riesgo de recaída al suspenderse. Debe vigilarse la toxicidad de esteroides.",
+   "C": "Sin tratamiento, las recaídas con síndrome nefrótico conllevan riesgo de complicaciones graves.",
+   "D": "El recambio plasmático no tiene indicación en MCD.",
+   "E": "La azatioprina no se recomienda por su pobre eficacia en MCD."
+  },
+  "perla": "MCD recaedor frecuente/dependiente: CFM oral 8–12 sem, RTX, CNI o MMF + GC bajo. Evitar AZA. Vigilar fertilidad con CFM.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o4",
+  "peso": 58.0
+ },
+ {
+  "id": "FSGS-1",
+  "serie_id": "FSGS",
+  "orden": 1,
+  "sub": "9.c.3",
+  "subtema": "GEFS: primaria vs secundaria",
+  "dificultad": "dificil",
+  "caso": "Hombre de 31 años con edema de inicio rápido en 3 semanas, IMC 24 kg/m². Creatinina 1.1 mg/dL, albúmina 1.9 g/dL, colesterol 410 mg/dL, proteinuria 9.2 g/24 h, hematuria microscópica mínima. VIH, VHB, VHC, anti-PLA2R y serología lúpica negativos. La biopsia muestra esclerosis segmentaria en 6 de 20 glomérulos (variante NOS) con borramiento difuso (>80%) de los pedicelos en microscopía electrónica y sin glomerulomegalia.",
+  "enunciado": "¿Cuál es la interpretación y qué debe completarse antes de tratar?",
+  "opciones": {
+   "A": "GEFS adaptativa por hiperfiltración: se trata solo con pérdida de peso y bloqueo del SRAA, sin estudios adicionales ni inmunosupresión",
+   "B": "GEFS con patrón de podocitopatía primaria; falta descartar causas secundarias y genéticas (fármacos, infecciones, APOL1)",
+   "C": "Nefropatía membranosa: el diagnóstico se confirma con anti-PLA2R, aunque ya resultó negativo en este paciente con proteinuria",
+   "D": "Enfermedad de cambios mínimos con lesión muestreada: se trata igual con esteroides y no se requiere más estudio diagnóstico",
+   "E": "Nefropatía diabética nodular, por la proteinuria nefrótica en un paciente joven con hematuria mínima"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El perfil adaptativo (obesidad, proteinuria lentamente progresiva, albúmina conservada, glomerulomegalia, borramiento segmentario) no corresponde a este caso.",
+   "B": "La GEFS «primaria» se sospecha por síndrome nefrótico de inicio abrupto con hipoalbuminemia grave y borramiento podocitario difuso (>80%); la secundaria o adaptativa cursa con proteinuria subnefrótica gradual, albúmina casi normal, glomerulomegalia, variante perihiliar y borramiento segmentario. Antes de iniciar esteroides se deben excluir causas secundarias (VIH, parvovirus B19, interferón, pamidronato, litio, heroína, reflujo vesicoureteral, drepanocitosis, obesidad, masa renal reducida) y causas genéticas (APOL1 G1/G2 en ancestría africana, NPHS1/2, WT1, INF2, ACTN4, TRPC6, COL4A3-5), cuyo hallazgo evita inmunosupresión inútil.",
+   "C": "La nefropatía membranosa requiere engrosamiento de la MBG y depósitos subepiteliales; el anti-PLA2R negativo y la biopsia no lo sugieren.",
+   "D": "El hallazgo de esclerosis segmentaria define GEFS; los cambios mínimos con lesión no muestreada se consideran, pero el borramiento difuso y el tratamiento no cambian el requerimiento de evaluar causas secundarias.",
+   "E": "No hay antecedente de diabetes ni nódulos de Kimmelstiel-Wilson."
+  },
+  "perla": "GEFS primaria: SN abrupto, alb <2.5–3, FPE difuso. Adaptativa: gradual, alb normal, glomerulomegalia/perihiliar, FPE parcial. Siempre excluir secundaria/genética (APOL1, NPHS2, INF2, TRPC6, COL4).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "De Vriese AS et al. J Am Soc Nephrol 2018;29:759 (clasificación de GEFS)"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "FSGS-2",
+  "serie_id": "FSGS",
+  "orden": 2,
+  "sub": "9.c.3",
+  "subtema": "GEFS primaria: tratamiento inicial",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se descartan causas secundarias y las variantes genéticas del panel son negativas. Pesa 80 kg, sin diabetes ni infección activa.",
+  "enunciado": "¿Cuál es el tratamiento inicial?",
+  "opciones": {
+   "A": "Prednisona 1 mg/kg/día (máx. 80 mg) o 2 mg/kg a días alternos, 4 semanas mínimo y hasta 16 si la respuesta es lenta, con soporte",
+   "B": "Solo IECA/ARA-II y observar durante 12 meses, sin inmunosupresión, porque la proteinuria nefrótica suele remitir sola",
+   "C": "Rituximab como primera línea en la GEFS primaria del adulto, por su perfil de seguridad y su eficacia",
+   "D": "Ciclofosfamida oral 2 mg/kg/día durante 12 semanas como inicio, sin glucocorticoides previos y con vigilancia",
+   "E": "Tacrolimus en monoterapia sin esteroides como primera línea, con valles de 5 a 8 ng/mL durante un año"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La GEFS primaria con síndrome nefrótico es tratada con glucocorticoides en dosis altas (prednisona 1 mg/kg/día, máx. 80 mg) durante al menos 4 semanas y hasta 16 semanas si hay respuesta parcial, antes de declarar resistencia; después, reducción gradual. Se añaden IECA/ARA-II, iSGLT2 cuando la TFG lo permite, estatinas, restricción de sodio y diuréticos. Los pacientes con intolerancia a esteroides o con contraindicaciones reciben inhibidores de calcineurina.",
+   "B": "Con síndrome nefrótico franco, la espera sin tratamiento inmunosupresor expone a complicaciones y progresión.",
+   "C": "El rituximab no es de primera línea en GEFS del adulto y se reserva a casos seleccionados.",
+   "D": "La ciclofosfamida no mostró beneficio en GEFS resistente a esteroides.",
+   "E": "Los inhibidores de calcineurina son segunda línea o alternativa si hay contraindicación a esteroides."
+  },
+  "perla": "GEFS primaria: prednisona 1 mg/kg (máx 80 mg) 4–16 sem antes de definir resistencia. Resistencia → CNI ≥6 m. Remisión completa predice supervivencia renal.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 69.0
+ },
+ {
+  "id": "FSGS-3",
+  "serie_id": "FSGS",
+  "orden": 3,
+  "sub": "9.c.3",
+  "subtema": "GEFS resistente a esteroides",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras 16 semanas de prednisona 80 mg/día con reducción, la proteinuria sigue en 8.4 g/24 h (disminución <50%), albúmina 2.1 g/dL y creatinina 1.4 mg/dL (TFGe 68).",
+  "enunciado": "¿Cuál es la conducta apropiada?",
+  "opciones": {
+   "A": "Iniciar micofenolato como monoterapia, que es el tratamiento de elección en la GEFS resistente a esteroides",
+   "B": "Repetir la biopsia y suspender cualquier inmunosupresión hasta tener el nuevo resultado histológico y genético",
+   "C": "Mantener los esteroides en dosis altas por 6 meses más, hasta lograr la remisión completa, con vigilancia de la glucemia y del peso",
+   "D": "Resistencia a esteroides: iniciar un inhibidor de calcineurina con prednisona baja ≥6 meses, vigilando niveles y nefrotoxicidad",
+   "E": "Agregar ciclofosfamida oral a la prednisona, que es el esquema de segunda línea con mejor respuesta en la GEFS resistente a esteroides"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El micofenolato en monoterapia es ineficaz en GEFS resistente; solo se emplea con otras estrategias como ahorrador.",
+   "B": "Suspender la inmunosupresión en SN con proteinuria de 8 g/día expone a progresión y complicaciones.",
+   "C": "Prolongar los esteroides altos más de 16 semanas incrementa efectos adversos sin beneficio demostrado.",
+   "D": "La GEFS con proteinuria que no cede tras 16 semanas de esteroides se considera resistente. KDIGO sugiere un inhibidor de calcineurina (ciclosporina 3–5 mg/kg/día con niveles pico/valle objetivo, o tacrolimus 0.05–0.1 mg/kg/día con nivel 5–10 ng/mL) con prednisona en dosis baja por al menos 6 meses; si hay respuesta, se continúa 12 meses o más con reducción lenta. Se monitoriza función renal, magnesio, potasio, TA y se evita en TFG <30–40 mL/min por nefrotoxicidad. Persistir con esteroides altos solo suma toxicidad.",
+   "E": "La ciclofosfamida no es eficaz en GEFS resistente a esteroides."
+  },
+  "perla": "GEFS SR: CNI (CsA 3–5 mg/kg o Tac 0.05–0.1 mg/kg, nivel 5–10) + pred baja ≥6 m. Si respuesta, continuar 12 m. Evitar CNI con TFG <30–40.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Cattran DC et al. Kidney Int 1999;56:2220"
+  ],
+  "origen": [
+   "Alan26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "FSA-1",
+  "serie_id": "FSA",
+  "orden": 1,
+  "sub": "9.c.3",
+  "subtema": "GEFS adaptativa: glomerulopatía asociada a obesidad",
+  "dificultad": "dificil",
+  "caso": "Hombre de 40 años con IMC 35 kg/m² e hipertensión (140/95 mmHg), sin edema. Cr 1.4 mg/dL, albúmina 3.8 g/dL, proteinuria 3.5 g/24 h, sedimento sin hematuria. C3, C4, ANA, VIH, VHB y VHC negativos. Se realiza biopsia renal.",
+  "enunciado": "¿Qué hallazgo histopatológico es el más esperado?",
+  "opciones": {
+   "A": "Glomerulomegalia con esclerosis segmentaria perihiliar y borramiento podocitario parcial (<50% de la superficie capilar)",
+   "B": "Microtrombos intracapilares con esquistocitos y lesión endotelial, propios de la microangiopatía trombótica",
+   "C": "Proliferación extracapilar con semilunas en más de 50% de los glomérulos, con insuficiencia renal rápidamente progresiva grave",
+   "D": "Depósitos subepiteliales con espigas en la plata y tinción positiva para PLA2R a lo largo de la membrana basal",
+   "E": "Borramiento difuso de pedicelos mayor de 80% con microscopía óptica normal, propio de la enfermedad de cambios mínimos y de la respuesta a esteroides"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La glomerulopatía asociada a obesidad y otras formas adaptativas de GEFS (reducción de masa nefronal, hiperfiltración) muestran glomerulomegalia, lesiones segmentarias de localización perihiliar con hialinosis y un borramiento podocitario limitado (habitualmente <50%). Clínicamente hay proteinuria sub-nefrótica o nefrótica sin hipoalbuminemia grave ni edema, y evolución lenta. En cambio, la GEFS primaria suele mostrar borramiento difuso, síndrome nefrótico florido con hipoalbuminemia e inicio abrupto.",
+   "B": "Los microtrombos son propios de las microangiopatías trombóticas.",
+   "C": "Las semilunas extensas indican glomerulonefritis rápidamente progresiva.",
+   "D": "Las espigas y PLA2R definen la membranosa.",
+   "E": "El borramiento difuso con óptica normal caracteriza a los cambios mínimos y también a la GEFS primaria; no corresponde a una forma adaptativa."
+  },
+  "perla": "GEFS adaptativa: glomerulomegalia + lesión perihiliar + borramiento parcial; albúmina normal y sin edema. GEFS primaria: borramiento difuso (>80%) + síndrome nefrótico.",
+  "referencias": [
+   "D'Agati VD et al. Nat Rev Nephrol 2016;12:453",
+   "Kambham N et al. Kidney Int 2001;59:1498",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "FSA-2",
+  "serie_id": "FSA",
+  "orden": 2,
+  "sub": "9.c.3",
+  "subtema": "GEFS secundaria: tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La biopsia confirma GEFS con glomerulomegalia y borramiento podocitario parcial. Se integra el diagnóstico de GEFS secundaria (adaptativa) asociada a obesidad.",
+  "enunciado": "¿Cuál es el tratamiento indicado?",
+  "opciones": {
+   "A": "Prednisona 1 mg/kg/día por 16 semanas, como se hace en la GEFS primaria con síndrome nefrótico completo y edema",
+   "B": "Tacrolimus como primera línea, porque la GEFS adaptativa responde a los inhibidores de calcineurina",
+   "C": "Ciclofosfamida oral, porque la GEFS secundaria a obesidad es una enfermedad inmunológica refractaria",
+   "D": "Bloqueo del SRAA, pérdida de peso, control de la presión arterial y restricción de sodio, sin inmunosupresión",
+   "E": "Micofenolato de mofetilo, que reduce la proteinuria de la GEFS adaptativa por su efecto antiproliferativo sobre el podocito"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Los esteroides se reservan para GEFS primaria con síndrome nefrótico.",
+   "B": "Los inhibidores de calcineurina no están indicados en formas adaptativas.",
+   "C": "La ciclofosfamida no tiene papel en GEFS secundaria.",
+   "D": "En las GEFS secundarias, KDIGO 2021 recomienda tratar la causa y reducir la proteinuria con medidas antiproteinúricas: IECA/ARA-II a dosis máxima tolerada, pérdida de peso (reducción del 5 a 10% disminuye la proteinuria), control de la TA y restricción de sodio. Los iSGLT2 aportan beneficio renal adicional (KDIGO 2024: TFGe ≥20 con albuminuria elevada). La inmunosupresión no tiene indicación en las formas adaptativas porque no hay lesión podocitaria inmunológica y sí se expone al paciente a toxicidad, incluidos los esteroides.",
+   "E": "El micofenolato carece de evidencia en GEFS adaptativa."
+  },
+  "perla": "GEFS secundaria/adaptativa: IECA/ARA-II + pérdida de peso + iSGLT2 + control de TA; no se dan esteroides.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 56.9
+ },
+ {
+  "id": "FSA-3",
+  "serie_id": "FSA",
+  "orden": 3,
+  "sub": "9.c.3",
+  "subtema": "Distinguir GEFS primaria de adaptativa",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un colega propone iniciar esteroides porque 'toda GEFS con proteinuria de 3.5 g debe recibirlos'. Usted debe argumentar con datos clínico-patológicos que favorecen una forma adaptativa.",
+  "enunciado": "¿Cuál de los siguientes conjuntos de hallazgos apoya GEFS adaptativa sobre primaria?",
+  "opciones": {
+   "A": "Albúmina normal, sin edema, inicio insidioso, glomerulomegalia, lesión perihiliar y borramiento podocitario parcial",
+   "B": "Hipocomplementemia, hematuria y depósitos inmunes en la inmunofluorescencia, con proteinuria nefrótica",
+   "C": "Edema masivo de inicio abrupto, hipoalbuminemia <2.5 g/dL y borramiento difuso de pedicelos en la microscopía electrónica",
+   "D": "Anticuerpos anti-PLA2R positivos con depósitos subepiteliales granulares de IgG en la biopsia renal",
+   "E": "Respuesta completa previa a esteroides, con recaídas frecuentes durante la infancia y la adolescencia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La combinación de proteinuria sin síndrome nefrótico completo (albúmina normal, sin edema), evolución indolente, aumento del tamaño glomerular y lesiones perihiliares con borramiento limitado señala un mecanismo hemodinámico (hiperfiltración por obesidad, reducción de masa nefronal), no un factor circulante o una podocitopatía primaria. Esto justifica no usar inmunosupresión y enfocar el manejo en el control de factores hemodinámicos y metabólicos.",
+   "B": "La hipocomplementemia con depósitos inmunes sugiere glomerulopatía mediada por complejos inmunes o C3G.",
+   "C": "Este conjunto describe la GEFS primaria o cambios mínimos.",
+   "D": "El anti-PLA2R identifica membranosa, no GEFS.",
+   "E": "La respuesta previa a esteroides habla de podocitopatía primaria."
+  },
+  "perla": "Adaptativa: sin hipoalbuminemia ni edema, borramiento parcial, glomerulomegalia. Si el cuadro es nefrótico franco, pensar en primaria.",
+  "referencias": [
+   "D'Agati VD et al. Nat Rev Nephrol 2016;12:453",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "FSA-4",
+  "serie_id": "FSA",
+  "orden": 4,
+  "sub": "9.c.3",
+  "subtema": "GEFS adaptativa en donadores de riñón",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El hermano mayor del paciente donó un riñón hace 12 años. Hoy tiene proteinuria de 1.2 g/día, TA 138/88 mmHg y TFGe 62 mL/min/1.73 m². La biopsia muestra glomerulomegalia con esclerosis segmentaria.",
+  "enunciado": "¿Cuál es el mecanismo patogénico principal de este hallazgo?",
+  "opciones": {
+   "A": "Activación de la vía clásica del complemento por anticuerpos, con depósitos inmunes en el mesangio y la pared capilar",
+   "B": "Mutación de la cadena α5 del colágeno IV, con alteración estructural de la membrana basal glomerular",
+   "C": "Hiperfiltración e hipertensión intraglomerular por reducción de masa nefronal, con sobrecarga y pérdida podocitaria",
+   "D": "Infiltración linfocitaria intersticial por fármacos, con hipersensibilidad retardada mediada por linfocitos T citotóxicos",
+   "E": "Depósito de inmunocomplejos subepiteliales, con activación del complemento y daño podocitario"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La activación inmune del complemento no explica una lesión adaptativa.",
+   "B": "Las mutaciones de COL4A5 causan síndrome de Alport.",
+   "C": "Tras la nefrectomía unilateral, las nefronas restantes se adaptan con hipertrofia, hiperfiltración e hipertensión capilar glomerular; la sobrecarga mecánica lleva a estrés, desprendimiento y pérdida de podocitos, con esclerosis segmentaria. El mismo mecanismo opera en reducción congénita de nefronas (bajo peso al nacer, oligomeganefronia, reflujo vesicoureteral), obesidad e hipertensión. Por eso los donadores requieren seguimiento anual de TA, TFGe y albuminuria.",
+   "D": "La infiltración intersticial por fármacos produce nefritis intersticial.",
+   "E": "Los depósitos subepiteliales corresponden a nefropatía membranosa o posinfecciosa."
+  },
+  "perla": "Donadores: glomerulomegalia + GEFS adaptativa por hiperfiltración; mismo mecanismo en bajo peso al nacer y obesidad.",
+  "referencias": [
+   "Lentine KL et al. Transplantation 2017;101(8S):S1 (KDIGO Living Donor)",
+   "Muzaale AD et al. JAMA 2014;311:579"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 56.9
+ },
+ {
+  "id": "COL-1",
+  "serie_id": "COL",
+  "orden": 1,
+  "sub": "9.c.3",
+  "subtema": "GEFS colapsante inducida por fármacos: pamidronato",
+  "dificultad": "dificil",
+  "caso": "Mujer de 62 años con cáncer de mama y metástasis óseas, tratada con pamidronato 90 mg IV mensual durante 24 meses. Desarrolla edema, proteinuria 6.5 g/24 h, albúmina 2.6 g/dL y Cr 1.1 mg/dL (basal 0.8). Se realiza biopsia renal.",
+  "enunciado": "¿Cuál es el hallazgo histológico más probable?",
+  "opciones": {
+   "A": "Necrosis tubular aguda aislada, con daño tubular y sin lesión glomerular por el bifosfonato",
+   "B": "Nefritis tubulointersticial aguda por hipersensibilidad, con infiltrado eosinofílico intersticial difuso",
+   "C": "Nefropatía membranosa con depósitos de IgG4, secundaria al tratamiento oncológico y a la neoplasia de base",
+   "D": "GEFS variante colapsante, con colapso del penacho glomerular e hiperplasia o hipertrofia de podocitos",
+   "E": "Enfermedad de cambios mínimos, con borramiento podocitario difuso y microscopía de luz normal, como lesión típica del bifosfonato"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La necrosis tubular aislada no explica la proteinuria de 6.5 g/día; el zoledronato sí produce necrosis tubular.",
+   "B": "La nefritis intersticial por hipersensibilidad no produce proteinuria nefrótica.",
+   "C": "La membranosa se asocia a neoplasia, pero no a pamidronato.",
+   "D": "El pamidronato (bisfosfonato nitrogenado, sobre todo a dosis altas y uso prolongado) se asocia con GEFS colapsante: colapso y retracción del penacho capilar con podocitos aumentados de tamaño y proliferados, además de daño tubular. La presentación es con proteinuria nefrótica y deterioro de la función renal. Otras causas de GEFS colapsante: VIH, interferón, infecciones virales (parvovirus B19, SARS-CoV-2), lupus y variantes de riesgo de APOL1.",
+   "E": "Los cambios mínimos se relacionan con AINE, litio e interferón."
+  },
+  "perla": "Pamidronato → GEFS colapsante (podocitopatía); zoledronato → necrosis tubular aguda.",
+  "referencias": [
+   "Markowitz GS et al. J Am Soc Nephrol 2001;12:1164",
+   "Perazella MA, Markowitz GS. Kidney Int 2008;74:1385"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "COL-2",
+  "serie_id": "COL",
+  "orden": 2,
+  "sub": "9.c.3",
+  "subtema": "Manejo de la GEFS colapsante por pamidronato",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La biopsia confirma GEFS colapsante. La paciente aún requiere tratamiento óseo por metástasis líticas con alto riesgo de eventos esqueléticos.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Plasmaféresis diaria durante dos semanas para eliminar el agente causal y mejorar la función renal rápidamente",
+   "B": "Suspender pamidronato, bloquear SRAA y sustituir por denosumab (vigilando el calcio), esteroides si no mejora",
+   "C": "Iniciar ciclofosfamida de inmediato, junto con pulsos de metilprednisolona, mientras se mantiene el pamidronato",
+   "D": "Cambiar a zoledronato a la misma frecuencia, porque tiene menor riesgo de colapso glomerular que el pamidronato",
+   "E": "Continuar pamidronato a dosis menor porque el beneficio óseo supera el riesgo de progresión de la enfermedad renal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La plasmaféresis no tiene indicación en GEFS colapsante inducida por fármacos.",
+   "B": "La medida central es retirar el agente causal. La proteinuria y la creatinina pueden mejorar de forma parcial o completa tras suspender el fármaco; se añaden IECA/ARA-II y control de TA. Para la indicación ósea se puede usar denosumab, que no se elimina por vía renal ni es nefrotóxico (vigilar hipocalcemia, sobre todo con TFGe baja). Si no hay mejoría en varias semanas se considera un ciclo de glucocorticoides. La plasmaféresis y la ciclofosfamida no tienen papel.",
+   "C": "Los citotóxicos no están indicados en una podocitopatía tóxica.",
+   "D": "El zoledronato también es nefrotóxico (daño tubular) y se ajusta a TFGe.",
+   "E": "Mantener el fármaco agravaría el daño podocitario."
+  },
+  "perla": "Podocitopatía por fármaco: retirar el agente; alternativa ósea: denosumab (vigilar calcio). Esteroides solo si no mejora.",
+  "referencias": [
+   "Perazella MA, Markowitz GS. Kidney Int 2008;74:1385",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 69.0
+ },
+ {
+  "id": "COL-3",
+  "serie_id": "COL",
+  "orden": 3,
+  "sub": "9.c.3",
+  "subtema": "Bisfosfonatos: tipos de nefrotoxicidad",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Otro paciente con mieloma recibe zoledronato mensual y presenta deterioro agudo de la función renal con proteinuria leve (0.5 g/día).",
+  "enunciado": "¿Cuál es el patrón de daño característico del zoledronato?",
+  "opciones": {
+   "A": "Glomerulonefritis rápidamente progresiva, con semilunas y hematuria glomerular intensa y rápida",
+   "B": "Nefritis lúpica, con depósitos inmunes de patrón «full-house» y activación del complemento",
+   "C": "Nefropatía membranosa, con proteinuria nefrótica y depósitos subepiteliales de IgG con espículas",
+   "D": "GEFS colapsante con proteinuria nefrótica, que es el patrón típico del pamidronato y no del zoledronato en el mieloma",
+   "E": "Necrosis tubular aguda por toxicidad en el túbulo proximal, dependiente de dosis y velocidad de infusión"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No es una glomerulonefritis rápidamente progresiva.",
+   "B": "No guarda relación con lupus.",
+   "C": "No se asocia a nefropatía membranosa.",
+   "D": "La GEFS colapsante es propia del pamidronato.",
+   "E": "El zoledronato produce necrosis tubular aguda y, con menor frecuencia, daño tubulointersticial crónico; el riesgo aumenta con dosis altas, infusión rápida y TFGe disminuida, por lo que se ajusta la dosis (o se evita con TFGe <30). El pamidronato, en cambio, se vincula con podocitopatía colapsante y proteinuria nefrótica. En mieloma se recomienda hidratación, ajuste por TFGe y vigilar creatinina antes de cada dosis."
+  },
+  "perla": "Pamidronato: podocitopatía colapsante (glomerular). Zoledronato: necrosis tubular (tubular).",
+  "referencias": [
+   "Perazella MA, Markowitz GS. Kidney Int 2008;74:1385"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 56.9
+ },
+ {
+  "id": "COL-4",
+  "serie_id": "COL",
+  "orden": 4,
+  "sub": "9.c.3",
+  "subtema": "Pronóstico de la GEFS colapsante secundaria",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres meses después de suspender pamidronato y bloquear el SRAA, la proteinuria bajó a 2.1 g/día y la Cr a 0.9 mg/dL. Un residente comenta que la variante colapsante siempre progresa rápidamente a enfermedad renal terminal.",
+  "enunciado": "¿Cuál es la afirmación más exacta?",
+  "opciones": {
+   "A": "La colapsante idiopática tiene mal pronóstico, pero las secundarias a fármacos pueden remitir al retirar el agente",
+   "B": "La retirada del fármaco no modifica el curso de la enfermedad, que siempre progresa a ERC terminal en pocos meses de evolución",
+   "C": "Todas las formas responden a esteroides, incluida la colapsante secundaria a bisfosfonatos o interferón en dosis altas y prolongadas",
+   "D": "La variante colapsante tiene mejor pronóstico que la GEFS NOS, porque no deja cicatriz glomerular ni fibrosis",
+   "E": "La variante colapsante nunca remite y siempre requiere diálisis, aunque se retire el agente causal y se bloquee el SRAA"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La GEFS colapsante idiopática (y las asociadas a APOL1 o VIH no tratado) tiene los peores desenlaces entre las variantes de GEFS, con respuesta limitada a esteroides y progresión rápida. Las formas secundarias a un agente reversible, como pamidronato o interferón, pueden mejorar tras retirar el factor desencadenante, como ocurre en este caso. El pronóstico depende de la causa, la gravedad del daño tubulointersticial y la rapidez con que se identifique el agente.",
+   "B": "Retirar el agente es la medida terapéutica principal.",
+   "C": "No todas las formas responden a esteroides; la mala respuesta es característica de la colapsante idiopática.",
+   "D": "La variante colapsante tiene peor pronóstico que la NOS.",
+   "E": "Existen remisiones parciales y completas, sobre todo en formas secundarias."
+  },
+  "perla": "GEFS colapsante: la causa define el pronóstico; la forma inducida por fármaco puede remitir al retirar el agente.",
+  "referencias": [
+   "D'Agati VD et al. Am J Kidney Dis 2004;43:368",
+   "Markowitz GS et al. J Am Soc Nephrol 2001;12:1164"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 58.9
+ },
+ {
+  "id": "NEE-1",
+  "serie_id": "NEE",
+  "orden": 1,
+  "sub": "9.c.3",
+  "subtema": "Síndrome nefrótico en el embarazo: abordaje",
+  "dificultad": "dificil",
+  "caso": "Mujer de 29 años, 16 semanas de gestación, con edema progresivo. TA 118/76 mmHg, Cr 0.8 mg/dL, albúmina 2.4 g/dL, proteinuria 6 g/24 h, sedimento sin hematuria. C3, C4, ANA, anti-dsDNA, HBsAg, anti-VHC y VIH negativos.",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Iniciar IECA a dosis máxima, para reducir la proteinuria y proteger la función renal de la paciente",
+   "B": "Esperar al posparto para investigar la causa de la proteinuria, porque la biopsia renal está contraindicada durante el embarazo de la paciente",
+   "C": "Biopsia renal ahora, porque la proteinuria nefrótica antes de las 20 semanas no es preeclampsia y el resultado cambiará el manejo",
+   "D": "Iniciar ciclofosfamida empírica por la proteinuria nefrótica, sin confirmar el diagnóstico histológico",
+   "E": "Diagnosticar preeclampsia temprana e interrumpir el embarazo, por la proteinuria nefrótica y el edema progresivo de la paciente gestante"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los IECA están contraindicados en el embarazo por fetotoxicidad.",
+   "B": "Posponer el estudio impide tratar una enfermedad con potencial de progresión y complicaciones fetales.",
+   "C": "La proteinuria nefrótica antes de las 20 semanas, sin hipertensión ni disfunción orgánica, orienta a enfermedad renal primaria y no a preeclampsia. La biopsia renal puede realizarse con seguridad en el embarazo cuando se espera que modifique la conducta (por ejemplo, para decidir inmunosupresión) y se prefiere antes de las 24 a 28 semanas, ya que después aumentan las complicaciones hemorrágicas y la sensibilidad para distinguir el cuadro disminuye. Se deben controlar la TA, la albúmina y el crecimiento fetal.",
+   "D": "La ciclofosfamida es teratogénica y no debe usarse empíricamente.",
+   "E": "El diagnóstico de preeclampsia requiere hipertensión de nueva aparición después de las 20 semanas."
+  },
+  "perla": "Nefrótico <20 SDG sin HTA: no es preeclampsia → biopsia renal (idealmente antes de 24–28 SDG) si cambia el manejo.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "NEE-2",
+  "serie_id": "NEE",
+  "orden": 2,
+  "sub": "9.c.3",
+  "subtema": "GEFS en el embarazo: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia muestra glomeruloesclerosis focal y segmentaria (variante NOS) con borramiento difuso de pedicelos. Se descartan causas secundarias.",
+  "enunciado": "¿Qué tratamiento es el más apropiado?",
+  "opciones": {
+   "A": "Observación sin tratamiento inmunosupresor ni anticoagulación, hasta el término del embarazo y la lactancia",
+   "B": "Micofenolato de mofetilo con IECA, como esquema de primera línea en la GEFS durante la gestación",
+   "C": "Prednisona, TA con labetalol o nifedipino, AAS en dosis baja y vigilancia; evitar IECA/ARA-II, micofenolato y ciclofosfamida",
+   "D": "Rituximab en dosis completas semanales durante todo el embarazo, por su seguridad fetal demostrada",
+   "E": "Ciclofosfamida con prednisona, por la proteinuria nefrótica y la variante histológica NOS de la glomeruloesclerosis focal"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Observar sin tratamiento expone a progresión y a complicaciones trombóticas y fetales.",
+   "B": "El micofenolato y los IECA están contraindicados en el embarazo.",
+   "C": "Los glucocorticoides orales (prednisona, que la 11β-HSD2 placentaria inactiva en gran parte) son la terapia de elección en GEFS primaria durante el embarazo. Los antihipertensivos compatibles son labetalol, nifedipino y metildopa. El ácido acetilsalicílico en dosis baja desde las 12 semanas reduce el riesgo de preeclampsia. Se evitan IECA/ARA-II (fetotoxicidad), micofenolato y ciclofosfamida (teratogénicos). Si la albúmina es <2.5 g/dL se valora tromboprofilaxis con heparina de bajo peso molecular, y en formas resistentes se puede considerar tacrolimus bajo vigilancia.",
+   "D": "El rituximab atraviesa la placenta en el tercer trimestre y no es de primera línea en el embarazo.",
+   "E": "La ciclofosfamida es teratogénica."
+  },
+  "perla": "GEFS en embarazo: prednisona + labetalol/nifedipino + ASA baja; no IECA/ARA-II, MMF ni ciclofosfamida; tromboprofilaxis si albúmina <2.5 g/dL.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "NEE-4",
+  "serie_id": "NEE",
+  "orden": 4,
+  "sub": "9.c.3",
+  "subtema": "Desenlaces maternos y fetales",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente es sometida a cesárea a las 34 semanas por empeoramiento clínico. El recién nacido pesa 1,900 g. A los 6 meses la proteinuria es 4 g/día con Cr 1.2 mg/dL.",
+  "enunciado": "¿Cuál de las siguientes opciones describe mejor los riesgos asociados?",
+  "opciones": {
+   "A": "Hipertrofia cardiaca neonatal como complicación principal, secundaria a la hipoalbuminemia y la hipertensión maternas",
+   "B": "Riesgo fetal nulo si la creatinina previa era normal, porque la proteinuria materna no afecta la placenta",
+   "C": "Mayor riesgo de parto prematuro, restricción del crecimiento y bajo peso; en la madre, hipertensión, preeclampsia y progresión renal",
+   "D": "Riesgo de macrosomía fetal por el síndrome nefrótico materno, con mayor frecuencia de cesárea electiva",
+   "E": "Mayor riesgo de malformaciones congénitas mayores por la proteinuria nefrótica durante el primer trimestre"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hipertrofia cardiaca neonatal es complicación de la diabetes materna.",
+   "B": "La proteinuria nefrótica y la hipertensión aumentan el riesgo fetal aun con creatinina normal.",
+   "C": "En glomerulopatías con proteinuria nefrótica y especialmente con hipertensión o disminución de la TFGe, el embarazo se asocia a prematuridad, restricción del crecimiento intrauterino, bajo peso al nacer y pérdida fetal. En la madre aumenta el riesgo de preeclampsia, hipertensión y, en la GEFS, de pérdida de función renal, que puede no recuperarse totalmente. Por ello se recomienda planear el embarazo con la enfermedad controlada y seguimiento conjunto entre nefrología y obstetricia de alto riesgo.",
+   "D": "La macrosomía es característica de la diabetes materna.",
+   "E": "La proteinuria materna no es teratogénica."
+  },
+  "perla": "Glomerulopatía nefrótica en embarazo: prematuridad, RCIU y bajo peso al nacer; materno: preeclampsia, HAS y progresión renal.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "Piccoli GB et al. Risk of adverse pregnancy outcomes in women with CKD. J Am Soc Nephrol 2015;26:2011"
+  ],
+  "origen": [
+   "David26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 69.0
+ },
+ {
+  "id": "SNP-1",
+  "serie_id": "SNP",
+  "orden": 1,
+  "sub": "9.c.2",
+  "subtema": "Síndrome nefrótico idiopático del niño: primer episodio y tratamiento inicial",
+  "dificultad": "moderada",
+  "caso": "Niño de 4 años con dos semanas de edema palpebral y de miembros inferiores, ascitis leve y espuma en la orina. Presión de 98/58 mmHg (normal para la edad), creatinina de 0.4 mg/dL, albúmina de 1.6 g/dL, colesterol de 380 mg/dL, relación proteína/creatinina en orina de 9 g/g, sin hematuria en el sedimento, C3 y C4 normales, sin antecedentes familiares de enfermedad renal. Sin signos de infección.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Iniciar ciclofosfamida como primera línea, para reducir el riesgo de recaídas y evitar la toxicidad de los esteroides",
+   "B": "Realizar biopsia renal de entrada en todos los niños con síndrome nefrótico antes de iniciar cualquier tratamiento",
+   "C": "Tratar como SN sensible a esteroides, sin biopsia: prednisolona 60 mg/m²/día 4–6 semanas, luego en días alternos",
+   "D": "Administrar albúmina intravenosa y diuréticos de forma permanente como tratamiento principal del síndrome nefrótico",
+   "E": "Iniciar tacrolimus como primera línea, por su menor toxicidad que los esteroides en los niños pequeños con edema generalizado"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La ciclofosfamida se usa como ahorrador de esteroides en recaídas frecuentes, y no como primera línea.",
+   "B": "La biopsia en todos los niños con presentación típica no es necesaria y se reserva para la resistencia a esteroides o los datos atípicos.",
+   "C": "En niños de 1 a 10 años con síndrome nefrótico sin datos atípicos (hematuria macroscópica persistente, hipertensión, lesión renal, complemento bajo, antecedentes familiares o manifestaciones extrarrenales), la causa más frecuente es la enfermedad de cambios mínimos, con respuesta a esteroides en cerca de 90%, de modo que se inicia el tratamiento empírico sin biopsia. KDIGO 2021 recomienda prednisona o prednisolona (60 mg/m²/día o 2 mg/kg/día, máximo 60 mg) durante 4 a 6 semanas y luego dosis en días alternos (40 mg/m² o 1.5 mg/kg, máximo 40 mg) con reducción, hasta un total de al menos 12 semanas, porque los esquemas cortos se asocian con más recaídas. Se apoya con restricción de sodio, vigilancia de infecciones, vacunación (neumococo, varicela) y control del volumen, y se reserva la biopsia para la falta de respuesta o los datos atípicos.",
+   "D": "La albúmina y los diuréticos son de soporte en casos seleccionados, y no sustituyen la inmunosupresión.",
+   "E": "Los inhibidores de calcineurina se reservan para la dependencia o resistencia a esteroides."
+  },
+  "perla": "SN idiopático 1–10 años sin datos atípicos: ~90% sensible a esteroides → sin biopsia; prednisona 60 mg/m²/d (máx 60) 4–6 sem → 40 mg/m² días alternos con reducción; total ≥12 sem. Biopsia si resistencia o datos atípicos.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (síndrome nefrótico en niños)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o4",
+  "peso": 29.8
+ },
+ {
+  "id": "SNP-2",
+  "serie_id": "SNP",
+  "orden": 2,
+  "sub": "9.c.2",
+  "subtema": "Definiciones de respuesta: remisión, recaída, recaídas frecuentes, dependencia y resistencia",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El niño tiene remisión (tira de orina negativa o en trazas por 3 días) en el día 12 de tratamiento. Tres meses después, con una infección respiratoria, presenta proteinuria de 3+ durante 3 días con edema, y entra en remisión con prednisona. A los 5 meses de la respuesta inicial presenta una segunda recaída, sin que se haya suspendido el esteroide ni estuviera en reducción.",
+  "enunciado": "¿Cómo se clasifica la evolución y cuál es la definición correcta?",
+  "opciones": {
+   "A": "Sensible con recaídas frecuentes: ≥2 recaídas en 6 meses o ≥4 en 12; recaída: tira 3+/4+ por 3 días o P/C ≥2 g/g",
+   "B": "Remisión sostenida, porque cada recaída remitió con el tratamiento y el niño nunca perdió la respuesta inicial a esteroides",
+   "C": "Síndrome nefrótico resistente a esteroides, definido por una recaída durante el tratamiento con prednisona a dosis plena",
+   "D": "Dependencia de esteroides, definida por cualquier recaída temprana después de la remisión inicial, aun con una sola",
+   "E": "Síndrome nefrótico congénito, definido por recaídas antes del año de edad y proteinuria nefrótica desde el nacimiento"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Las definiciones de KDIGO 2021 son: remisión completa (tira de orina negativa o en trazas durante 3 días consecutivos, o relación proteína/creatinina de 0.2 g/g o menor); recaída (proteinuria de 3+ o más durante 3 días consecutivos, o relación de 2 g/g o mayor); recaídas frecuentes (2 o más recaídas dentro de los primeros 6 meses de la respuesta inicial, o 4 o más en cualquier período de 12 meses); dependencia de esteroides (2 recaídas consecutivas durante la reducción o dentro de las 2 semanas siguientes a suspender el esteroide); y resistencia a esteroides (falta de remisión tras 8 semanas de esteroides en dosis adecuadas). Este niño remitió con esteroides, y tiene 2 recaídas en menos de 6 meses de la respuesta inicial, de modo que corresponde a recaídas frecuentes, no a resistencia ni a dependencia.",
+   "B": "Dos recaídas en menos de 6 meses de la respuesta inicial definen recaídas frecuentes.",
+   "C": "La resistencia a esteroides es la falta de remisión tras 8 semanas, y este niño remitió en 12 días.",
+   "D": "La dependencia exige recaídas durante la reducción o en las 2 semanas tras suspender, y aquí no se redujo el esteroide.",
+   "E": "El síndrome nefrótico congénito se manifiesta en los primeros 3 meses de vida y es resistente a esteroides."
+  },
+  "perla": "KDIGO 2021 niños: remisión UPCR ≤0.2 / tira neg-trazas ×3 d; recaída UPCR ≥2 / ≥3+ ×3 d; recaídas frecuentes ≥2 en 6 m tras respuesta o ≥4 en 12 m; dependencia: 2 recaídas durante reducción/≤2 sem; resistencia: sin remisión a 8 sem.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o4",
+  "peso": 29.8
+ },
+ {
+  "id": "SNP-3",
+  "serie_id": "SNP",
+  "orden": 3,
+  "sub": "9.c.2",
+  "subtema": "Ahorradores de esteroides en el síndrome nefrótico infantil con recaídas frecuentes",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El niño presenta una tercera recaída a los 7 meses. Tiene cara de luna llena, ganancia de peso excesiva y detención del crecimiento, con talla en el percentil 5 por esteroides repetidos. Los padres rechazan más ciclos largos de prednisona.",
+  "enunciado": "¿Qué estrategia es la más adecuada?",
+  "opciones": {
+   "A": "Suspender cualquier tratamiento y observar, porque las recaídas no tienen consecuencias sobre el crecimiento",
+   "B": "Iniciar ciclofosfamida intravenosa mensual por 12 meses, sin límite de dosis acumulada ni vigilancia de la toxicidad gonadal",
+   "C": "Cambiar a inmunoglobulina intravenosa mensual como único tratamiento, porque evita las recaídas sin esteroides",
+   "D": "Ahorrador de esteroides tras la remisión: levamisol, MMF, ciclofosfamida oral (máx. 168 mg/kg) o ICN; rituximab si fallan",
+   "E": "Mantener prednisona diaria a dosis altas de forma indefinida para evitar recaídas, aunque se detenga el crecimiento del niño"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Las recaídas con edema, riesgo de infección y trombosis y toxicidad acumulada de esteroides requieren tratamiento.",
+   "B": "La dosis acumulada de ciclofosfamida debe limitarse a 168 mg/kg para evitar toxicidad gonadal y hematológica.",
+   "C": "La inmunoglobulina intravenosa no es una opción estándar para el mantenimiento de remisión.",
+   "D": "En niños con recaídas frecuentes o dependencia de esteroides y toxicidad por esteroides, KDIGO 2021 recomienda agentes ahorradores de esteroides: levamisol (donde está disponible), ciclofosfamida oral (2 a 2.5 mg/kg/día por 8 a 12 semanas, dosis acumulada máxima de 168 mg/kg, porque por encima se acentúa la toxicidad gonadal), micofenolato mofetilo o inhibidores de calcineurina (tacrolimus, ciclosporina), éstos con riesgo de dependencia y nefrotoxicidad; el rituximab se reserva para los casos con falla de los demás agentes o con mala adherencia. Se induce la remisión con esteroides y luego se introduce el ahorrador, con vigilancia de leucopenia (ciclofosfamida), lesión renal (inhibidores de calcineurina) y fertilidad. El objetivo es reducir recaídas y toxicidad del esteroide, sobre todo el efecto sobre el crecimiento.",
+   "E": "Los esteroides diarios indefinidos causan toxicidad grave (talla, cataratas, osteopenia), y se evitan."
+  },
+  "perla": "FRNS/SDNS niño: ahorrador de esteroides tras remisión: levamisol, MMF, ciclofosfamida (2–2.5 mg/kg/d ×8–12 sem; máx 168 mg/kg), CNI; rituximab si fallan o mala adherencia; vigilar toxicidad (gonadal, hematológica, nefrotóxica).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o4",
+  "peso": 31.8
+ },
+ {
+  "id": "SNP-4",
+  "serie_id": "SNP",
+  "orden": 4,
+  "sub": "9.c.2",
+  "subtema": "Síndrome nefrótico resistente a esteroides en el niño: biopsia, genética y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra niña de 3 años, con síndrome nefrótico de inicio a los 14 meses, no entra en remisión tras 8 semanas de prednisona a dosis adecuadas (relación proteína/creatinina de 7 g/g). Tiene un hermano mayor con proteinuria persistente en estudio. La presión es de 100/60 mmHg y la creatinina de 0.4 mg/dL.",
+  "enunciado": "¿Cuál es el abordaje más adecuado?",
+  "opciones": {
+   "A": "Iniciar diálisis crónica de inmediato, por el pronóstico inevitable de la resistencia a esteroides en esta edad",
+   "B": "Continuar prednisona a dosis altas otras 12 semanas, y repetir el ciclo completo si no hay respuesta del paciente",
+   "C": "Iniciar rituximab de inmediato sin biopsia ni estudios genéticos, por la resistencia a los esteroides y la proteinuria grave",
+   "D": "Diagnosticar enfermedad de cambios mínimos y esperar la remisión espontánea sin biopsia, genética ni más estudios",
+   "E": "Biopsia renal y estudio genético (NPHS1, NPHS2, WT1) antes de intensificar; sin variante, ICN más IECA/ARA-II"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La diálisis no es la conducta inicial, pues la función renal es normal y hay opciones terapéuticas.",
+   "B": "Repetir esteroides sin cambios no mejora la respuesta y aumenta la toxicidad.",
+   "C": "El rituximab no es de primera línea en la resistencia a esteroides, y se decide tras biopsia y genética.",
+   "D": "La resistencia exige biopsia, y no se asume cambios mínimos ni se espera la remisión espontánea.",
+   "E": "La resistencia a esteroides (falta de remisión tras 8 semanas) obliga a estudiar la causa: biopsia renal (cambios mínimos, GEFS o proliferación mesangial) y estudio genético, sobre todo si hay inicio temprano o antecedentes familiares, porque entre 20% y 30% de los casos resistentes tienen variantes monogénicas (NPHS1 en el síndrome finlandés, NPHS2 de la podocina, WT1, entre otras). Las formas monogénicas casi no responden a la inmunosupresión (se evita la toxicidad innecesaria) y tienen baja recurrencia tras el trasplante; sin variante, el tratamiento de primera línea es un inhibidor de calcineurina (tacrolimus o ciclosporina) con bloqueo del SRAA, con respuesta de 50% a 70% en las formas no genéticas. Se mantienen las medidas de soporte (sodio, estatinas en casos seleccionados, tromboprofilaxis, vacunas)."
+  },
+  "perla": "SRNS niño (sin remisión a 8 sem): biopsia + panel genético (NPHS1/NPHS2/WT1…; 20–30% monogénico); sin variante → CNI + IECA/ARA; forma genética → no inmunosupresión prolongada, baja recurrencia en trasplante.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (síndrome nefrótico en niños)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o4",
+  "peso": 31.8
+ },
+ {
+  "id": "AZ11-1",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "",
+  "enunciado": "En el ensayo TURING, ¿cuál fue el hallazgo principal del esquema de prednisolona a dosis baja (retiro rápido) en pacientes tratados con rituximab?",
+  "perla": "El destete rápido (1,750 mg en 8 semanas vs 3,430 mg en 16 semanas) no aumentó las recaídas frecuentes (14 vs 14%; p = 0.91) y redujo significativamente los efectos adversos (24 vs 53%; RR 0.46; p = 0.003).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "Más recaídas tempranas que la dosis convencional",
+   "B": "Menos recaídas, pero más lesión renal aguda",
+   "C": "Eficacia inferior para la remisión completa a las 16 semanas",
+   "D": "Mayor remisión completa que la dosis convencional",
+   "E": "Menos efectos adversos sin más recaídas"
+  },
+  "explicaciones": {
+   "A": "No hubo más recaídas frecuentes (aunque el tiempo a la recaída fue menor: 159 vs 357 días).",
+   "B": "No aumentó la lesión renal aguda; el beneficio fue de seguridad.",
+   "C": "La remisión completa fue de 100% en ambos esquemas.",
+   "D": "La eficacia fue similar, no mayor.",
+   "E": "Correcto. El destete rápido (1,750 mg en 8 semanas vs 3,430 mg en 16 semanas) no aumentó las recaídas frecuentes (14 vs 14%; p = 0.91) y redujo significativamente los efectos adversos (24 vs 53%; RR 0.46; p = 0.003)."
+  },
+  "clave": "E",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ11-3",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "En síndrome nefrótico pediátrico grave, refractario o con recaída postrasplante sin respuesta a rituximab u obinutuzumab,",
+  "enunciado": "¿cuál es el fundamento para escalar a daratumumab?",
+  "perla": "Los anti-CD20 depletan los linfocitos B periféricos, pero no a las células plasmáticas de larga vida de la médula ósea, que pierden CD20 y siguen produciendo factores de permeabilidad o anticuerpos; el daratumumab (anti-CD38) las depleta y mantiene la remisión tras la recuperación de células B.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "Inhibe la síntesis de novo de guanina en linfocitos T",
+   "B": "Antagoniza el receptor mineralocorticoide y frena la fibrosis",
+   "C": "Depleta células plasmáticas CD38+ de larga vida",
+   "D": "Depleta selectivamente las células B de memoria, CD19+ CD27+",
+   "E": "Bloquea la coestimulación CD28 de linfocitos T"
+  },
+  "explicaciones": {
+   "A": "Describe al MMF (inhibe la síntesis de novo de guanina).",
+   "B": "Describe a la finerenona.",
+   "C": "Correcto. Los anti-CD20 depletan los linfocitos B periféricos, pero no a las células plasmáticas de larga vida de la médula ósea, que pierden CD20 y siguen produciendo factores de permeabilidad o anticuerpos; el daratumumab (anti-CD38) las depleta y mantiene la remisión tras la recuperación de células B.",
+   "D": "Las células B de memoria CD19+ CD27+ sí son blanco de los anti-CD20; su repoblación predice recaída.",
+   "E": "Es el mecanismo de abatacept."
+  },
+  "clave": "C",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ11-4",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "",
+  "enunciado": "En el estudio INShore, ¿cuál fue el principal beneficio de obinutuzumab frente a MMF?",
+  "perla": "En INShore, obinutuzumab logró respuesta completa sostenida a un año de 95% vs 73.2% con MMF (diferencia ajustada 23.4%; p = 0.003) y redujo las recaídas 93% (4 vs 23; p = 0.001), con menor dosis acumulada de esteroide (10.07 vs 18.9 mg/kg).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "Menos recaídas y respuesta completa sostenida",
+   "B": "Respuesta parcial más rápida en las primeras 4 semanas",
+   "C": "Ausencia de depleción de células B, sin riesgo de hipogammaglobulinemia",
+   "D": "Mayor eficacia exclusiva con mutaciones de podocina, NPHS2",
+   "E": "Remisión completa en GEFS genética"
+  },
+  "explicaciones": {
+   "A": "Correcto. En INShore, obinutuzumab logró respuesta completa sostenida a un año de 95% vs 73.2% con MMF (diferencia ajustada 23.4%; p = 0.003) y redujo las recaídas 93% (4 vs 23; p = 0.001), con menor dosis acumulada de esteroide (10.07 vs 18.9 mg/kg).",
+   "B": "El objetivo fue la respuesta completa sostenida a un año, no la parcial temprana.",
+   "C": "Obinutuzumab produce una depleción B más profunda (anti-CD20 tipo II), no la evita.",
+   "D": "Las formas genéticas (NPHS2) no responden a inmunosupresión.",
+   "E": "No incluyó causas genéticas."
+  },
+  "clave": "A",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ11-5",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "",
+  "enunciado": "¿Qué perfil clínico predice la peor respuesta al rituximab en las podocitopatías?",
+  "perla": "En la corticorresistencia, el daño podocitario suele escapar a los mecanismos mediados por células B: respuesta ~14% vs > 85% en las formas dependientes (RITERM: remisión completa 51% en corticorresistentes vs 93% en corticodependientes).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "Síndrome nefrótico corticodependiente",
+   "B": "Síndrome nefrótico corticorresistente",
+   "C": "ECM de debut, sin tratamiento previo",
+   "D": "Síndrome nefrótico con recaídas frecuentes",
+   "E": "GEFS con borramiento podocitario difuso"
+  },
+  "explicaciones": {
+   "A": "En ECM de debut, la monoterapia con rituximab logra remisión de 88.9–100%.",
+   "B": "Correcto. En la corticorresistencia, el daño podocitario suele escapar a los mecanismos mediados por células B: respuesta ~14% vs > 85% en las formas dependientes (RITERM: remisión completa 51% en corticorresistentes vs 93% en corticodependientes).",
+   "C": "En ECM de debut, la monoterapia con rituximab logra remisión de 88.9–100%.",
+   "D": "La corticodependencia y las recaídas frecuentes son las indicaciones con la evidencia más robusta (la corticodependencia predijo respuesta: OR 20.59).",
+   "E": "Puede responder si es inmunomediada."
+  },
+  "clave": "B",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ11-8",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "En un paciente en remisión tras rituximab,",
+  "enunciado": "¿qué hallazgo celular advierte un riesgo inminente de recaída?",
+  "perla": "La recuperación de células B suele anteceder a la recaída, pero el marcador de mayor riesgo es la repoblación de clones autorreactivos de células B de memoria con cambio de isotipo (CD19+ CD27+); la repoblación CD20+ a los 6 meses se asoció a menor respuesta (OR 0.08).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "Aumento sostenido de la IgA sérica",
+   "B": "Neutropenia sostenida por el fármaco",
+   "C": "Elevación de las células T reguladoras",
+   "D": "Repoblación de células B de memoria",
+   "E": "Descenso de los niveles de IgG sérica"
+  },
+  "explicaciones": {
+   "A": "La IgA sérica no es biomarcador de recaída.",
+   "B": "La neutropenia es un efecto adverso, no un predictor de recaída.",
+   "C": "Un aumento de Tregs no anuncia recaída.",
+   "D": "Correcto. La recuperación de células B suele anteceder a la recaída, pero el marcador de mayor riesgo es la repoblación de clones autorreactivos de células B de memoria con cambio de isotipo (CD19+ CD27+); la repoblación CD20+ a los 6 meses se asoció a menor respuesta (OR 0.08).",
+   "E": "Indica hipogammaglobulinemia, no recaída."
+  },
+  "clave": "D",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ11-9",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "",
+  "enunciado": "Tras rituximab, ¿qué diferencia se documenta en la remisión completa entre las variantes histológicas?",
+  "perla": "Tras rituximab, la remisión completa es mayor en ECM (74.7–89%) que en GEFS (~42.9–60%), reflejo de fibrosis irreversible y mayor heterogeneidad patogénica en la GEFS (Hansrivijit, BMC Nephrol 2020).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "La ECM tiene tasas de remisión completa significativamente mayores que la GEFS",
+   "B": "La GEFS logra remisión completa en 100% y supera a la ECM",
+   "C": "Las tasas son idénticas porque ambas están mediadas solo por linfocitos T",
+   "D": "Ninguna responde sin ciclofosfamida",
+   "E": "La GEFS responde mejor si es colapsante"
+  },
+  "explicaciones": {
+   "A": "Correcto. Tras rituximab, la remisión completa es mayor en ECM (74.7–89%) que en GEFS (~42.9–60%), reflejo de fibrosis irreversible y mayor heterogeneidad patogénica en la GEFS (Hansrivijit, BMC Nephrol 2020).",
+   "B": "La GEFS no alcanza 100%; responde menos.",
+   "C": "Las tasas no son iguales y la patogenia incluye células B.",
+   "D": "El rituximab es eficaz sin ciclofosfamida.",
+   "E": "La colapsante responde peor."
+  },
+  "clave": "A",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ11-10",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "",
+  "enunciado": "Según TURING, ¿qué impacto tiene un esquema extendido de rituximab (3 dosis de 1 g en 26 semanas) frente a placebo?",
+  "perla": "En TURING, el mantenimiento extendido (1 g en las semanas 0, 2 y 26) redujo el riesgo de recaída (HR 0.22; IC 95% 0.13–0.37; p < 0.001), con remisión mantenida más allá de 2.8 años (140 semanas).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "Más infecciones graves sin mejorar la supervivencia libre de recaída",
+   "B": "Pierde eficacia después del 6.° mes por anticuerpos antiquiméricos",
+   "C": "Retrasa la recaída, HR 0.22",
+   "D": "Solo funciona con prednisona a dosis altas durante 2 años",
+   "E": "Aumenta la remisión completa inicial solamente"
+  },
+  "explicaciones": {
+   "A": "No se reportó más infección grave; en cohortes, el mantenimiento no aumentó las infecciones graves (HR 0.48).",
+   "B": "No perdió eficacia a los 6 meses; la consolidación a los 6–12 meses mejora la supervivencia libre de recaída.",
+   "C": "Correcto. En TURING, el mantenimiento extendido (1 g en las semanas 0, 2 y 26) redujo el riesgo de recaída (HR 0.22; IC 95% 0.13–0.37; p < 0.001), con remisión mantenida más allá de 2.8 años (140 semanas).",
+   "D": "Se usó con destete rápido de esteroides, no con dosis altas sostenidas.",
+   "E": "El beneficio fue en supervivencia libre de recaída."
+  },
+  "clave": "C",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ11-2",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "En el estudio fase 3 DUPLEX (sparsentán vs irbesartán en GEFS primaria),",
+  "enunciado": "¿cuál fue la conclusión sobre el objetivo primario a 108 semanas?",
+  "perla": "Sparsentán redujo más la proteinuria a las 36 semanas (objetivo subrogado: 42 vs 26%), pero a las 108 semanas la diferencia en la pendiente total de TFGe fue de solo 0.3 mL/min/1.73 m²/año (p = 0.75); pendiente crónica 0.9 (p = 0.42).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "Sin diferencia en la pendiente de TFGe",
+   "B": "Sparsentán revirtió la fibrosis intersticial en 40% de los pacientes",
+   "C": "Superioridad significativa en la pendiente de la TFGe a favor de sparsentán",
+   "D": "Irbesartán logró más remisión parcial en las primeras 36 semanas",
+   "E": "Menor proteinuria y mejor pendiente de TFGe"
+  },
+  "explicaciones": {
+   "A": "Correcto. Sparsentán redujo más la proteinuria a las 36 semanas (objetivo subrogado: 42 vs 26%), pero a las 108 semanas la diferencia en la pendiente total de TFGe fue de solo 0.3 mL/min/1.73 m²/año (p = 0.75); pendiente crónica 0.9 (p = 0.42).",
+   "B": "El estudio no evaluó la reversión de la fibrosis.",
+   "C": "No hubo superioridad significativa en la pendiente de la TFGe.",
+   "D": "Fue sparsentán, no irbesartán, el que logró más remisión parcial a las 36 semanas.",
+   "E": "La pendiente no mejoró."
+  },
+  "clave": "A",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ11-7",
+  "tema_id": 9,
+  "sub": "9.c.3",
+  "obj": "9.o5",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Podocitopatías",
+  "caso": "Según la correlación clínico-patológica actual,",
+  "enunciado": "¿en qué escenario está indicado un panel genético para evitar inmunosupresión fútil?",
+  "perla": "Proteinuria masiva sin hipoalbuminemia ni edema, con borramiento podocitario segmentario, es la firma de una podocitopatía genética o adaptativa; inmunosuprimir una falla monogénica (COL4A, APOL1) es inútil y tóxico. El rendimiento genético en GEFS con SNCR o albúmina normal fue de 35.5% (COL4A3–5, NPHS2, INF2, APOL1).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 11: Podocitopatías"
+  ],
+  "serie_id": "AZ11-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 11)"
+  ],
+  "opciones": {
+   "A": "Adulto con ECM en biopsia y remisión completa a los 15 días de esteroide",
+   "B": "GEFS con proteinuria nefrótica y albúmina normal",
+   "C": "GEFS secundaria a obesidad mórbida con hipoalbuminemia grave",
+   "D": "Síndrome nefrótico clásico tras ingerir AINE",
+   "E": "ECM con remisión tras rituximab"
+  },
+  "explicaciones": {
+   "A": "La ECM corticosensible es una podocitopatía autoinmune clásica que no requiere panel genético.",
+   "B": "Correcto. Proteinuria masiva sin hipoalbuminemia ni edema, con borramiento podocitario segmentario, es la firma de una podocitopatía genética o adaptativa; inmunosuprimir una falla monogénica (COL4A, APOL1) es inútil y tóxico. El rendimiento genético en GEFS con SNCR o albúmina normal fue de 35.5% (COL4A3–5, NPHS2, INF2, APOL1).",
+   "C": "La GEFS por obesidad es adaptativa: se descartan y tratan causas secundarias.",
+   "D": "La podocitopatía por AINE es tóxica: se suspende el agente.",
+   "E": "Corticosensible, no requiere panel."
+  },
+  "clave": "B",
+  "tema": "Enfermedades glomerulares",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "FSGS-4",
+  "serie_id": "FSGS",
+  "orden": 4,
+  "sub": "21.g",
+  "subtema": "GEFS: recurrencia postrasplante",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis años después evoluciona a enfermedad renal terminal y recibe un trasplante de donante vivo. A las 48 horas desarrolla proteinuria de 6 g/24 h con función estable y sin datos de rechazo.",
+  "enunciado": "¿Cuál es el diagnóstico probable y su manejo?",
+  "opciones": {
+   "A": "Rechazo agudo mediado por anticuerpos: pulsos de esteroides y aumento de los niveles meta de tacrolimus en el injerto renal",
+   "B": "Recurrencia temprana de GEFS (~30%): recambio plasmático con o sin rituximab, y optimizar los inhibidores de calcineurina",
+   "C": "Toxicidad por tacrolimus: suspender el inhibidor de calcineurina y cambiar a un esquema sin esa familia de fármacos inmunosupresores",
+   "D": "GEFS de novo del injerto: observación y control de la proteinuria, sin tratamiento específico porque la función renal está estable",
+   "E": "Nefropatía por BK: reducir la inmunosupresión y vigilar la carga viral, porque la proteinuria nefrótica es típica del cuadro"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El rechazo mediado por anticuerpos se acompaña de deterioro de función, DSA y lesión microvascular; no se explica por proteinuria nefrótica aislada.",
+   "B": "La proteinuria nefrótica de inicio inmediato en receptor con GEFS primaria previa, función estable y sin evidencia de rechazo corresponde a recurrencia, que ocurre en ~30% (mayor con edad joven, progresión rápida a enfermedad terminal, recurrencia en injertos previos y donante vivo emparentado). Se atribuye a un factor circulante (suPAR y otros candidatos). El tratamiento incluye recambio plasmático (o inmunoadsorción) con o sin rituximab, optimización de inhibidores de calcineurina e IECA/ARA-II. La biopsia confirma borramiento podocitario y descarta rechazo.",
+   "C": "La toxicidad por inhibidores de calcineurina no causa proteinuria nefrótica masiva a las 48 horas.",
+   "D": "La GEFS de novo se desarrolla meses a años después y no el segundo día.",
+   "E": "La nefropatía por BK aparece semanas a meses después y cursa con disfunción del injerto, no con proteinuria masiva inmediata."
+  },
+  "perla": "Recurrencia de GEFS: ~30%; horas–días; factor circulante (suPAR). Tratar con PLEX ± RTX, CNI óptimo. Riesgo ↑: joven, progresión rápida, recurrencia previa.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Cravedi P et al. Am J Transplant 2013;13:266 (recurrencia de GEFS)"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 21,
+  "tema": "Trasplante renal",
+  "obj": "21.o9",
+  "peso": 52.7
+ },
+ {
+  "id": "NEE-3",
+  "serie_id": "NEE",
+  "orden": 3,
+  "sub": "9.b",
+  "subtema": "Preeclampsia sobreañadida vs brote de enfermedad glomerular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 30 semanas la paciente tiene TA 152/98 mmHg, proteinuria 10 g/24 h, Cr 1.0 mg/dL, plaquetas 140,000/µL y transaminasas normales. Se plantea si es preeclampsia sobreañadida o actividad de la GEFS.",
+  "enunciado": "¿Qué estudio ayuda más a distinguirlas?",
+  "opciones": {
+   "A": "Velocidad de sedimentación globular, por ser el marcador inflamatorio que distingue la actividad glomerular",
+   "B": "Relación sFlt-1/PlGF: ≤38 hace improbable la preeclampsia a corto plazo; valores altos (≥85 antes de las 34 semanas) la apoyan",
+   "C": "C3 y C4, porque descienden de forma característica en la preeclampsia y permanecen normales en la GEFS activa",
+   "D": "ANCA, porque la preeclampsia sobreañadida se asocia con una vasculitis de pequeños vasos subyacente",
+   "E": "Anti-PLA2R sérico, porque su positividad distingue la preeclampsia sobreañadida de la actividad de la glomeruloesclerosis focal y segmentaria de la paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La VSG es inespecífica y aumenta en el embarazo.",
+   "B": "La preeclampsia sobreañadida y el brote de una glomerulopatía se parecen: ambos cursan con hipertensión y aumento de proteinuria. La relación sFlt-1/PlGF (PROGNOSIS: ≤38 descarta preeclampsia en la siguiente semana con alto valor predictivo negativo; ≥85 antes de 34 semanas apoya el diagnóstico) ayuda a diferenciar, junto con el resto del cuadro (plaquetopenia, elevación de transaminasas y LDH, hiperuricemia, deterioro de creatinina, afectación fetal). El inicio de hipertensión de novo y el empeoramiento súbito después de las 20 semanas favorecen preeclampsia.",
+   "C": "Los niveles de C3 y C4 caen en lupus y otras causas, no en GEFS ni preeclampsia.",
+   "D": "Los ANCA no distinguen entre estos diagnósticos.",
+   "E": "El anti-PLA2R apoya membranosa, no diferencia preeclampsia de GEFS."
+  },
+  "perla": "sFlt-1/PlGF ≤38 excluye preeclampsia a corto plazo; ≥85 (<34 SDG) la apoya. Útil para distinguirla de un brote glomerular.",
+  "referencias": [
+   "Zeisler H et al. N Engl J Med 2016;374:13",
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 75.1
+ }
+]

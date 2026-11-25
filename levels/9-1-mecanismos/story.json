@@ -1,0 +1,1098 @@
+{
+ "meta": {
+  "id": "9-1",
+  "title": "Mecanismos, síndromes y biopsia",
+  "key": "rm_v3_91",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Guardián",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Sala de Síndromes",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "sindromes",
+   "join": [
+    "sonda",
+    "treg"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Acto II. Varón de 45 años con edema, espuma en la orina y albúmina de 2.1."
+    ],
+    [
+     "Dr. J.",
+     "Antes de entrar, nombra el síndrome. El nombre decide el diferencial."
+    ],
+    [
+     "Sabio Brenn",
+     "Nefrótico, nefrítico, GNRP, hematuria aislada. Cuatro puertas al mismo ovillo."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Síndrome Nefrótico",
+     "lines": [
+      [
+       "Síndrome Nefrótico",
+       "Proteinuria >3.5 g/día, albúmina baja, edema y lípidos altos."
+      ],
+      [
+       "Síndrome Nefrótico",
+       "Mi lesión es del podocito. Casi no traigo células inflamatorias."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "nefrótico"
+    },
+    {
+     "id": "npc2",
+     "name": "Síndrome Nefrítico",
+     "lines": [
+      [
+       "Síndrome Nefrítico",
+       "Hematuria dismórfica, hipertensión, edema y creatinina que sube."
+      ],
+      [
+       "Síndrome Nefrítico",
+       "Mi lesión es del endotelio y el mesangio: ahí llega la sangre con sus células."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "nefrítico"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Localización",
+     "Subepitelial: nefrótico. Subendotelial y mesangial: nefrítico."
+    ],
+    [
+     "Letrero · Complicaciones",
+     "Nefrótico: trombosis (albúmina <2.5), infección por encapsulados, dislipidemia."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "valeria",
+     "specialty": "Rival",
+     "serie": "MEC",
+     "intro": [
+      [
+       "Dra. Valeria Montes",
+       "Nefrótico es 3.5 gramos. Punto. ¿Qué más hay que saber?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Valeria Montes",
+       "¿Por qué no hay células inflamatorias? Eso no lo memoricé."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "NSC",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: Síndrome nefrótico: fisiopatología del edema"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "PSG",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: Glomerulonefritis asociada con infección por estafilococo en el adulto"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Proteinuria Masiva",
+     "type": "Molecular",
+     "topic": "Proteinuria Masiva"
+    },
+    {
+     "name": "Hematuria Dismórfica",
+     "type": "Celular",
+     "topic": "Hematuria Dismórfica"
+    },
+    {
+     "name": "Edema Blando",
+     "type": "Molecular",
+     "topic": "Edema Blando"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Localización de depósitos y síndrome clínico",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Donde toca la sangre hay inflamación. Detrás de la membrana basal, solo proteinuria."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Depósito y enfermedad",
+     "items": [],
+     "pairs": [
+      [
+       "Subepitelial",
+       "Membranosa"
+      ],
+      [
+       "Subendotelial",
+       "Lupus IV, GNMP"
+      ],
+      [
+       "Mesangial",
+       "IgA"
+      ],
+      [
+       "Jorobas subepiteliales",
+       "Posinfecciosa"
+      ],
+      [
+       "Lineal en MBG",
+       "Anti-MBG"
+      ],
+      [
+       "Sin depósitos",
+       "Cambios mínimos, ANCA"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Nefrítico vs nefrótico",
+     "bins": [
+      "Nefrítico",
+      "Nefrótico"
+     ],
+     "items": [
+      [
+       "Hematuria dismórfica",
+       "Nefrítico"
+      ],
+      [
+       "Proteinuria > 3.5 g/d",
+       "Nefrótico"
+      ],
+      [
+       "Hipoalbuminemia < 3 g/dL",
+       "Nefrótico"
+      ],
+      [
+       "Hipertensión y oliguria",
+       "Nefrítico"
+      ],
+      [
+       "Hiperlipidemia y lipiduria",
+       "Nefrótico"
+      ],
+      [
+       "Cilindros eritrocitarios",
+       "Nefrítico"
+      ],
+      [
+       "Cambios mínimos",
+       "Nefrótico"
+      ],
+      [
+       "Postinfecciosa",
+       "Nefrítico"
+      ],
+      [
+       "Membranosa",
+       "Nefrótico"
+      ],
+      [
+       "Vasculitis ANCA",
+       "Nefrítico"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Vasculitis ANCA con GN",
+     "items": [
+      "Sospecha: GN rápidamente progresiva",
+      "ANCA (MPO/PR3) y anti-MBG",
+      "Biopsia renal",
+      "Inducción: glucocorticoide + rituximab o ciclofosfamida (± avacopan)",
+      "Mantenimiento con rituximab",
+      "Vigilar recaída e infecciones"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "Una Treg tranquila se une a tu equipo. La vas a necesitar."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Segunda herramienta: el complemento. Dice mucho con dos números."
+      ]
+     ]
+    }
+   ],
+   "card": "Nefrótico = podocito/subepitelial. Nefrítico = endotelio/mesangio/subendotelial. GNRP = semilunas. El síndrome orienta, la biopsia define."
+  },
+  {
+   "id": "z2",
+   "name": "Laboratorio del Complemento",
+   "palette": [
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
+   ],
+   "tiles": "delta",
+   "vignette": "complemento",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "C3 bajo con C4 normal: vía alterna. Posinfecciosa o glomerulopatía C3."
+    ],
+    [
+     "Sabio Brenn",
+     "C3 y C4 bajos: vía clásica. Lupus, crioglobulinemia, endocarditis."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Joroba Subepitelial",
+     "lines": [
+      [
+       "Joroba Subepitelial",
+       "Soy la firma de la posinfecciosa en microscopía electrónica."
+      ],
+      [
+       "Joroba Subepitelial",
+       "El C3 debe normalizarse en 6 a 8 semanas. Si no, busca C3G."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "posinfecciosa"
+    },
+    {
+     "id": "npc2",
+     "name": "Crioglobulina",
+     "lines": [
+      [
+       "Crioglobulina",
+       "Precipito con el frío. Tipo II: IgM monoclonal con factor reumatoide, por VHC."
+      ],
+      [
+       "Crioglobulina",
+       "Consumo mucho C4. Doy púrpura, artralgias y GN membranoproliferativa."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "crioglobulinemia"
+    },
+    {
+     "id": "npc3",
+     "name": "Factor Nefrítico C3",
+     "lines": [
+      [
+       "Factor Nefrítico C3",
+       "Estabilizo la convertasa de C3. La vía alterna ya no se apaga."
+      ]
+     ],
+     "gift": null,
+     "recall": "C3G"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · GNMP",
+     "Por IF: con inmunoglobulinas (infección, autoinmune, monoclonal) o solo C3 (C3G)."
+    ],
+    [
+     "Letrero · Estafilococo",
+     "GN asociada a infección activa en adultos: IgA dominante; trata la infección."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "HEM",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Posestreptocócica: penicilina y se cura el riñón."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "El antibiótico no cambia la nefritis… trata el foco y espera."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "GLM",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Localización de los depósitos inmunes y fenotipo clínico"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "C3 Consumido",
+     "type": "Complemento",
+     "topic": "C3 Consumido"
+    },
+    {
+     "name": "Estreptococo Nefritógeno",
+     "type": "Innato",
+     "topic": "Estreptococo Nefritógeno"
+    },
+    {
+     "name": "Crioprecipitado",
+     "type": "Inmunocomplejo",
+     "topic": "Crioprecipitado"
+    },
+    {
+     "name": "Convertasa Desatada",
+     "type": "Complemento",
+     "topic": "Convertasa Desatada"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Patrones de complemento en glomerulonefritis",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Dos números, cinco enfermedades. El giro: el patrón no es el diagnóstico."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Complemento y causa",
+     "items": [],
+     "pairs": [
+      [
+       "C3 bajo, C4 normal, 2 semanas tras faringitis",
+       "Posestreptocócica"
+      ],
+      [
+       "C3 bajo persistente >8 semanas",
+       "Glomerulopatía C3"
+      ],
+      [
+       "C4 muy bajo, FR positivo",
+       "Crioglobulinemia mixta"
+      ],
+      [
+       "C3 y C4 bajos, anti-ADN",
+       "Lupus"
+      ],
+      [
+       "Complemento normal",
+       "IgA, ANCA, anti-MBG"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Complemento en GN",
+     "bins": [
+      "C3 bajo",
+      "Complemento normal"
+     ],
+     "items": [
+      [
+       "Postinfecciosa",
+       "C3 bajo"
+      ],
+      [
+       "Nefritis lúpica clase IV",
+       "C3 bajo"
+      ],
+      [
+       "Glomerulopatía C3",
+       "C3 bajo"
+      ],
+      [
+       "Crioglobulinemia (VHC)",
+       "C3 bajo"
+      ],
+      [
+       "Nefropatía IgA",
+       "Complemento normal"
+      ],
+      [
+       "Vasculitis ANCA",
+       "Complemento normal"
+      ],
+      [
+       "Anti-MBG",
+       "Complemento normal"
+      ],
+      [
+       "Endocarditis / nefritis de shunt",
+       "C3 bajo"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Anti-PLA2R",
+       "Membranosa primaria"
+      ],
+      [
+       "Anti-THSD7A",
+       "Membranosa (buscar neoplasia)"
+      ],
+      [
+       "IgA mesangial",
+       "Nefropatía IgA (MEST-C)"
+      ],
+      [
+       "Anti-MBG",
+       "Depósito lineal (Goodpasture)"
+      ],
+      [
+       "ANCA-MPO",
+       "Poliangeítis microscópica"
+      ],
+      [
+       "ANCA-PR3",
+       "Granulomatosis con poliangeítis"
+      ],
+      [
+       "C3 bajo >8 semanas",
+       "Pensar GMN C3, no postinfecciosa"
+      ],
+      [
+       "Clase IV ISN/RPS",
+       "Nefritis lúpica difusa"
+      ],
+      [
+       "Variante colapsante",
+       "APOL1, VIH, COVID"
+      ],
+      [
+       "Avacopan",
+       "Antagonista C5aR (ANCA)"
+      ],
+      [
+       "Sparsentan",
+       "Dual endotelina/AT1"
+      ],
+      [
+       "Iptacopan",
+       "Inhibidor del factor B"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Ahora sí: la aguja. Tres microscopios te esperan en la siguiente sala."
+      ]
+     ]
+    }
+   ],
+   "card": "C3↓ C4 normal: PIGN (se normaliza en 6–8 sem) o C3G. C3↓ C4↓: lupus, crioglobulinemia, endocarditis. GNMP = patrón; clasifica por IF."
+  },
+  {
+   "id": "z3",
+   "name": "Sala de los Tres Microscopios",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "vignette": "if_patrones",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Giro: la biopsia dice «membranoproliferativa». Pero ese no es el diagnóstico."
+    ],
+    [
+     "Sabio Brenn",
+     "Mira la IF: ¿inmunoglobulinas, solo C3 o una sola cadena ligera?"
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Microscopio Electrónico",
+     "lines": [
+      [
+       "Microscopio Electrónico",
+       "Veo pedicelos, jorobas y depósitos que la luz no alcanza."
+      ],
+      [
+       "Microscopio Electrónico",
+       "Depósitos densos en cinta dentro de la membrana: enfermedad por depósitos densos."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "microscopía electrónica"
+    },
+    {
+     "id": "npc2",
+     "name": "Pronasa",
+     "lines": [
+      [
+       "Pronasa",
+       "A veces la IgG se esconde en la parafina. Yo la desenmascaro."
+      ],
+      [
+       "Pronasa",
+       "Así aparece una GN monoclonal oculta que parecía solo C3."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "IF con pronasa"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Muestra adecuada",
+     "≥10 glomérulos para lesiones focales; siempre MO, IF y ME."
+    ],
+    [
+     "Letrero · Complicaciones",
+     "Casi todo sangrado ocurre en las primeras 24 h: vigila hemoglobina y orina."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "pato",
+     "specialty": "Patología",
+     "serie": "MPI",
+     "intro": [
+      [
+       "Dra. Iris Hematoxilina",
+       "El patrón es el diagnóstico: GNMP y a casa."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Iris Hematoxilina",
+       "GNMP es el dibujo; la causa está en la IF. Lo reporto así."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "CRG",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Crioglobulinemia: clasificación de Brouet y errores preanalíticos"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Patrón Engañoso",
+     "type": "Celular",
+     "topic": "Patrón Engañoso"
+    },
+    {
+     "name": "Depósito Denso",
+     "type": "Inmunocomplejo",
+     "topic": "Depósito Denso"
+    },
+    {
+     "name": "Hematoma Perirrenal",
+     "type": "Molecular",
+     "topic": "Hematoma Perirrenal"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Lectura de la biopsia: microscopía de luz, IF y electrónica",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: un mismo patrón tiene muchas causas; la IF las separa."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Ruta de una biopsia renal",
+     "items": [
+      "Indicación y contraindicaciones",
+      "TA controlada y coagulación normal",
+      "Toma guiada por ultrasonido",
+      "MO, IF y ME del mismo cilindro",
+      "Nombrar el patrón histológico",
+      "Buscar la causa: clínica, serología e IF"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "MEST-C en nefropatía por IgA",
+     "bins": [
+      "Activa / reversible",
+      "Crónica / irreversible"
+     ],
+     "items": [
+      [
+       "M1 hipercelularidad mesangial",
+       "Activa / reversible"
+      ],
+      [
+       "E1 hipercelularidad endocapilar",
+       "Activa / reversible"
+      ],
+      [
+       "C1 semilunas celulares",
+       "Activa / reversible"
+      ],
+      [
+       "T2 IFTA > 50%",
+       "Crónica / irreversible"
+      ],
+      [
+       "T1 IFTA 26–50%",
+       "Crónica / irreversible"
+      ],
+      [
+       "S1 esclerosis segmentaria inactiva",
+       "Crónica / irreversible"
+      ],
+      [
+       "Glomeruloesclerosis global",
+       "Crónica / irreversible"
+      ]
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "IF con IgG kappa restringida. Patrón y causa: el Guardián te espera."
+      ]
+     ]
+    }
+   ],
+   "card": "La biopsia se lee con MO, IF y ME. El patrón (p. ej., GNMP) no es el diagnóstico: la IF dice inmunoglobulinas, solo C3 o monoclonal y orienta la causa."
+  }
+ ],
+ "boss": {
+  "name": "El Guardián de la Biopsia",
+  "color": "#8e44ad",
+  "dark": "#3a1255",
+  "heads": 1,
+  "form": "defensor",
+  "crescent": false,
+  "intro": [
+   [
+    "El Guardián",
+    "Tres microscopios y un patrón. Pero el patrón no es el diagnóstico."
+   ],
+   [
+    "Dr. J.",
+    "Síndrome, complemento, biopsia. Luego busca la causa."
+   ]
+  ],
+  "outro": [
+   [
+    "El Guardián",
+    "Pasa. El ovillo es tuyo."
+   ],
+   [
+    "Sabio Brenn",
+    "Siete enfermedades viven aquí dentro. Empecemos por la más silenciosa."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Síndromes",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Guardián",
+      "Nómbrame."
+     ]
+    ],
+    "topics": [
+     "Síndromes"
+    ],
+    "questions": [
+     "NEE-1",
+     "NEE-2",
+     "NEE-3"
+    ]
+   },
+   {
+    "name": "Mecanismos",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Guardián",
+      "¿Dónde me deposito?"
+     ]
+    ],
+    "topics": [
+     "Mecanismos"
+    ],
+    "questions": [
+     "NEE-4",
+     "PIGN-1"
+    ]
+   },
+   {
+    "name": "Complemento e infección",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Guardián",
+      "Cuenta mi C3."
+     ]
+    ],
+    "topics": [
+     "Complemento e infección"
+    ],
+    "questions": [
+     "PIGN-2",
+     "PIGN-3",
+     "CRIO-1"
+    ]
+   },
+   {
+    "name": "Patrón y causa",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Guardián",
+      "Membranoproliferativa. ¿Y luego?"
+     ]
+    ],
+    "topics": [
+     "Patrón y causa"
+    ],
+    "questions": [
+     "CRIO-2",
+     "CRIO-3"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Sala de Síndromes",
+   "text": "Nefrótico = podocito/subepitelial. Nefrítico = endotelio/mesangio/subendotelial. GNRP = semilunas. El síndrome orienta, la biopsia define."
+  },
+  {
+   "title": "Laboratorio del Complemento",
+   "text": "C3↓ C4 normal: PIGN (se normaliza en 6–8 sem) o C3G. C3↓ C4↓: lupus, crioglobulinemia, endocarditis. GNMP = patrón; clasifica por IF."
+  },
+  {
+   "title": "Sala de los Tres Microscopios",
+   "text": "La biopsia se lee con MO, IF y ME. El patrón (p. ej., GNMP) no es el diagnóstico: la IF dice inmunoglobulinas, solo C3 o monoclonal y orienta la causa."
+  },
+  {
+   "title": "💎 Preeclampsia sobreañadida vs brote de en",
+   "text": "sFlt-1/PlGF ≤38 excluye preeclampsia a corto plazo; ≥85 (<34 SDG) la apoya. Útil para distinguirla de un brote glomerular."
+  },
+  {
+   "title": "💎 Hipocomplementemia persistente: C3G",
+   "text": "C3 bajo >12 sem tras PIGN → C3G. IF: C3 ≥2 órdenes > Ig. DDD: depósitos intramembranosos densos; C3GN: otros sitios. Estudiar C3Nef, FH-Ab, genética, monoclonal (>50 años)."
+  },
+  {
+   "title": "💎 Nefropatía de membrana basal delgada",
+   "text": "COL4A3/A4 heterocigoto: membrana basal delgada; hematuria con buen pronóstico, pero 20–30% progresa a proteinuria/ERC; vigilancia de por vida."
+  },
+  {
+   "title": "💎 Síndrome nefrótico en el embarazo: abord",
+   "text": "Nefrótico <20 SDG sin HTA: no es preeclampsia → biopsia renal (idealmente antes de 24–28 SDG) si cambia el manejo."
+  },
+  {
+   "title": "💎 GEFS en el embarazo: tratamiento",
+   "text": "GEFS en embarazo: prednisona + labetalol/nifedipino + ASA baja; no IECA/ARA-II, MMF ni ciclofosfamida; tromboprofilaxis si albúmina <2.5 g/dL."
+  },
+  {
+   "title": "💎 Vías del complemento y patrón de consumo",
+   "text": "C3 bajo + C4 normal: vía alterna (PIGN, C3G, endocarditis). C3 y C4 bajos: vía clásica (lupus, crioglobulinemia, MPGN inmunocomplejos)."
+  },
+  {
+   "title": "💎 Blancos terapéuticos según el mecanismo",
+   "text": "Belimumab = anti-BAFF; anifrolumab = anti-IFNAR1; voclosporina = CNI; rituximab/obinutuzumab = anti-CD20; avacopan = anti-C5aR."
+  },
+  {
+   "title": "💎 GN posinfecciosa: cuadro y complemento",
+   "text": "PIGN: C3↓ C4 normal (vía alterna) → normaliza en 8–12 sem. Humps subepiteliales, IF granular C3±IgG. C3 bajo persistente >12 sem = C3G."
+  }
+ ]
+}

@@ -1,0 +1,1043 @@
+{
+ "meta": {
+  "id": "15",
+  "title": "Enfermedades vasculares y MAT",
+  "key": "rm_v3_15",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Microangiopático",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Endotelio Herido",
+   "palette": [
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
+   ],
+   "tiles": "delta",
+   "vignette": "mat",
+   "join": [
+    "sonda",
+    "eculi"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer de 26 años, 5 días después del parto: hemoglobina 7, plaquetas 48 mil, creatinina 4."
+    ],
+    [
+     "Dr. J.",
+     "LDH altísima, haptoglobina indetectable y esquistocitos en el frotis."
+    ],
+    [
+     "Sabio Brenn",
+     "Microangiopatía trombótica. El reloj corre: tres causas, tres tratamientos."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Factor H",
+     "lines": [
+      [
+       "Factor H",
+       "Soy el freno de la vía alterna sobre las células propias."
+      ],
+      [
+       "Factor H",
+       "Si falto o me bloquean, C3b se amplifica sobre el endotelio."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "factor H"
+    },
+    {
+     "id": "npc2",
+     "name": "ADAMTS13",
+     "lines": [
+      [
+       "ADAMTS13",
+       "Corto los multímeros grandes de von Willebrand."
+      ],
+      [
+       "ADAMTS13",
+       "Si mi actividad es <10 %, es PTT: recambio plasmático ya, sin esperar."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "ADAMTS13"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Tres preguntas",
+     "ADAMTS13 (PTT) · toxina Shiga (SHU típico) · complemento (SHU atípico)."
+    ],
+    [
+     "Letrero · PTT",
+     "Recambio plasmático + glucocorticoide + rituximab; caplacizumab en casos graves."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "ANT",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Toda MAT es PTT: recambio plasmático de por vida."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "ADAMTS13 de 60 %… no es PTT. Te la regreso, nefro."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 6
+    },
+    {
+     "id": "t0_1",
+     "cast": "gine",
+     "specialty": "Ginecología",
+     "serie": "TVR",
+     "intro": [
+      [
+       "Dra. Lucía Bravo",
+       "Posparto con plaquetas bajas: es HELLP, se quita solo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Lucía Bravo",
+       "A los 5 días y empeorando… no es HELLP."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "RVJ-3",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Bloqueo del SRAA en estenosis renal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Esquistocito",
+     "type": "Celular",
+     "topic": "Esquistocito"
+    },
+    {
+     "name": "Microtrombo",
+     "type": "Molecular",
+     "topic": "Microtrombo"
+    },
+    {
+     "name": "C3b Sin Freno",
+     "type": "Complemento",
+     "topic": "C3b Sin Freno"
+    },
+    {
+     "name": "Toxina Shiga",
+     "type": "Molecular",
+     "topic": "Toxina Shiga"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_1",
+     "topic": "Microangiopatía trombótica: diferencial urgente",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: el parto fue el segundo golpe sobre una variante del complemento."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "MAT: primeras horas",
+     "items": [
+      "Confirmar hemólisis microangiopática y plaquetopenia",
+      "Tomar ADAMTS13 antes de transfundir plasma",
+      "Iniciar recambio plasmático empírico",
+      "Toxina Shiga y causas secundarias",
+      "ADAMTS13 >10 %: bloqueo de C5",
+      "Vacunar contra meningococo y dar profilaxis"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "SHUa: ¿el trasplante renal aislado corrige el defecto?",
+     "bins": [
+      "Lo corrige",
+      "No lo corrige"
+     ],
+     "items": [
+      [
+       "MCP (CD46)",
+       "Lo corrige"
+      ],
+      [
+       "DGKE",
+       "Lo corrige"
+      ],
+      [
+       "CFH",
+       "No lo corrige"
+      ],
+      [
+       "CFI",
+       "No lo corrige"
+      ],
+      [
+       "C3",
+       "No lo corrige"
+      ],
+      [
+       "CFB",
+       "No lo corrige"
+      ]
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Eculi",
+       "¡Soy Eculi! Bloqueo C5. Antes de usarme, vacuna contra meningococo."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "No todo lo vascular es microscópico. Sube a las arterias."
+      ]
+     ]
+    }
+   ],
+   "card": "MAT: ADAMTS13 <10 % = PTT (recambio); Shiga = SHU típico (soporte); complemento = SHUa (anti-C5 + vacuna meningococo). Estudio genético."
+  },
+  {
+   "id": "z2",
+   "name": "Arterias Renales",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "estenosis",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Estenosis de arteria renal: en ASTRAL y CORAL el stent no superó al tratamiento médico."
+    ],
+    [
+     "Sabio Brenn",
+     "Stent solo en casos selectos: edema pulmonar súbito, HTA refractaria, TFG en caída."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Cristal de Colesterol",
+     "lines": [
+      [
+       "Cristal de Colesterol",
+       "Me soltaron tras un cateterismo. Dejo livedo, dedos azules y eosinofilia."
+      ],
+      [
+       "Cristal de Colesterol",
+       "La creatinina sube en escalones durante semanas. No hay tratamiento específico."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "ateroembolia"
+    },
+    {
+     "id": "npc2",
+     "name": "Vena Renal Trombosada",
+     "lines": [
+      [
+       "Vena Renal Trombosada",
+       "Dolor en flanco, hematuria y riñón grande en un nefrótico."
+      ],
+      [
+       "Vena Renal Trombosada",
+       "Piensa en membranosa."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "trombosis de vena renal"
+    },
+    {
+     "id": "npc3",
+     "name": "Crisis Esclerodérmica",
+     "lines": [
+      [
+       "Crisis Esclerodérmica",
+       "HTA maligna y LRA en esclerosis sistémica temprana. IECA: mi tratamiento."
+      ]
+     ],
+     "gift": null,
+     "recall": "crisis renal esclerodérmica"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Infarto renal",
+     "Dolor súbito en flanco, LDH muy alta, hematuria; fibrilación auricular."
+    ],
+    [
+     "Letrero · Displasia fibromuscular",
+     "Mujer joven, «collar de cuentas»; angioplastia sin stent."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "RVJ-1",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Estenosis del 70 %: le pongo stent mañana."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "ASTRAL y CORAL… primero tratamiento médico."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "RVJ-9",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: Enfermedad ateroembólica: diagnóstico"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "RVJ-2",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Displasia fibromuscular: evaluación sistémica"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Placa Ostial",
+     "type": "Molecular",
+     "topic": "Placa Ostial"
+    },
+    {
+     "name": "Émbolo Cardiaco",
+     "type": "Molecular",
+     "topic": "Émbolo Cardiaco"
+    },
+    {
+     "name": "Anticoagulante Lúpico",
+     "type": "Humoral",
+     "topic": "Anticoagulante Lúpico"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Estenosis de arteria renal y enfermedad ateroembólica",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Estenosis no es lo mismo que nefropatía isquémica con indicación de stent."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Cuadro vascular y pista",
+     "items": [],
+     "pairs": [
+      [
+       "Ateroembolia",
+       "Tras cateterismo; eosinofilia, livedo"
+      ],
+      [
+       "Infarto renal",
+       "FA; LDH alta, dolor súbito"
+      ],
+      [
+       "Displasia fibromuscular",
+       "Mujer joven; collar de cuentas"
+      ],
+      [
+       "Crisis esclerodérmica",
+       "IECA"
+      ],
+      [
+       "SAF",
+       "Trombosis y MAT; anticoagulación"
+      ],
+      [
+       "Nefroangioesclerosis",
+       "HTA crónica; hialinosis"
+      ]
+     ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "MAT con LRA: ruta hacia anti-C5",
+     "items": [
+      "Confirmar MAT: esquistocitos, LDH alta, Coombs negativo",
+      "Excluir STEC: toxina Shiga o PCR stx",
+      "ADAMTS13 >10%",
+      "Excluir causas secundarias",
+      "Vacuna meningocócica y antibiótico",
+      "Iniciar eculizumab o ravulizumab",
+      "Genética y anti-CFH en paralelo"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "ADAMTS13 de 62 %. Es SHU atípico. Falta leer sus genes."
+      ]
+     ]
+    }
+   ],
+   "card": "Estenosis ateroesclerótica: tratamiento médico (ASTRAL, CORAL). Ateroembolia: poscateterismo, eosinofilia. Crisis esclerodérmica: IECA."
+  },
+  {
+   "id": "z3",
+   "name": "Laboratorio del Complemento Heredado",
+   "palette": [
+    "#FFF0E0",
+    "#F0B080",
+    "#A05830",
+    "#301808"
+   ],
+   "tiles": "capsula",
+   "vignette": "complemento",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Giro: variante en CFH. Y su hermana de 30 quiere donarle un riñón algún día."
+    ],
+    [
+     "Sabio Brenn",
+     "Antes de suspender el anti-C5 o aceptar donante, mira la genética."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Variante CFH",
+     "lines": [
+      [
+       "Variante CFH",
+       "Soy la variante de más riesgo: recaigo si me quitan el freno."
+      ],
+      [
+       "Variante CFH",
+       "Con CFH, suspender el anti-C5 se hace con cautela y vigilancia estrecha."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "genética del SHUa"
+    },
+    {
+     "id": "npc2",
+     "name": "Hermana Donante",
+     "lines": [
+      [
+       "Hermana Donante",
+       "Si porto la misma variante, donar me puede dar SHUa a mí."
+      ],
+      [
+       "Hermana Donante",
+       "Primero el estudio genético; después decidimos."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "donante emparentado"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Duración",
+     "Anti-C5 al menos 6–12 meses; suspender solo con vigilancia y según la variante."
+    ],
+    [
+     "Letrero · Trasplante",
+     "SHUa con CFH recurre sin profilaxis: el injerto lleva anti-C5."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "gen",
+     "specialty": "Genética",
+     "serie": "MTJ-2",
+     "intro": [
+      [
+       "Dra. Alelo Vargas",
+       "Ya está bien: suspendo el eculizumab y no pido genética."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Alelo Vargas",
+       "CFH tiene alto riesgo de recaída… primero la variante."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "MTJ-4",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "¿Vacuna antes del anti-C5? Eso es burocracia."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Meningococo, y profilaxis si no hay tiempo. Entendido."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "MTJ-1",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: SHUa: genética del complemento"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "C3b Recurrente",
+     "type": "Complemento",
+     "topic": "C3b Recurrente"
+    },
+    {
+     "name": "Anti-Factor H",
+     "type": "Humoral",
+     "topic": "Anti-Factor H"
+    },
+    {
+     "name": "Recaída Silenciosa",
+     "type": "Molecular",
+     "topic": "Recaída Silenciosa"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_1",
+     "topic": "SHU atípico: genética, duración del bloqueo y trasplante",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: la misma variante puede estar en el donante de la familia."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Gen y riesgo en el SHUa",
+     "items": [],
+     "pairs": [
+      [
+       "CFH",
+       "Alto riesgo de recaída y recurrencia"
+      ],
+      [
+       "MCP (CD46)",
+       "Poca recurrencia en el injerto"
+      ],
+      [
+       "Anti-factor H",
+       "Inmunosupresión además del anti-C5"
+      ],
+      [
+       "C3 o CFB activadores",
+       "Alto riesgo de recurrencia"
+      ],
+      [
+       "Sin variante hallada",
+       "Riesgo menor, no nulo"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Displasia fibromuscular",
+       "Mujer joven, angioplastia sin stent"
+      ],
+      [
+       "Estenosis aterosclerótica",
+       "Manejo médico (CORAL, ASTRAL)"
+      ],
+      [
+       "Ateroembolia",
+       "Livedo, eosinofilia, ↓C3 tras cateterismo"
+      ],
+      [
+       "SHU atípico",
+       "Complemento → eculizumab"
+      ],
+      [
+       "PTT",
+       "ADAMTS13 <10%"
+      ],
+      [
+       "SHU típico",
+       "E. coli productora de Shiga"
+      ],
+      [
+       "Crisis renal esclerodérmica",
+       "IECA (captopril)"
+      ],
+      [
+       "Trombosis de vena renal",
+       "Membranosa, albúmina <2.5"
+      ],
+      [
+       "Nefroesclerosis",
+       "Hialinosis arteriolar"
+      ],
+      [
+       "SAF",
+       "MAT → anticoagulación"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "La variante lo explica todo. El Microangiopático vuelve por ella."
+      ]
+     ]
+    }
+   ],
+   "card": "SHUa: anti-C5 al menos 6–12 meses; suspender según la variante (CFH, alto riesgo). Donante emparentado: genotipar antes. Injerto con anti-C5 profiláctico."
+  }
+ ],
+ "boss": {
+  "name": "El Microangiopático",
+  "color": "#c0392b",
+  "dark": "#4a0f0a",
+  "heads": 1,
+  "form": "vaso",
+  "crescent": false,
+  "intro": [
+   [
+    "El Microangiopático",
+    "Rompo eritrocitos y tapo capilares. ¿Sabes quién me soltó?"
+   ],
+   [
+    "Dr. J.",
+    "Diferencial, tratamiento dirigido, duración y genética."
+   ]
+  ],
+  "outro": [
+   [
+    "El Microangiopático",
+    "El complemento se calla."
+   ],
+   [
+    "Sabio Brenn",
+    "Recuperó plaquetas en días. El riñón tardará semanas."
+   ],
+   [
+    "Paciente",
+    "Me dieron de alta con mi bebé. El riñón sigue mejorando."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Diferencial urgente",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Microangiopático",
+      "¿PTT, Shiga o complemento?"
+     ]
+    ],
+    "topics": [
+     "Diferencial urgente"
+    ],
+    "questions": [
+     "TMA-1",
+     "TMA-2",
+     "TMA-3"
+    ]
+   },
+   {
+    "name": "Tratamiento",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Microangiopático",
+      "¿Plasma o anti-C5?"
+     ]
+    ],
+    "topics": [
+     "Tratamiento"
+    ],
+    "questions": [
+     "TMA-4",
+     "TMA-5"
+    ]
+   },
+   {
+    "name": "Causas secundarias",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Microangiopático",
+      "Vengo con un fármaco."
+     ]
+    ],
+    "topics": [
+     "Causas secundarias"
+    ],
+    "questions": [
+     "TMA-6",
+     "TMS-1",
+     "TMS-2"
+    ]
+   },
+   {
+    "name": "Grandes vasos",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Microangiopático",
+      "Ahora tapo la arteria entera."
+     ]
+    ],
+    "topics": [
+     "Grandes vasos"
+    ],
+    "questions": [
+     "TMS-3",
+     "TMS-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "ASTRAL / CORAL",
+   "mnemonic": "El astro del stent se apagó en el coral.",
+   "result": "Stent en estenosis ateroesclerótica: sin beneficio renal ni cardiovascular sobre el tratamiento médico."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Endotelio Herido",
+   "text": "MAT: ADAMTS13 <10 % = PTT (recambio); Shiga = SHU típico (soporte); complemento = SHUa (anti-C5 + vacuna meningococo). Estudio genético."
+  },
+  {
+   "title": "Arterias Renales",
+   "text": "Estenosis ateroesclerótica: tratamiento médico (ASTRAL, CORAL). Ateroembolia: poscateterismo, eosinofilia. Crisis esclerodérmica: IECA."
+  },
+  {
+   "title": "Laboratorio del Complemento Heredado",
+   "text": "SHUa: anti-C5 al menos 6–12 meses; suspender según la variante (CFH, alto riesgo). Donante emparentado: genotipar antes. Injerto con anti-C5 profiláctico."
+  },
+  {
+   "title": "💎 Tratamiento de la causa: nefropatía memb",
+   "text": "MN riesgo alto (TFGe <60 o proteinuria >8 g/d 6 meses): rituximab o ciclofosfamida cíclica + esteroides. Remisión → retirar anticoagulación (alb >3)."
+  },
+  {
+   "title": "💎 Microangiopatía trombótica: diagnóstico ",
+   "text": "MAT = anemia hemolítica con esquistocitos + plaquetopenia + daño orgánico, con Coombs negativo y coagulación normal (distingue de CID)."
+  },
+  {
+   "title": "💎 ADAMTS13 y diagnóstico diferencial",
+   "text": "PTT: actividad de ADAMTS13 <10% (con inhibidor en la forma adquirida). Pedir actividad, no solo niveles de antígeno."
+  },
+  {
+   "title": "💎 MAT inducida por gemcitabina",
+   "text": "Gemcitabina → MAT (dosis acumulada, HAS, esquistocitos); otros: mitomicina C, inhibidores de calcineurina, quinina, VEGF/proteasoma."
+  },
+  {
+   "title": "💎 MAT por gemcitabina: pronóstico y seguim",
+   "text": "MAT por gemcitabina: no reexponer; seguimiento de ERC residual y bloqueo del SRAA."
+  },
+  {
+   "title": "💎 Fibrilación auricular en hemodiálisis: a",
+   "text": "AF en HD: warfarina (INR 2–3) o apixabán dosis ajustada (ACC/AHA 2023, 2b); decisión compartida; considerar LAAO. Evitar dabigatrán/rivaroxabán."
+  },
+  {
+   "title": "💎 Eliminación renal de los anticoagulantes",
+   "text": "Eliminación renal de DOAC: dabigatrán ~80% > edoxabán ~50% > rivaroxabán ~35% > apixabán ~27%. Apixabán preferido en ERC avanzada."
+  },
+  {
+   "title": "💎 MAT: manejo inicial mientras se completa",
+   "text": "MAT con plaquetopenia grave: recambio plasmático + esteroides de inmediato (tras tomar ADAMTS13); no esperar el resultado."
+  }
+ ]
+}

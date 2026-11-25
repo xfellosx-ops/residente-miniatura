@@ -1,0 +1,783 @@
+{
+ "meta": {
+  "id": "17",
+  "title": "Enfermedades tóxicas del riñón",
+  "key": "rm_v3_17",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Capo",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Guarida de Los Nefrotóxicos",
+   "palette": [
+    "#FBD8E2",
+    "#E48AA8",
+    "#A8436A",
+    "#4A1A2A"
+   ],
+   "tiles": "proximal",
+   "vignette": "proximal_toxico",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer con melanoma: recibe inmunoterapia, tuvo una TAC con contraste y gentamicina."
+    ],
+    [
+     "Dr. J.",
+     "Creatinina de 0.8 a 2.6. Cuatro sospechosos, cuatro mecanismos."
+    ],
+    [
+     "AINE",
+     "¡Prepárense para los problemas! ¡Y más vale que hidraten!"
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Megalina",
+     "lines": [
+      [
+       "Megalina",
+       "Soy la puerta por donde el aminoglucósido entra al túbulo proximal."
+      ],
+      [
+       "Megalina",
+       "Me saturo. Por eso una dosis diaria daña menos que tres."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "megalina"
+    },
+    {
+     "id": "npc2",
+     "name": "Prostaglandina E2",
+     "lines": [
+      [
+       "Prostaglandina E2",
+       "Mantengo abierta la aferente cuando falta volumen. El AINE me apaga."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Mecanismos",
+     "Hemodinámico · tubular directo · intersticial · cristales · glomerular."
+    ],
+    [
+     "Letrero · Triple golpe",
+     "AINE + IECA/ARA + diurético: LRA hemodinámica."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "genta",
+     "specialty": "Nefrotóxico",
+     "serie": "NTJ-1",
+     "intro": [
+      [
+       "Aminoglucósido",
+       "Me acumulo en el lisosoma proximal. ¡Nadie me ve hasta el día 7!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Aminoglucósido",
+       "Dosis única diaria y niveles valle… me arruinaste el plan."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "contraste",
+     "specialty": "Nefrotóxico",
+     "serie": "NTJ-4",
+     "intro": [
+      [
+       "Contraste",
+       "¡Toda creatinina que sube tras una TAC es mía!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Contraste",
+       "¿Que mi riesgo se sobreestimó? …Eso dolió."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "NTJ-2",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: Anfotericina B"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Ibuprofeno Suelto",
+     "type": "Molecular",
+     "topic": "Ibuprofeno Suelto"
+    },
+    {
+     "name": "Gentamicina Acumulada",
+     "type": "Molecular",
+     "topic": "Gentamicina Acumulada"
+    },
+    {
+     "name": "Medio de Contraste",
+     "type": "Molecular",
+     "topic": "Medio de Contraste"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_1",
+     "topic": "Aminoglucósidos: captación proximal saturable",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: la captación es saturable. Dosis única diaria, menos toxicidad."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Fármaco y mecanismo",
+     "items": [],
+     "pairs": [
+      [
+       "AINE",
+       "Vasoconstricción aferente"
+      ],
+      [
+       "Aminoglucósido",
+       "Necrosis tubular proximal"
+      ],
+      [
+       "Tenofovir (TDF)",
+       "Fanconi proximal"
+      ],
+      [
+       "Aciclovir IV",
+       "Cristales intratubulares"
+      ],
+      [
+       "Anfotericina B",
+       "Poros en la membrana; ATR distal"
+      ],
+      [
+       "Vancomicina",
+       "NTA y cilindros"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Nefrotóxico: mecanismo principal",
+     "bins": [
+      "Tubular directo",
+      "Cristales intratubulares"
+     ],
+     "items": [
+      [
+       "Aminoglucósidos",
+       "Tubular directo"
+      ],
+      [
+       "Tenofovir disoproxil",
+       "Tubular directo"
+      ],
+      [
+       "Anfotericina B",
+       "Tubular directo"
+      ],
+      [
+       "Aciclovir IV",
+       "Cristales intratubulares"
+      ],
+      [
+       "Metotrexato",
+       "Cristales intratubulares"
+      ],
+      [
+       "Indinavir",
+       "Cristales intratubulares"
+      ],
+      [
+       "Sulfadiazina",
+       "Cristales intratubulares"
+      ]
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Dos mecanismos vistos. Faltan el intersticio y los cristales."
+      ]
+     ]
+    }
+   ],
+   "card": "AINE: aferente. Aminoglucósido: megalina, proximal, no oligúrica, día 5–7, pierde K y Mg. Dosis única diaria reduce toxicidad."
+  },
+  {
+   "id": "z2",
+   "name": "Intersticio Infiltrado",
+   "palette": [
+    "#F0E2C8",
+    "#C8A87A",
+    "#8A6A4A",
+    "#3A2A1A"
+   ],
+   "tiles": "intersticio",
+   "vignette": "nti",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Los inhibidores de puntos de control liberan a los linfocitos T… también contra el túbulo."
+    ],
+    [
+     "Sabio Brenn",
+     "Nefritis intersticial aguda: semanas o meses después de iniciar."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Linfocito T Liberado",
+     "lines": [
+      [
+       "Linfocito T Liberado",
+       "Sin PD-1 que me frene, ataco al tumor y al intersticio."
+      ],
+      [
+       "Linfocito T Liberado",
+       "Los IBP y los AINE aumentan el riesgo de que me pase."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "inhibidores de puntos de control"
+    },
+    {
+     "id": "npc2",
+     "name": "Calcineurínico",
+     "lines": [
+      [
+       "Calcineurínico",
+       "Agudo: cierro la aferente, reversible. Crónico: fibrosis en bandas e hialinosis."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "tacrolimus"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · ICI",
+     "Grado ≥2: suspender y dar glucocorticoide; reintroducir se puede valorar tras recuperar."
+    ],
+    [
+     "Letrero · Metales",
+     "Plomo: nefritis crónica y gota saturnina. Cadmio: Fanconi. Litio: DI nefrogénica."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "onco",
+     "specialty": "Oncología",
+     "serie": "NTJ-5",
+     "intro": [
+      [
+       "Dra. Mitosis Lara",
+       "Si sube la creatinina, es el cisplatino. Siempre."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Mitosis Lara",
+       "¿La inmunoterapia da nefritis intersticial? La biopsio."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "NTJ-3",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Aciclovir intravenoso"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "NTJ-6",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Fisiopatología de la nefropatía por contraste"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Eosinófilo Intersticial",
+     "type": "Innato",
+     "topic": "Eosinófilo Intersticial"
+    },
+    {
+     "name": "Plomo Antiguo",
+     "type": "Molecular",
+     "topic": "Plomo Antiguo"
+    },
+    {
+     "name": "Cisplatino",
+     "type": "Molecular",
+     "topic": "Cisplatino"
+    },
+    {
+     "name": "IBP Silencioso",
+     "type": "Molecular",
+     "topic": "IBP Silencioso"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Nefritis intersticial por inhibidores de puntos de control",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Latencia de semanas a meses, piuria estéril, y casi siempre otro fármaco cómplice."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "LRA con inmunoterapia",
+     "items": [
+      "Descartar prerrenal, obstrucción y otros fármacos",
+      "Suspender IBP y AINE",
+      "Sedimento y proteinuria",
+      "Biopsia si es posible o si no mejora",
+      "Suspender ICI y dar prednisona si grado ≥2",
+      "Valorar reintroducción tras la recuperación"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Cisplatino",
+       "Hipomagnesemia, NTA"
+      ],
+      [
+       "Aminoglucósido",
+       "NTA no oligúrica tardía"
+      ],
+      [
+       "Vancomicina + piperacilina",
+       "Mayor riesgo de LRA"
+      ],
+      [
+       "Anfotericina B",
+       "ATR distal, hipoK"
+      ],
+      [
+       "Tenofovir (TDF)",
+       "Síndrome de Fanconi"
+      ],
+      [
+       "Contraste yodado",
+       "Hidratación isotónica"
+      ],
+      [
+       "Etilenglicol",
+       "Fomepizol; oxalato"
+      ],
+      [
+       "Metanol",
+       "Fomepizol; ceguera"
+      ],
+      [
+       "Litio grave",
+       "Hemodiálisis"
+      ],
+      [
+       "Inhibidor de checkpoint",
+       "NTI → esteroide"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Ya los tienes a los cuatro. Falta su jefe."
+      ]
+     ]
+    }
+   ],
+   "card": "ICI → NTI (semanas–meses); IBP y AINE como cofactores; esteroides. Calcineurínicos: vasoconstricción aguda y fibrosis crónica. Cisplatino: pierde magnesio."
+  }
+ ],
+ "boss": {
+  "name": "El Capo de Los Nefrotóxicos",
+  "color": "#E67E22",
+  "dark": "#6e3200",
+  "heads": 1,
+  "form": "defensor",
+  "crescent": false,
+  "intro": [
+   [
+    "El Capo",
+    "Cuatro mecanismos, cuatro formas. Y un patrocinador que no conoces."
+   ],
+   [
+    "Dr. J.",
+    "Cada fase es un mecanismo. Nómbralo y cae."
+   ]
+  ],
+  "outro": [
+   [
+    "El Capo",
+    "Volveremos… ¡Hemo-Eterna paga bien!"
+   ],
+   [
+    "Dr. J.",
+    "¿Hemo-Eterna? ¿La de las clínicas de diálisis? Anótalo."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Hemodinámico",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Capo",
+      "Cierro la aferente."
+     ]
+    ],
+    "topics": [
+     "Hemodinámico"
+    ],
+    "questions": [
+     "VAN-1",
+     "VAN-2"
+    ]
+   },
+   {
+    "name": "Tubular directo",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Capo",
+      "Entro a la célula."
+     ]
+    ],
+    "topics": [
+     "Tubular directo"
+    ],
+    "questions": [
+     "VAN-3",
+     "VAN-4"
+    ]
+   },
+   {
+    "name": "Intersticial",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Capo",
+      "Llamo a los linfocitos."
+     ]
+    ],
+    "topics": [
+     "Intersticial"
+    ],
+    "questions": [
+     "NSA-1",
+     "NSA-2"
+    ]
+   },
+   {
+    "name": "Cristales y metales",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Capo",
+      "Me precipito."
+     ]
+    ],
+    "topics": [
+     "Cristales y metales"
+    ],
+    "questions": [
+     "NSA-3",
+     "NSA-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Guarida de Los Nefrotóxicos",
+   "text": "AINE: aferente. Aminoglucósido: megalina, proximal, no oligúrica, día 5–7, pierde K y Mg. Dosis única diaria reduce toxicidad."
+  },
+  {
+   "title": "Intersticio Infiltrado",
+   "text": "ICI → NTI (semanas–meses); IBP y AINE como cofactores; esteroides. Calcineurínicos: vasoconstricción aguda y fibrosis crónica. Cisplatino: pierde magnesio."
+  },
+  {
+   "title": "💎 Vancomicina en hemodiálisis: dosis y niv",
+   "text": "Vancomicina en HD: carga 20–25 mg/kg, mantenimiento 500 mg–1 g post-HD, valle prediálisis 15–20 mg/L."
+  },
+  {
+   "title": "💎 Necrosis papilar por AINE",
+   "text": "Necrosis papilar: diabetes, drepanocitosis, analgésicos/AINE, obstrucción. TC: papilas irregulares; urografía: 'sombra anular'."
+  },
+  {
+   "title": "💎 Prevención de la nefrotoxicidad antibiót",
+   "text": "NTA por aminoglucósidos: cambiar a alternativa no nefrotóxica sensible; evitar sumar nefrotóxicos (vancomicina, asa, contraste)."
+  },
+  {
+   "title": "💎 Nefrotoxicidad por aminoglucósidos",
+   "text": "Aminoglucósidos: megalina-cubilina → lisosoma/mitocondria; NTA no oligúrica a los 5–7 días con hipoMg e hipoK. Dosis única diaria."
+  },
+  {
+   "title": "💎 Vancomicina: vigilancia y riesgo",
+   "text": "Fuente más nueva: consenso 2020; Johnson aún describe la meta de valle. Lesión: NTA, a veces NTI o DRESS. HD de alto flujo si los niveles son muy altos."
+  },
+  {
+   "title": "💎 Tenofovir",
+   "text": "TDF entra al túbulo proximal por OAT y daña el ADN mitocondrial: mitocondrias dismórficas. Riesgo: ERC previa, edad, CD4 bajos, dosis y duración. Biopsia si no mejora."
+  },
+  {
+   "title": "💎 Contraste intravenoso y TFG",
+   "text": "Johnson coincide: estudios pareados recientes muestran riesgo similar con TC sin contraste. El contraste intraarterial conlleva más riesgo."
+  },
+  {
+   "title": "💎 Vancomicina fuera de diálisis: AUC y nef",
+   "text": "Vancomicina SARM grave: guiar por AUC/CIM 400–600 (bayesiano) en vez de valle 15–20. En HD se usa el valle prediálisis."
+  }
+ ]
+}

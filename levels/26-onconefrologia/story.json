@@ -1,0 +1,799 @@
+{
+ "meta": {
+  "id": "26",
+  "title": "Cáncer y riñón",
+  "key": "rm_v3_26",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Tumor",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Masa en el Parénquima",
+   "palette": [
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
+   ],
+   "tiles": "valle",
+   "vignette": "tumor",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 62 años: hematuria, masa renal de 6 cm, hemoglobina 17 y calcio 11.5."
+    ],
+    [
+     "Dr. J.",
+     "Sí, hemoglobina alta. El tumor fabrica cosas."
+    ],
+    [
+     "Sabio Brenn",
+     "Carcinoma de células claras: gen VHL, HIF sin freno, VEGF y eritropoyetina."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "VHL Perdido",
+     "lines": [
+      [
+       "VHL Perdido",
+       "Sin mí, HIF no se degrada. La célula cree que le falta oxígeno."
+      ],
+      [
+       "VHL Perdido",
+       "Por eso el tumor es tan vascular y a veces produce EPO."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "VHL"
+    },
+    {
+     "id": "npc2",
+     "name": "Nefrona Restante",
+     "lines": [
+      [
+       "Nefrona Restante",
+       "Tras la nefrectomía, yo hiperfiltro. Cuídame."
+      ],
+      [
+       "Nefrona Restante",
+       "Si se puede, nefrectomía parcial: preserva nefronas."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "nefrectomía parcial"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Paraneoplásicos",
+     "Eritrocitosis, hipercalcemia (PTHrP), HTA, disfunción hepática (Stauffer)."
+    ],
+    [
+     "Letrero · Bosniak",
+     "I–II benignos; IIF seguimiento; III–IV quirúrgicos."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "uro",
+     "specialty": "Urología",
+     "serie": "VEG",
+     "intro": [
+      [
+       "Dr. Bruno Salas",
+       "Masa renal: nefrectomía radical siempre. Limpio y rápido."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Bruno Salas",
+       "T1 pequeño: parcial para cuidar la TFG. De acuerdo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "MIF",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Tres camas, un minuto. Yo resuelvo sin pensar."
+      ],
+      [
+       "Dra. Carmen Triaje",
+       "Mi caso: Metotrexato en dosis altas: nefropatía por cristales"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Pensar un minuto salvó la cama tres."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "AZ28-1",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Protección renal en cáncer"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Célula Clara",
+     "type": "Celular",
+     "topic": "Célula Clara"
+    },
+    {
+     "name": "PTHrP",
+     "type": "Molecular",
+     "topic": "PTHrP"
+    },
+    {
+     "name": "Trombo en Vena Cava",
+     "type": "Molecular",
+     "topic": "Trombo en Vena Cava"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Carcinoma de células renales: presentación y manejo",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: tratar el cáncer también es cuidar la TFG."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Tumor y pista",
+     "items": [],
+     "pairs": [
+      [
+       "Células claras",
+       "VHL, el más frecuente"
+      ],
+      [
+       "Papilar",
+       "Diálisis y quistes adquiridos"
+      ],
+      [
+       "Cromófobo",
+       "Birt-Hogg-Dubé"
+      ],
+      [
+       "Angiomiolipoma",
+       "Esclerosis tuberosa; grasa en TC"
+      ],
+      [
+       "Urotelial alto",
+       "Aristolóquico, analgésicos"
+      ],
+      [
+       "Oncocitoma",
+       "Cicatriz central; benigno"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Riñón de mieloma",
+       "Nefropatía por cilindros de cadenas ligeras"
+      ],
+      [
+       "MGRS",
+       "Gammapatía de significado renal"
+      ],
+      [
+       "Amiloidosis AL",
+       "Rojo Congo, verde manzana"
+      ],
+      [
+       "Inhibidores de VEGF",
+       "HTA, proteinuria, MAT"
+      ],
+      [
+       "Ifosfamida",
+       "Síndrome de Fanconi"
+      ],
+      [
+       "Metotrexato tóxico",
+       "Glucarpidasa"
+      ],
+      [
+       "CAR-T",
+       "LRA por liberación de citocinas"
+      ],
+      [
+       "Inhibidor de checkpoint",
+       "NTI aguda"
+      ],
+      [
+       "Tumor renal T1",
+       "Nefrectomía parcial"
+      ],
+      [
+       "Cadenas ligeras libres",
+       "Cociente κ/λ"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Lo operaron. Luego llegó la inmunoterapia."
+      ]
+     ]
+    }
+   ],
+   "card": "CCR de células claras: VHL → HIF → VEGF. Paraneoplásicos: eritrocitosis, hipercalcemia, Stauffer. Nefrectomía parcial cuando sea posible."
+  },
+  {
+   "id": "z2",
+   "name": "Túbulo Bajo Quimioterapia",
+   "palette": [
+    "#FBD8E2",
+    "#E48AA8",
+    "#A8436A",
+    "#4A1A2A"
+   ],
+   "tiles": "proximal",
+   "vignette": "proximal_quimio",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Cada antineoplásico tiene su segmento y su firma."
+    ],
+    [
+     "Sabio Brenn",
+     "Anti-VEGF: hipertensión, proteinuria y MAT limitada al riñón."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Cisplatino",
+     "lines": [
+      [
+       "Cisplatino",
+       "Entro por OCT2 al túbulo proximal. Dejo LRA y pérdida de magnesio."
+      ],
+      [
+       "Cisplatino",
+       "Hidratación con salina antes y después. Corrige el magnesio."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "cisplatino"
+    },
+    {
+     "id": "npc2",
+     "name": "Metotrexato",
+     "lines": [
+      [
+       "Metotrexato",
+       "A dosis alta precipito en orina ácida."
+      ],
+      [
+       "Metotrexato",
+       "Alcaliniza, hidrata, da leucovorina. Si me acumulo: glucarpidasa."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "metotrexato"
+    },
+    {
+     "id": "npc3",
+     "name": "Ifosfamida",
+     "lines": [
+      [
+       "Ifosfamida",
+       "Mi metabolito cloroacetaldehído causa Fanconi. La mesna no lo evita."
+      ]
+     ],
+     "gift": null,
+     "recall": "ifosfamida"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · ICI",
+     "Nefritis intersticial aguda; esteroide; la reintroducción es posible en muchos."
+    ],
+    [
+     "Letrero · CAR-T",
+     "Liberación de citocinas: LRA prerrenal y por fuga capilar."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "onco",
+     "specialty": "Oncología",
+     "serie": "PAR",
+     "intro": [
+      [
+       "Dra. Mitosis Lara",
+       "Proteinuria con bevacizumab: es del tumor. Sigo igual."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Mitosis Lara",
+       "Proteinuria, hipertensión, MAT… es el anti-VEGF. Lo pauso."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "IMG",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: Lesión quística compleja con ERC avanzada: ecografía con contraste"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "AZ28-2",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Protección renal en cáncer"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Anti-VEGF",
+     "type": "Molecular",
+     "topic": "Anti-VEGF"
+    },
+    {
+     "name": "Linfocito T Liberado",
+     "type": "Celular",
+     "topic": "Linfocito T Liberado"
+    },
+    {
+     "name": "Lisis Tumoral",
+     "type": "Molecular",
+     "topic": "Lisis Tumoral"
+    },
+    {
+     "name": "Magnesio Perdido",
+     "type": "Molecular",
+     "topic": "Magnesio Perdido"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Nefrotoxicidad de antineoplásicos",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Fármaco, segmento, firma. Tres datos por cada uno."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Antineoplásico y lesión",
+     "items": [],
+     "pairs": [
+      [
+       "Cisplatino",
+       "NTA proximal, hipomagnesemia"
+      ],
+      [
+       "Ifosfamida",
+       "Fanconi"
+      ],
+      [
+       "Metotrexato dosis alta",
+       "Cristales"
+      ],
+      [
+       "Bevacizumab",
+       "HTA, proteinuria, MAT"
+      ],
+      [
+       "Anti-PD-1",
+       "Nefritis intersticial"
+      ],
+      [
+       "Cetuximab",
+       "Hipomagnesemia"
+      ],
+      [
+       "Pemetrexed",
+       "Daño tubular, DI"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Dr. J.",
+       "El folleto del cisplatino dice: «Patrocinio: Hemo-Eterna». Qué raro."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Creatinina en 2.4 a las 10 semanas de inmunoterapia. Ve."
+      ]
+     ]
+    }
+   ],
+   "card": "Cisplatino: proximal + ↓Mg. Ifosfamida: Fanconi. MTX: cristales (alcalinizar, leucovorina). Anti-VEGF: HTA/proteinuria/MAT. ICI: NTI."
+  }
+ ],
+ "boss": {
+  "name": "El Tumor",
+  "color": "#B565A7",
+  "dark": "#3a1a38",
+  "heads": 1,
+  "form": "masa",
+  "crescent": false,
+  "intro": [
+   [
+    "El Tumor",
+    "Crezco en tu riñón, o lejos de él. Y lo que usas contra mí también lo daña."
+   ],
+   [
+    "Dr. J.",
+    "Neoplasia renal, daño por tumor lejano y toxicidad del tratamiento."
+   ]
+  ],
+  "outro": [
+   [
+    "El Tumor",
+    "Retrocedo… pero cada ciclo de cisplatino me deja un recuerdo."
+   ],
+   [
+    "Sabio Brenn",
+    "Fin del Acto II. Lo que sigue no se cura: se acompaña."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Neoplasias renales",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Tumor",
+      "¿Qué soy y cómo me presento?"
+     ]
+    ],
+    "topics": [
+     "Neoplasias renales"
+    ],
+    "questions": [
+     "ICI-1",
+     "ICI-2"
+    ]
+   },
+   {
+    "name": "Daño por tumor extrarrenal",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Tumor",
+      "Te daño desde lejos."
+     ]
+    ],
+    "topics": [
+     "Daño por tumor extrarrenal"
+    ],
+    "questions": [
+     "ICI-3",
+     "ICI-4"
+    ]
+   },
+   {
+    "name": "Antineoplásicos",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Tumor",
+      "Tu arma te hiere."
+     ]
+    ],
+    "topics": [
+     "Antineoplásicos"
+    ],
+    "questions": [
+     "CSP-1",
+     "CSP-2"
+    ]
+   },
+   {
+    "name": "Inmunoterapia",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Tumor",
+      "Solté a tus linfocitos."
+     ]
+    ],
+    "topics": [
+     "Inmunoterapia"
+    ],
+    "questions": [
+     "CSP-3",
+     "CSP-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Masa en el Parénquima",
+   "text": "CCR de células claras: VHL → HIF → VEGF. Paraneoplásicos: eritrocitosis, hipercalcemia, Stauffer. Nefrectomía parcial cuando sea posible."
+  },
+  {
+   "title": "Túbulo Bajo Quimioterapia",
+   "text": "Cisplatino: proximal + ↓Mg. Ifosfamida: Fanconi. MTX: cristales (alcalinizar, leucovorina). Anti-VEGF: HTA/proteinuria/MAT. ICI: NTI."
+  },
+  {
+   "title": "💎 Resonancia magnética y gadolinio en ERC",
+   "text": "Gadolinio: NSF si TFG <30, sobre todo grupo I lineal. Grupo II macrocíclico: riesgo muy bajo, usar si es necesario. RM ≠ siempre preferible a TC."
+  },
+  {
+   "title": "💎 Lesión quística compleja con ERC avanzad",
+   "text": "Quiste complejo + contraste yodado contraindicado: ecografía con contraste (S 95%, E 79%). TC con contraste = referencia (S 90%, E 85%)."
+  },
+  {
+   "title": "💎 Protección renal en cáncer",
+   "text": "La disfunción renal disminuye la absorción, aumenta la fracción libre del fármaco (hipoalbuminemia y competencia de las toxinas urémicas por la unión a proteínas) y retrasa la eliminación (McMahon, Kidney360 2020)."
+  },
+  {
+   "title": "💎 Protección renal en cáncer",
+   "text": "Los estudios observacionales muestran mayor riesgo de interrupción (OR 1.7) y de modificación de la dosis (OR 2.0) en pacientes con función renal disminuida no identificada (Chen 2015)."
+  },
+  {
+   "title": "💎 Protección renal en cáncer",
+   "text": "El 51Cr-EDTA es un marcador exógeno que se administra para medir la TFG (Rosner, CA Cancer J Clin 2021)."
+  },
+  {
+   "title": "💎 Protección renal en cáncer",
+   "text": "En todos los pacientes deben identificarse y corregirse los factores reversibles de daño renal (volumen, nefrotóxicos, obstrucción, enfermedad renal previa)."
+  },
+  {
+   "title": "💎 Protección renal en cáncer",
+   "text": "KDIGO 2024 recomienda la TFGe creatinina-cistatina cuando la TFGe por creatinina es menos precisa y la TFG afecta decisiones clínicas; en pacientes con cáncer tuvo el menor sesgo y la mayor precisión (error > 30% en 7.8%)."
+  },
+  {
+   "title": "💎 Protección renal en cáncer",
+   "text": "Estudios observacionales y un estudio multicéntrico reciente mostraron que el magnesio IV profiláctico antes del cisplatino reduce el riesgo de lesión renal aguda (Gupta, JAMA Oncol 2025)."
+  }
+ ]
+}

@@ -1,0 +1,1074 @@
+{
+ "meta": {
+  "id": "5",
+  "title": "Estudios diagnósticos",
+  "key": "rm_v3_5",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Sedimento",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Laboratorio de Ecuaciones",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "tfg_ecuacion",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer de 70 años, delgada, con creatinina 0.9. Todos dicen que su riñón está perfecto."
+    ],
+    [
+     "Dr. J.",
+     "Yo no les creo. Mide de verdad."
+    ],
+    [
+     "Sabio Brenn",
+     "La creatinina sale del músculo. Con poco músculo, miente."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Cistatina C",
+     "lines": [
+      [
+       "Cistatina C",
+       "Me produce toda célula con núcleo. No dependo del músculo."
+      ],
+      [
+       "Cistatina C",
+       "Me alteran esteroides, tiroides, obesidad e inflamación."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "cistatina"
+    },
+    {
+     "id": "npc2",
+     "name": "CKD-EPI 2021",
+     "lines": [
+      [
+       "CKD-EPI 2021",
+       "Ya no uso el coeficiente de raza. Solo creatinina, edad y sexo."
+      ],
+      [
+       "CKD-EPI 2021",
+       "Combinada con cistatina soy más exacta."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Creatinina",
+     "Trimetoprim, cimetidina y dolutegravir bloquean su secreción: sube sin cambiar la TFG."
+    ],
+    [
+     "Letrero · Albuminuria",
+     "A1 <30, A2 30–300, A3 >300 mg/g."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "EGO",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Creatinina normal, riñón normal. Así de fácil a los 80."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "¿Sarcopenia? Con razón mis dosis estaban pasadas."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "BXJ-3",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: Antitrombóticos antes de biopsia"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "ECO",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: Ecografía renal: tamaño y ecogenicidad en ERC"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Creatinina Mentirosa",
+     "type": "Molecular",
+     "topic": "Creatinina Mentirosa"
+    },
+    {
+     "name": "Coeficiente Obsoleto",
+     "type": "Molecular",
+     "topic": "Coeficiente Obsoleto"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Estimación de la TFG: creatinina y cistatina C",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro del nivel: creatinina «normal» con TFG baja. La cistatina delata al impostor."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Sube la creatinina sin bajar la TFG",
+     "items": [],
+     "pairs": [
+      [
+       "Trimetoprim",
+       "Bloquea secreción tubular"
+      ],
+      [
+       "Cimetidina",
+       "Bloquea secreción tubular"
+      ],
+      [
+       "Carne cocida",
+       "Más creatina ingerida"
+      ],
+      [
+       "Dolutegravir",
+       "Inhibe OCT2"
+      ],
+      [
+       "Fenofibrato",
+       "Aumenta la producción"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Sedimento urinario",
+     "bins": [
+      "Glomerular",
+      "Tubular",
+      "Intersticial/infeccioso"
+     ],
+     "items": [
+      [
+       "Cilindros eritrocitarios",
+       "Glomerular"
+      ],
+      [
+       "Acantocitos > 5%",
+       "Glomerular"
+      ],
+      [
+       "Cilindros granulosos pardos",
+       "Tubular"
+      ],
+      [
+       "Células epiteliales tubulares",
+       "Tubular"
+      ],
+      [
+       "Cilindros leucocitarios",
+       "Intersticial/infeccioso"
+      ],
+      [
+       "Eosinofiluria",
+       "Intersticial/infeccioso"
+      ],
+      [
+       "Cuerpos ovales grasos",
+       "Glomerular"
+      ],
+      [
+       "Piuria con bacterias",
+       "Intersticial/infeccioso"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "CKD-EPI 2021",
+       "Ecuación sin coeficiente racial"
+      ],
+      [
+       "Cistatina C",
+       "Independiente de masa muscular"
+      ],
+      [
+       "Cilindros eritrocitarios",
+       "Glomerulonefritis"
+      ],
+      [
+       "Cilindros granulosos pardos",
+       "Necrosis tubular aguda"
+      ],
+      [
+       "Cilindros leucocitarios",
+       "Pielonefritis / NTI"
+      ],
+      [
+       "Acantocitos",
+       "Hematuria glomerular"
+      ],
+      [
+       "RAC 30–300 mg/g",
+       "Albuminuria A2"
+      ],
+      [
+       "Proteinuria nefrótica",
+       "> 3.5 g/24 h"
+      ],
+      [
+       "Cristales en sobre",
+       "Oxalato de Ca dihidratado"
+      ],
+      [
+       "Contraindicación de biopsia",
+       "Coagulopatía o HTA no controlada"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Ahora salta. Vas a salir por la orina."
+      ]
+     ]
+    }
+   ],
+   "card": "CKD-EPI 2021 sin raza. Cistatina C cuando la masa muscular engaña. ACR: A1 <30, A2 30–300, A3 >300 mg/g."
+  },
+  {
+   "id": "z2",
+   "name": "Pantano del Sedimento",
+   "palette": [
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
+   ],
+   "tiles": "tubulo",
+   "vignette": "sedimento",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Aterrizaste en el sedimento. Cada cilindro es un molde del túbulo donde se formó."
+    ],
+    [
+     "Sabio Brenn",
+     "Si lleva eritrocitos, la sangre vino del glomérulo."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Acantocito",
+     "lines": [
+      [
+       "Acantocito",
+       "Soy un eritrocito con orejas de Mickey. Me deformé al cruzar la membrana basal."
+      ],
+      [
+       "Acantocito",
+       "Con 5 % de nosotros, piensa en hematuria glomerular."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "acantocitos"
+    },
+    {
+     "id": "npc2",
+     "name": "Cilindro Granuloso Pardo",
+     "lines": [
+      [
+       "Cilindro Granuloso Pardo",
+       "Estoy hecho de células tubulares muertas. Soy la firma de la necrosis tubular aguda."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "cilindros granulosos"
+    },
+    {
+     "id": "npc3",
+     "name": "Uromodulina",
+     "lines": [
+      [
+       "Uromodulina",
+       "Soy la matriz de todos los cilindros. Me secreta la rama ascendente gruesa."
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Cilindros",
+     "Eritrocitarios: GN. Leucocitarios: pielonefritis o NTI. Céreos anchos: ERC avanzada."
+    ],
+    [
+     "Letrero · Tira reactiva",
+     "No ve cadenas ligeras. Hemo positivo sin eritrocitos: mioglobina o hemoglobina."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "uro",
+     "specialty": "Urología",
+     "serie": "PTU",
+     "intro": [
+      [
+       "Dr. Bruno Salas",
+       "Toda hematuria es mía: cistoscopia y ya."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Bruno Salas",
+       "Dismórficos y cilindros… esa es tuya, nefro."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "RXJ-7",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Contraste yodado y riesgo de LRA"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "EGF",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: Estimación de la TFG: cuándo añadir cistatina C"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    }
+   ],
+   "wild": [
+    {
+     "name": "Cristal de Oxalato",
+     "type": "Molecular",
+     "topic": "Cristal de Oxalato"
+    },
+    {
+     "name": "Cilindro Hialino",
+     "type": "Molecular",
+     "topic": "Cilindro Hialino"
+    },
+    {
+     "name": "Leucocito Estéril",
+     "type": "Innato",
+     "topic": "Leucocito Estéril"
+    },
+    {
+     "name": "Eritrocito Isomórfico",
+     "type": "Celular",
+     "topic": "Eritrocito Isomórfico"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Sedimento urinario: cilindros y hematuria glomerular",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Dime el cilindro y te diré el síndrome."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Cilindro y síndrome",
+     "items": [],
+     "pairs": [
+      [
+       "Eritrocitario",
+       "Glomerulonefritis"
+      ],
+      [
+       "Granuloso pardo",
+       "Necrosis tubular aguda"
+      ],
+      [
+       "Leucocitario",
+       "Pielonefritis o NTI"
+      ],
+      [
+       "Graso / cuerpos ovales",
+       "Síndrome nefrótico"
+      ],
+      [
+       "Céreo ancho",
+       "ERC avanzada"
+      ],
+      [
+       "Hialino",
+       "Inespecífico, deshidratación"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Radiotrazadores renales",
+     "bins": [
+      "Filtración",
+      "Secreción tubular",
+      "Cortical"
+     ],
+     "items": [
+      [
+       "99mTc-DTPA",
+       "Filtración"
+      ],
+      [
+       "51Cr-EDTA",
+       "Filtración"
+      ],
+      [
+       "99mTc-MAG3",
+       "Secreción tubular"
+      ],
+      [
+       "Estima el flujo plasmático renal efectivo",
+       "Secreción tubular"
+      ],
+      [
+       "99mTc-DMSA",
+       "Cortical"
+      ],
+      [
+       "Glucoheptonato",
+       "Cortical"
+      ],
+      [
+       "Cicatrices por reflujo",
+       "Cortical"
+      ],
+      [
+       "Primera elección en trasplante",
+       "Secreción tubular"
+      ]
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Mi amigo el radiólogo te espera. Y después, la aguja."
+      ]
+     ]
+    }
+   ],
+   "card": "Hematuria glomerular: acantocitos ≥5 %, cilindros eritrocitarios, proteinuria. Granulosos pardos = NTA. Tira: no ve cadenas ligeras."
+  },
+  {
+   "id": "z3",
+   "name": "Sala de Imagen y Biopsia",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "biopsia",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Ultrasonido primero: tamaño, ecogenicidad e hidronefrosis."
+    ],
+    [
+     "Sabio Brenn",
+     "Riñones pequeños e hiperecogénicos: cronicidad. Ahí la biopsia aporta poco y sangra más."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Dr. Hugo Contraste",
+     "lines": [
+      [
+       "Dr. Hugo Contraste",
+       "Gadolinio del grupo II: riesgo muy bajo de fibrosis sistémica nefrogénica."
+      ],
+      [
+       "Dr. Hugo Contraste",
+       "Con TFG <30 pondera, pero no niegues un estudio necesario."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Aguja 16G",
+     "lines": [
+      [
+       "Aguja 16G",
+       "Antes de entrar: presión controlada, sin anticoagulantes, coagulación corregida."
+      ],
+      [
+       "Aguja 16G",
+       "El sangrado ocurre casi siempre en las primeras 24 horas."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "biopsia renal"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Contraindicaciones",
+     "Sangrado no corregido, HTA descontrolada, infección activa, riñones pequeños."
+    ],
+    [
+     "Letrero · Tres microscopios",
+     "Luz, inmunofluorescencia y electrónica. Muestra adecuada: ≥10 glomérulos."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "radio",
+     "specialty": "Radiología",
+     "serie": "GFJ-3",
+     "intro": [
+      [
+       "Dr. Hugo Contraste",
+       "Con una TAC con contraste se ve todo. ¿Para qué biopsiar?"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Hugo Contraste",
+       "La imagen no da la histología. Entendido."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "IMG",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Lesión quística compleja con ERC avanzada: ecografía con contraste"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "AZ26-2",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Nefropatología para el nefrólogo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Hematoma Perirrenal",
+     "type": "Molecular",
+     "topic": "Hematoma Perirrenal"
+    },
+    {
+     "name": "Quiste Bosniak",
+     "type": "Celular",
+     "topic": "Quiste Bosniak"
+    },
+    {
+     "name": "Hidronefrosis Silenciosa",
+     "type": "Molecular",
+     "topic": "Hidronefrosis Silenciosa"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Biopsia renal: indicaciones, contraindicaciones y complicaciones",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Antes de picar: ¿cambiará el tratamiento? ¿El riesgo es aceptable?"
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Antes de la biopsia",
+     "items": [
+      "Confirmar indicación que cambie la conducta",
+      "Ultrasonido: dos riñones de tamaño normal",
+      "Controlar la presión arterial",
+      "Suspender antiagregantes y anticoagulantes",
+      "Corregir coagulación; desmopresina si uremia",
+      "Vigilancia 24 h tras el procedimiento"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Biopsia renal: secuencia segura",
+     "items": [
+      "Indicación y consentimiento",
+      "US: dos riñones de tamaño normal sin obstrucción",
+      "Plaquetas, TP y TTPa; suspender antitrombóticos",
+      "Controlar PA y descartar infección urinaria",
+      "Punción en tiempo real del polo inferior, 16 G, ≤4 pases",
+      "Reposo 6–8 h y vigilancia de 6 a 12 h según riesgo"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Prepárate. Hay algo escondido en el sedimento."
+      ]
+     ]
+    }
+   ],
+   "card": "Biopsia: indicación que cambie conducta; contraindicada con sangrado no corregido, HTA descontrolada, infección, riñones pequeños. ≥10 glomérulos; LM + IF + ME."
+  }
+ ],
+ "boss": {
+  "name": "El Sedimento Oculto",
+  "color": "#b8860b",
+  "dark": "#4a3200",
+  "heads": 1,
+  "form": "cristal",
+  "crescent": false,
+  "intro": [
+   [
+    "El Sedimento",
+    "Estoy en el fondo del tubo. Nadie me centrifuga, nadie me mira."
+   ],
+   [
+    "Dr. J.",
+    "Míralo tú. El laboratorio automatizado no ve cilindros."
+   ]
+  ],
+  "outro": [
+   [
+    "El Sedimento",
+    "Me viste. Pocos lo hacen."
+   ],
+   [
+    "Dr. J.",
+    "Herramientas listas. El siguiente paciente viene grave, y es real."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "TFG y proteinuria",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Sedimento",
+      "¿Cuánto filtras en realidad?"
+     ]
+    ],
+    "topics": [
+     "TFG y proteinuria"
+    ],
+    "questions": [
+     "PRT-1",
+     "PRT-2",
+     "PRT-3"
+    ]
+   },
+   {
+    "name": "Sedimento",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Sedimento",
+      "Interprétame."
+     ]
+    ],
+    "topics": [
+     "Sedimento"
+    ],
+    "questions": [
+     "HMG-1",
+     "HMG-2"
+    ]
+   },
+   {
+    "name": "Imagen",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Sedimento",
+      "Elige el estudio."
+     ]
+    ],
+    "topics": [
+     "Imagen"
+    ],
+    "questions": [
+     "HMG-3",
+     "PRO-1",
+     "PRO-2"
+    ]
+   },
+   {
+    "name": "Biopsia",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Sedimento",
+      "¿Te atreves a picar?"
+     ]
+    ],
+    "topics": [
+     "Biopsia"
+    ],
+    "questions": [
+     "PRO-3",
+     "PRO-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Laboratorio de Ecuaciones",
+   "text": "CKD-EPI 2021 sin raza. Cistatina C cuando la masa muscular engaña. ACR: A1 <30, A2 30–300, A3 >300 mg/g."
+  },
+  {
+   "title": "Pantano del Sedimento",
+   "text": "Hematuria glomerular: acantocitos ≥5 %, cilindros eritrocitarios, proteinuria. Granulosos pardos = NTA. Tira: no ve cadenas ligeras."
+  },
+  {
+   "title": "Sala de Imagen y Biopsia",
+   "text": "Biopsia: indicación que cambie conducta; contraindicada con sangrado no corregido, HTA descontrolada, infección, riñones pequeños. ≥10 glomérulos; LM + IF + ME."
+  },
+  {
+   "title": "💎 Proteinuria no albuminúrica: discordanci",
+   "text": "Tira (-) + RAC baja + PCR alta + SSA (+) = proteinuria no albuminúrica: cadenas ligeras (mieloma)."
+  },
+  {
+   "title": "💎 Estratificación de riesgo por TFG y albu",
+   "text": "ERC: >3 meses de TFG <60 o daño (albuminuria ≥30 mg/g). G2A2 en DM: IECA/ARA II (A2–A3) + iSGLT2 (TFGe ≥20) ± finerenona. Proteína ~0.8 g/kg/d."
+  },
+  {
+   "title": "💎 Rango nefrótico y tipos de proteinuria",
+   "text": "Rango nefrótico adulto: >3.5 g/24 h o PCR >3–3.5 g/g. En DM, hematuria dismórfica/cilindros, sin retinopatía o inicio rápido → biopsia (¿NDRD?)."
+  },
+  {
+   "title": "💎 Estudio inicial de gammapatía monoclonal",
+   "text": "Sospecha de mieloma: CLL séricas (κ/λ) + inmunofijación sérica y urinaria + médula ósea + imagen ósea. EPS sola no basta."
+  },
+  {
+   "title": "💎 Resonancia magnética y gadolinio en ERC",
+   "text": "Gadolinio: NSF si TFG <30, sobre todo grupo I lineal. Grupo II macrocíclico: riesgo muy bajo, usar si es necesario. RM ≠ siempre preferible a TC."
+  },
+  {
+   "title": "💎 Lesión quística compleja con ERC avanzad",
+   "text": "Quiste complejo + contraste yodado contraindicado: ecografía con contraste (S 95%, E 79%). TC con contraste = referencia (S 90%, E 85%)."
+  },
+  {
+   "title": "💎 Nefropatía por cilindros: biopsia y trat",
+   "text": "Cilindros de mieloma: bortezomib + dexametasona ya; CLL >500 mg/L permite omitir biopsia; evitar AINE/contraste; reducción rápida de CLL = recuperación renal."
+  },
+  {
+   "title": "💎 Adecuación de la recolección de orina de",
+   "text": "24 h completa: creatinina 20–25 mg/kg/día (varón), 15–20 (mujer). Preferir PCR/RAC en muestra aislada."
+  }
+ ]
+}

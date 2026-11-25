@@ -1,0 +1,472 @@
+{
+ "pasto": [
+  {
+   "id": "P2-1",
+   "vf": true,
+   "enunciado": "El riñón definitivo deriva del metanefros.",
+   "clave": "V",
+   "exp": "Pronefros y mesonefros involucionan; el metanefros persiste.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-2",
+   "vf": true,
+   "enunciado": "La yema ureteral origina los glomérulos.",
+   "clave": "F",
+   "exp": "Origina el sistema colector; la nefrona viene del mesénquima metanéfrico.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-3",
+   "vf": true,
+   "enunciado": "La nefrina es una proteína del diafragma de hendidura del podocito.",
+   "clave": "V",
+   "exp": "Codificada por NPHS1; su ausencia causa nefrótico congénito finlandés.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-4",
+   "vf": true,
+   "enunciado": "Los AINE dilatan la arteriola aferente.",
+   "clave": "F",
+   "exp": "La cierran al inhibir prostaglandinas vasodilatadoras.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-5",
+   "vf": true,
+   "enunciado": "La angiotensina II contrae sobre todo la arteriola aferente.",
+   "clave": "F",
+   "exp": "Contrae sobre todo la eferente; por eso IECA y ARA bajan la presión intraglomerular.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-6",
+   "vf": true,
+   "enunciado": "La fracción de filtración normal es cercana al 20 %.",
+   "clave": "V",
+   "exp": "FF = TFG / flujo plasmático renal.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-7",
+   "vf": true,
+   "enunciado": "El túbulo proximal reabsorbe cerca de dos tercios del sodio filtrado.",
+   "clave": "V",
+   "exp": "También casi todo el bicarbonato, la glucosa y los aminoácidos.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-8",
+   "vf": true,
+   "enunciado": "NKCC2 está en la membrana basolateral del túbulo distal.",
+   "clave": "F",
+   "exp": "Es luminal y está en la rama ascendente gruesa del asa.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-9",
+   "vf": true,
+   "enunciado": "La tiazida bloquea el cotransportador NCC del túbulo contorneado distal.",
+   "clave": "V",
+   "exp": "Por eso aumenta la reabsorción de calcio y baja la calciuria.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-10",
+   "vf": true,
+   "enunciado": "Después del nacimiento a término se siguen formando nefronas nuevas.",
+   "clave": "F",
+   "exp": "La nefrogénesis termina hacia la semana 34–36.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-11",
+   "vf": true,
+   "enunciado": "La mácula densa detecta el cloro tubular a través de NKCC2.",
+   "clave": "V",
+   "exp": "Más cloro distal → adenosina → vasoconstricción aferente.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  },
+  {
+   "id": "P2-12",
+   "vf": true,
+   "enunciado": "La rama ascendente gruesa es permeable al agua.",
+   "clave": "F",
+   "exp": "Es impermeable: diluye la orina y concentra la médula.",
+   "tema": "Bases estructurales y funcionales",
+   "nivel": "moderada",
+   "referencia": "Brenner and Rector's The Kidney, 11.ª ed."
+  }
+ ],
+ "puertas": [],
+ "entrenadores": [
+  {
+   "id": "T2-1DEP-1",
+   "serie_id": "T2-1DEP",
+   "orden": 1,
+   "sub": "1",
+   "subtema": "Depuración y medición de la TFG",
+   "caso": "Varón sano de 30 años: creatinina sérica 1.0 mg/dL, creatinina urinaria 100 mg/dL y volumen urinario de 1 440 mL en 24 horas.",
+   "continuacion": "",
+   "enunciado": "¿Cuál es su depuración de creatinina?",
+   "opciones": {
+    "A": "144 mL/min",
+    "B": "1 440 mL/min",
+    "C": "14.4 mL/min",
+    "D": "10 mL/min",
+    "E": "100 mL/min"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "No convierte bien el volumen a mL/min.",
+    "B": "1 440 es el volumen de 24 h en mL, no la depuración.",
+    "C": "Divide el volumen entre 100 en lugar de multiplicar por U/P.",
+    "D": "Error de un factor de 10; el cálculo correcto da 100 mL/min.",
+    "E": "Correcto. Depuración = (U × V) / P = (100 × 1 mL/min) / 1 = 100 mL/min."
+   },
+   "perla": "Truco: 1 440 mL en 24 h = 1 mL/min, porque el día tiene 1 440 minutos.",
+   "referencias": [
+    "Yu ASL et al. (eds). Brenner and Rector's The Kidney, 11.ª ed. Elsevier"
+   ],
+   "peso": 66,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-1DEP-2",
+   "serie_id": "T2-1DEP",
+   "orden": 2,
+   "sub": "1",
+   "subtema": "Depuración y medición de la TFG",
+   "caso": "",
+   "continuacion": "Se compara con una medición de inulina, que da 88 mL/min.",
+   "enunciado": "¿Por qué la depuración de creatinina es mayor que la de inulina?",
+   "opciones": {
+    "A": "La creatinina se produce también dentro del riñón",
+    "B": "La creatinina también se secreta en el proximal",
+    "C": "La creatinina se reabsorbe en el asa de Henle",
+    "D": "La inulina se secreta en el túbulo colector",
+    "E": "La inulina se une a albúmina y no se filtra"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "La creatinina viene del músculo, no del riñón.",
+    "B": "Correcto. ~10–20 % de la creatinina urinaria viene de secreción proximal (OCT2, MATE): la depuración sobreestima la TFG.",
+    "C": "Si se reabsorbiera, su depuración sería menor, no mayor.",
+    "D": "La inulina no se secreta ni se reabsorbe.",
+    "E": "La inulina se filtra libremente."
+   },
+   "perla": "Dato: con TFG baja la secreción pesa más; en ERC avanzada se promedia la depuración de creatinina con la de urea.",
+   "referencias": [
+    "Yu ASL et al. (eds). Brenner and Rector's The Kidney, 11.ª ed. Elsevier",
+    "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117-S314"
+   ],
+   "peso": 66,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-1DEP-3",
+   "serie_id": "T2-1DEP",
+   "orden": 3,
+   "sub": "1",
+   "subtema": "Depuración y medición de la TFG",
+   "caso": "",
+   "continuacion": "El residente quiere el marcador ideal para medir la TFG.",
+   "enunciado": "¿Qué propiedad define a un marcador ideal de filtración?",
+   "opciones": {
+    "A": "Se une a proteínas para no perderse en orina",
+    "B": "Se secreta en el túbulo a velocidad constante",
+    "C": "Se produce a un ritmo variable según la dieta",
+    "D": "Se filtra libre, sin reabsorción ni secreción",
+    "E": "Se reabsorbe por completo en el túbulo proximal"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "Unido a proteínas no se filtra.",
+    "B": "La secreción hace que sobreestime la TFG.",
+    "C": "Una producción variable impide el estado estable.",
+    "D": "Correcto. Filtración libre, sin reabsorción, secreción ni metabolismo renal: inulina, iohexol.",
+    "E": "Si se reabsorbe, su depuración subestima la TFG."
+   },
+   "perla": "Mnemotecnia del marcador ideal: «filtrado libre, ni secretado ni reabsorbido, ni metabolizado».",
+   "referencias": [
+    "Yu ASL et al. (eds). Brenner and Rector's The Kidney, 11.ª ed. Elsevier"
+   ],
+   "peso": 66,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-1KTB-1",
+   "serie_id": "T2-1KTB",
+   "orden": 1,
+   "sub": "1",
+   "subtema": "Manejo renal del potasio",
+   "caso": "Estudiante de 22 años, sano, que come un plato grande de fruta con unos 3 g de potasio. Su potasio sérico apenas cambia.",
+   "continuacion": "",
+   "enunciado": "¿Dónde se ajusta principalmente la excreción de potasio?",
+   "opciones": {
+    "A": "Célula principal del colector (ROMK y BK)",
+    "B": "Glomérulo, por cambios en la filtración",
+    "C": "Célula intercalada beta, por la pendrina",
+    "D": "Túbulo proximal, por una reabsorción variable",
+    "E": "Rama descendente delgada del asa de Henle"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Correcto. La secreción de la célula principal (ROMK y canales BK) se ajusta a la ingesta, la aldosterona y el flujo.",
+    "B": "Casi todo el potasio filtrado se reabsorbe; la excreción depende de la secreción distal.",
+    "C": "La pendrina intercambia cloro y bicarbonato; no regula el potasio.",
+    "D": "El proximal reabsorbe ~65 % de forma casi fija; no ajusta la excreción.",
+    "E": "La rama delgada no regula la excreción de potasio."
+   },
+   "perla": "Dato: casi todo el potasio filtrado se reabsorbe antes del distal; lo que orinas es, sobre todo, potasio secretado.",
+   "referencias": [
+    "Palmer BF, Clegg DJ. Physiology and pathophysiology of potassium homeostasis. Adv Physiol Educ 2016;40:480-90"
+   ],
+   "peso": 68,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-1KTB-2",
+   "serie_id": "T2-1KTB",
+   "orden": 2,
+   "sub": "1",
+   "subtema": "Manejo renal del potasio",
+   "caso": "",
+   "continuacion": "Su compañero toma furosemida por edema y su potasio baja a 3.0 mEq/L.",
+   "enunciado": "¿Por qué el diurético de asa causa hipopotasemia?",
+   "opciones": {
+    "A": "Mueve el potasio hacia el interior celular",
+    "B": "Bloquea la Na-K-ATPasa de todo el organismo",
+    "C": "Más flujo y sodio distal suben la secreción",
+    "D": "Inhibe de forma directa la secreción de aldosterona",
+    "E": "Impide la reabsorción de potasio en el proximal"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "No causa translocación de potasio.",
+    "B": "No actúa sobre la Na-K-ATPasa sistémica.",
+    "C": "Correcto. Llega más sodio y flujo al colector (más ENaC y luz negativa) y la hipovolemia activa la aldosterona.",
+    "D": "Al contrario: la hipovolemia la estimula.",
+    "E": "Actúa en NKCC2 del asa, no en el proximal."
+   },
+   "perla": "Fórmula mental: secreción de K ≈ aldosterona × flujo distal. Si suben las dos (diurético), cae el potasio.",
+   "referencias": [
+    "Palmer BF, Clegg DJ. Adv Physiol Educ 2016;40:480-90"
+   ],
+   "peso": 68,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-1KTB-3",
+   "serie_id": "T2-1KTB",
+   "orden": 3,
+   "sub": "1",
+   "subtema": "Manejo renal del potasio",
+   "caso": "",
+   "continuacion": "Le agregan amilorida.",
+   "enunciado": "¿Cómo reduce la amilorida la pérdida de potasio?",
+   "opciones": {
+    "A": "Bloquea el receptor de mineralocorticoides",
+    "B": "Inhibe el cotransportador NCC del distal",
+    "C": "Aumenta la reabsorción proximal de potasio",
+    "D": "Estimula a la ROMK para que recicle más potasio",
+    "E": "Bloquea ENaC y vuelve menos negativa la luz"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "Eso hace la espironolactona; la amilorida bloquea el canal directamente.",
+    "B": "El NCC lo bloquean las tiazidas.",
+    "C": "No actúa en el proximal.",
+    "D": "Estimular ROMK aumentaría la pérdida de potasio.",
+    "E": "Correcto. Sin entrada de sodio por ENaC, la luz es menos negativa y se secreta menos potasio por ROMK."
+   },
+   "perla": "Trampa: el trimetoprim bloquea ENaC igual que la amilorida; por eso sube el potasio con TMP-SMX.",
+   "referencias": [
+    "Yu ASL et al. (eds). Brenner and Rector's The Kidney, 11.ª ed. Elsevier"
+   ],
+   "peso": 68,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-1ACI-1",
+   "serie_id": "T2-1ACI",
+   "orden": 1,
+   "sub": "1",
+   "subtema": "Excreción renal de ácido",
+   "caso": "Voluntario sano que recibe una carga ácida de cloruro de amonio por 5 días. Su pH urinario baja a 5.0 y su bicarbonato sérico se recupera.",
+   "continuacion": "",
+   "enunciado": "¿Qué mecanismo genera más bicarbonato nuevo y se adapta más a la carga?",
+   "opciones": {
+    "A": "Excreción de hidrogeniones libres en la orina",
+    "B": "Amoniogénesis proximal a partir de glutamina",
+    "C": "Acidez titulable, sobre todo como fosfato",
+    "D": "Reabsorción proximal del bicarbonato filtrado",
+    "E": "Secreción de bicarbonato por la pendrina"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "Los H+ libres son mínimos aun con pH urinario de 5.",
+    "B": "Correcto. La glutamina da NH4+ y bicarbonato nuevo; la amoniogénesis aumenta varias veces en la acidosis crónica.",
+    "C": "La acidez titulable depende del fosfato filtrado y casi no aumenta.",
+    "D": "Recuperar el bicarbonato filtrado no genera bicarbonato nuevo.",
+    "E": "La pendrina secreta bicarbonato: empeoraría la acidosis."
+   },
+   "perla": "Cifra: a pH urinario 5 solo hay 0.01 mEq/L de H+ libre; casi todo el ácido sale como NH4+ y fosfato.",
+   "referencias": [
+    "Hamm LL, Nakhoul N, Hering-Smith KS. Acid-base homeostasis. Clin J Am Soc Nephrol 2015;10:2232-42"
+   ],
+   "peso": 68,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-1ACI-2",
+   "serie_id": "T2-1ACI",
+   "orden": 2,
+   "sub": "1",
+   "subtema": "Excreción renal de ácido",
+   "caso": "",
+   "continuacion": "En el colector, la célula que secreta protones es la intercalada.",
+   "enunciado": "¿Qué par de transportadores usa la intercalada alfa?",
+   "opciones": {
+    "A": "ENaC apical y Na-K-ATPasa en la basolateral",
+    "B": "NHE3 apical y cotransportador NBCe1 basolateral",
+    "C": "NKCC2 apical y el canal ClC-Kb basolateral",
+    "D": "H+-ATPasa apical y AE1 en la basolateral",
+    "E": "Pendrina apical y H+-ATPasa en la basolateral"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "Es la célula principal.",
+    "B": "NHE3 y NBCe1 son del túbulo proximal.",
+    "C": "Son del asa ascendente gruesa.",
+    "D": "Correcto. Secreta H+ por la H+-ATPasa (y la H-K-ATPasa) apical y devuelve bicarbonato a la sangre por AE1.",
+    "E": "Esa es la disposición de la intercalada beta, que secreta bicarbonato."
+   },
+   "perla": "Mnemotecnia: Alfa = Ácido afuera (H+ a la luz); Beta = Bicarbonato afuera (pendrina).",
+   "referencias": [
+    "Hamm LL et al. Clin J Am Soc Nephrol 2015;10:2232-42"
+   ],
+   "peso": 68,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-1ACI-3",
+   "serie_id": "T2-1ACI",
+   "orden": 3,
+   "sub": "1",
+   "subtema": "Excreción renal de ácido",
+   "caso": "",
+   "continuacion": "Una paciente con síndrome de Sjögren tiene acidosis hiperclorémica, pH urinario de 6.5 y litiasis.",
+   "enunciado": "¿Qué defecto explica mejor el cuadro?",
+   "opciones": {
+    "A": "Falla de la H+-ATPasa de la intercalada alfa",
+    "B": "Déficit de anhidrasa carbónica del proximal",
+    "C": "Hipoaldosteronismo con resistencia tubular",
+    "D": "Falla de NKCC2 en la rama ascendente gruesa",
+    "E": "Exceso de amoniogénesis a partir de glutamina"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Correcto. ATR distal tipo 1: no acidifica la orina (pH >5.5); en Sjögren hay daño autoinmune de la intercalada.",
+    "B": "La ATR proximal acidifica la orina cuando el bicarbonato baja y rara vez da litos.",
+    "C": "La ATR tipo 4 da hiperpotasemia y pH urinario <5.5.",
+    "D": "Eso es Bartter: alcalosis, no acidosis.",
+    "E": "Más amoniogénesis corregiría la acidosis."
+   },
+   "perla": "Cifra: con acidosis sistémica, un pH urinario >5.5 sugiere ATR distal; en la proximal baja a <5.5.",
+   "referencias": [
+    "Hamm LL et al. Clin J Am Soc Nephrol 2015;10:2232-42",
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 68,
+   "tema_id": 1,
+   "tema": "Bases estructurales y funcionales del riñón",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  }
+ ],
+ "jefeC": []
+}

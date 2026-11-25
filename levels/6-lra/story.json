@@ -1,0 +1,1168 @@
+{
+ "meta": {
+  "id": "6",
+  "title": "Lesión renal aguda",
+  "key": "rm_v3_6",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Tormenta",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Terapia Intensiva",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "urgencias",
+   "join": [
+    "sonda",
+    "mac",
+    "neutra"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Primer paciente crítico: varón de 58 años, choque séptico por neumonía."
+    ],
+    [
+     "Dr. J.",
+     "Creatinina de 0.9 a 2.9 en 48 horas y orina 0.3 mL/kg/h. Entras ya."
+    ],
+    [
+     "Sabio Brenn",
+     "Clasifica primero. KDIGO usa creatinina y diuresis, lo que sea peor."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Enfermera Lupita",
+     "lines": [
+      [
+       "Enfermera Lupita",
+       "Balance de hoy: más 4 litros. Ya tiene edema hasta los muslos."
+      ],
+      [
+       "Enfermera Lupita",
+       "El doctor quiere otro litro. ¿De verdad lo necesita?"
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "sobrecarga de líquidos"
+    },
+    {
+     "id": "npc2",
+     "name": "Diuresis Horaria",
+     "lines": [
+      [
+       "Diuresis Horaria",
+       "Menos de 0.5 mL/kg/h por 6 horas ya es estadio 1."
+      ],
+      [
+       "Diuresis Horaria",
+       "Menos de 0.3 por 24 horas, o anuria por 12, es estadio 3."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "estadio KDIGO"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Estadios KDIGO",
+     "1: Cr ×1.5–1.9 o +0.3 mg/dL · 2: ×2–2.9 · 3: ×3, Cr ≥4 o TRR."
+    ],
+    [
+     "Letrero · AKD",
+     "Enfermedad renal aguda: daño o TFG baja por menos de 3 meses. Puente entre LRA y ERC."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "serie": "TLS",
+     "intro": [
+      [
+       "Dr. Max Presor",
+       "LRA séptica es hipoperfusión. Más líquidos y más norepinefrina."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Max Presor",
+       "¿Con flujo renal normal también ocurre? Me cambiaste el esquema."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "BMK",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Biomarcadores de detención del ciclo celular: TIMP-2 por IGFBP-7"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "AZ1-1",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: KDIGO 2026: LRA estructural (B1)"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Citocina Desatada",
+     "type": "Molecular",
+     "topic": "Citocina Desatada"
+    },
+    {
+     "name": "Oliguria",
+     "type": "Molecular",
+     "topic": "Oliguria"
+    },
+    {
+     "name": "Neutrófilo Séptico",
+     "type": "Innato",
+     "topic": "Neutrófilo Séptico"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Definición y estadificación KDIGO de la LRA",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Aumento de 0.3 mg/dL en 48 h, o 1.5 veces en 7 días, o diuresis <0.5 mL/kg/h por 6 h."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Abordaje de la LRA",
+     "items": [
+      "Confirmar y estadificar (creatinina y diuresis)",
+      "Descartar obstrucción con ultrasonido",
+      "Valorar volumen y perfusión",
+      "Sedimento e índices urinarios",
+      "Retirar nefrotóxicos y ajustar dosis",
+      "Decidir terapia de reemplazo"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "LRA prerrenal vs NTA",
+     "bins": [
+      "Prerrenal",
+      "NTA"
+     ],
+     "items": [
+      [
+       "FENa < 1%",
+       "Prerrenal"
+      ],
+      [
+       "Osm urinaria > 500",
+       "Prerrenal"
+      ],
+      [
+       "Na urinario > 40",
+       "NTA"
+      ],
+      [
+       "Cilindros granulosos pardos",
+       "NTA"
+      ],
+      [
+       "BUN/Cr > 20",
+       "Prerrenal"
+      ],
+      [
+       "Osm urinaria ~300 (isostenuria)",
+       "NTA"
+      ],
+      [
+       "Responde a volumen en 24–72 h",
+       "Prerrenal"
+      ],
+      [
+       "FEUrea > 50%",
+       "NTA"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Evaluación de LRA",
+     "items": [
+      "Confirmar y estadificar (KDIGO)",
+      "Valorar volumen y suspender nefrotóxicos",
+      "Ecografía renal (descartar obstrucción)",
+      "EGO con sedimento",
+      "Índices urinarios (FENa/FEUrea)",
+      "Biopsia si la causa no es clara"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Narrador",
+       "En un ganglio cercano, Mac Limpio y Neutra se unen a tu equipo."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Baja al túbulo. Ahí verás que no todo es falta de flujo."
+      ]
+     ]
+    }
+   ],
+   "card": "LRA KDIGO: ↑Cr ≥0.3 mg/dL en 48 h, ≥1.5× en 7 días o diuresis <0.5 mL/kg/h × 6 h. AKD: alteración <3 meses."
+  },
+  {
+   "id": "z2",
+   "name": "Túbulo en Tormenta",
+   "palette": [
+    "#FBD8E2",
+    "#E48AA8",
+    "#A8436A",
+    "#4A1A2A"
+   ],
+   "tiles": "proximal",
+   "vignette": "nta",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Mira: hay flujo, pero las células tubulares se apagan y se desprenden."
+    ],
+    [
+     "Sabio Brenn",
+     "Inflamación, disfunción microvascular y adaptación metabólica. No solo isquemia."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Cilindro Granuloso",
+     "lines": [
+      [
+       "Cilindro Granuloso",
+       "Soy la huella de la necrosis tubular. Con FENa >2 % y sodio urinario alto."
+      ],
+      [
+       "Cilindro Granuloso",
+       "Pero en sepsis temprana la FENa puede ser baja. No te fíes de un solo número."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "FENa"
+    },
+    {
+     "id": "npc2",
+     "name": "Furosemida de Estrés",
+     "lines": [
+      [
+       "Furosemida de Estrés",
+       "1 mg/kg (1.5 si ya tomaba). Si orina menos de 200 mL en 2 horas, mal pronóstico."
+      ],
+      [
+       "Furosemida de Estrés",
+       "Predigo progresión a estadio 3. No trato la LRA: la pongo a prueba."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "prueba de estrés con furosemida"
+    },
+    {
+     "id": "npc3",
+     "name": "TIMP-2·IGFBP7",
+     "lines": [
+      [
+       "TIMP-2·IGFBP7",
+       "Somos marcadores de arresto del ciclo celular. Subimos antes que la creatinina."
+      ]
+     ],
+     "gift": null,
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · FEUrea",
+     "FEUrea <35 % sugiere prerrenal aun con diuréticos."
+    ],
+    [
+     "Letrero · Cristaloides",
+     "Balanceados antes que salina 0.9 % en la mayoría; evitar almidones."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "HRS",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Si la creatinina sube con el diurético, lo suspendo. Siempre."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Congestión venosa renal… descongestionar también protege."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "AKI",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: LRA: prerrenal vs necrosis tubular con diurético"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "AKS-2",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Anuria: diagnóstico diferencial"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Célula Tubular Desprendida",
+     "type": "Celular",
+     "topic": "Célula Tubular Desprendida"
+    },
+    {
+     "name": "Congestión Venosa",
+     "type": "Molecular",
+     "topic": "Congestión Venosa"
+    },
+    {
+     "name": "Mioglobina",
+     "type": "Molecular",
+     "topic": "Mioglobina"
+    },
+    {
+     "name": "Ácido Úrico en Cristal",
+     "type": "Molecular",
+     "topic": "Ácido Úrico en Cristal"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "NTA frente a prerrenal: índices y sedimento",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El sedimento vale más que la FENa. Cilindros granulosos pardos: daño tubular."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Contexto y mecanismo",
+     "items": [],
+     "pairs": [
+      [
+       "Hepatorrenal",
+       "Vasoconstricción renal; albúmina + terlipresina"
+      ],
+      [
+       "Lisis tumoral",
+       "Ácido úrico y fosfato de calcio; rasburicasa"
+      ],
+      [
+       "Rabdomiólisis",
+       "Mioglobina; hidratación intensiva"
+      ],
+      [
+       "Cardiorrenal",
+       "Congestión venosa; diurético"
+      ],
+      [
+       "Abdominal compartimental",
+       "Presión >20 mmHg; descompresión"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Biomarcadores de LRA (KDIGO 2026)",
+     "bins": [
+      "Estrés celular",
+      "Daño celular",
+      "Inflamación",
+      "Función"
+     ],
+     "items": [
+      [
+       "[TIMP-2]×[IGFBP7]",
+       "Estrés celular"
+      ],
+      [
+       "NGAL",
+       "Daño celular"
+      ],
+      [
+       "KIM-1",
+       "Daño celular"
+      ],
+      [
+       "L-FABP",
+       "Daño celular"
+      ],
+      [
+       "NAG",
+       "Daño celular"
+      ],
+      [
+       "IL-18",
+       "Inflamación"
+      ],
+      [
+       "IL-9",
+       "Inflamación"
+      ],
+      [
+       "CCL14",
+       "Inflamación"
+      ],
+      [
+       "Cistatina C",
+       "Función"
+      ],
+      [
+       "Volumen urinario",
+       "Función"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "KDIGO estadio 3",
+       "Cr ×3, ≥4 mg/dL o TRR"
+      ],
+      [
+       "FENa <1%",
+       "Prerrenal (sin diurético)"
+      ],
+      [
+       "FEUrea <35%",
+       "Prerrenal con diurético"
+      ],
+      [
+       "Síndrome hepatorrenal",
+       "Terlipresina + albúmina"
+      ],
+      [
+       "Lisis tumoral",
+       "Rasburicasa + hidratación"
+      ],
+      [
+       "Rabdomiólisis",
+       "CK >5000, mioglobinuria"
+      ],
+      [
+       "Nefropatía aguda por fosfato",
+       "Purgas de fosfato de sodio"
+      ],
+      [
+       "NGAL",
+       "Biomarcador de daño tubular"
+      ],
+      [
+       "STARRT-AKI",
+       "TRR acelerada sin beneficio en mortalidad"
+      ],
+      [
+       "TRR urgente",
+       "AEIOU refractario"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Potasio 6.8 y pH 7.08. Es hora de la máquina."
+      ]
+     ]
+    }
+   ],
+   "card": "LRA séptica: inflamación y disfunción microvascular, no solo hipoperfusión. Prueba de estrés con furosemida: <200 mL en 2 h predice progresión."
+  },
+  {
+   "id": "z3",
+   "name": "Máquina de Reemplazo",
+   "palette": [
+    "#F0FCFF",
+    "#8AE0E8",
+    "#2A8A9A",
+    "#0A2A33"
+   ],
+   "tiles": "dializador",
+   "vignette": "hemodialisis",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Iniciar antes no salva más vidas. STARRT-AKI y AKIKI lo demostraron."
+    ],
+    [
+     "Sabio Brenn",
+     "Se inicia por indicación: potasio, acidosis, sobrecarga o uremia que no ceden."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Citrato",
+     "lines": [
+      [
+       "Citrato",
+       "Anticoagulo solo el circuito: quelo el calcio. Soy la primera opción en TRRC."
+      ],
+      [
+       "Citrato",
+       "Vigila el calcio ionizado y la relación calcio total/ionizado."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "citrato"
+    },
+    {
+     "id": "npc2",
+     "name": "Dosis de Efluente",
+     "lines": [
+      [
+       "Dosis de Efluente",
+       "20 a 25 mL/kg/h entregados. Más dosis no mejora la supervivencia."
+      ],
+      [
+       "Dosis de Efluente",
+       "ATN y RENAL lo probaron. Prescribe 25–30 para compensar pausas."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "dosis de TRRC"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Modalidad",
+     "Continua o intermitente: misma mortalidad. Continua si hay choque o edema cerebral."
+    ],
+    [
+     "Letrero · AEIOU",
+     "Acidosis, Electrolitos (K), Intoxicación, sObrecarga, Uremia."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "serie": "DGF",
+     "intro": [
+      [
+       "Dr. Max Presor",
+       "Yo conecto a todos en estadio 2. Más vale antes."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Max Presor",
+       "Sin beneficio y con más dependencia de diálisis. Me espero."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    },
+    {
+     "id": "t2_1",
+     "cast": "valeria",
+     "specialty": "Rival",
+     "serie": "AZ1-6",
+     "intro": [
+      [
+       "Dra. Valeria Montes",
+       "Estadio 3 de KDIGO: diálisis ya. Lo tengo en tarjeta."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Valeria Montes",
+       "¿Indicación, no estadio? …Eso no venía en mi tarjeta."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "AKS-1",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: FENa baja con necrosis tubular"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Potasio Rebelde",
+     "type": "Molecular",
+     "topic": "Potasio Rebelde"
+    },
+    {
+     "name": "Filtro Coagulado",
+     "type": "Molecular",
+     "topic": "Filtro Coagulado"
+    },
+    {
+     "name": "Hipofosfatemia de TRRC",
+     "type": "Molecular",
+     "topic": "Hipofosfatemia de TRRC"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_1",
+     "topic": "Momento de inicio de la terapia de reemplazo renal",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Sin urgencia absoluta, la espera vigilada es segura. Pero no esperes de más: AKIKI-2."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Escudos de la LRA",
+     "items": [],
+     "pairs": [
+      [
+       "STARRT-AKI",
+       "Inicio acelerado: sin beneficio"
+      ],
+      [
+       "AKIKI",
+       "Espera vigilada: la mitad nunca se dializó"
+      ],
+      [
+       "AKIKI-2",
+       "Esperar demasiado puede dañar"
+      ],
+      [
+       "ATN / RENAL",
+       "Más dosis no es mejor"
+      ],
+      [
+       "SMART",
+       "Balanceados: menos eventos renales"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Indicación de TRR en LRA (KDIGO 2026)",
+     "bins": [
+      "Urgente",
+      "Relativa",
+      "No es indicación"
+     ],
+     "items": [
+      [
+       "K⁺ > 6 refractario o con ECG",
+       "Urgente"
+      ],
+      [
+       "pH < 7.2 y HCO₃ < 12 con pCO₂ normal",
+       "Urgente"
+      ],
+      [
+       "Sobrecarga con hipoxemia",
+       "Urgente"
+      ],
+      [
+       "Pericarditis o encefalopatía urémica",
+       "Urgente"
+      ],
+      [
+       "KDIGO 3 persistente con oliguria",
+       "Relativa"
+      ],
+      [
+       "Carga de solutos anticipada: lisis tumoral",
+       "Relativa"
+      ],
+      [
+       "Imposibilidad de nutrir por restricción hídrica",
+       "Relativa"
+      ],
+      [
+       "BUN aislado de 85 mg/dL",
+       "No es indicación"
+      ],
+      [
+       "Alcanzar estadio KDIGO 3 sin complicaciones",
+       "No es indicación"
+      ]
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Estabilizado. Pero la tormenta todavía tiene nombre."
+      ]
+     ]
+    }
+   ],
+   "card": "TRR por indicación (AEIOU), no por estadio. Dosis TRRC 20–25 mL/kg/h. Citrato regional de elección. Continua = intermitente en mortalidad."
+  }
+ ],
+ "boss": {
+  "name": "La Tormenta Séptica",
+  "color": "#5a6b8a",
+  "dark": "#1a2238",
+  "heads": 1,
+  "form": "ola",
+  "crescent": false,
+  "intro": [
+   [
+    "La Tormenta",
+    "No necesito cortar el flujo. Me basta con encender cada célula."
+   ],
+   [
+    "Dr. J.",
+    "Diagnóstico, soporte y momento de la máquina. En ese orden."
+   ]
+  ],
+  "outro": [
+   [
+    "La Tormenta",
+    "Amaino… pero vuelvo si nadie lo cita en 3 meses."
+   ],
+   [
+    "Sabio Brenn",
+    "Sobrevivió. Pero tras una LRA el riesgo de ERC sube: cítalo a 3 meses."
+   ],
+   [
+    "Dr. J.",
+    "Alguien financió este desastre. Vi a unos tipos raros en la farmacia."
+   ],
+   [
+    "Dr. J.",
+    "Mi primer caso grave también fue en la cama 4. Te cuento luego."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Diagnóstico y diferencial",
+    "type": "Molecular",
+    "lines": [
+     [
+      "La Tormenta",
+      "¿Prerrenal, intrínseca o posrenal?"
+     ]
+    ],
+    "topics": [
+     "Diagnóstico y diferencial"
+    ],
+    "questions": [
+     "LRA-1",
+     "LRA-2",
+     "LRA-3",
+     "LRA-4"
+    ]
+   },
+   {
+    "name": "Líquidos y diuréticos",
+    "type": "Celular",
+    "lines": [
+     [
+      "La Tormenta",
+      "¿Otro litro, doctor?"
+     ]
+    ],
+    "topics": [
+     "Líquidos y diuréticos"
+    ],
+    "questions": [
+     "CRT-1",
+     "CRT-2",
+     "CRT-3"
+    ]
+   },
+   {
+    "name": "Situaciones especiales",
+    "type": "Humoral",
+    "lines": [
+     [
+      "La Tormenta",
+      "Cambio de disfraz: hígado, tumor, embarazo."
+     ]
+    ],
+    "topics": [
+     "Situaciones especiales"
+    ],
+    "questions": [
+     "CRT-4",
+     "SHK-1",
+     "SHK-2"
+    ]
+   },
+   {
+    "name": "Terapia de reemplazo",
+    "type": "Complemento",
+    "lines": [
+     [
+      "La Tormenta",
+      "¿Ya me conectas? ¿O esperas?"
+     ]
+    ],
+    "topics": [
+     "Terapia de reemplazo"
+    ],
+    "questions": [
+     "SHK-3",
+     "SHK-4",
+     "SHK-5"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "STARRT-AKI",
+   "mnemonic": "START sin prisa: arrancar antes no ganó.",
+   "result": "Inicio acelerado vs. estándar: misma mortalidad a 90 días, más dependencia de diálisis."
+  },
+  {
+   "trial": "AKIKI",
+   "mnemonic": "A-quí esperamos.",
+   "result": "Estrategia tardía: sin diferencia en mortalidad; ~49 % nunca requirió TRR."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Ley nueva · KDIGO 2026 (borrador)",
+   "text": "Borrador de revisión pública (marzo 2026), aún no final: marco conjunto LRA/AKD, biomarcadores estructurales y seguimiento tras LRA. Verifica la versión final antes del examen."
+  },
+  {
+   "title": "Ley anterior · KDIGO 2012",
+   "text": "Definición por creatinina y diuresis en 3 estadios; es la guía final vigente confirmada, con comentarios KDOQI y ERBP."
+  },
+  {
+   "title": "LRA séptica",
+   "text": "Ocurre con flujo renal conservado: inflamación, disfunción microvascular y reprogramación metabólica tubular."
+  },
+  {
+   "title": "Prueba de estrés con furosemida",
+   "text": "1 mg/kg (1.5 si exposición previa); diuresis <200 mL en 2 h predice progresión a estadio 3."
+  },
+  {
+   "title": "💎 Congestión venosa y VEXUS",
+   "text": "VEXUS (VCI >2 cm): grado 1 (leve): patrones normales o levemente anormales; grado 2: un patrón severo; grado 3: ≥2 patrones severos. Severos: onda S invertida, PVPF ≥50%, flujo intrarrenal solo diastólico. Moderados/leves: S<D, PVPF 30-49%, flujo intrarrenal bifásico."
+  },
+  {
+   "title": "💎 Momento de inicio de TRR",
+   "text": "TRR temprana no es superior. Indicaciones urgentes: K refractaria, pH <7.15, sobrecarga con compromiso respiratorio, pericarditis/encefalopatía urémica, intoxicación dializable."
+  },
+  {
+   "title": "💎 Prescripción de TRRC",
+   "text": "TRRC: prescribir 25-30 mL/kg/h → entregar 20-25. Citrato regional > heparina si no hay contraindicación. Vigilar Ca total/iónico >2.5 (acumulación)."
+  },
+  {
+   "title": "💎 Resistencia a diuréticos y sobrecarga re",
+   "text": "Resistencia a diuréticos: infusión + bloqueo secuencial (tiazida/metolazona, acetazolamida). Sobrecarga refractaria con hipoxemia → TRR con UF neta (CRRT si inestable)."
+  },
+  {
+   "title": "💎 Prueba de estrés con furosemide",
+   "text": "FST: furosemide 1 mg/kg (naïve) o 1.5 mg/kg (previo) → diuresis <200 mL a las 2 h predice LRA 3. Seguridad: contraindicada en alergia, depleción de volumen."
+  },
+  {
+   "title": "💎 LRA: prerrenal vs necrosis tubular con d",
+   "text": "Con diurético: usar FeUrea (<35% prerrenal, >50% NTA). FeNa <1% prerrenal, >2% NTA (sin diuréticos). Sedimento: cilindros hialinos (prerrenal) vs granulosos marrón-turbio (NTA). Johnson 7.ª ed. cap. 72: FENa <1% prerrenal y >3% típica de NTA; FEurea <35% prerrenal y >35% NTA (otras fuentes usan >50%)."
+  },
+  {
+   "title": "💎 Prueba de estrés con furosemida",
+   "text": "FST: furosemida 1 mg/kg (1.5 si exposición previa); diuresis <200 mL/2 h predice LRA grado 3/TRR (S 87%, E 84%)."
+  },
+  {
+   "title": "💎 Paquete KDIGO de prevención guiado por b",
+   "text": "PrevAKI: TIMP-2·IGFBP7 ≥0.3 + paquete KDIGO (evitar nefrotóxicos, volumen/perfusión, glucemia, vigilar Cr y diuresis) ↓LRA (≈55% vs 72%). Dopamina, furosemida, fenoldopam, manitol: sin beneficio."
+  }
+ ]
+}

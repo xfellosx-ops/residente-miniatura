@@ -1,0 +1,1201 @@
+[
+ {
+  "id": "MAR-1",
+  "serie_id": "MAR",
+  "orden": 1,
+  "sub": "22.a",
+  "subtema": "Ingesta proteica estimada: ecuación de Maroni",
+  "dificultad": "dificil",
+  "caso": "Hombre de 52 años, 80 kg, con ERC G4 por enfermedad renal poliquística. Está en dieta habitual y su peso es estable. Se recolecta orina de 24 horas: volumen de 2,460 mL, nitrógeno ureico urinario (BUN urinario) de 349 mg/dL; sin proteinuria significativa. Creatinina sérica de 4.6 mg/dL, bicarbonato de 18.7 mEq/L.",
+  "enunciado": "¿Cuál es la ingesta proteica estimada del paciente con la ecuación de Maroni?",
+  "opciones": {
+   "A": "Aproximadamente 8.6 g/día (0.11 g/kg/día)",
+   "B": "Aproximadamente 138 g/día (1.7 g/kg/día)",
+   "C": "Aproximadamente 110 g/día (1.4 g/kg/día)",
+   "D": "Aproximadamente 34 g/día (0.43 g/kg/día)",
+   "E": "Aproximadamente 69 g/día (0.86 g/kg/día)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Corresponde al nitrógeno ureico urinario en gramos, no a la ingesta proteica; falta multiplicar por 6.25 y sumar el nitrógeno no ureico.",
+   "B": "Equivale al doble del valor correcto.",
+   "C": "Sobreestima la ingesta, y no corresponde a los datos.",
+   "D": "Resultaría de omitir los factores de conversión o duplicar el volumen; el cálculo correcto da casi el doble.",
+   "E": "La ecuación de Maroni estima la ingesta proteica en estado estable a partir del nitrógeno ureico urinario (NUU): proteína (g/día) = 6.25 × [NUU (g/día) + 0.031 × peso (kg)] + proteinuria (g/día). El NUU es 349 mg/dL × 24.6 dL = 8,585 mg, que son 8.59 g/día. Las pérdidas de nitrógeno no ureico se estiman en 0.031 g/kg/día, o sea 0.031 × 80 = 2.48 g. Entonces 6.25 × (8.59 + 2.48) = 6.25 × 11.07 = 69.2 g/día, que equivale a 0.86 g/kg/día. Se usa un factor de 6.25 porque las proteínas tienen aproximadamente 16% de nitrógeno."
+  },
+  "perla": "Maroni: proteína (g/d) = 6.25 × [NUU (g/d) + 0.031 × kg] + proteinuria (g/d). Requiere estado estable y volumen urinario completo.",
+  "referencias": [
+   "Maroni BJ et al. Kidney Int 1985;27:58",
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "continuacion": "",
+  "obj": "22.o1",
+  "peso": 49.8
+ },
+ {
+  "id": "MAR-2",
+  "serie_id": "MAR",
+  "orden": 2,
+  "sub": "22.c.ii",
+  "subtema": "Meta de proteína en ERC no dialítica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente no tiene diabetes, está bien nutrido (IMC de 24), con albúmina de 4.1 g/dL y sin inflamación. Su nefrólogo compara su ingesta estimada con las metas de las guías.",
+  "enunciado": "Según KDIGO 2024, ¿qué ingesta proteica se sugiere en adultos con ERC G3 a G5 sin diálisis?",
+  "opciones": {
+   "A": "1.5 g/kg/día para prevenir la desnutrición, porque las guías recomiendan más proteína en la ERC avanzada",
+   "B": "Menos de 0.3 g/kg/día en todos los pacientes, para retrasar la progresión de la enfermedad renal crónica",
+   "C": "Cerca de 0.8 g/kg/día, evitando >1.3 g/kg/día; dietas más restrictivas solo en casos seleccionados",
+   "D": "2 g/kg/día de proteína animal exclusivamente, para mantener la masa muscular y la albúmina sérica",
+   "E": "Sin límite de proteínas en la ERC, porque la restricción proteica no modifica la progresión ni los desenlaces"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "1.5 g/kg/día es una ingesta alta que excede el límite sugerido en la ERC no dialítica.",
+   "B": "Las dietas con menos de 0.4 g/kg/día solo se usan en selectos pacientes con suplementos, no en todos.",
+   "C": "La guía KDIGO 2024 sugiere mantener una ingesta proteica de 0.8 g/kg/día en adultos con ERC G3 a G5 y evitar ingestas altas (más de 1.3 g/kg/día), que aumentan la carga de filtración, la acidosis, la fosfatemia y la hiperfiltración. Las dietas bajas en proteína (0.6 g/kg/día) o muy bajas (0.3 a 0.4 g/kg/día) suplementadas con aminoácidos esenciales o cetoanálogos pueden considerarse en pacientes motivados, con vigilancia nutricional, y se evitan en fragilidad, sarcopenia o desnutrición. Las guías KDOQI 2020 plantean 0.55 a 0.6 g/kg/día en no diabéticos (0.6 a 0.8 en diabéticos). El paciente, con 0.86 g/kg/día, está cerca de la meta.",
+   "D": "No se recomiendan dosis tan altas ni exclusivamente de proteína animal; se favorecen las fuentes vegetales.",
+   "E": "Existe un límite recomendado, y las ingestas altas se evitan."
+  },
+  "perla": "KDIGO 2024: ERC G3–G5 sin diálisis: ~0.8 g/kg/d, evitar >1.3 g/kg/d. Dieta muy baja con cetoanálogos solo seleccionada. Diálisis: 1.0–1.2 g/kg/d (KDOQI).",
+  "referencias": [
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117",
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1"
+  ],
+  "origen": [
+   "Modulos",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o4",
+  "peso": 45.2
+ },
+ {
+  "id": "MAR-3",
+  "serie_id": "MAR",
+  "orden": 3,
+  "sub": "22.a",
+  "subtema": "Otros componentes de la dieta: sodio, energía y patrón vegetal",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El paciente pregunta qué más debe modificar en su alimentación para retrasar la progresión y controlar la presión arterial (140/100 mmHg).",
+  "enunciado": "¿Cuál es la recomendación dietética más adecuada?",
+  "opciones": {
+   "A": "Aumentar el sodio a 6 g/día para evitar la hipotensión, porque la dieta baja en sal acelera la pérdida de función renal y favorece el edema",
+   "B": "Sodio <2 g/día (menos de 5 g de sal), energía de 25–35 kcal/kg/día y patrón predominantemente vegetal, evitando ultraprocesados",
+   "C": "Suplementos de potasio de forma sistemática para reducir la presión, sin importar la TFGe ni el potasio sérico",
+   "D": "Dieta alta en proteína animal y alimentos procesados, porque aportan más energía y mejoran el estado nutricional del paciente con ERC",
+   "E": "Dieta hipocalórica de 10 kcal/kg/día, para lograr una pérdida de peso rápida y controlar la presión arterial"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El exceso de sodio aumenta la presión arterial, la proteinuria y la sobrecarga de volumen.",
+   "B": "KDIGO 2024 recomienda limitar el sodio a menos de 2 g/día (menos de 90 mmol, equivalente a menos de 5 g de cloruro de sodio) en adultos con ERC y sobrecarga o hipertensión, mantener un aporte energético de 25 a 35 kcal/kg/día adaptado al peso, y favorecer un patrón rico en alimentos vegetales (verduras, frutas, legumbres, cereales integrales, frutos secos) con menos carne procesada y ultraprocesados. Este patrón mejora el control de la presión arterial, la acidosis metabólica, el fósforo (por menor absorción del fósforo vegetal) y el perfil cardiovascular. El potasio se individualiza según el nivel sérico y los fármacos.",
+   "C": "Los suplementos de potasio son peligrosos en la ERC avanzada por el riesgo de hiperpotasemia.",
+   "D": "El exceso de proteína animal, con carga ácida y de fósforo, y los ultraprocesados, con aditivos de fósforo y sodio, empeoran la ERC.",
+   "E": "Una dieta tan hipocalórica produce desnutrición y catabolismo proteico."
+  },
+  "perla": "ERC: sodio <2 g/d, energía 25–35 kcal/kg/d, patrón vegetal; K individualizado; evitar ultraprocesados (aditivos de fósforo y sodio).",
+  "referencias": [
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117",
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o1",
+  "peso": 29.6
+ },
+ {
+  "id": "PEW-1",
+  "serie_id": "PEW",
+  "orden": 1,
+  "sub": "22.b",
+  "subtema": "Marcadores de masa muscular y estado nutricional en diálisis peritoneal",
+  "dificultad": "dificil",
+  "caso": "Hombre de 72 años, en diálisis peritoneal continua ambulatoria desde hace 2 años, diabético con amputación supracondílea del miembro inferior izquierdo y retinopatía. Refiere hiporexia y saciedad temprana de 3 semanas, con pérdida de 5 kg. BUN de 55 mg/dL, creatinina de 5.5 mg/dL, fósforo de 6 mg/dL, calcio de 7.1 mg/dL, hemoglobina de 8 g/dL y albúmina baja. Peso de 58 kg, IMC de 20.",
+  "enunciado": "¿Cuál de los siguientes parámetros es más útil como reflejo de su masa muscular y estado nutricional?",
+  "opciones": {
+   "A": "Hemoglobina como único marcador, porque refleja la masa muscular y la ingesta proteica del paciente",
+   "B": "Colesterol total elevado, que indica buena nutrición y se correlaciona con la masa muscular del paciente",
+   "C": "Creatinina sérica baja en estado estable (reflejo de la masa muscular), junto con valoración global subjetiva, nPNA y antropometría",
+   "D": "Fósforo sérico, que depende solo de la ingesta de proteína y no del estado nutricional global del paciente",
+   "E": "Albúmina sérica aislada, porque es el mejor marcador nutricional y no se afecta por la inflamación ni por la pérdida peritoneal"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hemoglobina refleja anemia de la ERC, no el estado nutricional.",
+   "B": "En diálisis, un colesterol bajo (menor de 100 mg/dL) se asocia con desgaste y mortalidad (epidemiología inversa), no uno elevado.",
+   "C": "La creatinina sérica en estado estable depende de la masa muscular y de la ingesta de carne, por lo que una creatinina baja en relación con el nivel de función renal residual y la diálisis, sobre todo en un paciente amputado, indica pérdida de masa muscular. Se combina con la valoración global subjetiva, el nPNA (equivalente de aparición de nitrógeno ureico normalizado, que refleja la ingesta proteica), la antropometría y la ingesta alimentaria. La albúmina es un marcador negativo de fase aguda, influido por inflamación, volumen y pérdidas peritoneales de proteína, y no es sensible por sí sola. El colesterol tiene epidemiología inversa en diálisis.",
+   "D": "El fósforo depende de la ingesta, la diálisis y los quelantes.",
+   "E": "La albúmina baja se debe a pérdidas peritoneales, inflamación y sobrecarga hídrica, por lo que no es específica de desnutrición."
+  },
+  "perla": "Creatinina sérica baja = baja masa muscular (estado estable). Albúmina: fase aguda negativa, pérdidas en DP. Usar SGA, nPNA, antropometría.",
+  "referencias": [
+   "Fouque D et al. Kidney Int 2008;73:391",
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1"
+  ],
+  "origen": [
+   "Modulos",
+   "David26",
+   "PDP2"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "continuacion": "",
+  "obj": "22.o2",
+  "peso": 60.5
+ },
+ {
+  "id": "PEW-2",
+  "serie_id": "PEW",
+  "orden": 2,
+  "sub": "22.b",
+  "subtema": "Criterios de desgaste proteico-energético",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma que el paciente tiene albúmina de 3.1 g/dL, colesterol total de 96 mg/dL, IMC de 20, pérdida involuntaria de peso de 8% en 3 meses y una ingesta proteica de 0.6 g/kg/día y de energía de 20 kcal/kg/día documentada durante 2 meses.",
+  "enunciado": "¿Cumple los criterios de desgaste proteico-energético (ISRNM)?",
+  "opciones": {
+   "A": "No: se requiere una albúmina menor de 2 g/dL para diagnosticar el desgaste proteico-energético con certeza",
+   "B": "Sí, con una sola categoría alterada, porque la pérdida de peso de 8% basta por sí sola para el diagnóstico",
+   "C": "No: el IMC debe ser menor de 15 kg/m², por lo que el paciente no cumple el criterio de masa corporal ni otros",
+   "D": "No: el desgaste solo se diagnostica por biopsia muscular, porque los criterios bioquímicos y antropométricos carecen de validez",
+   "E": "Sí: cumple al menos 3 de las 4 categorías (bioquímica, masa corporal, muscular e ingesta) de la ISRNM"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El umbral de albúmina es menor de 3.8 g/dL, no menor de 2.",
+   "B": "Se necesitan al menos 3 categorías, no una.",
+   "C": "El IMC umbral es menor de 23 en diálisis.",
+   "D": "El diagnóstico es clínico, por criterios bioquímicos, antropométricos y dietéticos.",
+   "E": "La Sociedad Internacional de Nutrición y Metabolismo Renal (ISRNM) define el desgaste proteico-energético con 4 categorías: bioquímica (albúmina menor de 3.8 g/dL por verde de bromocresol, prealbúmina menor de 30 mg/dL en diálisis, colesterol total menor de 100 mg/dL), masa corporal (IMC menor de 23, pérdida de peso no intencional de 5% en 3 meses o 10% en 6 meses, grasa corporal menor de 10%), masa muscular (pérdida muscular de 5% en 3 meses, reducción de la circunferencia muscular del brazo) e ingesta dietética (proteína menor de 0.80 g/kg/día durante al menos 2 meses en diálisis y energía menor de 25 kcal/kg/día). Se requieren al menos 3 categorías, con una prueba en cada una. El paciente cumple bioquímica, masa corporal e ingesta."
+  },
+  "perla": "PEW (ISRNM): ≥3 de 4 categorías — albúmina <3.8 / prealbúmina <30 / colesterol <100; IMC <23 o pérdida de peso; pérdida muscular; proteína <0.8 g/kg/d o energía <25 kcal/kg/d ≥2 meses.",
+  "referencias": [
+   "Fouque D et al. Kidney Int 2008;73:391"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o2",
+  "peso": 30.3
+ },
+ {
+  "id": "PEW-3",
+  "serie_id": "PEW",
+  "orden": 3,
+  "sub": "22.c.ii",
+  "subtema": "Manejo del desgaste en DP: metas y causas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se identifican como causas la saciedad temprana por gastroparesis diabética, el efecto de absorción de glucosa del dializado (que aporta calorías y saciedad), las pérdidas de proteína por el dializado, la acidosis (bicarbonato de 18 mEq/L) y la inflamación.",
+  "enunciado": "¿Cuál es la estrategia de manejo más apropiada?",
+  "opciones": {
+   "A": "Nutrición parenteral total de rutina desde el inicio, para corregir la desnutrición proteico-calórica del paciente",
+   "B": "Suspender la diálisis peritoneal de inmediato por la absorción de glucosa del dializado y la saciedad",
+   "C": "Solo aumentar la concentración de glucosa del dializado, para aportar más calorías y mejorar la ultrafiltración",
+   "D": "Restringir proteínas a 0.6 g/kg/día para reducir la carga de urea y mejorar el apetito del paciente",
+   "E": "Proteína 1.2–1.3 g/kg/día y 30–35 kcal/kg/día, suplementos, corregir acidosis, procinéticos y revisar la dosis de diálisis"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La nutrición parenteral total no es de rutina y se reserva para casos seleccionados.",
+   "B": "No hay indicación de suspender la diálisis, y el desgaste requiere optimizar el tratamiento.",
+   "C": "Más glucosa en el dializado aumenta la saciedad y la hiperglucemia, y no resuelve el desgaste.",
+   "D": "La restricción proteica en un paciente con desgaste agrava la desnutrición.",
+   "E": "En diálisis peritoneal las pérdidas de proteína por el dializado son de 5 a 15 g/día (más en peritonitis), por lo que la meta es de 1.0 a 1.2 g/kg/día de proteína según KDOQI (1.2 g/kg/día o más en desgaste) y 25 a 35 kcal/kg/día, contando las calorías de la glucosa absorbida (cientos de kcal). El manejo incluye asesoría dietética, suplementos orales nutricionales, corrección de la acidosis (bicarbonato por arriba de 22 mEq/L), tratamiento de la gastroparesis con procinéticos, control de la inflamación y verificación de la dosis de diálisis; si fracasa, se considera nutrición enteral o parenteral intradiálisis, el cambio a hemodiálisis o el trasplante. La acidosis activa la vía ubiquitina-proteasoma y acelera el catabolismo muscular."
+  },
+  "perla": "PEW en DP: proteína 1.0–1.2+ g/kg/d, 25–35 kcal/kg/d (incluye glucosa del dializado), bicarbonato >22, suplementos, procinéticos; si falla: enteral/cambio de modalidad.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1",
+   "Fouque D et al. Kidney Int 2008;73:391"
+  ],
+  "origen": [
+   "Modulos",
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o4",
+  "peso": 45.2
+ },
+ {
+  "id": "PEW-4",
+  "serie_id": "PEW",
+  "orden": 4,
+  "sub": "22.c.ii",
+  "subtema": "Metas nutricionales en hemodiálisis",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Un año después el paciente cambia a hemodiálisis (3 sesiones semanales de 4 horas) con sobrepeso leve por reposición, estable, sin función renal residual, y se le pide ajustar su dieta.",
+  "enunciado": "¿Cuál es la ingesta proteica y calórica recomendada en hemodiálisis estable?",
+  "opciones": {
+   "A": "Proteína de 2.5 g/kg/día, para compensar las pérdidas de aminoácidos en el dializado y mejorar el estado nutricional del paciente",
+   "B": "Proteína de 1.0–1.2 g/kg/día y energía de 25–35 kcal/kg/día; fósforo de 800–1,000 mg/día; potasio y sodio individualizados",
+   "C": "Proteína de 0.3 g/kg/día, con cetoanálogos, porque la restricción proteica severa retrasa la progresión en diálisis crónica",
+   "D": "Energía de 10 kcal/kg/día, para favorecer la pérdida del sobrepeso durante las primeras semanas de hemodiálisis",
+   "E": "Sin restricciones de fósforo ni de sodio, porque la hemodiálisis de 4 horas tres veces por semana elimina ambos de forma suficiente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "2.5 g/kg/día incrementaría el fósforo, el potasio y la urea sin beneficio.",
+   "B": "Las guías KDOQI 2020 recomiendan 1.0 a 1.2 g/kg/día de proteína y 25 a 35 kcal/kg/día en pacientes con hemodiálisis de mantenimiento clínicamente estables, porque cada sesión se pierde alrededor de 8 a 12 g de aminoácidos y el estado inflamatorio y catabólico aumentan los requerimientos. Se recomienda un fósforo en la dieta de 800 a 1,000 mg/día (priorizando fuentes vegetales y evitando aditivos inorgánicos), sodio menor de 2.3 g/día y potasio individualizado, con atención a la sobrecarga interdialítica de líquidos.",
+   "C": "0.3 g/kg/día causaría desgaste en un paciente dializado.",
+   "D": "Un aporte tan bajo de energía genera catabolismo.",
+   "E": "El fósforo y el sodio requieren control en hemodiálisis."
+  },
+  "perla": "HD estable: proteína 1.0–1.2 g/kg/d, 25–35 kcal/kg/d, fósforo 800–1,000 mg/d, sodio <2.3 g/d. Se pierden ~8–12 g de aminoácidos por sesión.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o4",
+  "peso": 25.0
+ },
+ {
+  "id": "AKN-1",
+  "serie_id": "AKN",
+  "orden": 1,
+  "sub": "22.c.i",
+  "subtema": "Soporte nutricional en LRA grave: vía y momento",
+  "dificultad": "moderada",
+  "caso": "Hombre de 64 años, 80 kg, en la unidad de cuidados intensivos por choque séptico de origen abdominal, con lesión renal aguda KDIGO 3 que inicia terapia de reemplazo renal continua (TRRC). Recibe norepinefrina a dosis baja y estable (0.08 µg/kg/min). Se debate el soporte nutricional.",
+  "enunciado": "¿Cuál es la vía y el momento de inicio recomendados?",
+  "opciones": {
+   "A": "Nutrición parenteral total desde el primer día en todos los casos, para cubrir el hipercatabolismo de la TRRC",
+   "B": "Ayuno durante una semana, hasta que se resuelva el choque séptico y se complete la recuperación renal",
+   "C": "Solo dextrosa intravenosa, porque cubre las necesidades calóricas y evita la intolerancia digestiva del choque",
+   "D": "Nutrición enteral temprana (24–48 h), con hemodinamia estable y vasopresor estable o decreciente, hasta meta",
+   "E": "Nutrición enteral únicamente cuando el paciente salga de diálisis, para no interferir con la terapia continua"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La nutrición parenteral total no se prefiere si la vía enteral es posible.",
+   "B": "El ayuno prolongado induce catabolismo, atrofia de mucosa y mayor mortalidad.",
+   "C": "La dextrosa sola no cubre proteínas ni micronutrientes.",
+   "D": "En el paciente crítico con lesión renal aguda se prefiere la vía enteral, que preserva la integridad de la mucosa intestinal y reduce complicaciones infecciosas; se inicia de forma temprana (24 a 48 horas) una vez que el paciente está hemodinámicamente estable, con vasopresores en dosis estables o decrecientes (la norepinefrina a dosis baja no contraindica), y se progresa hasta alcanzar las metas. La terapia de reemplazo renal no es una contraindicación para la nutrición enteral. Se vigila la tolerancia gástrica, el fósforo, el potasio y el magnesio, que descienden por la realimentación y las pérdidas en TRRC.",
+   "E": "La terapia de reemplazo renal no impide la nutrición enteral."
+  },
+  "perla": "LRA en UCI: nutrición enteral temprana (24–48 h) con hemodinamia estable; la TRR no es contraindicación. Vigilar P, K, Mg (realimentación y TRRC).",
+  "referencias": [
+   "KDIGO AKI 2012. Kidney Int Suppl 2012;2:1",
+   "Singer P et al. Clin Nutr 2019;38:48 (ESPEN)"
+  ],
+  "origen": [
+   "David26",
+   "BancoAyuda"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "continuacion": "",
+  "obj": "22.o3",
+  "peso": 47.6
+ },
+ {
+  "id": "AKN-2",
+  "serie_id": "AKN",
+  "orden": 2,
+  "sub": "22.c.i",
+  "subtema": "Requerimientos de energía y proteína en TRRC",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El equipo de nutrición calcula las metas del paciente de 80 kg en TRRC.",
+  "enunciado": "¿Qué metas se recomiendan?",
+  "opciones": {
+   "A": "Energía de 10 kcal/kg/día y proteína de 0.3 g/kg/día, para minimizar la producción de urea y de toxinas urémicas",
+   "B": "Energía de 20 a 30 kcal/kg/día y proteína de 0.8 g/kg/día aunque esté en TRRC, igual que sin terapia sustitutiva",
+   "C": "Solo 0.6 g/kg/día de proteína para no elevar la urea, con energía de 15 kcal/kg/día durante toda la TRRC",
+   "D": "Energía de 20–30 kcal/kg/día y proteína de 1.0–1.5 g/kg/día con TRR (hasta 1.7 en TRRC), sin restringirla",
+   "E": "Energía de 50 kcal/kg/día y proteína de 3 g/kg/día, para compensar al máximo el catabolismo de la enfermedad crítica aguda y evitar el balance negativo"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Esas metas son insuficientes y producen balance nitrogenado negativo.",
+   "B": "0.8 g/kg/día no cubre las pérdidas por TRRC y el catabolismo de la sepsis.",
+   "C": "Restringir la proteína a 0.6 g/kg/día en TRRC agrava el catabolismo.",
+   "D": "KDIGO AKI 2012 recomienda un aporte total de energía de 20 a 30 kcal/kg/día y proteína de 0.8 a 1.0 g/kg/día en LRA no catabólica sin diálisis, 1.0 a 1.5 g/kg/día en pacientes con terapia de reemplazo renal y hasta un máximo de 1.7 g/kg/día en TRRC o hipercatabólicos. La TRRC pierde aminoácidos (10 a 15 g/día), por lo que la proteína no debe restringirse para controlar la urea: se ajusta la intensidad del reemplazo. Evitar el sobreaporte calórico (más de 30 kcal/kg/día) previene la hiperglucemia, la hipertrigliceridemia y la hipercapnia.",
+   "E": "Sobrealimentar causa hiperglucemia, esteatosis y mayor mortalidad."
+  },
+  "perla": "LRA: 20–30 kcal/kg/d; proteína 0.8–1.0 (sin TRR) → 1.0–1.5 (TRR) → hasta 1.7 g/kg/d (TRRC/hipercatabólico). No restringir proteína para evitar diálisis.",
+  "referencias": [
+   "KDIGO AKI 2012. Kidney Int Suppl 2012;2:1",
+   "Singer P et al. Clin Nutr 2019;38:48 (ESPEN)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o3",
+  "peso": 37.5
+ },
+ {
+  "id": "AKN-3",
+  "serie_id": "AKN",
+  "orden": 3,
+  "sub": "22.c.i",
+  "subtema": "Nutrición parenteral suplementaria",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al quinto día solo se logra 35% de los requerimientos calóricos y proteicos por vía enteral debido a intolerancia gástrica, pese a procinéticos. Se considera nutrición parenteral.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Seguir optimizando la enteral (procinéticos, sonda postpilórica) y valorar parenteral suplementaria tras la semana 1",
+   "B": "Suspender la nutrición enteral y pasar a parenteral total hoy, porque la intolerancia gástrica indica falla intestinal",
+   "C": "Nunca usar nutrición parenteral en el paciente crítico, porque aumenta la mortalidad y las infecciones en toda circunstancia clínica",
+   "D": "Dar solo suero glucosado hasta que mejore, porque el ayuno relativo reduce el catabolismo en la lesión renal aguda",
+   "E": "Administrar nutrición parenteral total en dosis máximas desde el primer día, para evitar el balance energético negativo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Si la nutrición enteral no alcanza las metas, primero se optimiza (procinéticos, sonda postpilórica, ajuste de infusión). La nutrición parenteral suplementaria probablemente solo es útil después de la primera semana en la UCI, cuando no se ha logrado al menos 60% de los requerimientos calóricos y proteicos por vía enteral; la parenteral temprana no mejora la supervivencia y aumenta las infecciones. En caso de contraindicación absoluta de la vía enteral (isquemia intestinal, obstrucción), la nutrición parenteral se inicia en los primeros días según el riesgo nutricional. Se vigila el síndrome de realimentación.",
+   "B": "La suspensión de la vía enteral prematuramente pierde sus beneficios y la nutrición parenteral total temprana aumenta las infecciones.",
+   "C": "La nutrición parenteral tiene indicaciones precisas, por ejemplo cuando la vía enteral es imposible.",
+   "D": "El suero glucosado no cubre requerimientos.",
+   "E": "El sobreaporte en dosis máximas precoz aumenta complicaciones."
+  },
+  "perla": "NP suplementaria: considerar después de la primera semana si <60% de metas por vía enteral. Antes: optimizar la enteral.",
+  "referencias": [
+   "Singer P et al. Clin Nutr 2019;38:48 (ESPEN)",
+   "KDIGO AKI 2012. Kidney Int Suppl 2012;2:1"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o3",
+  "peso": 49.6
+ },
+ {
+  "id": "AKN-4",
+  "serie_id": "AKN",
+  "orden": 4,
+  "sub": "22.c.i",
+  "subtema": "Complicaciones metabólicas del soporte nutricional en TRRC",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras iniciar nutrición enteral hipercalórica a metas completas, el paciente desarrolla debilidad, arritmias y fósforo de 1.2 mg/dL, potasio de 3.0 mEq/L y magnesio de 1.2 mg/dL en el día 3 de TRRC.",
+  "enunciado": "¿Cuál es el diagnóstico y el manejo?",
+  "opciones": {
+   "A": "Hipercalcemia maligna; bisfosfonatos, porque la debilidad y las arritmias indican hipercalcemia tumoral grave",
+   "B": "Intoxicación por citrato; suspender el calcio y reducir el flujo de citrato regional del circuito de TRRC",
+   "C": "Rabdomiólisis; aumentar la dosis de dextrosa, porque la debilidad, las arritmias y la hipofosfatemia indican lisis muscular masiva",
+   "D": "Sepsis; ignorar los electrolitos, porque se corrigen solos al controlar la infección de base del paciente",
+   "E": "Síndrome de realimentación agravado por la TRRC: reducir calorías, reponer P, K y Mg, dar tiamina"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El cuadro es de hipofosfatemia, hipopotasemia e hipomagnesemia, no de hipercalcemia.",
+   "B": "La intoxicación por citrato se manifiesta con hipocalcemia ionizada y alcalosis metabólica, no con descenso de fósforo y potasio.",
+   "C": "La rabdomiólisis eleva el fósforo y el potasio, no los reduce.",
+   "D": "Los electrolitos requieren reposición inmediata por el riesgo de arritmias.",
+   "E": "La realimentación en pacientes desnutridos o con ayuno prolongado aumenta la insulina, lo que desplaza fósforo, potasio y magnesio a las células y produce hipofosfatemia, hipopotasemia e hipomagnesemia con debilidad, arritmias, insuficiencia respiratoria y falla cardiaca. La TRRC agrava la pérdida de fósforo, potasio y magnesio por el efluente. El manejo es reducir la tasa calórica inicial (por ejemplo, 50% de la meta) e incrementarla gradualmente, reponer los electrolitos, administrar tiamina antes y durante la nutrición, y monitorizar cada 6 a 12 horas. La reposición incluye el fósforo en los líquidos de reemplazo o la suplementación sistémica."
+  },
+  "perla": "Realimentación + TRRC: ↓P, ↓K, ↓Mg. Iniciar nutrición gradualmente, tiamina, monitorear y reponer electrolitos.",
+  "referencias": [
+   "Singer P et al. Clin Nutr 2019;38:48 (ESPEN)",
+   "Comprehensive Clinical Nephrology (lesión renal aguda)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o3",
+  "peso": 9.3
+ },
+ {
+  "id": "DIE-1",
+  "serie_id": "DIE",
+  "orden": 1,
+  "sub": "22.c.ii",
+  "subtema": "Control dietético del fósforo",
+  "dificultad": "moderada",
+  "caso": "Hombre de 55 años en hemodiálisis, 70 kg, con fósforo de 6.8 mg/dL, calcio de 8.9 mg/dL y PTH de 480 pg/mL, a pesar de tomar quelantes. Su dieta incluye bebidas de cola, embutidos, queso procesado y alimentos enlatados.",
+  "enunciado": "¿Qué medida dietética es la más eficaz para reducir su carga de fósforo?",
+  "opciones": {
+   "A": "No es necesario modificar la dieta si toma quelantes, porque estos eliminan todo el fósforo de los alimentos",
+   "B": "Evitar procesados con aditivos de fósforo inorgánico (absorción casi total) y preferir fuentes vegetales, con fitato menos absorbible",
+   "C": "Restringir todas las verduras y legumbres por su contenido de fósforo, aunque se absorba poco en forma de fitato en el intestino",
+   "D": "Aumentar el consumo de embutidos para ganar peso, aunque contengan aditivos con fósforo inorgánico y sodio",
+   "E": "Tomar los quelantes de fósforo en ayunas, para mejorar su unión al fósforo de los alimentos ingeridos"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La dieta es un pilar del control del fósforo, junto con la diálisis y los quelantes.",
+   "B": "El fósforo inorgánico de los aditivos (conservadores, acidulantes de bebidas de cola, quesos procesados, embutidos, alimentos enlatados) se absorbe en 80 a 100%, en contraste con 40 a 60% del fósforo orgánico de origen animal y solo 20 a 50% del fósforo vegetal (fitato, que requiere fitasa que los humanos no tienen). Reducir los aditivos y preferir alimentos frescos, sobre todo de origen vegetal, disminuye mucho la carga de fósforo sin comprometer la ingesta proteica, y es la medida más eficaz junto con los quelantes tomados con las comidas. Las metas son de 800 a 1,000 mg/día de fósforo.",
+   "C": "Las legumbres y las verduras tienen fósforo de baja biodisponibilidad y se favorecen en el patrón saludable, siempre que el potasio lo permita.",
+   "D": "Los embutidos tienen aditivos con fósforo de alta absorción.",
+   "E": "Los quelantes se unen al fósforo de los alimentos y deben tomarse con las comidas."
+  },
+  "perla": "Fósforo inorgánico (aditivos) ~90% absorbido; orgánico animal 40–60%; vegetal (fitato) 20–50%. Evitar ultraprocesados; quelantes CON las comidas.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1",
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "David26",
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "continuacion": "",
+  "obj": "22.o4",
+  "peso": 55.2
+ },
+ {
+  "id": "DIE-2",
+  "serie_id": "DIE",
+  "orden": 2,
+  "sub": "22.c.ii",
+  "subtema": "Potasio dietético en hemodiálisis",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El paciente tiene potasio predialítico de 5.9 mEq/L en la sesión de lunes, cumpliendo con tres sesiones por semana, sin AINE ni IECA, y con buen apego a la dieta. Consume sustitutos de sal y frutas como plátano y naranja.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Aumentar la ingesta de sustitutos de sal, para mantener la hiponatremia y la presión arterial bajo control",
+   "B": "Tomar diuréticos tiazídicos si no tiene diuresis residual, para aumentar la excreción renal de potasio",
+   "C": "Suspender sustitutos de sal con KCl, individualizar alimentos ricos en potasio, remojo y doble cocción, y valorar baño y quelantes",
+   "D": "Restringir todas las frutas y verduras de forma permanente, sin individualizar el consumo ni el método de cocción",
+   "E": "Suplementar potasio por vía oral, para evitar la hipopotasemia en la sesión larga del intervalo interdiálisis"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los sustitutos de sal contienen potasio y agravan la hiperpotasemia.",
+   "B": "Las tiazidas son ineficaces con TFG residual mínima y no se emplean.",
+   "C": "El potasio predialítico elevado, sobre todo tras el intervalo largo del fin de semana, se maneja eliminando fuentes ocultas (sustitutos de sal con KCl, aditivos de potasio, suplementos), individualizando el consumo de frutas y verduras ricas en potasio (plátano, naranja, tomate, papa), con técnicas de remojo y doble cocción, evitando el estreñimiento (que reduce la excreción fecal de potasio), y ajustando la prescripción de diálisis (baño de potasio de 2 mEq/L con cautela y más tiempo o sesiones). Los quelantes de potasio (patiromer, ciclosilicato de sodio y zirconio) permiten mantener una dieta rica en vegetales. El patrón vegetal no debe prohibirse de forma indiscriminada porque es cardioprotector.",
+   "D": "La restricción indiscriminada de frutas y verduras pierde los beneficios del patrón vegetal; se individualiza.",
+   "E": "El suplemento de potasio es peligroso con potasio de 5.9."
+  },
+  "perla": "HD con K alto: quitar sustitutos de sal/aditivos, remojo y doble cocción, tratar estreñimiento, ajustar baño de K, quelantes de K. No prohibir el patrón vegetal.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1",
+   "Palmer BF. N Engl J Med 2004;351:585"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o4",
+  "peso": 43.2
+ },
+ {
+  "id": "DIE-3",
+  "serie_id": "DIE",
+  "orden": 3,
+  "sub": "22.c.ii",
+  "subtema": "Dietas muy bajas en proteína y cetoanálogos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una mujer de 48 años con ERC G4 (TFGe de 20 mL/min/1.73 m²), proteinuria de 1.2 g/día, buen estado nutricional, motivada, quiere intentar retrasar la diálisis con una dieta muy baja en proteína.",
+  "enunciado": "¿Cuál es el planteamiento adecuado?",
+  "opciones": {
+   "A": "Dieta de 0.3 g/kg/día sin suplementos ni vigilancia, porque la motivación de la paciente basta para sostenerla",
+   "B": "Dieta alta en proteína para preservar la masa muscular, aun con TFGe de 20 mL/min/1.73 m²",
+   "C": "Contraindicada en cualquier caso, sin excepción, porque siempre produce desnutrición proteico-energética grave en la ERC avanzada",
+   "D": "Muy baja en proteína (0.3–0.4 g/kg/día) con cetoanálogos, bajo vigilancia nutricional estrecha y sin desnutrición ni inflamación",
+   "E": "Dieta sin restricción de calorías ni control de peso, porque la restricción proteica no requiere ajuste energético"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Sin suplementos y sin vigilancia se produce desnutrición.",
+   "B": "La proteína alta aumenta la hiperfiltración y la carga de urea y fósforo.",
+   "C": "Es una opción en pacientes seleccionados, aunque no se recomienda de forma general.",
+   "D": "En pacientes con ERC avanzada seleccionados (motivados, bien nutridos, sin inflamación ni desgaste, con acceso a seguimiento nutricional), la dieta muy baja en proteína (0.3 a 0.4 g/kg/día) suplementada con aminoácidos esenciales o cetoanálogos puede reducir la uremia, la acidosis, la hiperfosfatemia y la proteinuria, y retrasar el inicio de diálisis, según ensayos y metaanálisis (KDIGO 2024 la considera una opción). Los cetoanálogos son análogos de aminoácidos sin nitrógeno que captan amoníaco para formar aminoácidos y se presentan como sales de calcio, por lo que se vigila el calcio sérico. Exige aporte calórico adecuado (25 a 35 kcal/kg/día) y seguimiento de albúmina, peso y composición corporal.",
+   "E": "Si no se cubren las calorías, el catabolismo proteico se acelera y se agrava la desnutrición."
+  },
+  "perla": "Dieta muy baja en proteína (0.3–0.4 g/kg/d) + cetoanálogos: solo pacientes seleccionados, bien nutridos, con vigilancia y calorías adecuadas.",
+  "referencias": [
+   "KDIGO 2024 CKD Guideline. Kidney Int 2024;105(4S):S117",
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o4",
+  "peso": 16.9
+ },
+ {
+  "id": "DIE-4",
+  "serie_id": "DIE",
+  "orden": 4,
+  "sub": "22.b",
+  "subtema": "Tamizaje nutricional temprano en ERC",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente pregunta cuándo debe iniciar la valoración nutricional formal y con qué herramienta.",
+  "enunciado": "¿Qué se recomienda?",
+  "opciones": {
+   "A": "Valorar solo a los pacientes con obesidad, porque el riesgo nutricional en la ERC se limita al exceso de peso",
+   "B": "Tamizaje periódico desde G3 con herramientas validadas (VGS, MST/MUST), más frecuente si avanza el estadio o en diálisis",
+   "C": "No es necesario en pacientes con diabetes, porque su control glucémico basta para vigilar su nutrición",
+   "D": "Solo valorar la nutrición al iniciar diálisis, porque antes de ella no existe riesgo alguno de desnutrición proteico-energética",
+   "E": "Medir únicamente la albúmina una vez al año, porque es el marcador más sensible y específico del estado nutricional del paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La desnutrición ocurre también en pacientes con sobrepeso y obesidad (obesidad sarcopénica).",
+   "B": "Las guías KDOQI 2020 recomiendan tamizaje nutricional en ERC G3 a G5 y en diálisis con herramientas validadas (valoración global subjetiva en sus versiones, herramienta de tamizaje de malnutrición, índice de desnutrición-inflamación en diálisis), al menos cada 6 a 12 meses en ERC y con más frecuencia en etapas avanzadas, hospitalización o enfermedad intercurrente. La valoración integra historia dietética, antropometría, composición corporal, bioquímica (albúmina, prealbúmina, colesterol) y balance nitrogenado, porque ningún marcador aislado es suficiente.",
+   "C": "Los diabéticos también tienen riesgo y se valoran.",
+   "D": "Esperar a la diálisis pierde la oportunidad de prevenir el desgaste proteico-energético.",
+   "E": "La albúmina aislada no es un buen indicador del estado nutricional."
+  },
+  "perla": "Tamizaje nutricional desde ERC G3 (cada 6–12 m) y más frecuente en avanzada/diálisis. SGA, MIS; ningún marcador aislado.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o2",
+  "peso": 28.3
+ },
+ {
+  "id": "NDP-1",
+  "serie_id": "NDP",
+  "orden": 1,
+  "sub": "22.c.ii",
+  "subtema": "Anorexia y saciedad precoz en diálisis peritoneal: gastroparesia diabética",
+  "dificultad": "moderada",
+  "caso": "Hombre de 74 años con diabetes tipo 2 de 20 años de evolución, amputación supracondílea previa y 10 meses en DPCA. Refiere hiporexia, saciedad precoz, plenitud posprandial y vómito ocasional de alimentos no digeridos; perdió 6 kg en 3 meses. Laboratorio: BUN de 55 mg/dL, creatinina de 5.5 mg/dL, fósforo de 6.0 mg/dL, calcio de 7.1 mg/dL, hemoglobina de 8 g/dL, saturación de transferrina de 13%, albúmina de 2.7 g/dL y glucosa de 157 mg/dL. Se descartan peritonitis e infradiálisis.",
+  "enunciado": "¿Cuál es la causa más probable de su hiporexia y plenitud precoz?",
+  "opciones": {
+   "A": "Intolerancia a la lactosa, por la ingesta de lácteos, que explicaría la plenitud posprandial y el vómito ocasional",
+   "B": "Cáncer gástrico, sin otros datos de alarma, por la pérdida de peso y la saciedad precoz del paciente",
+   "C": "Insuficiencia suprarrenal primaria, por la glucosa normal, que explicaría la hiporexia y los vómitos del paciente",
+   "D": "Pancreatitis aguda, que se diagnostica con lipasa elevada y explicaría la plenitud posprandial y el vómito",
+   "E": "Gastroparesia diabética por neuropatía autonómica, agravada por el líquido intraperitoneal y la glucosa absorbida del dializado"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La intolerancia a la lactosa no explica la saciedad precoz con vómito de alimentos no digeridos.",
+   "B": "El cáncer gástrico no se sustenta sin datos de alarma, y el cuadro se explica por la gastroparesia.",
+   "C": "La insuficiencia suprarrenal cursa con hipotensión, hiponatremia e hiperpotasemia, y no con este cuadro.",
+   "D": "La pancreatitis cursa con dolor abdominal intenso y elevación de lipasa, que no se describen.",
+   "E": "La combinación de saciedad precoz, plenitud posprandial y vómito de alimentos no digeridos en un diabético de larga evolución sugiere gastroparesia diabética (neuropatía autonómica). En diálisis peritoneal, el desgaste proteico-energético es frecuente (hasta 30% a 40%) y tiene causas múltiples: pérdida peritoneal de proteínas (5 a 15 g/día, más en peritonitis), sensación de plenitud por el líquido intraperitoneal, anorexia por la glucosa absorbida del dializado, uremia e infradiálisis, inflamación, acidosis y comorbilidades. En este paciente, la gastroparesia y la plenitud intraperitoneal explican el cuadro, y la neuropatía autonómica diabética es el sustrato."
+  },
+  "perla": "DP + DM + saciedad precoz/vómito de alimento no digerido → gastroparesia diabética; contribuyen plenitud intraperitoneal, glucosa absorbida, uremia, pérdida de proteínas (5–15 g/d) e inflamación.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1 (KDOQI nutrición 2020)",
+   "Comprehensive Clinical Nephrology (nutrición en diálisis peritoneal)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "continuacion": "",
+  "obj": "22.o4",
+  "peso": 43.2
+ },
+ {
+  "id": "NDP-2",
+  "serie_id": "NDP",
+  "orden": 2,
+  "sub": "22.c.ii",
+  "subtema": "Manejo de la gastroparesia y ajuste de la prescripción para favorecer la ingesta",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma gastroparesia diabética con desnutrición. El paciente recibe 4 recambios de 2.5 L con dextrosa de 1.5% a 2.5%, incluida una permanencia nocturna larga, y refiere más plenitud y menos apetito durante el día con el abdomen lleno.",
+  "enunciado": "¿Cuál es la estrategia inicial más adecuada?",
+  "opciones": {
+   "A": "Suspender la diálisis peritoneal para mejorar el apetito, porque la glucosa del dializado causa la saciedad",
+   "B": "Procinético, reducir la plenitud y la carga de glucosa (icodextrina en la permanencia larga) y verificar la dosis de diálisis",
+   "C": "Indicar de inmediato sonda de gastrostomía sin tratamiento médico previo, por la gastroparesia diabética",
+   "D": "Suspender la dieta por vía oral y dar solo líquidos claros, para mejorar el vaciamiento gástrico",
+   "E": "Aumentar la dextrosa a 4.25% en todos los recambios, para mejorar la ultrafiltración y la saciedad del paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La diálisis peritoneal es el tratamiento sustitutivo, y su suspensión sin alternativa es inadecuada.",
+   "B": "El manejo de la gastroparesia diabética en un paciente en diálisis peritoneal combina un procinético (metoclopramida ajustada a la función renal por riesgo de efectos extrapiramidales, o domperidona), comidas pequeñas y frecuentes, y el ajuste de la prescripción para reducir la sensación de plenitud (menor volumen de llenado diurno, permanencia diurna seca si la dosis lo permite) y la carga de glucosa absorbida (que disminuye el apetito y contribuye a la hiperglucemia), por ejemplo, sustituyendo la glucosa por icodextrina en la permanencia larga. Se comprueba que la dosis de diálisis sea adecuada, porque la infradiálisis produce anorexia y náusea. Si estas medidas fallan, se pasa a suplementación y a vías enterales.",
+   "C": "La gastrostomía es una medida posterior si fallan las medidas médicas.",
+   "D": "Suspender la ingesta oral agrava la desnutrición.",
+   "E": "La dextrosa de 4.25% aumenta la absorción de glucosa y empeora el apetito y la hiperglucemia."
+  },
+  "perla": "Gastroparesia en DP: procinético (metoclopramida ajustada/domperidona) + ↓ plenitud (menos volumen diurno/día seco) + ↓ glucosa absorbida (icodextrina) + verificar adecuación; luego suplementos/enteral.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1 (KDOQI nutrición 2020)",
+   "Comprehensive Clinical Nephrology (nutrición en diálisis peritoneal)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o4",
+  "peso": 45.2
+ },
+ {
+  "id": "NDP-3",
+  "serie_id": "NDP",
+  "orden": 3,
+  "sub": "22.c.ii",
+  "subtema": "Metas de proteína y energía en diálisis peritoneal",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El paciente pesa 62 kg (peso ideal de 70 kg). El nutriólogo debe indicar la ingesta proteica y calórica, tomando en cuenta que hay pérdidas peritoneales de proteínas y que el paciente está desnutrido.",
+  "enunciado": "¿Cuál es la indicación más adecuada?",
+  "opciones": {
+   "A": "Proteína 1.0–1.2 g/kg/día (hasta 1.3 si hay desnutrición o pérdidas altas) y 25–35 kcal/kg/día contando la glucosa del dializado",
+   "B": "No hay recomendación de proteínas en diálisis peritoneal, porque las pérdidas peritoneales se compensan solas con la dieta habitual",
+   "C": "Proteínas de 0.6 g/kg/día, para frenar la progresión de la enfermedad renal y reducir la carga de urea",
+   "D": "Proteínas de 0.3 g/kg/día con cetoanálogos, para retrasar la progresión de la enfermedad renal del paciente",
+   "E": "Proteínas de 2.5 g/kg/día de forma indefinida, para compensar las pérdidas peritoneales y la desnutrición"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En el paciente estable en diálisis (incluida la diálisis peritoneal), KDOQI 2020 recomienda 1.0 a 1.2 g/kg/día de proteína (las guías previas indicaban 1.2 a 1.3 g/kg/día en diálisis peritoneal por las pérdidas peritoneales de 5 a 15 g/día de proteínas), y se usa el límite superior en la desnutrición, la peritonitis o las pérdidas altas; la energía recomendada es de 25 a 35 kcal/kg/día, incluyendo las calorías de la glucosa absorbida del dializado (que pueden aportar 100 a 300 kcal/día). La restricción proteica de 0.6 g/kg/día se aplica en ERC no dialítica seleccionada, y no en diálisis, donde agravaría el desgaste.",
+   "B": "Sí existe recomendación, con metas de proteína y energía definidas.",
+   "C": "La restricción a 0.6 g/kg/día es para ERC no dialítica, y causaría desgaste en diálisis.",
+   "D": "Las dietas muy bajas en proteína se reservan para pacientes no dialíticos seleccionados.",
+   "E": "Una ingesta de 2.5 g/kg/día excede lo recomendado y aumenta la carga de fósforo y de azoados."
+  },
+  "perla": "DP: proteínas 1.0–1.2 g/kg/d (KDOQI 2020; antes 1.2–1.3), límite superior si desnutrición/peritonitis/pérdidas altas; energía 25–35 kcal/kg/d incluyendo glucosa absorbida; pérdida peritoneal 5–15 g/d de proteína.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1 (KDOQI nutrición 2020)"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o4",
+  "peso": 43.2
+ },
+ {
+  "id": "NDP-4",
+  "serie_id": "NDP",
+  "orden": 4,
+  "sub": "22.c.ii",
+  "subtema": "Escalamiento nutricional en DP: suplementos, aminoácidos intraperitoneales y fósforo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A pesar del procinético, el ajuste de la prescripción y la dieta, el paciente sigue con albúmina de 2.8 g/dL y pérdida de peso. Su fósforo sérico es de 6.0 mg/dL.",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Indicar nutrición parenteral total de inicio, antes de probar suplementos orales o aminoácidos intraperitoneales",
+   "B": "Restringir proteínas para bajar el fósforo, aunque se agrave la desnutrición, hasta que se normalicen los niveles",
+   "C": "Indicar únicamente suplementos de zinc como medida principal, por la hipoalbuminemia y la pérdida ponderal",
+   "D": "Suplementos hipercalóricos e hiperproteicos, luego aminoácidos intraperitoneales o nutrición enteral; fósforo con dieta y quelantes",
+   "E": "Suspender los quelantes del fósforo para mejorar la absorción de nutrientes, pese al fósforo de 6.0 mg/dL"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La nutrición parenteral total no es la medida inicial, y se reserva para la falla de la vía enteral.",
+   "B": "Restringir proteínas en un paciente desnutrido agrava el desgaste, y el fósforo se controla con fuentes adecuadas y quelantes.",
+   "C": "El zinc no es la medida principal, y se reserva para deficiencias demostradas.",
+   "D": "La desnutrición que no responde a las medidas iniciales se escala: suplementos orales hipercalóricos e hiperproteicos y, en el paciente en diálisis peritoneal, la solución de aminoácidos al 1.1% en un recambio al día (reemplaza a la glucosa, con aporte de aminoácidos que mejora el balance nitrogenado, con vigilancia de la urea y de la acidosis) y, si el aporte oral y el intraperitoneal son insuficientes, nutrición enteral. El fósforo se maneja sin sacrificar la proteína: dieta de unos 800 a 1 000 mg/día ajustada al fósforo sérico (KDOQI 2020; las guías KDIGO sin una cifra diaria), fuentes de proteína con baja relación fósforo/proteína, evitar aditivos inorgánicos con fósforo y quelantes con las comidas. Los micronutrientes se suplementan ante deficiencias demostradas, y no son la medida principal.",
+   "E": "Los quelantes se mantienen para controlar el fósforo sin sacrificar la proteína."
+  },
+  "perla": "Escalar: suplementos orales → aminoácidos IP (1 recambio/día) → enteral. Fósforo ~800–1 000 mg/d (KDOQI 2020), proteína con baja relación P/proteína, evitar aditivos, quelantes; zinc solo si hay deficiencia.",
+  "referencias": [
+   "Ikizler TA et al. Am J Kidney Dis 2020;76(3 Suppl 1):S1 (KDOQI nutrición 2020)",
+   "KDIGO 2017 CKD-MBD Update. Kidney Int Suppl 2017;7:1"
+  ],
+  "origen": [
+   "PDP2"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 22,
+  "tema": "Nutrición en las enfermedades renales",
+  "obj": "22.o4",
+  "peso": 45.2
+ },
+ {
+  "id": "NUT-A1",
+  "tema_id": 22,
+  "sub": "22.a",
+  "obj": "22.o1",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Requerimientos de energía y proteína en ERC no dialítica",
+  "caso": "Hombre de 66 años, 70 kg, con ERC G4 metabólicamente estable, sin diabetes.",
+  "enunciado": "Según KDOQI 2020, ¿cuál es la indicación nutricional adecuada?",
+  "perla": "Johnson cap. 90: moderar 0.8–1.0 g/kg; KDIGO 0.8; KDOQI 2020 sin DM 0.55–0.6 (o 0.28–0.43 + cetoanálogos), con DM 0.6–0.8; diálisis 1.0–1.2; energía 25–35 kcal/kg; Na <100 mmol/d; HCO3 24–26.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 90: Nutrition in Chronic Kidney Disease",
+   "KDOQI-ACN Nutrition Guideline 2020. Am J Kidney Dis 2020;76(3S1):S1"
+  ],
+  "serie_id": "NUT-A1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Energía de 40 kcal/kg/día y proteína de 1.5 g/kg/día por catabolismo",
+   "B": "Energía de 25 a 35 kcal/kg/día y proteína de 0.55 a 0.6 g/kg/día bajo supervisión",
+   "C": "Energía libre y proteína de 0.3 g/kg/día sin suplementos ni vigilancia",
+   "D": "Restricción de energía y proteína para frenar la uremia sin control dietético",
+   "E": "Energía de 20 kcal/kg/día y proteína de 1.2 g/kg/día para evitar desgaste"
+  },
+  "explicaciones": {
+   "A": "Son requerimientos de estado crítico.",
+   "B": "Correcto. KDOQI 2020: en ERC 3 a 5 estable sin diabetes, 0.55 a 0.6 g/kg/día de proteína, o 0.28 a 0.43 con cetoanálogos, con 25 a 35 kcal/kg/día y seguimiento por nutrición.",
+   "C": "0.3 g/kg sin cetoanálogos causa desnutrición.",
+   "D": "Restringir energía favorece desgaste proteico-energético.",
+   "E": "1.2 g/kg es la meta en diálisis."
+  },
+  "clave": "B",
+  "tema": "Nutrición en las enfermedades renales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUT-B1",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Herramientas de evaluación nutricional",
+  "caso": "Mujer de 59 años en hemodiálisis con albúmina de 3.3 g/dL, pérdida de peso de 6% en 6 meses y menor fuerza de prensión.",
+  "enunciado": "¿Qué herramienta valida KDOQI 2020 para evaluar su estado nutricional?",
+  "perla": "Desgaste proteico-energético: VGS-7 o MIS + nPCR + fuerza de prensión + albúmina. Ningún marcador aislado basta.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 90: Nutrition in Chronic Kidney Disease",
+   "KDOQI-ACN Nutrition Guideline 2020. Am J Kidney Dis 2020;76(3S1):S1"
+  ],
+  "serie_id": "NUT-B1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Albúmina sérica aislada como único marcador del estado nutricional",
+   "B": "Prealbúmina semanal como única herramienta de seguimiento",
+   "C": "Creatinina sérica prediálisis como medida directa de la ingesta",
+   "D": "Valoración global subjetiva de 7 puntos o puntuación MIS",
+   "E": "Índice de masa corporal aislado como criterio diagnóstico suficiente"
+  },
+  "explicaciones": {
+   "A": "La albúmina se afecta por inflamación y volumen; no basta sola.",
+   "B": "La prealbúmina también depende de inflamación y función renal.",
+   "C": "Refleja masa muscular, no ingesta directa.",
+   "D": "Correcto. KDOQI 2020 recomienda la valoración global subjetiva de 7 puntos o la puntuación MIS para evaluar desnutrición en diálisis, junto con antropometría, fuerza y bioquímica.",
+   "E": "El IMC no distingue masa muscular de grasa ni de líquido."
+  },
+  "clave": "D",
+  "tema": "Nutrición en las enfermedades renales",
+  "origen": [
+   "Claude-2026-11 Johnson 9.ª ed. (carpeta Nefro/Libros)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NPCR-1",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "nPCR por cinética de urea",
+  "caso": "Paciente en hemodiálisis sin función residual. BUN posdiálisis 22 mg/dL y prediálisis siguiente 62 mg/dL, 48 horas después.",
+  "enunciado": "Con la fórmula simple de Johnson, ¿cuál es la nPCR aproximada?",
+  "perla": "nPCR = 0.22 + 0.036 × ΔBUN × 24/intervalo (h). Meta de proteína en HD y DP 1.0–1.2 g/kg/d. Desnutrición: prealbúmina <30 mg/dL, colesterol <150, pérdida de peso >10%.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 90: Nutrition in CKD (Bircher, Kalantar-Zadeh)"
+  ],
+  "serie_id": "NPCR-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "0.22 + 0.036 × 62 × 24/48 ≈ 1.34 g/kg/día",
+   "B": "0.22 + 0.036 × 40 × 24/48 ≈ 0.94 g/kg/día",
+   "C": "0.036 × 40 ≈ 1.44 g/kg/día sin corregir por intervalo",
+   "D": "0.22 + 0.036 × 22 ≈ 1.01 g/kg/día con el BUN posdiálisis",
+   "E": "62/22 × 0.36 ≈ 1.01 g/kg/día por cociente de BUN"
+  },
+  "explicaciones": {
+   "A": "Usa el BUN prediálisis en lugar del aumento.",
+   "B": "Correcto. Johnson cap. 90: nPCR = 0.22 + 0.036 × aumento interdialítico de BUN × 24/intervalo en horas. Aumento = 40 mg/dL; 0.22 + 0.036 × 40 × 0.5 = 0.94. Es algo menor que la meta de 1.0 a 1.2 g/kg/día; con función residual se suma la urea urinaria.",
+   "C": "Omite la constante y la corrección por intervalo.",
+   "D": "Usa el BUN posdiálisis.",
+   "E": "No es la fórmula."
+  },
+  "clave": "B",
+  "tema": "Nutrición en las enfermedades renales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IDPN-1",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "moderada",
+  "peso": 36,
+  "subtema": "Nutrición parenteral intradialítica",
+  "caso": "Mujer de 70 años en hemodiálisis con desgaste proteico-energético, albúmina 3.1 g/dL, que no tolera suplementos orales ni sonda.",
+  "enunciado": "¿Qué es correcto sobre la nutrición parenteral intradialítica?",
+  "perla": "NPID: 800–1200 kcal + 30–60 g proteína ×3/sem; evidencia insuficiente (KDOQI sí en casos, ASPEN no). DP: aminoácidos 1.1%. Vía GI preferida; suplementos intradialíticos con albúmina ≤3.5 asociados a mejor supervivencia.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology, 7.ª ed. (2023), cap. 90: Nutrition in CKD (Bircher, Kalantar-Zadeh)"
+  ],
+  "serie_id": "IDPN-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cubre todos los requerimientos y sustituye la vía oral por completo",
+   "B": "Está demostrado que reduce la mortalidad en ensayos grandes",
+   "C": "Se administra diario por vía central fuera de la diálisis",
+   "D": "Aporta 800 a 1200 kcal y 30 a 60 g de proteína: es suplementaria",
+   "E": "Está contraindicada por KDOQI en cualquier paciente en hemodiálisis"
+  },
+  "explicaciones": {
+   "A": "Es suplementaria, no total.",
+   "B": "No hay beneficio demostrado en mortalidad.",
+   "C": "Se da durante la diálisis, por la línea venosa.",
+   "D": "Correcto. Johnson cap. 90: la NPID se infunde en la línea venosa tres veces por semana durante unas 4 h y aporta 800 a 1200 kcal con 30 a 60 g de proteína; no cubre todas las necesidades. La evidencia es insuficiente: KDOQI la sugiere si no se tolera la vía oral o enteral; ASPEN no la recomienda. En DP, los aminoácidos intraperitoneales al 1.1% se absorben ~80% en 4 h.",
+   "E": "KDOQI la considera en casos seleccionados."
+  },
+  "clave": "D",
+  "tema": "Nutrición en las enfermedades renales",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-1",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Azoados bajos en hemodiálisis",
+  "caso": "Mujer de 60 años con 6 años en hemodiálisis 4 h tres veces por semana, peso seco estable, ganancia interdialítica 0.9 kg. Prediálisis: urea 27 mg/dL, P 3.2 mg/dL, K 4.5, albúmina 3.5 g/dL, colesterol 100 mg/dL. Refiere disnea.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Indicadores de baja ingesta: descenso gradual de BUN, P y K prediálisis, colesterol <150 mg/dL. El nPCR distingue diálisis adecuada de ingesta pobre.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Reducir el tiempo de diálisis por exceso de depuración",
+   "B": "Aumentar el peso seco",
+   "C": "Evaluar la ingesta y reajustar el peso seco",
+   "D": "Iniciar diurético y restringir líquidos",
+   "E": "Suspender quelantes y repetir en 3 meses"
+  },
+  "explicaciones": {
+   "A": "El problema es la ingesta, no un exceso de diálisis.",
+   "B": "Probablemente debe bajarse si perdió masa magra.",
+   "C": "Correcto. Urea, fósforo y colesterol bajos con poca ganancia sugieren ingesta pobre; pérdida de masa con peso seco fijo puede causar sobrecarga y disnea.",
+   "D": "No aborda la causa.",
+   "E": "Insuficiente."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-2",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Paradoja de la obesidad en hemodiálisis",
+  "caso": "Se discute la relación entre IMC y supervivencia en hemodiálisis.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "ISRNM sugiere IMC <23 kg/m² como umbral de desgaste. Pérdida de peso no intencional 5–10% es señal temprana y >10% clínicamente significativa.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El IMC alto siempre aumenta la mortalidad",
+   "B": "El IMC distingue bien músculo de grasa",
+   "C": "La obesidad nunca limita el acceso al trasplante",
+   "D": "El efecto se explica solo por menor inflamación en obesos",
+   "E": "IMC alto: mejor supervivencia, salvo obesidad mórbida"
+  },
+  "explicaciones": {
+   "A": "No es lo observado.",
+   "B": "No distingue músculo, grasa ni hidratación.",
+   "C": "Puede impedir activarlo en lista.",
+   "D": "Puede reflejar inflamación en los de bajo peso o reserva fisiológica, sin explicación única.",
+   "E": "Correcto. Epidemiología inversa: el IMC alto se asocia a mejor supervivencia en HD; no aplica a la obesidad mórbida, que predice mayor mortalidad."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-3",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Marcadores bioquímicos de desgaste",
+  "caso": "Hombre en hemodiálisis con PCR elevada por neumonía reciente; prealbúmina 18 mg/dL y albúmina 3.3 g/dL.",
+  "enunciado": "¿Qué limitación de la prealbúmina es correcta?",
+  "perla": "PEW: cuatro categorías de tamizaje, bioquímica, masa corporal, masa muscular e ingesta. KDOQI recomienda la SGA de 7 puntos; alternativas: MIS, DMS, GNRI.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cae rápido en inflamación aguda y la ERC la eleva",
+   "B": "Su vida media es de 20 días",
+   "C": "No varía con la TFG",
+   "D": "Es independiente del estado de hierro",
+   "E": "Es el marcador único para diagnosticar desgaste"
+  },
+  "explicaciones": {
+   "A": "Correcto. La ERC eleva la prealbúmina por menor metabolismo renal, pero cae rápido con inflamación aguda. Punto de corte <30 mg/dL solo para diálisis.",
+   "B": "Esa es la vida media de la albúmina.",
+   "C": "Varía con la TFG en G2–G5.",
+   "D": "La transferrina depende del hierro.",
+   "E": "Se requiere un panel."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-4",
+  "tema_id": 22,
+  "sub": "22.b",
+  "obj": "22.o2",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Antropometría en diálisis",
+  "caso": "Se mide la circunferencia muscular del brazo en un paciente con fístula en el brazo izquierdo.",
+  "enunciado": "¿Cómo se realiza correctamente?",
+  "perla": "Pliegue tricipital estima grasa y CMB masa magra; gran variabilidad, útil en serie. Bioimpedancia: mejor posdiálisis, cuando los compartimentos están equilibrados.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Brazo de la fístula, antes de la sesión",
+   "B": "Cualquier brazo, antes de la sesión",
+   "C": "Brazo sin acceso, antes de la sesión",
+   "D": "Brazo sin acceso, después de la sesión de HD",
+   "E": "Solo con bioimpedancia en el brazo de la fístula"
+  },
+  "explicaciones": {
+   "A": "No es lo correcto.",
+   "B": "No es lo correcto.",
+   "C": "La medición prediálisis sobreestima por sobrecarga.",
+   "D": "Correcto. Se usa el brazo dominante sin fístula ni injerto, tras la diálisis. CMB = circunferencia del brazo − 3.14 × pliegue tricipital.",
+   "E": "La bioimpedancia también se mide tras la diálisis."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-5",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Metas de proteína según guía",
+  "caso": "Hombre de 55 años no diabético, metabólicamente estable, con ERC G4 y seguimiento estrecho por nutrióloga renal.",
+  "enunciado": "¿Qué meta proteica propone KDOQI 2020?",
+  "perla": "KDIGO 2012 y 2020: 0.8 g/kg/día en G4–G5. PQRAD se beneficia menos de dietas bajas pero debe evitar >1.0. Dieta PLADO: >50% vegetal con 0.6–0.8 g/kg/día. Energía 25–35 kcal/kg y sodio <100 mmol/día.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "1.0–1.2 g/kg/día como en diálisis",
+   "B": "0.55–0.6 g/kg/día o menos con cetoanálogos",
+   "C": "0.8–1.0 g/kg/día sin supervisión estrecha",
+   "D": "Más de 1.3 g/kg/día",
+   "E": "0.6–0.8 g/kg/día por ser diabético"
+  },
+  "explicaciones": {
+   "A": "Es la meta en diálisis.",
+   "B": "Correcto. KDOQI 2020 para ERC no diabética estable con supervisión estrecha.",
+   "C": "Es la moderación general.",
+   "D": "Debe evitarse en ERC con riesgo de progresión.",
+   "E": "0.6–0.8 aplica a diabéticos bajo supervisión."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-6",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Vitaminas en ERC",
+  "caso": "Mujer en hemodiálisis con ingesta pobre pregunta qué suplementos tomar.",
+  "enunciado": "¿Qué recomendación es correcta?",
+  "perla": "La restricción de proteína y potasio reduce piridoxina, B12, folato, vitamina C, hierro y zinc. La mayoría de los dializados tiene déficit subclínico de vitamina K. KDOQI: bicarbonato 24–26 mmol/L en G3–G5D.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Vitamina A rutinaria por pérdidas dialíticas",
+   "B": "Vitamina K aunque tome warfarina",
+   "C": "Folato y B12 para reducir eventos CV",
+   "D": "Hidrosolubles; evitar vitamina C a dosis alta",
+   "E": "Vitamina C en dosis altas como antioxidante"
+  },
+  "explicaciones": {
+   "A": "Las deficiencias son raras, las pérdidas mínimas y se acumula.",
+   "B": "KDOQI: no dar vitamina K con antagonistas de vitamina K.",
+   "C": "Bajar la homocisteína no cambió mortalidad ni eventos CV.",
+   "D": "Correcto. Umbral bajo para un preparado de vitaminas hidrosolubles. La vitamina C en dosis altas favorece depósito tisular de oxalato.",
+   "E": "Riesgo de oxalosis."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-7",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Suplementación en diálisis peritoneal",
+  "caso": "Hombre en DP con desgaste e intolerancia a suplementos orales.",
+  "enunciado": "¿Qué es correcto sobre los aminoácidos intraperitoneales?",
+  "perla": "NPID: 800–1200 kcal y 30–60 g de proteína por sesión; un ECA mostró más prealbúmina que la consejería a 16 semanas; ESPEN tiene criterios de uso. Megestrol, mirtazapina y cannabinoides tienen evidencia insuficiente.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Al 1.1%; se absorbe ~80% en 4 horas",
+   "B": "Sustituyen todas las bolsas del día",
+   "C": "Tienen beneficio probado en mortalidad",
+   "D": "Aumentan la exposición a glucosa",
+   "E": "ASPEN los recomienda como primera línea"
+  },
+  "explicaciones": {
+   "A": "Correcto. Sustituyen glucosa en un recambio; se usan también para reducir exposición a glucosa. KDOQI los sugiere si no tolera suplementos o sonda.",
+   "B": "Habitualmente un recambio al día.",
+   "C": "Sus efectos a largo plazo no se conocen.",
+   "D": "La reducen.",
+   "E": "ASPEN se refiere a la NPID y no la recomienda."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "NUJ-8",
+  "tema_id": 22,
+  "sub": "22.c.ii",
+  "obj": "22.o4",
+  "dificultad": "moderada",
+  "peso": 40,
+  "subtema": "Dieta vegetal y potasio",
+  "caso": "Hombre con ERC G4, K 5.0 mmol/L, desea una dieta mediterránea rica en vegetales.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Dieta alterada baja en fibra favorece disbiosis y toxinas urémicas; prebióticos y probióticos aún sin recomendación.",
+  "referencias": [
+   "Bircher G, Kalantar-Zadeh K. Nutrition in Chronic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 90, pp. 1024-1030"
+  ],
+  "serie_id": "NUJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Toda dieta vegetal está contraindicada en G4",
+   "B": "Los patrones saludables aumentan la mortalidad en ERC",
+   "C": "La fibra reduce la motilidad intestinal",
+   "D": "El sustituto de sal con potasio es la mejor estrategia",
+   "E": "La fibra vegetal favorece pérdida fecal de K y alcaliniza"
+  },
+  "explicaciones": {
+   "A": "Se individualiza.",
+   "B": "Metaanálisis de 7 estudios: menor mortalidad.",
+   "C": "La aumenta.",
+   "D": "Debe evitarse por riesgo de hiperpotasemia.",
+   "E": "Correcto. La fibra mejora el tránsito y la pérdida GI de potasio, y su efecto alcalinizante puede reducir la hiperpotasemia; individualizar en etapas avanzadas."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Nutrición en las enfermedades renales",
+  "tipo_item": "nueva"
+ }
+]

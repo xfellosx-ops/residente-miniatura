@@ -1,0 +1,257 @@
+[
+ {
+  "id": 1,
+  "name": "El riñón sano",
+  "acto": "Prólogo",
+  "boss": "El Simulador",
+  "levels": [
+   [
+    "1",
+    "Bases estructurales"
+   ],
+   [
+    "2",
+    "Hormonas y riñón"
+   ],
+   [
+    "3",
+    "Volumen y líquidos"
+   ]
+  ],
+  "intro": "Soy tu simulador. Si no sabes lo sano, no reconocerás lo roto.",
+  "outro": "Calibrado. Ya no me necesitas.",
+  "form": "maquina",
+  "color": "#4a8ad8",
+  "type": "Molecular",
+  "legendaria": "leg_r1"
+ },
+ {
+  "id": 2,
+  "name": "Las herramientas",
+  "acto": "Prólogo",
+  "boss": "El Alquimista",
+  "levels": [
+   [
+    "4",
+    "Farmacología"
+   ],
+   [
+    "5",
+    "Estudios diagnósticos"
+   ]
+  ],
+  "intro": "Cada fármaco es veneno o remedio. Depende de tu dosis.",
+  "outro": "Ajustaste por TFG. Me quedo sin trucos.",
+  "form": "cristal",
+  "color": "#c8962a",
+  "type": "Molecular",
+  "legendaria": "leg_r2"
+ },
+ {
+  "id": 3,
+  "name": "La lesión aguda",
+  "acto": "I",
+  "boss": "El Triaje",
+  "levels": [
+   [
+    "6",
+    "Lesión renal aguda"
+   ],
+   [
+    "17",
+    "Tóxicas"
+   ],
+   [
+    "11",
+    "Obstructiva"
+   ]
+  ],
+  "intro": "Tres camas, un minuto: ¿prerrenal, renal u obstructiva?",
+  "outro": "Clasificaste antes de tratar. Pasa.",
+  "form": "ola",
+  "color": "#d85a3a",
+  "type": "Innato",
+  "legendaria": "leg_r3"
+ },
+ {
+  "id": 4,
+  "name": "El medio interno",
+  "acto": "I",
+  "boss": "El Transportador",
+  "levels": [
+   [
+    "24",
+    "Hidroelectrolítico"
+   ],
+   [
+    "25",
+    "Ácido-base"
+   ],
+   [
+    "10",
+    "Túbulo-intersticiales"
+   ]
+  ],
+  "intro": "Muevo sodio, potasio y protones. Equivócate y muevo el cerebro.",
+  "outro": "Respetaste el ritmo. Mis canales descansan.",
+  "form": "muro",
+  "color": "#3a8ab8",
+  "type": "Molecular",
+  "legendaria": "leg_r4"
+ },
+ {
+  "id": 5,
+  "name": "El glomérulo",
+  "acto": "II",
+  "boss": "El Semilunar",
+  "levels": [
+   [
+    "9-1",
+    "Mecanismos, síndromes y biopsia"
+   ],
+   [
+    "9-2",
+    "Podocitopatías"
+   ],
+   [
+    "9-3",
+    "Membranosa"
+   ],
+   [
+    "9-4",
+    "IgA y vasculitis por IgA"
+   ],
+   [
+    "9-5",
+    "Nefritis lúpica"
+   ],
+   [
+    "9-6",
+    "Vasculitis ANCA y anti-MBG"
+   ],
+   [
+    "9-7",
+    "Paraproteínas y VIH"
+   ]
+  ],
+  "intro": "Soy la semiluna. Llego cuando la biopsia se tarda.",
+  "outro": "Me encontraste celular, no fibrosa. A tiempo.",
+  "form": "defensor",
+  "color": "#c23a7a",
+  "type": "Inmunocomplejo",
+  "crescent": true,
+  "legendaria": "leg_r5"
+ },
+ {
+  "id": 6,
+  "name": "Genes, quistes y cristales",
+  "acto": "II",
+  "boss": "El Heredero",
+  "levels": [
+   [
+    "16",
+    "Hereditarias"
+   ],
+   [
+    "14",
+    "Quísticas"
+   ],
+   [
+    "12",
+    "Litiasis"
+   ],
+   [
+    "13",
+    "Infección urinaria"
+   ]
+  ],
+  "intro": "No me elegiste. Vengo de tu abuelo, de tu cilio, de tu orina.",
+  "outro": "No me borraste. Me hiciste lento.",
+  "form": "gen",
+  "color": "#16a085",
+  "type": "Molecular",
+  "legendaria": "leg_r6"
+ },
+ {
+  "id": 7,
+  "name": "Vasos, presión y embarazo",
+  "acto": "II",
+  "boss": "El Endotelio Herido",
+  "levels": [
+   [
+    "15",
+    "Vasculares y MAT"
+   ],
+   [
+    "23",
+    "Hipertensión"
+   ],
+   [
+    "18",
+    "Embarazo"
+   ],
+   [
+    "26",
+    "Onconefrología"
+   ]
+  ],
+  "intro": "Presión, complemento, placenta, quimio: todos me rompen a mí.",
+  "outro": "Me cerraste a tiempo. Las plaquetas regresan.",
+  "form": "vaso",
+  "color": "#c0392b",
+  "type": "Complemento",
+  "legendaria": "leg_r7"
+ },
+ {
+  "id": 8,
+  "name": "La enfermedad crónica",
+  "acto": "III",
+  "boss": "La Progresión",
+  "levels": [
+   [
+    "8",
+    "Nefropatía diabética"
+   ],
+   [
+    "7",
+    "ERC"
+   ],
+   [
+    "22",
+    "Nutrición"
+   ]
+  ],
+  "intro": "Yo no ataco. Solo espero. Cada año sin pilares es mío.",
+  "outro": "Me compraste décadas. Odio eso.",
+  "form": "hialino",
+  "color": "#9a8a5a",
+  "type": "Molecular",
+  "legendaria": "leg_r8"
+ },
+ {
+  "id": 9,
+  "name": "Reemplazo e injerto",
+  "acto": "III",
+  "boss": "Hemo-Eterna",
+  "levels": [
+   [
+    "19",
+    "Hemodiálisis"
+   ],
+   [
+    "20",
+    "Diálisis peritoneal"
+   ],
+   [
+    "21",
+    "Trasplante"
+   ]
+  ],
+  "intro": "Una silla, tres sesiones, para siempre. ¿Firmas?",
+  "outro": "Trasplante, DP, conservador… Hay salidas. Maldición.",
+  "form": "anticuerpo",
+  "color": "#2aa0a0",
+  "type": "Humoral",
+  "legendaria": "leg_r9"
+ }
+]

@@ -1,0 +1,710 @@
+{
+ "meta": {
+  "id": "3",
+  "title": "Volumen y líquidos corporales",
+  "key": "rm_v3_3",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Marea",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Océanos Interiores",
+   "palette": [
+    "#FFF4D6",
+    "#F2C27A",
+    "#B5651D",
+    "#4A2508"
+   ],
+   "tiles": "playa",
+   "vignette": "compartimentos",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Simulación nueva: un paciente con cirrosis, ascitis y edema."
+    ],
+    [
+     "Sabio Brenn",
+     "El agua es 60 % del peso. Dos tercios dentro de la célula, un tercio fuera."
+    ],
+    [
+     "Sabio Brenn",
+     "Del extracelular, tres cuartos son intersticio y un cuarto plasma."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Sodio",
+     "lines": [
+      [
+       "Sodio",
+       "Soy el dueño del extracelular. Donde voy yo, va el volumen."
+      ],
+      [
+       "Sodio",
+       "Mi concentración habla de agua, no de cuánto sodio hay."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "sodio"
+    },
+    {
+     "id": "npc2",
+     "name": "Potasio",
+     "lines": [
+      [
+       "Potasio",
+       "Yo mando dentro de la célula. La Na-K-ATPasa me mantiene ahí."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Osmolalidad",
+     "2 × Na + glucosa/18 + BUN/2.8. Normal 275–295 mOsm/kg."
+    ],
+    [
+     "Letrero · Tonicidad",
+     "La urea cruza membranas: cuenta para la osmolalidad, no para la tonicidad."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "FSJ-7",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Solución salina para todos, 150 mL/h. Nunca falla."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "¿Dónde se queda cada solución? Nunca lo había pensado."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "serie": "T2-3VRS",
+     "intro": [
+      [
+       "Dr. Max Presor",
+       "Hipotenso y oligúrico: otro litro, y otro, y otro."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Max Presor",
+       "Elevar piernas y VExUS… ya no ahogo al riñón."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "T2-3UCL",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Sodio urinario de 45: no está seca. Siguiente."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "El cloro urinario la delató. Salina y potasio."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Agua Libre",
+     "type": "Molecular",
+     "topic": "Agua Libre"
+    },
+    {
+     "name": "Urea Ineficaz",
+     "type": "Molecular",
+     "topic": "Urea Ineficaz"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_2",
+     "topic": "Compartimentos y distribución de soluciones",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Un litro de salina se queda afuera de la célula. Un litro de glucosada se reparte en todo."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "¿Dónde se queda 1 litro?",
+     "items": [],
+     "pairs": [
+      [
+       "Salina 0.9 %",
+       "Extracelular: ~250 mL en plasma"
+      ],
+      [
+       "Glucosada 5 %",
+       "Agua total: ~80 mL en plasma"
+      ],
+      [
+       "Albúmina 5 %",
+       "Casi todo en plasma"
+      ],
+      [
+       "Salina 3 %",
+       "Saca agua de la célula"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Agua corporal total",
+       "~60% del peso (H) / 50% (M)"
+      ],
+      [
+       "Osmolalidad plasmática",
+       "2Na + Glu/18 + BUN/2.8"
+      ],
+      [
+       "Brecha osmolar >10",
+       "Metanol, etilenglicol"
+      ],
+      [
+       "Agua intracelular",
+       "~2/3 del agua corporal total"
+      ],
+      [
+       "Fuerzas de Starling",
+       "Hidrostática vs oncótica"
+      ],
+      [
+       "Sed",
+       "Osmorreceptores hipotalámicos"
+      ],
+      [
+       "ADH no osmótica",
+       "Barorreceptores ante ↓volumen efectivo"
+      ],
+      [
+       "Volumen circulante efectivo",
+       "Gobierna retención de Na (ICC, cirrosis)"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Ahora el capilar. Starling tiene algo que decir del edema."
+      ]
+     ]
+    }
+   ],
+   "card": "Agua corporal 60 %: 2/3 intracelular, 1/3 extracelular (3/4 intersticio, 1/4 plasma). Sodio = volumen extracelular; natremia = agua."
+  },
+  {
+   "id": "z2",
+   "name": "Capilar de Starling",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "starling",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "La hidrostática empuja hacia afuera; la oncótica retiene. El linfático recoge el resto."
+    ],
+    [
+     "Sabio Brenn",
+     "En la cirrosis, la vasodilatación esplácnica engaña a los sensores: creen que falta."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Barorreceptor",
+     "lines": [
+      [
+       "Barorreceptor",
+       "Yo no mido el volumen total. Mido el llenado arterial."
+      ],
+      [
+       "Barorreceptor",
+       "Si lo siento bajo, pido SRAA, simpático y ADH aunque sobre agua."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "volumen arterial efectivo"
+    },
+    {
+     "id": "npc2",
+     "name": "Glucocáliz",
+     "lines": [
+      [
+       "Glucocáliz",
+       "Soy la capa que recubre el endotelio. El Starling revisado me incluye."
+      ],
+      [
+       "Glucocáliz",
+       "Por mí, el líquido casi no regresa al capilar: vuelve por linfa."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Underfill y overfill",
+     "Nefrótico: retención primaria de sodio (ENaC) en muchos casos, no solo llenado bajo."
+    ],
+    [
+     "Letrero · Sodio urinario",
+     "Na urinario <20 mEq/L: el riñón cree que falta volumen."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "FSJ-8",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Edema es edema: furosemida y listo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Volumen arterial efectivo… por eso mi paciente no orinaba."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "T2-3ASC",
+     "intro": [
+      [
+       "Dr. Ernesto Holístico",
+       "Cirrótico con ascitis: restricción de sal y nada más."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Ernesto Holístico",
+       "Albúmina por litro y el cociente Na/K. Me lo llevo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "OSM-4",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Tonicidad: urea frente a glucosa"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Edema Rebelde",
+     "type": "Molecular",
+     "topic": "Edema Rebelde"
+    },
+    {
+     "name": "Presión Oncótica",
+     "type": "Molecular",
+     "topic": "Presión Oncótica"
+    },
+    {
+     "name": "Simpático Renal",
+     "type": "Celular",
+     "topic": "Simpático Renal"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_1",
+     "topic": "Volumen arterial efectivo y retención de sodio",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: el riñón retiene sodio aunque el cuerpo esté sobrecargado."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Cirrosis: de la vena porta al edema",
+     "items": [
+      "Hipertensión portal",
+      "Vasodilatación esplácnica (óxido nítrico)",
+      "Cae el volumen arterial efectivo",
+      "SRAA, simpático y ADH activados",
+      "Retención de sodio y agua",
+      "Ascitis y edema"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Última prueba del simulador: la marea."
+      ]
+     ]
+    }
+   ],
+   "card": "Edema = Starling alterado + retención renal de sodio. Cirrosis e IC: volumen arterial efectivo bajo → SRAA/ADH pese a exceso de volumen total."
+  }
+ ],
+ "boss": {
+  "name": "La Marea de Starling",
+  "color": "#3a8ad8",
+  "dark": "#123a66",
+  "heads": 1,
+  "form": "ola",
+  "crescent": false,
+  "intro": [
+   [
+    "La Marea",
+    "Subo y bajo entre compartimentos. ¿Sabes dónde estoy ahora?"
+   ],
+   [
+    "Dr. J.",
+    "Compartimento, sensor y causa. En ese orden."
+   ]
+  ],
+  "outro": [
+   [
+    "La Marea",
+    "Bajo. Por ahora."
+   ],
+   [
+    "Dr. J.",
+    "Fin de la simulación. Lo que sigue ya son pacientes reales."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Compartimentos",
+    "type": "Molecular",
+    "lines": [
+     [
+      "La Marea",
+      "¿Adentro o afuera?"
+     ]
+    ],
+    "topics": [
+     "Compartimentos"
+    ],
+    "questions": [
+     "NEW-3-1"
+    ]
+   },
+   {
+    "name": "Sensores",
+    "type": "Celular",
+    "lines": [
+     [
+      "La Marea",
+      "¿Quién me detecta?"
+     ]
+    ],
+    "topics": [
+     "Sensores"
+    ],
+    "questions": [
+     "NEW-3-2"
+    ]
+   },
+   {
+    "name": "Edema",
+    "type": "Humoral",
+    "lines": [
+     [
+      "La Marea",
+      "Ahora inundo los tobillos."
+     ]
+    ],
+    "topics": [
+     "Edema"
+    ],
+    "questions": [
+     "FSJ-5"
+    ]
+   },
+   {
+    "name": "Conducta",
+    "type": "Complemento",
+    "lines": [
+     [
+      "La Marea",
+      "Sácame si puedes."
+     ]
+    ],
+    "topics": [
+     "Conducta"
+    ],
+    "questions": [
+     "FSJ-6"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Océanos Interiores",
+   "text": "Agua corporal 60 %: 2/3 intracelular, 1/3 extracelular (3/4 intersticio, 1/4 plasma). Sodio = volumen extracelular; natremia = agua."
+  },
+  {
+   "title": "Capilar de Starling",
+   "text": "Edema = Starling alterado + retención renal de sodio. Cirrosis e IC: volumen arterial efectivo bajo → SRAA/ADH pese a exceso de volumen total."
+  },
+  {
+   "title": "💎 Balance de sodio y fuerzas de Starling e",
+   "text": "Edema nefrótico: underfill (volumen efectivo bajo, renina alta, más en niños con ECM) vs overfill (retención primaria por ENaC activado por plasmina, renina baja). Amilorida + asa."
+  },
+  {
+   "title": "💎 Volemia efectiva en insuficiencia cardia",
+   "text": "IC y cirrosis: ACT y LEC ↑ pero volumen circulante efectivo ↓ → SRAA, simpático y ADH → FENa baja e hiponatremia hipervolémica."
+  },
+  {
+   "title": "💎 Elección de cristaloide",
+   "text": "Choque: 1–2 L de cristaloide. Johnson: de la salina, 1/3 queda intravascular. Solución oral de rehidratación: 50–90 mmol/L de Na frente a 7–20 de bebidas deportivas."
+  },
+  {
+   "title": "💎 Evaluación de la volemia efectiva",
+   "text": "FC >100 o aumento postural >30, caída de PAS >20 de pie; BUN/Cr >20 en hipovolemia, sangrado alto o esteroides. FENa <1% en hipovolemia."
+  },
+  {
+   "title": "💎 Retención de sodio en el nefrótico",
+   "text": "Subllenado: cambios mínimos en niños, albúmina <2 g/dL, riesgo de LRA. La natriuresis en remisión precede a la subida de albúmina."
+  },
+  {
+   "title": "💎 Cirrosis y volemia efectiva",
+   "text": "Paracentesis con albúmina. En IC: angiotensina II y estímulo α proximal reducen el Na distal y no hay escape de aldosterona."
+  },
+  {
+   "title": "💎 Tonicidad: urea frente a glucosa",
+   "text": "Urea y glucosa cruzan membranas celulares y no estimulan la AVP en condiciones normales; sin insulina, la glucosa sí es osmol efectivo. Hipertónicos: salina y manitol (Johnson cap. 9)."
+  },
+  {
+   "title": "💎 Escape mineralocorticoide: HTA sin edema",
+   "text": "Escape: ↑TFG + ↑presión de perfusión renal → ↓reabsorción proximal, ↓NCC, ↑ANP → natriuresis. En IC no hay escape porque la presión de perfusión y la entrega distal están bajas."
+  }
+ ]
+}

@@ -1,0 +1,2364 @@
+[
+ {
+  "id": "TMA-1",
+  "serie_id": "TMA",
+  "orden": 1,
+  "sub": "9.d.8",
+  "subtema": "Microangiopatía trombótica: diagnóstico sindromático",
+  "dificultad": "moderada",
+  "caso": "Hombre de 18 años con infección de vías respiratorias altas 5 días antes, fiebre y malestar. Hb 7.9 g/dL, plaquetas 28,000/µL, leucocitos 22,000/µL, Cr 2.6 mg/dL, LDH 1,450 U/L, haptoglobina indetectable, bilirrubina indirecta elevada. TP y TTPa normales, fibrinógeno normal, Coombs directo negativo, C3 y C4 normales. EGO: hematuria y proteinuria. Frotis: abundantes esquistocitos. La biopsia renal muestra microtrombos intracapilares.",
+  "enunciado": "¿Cuál es el diagnóstico sindromático más apropiado?",
+  "opciones": {
+   "A": "Coagulación intravascular diseminada, por la trombocitopenia, la hemólisis y el daño renal agudo en el contexto infeccioso",
+   "B": "Anemia hemolítica autoinmune con síndrome de Evans, por la hemólisis y la trombocitopenia de origen inmune",
+   "C": "Crioglobulinemia mixta con vasculitis sistémica, por la lesión renal, la anemia y el cuadro infeccioso previo",
+   "D": "Microangiopatía trombótica (hemólisis microangiopática, trombocitopenia y daño renal) sin coagulopatía de consumo",
+   "E": "Glomerulonefritis asociada a ANCA, por la lesión renal aguda y el antecedente de infección respiratoria superior reciente"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "En la CID hay consumo de factores: TP y TTPa prolongados y fibrinógeno bajo.",
+   "B": "El Coombs positivo es requisito del síndrome de Evans.",
+   "C": "La crioglobulinemia cursa con complemento bajo (C4) y púrpura, no con esquistocitos.",
+   "D": "La tríada de anemia hemolítica con esquistocitos, trombocitopenia y daño orgánico (renal) define la microangiopatía trombótica (MAT). La ausencia de alteraciones en TP, TTPa y fibrinógeno la separa de la coagulación intravascular diseminada, y el Coombs directo negativo excluye hemólisis autoinmune. La biopsia con microtrombos intracapilares confirma el daño endotelial. La MAT es un síndrome con causas diversas: PTT (déficit de ADAMTS13), SHU típico por toxina Shiga, SHU atípico (desregulación del complemento) y formas secundarias (fármacos, embarazo, enfermedades autoinmunes, hipertensión maligna).",
+   "E": "La vasculitis ANCA no explica esquistocitos ni trombocitopenia."
+  },
+  "perla": "MAT = anemia hemolítica con esquistocitos + plaquetopenia + daño orgánico, con Coombs negativo y coagulación normal (distingue de CID).",
+  "referencias": [
+   "Brocklebank V et al. Clin J Am Soc Nephrol 2018;13:300",
+   "Goodship TH et al. Kidney Int 2017;91:539 (consenso KDIGO sobre SHUa)"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o13",
+  "peso": 73.1
+ },
+ {
+  "id": "TMA-2",
+  "serie_id": "TMA",
+  "orden": 2,
+  "sub": "9.d.8",
+  "subtema": "MAT: manejo inicial mientras se completa el estudio",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se tomó muestra para ADAMTS13 y para toxina Shiga; los resultados tardarán 24 a 72 horas. El VCM es 84 fL y la puntuación PLASMIC es de 6 de 7 (solo la creatinina >2.0 mg/dL no suma).",
+  "enunciado": "¿Qué manejo debe iniciarse mientras se completa el abordaje?",
+  "opciones": {
+   "A": "Recambio plasmático urgente con glucocorticoides, sin esperar el resultado de ADAMTS13, con vigilancia de plaquetas y LDH",
+   "B": "Transfusión profiláctica de plaquetas para mantener un recuento mayor de 50,000/µL antes del recambio",
+   "C": "Pulsos de metilprednisolona como única medida, a la espera del resultado de ADAMTS13 y de la toxina Shiga",
+   "D": "Ciclofosfamida intravenosa como inmunosupresión inicial, hasta conocer la actividad de ADAMTS13 y la toxina Shiga del paciente",
+   "E": "Hemodiálisis como único tratamiento y observación, hasta que se complete el abordaje etiológico del cuadro"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En la MAT con trombocitopenia grave y hemólisis, la púrpura trombocitopénica trombótica no puede excluirse hasta conocer la actividad de ADAMTS13 y es una emergencia con alta mortalidad si no se trata. Se inicia recambio plasmático diario (reposición con plasma) más glucocorticoides, en cuanto se tome la muestra, y se agregan rituximab o caplacizumab si se confirma PTT (ADAMTS13 <10%). La puntuación PLASMIC (plaquetas <30 000, hemólisis, sin cáncer activo ni trasplante, VCM <90, INR <1.5, creatinina <2.0) estima la probabilidad de déficit grave de ADAMTS13; en este caso, la creatinina elevada orienta hacia SHU, pero no permite esperar.",
+   "B": "Las transfusiones de plaquetas pueden empeorar la trombosis y se evitan salvo sangrado grave.",
+   "C": "Los esteroides solos no corrigen la deficiencia de ADAMTS13 ni retiran autoanticuerpos de forma rápida.",
+   "D": "La ciclofosfamida no tiene papel en el abordaje inicial de la MAT.",
+   "E": "La diálisis trata la uremia, no la causa de la MAT."
+  },
+  "perla": "MAT con plaquetopenia grave: recambio plasmático + esteroides de inmediato (tras tomar ADAMTS13); no esperar el resultado.",
+  "referencias": [
+   "Zheng XL et al. J Thromb Haemost 2020;18:2496 (guía ISTH)",
+   "Bendapudi PK et al. Lancet Haematol 2017;4:e157 (PLASMIC)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 63.0
+ },
+ {
+  "id": "TMA-3",
+  "serie_id": "TMA",
+  "orden": 3,
+  "sub": "9.d.8",
+  "subtema": "ADAMTS13 y diagnóstico diferencial",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El laboratorio pregunta qué determinación debe procesar para distinguir PTT de otras MAT.",
+  "enunciado": "¿Cuál es el estudio y el punto de corte que confirma PTT?",
+  "opciones": {
+   "A": "Cuantificación de IgA sérica, porque su elevación distingue el PTT de las demás microangiopatías",
+   "B": "Dímero D elevado, porque su elevación confirma el PTT y excluye por completo la coagulación intravascular diseminada",
+   "C": "Coombs directo positivo, porque confirma el mecanismo autoinmune del PTT y descarta otras microangiopatías trombóticas",
+   "D": "Niveles elevados de C5b-9 soluble confirman PTT, porque reflejan la activación terminal del complemento en el endotelio",
+   "E": "Actividad de ADAMTS13 (no el antígeno): <10% confirma PTT, con anticuerpos inhibidores en la forma adquirida"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La IgA sérica no se usa en MAT.",
+   "B": "El dímero D es inespecífico.",
+   "C": "El Coombs positivo indica hemólisis inmune, no MAT.",
+   "D": "El C5b-9 soluble no es una prueba diagnóstica de PTT.",
+   "E": "La PTT adquirida (autoinmune) o congénita (síndrome de Upshaw-Schulman) se caracteriza por actividad de ADAMTS13 <10%. Se solicita la actividad enzimática (FRETS) y, si está baja, la búsqueda de anticuerpos inhibidores. La deficiencia grave permite que persistan multímeros ultralargos del factor von Willebrand, que forman trombos plaquetarios ricos en vWF en la microvasculatura. Una actividad >10% hace improbable la PTT y obliga a pensar en SHU típico, SHU atípico o formas secundarias."
+  },
+  "perla": "PTT: actividad de ADAMTS13 <10% (con inhibidor en la forma adquirida). Pedir actividad, no solo niveles de antígeno.",
+  "referencias": [
+   "Zheng XL et al. J Thromb Haemost 2020;18:2496",
+   "Scully M et al. N Engl J Med 2019;380:335 (caplacizumab)"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 73.1
+ },
+ {
+  "id": "TMA-4",
+  "serie_id": "TMA",
+  "orden": 4,
+  "sub": "9.d.8",
+  "subtema": "SHU atípico: tratamiento anti-C5",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La actividad de ADAMTS13 es 40%; la toxina Shiga y las pruebas de neumococo son negativas. El paciente sigue con anuria, hemólisis y plaquetas bajas tras 3 recambios plasmáticos.",
+  "enunciado": "¿Cuál es el siguiente paso terapéutico?",
+  "opciones": {
+   "A": "Avacopan, un antagonista oral del receptor C5a, como tratamiento específico de la microangiopatía trombótica atípica",
+   "B": "Metilprednisolona en dosis altas como único agente, por la actividad inmunológica de la microangiopatía",
+   "C": "Inmunoglobulina intravenosa en dosis de 2 g/kg, para neutralizar el mecanismo inmunológico de la enfermedad y detener la hemólisis",
+   "D": "Rituximab como tratamiento de PTT, aunque la actividad de ADAMTS13 sea de 40% y no haya inhibidor",
+   "E": "Eculizumab (o ravulizumab) para el SHUa mediado por complemento, con vacunación y profilaxis antimeningocócica"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El avacopan es antagonista del receptor de C5a, aprobado en vasculitis ANCA, no en SHUa.",
+   "B": "Los glucocorticoides solos no controlan la activación del complemento.",
+   "C": "La IgIV no tiene eficacia comprobada en SHUa.",
+   "D": "El rituximab se usa en PTT por anticuerpos anti-ADAMTS13, no en SHUa.",
+   "E": "Con ADAMTS13 >10% y sin toxina Shiga, el diagnóstico más probable es SHU atípico (mediado por complemento), que no responde de forma sostenida a los recambios plasmáticos. El eculizumab (anticuerpo anti-C5) y el ravulizumab (de acción prolongada) bloquean la formación de C5b-9 y normalizan plaquetas y hemólisis en la mayoría; mejoran la función renal, sobre todo si se inician temprano. Dada la mayor susceptibilidad a Neisseria meningitidis se vacuna (conjugada ACWY y B) y se da profilaxis antibiótica, por al menos 2 semanas tras la vacuna o durante el tratamiento. Un complemento sérico normal no excluye SHUa."
+  },
+  "perla": "ADAMTS13 >10% + sin Shiga = SHUa: eculizumab/ravulizumab (anti-C5) con vacunación antimeningocócica y profilaxis antibiótica. C3 normal no lo excluye.",
+  "referencias": [
+   "Legendre CM et al. N Engl J Med 2013;368:2169",
+   "Goodship TH et al. Kidney Int 2017;91:539"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 63.0
+ },
+ {
+  "id": "TMA-5",
+  "serie_id": "TMA",
+  "orden": 5,
+  "sub": "9.d.8",
+  "subtema": "Fisiopatología del SHU atípico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El estudio genético identifica una variante patogénica de CFH (factor H del complemento) con anticuerpos anti-CFH negativos.",
+  "enunciado": "¿Cuál es el mecanismo patogénico central?",
+  "opciones": {
+   "A": "Depósito de complejos inmunes in situ en la membrana basal, con activación de la vía clásica del complemento",
+   "B": "Desregulación de la vía alterna del complemento en el endotelio: activación descontrolada de C3, formación de C5b-9 y microtrombosis",
+   "C": "Factor nefrítico C3 que estabiliza la C3 convertasa de la vía alterna en fase fluida, con C3 bajo persistente y C5b-9 normal",
+   "D": "Anticuerpos contra ADAMTS13 con multímeros ultralargos del factor von Willebrand y trombos plaquetarios",
+   "E": "Toxina Shiga que se une a receptores Gb3 del endotelio, con inhibición de la síntesis proteica de la célula"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Los complejos inmunes in situ definen la nefropatía membranosa y otras glomerulonefritis.",
+   "B": "El SHU atípico se debe a variantes de pérdida de función en reguladores del complemento (CFH, CFI, MCP/CD46, THBD) o de ganancia de función en C3 y CFB, o a anticuerpos anti-CFH y deleciones de CFHR1-3. El resultado es una activación sin freno de la vía alterna sobre las células endoteliales, con formación de C5b-9, lesión endotelial y trombosis microvascular. Un evento desencadenante (infección, embarazo, trasplante, fármacos) suele revelar la enfermedad. La penetrancia es incompleta; solo 50 a 60% de los casos tiene variante identificable.",
+   "C": "El factor nefrítico C3 es el mecanismo de la C3G (glomerulopatía C3).",
+   "D": "Es el mecanismo de la PTT adquirida.",
+   "E": "Es el mecanismo del SHU típico por E. coli productora de toxina Shiga."
+  },
+  "perla": "SHUa: desregulación de la vía alterna (CFH, CFI, MCP, C3, CFB) → C5b-9 en endotelio. C3G: factor nefrítico. PTT: anti-ADAMTS13. SHU típico: toxina Shiga.",
+  "referencias": [
+   "Goodship TH et al. Kidney Int 2017;91:539",
+   "Fakhouri F et al. Haemolytic uraemic syndrome. Lancet 2017;390:681"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 63.0
+ },
+ {
+  "id": "TMA-6",
+  "serie_id": "TMA",
+  "orden": 6,
+  "sub": "9.d.8",
+  "subtema": "SHU atípico y trasplante renal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A pesar del tratamiento, el paciente requirió hemodiálisis crónica durante 2 años y se registra para trasplante renal; tiene la variante patogénica de CFH.",
+  "enunciado": "¿Cuál es la recomendación antes del trasplante?",
+  "opciones": {
+   "A": "Usar solo inhibidores de calcineurina en dosis altas y sin profilaxis anti-C5 para prevenir la recurrencia de la microangiopatía",
+   "B": "No es necesaria profilaxis porque la recurrencia es poco frecuente en pacientes con variante de CFH",
+   "C": "Realizar trasplante combinado hígado-riñón en todos los casos de variante de CFH, sin excepción alguna",
+   "D": "Contraindicar de manera absoluta el trasplante renal por el riesgo de recurrencia de la enfermedad",
+   "E": "Estratificar la recurrencia (CFH, C3 o CFB: alto riesgo) y dar profilaxis anti-C5 desde el trasplante, evitando donante emparentado"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Los inhibidores de calcineurina pueden desencadenar MAT y no previenen recurrencia.",
+   "B": "En variantes de CFH la recurrencia es de hasta 80 a 90% sin profilaxis.",
+   "C": "El trasplante hepatorrenal no es la regla; se reserva para casos muy seleccionados.",
+   "D": "El trasplante no está contraindicado; con profilaxis anti-C5 los resultados son buenos.",
+   "E": "El consenso KDIGO del SHU atípico estratifica el riesgo de recurrencia postrasplante: alto (variantes en CFH, C3, CFB, recurrencia previa en un injerto, o título alto de anti-CFH), moderado (CFI o variantes de significado incierto) y bajo (MCP/CD46 aislada o anti-CFH con título bajo persistente). En riesgo alto se recomienda profilaxis con anti-C5 desde el momento del trasplante; en riesgo bajo no se requiere profilaxis, y en riesgo moderado se puede dar profilaxis o vigilar de cerca. Se evita donador emparentado portador de la variante. El trasplante hepatorrenal se reserva para casos seleccionados (por ejemplo, CFH con recurrencias)."
+  },
+  "perla": "SHUa y trasplante: riesgo alto de recurrencia (CFH, C3, CFB) → profilaxis anti-C5 desde el trasplante; riesgo bajo (MCP aislada) → sin profilaxis.",
+  "referencias": [
+   "Goodship TH et al. Kidney Int 2017;91:539",
+   "KDIGO Controversies Conference: Atypical HUS and C3G, 2017"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 63.0
+ },
+ {
+  "id": "TMS-1",
+  "serie_id": "TMS",
+  "orden": 1,
+  "sub": "9.d.8",
+  "subtema": "MAT inducida por gemcitabina",
+  "dificultad": "moderada",
+  "caso": "Mujer de 61 años con adenocarcinoma de páncreas en tratamiento con gemcitabina durante 8 meses. Presenta hipertensión de reciente inicio (170/100 mmHg), edema, Cr 2.1 mg/dL (basal 0.8), proteinuria 2.5 g/24 h, Hb 8.4 g/dL, plaquetas 62,000/µL, LDH elevada, haptoglobina baja y esquistocitos en frotis.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Progresión tumoral con coagulación intravascular diseminada crónica y daño renal secundario",
+   "B": "Síndrome de lisis tumoral con nefropatía por cristales de ácido úrico y fosfato de calcio",
+   "C": "Microangiopatía trombótica inducida por gemcitabina, con hipertensión, proteinuria y daño renal",
+   "D": "Nefritis intersticial aguda inmunoalérgica por el fármaco, con proteinuria y daño renal agudo grave",
+   "E": "Nefropatía membranosa paraneoplásica por el adenocarcinoma de páncreas, con síndrome nefrótico y edema"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La CID cursa con consumo de factores (TP y fibrinógeno alterados), no con esquistocitos y creatinina elevada aislados.",
+   "B": "La lisis tumoral produce hiperuricemia, hiperfosfatemia e hipocalcemia, no MAT.",
+   "C": "La gemcitabina produce MAT en aproximadamente 0.3% de los pacientes, habitualmente tras uso prolongado (dosis acumulada elevada) y con cuadro de hipertensión, edema, deterioro de función renal, anemia hemolítica microangiopática y trombocitopenia. Se cree que el daño endotelial es directo y no mediado por inmunocomplejos, y que es dosis-dependiente. En la biopsia se observan microtrombos y lesiones endoteliales. El diagnóstico exige excluir PTT (ADAMTS13 normal), SHU típico y recaída tumoral.",
+   "D": "La nefritis intersticial no causa esquistocitos.",
+   "E": "La membranosa produce nefrótico sin anemia hemolítica."
+  },
+  "perla": "Gemcitabina → MAT (dosis acumulada, HAS, esquistocitos); otros: mitomicina C, inhibidores de calcineurina, quinina, VEGF/proteasoma.",
+  "referencias": [
+   "Izzedine H et al. Nephrol Dial Transplant 2006;21:3038",
+   "Brocklebank V et al. Clin J Am Soc Nephrol 2018;13:300"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o13",
+  "peso": 73.1
+ },
+ {
+  "id": "TMS-2",
+  "serie_id": "TMS",
+  "orden": 2,
+  "sub": "9.d.8",
+  "subtema": "MAT secundaria: estudios para excluir otras causas",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El oncólogo pregunta qué estudios son necesarios para sustentar que la causa es la gemcitabina y no PTT u otra MAT.",
+  "enunciado": "¿Cuál es el estudio más importante para excluir PTT?",
+  "opciones": {
+   "A": "Dímero D, que se eleva en la coagulación intravascular y no distingue entre la PTT y las demás MAT",
+   "B": "IgA sérica, que orienta a una nefropatía por IgA y no permite excluir la púrpura trombocitopénica trombótica",
+   "C": "Actividad de ADAMTS13, que es normal o está levemente disminuida en la MAT por fármacos y muy baja en PTT",
+   "D": "Anticuerpos anti-PLA2R, útiles para la nefropatía membranosa pero no para distinguir entre las formas de MAT",
+   "E": "Anticuerpos antinucleares, que orientan a lupus eritematoso sistémico, pero no excluyen la PTT ni otras MAT"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El dímero D no discrimina entre causas de MAT.",
+   "B": "La IgA sérica no tiene papel diagnóstico.",
+   "C": "En las MAT secundarias a fármacos, como la gemcitabina, la actividad de ADAMTS13 es normal o está discretamente disminuida (>10%), lo que excluye PTT. Además se descartan toxina Shiga, anticuerpos antifosfolípido y complemento (C3, C4, CH50, anti-CFH y estudio genético si el cuadro es atípico o recurrente) y se valora la actividad tumoral. El diagnóstico es clínico y por exclusión, apoyado en la relación temporal con el fármaco.",
+   "D": "El anti-PLA2R no se relaciona con MAT.",
+   "E": "Los ANA orientan a lupus, útil como causa secundaria, pero no excluyen PTT."
+  },
+  "perla": "En MAT por fármacos ADAMTS13 >10%. El diagnóstico se apoya en el antecedente, la exclusión de PTT, Shiga y complemento.",
+  "referencias": [
+   "Zheng XL et al. J Thromb Haemost 2020;18:2496",
+   "Izzedine H et al. Nephrol Dial Transplant 2006;21:3038"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 61.0
+ },
+ {
+  "id": "TMS-3",
+  "serie_id": "TMS",
+  "orden": 3,
+  "sub": "9.d.8",
+  "subtema": "MAT por gemcitabina: tratamiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "ADAMTS13 está al 62%, la toxina Shiga y las pruebas de complemento son normales. La paciente tiene TA de 175/105 mmHg.",
+  "enunciado": "¿Cuál es la conducta inicial más adecuada?",
+  "opciones": {
+   "A": "Transfusiones plaquetarias profilácticas para mantener un recuento mayor de 50,000/µL, aun sin sangrado activo ni procedimientos invasivos",
+   "B": "Suspender gemcitabina de forma definitiva, controlar la TA (IECA o ARA-II si no hay hiperpotasemia) y dar soporte, con diálisis si hace falta",
+   "C": "Ciclofosfamida y esteroides, por el probable componente inmunológico de la microangiopatía por el fármaco",
+   "D": "Recambio plasmático diario como tratamiento de elección, hasta normalizar plaquetas y LDH en la paciente",
+   "E": "Continuar gemcitabina con reducción de dosis del 25%, vigilando plaquetas, creatinina y presión arterial"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Las plaquetas se transfunden solo si hay sangrado grave, pues pueden favorecer la trombosis.",
+   "B": "La medida principal es suspender el agente de forma definitiva, controlar la presión arterial y dar soporte (transfusión de hematíes si se requiere, diálisis si hay uremia o sobrecarga). La eficacia del recambio plasmático no está demostrada en MAT por fármacos y no se recomienda de rutina (a diferencia de la PTT). El eculizumab se ha usado en casos refractarios con resultados variables. La función renal puede no recuperarse completamente, y no debe reexponerse al fármaco.",
+   "C": "La inmunosupresión no tiene papel en una MAT tóxica.",
+   "D": "El recambio plasmático no ha mostrado beneficio en MAT por gemcitabina.",
+   "E": "Mantener el fármaco, aun con dosis menor, prolonga la lesión endotelial."
+  },
+  "perla": "MAT por fármaco: suspender el agente, controlar TA y soporte; el recambio plasmático no es eficaz de rutina.",
+  "referencias": [
+   "Izzedine H et al. Nephrol Dial Transplant 2006;21:3038",
+   "KDIGO Controversies: Goodship TH et al. Kidney Int 2017;91:539"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 61.0
+ },
+ {
+  "id": "TMS-4",
+  "serie_id": "TMS",
+  "orden": 4,
+  "sub": "9.d.8",
+  "subtema": "MAT por gemcitabina: pronóstico y seguimiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tres meses después, la paciente se recupera hematológicamente, pero con Cr 1.6 mg/dL y proteinuria de 1.2 g/día. El oncólogo desea reiniciar gemcitabina porque el tumor responde.",
+  "enunciado": "¿Cuál es la recomendación?",
+  "opciones": {
+   "A": "Reiniciar gemcitabina junto con eculizumab profiláctico para prevenir la recaída de la microangiopatía",
+   "B": "Reiniciar gemcitabina porque la recuperación hematológica indica que fue un evento aislado y reversible, sin riesgo de recurrencia",
+   "C": "No reexponer a gemcitabina; elegir otro esquema y mantener el bloqueo del SRAA con vigilancia renal por riesgo de ERC residual",
+   "D": "Reiniciar gemcitabina con premedicación con esteroides para evitar la reacción de hipersensibilidad",
+   "E": "Esperar 5 años antes de reexponer a gemcitabina, tiempo tras el cual el riesgo de recurrencia desaparece"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay evidencia de eficacia del anti-C5 como profilaxis de reexposición.",
+   "B": "La MAT puede recurrir con reexposición; no es un evento aislado.",
+   "C": "La reexposición a gemcitabina tras una MAT puede producir recaída grave y se desaconseja. La recuperación hematológica es la regla tras retirar el fármaco, pero hasta la mitad de los pacientes queda con ERC residual (proteinuria, HTA y descenso de TFGe), por lo que se mantiene el bloqueo del SRAA y control de TA. El oncólogo debe elegir un esquema alternativo, evitando otros agentes con riesgo de MAT (mitomicina C, anti-VEGF, inhibidores de proteasoma) si es posible.",
+   "D": "Los esteroides no previenen la lesión endotelial directa.",
+   "E": "No existe un periodo seguro de reexposición definido."
+  },
+  "perla": "MAT por gemcitabina: no reexponer; seguimiento de ERC residual y bloqueo del SRAA.",
+  "referencias": [
+   "Izzedine H et al. Nephrol Dial Transplant 2006;21:3038"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o13",
+  "peso": 73.1
+ },
+ {
+  "id": "CNT-4",
+  "serie_id": "CNT",
+  "orden": 4,
+  "sub": "15.d",
+  "subtema": "Enfermedad ateroembólica renal: diferenciación",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis semanas después de la coronariografía, el paciente regresa con creatinina de 4.1 mg/dL (tras mejorar), livedo reticularis en piernas, dedos de los pies violáceos con pulsos presentes, eosinofilia de 9%, C3 bajo y proteinuria de 0.8 g/g.",
+  "enunciado": "¿Cuál es el diagnóstico y el manejo?",
+  "opciones": {
+   "A": "Ateroembolia de colesterol tras cateterismo: estatina, control de TA, evitar anticoagulación y nuevos procedimientos",
+   "B": "Vasculitis ANCA; ciclofosfamida de inmediato, porque la eosinofilia y el livedo reticularis indican vasculitis sistémica de vasos pequeños",
+   "C": "Pielonefritis aguda; antibiótico intravenoso, porque la elevación de la creatinina tras el cateterismo indica infección",
+   "D": "Trombosis de la arteria renal; trombólisis, porque el livedo y los dedos violáceos indican oclusión arterial aguda",
+   "E": "Nefropatía por contraste tardía; solución salina, porque la creatinina sube seis semanas después del medio de contraste"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La enfermedad ateroembólica renal ocurre por microémbolos de colesterol tras manipulación arterial (cateterismo, cirugía vascular) o anticoagulación, en pacientes con aterosclerosis grave. A diferencia de la lesión por contraste (pico en 3 a 5 días), se presenta de forma subaguda en semanas, con livedo reticularis, 'dedos azules' con pulsos conservados, eosinofilia, eosinofiluria, hipocomplementemia, elevación de VSG y proteinuria leve. El diagnóstico es clínico o por biopsia (hendiduras biconvexas en arteriolas). No hay tratamiento específico: se retiran fuentes de embolia, se evita la anticoagulación, se inicia estatina, se controla la TA y se da soporte renal; el pronóstico es reservado.",
+   "B": "La ANCA mostraría hematuria glomerular y títulos positivos; la inmunosupresión no está indicada.",
+   "C": "No hay fiebre ni leucocituria.",
+   "D": "La trombosis de la arteria renal causa dolor, LDH alta y oliguria agudos.",
+   "E": "La nefropatía por contraste alcanza su pico a los 3 a 5 días y no cursa con livedo ni eosinofilia."
+  },
+  "perla": "Ateroembolia: semanas tras cateterismo, livedo, dedos azules, eosinofilia, C3↓. Sin tratamiento específico (estatina, evitar anticoagulación).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedad ateroembólica)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o2",
+  "peso": 18.6
+ },
+ {
+  "id": "ANT-2",
+  "serie_id": "ANT",
+  "orden": 2,
+  "sub": "15.h",
+  "subtema": "Calcifilaxis asociada a warfarina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente y el cardiólogo eligen warfarina. Ocho meses después presenta placas violáceas dolorosas, de aspecto reticulado, en los muslos y el abdomen, con ulceración y escara necrótica. INR de 3.2, fósforo de 6.8 mg/dL, calcio de 9.4 mg/dL, PTH de 520 pg/mL, albúmina de 3.1 g/dL.",
+  "enunciado": "¿Cuál es el diagnóstico y el factor farmacológico implicado?",
+  "opciones": {
+   "A": "Celulitis necrosante; el factor es la hiperglucemia, que favorece la infección bacteriana de los tejidos blandos",
+   "B": "Livedo reticularis benigno; no requiere cambios en el tratamiento, porque las placas violáceas son un hallazgo frecuente y leve",
+   "C": "Calcifilaxis; la warfarina favorece la calcificación vascular al inhibir la carboxilación de la proteína Gla",
+   "D": "Necrosis cutánea por heparina; el factor es el fondaparinux, que produce trombocitopenia con trombosis cutánea",
+   "E": "Vasculitis ANCA; el factor es la azatioprina, que desencadena la inflamación necrosante de los vasos cutáneos"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La celulitis necrosante es una infección aguda con fiebre y toxicidad sistémica, no esta presentación subaguda.",
+   "B": "Las lesiones son necróticas y dolorosas, y requieren manejo urgente.",
+   "C": "Las lesiones cutáneas dolorosas, reticuladas, que evolucionan a úlceras con escara necrótica en un paciente en diálisis con hiperfosfatemia, hiperparatiroidismo, hipoalbuminemia, diabetes y obesidad son típicas de calcifilaxis (arteriolopatía urémica calcificante), con calcificación de la media arteriolar, hiperplasia de la íntima y trombosis. La warfarina es el principal factor de riesgo farmacológico (riesgo aumentado de 3 a 13 veces): bloquea la gamma-carboxilación dependiente de vitamina K de la proteína Gla de la matriz (MGP), el principal inhibidor de la calcificación vascular. Otros factores son los análogos de vitamina D, los quelantes cálcicos, el sexo femenino y las alteraciones del calcio-fósforo.",
+   "D": "La necrosis por heparina es una complicación de la trombocitopenia inducida por heparina, sin hiperfosfatemia ni dolor tan intenso en esta distribución.",
+   "E": "La vasculitis ANCA produce púrpura palpable, no placas reticuladas con escara en un paciente en diálisis con este perfil."
+  },
+  "perla": "Calcifilaxis: placas dolorosas retiformes → úlceras con escara; HD, DM, obesidad, ↑P, ↑PTH, albúmina baja. Warfarina ↑ riesgo 3–13× (inhibe MGP).",
+  "referencias": [
+   "Nigwekar SU et al. N Engl J Med 2018;378:1704",
+   "Comprehensive Clinical Nephrology (trastornos minerales y óseos)"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 49.9
+ },
+ {
+  "id": "ANT-3",
+  "serie_id": "ANT",
+  "orden": 3,
+  "sub": "15.h",
+  "subtema": "Manejo de la calcifilaxis y qué anticoagulante usar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma la sospecha clínica de calcifilaxis. El paciente aún requiere anticoagulación por su fibrilación auricular.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Solo observar la evolución, porque la calcifilaxis suele resolverse sola al controlar el fósforo y el calcio séricos",
+   "B": "Suspender warfarina (apixabán si persiste la indicación); heridas, analgesia, tiosulfato de sodio y control de calcio y fósforo",
+   "C": "Iniciar calcitriol y quelantes cálcicos para corregir el calcio, porque la hipocalcemia es la causa de las lesiones",
+   "D": "Continuar la warfarina y aumentar su dosis, para prevenir la trombosis de los vasos pequeños de la dermis y del tejido graso subcutáneo",
+   "E": "Biopsia cutánea obligatoria antes de cualquier intervención, porque el diagnóstico clínico no permite iniciar tratamiento empírico"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Sin intervención la mortalidad es alta.",
+   "B": "La calcifilaxis tiene alta mortalidad (cercana a 50% al año con ulceración) y se maneja con un enfoque multidisciplinario: suspender la warfarina (y sustituirla por un anticoagulante alternativo si aún se necesita, como apixabán a dosis ajustada, o suspenderla si no), cuidado de las heridas con desbridamiento selectivo, control del dolor (opioides), tiosulfato de sodio intravenoso tras la diálisis (evidencia limitada), y control de los factores mineral-óseos con quelantes no cálcicos, cinacalcet o paratiroidectomía en hiperparatiroidismo refractario; se evitan el calcitriol y sus análogos y la sobrecarga de calcio. La nutrición y la optimización de la diálisis también se consideran. La oxigenoterapia hiperbárica es adyuvante.",
+   "C": "El calcitriol y los quelantes cálcicos promueven la calcificación y están contraindicados.",
+   "D": "Aumentar la warfarina agrava la calcificación vascular.",
+   "E": "La biopsia puede producir heridas que no cicatrizan y no es obligatoria si la clínica es típica."
+  },
+  "perla": "Calcifilaxis: suspender warfarina, heridas + dolor, tiosulfato de sodio, quelantes NO cálcicos, evitar calcitriol/Ca; apixabán si aún requiere anticoagular.",
+  "referencias": [
+   "Nigwekar SU et al. N Engl J Med 2018;378:1704",
+   "KDIGO CKD-MBD 2017 Update. Kidney Int Suppl 2017;7:1"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 37.8
+ },
+ {
+  "id": "RAS-1",
+  "serie_id": "RAS",
+  "orden": 1,
+  "sub": "15.c",
+  "subtema": "Estenosis aterosclerótica de la arteria renal: sospecha y diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 68 años, fumador, con cardiopatía isquémica y enfermedad arterial periférica, con hipertensión resistente a tres fármacos. Hay un soplo abdominal. Tras iniciar enalapril, su creatinina sube de 1.4 a 2.3 mg/dL en 2 semanas y el potasio es de 5.6 mEq/L. La ecografía muestra riñón derecho de 9.0 cm e izquierdo de 11.8 cm.",
+  "enunciado": "¿Cuál es la sospecha y el estudio inicial no invasivo?",
+  "opciones": {
+   "A": "Hipertensión esencial resistente; sin estudios adicionales, porque la edad y el tabaquismo explican el cuadro por completo",
+   "B": "Glomerulonefritis posinfecciosa; antiestreptolisinas y complemento, porque la creatinina sube tras iniciar el fármaco",
+   "C": "Nefropatía diabética; biopsia renal como primer estudio, porque el soplo abdominal es un hallazgo incidental sin relevancia",
+   "D": "Estenosis aterosclerótica bilateral (o riñón único); Doppler renal (Vmax >200, razón renal-aórtica >3.5) o angio-TC/RM",
+   "E": "Nefritis intersticial por enalapril; esteroides, porque la creatinina sube tras el IECA y se resuelve con ellos de forma rápida"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La hipertensión resistente con estos hallazgos requiere estudiar causas secundarias.",
+   "B": "No hay datos de síndrome nefrítico ni infección previa.",
+   "C": "La nefropatía diabética no explica la asimetría renal ni el empeoramiento agudo con IECA.",
+   "D": "La hipertensión resistente en un paciente con aterosclerosis difusa, soplo abdominal, asimetría renal (diferencia de más de 1.5 cm) y un aumento mayor de 30% de la creatinina con IECA sugiere estenosis aterosclerótica de la arteria renal, bilateral o en un riñón único funcional. La angiotensina II mantiene la presión de filtración por constricción de la arteriola eferente cuando la perfusión es baja; el IECA lo bloquea y la TFG cae. El estudio no invasivo inicial es la ecografía Doppler (velocidad sistólica máxima mayor de 200 cm/s, relación renal-aórtica mayor de 3.5), complementada con angiotomografía o angiorresonancia (con riesgo de gadolinio con TFGe menor de 30). La arteriografía es el estándar invasivo.",
+   "E": "El cuadro con IECA, asimetría y aterosclerosis orienta a estenosis y no a nefritis intersticial."
+  },
+  "perla": "Aterosclerosis + HTA resistente + ↑Cr >30% con IECA + asimetría renal >1.5 cm = sospechar EAR. Doppler (VSM >200, RAR >3.5), angio-TC/RM.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hipertensión renovascular)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o2",
+  "peso": 26.9
+ },
+ {
+  "id": "RAS-2",
+  "serie_id": "RAS",
+  "orden": 2,
+  "sub": "15.c",
+  "subtema": "Tratamiento médico frente a revascularización",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El Doppler muestra estenosis significativa de ambas arterias renales (velocidad sistólica de 340 cm/s a la derecha y de 290 cm/s a la izquierda). El IECA se suspendió y la creatinina bajó a 1.6 mg/dL. La TA actual es de 150/88 mmHg con amlodipino, carvedilol y diurético.",
+  "enunciado": "¿Cuál es el manejo inicial recomendado?",
+  "opciones": {
+   "A": "Suspender todo el tratamiento antihipertensivo, porque la estenosis bilateral contraindica cualquier fármaco",
+   "B": "Tratamiento médico óptimo (antiagregante, estatina, control de TA), porque CORAL no mostró beneficio del stent sobre él",
+   "C": "Stent bilateral inmediato en todos los pacientes, porque la revascularización mejora siempre la TFG y la supervivencia global",
+   "D": "Reintroducir el IECA a dosis máxima sin vigilancia de creatinina ni potasio, porque ya mejoró al suspenderlo",
+   "E": "Nefrectomía del riñón más pequeño, para mejorar el control de la presión arterial en la hipertensión renovascular bilateral"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La hipertensión no tratada acelera el daño vascular y renal.",
+   "B": "En los ensayos ASTRAL (2009) y CORAL (2014), la angioplastia con stent sumada al tratamiento médico no mejoró los desenlaces cardiovasculares ni renales en la estenosis aterosclerótica de la arteria renal frente al tratamiento médico solo (antiagregante, estatina de alta intensidad, control de la TA con bloqueo del SRAA vigilado, abandono del tabaquismo y control glucémico). Se reserva la revascularización para casos seleccionados: edema agudo pulmonar recurrente o 'flash' sin causa, insuficiencia cardiaca rápidamente descompensada, hipertensión refractaria con tratamiento máximo, deterioro progresivo de la función renal con estenosis bilateral o riñón único y, en la displasia fibromuscular, la angioplastia.",
+   "C": "El stent sistemático no mejoró los desenlaces en CORAL.",
+   "D": "Reiniciar un IECA con estenosis bilateral sin vigilancia reproduce la lesión renal.",
+   "E": "No hay indicación de nefrectomía en un riñón con función conservada."
+  },
+  "perla": "EAR aterosclerótica: tratamiento médico (CORAL, ASTRAL: stent no superior). Revascularizar: EAP recurrente/flash, HTA refractaria, deterioro progresivo con estenosis bilateral/riñón único.",
+  "referencias": [
+   "Cooper CJ et al. N Engl J Med 2014;370:13 (CORAL)",
+   "Wheatley K et al. N Engl J Med 2009;361:1953 (ASTRAL)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o2",
+  "peso": 28.9
+ },
+ {
+  "id": "RAS-3",
+  "serie_id": "RAS",
+  "orden": 3,
+  "sub": "15.c",
+  "subtema": "Edema pulmonar 'flash' y uso del bloqueo del SRAA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis meses después, con TA de 170/90 mmHg bajo tratamiento máximo sin IECA, el paciente presenta dos episodios de edema agudo de pulmón súbito con función sistólica del ventrículo izquierdo conservada y sin isquemia, y creatinina de 2.0 mg/dL.",
+  "enunciado": "¿Cuál es la conducta apropiada?",
+  "opciones": {
+   "A": "Continuar solo el tratamiento médico sin otras medidas, porque CORAL demostró que el stent nunca es útil en la estenosis renal aterosclerótica",
+   "B": "Diálisis crónica inmediata, porque el edema pulmonar recurrente indica falla renal terminal inevitable",
+   "C": "Revascularización de las arterias renales (angioplastia con stent) por edema pulmonar súbito recurrente con estenosis bilateral",
+   "D": "Trasplante cardiaco, porque el edema agudo de pulmón con función sistólica conservada indica miocardiopatía terminal",
+   "E": "Iniciar un IECA a dosis alta como primera maniobra, porque controla la presión y el edema pulmonar recurrente sin riesgo renal alguno"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El tratamiento médico solo no ha controlado los episodios, y existe una indicación de revascularización.",
+   "B": "La diálisis no es necesaria cuando la función renal es recuperable.",
+   "C": "El edema agudo de pulmón recurrente y súbito (síndrome de Pickering) con función ventricular conservada es una manifestación de estenosis bilateral de las arterias renales o de la arteria de un riñón único: la retención de sodio y volumen dependiente de la angiotensina II, y el aumento de la poscarga, precipitan la sobrecarga. Es una de las indicaciones aceptadas de revascularización incluso después de CORAL, junto con la insuficiencia cardiaca descompensada inexplicable, la hipertensión refractaria y el deterioro progresivo de la función renal en estenosis bilateral o riñón único. Se debe vigilar la creatinina tras el procedimiento y mantener el tratamiento médico.",
+   "D": "No hay indicación de trasplante cardiaco, ya que la función ventricular es normal.",
+   "E": "El IECA puede precipitar insuficiencia renal aguda en estenosis bilateral."
+  },
+  "perla": "EAP 'flash' recurrente + función VI conservada → EAR bilateral/riñón único (Pickering): indicación de revascularización.",
+  "referencias": [
+   "Cooper CJ et al. N Engl J Med 2014;370:13 (CORAL)",
+   "Comprehensive Clinical Nephrology (hipertensión renovascular)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o2",
+  "peso": 28.9
+ },
+ {
+  "id": "AOV-1",
+  "serie_id": "AOV",
+  "orden": 1,
+  "sub": "15.a",
+  "subtema": "Embolia de la arteria renal",
+  "dificultad": "moderada",
+  "caso": "Hombre de 62 años con fibrilación auricular permanente sin anticoagulación. Presenta dolor agudo en el flanco izquierdo, náusea, hematuria microscópica, TA de 168/96 mmHg y creatinina de 2.1 mg/dL (basal de 1.2). LDH de 1,800 U/L con AST discretamente elevada, leucocitos de 14,500/µL. La angiotomografía muestra una zona cuneiforme sin realce en el riñón izquierdo con interrupción de una rama segmentaria de la arteria renal.",
+  "enunciado": "¿Cuál es el diagnóstico y el dato de laboratorio característico?",
+  "opciones": {
+   "A": "Disección de la aorta; troponina, porque el dolor agudo en el flanco con hipertensión indica compromiso aórtico con isquemia renal secundaria",
+   "B": "Trombosis de la vena renal; hipoalbuminemia grave, porque el dolor en el flanco con hematuria indica trombosis venosa",
+   "C": "Pielonefritis aguda; procalcitonina muy elevada, porque el dolor en el flanco con náusea indica infección",
+   "D": "Embolia de la arteria renal con infarto; LDH muy elevada y transaminasas poco elevadas, en fibrilación auricular sin anticoagular",
+   "E": "Cólico renal; hipercalcemia, porque el dolor agudo en el flanco con hematuria indica una litiasis por hipercalcemia"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay datos de disección ni elevación de troponina.",
+   "B": "La trombosis de la vena renal se asocia a síndrome nefrótico y riñón aumentado de tamaño, no a corte arterial.",
+   "C": "La pielonefritis cursa con piuria y fiebre, y la imagen muestra una zona sin perfusión por obstrucción arterial.",
+   "D": "La embolia de la arteria renal ocurre en pacientes con fuentes cardioembólicas (fibrilación auricular sin anticoagulación, endocarditis, trombo ventricular, mixoma). Se presenta con dolor lumbar o abdominal agudo, náusea, hematuria, hipertensión y lesión renal aguda si hay afectación bilateral o de un riñón único. El dato de laboratorio característico es la elevación marcada de la LDH (mayor de 1,000 U/L) con aumento leve de las transaminasas y leucocitosis, por la necrosis del parénquima. La angiotomografía muestra defectos cuneiformes sin realce y el corte de la rama arterial. Se confunde con cólico renal y pielonefritis, por lo que el contexto de fibrilación auricular es clave.",
+   "E": "El cólico renal por litiasis se asocia con hematuria, pero la imagen muestra infarto y la LDH no se eleva tanto."
+  },
+  "perla": "Embolia renal: FA sin anticoagular, dolor lumbar, hematuria, LDH muy alta con transaminasas poco elevadas. Angio-TC: defecto cuneiforme.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades vasculares del riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o1",
+  "peso": 15.9
+ },
+ {
+  "id": "AOV-2",
+  "serie_id": "AOV",
+  "orden": 2,
+  "sub": "15.a",
+  "subtema": "Tratamiento de la oclusión arterial renal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma que la embolia afecta una rama segmentaria, con riñón derecho normal y función renal estable en 2.1 mg/dL.",
+  "enunciado": "¿Cuál es el tratamiento más apropiado?",
+  "opciones": {
+   "A": "Solo analgesia, sin anticoagulación, porque el infarto segmentario se resuelve de manera espontánea y sin secuelas",
+   "B": "Nefrectomía urgente, porque la embolia renal produce necrosis que obliga a extirpar el riñón afectado de inmediato y sin esperar más",
+   "C": "Corticoides en dosis altas, porque la embolia renal se debe a una vasculitis de los vasos medianos del riñón",
+   "D": "Heparina y luego anticoagulación prolongada, control de la TA y búsqueda de la fuente embólica; trombólisis solo en casos graves",
+   "E": "Litotricia extracorpórea, porque el dolor en el flanco indica una litiasis ureteral obstructiva y no una embolia"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Sin anticoagulación hay riesgo de nuevos embolos y progresión.",
+   "B": "No hay indicación de nefrectomía en un infarto segmentario con función estable.",
+   "C": "Los corticoides no tienen lugar en una oclusión embólica.",
+   "D": "El tratamiento de la oclusión embólica o trombótica de una rama arterial renal es la anticoagulación con heparina no fraccionada y luego anticoagulación oral prolongada, el control de la hipertensión (los IECA con cautela) y el tratamiento de la causa (fibrilación auricular, endocarditis, estado procoagulante). La revascularización endovascular (trombólisis dirigida, aspiración o angioplastia) se considera cuando hay oclusión de la arteria principal con riñón solitario o afectación bilateral, y de manera más favorable si se hace en las primeras horas, aunque los riñones toleran isquemia más tiempo que otros órganos por circulación colateral. La nefrectomía no se indica salvo infarto con hipertensión maligna refractaria.",
+   "E": "La litotricia trata cálculos, no oclusión arterial."
+  },
+  "perla": "Embolia renal: anticoagulación (HNF → oral largo plazo) + tratar la fuente. Endovascular si arteria principal en riñón único/bilateral y precoz.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades vasculares del riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o1",
+  "peso": 17.9
+ },
+ {
+  "id": "AOV-3",
+  "serie_id": "AOV",
+  "orden": 3,
+  "sub": "15.a",
+  "subtema": "Fuente embólica y anticoagulación a largo plazo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia heparina. El electrocardiograma confirma fibrilación auricular y el ecocardiograma transtorácico no muestra trombo ni valvulopatía mitral significativa. A 6 semanas, el paciente pregunta qué anticoagulación debe seguir.",
+  "enunciado": "¿Cuál es la conducta de seguimiento?",
+  "opciones": {
+   "A": "Nefrectomía profiláctica, porque el riñón infartado es una fuente de nuevas embolias sistémicas a distancia y de hipertensión",
+   "B": "Ablación renal de rutina, para eliminar el tejido infartado y evitar la hipertensión renovascular futura",
+   "C": "Solo ácido acetilsalicílico, porque es suficiente para prevenir la embolia en la fibrilación auricular",
+   "D": "Anticoagulación oral indefinida (el infarto renal cuenta como embolia en CHA₂DS₂-VASc): ACOD ajustado a la TFG o warfarina",
+   "E": "Suspender la anticoagulación a las 6 semanas, porque el riesgo de nuevas embolias desaparece al resolverse el infarto renal"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay indicación de nefrectomía en un riñón con función conservada.",
+   "B": "La ablación renal no tiene papel en este contexto.",
+   "C": "El ácido acetilsalicílico es insuficiente para prevenir la embolia cardiogénica en fibrilación auricular.",
+   "D": "En la fibrilación auricular, una embolia sistémica previa (como el infarto renal) otorga 2 puntos en el CHA₂DS₂-VASc y es indicación firme de anticoagulación oral indefinida. Los anticoagulantes orales directos son de elección sobre la warfarina en ausencia de estenosis mitral moderada a grave o válvula mecánica, ajustando la dosis a la función renal; la warfarina es la opción con prótesis valvular mecánica o estenosis mitral. Se vigila la creatinina y la TA, porque el infarto puede dejar hipertensión por isquemia segmentaria y reducción de nefronas, y se evita suspender el tratamiento por el riesgo de recurrencia de embolias a otros territorios (cerebral, mesentérico y de miembros).",
+   "E": "La fibrilación auricular persiste y el riesgo embólico continúa."
+  },
+  "perla": "FA + embolia sistémica (infarto renal) = 2 puntos CHA₂DS₂-VASc → anticoagulación indefinida (ACOD salvo EM moderada-grave/válvula mecánica).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (enfermedades vasculares del riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o1",
+  "peso": 17.9
+ },
+ {
+  "id": "TVR-1",
+  "serie_id": "TVR",
+  "orden": 1,
+  "sub": "15.b",
+  "subtema": "Trombosis de la vena renal en nefropatía membranosa",
+  "dificultad": "moderada",
+  "caso": "Hombre de 35 años con síndrome nefrótico por nefropatía membranosa (anti-PLA2R positivo), proteinuria de 9 g/día y albúmina de 1.8 g/dL. Presenta dolor lumbar izquierdo, hematuria macroscópica y aumento de creatinina de 1.0 a 1.6 mg/dL, con el riñón izquierdo aumentado de tamaño en la ecografía.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y el estudio confirmatorio?",
+  "opciones": {
+   "A": "Pielonefritis; urocultivo únicamente, porque el dolor lumbar con hematuria y aumento de creatinina indica infección de las vías urinarias",
+   "B": "Trombosis de la vena renal (hipercoagulabilidad del síndrome nefrótico); ecografía Doppler y angiotomografía o venografía por TC",
+   "C": "Necrosis papilar; urografía, porque el dolor lumbar con hematuria macroscópica indica desprendimiento papilar",
+   "D": "Cólico renal; radiografía simple, porque el dolor lumbar con hematuria indica una litiasis ureteral",
+   "E": "Embolia de la arteria renal; electrocardiograma, porque la hematuria con dolor lumbar indica una fuente cardioembólica"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La pielonefritis cursa con piuria y fiebre; el contexto es de hipercoagulabilidad.",
+   "B": "El síndrome nefrótico produce un estado de hipercoagulabilidad por pérdida urinaria de antitrombina III, proteínas C y S, aumento de fibrinógeno y de factores V y VIII, y hemoconcentración. La nefropatía membranosa tiene el mayor riesgo trombótico entre las causas de síndrome nefrótico, sobre todo con albúmina menor de 2.5 g/dL (por verde de bromocresol). La trombosis de la vena renal aguda se manifiesta con dolor lumbar, hematuria, aumento del tamaño renal y deterioro de la función renal; la crónica puede ser asintomática y presentarse como tromboembolia pulmonar. Se confirma con ecografía Doppler, angiotomografía o resonancia con venografía.",
+   "C": "La necrosis papilar tiene otros factores predisponentes y urografía con defectos papilares.",
+   "D": "El cólico renal no explica el aumento del tamaño renal ni el contexto nefrótico.",
+   "E": "La embolia arterial se presenta con fibrilación auricular y corte arterial, no con riñón aumentado en nefrótico."
+  },
+  "perla": "Nefrótico (sobre todo membranosa, albúmina <2.5) → trombosis venosa renal: dolor lumbar, hematuria, riñón grande, ↑Cr. Dx: Doppler/angio-TC.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (enfermedades vasculares del riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o1",
+  "peso": 17.6
+ },
+ {
+  "id": "TVR-2",
+  "serie_id": "TVR",
+  "orden": 2,
+  "sub": "15.b",
+  "subtema": "Anticoagulación en trombosis de la vena renal y profilaxis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma trombosis de la vena renal izquierda sin embolia pulmonar, y el paciente no tiene riesgo hemorrágico importante.",
+  "enunciado": "¿Cuál es el manejo de la trombosis y la estrategia de profilaxis en esta enfermedad?",
+  "opciones": {
+   "A": "Anticoagulación por 1 semana y suspender, porque la trombosis venosa renal es de resolución espontánea y no recurre nunca en el nefrótico",
+   "B": "Anticoagulación ≥6 meses mientras persista el nefrótico; profilaxis si hay membranosa con albúmina <2.5 g/dL y bajo riesgo de sangrado",
+   "C": "Filtro de vena cava en todos los casos, porque la anticoagulación está contraindicada en el síndrome nefrótico",
+   "D": "Trombólisis sistémica en todos los casos, porque restaura la perfusión renal y evita la pérdida del riñón",
+   "E": "Solo antiagregante plaquetario, porque es suficiente para tratar y prevenir la trombosis de la vena renal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Una semana es insuficiente y el estado procoagulante persiste.",
+   "B": "El tratamiento de la trombosis venosa renal es la anticoagulación inicial con heparina (la de bajo peso molecular se ajusta a la función renal) y luego warfarina (INR de 2 a 3) o un anticoagulante oral directo, durante al menos 6 meses y mientras dure el síndrome nefrótico con albúmina baja. La trombólisis se reserva para trombosis bilateral con lesión renal aguda o con compromiso vital. La guía KDIGO 2021 sugiere considerar la anticoagulación profiláctica en pacientes con nefropatía membranosa y albúmina menor de 2.5 g/dL (por verde de bromocresol) o menor de 2.0 g/dL (por púrpura de bromocresol) si hay factores de riesgo adicionales (inmovilidad, insuficiencia cardiaca, obesidad, trombofilia o cirugía reciente) y bajo riesgo hemorrágico. La remisión de la proteinuria reduce el riesgo.",
+   "C": "El filtro se reserva para contraindicación de anticoagulación con embolia pulmonar.",
+   "D": "La trombólisis sistémica aumenta el riesgo hemorrágico sin indicación rutinaria.",
+   "E": "El antiagregante no trata una trombosis venosa establecida."
+  },
+  "perla": "TVR: anticoagulación ≥6 meses y mientras haya nefrótico. MN con albúmina <2.5 (BCG) + factores de riesgo: considerar profilaxis. Trombólisis solo si bilateral/LRA/compromiso vital.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o1",
+  "peso": 19.6
+ },
+ {
+  "id": "TVR-3",
+  "serie_id": "TVR",
+  "orden": 3,
+  "sub": "15.b",
+  "subtema": "Resistencia a la heparina en síndrome nefrótico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia heparina no fraccionada en infusión con ajuste por TTPa, pero tras 48 horas el TTPa permanece subterapéutico a pesar de dosis crecientes. La antitrombina III plasmática es de 48% (normal de 80 a 120%).",
+  "enunciado": "¿Cuál es la explicación y la alternativa?",
+  "opciones": {
+   "A": "Exceso de antitrombina III; administrar protamina, porque el TTPa subterapéutico indica sobredosis de heparina no fraccionada",
+   "B": "Hipersensibilidad a la heparina; suspender toda anticoagulación, porque el TTPa no responde a la dosis",
+   "C": "Trombocitopenia inducida por heparina; administrar plaquetas, porque el TTPa no sube con dosis crecientes",
+   "D": "Error de laboratorio, que obliga a duplicar la dosis sin otras medidas, por lo que no se cambia el anticoagulante ni se mide anti-Xa",
+   "E": "Resistencia a la heparina por pérdida urinaria de antitrombina III; se monitoriza con anti-Xa o se cambia a un ACOD"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La antitrombina está disminuida, no aumentada, y la protamina revierte heparina.",
+   "B": "El cuadro no es de hipersensibilidad ni obliga a suspender la anticoagulación.",
+   "C": "La trombocitopenia inducida por heparina cursa con caída de plaquetas y trombosis paradójica, no con TTPa subterapéutico aislado.",
+   "D": "El valor bajo de antitrombina explica la falta de respuesta, y duplicar la dosis sin vigilancia anti-Xa es ineficaz y riesgoso.",
+   "E": "La heparina actúa potenciando la antitrombina III, que se pierde por la orina en el síndrome nefrótico junto con otras proteínas de bajo peso molecular, por lo que puede haber resistencia a la heparina con TTPa subterapéutico. El TTPa es poco confiable en este contexto, y se prefiere la actividad anti-Xa para ajustar la dosis. Los anticoagulantes orales directos (inhibidores del factor Xa o de la trombina) no dependen de la antitrombina y son una alternativa razonable, con ajuste a la TFG y vigilancia de la albúmina (la unión a proteínas puede cambiar la fracción libre); la warfarina también es independiente de la antitrombina y se introduce con puente. Es una pérdida de antitrombina, no un exceso."
+  },
+  "perla": "Nefrótico: pérdida de antitrombina III → resistencia a heparina (TTPa subterapéutico). Vigilar anti-Xa; alternativa: ACOD o warfarina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (síndrome nefrótico)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o1",
+  "peso": 19.6
+ },
+ {
+  "id": "SRC-1",
+  "serie_id": "SRC",
+  "orden": 1,
+  "sub": "15.f",
+  "subtema": "Crisis renal esclerodérmica: presentación y factores de riesgo",
+  "dificultad": "moderada",
+  "caso": "Mujer de 48 años con esclerodermia sistémica cutánea difusa de 3 años de evolución, anticuerpos anti-ARN polimerasa III positivos, en tratamiento con prednisona 30 mg al día por artritis y miositis. Presenta cefalea intensa, TA de 195/115 mmHg, creatinina de 2.4 mg/dL (basal de 0.8), plaquetas de 85,000/µL, esquistocitos en el frotis y renina plasmática muy elevada.",
+  "enunciado": "¿Cuál es el diagnóstico y el factor de riesgo modificable más relevante?",
+  "opciones": {
+   "A": "Crisis renal esclerodérmica; el uso de prednisona ≥15 mg/día es el factor de riesgo modificable más relevante",
+   "B": "Síndrome hemolítico urémico típico; ingesta de carne mal cocida y diarrea previa por E. coli productora de Shiga",
+   "C": "Vasculitis ANCA con glomerulonefritis; la exposición previa a ciclofosfamida es el factor de riesgo más relevante",
+   "D": "Hipertensión esencial maligna sin relación con la esclerodermia; el tabaquismo es el factor de riesgo modificable más relevante",
+   "E": "Nefritis lúpica; las infecciones recurrentes son el factor de riesgo modificable más relevante para el cuadro clínico"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La crisis renal esclerodérmica es la emergencia renal de la esclerosis sistémica: hipertensión grave de inicio súbito, lesión renal aguda, microangiopatía trombótica (anemia hemolítica con esquistocitos y plaquetopenia), retinopatía hipertensiva y renina muy elevada, por hiperplasia de la íntima de las arterias interlobulillares y arqueadas con isquemia cortical. Ocurre sobre todo en la forma cutánea difusa temprana (primeros 4 años), con anticuerpos anti-ARN polimerasa III y progresión cutánea rápida. El factor de riesgo modificable más importante es la exposición a glucocorticoides en dosis de 15 mg/día o más de prednisona. Hasta 10% de los casos son normotensos.",
+   "B": "El SHU típico se asocia a diarrea por E. coli productora de toxina Shiga en el contexto de gastroenteritis.",
+   "C": "La vasculitis ANCA produce glomerulonefritis con hematuria y cilindros eritrocitarios.",
+   "D": "La hipertensión maligna esencial no cursa con esclerodermia ni anticuerpos anti-ARN polimerasa III.",
+   "E": "La nefritis lúpica cursa con sedimento activo, hipocomplementemia y anticuerpos anti-ADN."
+  },
+  "perla": "SRC: esclerosis cutánea difusa temprana (<4 años), anti-ARN pol III, corticoides ≥15 mg/d de prednisona. HTA grave + LRA + MAHA + renina alta. 10% normotensos.",
+  "referencias": [
+   "Denton CP, Khanna D. Lancet 2017;390:1685",
+   "Steen VD, Medsger TA. Ann Intern Med 2000;133:600"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o3",
+  "peso": 5.5
+ },
+ {
+  "id": "SRC-2",
+  "serie_id": "SRC",
+  "orden": 2,
+  "sub": "15.f",
+  "subtema": "Tratamiento con IECA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente se ingresa a la unidad de cuidados intensivos. La creatinina sube a 3.1 mg/dL, y se debe elegir el antihipertensivo.",
+  "enunciado": "¿Cuál es el tratamiento de elección?",
+  "opciones": {
+   "A": "Evitar los IECA por la lesión renal aguda, porque aumentan la creatinina y empeoran la perfusión glomerular",
+   "B": "Diurético tiazídico como primera línea, porque la crisis renal esclerodérmica es una crisis hipervolémica",
+   "C": "Aumentar la prednisona, porque la crisis renal esclerodérmica responde a dosis altas de glucocorticoides",
+   "D": "Betabloqueador como fármaco único, para evitar la hiperpotasemia y controlar la taquicardia y la hipertensión durante la crisis",
+   "E": "IECA de acción corta (captopril) con escalada hasta controlar la TA aun con creatinina alta, y reducir los glucocorticoides"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Los IECA son el tratamiento esencial aunque la creatinina esté elevada.",
+   "B": "Los diuréticos activan el sistema renina-angiotensina y no son de primera línea.",
+   "C": "Los glucocorticoides en dosis altas precipitan y empeoran la crisis.",
+   "D": "Los betabloqueadores pueden empeorar el vasoespasmo y la isquemia periférica, y no son de elección.",
+   "E": "La crisis renal esclerodérmica es una emergencia mediada por renina, y los IECA han cambiado su pronóstico: se inicia captopril (acción corta, de 6.25 a 12.5 mg con aumento cada 6 a 12 horas hasta 50 mg tres veces al día), con la meta de reducir la TA de 10 a 20 mmHg cada 24 horas, aun cuando la creatinina esté elevada, porque el control de la hipertensión impide el progreso de la isquemia. Se agregan bloqueadores de canales de calcio dihidropiridínicos u otros vasodilatadores si no se controla. Los glucocorticoides, factor de riesgo, se reducen o suspenden. No se usan IECA profilácticamente porque no previenen la crisis y pueden enmascarar su presentación."
+  },
+  "perla": "SRC: captopril titulado rápido aunque la Cr suba; añadir dihidropiridina; evitar/ reducir corticoides. No IECA profiláctico.",
+  "referencias": [
+   "Denton CP, Khanna D. Lancet 2017;390:1685"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o3",
+  "peso": 7.5
+ },
+ {
+  "id": "SRC-3",
+  "serie_id": "SRC",
+  "orden": 3,
+  "sub": "15.f",
+  "subtema": "Diálisis, recuperación y trasplante tras crisis renal esclerodérmica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A pesar del tratamiento, la paciente requiere hemodiálisis por oliguria, uremia e hiperpotasemia. La TA se controla en 5 días.",
+  "enunciado": "¿Cuál es el manejo y el pronóstico renal?",
+  "opciones": {
+   "A": "El trasplante renal inmediato es obligatorio, porque la recuperación de la función renal es imposible en la crisis",
+   "B": "Suspender el IECA porque la paciente está en diálisis, ya que el fármaco impide la recuperación renal tardía",
+   "C": "Continuar el IECA en diálisis: la recuperación ocurre hasta 18–24 meses; si no, esperar ≥2 años pretrasplante",
+   "D": "Rituximab como tratamiento de la crisis renal, porque la causa es una vasculitis mediada por anticuerpos contra linfocitos B",
+   "E": "La recuperación solo ocurre en las primeras 48 horas, por lo que luego se debe continuar la diálisis definitiva"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El trasplante inmediato impide valorar la recuperación renal posible.",
+   "B": "Los IECA se mantienen porque favorecen la recuperación renal y el control de la TA.",
+   "C": "Cerca de la mitad de los pacientes con crisis renal esclerodérmica requiere diálisis, y 20 a 50% de ellos recupera función renal suficiente para suspenderla, incluso hasta 18 a 24 meses después del evento. Por eso se mantienen los IECA aun en diálisis, se vigila la diuresis y la función residual, y se difiere el trasplante renal por al menos 2 años para permitir la recuperación posible. Los factores de mal pronóstico incluyen el retraso del tratamiento, la creatinina inicial mayor de 3 mg/dL, la edad avanzada, la insuficiencia cardiaca y la ausencia de control de la TA en las primeras 3 días. La supervivencia del paciente en diálisis es menor que en otras causas, pero el trasplante tiene buenos resultados.",
+   "D": "El rituximab no es tratamiento de la crisis aguda.",
+   "E": "La recuperación puede tardar meses o años, no solo horas."
+  },
+  "perla": "SRC en diálisis: seguir IECA; recuperación posible hasta 18–24 meses; trasplante tras ≥2 años si no recupera. ~50% requieren diálisis.",
+  "referencias": [
+   "Steen VD, Medsger TA. Ann Intern Med 2000;133:600",
+   "Denton CP, Khanna D. Lancet 2017;390:1685"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o3",
+  "peso": 7.5
+ },
+ {
+  "id": "NSH-1",
+  "serie_id": "NSH",
+  "orden": 1,
+  "sub": "15.e",
+  "subtema": "Nefroesclerosis hipertensiva: diagnóstico clínico y cuándo biopsiar",
+  "dificultad": "moderada",
+  "caso": "Hombre de 52 años con hipertensión de 15 años de evolución, mal controlada (promedio 165/100 mmHg), sin diabetes ni antecedentes familiares de enfermedad renal. Consulta por creatinina de 2.0 mg/dL (TFG estimada cercana a 38 mL/min/1.73 m²). El sedimento es bland, sin hematuria; la relación proteína/creatinina en orina es de 0.6 g/g. Tiene hipertrofia ventricular izquierda en el ecocardiograma y retinopatía hipertensiva grado II. El ultrasonido muestra riñones simétricos de 9.0 cm con adelgazamiento cortical y contornos lisos.",
+  "enunciado": "¿Cuál es la conducta diagnóstica más adecuada?",
+  "opciones": {
+   "A": "Diagnóstico clínico de nefroesclerosis sin biopsia: HTA prolongada, proteinuria baja, sedimento bland y riñones pequeños",
+   "B": "Biopsia renal obligatoria, porque la nefroesclerosis solo puede diagnosticarse por histología en todos los casos y estadios",
+   "C": "Glomeruloesclerosis focal y segmentaria primaria, e iniciar esteroides, porque hay proteinuria y deterioro renal progresivo",
+   "D": "Enfermedad renal poliquística por el tamaño renal, sin necesidad de más estudios y con consejo genético inmediato a toda la familia",
+   "E": "Estenosis de arteria renal por el deterioro renal, e indicar angioplastia de inmediato sin más estudios previos"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La nefroesclerosis hipertensiva es un diagnóstico clínico de exclusión: hipertensión larga y mal controlada que antecede al deterioro, ERC lenta, proteinuria baja (casi siempre menor de 1 g/día), sedimento sin actividad, daño de órgano blanco (hipertrofia ventricular, retinopatía) y riñones simétricos, algo pequeños, de contorno liso. La biopsia no se solicita de rutina porque el riesgo no se justifica cuando el cuadro es típico; se reserva para proteinuria mayor de 1 a 1.5 g/día, hematuria glomerular, deterioro rápido, edad joven o hipertensión de inicio reciente (en cuyo caso la hipertensión puede ser consecuencia de la nefropatía y no su causa). La histología, cuando se obtiene, muestra hialinosis arteriolar, hiperplasia fibroelástica de la íntima de las arterias interlobulares, esclerosis glomerular global isquémica, atrofia tubular y fibrosis intersticial.",
+   "B": "La biopsia no es obligatoria en el cuadro típico, y se reserva para los datos de alarma.",
+   "C": "La GEFS primaria cursa con proteinuria nefrótica y riñones de tamaño normal, no con proteinuria baja.",
+   "D": "En la poliquística hay riñones aumentados de tamaño con múltiples quistes, y no pequeños con corteza adelgazada.",
+   "E": "La estenosis de arteria renal suele dar asimetría del tamaño renal, y la angioplastia no mejora los desenlaces sin indicaciones claras."
+  },
+  "perla": "Nefroesclerosis hipertensiva = diagnóstico clínico: HTA larga que precede a la ERC, proteinuria <1 g/d, sedimento bland, órgano blanco, riñones pequeños simétricos. Biopsia si proteinuria >1–1.5 g/d, hematuria, deterioro rápido, joven o HTA reciente.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefropatía hipertensiva)",
+   "Appel LJ et al. N Engl J Med 2010;363:918 (AASK)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o3",
+  "peso": 5.9
+ },
+ {
+  "id": "NSH-2",
+  "serie_id": "NSH",
+  "orden": 2,
+  "sub": "15.e",
+  "subtema": "Nefroesclerosis hipertensiva: tratamiento antihipertensivo y nefroprotector",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma el diagnóstico de nefroesclerosis hipertensiva, con TFG de 38 mL/min/1.73 m² y relación proteína/creatinina de 0.6 g/g (albuminuria en rango A3). El paciente recibe amlodipino 10 mg sin otros fármacos y su presión en consultorio es de 158/96 mmHg.",
+  "enunciado": "¿Cuál es el esquema más adecuado?",
+  "opciones": {
+   "A": "Usar un betabloqueador como primera línea, por la protección renal demostrada en la nefroesclerosis hipertensiva",
+   "B": "Dejar una meta de presión menor de 160/100 mmHg, porque metas más bajas empeoran la función renal de forma sostenida",
+   "C": "IECA o ARA II a dosis máxima (AASK), más clortalidona e iSGLT2; meta sistólica <120 mmHg si se tolera, vigilando creatinina y K⁺",
+   "D": "Mantener amlodipino en monoterapia, porque los calcioantagonistas son los fármacos de elección en la nefroesclerosis hipertensiva",
+   "E": "Evitar los IECA y ARA II por la TFG menor de 45 mL/min/1.73 m², porque aumentan la creatinina y el potasio"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los betabloqueadores no son de primera línea para nefroprotección y fueron inferiores al IECA en el AASK.",
+   "B": "Metas más altas se asocian con más eventos cardiovasculares y con progresión en la ERC proteinúrica.",
+   "C": "En personas con ERC y albuminuria el pilar es el bloqueo del SRAA: en el AASK (afrodescendientes con nefroesclerosis hipertensiva), el ramipril redujo el desenlace compuesto (descenso de la TFG, enfermedad renal terminal o muerte) frente a amlodipino y metoprolol, sobre todo con proteinuria (el brazo de amlodipino se suspendió en los pacientes con relación proteína/creatinina mayor de 0.22 g/g). Cuando el control no es suficiente, se suma un diurético tiazídico o clortalidona, que conserva su eficacia con TFG de 15 a 30 mL/min/1.73 m² (ensayo CLICK), y un iSGLT2 (DAPA-CKD, EMPA-KIDNEY), que retrasa la progresión de la ERC con albuminuria sea cual fuere su causa. KDIGO 2021 sugiere una meta de presión sistólica menor de 120 mmHg con medición estandarizada si se tolera; en el AASK, el control intensivo tuvo beneficio renal en los pacientes con proteinuria significativa. Se vigilan creatinina y potasio tras iniciar el bloqueo.",
+   "D": "El amlodipino controla la presión pero no ofrece protección renal frente al IECA en la ERC proteinúrica.",
+   "E": "La TFG de 38 no contraindica IECA ni ARA II, y se mantienen salvo hiperpotasemia o aumento mayor de 30% de la creatinina."
+  },
+  "perla": "Nefroesclerosis con albuminuria: IECA/ARA (AASK: ramipril > amlodipino/metoprolol) + clortalidona/tiazida (CLICK) + iSGLT2; meta sistólica <120 estandarizada (KDIGO 2021) si se tolera; el control intensivo ayudó más con proteinuria.",
+  "referencias": [
+   "Wright JT Jr et al. JAMA 2002;288:2421 (AASK)",
+   "Agarwal R et al. N Engl J Med 2021;385:2507 (CLICK)",
+   "KDIGO 2021 Blood Pressure in CKD. Kidney Int 2021;99(3S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o3",
+  "peso": 7.9
+ },
+ {
+  "id": "NSH-3",
+  "serie_id": "NSH",
+  "orden": 3,
+  "sub": "15.e",
+  "subtema": "Hipertensión maligna con microangiopatía: nefroesclerosis maligna frente a otras MAT",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres años después, el paciente suspendió todos sus fármacos y acude con cefalea intensa, visión borrosa y presión de 238/146 mmHg. El fondo de ojo muestra edema de papila, hemorragias en llama y exudados. Hemoglobina de 8.4 g/dL, plaquetas de 96 000/µL, esquistocitos (3%), LDH de 780 U/L, haptoglobina indetectable, Coombs directo negativo, creatinina de 5.4 mg/dL, proteinuria de 2.1 g/g y hematuria microscópica. Actividad de ADAMTS13 de 78%; C3 y C4 normales; sin diarrea ni infección.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Púrpura trombocitopénica trombótica, porque hay esquistocitos y plaquetas bajas, a pesar de que la ADAMTS13 sea de 78% y no menor de 10%",
+   "B": "Anemia hemolítica autoinmune, con Coombs positivo, porque hay anemia con esquistocitos y plaquetas bajas",
+   "C": "Nefritis lúpica proliferativa, porque hay hematuria, proteinuria y trombocitopenia con anemia hemolítica",
+   "D": "Hipertensión maligna con MAT secundaria (necrosis fibrinoide y bulbo de cebolla) y ADAMTS13 normal; mejora al controlar la presión",
+   "E": "Síndrome hemolítico urémico típico por Shiga toxina, sin diarrea previa, porque la hemólisis y la lesión renal son indistinguibles entre sí"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La PTT exige actividad de ADAMTS13 menor de 10%, y aquí es de 78%.",
+   "B": "En la anemia hemolítica autoinmune el Coombs es positivo, no hay esquistocitos ni trombocitopenia por microangiopatía.",
+   "C": "No hay datos de lupus, y la hipertensión maligna con retinopatía y MAT explica el cuadro.",
+   "D": "La hipertensión maligna (acelerada) cursa con presiones muy elevadas, retinopatía grado III a IV (hemorragias, exudados, edema de papila) y daño de órgano agudo; en el riñón produce nefroesclerosis maligna con necrosis fibrinoide, hiperplasia en bulbo de cebolla de las arterias interlobulares y puede acompañarse de microangiopatía trombótica con anemia hemolítica y trombocitopenia, en un contexto de hiperreninemia. Una ADAMTS13 normal (mayor de 10%, aquí 78%) descarta PTT; la ausencia de diarrea con Shiga toxina excluye el SHU típico, y como la hipertensión grave también puede desenmascarar un SHUa por variantes del complemento, se evalúa el complemento y, si la MAT persiste tras controlar la presión, se estudia con más detalle. El Coombs negativo y la ausencia de datos de lupus completan el diagnóstico diferencial.",
+   "E": "El SHU típico requiere infección por E. coli productora de Shiga toxina con diarrea previa, que no hay."
+  },
+  "perla": "HTA maligna: retinopatía III–IV + daño de órgano; nefroesclerosis maligna (necrosis fibrinoide, bulbo de cebolla) ± MAT con ADAMTS13 normal (descarta PTT); descartar SHUa si la MAT persiste tras controlar la presión.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hipertensión maligna y nefroesclerosis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o3",
+  "peso": 7.9
+ },
+ {
+  "id": "NSH-4",
+  "serie_id": "NSH",
+  "orden": 4,
+  "sub": "15.e",
+  "subtema": "Manejo de la presión y recuperación renal en la hipertensión maligna",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma hipertensión maligna con MAT secundaria, con ADAMTS13 normal y estudio de complemento sin variantes. El paciente tiene oliguria con creatinina de 5.4 mg/dL, y la presión es de 238/146 mmHg.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Normalizar la presión a 120/80 mmHg en la primera hora con nitroprusiato, para detener cuanto antes la lesión de órgano blanco renal",
+   "B": "Iniciar plasmaféresis diaria como tratamiento de la microangiopatía, porque la ADAMTS13 normal no la descarta",
+   "C": "Tratar con antihipertensivos orales a dosis habituales y dar alta en 24 horas, con control ambulatorio posterior",
+   "D": "UCI con antihipertensivo IV (nicardipino, labetalol): bajar ≤25% la primera hora y luego a ~160/100 en 2–6 h",
+   "E": "Evitar cualquier descenso de la presión para no comprometer la perfusión renal, que depende de las cifras altas"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Un descenso a 120/80 mmHg en la primera hora excede el límite seguro y puede causar isquemia.",
+   "B": "La plasmaféresis no tiene indicación cuando la ADAMTS13 es normal y la causa es la hipertensión.",
+   "C": "Con retinopatía y daño renal agudo se requiere hospitalización y fármacos intravenosos titulables.",
+   "D": "En la hipertensión maligna con daño de órgano, el tratamiento se hace en cuidados intensivos con fármacos intravenosos titulables y se reduce la presión de forma controlada: no más de 25% en la primera hora, luego hasta cerca de 160/100 mmHg durante 2 a 6 horas y después a metas normales en 24 a 48 horas, porque un descenso brusco puede causar isquemia cerebral, coronaria y renal (por el desplazamiento de la curva de autorregulación). Nicardipino, labetalol y clevidipino son de elección, y el nitroprusiato se reserva y se evita su uso prolongado, sobre todo con disfunción renal, por el riesgo de toxicidad por tiocianato y cianuro. El IECA, una vez estabilizada la presión, es útil por la hiperreninemia. La hemólisis y la trombocitopenia suelen revertir con el control de la presión; si hay lesión renal grave, se apoya con diálisis, y la recuperación puede ser parcial pero a veces significativa durante meses, por lo que se retrasa decidir sobre el trasplante.",
+   "E": "No tratar mantiene el daño de órgano y la microangiopatía, que se corrigen al bajar la presión."
+  },
+  "perla": "HTA maligna: UCI + IV titulable (nicardipino/labetalol/clevidipino); ≤25% en 1 h → ~160/100 en 2–6 h → normal en 24–48 h; evitar nitroprusiato prolongado; IECA al estabilizar; recuperación renal posible en meses.",
+  "referencias": [
+   "Whelton PK et al. Hypertension 2018;71:e13 (ACC/AHA 2017)",
+   "Comprehensive Clinical Nephrology (hipertensión maligna y nefroesclerosis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o3",
+  "peso": 7.9
+ },
+ {
+  "id": "SHT-1",
+  "serie_id": "SHT",
+  "orden": 1,
+  "sub": "15.g",
+  "subtema": "SHU típico por Shiga toxina: diagnóstico y diferencial",
+  "dificultad": "moderada",
+  "caso": "Niño de 4 años con 6 días de diarrea con sangre y dolor abdominal, tras consumir hamburguesa mal cocida en una feria. Ahora presenta palidez, oliguria, edema palpebral e irritabilidad. Hemoglobina de 7.1 g/dL, plaquetas de 48 000/µL, esquistocitos en el frotis, LDH de 1450 U/L, haptoglobina indetectable, creatinina de 2.1 mg/dL (basal de 0.3), Coombs directo negativo, TP y TTPa normales. El coprocultivo desarrolla E. coli O157:H7 y la PCR detecta el gen de la toxina Shiga tipo 2.",
+  "enunciado": "¿Cuál es el diagnóstico?",
+  "opciones": {
+   "A": "Púrpura de Schönlein-Henoch con afectación renal, que cursa con trombocitopenia y dolor abdominal con sangrado digestivo oculto",
+   "B": "Púrpura trombocitopénica trombótica, que se confirma con ADAMTS13 y suele tener actividad normal de la enzima en este contexto",
+   "C": "SHU atípico por variante del complemento, que requiere un pródromo diarreico por E. coli productora de toxina Shiga",
+   "D": "Coagulación intravascular diseminada por sepsis, con TP y TTPa prolongados y fibrinógeno bajo",
+   "E": "SHU típico por E. coli productora de toxina Shiga: anemia microangiopática, trombocitopenia y LRA 5–10 días tras la diarrea"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La púrpura de Schönlein-Henoch cursa con púrpura palpable, dolor abdominal y artritis, con plaquetas normales o altas.",
+   "B": "La PTT exige ADAMTS13 menor de 10%, y el contexto diarreico con Shiga toxina y la lesión renal grave apuntan al SHU típico.",
+   "C": "El SHUa por complemento no suele tener pródromo diarreico por STEC, y aquí se demostró la toxina.",
+   "D": "En la CID los tiempos de coagulación están prolongados y hay consumo de fibrinógeno, lo que aquí no ocurre.",
+   "E": "El STEC-HUS es la causa más frecuente de lesión renal aguda en niños: tras una infección intestinal por E. coli productora de toxina Shiga (O157:H7 y otros serotipos, con ganado y carne mal cocida, leche no pasteurizada y agua como fuentes), 5% a 15% de los niños desarrolla SHU, por lo regular 5 a 10 días después del inicio de la diarrea (casi siempre con sangre). La toxina Shiga 2 (stx2) se asocia más con SHU que la stx1. La tríada se acompaña de coagulación normal (TP, TTPa y fibrinógeno normales), lo que lo distingue de la CID. El diagnóstico se confirma con el coprocultivo o la PCR para stx; la ADAMTS13 es normal (o mayor de 10%), y el estudio del complemento no es necesario si el cuadro es típico."
+  },
+  "perla": "STEC-HUS: niño con diarrea sanguinolenta → 5–10 d después tríada MAHA + trombocitopenia + LRA; coagulación normal (no CID); stx2 > stx1; confirmar con cultivo/PCR stx; ADAMTS13 normal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (síndrome hemolítico urémico)",
+   "Wong CS et al. N Engl J Med 2000;342:1930"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o4",
+  "peso": 15.5
+ },
+ {
+  "id": "SHT-2",
+  "serie_id": "SHT",
+  "orden": 2,
+  "sub": "15.g",
+  "subtema": "SHU típico: tratamiento de soporte y medidas que se deben evitar",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El niño tiene diuresis de 0.4 mL/kg/h, presión de 105/65 mmHg, sin sobrecarga de volumen. El residente propone iniciar un antibiótico para erradicar la E. coli, un antidiarreico para controlar los cólicos y un antiinflamatorio no esteroideo para el dolor abdominal.",
+  "enunciado": "¿Cuál es la conducta correcta?",
+  "opciones": {
+   "A": "Iniciar ciprofloxacino de inmediato para erradicar la bacteria, porque reduce la liberación de toxina Shiga y la progresión a SHU",
+   "B": "Iniciar plasmaféresis de inmediato, porque mejora el desenlace renal en el SHU típico pediátrico",
+   "C": "Dar loperamida para disminuir la diarrea y el riesgo de deshidratación, porque mejora el confort del niño",
+   "D": "Soporte: sin antibióticos, antimotilidad ni AINE; cristaloides isotónicos tempranos si no hay sobrecarga, y evitar nefrotoxinas",
+   "E": "Restringir los líquidos de forma estricta desde el inicio, para evitar la sobrecarga de volumen y el edema pulmonar futuro del niño"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Los antibióticos se asocian con mayor riesgo de SHU en niños con infección por E. coli O157:H7.",
+   "B": "La plasmaféresis no mejora el desenlace del STEC-HUS, y no se indica de rutina.",
+   "C": "Los antimotilidad aumentan el riesgo de complicaciones, y se evitan.",
+   "D": "El tratamiento del STEC-HUS es de soporte. Los antibióticos durante la infección por E. coli O157:H7 se han asociado con mayor riesgo de desarrollar SHU en niños (Wong, N Engl J Med 2000), posiblemente por el daño bacteriano y la mayor liberación de toxina Shiga, por lo que no se usan salvo indicación de otra infección; los antimotilidad prolongan la exposición del colon a la toxina, y los AINE son nefrotóxicos y se evitan. La expansión temprana del volumen intravascular con cristaloides isotónicos mejora la perfusión renal y se asocia con menor necesidad de diálisis y menor gravedad (estudios observacionales); se suspende al aparecer oliguria con sobrecarga, y se ajusta con vigilancia estrecha del balance, de la presión y de los electrolitos.",
+   "E": "La restricción desde el inicio, sin sobrecarga, favorece la hipoperfusión y empeora el daño renal."
+  },
+  "perla": "STEC-HUS: soporte; NO antibióticos (↑ riesgo de SHU en niños), NO antimotilidad, NO AINE; expansión isotónica temprana mientras no haya sobrecarga; PEX sin beneficio.",
+  "referencias": [
+   "Wong CS et al. N Engl J Med 2000;342:1930",
+   "Comprehensive Clinical Nephrology (síndrome hemolítico urémico)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 15.5
+ },
+ {
+  "id": "SHT-3",
+  "serie_id": "SHT",
+  "orden": 3,
+  "sub": "15.g",
+  "subtema": "SHU típico: complicaciones, diálisis y transfusiones",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Al tercer día el niño tiene anuria, potasio de 6.9 mEq/L con ondas T picudas, edema pulmonar con sobrecarga de volumen refractaria a furosemida, hemoglobina de 6.2 g/dL y plaquetas de 31 000/µL sin sangrado activo.",
+  "enunciado": "¿Cuál es el manejo correcto?",
+  "opciones": {
+   "A": "Transfundir plaquetas hasta mantener más de 100 000/µL, porque la trombocitopenia es la causa principal del riesgo de sangrado",
+   "B": "Continuar solo con diuréticos a dosis mayores y diferir la diálisis, porque la anuria se corrige con furosemida en bolo intravenoso",
+   "C": "Iniciar diálisis por hiperpotasemia y sobrecarga refractarias; transfundir eritrocitos lentamente, no plaquetas sin sangrado",
+   "D": "Iniciar plasmaféresis para corregir la trombocitopenia, porque el cuadro corresponde a una PTT adquirida con inhibidor circulante",
+   "E": "Administrar gluconato de calcio como única medida, sin diálisis, porque protege el miocardio y corrige el potasio de forma duradera"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La transfusión de plaquetas sin sangrado puede agravar la microangiopatía, y no se indica.",
+   "B": "Con anuria y sobrecarga refractaria, los diuréticos son ineficaces y se requiere diálisis.",
+   "C": "Las indicaciones de diálisis en el SHU son las habituales: hiperpotasemia, sobrecarga de volumen refractaria a diuréticos, acidosis o uremia sintomáticas. En niños se prefiere la diálisis peritoneal por la ausencia de anticoagulación y de acceso vascular, aunque puede estar limitada por la colitis grave o el riesgo de perforación intestinal, en cuyo caso se usa hemodiálisis o terapia continua. La anemia se trata con concentrado eritrocitario con umbral restrictivo y transfusión lenta, por el riesgo de aumentar el volumen y el potasio. No se transfunden plaquetas de rutina, ya que pueden aportar sustrato a la trombosis microvascular y no se necesitan salvo sangrado grave o un procedimiento (como la colocación del catéter). La afectación del sistema nervioso central, que se presenta en cerca de 25% de los casos, es el principal determinante de la mortalidad.",
+   "D": "La plasmaféresis no mejora la evolución del STEC-HUS y no corrige la hiperpotasemia ni la sobrecarga.",
+   "E": "El calcio estabiliza la membrana temporalmente pero no elimina el potasio ni resuelve la sobrecarga."
+  },
+  "perla": "STEC-HUS con anuria/hiperK/sobrecarga: TRR (DP preferida en niños; HD si colitis grave); PRBC con umbral restrictivo y lento; sin plaquetas salvo sangrado/procedimiento; afectación del SNC (~25%) define la mortalidad.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (síndrome hemolítico urémico)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 17.5
+ },
+ {
+  "id": "SHT-4",
+  "serie_id": "SHT",
+  "orden": 4,
+  "sub": "15.g",
+  "subtema": "SHU típico: secuelas renales a largo plazo y seguimiento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El niño sale de diálisis a los 12 días y se da de alta con creatinina de 0.5 mg/dL, hemoglobina y plaquetas normales, presión de 112/70 mmHg y proteinuria de 0.5 g/g.",
+  "enunciado": "¿Qué conducta de seguimiento es la más adecuada?",
+  "opciones": {
+   "A": "Seguimiento solo durante 2 semanas, hasta normalizar la creatinina, porque después no hay riesgo renal",
+   "B": "Seguir presión, proteinuria y TFG por ≥5 años (≈25% desarrolla secuelas), con IECA o ARA II si persiste proteinuria",
+   "C": "Contraindicar de por vida el trasplante renal por el riesgo de recurrencia, si el niño llegara a requerirlo en el futuro",
+   "D": "Iniciar eculizumab de forma indefinida para prevenir recurrencias, aunque la enfermedad esté en remisión",
+   "E": "Alta definitiva, porque el SHU típico no deja secuelas renales a largo plazo en los niños"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Las secuelas pueden aparecer meses o años después, y requieren un seguimiento prolongado.",
+   "B": "Tras el SHU asociado con diarrea, la mortalidad aguda es de 3% a 5%, y en el seguimiento a largo plazo (Garg, JAMA 2003) cerca de 12% de los pacientes muere o llega a enfermedad renal terminal, y alrededor de 25% tiene secuelas renales (proteinuria, hipertensión o TFG reducida) aun con recuperación aparente de la creatinina, sobre todo si hubo oligoanuria prolongada, diálisis o afectación neurológica. Por eso se vigila la presión, la proteinuria y la TFG durante años (al menos 5), se trata la proteinuria persistente con bloqueo del SRAA y se evitan los nefrotóxicos (AINE, contraste innecesario). La proteinuria de 0.5 g/g en el alta ya es un dato de lesión residual.",
+   "C": "La recurrencia del STEC-HUS en el injerto es excepcional, y no contraindica el trasplante.",
+   "D": "El SHU típico es un evento agudo por toxina, no una enfermedad recurrente, y no se trata con eculizumab de forma indefinida.",
+   "E": "Hasta una cuarta parte tiene secuelas, y el alta definitiva sin seguimiento no es adecuada."
+  },
+  "perla": "STEC-HUS: mortalidad aguda 3–5%; a largo plazo ~25% secuelas (proteinuria, HTA, ↓TFG) y ~12% muerte/ERT (Garg 2003); seguimiento ≥5 años; IECA/ARA si proteinuria; recurrencia en injerto excepcional.",
+  "referencias": [
+   "Garg AX et al. JAMA 2003;290:1360",
+   "Comprehensive Clinical Nephrology (síndrome hemolítico urémico)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 15.5
+ },
+ {
+  "id": "TTP-1",
+  "serie_id": "TTP",
+  "orden": 1,
+  "sub": "15.g",
+  "subtema": "PTT inmune: inicio inmediato del tratamiento con puntaje PLASMIC alto",
+  "dificultad": "dificil",
+  "caso": "Mujer de 34 años con 3 días de cefalea, confusión leve, fiebre de 38.2 °C y petequias. Hemoglobina de 7.8 g/dL, plaquetas de 9 000/µL, reticulocitos altos, esquistocitos abundantes, LDH de 1900 U/L, bilirrubina indirecta elevada, creatinina de 1.4 mg/dL, TP y TTPa normales, Coombs directo negativo, sin cáncer ni trasplante previos ni fármacos sospechosos. El puntaje PLASMIC es de 7 (riesgo alto de deficiencia grave de ADAMTS13). La muestra de ADAMTS13 se envió y el resultado tardará varios días.",
+  "enunciado": "¿Cuál es la conducta inmediata?",
+  "opciones": {
+   "A": "Esperar el resultado de ADAMTS13 antes de cualquier tratamiento, porque el recambio plasmático tiene riesgos propios y es costoso",
+   "B": "Recambio plasmático diario con plasma y glucocorticoides sin esperar ADAMTS13; valorar caplacizumab y rituximab; sin plaquetas",
+   "C": "Transfundir plaquetas para llevar el recuento a más de 50 000/µL antes de cualquier otra medida terapéutica",
+   "D": "Iniciar eculizumab como tratamiento de primera línea, porque el cuadro corresponde a un SHU atípico",
+   "E": "Administrar únicamente infusión de plasma fresco congelado sin recambio plasmático, a la dosis habitual de 10 a 15 mL/kg y sin esteroides"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Esperar el resultado retrasa un tratamiento que reduce la mortalidad, y se inicia con probabilidad pretest alta.",
+   "B": "La PTT inmune (autoanticuerpos anti-ADAMTS13) es una urgencia con mortalidad cercana a 90% sin tratamiento; si la probabilidad pretest es alta (PLASMIC de 6 a 7 o puntaje francés alto), se inicia el recambio plasmático diario con plasma fresco congelado (que repone ADAMTS13 y elimina anticuerpos) más glucocorticoides, sin esperar el resultado, y se suspende si la ADAMTS13 resulta mayor de 10%. Las guías de la ISTH (2020) sugieren añadir rituximab y caplacizumab (anti-vWF) a esta base. Las plaquetas se transfunden solo ante sangrado grave o riesgo vital, porque podrían empeorar las trombosis microvasculares. La infusión simple de plasma es insuficiente en la PTT inmune, porque no elimina el anticuerpo ni repone una cantidad suficiente de enzima.",
+   "C": "La transfusión de plaquetas sin sangrado grave puede agravar la microtrombosis.",
+   "D": "El eculizumab no es la primera línea de la PTT, que es una enfermedad por déficit de ADAMTS13, no por activación del complemento.",
+   "E": "La infusión de plasma sola no elimina el anticuerpo inhibidor, y es insuficiente en la forma inmune."
+  },
+  "perla": "PLASMIC 6–7 + MAHA + trombocitopenia sin otra causa → PEX diario + esteroides ya, sin esperar ADAMTS13 (<10% confirma); añadir rituximab y caplacizumab; plaquetas solo si sangrado grave.",
+  "referencias": [
+   "Zheng XL et al. J Thromb Haemost 2020;18:2496 (guía ISTH PTT)",
+   "Bendapudi PK et al. Lancet Haematol 2017;4:e157 (PLASMIC)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o4",
+  "peso": 17.5
+ },
+ {
+  "id": "TTP-2",
+  "serie_id": "TTP",
+  "orden": 2,
+  "sub": "15.g",
+  "subtema": "Caplacizumab: mecanismo, evidencia y duración",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La ADAMTS13 regresa menor de 5% con anticuerpo inhibidor positivo. Se inicia caplacizumab junto con el recambio plasmático y los esteroides. En el día 6, las plaquetas llegan a 160 000/µL y el último recambio se realiza ese día.",
+  "enunciado": "¿Cuál es la afirmación correcta sobre el uso de caplacizumab?",
+  "opciones": {
+   "A": "Anti-A1 del vWF que acelera la recuperación plaquetaria (HERCULES), con más sangrado; se continúa 30 días tras el último recambio",
+   "B": "Se suspende el mismo día en que se normalizan las plaquetas, porque el riesgo de recaída desaparece de inmediato",
+   "C": "No tiene efectos adversos hemorrágicos, porque actúa solo sobre la adhesión plaquetaria y no sobre la coagulación",
+   "D": "Repone la actividad de ADAMTS13 y por eso reemplaza al recambio plasmático, a los esteroides y al resto de la inmunosupresión en la PTT",
+   "E": "Se usa solo en la PTT congénita, y es ineficaz en la inmune, porque no modifica el anticuerpo inhibidor"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El caplacizumab es un nanocuerpo humanizado anti-vWF (dominio A1) que impide la unión del multímero ultra-grande de vWF a las plaquetas, que es el mecanismo de la microtrombosis cuando falta la ADAMTS13. En el ensayo HERCULES (Scully, N Engl J Med 2019), la normalización de las plaquetas fue más rápida y el desenlace compuesto de muerte por PTT, recurrencia o evento tromboembólico mayor durante el tratamiento ocurrió en 12% frente a 49% con placebo, con más hemorragias mucocutáneas (epistaxis, gingivorragia). Se administra durante el recambio y durante 30 días tras el último; si la ADAMTS13 sigue menor de 20% a 30%, se extiende (guiado por ADAMTS13), porque la suspensión con enzima aún baja expone a exacerbación. No reemplaza al recambio ni a la inmunosupresión, que corrigen la causa.",
+   "B": "Suspenderlo con ADAMTS13 aún baja expone a exacerbación, y se mantiene al menos 30 días.",
+   "C": "El sangrado mucocutáneo fue más frecuente con caplacizumab.",
+   "D": "El caplacizumab no repone la enzima, solo bloquea la adhesión plaquetaria mediada por vWF.",
+   "E": "Se estudió y es eficaz en la PTT inmune adquirida."
+  },
+  "perla": "Caplacizumab: nanocuerpo anti-vWF A1; HERCULES: plaquetas más rápido, evento compuesto 12% vs 49%, más sangrado; continuar 30 d tras último PEX y hasta ADAMTS13 >20–30%; no sustituye PEX ni inmunosupresión.",
+  "referencias": [
+   "Scully M et al. N Engl J Med 2019;380:335 (HERCULES)",
+   "Zheng XL et al. J Thromb Haemost 2020;18:2496"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 17.5
+ },
+ {
+  "id": "TTP-3",
+  "serie_id": "TTP",
+  "orden": 3,
+  "sub": "15.g",
+  "subtema": "PTT: remisión, recaída de ADAMTS13 y rituximab preventivo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente alcanza remisión clínica y la ADAMTS13 se recupera a 55%. Cuatro meses después, asintomática, con plaquetas de 210 000/µL y LDH normal, la actividad de ADAMTS13 baja a 6% con reaparición del inhibidor.",
+  "enunciado": "¿Cuál es la interpretación y la conducta más adecuada?",
+  "opciones": {
+   "A": "Recaída clínica que obliga a reiniciar recambio plasmático diario y esteroides de inmediato, aunque las plaquetas sean normales",
+   "B": "Confirma PTT congénita, y se inicia infusión periódica de plasma, porque la actividad de ADAMTS13 vuelve a bajar de forma persistente",
+   "C": "Recaída de ADAMTS13 sin recaída clínica y con alto riesgo: rituximab preventivo y vigilancia de plaquetas, LDH y ADAMTS13",
+   "D": "Hallazgo sin importancia, porque las plaquetas y la LDH son normales, y se repite el estudio de ADAMTS13 en 1 año sin tratamiento",
+   "E": "Reiniciar glucocorticoides a dosis altas como única medida, porque la actividad baja de ADAMTS13 indica una recaída clínica"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Sin trombocitopenia ni hemólisis no hay recaída clínica, y el recambio no se reinicia sin ella.",
+   "B": "El inhibidor presente apunta a una forma inmune, y la congénita no cursa con anticuerpo.",
+   "C": "En la PTT inmune, la ADAMTS13 puede caer meses después de la remisión por reaparición del autoanticuerpo, y una actividad menor de 10% a 20% con plaquetas normales (recaída de ADAMTS13) predice la recaída clínica. Las guías ISTH (2020) sugieren rituximab preventivo en estos pacientes, con lo que la actividad suele recuperarse y se reducen las recaídas clínicas; se vigila la ADAMTS13 de forma seriada (por ejemplo, mensual durante los primeros 3 meses de la remisión y luego cada 3 meses) junto con plaquetas y LDH. Se distingue de la exacerbación (recaída clínica en los 30 días tras suspender el recambio o el caplacizumab) y de la recaída clínica (después de 30 días). La reaparición del inhibidor demuestra el origen inmune, y no corresponde a la forma congénita.",
+   "D": "Una ADAMTS13 baja con plaquetas normales predice la recaída clínica, y obliga a actuar de forma preventiva.",
+   "E": "Los esteroides solos no mantienen la remisión de la ADAMTS13, y la medida preventiva de elección es rituximab."
+  },
+  "perla": "PTT inmune: ADAMTS13 <10–20% en remisión (recaída de ADAMTS13) → rituximab preventivo; seguimiento ADAMTS13 seriado; exacerbación ≤30 d tras suspender PEX/caplacizumab, recaída clínica >30 d.",
+  "referencias": [
+   "Zheng XL et al. J Thromb Haemost 2020;18:2496",
+   "Cuker A et al. Blood 2021;137:1855 (definiciones ISTH)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 17.5
+ },
+ {
+  "id": "TTP-4",
+  "serie_id": "TTP",
+  "orden": 4,
+  "sub": "15.g",
+  "subtema": "PTT congénita (Upshaw-Schulman): diagnóstico y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente, de 28 años, cursa su primer embarazo con 22 semanas de gestación y presenta trombocitopenia de 38 000/µL con anemia hemolítica microangiopática y esquistocitos. La ADAMTS13 es menor de 5% sin anticuerpo inhibidor (Bethesda negativo, anti-ADAMTS13 IgG negativo). Refiere ictericia neonatal con exanguinotransfusión y trombocitopenia recurrente en la infancia. La presión es de 124/76 mmHg.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento más adecuado?",
+  "opciones": {
+   "A": "PTT inmune, que requiere recambio plasmático, esteroides y rituximab, porque la ADAMTS13 está muy baja",
+   "B": "SHU atípico, que se trata con eculizumab, porque la gestación desencadena la activación del complemento",
+   "C": "Trombocitopenia gestacional benigna, sin necesidad de tratamiento específico, porque el recuento suele ser leve y asintomático",
+   "D": "PTT congénita (ADAMTS13 bialélico) por el embarazo: sin inhibidor, infusión de plasma y profilaxis durante la gestación",
+   "E": "Preeclampsia grave con síndrome HELLP, que se resuelve con la interrupción del embarazo, porque comparte la microangiopatía trombótica"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "En la forma inmune hay inhibidor y anticuerpo, que aquí son negativos, y la inmunosupresión no tiene papel.",
+   "B": "El SHUa cursa con ADAMTS13 normal y activación del complemento, no con déficit grave de ADAMTS13.",
+   "C": "Con anemia hemolítica y esquistocitos no se trata de trombocitopenia gestacional benigna.",
+   "D": "La ADAMTS13 menor de 5 a 10% sin inhibidor ni anticuerpo, junto con el antecedente de trombocitopenia y de hiperbilirrubinemia neonatal, orienta a la PTT congénita por variantes bialélicas en ADAMTS13 (Upshaw-Schulman), cuya primera manifestación en la mujer es muchas veces el embarazo, por el aumento del vWF. El tratamiento es reponer la enzima: infusión de plasma (10 a 15 mL/kg) de forma aguda, y en forma profiláctica durante la gestación (cada 1 a 3 semanas, según la actividad y el recuento) para mantener plaquetas estables; el concentrado de ADAMTS13 recombinante (aprobado en 2023) es una opción. No se necesita recambio ni inmunosupresión porque no hay anticuerpo. Se confirma con el estudio genético, y el diagnóstico diferencial con preeclampsia y HELLP (que cursan con hipertensión, transaminasas altas y ADAMTS13 normal) es crucial.",
+   "E": "La preeclampsia y el HELLP cursan con ADAMTS13 mayor de 10% e hipertensión, y aquí no la hay."
+  },
+  "perla": "PTT congénita: ADAMTS13 <10% SIN inhibidor/anti-ADAMTS13, antecedentes neonatales, desencadenada por embarazo/infección; tratar con plasma (o ADAMTS13 recombinante), profilaxis en gestación; sin PEX ni inmunosupresión.",
+  "referencias": [
+   "Zheng XL et al. J Thromb Haemost 2020;18:2496",
+   "Comprehensive Clinical Nephrology (PTT)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o4",
+  "peso": 17.5
+ },
+ {
+  "id": "RVJ-1",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Displasia fibromuscular: tratamiento",
+  "caso": "Mujer de 36 años con HTA resistente; angio-TC con imagen en cuentas de rosario en el tercio medio de la arteria renal derecha y gradiente translesional significativo.",
+  "enunciado": "¿Cuál es el tratamiento de elección?",
+  "perla": "Significación: gradiente ≥10% de la presión aórtica media. Reestenosis hasta 34%, sobre todo multifocal. Tratar aneurismas antes del embarazo. Añadir antiagregante y suspender tabaco.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Stent renal primario siempre",
+   "B": "Solo tratamiento médico",
+   "C": "Angioplastia sin stent",
+   "D": "Bypass aortorrenal primario",
+   "E": "Nefrectomía derecha"
+  },
+  "explicaciones": {
+   "A": "No se recomienda; solo como rescate ante disección.",
+   "B": "La DFM con significación hemodinámica debe revascularizarse.",
+   "C": "Correcto. La angioplastia transluminal es el tratamiento de elección; éxito técnico >90%, curación de la HTA 35–45% y mejoría en >85%.",
+   "D": "Se reserva para aneurismas >1.5 cm o fracaso endovascular.",
+   "E": "No está indicada."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-2",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Displasia fibromuscular: evaluación sistémica",
+  "caso": "Mujer de 42 años con DFM renal multifocal recién diagnosticada, cefalea y acúfeno pulsátil.",
+  "enunciado": "¿Qué estudio adicional se recomienda?",
+  "perla": "80–90% mujeres; hombres con fenotipo más agresivo, focal y con aneurismas. La angio-TC es la prueba de tamizaje recomendada para DFM, que afecta segmentos medios y ramas.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Prueba genética de PHACTR1",
+   "B": "Gammagrafía con captopril",
+   "C": "Renina en venas renales",
+   "D": "Biopsia renal",
+   "E": "Angio-TC de cabeza a pelvis"
+  },
+  "explicaciones": {
+   "A": "No existe prueba genética específica; tamizar clínicamente a familiares.",
+   "B": "No evalúa otros territorios.",
+   "C": "No aporta para este fin.",
+   "D": "No es diagnóstica.",
+   "E": "Correcto. La DFM es sistémica: cerebrovascular en 59–80% y dos territorios en ~48%; obtener al menos una vez imagen completa para detectar aneurismas ocultos."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-3",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Bloqueo del SRAA en estenosis renal",
+  "caso": "Hombre de 71 años con estenosis aterosclerótica bilateral de 70%; tras iniciar losartán la creatinina sube de 1.6 a 1.8 mg/dL.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "En CORAL la mayoría recibió IECA o ARA II, 20% con estenosis bilateral, sin señales de daño renal. Una caída excesiva no es específica: también ocurre con depleción de volumen o insuficiencia cardiaca o hepática.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Continuar y repetir química en 2–4 semanas",
+   "B": "Suspender el ARA II de forma definitiva",
+   "C": "Colocar stent bilateral urgente",
+   "D": "Cambiar a IECA a dosis alta",
+   "E": "Agregar aliskireno"
+  },
+  "explicaciones": {
+   "A": "Correcto. Se acepta un aumento <0.5 mg/dL o <30% de la TFGe; un cambio mayor obliga a buscar estenosis crítica.",
+   "B": "El aumento es aceptable y el bloqueo suele tolerarse bien.",
+   "C": "No hay indicación.",
+   "D": "No resuelve nada.",
+   "E": "El doble bloqueo no está indicado."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-4",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Doppler de arterias renales",
+  "caso": "Doppler renal: velocidad sistólica pico 260 cm/s, índice renal/aórtico 3.8 e índice de resistencia intrarrenal 0.86.",
+  "enunciado": "¿Qué se infiere?",
+  "perla": "Onda tardus-parvus puede indicar estenosis crítica aun sin VSP alta. Doppler: prueba de elección para vigilar reestenosis del stent; puede pasar por alto arterias accesorias.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Estudio normal",
+   "B": "Estenosis no significativa",
+   "C": "Alta probabilidad de curar la HTA con stent",
+   "D": "Estenosis >60% con mala respuesta esperada",
+   "E": "Patrón típico de displasia de ramas distales"
+  },
+  "explicaciones": {
+   "A": "No lo es.",
+   "B": "Los valores indican estenosis.",
+   "C": "El IR alto predice lo contrario.",
+   "D": "Correcto. VSP >200–220 cm/s y cociente >3.0–3.5 indican >60% de estenosis. IR >0.80 predice mala respuesta tensional a la intervención por daño microvascular.",
+   "E": "El Doppler es poco sensible para ramas distales."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-5",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Fisiopatología de la HTA renovascular",
+  "caso": "Comparación entre estenosis unilateral con riñón contralateral sano y estenosis de riñón único.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Activación del SRAA con estenosis ≥60–80%; cambios hemodinámicos detectables desde 75–80% del área. Estenosis de injerto renal: ejemplo de 1 pinza–1 riñón, con retención de líquidos y edema pulmonar.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ambos modelos dependen solo de la angiotensina II",
+   "B": "Con riñón único la HTA depende más del volumen",
+   "C": "Con riñón contralateral sano hay retención persistente de sodio",
+   "D": "La renina se mantiene alta en el modelo de riñón único",
+   "E": "El bloqueo del SRAA es más eficaz con riñón único"
+  },
+  "explicaciones": {
+   "A": "Difieren.",
+   "B": "Correcto. Modelo 1 pinza–1 riñón: retención de sodio, expansión y supresión del SRAA. En 1 pinza–2 riñones, la natriuresis por presión del riñón sano mantiene la HTA dependiente de angiotensina II.",
+   "C": "El riñón sano elimina sodio.",
+   "D": "Se suprime.",
+   "E": "Responde menos."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-6",
+  "tema_id": 15,
+  "sub": "15.c",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Estenosis de la arteria del injerto",
+  "caso": "Receptor de trasplante renal de donante fallecido, 8 meses postrasplante, con HTA nueva, edema y soplo sobre el injerto.",
+  "enunciado": "¿Qué dato es correcto?",
+  "perla": "Trombosis arterial del injerto: 0.4%, minutos a horas. Trombosis venosa: ~5% en adultos, primeros 5 días, más con riñón derecho. Seudoestenosis: estenosis ilíaca con claudicación.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Suele aparecer en la primera semana",
+   "B": "Es más frecuente con donante vivo",
+   "C": "Una VSP de 250 cm/s confirma la estenosis",
+   "D": "La angioplastia es el abordaje inicial",
+   "E": "La cirugía es de primera elección"
+  },
+  "explicaciones": {
+   "A": "Aparece entre 3 meses y 2 años.",
+   "B": "Más con donante fallecido, arterias múltiples y riñón pediátrico.",
+   "C": "26% de las arterias normales del injerto supera 250 cm/s; VSP >300, aceleración >0.1 s y turbulencia dan ~99%.",
+   "D": "Correcto. Éxito técnico ~90% y clínico 66–94%; reestenosis 18.9% con angioplastia sola y 9.1% con stent.",
+   "E": "Alta morbilidad: pérdida del injerto 15–30%."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-7",
+  "tema_id": 15,
+  "sub": "15.a",
+  "obj": "15.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Infarto renal: causas y diagnóstico",
+  "caso": "Hombre de 45 años sin arritmias con dolor lumbar súbito, LDH muy alta y defecto cuneiforme en la TC contrastada.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Signo del borde cortical: colaterales intactas. Infartos simultáneos de hígado o bazo en 10–15%. Bilateral hasta 20%. Sin causa en ~18%. Mortalidad a 30 días 10–13% en FA.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La disección espontánea predomina en hombres",
+   "B": "La embolia cardiaca es la causa de más de 80%",
+   "C": "La LDH es normal en la mayoría",
+   "D": "El ultrasonido Doppler es la prueba de elección",
+   "E": "Siempre existe dolor"
+  },
+  "explicaciones": {
+   "A": "Correcto. Relación hombre:mujer 4:1, alrededor de los 45 años. En una serie de 186 infartos, una lesión arterial causó >81% y la embolia solo 9%.",
+   "B": "No en esa serie, aunque la FA es la causa cardiaca más frecuente.",
+   "C": "Está elevada en >90%.",
+   "D": "La TC con contraste es la modalidad de elección.",
+   "E": "25% es asintomático."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-8",
+  "tema_id": 15,
+  "sub": "15.a",
+  "obj": "15.o1",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "Revascularización de la oclusión arterial",
+  "caso": "Paciente con oclusión total de la arteria renal y pérdida súbita de TFG.",
+  "enunciado": "¿Qué factor predice recuperación tras revascularizar?",
+  "perla": "En el trauma cerrado el infarto se establece en 3–6 h y el éxito de la revascularización es bajo. Valorar el riñón contralateral y el riesgo quirúrgico.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Creatinina basal mayor de 4 mg/dL",
+   "B": "Riñón de 7 cm",
+   "C": "Deterioro de la TFG de años de evolución",
+   "D": "Proteinuria de rango nefrótico",
+   "E": "Nefrograma con tamaño renal preservado"
+  },
+  "explicaciones": {
+   "A": "Predice lo contrario.",
+   "B": "Riñón pequeño indica atrofia.",
+   "C": "El deterioro reciente predice respuesta.",
+   "D": "La proteinuria predice mala respuesta.",
+   "E": "Correcto. Predicen recuperación: tamaño renal preservado, nefrograma o blush, deterioro reciente y creatinina basal reciente <3 mg/dL."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "RVJ-9",
+  "tema_id": 15,
+  "sub": "15.d",
+  "obj": "15.o2",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Enfermedad ateroembólica: diagnóstico",
+  "caso": "Hombre de 74 años, 5 semanas después de un cateterismo coronario, con deterioro escalonado de la TFG, livedo reticularis y dedos azules.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "perla": "Hendiduras de colesterol biconvexas en arteriolas con reacción de células gigantes. VSG alta 97%. 70% iatrogénica. IECA para la HTA lábil; esteroides en casos inflamatorios; evitar nuevos procedimientos endovasculares.",
+  "referencias": [
+   "Greco BA, Papamarkakis KE. Renovascular Hypertension, Atherosclerotic Renal Vascular Disease, and Thromboembolic Kidney Disease. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 43, pp. 500-518"
+  ],
+  "serie_id": "RVJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La eosinofilia descarta el diagnóstico",
+   "B": "El complemento suele estar alto",
+   "C": "La tríada clínica típica hace innecesaria la biopsia",
+   "D": "La biopsia percutánea es más sensible que la abierta",
+   "E": "La anticoagulación es el tratamiento de elección"
+  },
+  "explicaciones": {
+   "A": "Aparece hasta en 57% y apoya el diagnóstico.",
+   "B": "C3 bajo en 25–70%.",
+   "C": "Correcto. Evento precipitante, lesión renal subaguda y lesiones cutáneas bastan; si no, biopsia de piel o músculo afectado.",
+   "D": "La biopsia en cuña es más sensible por la distribución en parches.",
+   "E": "Se recomienda evitarla en la fase aguda."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-1",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "SHUa: genética del complemento",
+  "caso": "Mujer de 24 años con MAT, LRA grave, ADAMTS13 de 62% y toxina Shiga negativa.",
+  "enunciado": "¿Qué alteración genética es la más frecuente?",
+  "perla": "En conjunto ~60% tiene variante: CFH 20–30%, C3 8–10%, MCP 8–10%, CFI 4–8%, híbridos CFH/CFHR 3–5%. Penetrancia incompleta. Iniciar tratamiento sin esperar la genética.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Mutaciones de DGKE",
+   "B": "Variantes de CFH",
+   "C": "Variantes de CFB",
+   "D": "Mutaciones de THBD",
+   "E": "Variantes de MMACHC"
+  },
+  "explicaciones": {
+   "A": "Formas recesivas en menores de 1 año.",
+   "B": "Correcto. ~30%; suelen dar niveles normales de una proteína disfuncional que no regula el complemento sobre el endotelio.",
+   "C": "1–2%.",
+   "D": "3–4%.",
+   "E": "Causa SHU por defecto de cobalamina C."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-2",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "SHUa y trasplante",
+  "caso": "Hombre de 30 años en diálisis por SHUa con variante patogénica de CFH; su hermano desea donarle un riñón.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "MCP y DGKE se expresan en el riñón: el injerto corrige el defecto, salvo variante adicional en ~20% de MCP. Trasplante hepatorrenal con plasmaféresis y eculizumab perioperatorios: >80% buenos resultados.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "El riesgo de recurrencia es menor de 10%",
+   "B": "El injerto corrige el defecto de CFH",
+   "C": "La plasmaféresis está contraindicada en el perioperatorio",
+   "D": "La profilaxis anti-C5 está contraindicada",
+   "E": "La donación de vivo relacionado está contraindicada"
+  },
+  "explicaciones": {
+   "A": "Recurrencia 60–80% con mutaciones de proteínas circulantes; pérdida del injerto 80–90%.",
+   "B": "CFH es de síntesis hepática; el trasplante hepatorrenal sí corrige el defecto.",
+   "C": "El plasma preventivo ha sido útil.",
+   "D": "La profilaxis con eculizumab se asocia a mejor supervivencia del injerto.",
+   "E": "Correcto. Riesgo alto de recurrencia y posible SHUa en el donante portador tras la nefrectomía."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-3",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "SHUa por mutación de MCP",
+  "caso": "Niño de 8 años con SHUa y mutación heterocigota aislada de MCP (CD46).",
+  "enunciado": "¿Qué evolución es la esperada?",
+  "perla": "Antes de anti-C5, 50–70% de los portadores de CFH, CFI, C3, CFB o THBD perdía la función o moría. 60% de los SHUa inicia en la infancia.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Buena respuesta sostenida al plasma",
+   "B": "ERCT en la mayoría al primer episodio",
+   "C": "Recaídas con buen pronóstico renal",
+   "D": "Recurrencia en casi todo injerto renal",
+   "E": "Inicio típico en el primer año"
+  },
+  "explicaciones": {
+   "A": "MCP es una proteína de membrana; el plasma tiene poco efecto.",
+   "B": "No es lo habitual.",
+   "C": "Correcto. 80% remite espontáneamente y queda libre de diálisis a largo plazo.",
+   "D": "El injerto aporta MCP normal.",
+   "E": "Eso caracteriza a DGKE."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-4",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Seguridad de eculizumab y ravulizumab",
+  "caso": "Paciente con SHUa grave en quien se decide iniciar eculizumab hoy; no está vacunado.",
+  "enunciado": "¿Cuál es la conducta correcta?",
+  "perla": "Ravulizumab: anti-C5 de vida media larga, remisión similar. Retiro de eculizumab: recaída en 13 de 55, predicha por variante rara del complemento.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Vacunar y dar antibiótico sin diferir",
+   "B": "Diferir dos semanas tras vacunar",
+   "C": "Vacunar solo contra meningococo ACWY",
+   "D": "Dar el anticuerpo sin profilaxis",
+   "E": "Usar ravulizumab porque no requiere vacuna"
+  },
+  "explicaciones": {
+   "A": "Correcto. Vacuna meningocócica, incluida B, sin retrasar el inicio; antibiótico obligatorio las primeras 2 semanas y recomendado todo el tratamiento.",
+   "B": "No debe retrasarse.",
+   "C": "Incluir serogrupo B.",
+   "D": "Riesgo alto de Neisseria.",
+   "E": "Tiene el mismo riesgo."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-5",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "SHUa con anticuerpos anti-CFH",
+  "caso": "Niño de 10 años con SHUa, anticuerpos anti-factor H positivos y deleción homocigota CFHR1/CFHR3.",
+  "enunciado": "¿Qué tratamiento se recomienda si no hay anti-C5 disponible?",
+  "perla": "Anti-CFH: 5–10% de SHUa y 25–50% en niños; casi todos antes de los 16 años. Atacan el extremo C-terminal. Recurrencia en injerto ~30%.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Infusión de plasma sin recambio",
+   "B": "Plasmaféresis e inmunosupresión",
+   "C": "Rituximab como monoterapia",
+   "D": "Hidroxocobalamina parenteral",
+   "E": "Esperar remisión espontánea"
+  },
+  "explicaciones": {
+   "A": "No remueve los anticuerpos.",
+   "B": "Correcto. Inducción con esteroide y ciclofosfamida, mantenimiento con azatioprina o MMF; 60–70% libre de diálisis.",
+   "C": "Datos escasos e inconsistentes.",
+   "D": "Es para el defecto de cobalamina C.",
+   "E": "Riesgo alto de pérdida renal."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-6",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "dificil",
+  "peso": 45,
+  "subtema": "SHU infantil por DGKE",
+  "caso": "Lactante de 7 meses con MAT, HTA, hematuria y proteinuria nefrótica; padres consanguíneos.",
+  "enunciado": "¿Qué es característico de esta forma?",
+  "perla": "DGKE: ~10% de SHUa en menores de 1 año. Se expresa en endotelio, plaquetas y podocitos.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Herencia autosómica dominante",
+   "B": "Consumo marcado de C3 en todos",
+   "C": "Mal pronóstico del injerto renal",
+   "D": "Suele no responder a eculizumab",
+   "E": "Se trata con hidroxocobalamina"
+  },
+  "explicaciones": {
+   "A": "Es recesiva.",
+   "B": "Solo un subgrupo activa el complemento.",
+   "C": "El injerto corrige el defecto.",
+   "D": "Correcto. DGKE no se vincula directamente con el complemento; responde solo si coexiste anomalía del complemento.",
+   "E": "No es un defecto de cobalamina."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-7",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "SHU por neumococo",
+  "caso": "Niño de 18 meses con neumonía complicada, anemia hemolítica, plaquetopenia, LRA y Coombs directo positivo.",
+  "enunciado": "¿Qué es correcto?",
+  "perla": "Suele afectar a menores de 2 años; mortalidad aguda ~25%. Antígeno T detectado con lectina de Arachis hypogaea.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Evitar plasma; eritrocitos lavados",
+   "B": "Plasmaféresis urgente",
+   "C": "El Coombs positivo descarta SHU",
+   "D": "Iniciar eculizumab de primera línea",
+   "E": "Evitar antibióticos"
+  },
+  "explicaciones": {
+   "A": "Correcto. La neuraminidasa expone el antígeno T; el plasma adulto contiene anti-T y puede agravar la hemólisis.",
+   "B": "Teóricamente contraindicada.",
+   "C": "En esta forma suele ser positivo.",
+   "D": "No es lo indicado.",
+   "E": "El pronóstico depende del antibiótico."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "MTJ-8",
+  "tema_id": 15,
+  "sub": "15.g",
+  "obj": "15.o4",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "MAT secundaria",
+  "caso": "Se revisan MAT secundarias.",
+  "enunciado": "¿Qué asociación es correcta?",
+  "perla": "SHU del embarazo: al término o posparto, variantes del complemento en 50–60%, remisión con eculizumab ~90%. HTA maligna con MAT: variantes en 35–65%. Carcinoma gástrico: ~50% de las MAT por cáncer.",
+  "referencias": [
+   "Noris M, Ruggenenti PL, Remuzzi G. Thrombotic Microangiopathies, Including Hemolytic Uremic Syndrome. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 30, pp. 350-362"
+  ],
+  "serie_id": "MTJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Quinina con buen pronóstico renal",
+   "B": "Tacrolimus más que ciclosporina",
+   "C": "Defecto cblC y tratamiento con hidroxocobalamina",
+   "D": "Mitomicina C con mortalidad <10%",
+   "E": "Variantes del complemento frecuentes por fármacos"
+  },
+  "explicaciones": {
+   "A": "Suele requerir HD, con mortalidad y ERC altas.",
+   "B": "Ciclosporina 5–10% frente a tacrolimus ~1%.",
+   "C": "Correcto. Mutaciones de MMACHC: homocisteína alta y aciduria metilmalónica; la terapia metabólica es muy eficaz.",
+   "D": "Mortalidad ~70%.",
+   "E": "No difieren de los controles."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Enfermedades vasculares del riñón",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "CNT-1",
+  "serie_id": "CNT",
+  "orden": 1,
+  "sub": "17.b",
+  "subtema": "Lesión renal aguda por contraste: factores de riesgo",
+  "dificultad": "moderada",
+  "caso": "Hombre de 72 años con diabetes, ERC G3b (TFGe de 36 mL/min/1.73 m²), insuficiencia cardiaca con fracción de eyección de 35% y síndrome coronario agudo. Se propone coronariografía de urgencia con contraste yodado intraarterial. Toma furosemida, enalapril y metformina.",
+  "enunciado": "¿Cómo se define la lesión por contraste y cuáles son los principales factores de riesgo?",
+  "opciones": {
+   "A": "Aumento de creatinina ≥0.3 mg/dL en 48 h o 1.5 veces en 7 días; riesgo con TFGe baja, diabetes, falla cardiaca y mucho contraste",
+   "B": "Se define solo por proteinuria, y el principal factor de riesgo es la hipertensión arterial sistémica",
+   "C": "No tiene factores de riesgo conocidos, porque aparece en cualquier paciente con la misma probabilidad",
+   "D": "Aumento de creatinina de 0.1 mg/dL a los 10 minutos del contraste, con diabetes y falla cardiaca como únicos factores de riesgo conocidos",
+   "E": "Solo ocurre en personas con TFG normal, porque la lesión depende de la hiperfiltración glomerular"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La lesión renal aguda asociada a contraste se define por aumento de la creatinina de 0.3 mg/dL o más dentro de 48 horas, o de 1.5 veces el valor basal dentro de 7 días, tras la administración de contraste yodado. Sus factores de riesgo son TFG baja (el umbral es de 45 mL/min/1.73 m² para la vía intraarterial con exposición renal de primer paso, como la coronariografía, y de 30 mL/min/1.73 m² para la vía intravenosa), diabetes, insuficiencia cardiaca, hipovolemia, anemia, edad avanzada, volumen alto de contraste, contraste hiperosmolar y uso concurrente de fármacos nefrotóxicos (AINE, aminoglucósidos).",
+   "B": "La definición es por creatinina o diuresis, no por proteinuria.",
+   "C": "Los factores de riesgo están bien descritos.",
+   "D": "La creatinina no cambia a los 10 minutos; el aumento ocurre en 24 a 48 horas.",
+   "E": "El riesgo es mayor con TFG baja, no en personas con TFG normal."
+  },
+  "perla": "CA-AKI: ↑Cr ≥0.3 en 48 h o ≥1.5× en 7 d. Riesgo: TFGe <45 (IA) o <30 (IV), DM, IC, hipovolemia, volumen de contraste.",
+  "referencias": [
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)",
+   "Comprehensive Clinical Nephrology (nefropatía por contraste)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "continuacion": "",
+  "obj": "17.o2",
+  "peso": 16.5
+ },
+ {
+  "id": "CNT-2",
+  "serie_id": "CNT",
+  "orden": 2,
+  "sub": "17.b",
+  "subtema": "Prevención: expansión de volumen y evidencia de NAC y bicarbonato",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se discute la profilaxis antes de la coronariografía en este paciente con insuficiencia cardiaca.",
+  "enunciado": "¿Cuál es la medida preventiva con mayor sustento?",
+  "opciones": {
+   "A": "Furosemida profiláctica para forzar la diuresis, porque reduce el tiempo de contacto del contraste con el túbulo",
+   "B": "No se requiere ninguna medida preventiva, porque la lesión por contraste es siempre leve y se autolimita en el paciente",
+   "C": "N-acetilcisteína sola, por su eficacia comprobada para prevenir la lesión renal por contraste en cardiopatía",
+   "D": "Bicarbonato de sodio como único método, por ser superior a la solución salina isotónica en la prevención según los ensayos recientes",
+   "E": "Salina isotónica ajustada a la función cardiaca, menor dosis de contraste y retiro de nefrotóxicos; NAC y bicarbonato no la superan"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La diuresis forzada con furosemida sola no previene y puede empeorar la hipovolemia.",
+   "B": "Con TFGe de 36 y vía intraarterial se indica profilaxis.",
+   "C": "La N-acetilcisteína no tuvo beneficio en PRESERVE.",
+   "D": "El bicarbonato no fue superior a la solución salina.",
+   "E": "La única medida preventiva con respaldo es la expansión de volumen con solución salina isotónica (por ejemplo, 1 a 1.5 mL/kg/h durante 6 a 12 horas antes y después, ajustada en insuficiencia cardiaca, a veces guiada por la presión telediastólica del ventrículo izquierdo), junto con minimizar el volumen de contraste, elegir agentes iso o de baja osmolaridad y suspender nefrotóxicos. En el estudio PRESERVE no hubo diferencias entre bicarbonato y solución salina ni entre N-acetilcisteína y placebo. Los diuréticos de asa no previenen el daño (la furosemida profiláctica se asoció a más lesión), y la hemofiltración profiláctica no está recomendada."
+  },
+  "perla": "CA-AKI: solución salina isotónica (ajustar en IC), ↓ volumen de contraste, suspender nefrotóxicos. NAC y bicarbonato no ganan a salina (PRESERVE).",
+  "referencias": [
+   "Weisbord SD et al. N Engl J Med 2018;378:603 (PRESERVE)",
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o2",
+  "peso": 18.5
+ },
+ {
+  "id": "CNT-3",
+  "serie_id": "CNT",
+  "orden": 3,
+  "sub": "17.b",
+  "subtema": "Evolución típica y metformina",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Tras la coronariografía, la creatinina sube de 1.9 a 2.6 mg/dL a las 48 horas, alcanza su pico a los 4 días y baja después. La FeNa es menor de 1% y el sedimento muestra pocos cilindros. El paciente sigue tomando metformina.",
+  "enunciado": "¿Cuál es el curso esperado y qué se hace con la metformina?",
+  "opciones": {
+   "A": "La creatinina sube a los 14 días y nunca regresa, porque la lesión por contraste es siempre irreversible",
+   "B": "Continuar metformina sin cambios, porque el contraste no interfiere con su eliminación renal",
+   "C": "La FeNa es siempre mayor de 3%, porque la lesión por contraste es una necrosis tubular establecida",
+   "D": "Pico a los 3–5 días y regreso al basal en 7–10 días, con FeNa baja; se suspende la metformina por el riesgo de acidosis láctica",
+   "E": "Iniciar corticoides, porque la lesión renal por contraste es de tipo inflamatorio y responde a la inmunosupresión en pocos días de tratamiento"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El aumento no ocurre a los 14 días y suele revertir.",
+   "B": "Con lesión renal aguda la metformina debe suspenderse.",
+   "C": "La FeNa suele ser baja al inicio, no mayor de 3%.",
+   "D": "El curso clásico de la lesión por contraste es un aumento de la creatinina entre 24 y 48 horas, con pico entre 3 y 5 días y recuperación en 7 a 10 días. La fisiopatología incluye vasoconstricción medular y toxicidad tubular directa, y puede acompañarse de FeNa baja, orina concentrada y pocos cilindros granulosos. Aunque la mayoría se recupera, algunos pacientes quedan con daño permanente. La metformina se suspende ante lesión renal aguda o TFGe menor de 30 por el riesgo de acidosis láctica, y se reinicia cuando la función se estabiliza. No hay tratamiento específico (los corticoides no tienen papel).",
+   "E": "Los corticoides no tienen beneficio."
+  },
+  "perla": "CA-AKI: Cr ↑24–48 h, pico 3–5 d, normaliza 7–10 d; FeNa baja. Suspender metformina si LRA o TFG <30.",
+  "referencias": [
+   "Davenport MS et al. Radiology 2020;294:660 (ACR-NKF)",
+   "Comprehensive Clinical Nephrology (nefropatía por contraste)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 17,
+  "tema": "Enfermedades tóxicas del riñón",
+  "obj": "17.o2",
+  "peso": 16.5
+ },
+ {
+  "id": "ANT-1",
+  "serie_id": "ANT",
+  "orden": 1,
+  "sub": "4.i",
+  "subtema": "Fibrilación auricular en hemodiálisis: anticoagulación",
+  "dificultad": "dificil",
+  "caso": "Hombre de 66 años en hemodiálisis tres veces por semana por fístula arteriovenosa, con diabetes tipo 2, hipertensión y enfermedad arterial periférica. Se documenta fibrilación auricular persistente. CHA₂DS₂-VASc de 4 y HAS-BLED de 3. No tiene hemorragia activa.",
+  "enunciado": "¿Qué enfoque tiene mayor sustento actual?",
+  "opciones": {
+   "A": "Decisión compartida: warfarina (INR 2-3) o apixabán ajustado es razonable con evidencia limitada; cierre de orejuela si hay contraindicación",
+   "B": "No anticoagular nunca a un paciente en hemodiálisis por el riesgo de sangrado, sin importar el riesgo embólico",
+   "C": "Dabigatrán 150 mg cada 12 horas por su comodidad, aunque se elimina por vía renal y se dializa de forma parcial",
+   "D": "Ácido acetilsalicílico como alternativa equivalente a los anticoagulantes, con menor riesgo de sangrado y misma protección embólica",
+   "E": "Rivaroxabán 20 mg al día con los alimentos, que no requiere ajuste de dosis por la función renal en hemodiálisis"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "En los pacientes en diálisis con fibrilación auricular el riesgo trombótico y el hemorrágico están aumentados, y la evidencia es limitada: los ensayos aleatorizados RENAL-AF (apixabán frente a warfarina) y AXADIA (apixabán 2.5 mg c/12 h frente a fenprocumón) fueron pequeños y sin diferencias claras. Las guías ACC/AHA 2023 consideran razonable usar warfarina (INR 2 a 3) o apixabán a dosis basada en la evidencia en ERC terminal o diálisis (clase 2b), con decisión compartida, y plantean el cierre de la orejuela izquierda en pacientes con contraindicación. El dabigatrán (80% de eliminación renal) y el rivaroxabán (aproximadamente 35%) se evitan por acumulación. Se evalúa el riesgo de sangrado y el acceso vascular.",
+   "B": "No existe contraindicación absoluta en diálisis, y el riesgo de embolia cerebral justifica considerar la anticoagulación.",
+   "C": "El dabigatrán se elimina en 80% por el riñón, se acumula en diálisis y se evita.",
+   "D": "La aspirina no es una alternativa equivalente y aumenta el sangrado sin la misma eficacia.",
+   "E": "El rivaroxabán tiene eliminación renal parcial y escasa evidencia en diálisis."
+  },
+  "perla": "AF en HD: warfarina (INR 2–3) o apixabán dosis ajustada (ACC/AHA 2023, 2b); decisión compartida; considerar LAAO. Evitar dabigatrán/rivaroxabán.",
+  "referencias": [
+   "Joglar JA et al. Circulation 2024;149:e1 (ACC/AHA AF 2023)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "continuacion": "",
+  "obj": "4.o9",
+  "peso": 72.0
+ },
+ {
+  "id": "ANT-4",
+  "serie_id": "ANT",
+  "orden": 4,
+  "sub": "4.f",
+  "subtema": "Eliminación renal de los anticoagulantes orales directos",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la discusión, el cardiólogo compara los anticoagulantes orales directos según su depuración renal.",
+  "enunciado": "¿Cuál es el orden correcto de eliminación renal y cuál se prefiere en ERC avanzada?",
+  "opciones": {
+   "A": "Apixabán (80%) > rivaroxabán > edoxabán > dabigatrán (27%); se prefiere dabigatrán por su mayor eliminación renal",
+   "B": "Dabigatrán (≈80%) > edoxabán (≈50%) > rivaroxabán (≈35%) > apixabán (≈27%); el apixabán es el de menor eliminación renal y el preferido",
+   "C": "Todos se eliminan por vía renal en 90%, por lo que ninguno debe usarse en la enfermedad renal avanzada",
+   "D": "El orden es indistinto y no influye en la dosis ni en la elección del anticoagulante en la ERC avanzada",
+   "E": "Todos se eliminan al 100% por vía hepática, por lo que no requieren ajuste alguno en la ERC avanzada"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Invierte las proporciones: el dabigatrán es el de mayor eliminación renal.",
+   "B": "La proporción de eliminación renal de los anticoagulantes orales directos es de cerca de 80% para el dabigatrán, 50% para el edoxabán, 35% para el rivaroxabán y 27% para el apixabán. Por esto el dabigatrán se evita con depuración de creatinina menor de 30 mL/min y el apixabán es el de elección en ERC avanzada y diálisis. Para el apixabán, la reducción a 2.5 mg c/12 h se hace con al menos dos de tres criterios (edad de 80 años o más, peso de 60 kg o menos, creatinina de 1.5 mg/dL o más) en pacientes sin diálisis; en hemodiálisis, la ficha indica 5 mg c/12 h con reducción si la edad es de 80 años o más o el peso es de 60 kg o menos. Los pacientes con prótesis valvular mecánica o síndrome antifosfolípido no deben recibir anticoagulantes orales directos.",
+   "C": "Ninguno se elimina 90% por vía renal.",
+   "D": "El grado de eliminación renal determina la acumulación y la dosis.",
+   "E": "Todos tienen al menos algo de eliminación renal, que va de 27% a 80%."
+  },
+  "perla": "Eliminación renal de DOAC: dabigatrán ~80% > edoxabán ~50% > rivaroxabán ~35% > apixabán ~27%. Apixabán preferido en ERC avanzada.",
+  "referencias": [
+   "Joglar JA et al. Circulation 2024;149:e1 (ACC/AHA AF 2023)",
+   "Comprehensive Clinical Nephrology (farmacología)"
+  ],
+  "origen": [
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 4,
+  "tema": "Farmacología y riñón",
+  "obj": "4.o6",
+  "peso": 65.4
+ },
+ {
+  "id": "ANT-5",
+  "serie_id": "ANT",
+  "orden": 5,
+  "sub": "19.b",
+  "subtema": "Hemodiálisis sin heparina en paciente con sangrado",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tres semanas después, el paciente ingresa por hemorragia digestiva alta con hemoglobina de 6.4 g/dL, hemodinámicamente estable tras transfusión. Le toca hemodiálisis.",
+  "enunciado": "¿Cómo se realiza la sesión de diálisis?",
+  "opciones": {
+   "A": "Administrar protamina en toda sesión, para neutralizar la heparina del circuito y reducir el riesgo hemorrágico del paciente",
+   "B": "Dar warfarina durante la sesión, para evitar la coagulación del circuito extracorpóreo sin usar heparina",
+   "C": "Hemodiálisis sin heparina (lavados salinos, flujo alto, predilución) o con citrato regional, en lugar de heparina",
+   "D": "Heparina a dosis completa para evitar coagulación del circuito, porque la hemorragia ya se controló con transfusión",
+   "E": "Suspender la diálisis hasta que cese el sangrado, sin importar el estado clínico ni los datos de uremia"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La protamina neutraliza la heparina y no es una práctica de rutina.",
+   "B": "La warfarina es un anticoagulante oral y no se usa en la sesión; el sangrado la contraindica.",
+   "C": "En pacientes con sangrado activo o alto riesgo hemorrágico, la hemodiálisis se realiza sin anticoagulación sistémica: se utiliza un flujo sanguíneo alto (más de 250 mL/min), lavados periódicos del circuito con solución salina (cada 15 a 30 minutos), predilución, o se usa citrato regional (con infusión de calcio posdializador o dializado sin calcio), que da anticoagulación solo dentro del circuito. La heparina no fraccionada convencional (bolo de 25 a 50 U/kg o dosis fija, más infusión) se reserva para pacientes sin riesgo. Se vigila el coagulo en el circuito y los requerimientos, y se corrigen la causa del sangrado y la anemia.",
+   "D": "La heparina a dosis completa empeora la hemorragia activa.",
+   "E": "La indicación de diálisis (volumen, potasio, acidosis, uremia) persiste, y puede realizarse de forma segura sin heparina."
+  },
+  "perla": "HD con sangrado: sin heparina (lavados salinos, QB alto, predilución) o citrato regional. UFH solo si no hay riesgo.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (hemodiálisis)",
+   "KDOQI Hemodialysis Adequacy 2015. Am J Kidney Dis 2015;66:884"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o2",
+  "peso": 44.4
+ },
+ {
+  "id": "ANT-6",
+  "serie_id": "ANT",
+  "orden": 6,
+  "sub": "19.b",
+  "subtema": "Trombocitopenia inducida por heparina en hemodiálisis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras reanudar heparina en las sesiones en la semana siguiente, las plaquetas bajan de 210,000 a 65,000/µL al día 7 y la fístula arteriovenosa se trombosa en la sesión siguiente. Sospecha clínica alta de trombocitopenia inducida por heparina.",
+  "enunciado": "¿Cuál es el manejo?",
+  "opciones": {
+   "A": "Continuar la heparina de bajo peso molecular, porque es menos inmunogénica y no desencadena trombocitopenia",
+   "B": "Suspender heparina, confirmar anti-PF4/heparina y usar argatrobán o bivalirudina para la diálisis",
+   "C": "Cambiar a warfarina inmediatamente sin otro anticoagulante, para evitar nuevas trombosis de la fístula",
+   "D": "Esperar a que la cifra de plaquetas se normalice con heparina, porque la trombocitopenia es transitoria",
+   "E": "Administrar transfusión de plaquetas profiláctica, para prevenir el sangrado por la trombocitopenia grave"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La heparina de bajo peso molecular tiene reacción cruzada con los anticuerpos de la TIH.",
+   "B": "La trombocitopenia inducida por heparina (TIH) es una reacción inmune mediada por anticuerpos contra el complejo PF4-heparina que activa las plaquetas y produce trombocitopenia (caída de más de 50% entre los días 5 y 10) con riesgo trombótico paradójico (trombosis del acceso vascular en este caso). Se sospecha con la puntuación 4T, se suspende toda exposición a heparina (incluyendo heparina de bajo peso molecular, lavados, catéteres impregnados) y se emplea un anticoagulante no heparínico: argatrobán (eliminación hepática, adecuado en insuficiencia renal) o bivalirudina. La warfarina no se inicia hasta que las plaquetas se recuperen y se mantenga la cobertura, porque puede inducir necrosis cutánea.",
+   "C": "Iniciar warfarina sola en la fase aguda se asocia a gangrena venosa y necrosis cutánea.",
+   "D": "Continuar la heparina perpetúa la activación plaquetaria y la trombosis.",
+   "E": "Las transfusiones de plaquetas pueden aumentar la trombosis y no se hacen de rutina."
+  },
+  "perla": "TIH en HD: plaquetas ↓>50% día 5–10 + trombosis; suspender TODA heparina (incl. HBPM); argatrobán/bivalirudina; warfarina solo con plaquetas recuperadas.",
+  "referencias": [
+   "Cuker A et al. Blood Adv 2018;2:3360 (ASH TIH)",
+   "Comprehensive Clinical Nephrology (hemodiálisis)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 19,
+  "tema": "Hemodiálisis",
+  "obj": "19.o5",
+  "peso": 44.4
+ },
+ {
+  "id": "TVR-4",
+  "serie_id": "TVR",
+  "orden": 4,
+  "sub": "9.c.1",
+  "subtema": "Tratamiento de la causa: nefropatía membranosa de riesgo alto",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Con anticoagulación estable, se plantea el tratamiento de la enfermedad de base. El paciente tiene TFGe de 55 mL/min/1.73 m², proteinuria de 9 g/día, albúmina de 1.8 g/dL y anti-PLA2R de 180 RU/mL, sin respuesta a 3 meses de bloqueo del SRAA y medidas de soporte.",
+  "enunciado": "¿Cuál es el tratamiento de la nefropatía membranosa según KDIGO 2021?",
+  "opciones": {
+   "A": "Observación con tratamiento de soporte (IECA, diuréticos y estatina) durante 6 meses más, sin inmunosupresión alguna",
+   "B": "Rituximab o ciclofosfamida cíclica con glucocorticoides (riesgo alto); la remisión reduce el riesgo trombótico",
+   "C": "Micofenolato de mofetilo en monoterapia, como esquema de primera línea para el riesgo alto de progresión",
+   "D": "Plasmaféresis de rutina para eliminar el anticuerpo anti-PLA2R, seguida de prednisona en dosis bajas",
+   "E": "Prednisona sola a dosis alta durante 6 meses, ya que la monoterapia con glucocorticoide logra remisión sostenida"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Con riesgo alto, la observación expone a progresión y complicaciones.",
+   "B": "La guía KDIGO 2021 estratifica el riesgo de progresión en la nefropatía membranosa primaria: el riesgo alto incluye TFGe menor de 60 mL/min/1.73 m² y/o proteinuria mayor de 8 g/día durante 6 meses, y se trata con rituximab o con el esquema cíclico de ciclofosfamida y glucocorticoides (los inhibidores de calcineurina son opción en riesgo moderado, con peor durabilidad de la remisión). El anticuerpo anti-PLA2R con título alto apoya la actividad inmunológica y se usa para seguir la respuesta. La remisión de la proteinuria y la normalización de la albúmina reducen el estado procoagulante, lo que permite suspender la anticoagulación cuando la albúmina supera 3 g/dL y no hay otra indicación.",
+   "C": "El micofenolato en monoterapia tiene evidencia limitada como esquema de primera línea.",
+   "D": "La plasmaféresis no es tratamiento de rutina y se reserva para situaciones raras.",
+   "E": "Los glucocorticoides solos no mejoran los desenlaces de la nefropatía membranosa."
+  },
+  "perla": "MN riesgo alto (TFGe <60 o proteinuria >8 g/d 6 meses): rituximab o ciclofosfamida cíclica + esteroides. Remisión → retirar anticoagulación (alb >3).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o3",
+  "peso": 80.8
+ }
+]

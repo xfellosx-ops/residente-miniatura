@@ -1,0 +1,455 @@
+{
+ "pasto": [
+  {
+   "id": "P2-1",
+   "vf": true,
+   "enunciado": "La tira reactiva de orina detecta bien las cadenas ligeras.",
+   "clave": "F",
+   "exp": "Detecta albúmina; la discrepancia con la proteinuria total da la pista.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "Comprehensive Clinical Nephrology, 7.ª ed."
+  },
+  {
+   "id": "P2-2",
+   "vf": true,
+   "enunciado": "Los cilindros del mieloma se forman en el túbulo proximal.",
+   "clave": "F",
+   "exp": "Se forman en la rama ascendente gruesa y el distal, donde está la uromodulina.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "Comprehensive Clinical Nephrology, 7.ª ed."
+  },
+  {
+   "id": "P2-3",
+   "vf": true,
+   "enunciado": "El bortezomib requiere ajuste de dosis por función renal.",
+   "clave": "F",
+   "exp": "No lo requiere; es la base del tratamiento.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "Comprehensive Clinical Nephrology, 7.ª ed."
+  },
+  {
+   "id": "P2-4",
+   "vf": true,
+   "enunciado": "La amiloidosis AL suele deberse a cadenas ligeras kappa.",
+   "clave": "F",
+   "exp": "Es lambda en ~75 %; el depósito de cadenas ligeras no amiloide suele ser kappa.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "Comprehensive Clinical Nephrology, 7.ª ed."
+  },
+  {
+   "id": "P2-5",
+   "vf": true,
+   "enunciado": "El amiloide muestra birrefringencia verde manzana con rojo Congo.",
+   "clave": "V",
+   "exp": "Bajo luz polarizada.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "Comprehensive Clinical Nephrology, 7.ª ed."
+  },
+  {
+   "id": "P2-6",
+   "vf": true,
+   "enunciado": "En la amiloidosis AL el pronóstico depende sobre todo de la afección cardiaca.",
+   "clave": "V",
+   "exp": "Se estadifica con troponina y NT-proBNP.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "Comprehensive Clinical Nephrology, 7.ª ed."
+  },
+  {
+   "id": "P2-7",
+   "vf": true,
+   "enunciado": "La nefropatía asociada a VIH es una GEFS de variante colapsante.",
+   "clave": "V",
+   "exp": "Con dilatación microquística tubular.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "IDSA 2014 ERC en VIH (Lucas GM, Clin Infect Dis 2014)"
+  },
+  {
+   "id": "P2-8",
+   "vf": true,
+   "enunciado": "El tratamiento principal de la HIVAN es el glucocorticoide.",
+   "clave": "F",
+   "exp": "Es el antirretroviral, con iSRAA.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "IDSA 2014 ERC en VIH (Lucas GM, Clin Infect Dis 2014)"
+  },
+  {
+   "id": "P2-9",
+   "vf": true,
+   "enunciado": "MGRS define un clon que no cumple criterios de mieloma pero daña el riñón.",
+   "clave": "V",
+   "exp": "Y se trata dirigido al clon.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "IKMG MGRS (Leung N, Nat Rev Nephrol 2019)"
+  },
+  {
+   "id": "P2-10",
+   "vf": true,
+   "enunciado": "Los AINE y la deshidratación precipitan la nefropatía por cilindros.",
+   "clave": "V",
+   "exp": "También contraste e hipercalcemia.",
+   "tema": "Paraproteínas y VIH",
+   "nivel": "moderada",
+   "referencia": "Comprehensive Clinical Nephrology, 7.ª ed."
+  }
+ ],
+ "puertas": [],
+ "entrenadores": [
+  {
+   "id": "T2-97PGM-1",
+   "serie_id": "T2-97PGM",
+   "orden": 1,
+   "sub": "9.d.6",
+   "subtema": "MGRS: glomerulonefritis con depósitos de IgG monoclonal",
+   "caso": "Varón de 58 años con proteinuria de 3 g/día, hematuria, creatinina 1.9 mg/dL y C3 bajo. Pico IgG kappa de 0.4 g/dL; médula con 4 % de células plasmáticas.",
+   "continuacion": "",
+   "enunciado": "La biopsia muestra patrón membranoproliferativo con IgG3 kappa restringida, sin fibrillas. ¿Cuál es el diagnóstico?",
+   "opciones": {
+    "A": "GN membranoproliferativa por hepatitis C crónica",
+    "B": "Nefropatía por cilindros de cadenas ligeras kappa",
+    "C": "Glomerulopatía C3 por un factor nefrítico circulante",
+    "D": "Amiloidosis AL aunque el rojo Congo sea negativo",
+    "E": "Glomerulonefritis con depósitos de IgG monoclonal"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "La crioglobulinemia por VHC da IgM monoclonal con IgG policlonal; aquí la IgG es monotípica.",
+    "B": "Los cilindros son tubulares; aquí la lesión es glomerular con depósitos.",
+    "C": "En la glomerulopatía C3 la IF muestra C3 dominante sin inmunoglobulinas.",
+    "D": "La amiloidosis exige rojo Congo positivo.",
+    "E": "Correcto. Depósitos de IgG monotípica (a menudo IgG3 κ) con patrón proliferativo = PGNMID, una MGRS."
+   },
+   "perla": "Dato: en la PGNMID solo ~30 % tiene un clon detectable en sangre o médula; un estudio negativo no la descarta.",
+   "referencias": [
+    "Leung N et al. The evaluation of monoclonal gammopathy of renal significance: IKMG consensus. Nat Rev Nephrol 2019;15:45-59"
+   ],
+   "peso": 72,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-97PGM-2",
+   "serie_id": "T2-97PGM",
+   "orden": 2,
+   "sub": "9.d.6",
+   "subtema": "MGRS: glomerulonefritis con depósitos de IgG monoclonal",
+   "caso": "",
+   "continuacion": "No cumple criterios de mieloma ni de linfoma.",
+   "enunciado": "¿Cuál es la conducta más adecuada?",
+   "opciones": {
+    "A": "Vigilar como MGUS, sin tratar hasta que haya mieloma",
+    "B": "Tratar dirigido al clon, aunque no sea un mieloma",
+    "C": "Esteroide en monoterapia, como en una GN primaria",
+    "D": "Recambio plasmático para retirar la paraproteína",
+    "E": "Solo iSRAA, porque un clon pequeño no daña el riñón"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "Si el clon daña el riñón ya no es MGUS: es MGRS y se trata.",
+    "B": "Correcto. MGRS: el clon se trata para proteger el riñón (p. ej., esquemas con bortezomib o daratumumab si es plasmocitario).",
+    "C": "El esteroide solo no controla el clon.",
+    "D": "El recambio no trata el clon ni la lesión glomerular.",
+    "E": "El daño renal no depende del tamaño del clon."
+   },
+   "perla": "Mnemotecnia MGRS: «clon chico, riñón grande»: se trata por el daño renal, no por la carga tumoral.",
+   "referencias": [
+    "Leung N et al. The evaluation of monoclonal gammopathy of renal significance: IKMG consensus. Nat Rev Nephrol 2019;15:45-59"
+   ],
+   "peso": 72,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-97PGM-3",
+   "serie_id": "T2-97PGM",
+   "orden": 3,
+   "sub": "9.d.6",
+   "subtema": "MGRS: glomerulonefritis con depósitos de IgG monoclonal",
+   "caso": "",
+   "continuacion": "Llega a ERC terminal y pide un trasplante sin haber tratado el clon.",
+   "enunciado": "¿Qué se le debe explicar?",
+   "opciones": {
+    "A": "El trasplante cura la MGRS al cambiar de riñón",
+    "B": "Puede trasplantarse sin riesgo si usa tacrolimus",
+    "C": "Está contraindicado de por vida por la paraproteína",
+    "D": "Alto riesgo de recurrencia: controlar antes el clon",
+    "E": "Solo puede recibir un riñón de donante fallecido"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "El clon sigue en el receptor y vuelve a depositar en el injerto.",
+    "B": "La inmunosupresión del trasplante no controla el clon.",
+    "C": "No es contraindicación absoluta si se logra respuesta hematológica.",
+    "D": "Correcto. Sin respuesta hematológica la recurrencia de la MGRS en el injerto es frecuente y temprana.",
+    "E": "El tipo de donante no cambia el riesgo de recurrencia."
+   },
+   "perla": "Regla: antes de trasplantar una MGRS, busca una respuesta hematológica profunda, idealmente completa.",
+   "referencias": [
+    "Leung N et al. The evaluation of monoclonal gammopathy of renal significance: IKMG consensus. Nat Rev Nephrol 2019;15:45-59",
+    "KDIGO Clinical Practice Guideline on the Evaluation and Management of Candidates for Kidney Transplantation. Transplantation 2020;104(4S1):S11-S103"
+   ],
+   "peso": 72,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-97FLC-1",
+   "serie_id": "T2-97FLC",
+   "orden": 1,
+   "sub": "9.d.6",
+   "subtema": "Síndrome de Fanconi por cadenas ligeras",
+   "caso": "Mujer de 62 años con dolor óseo. Glucosuria con glucosa sérica de 92, fosfato 1.8 mg/dL, ácido úrico 2.1 y bicarbonato 18 con brecha aniónica normal. Cadenas ligeras κ libres elevadas.",
+   "continuacion": "",
+   "enunciado": "¿Dónde está la lesión tubular?",
+   "opciones": {
+    "A": "Túbulo proximal: síndrome de Fanconi",
+    "B": "Rama ascendente gruesa: tipo Bartter",
+    "C": "Túbulo distal: síndrome de Gitelman",
+    "D": "Colector cortical: una ATR distal tipo 1",
+    "E": "Colector medular: diabetes insípida"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Correcto. Glucosuria normoglucémica, hipofosfatemia, hipouricemia y acidosis proximal = Fanconi.",
+    "B": "El Bartter da alcalosis hipopotasémica, no glucosuria.",
+    "C": "El Gitelman da alcalosis con hipomagnesemia e hipocalciuria.",
+    "D": "La ATR distal no causa glucosuria ni hipouricemia.",
+    "E": "La diabetes insípida da poliuria acuosa sin glucosuria."
+   },
+   "perla": "Mnemotecnia del Fanconi: «pierde lo que el proximal recupera»: glucosa, fosfato, urato, aminoácidos y bicarbonato.",
+   "referencias": [
+    "Leung N et al. The evaluation of monoclonal gammopathy of renal significance: IKMG consensus. Nat Rev Nephrol 2019;15:45-59",
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 66,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-97FLC-2",
+   "serie_id": "T2-97FLC",
+   "orden": 2,
+   "sub": "9.d.6",
+   "subtema": "Síndrome de Fanconi por cadenas ligeras",
+   "caso": "",
+   "continuacion": "La biopsia muestra cristales en el citoplasma de las células proximales.",
+   "enunciado": "¿Qué cadena ligera se espera en los cristales?",
+   "opciones": {
+    "A": "Ninguna: son cristales de cistina",
+    "B": "Lambda, como en la amiloidosis AL",
+    "C": "Kappa, a menudo de la familia Vκ1",
+    "D": "Cadenas pesadas gamma sin ligeras",
+    "E": "Una mezcla policlonal kappa y lambda"
+   },
+   "clave": "C",
+   "explicaciones": {
+    "A": "La cistinosis da cristales de cistina, pero aquí hay cadena κ libre elevada.",
+    "B": "La AL es sobre todo λ; el Fanconi por cadenas ligeras es casi siempre κ.",
+    "C": "Correcto. Las κ (sobre todo Vκ1) resisten la proteólisis lisosomal y cristalizan en el proximal.",
+    "D": "Las cadenas pesadas solas no cristalizan en el proximal.",
+    "E": "El depósito es monoclonal, no policlonal."
+   },
+   "perla": "Mnemotecnia: «Kappa Kristaliza»: Fanconi y cristales proximales, κ; amiloide AL, λ.",
+   "referencias": [
+    "Leung N et al. The evaluation of monoclonal gammopathy of renal significance: IKMG consensus. Nat Rev Nephrol 2019;15:45-59",
+    "Messiaen T et al. Adult Fanconi syndrome secondary to light chain gammopathy. Medicine (Baltimore) 2000;79:135-54"
+   ],
+   "peso": 66,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-97FLC-3",
+   "serie_id": "T2-97FLC",
+   "orden": 3,
+   "sub": "9.d.6",
+   "subtema": "Síndrome de Fanconi por cadenas ligeras",
+   "caso": "",
+   "continuacion": "La TFGe es de 55 y no cumple criterios de mieloma.",
+   "enunciado": "¿Cuál es el manejo más adecuado?",
+   "opciones": {
+    "A": "Esperar a que cumpla criterios de mieloma múltiple",
+    "B": "Hemodiálisis de alto corte para retirar las cadenas",
+    "C": "Esteroide en dosis altas como en la NTI aguda grave",
+    "D": "Solo reponer fosfato y álcali, sin tratar el clon",
+    "E": "Tratar el clon, reponer fosfato y bicarbonato oral"
+   },
+   "clave": "E",
+   "explicaciones": {
+    "A": "El daño renal ya justifica tratar el clon (MGRS).",
+    "B": "La diálisis de alto corte no tiene papel en el Fanconi con TFG conservada.",
+    "C": "No es una nefritis intersticial inmunoalérgica.",
+    "D": "Reponer evita la osteomalacia, pero sin tratar el clon la función renal sigue cayendo.",
+    "E": "Correcto. Es una MGRS: tratar el clon preserva la TFG; reponer fosfato, álcali y vitamina D previene la osteomalacia."
+   },
+   "perla": "Trampa: el dolor óseo del Fanconi suele ser osteomalacia por hipofosfatemia, no lesiones líticas.",
+   "referencias": [
+    "Leung N et al. The evaluation of monoclonal gammopathy of renal significance: IKMG consensus. Nat Rev Nephrol 2019;15:45-59"
+   ],
+   "peso": 66,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-97VTX-1",
+   "serie_id": "T2-97VTX",
+   "orden": 1,
+   "sub": "9.d.7",
+   "subtema": "VIH: tubulopatía por tenofovir, creatinina y trasplante",
+   "caso": "Varón de 44 años con VIH y carga viral indetectable con tenofovir disoproxilo (TDF). Creatinina de 1.0 a 1.6 en un año, glucosuria con glucosa normal y fosfato de 2.0 mg/dL.",
+   "continuacion": "",
+   "enunciado": "¿Cuál es el diagnóstico más probable y la conducta?",
+   "opciones": {
+    "A": "HIVAN; iniciar esteroide y mantener el tenofovir igual",
+    "B": "Tubulopatía por TDF; cambiar a TAF u otro esquema",
+    "C": "Nefropatía diabética temprana; iniciar un iSGLT2",
+    "D": "Prerrenal; aumentar líquidos y repetir en 1 año",
+    "E": "Nefritis por dolutegravir; suspender todo el TAR"
+   },
+   "clave": "B",
+   "explicaciones": {
+    "A": "Con carga viral indetectable la HIVAN es improbable; el patrón es tubular proximal.",
+    "B": "Correcto. El TDF daña la mitocondria proximal (Fanconi); el tenofovir alafenamida (TAF) expone menos al riñón.",
+    "C": "Es glucosuria con glucosa normal, no diabetes.",
+    "D": "La glucosuria y la hipofosfatemia indican daño tubular, no prerrenal.",
+    "E": "El dolutegravir sube la creatinina sin daño y no causa Fanconi."
+   },
+   "perla": "Cifra: el TAF da concentraciones plasmáticas de tenofovir ~90 % menores que el TDF.",
+   "referencias": [
+    "Lucas GM et al. Clinical practice guideline for the management of CKD in patients infected with HIV (IDSA). Clin Infect Dis 2014;59:e96-e138",
+    "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+   ],
+   "peso": 66,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-97VTX-2",
+   "serie_id": "T2-97VTX",
+   "orden": 2,
+   "sub": "9.d.7",
+   "subtema": "VIH: tubulopatía por tenofovir, creatinina y trasplante",
+   "caso": "",
+   "continuacion": "Cambian a TAF con dolutegravir. En 4 semanas la creatinina sube de 1.4 a 1.55 y luego se estabiliza; el fósforo se normaliza.",
+   "enunciado": "¿Cómo se interpreta la nueva subida?",
+   "opciones": {
+    "A": "Progresión de la ERC; empezar a preparar diálisis",
+    "B": "Rechazo del nuevo esquema; suspender dolutegravir",
+    "C": "Daño tubular progresivo causado por el TAF",
+    "D": "Inhibición de la secreción de creatinina (OCT2)",
+    "E": "Nefritis intersticial aguda; pedir biopsia ya"
+   },
+   "clave": "D",
+   "explicaciones": {
+    "A": "La TFG real no cambió; puede confirmarse con cistatina C.",
+    "B": "No existe «rechazo» del esquema; la subida es esperada.",
+    "C": "La normalización del fósforo indica que la tubulopatía mejora.",
+    "D": "Correcto. Dolutegravir (y cobicistat) bloquean OCT2/MATE: suben la creatinina ~0.1–0.15 mg/dL sin bajar la TFG real.",
+    "E": "Una subida pequeña y estable al iniciar dolutegravir no sugiere NTI."
+   },
+   "perla": "Trampa: trimetoprim, cobicistat, dolutegravir y cimetidina suben la creatinina sin dañar el riñón; confirma con cistatina C.",
+   "referencias": [
+    "Lucas GM et al. Clin Infect Dis 2014;59:e96-e138",
+    "KDIGO 2024 Clinical Practice Guideline for the Evaluation and Management of CKD. Kidney Int 2024;105(4S):S117-S314"
+   ],
+   "peso": 66,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  },
+  {
+   "id": "T2-97VTX-3",
+   "serie_id": "T2-97VTX",
+   "orden": 3,
+   "sub": "9.d.7",
+   "subtema": "VIH: tubulopatía por tenofovir, creatinina y trasplante",
+   "caso": "",
+   "continuacion": "Años después llega a ERC G5 por nefroesclerosis, con CD4 de 450 células/µL y carga viral indetectable.",
+   "enunciado": "¿Es candidato a trasplante renal?",
+   "opciones": {
+    "A": "Sí: con CD4 >200 y carga indetectable es candidato",
+    "B": "Solo con donante VIH negativo y sin inmunosupresores",
+    "C": "Solo cuando los CD4 superen las 1000 células/µL",
+    "D": "No: el VIH contraindica el trasplante de por vida",
+    "E": "Sí, solo si suspende el TAR antes de la cirugía"
+   },
+   "clave": "A",
+   "explicaciones": {
+    "A": "Correcto. Con CD4 >200 células/µL, carga viral indetectable y TAR estable es candidato, cuidando interacciones.",
+    "B": "Requiere inmunosupresión como cualquier receptor.",
+    "C": "El umbral habitual es >200 células/µL.",
+    "D": "Con VIH controlado, el trasplante mejora la supervivencia frente a la diálisis.",
+    "E": "El TAR se mantiene; suspenderlo es peligroso."
+   },
+   "perla": "Interacción clave: ritonavir y cobicistat inhiben CYP3A4 y disparan el tacrolimus; se prefieren inhibidores de integrasa.",
+   "referencias": [
+    "KDIGO Clinical Practice Guideline on the Evaluation and Management of Candidates for Kidney Transplantation. Transplantation 2020;104(4S1):S11-S103"
+   ],
+   "peso": 66,
+   "tema_id": 9,
+   "tema": "Enfermedades glomerulares",
+   "obj": "",
+   "origen": [
+    "El Residente Miniatura (nov 2026)"
+   ],
+   "tipo_item": "juego",
+   "dificultad": "moderada"
+  }
+ ],
+ "jefeC": []
+}

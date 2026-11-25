@@ -1,0 +1,1004 @@
+{
+ "meta": {
+  "id": "8",
+  "title": "Nefropatía diabética",
+  "key": "rm_v3_8",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Glucotóxico",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Glomérulo Hiperfiltrante",
+   "palette": [
+    "#FCE4EC",
+    "#F48FB1",
+    "#AD1457",
+    "#3A0418"
+   ],
+   "tiles": "delta",
+   "vignette": "hiperfiltracion",
+   "join": [
+    "sonda",
+    "glifo"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Acto III. Mujer de 58 años, diabetes tipo 2 de 14 años, albuminuria de 80 a 900 mg/g."
+    ],
+    [
+     "Dr. J.",
+     "En la sala de espera hay folletos de «Hemo-Eterna: tu diálisis de por vida». Qué raro."
+    ],
+    [
+     "Sabio Brenn",
+     "Mira el proximal: SGLT2 reabsorbe de más glucosa y sodio. La mácula densa recibe poco."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "SGLT2",
+     "lines": [
+      [
+       "SGLT2",
+       "Reabsorbo glucosa con sodio. En la diabetes trabajo de más."
+      ],
+      [
+       "SGLT2",
+       "Si me bloquean, llega sodio a la mácula densa y la aferente se cierra."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "iSGLT2"
+    },
+    {
+     "id": "npc2",
+     "name": "Nódulo de Kimmelstiel-Wilson",
+     "lines": [
+      [
+       "Nódulo de Kimmelstiel-Wilson",
+       "Soy matriz mesangial acumulada. Primero se engrosa la membrana basal."
+      ],
+      [
+       "Nódulo de Kimmelstiel-Wilson",
+       "Si no hay retinopatía o hay sedimento activo, duda de mí: biopsia."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "biopsia en diabetes"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Historia natural",
+     "Hiperfiltración → albuminuria → caída de la TFG. Existe el fenotipo no albuminúrico."
+    ],
+    [
+     "Letrero · Tamizaje",
+     "ACR y TFGe cada año: desde el diagnóstico en DM2, a los 5 años en DM1."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "PRG",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "La TFG cae al iniciar la gliflozina: la suspendo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Caída inicial hemodinámica y reversible… la mantengo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "AZ6-2",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: Enfermedad renal diabética"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "NDJ-6",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: Ensayos de control glucémico"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Glucosa Tóxica",
+     "type": "Molecular",
+     "topic": "Glucosa Tóxica"
+    },
+    {
+     "name": "Producto de Glicación",
+     "type": "Molecular",
+     "topic": "Producto de Glicación"
+    },
+    {
+     "name": "Hiperfiltración",
+     "type": "Molecular",
+     "topic": "Hiperfiltración"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "iSGLT2 y retroalimentación tubuloglomerular",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: el iSGLT2 reactiva la retroalimentación y baja la presión intraglomerular."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Historia natural",
+     "items": [
+      "Hiperfiltración y riñones grandes",
+      "Engrosamiento de la membrana basal",
+      "Expansión mesangial",
+      "Albuminuria moderada",
+      "Albuminuria grave y nódulos",
+      "Caída progresiva de la TFG"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "DM2 con ERC: pirámide KDIGO 2022",
+     "items": [
+      "Estilo de vida: tabaco, dieta, ejercicio ≥150 min/semana",
+      "Metformina si TFGe ≥30",
+      "iSGLT2 si TFGe ≥20",
+      "IECA o ARA II a dosis máxima si hay HTA o albuminuria",
+      "Estatina",
+      "Finerenona si persiste la albuminuria",
+      "arGLP-1 si no se alcanza la meta glucémica"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "enter",
+     "lines": [
+      [
+       "Glifo",
+       "¡Esta es mi región! Bloqueo SGLT2 y bajo la presión del ovillo."
+      ]
+     ]
+    },
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Ya viste el mecanismo. Ahora los cuatro pilares."
+      ]
+     ]
+    }
+   ],
+   "card": "ERD: hiperfiltración → MBG gruesa → mesangio → nódulos. iSGLT2: sodio a la mácula densa → aferente se cierra → ↓presión glomerular. Caída inicial de TFG esperada."
+  },
+  {
+   "id": "z2",
+   "name": "Valle de los Cuatro Pilares",
+   "palette": [
+    "#F4ECD0",
+    "#C8B070",
+    "#806828",
+    "#282008"
+   ],
+   "tiles": "valle",
+   "vignette": "cuatro_pilares",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "iSRAA a dosis máxima, iSGLT2, finerenona y agonista GLP-1."
+    ],
+    [
+     "Sabio Brenn",
+     "Cada pilar tiene su ensayo. Son escudos: apréndelos como objetos."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Finerenona",
+     "lines": [
+      [
+       "Finerenona",
+       "Antagonista mineralocorticoide no esteroideo. Menos fibrosis e inflamación."
+      ],
+      [
+       "Finerenona",
+       "Me usan con DM2, albuminuria y potasio normal. Vigila el potasio."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "finerenona"
+    },
+    {
+     "id": "npc2",
+     "name": "Semaglutida",
+     "lines": [
+      [
+       "Semaglutida",
+       "FLOW: reduje 24 % el desenlace renal mayor en DM2 con ERC."
+      ],
+      [
+       "Semaglutida",
+       "También bajo peso y eventos cardiovasculares."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "GLP-1"
+    },
+    {
+     "id": "npc3",
+     "name": "Metformina",
+     "lines": [
+      [
+       "Metformina",
+       "Dosis plena con TFGe ≥45; reducir entre 30 y 44; suspender <30."
+      ]
+     ],
+     "gift": null,
+     "recall": "metformina"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · iSGLT2",
+     "Iniciar con TFGe ≥20; continuar hasta diálisis o trasplante."
+    ],
+    [
+     "Letrero · Metas",
+     "HbA1c individualizada 6.5–8 %; la HbA1c es menos fiable con TFG muy baja."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "NDJ-9",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Con IECA basta. Lo demás es moda."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Riesgo residual enorme… sumo los otros pilares."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "AZ6-3",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Enfermedad renal diabética"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "NDJ-7",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: SRAA en normoalbuminuria"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Albuminuria Residual",
+     "type": "Molecular",
+     "topic": "Albuminuria Residual"
+    },
+    {
+     "name": "Potasio Alto",
+     "type": "Molecular",
+     "topic": "Potasio Alto"
+    },
+    {
+     "name": "Cetoacidosis Euglucémica",
+     "type": "Molecular",
+     "topic": "Cetoacidosis Euglucémica"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Pilares de nefroprotección en diabetes y ERC",
+     "text": [
+      [
+       "Sabio Brenn",
+       "No se escalan por falla: se suman por riesgo."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Escudos de la diabetes",
+     "items": [],
+     "pairs": [
+      [
+       "CREDENCE",
+       "Canagliflozina"
+      ],
+      [
+       "DAPA-CKD",
+       "Dapagliflozina, con y sin diabetes"
+      ],
+      [
+       "EMPA-KIDNEY",
+       "Empagliflozina, TFGe desde 20"
+      ],
+      [
+       "FIDELIO-DKD",
+       "Finerenona"
+      ],
+      [
+       "FLOW",
+       "Semaglutida"
+      ],
+      [
+       "RENAAL / IDNT",
+       "ARA en nefropatía diabética"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "DAPA-CKD / CREDENCE",
+       "iSGLT2 ↓progresión"
+      ],
+      [
+       "FIDELIO / FIGARO",
+       "Finerenona"
+      ],
+      [
+       "FLOW",
+       "Semaglutida ↓eventos renales"
+      ],
+      [
+       "Kimmelstiel-Wilson",
+       "Glomeruloesclerosis nodular (clase III)"
+      ],
+      [
+       "Clase I RPS",
+       "Engrosamiento aislado de MBG"
+      ],
+      [
+       "Biopsia en DM",
+       "Sin retinopatía, caída rápida, hematuria activa"
+      ],
+      [
+       "Metformina",
+       "Suspender con TFG <30"
+      ],
+      [
+       "Fase temprana",
+       "Hiperfiltración glomerular"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "ACR en 300 con tres pilares. Pero la clínica de enfrente la llamó."
+      ]
+     ]
+    }
+   ],
+   "card": "Pilares: iSRAA + iSGLT2 (TFGe ≥20) + finerenona (albuminuria, K normal) + GLP-1 (FLOW). Metformina: suspender con TFGe <30."
+  },
+  {
+   "id": "z3",
+   "name": "Clínica de Enfrente",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "diabetes_kw",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Giro: la clínica de Hemo-Eterna le suspendió la gliflozina «por la creatinina»."
+    ],
+    [
+     "Sabio Brenn",
+     "Y trae hematuria dismórfica sin retinopatía. ¿Todo es diabetes?"
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Folleto de Hemo-Eterna",
+     "lines": [
+      [
+       "Folleto de Hemo-Eterna",
+       "«Diálisis preventiva: antes de que la necesite». Eso no existe."
+      ],
+      [
+       "Folleto de Hemo-Eterna",
+       "La gliflozina se mantiene hasta la diálisis o el trasplante."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "iSGLT2 hasta diálisis"
+    },
+    {
+     "id": "npc2",
+     "name": "Retina Limpia",
+     "lines": [
+      [
+       "Retina Limpia",
+       "DM2 con proteinuria y sin retinopatía: piensa en otra causa."
+      ],
+      [
+       "Retina Limpia",
+       "También si hay hematuria activa, caída rápida de TFG o nefrótico súbito."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "biopsia en diabetes"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Antidiabéticos por TFG",
+     "iSGLT2 desde TFGe 20; metformina no con TFGe <30; GLP-1 sin ajuste renal."
+    ],
+    [
+     "Letrero · Biopsia",
+     "Sin retinopatía, hematuria activa o caída rápida: biopsia renal."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "hemo",
+     "specialty": "Villano corporativo",
+     "serie": "NEW-8-1",
+     "intro": [
+      [
+       "Director de Hemo-Eterna",
+       "Gliflozina fuera: subió la creatinina. ¡Firme aquí su diálisis!"
+      ]
+     ],
+     "defeat": [
+      [
+       "Director de Hemo-Eterna",
+       "Caída inicial esperada… y nada de diálisis preventiva. Rayos."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "NDJ-2",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Histología diabética y función"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "NDJ-8",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Ensayos con ARA II en DM2"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Folleto Engañoso",
+     "type": "Molecular",
+     "topic": "Folleto Engañoso"
+    },
+    {
+     "name": "Hematuria Dismórfica",
+     "type": "Celular",
+     "topic": "Hematuria Dismórfica"
+    },
+    {
+     "name": "Hipoglucemia",
+     "type": "Molecular",
+     "topic": "Hipoglucemia"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Indicaciones de biopsia en diabetes y antidiabéticos por TFG",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: no toda proteinuria en un diabético es diabética."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "¿Biopsiar al diabético?",
+     "items": [
+      "Proteinuria o caída de TFG en un diabético",
+      "¿Tiene retinopatía?",
+      "¿Hay sedimento activo o hematuria?",
+      "¿Caída rápida o nefrótico súbito?",
+      "Con datos de alarma: biopsia renal",
+      "Sin alarma: sumar los pilares"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Biopsia: diabética con IgA encima. Reinicia la gliflozina y ve por él."
+      ]
+     ]
+    }
+   ],
+   "card": "Biopsia en diabetes si no hay retinopatía, hay hematuria activa, caída rápida o nefrótico súbito. iSGLT2 desde TFGe 20 hasta diálisis; metformina se suspende con TFGe <30."
+  }
+ ],
+ "boss": {
+  "name": "El Glucotóxico",
+  "color": "#d9b26a",
+  "dark": "#5a3a0a",
+  "heads": 1,
+  "form": "hialino",
+  "crescent": false,
+  "intro": [
+   [
+    "El Glucotóxico",
+    "Catorce años de azúcar. Engrosé cada membrana sin hacer ruido."
+   ],
+   [
+    "Dr. J.",
+    "¿Es diabética de verdad? Luego los pilares. Luego los antidiabéticos por TFG."
+   ]
+  ],
+  "outro": [
+   [
+    "El Glucotóxico",
+    "Me detengo… por ahora."
+   ],
+   [
+    "Sabio Brenn",
+    "Cada pilar compra años. Juntos compran décadas."
+   ],
+   [
+    "Paciente",
+    "¿Cuatro pastillas en vez de la clínica de enfrente? Me quedo."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Diagnóstico y biopsia",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Glucotóxico",
+      "¿Seguro que soy yo?"
+     ]
+    ],
+    "topics": [
+     "Diagnóstico y biopsia"
+    ],
+    "questions": [
+     "DMN-1",
+     "DMN-2",
+     "DMN-3"
+    ]
+   },
+   {
+    "name": "Pilares",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Glucotóxico",
+      "¿Cuántos escudos traes?"
+     ]
+    ],
+    "topics": [
+     "Pilares"
+    ],
+    "questions": [
+     "DMN-4",
+     "DMH-1",
+     "DMH-2"
+    ]
+   },
+   {
+    "name": "Antidiabéticos por TFG",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Glucotóxico",
+      "Tu TFG bajó. Ajusta."
+     ]
+    ],
+    "topics": [
+     "Antidiabéticos por TFG"
+    ],
+    "questions": [
+     "DMH-3",
+     "DMS-1",
+     "DMS-2"
+    ]
+   },
+   {
+    "name": "Progresión",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Glucotóxico",
+      "Aún me queda fibrosis."
+     ]
+    ],
+    "topics": [
+     "Progresión"
+    ],
+    "questions": [
+     "DMS-3",
+     "DMS-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "DAPA-CKD",
+   "mnemonic": "DAPA para todos: con o sin azúcar.",
+   "result": "Dapagliflozina redujo 39 % el desenlace renal compuesto, también sin diabetes."
+  },
+  {
+   "trial": "FIDELIO-DKD",
+   "mnemonic": "Fiel al riñón: finerenona.",
+   "result": "Redujo 18 % el desenlace renal en DM2 con ERC albuminúrica."
+  },
+  {
+   "trial": "FLOW",
+   "mnemonic": "El flujo de la semaglutida protege.",
+   "result": "Redujo 24 % el desenlace renal mayor en DM2 con ERC."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Ley nueva · diabetes y ERC",
+   "text": "El borrador KDIGO 2026 incorpora la evidencia reciente (p. ej., FLOW con semaglutida). Verifica la versión final; la respuesta sigue al ensayo publicado."
+  },
+  {
+   "title": "Ley anterior · KDIGO 2022",
+   "text": "Metformina + iSGLT2 de primera línea; GLP-1 si no se alcanza la meta glucémica; finerenona con albuminuria persistente."
+  },
+  {
+   "title": "Cuándo biopsiar",
+   "text": "Sin retinopatía (sobre todo DM1), sedimento activo, caída rápida de la TFG, nefrótico súbito o diabetes de corta evolución."
+  },
+  {
+   "title": "Caída inicial de TFG",
+   "text": "Con iSGLT2 e iSRAA es hemodinámica; hasta 30 % se tolera."
+  },
+  {
+   "title": "💎 Enfermedad por depósito de cadenas liger",
+   "text": "LCDD: IF lineal monotípica (κ) en GBM y TBM + depósitos 'polvosos' en ME + nódulos PAS(+). Buscar clona (CLL, IFE, médula)."
+  },
+  {
+   "title": "💎 Amiloidosis AL vs glomerulonefritis fibr",
+   "text": "Fibrilar: 12–24 nm, Congo (–), DNAJB9 (+). Amiloide: 8–12 nm, Congo (+), verde manzana. Inmunotactoide: >30 nm."
+  },
+  {
+   "title": "💎 Indicaciones de biopsia en el paciente d",
+   "text": "Biopsia en DM si: sin retinopatía, DM <5 años, proteinuria súbita o nefrótica, hematuria glomerular, caída rápida de TFG, síntomas sistémicos."
+  },
+  {
+   "title": "💎 Elevación de creatinina con SRAA",
+   "text": "Para sostener el SRAA: diurético y quelantes de potasio. STOP-ACE evaluó retirar el SRAA en ERC avanzada."
+  },
+  {
+   "title": "💎 Hiperfiltración glomerular diabética: fi",
+   "text": "DM: ↑ SGLT2 proximal → ↓ NaCl en mácula densa → dilatación aferente + constricción eferente (AngII). iSGLT2: vasoconstricción aferente. IECA/ARA-II: dilatan la eferente."
+  },
+  {
+   "title": "💎 Cuándo biopsiar a un paciente diabético",
+   "text": "Biopsiar a diabéticos con: progresión rápida, sedimento activo, nefrótico súbito, sin retinopatía, DM corta. Hasta 1/3 tiene ERNDD."
+  },
+  {
+   "title": "💎 Esclerosis nodular sin diabetes",
+   "text": "Esclerosis nodular sin DM: idiopática (tabaco, HTA, obesidad). Excluir amiloide, LCDD, fibrilar, MPGN."
+  },
+  {
+   "title": "💎 Enfermedad renal diabética",
+   "text": "La proteinuria en aumento rápido o el síndrome nefrótico es un criterio que sugiere otra causa de daño renal y justifica la biopsia (Am Fam Physician 2019)."
+  }
+ ]
+}

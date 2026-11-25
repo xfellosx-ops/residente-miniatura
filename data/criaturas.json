@@ -1,0 +1,602 @@
+{
+ "creatures": [
+  {
+   "id": "mac",
+   "name": "Mac Limpio",
+   "type": "Depurador",
+   "moves": [
+    {
+     "name": "Eferocitosis",
+     "type": "Depurador",
+     "drug_or_mechanism": "Fagocitosis silenciosa de apoptóticos vía C1q, MerTK y fosfatidilserina",
+     "power": 45
+    },
+    {
+     "name": "Opsonizar C1q",
+     "type": "Depurador",
+     "drug_or_mechanism": "C1q marca cuerpos apoptóticos para su retiro",
+     "power": 35
+    }
+   ],
+   "evolvesAt": 8,
+   "evoName": "Macrófago M2 Eferocítico"
+  },
+  {
+   "id": "neutra",
+   "name": "Neutra",
+   "type": "Fagocito",
+   "moves": [
+    {
+     "name": "Fagocitosis limpia",
+     "type": "Fagocito",
+     "drug_or_mechanism": "Fagocitosis sin NETosis",
+     "power": 40
+    },
+    {
+     "name": "NETosis (prohibida)",
+     "type": "Fagocito",
+     "drug_or_mechanism": "Libera NET: daña al enemigo pero genera IFN-I que lo cura",
+     "power": 70,
+     "fx": "NET"
+    }
+   ],
+   "evolvesAt": 10,
+   "evoName": "Neutrófilo Veterano"
+  },
+  {
+   "id": "treg",
+   "name": "Tregúa",
+   "type": "Regulador",
+   "moves": [
+    {
+     "name": "Supresión",
+     "type": "Regulador",
+     "drug_or_mechanism": "Treg FOXP3+: IL-10, TGF-β, CTLA-4; frena Tfh y Th17",
+     "power": 40
+    },
+    {
+     "name": "Banquete de IL-2",
+     "type": "Regulador",
+     "drug_or_mechanism": "IL-2 a dosis baja expande Treg (CD25 alta afinidad); en investigación",
+     "power": 55
+    }
+   ],
+   "evolvesAt": 5,
+   "evoName": "Treg FOXP3+ (luego Guardián IL-2)"
+  },
+  {
+   "id": "mmf",
+   "name": "MMF-01",
+   "type": "Antimetabolito",
+   "moves": [
+    {
+     "name": "Bloqueo IMPDH",
+     "type": "Antimetabolito",
+     "drug_or_mechanism": "Micofenolato: inhibe IMPDH, sin guanina de novo no proliferan T/B",
+     "power": 60
+    },
+    {
+     "name": "Freno mesangial",
+     "type": "Antimetabolito",
+     "drug_or_mechanism": "MPA reduce proliferación mesangial",
+     "power": 40
+    }
+   ],
+   "evolvesAt": 9,
+   "evoName": "MPA-02 (ácido micofenólico)",
+   "dark": "#5b8fd6"
+  },
+  {
+   "id": "metil",
+   "name": "Metil Pulso",
+   "type": "Glucocorticoide",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Pulso de metilprednisolona",
+     "type": "Glucocorticoide",
+     "drug_or_mechanism": "0.5–1 g/día IV por 1–3 días al inicio",
+     "power": 45,
+     "fx": "Glucocorticoide"
+    },
+    {
+     "name": "Esquema reducido",
+     "type": "Glucocorticoide",
+     "drug_or_mechanism": "Reducción rápida de prednisona (PEXIVAS): menos infecciones",
+     "power": 35,
+     "fx": "Glucocorticoide"
+    }
+   ],
+   "evolvesAt": 8,
+   "evoName": "Prednisona Prudente"
+  },
+  {
+   "id": "rituxi",
+   "name": "Rituxi",
+   "type": "Depletor",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Depleción CD20",
+     "type": "Depletor",
+     "drug_or_mechanism": "Rituximab 375 mg/m² ×4 (RAVE) o 1 g ×2 (KDIGO 2024)",
+     "power": 45
+    },
+    {
+     "name": "Dosis semestral",
+     "type": "Depletor",
+     "drug_or_mechanism": "500 mg cada 6 meses como mantenimiento (MAINRITSAN)",
+     "power": 35
+    }
+   ],
+   "evolvesAt": 9,
+   "evoName": "Rituxi Centinela"
+  },
+  {
+   "id": "avaco",
+   "name": "Avaco",
+   "type": "Anti-C5aR",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Bloqueo C5aR",
+     "type": "Anti-C5aR",
+     "drug_or_mechanism": "Avacopan 30 mg c/12 h: corta el asa C5a–neutrófilo",
+     "power": 45,
+     "fx": "Anti-C5aR"
+    },
+    {
+     "name": "Ahorro de esteroide",
+     "type": "Anti-C5aR",
+     "drug_or_mechanism": "Sustituye la prednisona en dosis altas (ADVOCATE)",
+     "power": 35,
+     "fx": "Anti-C5aR"
+    }
+   ],
+   "evolvesAt": 10,
+   "evoName": "Avaco Escudo"
+  },
+  {
+   "id": "ciclo",
+   "name": "Ciclo",
+   "type": "Alquilante",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Pulso IV",
+     "type": "Alquilante",
+     "drug_or_mechanism": "Ciclofosfamida 15 mg/kg IV cada 2–3 semanas (CYCLOPS)",
+     "power": 50
+    },
+    {
+     "name": "Dos pulsos con RTX",
+     "type": "Alquilante",
+     "drug_or_mechanism": "RTX + 2 pulsos de CFM (RITUXVAS); KDIGO 2024 si Cr >4",
+     "power": 40
+    }
+   ],
+   "evolvesAt": 10,
+   "evoName": "Ciclofosfamida Veterana"
+  },
+  {
+   "id": "plex",
+   "name": "Plex",
+   "type": "Recambio",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Recambio diario",
+     "type": "Recambio",
+     "drug_or_mechanism": "Retira el anti-MBG: diario ~14 sesiones hasta indetectable",
+     "power": 50,
+     "fx": "Recambio"
+    },
+    {
+     "name": "Plasma fresco",
+     "type": "Recambio",
+     "drug_or_mechanism": "Reposición con plasma si hay hemorragia o biopsia reciente",
+     "power": 35,
+     "fx": "Recambio"
+    }
+   ],
+   "evolvesAt": 9,
+   "evoName": "Plex Centrífugo"
+  },
+  {
+   "id": "aza",
+   "name": "Aza",
+   "type": "Antimetabolito",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Bloqueo de purinas",
+     "type": "Antimetabolito",
+     "drug_or_mechanism": "Azatioprina: análogo de purinas que frena la proliferación (mide TPMT)",
+     "power": 40
+    },
+    {
+     "name": "Mantenimiento largo",
+     "type": "Antimetabolito",
+     "drug_or_mechanism": "Hasta 48 meses reduce recaídas (REMAIN)",
+     "power": 35
+    }
+   ],
+   "evolvesAt": 8,
+   "evoName": "Aza Perseverante"
+  },
+  {
+   "id": "sonda",
+   "name": "Sonda del Simulador",
+   "type": "Sonda",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Medición",
+     "type": "Sonda",
+     "drug_or_mechanism": "Mide flujo, presión y concentración en el punto exacto",
+     "power": 40,
+     "fx": "Sonda"
+    },
+    {
+     "name": "Pulso de calibración",
+     "type": "Sonda",
+     "drug_or_mechanism": "Compara lo enfermo con el riñón sano de referencia",
+     "power": 35,
+     "fx": "Sonda"
+    }
+   ],
+   "evolvesAt": 8,
+   "evoName": "Sonda Calibrada"
+  },
+  {
+   "id": "glifo",
+   "name": "Glifo",
+   "type": "Nefroprotector",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Bloqueo SGLT2",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "iSGLT2: devuelve sodio a la mácula densa y baja la presión glomerular",
+     "power": 45,
+     "fx": "Nefroprotector"
+    },
+    {
+     "name": "Freno eferente",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "iSRAA: dilata la eferente y reduce la albuminuria",
+     "power": 40,
+     "fx": "Eferente"
+    }
+   ],
+   "evolvesAt": 9,
+   "evoName": "Glifo Guardián"
+  },
+  {
+   "id": "furo",
+   "name": "Furo",
+   "type": "Diurético",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Bloqueo NKCC2",
+     "type": "Diurético",
+     "drug_or_mechanism": "Furosemida en la rama ascendente gruesa",
+     "power": 45,
+     "fx": "Diurético"
+    },
+    {
+     "name": "Bloqueo secuencial",
+     "type": "Diurético",
+     "drug_or_mechanism": "Tiazida en el túbulo distal contra la resistencia",
+     "power": 40,
+     "fx": "NCC"
+    }
+   ],
+   "evolvesAt": 9,
+   "evoName": "Furo Torrencial"
+  },
+  {
+   "id": "eculi",
+   "name": "Eculi",
+   "type": "Anti-complemento",
+   "dark": "#5b8fd6",
+   "moves": [
+    {
+     "name": "Bloqueo de C5",
+     "type": "Anti-complemento",
+     "drug_or_mechanism": "Eculizumab/ravulizumab: sin C5b-9 no hay complejo de ataque",
+     "power": 50,
+     "fx": "Anti-complemento"
+    },
+    {
+     "name": "Freno del factor B",
+     "type": "Anti-complemento",
+     "drug_or_mechanism": "Iptacopán: inhibe la vía alterna proximal",
+     "power": 40,
+     "fx": "FactorB"
+    }
+   ],
+   "evolvesAt": 10,
+   "evoName": "Eculi Escudo"
+  },
+  {
+   "id": "leg_r1",
+   "name": "Klotho Ancestral",
+   "type": "Nefroprotector",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Correceptor de FGF23",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "α-Klotho forma con FGFR1c el receptor de FGF23: fosfaturia y menos calcitriol",
+     "power": 60,
+     "fx": "Nefroprotector"
+    },
+    {
+     "name": "Guardia del fósforo",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "Klotho baja temprano en la ERC; su caída sube el FGF23 antes que el fósforo",
+     "power": 45,
+     "fx": "Eferente"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Klotho Ancestral"
+  },
+  {
+   "id": "leg_r2",
+   "name": "Cistatina Oráculo",
+   "type": "Sonda",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "TFG sin músculo",
+     "type": "Sonda",
+     "drug_or_mechanism": "Cistatina C: estima la TFG sin depender de la masa muscular (CKD-EPI creatinina-cistatina)",
+     "power": 55,
+     "fx": "Sonda"
+    },
+    {
+     "name": "Iohexol verdadero",
+     "type": "Sonda",
+     "drug_or_mechanism": "Depuración plasmática de iohexol: TFG medida, sin secreción tubular",
+     "power": 65,
+     "fx": "Sonda"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Cistatina Oráculo"
+  },
+  {
+   "id": "leg_r3",
+   "name": "Citrato Regional",
+   "type": "Recambio",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Quelación del calcio",
+     "type": "Recambio",
+     "drug_or_mechanism": "Citrato en el circuito de TRRC quela el calcio ionizado y frena la coagulación del filtro",
+     "power": 60,
+     "fx": "Recambio"
+    },
+    {
+     "name": "Filtro que dura",
+     "type": "Recambio",
+     "drug_or_mechanism": "Anticoagulación regional con citrato: filtro más duradero y menos sangrado que la heparina (KDIGO)",
+     "power": 50,
+     "fx": "Recambio"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Citrato Regional"
+  },
+  {
+   "id": "leg_r4",
+   "name": "Patirómero Dorado",
+   "type": "Depurador",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Intercambio en el colon",
+     "type": "Depurador",
+     "drug_or_mechanism": "Patirómero: intercambia calcio por potasio en el colon y baja el potasio en horas a días",
+     "power": 55,
+     "fx": "Endosomal"
+    },
+    {
+     "name": "Trampa de zirconio",
+     "type": "Depurador",
+     "drug_or_mechanism": "Ciclosilicato de sodio y zirconio: atrapa potasio en el intestino; efecto en ~1 hora",
+     "power": 60,
+     "fx": "Endosomal"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Patirómero Dorado"
+  },
+  {
+   "id": "leg_r5",
+   "name": "Obinutuzumab Prime",
+   "type": "Depletor",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Depleción tipo II",
+     "type": "Depletor",
+     "drug_or_mechanism": "Anti-CD20 tipo II glicoingenierizado: más ADCC y muerte directa de linfocitos B (REGENCY)",
+     "power": 70,
+     "fx": "Depletor"
+    },
+    {
+     "name": "Aliado anti-CD38",
+     "type": "Depletor",
+     "drug_or_mechanism": "Daratumumab, anti-CD38: depleta células plasmáticas de larga vida que no expresan CD20",
+     "power": 60,
+     "fx": "Depletor"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Obinutuzumab Prime"
+  },
+  {
+   "id": "leg_r6",
+   "name": "Tolvaptán Antiguo",
+   "type": "Nefroprotector",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Bloqueo V2",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "Antagonista del receptor V2: baja el AMPc del colector y frena el crecimiento quístico (TEMPO 3:4, REPRISE)",
+     "power": 65,
+     "fx": "Nefroprotector"
+    },
+    {
+     "name": "Citrato alcalino",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "Citrato de potasio: alcaliniza la orina, inhibe litos de calcio y disuelve los de ácido úrico",
+     "power": 45,
+     "fx": "NCC"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Tolvaptán Antiguo"
+  },
+  {
+   "id": "leg_r7",
+   "name": "Ravulizumab Eterno",
+   "type": "Anti-complemento",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Bloqueo de C5 largo",
+     "type": "Anti-complemento",
+     "drug_or_mechanism": "Anti-C5 reciclado por FcRn: bloqueo terminal cada 8 semanas en el SHU atípico",
+     "power": 70,
+     "fx": "Anti-complemento"
+    },
+    {
+     "name": "Cuarto fármaco",
+     "type": "Diurético",
+     "drug_or_mechanism": "Espironolactona: cuarto fármaco de elección en la HTA resistente (PATHWAY-2)",
+     "power": 50,
+     "fx": "Diurético"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Ravulizumab Eterno"
+  },
+  {
+   "id": "leg_r8",
+   "name": "Finerenona Mítica",
+   "type": "Nefroprotector",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "ARM no esteroideo",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "Finerenona: bloquea el receptor mineralocorticoide; menos inflamación y fibrosis (FIDELIO-DKD, FIGARO-DKD)",
+     "power": 65,
+     "fx": "Nefroprotector"
+    },
+    {
+     "name": "Eferente abierta",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "IECA o ARA dilatan la eferente y bajan la presión intraglomerular",
+     "power": 50,
+     "fx": "Eferente"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Finerenona Mítica"
+  },
+  {
+   "id": "leg_r9",
+   "name": "Belatacept Guardián",
+   "type": "Regulador",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Bloqueo de coestimulación",
+     "type": "Regulador",
+     "drug_or_mechanism": "Belatacept (CTLA4-Ig): ocupa CD80/86 y bloquea CD28; mejor TFG que ciclosporina (BENEFIT); no si EBV negativo",
+     "power": 65,
+     "fx": "Supresor"
+    },
+    {
+     "name": "Calcineurina en pausa",
+     "type": "Regulador",
+     "drug_or_mechanism": "Tacrolimus: inhibe calcineurina, NFAT no entra al núcleo y cae la IL-2",
+     "power": 55,
+     "fx": "NFAT"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Belatacept Guardián"
+  }
+ ],
+ "typeChart": {
+  "Depurador": {
+   "Inmunocomplejo": 1.5,
+   "Molecular": 1.5,
+   "Complemento": 0.5
+  },
+  "Fagocito": {
+   "Innato": 1.5,
+   "Inmunocomplejo": 1.0,
+   "Complemento": 0.5
+  },
+  "Regulador": {
+   "Celular": 1.5,
+   "Inmunocomplejo": 0.5
+  },
+  "Antimetabolito": {
+   "Celular": 1.5,
+   "Innato": 0.5
+  },
+  "Glucocorticoide": {
+   "Innato": 1.5,
+   "Celular": 1.5,
+   "Humoral": 0.5
+  },
+  "Depletor": {
+   "Humoral": 1.5,
+   "Molecular": 0.5
+  },
+  "Anti-C5aR": {
+   "Complemento": 1.5,
+   "Innato": 1.5,
+   "Humoral": 0.5
+  },
+  "Alquilante": {
+   "Celular": 1.5,
+   "Humoral": 1.5,
+   "Complemento": 0.5
+  },
+  "Recambio": {
+   "Humoral": 1.5,
+   "Molecular": 1.5,
+   "Celular": 0.5
+  },
+  "Sonda": {
+   "Molecular": 1.5,
+   "Celular": 1.0
+  },
+  "Nefroprotector": {
+   "Molecular": 1.5,
+   "Celular": 1.5,
+   "Humoral": 0.5
+  },
+  "Diurético": {
+   "Molecular": 1.5,
+   "Innato": 0.5
+  },
+  "Anti-complemento": {
+   "Complemento": 1.5,
+   "Inmunocomplejo": 1.5,
+   "Celular": 0.5
+  }
+ }
+}

@@ -1,0 +1,800 @@
+{
+ "meta": {
+  "id": "13",
+  "title": "Infección urinaria y pielonefritis",
+  "key": "rm_v3_13",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Ascendente",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Urotelio Sitiado",
+   "palette": [
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
+   ],
+   "tiles": "tubulo",
+   "vignette": "itu",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer de 29 años, cuarta cistitis del año. Hoy trae fiebre y dolor en el flanco."
+    ],
+    [
+     "Dr. J.",
+     "La bacteria subió. Síguela."
+    ],
+    [
+     "Sabio Brenn",
+     "E. coli uropatógena: fimbrias tipo 1 para la vejiga, fimbrias P para el riñón."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Comunidad Intracelular",
+     "lines": [
+      [
+       "Comunidad Intracelular",
+       "Nos escondemos dentro de las células del urotelio."
+      ],
+      [
+       "Comunidad Intracelular",
+       "El antibiótico pasa y nosotras seguimos aquí. Por eso recurre."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "recurrencia"
+    },
+    {
+     "id": "npc2",
+     "name": "Fimbria P",
+     "lines": [
+      [
+       "Fimbria P",
+       "Me pego al antígeno P del urotelio alto. Soy la llave de la pielonefritis."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "fimbrias"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Bacteriuria asintomática",
+     "Tratar solo en embarazo y antes de cirugía urológica con sangrado de mucosa."
+    ],
+    [
+     "Letrero · Cistitis no complicada",
+     "Nitrofurantoína 5 días o fosfomicina dosis única."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "IVJ-2",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Urocultivo positivo en mi paciente de 85 años sin síntomas: antibiótico."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Bacteriuria asintomática no se trata. Lo suspendo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "IVJ-5",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Tres camas, un minuto. Yo resuelvo sin pensar."
+      ],
+      [
+       "Dra. Carmen Triaje",
+       "Mi caso: IVU en el hombre"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Pensar un minuto salvó la cama tres."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "IVJ-7",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Bacteriuria asociada a sonda"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "E. coli Uropatógena",
+     "type": "Innato",
+     "topic": "E. coli Uropatógena"
+    },
+    {
+     "name": "Biopelícula",
+     "type": "Innato",
+     "topic": "Biopelícula"
+    },
+    {
+     "name": "Nitrito Positivo",
+     "type": "Molecular",
+     "topic": "Nitrito Positivo"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "ITU: clasificación y bacteriuria asintomática",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: las comunidades intracelulares explican las recurrencias."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Escenario y conducta",
+     "items": [],
+     "pairs": [
+      [
+       "Cistitis no complicada",
+       "Nitrofurantoína o fosfomicina"
+      ],
+      [
+       "Pielonefritis leve",
+       "Quinolona o cefalosporina 7 días"
+      ],
+      [
+       "Bacteriuria en embarazo",
+       "Tratar siempre"
+      ],
+      [
+       "Bacteriuria con sonda",
+       "No tratar sin síntomas"
+      ],
+      [
+       "Recurrente posmenopáusica",
+       "Estrógeno vaginal"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Antimicrobiano en IVU: ¿sirve en pielonefritis?",
+     "bins": [
+      "Solo cistitis",
+      "Cistitis y pielonefritis"
+     ],
+     "items": [
+      [
+       "Nitrofurantoína",
+       "Solo cistitis"
+      ],
+      [
+       "Fosfomicina",
+       "Solo cistitis"
+      ],
+      [
+       "Pivmecilinam",
+       "Solo cistitis"
+      ],
+      [
+       "Ciprofloxacino",
+       "Cistitis y pielonefritis"
+      ],
+      [
+       "Levofloxacino",
+       "Cistitis y pielonefritis"
+      ],
+      [
+       "Ceftriaxona",
+       "Cistitis y pielonefritis"
+      ],
+      [
+       "TMP-SMX si sensible",
+       "Cistitis y pielonefritis"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Candiduria con sonda: secuencia",
+     "items": [
+      "Confirmar con cultivo repetido",
+      "Retirar o cambiar la sonda",
+      "Evaluar síntomas y riesgo",
+      "Tratar solo si indicado: fluconazol 14 d",
+      "Si C. glabrata/krusei: anfotericina desoxicolato ± flucitosina"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Sube al parénquima. Ahí hay formas que matan."
+      ]
+     ]
+    }
+   ],
+   "card": "ITU: cistitis (nitrofurantoína/fosfomicina), pielonefritis (7 días si responde). Bacteriuria asintomática: tratar en embarazo y cirugía urológica."
+  },
+  {
+   "id": "z2",
+   "name": "Parénquima en Llamas",
+   "palette": [
+    "#F0E2C8",
+    "#C8A87A",
+    "#8A6A4A",
+    "#3A2A1A"
+   ],
+   "tiles": "intersticio",
+   "vignette": "pielonefritis",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Diabético con fiebre que no cede en 72 horas: busca gas o absceso con tomografía."
+    ],
+    [
+     "Sabio Brenn",
+     "Enfisematosa: gas en el parénquima. Drenaje percutáneo antes que nefrectomía."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Xantogranulomatosa",
+     "lines": [
+      [
+       "Xantogranulomatosa",
+       "Riñón grande que no funciona, lito coraliforme, macrófagos espumosos."
+      ],
+      [
+       "Xantogranulomatosa",
+       "Parezco un tumor. Me tratan con nefrectomía."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "xantogranulomatosa"
+    },
+    {
+     "id": "npc2",
+     "name": "Bacilo de Koch",
+     "lines": [
+      [
+       "Bacilo de Koch",
+       "Piuria estéril con orina ácida. Calcificaciones y estenosis ureterales."
+      ],
+      [
+       "Bacilo de Koch",
+       "Búscame con tres orinas matutinas: cultivo y PCR."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "tuberculosis renal"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · BLEE",
+     "Factores: antibiótico u hospital recientes. Carbapenémico si hay sepsis."
+    ],
+    [
+     "Letrero · Absceso",
+     "<3 cm: antibiótico. >5 cm: drenaje."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "IVJ-4",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Piuria con cultivo negativo: contaminación. Repítelo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Piuria estéril: tuberculosis, nefritis intersticial, litos. Cierto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "IVJ-6",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: IVU en ERC avanzada"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "IVJ-9",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Candiduria: colonización o infección"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Gas Parenquimatoso",
+     "type": "Molecular",
+     "topic": "Gas Parenquimatoso"
+    },
+    {
+     "name": "Klebsiella BLEE",
+     "type": "Innato",
+     "topic": "Klebsiella BLEE"
+    },
+    {
+     "name": "Macrófago Espumoso",
+     "type": "Innato",
+     "topic": "Macrófago Espumoso"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Pielonefritis complicada: enfisematosa, absceso y xantogranulomatosa",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Si no mejora en 72 horas, imagen. Siempre."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Pielonefritis que no mejora",
+     "items": [
+      "Urocultivo y hemocultivos",
+      "Antibiótico empírico según resistencia local",
+      "Revalorar a las 48–72 h",
+      "Tomografía: obstrucción, absceso o gas",
+      "Drenar o derivar si procede",
+      "Ajustar al antibiograma y completar"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Pielonefritis complicada",
+     "items": [
+      "Urocultivo y hemocultivos",
+      "Antibiótico empírico IV",
+      "Imagen si no mejora en 48–72 h",
+      "Drenar obstrucción o absceso",
+      "Ajustar y completar el esquema"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Bacteriuria asintomática",
+       "Tratar solo en embarazo / cirugía urológica"
+      ],
+      [
+       "Pielonefritis enfisematosa",
+       "DM; gas en parénquima"
+      ],
+      [
+       "E. coli",
+       "Principal uropatógeno"
+      ],
+      [
+       "Cistitis no complicada",
+       "Nitrofurantoína 5 d o fosfomicina"
+      ],
+      [
+       "IVU en trasplante",
+       "Profilaxis TMP-SMX primeros meses"
+      ],
+      [
+       "Malacoplaquia",
+       "Cuerpos de Michaelis-Gutmann"
+      ],
+      [
+       "Xantogranulomatosa",
+       "Coraliforme + Proteus → nefrectomía"
+      ],
+      [
+       "Tuberculosis renal",
+       "Piuria estéril"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Tomografía: absceso de 4 cm. El Ascendente está ahí."
+      ]
+     ]
+    }
+   ],
+   "card": "Sin mejoría en 72 h: TC. Enfisematosa (diabetes): drenaje. Xantogranulomatosa: coraliforme + riñón excluido. TB: piuria estéril."
+  }
+ ],
+ "boss": {
+  "name": "El Ascendente",
+  "color": "#6B8E23",
+  "dark": "#2a3a0a",
+  "heads": 1,
+  "form": "microbio",
+  "crescent": false,
+  "intro": [
+   [
+    "El Ascendente",
+    "Uretra, vejiga, uréter, riñón. Siempre voy hacia arriba."
+   ],
+   [
+    "Dr. J.",
+    "Clasifica, elige antibiótico y busca la complicación."
+   ]
+  ],
+  "outro": [
+   [
+    "El Ascendente",
+    "Desciendo… pero si hay obstrucción, sin drenaje vuelvo."
+   ],
+   [
+    "Sabio Brenn",
+    "Tratar menos bacteriurias es tratar mejor."
+   ],
+   [
+    "Paciente",
+    "Me drenaron el absceso. Y ya sé cuándo no tomar antibiótico."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Clasificación",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Ascendente",
+      "¿Complicada o no?"
+     ]
+    ],
+    "topics": [
+     "Clasificación"
+    ],
+    "questions": [
+     "LST-1",
+     "LST-2"
+    ]
+   },
+   {
+    "name": "Antibiótico",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Ascendente",
+      "Soy BLEE. ¿Qué me das?"
+     ]
+    ],
+    "topics": [
+     "Antibiótico"
+    ],
+    "questions": [
+     "LST-3"
+    ]
+   },
+   {
+    "name": "Complicaciones",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Ascendente",
+      "Hago gas."
+     ]
+    ],
+    "topics": [
+     "Complicaciones"
+    ],
+    "questions": [
+     "NPP-1",
+     "NPP-2"
+    ]
+   },
+   {
+    "name": "Formas especiales",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Ascendente",
+      "Piuria sin bacterias."
+     ]
+    ],
+    "topics": [
+     "Formas especiales"
+    ],
+    "questions": [
+     "NPP-3"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Urotelio Sitiado",
+   "text": "ITU: cistitis (nitrofurantoína/fosfomicina), pielonefritis (7 días si responde). Bacteriuria asintomática: tratar en embarazo y cirugía urológica."
+  },
+  {
+   "title": "Parénquima en Llamas",
+   "text": "Sin mejoría en 72 h: TC. Enfisematosa (diabetes): drenaje. Xantogranulomatosa: coraliforme + riñón excluido. TB: piuria estéril."
+  },
+  {
+   "title": "💎 Tratamiento de la litiasis coraliforme",
+   "text": "Coraliforme/estruvita: remoción completa (NLP) + antibiótico dirigido; ESWL sola no. Ácido acetohidroxámico si no hay cirugía."
+  },
+  {
+   "title": "💎 Litiasis coraliforme por estruvita",
+   "text": "Estruvita: Proteus mirabilis (ureasa), pH >7.2, coraliforme, radiopaco. Vejiga neurogénica e IVU recurrente."
+  },
+  {
+   "title": "💎 Tratamiento de primera línea en cistitis",
+   "text": "Resistencia de E. coli a fluoroquinolonas en EUA: de 3% a 17% en 10 años. Recurrencia en 1–2 semanas: sospechar resistencia y cultivar."
+  },
+  {
+   "title": "💎 Pielonefritis no complicada: duración y ",
+   "text": "Si la tinción de Gram sugiere enterococo, agregar amoxicilina. Hospitalizada: ceftriaxona; con resistencia o BLEE, carbapenémico. Pasar a vía oral a las 24–48 h."
+  },
+  {
+   "title": "💎 IVU en el hombre",
+   "text": "IVU complicada: 5–10 días según gravedad. En veteranos, 7 días no tuvo más recurrencia que 14. Moxifloxacino no alcanza concentraciones urinarias suficientes."
+  },
+  {
+   "title": "💎 IVU en ERC avanzada",
+   "text": "Para curar se necesita concentración urinaria para la cistitis y tisular para la pielonefritis; las concentraciones séricas se correlacionan con las renales."
+  },
+  {
+   "title": "💎 Bacteriuria asociada a sonda",
+   "text": "Bacteriuria 3–10% por día de sonda; principal fuente de bacteriemia por gramnegativos hospitalaria. No tamizar ni tratar la bacteriuria asintomática. Suprapúbica o intermitente tiene menos bacteriuria."
+  },
+  {
+   "title": "💎 Candiduria: colonización o infección",
+   "text": "Tratar candiduria asintomática solo en neutropénicos, recién nacidos de muy bajo peso y antes de procedimientos urológicos. En trasplantados, solo con obstrucción, procedimiento planeado o síntomas."
+  }
+ ]
+}

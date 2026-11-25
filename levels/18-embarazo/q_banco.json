@@ -1,0 +1,1261 @@
+[
+ {
+  "id": "EMB-PE-1",
+  "serie_id": "EMB-PE",
+  "orden": 1,
+  "tema": "Riñón y embarazo",
+  "subtema": "Preeclampsia",
+  "dificultad": "moderada",
+  "caso": "Primigesta de 30 años, embarazo de 33 semanas, sin hipertensión ni proteinuria previas (creatinina 0.6 mg/dL en el primer trimestre). Acude por cefalea y edema. TA 164/110 mmHg en dos tomas separadas por 15 minutos; relación proteína/creatinina urinaria 0.9 g/g. Plaquetas 88,000/µL, AST 110 U/L, ALT 130 U/L (LSN 40), creatinina 1.0 mg/dL. Reflejos osteotendinosos vivos.",
+  "continuacion": "",
+  "enunciado": "¿Cuál es el diagnóstico y la conducta inicial más adecuada?",
+  "opciones": {
+   "A": "Preeclampsia sin datos de severidad: vigilancia ambulatoria hasta las 37 semanas, con control semanal de la TA y proteinuria",
+   "B": "Preeclampsia con criterios de severidad: hospitalizar, sulfato de magnesio, antihipertensivo IV y esteroides antenatales",
+   "C": "Hipertensión gestacional: manejo ambulatorio con metildopa y visitas semanales, sin necesidad de hospitalización ni de sulfato de magnesio",
+   "D": "Edema gestacional fisiológico: diurético de asa IV para controlar el edema y la cefalea, sin otros estudios ni vigilancia",
+   "E": "Preeclampsia con criterios de severidad: enalapril para el control de la TA y vigilancia obstétrica estrecha de la paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Hay datos de severidad (TA ≥160/110, plaquetas <100,000, transaminasas ×2) que contraindican el manejo ambulatorio.",
+   "B": "El diagnóstico es preeclampsia (HTA ≥140/90 después de las 20 semanas con proteinuria) con criterios de severidad: TA ≥160/110, plaquetas <100,000/µL, transaminasas ≥2 veces el LSN y síntomas neurológicos (cefalea). Requiere hospitalización, sulfato de magnesio para prevenir eclampsia, tratamiento de la TA ≥160/110 dentro de los 30-60 minutos con labetalol IV, hidralazina IV o nifedipino oral de liberación inmediata, y corticoides antenatales (<34 semanas). Con plaquetopenia y elevación de enzimas (HELLP parcial/en evolución) se planea el parto tras estabilizar; la única cura es la expulsión de la placenta.",
+   "C": "La proteinuria, la cefalea, la trombocitopenia y la elevación de transaminasas hacen que no sea simplemente hipertensión gestacional ambulatoria.",
+   "D": "No es edema fisiológico: hay hipertensión grave con daño de órgano blanco y los diuréticos reducen la perfusión uteroplacentaria.",
+   "E": "Los IECA están contraindicados en el embarazo por fetopatía (hipoplasia pulmonar, oligohidramnios, disgenesia tubular)."
+  },
+  "perla": "Criterios de severidad: TA ≥160/110; plaquetas <100,000; transaminasas ×2 LSN; Cr >1.1 o doble; edema pulmonar; síntomas cerebrales o visuales. Antihipertensivos seguros: labetalol, nifedipino, metildopa, hidralazina.",
+  "referencias": [
+   "ACOG Practice Bulletin 222. Obstet Gynecol 2020;135:e237",
+   "KDIGO 2024 CKD Guideline (embarazo)"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "18.d",
+  "tema_id": 18,
+  "obj": "18.o4",
+  "peso": 52.9
+ },
+ {
+  "id": "EMB-PE-2",
+  "serie_id": "EMB-PE",
+  "orden": 2,
+  "tema": "Riñón y embarazo",
+  "subtema": "Preeclampsia: fisiopatología",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se estabiliza y se interrumpe el embarazo por cesárea a las 34 semanas. Una compañera residente pregunta por la lesión glomerular que explica la proteinuria y por el mecanismo molecular de la enfermedad.",
+  "enunciado": "¿Cuál es la lesión glomerular característica y el mecanismo molecular principal?",
+  "opciones": {
+   "A": "Lesión de cambios mínimos; exceso de CD80 en podocitos, que explica la proteinuria con borramiento de procesos podocitarios",
+   "B": "Endoteliosis glomerular (tumefacción endotelial con pérdida de fenestras); exceso de sFlt-1 y déficit de VEGF y PlGF",
+   "C": "Necrosis cortical bilateral; coagulación intravascular diseminada con trombosis de las arteriolas aferentes del riñón",
+   "D": "Glomeruloesclerosis segmentaria colapsante; mutaciones en APOL1 con activación podocitaria y pérdida celular progresiva",
+   "E": "Glomerulonefritis proliferativa endocapilar; depósito de inmunocomplejos con consumo de C3 y activación de la vía clásica"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La enfermedad de cambios mínimos no explica la endoteliosis ni la hipertensión paralela al embarazo.",
+   "B": "En preeclampsia la placentación anómala produce hipoxia placentaria y liberación de factores antiangiogénicos: sFlt-1 (que secuestra VEGF y PlGF) y endoglina soluble. La deficiencia de VEGF/PlGF lesiona la célula endotelial y el podocito: endoteliosis glomerular (edema endotelial con pérdida de fenestras y estrechamiento de la luz capilar), con pérdida de podocitos (podocituria) y proteinuria. La relación sFlt-1/PlGF ≤38 descarta preeclampsia a corto plazo (valor predictivo negativo alto) y se usa como ayuda diagnóstica y pronóstica.",
+   "C": "Puede ocurrir en desprendimiento o sepsis obstétrica, no es la lesión típica de preeclampsia.",
+   "D": "Puede asociarse en población con APOL1, pero no es la lesión típica de la preeclampsia.",
+   "E": "Es el patrón de la glomerulonefritis posinfecciosa, sin relación con el embarazo."
+  },
+  "perla": "Endoteliosis glomerular = lesión clásica. sFlt-1/PlGF ≤38 → descarta preeclampsia en 1 semana; ≥85 (<34 sem) / ≥110 (≥34 sem) → apoya el diagnóstico.",
+  "referencias": [
+   "Karumanchi SA. Kidney Int 2016 (angiogenic factors)",
+   "Zeisler H et al. N Engl J Med 2016;374:13 (PROGNOSIS)"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "sub": "18.d",
+  "tema_id": 18,
+  "obj": "18.o4",
+  "peso": 52.9
+ },
+ {
+  "id": "EMB-PE-3",
+  "serie_id": "EMB-PE",
+  "orden": 3,
+  "tema": "Riñón y embarazo",
+  "subtema": "Preeclampsia: puerperio",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 12 semanas posparto la TA es normal sin medicamentos, pero persiste proteinuria de 1.2 g/24 h con sedimento urinario activo (eritrocitos dismórficos). Creatinina 0.8 mg/dL; C3 normal.",
+  "enunciado": "¿Cuál es la interpretación y el siguiente paso?",
+  "opciones": {
+   "A": "Persistir más de 12 semanas con sedimento activo sugiere glomerulopatía subyacente: se estudia, incluida la biopsia renal",
+   "B": "Es proteinuria ortostática; no requiere estudio, porque desaparece sola con el reposo y el decúbito prolongado",
+   "C": "Es una complicación del anticonceptivo; suspender y repetir la medición en 6 meses sin otros estudios",
+   "D": "Se debe iniciar prednisona empírica 1 mg/kg, porque la proteinuria con hematuria indica glomerulonefritis activa y grave",
+   "E": "Es proteinuria residual esperada de preeclampsia; repetir la medición hasta los 2 años sin otros estudios"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La proteinuria y la hipertensión de la preeclampsia generalmente se resuelven en las 12 semanas posparto. La persistencia (sobre todo con hematuria glomerular) obliga a descartar una glomerulopatía de base (nefropatía IgA, lupus, MN con PLA2R, FSGS), con complementarios (anti-PLA2R, ANA, anti-DNAdc, complemento, serologías) y biopsia renal si no hay una causa clara. El embarazo puede ser el momento en que se desenmascara una nefropatía previa.",
+   "B": "El sedimento activo con eritrocitos dismórficos y proteinuria de 1.2 g no se explica por proteinuria ortostática.",
+   "C": "Los anticonceptivos no causan proteinuria glomerular con hematuria dismórfica.",
+   "D": "El tratamiento inmunosupresor empírico sin diagnóstico histológico no es adecuado.",
+   "E": "La proteinuria atribuible a preeclampsia suele resolver en semanas a pocos meses; esperar 2 años retrasa el diagnóstico de una enfermedad glomerular subyacente."
+  },
+  "perla": "Proteinuria posparto persistente (> 12 semanas) → biopsia/estudio de glomerulopatía. Preeclampsia es marcador de riesgo de ERC futura.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (cap. Embarazo y enfermedad renal)",
+   "KDIGO 2021 Glomerular Diseases"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "sub": "18.d",
+  "tema_id": 18,
+  "obj": "18.o4",
+  "peso": 54.9
+ },
+ {
+  "id": "EMB-PE-4",
+  "serie_id": "EMB-PE",
+  "orden": 4,
+  "tema": "Riñón y embarazo",
+  "subtema": "Preeclampsia: riesgos a largo plazo",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La biopsia fue normal salvo cambios crónicos mínimos y se concluye que no hay glomerulopatía. Seis meses después ella desea otro embarazo y pregunta por los riesgos a largo plazo de su preeclampsia y por la prevención.",
+  "enunciado": "¿Cuál de las siguientes afirmaciones es la más adecuada?",
+  "opciones": {
+   "A": "Debe iniciar warfarina para prevenir la recurrencia de la preeclampsia en un nuevo embarazo planeado con control estricto",
+   "B": "Eleva el riesgo de HTA, ERC y enfermedad cardiovascular; en otro embarazo, aspirina en dosis bajas desde las 12 semanas",
+   "C": "Debe evitar de manera permanente cualquier embarazo, porque el riesgo de recurrencia de la preeclampsia es prohibitivo en ella",
+   "D": "El riesgo de recurrencia es nulo si cambia de pareja, por lo que no requiere medidas preventivas en un nuevo embarazo",
+   "E": "La preeclampsia no aumenta el riesgo cardiovascular ni renal posterior, de modo que no requiere seguimiento a largo plazo"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La warfarina es teratogénica y no previene preeclampsia; la HBPM se considera solo en trombofilia/antifosfolípido.",
+   "B": "Tras preeclampsia aumenta el riesgo de HTA crónica (la complicación a largo plazo más frecuente), ERC/ERT (aproximadamente 4-5 veces), enfermedad cardiovascular y diabetes. En un próximo embarazo se recomienda aspirina 75-162 mg/día iniciada antes de las 16 semanas (idealmente 12-16), control preconcepcional de la TA, intervalo intergestacional adecuado y, a largo plazo, vigilancia anual de TA, glucosa, lípidos y función renal. Desde el feto, los riesgos son restricción del crecimiento y parto prematuro.",
+   "C": "No es necesario evitar un embarazo de manera permanente.",
+   "D": "El riesgo de recurrencia depende de factores maternos; cambiar de pareja lo reduce solo ligeramente y no lo elimina.",
+   "E": "La preeclampsia es un marcador de riesgo cardiovascular y renal a largo plazo: se asocia con HTA crónica, ERC, falla renal terminal, cardiopatía isquémica y ACV."
+  },
+  "perla": "Preeclampsia → HTA crónica (principal), ERC, ECV. Prevención: aspirina 75-162 mg antes de las 16 semanas (idealmente a partir de las 12). RCIU/parto pretérmino en el feto.",
+  "referencias": [
+   "ACOG PB 222",
+   "Wu P et al. Circ Cardiovasc Qual Outcomes 2017",
+   "Comprehensive Clinical Nephrology (cap. Embarazo)"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "sub": "18.d",
+  "tema_id": 18,
+  "obj": "18.o4",
+  "peso": 52.9
+ },
+ {
+  "id": "PDE-1",
+  "serie_id": "PDE",
+  "orden": 1,
+  "sub": "18.c",
+  "subtema": "Diálisis peritoneal en el embarazo",
+  "dificultad": "moderada",
+  "caso": "Mujer de 29 años con nefropatía por reflujo, en DPA desde hace 2 años, que cursa un embarazo de 14 semanas. Diuresis residual de 300 mL/día, TA 130/80 mmHg, BUN prediálisis de 62 mg/dL y expansión abdominal creciente con molestias y reflujo gastroesofágico.",
+  "enunciado": "¿Qué ajuste de la DP es el más apropiado?",
+  "opciones": {
+   "A": "Suspender la DP y observar, porque la diálisis peritoneal está contraindicada con el embarazo avanzado en la paciente con nefropatía por reflujo",
+   "B": "Cambiar a diuréticos de asa en dosis altas, porque la diuresis residual de 300 mL/día permite evitar la diálisis",
+   "C": "Disminuir el volumen por recambio y aumentar la frecuencia de recambios, con meta de BUN <50 mg/dL",
+   "D": "Aumentar el volumen por recambio a 3 L para elevar la dosis de diálisis, aunque aumente la presión intraabdominal",
+   "E": "Reducir la frecuencia de recambios para evitar la peritonitis y las molestias abdominales propias del embarazo"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Suspender la DP expone a uremia y a malos desenlaces fetales.",
+   "B": "Los diuréticos no sustituyen la diálisis y la diuresis es escasa.",
+   "C": "En el embarazo, la capacidad abdominal disminuye por el útero grávido, por lo que se reducen los volúmenes por recambio (con riesgo de fugas, hernias y reflujo) y se aumenta la frecuencia o el tiempo total de diálisis (con recambios más frecuentes o más cortos, y a veces DPA con ciclos adicionales) para intensificar la depuración. Se busca un BUN prediálisis menor de 50 mg/dL, control de volumen y TA, y suplementos nutricionales (proteína 1.5 g/kg). En el tercer trimestre, a veces se pasa a hemodiálisis intensiva. La coordinación con obstetricia de alto riesgo es esencial.",
+   "D": "Aumentar el volumen eleva la presión intraabdominal y es mal tolerado.",
+   "E": "Reducir la frecuencia empeora la depuración."
+  },
+  "perla": "DP en embarazo: ↓ volumen por recambio, ↑ frecuencia/tiempo; BUN <50 mg/dL; considerar HD intensiva en tercer trimestre.",
+  "referencias": [
+   "Hladunewich MA et al. J Am Soc Nephrol 2014;25:1103",
+   "Comprehensive Clinical Nephrology (embarazo y ERC)"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "continuacion": "",
+  "obj": "18.o3",
+  "peso": 37.6
+ },
+ {
+  "id": "PDE-2",
+  "serie_id": "PDE",
+  "orden": 2,
+  "sub": "18.c",
+  "subtema": "Hemodiálisis intensiva en el embarazo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente embarazada, de 32 semanas, en hemodiálisis convencional (4 horas, 3 veces por semana) con BUN prediálisis de 70 mg/dL. Se discute la intensificación de la hemodiálisis para mejorar los resultados.",
+  "enunciado": "¿Qué estrategia respaldan los datos disponibles?",
+  "opciones": {
+   "A": "Intensificar a ~36 h semanales (6 sesiones) con BUN prediálisis <45-50 mg/dL; mejora la edad gestacional al nacer",
+   "B": "Evitar ultrafiltración y calcio por completo, para prevenir hipotensión y calcificaciones en el feto durante la hemodiálisis",
+   "C": "Reducir la hemodiálisis a 2 sesiones semanales, porque la depuración excesiva de solutos perjudica el crecimiento fetal",
+   "D": "Mantener la hemodiálisis convencional de 12 horas semanales, porque la intensificación no mejora ningún desenlace fetal ni materno",
+   "E": "Reemplazar la hemodiálisis por diuréticos, porque la diuresis residual basta para controlar la urea en el embarazo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Estudios de cohortes (por ejemplo, de Hladunewich y Piccoli) muestran que intensificar la hemodiálisis a 36 horas semanales o más se asocia a mayor edad gestacional, mayor peso al nacer y mayor supervivencia fetal que la hemodiálisis convencional. Se busca mantener BUN prediálisis bajo 45 a 50 mg/dL (algunas revisiones proponen metas más estrictas, <35 mg/dL), controlar la TA y el volumen (ultrafiltración suave, ganancia interdiálisis limitada) y evitar hipotensión que comprometa la perfusión placentaria. El dializado se ajusta con bicarbonato y calcio apropiados, y se vigilan fósforo, calcio y magnesio.",
+   "B": "El manejo del volumen y del calcio es necesario; no deben evitarse.",
+   "C": "Reducir las sesiones empeora la uremia y las complicaciones.",
+   "D": "La diálisis convencional se asocia a peores resultados fetales.",
+   "E": "Los diuréticos no sustituyen la hemodiálisis en pacientes dependientes."
+  },
+  "perla": "HD en embarazo: ≥36 h/semana; BUN <45–50 mg/dL; mejor edad gestacional y supervivencia fetal.",
+  "referencias": [
+   "Hladunewich MA et al. J Am Soc Nephrol 2014;25:1103",
+   "Comprehensive Clinical Nephrology (embarazo y ERC)"
+  ],
+  "origen": [
+   "Belen26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o3",
+  "peso": 51.7
+ },
+ {
+  "id": "PDE-3",
+  "serie_id": "PDE",
+  "orden": 3,
+  "sub": "18.c",
+  "subtema": "Fármacos y complicaciones en el embarazo con ERC terminal",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En esta paciente con ERC terminal en diálisis y embarazo, aparece hipertensión de 160/105 mmHg a las 28 semanas, con proteinuria previa estable y una Hb de 8.8 g/dL.",
+  "enunciado": "¿Qué conducta es la más adecuada?",
+  "opciones": {
+   "A": "Suspender la eritropoyetina por riesgo fetal, y tratar la anemia solo con transfusiones periódicas de eritrocitos empaquetados",
+   "B": "Evitar IECA/ARA-II; labetalol o nifedipino, optimizar peso seco y diálisis, dar ESA con hierro y vigilar preeclampsia",
+   "C": "Iniciar enalapril, por su eficacia antihipertensiva y su efecto nefroprotector en la paciente con enfermedad renal crónica",
+   "D": "Utilizar solo reposo sin tratamiento farmacológico, porque la hipertensión durante el embarazo es siempre transitoria y benigna para la madre",
+   "E": "Dar espironolactona, por su efecto antihipertensivo y por la sobrecarga de volumen de la paciente en diálisis"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La eritropoyetina se continúa; la anemia se asocia con peores desenlaces.",
+   "B": "Los IECA y ARA-II están contraindicados en el embarazo por fetotoxicidad (oligohidramnios, hipoplasia pulmonar, falla renal fetal), con mayor riesgo en el segundo y tercer trimestres. La hipertensión grave se trata con labetalol, nifedipino de liberación prolongada o metildopa, con ajuste del peso seco y de la ultrafiltración. La eritropoyetina es segura en el embarazo y casi siempre se requieren dosis más altas, con hierro intravenoso. Se vigila preeclampsia sobreagregada (empeoramiento de la hipertensión, trombocitopenia, elevación de transaminasas), que se trata con sulfato de magnesio en caso de convulsiones.",
+   "C": "El enalapril está contraindicado en el embarazo.",
+   "D": "La hipertensión grave en el embarazo exige tratamiento farmacológico.",
+   "E": "La espironolactona tiene efecto antiandrogénico y no se recomienda."
+  },
+  "perla": "Embarazo en diálisis: sin IECA/ARA-II ni iSGLT2/finerenona; labetalol/nifedipino; ESA y hierro continúan.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (embarazo y ERC)",
+   "Hladunewich MA et al. J Am Soc Nephrol 2014;25:1103"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o3",
+  "peso": 37.6
+ },
+ {
+  "id": "AEM-2",
+  "serie_id": "AEM",
+  "orden": 2,
+  "sub": "18.b",
+  "subtema": "TTP, SHUa y HELLP: diferenciación",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Dos semanas después del parto, otra paciente presenta anemia hemolítica microangiopática, plaquetas de 41,000/µL, creatinina de 4.8 mg/dL con anuria, hipertensión grave y transaminasas normales. Actividad de ADAMTS13 de 62%. Las manifestaciones no mejoran tras el parto.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Hígado graso agudo del embarazo, con transaminasas elevadas, hipoglucemia y coagulopatía, que mejora tras el parto",
+   "B": "SHU atípico posparto (mediado por complemento): lesión renal grave persistente, con ADAMTS13 normal",
+   "C": "Púrpura trombocitopénica trombótica con ADAMTS13 menor de 10%, con afección neurológica y renal leve",
+   "D": "Síndrome nefrótico por podocitopatía asociada al embarazo, con edema e hipoalbuminemia sin hemólisis",
+   "E": "HELLP residual que se resolverá en 72 horas, por lo que solo se requiere vigilancia y manejo de soporte"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El hígado graso agudo es un cuadro hepático del tercer trimestre.",
+   "B": "El SHUa asociado al embarazo ocurre sobre todo en el posparto, con una desregulación del complemento (variantes de CFH, CFI, MCP, C3, CFB o anticuerpos anti-CFH) desencadenada por el embarazo. Se manifiesta con anemia hemolítica microangiopática, trombocitopenia y lesión renal grave (a menudo oligoanuria), sin elevación llamativa de transaminasas, y persiste o empeora después del parto, a diferencia del HELLP, que mejora en 48 a 72 horas. La ADAMTS13 es normal (la PTT tiene menos de 10%). El tratamiento es el bloqueo del complemento con eculizumab o ravulizumab y se pide estudio genético del complemento.",
+   "C": "La ADAMTS13 es de 62%; la PTT la presenta menor de 10%.",
+   "D": "No hay síndrome nefrótico ni hemólisis en esa entidad.",
+   "E": "El HELLP mejora en 48 a 72 horas después del parto; este cuadro persiste."
+  },
+  "perla": "SHUa posparto: AHMA + trombocitopenia + LRA grave que persiste tras el parto; ADAMTS13 normal; eculizumab/ravulizumab.",
+  "referencias": [
+   "Fakhouri F et al. Blood 2020;136:2103",
+   "Comprehensive Clinical Nephrology (microangiopatía trombótica)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o2",
+  "peso": 42.2
+ },
+ {
+  "id": "AEM-3",
+  "serie_id": "AEM",
+  "orden": 3,
+  "sub": "18.b",
+  "subtema": "PTT en el embarazo: diagnóstico y tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Una gestante de 24 semanas presenta fiebre, alteración neurológica transitoria, anemia hemolítica con esquistocitos, plaquetas de 12,000/µL, creatinina de 1.2 mg/dL y transaminasas normales. La actividad de ADAMTS13 es de 4%.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "opciones": {
+   "A": "SHUa; solo eculizumab sin recambio plasmático, porque la creatinina de 1.2 mg/dL indica afectación renal grave",
+   "B": "Preeclampsia; interrupción del embarazo inmediata como tratamiento único, por la trombocitopenia grave",
+   "C": "Hígado graso agudo del embarazo; interrupción del embarazo, por la hemólisis y la trombocitopenia",
+   "D": "Transfusión de plaquetas como medida inicial, para prevenir el sangrado por la trombocitopenia de 12,000/µL",
+   "E": "PTT: recambio plasmático urgente con glucocorticoides, más rituximab o caplacizumab según el caso; el parto no la cura"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El SHUa se diagnostica con ADAMTS13 normal.",
+   "B": "La interrupción del embarazo no corrige la PTT.",
+   "C": "El hígado graso agudo cursa con hipoglucemia y coagulopatía.",
+   "D": "Las plaquetas pueden aumentar los trombos y están contraindicadas.",
+   "E": "La PTT se caracteriza por actividad de ADAMTS13 menor de 10%, anemia hemolítica microangiopática, trombocitopenia grave y, con frecuencia, manifestaciones neurológicas y fiebre, con afectación renal moderada. En el embarazo puede ser congénita (déficit de ADAMTS13) o adquirida, aparece en el segundo o tercer trimestre y recurre en embarazos futuros en la forma congénita. El tratamiento urgente es el recambio plasmático (o infusión de plasma en la forma congénita), con glucocorticoides, y rituximab o caplacizumab en la forma adquirida; el parto no cura la enfermedad. Las transfusiones de plaquetas están contraindicadas salvo hemorragia que ponga en riesgo la vida."
+  },
+  "perla": "PTT: ADAMTS13 <10%; recambio plasmático urgente + esteroides ± rituximab/caplacizumab. No transfundir plaquetas.",
+  "referencias": [
+   "Fakhouri F et al. Blood 2020;136:2103",
+   "Comprehensive Clinical Nephrology (microangiopatía trombótica)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o2",
+  "peso": 42.2
+ },
+ {
+  "id": "AEM-4",
+  "serie_id": "AEM",
+  "orden": 4,
+  "sub": "18.e",
+  "subtema": "Hidronefrosis fisiológica y pielonefritis en el embarazo",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Una gestante de 30 semanas, con fiebre de 39 °C, dolor en el flanco derecho y leucocituria, tiene creatinina de 1.4 mg/dL y la ecografía muestra dilatación moderada del sistema colector derecho.",
+  "enunciado": "¿Qué interpretación y manejo son los adecuados?",
+  "opciones": {
+   "A": "Cólico por litiasis; analgésicos solamente, porque la dilatación del sistema colector indica un cálculo ureteral obstructivo",
+   "B": "Interrumpir el embarazo, porque la fiebre alta materna con sepsis urinaria compromete la viabilidad fetal",
+   "C": "Pielonefritis gestacional: ingreso, ceftriaxona IV y cultivo; derivar la vía si hay obstrucción persistente o sepsis",
+   "D": "Hidronefrosis fisiológica del embarazo que no requiere tratamiento, porque la dilatación derecha moderada es habitual en la gestación",
+   "E": "Tratamiento ambulatorio con nitrofurantoína, porque la pielonefritis leve se maneja por vía oral en la gestante estable"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La litiasis no explicaría por sí sola la fiebre, y requiere considerar infección.",
+   "B": "No está indicado interrumpir el embarazo.",
+   "C": "Durante el embarazo, la compresión del uréter por el útero y el efecto de la progesterona producen dilatación fisiológica del sistema colector (más del lado derecho), pero la fiebre, el dolor y la leucocituria indican pielonefritis, que requiere hospitalización, cultivo y antibióticos parenterales por riesgo de sepsis, parto pretérmino y lesión renal. Si la lesión renal es significativa o hay sepsis con obstrucción, se deriva la vía urinaria mediante catéter doble J o nefrostomía percutánea, porque la litiasis obstructiva infectada se trata como urgencia. Se evitan fármacos nefrotóxicos y teratogénicos, y se mantiene supresión antibiótica hasta el parto.",
+   "D": "La fiebre y la leucocituria no se explican por hidronefrosis fisiológica.",
+   "E": "La nitrofurantoína no alcanza concentraciones en tejido renal y no sirve en pielonefritis."
+  },
+  "perla": "Embarazo: hidronefrosis fisiológica (derecha). Fiebre + leucocituria = pielonefritis: hospitalizar, IV, derivar si obstrucción.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (embarazo y riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o5",
+  "peso": 16.2
+ },
+ {
+  "id": "FIE-1",
+  "serie_id": "FIE",
+  "orden": 1,
+  "sub": "18.a",
+  "subtema": "Hiperfiltración del embarazo y valores de creatinina",
+  "dificultad": "moderada",
+  "caso": "Primigesta de 29 años, sin enfermedades previas, a las 20 semanas de gestación. Sus laboratorios de rutina muestran creatinina sérica de 0.5 mg/dL, BUN de 8 mg/dL, Na⁺ de 131 mEq/L, osmolalidad plasmática de 272 mOsm/kg, pH de 7.44, pCO₂ de 30 mmHg y HCO₃⁻ de 20 mEq/L. TA de 100/58 mmHg. Pregunta si estos valores son anormales.",
+  "enunciado": "¿Cuál es la interpretación de la creatinina de 0.5 mg/dL?",
+  "opciones": {
+   "A": "Normal en el embarazo: la TFG sube 40–50% desde el primer trimestre y la creatinina baja a 0.4–0.8 mg/dL; 0.9 ya es anormal",
+   "B": "Anormal: indica sobrehidratación materna y debe evaluarse la necesidad de diálisis, porque el valor es demasiado bajo para su edad",
+   "C": "Normal solo si hay proteinuria de 3 g/día, porque la hiperfiltración aumenta con la proteinuria",
+   "D": "Anormal: la creatinina debe ser de 1.2 mg/dL en el embarazo, por el aumento de la masa muscular materna y del volumen plasmático",
+   "E": "Anormal: indica un hipertiroidismo, porque la hormona tiroidea eleva la TFG y reduce la creatinina sérica de forma patológica"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Durante el embarazo normal, el flujo plasmático renal aumenta cerca de 50 a 80% y la TFG, 40 a 50%, desde la semana 4 hasta llegar a una meseta alrededor de la semana 13. El mecanismo es la vasodilatación sistémica y renal mediada por relaxina (que estimula la producción de óxido nítrico a través del receptor de endotelina B), con caída de la resistencia vascular y de la presión arterial (nadir a mitad del embarazo, cerca de 10 mmHg menos), y la expansión del volumen plasmático. Como consecuencia, la creatinina sérica desciende a 0.4 a 0.8 mg/dL, el BUN a 8 a 10 mg/dL y el ácido úrico a 2.5 a 4 mg/dL. Un valor de creatinina de 0.9 a 1.0 mg/dL, normal fuera del embarazo, debe alertar de una disfunción renal. Las ecuaciones de TFGe no están validadas en el embarazo.",
+   "B": "La creatinina baja es esperada y no requiere diálisis.",
+   "C": "El valor es normal en el embarazo sin relación con la proteinuria.",
+   "D": "La creatinina de 1.2 mg/dL sería anormal en el embarazo.",
+   "E": "No hay datos de hipertiroidismo."
+  },
+  "perla": "Embarazo: TFG ↑40–50% (semana 4–13), FPR ↑50–80%; creatinina 0.4–0.8; ácido úrico 2.5–4. Relaxina → NO (ETB). Creatinina ≥0.9 = sospechar daño renal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (riñón y embarazo)",
+   "Lindheimer MD et al. Chesley's Hypertensive Disorders in Pregnancy, 4th ed."
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "continuacion": "",
+  "obj": "18.o1",
+  "peso": 16.2
+ },
+ {
+  "id": "FIE-2",
+  "serie_id": "FIE",
+  "orden": 2,
+  "sub": "18.a",
+  "subtema": "Hiponatremia fisiológica del embarazo: reajuste del osmostato",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente tiene sodio de 131 mEq/L y osmolalidad de 272 mOsm/kg, sin síntomas, con euvolemia clínica y orina diluida de forma apropiada ante una sobrecarga hídrica.",
+  "enunciado": "¿Cuál es la explicación y la conducta?",
+  "opciones": {
+   "A": "SIADH, que requiere restricción de sodio y de líquidos, porque la hiponatremia con osmolalidad baja se debe a exceso de ADH endógena",
+   "B": "Hipotiroidismo, que requiere levotiroxina, porque la hiponatremia leve de la gestación es un signo de la deficiencia",
+   "C": "Insuficiencia suprarrenal, que requiere hidrocortisona, porque la hiponatremia con euvolemia indica déficit de cortisol",
+   "D": "Reajuste fisiológico del osmostato por relaxina y hCG (osmolalidad ≈10 mOsm/kg y Na ≈5 mEq/L menores); no requiere tratamiento",
+   "E": "Intoxicación por agua, que requiere solución hipertónica, porque la orina diluida indica una ingesta excesiva de líquidos libres"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La hiponatremia del embarazo es fisiológica, con osmostato reajustado, no un síndrome de secreción inadecuada patológica.",
+   "B": "No hay datos de hipotiroidismo.",
+   "C": "No hay datos de insuficiencia suprarrenal.",
+   "D": "En el embarazo normal, el umbral osmótico para la liberación de ADH y para la sed se reajusta a un valor menor: la osmolalidad plasmática disminuye cerca de 8 a 10 mOsm/kg y el sodio sérico, 4 a 5 mEq/L, desde el primer trimestre. El mecanismo parece depender de la relaxina y de la hCG, y se acompaña de aumento de la ingesta de agua y del volumen plasmático total (retención neta de cerca de 900 a 1,000 mEq de sodio y 6 a 8 L de agua). Es una adaptación fisiológica, de modo que la paciente conserva la capacidad de diluir la orina y excretar la carga de agua; no requiere tratamiento. Un sodio sérico menor de 130 mEq/L o con síntomas obliga a buscar otras causas, como polidipsia, hiperémesis, preeclampsia o diabetes insípida transitoria, que es rara.",
+   "E": "No hay intoxicación por agua; la paciente diluye la orina."
+  },
+  "perla": "Embarazo: osmostato reajustado (relaxina/hCG): Posm −8–10, Na −4–5 mEq/L; sin tratamiento. Na <130 o sintomático → buscar otra causa.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (riñón y embarazo)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o1",
+  "peso": 18.2
+ },
+ {
+  "id": "FIE-3",
+  "serie_id": "FIE",
+  "orden": 3,
+  "sub": "18.a",
+  "subtema": "Alcalosis respiratoria crónica del embarazo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El residente también revisa la gasometría arterial de la paciente: pH de 7.44, pCO₂ de 30 mmHg y HCO₃⁻ de 20 mEq/L, con PaO₂ de 104 mmHg.",
+  "enunciado": "¿Qué interpretación es correcta?",
+  "opciones": {
+   "A": "Alcalosis respiratoria fisiológica del embarazo (progesterona), con compensación renal del bicarbonato y pH de 7.40–7.45",
+   "B": "Trastorno mixto grave que exige tratamiento, porque coexisten alcalosis respiratoria y acidosis metabólica",
+   "C": "Acidosis respiratoria por hipoventilación, porque el bicarbonato bajo indica retención de CO₂ durante el embarazo",
+   "D": "Acidosis metabólica por insuficiencia renal crónica, porque el bicarbonato de 20 mEq/L indica retención de ácidos no volátiles",
+   "E": "Alcalosis metabólica por vómito, porque el pH alcalino indica pérdida de ácido gástrico y un bicarbonato sérico muy elevado"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Durante el embarazo, la progesterona aumenta la sensibilidad del centro respiratorio al CO₂ y estimula la ventilación (aumento del volumen corriente), por lo que el pCO₂ baja a cerca de 28 a 32 mmHg. El riñón compensa disminuyendo el bicarbonato sérico a 18 a 21 mEq/L por menor reabsorción tubular y mayor excreción renal de bicarbonato, de modo que el pH se mantiene en el rango alto de la normalidad (7.40 a 7.45). Es una alcalosis respiratoria crónica compensada fisiológica, que no requiere tratamiento. Es importante conocerla para no interpretar un bicarbonato de 20 mEq/L como acidosis metabólica y para reconocer que un pCO₂ de 40 mmHg en una embarazada con disnea indica fatiga ventilatoria. En el embarazo, la acidosis metabólica con bicarbonato bajo y la alcalosis respiratoria se superponen en la preeclampsia grave y en el asma.",
+   "B": "Es una adaptación fisiológica y no un trastorno mixto grave.",
+   "C": "El pCO₂ está bajo, no elevado.",
+   "D": "No hay acidosis; el pH es alcalino y el pCO₂ está bajo.",
+   "E": "El bicarbonato está bajo, no elevado."
+  },
+  "perla": "Embarazo: pCO₂ ~28–32, HCO₃ 18–21, pH 7.40–7.45 (progesterona). pCO₂ 40 en embarazada con disnea = fatiga. No confundir con acidosis metabólica.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (riñón y embarazo)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o1",
+  "peso": 18.2
+ },
+ {
+  "id": "FIE-4",
+  "serie_id": "FIE",
+  "orden": 4,
+  "sub": "18.a",
+  "subtema": "Glucosuria y proteinuria fisiológicas del embarazo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En el tercer trimestre, el examen general de orina muestra glucosa de 2+ con glucemia en ayunas de 82 mg/dL y proteinuria de 180 mg en 24 horas, con TA de 112/68 mmHg, ácido úrico de 4.2 mg/dL y sin edema.",
+  "enunciado": "¿Cómo se interpretan estos hallazgos?",
+  "opciones": {
+   "A": "Preeclampsia con criterios de gravedad, porque la proteinuria y la glucosuria indican daño endotelial renal progresivo",
+   "B": "Diabetes gestacional establecida, que requiere insulina, porque la glucosuria de 2+ confirma hiperglucemia materna sostenida",
+   "C": "Normales: glucosuria por mayor TFG con menor reabsorción de glucosa; proteinuria anormal solo si excede 300 mg/24 h",
+   "D": "Síndrome nefrótico, que requiere biopsia, porque la proteinuria de 180 mg/24 h es de rango nefrótico en la gestación",
+   "E": "Nefropatía lúpica activa, porque la proteinuria de 180 mg/24 h con glucosuria indica daño glomerular autoinmune en la gestación"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay hipertensión ni proteinuria significativa para preeclampsia.",
+   "B": "La glucemia normal en ayunas descarta diabetes; la glucosuria es fisiológica.",
+   "C": "En el embarazo, el aumento de la TFG supera la capacidad de reabsorción proximal de glucosa, por lo que la glucosuria de hasta 300 mg/día es frecuente y no indica diabetes (la glucemia es normal), y la excreción urinaria de proteínas aumenta de forma fisiológica de menos de 150 mg/día a un máximo de 300 mg/24 horas, por lo que se define la proteinuria significativa como más de 300 mg en 24 horas o un cociente proteína/creatinina de 0.3 o más. La proteinuria de 180 mg, la TA normal y los demás datos son normales. El ácido úrico desciende en el embarazo y se eleva a términos cercanos al parto; un valor de 4.2 es normal, y la elevación temprana se relaciona con preeclampsia. Se mantiene la vigilancia de TA y proteinuria a partir de las 20 semanas.",
+   "D": "El rango nefrótico excede 3.5 g/24 horas, muy superior a lo observado.",
+   "E": "No hay datos clínicos ni de laboratorio de actividad lúpica."
+  },
+  "perla": "Embarazo: glucosuria fisiológica (≤300 mg/d), proteinuria normal hasta 300 mg/24 h (PCR 0.3). Ácido úrico bajo (2.5–4); elevación temprana → preeclampsia.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (riñón y embarazo)",
+   "ACOG Practice Bulletin 222. Obstet Gynecol 2020;135:e237"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o1",
+  "peso": 18.2
+ },
+ {
+  "id": "ECP-1",
+  "serie_id": "ECP",
+  "orden": 1,
+  "sub": "18.c",
+  "subtema": "Asesoría preconcepcional en ERC: riesgo materno-fetal y progresión",
+  "dificultad": "moderada",
+  "caso": "Mujer de 31 años con nefropatía por IgA y ERC G3b: creatinina de 1.9 mg/dL (TFGe de 35 mL/min/1.73 m²), proteinuria de 1.4 g/día e hipertensión controlada con lisinopril 20 mg. Desea embarazarse en los próximos meses y consulta sobre los riesgos.",
+  "enunciado": "¿Cuál es la asesoría más adecuada?",
+  "opciones": {
+   "A": "El embarazo está absolutamente contraindicado en toda ERC, incluso en estadios 1 y 2, por riesgo vital materno y fetal",
+   "B": "El embarazo es seguro en cualquier etapa de la ERC, sin necesidad de planeación ni seguimiento especializado",
+   "C": "Debe continuarse lisinopril durante todo el embarazo para proteger el riñón, ya que el IECA es seguro en la gestación y evita la proteinuria",
+   "D": "El único riesgo es para el feto, sin repercusión en la función renal de la madre, que se mantiene estable",
+   "E": "Alto riesgo de preeclampsia, prematuridad y pérdida acelerada de TFG: planear con nefrología y obstetricia, ajustar fármacos y dar aspirina"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No es una contraindicación absoluta en todas las etapas; se individualiza según la TFGe, la proteinuria y la hipertensión.",
+   "B": "El riesgo aumenta de forma importante con la TFGe baja, y se requiere planeación.",
+   "C": "Los IECA son fetotóxicos (sobre todo en el segundo y tercer trimestre) y se suspenden antes o al detectar el embarazo.",
+   "D": "El embarazo puede acelerar la pérdida de función renal materna, y el riesgo fetal es solo una parte del cuadro.",
+   "E": "La ERC reduce la fertilidad y empeora los desenlaces del embarazo en función de la TFGe basal, la proteinuria y la hipertensión: con TFGe menor de 40 mL/min/1.73 m² (ERC G3b o peor), hipertensión no controlada o proteinuria mayor de 1 g/día aumentan la preeclampsia sobrepuesta, el parto pretérmino, la restricción del crecimiento fetal, las pérdidas fetales y la pérdida acelerada de la función renal de la madre (que puede ser permanente en una proporción importante de los casos). Por eso se planea el embarazo (idealmente con la enfermedad en remisión o estable, y la presión controlada), con atención conjunta de nefrología y obstetricia de alto riesgo, se informa de los riesgos y de la posibilidad de no embarazarse, se ajustan los fármacos antes de la concepción (suspensión de los bloqueadores del SRAA y de otros fármacos fetotóxicos) y se inicia ácido acetilsalicílico en dosis bajas (75 a 162 mg) desde el primer trimestre o antes de las 16 semanas para reducir la preeclampsia. Las etapas 1 y 2 sin hipertensión ni proteinuria tienen desenlaces mejores, aunque con más riesgo que en la población general."
+  },
+  "perla": "ERC y embarazo: riesgo ↑ con TFGe <40, HTA y proteinuria >1 g/d (preeclampsia, pretérmino, RCIU, pérdida acelerada de TFG). Planear con nefrología + obstetricia; ajustar fármacos antes; AAS dosis bajas (75–162 mg) desde el 1.er trimestre.",
+  "referencias": [
+   "Wiles K et al. BMC Nephrol 2019;20:401 (guía de embarazo y enfermedad renal)",
+   "Comprehensive Clinical Nephrology (embarazo y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "continuacion": "",
+  "obj": "18.o3",
+  "peso": 9.4
+ },
+ {
+  "id": "ECP-2",
+  "serie_id": "ECP",
+  "orden": 2,
+  "sub": "18.c",
+  "subtema": "Fármacos en el embarazo con ERC: cuáles suspender y alternativas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente se embaraza antes de lo planeado. A las 6 semanas, además del lisinopril, toma dapagliflozina 10 mg y atorvastatina 20 mg. Su presión arterial es de 134/84 mmHg.",
+  "enunciado": "¿Cuál es la conducta farmacológica más adecuada?",
+  "opciones": {
+   "A": "Continuar los tres fármacos, porque el riñón se beneficia de ellos y el riesgo fetal es bajo en este momento",
+   "B": "Cambiar el lisinopril por espironolactona, que protege al feto y mantiene el efecto antiproteinúrico sin riesgo",
+   "C": "Suspender solo la atorvastatina y continuar lisinopril y dapagliflozina, porque ambos tienen un perfil de seguridad aceptable en el embarazo",
+   "D": "Cambiar el lisinopril por losartán, que es seguro en el embarazo porque no inhibe la enzima convertidora de angiotensina",
+   "E": "Suspender lisinopril, dapagliflozina y, en general, atorvastatina; usar labetalol, nifedipino o metildopa y mantener aspirina baja"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Continuar IECA, inhibidor de SGLT2 y estatina expone al feto a daño y no es la conducta recomendada.",
+   "B": "Los antagonistas del receptor mineralocorticoide tienen efecto antiandrogénico (feminización del feto masculino) y no se recomiendan en el embarazo.",
+   "C": "El IECA y el iSGLT2 también deben suspenderse.",
+   "D": "Los ARA-II son igual de fetotóxicos que los IECA.",
+   "E": "Los IECA y los ARA-II son fetotóxicos (hipoplasia pulmonar, oligohidramnios, anuria fetal, disgenesia tubular renal y muerte, sobre todo en el segundo y tercer trimestre), por lo que se suspenden antes de la concepción o en cuanto se confirma el embarazo; algunos centros los mantienen hasta la prueba positiva en pacientes con proteinuria significativa. Los inhibidores de SGLT2 no se recomiendan en el embarazo por los datos de toxicidad renal en estudios animales y la falta de datos en humanos, y las estatinas se suspenden de manera habitual (aunque los datos recientes son más tranquilizadores, no se indican de rutina). Para la presión se prefieren el labetalol, el nifedipino de liberación prolongada y la metildopa, y la meta es de cerca de 135/85 mmHg. Se mantienen o inician ácido acetilsalicílico en dosis bajas, folato y vigilancia estrecha de la función renal, de la presión y de la proteinuria."
+  },
+  "perla": "Embarazo con ERC: suspender IECA/ARA-II, iSGLT2, ARM/finerenona, MMF (→ AZA); estatinas en general. Antihipertensivos seguros: labetalol, nifedipino LP, metildopa. AAS dosis baja + folato.",
+  "referencias": [
+   "Wiles K et al. BMC Nephrol 2019;20:401 (guía de embarazo y enfermedad renal)",
+   "Comprehensive Clinical Nephrology (embarazo y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o3",
+  "peso": 11.4
+ },
+ {
+  "id": "ECP-3",
+  "serie_id": "ECP",
+  "orden": 3,
+  "sub": "18.d",
+  "subtema": "Hipertensión crónica en el embarazo: umbral de tratamiento (ensayo CHAP)",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 20 semanas, con labetalol 200 mg cada 12 horas, la paciente tiene presión de 148/94 mmHg en el consultorio y de 146/92 mmHg en el domicilio, asintomática, con proteinuria de 1.6 g/día y creatinina de 1.7 mg/dL. El residente propone no intensificar el tratamiento hasta que la presión supere 160/110 mmHg, para no afectar la perfusión placentaria.",
+  "enunciado": "¿Cuál es la conducta más adecuada y su fundamento?",
+  "opciones": {
+   "A": "Suspender el labetalol, porque no se necesita tratamiento antihipertensivo durante el embarazo en ninguna paciente",
+   "B": "Reducir la presión por debajo de 110/70 mmHg para proteger el riñón, aunque se comprometa la perfusión placentaria",
+   "C": "No intensificar hasta 160/110 mmHg, porque el tratamiento más estricto aumenta el riesgo fetal y materno y los recién nacidos pequeños",
+   "D": "Intensificar a <140/90 mmHg: CHAP mostró menos preeclampsia grave, parto <35 semanas y desprendimiento, sin más neonatos pequeños",
+   "E": "Agregar enalapril para reducir la proteinuria, porque es el antihipertensivo de elección en la ERC también durante todo el embarazo"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El tratamiento antihipertensivo está indicado cuando la presión es de 140/90 mmHg o más, y más aún en una paciente con ERC.",
+   "B": "Una presión menor de 110/70 mmHg podría comprometer el flujo uteroplacentario, y no es la meta.",
+   "C": "CHAP demostró que el tratamiento desde 140/90 mmHg mejora los desenlaces sin aumentar el riesgo fetal.",
+   "D": "En el ensayo CHAP (Chronic Hypertension and Pregnancy), en mujeres embarazadas con hipertensión crónica leve (menos de 160/105 mmHg), el tratamiento antihipertensivo desde 140/90 mmHg redujo el desenlace compuesto de preeclampsia con criterios de gravedad, parto antes de las 35 semanas, desprendimiento placentario o muerte fetal o neonatal (cerca de 30% frente a 37%), sin aumentar la proporción de recién nacidos pequeños para la edad gestacional. Con base en esto, las guías actuales (como la ISSHP 2021) recomiendan tratar cuando la presión es de 140/90 mmHg o más, con una meta de cerca de 135/85 mmHg, usando labetalol, nifedipino de liberación prolongada o metildopa. En una paciente con ERC, proteinuria y creatinina de 1.7 mg/dL, el riesgo de preeclampsia sobrepuesta y de daño renal es alto, y un umbral laxo de 160/110 mmHg no es adecuado. Debe evitarse una reducción excesiva, que podría comprometer el flujo uteroplacentario.",
+   "E": "Los IECA están contraindicados en el embarazo por su fetotoxicidad."
+  },
+  "perla": "CHAP (NEJM 2022): tratar HTA crónica del embarazo desde ≥140/90 (meta <140/90, cerca de 135/85) ↓ preeclampsia grave, parto <35 sem, desprendimiento; sin ↑ de PEG. Labetalol, nifedipino LP, metildopa.",
+  "referencias": [
+   "Tita AT et al. N Engl J Med 2022;386:1781 (CHAP)",
+   "Magee LA et al. Pregnancy Hypertens 2022;27:148 (ISSHP 2021)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o4",
+  "peso": 26.7
+ },
+ {
+  "id": "ECP-4",
+  "serie_id": "ECP",
+  "orden": 4,
+  "sub": "18.d",
+  "subtema": "Preeclampsia sobrepuesta frente a actividad de la enfermedad renal; magnesio en ERC",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 29 semanas, la paciente presenta cefalea, presión de 172/108 mmHg, aumento brusco de la proteinuria a 5 g/día, creatinina de 2.3 mg/dL, plaquetas de 92,000/µL, LDH de 640 U/L, AST elevada y ácido úrico de 8.5 mg/dL. El sedimento urinario muestra pocos eritrocitos, sin cilindros hemáticos. El cociente sFlt-1/PlGF es de 220.",
+  "enunciado": "¿Cuál es la interpretación y la conducta?",
+  "opciones": {
+   "A": "Actividad de la nefropatía por IgA, que se trata con pulsos de esteroides y se continúa el embarazo hasta el término sin interrumpirlo",
+   "B": "Púrpura trombocitopénica trombótica, que se trata de inmediato con recambio plasmático y sin interrumpir el embarazo",
+   "C": "Cuadro benigno propio del embarazo, que se maneja de forma ambulatoria con reposo y control de la presión en casa",
+   "D": "Síndrome nefrótico por hipoalbuminemia, que se trata con diuréticos y restricción de líquidos durante el embarazo",
+   "E": "Preeclampsia grave sobreagregada (probable HELLP): ingreso, antihipertensivo, corticoides, MgSO₄ ajustado a la TFG y parto según evolución"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La nefropatía por IgA no explica la trombocitopenia, la hemólisis, las transaminasas elevadas ni el sFlt-1/PlGF de 220, y los esteroides sin interrumpir el embarazo exponen a madre y feto.",
+   "B": "La púrpura trombocitopénica trombótica requiere ADAMTS13 muy bajo; aquí el contexto de hipertensión grave, proteinuria y sFlt-1/PlGF elevado apunta a preeclampsia, y se reevalúa si no mejora tras el parto.",
+   "C": "El cuadro es grave, con criterios de HELLP, y exige hospitalización.",
+   "D": "El síndrome nefrótico no explica la hipertensión grave, la trombocitopenia ni la hemólisis, y los diuréticos pueden empeorar la perfusión placentaria.",
+   "E": "El inicio brusco de hipertensión grave y de proteinuria después de las 20 semanas, con trombocitopenia, hemólisis (LDH elevada), transaminasas elevadas, ácido úrico alto y un cociente sFlt-1/PlGF muy elevado (más de 85 antes de las 34 semanas apoya la preeclampsia; en la ERC el cociente puede estar elevado de base, por lo que su valor predictivo negativo es más útil) indica preeclampsia sobrepuesta con criterios de gravedad y probable síndrome HELLP, y no una actividad de la nefropatía por IgA (que cursaría con un sedimento activo y progresión más lenta). Se hospitaliza, se controla la presión con labetalol o hidralazina por vía intravenosa (o nifedipino oral de liberación inmediata), se administran corticoesteroides para la maduración pulmonar, y se da sulfato de magnesio para prevenir las convulsiones; como el magnesio se elimina por el riñón, en una paciente con creatinina elevada se reduce la dosis de mantenimiento (por ejemplo, 1 g/h) y se vigilan los reflejos, la frecuencia respiratoria, la diuresis y los niveles séricos. La interrupción del embarazo es el tratamiento definitivo, y se programa tras estabilizar a la madre (según la edad gestacional y las complicaciones); con HELLP o complicaciones graves no se espera."
+  },
+  "perla": "PE sobrepuesta: HTA grave + ↑ proteinuria brusca >20 sem + plaquetas ↓/LDH/AST/urato ↑, sFlt-1/PlGF >85 (<34 sem). En ERC la razón es menos específica. MgSO₄: reducir mantenimiento con Cr ↑ y vigilar reflejos/diuresis/niveles. Parto = tratamiento definitivo.",
+  "referencias": [
+   "Zeisler H et al. N Engl J Med 2016;374:13 (cociente sFlt-1/PlGF)",
+   "Magee LA et al. Pregnancy Hypertens 2022;27:148 (ISSHP 2021)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o4",
+  "peso": 26.7
+ },
+ {
+  "id": "ECP-5",
+  "serie_id": "ECP",
+  "orden": 5,
+  "sub": "18.c",
+  "subtema": "Puerperio y lactancia en la mujer con ERC",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente es sometida a cesárea a las 32 semanas. Tras el parto, la creatinina es de 1.9 mg/dL (similar a la basal), con presión de 150/95 mmHg y proteinuria de 1.5 g/día. Desea amamantar y pregunta cuándo puede reanudar sus fármacos nefroprotectores.",
+  "enunciado": "¿Cuál es la recomendación más adecuada?",
+  "opciones": {
+   "A": "Suspender toda terapia nefroprotectora de forma definitiva por la lactancia, porque absolutamente todos los fármacos pasan a la leche",
+   "B": "Reiniciar enalapril y dapagliflozina de inmediato sin consideraciones por la lactancia, porque ambos son seguros",
+   "C": "No requiere seguimiento, porque la función renal vuelve a la normalidad al terminar el embarazo y la proteinuria se resuelve sola en semanas",
+   "D": "Contraindicar la lactancia en toda paciente con ERC, porque la leche concentra los productos de retención urémica",
+   "E": "Reiniciar enalapril o captopril, compatibles con la lactancia, y diferir el iSGLT2; seguir presión y proteinuria; anticoncepción"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "No es necesario suspender de forma definitiva la nefroprotección; se reinicia con fármacos compatibles.",
+   "B": "El iSGLT2 no se recomienda durante la lactancia por la falta de datos.",
+   "C": "La función renal puede no recuperarse, y se requiere seguimiento por el riesgo de progresión.",
+   "D": "La ERC no contraindica la lactancia; se adapta el tratamiento.",
+   "E": "En el puerperio se reanudan los fármacos nefroprotectores según la presión, la función renal y la lactancia: el enalapril y el captopril se excretan en cantidades mínimas en la leche y se consideran compatibles con la lactancia (con vigilancia del lactante, sobre todo si es pretérmino), mientras que los iSGLT2 no se recomiendan durante la lactancia por la falta de datos de seguridad y su posible efecto en el desarrollo renal del lactante. Además, se mantiene el control de la presión con labetalol o nifedipino, se vigila la proteinuria y la función renal (el embarazo puede dejar una pérdida permanente), se aconseja una anticoncepción eficaz con un método que no contenga estrógenos (por la hipertensión y la proteinuria) y se planea el seguimiento nefrológico a largo plazo. La preeclampsia y las alteraciones de la placentación aumentan el riesgo de hipertensión y ERC a largo plazo."
+  },
+  "perla": "Puerperio en ERC: reiniciar IECA compatible con lactancia (enalapril, captopril); evitar iSGLT2 al amamantar; PA y proteinuria seguimiento; anticoncepción sin estrógeno; riesgo de progresión y de HTA/ERC a largo plazo.",
+  "referencias": [
+   "Wiles K et al. BMC Nephrol 2019;20:401 (guía de embarazo y enfermedad renal)",
+   "Comprehensive Clinical Nephrology (embarazo y riñón)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o3",
+  "peso": 11.4
+ },
+ {
+  "id": "BAE-1",
+  "serie_id": "BAE",
+  "orden": 1,
+  "sub": "18.e",
+  "subtema": "Tamizaje y tratamiento de la bacteriuria asintomática en el embarazo",
+  "dificultad": "moderada",
+  "caso": "Mujer de 26 años, primigesta de 10 semanas, asintomática. En su primera consulta prenatal, el urocultivo de tamizaje muestra Escherichia coli mayor de 100,000 UFC/mL, sensible a cefalexina y nitrofurantoína. El examen general de orina tiene nitritos positivos y la presión arterial es normal.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "No tratar, porque es asintomática, como en el resto de la población, y el tratamiento solo favorece resistencias",
+   "B": "Indicar profilaxis antibiótica indefinida sin tratamiento previo, porque el cultivo positivo se resolverá solo con el paso del tiempo",
+   "C": "Tratar solo si aparecen síntomas urinarios, porque la bacteriuria asintomática no causa complicaciones en la gestación",
+   "D": "Realizar una pielografía intravenosa de inmediato, para descartar anomalías anatómicas antes de decidir el tratamiento antibiótico",
+   "E": "Antibiótico de 4–7 días según antibiograma con urocultivo de control: sin tratar hay 20–35% de pielonefritis y parto pretérmino"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El embarazo es una de las excepciones en las que se trata la bacteriuria asintomática por el riesgo de pielonefritis.",
+   "B": "La profilaxis indefinida sin tratar la infección activa no es adecuada; primero se trata.",
+   "C": "Esperar los síntomas expone al riesgo de pielonefritis y de parto pretérmino.",
+   "D": "Una pielografía intravenosa implica radiación y no está indicada de rutina.",
+   "E": "A diferencia de la población general, en el embarazo se debe tamizar la bacteriuria asintomática con un urocultivo al inicio de la gestación (idealmente entre las 12 y 16 semanas) y tratarla, porque la dilatación fisiológica de las vías urinarias, la estasis y la glucosuria favorecen la ascensión de la infección: sin tratamiento, cerca de 20 a 35% de estas pacientes desarrollan pielonefritis, y se asocia con parto pretérmino y bajo peso al nacer. El tratamiento se elige según el antibiograma y dura de 4 a 7 días (en general 5 a 7), y se repite el urocultivo tras el tratamiento (prueba de curación), con seguimiento periódico por la alta recurrencia (cerca de 20 a 30%)."
+  },
+  "perla": "Embarazo: tamizar con urocultivo en el 1.er trimestre (12–16 sem) y tratar la bacteriuria asintomática (4–7 d, según antibiograma) + cultivo de control. Sin tratar: pielonefritis ~20–35%, pretérmino, bajo peso.",
+  "referencias": [
+   "Nicolle LE et al. Clin Infect Dis 2019;68:e83 (IDSA, bacteriuria asintomática)",
+   "Comprehensive Clinical Nephrology (riñón y embarazo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "continuacion": "",
+  "obj": "18.o5",
+  "peso": 6.2
+ },
+ {
+  "id": "BAE-2",
+  "serie_id": "BAE",
+  "orden": 2,
+  "sub": "18.e",
+  "subtema": "Elección del antibiótico en el embarazo según el trimestre",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente tiene alergia leve a la penicilina (exantema tardío hace años), deficiencia de glucosa-6-fosfato deshidrogenasa conocida, y se encuentra en el primer trimestre. El cultivo muestra E. coli sensible a cefalexina, nitrofurantoína, trimetoprima-sulfametoxazol y ciprofloxacino.",
+  "enunciado": "¿Qué antibiótico es el más adecuado?",
+  "opciones": {
+   "A": "Ciprofloxacino, por su amplia eficacia contra gramnegativos y su excelente penetración urinaria en el embarazo",
+   "B": "Cefalexina (primera generación, riesgo cruzado bajo en alergia leve no inmediata); se evitan nitrofurantoína, TMP-SMX y quinolonas",
+   "C": "Nitrofurantoína, porque la deficiencia de G6PD no tiene relevancia clínica en el primer trimestre del embarazo",
+   "D": "Doxiciclina, por su eficacia contra gramnegativos y su buen perfil de seguridad durante el primer trimestre",
+   "E": "Trimetoprima-sulfametoxazol, porque el folato no se afecta y el fármaco se considera seguro durante todo el primer trimestre del embarazo"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Las fluoroquinolonas se evitan en el embarazo por el riesgo de daño al cartílago fetal.",
+   "B": "La cefalexina es una opción segura en todo el embarazo y eficaz contra E. coli sensible, y el riesgo de reacción cruzada con la penicilina en una alergia leve no inmediata es bajo. Se evitan: la nitrofurantoína (por el riesgo de hemólisis en la deficiencia de G6PD de la madre, en el feto o en el recién nacido, y porque se prefiere evitarla en el primer trimestre cuando hay alternativas, y cerca del término), el trimetoprima-sulfametoxazol (antagonista del folato, asociado con defectos del tubo neural, y con riesgo de ictericia nuclear cerca del término), las fluoroquinolonas (riesgo en el cartílago en desarrollo) y las tetraciclinas (alteraciones óseas y dentales). Otras opciones aceptables son la amoxicilina o la fosfomicina en dosis única, según el antibiograma.",
+   "C": "La nitrofurantoína puede causar hemólisis en la deficiencia de G6PD.",
+   "D": "Las tetraciclinas se evitan por el riesgo de alteraciones óseas y dentales, y no son de elección para infección urinaria.",
+   "E": "El trimetoprima-sulfametoxazol es antagonista del folato y se evita en el primer trimestre."
+  },
+  "perla": "ITU en embarazo: cefalexina/amoxicilina/fosfomicina; evitar TMP-SMX (1.er trimestre, y cerca del término), quinolonas y tetraciclinas; nitrofurantoína evitar en 1.er trimestre si hay alternativas, en G6PD y cerca del término.",
+  "referencias": [
+   "ACOG Committee Opinion 717. Sulfonamides, nitrofurantoin, and risk of birth defects. Obstet Gynecol 2017",
+   "Comprehensive Clinical Nephrology (riñón y embarazo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o5",
+  "peso": 8.2
+ },
+ {
+  "id": "BAE-3",
+  "serie_id": "BAE",
+  "orden": 3,
+  "sub": "18.e",
+  "subtema": "Pielonefritis en el embarazo: manejo hospitalario y profilaxis supresiva",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 26 semanas, la paciente (sin tratamiento previo completo) consulta por fiebre de 39.2 °C, escalofríos, dolor lumbar derecho, náusea y vómito, con puño percusión positivo, taquicardia, leucocitosis y piuria, y creatinina de 0.9 mg/dL. La ecografía muestra hidronefrosis derecha leve.",
+  "enunciado": "¿Cuál es el manejo más adecuado?",
+  "opciones": {
+   "A": "Hospitalizar con ceftriaxona IV, líquidos vigilados por riesgo de edema pulmonar y profilaxis supresiva hasta el parto",
+   "B": "Esperar el cultivo antes de tratar, porque el antibiótico empírico aumenta el riesgo de malformaciones fetales",
+   "C": "Manejo ambulatorio con antibiótico oral y reposo, porque la pielonefritis en el segundo trimestre suele ser leve y autolimitada",
+   "D": "Nefrostomía percutánea de rutina en todas las pielonefritis del embarazo, para prevenir el parto pretérmino y la sepsis materna grave",
+   "E": "Antibiótico solo por 3 días, sin seguimiento ni profilaxis posterior, porque la pielonefritis se cura con ciclos cortos"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La pielonefritis en el embarazo se trata de forma hospitalaria por el riesgo de sepsis, parto pretérmino y complicaciones respiratorias, con antibiótico intravenoso empírico (como ceftriaxona o cefazolina, ajustado al cultivo), reposición de líquidos cautelosa (la endotoxina y el aumento de la permeabilidad capilar predisponen al edema pulmonar y al síndrome de dificultad respiratoria aguda), vigilancia de la madre y del feto, antipiréticos y control de la contractilidad uterina. Tras 24 a 48 horas afebril se pasa a la vía oral hasta completar 10 a 14 días. Como la recurrencia es de cerca de 20 a 30%, se indica profilaxis supresiva hasta el parto con cefalexina nocturna (la nitrofurantoína se evita en esta paciente por la deficiencia de G6PD). Si la fiebre persiste más de 48 a 72 horas se realiza una ecografía o una prueba de imagen para descartar obstrucción (litiasis), absceso o infección resistente, y se plantea la derivación (stent o nefrostomía) solo si hay obstrucción.",
+   "B": "No se debe retrasar el tratamiento empírico por esperar el cultivo.",
+   "C": "El manejo ambulatorio no es adecuado en la pielonefritis del embarazo, que se maneja con hospitalización.",
+   "D": "La nefrostomía se reserva a la obstrucción infectada, y no se hace de rutina.",
+   "E": "Un tratamiento de 3 días es insuficiente para la pielonefritis, que requiere 10 a 14 días."
+  },
+  "perla": "Pielonefritis en embarazo: hospitalizar, ceftriaxona/cefazolina IV, líquidos con cautela (SDRA), 10–14 d, supresión nocturna hasta el parto (cefalexina; nitrofurantoína si no hay G6PD); si fiebre >48–72 h: imagen (obstrucción, litiasis, absceso).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (riñón y embarazo)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 18,
+  "tema": "Riñón y embarazo",
+  "obj": "18.o5",
+  "peso": 8.2
+ },
+ {
+  "id": "AZ22-2",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "El riesgo de preeclampsia es mayor en la ERC.",
+  "enunciado": "¿Cuál es el factor más determinante?",
+  "perla": "En la ERC el riesgo de preeclampsia aumenta 2.5–8 veces (hasta 40%), y es directamente proporcional a la gravedad de la ERC (etapas más avanzadas) (Al Khalaf, Am J Obstet Gynecol 2022;226:656).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-2",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Proteinuria",
+   "B": "Gravedad de la ERC",
+   "C": "Hipertensión arterial crónica",
+   "D": "Antecedente de diabetes mellitus",
+   "E": "Edad materna menor de 30 años"
+  },
+  "explicaciones": {
+   "A": "La proteinuria, la HTA crónica y la DM como causa de ERC también aumentan el riesgo, pero la evidencia muestra que el riesgo es mayor en etapas avanzadas; la creatinina basal es el mayor determinante.",
+   "B": "Correcto. En la ERC el riesgo de preeclampsia aumenta 2.5–8 veces (hasta 40%), y es directamente proporcional a la gravedad de la ERC (etapas más avanzadas) (Al Khalaf, Am J Obstet Gynecol 2022;226:656).",
+   "C": "La proteinuria, la HTA crónica y la DM como causa de ERC también aumentan el riesgo, pero la evidencia muestra que el riesgo es mayor en etapas avanzadas; la creatinina basal es el mayor determinante.",
+   "D": "La proteinuria, la HTA crónica y la DM como causa de ERC también aumentan el riesgo, pero la evidencia muestra que el riesgo es mayor en etapas avanzadas; la creatinina basal es el mayor determinante.",
+   "E": "No es factor de riesgo."
+  },
+  "clave": "B",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-3",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "Caso seriado (3 a 6). Mujer de 32 años con LES de 7 años; hace 4 años, nefritis lúpica clase IV (actividad 14/24, cronicidad 1/12) con remisión completa a los 6 meses tras MPD + MMF. Busca embarazarse. Tratamiento: dapagliflozina 10 mg, HCQ 300 mg, prednisona 5 mg. Hb 12.5, plaquetas 320, Cr 0.8, BUN 18, EGO sin sedimento activo, UPCR < 150 mg/g.",
+  "enunciado": "¿Qué evento adverso es más probable?",
+  "perla": "El principal riesgo en la nefritis lúpica previa al embarazo es la recaída (brote ~26% en el metaanálisis de 2,751 embarazos); aumenta con actividad al embarazarse y disminuye cuanto más larga es la remisión previa (Fakhouri, Kidney Int 2023;103:264).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-3",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Aborto espontáneo",
+   "B": "Trastorno hipertensivo del embarazo",
+   "C": "Parto pretérmino",
+   "D": "Recaída de la enfermedad, brote",
+   "E": "Diabetes gestacional"
+  },
+  "explicaciones": {
+   "A": "El aborto espontáneo (~16%) es menos frecuente que el brote.",
+   "B": "La HTA (~16%) y la preeclampsia (~8%) son menos frecuentes en esta paciente sin HTA ni proteinuria.",
+   "C": "El parto pretérmino (~39%) es común en LES, pero en remisión el riesgo dominante es el brote.",
+   "D": "Correcto. El principal riesgo en la nefritis lúpica previa al embarazo es la recaída (brote ~26% en el metaanálisis de 2,751 embarazos); aumenta con actividad al embarazarse y disminuye cuanto más larga es la remisión previa (Fakhouri, Kidney Int 2023;103:264).",
+   "E": "No es la principal complicación."
+  },
+  "clave": "D",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-4",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "",
+  "enunciado": "¿Cuál NO forma parte de las estrategias preconcepcionales?",
+  "perla": "La aspirina está indicada, pero se inicia una vez confirmado el embarazo, idealmente antes de la semana 12 (no en el periodo preconcepcional).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-4",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Iniciar aspirina 81 mg/d",
+   "B": "Suspender el iSGLT2 6 semanas antes de la concepción",
+   "C": "Pedir anti-dsDNA, complemento, etc., para descartar actividad",
+   "D": "Vigilar la presión arterial",
+   "E": "Cambiar MMF por azatioprina"
+  },
+  "explicaciones": {
+   "A": "Correcto. La aspirina está indicada, pero se inicia una vez confirmado el embarazo, idealmente antes de la semana 12 (no en el periodo preconcepcional).",
+   "B": "Suspender el iSGLT2 ~6 semanas antes de la concepción sí es preconcepcional (sin datos de seguridad en humanos).",
+   "C": "Confirmar la ausencia de actividad (complemento y clínica) es indispensable antes del embarazo.",
+   "D": "Optimizar la TA (meta 130/80 mmHg) es parte de la consejería preconcepcional.",
+   "E": "Sí es estrategia preconcepcional."
+  },
+  "clave": "A",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-5",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "Si presentara una recaída de nefritis lúpica durante el embarazo,",
+  "enunciado": "¿qué se podría proponer?",
+  "perla": "Son seguros en el embarazo HCQ, esteroides, azatioprina e ICN; ante recaída renal, la primera línea es esteroides + azatioprina (1.5–2 mg/kg/d) y la segunda, ICN, manteniendo HCQ.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-5",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Pulsos de MPD + rituximab",
+   "B": "Pulsos de MPD y prednisona en esquema de reducción",
+   "C": "Pulsos de MPD + belimumab",
+   "D": "Pulsos de MPD + ciclofosfamida",
+   "E": "Pulsos de MPD + azatioprina"
+  },
+  "explicaciones": {
+   "A": "El rituximab es tercera línea, solo sin alternativa y en el 1.er trimestre, por efectos materno-fetales no bien conocidos (depleción B neonatal).",
+   "B": "Los esteroides solos no bastan: se requiere un inmunosupresor obligado.",
+   "C": "No hay datos suficientes de belimumab en el embarazo.",
+   "D": "Teratogénica.",
+   "E": "Correcto. Son seguros en el embarazo HCQ, esteroides, azatioprina e ICN; ante recaída renal, la primera línea es esteroides + azatioprina (1.5–2 mg/kg/d) y la segunda, ICN, manteniendo HCQ."
+  },
+  "clave": "E",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-7",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "Caso seriado (7 a 10). Daniela, 28 años, ERC G5 por reflujo vesicoureteral, en HD por FAV desde hace 1 año; embarazo de 10 semanas. Toma telmisartán 40 mg, furosemida 40 mg c/8 h, dapagliflozina 10 mg y EPO 4,000 UI 2 veces/sem. HD 3 veces/sem de 3:30 h, peso seco 70 kg, diuresis residual 1 L/d.",
+  "enunciado": "¿Cuál es la complicación más frecuente en ERC con TRR?",
+  "perla": "La complicación más frecuente en embarazadas en TRR es el parto pretérmino (50–100% según la serie); la tasa de nacidos vivos es de 71.4% (Ankawi, CJASN 2024;20:292).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-7",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Bajo peso al nacer",
+   "B": "Preeclampsia",
+   "C": "Parto pretérmino",
+   "D": "Progresión de la enfermedad renal",
+   "E": "Diabetes gestacional"
+  },
+  "explicaciones": {
+   "A": "El feto pequeño para la edad gestacional ocurre en ~18.9%.",
+   "B": "La preeclampsia ocurre en ~11.9%.",
+   "C": "Correcto. La complicación más frecuente en embarazadas en TRR es el parto pretérmino (50–100% según la serie); la tasa de nacidos vivos es de 71.4% (Ankawi, CJASN 2024;20:292).",
+   "D": "La progresión no es la complicación más frecuente en quien ya está en diálisis; el objetivo es preservar la función residual.",
+   "E": "No es el principal riesgo."
+  },
+  "clave": "C",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-8",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "",
+  "enunciado": "¿Qué estrategia tendría mayor impacto en los desenlaces materno-fetales?",
+  "perla": "La diálisis intensiva (más frecuencia y más horas) mejora los desenlaces: nacidos vivos 48% con < 20 h/sem, 75% con 21–36 h y 85% con > 36 h; Toronto vs registro estadounidense: 85.7% vs 61.4% (Hladunewich, JASN 2014;25:1103).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-8",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Profilaxis con aspirina",
+   "B": "Aumentar frecuencia y duración de la HD",
+   "C": "Aumentar la frecuencia de la diálisis",
+   "D": "Aumentar la EPO 50% sobre la dosis basal",
+   "E": "Reducir la ultrafiltración por sesión"
+  },
+  "explicaciones": {
+   "A": "La aspirina previene preeclampsia, pero no es la intervención de mayor impacto en diálisis.",
+   "B": "Correcto. La diálisis intensiva (más frecuencia y más horas) mejora los desenlaces: nacidos vivos 48% con < 20 h/sem, 75% con 21–36 h y 85% con > 36 h; Toronto vs registro estadounidense: 85.7% vs 61.4% (Hladunewich, JASN 2014;25:1103).",
+   "C": "Aumentar solo la frecuencia sin aumentar las horas totales no alcanza la dosis asociada al beneficio.",
+   "D": "Sí se aumenta la EPO ~50%, pero con meta de Hb 10–11 g/dL; no es lo que más mejora los desenlaces.",
+   "E": "No es la de mayor impacto."
+  },
+  "clave": "B",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-9",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "",
+  "enunciado": "Son desventajas de la DP frente a la HD en el embarazo, EXCEPTO:",
+  "perla": "La inestabilidad hemodinámica es desventaja de la HD; la DP tiene menor riesgo de inestabilidad, preserva la función residual y no requiere anticoagulación ni acudir a un centro (Copur, Blood Purif 2023;52:686).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-9",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Menor aclaramiento",
+   "B": "Mayor riesgo de restricción del crecimiento intrauterino",
+   "C": "Mayor riesgo de infecciones",
+   "D": "Mayor riesgo de peritonitis",
+   "E": "Mayor riesgo de inestabilidad hemodinámica"
+  },
+  "explicaciones": {
+   "A": "Son desventajas reales de la DP: menor aclaramiento de moléculas pequeñas, mayor riesgo de restricción del crecimiento intrauterino y de infecciones, además de peor control del volumen en el 3.er trimestre.",
+   "B": "Son desventajas reales de la DP: menor aclaramiento de moléculas pequeñas, mayor riesgo de restricción del crecimiento intrauterino y de infecciones, además de peor control del volumen en el 3.er trimestre.",
+   "C": "Son desventajas reales de la DP: menor aclaramiento de moléculas pequeñas, mayor riesgo de restricción del crecimiento intrauterino y de infecciones, además de peor control del volumen en el 3.er trimestre.",
+   "D": "Es desventaja de la DP.",
+   "E": "Correcto. La inestabilidad hemodinámica es desventaja de la HD; la DP tiene menor riesgo de inestabilidad, preserva la función residual y no requiere anticoagulación ni acudir a un centro (Copur, Blood Purif 2023;52:686)."
+  },
+  "clave": "E",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-10",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "",
+  "enunciado": "¿Qué estrategia nutricional implementarías en Daniela?",
+  "perla": "En TRR se aumenta el requerimiento proteico a 1.2–1.5 g/kg/d (guías italianas: 1.2 en HD y 1.4 en DP, según el peso pregestacional) (Reyes-López, Eur J Clin Nutr 2020;74:983).",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-10",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Energía 25 kcal/kg/d",
+   "B": "Hierro IV 100 mg/semana",
+   "C": "Proteína 1.2 g/kg/d",
+   "D": "Proteína 0.8 g/kg/d",
+   "E": "Restringir el fósforo a 400 mg/día"
+  },
+  "explicaciones": {
+   "A": "En embarazo con HD se recomiendan 30–35 kcal/kg/d (+ 300–400 kcal/d).",
+   "B": "El hierro en HD es ~50– 60 mg/semana, guiado por la cinética de hierro.",
+   "C": "Correcto. En TRR se aumenta el requerimiento proteico a 1.2–1.5 g/kg/d (guías italianas: 1.2 en HD y 1.4 en DP, según el peso pregestacional) (Reyes-López, Eur J Clin Nutr 2020;74:983).",
+   "D": "0.6–0.8 g/kg/d es la restricción moderada para ERC G3–5 sin diálisis.",
+   "E": "No es la prioridad."
+  },
+  "clave": "C",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-1",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "",
+  "enunciado": "Sobre la TFG durante el embarazo, ¿cuál enunciado es INCORRECTO?",
+  "perla": "Es la disminución ≥ 10% de la creatinina preconcepcional en el 1.er–2.° trimestre (no de la TFG) la que se asocia a menor morbimortalidad materno-fetal; la creatinina baja ~23% hacia las 15–21 semanas y regresa a la basal hacia el término.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-1",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "Una disminución ≥ 10% de la TFG en el 1.er trimestre se asocia a menor morbimortalidad",
+   "B": "Las ecuaciones para estimar la TFG no están validadas en el embarazo",
+   "C": "La TFG aumenta en el 1.° y 2.° trimestres, con nadir de la creatinina hacia las 18 semanas",
+   "D": "El aclaramiento de creatinina en orina de 24 h es el estándar de oro en el embarazo",
+   "E": "La creatinina normal del embarazo es menor"
+  },
+  "explicaciones": {
+   "A": "Correcto. Es la disminución ≥ 10% de la creatinina preconcepcional en el 1.er–2.° trimestre (no de la TFG) la que se asocia a menor morbimortalidad materno-fetal; la creatinina baja ~23% hacia las 15–21 semanas y regresa a la basal hacia el término.",
+   "B": "Es cierto: las ecuaciones con creatinina o cistatina C no están validadas en el embarazo.",
+   "C": "Es cierto: la TFG aumenta en la primera mitad y la creatinina llega a su nadir hacia las 16–18 semanas.",
+   "D": "Es cierto: el aclaramiento de creatinina en orina de 24 h es el estándar de oro (Piccoli, Kidney Int 2025).",
+   "E": "Es correcto, no incorrecto."
+  },
+  "clave": "A",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AZ22-6",
+  "tema_id": 18,
+  "sub": "18.c",
+  "obj": "18.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "ERC y embarazo",
+  "caso": "Sobre el manejo y seguimiento de la ERC en el embarazo,",
+  "enunciado": "¿cuál es INCORRECTA?",
+  "perla": "La proteinuria grave aumenta el riesgo tromboembólico, pero no está estandarizado el umbral de proteinuria o hipoalbuminemia para anticoagular: la decisión es individualizada si no hay contraindicación.",
+  "referencias": [
+   "Manual Actualízame 2026, IMIN (Ramírez-Sandoval JC, Almeida-Arvizu A, Marchini-Niembro MM, eds.), cap. 22: ERC y embarazo"
+  ],
+  "serie_id": "AZ22-6",
+  "orden": 1,
+  "continuacion": "",
+  "origen": [
+   "IMIN Actualízame 2026 (manual, cap. 22)"
+  ],
+  "opciones": {
+   "A": "La frecuencia de seguimiento no está establecida y debe individualizarse",
+   "B": "Con albúmina < 2.5 g/dL debe iniciarse anticoagulación profiláctica",
+   "C": "La aspirina se inicia antes de la semana 12 y hasta la 34–36",
+   "D": "En cada visita: química sanguínea, albúmina, BH, EGO y proteinuria",
+   "E": "Vigilar la presión arterial en cada visita"
+  },
+  "explicaciones": {
+   "A": "Es cierto: la frecuencia se individualiza (p. ej., cada 4–6 semanas en G1–2 y cada 1–4 en G3–4).",
+   "B": "Correcto. La proteinuria grave aumenta el riesgo tromboembólico, pero no está estandarizado el umbral de proteinuria o hipoalbuminemia para anticoagular: la decisión es individualizada si no hay contraindicación.",
+   "C": "Es cierto: aspirina 50–150 mg/d antes de la semana 12 y hasta la 34–36.",
+   "D": "Es cierto: se recomienda química sanguínea, albúmina, BH, EGO y proteinuria en cada visita.",
+   "E": "Es correcto."
+  },
+  "clave": "B",
+  "tema": "Riñón y embarazo",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "AEM-1",
+  "serie_id": "AEM",
+  "orden": 1,
+  "sub": "6.a.ii.emb",
+  "subtema": "Función renal normal en el embarazo y diagnóstico diferencial de LRA",
+  "dificultad": "moderada",
+  "caso": "Mujer de 28 años, gestante de 35 semanas, que acude por cefalea, edema, TA de 164/108 mmHg, plaquetas de 62,000/µL, AST de 240 U/L, ALT de 210 U/L, LDH de 1,100 U/L, esquistocitos y creatinina de 1.8 mg/dL. Glucosa de 92 mg/dL, fibrinógeno normal, ADAMTS13 de 55%.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y por qué una creatinina de 1.8 mg/dL es anormal en el embarazo?",
+  "opciones": {
+   "A": "Síndrome hemolítico urémico atípico posparto, que se trata con eculizumab por la hemólisis y la lesión renal",
+   "B": "HELLP/preeclampsia grave; con TFG aumentada 40–50%, la creatinina normal es 0.4–0.8 mg/dL y >0.9 es anormal",
+   "C": "Hígado graso agudo del embarazo, con hipoglucemia, coagulopatía y encefalopatía hepática como datos principales del cuadro",
+   "D": "Púrpura trombocitopénica trombótica congénita, con ADAMTS13 menor de 10% y fiebre, déficit neurológico y recambio",
+   "E": "Pielonefritis aguda del embarazo, con fiebre, dolor lumbar y urocultivo positivo con bacteriuria significativa"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El SHUa suele manifestarse en el posparto con lesión renal más grave y sin hipertransaminasemia marcada.",
+   "B": "La hemodilución y la vasodilatación del embarazo aumentan el flujo plasmático renal y la TFG (40 a 50%), de modo que la creatinina desciende a 0.4 a 0.8 mg/dL; una cifra superior a 0.9 es anormal y 1.8 mg/dL indica lesión renal significativa. La hipertensión, la trombocitopenia, la elevación de enzimas hepáticas y la hemólisis microangiopática en el tercer trimestre indican HELLP/preeclampsia grave. La ADAMTS13 de 55% descarta PTT; la glucosa normal y el fibrinógeno normal alejan el hígado graso agudo.",
+   "C": "El hígado graso agudo cursa con hipoglucemia, hiperamonemia y coagulopatía con fibrinógeno bajo.",
+   "D": "La PTT requiere ADAMTS13 menor de 10%, y aquí es 55%.",
+   "E": "La pielonefritis cursa con fiebre y leucocituria."
+  },
+  "perla": "Embarazo: TFG ↑40–50%, creatinina normal 0.4–0.8; >0.9 es anormal. HELLP: hemólisis, ↑enzimas, plaquetas bajas; parto.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (embarazo y riñón)",
+   "Fakhouri F et al. Blood 2020;136:2103"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 6,
+  "tema": "Daño renal agudo",
+  "continuacion": "",
+  "obj": "6.o7",
+  "peso": 31.4
+ }
+]

@@ -1,0 +1,1022 @@
+{
+ "meta": {
+  "id": "4",
+  "title": "Farmacología y riñón",
+  "key": "rm_v3_4",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Intoxicado",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Viaje en Cápsula",
+   "palette": [
+    "#FBD8E2",
+    "#E48AA8",
+    "#A8436A",
+    "#4A1A2A"
+   ],
+   "tiles": "proximal",
+   "vignette": "proximal_farmaco",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Paciente real: mujer con litio desde hace años. Le agregaron IECA y tiazida."
+    ],
+    [
+     "Dr. J.",
+     "Ahora está confusa y temblorosa. Litemia 3.1. Entras montado en el fármaco."
+    ],
+    [
+     "Sabio Brenn",
+     "El litio viaja disfrazado de sodio. Donde el sodio se reabsorbe, él también."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Ion Litio",
+     "lines": [
+      [
+       "Ion Litio",
+       "En el proximal me reabsorben como si fuera sodio. Con hipovolemia, más."
+      ],
+      [
+       "Ion Litio",
+       "En el colector entro por ENaC y apago la acuaporina 2."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "litio"
+    },
+    {
+     "id": "npc2",
+     "name": "Albúmina Transportista",
+     "lines": [
+      [
+       "Albúmina Transportista",
+       "Solo el fármaco libre filtra y se dializa."
+      ],
+      [
+       "Albúmina Transportista",
+       "Con albúmina baja, hay más fracción libre: ojo con la fenitoína."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Farmacocinética",
+     "Dializable: peso molecular bajo, poca unión a proteínas, volumen de distribución pequeño."
+    ],
+    [
+     "Letrero · Dosis",
+     "Dosis de carga: depende del volumen de distribución. Mantenimiento: de la depuración."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "aine",
+     "specialty": "Nefrotóxico",
+     "serie": "ADM",
+     "intro": [
+      [
+       "AINE",
+       "¡Ja! IECA + diurético + yo: el triple golpe. ¡Y de paso subo el litio!"
+      ]
+     ],
+     "defeat": [
+      [
+       "AINE",
+       "¡Me descubriste! Avísale a mis socios…"
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    },
+    {
+     "id": "t0_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "RAA",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: SRAA: efecto hemodinámico de los IECA sobre la TFG"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_2",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "TAC",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: Tacrolimus: farmacogenética CYP3A5 y dosificación inicial"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    }
+   ],
+   "wild": [
+    {
+     "name": "Metabolito Activo",
+     "type": "Molecular",
+     "topic": "Metabolito Activo"
+    },
+    {
+     "name": "Fármaco Libre",
+     "type": "Molecular",
+     "topic": "Fármaco Libre"
+    },
+    {
+     "name": "OAT Secretor",
+     "type": "Celular",
+     "topic": "OAT Secretor"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Farmacocinética: qué hace dializable a un fármaco",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Tres llaves: tamaño pequeño, poca unión a proteínas, poco volumen de distribución."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Dializable o no",
+     "items": [],
+     "pairs": [
+      [
+       "Litio",
+       "Sí: pequeño, sin proteínas, Vd bajo"
+      ],
+      [
+       "Metanol",
+       "Sí: pequeño e hidrosoluble"
+      ],
+      [
+       "Digoxina",
+       "No: Vd enorme"
+      ],
+      [
+       "Fenitoína",
+       "Poco: muy unida a proteínas"
+      ],
+      [
+       "Metformina",
+       "Sí, en acidosis láctica grave"
+      ],
+      [
+       "Salicilatos",
+       "Sí: indicación clásica"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Ajuste renal: ¿requiere ajuste?",
+     "bins": [
+      "Ajustar o evitar",
+      "Dosis habitual"
+     ],
+     "items": [
+      [
+       "Valganciclovir",
+       "Ajustar o evitar"
+      ],
+      [
+       "Fluconazol",
+       "Ajustar o evitar"
+      ],
+      [
+       "Enoxaparina",
+       "Ajustar o evitar"
+      ],
+      [
+       "Tetraciclina",
+       "Ajustar o evitar"
+      ],
+      [
+       "Gabapentina",
+       "Ajustar o evitar"
+      ],
+      [
+       "Linagliptina",
+       "Dosis habitual"
+      ],
+      [
+       "Moxifloxacino",
+       "Dosis habitual"
+      ],
+      [
+       "Ceftriaxona",
+       "Dosis habitual"
+      ],
+      [
+       "Argatrobán",
+       "Dosis habitual"
+      ],
+      [
+       "Paracetamol",
+       "Dosis habitual"
+      ]
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Sigue al diurético. Cada uno tiene su segmento."
+      ]
+     ]
+    }
+   ],
+   "card": "Litio: se reabsorbe como sodio (↑ con hipovolemia, tiazida, IECA, AINE). Dializable = PM bajo + poca unión a proteínas + Vd bajo."
+  },
+  {
+   "id": "z2",
+   "name": "Río de los Diuréticos",
+   "palette": [
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
+   ],
+   "tiles": "tubulo",
+   "vignette": "diureticos",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Los diuréticos de asa llegan por secreción proximal: necesitan OAT y albúmina."
+    ],
+    [
+     "Sabio Brenn",
+     "Si no llegan a la luz, no sirven. Eso es resistencia."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Furosemida",
+     "lines": [
+      [
+       "Furosemida",
+       "Bloqueo NKCC2. Mi efecto tiene techo: más dosis no es más efecto, es más duración."
+      ],
+      [
+       "Furosemida",
+       "Vía oral me absorbo de forma errática. Bumetanida y torasemida, mejor."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "furosemida"
+    },
+    {
+     "id": "npc2",
+     "name": "Tiazida",
+     "lines": [
+      [
+       "Tiazida",
+       "Bloqueo NCC. Bajo la calciuria y subo el ácido úrico."
+      ],
+      [
+       "Tiazida",
+       "Con asa hago bloqueo secuencial. Vigila potasio y sodio."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "tiazida"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Resistencia",
+     "Causas: sal en la dieta, absorción, hipoalbuminemia, hipertrofia distal, TFG baja."
+    ],
+    [
+     "Letrero · Antihipertensivos",
+     "IECA/ARA: suspender si la creatinina sube >30 % o hay hiperpotasemia refractaria."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "AHD",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Si no orina, doblo la furosemida cada hora. Simple."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Techo, umbral, bloqueo secuencial… lo hacía a ciegas."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t1_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "VAN",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Vancomicina en hemodiálisis: dosis y niveles"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "AZ3-4",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: Frecuencia y dosis de furosemida"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Hipertrofia Distal",
+     "type": "Celular",
+     "topic": "Hipertrofia Distal"
+    },
+    {
+     "name": "Rebote de Sodio",
+     "type": "Molecular",
+     "topic": "Rebote de Sodio"
+    },
+    {
+     "name": "Potasio Fugitivo",
+     "type": "Molecular",
+     "topic": "Potasio Fugitivo"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Diuréticos: sitio de acción y resistencia",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Umbral y techo. Si no cruzas el umbral, repetir la misma dosis no sirve."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Escalar ante resistencia a diuréticos",
+     "items": [
+      "Confirmar restricción de sodio y adherencia",
+      "Subir la dosis de asa hasta el techo",
+      "Aumentar la frecuencia o pasar a IV",
+      "Agregar tiazida (bloqueo secuencial)",
+      "Agregar antagonista mineralocorticoide o acetazolamida",
+      "Ultrafiltración si falla todo"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Furosemida",
+       "NKCC2 asa ascendente"
+      ],
+      [
+       "Tiazida",
+       "NCC túbulo distal"
+      ],
+      [
+       "Amilorida",
+       "Bloquea ENaC (DI por litio)"
+      ],
+      [
+       "Acetazolamida",
+       "Anhidrasa carbónica proximal"
+      ],
+      [
+       "Tacrolimus",
+       "Inhibe calcineurina → ↓IL-2"
+      ],
+      [
+       "Micofenolato",
+       "Inhibe IMPDH (purinas)"
+      ],
+      [
+       "Belatacept",
+       "Bloquea coestimulación CD80/86–CD28"
+      ],
+      [
+       "Fármaco dializable",
+       "Bajo PM, baja unión proteica, Vd pequeño"
+      ],
+      [
+       "iSGLT2",
+       "Natriuresis proximal, restaura RTG"
+      ],
+      [
+       "Finerenona",
+       "ARM no esteroideo"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "La paciente sigue con litemia alta. Te vas al circuito de diálisis."
+      ]
+     ]
+    }
+   ],
+   "card": "Asa: umbral y techo; llegan por OAT. Resistencia → dosis, frecuencia, bloqueo secuencial. Tiazida: ↓calciuria, ↑úrico, hiponatremia."
+  },
+  {
+   "id": "z3",
+   "name": "Circuito Extracorpóreo",
+   "palette": [
+    "#F0FCFF",
+    "#8AE0E8",
+    "#2A8A9A",
+    "#0A2A33"
+   ],
+   "tiles": "dializador",
+   "vignette": "hemodialisis",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "EXTRIP recomienda hemodiálisis en litio >4 con TFG baja, o con conciencia alterada."
+    ],
+    [
+     "Sabio Brenn",
+     "Y avisa del rebote: el litio sale de las células después de la sesión."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Membrana de Alto Flujo",
+     "lines": [
+      [
+       "Membrana de Alto Flujo",
+       "Dejo pasar lo pequeño y libre. Lo pegado a proteínas se queda."
+      ],
+      [
+       "Membrana de Alto Flujo",
+       "Para lo unido a proteínas existe la hemoperfusión, pero casi no se usa."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    },
+    {
+     "id": "npc2",
+     "name": "Tacrolimus",
+     "lines": [
+      [
+       "Tacrolimus",
+       "Me metaboliza CYP3A4. Azoles, macrólidos y diltiazem me suben."
+      ],
+      [
+       "Tacrolimus",
+       "Rifampicina y fenitoína me bajan. Mídeme en valle."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "tacrolimus"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Ajuste de dosis",
+     "Ajustar por TFG: hidrosolubles de eliminación renal (aminoglucósidos, vancomicina)."
+    ],
+    [
+     "Letrero · En diálisis",
+     "Dar después de la sesión los fármacos que se dializan."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "serie": "IMS",
+     "intro": [
+      [
+       "Dr. Max Presor",
+       "TRRC para todo intoxicado. Es más suave."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Max Presor",
+       "La intermitente depura más rápido… tiene sentido para un tóxico."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t2_1",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "TOX",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Intoxicación por alcoholes tóxicos: brecha osmolal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 5
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "AZ3-5",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Dosis inicial de furosemida según TFGe"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Rebote Poshemodiálisis",
+     "type": "Molecular",
+     "topic": "Rebote Poshemodiálisis"
+    },
+    {
+     "name": "CYP3A4 Inducido",
+     "type": "Molecular",
+     "topic": "CYP3A4 Inducido"
+    },
+    {
+     "name": "Dosis Acumulada",
+     "type": "Molecular",
+     "topic": "Dosis Acumulada"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Intoxicaciones: criterios EXTRIP y modalidad",
+     "text": [
+      [
+       "Sabio Brenn",
+       "En intoxicaciones, la hemodiálisis intermitente es la modalidad preferida."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Tóxico y conducta",
+     "items": [],
+     "pairs": [
+      [
+       "Metanol / etilenglicol",
+       "Fomepizol + hemodiálisis"
+      ],
+      [
+       "Salicilatos",
+       "Alcalinizar orina + hemodiálisis"
+      ],
+      [
+       "Litio",
+       "Hemodiálisis; vigilar rebote"
+      ],
+      [
+       "Metformina",
+       "Hemodiálisis si lactato alto o pH bajo"
+      ],
+      [
+       "Digoxina",
+       "Anticuerpos Fab, no diálisis"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Bajó a 0.9. Pero falta alguien: el que mezcla todo."
+      ]
+     ]
+    }
+   ],
+   "card": "EXTRIP: hemodiálisis intermitente de elección. Litio: >4 mEq/L con TFG baja o alteración neurológica; vigilar rebote. Fármacos dializables: después de la sesión."
+  }
+ ],
+ "boss": {
+  "name": "El Intoxicado",
+  "color": "#9b59b6",
+  "dark": "#3a1a4e",
+  "heads": 1,
+  "form": "masa",
+  "crescent": false,
+  "intro": [
+   [
+    "El Intoxicado",
+    "Dosis, interacciones, toxicidad. Soy todo lo que recetaste sin ajustar."
+   ],
+   [
+    "Dr. J.",
+    "Farmacocinética primero. Luego decide si lo sacas con la máquina."
+   ]
+  ],
+  "outro": [
+   [
+    "El Intoxicado",
+    "Depurado…"
+   ],
+   [
+    "Dr. J.",
+    "Ya sabes viajar en un fármaco. Falta aprender a medir el daño."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Farmacocinética",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Intoxicado",
+      "¿Cuánto de mí está libre?"
+     ]
+    ],
+    "topics": [
+     "Farmacocinética"
+    ],
+    "questions": [
+     "ANT-1",
+     "ANT-2",
+     "ANT-3"
+    ]
+   },
+   {
+    "name": "Diuréticos y antihipertensivos",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Intoxicado",
+      "Cámbiame de segmento."
+     ]
+    ],
+    "topics": [
+     "Diuréticos y antihipertensivos"
+    ],
+    "questions": [
+     "ANT-4",
+     "ANT-5"
+    ]
+   },
+   {
+    "name": "Ajuste y diálisis",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Intoxicado",
+      "¿Me ajustaste a la TFG?"
+     ]
+    ],
+    "topics": [
+     "Ajuste y diálisis"
+    ],
+    "questions": [
+     "ANT-6",
+     "DIU-1",
+     "DIU-2"
+    ]
+   },
+   {
+    "name": "Extracorpóreo",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Intoxicado",
+      "Intenta dializarme."
+     ]
+    ],
+    "topics": [
+     "Extracorpóreo"
+    ],
+    "questions": [
+     "DIU-3",
+     "DIU-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [
+  {
+   "trial": "EXTRIP",
+   "mnemonic": "EXTRacorpóreo en Intoxicaciones: Panel de expertos.",
+   "result": "Recomendaciones por tóxico; hemodiálisis intermitente como modalidad preferida."
+  }
+ ],
+ "nefrodex": [
+  {
+   "title": "Viaje en Cápsula",
+   "text": "Litio: se reabsorbe como sodio (↑ con hipovolemia, tiazida, IECA, AINE). Dializable = PM bajo + poca unión a proteínas + Vd bajo."
+  },
+  {
+   "title": "Río de los Diuréticos",
+   "text": "Asa: umbral y techo; llegan por OAT. Resistencia → dosis, frecuencia, bloqueo secuencial. Tiazida: ↓calciuria, ↑úrico, hiponatremia."
+  },
+  {
+   "title": "Circuito Extracorpóreo",
+   "text": "EXTRIP: hemodiálisis intermitente de elección. Litio: >4 mEq/L con TFG baja o alteración neurológica; vigilar rebote. Fármacos dializables: después de la sesión."
+  },
+  {
+   "title": "💎 Inhibidores de calcineurina: mecanismo d",
+   "text": "ICN: sustratos CYP3A4/P-gp; verapamilo, diltiazem, azoles y macrólidos ↑ niveles; inductores (rifampicina) ↓. Nefrotoxicidad aguda = vasoconstricción aferente."
+  },
+  {
+   "title": "💎 Azatioprina: interacción con inhibidores",
+   "text": "Azatioprina + alopurinol/febuxostat → ↑6-TGN → pancitopenia. Cambiar a micofenolato o reducir mucho la dosis con vigilancia."
+  },
+  {
+   "title": "💎 Resistencia a diuréticos de asa",
+   "text": "Resistencia a asa: añadir tiazida (bloqueo secuencial de la nefrona). Dosis más altas de furosemida tienen techo."
+  },
+  {
+   "title": "💎 Efectos adversos de las tiazidas",
+   "text": "Tiazidas (NCC): ↓K, ↓Na, ↓Mg, ↑Ca, ↑urato, ↑glucosa, ↑lípidos (dosis dependientes); disfunción sexual/sueño no dependen de dosis."
+  },
+  {
+   "title": "💎 Interacción tacrolimus–voriconazol",
+   "text": "Azoles, macrólidos, verapamilo/diltiazem, amiodarona, toronja ↑ tacrolimus (CYP3A4/5 + P-gp); voriconazol: dosis de tacrolimus a 1/3. Inductores (rifampicina, fenitoína, carbamazepina) ↓ niveles."
+  },
+  {
+   "title": "💎 Retiro del inhibidor enzimático y subinm",
+   "text": "Al retirar un inhibidor CYP3A (azol), la dosis reducida de tacrolimus queda corta en días → valle bajo y riesgo de rechazo. Biopsia si ↑Cr, y volver a la dosis previa con TDM a 3–5 días."
+  },
+  {
+   "title": "💎 Betabloqueador en insuficiencia cardiaca",
+   "text": "IC-FEVI reducida en HD: carvedilol/bisoprolol/metoprolol succinato, no atenolol; carvedilol no se dializa."
+  },
+  {
+   "title": "💎 Ciclofosfamida: toxicidad y ajuste",
+   "text": "Ciclofosfamida: nadir leucocitario día 10–14; ajustar dosis; mesna; GnRH para gónadas; tóxica en vejiga y médula."
+  }
+ ]
+}

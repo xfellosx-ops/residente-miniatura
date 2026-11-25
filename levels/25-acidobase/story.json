@@ -1,0 +1,1082 @@
+{
+ "meta": {
+  "id": "25",
+  "title": "Equilibrio ácido-base",
+  "key": "rm_v3_25",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Brecha",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Mar de Protones",
+   "palette": [
+    "#E8D8F0",
+    "#A080C0",
+    "#583878",
+    "#201030"
+   ],
+   "tiles": "pantano",
+   "vignette": "brecha",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Varón de 40 años. Tomó «mezcal» adulterado ayer. Hoy ve borroso y respira hondo."
+    ],
+    [
+     "Dr. J.",
+     "pH 7.10, bicarbonato 6, y nadie ha calculado las brechas."
+    ],
+    [
+     "Sabio Brenn",
+     "Cada gasometría se cruza igual: como piedras en un río, una tras otra."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Brecha Aniónica",
+     "lines": [
+      [
+       "Brecha Aniónica",
+       "Na − (Cl + HCO3). Normal alrededor de 12; corrígeme por albúmina."
+      ],
+      [
+       "Brecha Aniónica",
+       "Sumo 2.5 por cada gramo de albúmina debajo de 4."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "brecha aniónica"
+    },
+    {
+     "id": "npc2",
+     "name": "Fórmula de Winter",
+     "lines": [
+      [
+       "Fórmula de Winter",
+       "pCO2 esperada = 1.5 × HCO3 + 8 ± 2."
+      ],
+      [
+       "Fórmula de Winter",
+       "Si la pCO2 real es mayor, hay acidosis respiratoria añadida."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "compensación"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Delta-delta",
+     "ΔBA/ΔHCO3: <1 acidosis hiperclorémica añadida · >2 alcalosis metabólica añadida."
+    ],
+    [
+     "Letrero · Brecha osmolar",
+     "Osm medida − calculada >10: alcoholes tóxicos."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "ATR",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "pH bajo: bicarbonato y siguiente paciente."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Sin brechas no sé qué trato. Las calculo."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "CAD",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Caso encadenado CAD: trastorno primario y compensación"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t0_2",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "ALK-1",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "A esta edad la creatinina miente. Mejor no medir."
+      ],
+      [
+       "Dr. Anselmo Frágil",
+       "Mi caso: Alcalosis con hipertensión: perfil de renina y aldosterona"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Cistatina C… debí pedirla."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Lactato",
+     "type": "Molecular",
+     "topic": "Lactato"
+    },
+    {
+     "name": "Cetoácido",
+     "type": "Molecular",
+     "topic": "Cetoácido"
+    },
+    {
+     "name": "Ácido Fórmico",
+     "type": "Molecular",
+     "topic": "Ácido Fórmico"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Abordaje sistemático de la gasometría",
+     "text": [
+      [
+       "Sabio Brenn",
+       "pH, trastorno primario, compensación, brecha aniónica, delta-delta. Siempre."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Gasometría paso a paso",
+     "items": [
+      "pH: ¿acidemia o alcalemia?",
+      "Trastorno primario: HCO3 o pCO2",
+      "¿Compensación adecuada?",
+      "Brecha aniónica corregida por albúmina",
+      "Delta-delta",
+      "Brecha osmolar si la aniónica es alta"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Acidosis metabólica",
+     "bins": [
+      "Brecha aniónica alta",
+      "Brecha normal"
+     ],
+     "items": [
+      [
+       "Cetoacidosis",
+       "Brecha aniónica alta"
+      ],
+      [
+       "Diarrea",
+       "Brecha normal"
+      ],
+      [
+       "Metanol / etilenglicol",
+       "Brecha aniónica alta"
+      ],
+      [
+       "ATR distal",
+       "Brecha normal"
+      ],
+      [
+       "Acidosis láctica",
+       "Brecha aniónica alta"
+      ],
+      [
+       "Ureterosigmoidostomía",
+       "Brecha normal"
+      ],
+      [
+       "5-oxoprolina (paracetamol)",
+       "Brecha aniónica alta"
+      ],
+      [
+       "Solución salina masiva",
+       "Brecha normal"
+      ],
+      [
+       "Uremia avanzada",
+       "Brecha aniónica alta"
+      ],
+      [
+       "Acetazolamida",
+       "Brecha normal"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Abordaje de la alcalosis metabólica",
+     "items": [
+      "Confirmar HCO3 alto y pH alcalino",
+      "Verificar compensación: pCO2 ≈ HCO3 + 10",
+      "Evaluar volumen y presión arterial",
+      "Medir cloro urinario",
+      "Si HTA: renina y aldosterona",
+      "Tratar: NaCl y KCl, acetazolamida o bloqueo según la causa"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Brecha osmolar de 60. Sigue al metanol hasta el hígado."
+      ]
+     ]
+    }
+   ],
+   "card": "Winter: pCO2 = 1.5×HCO3 + 8 ± 2. BA corregida por albúmina. Delta-delta descubre trastornos mixtos. Brecha osmolar >10: alcoholes."
+  },
+  {
+   "id": "z2",
+   "name": "Hígado y Retina",
+   "palette": [
+    "#E0F8D0",
+    "#88C070",
+    "#346856",
+    "#081820"
+   ],
+   "tiles": "bosque",
+   "vignette": "metanol",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "La ADH hace formaldehído; la aldehído deshidrogenasa lo vuelve ácido fórmico."
+    ],
+    [
+     "Sabio Brenn",
+     "Al inicio, brecha osmolar alta. Después, la aniónica crece y la osmolar baja."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Fomepizol",
+     "lines": [
+      [
+       "Fomepizol",
+       "Bloqueo la alcohol deshidrogenasa. Sin metabolito, no hay toxicidad."
+      ],
+      [
+       "Fomepizol",
+       "Si no me tienes, el etanol compite por la enzima."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "fomepizol"
+    },
+    {
+     "id": "npc2",
+     "name": "Ácido Fólico",
+     "lines": [
+      [
+       "Ácido Fólico",
+       "Ayudo a convertir el ácido fórmico en CO2 y agua. Dame en metanol."
+      ]
+     ],
+     "gift": "xp",
+     "recall": null
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · EXTRIP metanol",
+     "Hemodiálisis si hay coma, convulsiones, déficit visual, pH ≤7.15 o brecha aniónica >24."
+    ],
+    [
+     "Letrero · Etilenglicol",
+     "Cristales de oxalato de calcio y LRA. Cofactores: tiamina y piridoxina."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "uti",
+     "specialty": "Terapia Intensiva",
+     "serie": "VOL",
+     "intro": [
+      [
+       "Dr. Max Presor",
+       "Brecha osmolar normal: descarto metanol."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Max Presor",
+       "Si ya se metabolizó, la brecha osmolar baja… no lo descarto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "valeria",
+     "specialty": "Rival",
+     "serie": "ETG",
+     "intro": [
+      [
+       "Dra. Valeria Montes",
+       "Brecha aniónica alta: MUDPILES y listo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Valeria Montes",
+       "¿Brecha osmolar? Mi mnemotecnia no la tenía."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 2
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "UAG-1",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Brecha aniónica urinaria: diarrea frente a ATR distal"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Formaldehído",
+     "type": "Molecular",
+     "topic": "Formaldehído"
+    },
+    {
+     "name": "Oxalato de Calcio",
+     "type": "Molecular",
+     "topic": "Oxalato de Calcio"
+    },
+    {
+     "name": "Propilenglicol",
+     "type": "Molecular",
+     "topic": "Propilenglicol"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_1",
+     "topic": "Alcoholes tóxicos: brechas, antídoto y hemodiálisis",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: las dos brechas se invierten con el tiempo."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Brecha aniónica alta",
+     "items": [],
+     "pairs": [
+      [
+       "Metanol",
+       "Ácido fórmico; ceguera"
+      ],
+      [
+       "Etilenglicol",
+       "Oxalato; LRA"
+      ],
+      [
+       "Cetoacidosis",
+       "β-hidroxibutirato"
+      ],
+      [
+       "Salicilatos",
+       "Con alcalosis respiratoria"
+      ],
+      [
+       "Lactato tipo B",
+       "Metformina, linezolid"
+      ],
+      [
+       "5-oxoprolina",
+       "Paracetamol crónico"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Alcalosis metabólica por cloro urinario",
+     "bins": [
+      "Cl urinario <20",
+      "Cl urinario >20 con PA normal o baja",
+      "Cl urinario >20 con HTA"
+     ],
+     "items": [
+      [
+       "Vómito o succión nasogástrica",
+       "Cl urinario <20"
+      ],
+      [
+       "Diurético que ya se suspendió",
+       "Cl urinario <20"
+      ],
+      [
+       "Alcalosis poshipercápnica",
+       "Cl urinario <20"
+      ],
+      [
+       "Diurético tomado hoy",
+       "Cl urinario >20 con PA normal o baja"
+      ],
+      [
+       "Síndrome de Gitelman",
+       "Cl urinario >20 con PA normal o baja"
+      ],
+      [
+       "Síndrome de Bartter",
+       "Cl urinario >20 con PA normal o baja"
+      ],
+      [
+       "Hiperaldosteronismo primario",
+       "Cl urinario >20 con HTA"
+      ],
+      [
+       "Síndrome de Liddle",
+       "Cl urinario >20 con HTA"
+      ],
+      [
+       "Regaliz",
+       "Cl urinario >20 con HTA"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Fórmula de Winter",
+       "pCO₂ = 1.5×HCO₃ + 8 ± 2"
+      ],
+      [
+       "Brecha aniónica",
+       "Na − (Cl + HCO₃); corregir por albúmina"
+      ],
+      [
+       "Delta/delta > 2",
+       "Alcalosis metabólica concomitante"
+      ],
+      [
+       "Brecha aniónica urinaria +",
+       "ATR distal (↓NH₄⁺)"
+      ],
+      [
+       "Alcalosis cloro-sensible",
+       "Cl urinario <20 (vómito)"
+      ],
+      [
+       "Alcalosis cloro-resistente",
+       "Exceso mineralocorticoide"
+      ],
+      [
+       "Láctica tipo B",
+       "Sin hipoperfusión (metformina)"
+      ],
+      [
+       "5-oxoprolina",
+       "Paracetamol crónico"
+      ],
+      [
+       "Cetoacidosis euglucémica",
+       "iSGLT2"
+      ],
+      [
+       "GOLDMARK",
+       "Acidosis con brecha aumentada"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Falta el otro lado: cuando sobra bicarbonato."
+      ]
+     ]
+    }
+   ],
+   "card": "Metanol: fomepizol + folato + HD (pH ≤7.15, visión, BA >24). Brecha osmolar alta temprana → aniónica alta tardía."
+  },
+  {
+   "id": "z3",
+   "name": "Túbulo del Bicarbonato",
+   "palette": [
+    "#D0F0FF",
+    "#5AB4E8",
+    "#1F6AA8",
+    "#0A2A4A"
+   ],
+   "tiles": "colector",
+   "vignette": "intercalada",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Brecha aniónica normal: o pierdes bicarbonato por el intestino, o el túbulo falla."
+    ],
+    [
+     "Sabio Brenn",
+     "La brecha aniónica urinaria lo distingue: negativa si el riñón excreta amonio."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Amonio",
+     "lines": [
+      [
+       "Amonio",
+       "Soy la forma en que el riñón tira ácido. La hiperpotasemia me frena."
+      ],
+      [
+       "Amonio",
+       "Por eso la ATR tipo 4 mejora al bajar el potasio."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "amoniogénesis"
+    },
+    {
+     "id": "npc2",
+     "name": "Cloro Urinario",
+     "lines": [
+      [
+       "Cloro Urinario",
+       "En alcalosis metabólica, si estoy por debajo de 20: responde a salina."
+      ],
+      [
+       "Cloro Urinario",
+       "Si estoy alto: piensa en mineralocorticoides, Bartter o Gitelman."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "alcalosis metabólica"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · ATR",
+     "Tipo 1: no acidifica (pH urinario >5.5), litos, K bajo · Tipo 2: Fanconi · Tipo 4: K alto."
+    ],
+    [
+     "Letrero · Alcalosis",
+     "Generación + mantenimiento: volumen, cloro, potasio o aldosterona."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t2_0",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "SNG",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Alcalosis con sonda nasogástrica: es respiratoria, que respire menos."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "Cloro urinario bajo… salina y potasio. Qué pena."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t2_1",
+     "cast": "cx",
+     "specialty": "Cirugía",
+     "serie": "ALB-1",
+     "intro": [
+      [
+       "Dr. Rocco Filo",
+       "Si duele, se opera. Si no, también."
+      ],
+      [
+       "Dr. Rocco Filo",
+       "Mi caso: Brecha aniónica corregida por albúmina"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Rocco Filo",
+       "No todo se resuelve con bisturí. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t2_2",
+     "cast": "hema",
+     "specialty": "Hematología",
+     "serie": "ERCA-1",
+     "intro": [
+      [
+       "Dra. Sara Esquistocito",
+       "Esquistocitos: ya sé, pura coagulopatía."
+      ],
+      [
+       "Dra. Sara Esquistocito",
+       "Mi caso: Acidosis metabólica en ERC: cuándo tratar"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sara Esquistocito",
+       "MAT: el riñón sí importa. Pasa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Diarrea Hiperclorémica",
+     "type": "Molecular",
+     "topic": "Diarrea Hiperclorémica"
+    },
+    {
+     "name": "Vómito Alcalino",
+     "type": "Molecular",
+     "topic": "Vómito Alcalino"
+    },
+    {
+     "name": "Hipercapnia Crónica",
+     "type": "Molecular",
+     "topic": "Hipercapnia Crónica"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t2_0",
+     "topic": "Acidosis tubular renal y alcalosis metabólica",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Tres ATR y un cloro urinario. Con eso resuelves la mitad del examen."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "ATR y su firma",
+     "items": [],
+     "pairs": [
+      [
+       "Tipo 1 distal",
+       "pH urinario >5.5, litos, K bajo"
+      ],
+      [
+       "Tipo 2 proximal",
+       "Bicarbonaturia, Fanconi"
+      ],
+      [
+       "Tipo 4",
+       "K alto, hipoaldosteronismo"
+      ],
+      [
+       "Diarrea",
+       "BA urinaria negativa"
+      ],
+      [
+       "Sjögren",
+       "Causa clásica de tipo 1"
+      ]
+     ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "Análisis ácido-base",
+     "items": [
+      "Validar la gasometría y ver el pH",
+      "Identificar el trastorno primario",
+      "Verificar la compensación esperada (Winter, etc.)",
+      "Calcular la brecha aniónica corregida por albúmina",
+      "Si BA alta: delta/delta",
+      "Integrar con la clínica"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "pH 7.28 tras la diálisis. La brecha quiere hablar contigo."
+      ]
+     ]
+    }
+   ],
+   "card": "BA normal: BA urinaria (negativa = intestino). ATR 1 (K bajo, litos), 2 (Fanconi), 4 (K alto). Alcalosis: Cl urinario <20 responde a salina."
+  }
+ ],
+ "boss": {
+  "name": "La Brecha",
+  "color": "#7a4fd0",
+  "dark": "#2a1255",
+  "heads": 1,
+  "form": "maquina",
+  "crescent": false,
+  "intro": [
+   [
+    "La Brecha",
+    "Soy lo que no mides. Aniónica, osmolar, urinaria: tengo tres caras."
+   ],
+   [
+    "Dr. J.",
+    "Cruza las piedras en orden. No te saltes ninguna."
+   ]
+  ],
+  "outro": [
+   [
+    "La Brecha",
+    "Me cerraste."
+   ],
+   [
+    "Sabio Brenn",
+    "Recuperó la vista a medias. El tiempo era el tóxico."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Gasometría",
+    "type": "Molecular",
+    "lines": [
+     [
+      "La Brecha",
+      "Léeme paso a paso."
+     ]
+    ],
+    "topics": [
+     "Gasometría"
+    ],
+    "questions": [
+     "ACB-1",
+     "ACB-2",
+     "ACB-3"
+    ]
+   },
+   {
+    "name": "Brecha alta",
+    "type": "Celular",
+    "lines": [
+     [
+      "La Brecha",
+      "¿Qué anión soy?"
+     ]
+    ],
+    "topics": [
+     "Brecha alta"
+    ],
+    "questions": [
+     "ACB-4",
+     "EKD-1"
+    ]
+   },
+   {
+    "name": "Brecha normal y alcalosis",
+    "type": "Humoral",
+    "lines": [
+     [
+      "La Brecha",
+      "Ahora sin anión extra."
+     ]
+    ],
+    "topics": [
+     "Brecha normal y alcalosis"
+    ],
+    "questions": [
+     "EKD-2",
+     "EKD-3",
+     "RESP-1"
+    ]
+   },
+   {
+    "name": "Mixtos y diálisis",
+    "type": "Complemento",
+    "lines": [
+     [
+      "La Brecha",
+      "Dos trastornos a la vez."
+     ]
+    ],
+    "topics": [
+     "Mixtos y diálisis"
+    ],
+    "questions": [
+     "RESP-2",
+     "RESP-3"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Mar de Protones",
+   "text": "Winter: pCO2 = 1.5×HCO3 + 8 ± 2. BA corregida por albúmina. Delta-delta descubre trastornos mixtos. Brecha osmolar >10: alcoholes."
+  },
+  {
+   "title": "Hígado y Retina",
+   "text": "Metanol: fomepizol + folato + HD (pH ≤7.15, visión, BA >24). Brecha osmolar alta temprana → aniónica alta tardía."
+  },
+  {
+   "title": "Túbulo del Bicarbonato",
+   "text": "BA normal: BA urinaria (negativa = intestino). ATR 1 (K bajo, litos), 2 (Fanconi), 4 (K alto). Alcalosis: Cl urinario <20 responde a salina."
+  },
+  {
+   "title": "💎 Acidosis metabólica de brecha elevada: c",
+   "text": "euDKA por iSGLT2: glucosa <250, BHB >3, AG alto. Desencadenantes: ayuno/cirugía, vómito, infección, reducción de insulina, alcohol. Winter: PaCO₂ = 1.5×HCO₃ + 8 ± 2."
+  },
+  {
+   "title": "💎 Caso encadenado CAD: trastorno primario ",
+   "text": "Winter (cap. 15): pCO2 = 1.5 × HCO3 + 8 ± 2. Johnson cap. 13 da equivalentes: ↓1.2 de pCO2 por cada 1 de HCO3, pCO2 ≈ HCO3 + 15 o ≈ decimales del pH. Si la pCO2 se aleja más de 5 de lo esperado, hay trastorno respiratorio agregado."
+  },
+  {
+   "title": "💎 Caso encadenado: brecha osmolar y alcoho",
+   "text": "Brecha osmolar normal <10 (incluir etanol/4.6). Cada 100 mg/dL de etilenglicol suma ~16 mOsm; de metanol ~32. Etilenglicol: oxalato y LRA a las 24–36 h. Metanol: retina, pancreatitis, putamen (Johnson cap. 13)."
+  },
+  {
+   "title": "💎 Caso encadenado: alcalosis por succión g",
+   "text": "Alcalosis metabólica: pCO2 ≈ HCO3 + 10 (Johnson cap. 14, válido con HCO3 30–50) o 40 + 0.7 × ΔHCO3. Leve: 45–50; grave: 50–55. pCO2 >55 sugiere debilidad respiratoria por hipoK o acidosis respiratoria agregada."
+  },
+  {
+   "title": "💎 Cetoacidosis: insulina y potasio",
+   "text": "DKA/euDKA (consenso ADA 2024): K <3.5 → reponer antes de insulina; K <5.0 → iniciar reposición (meta 4–5); ≥5.0 → vigilar. euDKA: insulina + dextrosa 5–10%. Cerrar AG, BHB <0.6. Bicarbonato solo si pH <7.0."
+  },
+  {
+   "title": "💎 Cetoacidosis: delta-delta y prevención",
+   "text": "Hold iSGLT2: 3 d antes de cirugía (ertugliflozina 4 d), en enfermedad aguda/ayuno. Reinicio con ingesta estable. Recuperación de DKA: acidosis hiperclorémica residual común."
+  },
+  {
+   "title": "💎 Caso encadenado CAD: brecha aniónica y d",
+   "text": "Δ/Δ = (BA − 12)/(24 − HCO3): <1 → acidosis hiperclorémica agregada; 1–2 → BA pura; >2 → alcalosis metabólica agregada. Vómito + CAD es el ejemplo clásico."
+  },
+  {
+   "title": "💎 Caso encadenado: sodio urinario frente a",
+   "text": "Vómito o SNG: Na urinario puede ser >20 (bicarbonaturia), pero Cl urinario <20 = depleción de volumen → alcalosis cloro-sensible."
+  }
+ ]
+}

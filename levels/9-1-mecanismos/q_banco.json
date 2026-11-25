@@ -1,0 +1,1385 @@
+[
+ {
+  "id": "PIGN-1",
+  "serie_id": "PIGN",
+  "orden": 1,
+  "sub": "9.d.1",
+  "subtema": "GN posinfecciosa: cuadro y complemento",
+  "dificultad": "moderada",
+  "caso": "Mujer de 19 años con orina oscura, edema periorbitario y cefalea 14 días después de una faringitis. TA 158/98 mmHg, creatinina 1.8 mg/dL, proteinuria 1.9 g/24 h, hematuria con cilindros eritrocitarios. ASO elevada. C3 36 mg/dL (bajo), C4 normal.",
+  "enunciado": "¿Qué patrón de complemento e histología se espera y cuál es la evolución de C3?",
+  "opciones": {
+   "A": "C3 normal y C4 bajo; IF mesangial de IgA dominante, con hematuria macroscópica recurrente tras infecciones de vías respiratorias",
+   "B": "Complemento normal; histología de cambios mínimos, con borramiento podocitario difuso y proteinuria en rango nefrótico pleno",
+   "C": "C3 persistentemente bajo por más de un año; IF sin depósitos de inmunoglobulinas ni de C3 en los capilares glomerulares periféricos",
+   "D": "C3 y C4 bajos (vía clásica); IF lineal de IgG a lo largo de la membrana basal glomerular, con semilunas",
+   "E": "C3 bajo con C4 normal (vía alterna); IF granular de C3/IgG y «humps» subepiteliales; el C3 se normaliza en 8-12 semanas"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El C3 normal con C4 bajo y depósitos de IgA no corresponde a la GN posestreptocócica.",
+   "B": "La enfermedad de cambios mínimos no cursa con hematuria ni hipocomplementemia.",
+   "C": "El C3 que persiste bajo más de 8–12 semanas obliga a pensar en glomerulopatía C3, no en GN posinfecciosa típica.",
+   "D": "C4 bajo con C3 bajo sugiere activación de la vía clásica (lupus, crioglobulinemia, endocarditis); el depósito lineal de IgG es la enfermedad anti-MBG.",
+   "E": "La glomerulonefritis posestreptocócica aparece 1–3 semanas después de faringitis (3–6 semanas tras infección cutánea), con síndrome nefrítico, hipocomplementemia con C3 bajo y C4 normal por activación de la vía alterna del complemento, y recuperación de C3 en 8–12 semanas. La biopsia (rara vez necesaria) muestra proliferación endocapilar con neutrófilos, IF granular de C3 con o sin IgG («cielo estrellado») y «humps» subepiteliales en la microscopía electrónica. El tratamiento es de soporte (diurético, antihipertensivo, restricción de sodio) y se evalúan contactos."
+  },
+  "perla": "PIGN: C3↓ C4 normal (vía alterna) → normaliza en 8–12 sem. Humps subepiteliales, IF granular C3±IgG. C3 bajo persistente >12 sem = C3G.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Rodriguez-Iturbe B, Haas M. Microbiol Spectr 2016;4"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o8",
+  "peso": 69.4
+ },
+ {
+  "id": "PIGN-2",
+  "serie_id": "PIGN",
+  "orden": 2,
+  "sub": "9.c.4",
+  "subtema": "Hipocomplementemia persistente: C3G",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 12 semanas la TA se controló, pero persiste hematuria, proteinuria de 3.4 g/24 h, creatinina 1.5 mg/dL y C3 de 38 mg/dL (sin normalizar). C4 normal.",
+  "enunciado": "¿Qué debe considerarse y cuál es el siguiente paso?",
+  "opciones": {
+   "A": "Considerar nefritis lúpica y solicitar únicamente anti-dsDNA, sin biopsia renal ni estudios adicionales del complemento del paciente",
+   "B": "Repetir ASO y esperar 6 meses más antes de plantear otros diagnósticos, porque la hipocomplementemia puede persistir",
+   "C": "Glomerulopatía C3: biopsia con IF y microscopía electrónica y estudio de la vía alterna (C3Nef, factor H, mutaciones) y de gammapatía",
+   "D": "Tratar con un nuevo ciclo de antibióticos para erradicar el estreptococo y así normalizar el C3 y la proteinuria",
+   "E": "Iniciar esteroides empíricamente sin biopsia, por la proteinuria en rango nefrótico y la hipocomplementemia persistente"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Descartar lupus es razonable, pero el complemento con C4 normal y el contexto apuntan a vía alterna; el estudio debe incluir biopsia y complemento ampliado.",
+   "B": "Esperar sin diagnóstico retrasa el tratamiento de una enfermedad con riesgo de progresión.",
+   "C": "La hipocomplementemia (C3 bajo) que persiste más de 8–12 semanas con proteinuria y deterioro de función orienta a glomerulopatía C3 o glomerulonefritis membranoproliferativa por desregulación de la vía alterna, con un episodio infeccioso como desencadenante. Se requiere biopsia con IF (C3 dominante, al menos dos órdenes de magnitud mayor que cualquier inmunoglobulina) y microscopía electrónica (depósitos intramembranosos densos en enfermedad de depósitos densos, o subendoteliales/mesangiales/subepiteliales en C3GN). Se estudian C3 nefrítico (C3Nef), autoanticuerpos anti-factor H, mutaciones (CFH, CFI, CFHR, MCP, C3), C5b-9 soluble y, en mayores de 50 años, proteína monoclonal.",
+   "D": "La infección ya se resolvió; más antibióticos no tienen utilidad en la GN posinfecciosa.",
+   "E": "Iniciar esteroides sin biopsia puede ser inadecuado y no define el diagnóstico."
+  },
+  "perla": "C3 bajo >12 sem tras PIGN → C3G. IF: C3 ≥2 órdenes > Ig. DDD: depósitos intramembranosos densos; C3GN: otros sitios. Estudiar C3Nef, FH-Ab, genética, monoclonal (>50 años).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Smith RJH et al. Nat Rev Nephrol 2019;15:129"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o6",
+  "peso": 73.9
+ },
+ {
+  "id": "PIGN-3",
+  "serie_id": "PIGN",
+  "orden": 3,
+  "sub": "9.c.4",
+  "subtema": "Glomerulopatía C3: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia confirma C3GN: IF con C3 dominante (3+) y depósitos mesangiales y subendoteliales con membranoproliferación; C3 nefrítico (C3Nef) positivo. Proteinuria de 3.4 g/24 h, creatinina 1.5 mg/dL, sin proteína monoclonal. Ya tiene IECA a dosis máxima.",
+  "enunciado": "¿Cuál es la terapia con mejor sustento?",
+  "opciones": {
+   "A": "Ciclofosfamida con esteroides como primera elección en toda glomerulopatía C3 con proteinuria nefrótica y deterioro de la función",
+   "B": "Solo observación porque la glomerulopatía C3 es benigna y casi siempre remite de forma espontánea",
+   "C": "Recambio plasmático rutinario en todos los casos, para eliminar el factor nefrítico C3 circulante",
+   "D": "Rituximab como esquema inicial, para depletar los linfocitos B productores del factor nefrítico C3",
+   "E": "Micofenolato más glucocorticoides; si progresa, bloqueo del complemento (eculizumab, iptacopan o pegcetacoplan)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La ciclofosfamida se limita a formas rápidamente progresivas; no es primera línea en C3GN.",
+   "B": "La glomerulopatía C3 tiene riesgo importante de progresión (≈50% en 10 años) y de recurrencia postrasplante.",
+   "C": "El recambio plasmático no se recomienda de rutina, con evidencia solo de series de casos.",
+   "D": "El rituximab no es esquema inicial en C3G.",
+   "E": "En la glomerulopatía C3/MPGN con proteinuria significativa que persiste tras soporte, KDIGO 2021 sugiere micofenolato más glucocorticoides; si la enfermedad es rápidamente progresiva se pueden usar pulsos de esteroides con ciclofosfamida y la inhibición del complemento. Eculizumab se ha usado en RPGN por C3G; recientemente la FDA aprobó iptacopan (inhibidor oral del factor B, marzo de 2025) y pegcetacoplan (inhibidor de C3, 2025) para C3G, que reducen la proteinuria. El recambio plasmático es controvertido y no es rutinario."
+  },
+  "perla": "C3G: soporte + MMF/GC; RPGN: pulsos GC ± CFM, eculizumab. Aprobados 2025: iptacopan (C3G), pegcetacoplan (C3G/IC-MPGN). Recurrencia postTx alta (>50%).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Fabhalta (iptacopan) FDA approval for C3G, marzo 2025"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o6",
+  "peso": 61.9
+ },
+ {
+  "id": "CRIO-1",
+  "serie_id": "CRIO",
+  "orden": 1,
+  "sub": "9.d.3",
+  "subtema": "Crioglobulinemia mixta: diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Mujer de 58 años con púrpura palpable en miembros inferiores, artralgias, neuropatía periférica y fatiga. Creatinina 1.7 mg/dL, proteinuria 3.2 g/24 h, hematuria glomerular, HTA. C4 indetectable, C3 70 mg/dL (límite bajo), factor reumatoide muy elevado, ANCA y anti-GBM negativos. Anti-VHC positivo y ARN-VHC 2.4 × 10⁶ UI/mL.",
+  "enunciado": "¿Cuál es el diagnóstico y el hallazgo histológico característico?",
+  "opciones": {
+   "A": "Vasculitis crioglobulinémica mixta (tipo II) por VHC, con GN membranoproliferativa, trombos intraluminales hialinos y doble contorno",
+   "B": "Poliangeítis microscópica con GN pauci-inmune, con semilunas necrosantes y anticuerpos MPO-ANCA positivos",
+   "C": "Amiloidosis AL con depósitos de cadenas ligeras, rojo Congo positivo y fibrillas de 8 a 12 nm en el mesangio",
+   "D": "Glomerulonefritis posestreptocócica con humps subepiteliales, C3 bajo y C4 normal, tras una infección previa de la piel",
+   "E": "Nefritis lúpica clase V con anticuerpos antifosfolípidos, depósitos subepiteliales y patrón «full-house»"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Púrpura palpable, neuropatía, artralgias, hipocomplementemia con C4 desproporcionadamente bajo (activación de la vía clásica), FR elevado y VHC activo establecen la vasculitis crioglobulinémica mixta (tipo II: IgM monoclonal κ con actividad FR y IgG policlonal). La lesión renal típica es una glomerulonefritis membranoproliferativa por inmunocomplejos con infiltrado de monocitos, trombos hialinos intraluminales (crioprecipitados) y doble contorno de la membrana basal. La cuantificación de crioglobulinas requiere extracción y transporte a 37 °C.",
+   "B": "La poliangeítis microscópica tiene ANCA y GN pauci-inmune sin hipocomplementemia ni FR muy elevado.",
+   "C": "La amiloidosis AL cursa con proteinuria sin hematuria ni hipocomplementemia.",
+   "D": "La GN posestreptocócica tiene C4 normal y humps; el cuadro sistémico con púrpura y neuropatía no corresponde.",
+   "E": "El lupus no explica el VHC activo ni la crioglobulinemia; la serología (ANA, dsDNA) no se reporta."
+  },
+  "perla": "Crioglobulinemia tipo II: IgM κ monoclonal + IgG policlonal; C4 muy bajo, FR+; VHC en la mayoría. Riñón: MPGN con trombos hialinos y doble contorno. Toma de muestra a 37 °C.",
+  "referencias": [
+   "KDIGO 2022 Hepatitis C in CKD. Kidney Int 2022;102(6S)",
+   "Roccatello D et al. Nat Rev Dis Primers 2018;4:11"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Nataly26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o10",
+  "peso": 65.6
+ },
+ {
+  "id": "CRIO-2",
+  "serie_id": "CRIO",
+  "orden": 2,
+  "sub": "9.d.3",
+  "subtema": "Crioglobulinemia por VHC: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia confirma MPGN con trombos intraluminales. Creatinina 2.4 mg/dL en dos semanas, úlceras necróticas en piernas y mononeuritis múltiple progresiva.",
+  "enunciado": "¿Cuál es el tratamiento más apropiado?",
+  "opciones": {
+   "A": "Solo antivirales de acción directa, sin inmunosupresión, porque la erradicación viral basta incluso en la vasculitis grave",
+   "B": "Ciclofosfamida oral en monoterapia, sin antivirales de acción directa ni rituximab, como inducción",
+   "C": "Interferón pegilado con ribavirina como único esquema, sin inmunosupresión, por ser el tratamiento antiviral estándar",
+   "D": "Antivirales de acción directa contra VHC y, por la vasculitis grave, rituximab con glucocorticoides (recambio si hay hiperviscosidad)",
+   "E": "Esteroides solos y observación, sin antivirales, hasta que mejore la función renal del paciente"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "En formas graves los DAA solos no controlan con rapidez la vasculitis; se añade inmunosupresión.",
+   "B": "La ciclofosfamida no es la opción preferida en crioglobulinemia por VHC; el rituximab tiene mejor evidencia.",
+   "C": "El interferón con ribavirina está obsoleto, es mal tolerado en ERC y no se usa con DAA disponibles.",
+   "D": "En la vasculitis crioglobulinémica asociada a VHC con manifestaciones graves (GN con deterioro, úlceras, neuropatía progresiva) se combina tratamiento antiviral (antivirales de acción directa seguros en ERC, como glecaprevir/pibrentasvir o sofosbuvir/velpatasvir, según TFG) con inmunosupresión dirigida a las células B: rituximab (375 mg/m² semanal × 4 o 1 g × 2) con pulsos de metilprednisolona. El recambio plasmático se reserva a hiperviscosidad, síndrome de crioglobulinemia fulminante o refractariedad. La respuesta viral sostenida (RVS12) se logra en más de 95% con DAA.",
+   "E": "Los esteroides solos no tratan la causa y exponen a mayor replicación viral."
+  },
+  "perla": "VHC-crioglobulinemia: DAA + rituximab ± GC si enfermedad grave; PLEX si hiperviscosidad. DAA seguros en ERC/diálisis (GLE/PIB; SOF/VEL).",
+  "referencias": [
+   "KDIGO 2022 Hepatitis C in CKD. Kidney Int 2022;102(6S)",
+   "Sise ME et al. Hepatology 2016;63:408"
+  ],
+  "origen": [
+   "BancoAyuda",
+   "Nataly26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o10",
+  "peso": 67.6
+ },
+ {
+  "id": "CRIO-3",
+  "serie_id": "CRIO",
+  "orden": 3,
+  "sub": "9.d.3",
+  "subtema": "Crioglobulinemia: respuesta tras RVS",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Recibió rituximab, esteroides y 12 semanas de glecaprevir/pibrentasvir. A los 3 meses de terminar el antiviral: ARN-VHC indetectable (RVS12), lesiones cutáneas resueltas, creatinina 1.4 mg/dL, proteinuria 1.2 g/24 h, C4 todavía bajo, FR positivo y crioglobulinas aún detectables.",
+  "enunciado": "¿Cómo se interpreta y qué sigue?",
+  "opciones": {
+   "A": "Respuesta clínica y virológica favorable; C4, FR y crioglobulinas tardan meses en normalizar, así que se sigue la evolución",
+   "B": "Biopsia renal inmediata para descartar cicatriz irreversible antes de decidir cualquier otra conducta terapéutica o de seguimiento",
+   "C": "Fracaso terapéutico: repetir el antiviral de acción directa por 24 semanas con otro esquema distinto",
+   "D": "Indicación de iniciar ciclofosfamida por las crioglobulinas persistentes, pese a la remisión clínica y virológica completa del paciente",
+   "E": "Suspender el seguimiento porque la RVS12 es curativa y ya no puede haber recaída de la vasculitis"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La RVS12 confirma la curación virológica; la mejoría clínica y renal con proteinuria descendente indica respuesta. Los marcadores serológicos (C4, FR, crioglobulinas) se normalizan de forma gradual y su persistencia, sin actividad clínica, no obliga a más tratamiento. Se continúa el seguimiento clínico y de laboratorio (creatinina, proteinuria, crioglobulinas, linfoproliferación) porque pueden recaer cuando persiste una clona B; entonces se indicaría rituximab. También se vigila el riesgo de linfoma y de carcinoma hepatocelular.",
+   "B": "La biopsia repetida no está indicada con mejoría clínica y de función renal.",
+   "C": "Con RVS12 no se repite el antiviral; solo se re-trata si hay falla virológica.",
+   "D": "La persistencia serológica sin actividad clínica no indica ciclofosfamida.",
+   "E": "La RVS12 no elimina la necesidad de seguimiento renal, hepático y hematológico."
+  },
+  "perla": "Tras RVS12: seguimiento; serología puede persistir meses; recaída clínica → rituximab. Vigilar linfoma y CHC.",
+  "referencias": [
+   "KDIGO 2022 Hepatitis C in CKD. Kidney Int 2022;102(6S)"
+  ],
+  "origen": [
+   "BancoAyuda"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o10",
+  "peso": 65.6
+ },
+ {
+  "id": "NEE-3",
+  "serie_id": "NEE",
+  "orden": 3,
+  "sub": "9.b",
+  "subtema": "Preeclampsia sobreañadida vs brote de enfermedad glomerular",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 30 semanas la paciente tiene TA 152/98 mmHg, proteinuria 10 g/24 h, Cr 1.0 mg/dL, plaquetas 140,000/µL y transaminasas normales. Se plantea si es preeclampsia sobreañadida o actividad de la GEFS.",
+  "enunciado": "¿Qué estudio ayuda más a distinguirlas?",
+  "opciones": {
+   "A": "Velocidad de sedimentación globular, por ser el marcador inflamatorio que distingue la actividad glomerular",
+   "B": "Relación sFlt-1/PlGF: ≤38 hace improbable la preeclampsia a corto plazo; valores altos (≥85 antes de las 34 semanas) la apoyan",
+   "C": "C3 y C4, porque descienden de forma característica en la preeclampsia y permanecen normales en la GEFS activa",
+   "D": "ANCA, porque la preeclampsia sobreañadida se asocia con una vasculitis de pequeños vasos subyacente",
+   "E": "Anti-PLA2R sérico, porque su positividad distingue la preeclampsia sobreañadida de la actividad de la glomeruloesclerosis focal y segmentaria de la paciente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La VSG es inespecífica y aumenta en el embarazo.",
+   "B": "La preeclampsia sobreañadida y el brote de una glomerulopatía se parecen: ambos cursan con hipertensión y aumento de proteinuria. La relación sFlt-1/PlGF (PROGNOSIS: ≤38 descarta preeclampsia en la siguiente semana con alto valor predictivo negativo; ≥85 antes de 34 semanas apoya el diagnóstico) ayuda a diferenciar, junto con el resto del cuadro (plaquetopenia, elevación de transaminasas y LDH, hiperuricemia, deterioro de creatinina, afectación fetal). El inicio de hipertensión de novo y el empeoramiento súbito después de las 20 semanas favorecen preeclampsia.",
+   "C": "Los niveles de C3 y C4 caen en lupus y otras causas, no en GEFS ni preeclampsia.",
+   "D": "Los ANCA no distinguen entre estos diagnósticos.",
+   "E": "El anti-PLA2R apoya membranosa, no diferencia preeclampsia de GEFS."
+  },
+  "perla": "sFlt-1/PlGF ≤38 excluye preeclampsia a corto plazo; ≥85 (<34 SDG) la apoya. Útil para distinguirla de un brote glomerular.",
+  "referencias": [
+   "Zeisler H et al. N Engl J Med 2016;374:13",
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862"
+  ],
+  "origen": [
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 75.1
+ },
+ {
+  "id": "NSC-1",
+  "serie_id": "NSC",
+  "orden": 1,
+  "sub": "9.b",
+  "subtema": "Síndrome nefrótico: fisiopatología del edema",
+  "dificultad": "dificil",
+  "caso": "Hombre de 45 años con síndrome nefrótico de 4 semanas: proteinuria 9 g/24 h, albúmina 1.8 g/dL, LDL 250 mg/dL, Cr 1.2 mg/dL, edema 3+ con ascitis y derrame pleural pequeño, TA 138/86 mmHg, sin insuficiencia cardiaca. Su sodio urinario es bajo y su renina plasmática está suprimida.",
+  "enunciado": "¿Cuál es el mecanismo principal del edema en este paciente?",
+  "opciones": {
+   "A": "Aumento de la permeabilidad capilar por IL-6 únicamente, sin participación renal en la retención de sodio",
+   "B": "Insuficiencia cardiaca derecha oculta, con congestión sistémica y aumento de la presión venosa yugular",
+   "C": "Hipovolemia efectiva grave por presión oncótica baja, con activación intensa del eje renina-angiotensina-aldosterona y de la ADH",
+   "D": "Retención primaria de sodio en el colector por activación proteolítica de ENaC (plasmina), con volumen plasmático normal o alto",
+   "E": "Hiperaldosteronismo primario, con hipertensión grave, hipocalemia y renina suprimida desde el inicio"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La permeabilidad capilar contribuye de forma menor y no es el mecanismo central.",
+   "B": "No hay datos clínicos de falla cardiaca.",
+   "C": "El 'underfill' ocurre en un subgrupo, no es el mecanismo universal; aquí la renina está suprimida.",
+   "D": "En la mayoría de los adultos con síndrome nefrótico (y en la GN en general), la retención de sodio es primaria (renal): la plasmina filtrada y presente en la orina proteinúrica escinde la subunidad γ del ENaC en el túbulo colector, activando el canal e induciendo reabsorción de sodio independiente de aldosterona. El volumen plasmático es normal o aumentado, la renina y la aldosterona suelen estar suprimidas y hay hipertensión frecuente. La hipovolemia efectiva (hipótesis de 'underfill') ocurre en una minoría, sobre todo con albúmina <2 g/dL, cambios mínimos y niños.",
+   "E": "No hay aldosterona elevada ni hipopotasemia que sugiera hiperaldosteronismo."
+  },
+  "perla": "Edema nefrótico del adulto: retención primaria de Na por activación de ENaC (plasmina); renina/aldosterona bajas, volumen normal o alto → diuréticos de asa.",
+  "referencias": [
+   "Svenningsen P et al. J Am Soc Nephrol 2009;20:299",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o2",
+  "peso": 56.9
+ },
+ {
+  "id": "NSC-2",
+  "serie_id": "NSC",
+  "orden": 2,
+  "sub": "9.b",
+  "subtema": "Tratamiento del edema y resistencia a diuréticos",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Con furosemida oral 40 mg cada 12 horas y dieta 'normal', el paciente aumentó 3 kg en una semana. Presenta edema de pared intestinal y náusea.",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Restringir sodio <2 g/día y dar asa IV en dosis altas por el edema intestinal, con tiazida o amilorida si hay resistencia",
+   "B": "Dar solo espironolactona a dosis bajas, porque el edema del síndrome nefrótico se debe a hiperaldosteronismo",
+   "C": "Restringir agua a 500 mL/día como medida principal, sin cambiar el diurético ni la ingesta de sodio",
+   "D": "Infusión rutinaria de albúmina al 20% con cada dosis de diurético, para mantener la presión oncótica y la diuresis",
+   "E": "Suspender el diurético por riesgo de hipovolemia, y esperar a que el edema ceda con el reposo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La restricción de sodio (<2 g/día, equivalente a <5 g de sal) es la base. Se usan diuréticos de asa en dosis altas, por vía IV si hay edema de la pared intestinal (absorción errática), en bolos o infusión continua. La resistencia se debe a la unión del fármaco a la albúmina urinaria, a la hipertrofia del túbulo distal y a la activación de ENaC; se supera añadiendo tiazida (metolazona o clortalidona) o amilorida (que bloquea ENaC) y vigilando electrolitos. La albúmina no se da de manera rutinaria: tiene efecto breve y riesgo de sobrecarga, y solo se considera en hipovolemia sintomática o resistencia refractaria.",
+   "B": "La espironolactona sola es insuficiente para diuresis eficaz.",
+   "C": "El problema es el sodio, no el agua.",
+   "D": "La albúmina rutinaria no mejora de forma sostenida la respuesta y puede causar sobrecarga.",
+   "E": "Con sobrecarga hídrica sintomática suspender el diurético no es adecuado."
+  },
+  "perla": "Edema nefrótico resistente: Na <2 g/d + asa IV a dosis altas ± tiazida o amilorida (bloqueo secuencial); albúmina solo en casos seleccionados.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 54.9
+ },
+ {
+  "id": "NSC-3",
+  "serie_id": "NSC",
+  "orden": 3,
+  "sub": "9.b",
+  "subtema": "Dislipidemia del síndrome nefrótico",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Con la mejoría del edema se revisa el perfil lipídico: colesterol total 410 mg/dL, LDL 250 mg/dL, triglicéridos 330 mg/dL, lipoproteína(a) elevada. El síndrome nefrótico persistirá meses.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Fibratos como primera línea, porque reducen los triglicéridos y el LDL con mayor eficacia que las estatinas",
+   "B": "Iniciar estatina (con ezetimiba si es necesario), vigilando función renal y miopatía, por el riesgo cardiovascular persistente",
+   "C": "No tratar los lípidos porque siempre se corrigen solos en semanas, aunque el síndrome nefrótico dure varios meses",
+   "D": "Reemplazo con aceite de pescado en dosis altas como única medida, para reducir el colesterol y el LDL",
+   "E": "Dieta sin tratamiento farmacológico, sin importar la duración del síndrome nefrótico ni el riesgo cardiovascular"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Los fibratos aumentan el riesgo de miopatía y de elevación de creatinina, y no son primera línea.",
+   "B": "En el síndrome nefrótico hay mayor síntesis hepática de lipoproteínas, menor depuración (disminución de la actividad de lipoproteína lipasa y de receptores) y aumento de PCSK9, con elevación de LDL, VLDL y Lp(a). Si la enfermedad es persistente (varios meses, como en membranosa o GEFS), se recomienda estatina, además de dieta, con vigilancia de CK y función renal; la ezetimiba es opción complementaria. En enfermedades que remiten rápido (cambios mínimos), los lípidos se normalizan con la remisión y suele no requerirse tratamiento.",
+   "C": "En formas persistentes, la dislipidemia no se corrige sin remisión y expone a riesgo cardiovascular.",
+   "D": "El aceite de pescado no reduce LDL de manera eficaz.",
+   "E": "La dieta sola es insuficiente en las cifras descritas."
+  },
+  "perla": "Nefrótico persistente: estatina ± ezetimiba; Lp(a) y LDL altos por ↑ síntesis hepática, ↓ depuración y ↑ PCSK9. La remisión normaliza lípidos.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "KDIGO 2013 Lipid Management in CKD. Kidney Int Suppl 2013;3:259"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 54.9
+ },
+ {
+  "id": "NSC-4",
+  "serie_id": "NSC",
+  "orden": 4,
+  "sub": "9.b",
+  "subtema": "Riesgo infeccioso del síndrome nefrótico y vacunación",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Se planea iniciar inmunosupresión en este paciente. Presenta además fiebre de 38.5 °C y dolor abdominal difuso, con ascitis a tensión.",
+  "enunciado": "¿Cuál de las siguientes afirmaciones es correcta?",
+  "opciones": {
+   "A": "La pérdida de IgG y complemento predispone a infecciones por neumococo; hay que vacunar y descartar PBE con paracentesis diagnóstica",
+   "B": "La fiebre en nefrótico siempre es por actividad de la enfermedad, y no requiere estudios infecciosos",
+   "C": "Los antibióticos profilácticos se dan de manera sistemática en todos los adultos con síndrome nefrótico y ascitis",
+   "D": "La paracentesis está contraindicada por la hipoalbuminemia, aunque haya fiebre y ascitis a tensión",
+   "E": "No se requiere vacunación antes de inmunosupresión, porque las vacunas no son seguras en el nefrótico"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El síndrome nefrótico produce pérdida urinaria de IgG, factores B y D del complemento y alteración de la función esplénica y de la opsonización, con mayor riesgo de infecciones por S. pneumoniae y bacterias gramnegativas; en niños es clásica la peritonitis neumocócica. La fiebre con dolor abdominal y ascitis requiere paracentesis diagnóstica y cobertura antibiótica empírica. Antes de inmunosuprimir se actualizan vacunas inactivadas (neumococo conjugada y polisacárida, influenza, hepatitis B, SARS-CoV-2) y se evitan vacunas vivas durante la inmunosupresión intensa.",
+   "B": "La fiebre debe investigarse como infección hasta demostrar lo contrario.",
+   "C": "La profilaxis antibiótica no es sistemática en adultos.",
+   "D": "La paracentesis diagnóstica está indicada cuando se sospecha peritonitis.",
+   "E": "La vacunación debe hacerse antes de iniciar inmunosupresión."
+  },
+  "perla": "Nefrótico con fiebre y ascitis: paracentesis y antibiótico (neumococo). Vacunar (neumococo, influenza, VHB) antes de inmunosuprimir.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 54.9
+ },
+ {
+  "id": "NSC-5",
+  "serie_id": "NSC",
+  "orden": 5,
+  "sub": "9.b",
+  "subtema": "LRA en síndrome nefrótico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras furosemida IV 80 mg cada 8 horas más metolazona, el paciente tiene hipotensión ortostática (TA 92/58 mmHg), taquicardia, Cr 1.2 → 2.1 mg/dL, BUN/Cr elevado, FENa 0.4% y lactato normal. Persiste edema.",
+  "enunciado": "¿Cuál es la interpretación y el manejo?",
+  "opciones": {
+   "A": "Nefritis intersticial por diuréticos: iniciar prednisona, porque la FeNa baja es compatible con el cuadro",
+   "B": "Necrosis tubular aguda establecida: iniciar hemodiálisis, porque la creatinina se duplicó en pocos días",
+   "C": "Insuficiencia cardiaca: aumentar el diurético, porque la taquicardia indica congestión y no hipovolemia",
+   "D": "Hipovolemia por sobrediuresis (LRA prerrenal): suspender diuréticos, reponer volumen con cautela y descartar trombosis renal si no mejora",
+   "E": "Glomerulonefritis rápidamente progresiva: pulsos de esteroides, por el deterioro rápido de la creatinina y el síndrome nefrótico asociado al cuadro"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "No hay datos de nefritis intersticial.",
+   "B": "No hay datos de NTA establecida (FENa bajo, sin cilindros granulosos descritos).",
+   "C": "Aumentar el diurético empeoraría la hipovolemia.",
+   "D": "El paciente nefrótico puede desarrollar LRA por varios mecanismos: hipovolemia efectiva por diuresis excesiva (como aquí: hipotensión, taquicardia, FENa <1%), edema intersticial renal, necrosis tubular (sepsis, nefrotóxicos), nefritis intersticial por fármacos (AINE, diuréticos, antibióticos), trombosis venosa renal y la progresión de la propia glomerulopatía. En este caso, el cuadro sugiere hipovolemia: se pausan los diuréticos, se repone volumen con cautela (albúmina o cristaloides según gravedad) y se reevalúa; si no hay respuesta, se amplía el estudio (sedimento, ecografía Doppler, biopsia).",
+   "E": "No hay sedimento activo ni evidencia de glomerulonefritis rápidamente progresiva."
+  },
+  "perla": "LRA en nefrótico + hipotensión + FENa bajo tras diuréticos: hipovolemia; suspender diurético y reponer con cautela; descartar trombosis venosa renal.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 56.9
+ },
+ {
+  "id": "HEM-1",
+  "serie_id": "HEM",
+  "orden": 1,
+  "sub": "9.b",
+  "subtema": "Hematuria glomerular: criterios de origen",
+  "dificultad": "moderada",
+  "caso": "Mujer de 32 años, asintomática, con hematuria microscópica persistente en 3 estudios (15 a 20 eritrocitos por campo), proteinuria 0.3 g/24 h, Cr 0.8 mg/dL (TFGe 100), TA 112/70 mmHg. Sin infecciones, litiasis ni fármacos. Su madre tuvo hematuria sin ERC.",
+  "enunciado": "¿Qué hallazgo urinario apoya el origen glomerular de la hematuria?",
+  "opciones": {
+   "A": "Bacteriuria con nitritos positivos, que orienta a infección de vías urinarias y no a hematuria glomerular verdadera",
+   "B": "Eritrocitos isomórficos con coágulos, que indican sangrado de la vía urinaria baja y no glomerular",
+   "C": "Eritrocitos dismórficos (acantocitos ≥5%), cilindros eritrocitarios y proteinuria, en el sedimento urinario",
+   "D": "Cristales de oxalato de calcio, que orientan a litiasis o hiperoxaluria y no a hematuria glomerular",
+   "E": "Piuria con cilindros leucocitarios, que orienta a nefritis intersticial o pielonefritis, no a glomerulopatía"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La bacteriuria con nitritos indica infección urinaria.",
+   "B": "Los eritrocitos isomórficos con coágulos indican origen en la vía urinaria.",
+   "C": "La hematuria glomerular se reconoce por eritrocitos dismórficos (acantocitos ≥5% son los más específicos), cilindros eritrocitarios (patognomónicos de daño glomerular), proteinuria asociada y orina de color café o 'té'. La hematuria no glomerular (urológica) muestra eritrocitos isomórficos, a veces coágulos, y habitualmente sin proteinuria significativa. Los hallazgos infecciosos o litiásicos orientan a otras causas.",
+   "D": "Los cristales sugieren litiasis, no glomerulopatía.",
+   "E": "Los cilindros leucocitarios orientan a pielonefritis o nefritis intersticial."
+  },
+  "perla": "Hematuria glomerular: dismórficos (acantocitos ≥5%), cilindros eritrocitarios, proteinuria. Isomórficos + coágulos: vía urinaria.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (evaluación de la hematuria)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o2",
+  "peso": 54.9
+ },
+ {
+  "id": "HEM-2",
+  "serie_id": "HEM",
+  "orden": 2,
+  "sub": "9.b",
+  "subtema": "Hematuria aislada: seguimiento y estudio genético",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Eritrocitos dismórficos 40% con acantocitos 12%, sin cilindros. No hay sordera ni alteraciones oculares; el ultrasonido renal es normal. Su madre tiene hematuria 'benigna' sin ERC conocida.",
+  "enunciado": "¿Cuál es el plan más adecuado?",
+  "opciones": {
+   "A": "Alta definitiva sin seguimiento, porque la hematuria aislada sin proteinuria nunca progresa a ERC en ningún paciente",
+   "B": "Seguimiento periódico (TA, creatinina, proteinuria) sin biopsia, y valorar estudio de COL4A3/4/5 por antecedente",
+   "C": "Nefrectomía diagnóstica para obtener tejido suficiente y definir la causa de la hematuria persistente del paciente joven",
+   "D": "Cistoscopia urgente para descartar una neoplasia vesical como causa de la hematuria dismórfica en el paciente joven",
+   "E": "Biopsia renal inmediata con inmunosupresión empírica, por la presencia de acantocitos y el antecedente familiar"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El seguimiento es necesario porque una parte de los pacientes progresa.",
+   "B": "Con hematuria glomerular aislada, proteinuria baja, TFGe normal y antecedente familiar, no se requiere biopsia de entrada. Se hace seguimiento anual de TA, creatinina y proteinuria, y el estudio genético de la familia COL4 (COL4A3, COL4A4, COL4A5) permite identificar nefropatía de membrana basal delgada o síndrome de Alport de herencia dominante o ligada al X, con implicaciones pronósticas y de consejo. La biopsia se reserva si aparece proteinuria significativa, deterioro de TFGe o hipertensión.",
+   "C": "No procede ninguna cirugía.",
+   "D": "La cistoscopia no es necesaria con hematuria claramente glomerular en una mujer de 32 años.",
+   "E": "No hay indicación de biopsia ni de inmunosupresión."
+  },
+  "perla": "Hematuria glomerular aislada con TFGe normal: seguimiento sin biopsia; estudio COL4A3/A4/A5 si hay historia familiar.",
+  "referencias": [
+   "Savige J et al. J Am Soc Nephrol 2013;24:364",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 54.9
+ },
+ {
+  "id": "HEM-3",
+  "serie_id": "HEM",
+  "orden": 3,
+  "sub": "9.b",
+  "subtema": "Nefropatía de membrana basal delgada",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "El estudio genético revela una variante heterocigota patogénica en COL4A3.",
+  "enunciado": "¿Cuál es la interpretación más exacta?",
+  "opciones": {
+   "A": "Membrana basal delgada o Alport autosómico dominante: curso habitualmente benigno, pero con riesgo de proteinuria y ERC y vigilancia de por vida",
+   "B": "Es Alport ligado al X, con ceguera y sordera inevitables en todos los portadores de la variante y falla renal a los 30 años",
+   "C": "Es una forma de lupus de inicio juvenil con compromiso renal, que se confirma con anticuerpos antinucleares",
+   "D": "Es una glomerulopatía inmunológica que requiere esteroides y otros inmunosupresores desde el diagnóstico",
+   "E": "No tiene implicaciones familiares, porque la variante heterocigota no se transmite a los familiares ni a la descendencia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Las variantes heterocigotas en COL4A3 o COL4A4 se asocian a adelgazamiento difuso de la membrana basal glomerular y hematuria persistente, con pronóstico generalmente favorable. No obstante, hasta 20 a 30% de los portadores desarrolla proteinuria, hipertensión o ERC con el tiempo (sobre todo con variantes que alteran la secuencia de glicina, mayor edad y comorbilidades), por lo que se sugiere vigilancia periódica y consejo genético. Los consensos recientes (2018 a 2024) clasifican a estos pacientes como síndrome de Alport autosómico dominante y desaconsejan el término «membrana basal delgada»; el riesgo de ERC terminal es bajo en la población general (cerca de 3% a los 80 años) y mayor en cohortes hospitalarias. El síndrome de Alport clásico (COL4A5 ligado a X, o COL4A3/A4 en dos copias) tiene hematuria, ERC progresiva, hipoacusia neurosensorial y lesiones oculares.",
+   "B": "El Alport ligado al X tiene mutaciones de COL4A5 y es más grave en varones.",
+   "C": "No guarda relación con lupus.",
+   "D": "No es una enfermedad inmune; no se trata con inmunosupresión.",
+   "E": "La herencia obliga a consejo genético y a evaluar a familiares."
+  },
+  "perla": "COL4A3/A4 heterocigoto: membrana basal delgada; hematuria con buen pronóstico, pero 20–30% progresa a proteinuria/ERC; vigilancia de por vida.",
+  "referencias": [
+   "Savige J et al. J Am Soc Nephrol 2013;24:364",
+   "Savige J et al. J Am Soc Nephrol 2016;27:3022"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 73.1
+ },
+ {
+  "id": "HEM-4",
+  "serie_id": "HEM",
+  "orden": 4,
+  "sub": "9.b",
+  "subtema": "Hematuria con proteinuria creciente: reconsiderar biopsia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Seis años después tiene proteinuria 1.2 g/24 h, TA 140/90 mmHg y TFGe 70 mL/min/1.73 m².",
+  "enunciado": "¿Qué conducta corresponde ahora?",
+  "opciones": {
+   "A": "Iniciar ciclofosfamida con esteroides, porque la proteinuria indica una glomerulopatía inflamatoria activa",
+   "B": "Trasplante preventivo, porque la enfermedad de membrana basal delgada progresa con rapidez a ERC terminal",
+   "C": "Iniciar IECA/ARA, controlar TA y valorar biopsia para descartar glomerulopatía coexistente (GEFS, IgA)",
+   "D": "Continuar sin intervención porque la enfermedad es benigna y la proteinuria es parte esperable de su curso natural",
+   "E": "Iniciar plasmaféresis, para eliminar los anticuerpos circulantes causantes de la proteinuria y la hematuria"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "No hay indicación de ciclofosfamida sin evidencia de una glomerulopatía inmunológica.",
+   "B": "No se considera trasplante con TFGe de 70.",
+   "C": "La proteinuria de 1.2 g/día con hipertensión y deterioro de TFGe es inusual en una nefropatía de membrana basal delgada pura y obliga a descartar una glomerulopatía coexistente (GEFS, nefropatía por IgA) o la evolución a una forma más grave del espectro de Alport. Se inicia nefroprotección (IECA/ARA-II, control de TA, sodio <2 g/día e iSGLT2 si hay criterio) y se valora biopsia con microscopía electrónica y estudio de colágeno IV.",
+   "D": "La aparición de proteinuria y de hipertensión implica progresión; no es una enfermedad benigna en ese momento.",
+   "E": "La plasmaféresis no tiene papel."
+  },
+  "perla": "Hematuria familiar con proteinuria/HTA/TFGe en descenso: nefroprotección y biopsia para descartar GEFS/IgA coexistente o Alport progresivo.",
+  "referencias": [
+   "Savige J et al. J Am Soc Nephrol 2013;24:364",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o2",
+  "peso": 56.9
+ },
+ {
+  "id": "MEC-1",
+  "serie_id": "MEC",
+  "orden": 1,
+  "sub": "9.a",
+  "subtema": "Patogenia del daño inmune en lupus",
+  "dificultad": "dificil",
+  "caso": "Mujer de 25 años con LES. La biopsia renal muestra nefritis lúpica clase IV con inmunofluorescencia en 'full house' (IgG, IgA, IgM, C3 y C1q), depósitos subendoteliales por ME e inclusiones tubuloreticulares. Anti-dsDNA positivo y C3/C4 bajos.",
+  "enunciado": "¿Cuál es el mecanismo central del daño glomerular?",
+  "opciones": {
+   "A": "Hiperfiltración por reducción de masa nefronal, con esclerosis segmentaria secundaria y progresión por daño hemodinámico",
+   "B": "Autoanticuerpos dirigidos contra el dominio NC1 de la cadena α3 del colágeno IV, con depósito lineal en la membrana basal",
+   "C": "Disregulación primaria de la vía alterna por mutación del factor H, con depósitos densos y sin inmunoglobulinas asociadas",
+   "D": "Activación de neutrófilos primados por ANCA sin depósito inmune, con necrosis fibrinoide y escasa tinción por inmunofluorescencia",
+   "E": "Inmunocomplejos con ADN y nucleosomas (depósito o in situ) que activan la vía clásica (C1q) y reclutan leucocitos"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Es la hiperfiltración de la GEFS adaptativa.",
+   "B": "Es el mecanismo de la enfermedad anti-MBG, con depósito lineal.",
+   "C": "Es el mecanismo del SHU atípico y de algunas C3G.",
+   "D": "Es el mecanismo de la vasculitis ANCA pauci-inmune.",
+   "E": "En la nefritis lúpica proliferativa, la pérdida de tolerancia genera anticuerpos antinucleares (anti-dsDNA, antinucleosoma, anti-C1q) y la acumulación de restos celulares (apoptosis y NET). Los inmunocomplejos se depositan en el mesangio y el espacio subendotelial o se forman in situ, y activan la vía clásica del complemento (C1q, C4, C2), liberando C3a y C5a, que reclutan leucocitos y causan proliferación endocapilar, necrosis y semilunas. El interferón tipo I y el BAFF amplifican la respuesta (diana de anifrolumab y belimumab)."
+  },
+  "perla": "LN: inmunocomplejos (ADN/nucleosoma) → vía clásica del complemento (C1q, C4) → C3a/C5a; amplificado por IFN-I y BAFF.",
+  "referencias": [
+   "Anders HJ et al. Nat Rev Dis Primers 2020;6:7",
+   "Furie R et al. N Engl J Med 2020;383:1117 (BLISS-LN)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o1",
+  "peso": 52.4
+ },
+ {
+  "id": "MEC-2",
+  "serie_id": "MEC",
+  "orden": 2,
+  "sub": "9.a",
+  "subtema": "Vías del complemento y patrón de consumo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la misma paciente, C3 y C4 están bajos. Un colega pregunta por qué en la GN posestreptocócica solo el C3 suele estar bajo, con C4 normal.",
+  "enunciado": "¿Cuál es la explicación?",
+  "opciones": {
+   "A": "El C4 se consume en la vía alterna y el C3 en la vía clásica, por lo que ambos descienden en toda glomerulopatía",
+   "B": "La vía alterna no existe en el riñón, de modo que solo la clásica participa en la lesión glomerular posinfecciosa",
+   "C": "El C3 bajo se debe a una síntesis hepática disminuida en todas las glomerulopatías, sin que haya consumo real del complemento",
+   "D": "El C4 es una proteína de fase aguda que siempre aumenta en las infecciones, por lo que oculta su consumo real",
+   "E": "En la vía clásica se consume C4; en la GN posinfecciosa predomina la vía alterna, que consume C3 sin afectar C4"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El C4 es de la vía clásica y de las lectinas, no de la alterna.",
+   "B": "La vía alterna participa en el daño glomerular (C3G, SHUa).",
+   "C": "La síntesis hepática disminuida no explica el patrón de consumo.",
+   "D": "El C4 es un componente de la vía clásica y se consume, no aumenta.",
+   "E": "La vía clásica se activa por complejos inmunes (C1q-C1r-C1s), que escinden C4 y C2 para formar la C3 convertasa clásica (C4b2a), lo que reduce C4 y C3. La vía alterna se activa por C3 hidrolizado y se estabiliza en superficies sin reguladores (factor B, factor D, properdina), con consumo de C3 y de factor B sin caída de C4. Por eso la GN posinfecciosa y la C3G cursan con C3 bajo y C4 normal, mientras que el lupus, la crioglobulinemia y la MPGN por inmunocomplejos cursan con C3 y C4 bajos. La vía de las lectinas (MBL, ficolinas) se asocia con C4 y se ha implicado en la nefropatía por IgA."
+  },
+  "perla": "C3 bajo + C4 normal: vía alterna (PIGN, C3G, endocarditis). C3 y C4 bajos: vía clásica (lupus, crioglobulinemia, MPGN inmunocomplejos).",
+  "referencias": [
+   "Walport MJ. N Engl J Med 2001;344:1058",
+   "Comprehensive Clinical Nephrology (complemento)"
+  ],
+  "origen": [
+   "David26",
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o1",
+  "peso": 70.5
+ },
+ {
+  "id": "MEC-3",
+  "serie_id": "MEC",
+  "orden": 3,
+  "sub": "9.a",
+  "subtema": "Blancos terapéuticos según el mecanismo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El grupo discute los blancos de belimumab, anifrolumab, voclosporina y rituximab en la nefritis lúpica.",
+  "enunciado": "¿Cuál es la asociación correcta entre fármaco y mecanismo?",
+  "opciones": {
+   "A": "Rituximab inhibe la vía clásica del complemento; belimumab es anti-CD20; anifrolumab bloquea BAFF; voclosporina es anti-C5",
+   "B": "Belimumab es anti-CD20 y rituximab inhibe BAFF; anifrolumab inhibe calcineurina; voclosporina bloquea el interferón",
+   "C": "Anifrolumab inhibe calcineurina y voclosporina es anti-interferón; belimumab bloquea el C5a; rituximab inhibe BAFF",
+   "D": "Belimumab antagoniza el receptor C5a y avacopan es anti-BAFF; anifrolumab inhibe calcineurina; rituximab es anti-IL-6",
+   "E": "Belimumab inhibe BAFF; anifrolumab bloquea el receptor del interferón tipo I; voclosporina inhibe calcineurina; rituximab es anti-CD20"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El rituximab depleta linfocitos B; no inhibe la vía clásica.",
+   "B": "El belimumab no es anti-CD20.",
+   "C": "El anifrolumab no es inhibidor de calcineurina.",
+   "D": "El avacopan antagoniza el receptor C5a, no BAFF.",
+   "E": "El belimumab es un anticuerpo anti-BAFF (estimulador de linfocitos B) y mejoró la respuesta renal en BLISS-LN; el anifrolumab bloquea la subunidad 1 del receptor de interferón tipo I y es eficaz en LES, con ensayos en nefritis lúpica; la voclosporina es un inhibidor de calcineurina de nueva generación (AURORA 1) con efecto antiproteinúrico y estabilizador del podocito; el rituximab es un anticuerpo anti-CD20 que depleta linfocitos B, y se usa en casos refractarios. Conocer el blanco ayuda a elegir y a predecir efectos adversos."
+  },
+  "perla": "Belimumab = anti-BAFF; anifrolumab = anti-IFNAR1; voclosporina = CNI; rituximab/obinutuzumab = anti-CD20; avacopan = anti-C5aR.",
+  "referencias": [
+   "Furie R et al. N Engl J Med 2020;383:1117",
+   "Rovin BH et al. Lancet 2021;397:2070 (AURORA 1)",
+   "KDIGO 2024 Lupus Nephritis. Kidney Int 2024;105(1S):S1"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o1",
+  "peso": 70.5
+ },
+ {
+  "id": "MEC-4",
+  "serie_id": "MEC",
+  "orden": 4,
+  "sub": "9.a",
+  "subtema": "Anticuerpos anti-C1q y actividad",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "En el seguimiento se solicitan anti-dsDNA, C3/C4 y anti-C1q.",
+  "enunciado": "¿Cuál es la utilidad de los anticuerpos anti-C1q?",
+  "opciones": {
+   "A": "Indican curación cuando están elevados, porque reflejan la depuración de los inmunocomplejos circulantes del paciente",
+   "B": "No tienen asociación con nefritis lúpica, porque se detectan solo en otras enfermedades autoinmunes sistémicas como el síndrome de Sjögren",
+   "C": "Se asocian a nefritis lúpica proliferativa activa; con anti-dsDNA alto y C3/C4 bajos apoyan actividad renal y riesgo de brote",
+   "D": "Son específicos de glomerulonefritis posestreptocócica, y por ello no se solicitan en el seguimiento de pacientes con lupus eritematoso sistémico",
+   "E": "Se usan para el diagnóstico de nefropatía membranosa primaria, junto con los anticuerpos anti-PLA2R séricos y tisulares"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Su elevación indica actividad, no curación.",
+   "B": "Existe asociación bien descrita con la actividad renal lúpica.",
+   "C": "Los anti-C1q se detectan en gran parte de los pacientes con nefritis lúpica proliferativa activa y sus títulos se asocian con actividad renal; su negatividad tiene alto valor predictivo negativo. Se combinan con anti-dsDNA, C3, C4 y el sedimento urinario para vigilar actividad. No sustituyen a la biopsia. También se hallan en la vasculitis urticarial hipocomplementémica.",
+   "D": "No son marcadores de la GN posestreptocócica.",
+   "E": "El marcador de membranosa primaria es el anti-PLA2R."
+  },
+  "perla": "Anti-C1q: marcador de actividad renal en LES (con anti-dsDNA y C3/C4 bajos); su ausencia hace improbable un brote proliferativo.",
+  "referencias": [
+   "Anders HJ et al. Nat Rev Dis Primers 2020;6:7",
+   "KDIGO 2024 Lupus Nephritis. Kidney Int 2024;105(1S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o1",
+  "peso": 50.4
+ },
+ {
+  "id": "PSG-1",
+  "serie_id": "PSG",
+  "orden": 1,
+  "sub": "9.d.1",
+  "subtema": "Glomerulonefritis asociada con infección por estafilococo en el adulto",
+  "dificultad": "dificil",
+  "caso": "Hombre de 62 años con diabetes tipo 2, consumo crónico de alcohol y una úlcera infectada del pie con osteomielitis por Staphylococcus aureus resistente a meticilina, aún en tratamiento. Desarrolla hematuria macroscópica, hipertensión de 168/102 mmHg, edema, proteinuria de 3.4 g/día y creatinina de 3.2 mg/dL (basal de 1.1). C3 bajo, C4 normal, ANCA y anti-MBG negativos. La biopsia muestra proliferación endocapilar y exudativa con neutrófilos; la inmunofluorescencia revela depósitos dominantes de IgA con C3, y la microscopía electrónica muestra depósitos subepiteliales en joroba.",
+  "enunciado": "¿Cuál es el diagnóstico y qué lo distingue de la nefropatía por IgA primaria?",
+  "opciones": {
+   "A": "Nefropatía por IgA primaria, que no depende de una infección y cursa con C3 normal y hematuria recurrente",
+   "B": "GN por estafilococo con IgA dominante: en infección activa, con C3 bajo y jorobas subepiteliales; simula IgAN",
+   "C": "Glomerulonefritis membranosa, con depósitos de IgG4 y anticuerpos anti-PLA2R positivos en el suero del paciente",
+   "D": "Nefropatía diabética, que cursa con hematuria macroscópica y C3 bajo por la hiperglucemia crónica y la neuropatía",
+   "E": "Enfermedad por anticuerpos anti-MBG, con depósitos lineales de IgG y semilunas difusas con hemorragia alveolar concomitante"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La nefropatía por IgA primaria no suele cursar con C3 bajo ni con infección activa, y no tiene las jorobas y el infiltrado de neutrófilos.",
+   "B": "La glomerulonefritis asociada con infección por Staphylococcus aureus (con frecuencia con depósitos dominantes de IgA) afecta sobre todo a adultos mayores, diabéticos, alcohólicos y personas con infecciones profundas (osteomielitis, abscesos, endocarditis, infecciones cutáneas o de dispositivos), y a diferencia de la glomerulonefritis posestreptocócica, aparece durante la infección y no tras una latencia de 1 a 3 semanas. Cursa con síndrome nefrítico o nefrótico, hipertensión, lesión renal aguda y, a menudo, C3 bajo, y la biopsia muestra proliferación endocapilar con neutrófilos, depósitos dominantes de IgA con C3 y jorobas subepiteliales. Se distingue de la nefropatía por IgA primaria por el contexto infeccioso activo, la hipocomplementemia, la hipertensión de inicio brusco y las jorobas, y de la nefropatía diabética por la actividad inflamatoria y el sedimento activo.",
+   "C": "La nefropatía membranosa cursa con depósitos subepiteliales de IgG4 sin proliferación endocapilar.",
+   "D": "La nefropatía diabética no cursa con hipocomplementemia ni proliferación endocapilar aguda.",
+   "E": "La enfermedad anti-MBG tiene depósitos lineales de IgG y anticuerpos anti-MBG, que aquí son negativos."
+  },
+  "perla": "Staph-IRGN (IgA dominante): adulto mayor/diabético/alcohólico; durante la infección activa; C3 ↓, proliferación endocapilar + neutrófilos, jorobas; simula IgAN y nefropatía diabética.",
+  "referencias": [
+   "Nasr SH et al. Kidney Int 2013;83:792 (GN asociada a infección)",
+   "Comprehensive Clinical Nephrology (glomerulonefritis posinfecciosa)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o8",
+  "peso": 31.1
+ },
+ {
+  "id": "PSG-2",
+  "serie_id": "PSG",
+  "orden": 2,
+  "sub": "9.d.1",
+  "subtema": "Tratamiento de la glomerulonefritis asociada con infección",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente está hospitalizado con creatinina de 3.2 mg/dL y 40% de semilunas en la biopsia. Alguien propone iniciar pulsos de metilprednisolona y ciclofosfamida por el patrón crescéntico.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Suspender los antibióticos para evitar nefrotoxicidad y observar, porque la lesión renal depende del antibiótico",
+   "B": "Erradicar la infección (antibióticos contra MRSA, control del foco) y descartar endocarditis; sin inmunosupresión de rutina",
+   "C": "Iniciar pulsos de metilprednisolona y ciclofosfamida de inmediato, con la infección sin tratar, por las semilunas y el deterioro",
+   "D": "Esperar a que la infección ceda sola, sin intervención, porque la glomerulonefritis se resuelve de forma espontánea y completa",
+   "E": "Indicar solo plasmaféresis, sin antibióticos, porque el depósito de IgA se elimina con el recambio plasmático"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Suspender los antibióticos mantiene el antígeno que provoca la enfermedad.",
+   "B": "El tratamiento se centra en la infección que desencadena el daño inmune: antibióticos dirigidos y control quirúrgico del foco (desbridamiento, drenaje, amputación si es preciso), junto con medidas de soporte (control de la presión, diuréticos, y diálisis si es necesaria). La inmunosupresión no se usa de rutina, porque el cuadro suele mejorar al erradicar el antígeno bacteriano, y los esteroides o la ciclofosfamida pueden favorecer la persistencia de la infección; en los casos con semilunas extensas y deterioro persistente tras controlar el foco, algunos expertos usan esteroides con precaución, con evidencia limitada. Se descarta siempre la endocarditis (hemocultivos seriados y ecocardiograma). El pronóstico es peor que el de la forma posestreptocócica del niño: cerca de un tercio de los pacientes (diabéticos, ancianos) evoluciona a insuficiencia renal crónica.",
+   "C": "Inmunosuprimir con una infección activa puede agravarla, y no es la conducta inicial.",
+   "D": "La infección no cede sola, y el daño renal progresa sin tratamiento.",
+   "E": "La plasmaféresis sin tratar la infección no corrige la causa."
+  },
+  "perla": "IRGN en adulto: tratar el foco (antibióticos + control quirúrgico), soporte, descartar endocarditis; inmunosupresión no de rutina (casos crescénticos persistentes, evidencia limitada). Peor pronóstico en adultos/diabéticos.",
+  "referencias": [
+   "Nasr SH et al. Kidney Int 2013;83:792 (GN asociada a infección)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o8",
+  "peso": 31.1
+ },
+ {
+  "id": "PSG-3",
+  "serie_id": "PSG",
+  "orden": 3,
+  "sub": "9.d.1",
+  "subtema": "Glomerulonefritis de la endocarditis infecciosa: evaluación",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A los 10 días, el paciente presenta fiebre persistente a pesar de los antibióticos y un soplo nuevo. Los hemocultivos seriados son positivos para S. aureus; el factor reumatoide es positivo, los crioglobulinas son negativas, el C3 y el C4 están bajos y la creatinina sube a 3.6 mg/dL.",
+  "enunciado": "¿Cuál es la interpretación y el manejo más adecuado?",
+  "opciones": {
+   "A": "GN por endocarditis infecciosa (complejos inmunes con C3 y C4 bajos y FR positivo); ecocardiograma y antibióticos prolongados",
+   "B": "Nefritis lúpica clase IV, con anti-dsDNA positivo y biopsia con patrón full house en la inmunofluorescencia y complemento bajo",
+   "C": "Nefropatía diabética, que no explica la fiebre ni el soplo y se trata con control glucémico y bloqueo del SRAA",
+   "D": "Vasculitis ANCA, que se trata con ciclofosfamida y rituximab de inmediato por la lesión renal y la fiebre",
+   "E": "Nefropatía por IgA primaria, que se trata con esteroides y bloqueo del SRAA por la hematuria, la proteinuria y la fiebre persistente"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La endocarditis infecciosa (sobre todo la estafilocócica aguda) puede causar glomerulonefritis por complejos inmunes con depósitos de IgG, IgM, IgA y C3, que en la biopsia da proliferación endocapilar o mesangial y, a veces, semilunas; los complejos activan la vía clásica del complemento (C3 y C4 bajos) y suelen coexistir con factor reumatoide positivo y crioglobulinas. Se sospecha por la fiebre persistente, el soplo nuevo y los hemocultivos positivos, y se confirma con ecocardiograma (el transesofágico tiene mayor sensibilidad). El tratamiento es el de la endocarditis (antibióticos dirigidos y prolongados y cirugía valvular si hay insuficiencia, vegetaciones grandes, abscesos o embolias), con recuperación de la función renal en muchos casos al controlar la infección. En ocasiones hay ANCA positivos (por ejemplo, en la endocarditis por Bartonella o estreptocócica), pero esto no cambia el tratamiento de la infección.",
+   "B": "No hay datos de lupus, y la fiebre con hemocultivos positivos apunta a infección.",
+   "C": "La nefropatía diabética no cursa con fiebre ni consumo de complemento.",
+   "D": "Una vasculitis ANCA se descarta con serología negativa, y el contexto infeccioso activo contraindica la inmunosupresión.",
+   "E": "La IgAN primaria no cursa con fiebre, soplo nuevo, hemocultivos positivos ni consumo de complemento."
+  },
+  "perla": "GN por endocarditis: complejos inmunes, C3 y C4 ↓ (vía clásica), FR+, ± crioglobulinas; ecocardiograma (TEE); tratar endocarditis (antibióticos, cirugía); la GN suele mejorar. Descartar ANCA positivos (Bartonella).",
+  "referencias": [
+   "Boils CL et al. Kidney Int 2015;87:1241 (GN asociada con endocarditis)",
+   "Comprehensive Clinical Nephrology (glomerulonefritis posinfecciosa)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o8",
+  "peso": 31.1
+ },
+ {
+  "id": "PSG-4",
+  "serie_id": "PSG",
+  "orden": 4,
+  "sub": "9.d.1",
+  "subtema": "Seguimiento y pronóstico de la glomerulonefritis posinfecciosa; complemento",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Meses después, el paciente tiene el foco controlado, la creatinina de 2.0 mg/dL y proteinuria de 1.0 g/día. El residente pregunta por el seguimiento del complemento y la interpretación del pronóstico, y cuándo repetir la biopsia, comparando con la glomerulonefritis posestreptocócica del niño.",
+  "enunciado": "¿Qué afirmación es correcta?",
+  "opciones": {
+   "A": "La hematuria microscópica desaparece siempre en 2 semanas, por lo que su persistencia indica otra enfermedad",
+   "B": "El C3 debe permanecer bajo de forma indefinida, y esto es normal en la glomerulonefritis posinfecciosa del adulto diabético",
+   "C": "El pronóstico es igual de benigno en el anciano diabético que en el niño, con más de 90% de recuperación",
+   "D": "No se requiere seguimiento tras la fase aguda, porque la glomerulonefritis posinfecciosa siempre cura sin secuelas",
+   "E": "El C3 se normaliza en 8–12 semanas; si persiste bajo o hay proteinuria nefrótica, se considera glomerulopatía C3 y se biopsia"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La hematuria microscópica puede persistir meses o años.",
+   "B": "La hipocomplementemia persistente indica otra entidad, y no es normal.",
+   "C": "El pronóstico del adulto mayor diabético es peor que el del niño.",
+   "D": "El seguimiento es necesario hasta la normalización de complemento, hematuria y proteinuria.",
+   "E": "En la glomerulonefritis posinfecciosa típica, el C3 bajo se normaliza en 6 a 8 semanas (hasta 12 semanas), y la hematuria microscópica puede persistir meses o incluso uno a dos años, con proteinuria menor que se resuelve gradualmente. Si el C3 permanece bajo más de 12 semanas, hay proteinuria nefrótica persistente o deterioro progresivo de la función renal, debe considerarse otra enfermedad, como la glomerulopatía C3 o la glomerulonefritis membranoproliferativa por inmunocomplejos, o un foco infeccioso persistente, y se realiza una biopsia (o se repite). El pronóstico en niños con glomerulonefritis posestreptocócica es excelente, con recuperación en más de 90% de los casos; en los adultos con enfermedad grave, ancianos, diabéticos o alcohólicos, el pronóstico es peor, y una proporción importante evoluciona a ERC. Se mantiene seguimiento de la presión, la proteinuria y la función renal."
+  },
+  "perla": "GN posinfecciosa: C3 normaliza en 6–8 (hasta 12) sem; hematuria micro puede persistir 1–2 años; C3 bajo >12 sem, nefrótica persistente o deterioro → biopsia (C3G). Niño >90% recuperación; adulto/diabético peor.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (glomerulonefritis posinfecciosa)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o8",
+  "peso": 29.1
+ },
+ {
+  "id": "MPI-1",
+  "serie_id": "MPI",
+  "orden": 1,
+  "sub": "9.c.4",
+  "subtema": "Patrón membranoproliferativo: clasificación por inmunofluorescencia y estudio de causas",
+  "dificultad": "dificil",
+  "caso": "Mujer de 58 años con síndrome nefrótico (proteinuria de 5.8 g/día, albúmina de 2.4 g/dL), microhematuria, hipertensión y creatinina de 1.5 mg/dL. C3 de 48 mg/dL y C4 de 8 mg/dL (ambos bajos). La biopsia muestra un patrón membranoproliferativo (hipercelularidad mesangial y endocapilar con doble contorno de las membranas basales), con inmunofluorescencia positiva para IgG (2+) y C3 (3+), con cadenas ligeras κ y λ.",
+  "enunciado": "¿Cuál es el abordaje diagnóstico más adecuado según la clasificación actual?",
+  "opciones": {
+   "A": "Glomerulopatía C3, porque el C3 bajo basta para clasificarla y no se requieren más estudios séricos ni de causas secundarias",
+   "B": "Nefropatía membranosa primaria, que se diagnostica por anti-PLA2R positivo sin necesidad de investigar causas secundarias",
+   "C": "GNMP por inmunocomplejos (Ig y C3 +): se buscan infecciones, autoinmunidad, crioglobulinas y gammapatía monoclonal",
+   "D": "Nefritis lúpica clase V pura, sin necesidad de serología adicional, porque el complemento bajo confirma el diagnóstico",
+   "E": "Enfermedad de cambios mínimos con biopsia sin alteraciones, porque la proteinuria nefrótica es el único dato relevante"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Con inmunoglobulinas positivas junto con C3, no es una glomerulopatía C3 (C3 dominante), y requiere buscar causas secundarias.",
+   "B": "La nefropatía membranosa tiene depósitos subepiteliales sin proliferación endocapilar con doble contorno, y suele cursar con complemento normal.",
+   "C": "La clasificación actual de las enfermedades con patrón membranoproliferativo se basa en la inmunofluorescencia: si hay depósitos de inmunoglobulinas (con C3), se trata de una glomerulonefritis membranoproliferativa por inmunocomplejos, mediada por la vía clásica del complemento (C3 y C4 bajos, como aquí), y si el C3 es dominante, con inmunoglobulinas ausentes o mucho menos intensas, se trata de una glomerulopatía C3 (vía alterna, con C4 normal). En la forma por inmunocomplejos se buscan causas secundarias: infecciones crónicas (virus de hepatitis C y B, endocarditis, abscesos, derivaciones, tuberculosis), enfermedades autoinmunes (lupus, síndrome de Sjögren, artritis reumatoide) y gammapatías monoclonales (electroforesis e inmunofijación de proteínas séricas y urinarias, cadenas ligeras libres), que son especialmente frecuentes en mayores de 50 años; también se descartan crioglobulinas y se evalúa el complemento. Si no hay causa, se denomina idiopática.",
+   "D": "Se descarta lupus con anticuerpos, pero no se asume sin serología, y el patrón no es el de una clase V pura.",
+   "E": "La enfermedad de cambios mínimos no muestra depósitos ni proliferación, y el complemento es normal."
+  },
+  "perla": "Patrón MP: IF Ig+C3 → IC-MPGN (vía clásica; C3 y C4 ↓); C3 dominante → C3G (vía alterna; C4 normal). IC-MPGN: buscar VHC/VHB/endocarditis/TB, LES/Sjögren/AR, crioglobulinas y gammapatía monoclonal (>50 años).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Sethi S, Fervenza FC. N Engl J Med 2012;366:1119"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o6",
+  "peso": 33.6
+ },
+ {
+  "id": "MPI-2",
+  "serie_id": "MPI",
+  "orden": 2,
+  "sub": "9.c.4",
+  "subtema": "Glomerulonefritis proliferativa con depósitos monoclonales de inmunoglobulina",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En la paciente, las serologías de hepatitis C y B, el VIH, los anticuerpos antinucleares y las crioglobulinas son negativos, sin endocarditis. La electroforesis con inmunofijación revela una proteína monoclonal IgG κ de 0.8 g/dL; la relación de cadenas ligeras libres κ/λ es de 6.2. La inmunofluorescencia en la biopsia muestra depósitos de IgG3 κ monotípicos (sin λ), con C3.",
+  "enunciado": "¿Cuál es el diagnóstico?",
+  "opciones": {
+   "A": "Amiloidosis AL, con tinción de rojo Congo positiva y fibrillas rectas de 8 a 12 nm en la microscopía electrónica renal",
+   "B": "Gammapatía monoclonal de significado indeterminado (MGUS) sin repercusión renal, que solo requiere vigilancia periódica",
+   "C": "GN proliferativa con depósitos monoclonales (MGRS): el clon causa el daño renal y requiere atención hematológica",
+   "D": "Mieloma múltiple con nefropatía por cilindros, con depósitos de cadenas ligeras en los túbulos distales y células gigantes",
+   "E": "Glomerulonefritis membranoproliferativa idiopática, sin relación alguna con el clon plasmático ni con la proteína monoclonal sérica"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El amiloide se tiñe con rojo Congo y tiene fibrillas en la microscopía electrónica, y no es el hallazgo descrito.",
+   "B": "El término MGUS implica que no hay daño de órgano; aquí el clon se relaciona con la lesión renal.",
+   "C": "La combinación de una gammapatía monoclonal (IgG κ de 0.8 g/dL con relación de cadenas ligeras alterada) con depósitos monotípicos de inmunoglobulina (IgG3 κ, sin λ) en el glomérulo con patrón membranoproliferativo corresponde a una glomerulonefritis proliferativa con depósitos monoclonales de inmunoglobulina, una forma de gammapatía monoclonal de significado renal (MGRS): un clon de linfocitos B o de células plasmáticas que, sin cumplir criterios de mieloma o linfoma que requieran tratamiento por sí mismos, produce una inmunoglobulina que daña el riñón. El diagnóstico exige biopsia con inmunofluorescencia (monotipia κ o λ, subclase de IgG), y la evaluación hematológica incluye biopsia de médula ósea. Como el daño renal es la indicación, se plantea el tratamiento dirigido al clon, y no se considera una MGUS benigna.",
+   "D": "No hay datos de mieloma ni de cilindros tubulares, y el hallazgo es glomerular.",
+   "E": "La monotipia κ de los depósitos y la proteína monoclonal indican una relación causal con el clon."
+  },
+  "perla": "MGRS (PGNMID): paraproteína IgG κ + depósitos monotípicos (IgG3 κ) en glomérulo; patrón MP; no es MGUS inocua; biopsia con IF y evaluación hematológica; tratar el clon.",
+  "referencias": [
+   "Leung N et al. Blood 2012;120:4292 (MGRS)",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o6",
+  "peso": 33.6
+ },
+ {
+  "id": "MPI-3",
+  "serie_id": "MPI",
+  "orden": 3,
+  "sub": "9.c.4",
+  "subtema": "Tratamiento de la MGRS con glomerulonefritis proliferativa",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia de médula ósea muestra 6% de células plasmáticas clonales κ, sin lesiones líticas ni hipercalcemia ni anemia atribuible. Se discute el tratamiento de la glomerulonefritis proliferativa con depósitos monoclonales con proteinuria nefrótica y creatinina de 1.5 mg/dL.",
+  "enunciado": "¿Cuál es la estrategia más adecuada?",
+  "opciones": {
+   "A": "Esteroides en monoterapia indefinida, sin tratar el clon, porque la lesión glomerular depende solo del complemento",
+   "B": "Tratar el clon con hematología (bortezomib-ciclofosfamida-dexametasona o rituximab) y dar soporte renal con bloqueo del SRAA",
+   "C": "Trasplante de riñón inmediato sin tratar el clon, porque la enfermedad renal avanzada no recidiva en el injerto",
+   "D": "Solo observación, porque la MGRS es benigna y no requiere tratamiento mientras no haya mieloma, lesiones líticas ni hipercalcemia",
+   "E": "Plasmaféresis diaria indefinida para eliminar la proteína monoclonal, sin tratar el clon plasmático productor"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Los esteroides solos no suprimen al clon y exponen a efectos adversos.",
+   "B": "En la MGRS el objetivo es suprimir al clon que produce la inmunoglobulina nociva: la respuesta hematológica se asocia con la mejoría o la estabilización de la función renal. La elección del esquema depende del tipo de clon: bortezomib con ciclofosfamida y dexametasona (o con otros agentes) para clones de células plasmáticas, y rituximab con o sin quimioterapia para clones de linfocitos B (por ejemplo, IgM o linfoma), con el anti-CD38 (daratumumab) como opción en casos refractarios; el tratamiento se coordina con hematología. Las medidas de soporte (bloqueo del SRAA, control de la presión y de los lípidos) se mantienen. La inmunosupresión convencional sin tratamiento dirigido al clon tiene escasa eficacia y la recurrencia en el injerto es frecuente (alta en MGRS no tratada), por lo que el trasplante se considera tras lograr una respuesta hematológica.",
+   "C": "Trasplantar sin tratar el clon expone a recurrencia temprana en el injerto.",
+   "D": "La MGRS causa daño renal progresivo, y no es una entidad benigna.",
+   "E": "La plasmaféresis no controla la producción de la inmunoglobulina por el clon."
+  },
+  "perla": "MGRS-GN: tratar el clon (bortezomib-ciclofosfamida-dexametasona; rituximab si clon B; daratumumab en refractarios) con hematología; respuesta hematológica → mejor pronóstico renal; trasplante tras respuesta (recurrencia alta).",
+  "referencias": [
+   "Leung N et al. Blood 2012;120:4292 (MGRS)",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o6",
+  "peso": 33.6
+ },
+ {
+  "id": "GLM-1",
+  "serie_id": "GLM",
+  "orden": 1,
+  "sub": "9.a",
+  "subtema": "Localización de los depósitos inmunes y fenotipo clínico",
+  "dificultad": "moderada",
+  "caso": "Se comparan dos biopsias renales. En la primera (mujer de 24 años con lupus), la microscopía electrónica muestra depósitos subendoteliales y mesangiales, con proliferación endocapilar e infiltrado de neutrófilos; clínicamente hay hematuria, hipertensión, proteinuria moderada y lesión renal aguda. En la segunda (hombre de 55 años), hay depósitos subepiteliales con engrosamiento de la membrana basal sin proliferación, y clínicamente síndrome nefrótico con función conservada.",
+  "enunciado": "¿Cómo se explica la diferencia de fenotipo según la localización de los depósitos inmunes?",
+  "opciones": {
+   "A": "Ambos tipos de depósito producen siempre el mismo fenotipo clínico y la misma lesión histológica glomerular",
+   "B": "Los depósitos subepiteliales producen siempre proliferación endocapilar y síndrome nefrítico con hematuria",
+   "C": "La localización no tiene relación con la clínica, que depende solo de la cantidad de inmunocomplejos depositados",
+   "D": "Los depósitos subendoteliales no activan el complemento, por lo que no reclutan células inflamatorias",
+   "E": "Subendoteliales: contacto con la sangre, inflamación y proliferación (nefrítico); subepiteliales: C5b-9 daña al podocito (nefrótico)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La localización de los depósitos explica los fenotipos nefrítico y nefrótico, y no son iguales.",
+   "B": "Los depósitos subepiteliales aislados cursan con proteinuria sin proliferación, no con síndrome nefrítico.",
+   "C": "La localización de los depósitos se relaciona con la clínica y con el tipo de lesión.",
+   "D": "Los depósitos subendoteliales activan con intensidad el complemento y atraen leucocitos.",
+   "E": "La ubicación de los depósitos inmunes determina la respuesta: los subendoteliales (y mesangiales) están en contacto con la sangre, por lo que los componentes del complemento (C3a, C5a), los receptores Fc y las células circulantes acceden a ellos, con infiltrado de leucocitos, proliferación endocapilar, rotura de la pared capilar y hematuria con síndrome nefrítico (nefritis lúpica clase III/IV, glomerulonefritis posinfecciosa, membranoproliferativa). Los subepiteliales están separados de la sangre por la membrana basal glomerular, de modo que las quimiocinas y las anafilatoxinas difunden poco a la luz capilar, y no hay reclutamiento celular ni proliferación; el daño es mediado por el C5b-9 sobre el podocito, que altera la barrera de filtración y causa proteinuria intensa (síndrome nefrótico) con engrosamiento de la membrana basal, como en la nefropatía membranosa. Los depósitos mesangiales (nefropatía por IgA) causan hematuria con proliferación mesangial."
+  },
+  "perla": "Subendotelial/mesangial: acceso a sangre → complemento + leucocitos → proliferación/nefrítico. Subepitelial: separados por MBG → C5b-9 sobre el podocito → proteinuria/nefrótico sin proliferación (MN).",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (mecanismos de lesión glomerular)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o1",
+  "peso": 40.3
+ },
+ {
+  "id": "GLM-2",
+  "serie_id": "GLM",
+  "orden": 2,
+  "sub": "9.a",
+  "subtema": "Formación in situ de complejos inmunes: nefritis de Heymann y antígenos podocitarios",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El segundo paciente (síndrome nefrótico por depósitos subepiteliales) tiene anticuerpos anti-PLA2R positivos. El residente pregunta cómo se forman los depósitos si los complejos circulantes no pueden atravesar la membrana basal.",
+  "enunciado": "¿Cuál es el mecanismo más aceptado?",
+  "opciones": {
+   "A": "El antígeno es una proteína de la membrana basal que no se expresa en el podocito, por lo que no hay unión in situ",
+   "B": "Los complejos circulantes preformados atraviesan la membrana basal y se depositan en el espacio subepitelial",
+   "C": "No hay antígeno ni anticuerpo implicados, y el depósito es solo una reacción inespecífica a las proteínas",
+   "D": "Formación in situ: IgG4 circulante se une a PLA2R del podocito, activa complemento y daña el podocito",
+   "E": "Los depósitos se forman por proliferación de las células mesangiales, que atrapan los complejos circulantes"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El antígeno diana (PLA2R) se expresa en el podocito, no es un componente de la membrana basal.",
+   "B": "Los complejos circulantes de tamaño grande no atraviesan la membrana basal, y se depositan en el subendotelio o el mesangio.",
+   "C": "La enfermedad se produce por un anticuerpo contra un antígeno podocitario, y el anti-PLA2R es positivo.",
+   "D": "En la nefropatía membranosa primaria, los anticuerpos IgG (sobre todo de la subclase IgG4) se unen a antígenos expresados en la superficie del podocito (PLA2R en cerca de 70% de los casos, THSD7A en 2 a 3%, y otros como NELL1, que se asocian con formas específicas), formando complejos in situ, como se demostró en el modelo experimental de la nefritis de Heymann (en el que el antígeno es la megalina de la rata). Los complejos inmunes preformados de tamaño grande no atraviesan la membrana basal glomerular, por lo que se depositan en el subendotelio o el mesangio, y los antígenos pequeños y catiónicos pueden atravesarla y fijarse en el espacio subepitelial por afinidad con la carga aniónica de la membrana (antígenos plantados). La activación del complemento (C5b-9) causa daño al podocito y proteinuria, y el anti-PLA2R permite el diagnóstico y el seguimiento.",
+   "E": "La proliferación mesangial se relaciona con depósitos mesangiales, no con los subepiteliales."
+  },
+  "perla": "MN: anticuerpos (IgG4) contra antígenos podocitarios (PLA2R ~70%, THSD7A 2–3%, NELL1…) → complejos in situ (Heymann: megalina). Complejos circulantes grandes → subendotelio/mesangio; antígenos catiónicos plantados → subepitelio.",
+  "referencias": [
+   "Beck LH Jr et al. N Engl J Med 2009;361:11",
+   "Comprehensive Clinical Nephrology (mecanismos de lesión glomerular)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o1",
+  "peso": 42.3
+ },
+ {
+  "id": "GLM-3",
+  "serie_id": "GLM",
+  "orden": 3,
+  "sub": "9.a",
+  "subtema": "Lesión podocitaria no inmunocompleja: enfermedad de cambios mínimos y diafragma de hendidura",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un tercer paciente, de 28 años, tiene síndrome nefrótico con biopsia de microscopía óptica normal y borramiento difuso de los pedicelos en la microscopía electrónica, sin depósitos de inmunoglobulinas. Responde a esteroides. El residente pregunta qué mecanismo explica la proteinuria.",
+  "enunciado": "¿Cuál es la explicación más adecuada?",
+  "opciones": {
+   "A": "Se debe a depósitos subepiteliales de IgG4 contra PLA2R, con engrosamiento de la membrana basal glomerular",
+   "B": "Se debe a depósitos lineales de IgG contra la membrana basal, con semilunas y deterioro rápido de la función",
+   "C": "Es una enfermedad genética de la membrana basal (colágeno IV), sin respuesta a esteroides ni hematuria",
+   "D": "Cambios mínimos: podocitopatía de origen inmunológico (linfocitos T o anti-nefrina), sin depósitos y con proteinuria selectiva",
+   "E": "Se debe a la proliferación de las células mesangiales, con depósitos de IgA en el mesangio glomerular"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Los depósitos de IgG4 anti-PLA2R corresponden a la nefropatía membranosa, y aquí no hay depósitos.",
+   "B": "Los depósitos lineales de IgG corresponden a la enfermedad anti-MBG.",
+   "C": "La enfermedad de colágeno IV (Alport) cursa con hematuria y membrana basal alterada, y no con respuesta a esteroides.",
+   "D": "La enfermedad de cambios mínimos es una podocitopatía con borramiento difuso de los pedicelos y sin depósitos inmunes; su respuesta a los esteroides, el vínculo con atopia, linfomas y fármacos, y la recaída con las infecciones apoyan un mecanismo inmunológico mediado por linfocitos T y por factores circulantes que alteran el podocito, y se han descrito autoanticuerpos contra la nefrina (una proteína del diafragma de hendidura) en un subgrupo de pacientes, que se correlacionan con la actividad. El diafragma de hendidura (nefrina, podocina, CD2AP, TRPC6) y la carga aniónica de la barrera (glucocálix, heparán sulfato) determinan la selectividad, y su pérdida produce proteinuria masiva y selectiva (sobre todo albúmina). Las mutaciones en las proteínas del diafragma (NPHS1, NPHS2) causan formas hereditarias, resistentes a esteroides.",
+   "E": "La proliferación mesangial no explica la biopsia normal con borramiento de pedicelos."
+  },
+  "perla": "MCD: podocitopatía, borramiento de pedicelos sin depósitos; mecanismo inmunológico (T/factores circulantes; anti-nefrina descritos). Diafragma de hendidura: nefrina, podocina (NPHS1/NPHS2), CD2AP, TRPC6; formas hereditarias resistentes a esteroides.",
+  "referencias": [
+   "Watts AJB et al. J Am Soc Nephrol 2022;33:238 (autoanticuerpos anti-nefrina en cambios mínimos)",
+   "Comprehensive Clinical Nephrology (mecanismos de lesión glomerular)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o1",
+  "peso": 42.3
+ },
+ {
+  "id": "CRG-1",
+  "serie_id": "CRG",
+  "orden": 1,
+  "sub": "9.d.3",
+  "subtema": "Crioglobulinemia: clasificación de Brouet y errores preanalíticos",
+  "dificultad": "moderada",
+  "caso": "Mujer de 61 años con síndrome de Sjögren, púrpura palpable, artralgias y proteinuria de 2.4 g/g con hematuria glomerular. La crioglobulina solicitada resultó negativa en una muestra enviada a temperatura ambiente. C4 indetectable, C3 normal, factor reumatoide muy elevado, serología de VHC y VHB negativa.",
+  "enunciado": "¿Cuál es la interpretación más adecuada?",
+  "opciones": {
+   "A": "El C4 indetectable con C3 normal es típico de la nefropatía por IgA, y no de la crioglobulinemia ni del Sjögren",
+   "B": "Se diagnostica crioglobulinemia solo con el cuadro clínico, sin determinación de laboratorio, porque la prueba es innecesaria",
+   "C": "La crioglobulina negativa descarta la crioglobulinemia y no se repite, pues la técnica de laboratorio tiene sensibilidad total",
+   "D": "La crioglobulinemia tipo I es la que se asocia con Sjögren, con IgM policlonal, y la tipo II con enfermedades neoplásicas linfoides",
+   "E": "Negativa por transporte sin 37 °C; la clínica con C4 bajo y FR alto sugiere crioglobulinemia mixta, y se repite la prueba"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "En la nefropatía por IgA el complemento suele ser normal, y el C4 muy bajo orienta a crioglobulinemia.",
+   "B": "El diagnóstico requiere la demostración de crioglobulinas en suero con la técnica correcta.",
+   "C": "Una muestra mal manejada produce falsos negativos, y se repite con la técnica correcta.",
+   "D": "El tipo I es monoclonal aislado (mieloma, Waldenström), y no se asocia de forma típica con Sjögren.",
+   "E": "La determinación de crioglobulinas exige extraer y transportar la muestra a 37 °C, separar el suero a esa temperatura y luego mantenerlo a 4 °C durante hasta 7 días para observar el crioprecipitado y calcular el crioocrito; una muestra enfriada produce falsos negativos porque el crioprecipitado queda atrapado en el coágulo. La clasificación de Brouet distingue el tipo I (inmunoglobulina monoclonal aislada, en mieloma, macroglobulinemia de Waldenström o MGUS), el tipo II (inmunoglobulina monoclonal con actividad de factor reumatoide, habitualmente IgM κ, más IgG policlonal, ligado a VHC, linfoproliferación B o Sjögren) y el tipo III (policlonal mixta, en infecciones y enfermedades autoinmunes). El C4 muy bajo con C3 conservado por activación de la vía clásica y el factor reumatoide elevado son característicos de los tipos II y III."
+  },
+  "perla": "Crioglobulinas: extraer/transportar/separar a 37 °C → crioocrito a 4 °C (7 d); falsos negativos si se enfría. Brouet: I monoclonal; II monoclonal IgM-RF + IgG policlonal; III policlonal. C4 ↓↓ con C3 normal.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (crioglobulinemia)"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o10",
+  "peso": 37.3
+ },
+ {
+  "id": "CRG-2",
+  "serie_id": "CRG",
+  "orden": 2,
+  "sub": "9.d.3",
+  "subtema": "Crioglobulinemia tipo I: hiperviscosidad, trombosis y tratamiento del clon",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otro paciente, de 68 años, con IgM monoclonal κ de 3.8 g/dL, médula con infiltración linfoplasmocitaria y mutación MYD88 L265P, presenta úlceras isquémicas digitales con frío, visión borrosa, creatinina de 2.9 mg/dL y proteinuria de 1.5 g/g. La biopsia renal muestra trombos intracapilares eosinófilos PAS-positivos con proliferación endocapilar. La crioglobulina es monoclonal tipo I (IgM κ) con crioocrito de 14%.",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento más adecuado?",
+  "opciones": {
+   "A": "Crioglobulinemia tipo I con Waldenström (trombos de crioglobulina): rituximab con bendamustina o BDR; recambio plasmático como puente",
+   "B": "Amiloidosis AL, que se trata con melfalán y dexametasona sin rituximab, por el depósito glomerular de cadenas ligeras",
+   "C": "Nefropatía por IgA secundaria a la gammapatía, que se trata con esteroides por la hematuria y la proteinuria",
+   "D": "Crioglobulinemia mixta por VHC, que se trata con antivirales de acción directa por la vasculitis de complejos inmunes",
+   "E": "Vasculitis asociada a ANCA, que se trata con ciclofosfamida y esteroides, por las úlceras isquémicas y la lesión renal"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La crioglobulinemia tipo I (inmunoglobulina monoclonal aislada) se debe a un clon de células B o plasmáticas (Waldenström, mieloma, linfoma de la zona marginal, MGUS) y el daño se debe más a hiperviscosidad y a trombos intraluminales por precipitación de la crioglobulina (síndrome de oclusión, con isquemia digital, retinopatía y neuropatía) que a una vasculitis por complejos inmunes. En el riñón, los trombos intracapilares PAS-positivos con proliferación endocapilar son característicos. El tratamiento va dirigido al clon: rituximab con quimioterapia (bendamustina o bortezomib con dexametasona), con la plasmaféresis como medida puente en la hiperviscosidad o la isquemia grave. El tratamiento antiviral no aplica porque no hay VHC, y la plasmaféresis sola no controla la producción de la crioglobulina.",
+   "B": "La amiloidosis AL se tiñe con rojo Congo y tiene fibrillas, y no trombos PAS-positivos.",
+   "C": "La nefropatía por IgA tiene depósitos mesangiales de IgA, no trombos intracapilares de crioglobulina.",
+   "D": "La crioglobulina de tipo I es monoclonal y se asocia con un clon, y no con VHC.",
+   "E": "No hay datos de vasculitis ANCA, y el hallazgo histológico corresponde a trombos de crioglobulina."
+  },
+  "perla": "Crio tipo I: clon (Waldenström/mieloma/MZL); oclusión por trombos (isquemia, hiperviscosidad), no vasculitis; trombos PAS+ en capilares; tratar clon (RTX + bendamustina/BDR); PEX como puente.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (crioglobulinemia)",
+   "Leung N et al. Blood 2012;120:4292"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o10",
+  "peso": 39.3
+ },
+ {
+  "id": "CRG-3",
+  "serie_id": "CRG",
+  "orden": 3,
+  "sub": "9.d.3",
+  "subtema": "Vasculitis crioglobulinémica grave sin VHC: rituximab, esteroides y recambio",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente con Sjögren (61 años) se confirma con crioglobulina mixta tipo II sin VHC; presenta ahora lesión renal con creatinina de 3.1 mg/dL, proteinuria de 4.8 g/g, úlceras cutáneas necróticas y neuropatía motora progresiva. La biopsia renal muestra glomerulonefritis membranoproliferativa con trombos hialinos y vasculitis de vasos pequeños.",
+  "enunciado": "¿Cuál es el tratamiento más adecuado?",
+  "opciones": {
+   "A": "Trasplante renal inmediato, porque la lesión renal rápidamente progresiva y las úlceras exigen sustituir la función renal de inmediato",
+   "B": "Rituximab con pulsos de metilprednisolona; recambio plasmático si la forma es grave; sin papel de los antivirales al no haber VHC",
+   "C": "Esteroides orales a dosis bajas en monoterapia, sin rituximab, por la crioglobulinemia mixta con lesión renal y úlceras necróticas",
+   "D": "Solo antivirales de acción directa, por la crioglobulinemia mixta con lesión renal y úlceras cutáneas necróticas en la paciente",
+   "E": "Solo observación y control de síntomas, porque la crioglobulinemia mixta es benigna y la lesión renal suele resolverse sola"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El trasplante no se plantea en la fase aguda, y la enfermedad se controla con inmunosupresión.",
+   "B": "La vasculitis crioglobulinémica con compromiso renal, cutáneo y neurológico grave sin infección por VHC se trata con inmunosupresión: el rituximab (anti-CD20, que elimina el clon productor del factor reumatoide) es la base, con pulsos de metilprednisolona para el control inicial y reducción posterior; el recambio plasmático se agrega en las formas graves o con riesgo vital (glomerulonefritis rápidamente progresiva, isquemia, neuropatía motora o hiperviscosidad) para eliminar la crioglobulina circulante mientras actúa el inmunosupresor. Se trata también la enfermedad de base (Sjögren, linfoproliferación) y se vigilan C4, factor reumatoide y crioocrito como marcadores de actividad. Los antivirales solo aplican si hay VHC.",
+   "C": "Los esteroides a dosis bajas son insuficientes en la afectación grave, y el rituximab es la base.",
+   "D": "Sin VHC, los antivirales no tienen indicación, y no controlan la enfermedad.",
+   "E": "La afectación renal, cutánea y neurológica grave no es benigna, y requiere tratamiento inmunosupresor."
+  },
+  "perla": "Crioglobulinemia mixta grave sin VHC: rituximab + metilprednisolona ± PEX (RPGN/isquemia/neuropatía/hiperviscosidad); tratar la enfermedad de base; seguir C4, FR y crioocrito.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (crioglobulinemia)",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o10",
+  "peso": 39.3
+ },
+ {
+  "id": "NEE-1",
+  "serie_id": "NEE",
+  "orden": 1,
+  "sub": "9.c.3",
+  "subtema": "Síndrome nefrótico en el embarazo: abordaje",
+  "dificultad": "dificil",
+  "caso": "Mujer de 29 años, 16 semanas de gestación, con edema progresivo. TA 118/76 mmHg, Cr 0.8 mg/dL, albúmina 2.4 g/dL, proteinuria 6 g/24 h, sedimento sin hematuria. C3, C4, ANA, anti-dsDNA, HBsAg, anti-VHC y VIH negativos.",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Iniciar IECA a dosis máxima, para reducir la proteinuria y proteger la función renal de la paciente",
+   "B": "Esperar al posparto para investigar la causa de la proteinuria, porque la biopsia renal está contraindicada durante el embarazo de la paciente",
+   "C": "Biopsia renal ahora, porque la proteinuria nefrótica antes de las 20 semanas no es preeclampsia y el resultado cambiará el manejo",
+   "D": "Iniciar ciclofosfamida empírica por la proteinuria nefrótica, sin confirmar el diagnóstico histológico",
+   "E": "Diagnosticar preeclampsia temprana e interrumpir el embarazo, por la proteinuria nefrótica y el edema progresivo de la paciente gestante"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los IECA están contraindicados en el embarazo por fetotoxicidad.",
+   "B": "Posponer el estudio impide tratar una enfermedad con potencial de progresión y complicaciones fetales.",
+   "C": "La proteinuria nefrótica antes de las 20 semanas, sin hipertensión ni disfunción orgánica, orienta a enfermedad renal primaria y no a preeclampsia. La biopsia renal puede realizarse con seguridad en el embarazo cuando se espera que modifique la conducta (por ejemplo, para decidir inmunosupresión) y se prefiere antes de las 24 a 28 semanas, ya que después aumentan las complicaciones hemorrágicas y la sensibilidad para distinguir el cuadro disminuye. Se deben controlar la TA, la albúmina y el crecimiento fetal.",
+   "D": "La ciclofosfamida es teratogénica y no debe usarse empíricamente.",
+   "E": "El diagnóstico de preeclampsia requiere hipertensión de nueva aparición después de las 20 semanas."
+  },
+  "perla": "Nefrótico <20 SDG sin HTA: no es preeclampsia → biopsia renal (idealmente antes de 24–28 SDG) si cambia el manejo.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "NEE-2",
+  "serie_id": "NEE",
+  "orden": 2,
+  "sub": "9.c.3",
+  "subtema": "GEFS en el embarazo: tratamiento",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia muestra glomeruloesclerosis focal y segmentaria (variante NOS) con borramiento difuso de pedicelos. Se descartan causas secundarias.",
+  "enunciado": "¿Qué tratamiento es el más apropiado?",
+  "opciones": {
+   "A": "Observación sin tratamiento inmunosupresor ni anticoagulación, hasta el término del embarazo y la lactancia",
+   "B": "Micofenolato de mofetilo con IECA, como esquema de primera línea en la GEFS durante la gestación",
+   "C": "Prednisona, TA con labetalol o nifedipino, AAS en dosis baja y vigilancia; evitar IECA/ARA-II, micofenolato y ciclofosfamida",
+   "D": "Rituximab en dosis completas semanales durante todo el embarazo, por su seguridad fetal demostrada",
+   "E": "Ciclofosfamida con prednisona, por la proteinuria nefrótica y la variante histológica NOS de la glomeruloesclerosis focal"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Observar sin tratamiento expone a progresión y a complicaciones trombóticas y fetales.",
+   "B": "El micofenolato y los IECA están contraindicados en el embarazo.",
+   "C": "Los glucocorticoides orales (prednisona, que la 11β-HSD2 placentaria inactiva en gran parte) son la terapia de elección en GEFS primaria durante el embarazo. Los antihipertensivos compatibles son labetalol, nifedipino y metildopa. El ácido acetilsalicílico en dosis baja desde las 12 semanas reduce el riesgo de preeclampsia. Se evitan IECA/ARA-II (fetotoxicidad), micofenolato y ciclofosfamida (teratogénicos). Si la albúmina es <2.5 g/dL se valora tromboprofilaxis con heparina de bajo peso molecular, y en formas resistentes se puede considerar tacrolimus bajo vigilancia.",
+   "D": "El rituximab atraviesa la placenta en el tercer trimestre y no es de primera línea en el embarazo.",
+   "E": "La ciclofosfamida es teratogénica."
+  },
+  "perla": "GEFS en embarazo: prednisona + labetalol/nifedipino + ASA baja; no IECA/ARA-II, MMF ni ciclofosfamida; tromboprofilaxis si albúmina <2.5 g/dL.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 71.0
+ },
+ {
+  "id": "NEE-4",
+  "serie_id": "NEE",
+  "orden": 4,
+  "sub": "9.c.3",
+  "subtema": "Desenlaces maternos y fetales",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "La paciente es sometida a cesárea a las 34 semanas por empeoramiento clínico. El recién nacido pesa 1,900 g. A los 6 meses la proteinuria es 4 g/día con Cr 1.2 mg/dL.",
+  "enunciado": "¿Cuál de las siguientes opciones describe mejor los riesgos asociados?",
+  "opciones": {
+   "A": "Hipertrofia cardiaca neonatal como complicación principal, secundaria a la hipoalbuminemia y la hipertensión maternas",
+   "B": "Riesgo fetal nulo si la creatinina previa era normal, porque la proteinuria materna no afecta la placenta",
+   "C": "Mayor riesgo de parto prematuro, restricción del crecimiento y bajo peso; en la madre, hipertensión, preeclampsia y progresión renal",
+   "D": "Riesgo de macrosomía fetal por el síndrome nefrótico materno, con mayor frecuencia de cesárea electiva",
+   "E": "Mayor riesgo de malformaciones congénitas mayores por la proteinuria nefrótica durante el primer trimestre"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La hipertrofia cardiaca neonatal es complicación de la diabetes materna.",
+   "B": "La proteinuria nefrótica y la hipertensión aumentan el riesgo fetal aun con creatinina normal.",
+   "C": "En glomerulopatías con proteinuria nefrótica y especialmente con hipertensión o disminución de la TFGe, el embarazo se asocia a prematuridad, restricción del crecimiento intrauterino, bajo peso al nacer y pérdida fetal. En la madre aumenta el riesgo de preeclampsia, hipertensión y, en la GEFS, de pérdida de función renal, que puede no recuperarse totalmente. Por ello se recomienda planear el embarazo con la enfermedad controlada y seguimiento conjunto entre nefrología y obstetricia de alto riesgo.",
+   "D": "La macrosomía es característica de la diabetes materna.",
+   "E": "La proteinuria materna no es teratogénica."
+  },
+  "perla": "Glomerulopatía nefrótica en embarazo: prematuridad, RCIU y bajo peso al nacer; materno: preeclampsia, HAS y progresión renal.",
+  "referencias": [
+   "Blom K et al. Clin J Am Soc Nephrol 2017;12:1862",
+   "Piccoli GB et al. Risk of adverse pregnancy outcomes in women with CKD. J Am Soc Nephrol 2015;26:2011"
+  ],
+  "origen": [
+   "David26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o5",
+  "peso": 69.0
+ }
+]

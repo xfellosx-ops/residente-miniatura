@@ -1,0 +1,824 @@
+[
+ {
+  "id": "MN-1",
+  "serie_id": "MN",
+  "orden": 1,
+  "sub": "9.c.1",
+  "subtema": "Nefropatía membranosa: diagnóstico serológico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 54 años con edema de 6 semanas. TA 128/80 mmHg, creatinina 0.9 mg/dL (TFGe 95), albúmina 2.1 g/dL, colesterol total 380 mg/dL, proteinuria 8.2 g/24 h, sin hematuria. C3, C4, ANA, VHB, VHC y VIH negativos. Anti-PLA2R sérico 180 RU/mL (positivo; corte 14 RU/mL por ELISA).",
+  "enunciado": "¿Cuál es la interpretación y qué conducta diagnóstica corresponde?",
+  "opciones": {
+   "A": "Membranosa primaria: con nefrótico, TFGe normal y anti-PLA2R positivo se puede omitir la biopsia tras descartar causas secundarias",
+   "B": "Nefropatía membranosa asociada a lupus: se requiere anti-dsDNA y complemento bajo para confirmar el diagnóstico y definir el tratamiento",
+   "C": "Glomeruloesclerosis focal primaria: el anti-PLA2R es inespecífico y obliga a realizar biopsia renal diagnóstica",
+   "D": "La biopsia siempre es obligatoria en el adulto con síndrome nefrótico; la serología no tiene valor diagnóstico",
+   "E": "Nefropatía membranosa secundaria a neoplasia: el anti-PLA2R positivo lo demuestra y obliga a buscar el tumor"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "El anti-PLA2R (receptor de fosfolipasa A2 tipo M) está presente en ~70–80% de las nefropatías membranosas primarias. Según KDIGO 2021, en un paciente con síndrome nefrótico y TFGe normal, la positividad del anti-PLA2R tiene suficiente especificidad para diagnosticar MN primaria sin biopsia. Aun así debe descartarse una causa secundaria (VHB, VHC, lupus, fármacos como AINE/sales de oro/penicilamina, neoplasias) y aplicar tamizaje oncológico según edad, porque la asociación a cáncer no se excluye con el anti-PLA2R. Otros antígenos: THSD7A, NELL1 (neoplasia, lipoico, fármacos), exostosina 1/2 (lupus, autoinmune), SEMA3B, PCDH7.",
+   "B": "La MN lúpica (clase V) suele ser PLA2R negativa, con exostosina 1/2 positivas y marcadores sistémicos.",
+   "C": "La GEFS no se asocia a anti-PLA2R; el anticuerpo apoya MN.",
+   "D": "Con anti-PLA2R positivo y función conservada la biopsia puede omitirse; la serología sí tiene valor diagnóstico.",
+   "E": "El anti-PLA2R positivo indica MN primaria en la mayoría; la MN asociada a neoplasia suele ser PLA2R negativa (NELL1, THSD7A)."
+  },
+  "perla": "MN: PLA2R+ (70–80%) → diagnóstico sin biopsia si TFGe normal + NS. NELL1: neoplasia/lipoico/fármacos; THSD7A: neoplasia; EXT1/2: lupus; SEMA3B: pediátrica. Tamizaje de cáncer por edad.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S):S1-S276",
+   "Beck LH Jr et al. N Engl J Med 2009;361:11"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o3",
+  "peso": 78.8
+ },
+ {
+  "id": "MN-2",
+  "serie_id": "MN",
+  "orden": 2,
+  "sub": "9.c.1",
+  "subtema": "Nefropatía membranosa: estratificación e inmunosupresión",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Recibe 6 meses de tratamiento conservador (IECA, iSGLT2, diurético, estatina, restricción de sodio) sin remisión: proteinuria 7.1 g/24 h, albúmina 2.3 g/dL, creatinina 1.0 mg/dL (TFGe 88) y anti-PLA2R 150 RU/mL.",
+  "enunciado": "¿Qué tratamiento tiene mejor sustento para inducir remisión?",
+  "opciones": {
+   "A": "Azatioprina como inmunosupresor de inducción, combinada con prednisona",
+   "B": "Prednisona sola 1 mg/kg/día durante 6 meses, con reducción gradual posterior",
+   "C": "Micofenolato en monoterapia por 12 meses, con vigilancia de anti-PLA2R",
+   "D": "Recambio plasmático seriado, con vigilancia del anti-PLA2R y de la albúmina",
+   "E": "Rituximab (1 g × 2 con 2 semanas de intervalo, o 375 mg/m² semanal × 4)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La azatioprina no tiene evidencia de eficacia en MN.",
+   "B": "Los esteroides solos no inducen remisión sostenida en MN y no se recomiendan en monoterapia.",
+   "C": "El micofenolato en monoterapia no está recomendado; se reserva como opción asociada a esteroides cuando otras no son viables.",
+   "D": "El recambio plasmático no se recomienda de rutina; su uso es experimental.",
+   "E": "Con proteinuria persistente >3.5 g/día tras ≥6 meses de soporte y marcadores de mal pronóstico (albúmina <2.5 g/dL, anti-PLA2R >50 RU/mL) hay indicación de inmunosupresión. El rituximab es la opción de primera línea más usada y mejor tolerada: en MENTOR fue no inferior a la ciclosporina a 12 meses y superior en mantener remisión a 24 meses. KDIGO 2021 también acepta esquemas cíclicos con ciclofosfamida y esteroides (Ponticelli) o inhibidores de calcineurina, y combinar rituximab con CNI en riesgo alto. Se vigila la depleción de CD19/CD20 y las inmunoglobulinas."
+  },
+  "perla": "MN: soporte ≥6 m si bajo/moderado riesgo; inmunosupresión si proteinuria >3.5 persistente o criterios de riesgo (alb <2.5, PLA2R >50). RTX, CNI±RTX, o CFM/GC cíclicos. MENTOR: RTX no inferior a CsA a 12 m y superior a 24 m.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Fervenza FC et al. N Engl J Med 2019;381:36 (MENTOR)"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o3",
+  "peso": 80.8
+ },
+ {
+  "id": "MN-3",
+  "serie_id": "MN",
+  "orden": 3,
+  "sub": "9.c.1",
+  "subtema": "Síndrome nefrótico: tromboprofilaxis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Antes de iniciar rituximab, la proteinuria alcanza 11.5 g/24 h, albúmina 2.0 g/dL, IMC 36 kg/m². Sin antecedentes de trombosis ni sangrado, sin hipertensión portal, plaquetas normales y sin fármacos antiplaquetarios.",
+  "enunciado": "¿Qué conducta es la más adecuada respecto al riesgo trombótico?",
+  "opciones": {
+   "A": "Anticoagulación profiláctica (warfarina o HBPM ajustada a la función renal; los ACOD son alternativa), ponderando el sangrado",
+   "B": "No anticoagular salvo que aparezca trombosis, porque el riesgo de sangrado supera al riesgo trombótico en todos los casos de este tipo",
+   "C": "Aspirina 100 mg/día como única profilaxis, porque protege igual que la anticoagulación y no eleva el sangrado",
+   "D": "Colocar filtro de vena cava de forma profiláctica, para prevenir el tromboembolismo pulmonar en el síndrome nefrótico con hipoalbuminemia",
+   "E": "Anticoagular solo si la albúmina es <1.0 g/dL, porque por encima de ese valor el riesgo trombótico es bajo"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La nefropatía membranosa tiene el mayor riesgo trombótico entre las enfermedades glomerulares (tromboembolia venosa, incluida la trombosis de vena renal y embolia pulmonar), que aumenta con albúmina <2.5 g/dL (por verde de bromocresol; <2.0 por púrpura de bromocresol). KDIGO 2021 sugiere anticoagulación profiláctica cuando la albúmina es <2.5 g/dL y hay otro factor de riesgo (proteinuria >10 g/día, IMC >35, trombofilia familiar, insuficiencia cardiaca NYHA III-IV, cirugía reciente, inmovilización) si el riesgo de sangrado es bajo. Aquí se cumplen la hipoalbuminemia grave, la proteinuria >10 g/día y el IMC >35. Se usa warfarina o HBPM; los DOAC son una alternativa razonable ajustada a TFG, y se suspende cuando la albúmina supera 3.0 g/dL.",
+   "B": "Esperar a la trombosis expone a embolia pulmonar y pérdida de injerto; la profilaxis primaria está indicada en riesgo alto.",
+   "C": "La aspirina sola es insuficiente en un paciente con riesgo venoso alto; se reserva a riesgo arterial.",
+   "D": "Los filtros de vena cava se reservan a pacientes con trombosis aguda y contraindicación absoluta de anticoagulación.",
+   "E": "El umbral de albúmina para considerar profilaxis es <2.5 g/dL (BCG), no <1.0."
+  },
+  "perla": "MN: profilaxis anticoagulante si alb <2.5 (BCG) o <2.0 (BCP) + ≥1 factor (proteinuria >10 g/d, IMC >35, trombofilia, ICC III–IV, cirugía/inmovilización) y bajo riesgo de sangrado. Retirar con alb >3.0.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Lionaki S et al. Clin J Am Soc Nephrol 2012;7:43"
+  ],
+  "origen": [
+   "Alan26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o3",
+  "peso": 68.7
+ },
+ {
+  "id": "MN-4",
+  "serie_id": "MN",
+  "orden": 4,
+  "sub": "9.c.1",
+  "subtema": "Nefropatía membranosa: respuesta inmunológica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A los 6 meses de rituximab, el anti-PLA2R bajó a 12 RU/mL (negativo), la albúmina es 3.0 g/dL y la proteinuria 3.1 g/24 h (disminución de 73% desde la basal), con creatinina estable en 0.9 mg/dL.",
+  "enunciado": "¿Cómo se interpreta y qué se hace?",
+  "opciones": {
+   "A": "Remisión completa: suspender el soporte nefroprotector, porque ya no hay actividad inmunológica residual",
+   "B": "Respuesta inadecuada: añadir tacrolimus, porque la proteinuria sigue por encima de 3 g/día",
+   "C": "Remisión inmunológica con remisión clínica parcial en curso: no intensificar y seguir vigilando anti-PLA2R",
+   "D": "Recaída de la enfermedad: iniciar ciclofosfamida y esteroides, porque la proteinuria persiste",
+   "E": "Falla terapéutica: administrar de inmediato una segunda dosis de rituximab de rescate"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Aún hay proteinuria de 3.1 g/día: no es remisión completa y se mantiene el soporte nefroprotector.",
+   "B": "Añadir tacrolimus expone a nefrotoxicidad en un paciente con respuesta inmunológica adecuada.",
+   "C": "La remisión inmunológica (anti-PLA2R que se negativiza) precede a la remisión clínica por meses; la proteinuria disminuye de manera gradual a medida que el podocito se recupera. La remisión parcial se define por proteinuria <3.5 g/día con descenso ≥50% desde la basal y albúmina normalizándose; la completa, por proteinuria <0.3 g/día. Con anti-PLA2R negativo y función estable no se debe intensificar la inmunosupresión; se mantiene el soporte (IECA, iSGLT2) y se monitoriza cada 3 meses, ya que el reaumento del anti-PLA2R antecede a las recaídas.",
+   "D": "No hay recaída (la proteinuria disminuye); la ciclofosfamida con esteroides se reserva a enfermedad refractaria o de alto riesgo.",
+   "E": "No hay falla: el anticuerpo ya se negativizó; repetir rituximab sin evidencia de actividad inmunológica solo añade riesgo."
+  },
+  "perla": "MN: respuesta inmunológica (PLA2R↓/neg) precede a la clínica. Remisión parcial: <3.5 g/d y ↓≥50%; completa: <0.3 g/d. Re-ascenso de PLA2R predice recaída.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases Guideline. Kidney Int 2021;100(4S)",
+   "Ruggenenti P et al. J Am Soc Nephrol 2015;26:2545"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o3",
+  "peso": 80.8
+ },
+ {
+  "id": "MNB-1",
+  "serie_id": "MNB",
+  "orden": 1,
+  "sub": "9.c.1",
+  "subtema": "Antígenos de la nefropatía membranosa",
+  "dificultad": "dificil",
+  "caso": "Mujer de 28 años con síndrome nefrótico de 3 semanas y artralgias. Cr 0.8 mg/dL, albúmina 2.2 g/dL, proteinuria 5.6 g/24 h, C3 y C4 bajos, ANA 1:640. La biopsia muestra patrón membranoso; la IF revela tinción en 'full house' (IgG, IgA, IgM, C3 y C1q). El anti-PLA2R sérico es negativo.",
+  "enunciado": "¿Qué antígeno es más probable que se identifique en los depósitos?",
+  "opciones": {
+   "A": "Trombospondina tipo 1 (THSD7A), asociada a membranosa primaria",
+   "B": "Albúmina sérica bovina catiónica, asociada a membranosa infantil",
+   "C": "NELL1, asociada a membranosa con neoplasias y a fármacos",
+   "D": "Exostosina 1/2 (EXT1/EXT2), asociada a membranosa lúpica y autoinmune en general",
+   "E": "PLA2R, el antígeno de la membranosa primaria en 70% a 80% de los casos"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "THSD7A es poco frecuente y se asocia con neoplasia en algunos casos.",
+   "B": "La albúmina catiónica se ha descrito como antígeno en la membranosa de la infancia temprana, pero no corresponde al patrón del lupus.",
+   "C": "NELL1 se vincula con neoplasia y ciertos fármacos o toxinas, no con lupus.",
+   "D": "Los depósitos membranosos con exostosina 1/2 se asocian con enfermedad autoinmune sistémica, sobre todo lupus clase V y enfermedad mixta del tejido conectivo, y con perfil de 'full house' en IF, subclases IgG1/IgG3 y C1q. Con anti-PLA2R negativo y datos clínicos de lupus, la tinción tisular para EXT1/EXT2 apoya una membranosa secundaria. Otros antígenos: PLA2R (70 a 80% de la forma primaria, IgG4), THSD7A (2 a 5%, algunas formas paraneoplásicas) y NELL1 (5 a 10%, asociado a neoplasias, a algunos fármacos y toxinas).",
+   "E": "PLA2R es el antígeno de la forma primaria, con IgG4 dominante y sin full house; aquí el anticuerpo sérico es negativo."
+  },
+  "perla": "Membranosa con full house y PLA2R negativo: EXT1/EXT2 (lupus clase V/enfermedad autoinmune). THSD7A y NELL1: considerar neoplasia.",
+  "referencias": [
+   "Sethi S et al. J Am Soc Nephrol 2019;30:1123 (EXT1/EXT2)",
+   "Sethi S et al. Kidney Int 2020;97:163 (NELL1)",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "continuacion": "",
+  "obj": "9.o3",
+  "peso": 80.8
+ },
+ {
+  "id": "MNB-2",
+  "serie_id": "MNB",
+  "orden": 2,
+  "sub": "9.c.1",
+  "subtema": "Distinguir MN lúpica de MN primaria en la biopsia",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El anti-dsDNA es positivo y hay hipocomplementemia. El patólogo debe confirmar si se trata de nefritis lúpica clase V.",
+  "enunciado": "¿Qué hallazgos de biopsia favorecen nefritis lúpica clase V sobre membranosa primaria?",
+  "opciones": {
+   "A": "Doble contorno de la membrana con bandas densas intramembranosas continuas y sin depósitos mesangiales",
+   "B": "Tinción dominante para IgG4 y PLA2R granular en las paredes capilares, con C1q ausente o muy débil",
+   "C": "Ausencia de depósitos en la microscopía electrónica y fusión extensa de los procesos podocitarios",
+   "D": "Depósitos exclusivamente subepiteliales, sin C1q ni depósitos mesangiales o subendoteliales",
+   "E": "IF full house con C1q, depósitos mesangiales y subendoteliales, e inclusiones tubuloreticulares"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Las bandas densas intramembranosas continuas definen la enfermedad por depósitos densos (C3G), no el lupus.",
+   "B": "IgG4 dominante con PLA2R positivo caracteriza a la membranosa primaria.",
+   "C": "Una membranosa siempre muestra depósitos densos en la microscopía electrónica.",
+   "D": "Depósitos puramente subepiteliales sin C1q ni mesangiales orientan a membranosa primaria.",
+   "E": "La clase V lúpica comparte con la membranosa primaria los depósitos subepiteliales, pero suele mostrar full house, C1q positivo, predominio de IgG1 e IgG3, depósitos mesangiales y/o subendoteliales y las inclusiones tubuloreticulares (huellas de interferón) en el endotelio, visibles por microscopía electrónica. La tinción para PLA2R es negativa en la mayoría. Estos hallazgos obligan a confirmar el diagnóstico serológico de lupus."
+  },
+  "perla": "LN V: full house + C1q + depósitos mesangiales/subendoteliales + inclusiones tubuloreticulares; MN primaria: IgG4 y PLA2R.",
+  "referencias": [
+   "Bajema IM et al. Kidney Int 2018;93:789 (clasificación ISN/RPS revisada)",
+   "KDIGO 2024 Clinical Practice Guideline for Lupus Nephritis. Kidney Int 2024;105(1S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o3",
+  "peso": 80.8
+ },
+ {
+  "id": "TVR-4",
+  "serie_id": "TVR",
+  "orden": 4,
+  "sub": "9.c.1",
+  "subtema": "Tratamiento de la causa: nefropatía membranosa de riesgo alto",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Con anticoagulación estable, se plantea el tratamiento de la enfermedad de base. El paciente tiene TFGe de 55 mL/min/1.73 m², proteinuria de 9 g/día, albúmina de 1.8 g/dL y anti-PLA2R de 180 RU/mL, sin respuesta a 3 meses de bloqueo del SRAA y medidas de soporte.",
+  "enunciado": "¿Cuál es el tratamiento de la nefropatía membranosa según KDIGO 2021?",
+  "opciones": {
+   "A": "Observación con tratamiento de soporte (IECA, diuréticos y estatina) durante 6 meses más, sin inmunosupresión alguna",
+   "B": "Rituximab o ciclofosfamida cíclica con glucocorticoides (riesgo alto); la remisión reduce el riesgo trombótico",
+   "C": "Micofenolato de mofetilo en monoterapia, como esquema de primera línea para el riesgo alto de progresión",
+   "D": "Plasmaféresis de rutina para eliminar el anticuerpo anti-PLA2R, seguida de prednisona en dosis bajas",
+   "E": "Prednisona sola a dosis alta durante 6 meses, ya que la monoterapia con glucocorticoide logra remisión sostenida"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Con riesgo alto, la observación expone a progresión y complicaciones.",
+   "B": "La guía KDIGO 2021 estratifica el riesgo de progresión en la nefropatía membranosa primaria: el riesgo alto incluye TFGe menor de 60 mL/min/1.73 m² y/o proteinuria mayor de 8 g/día durante 6 meses, y se trata con rituximab o con el esquema cíclico de ciclofosfamida y glucocorticoides (los inhibidores de calcineurina son opción en riesgo moderado, con peor durabilidad de la remisión). El anticuerpo anti-PLA2R con título alto apoya la actividad inmunológica y se usa para seguir la respuesta. La remisión de la proteinuria y la normalización de la albúmina reducen el estado procoagulante, lo que permite suspender la anticoagulación cuando la albúmina supera 3 g/dL y no hay otra indicación.",
+   "C": "El micofenolato en monoterapia tiene evidencia limitada como esquema de primera línea.",
+   "D": "La plasmaféresis no es tratamiento de rutina y se reserva para situaciones raras.",
+   "E": "Los glucocorticoides solos no mejoran los desenlaces de la nefropatía membranosa."
+  },
+  "perla": "MN riesgo alto (TFGe <60 o proteinuria >8 g/d 6 meses): rituximab o ciclofosfamida cíclica + esteroides. Remisión → retirar anticoagulación (alb >3).",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Alan26",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o3",
+  "peso": 80.8
+ },
+ {
+  "id": "MNB-3",
+  "serie_id": "MNB",
+  "orden": 3,
+  "sub": "9.d.2",
+  "subtema": "Nefritis lúpica clase V con proteinuria nefrótica",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La biopsia confirma nefritis lúpica clase V pura (sin lesiones proliferativas), con índice de actividad 1 y de cronicidad 1. Proteinuria 5.6 g/24 h, TFGe 110 mL/min/1.73 m², sin hipertensión.",
+  "enunciado": "¿Cuál es el tratamiento inicial más adecuado?",
+  "opciones": {
+   "A": "Belimumab como único agente, sin glucocorticoides ni inmunosupresor de base, por su perfil de seguridad",
+   "B": "Plasmaféresis diaria por 5 días para retirar los inmunocomplejos subepiteliales y reducir la proteinuria",
+   "C": "Solo hidroxicloroquina y bloqueo del SRAA, sin inmunosupresión, porque la actividad histológica es baja y el filtrado es normal",
+   "D": "Hidroxicloroquina, bloqueo del SRAA, glucocorticoides y un inmunosupresor (micofenolato de elección) por la proteinuria nefrótica",
+   "E": "Prednisona en monoterapia a dosis alta durante 6 meses, con descenso gradual según la proteinuria"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El belimumab es complemento de tratamiento en nefritis proliferativa, no monoterapia.",
+   "B": "La plasmaféresis no tiene indicación en nefritis lúpica clase V.",
+   "C": "La estrategia sin inmunosupresión se reserva para proteinuria subnefrótica.",
+   "D": "En la clase V pura, el tratamiento depende de la proteinuria: con proteinuria subnefrótica y función renal normal bastan hidroxicloroquina, IECA/ARA-II y control de la TA. Con proteinuria nefrótica (como aquí) se agrega inmunosupresión: glucocorticoides con micofenolato (opción preferida por tolerancia), o inhibidor de calcineurina, ciclofosfamida o rituximab como alternativas. La respuesta tarda; se evalúa a 6 a 12 meses y se evitan los AINE.",
+   "E": "Los glucocorticoides solos son menos eficaces y exponen a más efectos adversos."
+  },
+  "perla": "LN clase V con proteinuria nefrótica: HCQ + RAASi + glucocorticoide + MMF (o CNI/CYC/rituximab). Subnefrótica: soporte.",
+  "referencias": [
+   "KDIGO 2024 Lupus Nephritis. Kidney Int 2024;105(1S):S1",
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1 (capítulo 10)"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o9",
+  "peso": 75.0
+ },
+ {
+  "id": "MNB-4",
+  "serie_id": "MNB",
+  "orden": 4,
+  "sub": "9.d.2",
+  "subtema": "Lupus, mantenimiento y planeación del embarazo",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Ocho meses después, remisión completa (proteinuria 0.2 g/día) con micofenolato, prednisona 5 mg/día e hidroxicloroquina. La paciente desea embarazarse en un año.",
+  "enunciado": "¿Cuál es el plan más adecuado?",
+  "opciones": {
+   "A": "Continuar el micofenolato durante todo el embarazo porque protege contra la recaída de la nefritis lúpica",
+   "B": "Cambiar a ciclofosfamida de mantenimiento antes de la concepción, por considerarse el fármaco más seguro para el feto",
+   "C": "Suspender toda la inmunosupresión y la hidroxicloroquina antes de la concepción para evitar riesgos fetales",
+   "D": "Esperar el embarazo con IECA a dosis máxima por la proteinuria residual, y suspenderlo solo en el segundo trimestre del embarazo",
+   "E": "Esperar ≥6 meses de quiescencia; cambiar a azatioprina antes de concebir, mantener hidroxicloroquina, retirar el IECA y dar AAS en dosis baja"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "El micofenolato está contraindicado en el embarazo por teratogenicidad.",
+   "B": "La ciclofosfamida es teratogénica y gonadotóxica; no se usa como mantenimiento.",
+   "C": "Suspender toda la terapia favorece la recaída durante la gestación y se asocia a malos desenlaces maternos y fetales.",
+   "D": "Los IECA y ARA-II están contraindicados cuando se busca embarazo.",
+   "E": "El micofenolato es teratogénico (embriopatía) y debe suspenderse al menos 6 semanas antes de la concepción, con cambio a azatioprina (compatible con el embarazo; también se acepta tacrolimus). La hidroxicloroquina se continúa porque reduce las recaídas y las complicaciones; los IECA/ARA-II se suspenden al intentar el embarazo. El lupus debe estar inactivo al menos 6 meses antes de concebir; se recomienda ácido acetilsalicílico en dosis bajas desde la semana 12 para reducir preeclampsia y vigilar anticuerpos antifosfolípidos y anti-Ro/La."
+  },
+  "perla": "Lupus y embarazo: enfermedad quiescente ≥6 meses; cambiar MMF por azatioprina; mantener HCQ; suspender IECA/ARA-II; aspirina baja desde la semana 12.",
+  "referencias": [
+   "Sammaritano LR et al. Arthritis Rheumatol 2020;72:529 (guía ACR de salud reproductiva)",
+   "KDIGO 2024 Lupus Nephritis. Kidney Int 2024;105(1S):S1"
+  ],
+  "origen": [
+   "David26",
+   "Alan26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "9.o9",
+  "peso": 75.0
+ },
+ {
+  "id": "TVR-1",
+  "serie_id": "TVR",
+  "orden": 1,
+  "sub": "15.b",
+  "subtema": "Trombosis de la vena renal en nefropatía membranosa",
+  "dificultad": "moderada",
+  "caso": "Hombre de 35 años con síndrome nefrótico por nefropatía membranosa (anti-PLA2R positivo), proteinuria de 9 g/día y albúmina de 1.8 g/dL. Presenta dolor lumbar izquierdo, hematuria macroscópica y aumento de creatinina de 1.0 a 1.6 mg/dL, con el riñón izquierdo aumentado de tamaño en la ecografía.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y el estudio confirmatorio?",
+  "opciones": {
+   "A": "Pielonefritis; urocultivo únicamente, porque el dolor lumbar con hematuria y aumento de creatinina indica infección de las vías urinarias",
+   "B": "Trombosis de la vena renal (hipercoagulabilidad del síndrome nefrótico); ecografía Doppler y angiotomografía o venografía por TC",
+   "C": "Necrosis papilar; urografía, porque el dolor lumbar con hematuria macroscópica indica desprendimiento papilar",
+   "D": "Cólico renal; radiografía simple, porque el dolor lumbar con hematuria indica una litiasis ureteral",
+   "E": "Embolia de la arteria renal; electrocardiograma, porque la hematuria con dolor lumbar indica una fuente cardioembólica"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La pielonefritis cursa con piuria y fiebre; el contexto es de hipercoagulabilidad.",
+   "B": "El síndrome nefrótico produce un estado de hipercoagulabilidad por pérdida urinaria de antitrombina III, proteínas C y S, aumento de fibrinógeno y de factores V y VIII, y hemoconcentración. La nefropatía membranosa tiene el mayor riesgo trombótico entre las causas de síndrome nefrótico, sobre todo con albúmina menor de 2.5 g/dL (por verde de bromocresol). La trombosis de la vena renal aguda se manifiesta con dolor lumbar, hematuria, aumento del tamaño renal y deterioro de la función renal; la crónica puede ser asintomática y presentarse como tromboembolia pulmonar. Se confirma con ecografía Doppler, angiotomografía o resonancia con venografía.",
+   "C": "La necrosis papilar tiene otros factores predisponentes y urografía con defectos papilares.",
+   "D": "El cólico renal no explica el aumento del tamaño renal ni el contexto nefrótico.",
+   "E": "La embolia arterial se presenta con fibrilación auricular y corte arterial, no con riñón aumentado en nefrótico."
+  },
+  "perla": "Nefrótico (sobre todo membranosa, albúmina <2.5) → trombosis venosa renal: dolor lumbar, hematuria, riñón grande, ↑Cr. Dx: Doppler/angio-TC.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1",
+   "Comprehensive Clinical Nephrology (enfermedades vasculares del riñón)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "continuacion": "",
+  "obj": "15.o1",
+  "peso": 17.6
+ },
+ {
+  "id": "TVR-2",
+  "serie_id": "TVR",
+  "orden": 2,
+  "sub": "15.b",
+  "subtema": "Anticoagulación en trombosis de la vena renal y profilaxis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se confirma trombosis de la vena renal izquierda sin embolia pulmonar, y el paciente no tiene riesgo hemorrágico importante.",
+  "enunciado": "¿Cuál es el manejo de la trombosis y la estrategia de profilaxis en esta enfermedad?",
+  "opciones": {
+   "A": "Anticoagulación por 1 semana y suspender, porque la trombosis venosa renal es de resolución espontánea y no recurre nunca en el nefrótico",
+   "B": "Anticoagulación ≥6 meses mientras persista el nefrótico; profilaxis si hay membranosa con albúmina <2.5 g/dL y bajo riesgo de sangrado",
+   "C": "Filtro de vena cava en todos los casos, porque la anticoagulación está contraindicada en el síndrome nefrótico",
+   "D": "Trombólisis sistémica en todos los casos, porque restaura la perfusión renal y evita la pérdida del riñón",
+   "E": "Solo antiagregante plaquetario, porque es suficiente para tratar y prevenir la trombosis de la vena renal"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Una semana es insuficiente y el estado procoagulante persiste.",
+   "B": "El tratamiento de la trombosis venosa renal es la anticoagulación inicial con heparina (la de bajo peso molecular se ajusta a la función renal) y luego warfarina (INR de 2 a 3) o un anticoagulante oral directo, durante al menos 6 meses y mientras dure el síndrome nefrótico con albúmina baja. La trombólisis se reserva para trombosis bilateral con lesión renal aguda o con compromiso vital. La guía KDIGO 2021 sugiere considerar la anticoagulación profiláctica en pacientes con nefropatía membranosa y albúmina menor de 2.5 g/dL (por verde de bromocresol) o menor de 2.0 g/dL (por púrpura de bromocresol) si hay factores de riesgo adicionales (inmovilidad, insuficiencia cardiaca, obesidad, trombofilia o cirugía reciente) y bajo riesgo hemorrágico. La remisión de la proteinuria reduce el riesgo.",
+   "C": "El filtro se reserva para contraindicación de anticoagulación con embolia pulmonar.",
+   "D": "La trombólisis sistémica aumenta el riesgo hemorrágico sin indicación rutinaria.",
+   "E": "El antiagregante no trata una trombosis venosa establecida."
+  },
+  "perla": "TVR: anticoagulación ≥6 meses y mientras haya nefrótico. MN con albúmina <2.5 (BCG) + factores de riesgo: considerar profilaxis. Trombólisis solo si bilateral/LRA/compromiso vital.",
+  "referencias": [
+   "KDIGO 2021 Glomerular Diseases. Kidney Int 2021;100(4S):S1"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o1",
+  "peso": 19.6
+ },
+ {
+  "id": "TVR-3",
+  "serie_id": "TVR",
+  "orden": 3,
+  "sub": "15.b",
+  "subtema": "Resistencia a la heparina en síndrome nefrótico",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se inicia heparina no fraccionada en infusión con ajuste por TTPa, pero tras 48 horas el TTPa permanece subterapéutico a pesar de dosis crecientes. La antitrombina III plasmática es de 48% (normal de 80 a 120%).",
+  "enunciado": "¿Cuál es la explicación y la alternativa?",
+  "opciones": {
+   "A": "Exceso de antitrombina III; administrar protamina, porque el TTPa subterapéutico indica sobredosis de heparina no fraccionada",
+   "B": "Hipersensibilidad a la heparina; suspender toda anticoagulación, porque el TTPa no responde a la dosis",
+   "C": "Trombocitopenia inducida por heparina; administrar plaquetas, porque el TTPa no sube con dosis crecientes",
+   "D": "Error de laboratorio, que obliga a duplicar la dosis sin otras medidas, por lo que no se cambia el anticoagulante ni se mide anti-Xa",
+   "E": "Resistencia a la heparina por pérdida urinaria de antitrombina III; se monitoriza con anti-Xa o se cambia a un ACOD"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La antitrombina está disminuida, no aumentada, y la protamina revierte heparina.",
+   "B": "El cuadro no es de hipersensibilidad ni obliga a suspender la anticoagulación.",
+   "C": "La trombocitopenia inducida por heparina cursa con caída de plaquetas y trombosis paradójica, no con TTPa subterapéutico aislado.",
+   "D": "El valor bajo de antitrombina explica la falta de respuesta, y duplicar la dosis sin vigilancia anti-Xa es ineficaz y riesgoso.",
+   "E": "La heparina actúa potenciando la antitrombina III, que se pierde por la orina en el síndrome nefrótico junto con otras proteínas de bajo peso molecular, por lo que puede haber resistencia a la heparina con TTPa subterapéutico. El TTPa es poco confiable en este contexto, y se prefiere la actividad anti-Xa para ajustar la dosis. Los anticoagulantes orales directos (inhibidores del factor Xa o de la trombina) no dependen de la antitrombina y son una alternativa razonable, con ajuste a la TFG y vigilancia de la albúmina (la unión a proteínas puede cambiar la fracción libre); la warfarina también es independiente de la antitrombina y se introduce con puente. Es una pérdida de antitrombina, no un exceso."
+  },
+  "perla": "Nefrótico: pérdida de antitrombina III → resistencia a heparina (TTPa subterapéutico). Vigilar anti-Xa; alternativa: ACOD o warfarina.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (síndrome nefrótico)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 15,
+  "tema": "Enfermedades vasculares del riñón",
+  "obj": "15.o1",
+  "peso": 19.6
+ },
+ {
+  "id": "T2-93MNS-1",
+  "serie_id": "T2-93MNS",
+  "orden": 1,
+  "sub": "9.c.1",
+  "subtema": "Membranosa secundaria: antígenos y búsqueda de causa",
+  "caso": "Varón de 68 años, exfumador, con edema de 2 meses, proteinuria de 7 g/día, albúmina 2.4 g/dL y TFGe 70. El anti-PLA2R sérico es negativo.",
+  "continuacion": "",
+  "enunciado": "¿Cuál es el siguiente paso más adecuado?",
+  "opciones": {
+   "A": "Iniciar rituximab sin biopsia por nefrótico típico",
+   "B": "Repetir el anti-PLA2R en 6 meses sin más estudios",
+   "C": "Ciclofosfamida y esteroide por ser de riesgo alto",
+   "D": "Solo iSRAA y diurético, sin estudiar la causa",
+   "E": "Biopsia renal con tinción de antígenos y de IgG"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Omitir la biopsia solo se acepta con anti-PLA2R positivo, clínica típica y TFG normal.",
+   "B": "Un anti-PLA2R negativo no se «espera»: hay que confirmar el diagnóstico y buscar la causa.",
+   "C": "Antes de inmunosuprimir hay que confirmar el diagnóstico y descartar una causa secundaria.",
+   "D": "El soporte se da, pero sin diagnóstico ni causa puede pasarse por alto un cáncer.",
+   "E": "Correcto. Sin anti-PLA2R la biopsia es obligada: confirma la membranosa, tiñe PLA2R, THSD7A y NELL1, y las subclases de IgG orientan a causa secundaria."
+  },
+  "perla": "Regla KDIGO 2021: anti-PLA2R positivo + clínica típica + TFG normal = puede omitirse la biopsia. Si es negativo, se biopsia siempre.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276"
+  ],
+  "peso": 72,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNS-2",
+  "serie_id": "T2-93MNS",
+  "orden": 2,
+  "sub": "9.c.1",
+  "subtema": "Membranosa secundaria: antígenos y búsqueda de causa",
+  "caso": "",
+  "continuacion": "La biopsia muestra membranosa con IgG1 dominante, PLA2R negativo en tejido y tinción positiva para NELL1.",
+  "enunciado": "¿Qué conducta corresponde a este hallazgo?",
+  "opciones": {
+   "A": "Tratarla como primaria de riesgo alto con rituximab",
+   "B": "Buscar cáncer acorde a la edad y revisar fármacos",
+   "C": "Pedir anti-MBG y ANCA por probable vasculitis",
+   "D": "Diagnosticar lupus clase V y dar micofenolato",
+   "E": "Repetir la biopsia porque NELL1 es un artefacto"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "NELL1 obliga primero a buscar una causa: si la hay, retirarla o tratarla puede bastar.",
+   "B": "Correcto. NELL1 se asocia con neoplasia, ácido lipoico y cremas con mercurio: tamizaje de cáncer según la edad y revisión de fármacos y suplementos.",
+   "C": "Anti-MBG y ANCA no explican depósitos subepiteliales con NELL1.",
+   "D": "La clase V lúpica suele dar IgG1–3, C1q y EXT1/EXT2, no NELL1 aislado.",
+   "E": "NELL1 es un antígeno real: explica cerca de 1 de cada 6 membranosas PLA2R negativas."
+  },
+  "perla": "Mnemotecnia de antígenos: PLA2R, primaria; THSD7A y NELL1, «busca el tumor»; EXT1/EXT2, lupus.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "Sethi S et al. NELL-1-associated membranous nephropathy. Kidney Int 2020;97:163-74"
+  ],
+  "peso": 72,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNS-3",
+  "serie_id": "T2-93MNS",
+  "orden": 3,
+  "sub": "9.c.1",
+  "subtema": "Membranosa secundaria: antígenos y búsqueda de causa",
+  "caso": "",
+  "continuacion": "El tamizaje de cáncer sale negativo. Toma ácido alfa-lipoico desde hace 8 meses para una neuropatía.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "opciones": {
+   "A": "Mantenerlo y repetir el tamizaje de cáncer al mes",
+   "B": "Rituximab y suspender el iSRAA por la proteinuria",
+   "C": "Indicar trasplante anticipado por riesgo de ERC",
+   "D": "Suspender el ácido lipoico y vigilar la proteinuria",
+   "E": "Mantenerlo e iniciar ciclosporina de inmediato"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "El tamizaje ya fue negativo; el desencadenante probable es el suplemento.",
+   "B": "El iSRAA es la base del soporte; no se suspende por la proteinuria.",
+   "C": "Con TFGe de 70 no hay indicación de preparar un trasplante.",
+   "D": "Correcto. La membranosa NELL1 asociada a ácido lipoico suele remitir al suspenderlo; se da soporte y se vigila.",
+   "E": "Sin retirar el desencadenante, la inmunosupresión es innecesaria y tóxica."
+  },
+  "perla": "Trampa de examen: antes de inmunosuprimir una membranosa, pregunta por suplementos, AINE y cremas aclaradoras con mercurio.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+  ],
+  "peso": 72,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNR-1",
+  "serie_id": "T2-93MNR",
+  "orden": 1,
+  "sub": "9.c.1",
+  "subtema": "Membranosa: riesgo, rituximab y recaída",
+  "caso": "Mujer de 45 años con membranosa anti-PLA2R positiva. Tras 6 meses de iSRAA: proteinuria 7 g/día, albúmina 2.3 g/dL, anti-PLA2R 160 UR/mL y TFGe 90.",
+  "continuacion": "",
+  "enunciado": "¿Cómo se clasifica su riesgo y qué se indica?",
+  "opciones": {
+   "A": "Riesgo alto: rituximab o ciclofosfamida y esteroide",
+   "B": "Riesgo moderado: esteroide solo, en dosis altas",
+   "C": "Muy alto: recambio plasmático y una biopsia de urgencia",
+   "D": "Sin riesgo: el anti-PLA2R alto no tiene valor",
+   "E": "Riesgo bajo: solo soporte por otros 6 meses"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Correcto. KDIGO 2021: proteinuria >3.5 g sin caída >50 % a 6 meses más albúmina <2.5 g/dL o anti-PLA2R >50 UR/mL = riesgo alto.",
+   "B": "El esteroide en monoterapia no sirve en la membranosa.",
+   "C": "El recambio plasmático no tiene papel en la membranosa.",
+   "D": "Un título alto de anti-PLA2R predice menos remisión espontánea.",
+   "E": "Tras 6 meses de soporte sigue nefrótica, con albúmina <2.5 g/dL y anti-PLA2R >50 UR/mL: no es riesgo bajo."
+  },
+  "perla": "Cifras de riesgo alto (KDIGO 2021): anti-PLA2R >50 UR/mL o albúmina <2.5 g/dL pese a 6 meses de soporte.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276"
+  ],
+  "peso": 75,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNR-2",
+  "serie_id": "T2-93MNR",
+  "orden": 2,
+  "sub": "9.c.1",
+  "subtema": "Membranosa: riesgo, rituximab y recaída",
+  "caso": "",
+  "continuacion": "Recibe rituximab 1 g × 2. A los 6 meses el anti-PLA2R sigue en 140 UR/mL, la proteinuria en 6 g y los CD19 ya regresaron.",
+  "enunciado": "¿Cuál es la interpretación y la conducta?",
+  "opciones": {
+   "A": "Respuesta en curso; esperar 12 meses más sin cambios",
+   "B": "Recaída tardía; suspender todo y dejar solo iSRAA",
+   "C": "Sin remisión inmunológica: redosificar o cambiar ya",
+   "D": "Resistencia: cambiar a esteroide solo en dosis altas",
+   "E": "Error de laboratorio; repetir el anti-PLA2R en 1 año"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Con anti-PLA2R persistente a 6 meses la remisión clínica es poco probable; no se espera sin actuar.",
+   "B": "No es recaída: nunca hubo remisión inmunológica.",
+   "C": "Correcto. Anti-PLA2R persistente a 6 meses = falla inmunológica: otra dosis de rituximab o cambio a ciclofosfamida con esteroide.",
+   "D": "El esteroide en monoterapia no es eficaz en la membranosa.",
+   "E": "Un título persistente con proteinuria es coherente con falta de respuesta."
+  },
+  "perla": "Trampa: la proteinuria tarda meses en bajar, pero el anti-PLA2R debe caer antes; si a 6 meses no cae, el tratamiento falló.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "Fervenza FC et al. Rituximab or cyclosporine in the treatment of membranous nephropathy (MENTOR). N Engl J Med 2019;381:36-46"
+  ],
+  "peso": 75,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNR-3",
+  "serie_id": "T2-93MNR",
+  "orden": 3,
+  "sub": "9.c.1",
+  "subtema": "Membranosa: riesgo, rituximab y recaída",
+  "caso": "",
+  "continuacion": "Con ciclofosfamida logra remisión completa. Dos años después reaparece proteinuria de 5 g con anti-PLA2R positivo.",
+  "enunciado": "¿Qué indica y cómo se trata?",
+  "opciones": {
+   "A": "Lesión crónica; solo soporte porque no responde",
+   "B": "Nueva enfermedad; buscar otra glomerulopatía",
+   "C": "Ciclofosfamida de nuevo, sin vigilar la dosis total",
+   "D": "Efecto tardío de la ciclofosfamida; solo observar",
+   "E": "Recaída inmune; tratar de nuevo, p. ej., rituximab"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Con anti-PLA2R positivo hay actividad inmune tratable.",
+   "B": "El anticuerpo positivo indica recaída de la misma enfermedad.",
+   "C": "La dosis acumulada de ciclofosfamida eleva el riesgo de cáncer: se cuenta y se limita.",
+   "D": "La ciclofosfamida no causa proteinuria tardía con anti-PLA2R positivo.",
+   "E": "Correcto. Anti-PLA2R que reaparece con proteinuria = recaída; el rituximab es una opción segura y evita sumar alquilante."
+  },
+  "perla": "Cifra: una dosis acumulada de ciclofosfamida >36 g aumenta el riesgo de cáncer; más de ~10 g compromete la fertilidad.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276"
+  ],
+  "peso": 75,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNT-1",
+  "serie_id": "T2-93MNT",
+  "orden": 1,
+  "sub": "9.c.1",
+  "subtema": "Membranosa y trasplante renal",
+  "caso": "Varón de 50 años con ERC terminal por membranosa anti-PLA2R positiva. Está en protocolo para trasplante de donante vivo; su anti-PLA2R actual es de 45 UR/mL.",
+  "continuacion": "",
+  "enunciado": "¿Qué debe saber sobre la recurrencia en el injerto?",
+  "opciones": {
+   "A": "Nunca recurre, porque el podocito del injerto es nuevo",
+   "B": "Recurre en ~30–40 %, más con anti-PLA2R positivo",
+   "C": "Recurre siempre y por eso contraindica el donante vivo",
+   "D": "Recurre solo si el donante es familiar directo",
+   "E": "Recurre en 5 %, sin relación con el anticuerpo"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "El podocito del injerto expresa PLA2R; el anticuerpo circulante puede atacarlo.",
+   "B": "Correcto. Recurre en ~30–40 %, más con anti-PLA2R positivo al trasplante; no lo contraindica, pero obliga a vigilar.",
+   "C": "No contraindica el trasplante ni el donante vivo; se vigila.",
+   "D": "La recurrencia depende del anticuerpo del receptor, no del parentesco.",
+   "E": "El riesgo es mayor y sí se relaciona con el título del anticuerpo."
+  },
+  "perla": "Regla: mide el anti-PLA2R antes y después del trasplante; su persistencia anticipa la recurrencia.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "KDIGO Clinical Practice Guideline on the Evaluation and Management of Candidates for Kidney Transplantation. Transplantation 2020;104(4S1):S11-S103"
+  ],
+  "peso": 68,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNT-2",
+  "serie_id": "T2-93MNT",
+  "orden": 2,
+  "sub": "9.c.1",
+  "subtema": "Membranosa y trasplante renal",
+  "caso": "",
+  "continuacion": "Se trasplanta. A los 8 meses: proteinuria 2.5 g/día, anti-PLA2R 120 UR/mL y biopsia con membranosa recurrente.",
+  "enunciado": "¿Cuál es el tratamiento más adecuado?",
+  "opciones": {
+   "A": "Observar: la recurrencia nunca daña al injerto",
+   "B": "Subir el tacrolimus a valles de 15 ng/mL o más",
+   "C": "Pulsos de esteroide como en el rechazo celular",
+   "D": "Rituximab, además del iSRAA y la inmunosupresión",
+   "E": "Retirar el micofenolato para reducir infecciones"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "Sin tratamiento puede causar pérdida del injerto.",
+   "B": "Valles altos aumentan nefrotoxicidad e infecciones sin beneficio probado.",
+   "C": "No es rechazo celular; los pulsos no tratan la membranosa.",
+   "D": "Correcto. La membranosa recurrente con proteinuria significativa se trata con rituximab; responde en la mayoría.",
+   "E": "Bajar la inmunosupresión favorecería la recurrencia y el rechazo."
+  },
+  "perla": "Dato: la recurrencia puede verse en biopsias de protocolo antes de la proteinuria; el anti-PLA2R ayuda a detectarla temprano.",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "KDIGO Clinical Practice Guideline on the Evaluation and Management of Candidates for Kidney Transplantation. Transplantation 2020;104(4S1):S11-S103"
+  ],
+  "peso": 68,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ },
+ {
+  "id": "T2-93MNT-3",
+  "serie_id": "T2-93MNT",
+  "orden": 3,
+  "sub": "9.c.1",
+  "subtema": "Membranosa y trasplante renal",
+  "caso": "",
+  "continuacion": "Otro receptor, trasplantado por nefropatía diabética, desarrolla membranosa en el injerto con PLA2R negativo y DSA anti-DQ.",
+  "enunciado": "¿Qué sugiere esta combinación?",
+  "opciones": {
+   "A": "Membranosa de novo, asociada a daño por anticuerpos",
+   "B": "Recurrencia típica de una membranosa anti-PLA2R",
+   "C": "Nefropatía diabética recurrente en el injerto",
+   "D": "Toxicidad aguda por tacrolimus en el glomérulo renal",
+   "E": "Infección por BK con depósitos subepiteliales"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "Correcto. La membranosa de novo suele ser PLA2R negativa y se asocia con DSA y rechazo humoral (también con hepatitis C).",
+   "B": "La causa original fue diabetes y el PLA2R es negativo: no es recurrencia.",
+   "C": "La nefropatía diabética no produce depósitos subepiteliales.",
+   "D": "El tacrolimus causa arteriolopatía y fibrosis, no membranosa.",
+   "E": "El BK causa nefritis tubulointersticial, no depósitos subepiteliales."
+  },
+  "perla": "Mnemotecnia: membranosa en el injerto PLA2R+ = recurrencia; PLA2R− con DSA = de novo («de novo, de anticuerpos»).",
+  "referencias": [
+   "KDIGO 2021 Clinical Practice Guideline for the Management of Glomerular Diseases. Kidney Int 2021;100(4S):S1-S276",
+   "Johnson RJ, Floege J, Tonelli M (eds). Comprehensive Clinical Nephrology, 7.ª ed. Elsevier"
+  ],
+  "peso": 68,
+  "tema_id": 9,
+  "tema": "Enfermedades glomerulares",
+  "obj": "",
+  "origen": [
+   "El Residente Miniatura (nov 2026)"
+  ],
+  "tipo_item": "juego",
+  "dificultad": "moderada"
+ }
+]

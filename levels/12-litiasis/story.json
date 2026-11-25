@@ -1,0 +1,867 @@
+{
+ "meta": {
+  "id": "12",
+  "title": "Litiasis renal",
+  "key": "rm_v3_12",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Cristal",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Laboratorio de Solubilidad",
+   "palette": [
+    "#E0F8F0",
+    "#88C8B0",
+    "#3A7868",
+    "#102820"
+   ],
+   "tiles": "hospital",
+   "vignette": "sedimento",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Don Ramiro, 40 años, cuarto cólico renal. Litos de oxalato de calcio."
+    ],
+    [
+     "Dr. J.",
+     "Le dijeron que dejara los lácteos. Desde entonces forma más."
+    ],
+    [
+     "Sabio Brenn",
+     "Un lito nace cuando la orina está sobresaturada y faltan inhibidores."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Citrato",
+     "lines": [
+      [
+       "Citrato",
+       "Soy el gran inhibidor: me uno al calcio y lo mantengo disuelto."
+      ],
+      [
+       "Citrato",
+       "La acidosis y la hipopotasemia me bajan en la orina."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "citrato"
+    },
+    {
+     "id": "npc2",
+     "name": "Oxalato Libre",
+     "lines": [
+      [
+       "Oxalato Libre",
+       "Si comes poco calcio, nadie me atrapa en el intestino y me absorbo más."
+      ],
+      [
+       "Oxalato Libre",
+       "Por eso restringir calcio aumenta los litos."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "oxalato"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Dieta",
+     "Agua para orinar >2.5 L, poca sal, poca proteína animal, calcio NORMAL."
+    ],
+    [
+     "Letrero · Placa de Randall",
+     "Fosfato de calcio en la papila: ancla de los litos de oxalato."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "uro",
+     "specialty": "Urología",
+     "serie": "LST",
+     "intro": [
+      [
+       "Dr. Bruno Salas",
+       "Yo los rompo con láser. Lo metabólico es perder el tiempo."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Bruno Salas",
+       "Cuarto episodio… sí, hazle la orina de 24 horas."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "LUR",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Tres camas, un minuto. Yo resuelvo sin pensar."
+      ],
+      [
+       "Dra. Carmen Triaje",
+       "Mi caso: Litiasis de ácido úrico"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Pensar un minuto salvó la cama tres."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "NEW-12-2",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Tiazidas en la prevención de la litiasis: ensayo NOSTONE"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Cristal de Oxalato",
+     "type": "Molecular",
+     "topic": "Cristal de Oxalato"
+    },
+    {
+     "name": "Orina Concentrada",
+     "type": "Molecular",
+     "topic": "Orina Concentrada"
+    },
+    {
+     "name": "Sodio Calciúrico",
+     "type": "Molecular",
+     "topic": "Sodio Calciúrico"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Litiasis cálcica: dieta y calcio",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: restringir el calcio aumenta los litos."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Hallazgo en orina de 24 h y tratamiento",
+     "items": [],
+     "pairs": [
+      [
+       "Hipercalciuria",
+       "Tiazida + poca sal"
+      ],
+      [
+       "Hipocitraturia",
+       "Citrato de potasio"
+      ],
+      [
+       "Hiperuricosuria",
+       "Alopurinol"
+      ],
+      [
+       "Hiperoxaluria entérica",
+       "Calcio con las comidas"
+      ],
+      [
+       "Volumen bajo",
+       "Más líquidos"
+      ],
+      [
+       "pH urinario <5.5",
+       "Alcalinizar"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Tipo de cálculo",
+     "bins": [
+      "Oxalato/fosfato de Ca",
+      "Ácido úrico",
+      "Estruvita",
+      "Cistina"
+     ],
+     "items": [
+      [
+       "pH urinario < 5.5 persistente",
+       "Ácido úrico"
+      ],
+      [
+       "Proteus productor de ureasa",
+       "Estruvita"
+      ],
+      [
+       "Cristal hexagonal",
+       "Cistina"
+      ],
+      [
+       "Radiolúcido en placa simple",
+       "Ácido úrico"
+      ],
+      [
+       "Coraliforme con pH > 7",
+       "Estruvita"
+      ],
+      [
+       "Hipercalciuria idiopática",
+       "Oxalato/fosfato de Ca"
+      ],
+      [
+       "Tiopronina",
+       "Cistina"
+      ],
+      [
+       "Bypass gástrico",
+       "Oxalato/fosfato de Ca"
+      ],
+      [
+       "Alcalinizar a pH 6–6.5 y disolver",
+       "Ácido úrico"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "algoritmo",
+     "title": "Hipercalciuria: escalonamiento",
+     "items": [
+      "Líquidos >2–2.5 L y sodio ≤2 g",
+      "Calcio dietético normal",
+      "Tiazida de acción larga",
+      "Citrato de potasio si hipopotasemia",
+      "Revisar sodio urinario y subir tiazida",
+      "Amilorida si persiste la hipopotasemia"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "No todos los litos son de calcio. Sigue la corriente."
+      ]
+     ]
+    }
+   ],
+   "card": "Oxalato de calcio: agua, poca sal y proteína, calcio normal. Tiazida (hipercalciuria), citrato de potasio (hipocitraturia), alopurinol (hiperuricosuria)."
+  },
+  {
+   "id": "z2",
+   "name": "Corriente de Cristales",
+   "palette": [
+    "#FFF4C0",
+    "#E8C84A",
+    "#9A7A1A",
+    "#3A2A08"
+   ],
+   "tiles": "tubulo",
+   "vignette": "cristales",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Ácido úrico: orina ácida, lito radiolúcido. Se disuelve alcalinizando."
+    ],
+    [
+     "Sabio Brenn",
+     "Estruvita: bacterias con ureasa, orina alcalina, lito coraliforme."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Proteus",
+     "lines": [
+      [
+       "Proteus",
+       "Mi ureasa parte la urea en amonio. El pH sube y precipita la estruvita."
+      ],
+      [
+       "Proteus",
+       "Mientras quede lito, me quedo yo. Hay que retirarlo completo."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "estruvita"
+    },
+    {
+     "id": "npc2",
+     "name": "Ácido Úrico",
+     "lines": [
+      [
+       "Ácido Úrico",
+       "Con pH <5.5 no me disuelvo. Síndrome metabólico, gota, diarrea crónica."
+      ],
+      [
+       "Ácido Úrico",
+       "Citrato de potasio hasta pH 6.5: me deshago."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "ácido úrico"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Imagen",
+     "TC sin contraste: estándar. El ácido úrico no se ve en radiografía simple."
+    ],
+    [
+     "Letrero · Expulsión",
+     "Litos ≤5 mm suelen salir solos; tamsulosina ayuda en ureterales distales de 5–10 mm."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "LPH",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Cólico renal: mucho suero para que lo expulse."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "La hiperhidratación forzada no ayuda. AINE y a casa."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "NEW-12-1",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: Interpretación de la orina de 24 horas en litiasis recurrente"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "LTJ-1",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Quién requiere evaluación metabólica completa"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Coraliforme",
+     "type": "Molecular",
+     "topic": "Coraliforme"
+    },
+    {
+     "name": "Cistina Hexagonal",
+     "type": "Molecular",
+     "topic": "Cistina Hexagonal"
+    },
+    {
+     "name": "Fosfato de Calcio",
+     "type": "Molecular",
+     "topic": "Fosfato de Calcio"
+    },
+    {
+     "name": "Bacteria Ureasa",
+     "type": "Innato",
+     "topic": "Bacteria Ureasa"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Litos no cálcicos: ácido úrico, estruvita y cistina",
+     "text": [
+      [
+       "Sabio Brenn",
+       "pH urinario: ácido para el úrico, alcalino para la estruvita."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Cristal y pista",
+     "items": [],
+     "pairs": [
+      [
+       "Oxalato dihidratado",
+       "Sobre de carta"
+      ],
+      [
+       "Ácido úrico",
+       "Rombos; radiolúcido"
+      ],
+      [
+       "Estruvita",
+       "Tapa de ataúd; ureasa"
+      ],
+      [
+       "Cistina",
+       "Hexágonos"
+      ],
+      [
+       "Fosfato de calcio (brushita)",
+       "ATR distal, hiperparatiroidismo"
+      ]
+     ]
+    },
+    {
+     "type": "clasif",
+     "title": "Meta de pH urinario según el cálculo",
+     "bins": [
+      "Alcalinizar",
+      "No alcalinizar"
+     ],
+     "items": [
+      [
+       "Ácido úrico",
+       "Alcalinizar"
+      ],
+      [
+       "Cistina",
+       "Alcalinizar"
+      ],
+      [
+       "Hipocitraturia con oxalato de calcio",
+       "Alcalinizar"
+      ],
+      [
+       "Estruvita",
+       "No alcalinizar"
+      ],
+      [
+       "Fosfato de calcio con pH alto",
+       "No alcalinizar"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "Oxalato de calcio",
+       "Cálculo más frecuente"
+      ],
+      [
+       "Estruvita",
+       "Ureasa (Proteus), pH alcalino"
+      ],
+      [
+       "Ácido úrico",
+       "pH urinario <5.5, radiolúcido"
+      ],
+      [
+       "Cistina",
+       "Cristal hexagonal; tiopronina"
+      ],
+      [
+       "Hipocitraturia",
+       "Citrato de potasio"
+      ],
+      [
+       "Hipercalciuria idiopática",
+       "Tiazida + ↓sodio"
+      ],
+      [
+       "Hiperoxaluria entérica",
+       "Malabsorción; calcio con alimentos"
+      ],
+      [
+       "Calcio dietético",
+       "NO restringir (1000–1200 mg)"
+      ],
+      [
+       "Volumen urinario meta",
+       "> 2.5 L/día"
+      ],
+      [
+       "Topiramato",
+       "Cálculos de fosfato de calcio"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "Orina de 24 horas lista: hipercalciuria e hipocitraturia. Ve por él."
+      ]
+     ]
+    }
+   ],
+   "card": "Úrico: pH ácido, radiolúcido, alcalinizar. Estruvita: ureasa (Proteus), retirar completo. Cistina: hexágonos, álcali, tiopronina. TC sin contraste."
+  }
+ ],
+ "boss": {
+  "name": "El Cristal",
+  "color": "#6ad1e3",
+  "dark": "#0f4a55",
+  "heads": 1,
+  "form": "cristal",
+  "crescent": false,
+  "intro": [
+   [
+    "El Cristal",
+    "Dame orina concentrada y te construyo una roca."
+   ],
+   [
+    "Dr. J.",
+    "Estudio metabólico, dieta y fármaco según el hallazgo."
+   ]
+  ],
+  "outro": [
+   [
+    "El Cristal",
+    "Me disuelvo… pero dejé un primo en la papila. Pide citrato."
+   ],
+   [
+    "Sabio Brenn",
+    "El mejor tratamiento del lito es la jarra de agua."
+   ],
+   [
+    "Don Ramiro",
+    "¿Agua, citrato y sí lácteos? Eso nadie me lo dijo."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Estudio metabólico",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Cristal",
+      "¿De qué estoy hecho?"
+     ]
+    ],
+    "topics": [
+     "Estudio metabólico"
+    ],
+    "questions": [
+     "OXA-1",
+     "OXA-2"
+    ]
+   },
+   {
+    "name": "Dieta",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Cristal",
+      "¿Me quitas el calcio?"
+     ]
+    ],
+    "topics": [
+     "Dieta"
+    ],
+    "questions": [
+     "OXA-3",
+     "OXA-4"
+    ]
+   },
+   {
+    "name": "Fármacos",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Cristal",
+      "Elige: tiazida, citrato o alopurinol."
+     ]
+    ],
+    "topics": [
+     "Fármacos"
+    ],
+    "questions": [
+     "LCT-1",
+     "LCT-2"
+    ]
+   },
+   {
+    "name": "Formas especiales",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Cristal",
+      "Ahora soy coraliforme."
+     ]
+    ],
+    "topics": [
+     "Formas especiales"
+    ],
+    "questions": [
+     "LCT-3",
+     "LCT-4"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Laboratorio de Solubilidad",
+   "text": "Oxalato de calcio: agua, poca sal y proteína, calcio normal. Tiazida (hipercalciuria), citrato de potasio (hipocitraturia), alopurinol (hiperuricosuria)."
+  },
+  {
+   "title": "Corriente de Cristales",
+   "text": "Úrico: pH ácido, radiolúcido, alcalinizar. Estruvita: ureasa (Proteus), retirar completo. Cistina: hexágonos, álcali, tiopronina. TC sin contraste."
+  },
+  {
+   "title": "💎 Hipercalciuria idiopática: tratamiento c",
+   "text": "Hipercalciuria idiopática documentada: tiazida + Na bajo + calcio dietético normal. NOSTONE: sin beneficio empírico si no hay hipercalciuria. Vigilar K, Na, glucosa."
+  },
+  {
+   "title": "💎 Tratamiento de la litiasis coraliforme",
+   "text": "Coraliforme/estruvita: remoción completa (NLP) + antibiótico dirigido; ESWL sola no. Ácido acetohidroxámico si no hay cirugía."
+  },
+  {
+   "title": "💎 Errores a evitar en hiperoxaluria entéri",
+   "text": "Calcio CON las comidas (no restringirlo), evitar vitamina C y alimentos ricos en oxalato, mantener agua >2.5 L."
+  },
+  {
+   "title": "💎 Hipocitraturia aislada",
+   "text": "Hipocitraturia: citrato <320 mg/24 h. Inhibidor principal de cristalización cálcica."
+  },
+  {
+   "title": "💎 Litiasis coraliforme por estruvita",
+   "text": "Estruvita: Proteus mirabilis (ureasa), pH >7.2, coraliforme, radiopaco. Vejiga neurogénica e IVU recurrente."
+  },
+  {
+   "title": "💎 Nefropatía por oxalato",
+   "text": "Oxalato en biopsia + bypass/malabsorción = nefropatía por oxalato. Tratar: calcio con comidas, dieta baja en grasa/oxalato, citrato de potasio, agua; evitar vitamina C."
+  },
+  {
+   "title": "💎 Litiasis recurrente con hipercalcemia: h",
+   "text": "Litiasis + Ca ↑ + P ↓ = hiperparatiroidismo primario. Valores 24 h: Ca >250 (M)/300 (H) mg, citrato <320, oxalato >40–45."
+  },
+  {
+   "title": "💎 Composición del cálculo en hiperparatiro",
+   "text": "PHPT: fosfato de calcio (± oxalato), pH urinario alcalino. Ácido úrico: pH <5.5. Estruvita: pH >7.2 con Proteus."
+  }
+ ]
+}

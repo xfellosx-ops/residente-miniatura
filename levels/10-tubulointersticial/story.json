@@ -1,0 +1,797 @@
+{
+ "meta": {
+  "id": "10",
+  "title": "Enfermedades túbulo-intersticiales",
+  "key": "rm_v3_10",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Infiltrado",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Intersticio Invadido",
+   "palette": [
+    "#F0E2C8",
+    "#C8A87A",
+    "#8A6A4A",
+    "#3A2A1A"
+   ],
+   "tiles": "intersticio",
+   "vignette": "nti",
+   "join": [
+    "sonda"
+   ],
+   "nurse": true,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer de 70 años. Empezó omeprazol hace 10 semanas. Creatinina de 0.9 a 3.1."
+    ],
+    [
+     "Dr. J.",
+     "Sin fiebre, sin exantema. Solo leucocitos en la orina con cultivo negativo."
+    ],
+    [
+     "Sabio Brenn",
+     "Es el túbulo sano de la Región 1, ahora rodeado de linfocitos."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Eosinófilo",
+     "lines": [
+      [
+       "Eosinófilo",
+       "Me buscan en la orina, pero oriento poco: mala sensibilidad y especificidad."
+      ],
+      [
+       "Eosinófilo",
+       "La tríada de fiebre, exantema y eosinofilia aparece en menos del 10 %."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "eosinofiluria"
+    },
+    {
+     "id": "npc2",
+     "name": "Linfocito T",
+     "lines": [
+      [
+       "Linfocito T",
+       "Entro al epitelio tubular: eso se llama tubulitis."
+      ],
+      [
+       "Linfocito T",
+       "Si me dejan semanas, dejo fibrosis."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "tubulitis"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Fármacos",
+     "Antibióticos (β-lactámicos), AINE, IBP, alopurinol, inhibidores de puntos de control."
+    ],
+    [
+     "Letrero · Otras causas",
+     "Sjögren, sarcoidosis, TINU (uveítis), IgG4, infecciones."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "mi",
+     "specialty": "Medicina Interna",
+     "serie": "LUR",
+     "intro": [
+      [
+       "Dr. Ernesto Holístico",
+       "Sin fiebre ni exantema no es nefritis intersticial."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Ernesto Holístico",
+       "Con IBP casi nunca hay tríada… lo suspendo ya."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 3
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "TIJ-7",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Tres camas, un minuto. Yo resuelvo sin pensar."
+      ],
+      [
+       "Dra. Carmen Triaje",
+       "Mi caso: Manejo de la nefrotoxicidad por litio"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Pensar un minuto salvó la cama tres."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "TIJ-2",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: Nefritis por alopurinol"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "IBP Crónico",
+     "type": "Molecular",
+     "topic": "IBP Crónico"
+    },
+    {
+     "name": "Piuria Estéril",
+     "type": "Innato",
+     "topic": "Piuria Estéril"
+    },
+    {
+     "name": "Cilindro Leucocitario",
+     "type": "Innato",
+     "topic": "Cilindro Leucocitario"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Nefritis túbulo-intersticial aguda: sospecha y diagnóstico",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: la tríada clásica es rara. La sospecha nace del fármaco y el sedimento."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Conducta en NTI aguda",
+     "items": [
+      "Identificar y suspender el fármaco",
+      "Descartar otras causas de LRA",
+      "Vigilar 3–7 días",
+      "Biopsia si no mejora o hay duda",
+      "Glucocorticoide temprano si se confirma",
+      "Reducción en 4–6 semanas"
+     ],
+     "pairs": []
+    },
+    {
+     "type": "clasif",
+     "title": "Nefritis intersticial: IF de la membrana basal tubular",
+     "bins": [
+      "Granular",
+      "Lineal o negativa"
+     ],
+     "items": [
+      [
+       "Lupus con NTI aislada",
+       "Granular"
+      ],
+      [
+       "Sjögren",
+       "Granular"
+      ],
+      [
+       "IgG4",
+       "Granular"
+      ],
+      [
+       "NIA por IBP o antibiótico",
+       "Lineal o negativa"
+      ],
+      [
+       "NIA por AINE, fenitoína o alopurinol",
+       "Lineal o negativa"
+      ],
+      [
+       "TINU",
+       "Lineal o negativa"
+      ],
+      [
+       "Sarcoidosis",
+       "Lineal o negativa"
+      ]
+     ],
+     "pairs": []
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "NTIA por fármacos",
+       "IBP, AINE, β-lactámicos"
+      ],
+      [
+       "Tríada clásica",
+       "Fiebre, rash, eosinofilia (rara completa)"
+      ],
+      [
+       "Litio crónico",
+       "DI nefrogénica, microquistes"
+      ],
+      [
+       "Plomo",
+       "Gota saturnina + HTA"
+      ],
+      [
+       "Sarcoidosis",
+       "Granulomas + hipercalcemia"
+      ],
+      [
+       "Enfermedad por IgG4",
+       "Plasmocitos IgG4+, ↓complemento"
+      ],
+      [
+       "TINU",
+       "NTI + uveítis"
+      ],
+      [
+       "Leptospirosis",
+       "LRA no oligúrica con hipokalemia"
+      ],
+      [
+       "Tratamiento de NTIA",
+       "Retirar fármaco ± esteroide temprano"
+      ],
+      [
+       "Ácido aristolóquico",
+       "Nefropatía por hierbas + cáncer urotelial"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Sigue por el túbulo. La forma crónica deja otras huellas."
+      ]
+     ]
+    }
+   ],
+   "card": "NTI aguda: fármacos (IBP, AINE, antibióticos, ICI). Tríada <10 %. Suspender; biopsia si no mejora; esteroide temprano (antes de 2–3 semanas)."
+  },
+  {
+   "id": "z2",
+   "name": "Túbulo Cicatrizado",
+   "palette": [
+    "#F0E2C8",
+    "#C8A87A",
+    "#8A6A4A",
+    "#3A2A1A"
+   ],
+   "tiles": "intersticio",
+   "vignette": "fibrosis",
+   "join": [],
+   "nurse": false,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "La nefritis crónica es silenciosa: proteinuria baja, anemia temprana, defectos tubulares."
+    ],
+    [
+     "Sabio Brenn",
+     "Según el segmento dañado: Fanconi, acidosis distal o pérdida de concentración."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Papila Necrosada",
+     "lines": [
+      [
+       "Papila Necrosada",
+       "Me matan analgésicos, diabetes, drepanocitosis y obstrucción con infección."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "necrosis papilar"
+    },
+    {
+     "id": "npc2",
+     "name": "Ácido Aristolóquico",
+     "lines": [
+      [
+       "Ácido Aristolóquico",
+       "Vengo en hierbas. Dejo fibrosis rápida y cáncer urotelial."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "aristolóquico"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Mesoamericana",
+     "ERC de causa no tradicional: jóvenes, calor, trabajo agrícola, sin proteinuria."
+    ],
+    [
+     "Letrero · Litio",
+     "Crónico: DI nefrogénica, microquistes y nefritis intersticial crónica."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "geria",
+     "specialty": "Geriatría",
+     "serie": "SEA",
+     "intro": [
+      [
+       "Dr. Anselmo Frágil",
+       "Proteinuria de 0.5 g y anemia: es mieloma seguro."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Anselmo Frágil",
+       "Podría ser tubulointersticial crónica… amplío el estudio."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 4
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "TIJ-1",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: Nefritis por rifampicina"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "TIJ-3",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: Imagen y pruebas en NIA"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Fibrosis Intersticial",
+     "type": "Celular",
+     "topic": "Fibrosis Intersticial"
+    },
+    {
+     "name": "Atrofia Tubular",
+     "type": "Celular",
+     "topic": "Atrofia Tubular"
+    },
+    {
+     "name": "Urato Crónico",
+     "type": "Molecular",
+     "topic": "Urato Crónico"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Nefritis túbulo-intersticial crónica: causas y hallazgos",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Proteinuria tubular: menos de 1–2 g, de bajo peso molecular."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Causa y pista",
+     "items": [],
+     "pairs": [
+      [
+       "Sjögren",
+       "ATR distal, hipopotasemia"
+      ],
+      [
+       "Sarcoidosis",
+       "Granulomas, hipercalcemia"
+      ],
+      [
+       "TINU",
+       "Uveítis en joven"
+      ],
+      [
+       "IgG4",
+       "Células plasmáticas, fibrosis estoriforme"
+      ],
+      [
+       "Plomo",
+       "Gota e HTA"
+      ],
+      [
+       "Aristolóquico",
+       "Cáncer urotelial"
+      ]
+     ]
+    },
+    {
+     "type": "algoritmo",
+     "title": "NIA por fármacos: secuencia de manejo",
+     "items": [
+      "Sospechar ante LRA inexplicada",
+      "Suspender el fármaco sospechoso",
+      "Confirmar con biopsia renal",
+      "Esperar 1 semana de evolución",
+      "Si no mejora: prednisona 1 mg/kg, máx. 60 mg",
+      "Reducir para completar 3–6 semanas",
+      "Evitar reexposición"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "A los 7 días sin omeprazol sigue en 2.9. Hora de decidir."
+      ]
+     ]
+    }
+   ],
+   "card": "NTI crónica: proteinuria tubular <1–2 g, anemia desproporcionada, defectos tubulares. Causas: analgésicos, litio, plomo, aristolóquico, Sjögren, sarcoidosis, IgG4."
+  }
+ ],
+ "boss": {
+  "name": "El Infiltrado",
+  "color": "#6fae4f",
+  "dark": "#1f4a2a",
+  "heads": 1,
+  "form": "masa",
+  "crescent": false,
+  "intro": [
+   [
+    "El Infiltrado",
+    "No hago ruido. Sin fiebre, sin ronchas. Solo me quedo."
+   ],
+   [
+    "Dr. J.",
+    "Sospecha, retira, decide biopsia, decide esteroide."
+   ]
+  ],
+  "outro": [
+   [
+    "El Infiltrado",
+    "Me retiro del intersticio."
+   ],
+   [
+    "Sabio Brenn",
+    "Fin del Acto I. Lo que viene es peor: el cuerpo contra sí mismo."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Sospecha",
+    "type": "Molecular",
+    "lines": [
+     [
+      "El Infiltrado",
+      "¿NTA o yo?"
+     ]
+    ],
+    "topics": [
+     "Sospecha"
+    ],
+    "questions": [
+     "ICI-1",
+     "ICI-2",
+     "ICI-3"
+    ]
+   },
+   {
+    "name": "Retirar o biopsiar",
+    "type": "Celular",
+    "lines": [
+     [
+      "El Infiltrado",
+      "¿Esperas o picas?"
+     ]
+    ],
+    "topics": [
+     "Retirar o biopsiar"
+    ],
+    "questions": [
+     "ICI-4",
+     "ADK-1"
+    ]
+   },
+   {
+    "name": "Glucocorticoide",
+    "type": "Humoral",
+    "lines": [
+     [
+      "El Infiltrado",
+      "¿Cuándo y cuánto?"
+     ]
+    ],
+    "topics": [
+     "Glucocorticoide"
+    ],
+    "questions": [
+     "ADK-2",
+     "ADK-3"
+    ]
+   },
+   {
+    "name": "Cronicidad",
+    "type": "Complemento",
+    "lines": [
+     [
+      "El Infiltrado",
+      "Ya dejé cicatriz."
+     ]
+    ],
+    "topics": [
+     "Cronicidad"
+    ],
+    "questions": [
+     "ADK-4",
+     "ADK-5"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Intersticio Invadido",
+   "text": "NTI aguda: fármacos (IBP, AINE, antibióticos, ICI). Tríada <10 %. Suspender; biopsia si no mejora; esteroide temprano (antes de 2–3 semanas)."
+  },
+  {
+   "title": "Túbulo Cicatrizado",
+   "text": "NTI crónica: proteinuria tubular <1–2 g, anemia desproporcionada, defectos tubulares. Causas: analgésicos, litio, plomo, aristolóquico, Sjögren, sarcoidosis, IgG4."
+  },
+  {
+   "title": "💎 Excreción fraccional de urea con diuréti",
+   "text": "Con diuréticos: FeUrea (<35% prerrenal, >50% NTA) mejor que FeNa. Johnson 7.ª ed. cap. 72: FENa <1% prerrenal y >3% típica de NTA; FEurea <35% prerrenal y >35% NTA (otras fuentes usan >50%)."
+  },
+  {
+   "title": "💎 Microscopía urinaria como pronóstico en ",
+   "text": "Puntaje de microscopía urinaria alto (cilindros granulosos + células tubulares) = NTA y peor pronóstico en LRA."
+  },
+  {
+   "title": "💎 Sedimento en LRA: necrosis tubular aguda",
+   "text": "NTA: cilindros granulosos pardos + células epiteliales tubulares. Prerrenal: hialinos. GN: eritrocitarios. NIA: leucocitarios."
+  },
+  {
+   "title": "💎 Fisiopatología y biopsia en ADTKD",
+   "text": "ADTKD-UMOD: uromodulina mal plegada atrapada en el RE de la rama ascendente gruesa; fibrosis inespecífica; uromodulina urinaria baja."
+  },
+  {
+   "title": "💎 Enfermedad tubulointersticial autosómica",
+   "text": "ADTKD-UMOD: gota precoz + FEUA baja + ERC lenta + sedimento bland + herencia AD. Gen UMOD (uromodulina)."
+  },
+  {
+   "title": "💎 Manejo de la nefrotoxicidad por litio",
+   "text": "15% con TFG reducida; latencia media a ERCT ~20 años; microquistes distales visibles en RM T2 sin gadolinio. Vigilar creatinina y volumen urinario anualmente."
+  },
+  {
+   "title": "💎 Litiasis de ácido úrico",
+   "text": "Ácido úrico: radiolúcido, TC 200–450 UH, pH <5.5 (resistencia a la insulina), ± hiperuricosuria, volumen bajo."
+  },
+  {
+   "title": "💎 Disolución y prevención de la litiasis d",
+   "text": "Ácido úrico: alcalinizar (pH 6–6.5) con citrato de potasio + agua; alopurinol si hiperuricosuria/gota. Se disuelve."
+  }
+ ]
+}

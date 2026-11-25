@@ -1,0 +1,747 @@
+{
+ "meta": {
+  "id": "18",
+  "title": "Riñón y embarazo",
+  "key": "rm_v3_18",
+  "arena": "ARENA DEL JEFE",
+  "bossShort": "Placenta",
+  "bossChange": "cambia de forma"
+ },
+ "cast": {
+  "player": {
+   "name": "Residente",
+   "role": "Protagonista miniaturizado",
+   "color": "#F8F8F8"
+  },
+  "dr_j": {
+   "name": "Dr. J.",
+   "role": "Mentor clínico por radio",
+   "color": "#3B6FB6"
+  },
+  "brenn": {
+   "name": "Sabio Brenn",
+   "role": "Mentor de fisiología profunda",
+   "color": "#7FB8E0"
+  },
+  "valeria": {
+   "name": "Dra. Valeria Montes 'Flashcard'",
+   "role": "Rival",
+   "color": "#E05A8A"
+  },
+  "urg": {
+   "name": "Dra. Carmen Triaje",
+   "role": "Residente de Urgencias",
+   "color": "#D9534F"
+  },
+  "pato": {
+   "name": "Dra. Iris Hematoxilina",
+   "role": "Residente de Patología",
+   "color": "#2B2B3A"
+  },
+  "neumo": {
+   "name": "Dr. Gonzalo Espiro",
+   "role": "Residente de Neumología",
+   "color": "#5BA4CF"
+  },
+  "mi": {
+   "name": "Dr. Ernesto Holístico",
+   "role": "Residente de Medicina Interna",
+   "color": "#E8E8E8"
+  },
+  "uti": {
+   "name": "Dr. Max Presor",
+   "role": "Residente de Terapia Intensiva",
+   "color": "#2A9D8F"
+  },
+  "gine": {
+   "name": "Dra. Lucía Bravo",
+   "role": "Residente de Ginecología",
+   "color": "#7B4FA0"
+  },
+  "cx": {
+   "name": "Dr. Rocco Filo",
+   "role": "Residente de Cirugía",
+   "color": "#4A7C59"
+  },
+  "uro": {
+   "name": "Dr. Bruno Salas",
+   "role": "Residente de Urología",
+   "color": "#2E8B57"
+  },
+  "cardio": {
+   "name": "Dra. Sístole Ruiz",
+   "role": "Residente de Cardiología",
+   "color": "#C0392B"
+  },
+  "endo": {
+   "name": "Dr. Tiro Glándula",
+   "role": "Residente de Endocrinología",
+   "color": "#D4A017"
+  },
+  "hema": {
+   "name": "Dra. Sara Esquistocito",
+   "role": "Residente de Hematología",
+   "color": "#8E2B55"
+  },
+  "infecto": {
+   "name": "Dr. Félix Cultivo",
+   "role": "Residente de Infectología",
+   "color": "#6B8E23"
+  },
+  "onco": {
+   "name": "Dra. Mitosis Lara",
+   "role": "Residente de Oncología",
+   "color": "#B565A7"
+  },
+  "radio": {
+   "name": "Dr. Hugo Contraste",
+   "role": "Residente de Radiología",
+   "color": "#607D8B"
+  },
+  "pedia": {
+   "name": "Dra. Pilar Percentil",
+   "role": "Residente de Pediatría",
+   "color": "#F39C12"
+  },
+  "geria": {
+   "name": "Dr. Anselmo Frágil",
+   "role": "Residente de Geriatría",
+   "color": "#95A5A6"
+  },
+  "nutri": {
+   "name": "Lic. Maíz Balance",
+   "role": "Nutrióloga renal",
+   "color": "#27AE60"
+  },
+  "gen": {
+   "name": "Dra. Alelo Vargas",
+   "role": "Residente de Genética",
+   "color": "#16A085"
+  },
+  "aine": {
+   "name": "AINE",
+   "role": "Nefrotóxico",
+   "color": "#E67E22"
+  },
+  "contraste": {
+   "name": "Contraste",
+   "role": "Nefrotóxico",
+   "color": "#34495E"
+  },
+  "genta": {
+   "name": "Aminoglucósido",
+   "role": "Nefrotóxico",
+   "color": "#9B59B6"
+  },
+  "tacro": {
+   "name": "Calcineurínico",
+   "role": "Nefrotóxico",
+   "color": "#8D6E63"
+  },
+  "hemo": {
+   "name": "Director de Hemo-Eterna",
+   "role": "Villano corporativo",
+   "color": "#1A1A2E"
+  }
+ },
+ "zones": [
+  {
+   "id": "z1",
+   "name": "Riñón Gestante",
+   "palette": [
+    "#FFF4D6",
+    "#F2C27A",
+    "#B5651D",
+    "#4A2508"
+   ],
+   "tiles": "playa",
+   "vignette": "embarazo",
+   "join": [
+    "sonda"
+   ],
+   "nurse": false,
+   "intro": [
+    [
+     "Dr. J.",
+     "Mujer de 32 años, ERC G3a por IgA, 30 semanas de embarazo."
+    ],
+    [
+     "Dr. J.",
+     "TA 162/104, proteinuria que se triplicó, plaquetas 98 mil."
+    ],
+    [
+     "Sabio Brenn",
+     "Primero lo normal: en el embarazo la TFG sube 50 % y la creatinina baja a 0.4–0.6."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "Relaxina",
+     "lines": [
+      [
+       "Relaxina",
+       "Dilato las arteriolas renales desde el primer trimestre."
+      ],
+      [
+       "Relaxina",
+       "Por mí sube el flujo plasmático y baja la creatinina."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "fisiología del embarazo"
+    },
+    {
+     "id": "npc2",
+     "name": "Uréter Derecho",
+     "lines": [
+      [
+       "Uréter Derecho",
+       "Me dilato de forma fisiológica, más del lado derecho."
+      ],
+      [
+       "Uréter Derecho",
+       "No me confundas con obstrucción."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "hidronefrosis fisiológica"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Valores",
+     "Creatinina >0.8 mg/dL ya es anormal en el embarazo. Proteinuria normal hasta 300 mg/día."
+    ],
+    [
+     "Letrero · Gasometría",
+     "Alcalosis respiratoria crónica: pCO2 ~30 y bicarbonato ~20."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t0_0",
+     "cast": "gine",
+     "specialty": "Ginecología",
+     "serie": "AZ22-2",
+     "intro": [
+      [
+       "Dra. Lucía Bravo",
+       "Creatinina 0.9: normal, como en cualquier mujer."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Lucía Bravo",
+       "En el embarazo eso ya es TFG baja. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_1",
+     "cast": "urg",
+     "specialty": "Urgencias",
+     "serie": "AZ22-4",
+     "intro": [
+      [
+       "Dra. Carmen Triaje",
+       "Tres camas, un minuto. Yo resuelvo sin pensar."
+      ],
+      [
+       "Dra. Carmen Triaje",
+       "Mi caso: ERC y embarazo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Carmen Triaje",
+       "Pensar un minuto salvó la cama tres."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t0_2",
+     "cast": "endo",
+     "specialty": "Endocrinología",
+     "serie": "AZ22-7",
+     "intro": [
+      [
+       "Dr. Tiro Glándula",
+       "Hormona que veo, hormona que repongo."
+      ],
+      [
+       "Dr. Tiro Glándula",
+       "Mi caso: ERC y embarazo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Tiro Glándula",
+       "Primero el riñón, luego el frasco. Sigue."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Hiperfiltración Gestacional",
+     "type": "Molecular",
+     "topic": "Hiperfiltración Gestacional"
+    },
+    {
+     "name": "Glucosuria Fisiológica",
+     "type": "Molecular",
+     "topic": "Glucosuria Fisiológica"
+    },
+    {
+     "name": "Bacteriuria Silente",
+     "type": "Innato",
+     "topic": "Bacteriuria Silente"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t0_0",
+     "topic": "Fisiología renal del embarazo",
+     "text": [
+      [
+       "Sabio Brenn",
+       "El giro: una creatinina normal fuera del embarazo ya es anormal en la gestación."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "memorama",
+     "title": "Seguro o prohibido",
+     "items": [],
+     "pairs": [
+      [
+       "IECA / ARA",
+       "Prohibido"
+      ],
+      [
+       "Micofenolato",
+       "Prohibido"
+      ],
+      [
+       "Azatioprina",
+       "Seguro"
+      ],
+      [
+       "Tacrolimus",
+       "Seguro, medir niveles"
+      ],
+      [
+       "Hidroxicloroquina",
+       "Seguro"
+      ],
+      [
+       "Labetalol, nifedipino, metildopa",
+       "Seguros"
+      ]
+     ]
+    },
+    {
+     "type": "memorama",
+     "title": "Memorama del tema",
+     "items": [],
+     "pairs": [
+      [
+       "TFG en embarazo",
+       "↑ ~50%"
+      ],
+      [
+       "Preeclampsia",
+       "↑sFlt-1 / ↓PlGF"
+      ],
+      [
+       "HELLP",
+       "Hemólisis, enzimas ↑, plaquetas ↓"
+      ],
+      [
+       "IECA / ARA II",
+       "Contraindicados (fetotóxicos)"
+      ],
+      [
+       "Nefritis lúpica gestante",
+       "Hidroxicloroquina + azatioprina"
+      ],
+      [
+       "Embarazo en diálisis",
+       "Diálisis intensiva (>36 h/sem)"
+      ],
+      [
+       "Aspirina dosis baja",
+       "Prevención de preeclampsia"
+      ],
+      [
+       "Micofenolato",
+       "Suspender ≥6 sem antes de concebir"
+      ],
+      [
+       "Hígado graso agudo",
+       "Hipoglucemia + LRA, 3.er trimestre"
+      ]
+     ]
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Sabio Brenn",
+       "Ahora la placenta. Ahí nace el problema."
+      ]
+     ]
+    }
+   ],
+   "card": "Embarazo: TFG +50 %, creatinina 0.4–0.6, hidronefrosis derecha fisiológica. Prohibidos: iSRAA, MMF, ciclofosfamida. Aspirina desde antes de la semana 16."
+  },
+  {
+   "id": "z2",
+   "name": "Placenta Sombría",
+   "palette": [
+    "#F8D8D8",
+    "#E07070",
+    "#982828",
+    "#380808"
+   ],
+   "tiles": "rio",
+   "vignette": "preeclampsia",
+   "join": [],
+   "nurse": true,
+   "intro": [
+    [
+     "Sabio Brenn",
+     "Placenta isquémica: libera sFlt-1, que secuestra VEGF y PlGF."
+    ],
+    [
+     "Sabio Brenn",
+     "Sin VEGF el endotelio glomerular se hincha: endoteliosis."
+    ]
+   ],
+   "npcs": [
+    {
+     "id": "npc1",
+     "name": "sFlt-1",
+     "lines": [
+      [
+       "sFlt-1",
+       "Soy un receptor soluble: atrapo VEGF y PlGF."
+      ],
+      [
+       "sFlt-1",
+       "Una relación sFlt-1/PlGF ≤38 hace improbable la preeclampsia a corto plazo."
+      ]
+     ],
+     "gift": "pocion",
+     "recall": "sFlt-1"
+    },
+    {
+     "id": "npc2",
+     "name": "Sulfato de Magnesio",
+     "lines": [
+      [
+       "Sulfato de Magnesio",
+       "Prevengo la eclampsia. Con TFG baja me acumulo: vigila reflejos."
+      ]
+     ],
+     "gift": "xp",
+     "recall": "sulfato de magnesio"
+    }
+   ],
+   "signs": [
+    [
+     "Letrero · Diferencial",
+     "Preeclampsia: >20 semanas, complemento normal. Lupus: C3/C4 bajos y cilindros."
+    ],
+    [
+     "Letrero · Diálisis y embarazo",
+     "Diálisis intensiva (≥36 h/semana) mejora los desenlaces fetales."
+    ]
+   ],
+   "trainers": [
+    {
+     "id": "t1_0",
+     "cast": "gine",
+     "specialty": "Ginecología",
+     "serie": "AZ22-3",
+     "intro": [
+      [
+       "Dra. Lucía Bravo",
+       "Proteinuria e hipertensión a las 30 semanas: preeclampsia. No hay más."
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Lucía Bravo",
+       "Complemento y sedimento para descartar brote… cierto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_1",
+     "cast": "cardio",
+     "specialty": "Cardiología",
+     "serie": "AZ22-5",
+     "intro": [
+      [
+       "Dra. Sístole Ruiz",
+       "Primero el corazón. El riñón que espere."
+      ],
+      [
+       "Dra. Sístole Ruiz",
+       "Mi caso: ERC y embarazo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dra. Sístole Ruiz",
+       "Cardiorrenal: van juntos. Aprendí."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    },
+    {
+     "id": "t1_2",
+     "cast": "infecto",
+     "specialty": "Infectología",
+     "serie": "AZ22-8",
+     "intro": [
+      [
+       "Dr. Félix Cultivo",
+       "Ningún cultivo me falta. Riñón, ¿qué es eso?"
+      ],
+      [
+       "Dr. Félix Cultivo",
+       "Mi caso: ERC y embarazo"
+      ]
+     ],
+     "defeat": [
+      [
+       "Dr. Félix Cultivo",
+       "Ajustar la dosis también cura. Lo anoto."
+      ]
+     ],
+     "questionTopics": [],
+     "n": 1
+    }
+   ],
+   "wild": [
+    {
+     "name": "Endoteliosis",
+     "type": "Celular",
+     "topic": "Endoteliosis"
+    },
+    {
+     "name": "HELLP",
+     "type": "Molecular",
+     "topic": "HELLP"
+    },
+    {
+     "name": "Hígado Graso Agudo",
+     "type": "Molecular",
+     "topic": "Hígado Graso Agudo"
+    },
+    {
+     "name": "Necrosis Cortical",
+     "type": "Molecular",
+     "topic": "Necrosis Cortical"
+    }
+   ],
+   "gates": [
+    {
+     "after": "t1_0",
+     "topic": "Preeclampsia frente a brote de enfermedad glomerular",
+     "text": [
+      [
+       "Sabio Brenn",
+       "Complemento, sedimento y relación sFlt-1/PlGF separan lo que la clínica mezcla."
+      ]
+     ]
+    }
+   ],
+   "minigames": [
+    {
+     "type": "stones",
+     "title": "Preeclampsia con datos de gravedad",
+     "items": [
+      "Confirmar criterios de gravedad",
+      "Antihipertensivo IV u oral de acción rápida",
+      "Sulfato de magnesio",
+      "Maduración pulmonar si <34 semanas",
+      "Valorar interrupción del embarazo",
+      "Vigilar el posparto: puede empeorar"
+     ],
+     "pairs": []
+    }
+   ],
+   "cutscenes": [
+    {
+     "trigger": "exit",
+     "lines": [
+      [
+       "Dr. J.",
+       "sFlt-1/PlGF de 210. Complemento normal. Ya sabes."
+      ]
+     ]
+    }
+   ],
+   "card": "Preeclampsia: sFlt-1 ↑, PlGF ↓, endoteliosis. Diferencial con nefritis lúpica (C3/C4, sedimento) y SHUa. ERC: aspirina, PA <140/90."
+  }
+ ],
+ "boss": {
+  "name": "La Placenta Sombría",
+  "color": "#703878",
+  "dark": "#200820",
+  "heads": 1,
+  "form": "masa",
+  "crescent": false,
+  "intro": [
+   [
+    "La Placenta",
+    "Me falta sangre. Así que le quito el VEGF a todo su endotelio."
+   ],
+   [
+    "Dr. J.",
+    "Lo normal, el diferencial y el momento del parto."
+   ]
+  ],
+  "outro": [
+   [
+    "La Placenta",
+    "Me voy con el parto."
+   ],
+   [
+    "Sabio Brenn",
+    "Nació a las 32 semanas. La madre conservó su TFG. Dos pacientes, dos victorias."
+   ]
+  ],
+  "phases": [
+   {
+    "name": "Fisiología normal",
+    "type": "Molecular",
+    "lines": [
+     [
+      "La Placenta",
+      "¿Sabes qué es normal aquí?"
+     ]
+    ],
+    "topics": [
+     "Fisiología normal"
+    ],
+    "questions": [
+     "EMB-PE-1",
+     "EMB-PE-2"
+    ]
+   },
+   {
+    "name": "Diferencial",
+    "type": "Celular",
+    "lines": [
+     [
+      "La Placenta",
+      "¿Soy yo o es su lupus?"
+     ]
+    ],
+    "topics": [
+     "Diferencial"
+    ],
+    "questions": [
+     "EMB-PE-3",
+     "EMB-PE-4"
+    ]
+   },
+   {
+    "name": "Manejo",
+    "type": "Humoral",
+    "lines": [
+     [
+      "La Placenta",
+      "¿Cuándo me sacas?"
+     ]
+    ],
+    "topics": [
+     "Manejo"
+    ],
+    "questions": [
+     "PDE-1",
+     "PDE-2"
+    ]
+   },
+   {
+    "name": "ERC y embarazo",
+    "type": "Complemento",
+    "lines": [
+     [
+      "La Placenta",
+      "Ella ya tenía ERC."
+     ]
+    ],
+    "topics": [
+     "ERC y embarazo"
+    ],
+    "questions": [
+     "PDE-3"
+    ]
+   }
+  ]
+ },
+ "creatures": [],
+ "typeChart": {},
+ "shields": [],
+ "nefrodex": [
+  {
+   "title": "Riñón Gestante",
+   "text": "Embarazo: TFG +50 %, creatinina 0.4–0.6, hidronefrosis derecha fisiológica. Prohibidos: iSRAA, MMF, ciclofosfamida. Aspirina desde antes de la semana 16."
+  },
+  {
+   "title": "Placenta Sombría",
+   "text": "Preeclampsia: sFlt-1 ↑, PlGF ↓, endoteliosis. Diferencial con nefritis lúpica (C3/C4, sedimento) y SHUa. ERC: aspirina, PA <140/90."
+  },
+  {
+   "title": "💎 Preeclampsia: puerperio",
+   "text": "Proteinuria posparto persistente (> 12 semanas) → biopsia/estudio de glomerulopatía. Preeclampsia es marcador de riesgo de ERC futura."
+  },
+  {
+   "title": "💎 Preeclampsia",
+   "text": "Criterios de severidad: TA ≥160/110; plaquetas <100,000; transaminasas ×2 LSN; Cr >1.1 o doble; edema pulmonar; síntomas cerebrales o visuales. Antihipertensivos seguros: labetalol, nifedipino, metildopa, hidralazina."
+  },
+  {
+   "title": "💎 Preeclampsia: fisiopatología",
+   "text": "Endoteliosis glomerular = lesión clásica. sFlt-1/PlGF ≤38 → descarta preeclampsia en 1 semana; ≥85 (<34 sem) / ≥110 (≥34 sem) → apoya el diagnóstico."
+  },
+  {
+   "title": "💎 Preeclampsia: riesgos a largo plazo",
+   "text": "Preeclampsia → HTA crónica (principal), ERC, ECV. Prevención: aspirina 75-162 mg antes de las 16 semanas (idealmente a partir de las 12). RCIU/parto pretérmino en el feto."
+  },
+  {
+   "title": "💎 Hemodiálisis intensiva en el embarazo",
+   "text": "HD en embarazo: ≥36 h/semana; BUN <45–50 mg/dL; mejor edad gestacional y supervivencia fetal."
+  },
+  {
+   "title": "💎 ERC y embarazo",
+   "text": "En la ERC el riesgo de preeclampsia aumenta 2.5–8 veces (hasta 40%), y es directamente proporcional a la gravedad de la ERC (etapas más avanzadas) (Al Khalaf, Am J Obstet Gynecol 2022;226:656)."
+  },
+  {
+   "title": "💎 ERC y embarazo",
+   "text": "El principal riesgo en la nefritis lúpica previa al embarazo es la recaída (brote ~26% en el metaanálisis de 2,751 embarazos); aumenta con actividad al embarazarse y disminuye cuanto más larga es la remisión previa (Fakhouri, Kidney Int 2023;103:264)."
+  },
+  {
+   "title": "💎 ERC y embarazo",
+   "text": "La aspirina está indicada, pero se inicia una vez confirmado el embarazo, idealmente antes de la semana 12 (no en el periodo preconcepcional)."
+  }
+ ]
+}

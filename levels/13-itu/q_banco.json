@@ -1,0 +1,1424 @@
+[
+ {
+  "id": "LST-3",
+  "serie_id": "LST",
+  "orden": 3,
+  "sub": "13.3",
+  "subtema": "Pielonefritis xantogranulomatosa asociada a litiasis",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Si el cuadro se hubiese cronificado, la mujer del caso desarrollaría fiebre prolongada, pérdida de peso y dolor en el flanco con riñón agrandado y sin función en la tomografía, con cálculo coraliforme y cavidades de baja densidad rodeadas de parénquima con realce ('pata de oso').",
+  "enunciado": "¿Cuál es el diagnóstico y el tratamiento?",
+  "opciones": {
+   "A": "Pielonefritis xantogranulomatosa (macrófagos espumosos, Proteus/E. coli, litiasis obstructiva); nefrectomía y antibiótico dirigido",
+   "B": "Absceso renal pequeño; drenaje percutáneo sin más estudios, porque la imagen muestra una colección única y localizada",
+   "C": "Poliquistosis renal; observación, porque los quistes múltiples explican el agrandamiento y la fiebre prolongada",
+   "D": "Tuberculosis renal; cuatro fármacos antituberculosos solamente, porque el riñón sin función se recupera con ellos",
+   "E": "Carcinoma renal de células claras; nefrectomía radical, porque la fiebre prolongada, la pérdida de peso y el flanco doloroso indican neoplasia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La pielonefritis xantogranulomatosa es una infección crónica supurativa del riñón, casi siempre unilateral, asociada a obstrucción por litiasis (coraliforme) e infección por Proteus o E. coli, que destruye el parénquima y lo sustituye por macrófagos cargados de lípidos (células espumosas). En la tomografía se ve un riñón grande sin función, con cálculo central y cavidades de baja densidad en 'pata de oso' rodeadas de parénquima que realza. Es más frecuente en mujeres de mediana edad con diabetes, litiasis e infecciones recurrentes. El tratamiento es antibiótico dirigido y nefrectomía (en la forma difusa).",
+   "B": "El absceso es focal y no destruye el riñón entero.",
+   "C": "La poliquistosis es bilateral y no cursa con fiebre y pérdida de peso.",
+   "D": "La tuberculosis renal se asocia a piuria estéril y calcificaciones, no a pata de oso.",
+   "E": "El carcinoma renal puede simular el cuadro, pero la litiasis coraliforme infectada y la pata de oso orientan a pielonefritis xantogranulomatosa."
+  },
+  "perla": "PXG: litiasis coraliforme + Proteus/E. coli, riñón grande sin función, 'pata de oso', células espumosas. Tratamiento: nefrectomía + antibiótico.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (infecciones renales)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o3",
+  "peso": 21.9
+ },
+ {
+  "id": "UTC-1",
+  "serie_id": "UTC",
+  "orden": 1,
+  "sub": "13.1",
+  "subtema": "Clasificación y tratamiento de la cistitis",
+  "dificultad": "moderada",
+  "caso": "Mujer de 29 años, previamente sana, con disuria, urgencia y frecuencia desde hace dos días, sin fiebre ni dolor lumbar. No está embarazada ni ha tenido instrumentación urinaria. Examen general de orina con leucocituria y nitritos positivos. La resistencia local de E. coli a TMP-SMX es de 28%.",
+  "enunciado": "¿Cuál es el tratamiento empírico más adecuado?",
+  "opciones": {
+   "A": "Ceftriaxona intravenosa y hospitalización, porque la cistitis en una mujer joven requiere tratamiento parenteral",
+   "B": "Nitrofurantoína 100 mg cada 12 horas por 5 días, o fosfomicina 3 g en dosis única, con seguimiento clínico",
+   "C": "Amoxicilina-clavulanato por 14 días, porque la cistitis requiere ciclos largos de antibiótico de amplio espectro",
+   "D": "TMP-SMX 160/800 mg cada 12 horas por 3 días, que es de primera línea aun con resistencia local mayor de 20%",
+   "E": "Ciprofloxacino 500 mg cada 12 horas por 14 días, porque es la fluoroquinolona de primera elección en la cistitis no complicada"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay fiebre ni datos sistémicos; no se requiere hospitalización ni tratamiento parenteral.",
+   "B": "La cistitis aguda no complicada (mujer sana, sin fiebre ni anormalidad urológica) se trata con esquemas cortos de antibióticos de primera línea: nitrofurantoína por 5 días, fosfomicina en dosis única de 3 g, pivmecilinam, o TMP-SMX por 3 días si la resistencia local es menor de 20%. Aquí la resistencia a TMP-SMX es de 28%, por lo que se evita. La nitrofurantoína y la fosfomicina tienen baja resistencia y poco efecto sobre la flora intestinal. El agente más frecuente es E. coli (80 a 85%), seguido de Staphylococcus saprophyticus (5 a 10%).",
+   "C": "Los betalactámicos son de segunda línea por menor eficacia, y 14 días no es necesario.",
+   "D": "Con resistencia local de 28% (mayor de 20%) no se recomienda TMP-SMX empírico.",
+   "E": "Las fluoroquinolonas no son de primera línea en la cistitis no complicada por sus efectos adversos y para evitar resistencia, y 14 días es una duración excesiva."
+  },
+  "perla": "Cistitis no complicada: nitrofurantoína 5 d, fosfomicina 3 g, pivmecilinam; TMP-SMX 3 d si resistencia <20%. Fluoroquinolonas y betalactámicos: segunda línea.",
+  "referencias": [
+   "Hooton TM. N Engl J Med 2012;366:1028",
+   "Gupta K et al. Clin Infect Dis 2011;52:e103 (IDSA)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "continuacion": "",
+  "obj": "13.o1",
+  "peso": 27.2
+ },
+ {
+  "id": "UTC-2",
+  "serie_id": "UTC",
+  "orden": 2,
+  "sub": "13.1",
+  "subtema": "Recurrencia: recaída frente a reinfección y profilaxis",
+  "dificultad": "moderada",
+  "caso": "",
+  "continuacion": "Un año después, la paciente (ahora posmenopáusica por cirugía) presenta su cuarto episodio de cistitis en 12 meses, cada uno con cultivo positivo para E. coli de distinto antibiograma, en intervalos de 2 a 3 meses, con vaciamiento vesical normal y ultrasonido sin hidronefrosis ni litiasis.",
+  "enunciado": "¿Cómo se clasifica y cuál es la estrategia preventiva inicial?",
+  "opciones": {
+   "A": "Recaída, porque el microorganismo es el mismo; se trata durante 6 semanas con antibiótico de amplio espectro",
+   "B": "Pielonefritis crónica, que se trata con nefrectomía por los episodios recurrentes de cistitis y la bacteriuria",
+   "C": "Reinfecciones: medidas conductuales y estrógeno vaginal; metenamina o profilaxis antibiótica continua o postcoital si persisten",
+   "D": "Bacteriuria asintomática, que no requiere ningún manejo porque los episodios no tienen síntomas ni secuelas",
+   "E": "Se indica profilaxis con ciprofloxacino de por vida desde el primer episodio, porque previene las reinfecciones sin efectos adversos relevantes"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los cultivos tienen distintos antibiogramas, por lo que no son el mismo agente; no se trata con 6 semanas.",
+   "B": "No hay datos de pielonefritis, y el ultrasonido es normal.",
+   "C": "La IVU recurrente se define por 2 o más episodios en 6 meses, o 3 o más en 12 meses. La reinfección es un nuevo episodio con otro microorganismo o después de un intervalo de erradicación documentado, y la recaída es la recurrencia temprana por el mismo agente tras el tratamiento (por foco persistente). En mujeres con reinfecciones y tracto normal se recomienda aumentar la hidratación, la micción postcoital, estrógeno vaginal en posmenopáusicas, y las alternativas no antibióticas (metenamina; arándano con evidencia modesta); si persisten se usa profilaxis antibiótica continua (nitrofurantoína 50 a 100 mg o TMP-SMX en dosis baja por 6 a 12 meses) o postcoital.",
+   "D": "La paciente tiene síntomas, no es bacteriuria asintomática.",
+   "E": "Las fluoroquinolonas no se emplean de forma continua por sus riesgos; la profilaxis es temporal y con fármacos de bajo riesgo."
+  },
+  "perla": "IVU recurrente: ≥2/6 m o ≥3/12 m. Reinfección ≠ recaída. Prevención: estrógeno vaginal posmenopausia, metenamina, profilaxis antibiótica 6–12 m.",
+  "referencias": [
+   "Hooton TM. N Engl J Med 2012;366:1028",
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 27.2
+ },
+ {
+  "id": "UTC-3",
+  "serie_id": "UTC",
+  "orden": 3,
+  "sub": "13.1",
+  "subtema": "Nitrofurantoína y función renal",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A los 68 años, la paciente tiene ERC G4 con TFGe de 24 mL/min/1.73 m² y presenta un nuevo episodio de cistitis sin fiebre, con urocultivo pendiente.",
+  "enunciado": "¿Qué antibiótico es el menos adecuado como tratamiento empírico?",
+  "opciones": {
+   "A": "Amoxicilina-clavulanato ajustada a la función renal y según sensibilidad, por su seguridad en la ERC avanzada",
+   "B": "Cefalexina ajustada a la función renal y según sensibilidad, por su buena cobertura de enterobacterias urinarias",
+   "C": "Ajuste del antibiótico según el urocultivo, una vez que se conozca la sensibilidad del germen aislado en la orina",
+   "D": "Nitrofurantoína: con TFGe <30 mL/min no alcanza concentraciones urinarias y es tóxica (neuropatía, neumonitis)",
+   "E": "Fosfomicina en dosis única, por su buena concentración urinaria incluso con TFGe baja, sin necesidad de ajuste de dosis ni de seguimiento"
+  },
+  "clave": "D",
+  "explicaciones": {
+   "A": "La amoxicilina-clavulanato ajustada es una alternativa de segunda línea aceptable.",
+   "B": "Las cefalosporinas con ajuste de dosis son alternativas aceptables.",
+   "C": "Ajustar según cultivo es lo correcto y no es el menos adecuado.",
+   "D": "La nitrofurantoína se concentra en la orina por filtración y secreción tubular; con TFGe menor de 30 mL/min su concentración urinaria es insuficiente para eficacia, mientras que se acumula en plasma y aumenta el riesgo de neuropatía periférica, neumonitis y hepatotoxicidad. Por eso se evita con depuración de creatinina menor de 30 mL/min (criterios de Beers). Con función renal tan reducida, los antibióticos que alcancen concentraciones urinarias suficientes (fosfomicina, betalactámicos ajustados) y la guía del urocultivo son preferibles.",
+   "E": "La fosfomicina en dosis única mantiene concentraciones urinarias útiles aun con función renal reducida."
+  },
+  "perla": "Nitrofurantoína: evitar si ClCr <30 mL/min (ineficaz en orina y tóxica). Fosfomicina y betalactámicos ajustados son alternativas.",
+  "referencias": [
+   "2023 AGS Beers Criteria. J Am Geriatr Soc 2023;71:2052",
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "UTC-4",
+  "serie_id": "UTC",
+  "orden": 4,
+  "sub": "13.1",
+  "subtema": "Bacteriuria asintomática: cuándo tratar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "En tres consultas sucesivas, el urocultivo de control de la paciente muestra E. coli mayor de 100,000 UFC/mL sin síntomas. También se discute qué hacer con una paciente diabética asintomática, con bacteriuria en un cultivo de tamizaje, y con un receptor de trasplante renal de 8 meses con bacteriuria asintomática.",
+  "enunciado": "¿En qué situación se debe tratar la bacteriuria asintomática?",
+  "opciones": {
+   "A": "En el embarazo y antes de procedimientos urológicos con sangrado; no en diabéticas, ancianos, con sonda ni trasplante tardío",
+   "B": "En toda persona con leucocituria, porque la piuria indica infección que puede progresar a pielonefritis o sepsis",
+   "C": "En todo receptor de trasplante renal, con tratamiento de 14 días, para proteger el injerto de la pielonefritis",
+   "D": "En toda paciente diabética para prevenir la pielonefritis, la cistitis y el deterioro de la función renal",
+   "E": "En todo paciente con sonda vesical permanente, con tratamiento prolongado para prevenir la pielonefritis y la bacteriemia asociadas"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La bacteriuria asintomática es el aislamiento de bacterias (mayor de 100,000 UFC/mL) sin síntomas. Solo se trata en el embarazo (por el riesgo de pielonefritis y parto pretérmino) y antes de procedimientos urológicos con trauma de mucosa (como resección transuretral de próstata); en el resto (diabéticas, adultos mayores, pacientes con sonda, lesión medular y receptores de trasplante renal después del primer mes) no mejora los resultados, aumenta la resistencia y puede incrementar infecciones sintomáticas. En los trasplantados con bacteriuria asintomática más allá del primer mes se recomienda no tamizar ni tratar.",
+   "B": "La leucocituria sin síntomas no indica tratamiento.",
+   "C": "El tratamiento de la bacteriuria asintomática en trasplantados tardíos no reduce las infecciones y favorece la resistencia.",
+   "D": "En las mujeres diabéticas no se reduce la pielonefritis ni las complicaciones.",
+   "E": "En pacientes con sonda permanente, la bacteriuria es la regla y no se trata sin síntomas."
+  },
+  "perla": "Bacteriuria asintomática: tratar solo en embarazo y antes de procedimientos urológicos con sangrado mucoso. No en DM, ancianos, sonda ni trasplante renal >1 mes.",
+  "referencias": [
+   "Nicolle LE et al. Clin Infect Dis 2019;68:e83 (IDSA)",
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "PIE-1",
+  "serie_id": "PIE",
+  "orden": 1,
+  "sub": "13.1",
+  "subtema": "Pielonefritis complicada en diabética",
+  "dificultad": "moderada",
+  "caso": "Mujer de 62 años con diabetes tipo 2 de 12 años de evolución, con mal control (glucemia de 310 mg/dL), que consulta por fiebre de 39.2 °C, escalofríos, dolor en el flanco derecho y disuria desde hace 3 días. FC de 112 lpm, TA de 108/64 mmHg, leucocitos de 18,500/µL con neutrofilia, creatinina de 1.8 mg/dL (basal de 1.0). El examen de orina muestra piuria con nitritos positivos.",
+  "enunciado": "¿Cuál es la clasificación y el estudio inicial adecuado?",
+  "opciones": {
+   "A": "Pielonefritis complicada; urocultivo y hemocultivos antes del antibiótico, hidratación y ecografía renal por obstrucción",
+   "B": "Síndrome nefrítico, que requiere biopsia renal por la fiebre, el dolor lumbar y la hiperglucemia persistente",
+   "C": "Cistitis no complicada, que se trata con nitrofurantoína por 5 días en consulta externa sin más estudios",
+   "D": "Bacteriuria asintomática, que no se trata aunque haya fiebre alta, escalofríos y dolor en el flanco derecho",
+   "E": "Pielonefritis no complicada; tratamiento ambulatorio sin estudios, porque la paciente tolera la vía oral y no está embarazada"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La pielonefritis en una diabética con mal control, sepsis (taquicardia, leucocitosis) y lesión renal aguda es complicada: se hospitaliza, se toman urocultivo y hemocultivos (la bacteriemia ocurre en 10 a 20%, más en diabéticas y ancianas) antes de iniciar antibióticos empíricos intravenosos, y se reponen líquidos. El ultrasonido renal es el primer estudio para detectar obstrucción, litiasis o absceso, que es lo que cambia el manejo. Los factores de complicación incluyen diabetes, inmunosupresión, anormalidad urológica, sexo masculino, embarazo y sepsis. El germen más frecuente es E. coli, y aumentan las enterobacterias resistentes y S. aureus.",
+   "B": "No hay datos de síndrome nefrítico; el cuadro es infeccioso.",
+   "C": "La paciente tiene fiebre, dolor en el flanco y sepsis; no es una cistitis.",
+   "D": "Existen síntomas y signos sistémicos.",
+   "E": "El cuadro es complicado por diabetes mal controlada y lesión renal aguda, y requiere hospitalización."
+  },
+  "perla": "Pielonefritis + DM, sepsis o LRA = complicada: hospitalizar, cultivos (orina y sangre) antes del antibiótico, USG para descartar obstrucción.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (infecciones urinarias)",
+   "Gupta K et al. Clin Infect Dis 2011;52:e103 (IDSA)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "continuacion": "",
+  "obj": "13.o1",
+  "peso": 27.2
+ },
+ {
+  "id": "PIE-2",
+  "serie_id": "PIE",
+  "orden": 2,
+  "sub": "13.1",
+  "subtema": "Antibiótico empírico en pielonefritis complicada con LRA",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El ultrasonido no muestra obstrucción ni litiasis. No hay antecedentes de uso reciente de antibióticos ni de colonización por bacterias productoras de BLEE. La paciente tolera la vía oral pero tiene sepsis e hipotensión relativa.",
+  "enunciado": "¿Cuál es el tratamiento empírico más apropiado?",
+  "opciones": {
+   "A": "Gentamicina como monoterapia durante varios días, porque tiene excelente concentración en el parénquima renal y es de bajo costo hospitalario",
+   "B": "Fosfomicina oral en dosis única, porque alcanza concentraciones urinarias altas y trata la pielonefritis",
+   "C": "Sin antibiótico hasta recibir el urocultivo, para evitar el uso innecesario de antimicrobianos de amplio espectro",
+   "D": "Nitrofurantoína oral, porque se tolera bien y cubre las enterobacterias más frecuentes de la pielonefritis aguda",
+   "E": "Ceftriaxona IV o cefepime, sin aminoglucósidos por la lesión renal; ajuste según cultivo y paso a vía oral"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Los aminoglucósidos están desaconsejados por la lesión renal aguda y no se usan en monoterapia prolongada.",
+   "B": "La fosfomicina en dosis única es para cistitis no complicada.",
+   "C": "Retrasar el antibiótico en sepsis aumenta la mortalidad.",
+   "D": "La nitrofurantoína no alcanza concentraciones en el parénquima renal ni en sangre, y no se usa en pielonefritis.",
+   "E": "En pielonefritis con sepsis se inicia tratamiento parenteral empírico con una cefalosporina de tercera o cuarta generación (ceftriaxona, cefepime), piperacilina-tazobactam o un carbapenémico si hay riesgo de BLEE. Con lesión renal aguda se evitan los aminoglucósidos por nefrotoxicidad, y los fármacos se ajustan a la función renal. Al mejorar clínicamente (afebril 48 horas, tolera vía oral), se pasa a vía oral según el antibiograma, con un total de 7 a 14 días según el fármaco (7 días con fluoroquinolona; 10 a 14 días con betalactámicos). La mejoría debe verse en 48 a 72 horas; si no, se descartan obstrucción, absceso o resistencia."
+  },
+  "perla": "Pielonefritis con sepsis: ceftriaxona/cefepime (o carbapenémico si BLEE), evitar aminoglucósidos con LRA. 7 d (FQ) o 10–14 d (betalactámico).",
+  "referencias": [
+   "Gupta K et al. Clin Infect Dis 2011;52:e103 (IDSA)",
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "PIE-3",
+  "serie_id": "PIE",
+  "orden": 3,
+  "sub": "13.1",
+  "subtema": "Falta de respuesta a las 72 horas",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "A las 72 horas la fiebre persiste (38.8 °C), el dolor lumbar es mayor, la creatinina sube a 2.3 mg/dL y el urocultivo identificó E. coli sensible al antibiótico administrado. El ultrasonido inicial fue normal.",
+  "enunciado": "¿Cuál es el siguiente paso?",
+  "opciones": {
+   "A": "Cambiar a otro antibiótico sin imagen adicional, porque el cultivo sensible indica falla del fármaco administrado",
+   "B": "Biopsia renal para descartar nefritis intersticial aguda, por la creatinina en ascenso y la fiebre persistente",
+   "C": "Diferir cualquier imagen hasta que la creatinina sea normal, para evitar la nefropatía por contraste en el paciente",
+   "D": "Suspender los antibióticos y observar, porque la fiebre persistente se debe a una reacción inflamatoria residual sin infección activa",
+   "E": "TC con contraste para buscar absceso, obstrucción o pielonefritis enfisematosa; sin retrasarla por la creatinina"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Cambiar antibiótico sin identificar el foco puede retrasar el drenaje o la descompresión necesarios.",
+   "B": "La biopsia no está indicada en el estudio de una infección.",
+   "C": "Esperar a que la creatinina se normalice retrasa un diagnóstico urgente; la creatinina elevada es parte de la infección.",
+   "D": "Suspender antibióticos en sepsis no controlada es peligroso.",
+   "E": "La falta de mejoría a las 48 a 72 horas con un microorganismo sensible indica una complicación: obstrucción (litiasis, papila necrótica), absceso renal o perirrenal, pielonefritis enfisematosa o xantogranulomatosa, o nefronía lobar. El ultrasonido puede subestimar abscesos y gas, por lo que se realiza TC de abdomen con contraste, que es superior. El riesgo de lesión renal aguda inducida por contraste es bajo con TFGe mayor de 30 mL/min/1.73 m², y no debe retrasar la imagen en una infección grave, porque la demora aumenta la mortalidad."
+  },
+  "perla": "Sin mejoría a las 48–72 h: TC con contraste (absceso, obstrucción, gas). El riesgo de nefropatía por contraste con TFGe >30 es bajo.",
+  "referencias": [
+   "Gupta K et al. Clin Infect Dis 2011;52:e103 (IDSA)",
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "ABR-1",
+  "serie_id": "ABR",
+  "orden": 1,
+  "sub": "13.2",
+  "subtema": "Absceso renal: diagnóstico y microbiología",
+  "dificultad": "moderada",
+  "caso": "Mujer de 55 años con diabetes de 8 años de evolución y mal control, con fiebre, dolor en el flanco y náusea desde hace 9 días, sin respuesta tras 5 días de antibiótico oral. Leucocitos de 17,000/µL. La TC con contraste muestra una lesión hipodensa de 6 cm en el polo superior del riñón izquierdo, con pared que capta contraste y densidad central de 15 UH.",
+  "enunciado": "¿Cuál es el diagnóstico y el germen más frecuente?",
+  "opciones": {
+   "A": "Pielonefritis xantogranulomatosa; Mycobacterium, porque la fiebre prolongada sin respuesta a antibiótico indica tuberculosis",
+   "B": "Absceso renal (cortical o corticomedular); E. coli ascendente es lo más frecuente, y S. aureus con diseminación hematógena",
+   "C": "Carcinoma renal; ningún germen, porque la fiebre y el dolor en el flanco indican una neoplasia",
+   "D": "Angiomiolipoma, sin germen, porque la masa renal con dolor en el flanco y fiebre es un tumor benigno",
+   "E": "Quiste renal simple complicado; Candida, porque la diabetes favorece la infección fúngica del quiste renal y la fiebre persistente"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La pielonefritis xantogranulomatosa tiene cavidades con cálculo coraliforme y riñón destruido, con Proteus o E. coli, no Mycobacterium.",
+   "B": "Una colección hipodensa con pared que capta contraste y densidad de líquido o pus (menos de 20 UH) en un paciente con fiebre y dolor lumbar prolongados, sin respuesta al antibiótico, corresponde a un absceso renal. Los factores de riesgo son diabetes, obstrucción por litiasis, reflujo y pielonefritis previa. El germen más frecuente es E. coli por vía ascendente (también Klebsiella y Proteus); S. aureus causa abscesos corticales por diseminación hematógena (endocarditis, piel, uso de drogas intravenosas). La TC con contraste es el estudio de elección.",
+   "C": "El carcinoma tiene captación sólida, y la densidad de 15 UH es la de líquido o pus.",
+   "D": "El angiomiolipoma contiene grasa (densidad negativa).",
+   "E": "Los quistes simples complicados no suelen causar fiebre, y la pared captante con pus indica absceso."
+  },
+  "perla": "Absceso renal: colección con pared captante, <20 UH, fiebre persistente. E. coli (ascendente), S. aureus (hematógeno). TC con contraste de elección.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "continuacion": "",
+  "obj": "13.o2",
+  "peso": 16.8
+ },
+ {
+  "id": "ABR-2",
+  "serie_id": "ABR",
+  "orden": 2,
+  "sub": "13.2",
+  "subtema": "Absceso renal: drenaje según tamaño",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El urocultivo y los hemocultivos son positivos para E. coli sensible a cefalosporinas. La paciente recibe ceftriaxona intravenosa desde hace 48 horas, con fiebre persistente.",
+  "enunciado": "¿Cuál es el manejo recomendado del absceso de 6 cm?",
+  "opciones": {
+   "A": "Corticoides para reducir la inflamación, porque el absceso de 6 cm se resuelve con el control de la respuesta inflamatoria",
+   "B": "Cambiar a antibiótico oral únicamente, porque el germen es sensible y la paciente tolera la vía oral",
+   "C": "Antibiótico parenteral más drenaje percutáneo guiado por imagen (<3 cm solo antibiótico; 3–5 cm se individualiza)",
+   "D": "Nefrectomía radical inmediata, porque todo absceso mayor de 5 cm requiere resección urgente del riñón y de la grasa perirrenal",
+   "E": "Observación sin drenaje, porque la fiebre persistente a las 48 horas es esperable con la respuesta inflamatoria local"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "Los corticoides no tienen lugar en el tratamiento de un absceso.",
+   "B": "Un absceso de 6 cm con fiebre persistente no se resuelve con antibiótico oral.",
+   "C": "El absceso renal mayor de 5 cm, o el que no mejora con 48 a 72 horas de antibiótico, requiere drenaje percutáneo (o quirúrgico si hay tabicaciones, gas extenso o fracaso del percutáneo), junto con antibióticos intravenosos y control de la causa (obstrucción, litiasis, glucemia). Los abscesos menores de 3 cm suelen resolverse solo con antibióticos, y los de 3 a 5 cm se manejan con o sin drenaje según la respuesta. La duración del antibiótico es de 2 a 4 semanas o más, guiada por la evolución clínica y la imagen. La nefrectomía se reserva para riñón destruido o fracaso.",
+   "D": "La nefrectomía radical es excesiva; el drenaje conserva el riñón.",
+   "E": "La observación sin drenaje deja un foco séptico con bacteriemia."
+  },
+  "perla": "Absceso renal: <3 cm antibiótico solo; 3–5 cm individualizar; >5 cm o sin respuesta en 48–72 h: drenaje percutáneo + antibiótico.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o2",
+  "peso": 18.8
+ },
+ {
+  "id": "ABR-3",
+  "serie_id": "ABR",
+  "orden": 3,
+  "sub": "13.2",
+  "subtema": "Absceso perirrenal y factores predisponentes",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Tras el drenaje, la TC de control muestra un absceso con extensión al espacio perirrenal y un cálculo de 8 mm en la unión ureteropiélica izquierda.",
+  "enunciado": "¿Cuál es el factor que explica la persistencia del foco y el siguiente paso?",
+  "opciones": {
+   "A": "La diabetes impide cualquier drenaje, por lo que el absceso perirrenal solo puede tratarse con antibióticos",
+   "B": "Realizar litotricia extracorpórea inmediata, porque el cálculo de 8 mm se fragmenta y se resuelve la infección",
+   "C": "La obstrucción litiásica sostiene la infección; se descomprime la vía (JJ o nefrostomía), se drena y se trata el cálculo después",
+   "D": "Basta aumentar la dosis del antibiótico, porque la penetración en el absceso depende de la concentración sérica",
+   "E": "La litiasis es un hallazgo incidental que no requiere intervención, y el absceso se resuelve solo con el drenaje previo ya realizado y los antibióticos"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La diabetes aumenta el riesgo, pero no contraindica el drenaje.",
+   "B": "La litotricia extracorpórea con infección activa no drenada está contraindicada.",
+   "C": "La obstrucción de la vía urinaria por litiasis es un factor mayor para la formación y la persistencia de abscesos renales y perirrenales: sin descompresión, el antibiótico y el drenaje del absceso fracasan. Se debe descomprimir con catéter doble J o nefrostomía percutánea, drenar la colección perirrenal y tratar el cálculo (ureteroscopia o litotricia) una vez controlada la infección. El absceso perirrenal puede extenderse al espacio retroperitoneal, con mayor mortalidad que el intrarrenal, y se asocia a diabetes, obstrucción y retraso diagnóstico.",
+   "D": "Aumentar la dosis de antibiótico no corrige un foco obstruido.",
+   "E": "El cálculo obstructivo perpetúa la infección y debe tratarse."
+  },
+  "perla": "Absceso + cálculo obstructivo: descomprimir (JJ o nefrostomía) y drenar; tratar el cálculo después. Obstrucción = causa de fracaso.",
+  "referencias": [
+   "Assimos D et al. J Urol 2016;196:1153 (AUA)",
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o2",
+  "peso": 18.8
+ },
+ {
+  "id": "EMF-1",
+  "serie_id": "EMF",
+  "orden": 1,
+  "sub": "13.1",
+  "subtema": "Pielonefritis enfisematosa: diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Mujer de 48 años con diabetes tipo 2 mal controlada (glucosa de 480 mg/dL, HbA1c de 12.5%), con fiebre de 39 °C, dolor intenso en el flanco izquierdo, vómito y confusión leve. Plaquetas de 38,000/µL, creatinina de 3.1 mg/dL, TA de 92/54 mmHg. La TC muestra gas en el parénquima renal que se extiende al espacio perirrenal, con una colección perinefrítica.",
+  "enunciado": "¿Cuál es el diagnóstico y el factor de riesgo principal?",
+  "opciones": {
+   "A": "Tuberculosis renal, con piuria estéril, calcificaciones y fiebre de evolución subaguda, no con gas renal agudo",
+   "B": "Pielonefritis enfisematosa; diabetes mal controlada en ≈90% de los casos, con E. coli o Klebsiella como gérmenes frecuentes",
+   "C": "Cistitis enfisematosa aislada, con gas confinado a la pared vesical y sin afectación del parénquima renal",
+   "D": "Pielonefritis xantogranulomatosa; ausencia de factores de riesgo, con litiasis coraliforme obstructiva y masa renal voluminosa",
+   "E": "Absceso por Clostridium en pacientes sin diabetes, con gangrena gaseosa, hemólisis intravascular masiva y choque séptico fulminante"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "La tuberculosis no produce gas parenquimatoso.",
+   "B": "La pielonefritis enfisematosa es una infección necrosante del parénquima renal y los tejidos perirrenales con producción de gas por bacterias que fermentan glucosa (E. coli en alrededor de 70% y Klebsiella pneumoniae), casi exclusiva de pacientes diabéticos mal controlados (cerca de 90%); la obstrucción de la vía urinaria por litiasis es otro factor. Se diagnostica por TC, que muestra burbujas de gas en el parénquima (el gas en la radiografía simple es menos sensible). Cursa con sepsis, trombocitopenia, lesión renal aguda y alteración del estado de conciencia, con alta mortalidad.",
+   "C": "El gas está en el riñón y el espacio perirrenal, no solo en la vejiga.",
+   "D": "La pielonefritis xantogranulomatosa destruye el riñón con cálculo coraliforme y no produce gas parenquimatoso extenso.",
+   "E": "Los gérmenes más frecuentes son entéricos; el factor de riesgo principal es la diabetes."
+  },
+  "perla": "Pielonefritis enfisematosa: DM mal controlada (~90%), E. coli/Klebsiella, gas parenquimatoso en TC. Cursa con sepsis, plaquetas bajas y LRA.",
+  "referencias": [
+   "Huang JJ, Tseng CC. Arch Intern Med 2000;160:797",
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "continuacion": "",
+  "obj": "13.o1",
+  "peso": 27.2
+ },
+ {
+  "id": "EMF-2",
+  "serie_id": "EMF",
+  "orden": 2,
+  "sub": "13.1",
+  "subtema": "Clasificación y criterios de nefrectomía",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se aplica la clasificación por tomografía de Huang y Tseng. Esta paciente tiene gas y colección que se extienden al espacio perinefrítico (clase 3A), con plaquetas de 38,000/µL, creatinina de 3.1 mg/dL, estado de conciencia alterado y TA de 92/54 mmHg.",
+  "enunciado": "¿Qué conducta se recomienda?",
+  "opciones": {
+   "A": "Observación en piso con control de la glucemia, porque la clase 3A suele resolverse con tratamiento médico",
+   "B": "Solo control de la glucemia, porque la hiperglucemia es la causa de la formación de gas en el parénquima renal",
+   "C": "Drenaje percutáneo exclusivo sin considerar la cirugía, aun con trombocitopenia, lesión renal aguda y alteración de la conciencia",
+   "D": "Solo antibióticos por vía oral durante 14 días, porque el gas perinefrítico no modifica el tratamiento",
+   "E": "Nefrectomía de emergencia más antibióticos, por ≥2 factores de mal pronóstico (trombocitopenia, LRA, alteración de conciencia)"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La observación se asocia con mortalidad muy alta en esta presentación.",
+   "B": "El control de la glucemia es necesario, pero no basta.",
+   "C": "El drenaje percutáneo se reserva para casos con menos de dos factores de riesgo, como clases 1 y 2 o clase 3 con un factor.",
+   "D": "El antibiótico oral es insuficiente en una infección necrosante con sepsis y choque.",
+   "E": "La clasificación por TC es: clase 1, gas solo en el sistema colector; clase 2, gas en el parénquima sin extensión extrarrenal; clase 3A, extensión del gas o absceso al espacio perinefrítico; clase 3B, al espacio pararrenal; y clase 4, enfermedad bilateral o en riñón único. Los factores de mal pronóstico son trombocitopenia, lesión renal aguda, alteración de la conciencia y choque. Con clase 3 y dos o más factores (la paciente tiene cuatro), el drenaje percutáneo tiene alta mortalidad y se recomienda nefrectomía inmediata junto con antibióticos de amplio espectro (por ejemplo, carbapenémico), reanimación y control glucémico."
+  },
+  "perla": "EPN: clase 1–2 → antibiótico + drenaje percutáneo; clase 3 con ≥2 factores (plaquetas bajas, LRA, conciencia alterada, choque) o clase 4 bilateral/riñón único → nefrectomía o drenaje bilateral.",
+  "referencias": [
+   "Huang JJ, Tseng CC. Arch Intern Med 2000;160:797",
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "EMF-3",
+  "serie_id": "EMF",
+  "orden": 3,
+  "sub": "13.1",
+  "subtema": "Pielonefritis enfisematosa clase 2: manejo conservador",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Otra paciente diabética de 58 años con la misma enfermedad, pero con gas limitado al parénquima renal (clase 2), plaquetas de 180,000/µL, creatinina de 1.4 mg/dL, consciente y hemodinámicamente estable, y con un cálculo obstructivo ureteral.",
+  "enunciado": "¿Qué conducta es la más apropiada?",
+  "opciones": {
+   "A": "Solo antibióticos orales, porque el gas limitado al parénquima renal (clase 2) no requiere drenaje ni vigilancia estrecha",
+   "B": "Observación con control estricto de la glucemia, porque la clase 2 suele resolverse sin antibióticos ni drenaje alguno",
+   "C": "Nefrectomía inmediata en todos los casos, porque la mortalidad con tratamiento conservador siempre supera 50% en clase 2",
+   "D": "Litotricia extracorpórea inmediata, porque el gas indica obstrucción litiásica que debe fragmentarse de inmediato y sin drenaje",
+   "E": "Antibióticos IV de amplio espectro con drenaje percutáneo y alivio de la obstrucción; nefrectomía solo si fracasa"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Los antibióticos orales son insuficientes en una infección necrosante.",
+   "B": "No tratar activamente tiene alta mortalidad.",
+   "C": "La nefrectomía inmediata en todos los casos es innecesaria cuando no hay factores de riesgo.",
+   "D": "La litotricia extracorpórea con infección no drenada está contraindicada.",
+   "E": "En pacientes con clase 1 o 2 y sin factores de mal pronóstico, el tratamiento conservador con antibióticos intravenosos (cefalosporina de amplio espectro, piperacilina-tazobactam o carbapenémico), drenaje percutáneo del gas o de las colecciones, alivio de la obstrucción (catéter ureteral o nefrostomía) y control de la glucemia preserva el riñón en la mayoría. La nefrectomía se reserva para quienes fracasan o se deterioran. El riesgo se concentra en la trombocitopenia, la lesión renal aguda, la alteración de la conciencia y el choque, que aquí están ausentes."
+  },
+  "perla": "EPN sin factores de riesgo: antibiótico IV + drenaje percutáneo + descompresión de la obstrucción; nefrectomía solo si fracasa.",
+  "referencias": [
+   "Huang JJ, Tseng CC. Arch Intern Med 2000;160:797"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "EMF-4",
+  "serie_id": "EMF",
+  "orden": 4,
+  "sub": "13.1",
+  "subtema": "Cistitis enfisematosa",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Un tercer paciente, varón diabético de 70 años con vejiga neurogénica, presenta dolor suprapúbico, hematuria y neumaturia, con gas en la pared vesical en la TC y vías urinarias altas normales.",
+  "enunciado": "¿Cuál es el manejo?",
+  "opciones": {
+   "A": "Solo observación, porque el gas en la pared vesical es un hallazgo incidental de la tomografía en la diabetes",
+   "B": "Quimioterapia intravesical, porque el gas en la pared vesical sugiere un carcinoma urotelial vegetante y ulcerado",
+   "C": "Litotricia vesical, porque la neumaturia y la hematuria se deben a un cálculo con gas en la pared vesical",
+   "D": "Cistectomía inmediata, porque la cistitis enfisematosa requiere resección vesical total en el paciente diabético y con vejiga neurógena crónica",
+   "E": "Antibióticos parenterales, control glucémico y drenaje vesical con sonda (irrigación si hay coágulos); ≈10% requiere cirugía"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "Sin tratamiento puede evolucionar a sepsis o necrosis vesical.",
+   "B": "No es una neoplasia, y la quimioterapia no tiene lugar.",
+   "C": "La litotricia no se aplica a esta entidad.",
+   "D": "La cistectomía se reserva para casos extremos con necrosis.",
+   "E": "La cistitis enfisematosa es una infección de la vejiga con gas en su pared o luz, que ocurre sobre todo en diabéticos y en pacientes con vaciamiento vesical deficiente (vejiga neurogénica, sonda). Los gérmenes más frecuentes son E. coli y Klebsiella. El pronóstico es bueno con antibióticos parenterales, control de la glucemia y drenaje vesical con sonda (con irrigación si hay coágulos); alrededor de 10% requiere desbridamiento o, rara vez, cistectomía parcial o total. Se descartan la fístula entérica y la extensión al riñón con TC."
+  },
+  "perla": "Cistitis enfisematosa: DM + vejiga neurogénica. Antibiótico IV + sonda ± irrigación; cirugía en ~10%. Descartar fístula entérica.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (infecciones urinarias)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "NPP-1",
+  "serie_id": "NPP",
+  "orden": 1,
+  "sub": "13.1",
+  "subtema": "Necrosis papilar en la IVU del diabético",
+  "dificultad": "moderada",
+  "caso": "Mujer de 60 años con diabetes y uso crónico de ibuprofeno, con fiebre, dolor lumbar y disuria. Durante el episodio, orina un fragmento de tejido de aspecto friable y presenta hematuria macroscópica y deterioro de la función renal.",
+  "enunciado": "¿Cuál es el diagnóstico más probable?",
+  "opciones": {
+   "A": "Necrosis papilar (papilitis necrotizante), favorecida por la pielonefritis, la diabetes y el uso de AINE",
+   "B": "Litiasis de ácido úrico con eliminación de un cálculo friable y hematuria macroscópica por obstrucción ureteral",
+   "C": "Síndrome hemolítico urémico con microangiopatía trombótica, hematuria macroscópica y fiebre de origen infeccioso",
+   "D": "Glomerulonefritis rápidamente progresiva con hematuria macroscópica, dolor lumbar y fiebre por infección urinaria",
+   "E": "Carcinoma urotelial con eliminación de tejido friable, hematuria macroscópica y dolor lumbar con fiebre asociada"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La necrosis papilar resulta de isquemia de la papila renal, cuyo flujo sanguíneo es escaso y vulnerable. Los factores asociados se resumen en la regla nemotécnica: pielonefritis, obstrucción, drepanocitosis, tuberculosis, cirrosis, analgésicos (AINE) o nefropatía por analgésicos, rechazo del trasplante renal y diabetes. La expulsión de tejido papilar por la orina con fiebre, hematuria y lesión renal es característica. El diagnóstico se apoya en la urografía por TC con defectos papilares, y en la histología del tejido expulsado.",
+   "B": "Los cálculos de ácido úrico no producen expulsión de tejido.",
+   "C": "El SHU cursa con anemia hemolítica microangiopática y trombocitopenia.",
+   "D": "No hay síndrome nefrítico con sedimento activo ni proteinuria prominente.",
+   "E": "La expulsión de tejido por la orina con fiebre y disuria sugiere necrosis papilar, aunque un tumor urotelial puede sangrar."
+  },
+  "perla": "Necrosis papilar: POSTCARD (Pielonefritis, Obstrucción, Sickle, TB, Cirrosis, Analgésicos, Rechazo, Diabetes). Expulsión de papilas + fiebre + hematuria.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefropatías tubulointersticiales)"
+  ],
+  "origen": [
+   "Modulos",
+   "David26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "continuacion": "",
+  "obj": "13.o1",
+  "peso": 45.3
+ },
+ {
+  "id": "NPP-2",
+  "serie_id": "NPP",
+  "orden": 2,
+  "sub": "13.1",
+  "subtema": "Imagen en la necrosis papilar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "Se realiza una urografía por TC.",
+  "enunciado": "¿Qué hallazgos son característicos?",
+  "opciones": {
+   "A": "Cavidades en las papilas (anillo o pinza de langosta), cálices irregulares o en maza y defectos de llenado por papilas",
+   "B": "Quistes múltiples en la corteza renal, con riñones aumentados de tamaño y conservación de todas las papilas",
+   "C": "Cálculo coraliforme con riñón sin función, con hidronefrosis grave y adelgazamiento extremo del parénquima renal",
+   "D": "Pincelada papilar simétrica con riñones de tamaño normal, nefrocalcinosis y cálculos pequeños, propia de la esponja medular",
+   "E": "Estenosis de la arteria renal con asimetría de tamaño y adelgazamiento cortical focal en el riñón afectado por isquemia"
+  },
+  "clave": "A",
+  "explicaciones": {
+   "A": "La urografía por TC o excretora muestra signos específicos de necrosis papilar: cavitación de la papila con forma de 'anillo' (ring sign), 'pinza de langosta' (lobster claw) o 'copa', cálices irregulares o dilatados (aspecto en 'maza'), y defectos de llenado en la pelvis o los uréteres por papilas desprendidas que pueden obstruir. Las papilas necróticas pueden calcificarse. Estos hallazgos se acompañan de cicatrices corticales en los casos crónicos.",
+   "B": "Los quistes corticales múltiples corresponden a poliquistosis.",
+   "C": "El cálculo coraliforme sobre riñón destruido corresponde a pielonefritis xantogranulomatosa.",
+   "D": "La pincelada papilar con tamaño normal corresponde a riñón en esponja medular.",
+   "E": "La estenosis de la arteria renal es un hallazgo vascular, no papilar."
+  },
+  "perla": "Necrosis papilar: signo del anillo, 'pinza de langosta', cálices en maza, defectos de llenado por papilas desprendidas.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefropatías tubulointersticiales)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "NPP-3",
+  "serie_id": "NPP",
+  "orden": 3,
+  "sub": "13.1",
+  "subtema": "Manejo de la necrosis papilar",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente presenta ahora dolor cólico y obstrucción ureteral derecha por una papila desprendida, con fiebre de 38.9 °C y creatinina de 2.6 mg/dL.",
+  "enunciado": "¿Cuál es el manejo?",
+  "opciones": {
+   "A": "Esteroides en dosis altas, porque la necrosis papilar se debe a una reacción inmunomediada de la medular renal aguda",
+   "B": "Suspender AINE; antibióticos de amplio espectro, control glucémico y descompresión urgente (doble J o nefrostomía)",
+   "C": "Nefrectomía inmediata, porque la papila desprendida con fiebre indica pérdida funcional irreversible del riñón afectado",
+   "D": "Continuar los AINE para el dolor, junto con antibióticos, porque controlan mejor el cólico y la fiebre",
+   "E": "Solo analgésicos y observación, porque la papila desprendida se elimina sola y la fiebre cede con hidratación oral abundante"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "Los esteroides no tratan la necrosis isquémica.",
+   "B": "La necrosis papilar con obstrucción e infección es una urgencia: se suspenden los AINE, se administran antibióticos de amplio espectro, líquidos y control de la glucemia, y se descomprime la vía urinaria (catéter ureteral o nefrostomía), con retiro de la papila por ureteroscopia. Las papilas desprendidas pueden obstruir uno o ambos uréteres y causar lesión renal aguda. A largo plazo se evita el uso de AINE y se controlan la diabetes y las infecciones, porque la necrosis recurrente puede evolucionar a ERC.",
+   "C": "La nefrectomía no es necesaria cuando la descompresión es posible.",
+   "D": "Los AINE son un factor causal y están contraindicados.",
+   "E": "Con obstrucción infectada el tratamiento conservador es peligroso."
+  },
+  "perla": "Necrosis papilar obstructiva e infectada: suspender AINE, antibiótico, descomprimir y retirar la papila; controlar DM.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (nefropatías tubulointersticiales)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o1",
+  "peso": 29.2
+ },
+ {
+  "id": "TBR-1",
+  "serie_id": "TBR",
+  "orden": 1,
+  "sub": "13.4",
+  "subtema": "Tuberculosis renal: presentación y diagnóstico",
+  "dificultad": "moderada",
+  "caso": "Hombre de 75 años, agricultor, con pérdida de peso de 8 kg, febrícula vespertina, urgencia miccional y hematuria microscópica desde hace 6 meses. Tiene piuria con urocultivos convencionales repetidamente negativos y pH urinario ácido. Creatinina de 1.4 mg/dL.",
+  "enunciado": "¿Cuál es el diagnóstico más probable y la prueba confirmatoria?",
+  "opciones": {
+   "A": "Nefrolitiasis; análisis del cálculo, porque la hematuria microscópica con piuria indica una litiasis crónica",
+   "B": "Tuberculosis genitourinaria; baciloscopia, cultivo o prueba molecular en tres muestras de primera orina de la mañana",
+   "C": "Pielonefritis bacteriana crónica; cultivo convencional repetido, porque la piuria persistente indica infección bacteriana común y corriente",
+   "D": "Hiperplasia prostática; ecografía, porque la urgencia miccional con hematuria microscópica indica obstrucción prostática",
+   "E": "Cistitis intersticial; cistoscopia, porque la urgencia miccional con urocultivos negativos indica síndrome de vejiga dolorosa"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay datos de litiasis.",
+   "B": "La piuria estéril (leucocituria con urocultivos negativos y pH ácido), con síntomas vesicales y datos constitucionales en un paciente de zona endémica, sugiere tuberculosis genitourinaria, que resulta de la diseminación hematógena desde un foco pulmonar, con latencia de años. Se confirma con baciloscopia y cultivo en medio de Löwenstein-Jensen o Middlebrook de tres a seis muestras de orina de la primera micción de la mañana, con prueba molecular (Xpert MTB/RIF) que acelera el diagnóstico. La biopsia muestra granulomas caseificantes con necrosis.",
+   "C": "Los cultivos convencionales son negativos porque el bacilo requiere medios específicos.",
+   "D": "La hiperplasia prostática no explica la pérdida de peso ni la piuria estéril.",
+   "E": "La cistitis intersticial no cursa con piuria ni datos constitucionales."
+  },
+  "perla": "Piuria estéril + pH ácido + síntomas constitucionales = TB genitourinaria. Cultivo de 3 orinas matutinas (L-J) + PCR/Xpert. Necrosis caseosa.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (infecciones renales)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "continuacion": "",
+  "obj": "13.o3",
+  "peso": 15.9
+ },
+ {
+  "id": "TBR-2",
+  "serie_id": "TBR",
+  "orden": 2,
+  "sub": "13.4",
+  "subtema": "Hallazgos de imagen y complicaciones",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La urografía por TC muestra erosión de las papilas ('aspecto apolillado'), calcificaciones parenquimatosas, estenosis de infundíbulos calicilares y dilatación proximal del uréter distal estenosado.",
+  "enunciado": "¿Cuál es la complicación más frecuente y su manejo?",
+  "opciones": {
+   "A": "Fístula arteriovenosa, que se maneja con embolización superselectiva y tratamiento antituberculoso concomitante",
+   "B": "Estenosis ureteral con uropatía obstructiva; antituberculosos, derivación (catéter o nefrostomía) y reparación si persiste",
+   "C": "Carcinoma de células renales, que se maneja con nefrectomía radical y vigilancia de la recurrencia local",
+   "D": "Rechazo del injerto, que se maneja con pulsos de esteroides y aumento de la inmunosupresión de mantenimiento por el cuadro clínico",
+   "E": "Síndrome nefrótico, que se maneja con esteroides, antiproteinúricos y control estricto de la presión"
+  },
+  "clave": "B",
+  "explicaciones": {
+   "A": "No hay fístula arteriovenosa en la tuberculosis renal.",
+   "B": "La complicación más frecuente de la tuberculosis renal es la uropatía obstructiva, por estenosis en la unión ureterovesical, la pieloureteral o los infundíbulos, con hidronefrosis y pérdida de función. Se maneja con tratamiento antituberculoso asociado a derivación urinaria (catéter ureteral o nefrostomía) y reparación quirúrgica de la estenosis si persiste. La enfermedad avanzada puede producir un riñón destruido con calcificaciones ('riñón en masilla' o autonefrectomía), vejiga contraída por fibrosis, hipertensión y ERC.",
+   "C": "No es una neoplasia.",
+   "D": "No hay trasplante en el caso.",
+   "E": "El síndrome nefrótico no es una complicación habitual."
+  },
+  "perla": "TB renal: erosión papilar, calcificaciones, estenosis infundibular/ureteral. Complicación más frecuente: uropatía obstructiva. Evolución a riñón en masilla.",
+  "referencias": [
+   "Comprehensive Clinical Nephrology (infecciones renales)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o3",
+  "peso": 17.9
+ },
+ {
+  "id": "TBR-3",
+  "serie_id": "TBR",
+  "orden": 3,
+  "sub": "13.4",
+  "subtema": "Tratamiento antituberculoso en ERC",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "El paciente tiene TFGe de 24 mL/min/1.73 m². Se confirma Mycobacterium tuberculosis sensible.",
+  "enunciado": "¿Cuál es el esquema y qué ajuste requiere?",
+  "opciones": {
+   "A": "Monoterapia con rifampicina por 12 meses, porque es el fármaco más eficaz y evita el desarrollo de resistencia a los demás",
+   "B": "Solo isoniazida por 9 meses sin ajuste, porque la TFGe baja no modifica la eliminación renal del fármaco",
+   "C": "Aminoglucósidos a dosis plenas, porque son los más eficaces y no se acumulan en la ERC avanzada",
+   "D": "Fluoroquinolona en monoterapia, porque es bactericida y tiene buena penetración en el tejido renal",
+   "E": "HRZE por 2 meses y luego HR por 4 meses; con TFGe baja, pirazinamida y etambutol tres veces por semana, más piridoxina"
+  },
+  "clave": "E",
+  "explicaciones": {
+   "A": "La monoterapia con rifampicina genera resistencia.",
+   "B": "La monoterapia se asocia a resistencia, y no es el esquema estándar.",
+   "C": "Los aminoglucósidos son nefrotóxicos y no se emplean a dosis plenas en ERC.",
+   "D": "Las fluoroquinolonas se reservan para tuberculosis resistente.",
+   "E": "La tuberculosis genitourinaria sensible se trata como la pulmonar: 2 meses de isoniazida, rifampicina, pirazinamida y etambutol seguidos de 4 meses de isoniazida y rifampicina, con control microbiológico de la orina. En la ERC avanzada (depuración menor de 30 mL/min), la isoniazida y la rifampicina se eliminan principalmente por vía hepática y no requieren ajuste, mientras que la pirazinamida y el etambutol, de eliminación renal, se administran tres veces por semana o a dosis ajustadas (el etambutol exige vigilancia de la agudeza visual). La piridoxina previene la neuropatía por isoniazida. Los metabolitos de pirazinamida se acumulan, por lo que se vigila la uricemia."
+  },
+  "perla": "TB renal sensible: 2 HRZE → 4 HR. Con TFGe <30: pirazinamida y etambutol 3 veces/semana. Piridoxina con isoniazida.",
+  "referencias": [
+   "Nahid P et al. Am J Respir Crit Care Med 2016;194:e1 (ATS/CDC/IDSA)",
+   "Comprehensive Clinical Nephrology (infecciones renales)"
+  ],
+  "origen": [
+   "Modulos"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 13,
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "obj": "13.o3",
+  "peso": 17.9
+ },
+ {
+  "id": "IVJ-1",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Contaminantes frente a uropatógenos",
+  "caso": "Mujer sana de 26 años con disuria; urocultivo con 10⁴ UFC/mL de lactobacilos y estreptococo del grupo B mixtos.",
+  "enunciado": "¿Cómo se interpreta?",
+  "perla": "E. coli causa 70–95% y S. saprophyticus 5–20% de las IVU no complicadas; S. saprophyticus casi nunca causa pielonefritis. En cistitis no complicada típica no se requiere urocultivo.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-1",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "IVU por lactobacilos que requiere tratamiento",
+   "B": "Bacteriuria asintomática que debe tratarse",
+   "C": "Probable contaminación de la muestra",
+   "D": "Pielonefritis por estreptococo del grupo B",
+   "E": "Necesita urocultivo por punción suprapúbica obligada"
+  },
+  "explicaciones": {
+   "A": "No es un uropatógeno habitual.",
+   "B": "No corresponde.",
+   "C": "Correcto. En mujeres sanas no embarazadas, lactobacilos, enterococos, estreptococo del grupo B y estafilococos coagulasa negativos distintos de S. saprophyticus suelen ser contaminantes, salvo en cuenta alta y cultivo puro con síntomas.",
+   "D": "No es lo descrito.",
+   "E": "No es necesario."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-2",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Tratamiento de primera línea en cistitis no complicada",
+  "caso": "Mujer de 30 años con cistitis no complicada; en su región la resistencia de E. coli a TMP-SMX es 30%.",
+  "enunciado": "¿Cuál es la mejor opción según IDSA y Johnson?",
+  "perla": "Resistencia de E. coli a fluoroquinolonas en EUA: de 3% a 17% en 10 años. Recurrencia en 1–2 semanas: sospechar resistencia y cultivar.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-2",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ciprofloxacino por 3 días como primera línea",
+   "B": "TMP-SMX por 3 días",
+   "C": "Amoxicilina-clavulanato por 3 días",
+   "D": "Cefpodoxima por 7 días",
+   "E": "Nitrofurantoína por 5 días"
+  },
+  "explicaciones": {
+   "A": "Muy eficaz pero de segunda línea; la FDA considera que en cistitis no complicada sus riesgos superan los beneficios.",
+   "B": "Evitar empíricamente si la resistencia es alta.",
+   "C": "Menor curación que ciprofloxacino a 3 días.",
+   "D": "Datos escasos y daño ecológico.",
+   "E": "Correcto. Resistencia <5% y poco daño ecológico. Fosfomicina dosis única y pivmecilinam también son de primera línea."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-3",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Profilaxis de cistitis recurrente",
+  "caso": "Mujer de 34 años con 4 cistitis en un año, todas tras el coito.",
+  "enunciado": "¿Qué estrategia es la más adecuada?",
+  "perla": "Medidas conductuales sin evidencia sólida: evitar espermicidas, más líquidos, micción poscoital. D-manosa: datos escasos. Autotratamiento intermitente es otra opción.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-3",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Profilaxis poscoital",
+   "B": "Profilaxis continua por 5 años",
+   "C": "Urocultivos de control mensuales",
+   "D": "Tratar cada bacteriuria asintomática",
+   "E": "Cistoscopia y uro-TC en todas"
+  },
+  "explicaciones": {
+   "A": "Correcto. La profilaxis reduce ~95% las recurrencias; considerarla con ≥3 episodios en 12 meses. La poscoital es la mejor si los episodios se relacionan con el coito.",
+   "B": "Es una opción, pero menos dirigida.",
+   "C": "No son útiles en asintomáticas.",
+   "D": "No está indicado.",
+   "E": "No es lo indicado en mujeres sanas."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-4",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Pielonefritis no complicada: duración y fármaco",
+  "caso": "Mujer de 28 años con pielonefritis no complicada, buena tolerancia oral, sin resistencia local alta a quinolonas.",
+  "enunciado": "¿Qué esquema es adecuado?",
+  "perla": "Si la tinción de Gram sugiere enterococo, agregar amoxicilina. Hospitalizada: ceftriaxona; con resistencia o BLEE, carbapenémico. Pasar a vía oral a las 24–48 h.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-4",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nitrofurantoína por 7 días",
+   "B": "Fosfomicina dosis única",
+   "C": "β-lactámico oral por 5 días",
+   "D": "Fluoroquinolona oral por 5–7 días",
+   "E": "TMP-SMX empírico sin conocer sensibilidad"
+  },
+  "explicaciones": {
+   "A": "Solo alcanza niveles en vejiga.",
+   "B": "Igual.",
+   "C": "Los β-lactámicos de menos de 14 días tienen fallas inaceptables.",
+   "D": "Correcto. Con respuesta rápida bastan 5–7 días. Ciprofloxacino a 7 días superó a TMP-SMX a 14, por resistencia.",
+   "E": "No si la resistencia local es alta."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-5",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "IVU en el hombre",
+  "caso": "Hombre de 62 años con segunda IVU por E. coli 3 semanas después de tratar la primera, con próstata dolorosa.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "IVU complicada: 5–10 días según gravedad. En veteranos, 7 días no tuvo más recurrencia que 14. Moxifloxacino no alcanza concentraciones urinarias suficientes.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-5",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nitrofurantoína por 5 días",
+   "B": "Fluoroquinolona por 4–6 semanas",
+   "C": "Fosfomicina dosis única",
+   "D": "No tratar: es bacteriuria asintomática",
+   "E": "Amoxicilina por 3 días"
+  },
+  "explicaciones": {
+   "A": "No penetra la próstata.",
+   "B": "Correcto. La recurrencia temprana con la misma especie en hombres sugiere origen prostático: 4–6 semanas de fluoroquinolona, preferida, o TMP-SMX.",
+   "C": "No es lo indicado.",
+   "D": "Es sintomática.",
+   "E": "Insuficiente."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-6",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "IVU en ERC avanzada",
+  "caso": "Mujer de 70 años con TFGe 22 mL/min/1.73 m² y cistitis complicada por E. coli sensible.",
+  "enunciado": "¿Qué opción es inadecuada?",
+  "perla": "Para curar se necesita concentración urinaria para la cistitis y tisular para la pielonefritis; las concentraciones séricas se correlacionan con las renales.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-6",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Ciprofloxacino ajustado a la TFG",
+   "B": "Levofloxacino ajustado a la TFG",
+   "C": "Ceftriaxona parenteral",
+   "D": "Fosfomicina oral",
+   "E": "Trimetoprima sola"
+  },
+  "explicaciones": {
+   "A": "Adecuado con ajuste.",
+   "B": "Adecuado con ajuste.",
+   "C": "Adecuada si es grave.",
+   "D": "Correcto. Con ERC G3 o peor disminuye mucho su excreción; no debe usarse.",
+   "E": "Sus concentraciones parecen adecuadas; nitrofurantoína y sulfametoxazol no se recomiendan."
+  },
+  "clave": "D",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-7",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Bacteriuria asociada a sonda",
+  "caso": "Paciente con sonda vesical de 10 días, febril, sin otro foco.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Bacteriuria 3–10% por día de sonda; principal fuente de bacteriemia por gramnegativos hospitalaria. No tamizar ni tratar la bacteriuria asintomática. Suprapúbica o intermitente tiene menos bacteriuria.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-7",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Cambiar la sonda y cultivar de la nueva",
+   "B": "Cultivar de la bolsa colectora",
+   "C": "Tratar 14 días aunque mejore pronto",
+   "D": "Profilaxis antibiótica sistémica rutinaria",
+   "E": "Mantener la sonda sin cambios"
+  },
+  "explicaciones": {
+   "A": "Correcto. La biopelícula da cultivos espurios; obtener la muestra de una sonda recién colocada mejora los resultados. Tratar 7 días con respuesta rápida, 10–14 si es lenta.",
+   "B": "No es una muestra válida.",
+   "C": "Con respuesta rápida bastan 7 días.",
+   "D": "Selecciona resistencia; no se recomienda.",
+   "E": "Debe retirarse o cambiarse."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-8",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "Bacteriuria asintomática: epidemiología",
+  "caso": "Se revisan las prevalencias de bacteriuria asintomática.",
+  "enunciado": "¿Qué dato es correcto?",
+  "perla": "En lesión medular tratar la bacteriuria asintomática no tiene beneficio y aumenta la resistencia. IVU complicada: aceptar >10³ UFC/mL con síntomas.",
+  "referencias": [
+   "Drekonja D, Hooton T. Urinary Tract Infections in Adults. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 53, pp. 640-652"
+  ],
+  "serie_id": "IVJ-8",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Frecuente en hombres menores de 50 años",
+   "B": "Se define con un solo cultivo de 10³ UFC/mL",
+   "C": "Es más frecuente en mujeres jóvenes que en ancianas",
+   "D": "Siempre precede a urosepsis",
+   "E": "Hasta 50% de las ancianas institucionalizadas"
+  },
+  "explicaciones": {
+   "A": "Rara antes de los 50.",
+   "B": "Dos muestras consecutivas con ≥10⁵ UFC/mL del mismo uropatógeno.",
+   "C": "Aumenta con la edad.",
+   "D": "Suele ser benigna.",
+   "E": "Correcto. 5% de mujeres jóvenes, 16–19% de mayores de 70 ambulatorios y hasta 50% de ancianas y 40% de ancianos institucionalizados."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-9",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Candiduria: colonización o infección",
+  "caso": "Hombre de 74 años en UCI con sonda vesical, asintomático, con 10⁵ UFC/mL de Candida albicans.",
+  "enunciado": "¿Cuál es la conducta más adecuada?",
+  "perla": "Tratar candiduria asintomática solo en neutropénicos, recién nacidos de muy bajo peso y antes de procedimientos urológicos. En trasplantados, solo con obstrucción, procedimiento planeado o síntomas.",
+  "referencias": [
+   "Kauffman CA, Miceli MH. Fungal Infections of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 55, pp. 665-669"
+  ],
+  "serie_id": "IVJ-9",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Fluconazol 14 días",
+   "B": "Anfotericina B liposomal intravenosa",
+   "C": "Retirar la sonda y repetir el cultivo",
+   "D": "Equinocandina intravenosa por 14 días",
+   "E": "Irrigación vesical con anfotericina"
+  },
+  "explicaciones": {
+   "A": "No requiere tratamiento si es asintomático y de bajo riesgo.",
+   "B": "Las formulaciones lipídicas no alcanzan niveles urinarios.",
+   "C": "Correcto. La mayoría es colonización; menos de 5% tiene síntomas. Retirar la sonda erradica muchas candidurias.",
+   "D": "La candiduria rara vez lleva a candidemia.",
+   "E": "No está indicada aquí."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-10",
+  "tema_id": 13,
+  "sub": "13.1",
+  "obj": "13.o1",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Tratamiento de la IVU por Candida",
+  "caso": "Mujer diabética con pielonefritis por Candida glabrata resistente a fluconazol, TFG normal.",
+  "enunciado": "¿Qué opción es la más adecuada?",
+  "perla": "Fluconazol de elección para C. albicans: carga 400 mg y 200 mg/día por 14 días. Bolas fúngicas: retiro quirúrgico más fluconazol e irrigación por nefrostomía. C. glabrata tarda 48 h en crecer.",
+  "referencias": [
+   "Kauffman CA, Miceli MH. Fungal Infections of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 55, pp. 665-669"
+  ],
+  "serie_id": "IVJ-10",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Voriconazol oral por 14 días",
+   "B": "Anfotericina desoxicolato",
+   "C": "Anfotericina B liposomal",
+   "D": "Fluconazol a dosis alta",
+   "E": "Posaconazol oral prolongado"
+  },
+  "explicaciones": {
+   "A": "No se excreta activo en orina.",
+   "B": "Correcto. Reservada para vías altas o falla de fluconazol: 0.3–0.6 mg/kg/día por 1–7 días; la flucitosina alcanza concentraciones urinarias altas.",
+   "C": "No alcanza niveles urinarios.",
+   "D": "C. glabrata y C. krusei suelen ser resistentes.",
+   "E": "No se excreta activo en orina."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-11",
+  "tema_id": 13,
+  "sub": "13.4",
+  "obj": "13.o3",
+  "dificultad": "moderada",
+  "peso": 45,
+  "subtema": "TB urogenital: sospecha clínica",
+  "caso": "Hombre de 34 años con frecuencia urinaria, piuria estéril persistente y hematuria indolora recurrente; radiografía de tórax con lesiones apicales antiguas.",
+  "enunciado": "¿Qué dato apoya la tuberculosis urogenital?",
+  "perla": "25% sin anomalías y 25% solo con alteraciones urinarias. Hasta 50% con TB previa en radiografía de tórax. En HD hasta 8.7% y en trasplante 12.3% en áreas endémicas.",
+  "referencias": [
+   "Visweswaran RK, Sreelatha M. Tuberculosis of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 54, pp. 653-664"
+  ],
+  "serie_id": "IVJ-11",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La fiebre y la pérdida de peso son la regla",
+   "B": "Suele afectar a niños",
+   "C": "Predomina en mujeres",
+   "D": "Los urocultivos convencionales suelen ser positivos",
+   "E": "La frecuencia urinaria es el síntoma más temprano"
+  },
+  "explicaciones": {
+   "A": "Los síntomas constitucionales se ven en <20%.",
+   "B": "Es rara en niños por la latencia larga; 20–40 años.",
+   "C": "Relación hombre:mujer 2:1.",
+   "D": "Son repetidamente negativos: piuria estéril.",
+   "E": "Correcto. Más de 75% de los sintomáticos tiene síntomas urinarios bajos; la frecuencia es el más temprano y común."
+  },
+  "clave": "E",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-12",
+  "tema_id": 13,
+  "sub": "13.4",
+  "obj": "13.o3",
+  "dificultad": "dificil",
+  "peso": 50,
+  "subtema": "Diagnóstico de TB urinaria",
+  "caso": "Paciente con sospecha de TB renal.",
+  "enunciado": "¿Qué afirmación sobre las pruebas es correcta?",
+  "perla": "Imagen: uréter en sacacorchos o en tallo de pipa, vejiga en dedal y uréter en hoyo de golf. LAM urinario para TB asociada a VIH con CD4 <200.",
+  "referencias": [
+   "Visweswaran RK, Sreelatha M. Tuberculosis of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 54, pp. 653-664"
+  ],
+  "serie_id": "IVJ-12",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "La baciloscopia urinaria es positiva en más de 80%",
+   "B": "El cultivo convencional tarda 48 h",
+   "C": "GeneXpert detecta MTB y resistencia a rifampicina en orina",
+   "D": "La PET-FDG distingue TB de cáncer",
+   "E": "La RM es la técnica más sensible para lesiones tempranas"
+  },
+  "explicaciones": {
+   "A": "Rendimiento <40%; requiere 5000 bacilos/mL y tres muestras matutinas.",
+   "B": "Tarda 6–12 semanas; MGIT en ~2 semanas. Sensibilidad 65%.",
+   "C": "Correcto. PCR urinaria: sensibilidad ~95% y especificidad ~90%; puede dar falsos positivos en tratados porque el ADN persiste.",
+   "D": "No los distingue.",
+   "E": "Sensibilidad baja; la TC detecta calcificación en >50%."
+  },
+  "clave": "C",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-13",
+  "tema_id": 13,
+  "sub": "13.4",
+  "obj": "13.o3",
+  "dificultad": "moderada",
+  "peso": 50,
+  "subtema": "Antituberculosos en ERC",
+  "caso": "Paciente en hemodiálisis con TB renal sensible.",
+  "enunciado": "¿Qué ajuste es correcto?",
+  "perla": "Esquema: 2 meses de RHZE y 4 meses de RH. Rifampicina reduce los anticonceptivos orales e interactúa con inmunosupresores. Estreptomicina contraindicada en el embarazo; pirazinamida en hepatopatía crónica.",
+  "referencias": [
+   "Visweswaran RK, Sreelatha M. Tuberculosis of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 54, pp. 653-664"
+  ],
+  "serie_id": "IVJ-13",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Etambutol c/48 h tras la HD",
+   "B": "Etambutol diario sin ajuste",
+   "C": "Rifampicina a días alternos",
+   "D": "Isoniazida contraindicada en HD",
+   "E": "Estreptomicina sin ajuste"
+  },
+  "explicaciones": {
+   "A": "Correcto. Etambutol: dosis completa c/24–36 h con TFG 10–50 y c/48 h con <10; vigilar la visión cada mes. Dar después de la HD.",
+   "B": "Se acumula y causa neuritis óptica.",
+   "C": "La rifampicina no requiere ajuste.",
+   "D": "Puede usarse.",
+   "E": "Se excreta por riñón y es ototóxica."
+  },
+  "clave": "A",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "IVJ-14",
+  "tema_id": 13,
+  "sub": "13.4",
+  "obj": "13.o3",
+  "dificultad": "dificil",
+  "peso": 40,
+  "subtema": "Manifestaciones renales de TB",
+  "caso": "Paciente con TB renal de larga evolución y síndrome nefrótico.",
+  "enunciado": "¿Qué causas glomerulares son las más plausibles?",
+  "perla": "Más típico: proteinuria tubular subnefrótica, nefritis intersticial granulomatosa, DI nefrogénica, ATR, hipoaldosteronismo hiporreninémico. La inflamación crónica de la pelvis puede dar metaplasia escamosa o carcinoma.",
+  "referencias": [
+   "Visweswaran RK, Sreelatha M. Tuberculosis of the Urinary Tract. En: Comprehensive Clinical Nephrology, 7.ª ed., 2023, cap. 54, pp. 653-664"
+  ],
+  "serie_id": "IVJ-14",
+  "orden": 1,
+  "continuacion": "",
+  "opciones": {
+   "A": "Nefropatía membranosa por PLA2R",
+   "B": "Amiloidosis AA o GN mesangioproliferativa",
+   "C": "Enfermedad por cambios mínimos idiopática",
+   "D": "Glomerulopatía colapsante por APOL1",
+   "E": "Nefropatía por IgA primaria"
+  },
+  "explicaciones": {
+   "A": "No es lo descrito.",
+   "B": "Correcto. La proteinuria nefrótica es rara y se debe a GN mesangioproliferativa o amiloidosis secundaria por proteína amiloide A sérica.",
+   "C": "No es lo descrito.",
+   "D": "No es lo descrito.",
+   "E": "La IgA se confunde clínicamente con TB por la hematuria indolora, pero no es la causa."
+  },
+  "clave": "B",
+  "origen": [
+   "Claude-2026-11 Johnson 7.ª ed. (leído en Drive)"
+  ],
+  "tema": "Infección de vías urinarias y pielonefritis",
+  "tipo_item": "nueva"
+ },
+ {
+  "id": "LST-1",
+  "serie_id": "LST",
+  "orden": 1,
+  "sub": "12",
+  "subtema": "Litiasis coraliforme por estruvita",
+  "dificultad": "moderada",
+  "caso": "Mujer de 52 años con infecciones urinarias de repetición, paraplejia por mielomeningocele y sondeo intermitente. Presenta dolor lumbar crónico y fiebre intermitente. La radiografía muestra una litiasis radiopaca en forma de asta de ciervo en el riñón derecho. pH urinario de 8.0 y urocultivo con Proteus mirabilis.",
+  "enunciado": "¿Cuál es el tipo de cálculo y el mecanismo de formación?",
+  "opciones": {
+   "A": "Oxalato de calcio por hiperoxaluria entérica, con cristales en sobre de carta en el sedimento y orina ácida persistente",
+   "B": "Xantina por déficit hereditario de xantina oxidasa, una causa rara de litiasis con cálculos radiolúcidos en la radiografía",
+   "C": "Estruvita (fosfato amónico magnésico), por ureasa de Proteus mirabilis que hidroliza la urea y alcaliniza la orina",
+   "D": "Cistina por defecto hereditario del transportador de aminoácidos dibásicos en el túbulo proximal, con cristales hexagonales en la orina",
+   "E": "Ácido úrico por orina persistentemente ácida e hiperuricosuria en paciente con vejiga neurógena"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "El oxalato de calcio no explica la ureasa ni el pH alcalino.",
+   "B": "La xantina es una causa rara.",
+   "C": "Los cálculos de estruvita (fosfato amónico magnésico hexahidratado, con carbonato apatita) se forman únicamente en presencia de bacterias que producen ureasa (Proteus mirabilis, la más frecuente; también Klebsiella, Providencia, Pseudomonas, Ureaplasma urealyticum, Corynebacterium urealyticum). La ureasa hidroliza la urea en amoníaco y CO₂, lo que alcaliniza la orina (pH mayor de 7.2) y provoca precipitación de estruvita. Son frecuentes en mujeres con infecciones recurrentes, vejiga neurogénica y sondajes, y crecen rápido hasta formar cálculos coraliformes. Son radiopacos.",
+   "D": "La cistina no se forma por infección.",
+   "E": "Los cálculos de ácido úrico se forman con pH ácido y son radiolúcidos."
+  },
+  "perla": "Estruvita: Proteus mirabilis (ureasa), pH >7.2, coraliforme, radiopaco. Vejiga neurogénica e IVU recurrente.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)",
+   "Comprehensive Clinical Nephrology (litiasis renal)"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "reescrita",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "continuacion": "",
+  "obj": "12.o1",
+  "peso": 79.1
+ },
+ {
+  "id": "LST-2",
+  "serie_id": "LST",
+  "orden": 2,
+  "sub": "12",
+  "subtema": "Tratamiento de la litiasis coraliforme",
+  "dificultad": "dificil",
+  "caso": "",
+  "continuacion": "La paciente tiene función renal de 55 mL/min/1.73 m² y la tomografía confirma una litiasis coraliforme completa con hidronefrosis leve.",
+  "enunciado": "¿Cuál es el manejo recomendado?",
+  "opciones": {
+   "A": "Alcalinizar la orina con citrato de potasio para disolver el cálculo y evitar la cirugía",
+   "B": "Litotricia extracorpórea por ondas de choque como monoterapia, repetida hasta fragmentar por completo el cálculo coraliforme",
+   "C": "Remoción quirúrgica completa, con nefrolitotomía percutánea como primera opción, y antibiótico dirigido por cultivo",
+   "D": "Solo antibióticos orales durante 6 semanas, sin retirar el cálculo ni intervenir la vía urinaria",
+   "E": "Acidificar la orina con vitamina C a dosis altas y observar, con imagen cada 6 meses"
+  },
+  "clave": "C",
+  "explicaciones": {
+   "A": "La alcalinización favorece la estruvita.",
+   "B": "La monoterapia con litotricia deja fragmentos y recurrencia.",
+   "C": "La estruvita actúa como reservorio de bacterias, de modo que la erradicación de la infección exige retirar todo el cálculo. La nefrolitotomía percutánea es la primera línea para cálculos coraliformes (guías AUA/EAU), con antibiótico dirigido por cultivo antes y después, y tratamiento de la causa (sondajes, vejiga neurogénica). La litotricia extracorpórea como monoterapia deja fragmentos infectados y no se recomienda. El ácido acetohidroxámico, un inhibidor de ureasa, se reserva para pacientes que no son candidatos a cirugía por sus efectos adversos (anemia hemolítica, trombosis, teratogenicidad, síntomas neurológicos).",
+   "D": "Sin retirar el cálculo la infección persiste y progresa a destrucción renal.",
+   "E": "La acidificación con vitamina C no disuelve la estruvita y aumenta el oxalato."
+  },
+  "perla": "Coraliforme/estruvita: remoción completa (NLP) + antibiótico dirigido; ESWL sola no. Ácido acetohidroxámico si no hay cirugía.",
+  "referencias": [
+   "Pearle MS et al. J Urol 2026;216:613-631 (AUA 2026, manejo médico de litiasis, partes I y II)",
+   "Assimos D et al. J Urol 2016;196:1153"
+  ],
+  "origen": [
+   "Alan26",
+   "Belen26"
+  ],
+  "tipo_item": "nueva",
+  "tema_id": 12,
+  "tema": "Litiasis renal",
+  "obj": "12.o1",
+  "peso": 81.1
+ }
+]
