@@ -184,7 +184,7 @@ def build(S):
                       "phases": [{"name": P[0], "type": types[i % 4], "lines": L([P[1]]), "topics": [P[0]], "questions": per[i]} for i, P in enumerate(B["phases"])]},
              "creatures": [], "typeChart": {}, "shields": [{"trial": s[0], "mnemonic": s[1], "result": s[2]} for s in S.get("shields", [])],
              "nefrodex": ([{"title": n[0], "text": n[1]} for n in S.get("nefrodex", [])] or [{"title": z["name"], "text": z["card"]} for z in zones]) + perlas(bank)}
-    pasto = [{"id": f"P2-{i+1}", "vf": True, "enunciado": p[0], "clave": p[1], "exp": p[2], "tema": S["title"], "nivel": "moderada"} for i, p in enumerate(S["vf"])]
+    pasto = [{"id": f"P2-{i+1}", "vf": True, "enunciado": p[0], "clave": p[1], "exp": p[2], "tema": S["title"], "nivel": "moderada", **({"referencia": p[3]} if len(p) > 3 else {})} for i, p in enumerate(S["vf"])]
     def walk(o, where=""):
         if isinstance(o, list) and len(o) == 2 and all(isinstance(x, str) for x in o) and len(o[1]) > 90: print(f"   LARGO {S['id']} ({len(o[1])}): {o[1]}")
         elif isinstance(o, list): [walk(x) for x in o]
@@ -196,6 +196,7 @@ def build(S):
     dump(story, "story.json"); dump({"pasto": pasto, "puertas": [], "entrenadores": ent, "jefeC": []}, "q_extra.json"); dump(bank + ent, "q_banco.json")
     nv = sum(p["clave"] == "V" for p in pasto)
     print(f"{S['id']:>4} {S['title'][:34]:34} banco {len(bank):3} | jefe {len(boss_ids):2} | entrenadores {sum(len(z['trainers']) for z in zones):2} | a puertas {sum(len(series[s]) for s in rest):3} | V/F {len(pasto)} ({nv} V) | propias {len(ent)}")
+    if any("referencia" not in p for p in pasto): print(f"   AVISO {S['id']}: hay afirmaciones V/F sin referencia")
     if pasto and max(nv, len(pasto) - nv) / len(pasto) > 0.6: print(f"   AVISO {S['id']}: el pasto V/F tiene {100*nv//len(pasto)} % de V (máximo 60 % de una letra)")
     return pasto
 

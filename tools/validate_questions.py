@@ -63,6 +63,7 @@ for s in ('pasto','puertas','entrenadores','jefeC'):
     if sub: print(f"   {s}: {sum(r[3] for r in sub)}/{len(sub)} ({100*sum(r[3] for r in sub)/len(sub):.0f}%)")
 short=sum(r[6] for r in rows)
 print(f"correcta = opción más corta (incluye empates): {short}/{tot} = {100*short/tot:.1f}%")
+if short/tot>0.25: print(f"AVISO: sesgo inverso, la correcta es la más corta en {100*short/tot:.0f} % (máximo 25 %)")
 print(f"correcta más corta con margen >5% de la media: {sum(r[7] for r in rows)}/{tot} = {100*sum(r[7] for r in rows)/tot:.1f}%  (control de sobrecorrección)")
 cvs=[r[4] for r in rows]
 print(f"CV de longitudes por pregunta: media {100*statistics.mean(cvs):.1f}%, máx {100*max(cvs):.1f}%")

@@ -319,6 +319,222 @@
    ],
    "evolvesAt": 10,
    "evoName": "Eculi Escudo"
+  },
+  {
+   "id": "leg_r1",
+   "name": "Klotho Ancestral",
+   "type": "Nefroprotector",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Correceptor de FGF23",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "α-Klotho forma con FGFR1c el receptor de FGF23: fosfaturia y menos calcitriol",
+     "power": 60,
+     "fx": "Nefroprotector"
+    },
+    {
+     "name": "Guardia del fósforo",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "Klotho baja temprano en la ERC; su caída sube el FGF23 antes que el fósforo",
+     "power": 45,
+     "fx": "Eferente"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Klotho Ancestral"
+  },
+  {
+   "id": "leg_r2",
+   "name": "Cistatina Oráculo",
+   "type": "Sonda",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "TFG sin músculo",
+     "type": "Sonda",
+     "drug_or_mechanism": "Cistatina C: estima la TFG sin depender de la masa muscular (CKD-EPI creatinina-cistatina)",
+     "power": 55,
+     "fx": "Sonda"
+    },
+    {
+     "name": "Iohexol verdadero",
+     "type": "Sonda",
+     "drug_or_mechanism": "Depuración plasmática de iohexol: TFG medida, sin secreción tubular",
+     "power": 65,
+     "fx": "Sonda"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Cistatina Oráculo"
+  },
+  {
+   "id": "leg_r3",
+   "name": "Citrato Regional",
+   "type": "Recambio",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Quelación del calcio",
+     "type": "Recambio",
+     "drug_or_mechanism": "Citrato en el circuito de TRRC quela el calcio ionizado y frena la coagulación del filtro",
+     "power": 60,
+     "fx": "Recambio"
+    },
+    {
+     "name": "Filtro que dura",
+     "type": "Recambio",
+     "drug_or_mechanism": "Anticoagulación regional con citrato: filtro más duradero y menos sangrado que la heparina (KDIGO)",
+     "power": 50,
+     "fx": "Recambio"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Citrato Regional"
+  },
+  {
+   "id": "leg_r4",
+   "name": "Patirómero Dorado",
+   "type": "Depurador",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Intercambio en el colon",
+     "type": "Depurador",
+     "drug_or_mechanism": "Patirómero: intercambia calcio por potasio en el colon y baja el potasio en horas a días",
+     "power": 55,
+     "fx": "Endosomal"
+    },
+    {
+     "name": "Trampa de zirconio",
+     "type": "Depurador",
+     "drug_or_mechanism": "Ciclosilicato de sodio y zirconio: atrapa potasio en el intestino; efecto en ~1 hora",
+     "power": 60,
+     "fx": "Endosomal"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Patirómero Dorado"
+  },
+  {
+   "id": "leg_r5",
+   "name": "Obinutuzumab Prime",
+   "type": "Depletor",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Depleción tipo II",
+     "type": "Depletor",
+     "drug_or_mechanism": "Anti-CD20 tipo II glicoingenierizado: más ADCC y muerte directa de linfocitos B (REGENCY)",
+     "power": 70,
+     "fx": "Depletor"
+    },
+    {
+     "name": "Golpe a la plasmática",
+     "type": "Depletor",
+     "drug_or_mechanism": "Daratumumab, anti-CD38: depleta células plasmáticas de larga vida que no expresan CD20",
+     "power": 60,
+     "fx": "Depletor"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Obinutuzumab Prime"
+  },
+  {
+   "id": "leg_r6",
+   "name": "Tolvaptán Antiguo",
+   "type": "Nefroprotector",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Bloqueo V2",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "Antagonista del receptor V2: baja el AMPc del colector y frena el crecimiento quístico (TEMPO 3:4, REPRISE)",
+     "power": 65,
+     "fx": "Nefroprotector"
+    },
+    {
+     "name": "Citrato alcalino",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "Citrato de potasio: alcaliniza la orina, inhibe litos de calcio y disuelve los de ácido úrico",
+     "power": 45,
+     "fx": "NCC"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Tolvaptán Antiguo"
+  },
+  {
+   "id": "leg_r7",
+   "name": "Ravulizumab Eterno",
+   "type": "Anti-complemento",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Bloqueo de C5 largo",
+     "type": "Anti-complemento",
+     "drug_or_mechanism": "Anti-C5 reciclado por FcRn: bloqueo terminal cada 8 semanas en el SHU atípico",
+     "power": 70,
+     "fx": "Anti-complemento"
+    },
+    {
+     "name": "Cuarto fármaco",
+     "type": "Diurético",
+     "drug_or_mechanism": "Espironolactona: cuarto fármaco de elección en la HTA resistente (PATHWAY-2)",
+     "power": 50,
+     "fx": "Diurético"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Ravulizumab Eterno"
+  },
+  {
+   "id": "leg_r8",
+   "name": "Finerenona Mítica",
+   "type": "Nefroprotector",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "ARM no esteroideo",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "Finerenona: bloquea el receptor mineralocorticoide; menos inflamación y fibrosis (FIDELIO-DKD, FIGARO-DKD)",
+     "power": 65,
+     "fx": "Nefroprotector"
+    },
+    {
+     "name": "Eferente abierta",
+     "type": "Nefroprotector",
+     "drug_or_mechanism": "IECA o ARA dilatan la eferente y bajan la presión intraglomerular",
+     "power": 50,
+     "fx": "Eferente"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Finerenona Mítica"
+  },
+  {
+   "id": "leg_r9",
+   "name": "Belatacept Guardián",
+   "type": "Regulador",
+   "legendaria": true,
+   "moves": [
+    {
+     "name": "Bloqueo de coestimulación",
+     "type": "Regulador",
+     "drug_or_mechanism": "Belatacept (CTLA4-Ig): ocupa CD80/86 y bloquea CD28; mejor TFG que ciclosporina (BENEFIT); no si EBV negativo",
+     "power": 65,
+     "fx": "Supresor"
+    },
+    {
+     "name": "Calcineurina en pausa",
+     "type": "Regulador",
+     "drug_or_mechanism": "Tacrolimus: inhibe calcineurina, NFAT no entra al núcleo y cae la IL-2",
+     "power": 55,
+     "fx": "NFAT"
+    }
+   ],
+   "evolvesAt": 99,
+   "evoName": "Belatacept Guardián"
   }
  ],
  "typeChart": {
