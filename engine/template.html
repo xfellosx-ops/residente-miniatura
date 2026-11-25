@@ -62,6 +62,7 @@ summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{display:n
 #pn.f16 .small,#pn.f16 .opt,#pn.f16 .box,#pn.f16 td,#pn.f16 summary{font-size:16px;line-height:1.15}
 body.quiz.nocv canvas{display:none}body.quiz.nocv .panel{max-height:calc(100vh - 70px);max-height:calc(100dvh - 70px)}body.quiz .q,body.quiz .opt{font-size:17px;line-height:1.12}body.quiz .case{font-size:16px;line-height:1.12}.case.long{max-height:30vh;max-height:30dvh;overflow:auto}
 #gen{margin:6px 0}
+.chip{padding:4px 8px;font-size:9px}.chip.on{background:#f2c94c;color:#2b2a33}
 .btn.big{width:100%;font-size:11px;padding:12px 8px;margin-bottom:4px}.bad2{background:#f6dede}.hoy{background:#fff7d6;font-size:13px!important;line-height:1.35}.hoy .bar{margin:4px 0}.dom td{padding:2px 4px;font-size:10px}.dom{border-collapse:collapse;width:100%}
 .toast{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 34px);transform:translateX(-50%);background:#2b2a33;color:#fff;font:10px "Press Start 2P",monospace;padding:8px 12px;border-radius:6px;z-index:80;pointer-events:none}
 @media (prefers-reduced-motion:reduce){#alert.on{animation:none}}
@@ -183,6 +184,8 @@ const isRecall=q=>(q.origen||[]).some(o=>/26$/.test(o));
 const ivl=b=>Math.max(1,Math.min(BOXD[b],Math.floor((EXAM-Date.now())/DAY/3)));
 /* alerta baja (chequeo bajo, dos alertas en 10 min, latencia de microsueño o recién despierto): no se califica y la GUARDIA solo da vencidas */
 const lowA=()=>!!(G.lowUntil&&Date.now()<G.lowUntil);
+let CFS={n:0,s:0,ok:0,warned:false};
+function cfWatch(c,ok){if(c!==0&&c!==1)return;CFS.n++;if(c===1){CFS.s++;if(ok)CFS.ok++}if(!CFS.warned&&CFS.n>=20&&CFS.s/CFS.n>.95&&CFS.ok/CFS.s<.8){CFS.warned=true;modal('<div class="who">🤔 ¿DE VERDAD LO SABÍAS?</div>Marcaste LO SÉ en casi todas, pero aciertas '+Math.round(100*CFS.ok/CFS.s)+' %. Usa «? ADIVINO» cuando no estés seguro: así el repaso te las trae antes.')}}
 function sueno(){const h=hoyF();G.alh=(G.alh||[]).concat(Date.now()).slice(-60);if(!G.sue||G.sue.f!==h)G.sue={f:h,n:0};G.sue.n++;gsave();if(sleepy())setLow(20,"marcaste sueño");const D=diaHoy();if(D.n>=10&&G.sue.n/D.n>.15)toast("😴 Más del 15 % con sueño hoy: esto no es estudio, toma una siesta")}
 function setLow(min,why){const u=Date.now()+min*6e4;if(!G.lowUntil||G.lowUntil<u){G.lowUntil=u;gsave();toast("🟠 Alerta baja "+min+" min: "+why);if(typeof hud==="function")hud()}}
 /* calibración por tema: % de acierto cuando dijo SEGURO (s) o DUDÉ (d); Brier con p = .9 (seguro) y .5 (dudé) */
@@ -1692,11 +1695,11 @@ function renderQ(q,label,timer,onDone,o2={}){duck(1);pn.classList.remove("f16");
  if(ctx.length){const last=ctx[ctx.length-1],prev=ctx.slice(0,-1);h+='<div class="box case'+(words(last).length>45?' long':'')+'">'+(prev.length?'<details><summary class="small">▸ Caso previo</summary><span class="small">'+prev.map(esc).join("<br>")+'</span></details>':'')+esc(last)+'</div>'}
  if(timer)h+='<div class="bar" style="margin:3px 0"><i id="tm" style="width:100%"></i></div>';
  const gen=!!o2.gen&&!vf&&!timer&&!q.serie_id&&(isRecall(q)||(q.peso||0)>=70)&&(GENC++%3===0);
- h+='<div class="q" data-id="'+esc(q.id)+'">'+esc(q.enunciado)+'</div>'+(gen?'<button class="btn big alt" id="gen">🧠 PIENSA TU RESPUESTA · TOCA PARA VER OPCIONES</button><div id="ops" hidden>':'<div id="ops">')+(vf?'<div class="grid2">':'')+L.map((k,i)=>'<button class="opt" data-l="'+k+'"><b>'+(vf?(i+1):k)+'</b>'+esc(opts[k])+'</button>').join("")+(vf?'</div>':'')+'</div>';
- pn.innerHTML=h;pn.scrollTop=0;say(q.enunciado);let over=false,left=timer||0;let sel=-1;let t0=performance.now();
+ h+='<div class="q" data-id="'+esc(q.id)+'">'+esc(q.enunciado)+'</div>'+(o2.noconf?'':'<div class="row" id="dz"><button class="btn alt chip" id="dudo">? ADIVINO</button><span class="small">'+((G.flags||{}).dz?'márcalo ANTES si no estás seguro':'Márcalo ANTES de responder si no estás seguro: lo adivinado vuelve antes aunque aciertes.')+'</span></div>')+(gen?'<button class="btn big alt" id="gen">🧠 PIENSA TU RESPUESTA · TOCA PARA VER OPCIONES</button><div id="ops" hidden>':'<div id="ops">')+(vf?'<div class="grid2">':'')+L.map((k,i)=>'<button class="opt" data-l="'+k+'"><b>'+(vf?(i+1):k)+'</b>'+esc(opts[k])+'</button>').join("")+(vf?'</div>':'')+'</div>';
+ pn.innerHTML=h;pn.scrollTop=0;say(q.enunciado);if(!o2.noconf){G.flags=G.flags||{};G.flags.dz=1}let over=false,left=timer||0;let sel=-1;let t0=performance.now();
  const nW=words(ctx.slice(-1).join(" ")+" "+q.enunciado+" "+Object.values(opts).join(" ")).length;
  if(gen){const g=$("#gen");KEYA=()=>g.click();g.onclick=()=>{g.remove();$("#ops").hidden=false;t0=performance.now();KEYA=()=>{if(sel>=0)btns[sel].click()}}}
- if(timer)every(()=>{if(alertOn||document.querySelector(".modal"))return;left--;const b=$("#tm");if(b)b.style.width=(100*left/timer)+"%";if(left<=0){pre>=0?answer(btns[pre].dataset.l,0):answer(null)}},1000);
+ if(timer)every(()=>{if(alertOn||document.querySelector(".modal"))return;left--;const b=$("#tm");if(b)b.style.width=(100*left/timer)+"%";if(left<=0)answer(null)},1000);
  const btns=[...pn.querySelectorAll(".opt")];if(!gen)KEYA=()=>{if(sel>=0)btns[sel].click()};KEYNAV=d=>{if(over)return;sel=(sel+(d==="down"||d==="right"?1:-1)+btns.length)%btns.length;btns.forEach((b,i)=>b.classList.toggle("sel",i===sel));btns[sel].scrollIntoView&&btns[sel].scrollIntoView({block:"nearest"})};
  let pre=-1;const answer=(l,cf)=>{if(over)return;over=true;clearAll();KEYNAV=null;const ok=l===q.clave;const dz=$("#dz");dz&&dz.remove();
   /* microsueño: tardó >20 s y >2.5× su mediana por palabra de esta sesión → no se califica y cuenta como señal de sueño */
@@ -1714,12 +1717,12 @@ function renderQ(q,label,timer,onDone,o2={}){duck(1);pn.classList.remove("f16");
   if(more.length)e+='<details class="box small"><summary>▸ Ver más ('+(perla?"perla y ":"")+'explicación completa)</summary>'+more.join("<br>")+'</details>';
   e+='<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button>'+(plain?'':'<button class="btn alt" id="sue">😴 TENÍA SUEÑO</button><span class="small">'+(cf===1?'✔ dijiste SEGURO':'? dijiste DUDO')+'</span>')+'</div>';
   pn.insertAdjacentHTML("beforeend",e);
-  const fin=c=>{KEYA=null;duck(0);grade(q,ok,{soft:plain||!!o2.soft,glob:!!o2.glob,conf:c});if(!ok&&c===1&&!plain&&!o2.soft)toast("⚠ ERROR CONFIADO: vuelve en unos minutos y mañana");onDone(ok,c)};
+  const fin=c=>{KEYA=null;duck(0);if(!plain&&!o2.soft)cfWatch(c,ok);grade(q,ok,{soft:plain||!!o2.soft,glob:!!o2.glob,conf:c});if(!ok&&c===1&&!plain&&!o2.soft)toast("⚠ ERROR CONFIADO: vuelve en unos minutos y mañana");onDone(ok,c)};
   const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>fin(plain?undefined:cf);if($("#sue"))$("#sue").onclick=()=>{sueno();fin(2)};
   const fb=$("#fb");fb&&fb.scrollIntoView&&fb.scrollIntoView({block:"start"})};
- /* l === null (tiempo) responde directo; si no: 1er toque marca la opción, 2º toque en la misma = SEGURO, «? DUDO» = con duda */
- const mark=i=>{pre=i;sel=i;btns.forEach((b,j)=>b.classList.toggle("sel",j===i));let dz=$("#dz");if(!dz){pn.querySelector("#ops").insertAdjacentHTML("beforeend",'<div class="row" id="dz"><span class="small">Toca otra vez = ✔ LO SÉ · </span><button class="btn alt" id="dudo">? ADIVINO</button>'+((G.flags||{}).dz?'':'<div class="small">Así mides si sabes o adivinas: lo adivinado vuelve antes aunque aciertes.</div>')+'</div>');dz=$("#dz");if(!(G.flags||{}).dz){G.flags=G.flags||{};G.flags.dz=1;gsave()}$("#dudo").onclick=()=>answer(btns[pre].dataset.l,0)}};
- btns.forEach((b,i)=>b.onclick=()=>{if(pre===i)return answer(b.dataset.l,1);mark(i)})}
+ /* confianza ANTES de ver la respuesta, en 2 toques: la ficha «? ADIVINO» se marca antes de tocar la opción; sin ella, la respuesta cuenta como LO SÉ */
+ let guess=false;const dch=$("#dudo");if(dch)dch.onclick=()=>{guess=!guess;dch.classList.toggle("on",guess);dch.textContent=guess?"? ADIVINO ✓":"? ADIVINO"};
+ btns.forEach(b=>b.onclick=()=>answer(b.dataset.l,o2.noconf?undefined:(guess?0:1)))}
 let KEYNAV=null;
 function quick(q,label,cb){MODE=MODE==="world"?"dialog":MODE;renderQ(q,label,0,cb)}
 /* ================= XP ================= */
@@ -1825,7 +1828,7 @@ function bossCheck(msg){const ph=bossPhase();if(S.boss.hp<=0)return bossWin();if
 function bossWin(){BAT=null;S.done=true;const fr=!G.done[META.id];G.done[META.id]=1;S.nefWon=Math.round(1000*S.stats.ok/Math.max(1,S.stats.n));G.nef=(G.nef||0)+S.nefWon;gsave();save();sfx.lvl();music("victory");vib([100,50,100,50,300]);dialog(STORY.boss.outro,ending)}
 /* cierre del nivel: diario con recuerdo activo → resultados, días al examen, nefronas y PRÓXIMO CASO */
 function nextLevel(){const ord=REGIONS.flatMap(r=>r.levels.map(l=>l[0]));const k=ord.indexOf(META.id);return k>=0&&k+1<ord.length?ord[k+1]:null}
-function ending(){duck(0);MODE="dialog";music("victory");const D=META.diario;
+function ending(){setTimeout(()=>{try{diarioJ()}catch(e){}},2500);duck(0);MODE="dialog";music("victory");const D=META.diario;
  if(D&&!S.flags.diario){const opts=shuf(D[1].map((t,i)=>[t,i]));pn.innerHTML='<div class="who">📓 DIARIO DEL RESIDENTE</div><div class="box">'+esc(D[0])+'</div>'+opts.map(([t,i])=>'<button class="opt" data-dj="'+i+'"><b>✎</b>'+esc(t)+'</button>').join("");
   pn.querySelectorAll("[data-dj]").forEach(b=>b.onclick=()=>{const ok=+b.dataset.dj===D[2];S.flags.diario=1;save();ok?sfx.ok():sfx.bad();if(ok)addXP(active(),25);modal((ok?"<b>¡Exacto!</b> ":"<b>Era: "+esc(D[1][D[2]])+".</b> ")+esc(D[0].replace("___",D[1][D[2]])),ending)});return}
  const st=S.stats,nx=nextLevel(),nxL=nx&&LEVELS.find(l=>l.story.meta.id===nx);
@@ -1976,7 +1979,7 @@ const planTemas=()=>planGain().slice(0,3).map(x=>x.t.id);
 function planTxt(){const F=pronostico();if(F.n<30)return"";const need=Math.round(300*(.7-F.p));if(need<=0)return'<br>✅ Vas por encima de 70 %: sostén el repaso.';const g=planGain().slice(0,3);
  return'<br>🎯 Para 70 %: <b>+'+need+' aciertos</b> en '+esc(g.map(x=>shortT(x.t.name)).join(", "))+' <button class="btn alt" id="tplan" style="padding:4px 6px;font-size:8px">🎯 IR</button>'}
 /* simulacros: parciales de 100 el 20-dic y el 3, 7 y 11 de enero; examen de 300 cada sábado hasta el 3-ene */
-function simList(){const L=[["2026-12-20","parcial"],["2027-1-3","parcial"],["2027-1-7","parcial"],["2027-1-11","parcial"]];const d=new Date(2026,10,28);while(d<new Date(2027,0,3)){L.push([d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate(),"examen"]);d.setDate(d.getDate()+7)}
+function simList(){const L=[["2026-12-20","examen"],["2027-1-3","examen"],["2027-1-7","parcial"],["2027-1-11","parcial"]];const big=[new Date(2026,11,20),new Date(2027,0,3)];const d=new Date(2026,10,28);while(d<new Date(2027,0,3)){if(!big.some(b=>Math.abs(b-d)<3*DAY))L.push([d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate(),"parcial"]);d.setDate(d.getDate()+7)}
  return L.map(([f,k])=>{const [y,m,dd]=f.split("-").map(Number);return{f:y+"-"+m+"-"+dd,t:new Date(y,m-1,dd).getTime(),k}}).sort((a,b)=>a.t-b.t)}
 function simInfo(){const T0=tLoad(),h=hoyF(),L=simList(),hoy=L.find(s=>s.f===h),done=(T0.sims||{})[h]!=null,nx=L.find(s=>s.t>Date.now());const nom=s=>s.k==="parcial"?"parcial de 100":"examen de 300";
  const fd=s=>new Date(s.t).toLocaleDateString("es-MX",{weekday:"short",day:"numeric",month:"short"});
@@ -1993,8 +1996,11 @@ function djFrag(r,i){const D=DIARIO_J||{};let f=Array.isArray(D)?D[i]:(D[r]||D[S
  if(typeof f==="string")return[["Dr. J.",f]];if(Array.isArray(f))return f.map(l=>Array.isArray(l)?l:typeof l==="string"?["Dr. J.",l]:[l.quien||l.who||"Dr. J.",l.texto||l.text||""]);
  const t=f.lineas||f.lines;if(Array.isArray(t))return t.map(l=>Array.isArray(l)?l:["Dr. J.",String(l.texto||l)]);return[[f.quien||f.titulo||"Dr. J.",f.texto||f.text||""]]}
 function diarioList(){const V=G.dj||{};return DJR.map((r,i)=>V[r]?{r,lines:djFrag(r,i)||[]}:null).filter(x=>x&&x.lines.length)}
-function diarioJ(){const r=racha();G.dj=G.dj||{};const i=DJR.indexOf(r);if(i<0||G.dj[r])return;const L=djFrag(r,i);if(!L||!L.length)return;G.dj[r]=Date.now();gsave();
- modal('<div class="who">📓 DIARIO DEL DR. J. · RACHA '+r+'</div>'+L.slice(0,4).map(l=>(l[0]?'<b>'+esc(l[0])+':</b> ':'')+esc(l[1])).join("<br>"))}
+const DJREQ={3:"6",7:"9-5",14:"9-7",21:"7",30:"19",45:"21"};
+/* cada página pide racha y avance en la historia (no destripa el misterio antes de tiempo) */
+function diarioJ(){const rr=racha();G.dj=G.dj||{};let r=-1,i=-1,wait=null;DJR.forEach((x,k)=>{if(r>=0||G.dj[x]||rr<x)return;const lv=DJREQ[x];if(lv&&!G.done[lv]){if(!wait)wait=lv;return}r=x;i=k});
+ if(r<0){if(wait)toast("📓 J. guardó una página. Avanza al nivel "+wait+" para leerla.");return}const L0=djFrag(r,i);if(!L0||!L0.length)return;const first=!Object.keys(G.dj).length;G.dj[r]=Date.now();gsave();const L=first?L0.slice(0,3).concat([["Residente","¿Por qué me deja leer esto, doctor?"],["Dr. J.","Porque vas a ver lo que yo no vi. Sigue estudiando."]]):L0;
+ modal('<div class="who">📓 DIARIO DEL DR. J. · RACHA '+r+'</div>'+L.slice(0,5).map(l=>(l[0]?'<b>'+esc(l[0])+':</b> ':'')+esc(l[1])).join("<br>"))}
 /* ================= panel HOY en la pantalla de inicio ================= */
 const hhmm=t=>{const d=new Date(t);return d.getHours()+":"+String(d.getMinutes()).padStart(2,"0")};
 function hoyBox(){const D=diaHoy();const due=dueCount();const pct=Math.min(100,Math.round(100*D.n/D.meta));const bk=G.bk?Math.floor((Date.now()-G.bk)/DAY):null;const R=ritmo();
@@ -2002,11 +2008,11 @@ function hoyBox(){const D=diaHoy();const due=dueCount();const pct=Math.min(100,M
  const al=(G.alh||[]).filter(t=>Date.now()-t<7*DAY);const hrs=Array(24).fill(0);al.forEach(t=>hrs[new Date(t).getHours()]++);const pk=al.length>=3?hrs.map((n,h)=>[n,h]).filter(x=>x[0]>=2).sort((a,b)=>b[0]-a[0]).slice(0,2).map(x=>x[1]).sort((a,b)=>a-b):[];
  const SI=simInfo(),SM=semTxt(),ppm=G.ppm||1,falta=Math.max(0,D.meta-D.n),simu=0;
  return '<div class="box small hoy">📅 Faltan <b>'+daysLeft()+' días</b> para el Consejo (16 ene) · 🔥 racha '+racha()+(G.fichas?' · 🎫 '+G.fichas+' ficha'+(G.fichas>1?'s':''):'')+'<div class="bar"><i style="width:'+pct+'%"></i></div>Hoy: <b>'+D.n+'/'+D.meta+'</b> preguntas'+(D.n?' ('+Math.round(100*D.ok/D.n)+' %)':'')+' · vencidas: '+due+(falta?' · faltan '+falta+' ≈ <b>'+Math.round(falta/ppm)+' min</b> (a '+ppm.toFixed(1)+'/min)':'')+
-  '<br>🆕 Nuevas hoy '+(D.nw||0)+'/'+D.per+' · ritmo necesario <b>'+R.per+'/día</b> ('+R.un+' sin ver; meta: todo antes del 3 ene)<br>'+fcastTxt()+planTxt()+'<br>'+SI.txt+(SM?'<br>'+SM:'')+
-  (lowA()?'<br>🟠 <b>Alerta baja hasta las '+hhmm(G.lowUntil)+'</b>: solo vencidas y no se califica.':'')+
+  '<br>'+fcastTxt()+'<br>'+SI.txt+(lowA()?'<br>🟠 <b>Alerta baja hasta las '+hhmm(G.lowUntil)+'</b>: solo vencidas y no se califica.':'')+
+  '<details><summary class="small">▸ plan, ritmo y semana</summary>'+planTxt()+'<br>🆕 Nuevas hoy '+(D.nw||0)+'/'+D.per+' · ritmo necesario <b>'+R.per+'/día</b> ('+R.un+' sin ver; meta: todo antes del 3 ene)'+(SM?'<br>'+SM:'')+
   (pk.length?'<br>💤 Siesta sugerida a las '+pk.map(h=>((h+23)%24)+':30').join(" y ")+' (antes de tus horas de más sueño)':'')+
   (simu?'<br>🏛 <b>Hoy toca simulacro</b>: examen de la Torre (cada 3 días, del 3 al 14 de enero).':'')+
-  (bk===null||bk>=7?'<br>💾 '+(bk===null?'Aún no respaldas tu partida':'Último respaldo hace '+bk+' días')+': PARTIDA → COPIAR CÓDIGO.':'')+'</div>'}
+  (bk===null||bk>=7?'<br>💾 '+(bk===null?'Aún no respaldas tu partida':'Último respaldo hace '+bk+' días')+': PARTIDA → COPIAR CÓDIGO.':'')+'</details></div>'}
 /* peso en el examen y dominio del tema principal de cada nivel */
 function lvInfo(id){const L=LEVELS.find(l=>l.story.meta.id===id);if(!L||!L.bank||!L.bank.length)return"";const c={};L.bank.forEach(q=>c[q.tema_id]=(c[q.tema_id]||0)+1);const tid=Object.keys(c).sort((a,b)=>c[b]-c[a])[0];const T=(window._TS=window._TS||temaStats())[tid];if(!T)return"";
  return ' <span class="small">· peso '+T.meta+' · '+T.col+' '+(T.seen>=5?PCT(T.acc)+'%':'—')+'</span>'}
@@ -2026,8 +2032,12 @@ function entrada(id,back){G.entT=G.entT||{};const wait=(G.entT[id]||0)+DAY-Date.
   const q=qs[i];renderQ(q,"🚪 PRUEBA "+id+" · "+(i+1)+"/5",0,r=>{if(r)ok++;else{bad.push(q);if(isRecall(q))recF++}i++;step()},{glob:!ALL[q.id]})};step()}
 /* ---------- jefes de región: opcionales, se abren al superar la región; 15 preguntas recordadas de examen de sus temas ---------- */
 /* revancha (ya vencido): primero recordadas falladas o no vistas de la región */
-function rbossQs(r){const tem=new Set();r.levels.forEach(([id])=>{const L=LVL(id);if(L)(L.bank||[]).forEach(q=>tem.add(q.tema_id))});const all=Object.values(TB).filter(q=>tem.has(q.tema_id));const rev=!!(G.rboss||{})[r.id];
- const rk=q=>!GS[q.id]||(rev&&GS[q.id].last===0)?0:1;const rec=shuf(all.filter(isRecall)).sort((a,b)=>rk(a)-rk(b)),rest=shuf(all.filter(q=>!isRecall(q))).sort((a,b)=>(b.peso||0)-(a.peso||0));return rec.concat(rest).slice(0,15)}
+/* temas de la región: solo los que pesan ≥20 % del banco de algún nivel (no se cuelan temas de otra región); series completas, recordadas primero */
+function rbossQs(r){const tem=new Set();r.levels.forEach(([id])=>{const L=LVL(id);if(!L)return;const c={},b=L.bank||[];b.forEach(q=>c[q.tema_id]=(c[q.tema_id]||0)+1);Object.keys(c).forEach(t=>{if(c[t]>=.2*b.length)tem.add(+t)})});
+ const all=Object.values(TB).filter(q=>tem.has(+q.tema_id)&&(!q.serie_id||q.orden===1));const rev=!!(G.rboss||{})[r.id];
+ const unit=q=>q.serie_id?tSeries(q.serie_id):[q];const rk=q=>unit(q).some(x=>!GS[x.id]||(rev&&GS[x.id].last===0))?0:1;
+ const rec=shuf(all.filter(q=>unit(q).some(isRecall))).sort((a,b)=>rk(a)-rk(b)),rest=shuf(all.filter(q=>!unit(q).some(isRecall))).sort((a,b)=>(b.peso||0)-(a.peso||0));
+ const out=[];for(const q of rec.concat(rest)){if(out.length>=15)break;const u=unit(q);if(out.length+u.length>18)continue;out.push(...u)}return out}
 function rboss(r,back){const qs=rbossQs(r),name=r.boss||"Jefe de región";if(qs.length<5)return modal("Faltan preguntas de esta región en este archivo.",back);S.team.forEach(c=>c.hp=c.max);if(!S.team.length){S.team.push(mkCrea(STORY.creatures[0].id));save()}let qi=0;
  const end=msg=>{BAT=null;clearAll();duck(0);S.team.forEach(c=>c.hp=c.max);save();hud();music("map");modal(msg,()=>mapa(back))};MODE="dialog";$("#ttl").textContent="👑 "+name.toUpperCase();const RB={form:r.form||"defensor",color:r.color||"#c23a7a",dark:r.dark||mix(r.color||"#c23a7a","#000000",.6),heads:1,crescent:!!r.crescent,name,rid:r.id,rname:r.name};OVER=()=>drawVS(RB);music("boss");sfx.roar();
  dialog([[name,r.intro||("Superaste la región "+r.id+".")],["Dr. J.",qs.length+" recordadas del examen. Si ganas: nefronas, 🎫 ficha y tu equipo sube."]],()=>
@@ -2107,10 +2117,13 @@ function torreRun(back){const T0=tLoad(),R=T0.run;if(!R)return torre(back);MODE=
   h+='<div class="q" data-id="'+esc(q.id)+'" data-torre="1">'+esc(q.enunciado)+'</div>'+L.map(k=>'<button class="opt" data-l="'+k+'"><b>'+k+'</b>'+esc(q.opciones[k])+'</button>').join("")+'<div class="row"><button class="btn alt" id="tq">GUARDAR Y SALIR</button></div>';
   pn.innerHTML=h;pn.scrollTop=0;const btns=[...pn.querySelectorAll(".opt")];let sel=-1;KEYA=()=>{if(sel>=0)btns[sel].click()};KEYNAV=d=>{sel=(sel+(d==="down"||d==="right"?1:-1)+btns.length)%btns.length;btns.forEach((b,i)=>b.classList.toggle("sel",i===sel))};
   $("#tq").onclick=()=>{KEYNAV=null;sv();clearAll();duck(0);torre(back)};
-  btns.forEach(b=>b.onclick=()=>{const l=b.dataset.l;R.ans[q.id]=l;R.i++;KEYNAV=null;sv();const ok=l===q.clave;if(!R.fb){grade(q,ok,{glob:1});return show()}ok?sfx.ok():sfx.bad();$("#tq").remove();
+  let tpre=-1,ttm=0;const tans=(b,cf)=>{const dz=$("#tdz");dz&&dz.remove();const l=b.dataset.l;R.ans[q.id]=l;R.i++;KEYNAV=null;sv();const ok=l===q.clave;if(!R.fb){grade(q,ok,{glob:1});return show()}ok?sfx.ok():sfx.bad();$("#tq").remove();
    btns.forEach(x=>{x.disabled=true;if(x.dataset.l===q.clave)x.classList.add("ok");else if(x.dataset.l===l)x.classList.add("bad")});const ex=Object.fromEntries(Object.entries(q.explicaciones||{}).map(([k,v])=>[k,cleanEx(v)]));const main=ex[q.clave]||"";const perla=q.perla&&!dupOf(q.perla,main)?q.perla:"";
-   pn.insertAdjacentHTML("beforeend",'<div class="box"><b>'+(ok?"¡Correcto!":"Incorrecto. Es la "+q.clave+".")+'</b> '+esc(clip(main,ok?40:22))+'</div>'+(!ok&&ex[l]?'<div class="box small bad2"><b>Tu opción ('+l+'):</b> '+esc(clip(ex[l],15))+'</div>':'')+(perla||words(main).length>(ok?40:22)?'<details class="box small"><summary>▸ Ver más</summary>'+(words(main).length>(ok?40:22)?esc(main)+'<br>':'')+(perla?'<b>Perla:</b> '+esc(perla):'')+(ok||!ex[l]?'':'<br><b>Tu opción:</b> '+esc(ex[l]))+'</details>':'')+'<div class="row"><button class="btn" id="cont">✔ SEGURO</button><button class="btn alt" id="dud">? DUDÉ</button>'+(ok?'':'<button class="btn alt" id="sue">😴 SUEÑO</button>')+'<span class="small">¿lo sabías?</span></div>');
-   const f=c=>{grade(q,ok,{glob:1,conf:c});if(!ok&&c===1)toast("⚠ ERROR CONFIADO: vuelve mañana");show()};const c=$("#cont");KEYA=()=>$("#dud").click();c.onclick=()=>f(1);$("#dud").onclick=()=>f(0);if($("#sue"))$("#sue").onclick=()=>f(2);c.scrollIntoView&&c.scrollIntoView({block:"nearest"})})};
+   pn.insertAdjacentHTML("beforeend",'<div class="box"><b>'+(ok?"¡Correcto!":"Incorrecto. Es la "+q.clave+".")+'</b> '+esc(clip(main,ok?40:22))+'</div>'+(!ok&&ex[l]?'<div class="box small bad2"><b>Tu opción ('+l+'):</b> '+esc(clip(ex[l],15))+'</div>':'')+(perla||words(main).length>(ok?40:22)?'<details class="box small"><summary>▸ Ver más</summary>'+(words(main).length>(ok?40:22)?esc(main)+'<br>':'')+(perla?'<b>Perla:</b> '+esc(perla):'')+(ok||!ex[l]?'':'<br><b>Tu opción:</b> '+esc(ex[l]))+'</details>':'')+'<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button><button class="btn alt" id="sue">😴 TENÍA SUEÑO</button><span class="small">'+(cf===1?'✔ dijiste LO SÉ':'? dijiste ADIVINO')+'</span></div>');
+   const f=c=>{grade(q,ok,{glob:1,conf:c});if(!ok&&c===1)toast("⚠ ERROR CONFIADO: vuelve mañana");show()};const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>f(cf);$("#sue").onclick=()=>{sueno();f(2)};c.scrollIntoView&&c.scrollIntoView({block:"nearest"})};
+  /* examen: un toque (sin retroalimentación). Con retroalimentación: 1er toque marca, 2º toque = LO SÉ, «? ADIVINO» = con duda */
+  let tg=false;if(R.fb&&btns[0]){btns[0].insertAdjacentHTML("beforebegin",'<div class="row" id="tdz"><button class="btn alt chip" id="tdudo">? ADIVINO</button><span class="small">márcalo ANTES si no estás seguro</span></div>');const ch=$("#tdudo");ch.onclick=()=>{tg=!tg;ch.classList.toggle("on",tg);ch.textContent=tg?"? ADIVINO ✓":"? ADIVINO"}}
+  btns.forEach(b=>b.onclick=()=>tans(b,R.fb?(tg?0:1):undefined))};
  show()}
 function fmtClock(s){s=Math.max(0,s|0);const h=(s/3600)|0,m=((s%3600)/60)|0,x=s%60;return (h?h+":":"")+String(m).padStart(h?2:1,"0")+":"+String(x).padStart(2,"0")}
 /* ================= Partida: exportar, importar, sincronizar entre dispositivos y descargar ================= */

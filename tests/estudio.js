@@ -6,10 +6,11 @@ const path=require('path');const {chromium}=require('playwright');
  if(!/Faltan \d+ días/.test(await p.textContent('#pn')))fail('sin cuenta regresiva');
  if(!/ritmo necesario \d+\/día/.test(await p.textContent('#pn')))fail('sin meta dinámica en HOY');
  if(!/Logros/.test(await p.textContent('#pn')))fail('sin logros en el título');
- const live=async()=>!!(await p.$('.q'))&&(!!(await p.$('.opt[data-l]:not([disabled])'))||!!(await p.$('#gen')))&&!(await p.$('.modal'));
+ const warn=async()=>{const m=await p.$('.modal');if(m&&/LO SABÍAS/.test(await m.textContent()))await p.click('.modal button')};
+ const live=async()=>(await warn(),true)&&!!(await p.$('.q'))&&(!!(await p.$('.opt[data-l]:not([disabled])'))||!!(await p.$('#gen')))&&!(await p.$('.modal'));
  const clr=async()=>{for(let i=0;i<4&&await p.$('.modal button');i++)await p.click('.modal button')};
- const answer=async(right,conf='#cont')=>{if(await p.$('#gen'))await p.click('#gen');const l=await p.evaluate(r=>{const id=document.querySelector('.q').dataset.id;const q=window.__G.TB[id]||window.__G.ALL[id];return r?q.clave:Object.keys(q.opciones).find(k=>k!==q.clave)},right);const o='.opt[data-l="'+l+'"]';await p.click(o);
-  if(!(await p.$('#dudo')))fail('sin botón DUDO antes de la respuesta');if(conf==='#dud')await p.click('#dudo');else await p.click(o);
+ const answer=async(right,conf='#cont')=>{if(await p.$('#gen'))await p.click('#gen');const l=await p.evaluate(r=>{const id=document.querySelector('.q').dataset.id;const q=window.__G.TB[id]||window.__G.ALL[id];return r?q.clave:Object.keys(q.opciones).find(k=>k!==q.clave)},right);const o='.opt[data-l="'+l+'"]';
+  if(!(await p.$('#dudo')))fail('sin ficha ? ADIVINO antes de la respuesta');if(conf==='#dud')await p.click('#dudo');await p.click(o);
   if(!(await p.$('#cont')))fail('sin CONTINUAR');await p.click('#cont')};
  // GUARDIA: predicción → 20 camas; los fallos (con SEGURO = error confiado) vuelven 3–5 preguntas después
  await p.click('#tg');if(!(await p.$('[data-pr]')))fail('sin predicción antes de la guardia');else await p.click('[data-pr="14"]');
@@ -48,7 +49,7 @@ const path=require('path');const {chromium}=require('playwright');
  const ent=await p.evaluate(ids=>({skip:!!(G.skip||{})["4"],t:!!(G.entT||{})["4"],b0:GS[ids[0]]&&GS[ids[0]].b===0}),badIds); if(!ent.t)fail('sin espera de 24 h tras fallar la prueba '+JSON.stringify(ent));if(!ent.b0)fail('lo fallado no quedó en caja 0');
  await p.evaluate(()=>entrada("4",title));if(!/Vuelve en \d+ h/.test(await p.textContent('.modal')))fail('reintento sin espera');await clr();
  // plan, simulacros, semana, logros por tema, diario de J., toast
- const H=await p.evaluate(()=>{DIARIO_J["3"]="Fragmento de prueba";G.racha=3;G.rachaF=hoyF();G.dj={};diarioJ();const m=!!document.querySelector('.modal');document.querySelectorAll('.modal').forEach(x=>x.remove());toast("x");title();
+ const H=await p.evaluate(()=>{DIARIO_J["3"]="Fragmento de prueba";G.done["6"]=1;G.racha=3;G.rachaF=hoyF();G.dj={};diarioJ();const m=!!document.querySelector('.modal');document.querySelectorAll('.modal').forEach(x=>x.remove());toast("x");title();
   return{plan:/Para 70 %|encima de 70/.test(planTxt()),sim:simInfo().txt,sem:semTxt(),lt:logros().filter(x=>x[0]==="📗").length,dj:m&&!!G.dj[3],bt:!!document.querySelector('#t10'),toast:document.querySelectorAll('.toast').length,min:/min<\/b>|faltan/.test(document.querySelector('#pn').innerHTML)}});
  if(!H.plan)fail('sin plan ligado al pronóstico');if(!/simulacro/.test(H.sim))fail('sin simulacro fechado');if(!/Semana/.test(H.sem))fail('sin récord semanal');if(H.lt<20)fail('logros por tema: '+H.lt);if(!H.dj||!H.bt)fail('sin diario de J. '+JSON.stringify(H));if(H.toast)fail('el toast no se fue al cambiar de pantalla');
  if(errs.length)fail(errs.join(' | '));console.log(bad?'ESTUDIO FALLA':'ESTUDIO PASA');await b.close();process.exit(bad?1:0)})();
