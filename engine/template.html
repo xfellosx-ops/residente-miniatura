@@ -59,10 +59,11 @@ canvas{display:block;width:100%;image-rendering:pixelated;image-rendering:crisp-
 body.quiz canvas{width:42%;margin:0 auto}body.quiz.qbat canvas{width:100%;aspect-ratio:160/32;object-fit:cover;object-position:50% 0}
 summary{list-style:none;cursor:pointer}summary::-webkit-details-marker{display:none}body.quiz .panel{max-height:calc(100vh - 150px);max-height:calc(100dvh - 150px)}body.quiz .hud{display:none}body.quiz .panel{font-size:18px;line-height:1.12}body.quiz .opt{padding:6px 8px}body.quiz .ctrl{display:none}
 /* pregunta fuera de combate (guardia, repaso, Torre, siesta): sin lienzo, todo en una pantalla; caso largo con su propio desplazamiento */
+#pn.f16 .small,#pn.f16 .opt,#pn.f16 .box,#pn.f16 td,#pn.f16 summary{font-size:16px;line-height:1.15}
 body.quiz.nocv canvas{display:none}body.quiz.nocv .panel{max-height:calc(100vh - 70px);max-height:calc(100dvh - 70px)}body.quiz .q,body.quiz .opt{font-size:17px;line-height:1.12}body.quiz .case{font-size:16px;line-height:1.12}.case.long{max-height:30vh;max-height:30dvh;overflow:auto}
 #gen{margin:6px 0}
 .btn.big{width:100%;font-size:11px;padding:12px 8px;margin-bottom:4px}.bad2{background:#f6dede}.hoy{background:#fff7d6;font-size:13px!important;line-height:1.35}.hoy .bar{margin:4px 0}.dom td{padding:2px 4px;font-size:10px}.dom{border-collapse:collapse;width:100%}
-.toast{position:fixed;left:50%;top:12px;transform:translateX(-50%);background:#2b2a33;color:#fff;font:10px "Press Start 2P",monospace;padding:8px 12px;border-radius:6px;z-index:80;pointer-events:none}
+.toast{position:fixed;left:50%;top:calc(env(safe-area-inset-top,0px) + 34px);transform:translateX(-50%);background:#2b2a33;color:#fff;font:10px "Press Start 2P",monospace;padding:8px 12px;border-radius:6px;z-index:80;pointer-events:none}
 @media (prefers-reduced-motion:reduce){#alert.on{animation:none}}
 </style>
 </head>
@@ -83,7 +84,7 @@ body.quiz.nocv canvas{display:none}body.quiz.nocv .panel{max-height:calc(100vh -
 <script id="eng">
 "use strict";
 const SRC_HTML="<!DOCTYPE html>"+document.documentElement.outerHTML;
-const LEVELS=__LEVELS__, REGIONS=__REGIONS__, TEMARIO=__TEMARIO__, COMPET=__COMPET__;
+const LEVELS=__LEVELS__, REGIONS=__REGIONS__, TEMARIO=__TEMARIO__, COMPET=__COMPET__, DIARIO_J=__DIARIO_J__;
 /* nivel en curso: el que eligió el mapa (rm_cur) o el primero del archivo */
 const CUR=(()=>{try{return localStorage.getItem("rm_cur")}catch(e){return null}})();
 const LV=LEVELS.find(l=>l.story.meta.id===CUR)||LEVELS[0];
@@ -107,7 +108,7 @@ const T={iv:new Set(),to:new Set()};
 function every(fn,ms){const id=setInterval(fn,ms);T.iv.add(id);return id}
 function later(fn,ms){const id=setTimeout(()=>{T.to.delete(id);fn()},ms);T.to.add(id);return id}
 var OVER=null;
-function clearAll(){OVER=null;T.iv.forEach(clearInterval);T.to.forEach(clearTimeout);T.iv.clear();T.to.clear()}
+function clearAll(){OVER=null;pn.classList.remove("f16");document.querySelectorAll(".toast").forEach(t=>t.remove());T.iv.forEach(clearInterval);T.to.forEach(clearTimeout);T.iv.clear();T.to.clear()}
 /* ================= estado ================= */
 /* metadatos del nivel (story.meta): id, título, clave de guardado, textos del jefe */
 const META=Object.assign({id:"?",title:"",key:"rm_v3_default",arena:"ARENA DEL JEFE",bossShort:"Jefe",bossChange:"cambia de forma"},STORY.meta||{});
@@ -199,7 +200,8 @@ function grade(q,ok,o={}){const now=Date.now(),c=o.conf;const again=()=>{if(!ok)
   if(c!=null)r.c=c;r.last=ok?1:0;r.t=now;st[q.id]=r});
  again();if(!o.glob){S.stats.n++;if(ok)S.stats.ok++}sessN++;
  const D=diaHoy();D.n++;if(ok)D.ok++;if(isNew)D.nw=(D.nw||0)+1;G.seq=ok?(G.seq||0)+1:0;G.seqMax=Math.max(G.seqMax||0,G.seq);
- if(D.n===D.meta&&G.rachaF!==D.f){G.racha=racha()+1;G.rachaF=D.f;G.fichas=(G.fichas||0)+1;S.potions++;sfx.lvl();toast("🔥 ¡Meta del día! Racha "+G.racha+" · +1 ficha de revivir y +1 poción")}
+ semUpd(c,ok,0);
+ if(D.n===D.meta&&G.rachaF!==D.f){setTimeout(diarioJ,2200);G.racha=racha()+1;G.rachaF=D.f;G.fichas=(G.fichas||0)+1;S.potions++;sfx.lvl();toast("🔥 ¡Meta del día! Racha "+G.racha+" · +1 ficha de revivir y +1 poción")}
  save();gssave();hud()}
 const pick=a=>a[Math.random()*a.length|0];
 const QG=id=>ALL[id]||TB[id];
@@ -1621,7 +1623,7 @@ function interact(){const [dx,dy]=DIRS[S.dir];const x=S.x+dx,y=S.y+dy;
  if(o.k==="gate")return gate(o);if(o.k==="mini")return startMini(o)}
 function toWorld(){clearAll();MODE="world";duck(0);walkMusic();const z=STORY.zones[MAP.zi];pn.innerHTML='<div class="who">'+esc(z.name.toUpperCase())+'</div><div class="small">Muévete con las flechas. <b>A</b> = hablar/interactuar. La hierba esconde enemigos. Lo que bloquea el camino (puerta, entrenador, cristal) se resuelve con <b>A</b>.</div>';KEYA=interact;hud()}
 /* ================= diálogo ================= */
-function dialog(lines,done){lines=(lines||[]).filter(l=>l&&l[1]);let i=0;MODE=MODE==="world"?"dialog":MODE;const show=()=>{if(i>=lines.length){KEYA=null;done&&done();return}const [w,t]=lines[i];say(t);
+function dialog(lines,done){pn.classList.remove("f16");lines=(lines||[]).filter(l=>l&&l[1]);let i=0;MODE=MODE==="world"?"dialog":MODE;const show=()=>{if(i>=lines.length){KEYA=null;done&&done();return}const [w,t]=lines[i];say(t);
  pn.innerHTML='<div class="box"><div class="who">'+esc(w)+'</div>'+esc(t)+'</div><div class="row"><button class="btn" id="nx">A ▶</button><span class="small">'+(i+1)+'/'+lines.length+'</span></div>';const b=$("#nx");KEYA=()=>b.click();b.onclick=()=>{i++;show()}};show()}
 /* ================= zonas ================= */
 function enterZone(zi,keep){OVER=null;S.zone=zi;walkMusic();if(!keep&&zi>0&&S.team.some(c=>c.hp<c.max)){S.team.forEach(c=>c.hp=c.max);setTimeout(()=>toast("💚 Tu equipo descansó al cruzar de zona"),400)}if(!keep){S.x=2;S.y=5;S.dir="right"}buildMap(zi);if(keep&&(!MAP.g[S.y]||MAP.g[S.y][S.x]==="#"||solid(S.x,S.y))){S.x=2;S.y=5}save();const z=STORY.zones[zi];$("#ttl").textContent=META.id+" · "+z.name.toUpperCase();SCENEZ=zi;MODE=S.flags["in_"+zi]?"dialog":"scene";
@@ -1644,7 +1646,7 @@ const med=a=>{const b=a.slice().sort((x,y)=>x-y);return b.length?b[b.length>>1]:
 const dupOf=(a,b)=>{const A=toks(a),B=toks(b);if(!A.size)return true;let k=0;A.forEach(w=>{if(B.has(w))k++});return k/A.size>=.7};
 /* o2: soft (no califica), glob (solo repaso global), gen (puede ocultar las opciones para generar primero).
    Tras responder, CONTINUAR se reemplaza por ✔ SEGURO / ? DUDÉ (y 😴 SUEÑO si falló): la apuesta de confianza no añade toques. */
-function renderQ(q,label,timer,onDone,o2={}){duck(1);document.body.classList.toggle("nocv",!BAT);const vf=!!q.vf,opts=vf?{V:"Verdadero",F:"Falso"}:q.opciones,L=Object.keys(opts);const ctx=ctxOf(q);
+function renderQ(q,label,timer,onDone,o2={}){duck(1);pn.classList.remove("f16");document.body.classList.toggle("nocv",!BAT);const vf=!!q.vf,opts=vf?{V:"Verdadero",F:"Falso"}:q.opciones,L=Object.keys(opts);const ctx=ctxOf(q);
  let h=(label?'<div class="who">'+esc(label)+'</div>':'');if(isRecall(q))h+='<span class="tag">RECORDADA EXAMEN</span>';if((q.peso||0)>=70)h+='<span class="tag">ALTO PESO</span>';
  if(ctx.length){const last=ctx[ctx.length-1],prev=ctx.slice(0,-1);h+='<div class="box case'+(words(last).length>45?' long':'')+'">'+(prev.length?'<details><summary class="small">▸ Caso previo</summary><span class="small">'+prev.map(esc).join("<br>")+'</span></details>':'')+esc(last)+'</div>'}
  if(timer)h+='<div class="bar" style="margin:3px 0"><i id="tm" style="width:100%"></i></div>';
@@ -1675,7 +1677,7 @@ function renderQ(q,label,timer,onDone,o2={}){duck(1);document.body.classList.tog
   const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>fin(plain?undefined:cf);if($("#sue"))$("#sue").onclick=()=>{sueno();fin(2)};
   const fb=$("#fb");fb&&fb.scrollIntoView&&fb.scrollIntoView({block:"start"})};
  /* l === null (tiempo) responde directo; si no: 1er toque marca la opción, 2º toque en la misma = SEGURO, «? DUDO» = con duda */
- const mark=i=>{pre=i;sel=i;btns.forEach((b,j)=>b.classList.toggle("sel",j===i));let dz=$("#dz");if(!dz){pn.querySelector("#ops").insertAdjacentHTML("beforeend",'<div class="row" id="dz"><span class="small">Toca otra vez la misma = ✔ SEGURO</span><button class="btn alt" id="dudo">? DUDO</button></div>');dz=$("#dz");$("#dudo").onclick=()=>answer(btns[pre].dataset.l,0)}};
+ const mark=i=>{pre=i;sel=i;btns.forEach((b,j)=>b.classList.toggle("sel",j===i));let dz=$("#dz");if(!dz){pn.querySelector("#ops").insertAdjacentHTML("beforeend",'<div class="row" id="dz"><span class="small">Toca otra vez = ✔ LO SÉ · </span><button class="btn alt" id="dudo">? ADIVINO</button>'+((G.flags||{}).dz?'':'<div class="small">Así mides si sabes o adivinas: lo adivinado vuelve antes aunque aciertes.</div>')+'</div>');dz=$("#dz");if(!(G.flags||{}).dz){G.flags=G.flags||{};G.flags.dz=1;gsave()}$("#dudo").onclick=()=>answer(btns[pre].dataset.l,0)}};
  btns.forEach((b,i)=>b.onclick=()=>{if(pre===i)return answer(b.dataset.l,1);mark(i)})}
 let KEYNAV=null;
 function quick(q,label,cb){MODE=MODE==="world"?"dialog":MODE;renderQ(q,label,0,cb)}
@@ -1708,7 +1710,7 @@ function useMove(m){const q=BAT.qsrc();if(!q&&BAT.out)return BAT.out();const ph=
   if(ok){const mm=mult(m.type,f.type);const pow=m.power+(a.evo?10:0);const st=BAT.streak||0;BAT.streak=st+1;const xm=(st>=1?1.5:1)*(BAT.crit?1.5:1);const d=Math.round((BAT.kind==="boss"?11:BAT.kind==="rboss"?9:46)*(pow/40)*mm*xm*(0.9+a.lvl*0.02));f.hp=Math.max(0,f.hp-d);sfx.hit();addXP(a,BAT.xp);S.team.filter(c=>c!==a&&c.hp>0).forEach(c=>addXP(c,BAT.xp>>1));
    const eff=(mm>1?" ¡Es súper eficaz!":mm<1?" No es muy eficaz…":"")+(BAT.crit?" ¡CRÍTICO! (recordada de examen)":"")+(st>=1?" 🔥 Racha ×1.5.":"");
    if(f.hp<=0){if(BAT.kind==="boss")return bossCheck(m.name+": "+d+" de daño."+eff);BAT.fi++;if(BAT.fi>=BAT.foes.length)return winBattle(m.name+" acabó con "+f.name+"."+eff);return menuBattle(f.name+" cayó."+eff+" Siguiente: "+foe().name+".")}
-   if(BAT.kind==="boss")return bossCheck(m.name+": "+d+" de daño."+eff);menuBattle(m.name+" causó "+d+" de daño."+eff)}
+   if(BAT.kind==="boss")return bossCheck(m.name+": "+d+" de daño."+eff);if(BAT.onHit&&BAT.onHit(m.name+" causó "+d+" de daño."+eff))return;menuBattle(m.name+" causó "+d+" de daño."+eff)}
   else{BAT.streak=0;foeTurnNoQ("¡Fallaste! "+f.name+" contraataca.",true)}}}
 function foeTurnNoQ(msg,heavy){const a=active();const ph=BAT&&BAT.kind==="boss"?bossPhase():0;const d=Math.round(a.max*(heavy?(ph===4?.5:.35):.2));a.hp=Math.max(0,a.hp-d);save();hud();vib([60,30,60]);
  if(a.hp<=0){sfx.faint();if(!active())return lose();return menuBattle(msg+" "+cName(a)+" se debilitó. Sale "+cName(active())+".")}menuBattle(msg+" −"+d+" PS.")}
@@ -1774,7 +1776,9 @@ function bossArena(){if(lowA()&&!bossArena.ok){const d=document.createElement("d
 function bossPhase(){const h=S.boss.hp;return h>75?1:h>50?2:h>25?3:4}
 let bossQi=0;
 function startBoss(){const ph=bossPhase();S.boss.phase=ph;const pq=()=>{const P0=STORY.boss.phases[bossPhase()-1]||{};let list=PLAN.boss[bossPhase()-1].map(id=>ALL[id]).filter(Boolean);const won=q=>S.srs[q.id]&&S.srs[q.id].last===1&&Date.now()-(S.srs[q.id].t||0)<36e5;let c=list.filter(q=>!won(q));if(!c.length){const ex=topicPick(P0.topics||[P0.name||META.title],6,new Set(list.map(q=>q.id))).filter(q=>!won(q)&&!q.vf);c=ex.length?ex:list}const q=c[bossQi%c.length];bossQi++;return q};
- const P=STORY.boss.phases[ph-1];dialog(P?[["FASE "+ph+" · "+P.name,""],...P.lines].filter(l=>l[1]!==""||l[0].startsWith("FASE")).map(l=>l[1]?l:[l[0],"¡Comienza la fase "+ph+"!"]):[],()=>{
+ /* jefe ágil: 1 cuadro por fase (nombre + primera línea); el resto de las líneas solo la primera vez que se ve la fase */
+ const P=STORY.boss.phases[ph-1];const L0=((P&&P.lines)||[]).filter(l=>l&&l[1]);const fk="bph"+ph,first=!S.flags[fk];S.flags[fk]=1;save();
+ dialog(P?[["FASE "+ph+" · "+P.name+(L0[0]?" · "+L0[0][0]:""),L0[0]?L0[0][1]:"¡Comienza la fase "+ph+"!"],...(first?L0.slice(1,4):[])]:[],()=>{
   battle({kind:"boss",foes:[{name:META.bossShort+" · F"+ph,type:(P&&P.type)||"Molecular",get hp(){return S.boss.hp},set hp(v){S.boss.hp=v;save()},max:100}],qsrc:pq,xp:30,label:"👑 "+META.bossShort.toUpperCase()+" F"+ph})})}
 function bossCheck(msg){const ph=bossPhase();if(S.boss.hp<=0)return bossWin();if(ph!==S.boss.phase){S.boss.phase=ph;sfx.roar();return modal(msg+"<br><b>¡"+esc(META.bossShort)+" "+esc(META.bossChange)+"!</b>",()=>{BAT=null;startBoss()})}menuBattle(msg)}
 function bossWin(){BAT=null;S.done=true;const fr=!G.done[META.id];G.done[META.id]=1;S.nefWon=Math.round(1000*S.stats.ok/Math.max(1,S.stats.n));G.nef=(G.nef||0)+S.nefWon;gsave();save();sfx.lvl();music("victory");vib([100,50,100,50,300]);dialog(STORY.boss.outro,ending)}
@@ -1823,9 +1827,11 @@ function title(){MODE="title";clearAll();duck(0);music("title");OVER=drawTitle;d
   '<div class="row"><button class="btn" id="t1">'+(S.flags.in_0?"▶ CONTINUAR "+esc(META.id):"▶ JUGAR "+esc(META.id))+'</button>'+(multi?'<button class="btn" id="t4">🗺 MAPA</button><button class="btn" id="t8">🏛 TORRE</button>':'')+'</div>'+
   '<div class="row"><button class="btn big" id="tg">⚔ GUARDIA DE HOY (20 preguntas)</button></div>'+
   '<div class="row"><button class="btn alt" id="t9">📅 CASO DEL DÍA'+(cd?' ✓':'')+'</button><button class="btn alt" id="t3">REPASO ('+dueCount()+')</button><button class="btn alt" id="t6">📊 DOMINIO</button><button class="btn alt" id="t7">💤 SIESTA</button><button class="btn alt" id="t2">CHEQUEO DE ALERTA</button><button class="btn alt" id="t5">💾 PARTIDA</button></div>'+
-  '<div class="small" title="'+esc(LG.map(x=>(x[2]?"✓ ":"· ")+x[1]).join("\n"))+'">🏅 Logros '+got.length+'/'+LG.length+': '+LG.map(x=>x[2]?x[0]:'<span style="opacity:.3">'+x[0]+'</span>').join(" ")+(got.length?' <span class="small">('+esc(got.map(x=>x[1]).join(" · "))+')</span>':'')+'</div>'+
+  '<div class="small" title="'+esc(LG.map(x=>(x[2]?"✓ ":"· ")+x[1]).join("\n"))+'">🏅 Logros '+got.length+'/'+LG.length+': '+LG.filter(x=>x[0]!=="📗").map(x=>x[2]?x[0]:'<span style="opacity:.3">'+x[0]+'</span>').join(" ")+' · 📗 temas '+LG.filter(x=>x[0]==="📗"&&x[2]).length+'/'+LG.filter(x=>x[0]==="📗").length+(got.length?' <span class="small">('+esc(got.slice(-4).map(x=>x[1]).join(" · "))+')</span>':'')+'</div>'+
   '<details class="box small"><summary>▸ '+esc(META.id+" · "+META.title)+' · cómo se juega</summary>'+STORY.zones.length+' zonas, '+STORY.zones.reduce((a,z)=>a+z.trainers.length,0)+' entrenadores, '+STORY.zones.reduce((a,z)=>a+z.minigames.length,0)+' minijuegos y el jefe '+esc(META.bossShort)+' en '+STORY.boss.phases.length+' fases. 😴 = despertador. Muévete con las flechas (o WASD). <b>A</b>/Z = acción, <b>B</b>/X = menú. Tras cada respuesta: <b>✔ SEGURO</b> o <b>? DUDÉ</b> (lo dudado vuelve antes). Tu avance se guarda en este navegador.</details>';
  const go=()=>{unlockAudio();if(!S.flags.in_0){MODE="dialog";return enterZone(0)}if(S.boss&&!S.done)return bossArena();enterZone(S.zone,true)};$("#t1").onclick=go;KEYA=go;
+ if($("#tplan"))$("#tplan").onclick=()=>{unlockAudio();guardia(title,planTemas(),"🎯 PLAN 70 %")};if($("#tsim"))$("#tsim").onclick=()=>torre(title);
+ const dj=diarioList();if(dj.length){$("#t5").insertAdjacentHTML("afterend",'<button class="btn alt" id="t10">📓 DIARIO DE J. ('+dj.length+')</button>');$("#t10").onclick=()=>modal('<div class="who">📓 DIARIO DEL DR. J.</div>'+dj.map(f=>'<div class="box small"><b>Racha '+f.r+':</b> '+f.lines.map(l=>(l[0]?'<b>'+esc(l[0])+':</b> ':'')+esc(l[1])).join("<br>")+'</div>').join(""))}
  if(multi){$("#t4").onclick=()=>mapa(title);$("#t8").onclick=()=>torre(title)}
  $("#t5").onclick=()=>partida(title);$("#t2").onclick=()=>pvt(title);$("#t3").onclick=()=>review(title);$("#tg").onclick=()=>{unlockAudio();guardia(title)};if($("#tz"))$("#tz").onclick=()=>despertar(title);
  $("#t6").onclick=()=>dominio(title);$("#t7").onclick=()=>siesta(title);$("#t9").onclick=()=>{unlockAudio();casoDia(title)}}
@@ -1847,7 +1853,9 @@ function fcastTxt(){const F=pronostico();if(F.n<30)return'📈 Pronóstico del e
 function logros(){const L=G.logros=G.logros||{};const T0=tLoad();const T=temaStats();const rec=Object.values(TB).filter(isRecall);
  const def=[["rec","🎓","Todas las recordadas vistas",rec.length>0&&rec.every(q=>GS[q.id])],["tema","📗","Un tema 100 % cubierto",Object.values(T).some(t=>t.tot>=5&&t.seen===t.tot)],
   ["seq","💯","100 aciertos seguidos",(G.seqMax||0)>=100],["pisos","🏛","6 pisos con ≥70 %",[1,2,3,4,5,6].every(k=>((T0.floors||{})[k]||0)>=70)],
-  ["racha","🔥","Racha de 7 días",racha()>=7],["rboss","👑","Un jefe de región vencido",Object.keys(G.rboss||{}).length>0],["cdd","📅","7 casos del día seguidos",(G.cddMax||0)>=7]];
+  ["racha","🔥","Racha de 7 días",racha()>=7],["rboss","👑","Un jefe de región vencido",Object.keys(G.rboss||{}).length>0],["cdd","📅","7 casos del día seguidos",(G.cddMax||0)>=7],
+  /* uno por tema del temario: ≥80 % de sus preguntas vistas y ≥70 % de aciertos */
+  ...Object.values(T).filter(t=>t.tot>=3).sort((a,b)=>a.id-b.id).map(t=>["t"+t.id,"📗","Tema "+t.id+": "+shortT(t.name),t.cov>=.8&&t.acc>=.7])];
  const nuevos=def.filter(d=>d[3]&&!L[d[0]]);nuevos.forEach(d=>{L[d[0]]=Date.now();setTimeout(()=>toast("🏅 Logro: "+d[2]),300)});if(nuevos.length)gsave();return def.map(d=>[d[1],d[2],!!L[d[0]]])}
 
 /* ================= lista con reaprendizaje en la misma sesión ================= */
@@ -1878,7 +1886,7 @@ function guardia(back,temas,label){held=null;MODE="dialog";clearAll();music("puz
  const run=pred=>runList(qs,(q,k,list,again)=>(label||"⚔ GUARDIA")+" · "+(again?"🔁 reingreso":"🛏 cama "+(k+1)+"/"+N)+" · "+(q.tema||"").slice(0,24),R=>{const min=Math.max(1,(Date.now()-t0)/6e4);sfx.lvl();
    const h=hoyF();if(!G.grec||G.grec.f!==h)G.grec={f:h,b:0};const rec=R.ok>G.grec.b;G.grec.b=Math.max(G.grec.b,R.ok);G.pred=(G.pred||[]).concat([[pred,R.ok,R.n]]).slice(-10);const nef=R.ok*10;G.nef=(G.nef||0)+nef;gsave();
    const ec=R.res.filter(x=>!x[1]&&x[2]===1).length,du=R.res.filter(x=>x[1]&&x[2]===0).length;const M=pick(MENTOR);const D=diaHoy();
-   const hist=G.pred.slice(-5).map(p=>p[0]+"→"+p[1]).join(" · ");
+   const hist=G.pred.slice(-5).map(p=>p[0]+"→"+p[1]).join(" · ");G.ppm=+((G.ppm?G.ppm*.6:R.n/min*.6)+R.n/min*.4).toFixed(2);gsave();
    pn.innerHTML='<div class="who">'+esc(label||"⚔ GUARDIA DE HOY")+' · TERMINADA</div><div class="box"><b>🛏 '+R.ok+'/'+R.n+' pacientes estables</b> ('+Math.round(100*R.ok/Math.max(1,R.n))+' %) · '+(R.n/min).toFixed(1)+' preg/min'+(rec?' · ⭐ récord de hoy':'')+'<br>🔮 Predijiste '+pred+', real '+R.ok+(pred>R.ok+1?' → te sobrestimaste':pred<R.ok-1?' → sabes más de lo que crees':' → bien calibrado')+'<br><span class="small">Últimas: '+hist+'</span>'+(ec?'<br>⚠ '+ec+' error'+(ec>1?'es':'')+' confiado'+(ec>1?'s':'')+': vuelven mañana':'')+(du?' · '+du+' dudada'+(du>1?'s':'')+' en 2 días':'')+'<br>Hoy '+D.n+'/'+D.meta+' · vencidas '+dueCount()+' · +'+nef+' nefronas</div><div class="box small"><b>'+esc(M[0])+':</b> '+esc(M[1])+'</div><div class="row"><button class="btn" id="g1">⚔ OTRA GUARDIA</button><button class="btn alt" id="g2">ATRÁS</button></div>';
    logros();$("#g1").onclick=()=>guardia(back,temas,label);$("#g2").onclick=back;KEYA=back},{gen:1});
  predecir(N,run)}
@@ -1889,11 +1897,11 @@ function dominio(back,all){duck(0);held=null;MODE="dialog";clearAll();$("#ttl").
  const pv=(G.pvt||[]).slice(-5);const cal=Object.values(G.cal||{});const agg=k=>cal.reduce((a,c)=>[a[0]+((c[k]||[0,0])[0]),a[1]+((c[k]||[0,0])[1])],[0,0]);const s=agg("s"),dd=agg("d"),br=agg("b");const pc=a=>Math.round(100*a[0]/Math.max(1,a[1]));
  pn.innerHTML='<div class="who">📊 DOMINIO · faltan '+daysLeft()+' días</div><div class="row"><button class="btn big" id="d1">🎯 ESTUDIAR LO MÁS DÉBIL ('+esc(T.slice(0,3).map(t=>shortT(t.name)).join(", "))+')</button></div>'+
   '<div class="box small">'+fcastTxt()+((G.sue&&G.sue.f===hoyF()&&diaHoy().n)?'<br>😴 Hoy marcaste sueño en '+Math.round(100*G.sue.n/diaHoy().n)+' %'+(G.sue.n/diaHoy().n>.15?' — <b>más del 15 %: haz siesta</b>':''):'')+'<br><b>Calibración:</b> '+(s[1]?'con ✔ SEGURO aciertas '+pc(s)+' %':'aún sin datos')+(dd[1]?' · con ? DUDÉ '+pc(dd)+' %':'')+(br[1]?' · Brier '+(br[0]/br[1]).toFixed(2)+' (0 = perfecto)':'')+(s[1]>=10&&pc(s)<80?'<br><b>Te confías de más:</b> lo que juras saber falla. Ve los ⚠.':'')+'</div>'+
-  '<div class="small">Arriba = más peso × lo que falta. Color = aciertos (⚪ menos de 5); barra = cuánto del tema has visto. Meta: 🟢 ≥70 %. ⚠ = con SEGURO aciertas &lt;80 %.</div><table class="dom">'+
+  '<details class="small"><summary>▸ Cómo leer la tabla</summary>Arriba = más peso × lo que falta. Color = aciertos (⚪ menos de 5); barra = cuánto del tema has visto. Meta: 🟢 ≥70 %. ⚠ = con SEGURO aciertas &lt;80 %.</details><table class="dom">'+
   (all?T:T.slice(0,8)).map(t=>{const cs=t.cs[1]>=5?t.cs[0]/t.cs[1]:null;return'<tr><td>'+t.col+'</td><td>'+esc(t.name.length>44?t.name.slice(0,42)+"…":t.name)+'<div class="bar" style="height:5px;margin-top:2px"><i style="width:'+PCT(t.cov)+'%"></i></div></td><td>'+t.seen+'/'+t.tot+'</td><td>'+(t.seen>=5?PCT(t.acc)+'%':'—')+'</td><td>'+(cs===null?'':cs<.8?'⚠'+PCT(cs):'✔'+PCT(cs))+'</td></tr>'}).join("")+'</table>'+
   (all?'':'<div class="row"><button class="btn alt" id="dall">VER LOS '+T.length+' TEMAS</button></div>')+
   '<div class="box small"><b>Somnolencia (7 días):</b> '+al.length+' alertas'+(top.length?' · más a las '+top.map(x=>x[1]+' h').join(", "):'')+(pv.length?'<br><b>Chequeos de alerta:</b> '+pv.map(p=>p.m+' ms/'+p.lp+' lapsos').join(" · "):'')+'<br><span class="small">Muéstraselo a tu médico del sueño para ajustar siestas y horarios.</span></div><div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
- $("#d1").onclick=()=>guardia(()=>dominio(back),T.slice(0,3).map(t=>t.id),"🎯 LO MÁS DÉBIL");if($("#dall"))$("#dall").onclick=()=>dominio(back,1);$("#bk").onclick=back;KEYA=back}
+ pn.classList.add("f16");$("#d1").onclick=()=>guardia(()=>dominio(back),T.slice(0,3).map(t=>t.id),"🎯 LO MÁS DÉBIL");if($("#dall"))$("#dall").onclick=()=>dominio(back,1);$("#bk").onclick=back;KEYA=back}
 /* ================= SIESTA: repaso antes, pausa de alarma, recuperación al despertar ================= */
 function sleepy(){const a=(G.alh||[]).filter(t=>Date.now()-t<10*6e4);return a.length>=2}
 function siesta(back){back=back||title;held=null;MODE="dialog";clearAll();music(null);$("#ttl").textContent="💤 SIESTA";OVER=drawTitle;const h0=new Date();h0.setHours(0,0,0,0);
@@ -1910,7 +1918,7 @@ function despertar(back){back=back||title;const Z=G.siesta||{ids:[]};Z.ok=1;gsav
 /* caso del día: una serie recordada de examen elegida por la fecha (la misma en todos tus dispositivos); racha y récord propios */
 function casoDia(back){const h=hoyF();let s=7;for(const ch of h)s=(s*31+ch.charCodeAt(0))>>>0;const ser=[...new Set(Object.values(TB).filter(q=>q.serie_id&&isRecall(q)).map(q=>q.serie_id))].sort();if(!ser.length)return modal("No hay casos seriados en este archivo.",back);
  const qs=tSeries(ser[s%ser.length]);MODE="dialog";clearAll();$("#ttl").textContent="📅 CASO DEL DÍA";OVER=drawTitle;music("puzzle");let i=0,ok=0;
- const step=()=>{if(i>=qs.length){duck(0);const C=G.cdd||{},first=C.f!==h;if(first){G.cddR=(C.f===hoyF(Date.now()-DAY)?(G.cddR||0):0)+1;G.cddMax=Math.max(G.cddMax||0,G.cddR);G.cdd={f:h,ok,n:qs.length};G.nef=(G.nef||0)+Math.round(1000*ok/qs.length);gsave();logros()}
+ const step=()=>{if(i>=qs.length){duck(0);const C=G.cdd||{},first=C.f!==h;if(first){G.cddR=(C.f===hoyF(Date.now()-DAY)?(G.cddR||0):0)+1;G.cddMax=Math.max(G.cddMax||0,G.cddR);semUpd(null,0,1);G.cdd={f:h,ok,n:qs.length};G.nef=(G.nef||0)+Math.round(1000*ok/qs.length);gsave();logros()}
    return modal('<div class="who">📅 CASO DEL DÍA · '+ok+'/'+qs.length+'</div>'+(first?'+'+Math.round(1000*ok/qs.length)+' nefronas. ':'Ya lo hiciste hoy: cuenta el primer intento. ')+'🔥 Racha de casos: '+(G.cddR||0)+' días · récord '+(G.cddMax||0)+'.',back)}
   const q=qs[i];renderQ(q,"📅 CASO DEL DÍA "+(i+1)+"/"+qs.length,0,r=>{if(r)ok++;i++;step()},{glob:!ALL[q.id]})};step()}
 /* ================= pausas cada 20 min activos (la vigilancia cae a los 15–20 min) ================= */
@@ -1920,14 +1928,40 @@ if(!BOT)setInterval(()=>{if(document.hidden||alertOn||Date.now()-lastPoke>90000)
  const n=sessN-qAt0,rate=(n/20).toFixed(1);actMin=0;blocks++;qAt0=sessN;const d=document.createElement("div");d.className="modal";
  d.innerHTML='<div class="box"><div class="who">⏸ PAUSA DE PIE · 3 MIN</div>Llevas 20 min: '+n+' preguntas ('+rate+'/min).'+(rate<1.5?' Rinde más la ⚔ GUARDIA que caminar.':'')+(blocks>=3?' Ya van '+blocks+' bloques: toca siesta.':'')+'<div class="row"><button class="btn" id="pa">LISTO, SIGO</button>'+(blocks>=3?'<button class="btn alt" id="pz">💤 SIESTA</button>':'')+'</div></div>';
  document.body.appendChild(d);const prevA=KEYA;d.querySelector("#pa").onclick=()=>{d.remove();KEYA=prevA};const z=d.querySelector("#pz");if(z)z.onclick=()=>{d.remove();blocks=0;siesta()};KEYA=()=>d.querySelector("#pa").click()},60000);
+/* ================= plan, simulacros fechados, semana y diario de J. ================= */
+/* plan ligado al pronóstico: los 3 temas donde más aciertos se ganan para llegar a 70 % (peso × lo que falta del tema) */
+function planGain(){const T=Object.values(temaStats());const W=T.reduce((a,t)=>a+t.meta,0)||1;return T.map(t=>{const p=t.cov*t.lp+(1-t.cov)*.35;return{t,g:300*t.meta/W*Math.max(0,.8-p)}}).sort((a,b)=>b.g-a.g)}
+const planTemas=()=>planGain().slice(0,3).map(x=>x.t.id);
+function planTxt(){const F=pronostico();if(F.n<30)return"";const need=Math.round(300*(.7-F.p));if(need<=0)return'<br>✅ Vas por encima de 70 %: sostén el repaso.';const g=planGain().slice(0,3);
+ return'<br>🎯 Para 70 %: <b>+'+need+' aciertos</b> en '+esc(g.map(x=>shortT(x.t.name)).join(", "))+' <button class="btn alt" id="tplan" style="padding:4px 6px;font-size:8px">🎯 IR</button>'}
+/* simulacros: parciales de 100 el 20-dic y el 3, 7 y 11 de enero; examen de 300 cada sábado hasta el 3-ene */
+function simList(){const L=[["2026-12-20","parcial"],["2027-1-3","parcial"],["2027-1-7","parcial"],["2027-1-11","parcial"]];const d=new Date(2026,10,28);while(d<new Date(2027,0,3)){L.push([d.getFullYear()+"-"+(d.getMonth()+1)+"-"+d.getDate(),"examen"]);d.setDate(d.getDate()+7)}
+ return L.map(([f,k])=>{const [y,m,dd]=f.split("-").map(Number);return{f:y+"-"+m+"-"+dd,t:new Date(y,m-1,dd).getTime(),k}}).sort((a,b)=>a.t-b.t)}
+function simInfo(){const T0=tLoad(),h=hoyF(),L=simList(),hoy=L.find(s=>s.f===h),done=(T0.sims||{})[h]!=null,nx=L.find(s=>s.t>Date.now());const nom=s=>s.k==="parcial"?"parcial de 100":"examen de 300";
+ const fd=s=>new Date(s.t).toLocaleDateString("es-MX",{weekday:"short",day:"numeric",month:"short"});
+ return{hoy:!!hoy&&!done,txt:hoy&&!done?'🏛 <b>Hoy toca simulacro: '+nom(hoy)+'</b> <button class="btn alt" id="tsim" style="padding:4px 6px;font-size:8px">🏛 IR</button>':hoy?'🏛 Simulacro de hoy hecho: '+T0.sims[h]+' %.'+(nx?' Siguiente: '+fd(nx)+' ('+nom(nx)+')':''):nx?'🏛 Próximo simulacro: '+fd(nx)+' ('+nom(nx)+')':''}}
+/* semana (lunes a domingo): preguntas, exactitud con SEGURO y casos del día, contra la mejor semana */
+const semKey=(t=Date.now())=>{const d=new Date(t);d.setHours(0,0,0,0);d.setDate(d.getDate()-((d.getDay()+6)%7));return hoyF(d.getTime())};
+function semUpd(c,ok,cdd){const k=semKey();let W=G.sem;if(!W||W.w!==k){if(W&&W.n){const B=G.semBest||{n:0,acc:0,cdd:0};const acc=W.sN?W.sOk/W.sN:0;G.semBest={n:Math.max(B.n,W.n),acc:Math.max(B.acc,+acc.toFixed(3)),cdd:Math.max(B.cdd,W.cdd||0)}}W=G.sem={w:k,n:0,sOk:0,sN:0,cdd:0}}
+ if(cdd)W.cdd++;else{W.n++;if(c===1){W.sN++;if(ok)W.sOk++}}}
+function semTxt(){const W=G.sem&&G.sem.w===semKey()?G.sem:null,B=G.semBest;if(!W&&!B)return"";const w=W||{n:0,sOk:0,sN:0,cdd:0};
+ return'📆 Semana: '+w.n+' preg · SEGURO '+(w.sN?PCT(w.sOk/w.sN)+' %':'—')+' · '+(w.cdd||0)+' casos'+(B?' · mejor: '+B.n+' / '+PCT(B.acc)+' % / '+B.cdd+(w.n>B.n?' · ⭐ récord':''):'')}
+/* diario del Dr. J. (data/diario_j.json): un fragmento al llegar a racha 3, 7, 14, 21, 30 y 45, una sola vez */
+const DJR=[3,7,14,21,30,45];
+function djFrag(r,i){const D=DIARIO_J||{};let f=Array.isArray(D)?D[i]:(D[r]||D[String(r)]);if(f==null&&!Array.isArray(D)&&Array.isArray(D.fragmentos))f=D.fragmentos[i];if(f==null)return null;
+ if(typeof f==="string")return[["Dr. J.",f]];if(Array.isArray(f))return f.map(l=>Array.isArray(l)?l:typeof l==="string"?["Dr. J.",l]:[l.quien||l.who||"Dr. J.",l.texto||l.text||""]);
+ const t=f.lineas||f.lines;if(Array.isArray(t))return t.map(l=>Array.isArray(l)?l:["Dr. J.",String(l.texto||l)]);return[[f.quien||f.titulo||"Dr. J.",f.texto||f.text||""]]}
+function diarioList(){const V=G.dj||{};return DJR.map((r,i)=>V[r]?{r,lines:djFrag(r,i)||[]}:null).filter(x=>x&&x.lines.length)}
+function diarioJ(){const r=racha();G.dj=G.dj||{};const i=DJR.indexOf(r);if(i<0||G.dj[r])return;const L=djFrag(r,i);if(!L||!L.length)return;G.dj[r]=Date.now();gsave();
+ modal('<div class="who">📓 DIARIO DEL DR. J. · RACHA '+r+'</div>'+L.slice(0,4).map(l=>(l[0]?'<b>'+esc(l[0])+':</b> ':'')+esc(l[1])).join("<br>"))}
 /* ================= panel HOY en la pantalla de inicio ================= */
 const hhmm=t=>{const d=new Date(t);return d.getHours()+":"+String(d.getMinutes()).padStart(2,"0")};
 function hoyBox(){const D=diaHoy();const due=dueCount();const pct=Math.min(100,Math.round(100*D.n/D.meta));const bk=G.bk?Math.floor((Date.now()-G.bk)/DAY):null;const R=ritmo();
  /* siesta programada: media hora antes de las 2 horas con más alertas de la última semana */
  const al=(G.alh||[]).filter(t=>Date.now()-t<7*DAY);const hrs=Array(24).fill(0);al.forEach(t=>hrs[new Date(t).getHours()]++);const pk=al.length>=3?hrs.map((n,h)=>[n,h]).filter(x=>x[0]>=2).sort((a,b)=>b[0]-a[0]).slice(0,2).map(x=>x[1]).sort((a,b)=>a-b):[];
- const T0=tLoad(),now=Date.now(),simu=now>=JAN3&&now<EXAM&&(!T0.lastEx||now-T0.lastEx>=3*DAY);
- return '<div class="box small hoy">📅 Faltan <b>'+daysLeft()+' días</b> para el Consejo (16 ene) · 🔥 racha '+racha()+(G.fichas?' · 🎫 '+G.fichas+' ficha'+(G.fichas>1?'s':''):'')+'<div class="bar"><i style="width:'+pct+'%"></i></div>Hoy: <b>'+D.n+'/'+D.meta+'</b> preguntas'+(D.n?' ('+Math.round(100*D.ok/D.n)+' %)':'')+' · vencidas: '+due+
-  '<br>🆕 Nuevas hoy '+(D.nw||0)+'/'+D.per+' · ritmo necesario <b>'+R.per+'/día</b> ('+R.un+' sin ver; meta: todo antes del 3 ene)<br>'+fcastTxt()+
+ const SI=simInfo(),SM=semTxt(),ppm=G.ppm||1,falta=Math.max(0,D.meta-D.n),simu=0;
+ return '<div class="box small hoy">📅 Faltan <b>'+daysLeft()+' días</b> para el Consejo (16 ene) · 🔥 racha '+racha()+(G.fichas?' · 🎫 '+G.fichas+' ficha'+(G.fichas>1?'s':''):'')+'<div class="bar"><i style="width:'+pct+'%"></i></div>Hoy: <b>'+D.n+'/'+D.meta+'</b> preguntas'+(D.n?' ('+Math.round(100*D.ok/D.n)+' %)':'')+' · vencidas: '+due+(falta?' · faltan '+falta+' ≈ <b>'+Math.round(falta/ppm)+' min</b> (a '+ppm.toFixed(1)+'/min)':'')+
+  '<br>🆕 Nuevas hoy '+(D.nw||0)+'/'+D.per+' · ritmo necesario <b>'+R.per+'/día</b> ('+R.un+' sin ver; meta: todo antes del 3 ene)<br>'+fcastTxt()+planTxt()+'<br>'+SI.txt+(SM?'<br>'+SM:'')+
   (lowA()?'<br>🟠 <b>Alerta baja hasta las '+hhmm(G.lowUntil)+'</b>: solo vencidas y no se califica.':'')+
   (pk.length?'<br>💤 Siesta sugerida a las '+pk.map(h=>((h+23)%24)+':30').join(" y ")+' (antes de tus horas de más sueño)':'')+
   (simu?'<br>🏛 <b>Hoy toca simulacro</b>: examen de la Torre (cada 3 días, del 3 al 14 de enero).':'')+
@@ -1943,28 +1977,35 @@ const passed=id=>!!(G.done[id]||(G.skip||{})[id]);
 function blocker(id,built){const r=regionOf(id);const ls=(r.levels||[]).map(l=>l[0]).filter(x=>built.has(x));const k=ls.indexOf(id);if(k<=0||passed(id)||started(id))return null;for(let j=0;j<k;j++)if(!passed(ls[j]))return ls[j];return null}
 /* preguntas del tema de un nivel tomadas del banco completo: por subtema; si son pocas, por tema */
 function lvPool(id,min=5){const L=LVL(id);if(!L)return[];const subs=new Set((L.bank||[]).map(q=>q.sub).filter(Boolean)),tem=new Set((L.bank||[]).map(q=>q.tema_id));let p=Object.values(TB).filter(q=>subs.has(q.sub));if(p.length<min)p=Object.values(TB).filter(q=>tem.has(q.tema_id));return p}
-function entrada(id,back){const qs=shuf(lvPool(id).filter(q=>!q.serie_id||q.orden===1)).sort((a,b)=>(isRecall(b)?1:0)-(isRecall(a)?1:0)).slice(0,5);
+/* prueba de entrada: para saltar, 5/5 o 4/5 sin fallar ninguna recordada; si no, 24 h de espera; lo fallado entra al repaso en caja 0 */
+function entrada(id,back){G.entT=G.entT||{};const wait=(G.entT[id]||0)+DAY-Date.now();if(wait>0)return modal("🚪 Ya intentaste saltar el nivel "+esc(id)+". Vuelve en "+Math.ceil(wait/36e5)+" h, o juégalo: es la mejor preparación.",()=>mapa(back));const qs=shuf(lvPool(id).filter(q=>!q.serie_id||q.orden===1)).sort((a,b)=>(isRecall(b)?1:0)-(isRecall(a)?1:0)).slice(0,5);
  const pass=()=>{G.skip=G.skip||{};G.skip[id]=1;gsave()};if(qs.length<5){pass();return modal("Este nivel no tiene banco suficiente para la prueba: queda saltado.",()=>mapa(back))}
- MODE="dialog";clearAll();music("puzzle");$("#ttl").textContent="🚪 PRUEBA DE ENTRADA";OVER=drawTitle;let i=0,ok=0;
- const step=()=>{if(i>=qs.length){duck(0);const p=ok>=4;if(p)pass();sfx[p?"door":"locked"]();return modal('<div class="who">🚪 PRUEBA DE ENTRADA · '+esc(id)+' · '+ok+'/5</div>'+(p?'Saltas el nivel '+esc(id)+' y se abre el siguiente. Puedes jugarlo cuando quieras.':'Necesitas 4/5. Juega el nivel '+esc(id)+' o vuelve a intentarlo luego: lo que fallaste ya está en tu repaso.'),()=>mapa(back))}
-  const q=qs[i];renderQ(q,"🚪 PRUEBA "+id+" · "+(i+1)+"/5",0,r=>{if(r)ok++;i++;step()},{glob:!ALL[q.id]})};step()}
+ MODE="dialog";clearAll();music("puzzle");$("#ttl").textContent="🚪 PRUEBA DE ENTRADA";OVER=drawTitle;let i=0,ok=0,recF=0;const bad=[];
+ const step=()=>{if(i>=qs.length){duck(0);const p=ok===5||(ok===4&&!recF);if(p)pass();else G.entT[id]=Date.now();bad.forEach(q=>{const r=GS[q.id]||{};r.b=0;r.due=Date.now();r.last=0;r.t=r.t||Date.now();GS[q.id]=r});gssave();gsave();sfx[p?"door":"locked"]();return modal('<div class="who">🚪 PRUEBA DE ENTRADA · '+esc(id)+' · '+ok+'/5</div>'+(p?'Saltas el nivel '+esc(id)+' y se abre el siguiente. Puedes jugarlo cuando quieras.':'Necesitas 5/5, o 4/5 sin fallar recordadas. Juega el nivel '+esc(id)+' o reintenta en 24 h. Lo fallado ya está en tu repaso.'),()=>mapa(back))}
+  const q=qs[i];renderQ(q,"🚪 PRUEBA "+id+" · "+(i+1)+"/5",0,r=>{if(r)ok++;else{bad.push(q);if(isRecall(q))recF++}i++;step()},{glob:!ALL[q.id]})};step()}
 /* ---------- jefes de región: opcionales, se abren al superar la región; 15 preguntas recordadas de examen de sus temas ---------- */
-function rbossQs(r){const tem=new Set();r.levels.forEach(([id])=>{const L=LVL(id);if(L)(L.bank||[]).forEach(q=>tem.add(q.tema_id))});const all=Object.values(TB).filter(q=>tem.has(q.tema_id));
- const rec=shuf(all.filter(isRecall)).sort((a,b)=>(GS[a.id]?1:0)-(GS[b.id]?1:0)),rest=shuf(all.filter(q=>!isRecall(q))).sort((a,b)=>(b.peso||0)-(a.peso||0));return rec.concat(rest).slice(0,15)}
+/* revancha (ya vencido): primero recordadas falladas o no vistas de la región */
+function rbossQs(r){const tem=new Set();r.levels.forEach(([id])=>{const L=LVL(id);if(L)(L.bank||[]).forEach(q=>tem.add(q.tema_id))});const all=Object.values(TB).filter(q=>tem.has(q.tema_id));const rev=!!(G.rboss||{})[r.id];
+ const rk=q=>!GS[q.id]||(rev&&GS[q.id].last===0)?0:1;const rec=shuf(all.filter(isRecall)).sort((a,b)=>rk(a)-rk(b)),rest=shuf(all.filter(q=>!isRecall(q))).sort((a,b)=>(b.peso||0)-(a.peso||0));return rec.concat(rest).slice(0,15)}
 function rboss(r,back){const qs=rbossQs(r),name=r.boss||"Jefe de región";if(qs.length<5)return modal("Faltan preguntas de esta región en este archivo.",back);S.team.forEach(c=>c.hp=c.max);if(!S.team.length){S.team.push(mkCrea(STORY.creatures[0].id));save()}let qi=0;
  const end=msg=>{BAT=null;clearAll();duck(0);S.team.forEach(c=>c.hp=c.max);save();hud();music("map");modal(msg,()=>mapa(back))};MODE="dialog";$("#ttl").textContent="👑 "+name.toUpperCase();OVER=null;music("boss");sfx.roar();
  dialog([[name,r.intro||("Superaste la región "+r.id+".")],["Dr. J.",qs.length+" recordadas del examen. Si ganas: nefronas, 🎫 ficha y tu equipo sube."]],()=>
-  battle({kind:"rboss",who:name,foes:[{name,type:r.type||"Molecular",hp:100,max:100}],glob:true,xp:25,label:"👑 "+name,qsrc:()=>qi<qs.length?qs[qi++]:null,
+  /* 3 fases por umbral de vida (66 / 33); BAT.rph y BAT.rb quedan para el sprite (r.form, r.color) */
+  battle({kind:"rboss",rb:r,rph:1,who:name,foes:[{name,type:r.type||"Molecular",hp:100,max:100}],glob:true,xp:25,label:"👑 "+name,qsrc:()=>qi<qs.length?qs[qi++]:null,
+   onHit:msg=>{const f=BAT.foes[0],ph=f.hp>66?1:f.hp>33?2:3;if(ph===BAT.rph)return false;BAT.rph=ph;f.name=name+" · F"+ph;BAT.label="👑 "+name+" F"+ph;sfx.roar();BAT.streak=0;modal(esc(msg)+'<br><b>¡'+esc(name)+' cambia: FASE '+ph+'!</b>'+(ph===3?' Última fase.':''),()=>menuBattle(""));return true},
    out:()=>end(name+" resiste: se acabaron las "+qs.length+" preguntas. Repasa y vuelve."),flee:()=>end("Saliste. "+name+" te espera."),onLose:()=>end("Tu equipo cayó ante "+name+". Se recupera; vuelve cuando quieras."),
    win:()=>{const b=BAT0,ratio=(b.hits||0)/Math.max(1,b.asked||1),first=!(G.rboss||{})[r.id];G.rboss=G.rboss||{};G.rboss[r.id]={t:Date.now(),ok:b.hits||0,n:b.asked||0};const nef=Math.round(3000*ratio);G.nef=(G.nef||0)+nef;G.fichas=(G.fichas||0)+1;
-    if(first)S.team.forEach(c=>addXP(c,Math.max(1,need(c.lvl)-c.xp)));S.team.forEach(c=>c.hp=c.max);save();gsave();logros();
-    dialog([[name,r.outro||"Entendiste el mecanismo. Te dejo pasar."],["Dr. J.","+"+nef.toLocaleString("es-MX")+" nefronas y 🎫 ficha de revivir"+(first?". Tu equipo sube un nivel.":".")]],()=>mapa(back))}}))}
+    if(first)S.team.forEach(c=>addXP(c,Math.max(1,need(c.lvl)-c.xp)));S.team.forEach(c=>c.hp=c.max);
+    /* criatura legendaria de la región (regiones.json "legendaria"): se une la primera vez */
+    const lg=r.legendaria&&CREA[r.legendaria]&&!S.team.concat(S.box).some(c=>c.id===r.legendaria)?r.legendaria:null;if(lg){const c=mkCrea(lg);c.lvl=Math.max(c.lvl,...S.team.map(x=>x.lvl));c.max=30+4*(c.lvl-3);c.hp=c.max;if(S.team.length<6)S.team.push(c);else S.box.push(c);G.leg=G.leg||{};G.leg[lg]=Date.now()}
+    save();gsave();logros();
+    dialog([[name,r.outro||"Entendiste el mecanismo. Te dejo pasar."],["Dr. J.","+"+nef.toLocaleString("es-MX")+" nefronas y 🎫 ficha de revivir"+(first?". Tu equipo sube un nivel.":".")]],()=>lg?modal('<div class="who">✨ CRIATURA LEGENDARIA</div><b>'+esc(CREA[lg].name)+'</b> se unió '+(S.team.some(c=>c.id===lg)?'a tu equipo':'a tu caja')+'.',()=>mapa(back)):mapa(back))}}))}
 /* mapa de regiones: elegir nivel recarga la página con ese nivel */
 function mapa(back){duck(0);window._TS=null;MODE="dialog";clearAll();music("map");_MAPST=null;OVER=drawMapa;$("#ttl").textContent="🗺 MAPA";const built=new Set(LEVELS.map(l=>l.story.meta.id));const RB=G.rboss||{};
- pn.innerHTML='<div class="who">🗺 MAPA · '+Object.keys(G.done).length+' superados · '+(G.nef||0).toLocaleString("es-MX")+' nefronas salvadas'+(G.fichas?' · 🎫 '+G.fichas:'')+'</div><div class="row"><button class="btn" id="tw">🏛 TORRE DEL CONSEJO</button><button class="btn alt" id="bk">ATRÁS</button></div><div class="small">Dentro de cada región, en orden. ¿Ya dominas un nivel? Toca el 🔒 y salta con una prueba de 5 preguntas.</div>'+
+ pn.innerHTML='<div class="who">🗺 MAPA · '+Object.keys(G.done).length+' superados · '+(G.nef||0).toLocaleString("es-MX")+' nefronas salvadas'+(G.fichas?' · 🎫 '+G.fichas:'')+'</div><div class="row"><button class="btn" id="tw">🏛 TORRE DEL CONSEJO</button><button class="btn alt" id="bk">ATRÁS</button></div><details class="small"><summary>▸ Cómo se abren los niveles</summary>Dentro de cada región, en orden. ¿Ya dominas un nivel? Toca el 🔒 y salta con una prueba de 5 preguntas (5/5, o 4/5 sin fallar ninguna recordada; si no, espera 24 h).</details>'+
   REGIONS.map(r=>{const ls=r.levels.filter(l=>built.has(l[0])),np=ls.filter(l=>passed(l[0])).length;return'<div class="box small"><b>Región '+r.id+' · '+esc(r.name)+'</b> <span class="tag">ACTO '+esc(r.acto)+'</span><br>'+r.levels.map(([id,name])=>{if(!built.has(id))return'<div class="small" style="opacity:.55;margin:3px 0">🔒 '+esc(id+' · '+name)+' (en construcción)</div>';const bl=blocker(id,built);
     return'<button class="opt" data-lv="'+esc(id)+'"'+(bl?' data-lock="'+esc(bl)+'" style="opacity:.62"':'')+'><b>'+(G.done[id]?'✓':(G.skip||{})[id]?'»':bl?'🔒':'▶')+'</b>'+esc(id+' · '+name)+(id===META.id?' · AQUÍ':'')+lvInfo(id)+'</button>'}).join("")+
-   (r.boss&&ls.length?(np===ls.length?'<button class="opt" data-rb="'+r.id+'"><b>👑</b>Jefe de región: '+esc(r.boss)+(RB[r.id]?' ✓ '+RB[r.id].ok+'/'+RB[r.id].n:' · opcional, con recompensa')+'</button>':'<div class="small" style="opacity:.6;margin:3px 0">👑 '+esc(r.boss)+': supera la región ('+np+'/'+ls.length+')</div>'):'')+'</div>'}).join("")+'<div class="row"><button class="btn alt" id="bk2">ATRÁS</button></div>';
+   (r.boss&&ls.length?(np===ls.length?'<button class="opt" data-rb="'+r.id+'"><b>👑</b>Jefe de región: '+esc(r.boss)+(RB[r.id]?' ✓ '+RB[r.id].ok+'/'+RB[r.id].n:' · opcional, con recompensa')+'</button>':'<div class="small" style="opacity:.6;margin:3px 0">👑 '+esc(r.boss)+': supera la región ('+np+'/'+ls.length+')</div>'):'')+'</div>'}).join("")+'<div class="row"><button class="btn alt" id="bk2">ATRÁS</button></div>';pn.classList.add("f16");
  $("#tw").onclick=()=>torre(()=>mapa(back));
  pn.querySelectorAll("[data-lv]").forEach(b=>b.onclick=()=>{const id=b.dataset.lv,bl=b.dataset.lock;
   if(bl){const d=document.createElement("div");d.className="modal";d.innerHTML='<div class="box"><div class="who">🔒 '+esc(id)+'</div>Se abre al superar el nivel '+esc(bl)+'. ¿Ya lo dominas? Prueba de entrada: 5 preguntas de su tema; con 4/5 lo saltas.<div class="row"><button class="btn" id="pe">🚪 PRUEBA DE ENTRADA ('+esc(bl)+')</button><button class="btn alt" id="pc">CANCELAR</button></div></div>';document.body.appendChild(d);
@@ -1988,16 +2029,17 @@ function torreFails(){const ids=new Set();LEVELS.forEach(l=>{try{const s=JSON.pa
  Object.entries(tLoad().fails||{}).forEach(([id,v])=>{if(v&&TB[id])ids.add(id)});return [...ids]}
 /* pisos en orden (el siguiente se abre con ≥70 % en el anterior); revancha y examen siempre abiertos */
 function torre(back){duck(0);MODE="dialog";clearAll();held=null;music("torre");const T0=tLoad(),done=Object.keys(G.done).length,fl=T0.floors||{},fails=torreFails();
- $("#ttl").textContent="TORRE DEL CONSEJO";OVER=drawTorre;const now=Date.now(),simu=now>=JAN3&&now<EXAM&&(!T0.lastEx||now-T0.lastEx>=3*DAY);const open=k=>k===1||(fl[k-1]||0)>=70;
- pn.innerHTML='<div class="who">🏛 TORRE DEL CONSEJO</div><div class="box small">La Esclerosis tomó la torre. 6 pisos de 50 preguntas de todos los temas, ponderadas por el temario; súbelos en orden (≥70 % abre el siguiente). Niveles superados: '+done+'/'+LEVELS.length+'.'+(T0.best?' Mejor examen: '+T0.best+' %.':'')+(simu?'<br>🏛 <b>Hoy toca simulacro</b> (cada 3 días del 3 al 14 de enero).':'')+'</div>'+
+ $("#ttl").textContent="TORRE DEL CONSEJO";OVER=drawTorre;const SI=simInfo(),simu=SI.hoy;const open=k=>k===1||(fl[k-1]||0)>=70;
+ pn.innerHTML='<div class="who">🏛 TORRE DEL CONSEJO</div><div class="box small">La Esclerosis tomó la torre. 6 pisos de 50 preguntas de todos los temas, ponderadas por el temario; súbelos en orden (≥70 % abre el siguiente). Niveles superados: '+done+'/'+LEVELS.length+'.'+(T0.best?' Mejor examen: '+T0.best+' %.':'')+(simu?'<br>🏛 <b>Hoy toca simulacro</b>: '+esc(SI.txt.replace(/<[^>]+>/g,"").replace("🏛 IR","").replace("🏛 Hoy toca simulacro: ",""))+'.':'')+'</div>'+
   (T0.run&&T0.run.ids&&T0.run.i<T0.run.ids.length?'<button class="opt" id="tr"><b>▶</b>Continuar '+esc(T0.run.label)+' ('+T0.run.i+'/'+T0.run.ids.length+')</button>':'')+
   '<button class="opt" id="t0"><b>0</b>Antesala · Revancha de errores ('+fails.length+')</button>'+
   [1,2,3,4,5,6].map(k=>'<button class="opt" data-fl="'+k+'"'+(open(k)?'':' data-lock="1" style="opacity:.55"')+'><b>'+(fl[k]!=null?'✓':open(k)?k:'🔒')+'</b>Piso '+k+(k===6?' · La Esclerosis':' · entrenamiento')+(fl[k]!=null?' · '+fl[k]+' %':'')+(open(k)?'':' · necesita ≥70 % en el piso '+(k-1))+'</button>').join("")+
-  '<div class="who" style="margin-top:6px">MODO EXAMEN · 300 de corrido, sin explicación hasta el final</div><div class="row">'+[60,72,90].map(s=>'<button class="btn alt" data-ex="'+s+'">'+s+' s/preg</button>').join("")+'</div><div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
+  '<div class="who" style="margin-top:6px">MODO EXAMEN · 300 de corrido, sin explicación hasta el final</div><div class="row">'+[60,72,90].map(s=>'<button class="btn alt" data-ex="'+s+'">'+s+' s/preg</button>').join("")+'<button class="btn alt" data-px="1">PARCIAL 100</button></div><div class="row"><button class="btn alt" id="bk">ATRÁS</button></div>';
  const go=(run)=>{tSave(Object.assign(tLoad(),{run}));torreRun(back)};
  if($("#tr"))$("#tr").onclick=()=>torreRun(back);
  $("#t0").onclick=()=>{if(!fails.length)return modal("No tienes preguntas falladas pendientes. ¡Sube a los pisos!");go({label:"Revancha de errores",ids:shuf(fails),i:0,ans:{},fb:true,kind:"rev"})};
  pn.querySelectorAll("[data-fl]").forEach(b=>b.onclick=()=>{const k=+b.dataset.fl;if(b.dataset.lock)return modal("Sube en orden: logra ≥70 % en el piso "+(k-1)+". La revancha y el examen completo siempre están abiertos.");go({label:"Piso "+k,ids:torreBuild(50),i:0,ans:{},fb:true,kind:"floor",floor:k})});
+ pn.querySelectorAll("[data-px]").forEach(b=>b.onclick=()=>modal("Simulacro parcial: 100 preguntas, 120 minutos, sin explicación hasta el final. ¿Listo?",()=>go({label:"Parcial",ids:torreBuild(100),i:0,ans:{},fb:false,kind:"parcial",left:100*72}),"EMPEZAR"));
  pn.querySelectorAll("[data-ex]").forEach(b=>b.onclick=()=>{const s=+b.dataset.ex;modal((lowA()?"🟠 <b>Alerta baja:</b> no se calificará y el resultado subestimará lo que sabes. Mejor DESPERTADOR primero.<br>":"")+"Examen completo: 300 preguntas, "+Math.round(300*s/60)+" minutos. El avance se guarda si cierras. ¿Listo?",()=>go({label:"Examen",ids:torreBuild(300),i:0,ans:{},fb:false,kind:"exam",left:300*s}),"EMPEZAR")});
  $("#bk").onclick=back;KEYA=null}
 const EPILOGO=[["Residente","Ya no memorizo algoritmos. Pregunto por qué."],["Dr. J.","Elisa, esta vez sí lo vimos a tiempo."],["Valeria","Entender le ganó a memorizar."],["Sabio Brenn","Cada nefrona salvada aligera a las demás."],["El Consejo","Su cabina de radio está lista, doctor."]];
@@ -2005,9 +2047,9 @@ function torreRun(back){const T0=tLoad(),R=T0.run;if(!R)return torre(back);MODE=
  if(R.left!=null)every(()=>{if(alertOn)return;R.left--;const e=$("#tclk");if(e)e.textContent=fmtClock(R.left);if(R.left%15===0)sv();if(R.left<=0){clearAll();fin()}},1000);
  const fin=()=>{clearAll();duck(0);OVER=drawTorre;const ids=R.ids,ok=ids.filter(id=>R.ans[id]===TB[id].clave).length,pct=Math.round(100*ok/ids.length);T0.fails=T0.fails||{};ids.forEach(id=>{if(R.ans[id]===TB[id].clave)delete T0.fails[id];else T0.fails[id]=1});
   const by={},bo={};ids.forEach(id=>{const q=TB[id],b=by[q.tema_id]=by[q.tema_id]||[0,0,q.tema];b[1]++;if(R.ans[id]===q.clave)b[0]++;if(q.obj){const c=bo[q.obj]=bo[q.obj]||[0,0];c[1]++;if(R.ans[id]===q.clave)c[0]++}});
-  if(R.kind==="floor"){T0.floors=T0.floors||{};T0.floors[R.floor]=Math.max(T0.floors[R.floor]||0,pct)}if(R.kind==="exam"){T0.best=Math.max(T0.best||0,pct);T0.lastEx=Date.now()}T0.hist=(T0.hist||[]).concat([[Date.now(),pct,R.kind]]).slice(-30);T0.run=null;tSave(T0);sfx.lvl();
+  if(R.kind==="floor"){T0.floors=T0.floors||{};T0.floors[R.floor]=Math.max(T0.floors[R.floor]||0,pct)}if(R.kind==="exam"){T0.best=Math.max(T0.best||0,pct);T0.lastEx=Date.now()}const prevO=(T0.objH||[]).slice(-1)[0];if(R.kind==="exam"||R.kind==="parcial"){T0.sims=T0.sims||{};T0.sims[hoyF()]=pct;T0.objH=(T0.objH||[]).concat([{t:Date.now(),k:R.kind,by:bo}]).slice(-12)}T0.hist=(T0.hist||[]).concat([[Date.now(),pct,R.kind]]).slice(-30);T0.run=null;tSave(T0);sfx.lvl();
   const weak=Object.entries(by).sort((a,b)=>a[1][0]/a[1][1]-b[1][0]/b[1][1]);const rows=weak.map(([k,v])=>esc(v[2])+': '+v[0]+'/'+v[1]).join("<br>");
-  const comp=Object.entries(bo).filter(x=>x[1][1]>=2).sort((a,b)=>a[1][0]/a[1][1]-b[1][0]/b[1][1]).slice(0,12).map(([k,v])=>'<b>'+Math.round(100*v[0]/v[1])+' %</b> '+esc(clip(COMPET[k]||k,14))+' ('+v[0]+'/'+v[1]+')').join("<br>");
+  const comp=Object.entries(bo).filter(x=>x[1][1]>=2).sort((a,b)=>a[1][0]/a[1][1]-b[1][0]/b[1][1]).slice(0,12).map(([k,v])=>{const pv=prevO&&prevO.by&&prevO.by[k]&&(R.kind==="exam"||R.kind==="parcial")?prevO.by[k]:null;return'<b>'+Math.round(100*v[0]/v[1])+' %</b>'+(pv?' (antes '+Math.round(100*pv[0]/pv[1])+' %'+(v[0]/v[1]>pv[0]/pv[1]?' ↑':v[0]/v[1]<pv[0]/pv[1]?' ↓':'')+')':'')+' '+esc(clip(COMPET[k]||k,14))+' ('+v[0]+'/'+v[1]+')'}).join("<br>");
   const wrong=ids.filter(id=>R.ans[id]!==TB[id].clave&&R.ans[id]!=null),win=R.kind==="exam"&&pct>=70;
   pn.innerHTML='<div class="who">'+esc(R.label.toUpperCase())+' · RESULTADO</div><div class="box"><b>'+ok+' / '+ids.length+' ('+pct+' %)</b>'+(R.kind==="exam"?'<br>'+(win?'La Esclerosis cae. El director despierta y Hemo-Eterna se disuelve.':'La Esclerosis resiste. Repasa lo más débil y vuelve.'):'')+'</div>'+
    (win?'<div class="row"><button class="btn big" id="tep">▶ EPÍLOGO</button></div>':'')+

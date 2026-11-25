@@ -11,6 +11,9 @@ order = [lv[0] for r in regions for lv in r["levels"]]
 TEMARIO = {str(x["id"]): x.get("meta", 10) for x in json.loads((root / "data/temario.json").read_text(encoding="utf-8"))}
 # competencias oficiales (obj -> texto) para el desglose del examen de la Torre
 COMPET = {o["id"]: o["texto"] for t in json.loads((root / "data/competencias.json").read_text(encoding="utf-8")) for o in t.get("objetivos", [])}
+# fragmentos del diario del Dr. J. que se desbloquean por racha (opcional: si falta el archivo, queda vacío)
+_dj = root / "data/diario_j.json"
+DIARIO_J = json.loads(_dj.read_text(encoding="utf-8")) if _dj.exists() else {}
 # número de versión visible en la pantalla de inicio: cuenta de commits + fecha (sirve para saber qué copia tiene cada dispositivo)
 import subprocess, datetime
 try: BUILD = subprocess.run(["git", "rev-list", "--count", "HEAD"], cwd=root, capture_output=True, text=True).stdout.strip() or "0"
@@ -47,7 +50,7 @@ def level(lvl):
 dump = lambda o: json.dumps(o, ensure_ascii=False).replace("</", "<\\/")
 PWA_HEAD = '<link rel="manifest" href="manifest.webmanifest"><meta name="theme-color" content="#2b1420"><link rel="icon" href="icon-192.png"><link rel="apple-touch-icon" href="icon-192.png">'
 def write(levels, title, names, pwa=False):
-    out = t.replace("<!--PWA-->", PWA_HEAD if pwa else "").replace("__TITLE__", html.escape(title)).replace("__BUILD__", BUILD).replace("__LEVELS__", dump(levels)).replace("__REGIONS__", dump(regions)).replace("__TEMARIO__", dump(TEMARIO)).replace("__COMPET__", dump(COMPET))
+    out = t.replace("<!--PWA-->", PWA_HEAD if pwa else "").replace("__TITLE__", html.escape(title)).replace("__BUILD__", BUILD).replace("__LEVELS__", dump(levels)).replace("__REGIONS__", dump(regions)).replace("__TEMARIO__", dump(TEMARIO)).replace("__COMPET__", dump(COMPET)).replace("__DIARIO_J__", dump(DIARIO_J))
     (root / "dist").mkdir(exist_ok=True)
     if pwa: return pwa_site(out)
     for n in names: (root / "dist" / n).write_text(out, encoding="utf-8")
