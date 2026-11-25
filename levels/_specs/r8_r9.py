@@ -251,7 +251,7 @@ LEVELS = [
  "boss": {"name": "La Esclerosante", "form": "hialino", "short": "Esclerosante", "color": "#b56a3a", "dark": "#3a1a08", "arena": "CAVIDAD ENCAPSULADA",
   "intro": [("La Esclerosante", "Años de glucosa y peritonitis. Envuelvo el intestino en un capullo."), (J, "Prescripción, peritonitis y falla de ultrafiltración.")],
   "phases": [("Prescripción y transporte", ("La Esclerosante", "¿Qué tipo de membrana soy?")), ("Peritonitis", ("La Esclerosante", "Otra vez turbio.")), ("Falla de ultrafiltración", ("La Esclerosante", "Ya no saco agua.")), ("Complicaciones mecánicas", ("La Esclerosante", "Hernias, fugas, y yo."))],
-  "outro": [("La Esclerosante", "Me adelgazo… Cuida la glucosa del líquido y vuelve a mirar."), (B, "Peritonitis encapsulante: rara, tardía y grave. Sospéchala con oclusión intestinal.")]},
+  "outro": [("La Esclerosante", "Me adelgazo… Cuida la glucosa del líquido y vuelve a mirar."), (B, "Peritonitis encapsulante: rara, tardía y grave. Sospéchala con oclusión intestinal."), (H, "Un efluente turbio más y esa paciente viene a mi sala. Ya verá."), (J, "La conozco, director. Se llamaba Elisa. Esta no se la lleva.")]},
  "shields": [("ISPD 2022", "Dos de tres y antibiótico en el dializado.", "Guía de peritonitis: diagnóstico, tratamiento intraperitoneal e indicaciones de retiro.")],
  "vf": [("La peritonitis se diagnostica con dos de tres criterios.", "V", "Clínica, celularidad y cultivo.", "ISPD 2022 Peritonitis (Li PKT, Perit Dial Int 2022)"),
         ("Un efluente con más de 100 leucocitos/µL y más de 50 % de neutrófilos apoya peritonitis.", "V", "Tras al menos 2 horas de permanencia.", "ISPD 2022 Peritonitis (Li PKT, Perit Dial Int 2022)"),
