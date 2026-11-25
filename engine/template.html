@@ -182,6 +182,7 @@ const isRecall=q=>(q.origen||[]).some(o=>/26$/.test(o));
 const ivl=b=>Math.max(1,Math.min(BOXD[b],Math.floor((EXAM-Date.now())/DAY/3)));
 /* alerta baja (chequeo bajo, dos alertas en 10 min, latencia de microsueño o recién despierto): no se califica y la GUARDIA solo da vencidas */
 const lowA=()=>!!(G.lowUntil&&Date.now()<G.lowUntil);
+function sueno(){const h=hoyF();G.alh=(G.alh||[]).concat(Date.now()).slice(-60);if(!G.sue||G.sue.f!==h)G.sue={f:h,n:0};G.sue.n++;gsave();if(sleepy())setLow(20,"marcaste sueño");const D=diaHoy();if(D.n>=10&&G.sue.n/D.n>.15)toast("😴 Más del 15 % con sueño hoy: esto no es estudio, toma una siesta")}
 function setLow(min,why){const u=Date.now()+min*6e4;if(!G.lowUntil||G.lowUntil<u){G.lowUntil=u;gsave();toast("🟠 Alerta baja "+min+" min: "+why);if(typeof hud==="function")hud()}}
 /* calibración por tema: % de acierto cuando dijo SEGURO (s) o DUDÉ (d); Brier con p = .9 (seguro) y .5 (dudé) */
 function calib(q,ok,c){const C=G.cal=G.cal||{},k=q.tema_id||q.tema||"?",t=C[k]=C[k]||{s:[0,0],d:[0,0],b:[0,0]};const a=c?t.s:t.d;a[1]++;if(ok)a[0]++;t.b[0]=+(t.b[0]+((c?.9:.5)-(ok?1:0))**2).toFixed(3);t.b[1]++}
@@ -1652,9 +1653,9 @@ function renderQ(q,label,timer,onDone,o2={}){duck(1);document.body.classList.tog
  pn.innerHTML=h;pn.scrollTop=0;say(q.enunciado);let over=false,left=timer||0;let sel=-1;let t0=performance.now();
  const nW=words(ctx.slice(-1).join(" ")+" "+q.enunciado+" "+Object.values(opts).join(" ")).length;
  if(gen){const g=$("#gen");KEYA=()=>g.click();g.onclick=()=>{g.remove();$("#ops").hidden=false;t0=performance.now();KEYA=()=>{if(sel>=0)btns[sel].click()}}}
- if(timer)every(()=>{if(alertOn||document.querySelector(".modal"))return;left--;const b=$("#tm");if(b)b.style.width=(100*left/timer)+"%";if(left<=0)answer(null)},1000);
+ if(timer)every(()=>{if(alertOn||document.querySelector(".modal"))return;left--;const b=$("#tm");if(b)b.style.width=(100*left/timer)+"%";if(left<=0){pre>=0?answer(btns[pre].dataset.l,0):answer(null)}},1000);
  const btns=[...pn.querySelectorAll(".opt")];if(!gen)KEYA=()=>{if(sel>=0)btns[sel].click()};KEYNAV=d=>{if(over)return;sel=(sel+(d==="down"||d==="right"?1:-1)+btns.length)%btns.length;btns.forEach((b,i)=>b.classList.toggle("sel",i===sel));btns[sel].scrollIntoView&&btns[sel].scrollIntoView({block:"nearest"})};
- const answer=l=>{if(over)return;over=true;clearAll();KEYNAV=null;const ok=l===q.clave;
+ let pre=-1;const answer=(l,cf)=>{if(over)return;over=true;clearAll();KEYNAV=null;const ok=l===q.clave;const dz=$("#dz");dz&&dz.remove();
   /* microsueño: tardó >20 s y >2.5× su mediana por palabra de esta sesión → no se califica y cuenta como señal de sueño */
   const ms=performance.now()-t0,rate=ms/Math.max(8,nW);let slow=false;
   if(l!==null&&!o2.soft){if(LAT.length>=5&&ms>20000&&rate>2.5*med(LAT)){slow=true;G.alh=(G.alh||[]).concat(Date.now()).slice(-60);gsave();if(sleepy())setLow(20,"tardas mucho en responder")}else LAT=LAT.concat(rate).slice(-30)}
@@ -1668,12 +1669,14 @@ function renderQ(q,label,timer,onDone,o2={}){duck(1);document.body.classList.tog
   let e='<div class="box" id="fb"><b>'+(l===null?"¡Tiempo! (no cuenta como error)":ok?"¡Correcto!":"Incorrecto. La correcta es "+(vf?opts[q.clave]:q.clave)+".")+'</b> '+esc(clip(main,nMain))+'</div>'+(slow?'<div class="box small bad2">⏱ Tardaste mucho (¿microsueño?): esta no cuenta. Si pasa otra vez, DESPERTADOR.</div>':'')+(mine?'<div class="box small bad2"><b>Tu opción ('+l+'):</b> '+esc(clip(ex[l],15))+'</div>':perla?'<div class="box pearl small">💎 <b>Perla:</b> '+esc(clip(perla,22))+'</div>':'');
   const more=[];if(words(main).length>nMain)more.push(esc(main));if(mine&&words(ex[l]).length>15)more.push('<b>Tu opción ('+l+'):</b> '+esc(ex[l]));if(perla&&(mine||words(perla).length>22))more.push('<b>Perla'+(mine?'':' completa')+':</b> '+esc(perla));if(!vf)L.filter(k=>k!==q.clave&&k!==l&&ex[k]).forEach(k=>more.push(k+') '+esc(ex[k])));if(q.referencias)more.push('<span class="small">Ref.: '+esc(q.referencias.join(" · "))+'</span>');
   if(more.length)e+='<details class="box small"><summary>▸ Ver más ('+(perla?"perla y ":"")+'explicación completa)</summary>'+more.join("<br>")+'</details>';
-  e+='<div class="row">'+(plain?'<button class="btn" id="cont">A · CONTINUAR ▶</button>':'<button class="btn" id="cont">✔ SEGURO</button><button class="btn alt" id="dud">? DUDÉ</button>'+(ok?'':'<button class="btn alt" id="sue">😴 SUEÑO</button>')+'<span class="small">¿lo sabías?</span>')+'</div>';
+  e+='<div class="row"><button class="btn" id="cont">A · CONTINUAR ▶</button>'+(plain?'':'<button class="btn alt" id="sue">😴 TENÍA SUEÑO</button><span class="small">'+(cf===1?'✔ dijiste SEGURO':'? dijiste DUDO')+'</span>')+'</div>';
   pn.insertAdjacentHTML("beforeend",e);
   const fin=c=>{KEYA=null;duck(0);grade(q,ok,{soft:plain||!!o2.soft,glob:!!o2.glob,conf:c});if(!ok&&c===1&&!plain&&!o2.soft)toast("⚠ ERROR CONFIADO: vuelve en unos minutos y mañana");onDone(ok,c)};
-  const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>fin(plain?undefined:1);if($("#dud"))$("#dud").onclick=()=>fin(0);if($("#sue"))$("#sue").onclick=()=>fin(2);
+  const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>fin(plain?undefined:cf);if($("#sue"))$("#sue").onclick=()=>{sueno();fin(2)};
   const fb=$("#fb");fb&&fb.scrollIntoView&&fb.scrollIntoView({block:"start"})};
- btns.forEach(b=>b.onclick=()=>answer(b.dataset.l))}
+ /* l === null (tiempo) responde directo; si no: 1er toque marca la opción, 2º toque en la misma = SEGURO, «? DUDO» = con duda */
+ const mark=i=>{pre=i;sel=i;btns.forEach((b,j)=>b.classList.toggle("sel",j===i));let dz=$("#dz");if(!dz){pn.querySelector("#ops").insertAdjacentHTML("beforeend",'<div class="row" id="dz"><span class="small">Toca otra vez la misma = ✔ SEGURO</span><button class="btn alt" id="dudo">? DUDO</button></div>');dz=$("#dz");$("#dudo").onclick=()=>answer(btns[pre].dataset.l,0)}};
+ btns.forEach((b,i)=>b.onclick=()=>{if(pre===i)return answer(b.dataset.l,1);mark(i)})}
 let KEYNAV=null;
 function quick(q,label,cb){MODE=MODE==="world"?"dialog":MODE;renderQ(q,label,0,cb)}
 /* ================= XP ================= */
@@ -1800,7 +1803,7 @@ function goHome(){held=null;KEYNAV=null;KEYA=null;BAT=null;RIV=null;document.que
 function askHome(msg){const d=document.createElement("div");d.className="modal";d.innerHTML='<div class="box"><div class="who">¿SALIR AL INICIO?</div>'+msg+'<div class="row"><button class="btn" id="hY">🏠 IR AL INICIO</button><button class="btn alt" id="hN">SEGUIR AQUÍ</button></div></div>';document.body.appendChild(d);
  const prevA=KEYA;d.querySelector("#hY").onclick=()=>{d.remove();goHome()};d.querySelector("#hN").onclick=()=>{d.remove();KEYA=prevA};KEYA=()=>d.querySelector("#hN").click()}
 $("#bMenu").onclick=menu;$("#bSue").onclick=()=>{unlockAudio();if(MODE==="title")return wake(title);wake()};$("#bB").onclick=()=>{if(MODE==="world"||MODE==="dialog")menu()};
-function pvt(after){let n=0,rts=[],t0=0,ready=false;const N=10;MODE="dialog";clearAll();
+function pvt(after){let n=0,rts=[],t0=0,ready=false;const N=20;MODE="dialog";clearAll();
  const draw=(msg,go)=>{pn.innerHTML='<div class="who">CHEQUEO DE ALERTA '+(n+1)+'/'+N+'</div><div class="box" id="pv" style="height:130px;display:flex;align-items:center;justify-content:center;background:'+(go?"#f2c94c":"#c5d98a")+'">'+msg+'</div><div class="small">Toca el recuadro en cuanto se ponga amarillo.</div>';$("#pv").onpointerdown=tap};
  const arm=()=>{ready=false;draw("ESPERA…",false);later(()=>{ready=true;t0=performance.now();draw("¡TOCA!",true)},1500+Math.random()*2500)};
  const tap=()=>{if(!ready){clearAll();draw("DEMASIADO PRONTO",false);later(arm,900);return}rts.push(performance.now()-t0);n++;if(n<N)arm();else{const m=Math.round(rts.reduce((a,b)=>a+b,0)/N),lp=rts.filter(r=>r>355).length,hist=(G.pvt||[]).slice(-20).map(p=>p.m),base=hist.length>=5?med(hist):0,low=base?(m>1.15*base||lp>=2):(m>380||lp>=3);if(low)setLow(20,"chequeo de alerta bajo");G.pvt=(G.pvt||[]).concat({t:Date.now(),m,lp}).slice(-40);gsave();
@@ -1868,7 +1871,7 @@ function guardiaList(n=20,temas){const out=[],have=new Set();const add=q=>{if(q&
  return out}
 const MENTOR=[["Dr. J.","Cada paciente estable es una nefrona que no perdimos."],["Sabio Brenn","Lo que dudaste vuelve pronto. Así se fija."],["Enfermera del Ganglio","Buena guardia. Agua, de pie un minuto y seguimos."],["Valeria","Entendiste el porqué. Yo antes solo memorizaba."],["Dr. J.","Mañana vuelven los que fallaste. Esa es la idea."]];
 /* predicción antes de empezar (metacognición): ¿cuántas aciertas? y al final, predicho vs real */
-function predecir(N,cb){const d=document.createElement("div");d.className="modal";d.innerHTML='<div class="box"><div class="who">🔮 ANTES DE EMPEZAR</div>¿Cuántas de '+N+' crees que aciertas?<div class="row">'+[.5,.6,.7,.8,.9].map(f=>Math.round(f*N)).map(v=>'<button class="btn alt" data-pr="'+v+'">'+v+'</button>').join("")+'</div></div>';document.body.appendChild(d);
+function predecir(N,cb){const d=document.createElement("div");d.className="modal";d.innerHTML='<div class="box"><div class="who">🔮 ANTES DE EMPEZAR</div>¿Cuántas de '+N+' crees que aciertas?<div class="row">'+[.3,.4,.5,.6,.7,.8,.9].map(f=>Math.round(f*N)).map(v=>'<button class="btn alt" data-pr="'+v+'">'+v+'</button>').join("")+'</div></div>';document.body.appendChild(d);
  d.querySelectorAll("[data-pr]").forEach(b=>b.onclick=()=>{d.remove();KEYA=null;cb(+b.dataset.pr)})}
 function guardia(back,temas,label){held=null;MODE="dialog";clearAll();music("puzzle",{bpm:120});$("#ttl").textContent=label?label:"⚔ GUARDIA DE HOY";OVER=drawTitle;const qs=guardiaList(20,temas);
  if(!qs.length)return modal(lowA()?"🟠 Alerta baja: hoy toca solo repaso y no hay vencidas. Prueba el 😴 DESPERTADOR o una 💤 SIESTA.":"No encontré preguntas para esta guardia.",back);const N=qs.length,t0=Date.now();
@@ -1885,7 +1888,7 @@ function dominio(back,all){duck(0);held=null;MODE="dialog";clearAll();$("#ttl").
  const al=(G.alh||[]).filter(t=>Date.now()-t<7*DAY);const hrs=Array(24).fill(0);al.forEach(t=>hrs[new Date(t).getHours()]++);const top=hrs.map((n,h)=>[n,h]).filter(x=>x[0]).sort((a,b)=>b[0]-a[0]).slice(0,3);
  const pv=(G.pvt||[]).slice(-5);const cal=Object.values(G.cal||{});const agg=k=>cal.reduce((a,c)=>[a[0]+((c[k]||[0,0])[0]),a[1]+((c[k]||[0,0])[1])],[0,0]);const s=agg("s"),dd=agg("d"),br=agg("b");const pc=a=>Math.round(100*a[0]/Math.max(1,a[1]));
  pn.innerHTML='<div class="who">📊 DOMINIO · faltan '+daysLeft()+' días</div><div class="row"><button class="btn big" id="d1">🎯 ESTUDIAR LO MÁS DÉBIL ('+esc(T.slice(0,3).map(t=>shortT(t.name)).join(", "))+')</button></div>'+
-  '<div class="box small">'+fcastTxt()+'<br><b>Calibración:</b> '+(s[1]?'con ✔ SEGURO aciertas '+pc(s)+' %':'aún sin datos')+(dd[1]?' · con ? DUDÉ '+pc(dd)+' %':'')+(br[1]?' · Brier '+(br[0]/br[1]).toFixed(2)+' (0 = perfecto)':'')+(s[1]>=10&&pc(s)<80?'<br><b>Te confías de más:</b> lo que juras saber falla. Ve los ⚠.':'')+'</div>'+
+  '<div class="box small">'+fcastTxt()+((G.sue&&G.sue.f===hoyF()&&diaHoy().n)?'<br>😴 Hoy marcaste sueño en '+Math.round(100*G.sue.n/diaHoy().n)+' %'+(G.sue.n/diaHoy().n>.15?' — <b>más del 15 %: haz siesta</b>':''):'')+'<br><b>Calibración:</b> '+(s[1]?'con ✔ SEGURO aciertas '+pc(s)+' %':'aún sin datos')+(dd[1]?' · con ? DUDÉ '+pc(dd)+' %':'')+(br[1]?' · Brier '+(br[0]/br[1]).toFixed(2)+' (0 = perfecto)':'')+(s[1]>=10&&pc(s)<80?'<br><b>Te confías de más:</b> lo que juras saber falla. Ve los ⚠.':'')+'</div>'+
   '<div class="small">Arriba = más peso × lo que falta. Color = aciertos (⚪ menos de 5); barra = cuánto del tema has visto. Meta: 🟢 ≥70 %. ⚠ = con SEGURO aciertas &lt;80 %.</div><table class="dom">'+
   (all?T:T.slice(0,8)).map(t=>{const cs=t.cs[1]>=5?t.cs[0]/t.cs[1]:null;return'<tr><td>'+t.col+'</td><td>'+esc(t.name.length>44?t.name.slice(0,42)+"…":t.name)+'<div class="bar" style="height:5px;margin-top:2px"><i style="width:'+PCT(t.cov)+'%"></i></div></td><td>'+t.seen+'/'+t.tot+'</td><td>'+(t.seen>=5?PCT(t.acc)+'%':'—')+'</td><td>'+(cs===null?'':cs<.8?'⚠'+PCT(cs):'✔'+PCT(cs))+'</td></tr>'}).join("")+'</table>'+
   (all?'':'<div class="row"><button class="btn alt" id="dall">VER LOS '+T.length+' TEMAS</button></div>')+
@@ -2024,7 +2027,7 @@ function torreRun(back){const T0=tLoad(),R=T0.run;if(!R)return torre(back);MODE=
   btns.forEach(b=>b.onclick=()=>{const l=b.dataset.l;R.ans[q.id]=l;R.i++;KEYNAV=null;sv();const ok=l===q.clave;if(!R.fb){grade(q,ok,{glob:1});return show()}ok?sfx.ok():sfx.bad();$("#tq").remove();
    btns.forEach(x=>{x.disabled=true;if(x.dataset.l===q.clave)x.classList.add("ok");else if(x.dataset.l===l)x.classList.add("bad")});const ex=Object.fromEntries(Object.entries(q.explicaciones||{}).map(([k,v])=>[k,cleanEx(v)]));const main=ex[q.clave]||"";const perla=q.perla&&!dupOf(q.perla,main)?q.perla:"";
    pn.insertAdjacentHTML("beforeend",'<div class="box"><b>'+(ok?"¡Correcto!":"Incorrecto. Es la "+q.clave+".")+'</b> '+esc(clip(main,ok?40:22))+'</div>'+(!ok&&ex[l]?'<div class="box small bad2"><b>Tu opción ('+l+'):</b> '+esc(clip(ex[l],15))+'</div>':'')+(perla||words(main).length>(ok?40:22)?'<details class="box small"><summary>▸ Ver más</summary>'+(words(main).length>(ok?40:22)?esc(main)+'<br>':'')+(perla?'<b>Perla:</b> '+esc(perla):'')+(ok||!ex[l]?'':'<br><b>Tu opción:</b> '+esc(ex[l]))+'</details>':'')+'<div class="row"><button class="btn" id="cont">✔ SEGURO</button><button class="btn alt" id="dud">? DUDÉ</button>'+(ok?'':'<button class="btn alt" id="sue">😴 SUEÑO</button>')+'<span class="small">¿lo sabías?</span></div>');
-   const f=c=>{grade(q,ok,{glob:1,conf:c});if(!ok&&c===1)toast("⚠ ERROR CONFIADO: vuelve mañana");show()};const c=$("#cont");KEYA=()=>c.click();c.onclick=()=>f(1);$("#dud").onclick=()=>f(0);if($("#sue"))$("#sue").onclick=()=>f(2);c.scrollIntoView&&c.scrollIntoView({block:"nearest"})})};
+   const f=c=>{grade(q,ok,{glob:1,conf:c});if(!ok&&c===1)toast("⚠ ERROR CONFIADO: vuelve mañana");show()};const c=$("#cont");KEYA=()=>$("#dud").click();c.onclick=()=>f(1);$("#dud").onclick=()=>f(0);if($("#sue"))$("#sue").onclick=()=>f(2);c.scrollIntoView&&c.scrollIntoView({block:"nearest"})})};
  show()}
 function fmtClock(s){s=Math.max(0,s|0);const h=(s/3600)|0,m=((s%3600)/60)|0,x=s%60;return (h?h+":":"")+String(m).padStart(h?2:1,"0")+":"+String(x).padStart(2,"0")}
 /* ================= Partida: exportar, importar, sincronizar entre dispositivos y descargar ================= */

@@ -8,8 +8,9 @@ const path=require('path');const {chromium}=require('playwright');
  if(!/Logros/.test(await p.textContent('#pn')))fail('sin logros en el título');
  const live=async()=>!!(await p.$('.q'))&&(!!(await p.$('.opt[data-l]:not([disabled])'))||!!(await p.$('#gen')))&&!(await p.$('.modal'));
  const clr=async()=>{for(let i=0;i<4&&await p.$('.modal button');i++)await p.click('.modal button')};
- const answer=async(right,conf='#cont')=>{if(await p.$('#gen'))await p.click('#gen');const l=await p.evaluate(r=>{const id=document.querySelector('.q').dataset.id;const q=window.__G.TB[id]||window.__G.ALL[id];return r?q.clave:Object.keys(q.opciones).find(k=>k!==q.clave)},right);await p.click('.opt[data-l="'+l+'"]');
-  if(!(await p.$('#dud')))fail('sin botones SEGURO/DUDÉ');await p.click(conf)};
+ const answer=async(right,conf='#cont')=>{if(await p.$('#gen'))await p.click('#gen');const l=await p.evaluate(r=>{const id=document.querySelector('.q').dataset.id;const q=window.__G.TB[id]||window.__G.ALL[id];return r?q.clave:Object.keys(q.opciones).find(k=>k!==q.clave)},right);const o='.opt[data-l="'+l+'"]';await p.click(o);
+  if(!(await p.$('#dudo')))fail('sin botón DUDO antes de la respuesta');if(conf==='#dud')await p.click('#dudo');else await p.click(o);
+  if(!(await p.$('#cont')))fail('sin CONTINUAR');await p.click('#cont')};
  // GUARDIA: predicción → 20 camas; los fallos (con SEGURO = error confiado) vuelven 3–5 preguntas después
  await p.click('#tg');if(!(await p.$('[data-pr]')))fail('sin predicción antes de la guardia');else await p.click('[data-pr="14"]');
  const seen=new Set();let n=0,re=0;while(await live()&&n<60){const id=await p.$eval('.q',e=>e.dataset.id);const again=seen.has(id);if(again)re++;seen.add(id);await answer(again||n%3!==0);n++}
