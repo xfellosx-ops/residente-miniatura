@@ -959,7 +959,7 @@ function allySpr(id,cr,evo,fr){const F=allyForm(id,cr),form=F[0],c=cr.color||F[1
   if(evo){P(-6,-46,2,3,"#f2c94c");P(-1,-47,2,4,"#f2c94c");P(4,-46,2,3,"#f2c94c")}
   autoShade(48,48);rimDark(48,48);
   /* punto de luz en la parte alta izquierda de la silueta */
-  {let xl=-1,t0=0;const d=cx.getImageData(0,0,48,48).data;for(t0=0;t0<48;t0++){let f1=0;for(let x=0;x<48;x++)if(d[(t0*48+x)*4+3]>40){f1=1;break}if(f1)break}const yy=Math.min(47,t0+4);for(let x=0;x<48;x++)if(d[(yy*48+x)*4+3]>40){xl=x;break}if(xl>=0){px(xl+3,yy,2,2,"#ffffff");px(xl+5,yy-1,1,1,"#ffffff")}}})}
+  try{let xl=-1,t0=0;const d=cx.getImageData(0,0,48,48).data;for(t0=0;t0<48;t0++){let f1=0;for(let x=0;x<48;x++)if(d[(t0*48+x)*4+3]>40){f1=1;break}if(f1)break}const yy=Math.min(47,t0+4);for(let x=0;x<48;x++)if(d[(yy*48+x)*4+3]>40){xl=x;break}if(xl>=0){px(xl+3,yy,2,2,"#ffffff");px(xl+5,yy-1,1,1,"#ffffff")}}catch(e){}})}
 /* contorno interior: el borde de la silueta se oscurece (salvo el labio superior), para que se lea sobre cualquier fondo */
 function rimDark(w,h){try{const im=cx.getImageData(0,0,w,h),d=im.data,A=(x,y)=>x>=0&&y>=0&&x<w&&y<h&&d[(y*w+x)*4+3]>40,o=new Uint8ClampedArray(d);
  for(let y=0;y<h;y++)for(let x=0;x<w;x++){if(!A(x,y))continue;if(A(x-1,y)&&A(x+1,y)&&A(x,y+1)&&(A(x,y-1)))continue;if(!A(x,y-1)&&A(x,y+1)&&A(x-1,y)&&A(x+1,y))continue;const i=(y*w+x)*4;for(let c=0;c<3;c++)o[i+c]=d[i+c]*.58}
